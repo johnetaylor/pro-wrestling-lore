@@ -42,7 +42,7 @@ ${ratingBlock(seg, site)}
 </li>`;
 }
 
-function coverageNote(show: Show, numbered: boolean, order: Segment[]): string {
+export function coverageNote(show: Show, numbered: boolean, order: Segment[]): string {
   const notes: string[] = [];
   const c = show.coverage;
   if (c.card === 'career-only') notes.push('Only matches from wrestlers with full career records are listed for this show so far.');

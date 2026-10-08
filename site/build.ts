@@ -23,6 +23,7 @@ import { titlePage, titlesIndex, titlePromotion } from './pages/titles.ts';
 import { wrestlersIndex } from './pages/wrestlers.ts';
 import { familiesIndex, familyPage, notFoundPage, searchPage, storylinePage, storylinesIndex } from './pages/misc.ts';
 import { appShell } from './components/appShell.ts';
+import { calendarPage } from './pages/calendar.ts';
 import { writeAppData } from './appData.ts';
 import { bundle } from './bundle.ts';
 
@@ -194,26 +195,23 @@ function write(rendered: { meta: PageMeta; body: Raw }, section = 'other') {
 // Explorer pages: the app, with the static page inside it for readers and crawlers without scripts.
 const home = homePage(site, buildDate, siteUrl);
 const homeTitle = `Pro Wrestling Lore: ${home.meta.title}`;
-write({ meta: { ...home.meta, app: true }, body: appShell({ view: 'careers', data: dataDir, homeTitle, fallback: home.body }) }, 'other');
+const explorer = (r: { meta: PageMeta; body: Raw }) => ({ meta: { ...r.meta, app: true }, body: appShell({ path: r.meta.path, data: dataDir, homeTitle, fallback: r.body }) });
+write(explorer(home), 'other');
 write(wrestlersIndex(site), 'wrestlers');
 for (const p of site.people.values()) {
-  const r = personPage(p, site, buildDate);
-  write({ meta: { ...r.meta, app: true }, body: appShell({ view: 'careers', data: dataDir, person: p.id, homeTitle, fallback: r.body }) }, 'wrestlers');
+  write(explorer(personPage(p, site, buildDate)), 'wrestlers');
 }
-write(showsIndex(site), 'shows');
-for (const p of LANE_ORDER) if (site.promotions.has(p) && [...site.series.values()].some((s) => s.promotion === p && site.showsBySeries.get(s.id)?.length)) write(promotionPage(p, site), 'shows');
-for (const s of site.series.values()) if (site.showsBySeries.get(s.id)?.length) for (const r of seriesPages(s, site)) write(r, 'shows');
-for (const s of site.shows.values()) write(showPage(s, site), 'shows');
-write(titlesIndex(site, buildDate), 'titles');
-for (const t of site.titles.values()) write(titlePage(t, site, buildDate), 'titles');
-const stories = storylinesIndex(site);
-write({ meta: { ...stories.meta, app: true }, body: appShell({ view: 'storylines', data: dataDir, homeTitle, fallback: stories.body }) }, 'other');
-for (const s of site.storylines.values()) {
-  const r = storylinePage(s, site);
-  write({ meta: { ...r.meta, app: true }, body: appShell({ view: 'storylines', data: dataDir, story: s.id, promotion: s.promotion, homeTitle, fallback: r.body }) }, 'other');
-}
-write(familiesIndex(site), 'other');
-for (const f of site.families.values()) write(familyPage(f, site), 'other');
+write(explorer(showsIndex(site)), 'shows');
+for (const p of LANE_ORDER) if (site.promotions.has(p) && [...site.series.values()].some((s) => s.promotion === p && site.showsBySeries.get(s.id)?.length)) write(explorer(promotionPage(p, site)), 'shows');
+for (const s of site.series.values()) if (site.showsBySeries.get(s.id)?.length) for (const r of seriesPages(s, site)) write(explorer(r), 'shows');
+for (const s of site.shows.values()) write(explorer(showPage(s, site)), 'shows');
+write(explorer(titlesIndex(site, buildDate)), 'titles');
+for (const t of site.titles.values()) write(explorer(titlePage(t, site, buildDate)), 'titles');
+write(explorer(storylinesIndex(site)), 'other');
+for (const s of site.storylines.values()) write(explorer(storylinePage(s, site)), 'other');
+write(explorer(calendarPage(site)), 'other');
+write(explorer(familiesIndex(site)), 'other');
+for (const f of site.families.values()) write(explorer(familyPage(f, site)), 'other');
 write(searchPage());
 write(notFoundPage());
 

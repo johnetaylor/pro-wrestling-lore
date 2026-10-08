@@ -5,12 +5,12 @@ import { loadDetails } from './data.ts';
 import { dayNum, isoDay, type DetailRow, type Model, type StorylineBundle } from './model.ts';
 import { createNavigator } from './navigator.ts';
 import { chapterChoice, chapterPanel, chapterPreview, recapPanel, type Chapter, type Story, type StoryPromotion } from './panels.ts';
+import { STAR } from './ui.ts';
 
 const ROW = 112; // lane height
 const RAIL = 62; // rail position inside a lane
 const GROUP_PX = 40; // chapters closer than this share a mark, as in v69
 const MONTH_PX = 100; // width of a month at the month-by-month scale
-const STAR = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.2 1.3-6.6L2.5 9.3l6.6-.8z"/></svg>';
 
 const FOOTNOTES: Record<string, string> = {
   wwe: 'Selected major feuds and story arcs from WWE history, the WWWF and WWF years included. WCW and the original ECW keep their own collections; the 2001 Invasion belongs to WWE programming.',

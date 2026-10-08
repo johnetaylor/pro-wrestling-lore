@@ -886,5 +886,630 @@
       "summary": "The current WWE Tag Team title starts in 2016. Its 2022–2024 partnership with RAW’s title did not erase either record.",
       "title": "wwe-tag-team-championship"
     }
+  },
+  "promotions": {
+    "wwe": {
+      "label": "WWWF / WWF / WWE",
+      "tone": "wwe",
+      "text": "Established by the World Wide Wrestling Federation (WWWF) in 1963. The promotion became WWF, then WWE; those name changes did not create new championships."
+    },
+    "wcw": {
+      "label": "WCW",
+      "tone": "wcw",
+      "text": "World Championship Wrestling. Its world title entered the WWF through the 2001 WCW asset acquisition and the December 2001 unification."
+    },
+    "intl": {
+      "label": "WCW",
+      "tone": "wcw",
+      "text": "WCW’s International title, recognized after its 1993 departure from the NWA. The NWA World title remained separate."
+    },
+    "oldworld": {
+      "label": "WWE",
+      "tone": "wwe",
+      "text": "Created by WWE in 2002. The Big Gold design echoed WCW, but this was a new WWE championship record."
+    },
+    "world23": {
+      "label": "WWE",
+      "tone": "wwe",
+      "text": "Created by WWE in 2023 as an independent championship."
+    },
+    "universal": {
+      "label": "WWE",
+      "tone": "wwe",
+      "text": "Created by WWE in 2016."
+    },
+    "ic": {
+      "label": "WWF to WWE",
+      "tone": "wwe",
+      "text": "Created by WWF in 1979. It continued under the WWE company name from 2002."
+    },
+    "european": {
+      "label": "WWF to WWE",
+      "tone": "wwe",
+      "text": "Created by WWF in 1997 during its European tour. There was no separate European promotion supplying this championship."
+    },
+    "hardcore": {
+      "label": "WWF to WWE",
+      "tone": "wwe",
+      "text": "Created by WWF in 1998 and first awarded to Mankind. This was not an ECW championship."
+    },
+    "us": {
+      "label": "JCP / NWA to WCW to WWE",
+      "tone": "jcp",
+      "text": "Created in Jim Crockett Promotions’ Mid-Atlantic territory under NWA sanction. It continued through WCW and then WWF/WWE. NWA is an alliance and sanctioning body, not a synonym for a promotion owned by WWE."
+    },
+    "national": {
+      "label": "Georgia / NWA to JCP",
+      "tone": "georgia",
+      "text": "Created in Georgia Championship Wrestling, an NWA territory. It moved into Jim Crockett Promotions and was unified with the U.S. title in 1986."
+    },
+    "georgia": {
+      "label": "Georgia Championship Wrestling",
+      "tone": "georgia",
+      "text": "An NWA-sanctioned Georgia territorial championship. It joined the National title in 1981, before the National title joined the U.S. title."
+    },
+    "tag71": {
+      "label": "WWWF to WWF to WWE",
+      "tone": "wwe",
+      "text": "Created by WWWF in 1971; continued under WWF and WWE until retirement in 2010."
+    },
+    "wcwtag": {
+      "label": "JCP / NWA to WCW",
+      "tone": "wcw",
+      "text": "The Mid-Atlantic/Jim Crockett Promotions version of the NWA World Tag Team title became WCW’s tag title, then was unified with WWF’s in 2001."
+    },
+    "tag02": {
+      "label": "WWE",
+      "tone": "wwe",
+      "text": "Created by WWE in 2002. Later called Raw Tag Team and, since 2024, World Tag Team."
+    },
+    "tag16": {
+      "label": "WWE",
+      "tone": "wwe",
+      "text": "Created by WWE for SmackDown in 2016. Renamed WWE Tag Team in 2024."
+    }
+  },
+  "trees": {
+    "undisputed-wwe": {
+      "root": {
+        "id": "wwe-now",
+        "track": "wwe",
+        "name": "Undisputed WWE Championship",
+        "event": "universal-end",
+        "parents": [
+          {
+            "id": "wwe22",
+            "track": "wwe",
+            "name": "Undisputed WWE Universal Championship",
+            "event": "universal-pair",
+            "parents": [
+              {
+                "id": "wwe13",
+                "track": "wwe",
+                "name": "WWE World Heavyweight Championship",
+                "event": "oldworld-wwe",
+                "parents": [
+                  {
+                    "id": "wwe01",
+                    "track": "wwe",
+                    "name": "Undisputed WWF Championship",
+                    "event": "wcw-wwe",
+                    "parents": [
+                      {
+                        "id": "wwe",
+                        "track": "wwe",
+                        "name": "WWWF / WWF Championship",
+                        "type": "origin"
+                      },
+                      {
+                        "id": "wcw94",
+                        "track": "wcw",
+                        "name": "WCW World Championship",
+                        "event": "intl-wcw",
+                        "parents": [
+                          {
+                            "id": "wcw",
+                            "track": "wcw",
+                            "name": "WCW World Championship",
+                            "type": "origin"
+                          },
+                          {
+                            "id": "intl",
+                            "track": "intl",
+                            "name": "WCW International Championship",
+                            "type": "origin"
+                          }
+                        ]
+                      }
+                    ],
+                    "note": "Chris Jericho unified the WWF and WCW world titles."
+                  },
+                  {
+                    "id": "world02",
+                    "track": "oldworld",
+                    "name": "World Heavyweight Championship",
+                    "event": "ic-world",
+                    "parents": [
+                      {
+                        "id": "oldworld",
+                        "track": "oldworld",
+                        "name": "World Heavyweight Championship",
+                        "type": "origin"
+                      },
+                      {
+                        "id": "ic-combined",
+                        "track": "ic",
+                        "name": "Intercontinental Championship",
+                        "type": "merge",
+                        "events": [
+                          "us-ic",
+                          "euro-ic",
+                          "hard-ic"
+                        ],
+                        "caption": "Three unifications, 2001 to 2002",
+                        "note": "The U.S., European and Hardcore championships were unified into the Intercontinental title in three separate matches. The U.S. title returned in 2003.",
+                        "parents": [
+                          {
+                            "id": "ic",
+                            "track": "ic",
+                            "name": "Intercontinental Championship",
+                            "type": "origin"
+                          },
+                          {
+                            "id": "us86",
+                            "track": "us",
+                            "name": "United States Championship",
+                            "event": "national-us",
+                            "parents": [
+                              {
+                                "id": "us",
+                                "track": "us",
+                                "name": "NWA United States Championship",
+                                "type": "origin"
+                              },
+                              {
+                                "id": "national81",
+                                "track": "national",
+                                "name": "NWA National Heavyweight Championship",
+                                "event": "georgia-national",
+                                "parents": [
+                                  {
+                                    "id": "national",
+                                    "track": "national",
+                                    "type": "origin"
+                                  },
+                                  {
+                                    "id": "georgia",
+                                    "track": "georgia",
+                                    "type": "origin"
+                                  }
+                                ],
+                                "note": "The Georgia unification is certain; its exact 1981 date is disputed."
+                              }
+                            ],
+                            "edge": "Unified, Nov 18, 2001"
+                          },
+                          {
+                            "id": "european",
+                            "track": "european",
+                            "name": "European Championship",
+                            "type": "origin",
+                            "edge": "Unified, Jul 22, 2002"
+                          },
+                          {
+                            "id": "hardcore",
+                            "track": "hardcore",
+                            "name": "Hardcore Championship",
+                            "type": "origin",
+                            "edge": "Unified, Aug 26, 2002"
+                          }
+                        ]
+                      }
+                    ],
+                    "note": "The Intercontinental title became inactive after this match; its original championship record resumed in May 2003."
+                  }
+                ]
+              },
+              {
+                "id": "universal",
+                "track": "universal",
+                "name": "Universal Championship",
+                "type": "origin"
+              }
+            ],
+            "note": "Roman Reigns held both titles. Their official records remained separate."
+          }
+        ],
+        "note": "WWE’s championship record continues from 1963. WWE’s published Universal history ends on April 7, 2024.",
+        "caption": "Universal ends, Apr 7, 2024"
+      },
+      "intro": "Follow the belts down through each unification to today’s WWE Championship.",
+      "notes": [
+        "The Intercontinental and United States titles returned in 2003. Their temporary unifications are shown here, but both remain independent championships today.",
+        "The 2002 World Heavyweight title was a new championship that reused the Big Gold design. It did not continue WCW’s record."
+      ],
+      "background": [
+        "Connections show championship records, not every belt redesign. A promotion acquisition, a renamed title or a similar-looking belt does not by itself create a unification.",
+        "The NWA World Championship is historical background to WWE and WCW but was not absorbed into WWE. The ECW Championship was retired separately, not unified into the WWE title."
+      ]
+    },
+    "world-heavyweight": {
+      "root": {
+        "id": "world23",
+        "track": "world23",
+        "name": "World Heavyweight Championship",
+        "type": "origin",
+        "events": [
+          "new-world"
+        ],
+        "caption": "First awarded May 27, 2023",
+        "note": "Seth Rollins became the first champion. This is a new championship record, distinct from the World Heavyweight title that existed from 2002 to 2013."
+      },
+      "intro": "A new championship, with its own record.",
+      "notes": [
+        "Similar names and belt designs do not make this a continuation of the 2002 to 2013 World Heavyweight Championship. No older championship was unified into it."
+      ],
+      "background": [
+        "Connections show championship records, not every belt redesign. A promotion acquisition, a renamed title or a similar-looking belt does not by itself create a unification."
+      ]
+    },
+    "intercontinental": {
+      "root": {
+        "id": "ic-combined",
+        "track": "ic",
+        "name": "Intercontinental Championship",
+        "type": "merge",
+        "events": [
+          "us-ic",
+          "euro-ic",
+          "hard-ic"
+        ],
+        "caption": "Three unifications, 2001 to 2002",
+        "note": "The U.S., European and Hardcore championships were unified into the Intercontinental title in three separate matches. The U.S. title returned in 2003.",
+        "parents": [
+          {
+            "id": "ic",
+            "track": "ic",
+            "name": "Intercontinental Championship",
+            "type": "origin"
+          },
+          {
+            "id": "us86",
+            "track": "us",
+            "name": "United States Championship",
+            "event": "national-us",
+            "parents": [
+              {
+                "id": "us",
+                "track": "us",
+                "name": "NWA United States Championship",
+                "type": "origin"
+              },
+              {
+                "id": "national81",
+                "track": "national",
+                "name": "NWA National Heavyweight Championship",
+                "event": "georgia-national",
+                "parents": [
+                  {
+                    "id": "national",
+                    "track": "national",
+                    "type": "origin"
+                  },
+                  {
+                    "id": "georgia",
+                    "track": "georgia",
+                    "type": "origin"
+                  }
+                ],
+                "note": "The Georgia unification is certain; its exact 1981 date is disputed."
+              }
+            ],
+            "edge": "Unified, Nov 18, 2001"
+          },
+          {
+            "id": "european",
+            "track": "european",
+            "name": "European Championship",
+            "type": "origin",
+            "edge": "Unified, Jul 22, 2002"
+          },
+          {
+            "id": "hardcore",
+            "track": "hardcore",
+            "name": "Hardcore Championship",
+            "type": "origin",
+            "edge": "Unified, Aug 26, 2002"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "id": "ic-away",
+          "track": "oldworld",
+          "name": "Unified into World Heavyweight",
+          "event": "ic-world",
+          "note": "Triple H defeated Kane. The Intercontinental title became inactive. The World Heavyweight Championship already existed.",
+          "edge": "Unified, Oct 20, 2002"
+        },
+        {
+          "id": "ic-now",
+          "track": "ic",
+          "name": "Intercontinental Championship",
+          "event": "ic-return",
+          "note": "Christian won the revived title. The original 1979 record resumed.",
+          "edge": "Original record resumes"
+        }
+      ],
+      "intro": "Three championships joined the Intercontinental title before its brief retirement and return.",
+      "notes": [
+        "The United States Championship also returned in July 2003. The European and Hardcore titles did not return."
+      ],
+      "background": [
+        "Connections show championship records, not every belt redesign. A promotion acquisition, a renamed title or a similar-looking belt does not by itself create a unification.",
+        "The 1979 Intercontinental origin story referenced North and South American titles. That presentation is not drawn as a permanent merger: the North American title continued separately in Japan."
+      ]
+    },
+    "united-states": {
+      "root": {
+        "id": "us-away",
+        "track": "ic",
+        "name": "Intercontinental Championship",
+        "event": "us-ic",
+        "parents": [
+          {
+            "id": "ic",
+            "track": "ic",
+            "name": "Intercontinental Championship",
+            "type": "origin"
+          },
+          {
+            "id": "us86",
+            "track": "us",
+            "name": "United States Championship",
+            "event": "national-us",
+            "parents": [
+              {
+                "id": "us",
+                "track": "us",
+                "name": "NWA United States Championship",
+                "type": "origin"
+              },
+              {
+                "id": "national81",
+                "track": "national",
+                "name": "NWA National Heavyweight Championship",
+                "event": "georgia-national",
+                "parents": [
+                  {
+                    "id": "national",
+                    "track": "national",
+                    "type": "origin"
+                  },
+                  {
+                    "id": "georgia",
+                    "track": "georgia",
+                    "type": "origin"
+                  }
+                ],
+                "note": "The Georgia unification is certain; its exact 1981 date is disputed."
+              }
+            ]
+          }
+        ],
+        "note": "Edge defeated Test. The U.S. championship became inactive; the Intercontinental title continued."
+      },
+      "outputs": [
+        {
+          "id": "us-now",
+          "track": "us",
+          "name": "United States Championship",
+          "event": "us-return",
+          "note": "Eddie Guerrero won the revived U.S. title. Its original 1975 record resumed; this was not a new title created from the Intercontinental Championship.",
+          "edge": "Original record resumes"
+        }
+      ],
+      "intro": "The U.S. title was unified in 2001, then its own record resumed in 2003.",
+      "notes": [
+        "The U.S. title originated in Mid-Atlantic Wrestling, continued through WCW, and came to WWE in 2001. Changes of promotion are not additional title unifications."
+      ],
+      "background": [
+        "Connections show championship records, not every belt redesign. A promotion acquisition, a renamed title or a similar-looking belt does not by itself create a unification."
+      ]
+    },
+    "world-tag-team": {
+      "root": {
+        "id": "tag22",
+        "track": "tag02",
+        "name": "Undisputed WWE Tag Team Champions",
+        "event": "tags22",
+        "parents": [
+          {
+            "id": "tag10",
+            "track": "tag02",
+            "name": "WWE / Raw Tag Team Championship",
+            "event": "tags10",
+            "parents": [
+              {
+                "id": "tag09",
+                "track": "tag02",
+                "name": "Unified WWE Tag Team Championships",
+                "event": "tags09",
+                "parents": [
+                  {
+                    "id": "tag01",
+                    "track": "tag71",
+                    "name": "World Tag Team Championship",
+                    "event": "wcwtag-merge",
+                    "parents": [
+                      {
+                        "id": "tag71",
+                        "track": "tag71",
+                        "name": "WWF Tag Team Championship",
+                        "type": "origin"
+                      },
+                      {
+                        "id": "wcwtag",
+                        "track": "wcwtag",
+                        "name": "WCW Tag Team Championship",
+                        "type": "origin"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "tag02",
+                    "track": "tag02",
+                    "name": "WWE Tag Team Championship",
+                    "type": "origin"
+                  }
+                ],
+                "note": "The Colóns held both sets of titles. Both records continued until the 1971 title was retired in 2010."
+              }
+            ],
+            "note": "The title established in 2002 continued; it became the Raw Tag Team Championship in 2016.",
+            "caption": "1971 title ends, Aug 16, 2010"
+          },
+          {
+            "id": "tag16",
+            "track": "tag16",
+            "name": "SmackDown Tag Team Championship",
+            "type": "origin"
+          }
+        ],
+        "note": "The Usos held both championships. Neither record was retired. The titles separated again at WrestleMania XL."
+      },
+      "outputs": [
+        {
+          "id": "tag-raw-now",
+          "track": "tag02",
+          "name": "World Tag Team Championship",
+          "type": "split",
+          "events": [
+            "tags-split",
+            "tag-world-name"
+          ],
+          "caption": "Separated Apr 6, renamed Apr 15, 2024",
+          "note": "The Raw title continues the record established in 2002.",
+          "edge": "Separate champions"
+        },
+        {
+          "id": "tag-sd-now",
+          "track": "tag16",
+          "name": "WWE Tag Team Championship",
+          "type": "split",
+          "events": [
+            "tags-split",
+            "tag-wwe-name"
+          ],
+          "caption": "Separated Apr 6, renamed Apr 19, 2024",
+          "note": "The SmackDown title continues the record established in 2016.",
+          "edge": "Separate champions"
+        }
+      ],
+      "intro": "Two old tag titles joined the history; two current championships still survive.",
+      "notes": [
+        "The 2009 and 2022 pairings had unified holders, but initially kept two championship records. Both of today’s tag championships continued after the April 2024 separation."
+      ],
+      "background": [
+        "Connections show championship records, not every belt redesign. A promotion acquisition, a renamed title or a similar-looking belt does not by itself create a unification."
+      ]
+    },
+    "wwe-tag-team": {
+      "root": {
+        "id": "tag22",
+        "track": "tag02",
+        "name": "Undisputed WWE Tag Team Champions",
+        "event": "tags22",
+        "parents": [
+          {
+            "id": "tag10",
+            "track": "tag02",
+            "name": "WWE / Raw Tag Team Championship",
+            "event": "tags10",
+            "parents": [
+              {
+                "id": "tag09",
+                "track": "tag02",
+                "name": "Unified WWE Tag Team Championships",
+                "event": "tags09",
+                "parents": [
+                  {
+                    "id": "tag01",
+                    "track": "tag71",
+                    "name": "World Tag Team Championship",
+                    "event": "wcwtag-merge",
+                    "parents": [
+                      {
+                        "id": "tag71",
+                        "track": "tag71",
+                        "name": "WWF Tag Team Championship",
+                        "type": "origin"
+                      },
+                      {
+                        "id": "wcwtag",
+                        "track": "wcwtag",
+                        "name": "WCW Tag Team Championship",
+                        "type": "origin"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "tag02",
+                    "track": "tag02",
+                    "name": "WWE Tag Team Championship",
+                    "type": "origin"
+                  }
+                ],
+                "note": "The Colóns held both sets of titles. Both records continued until the 1971 title was retired in 2010."
+              }
+            ],
+            "note": "The title established in 2002 continued; it became the Raw Tag Team Championship in 2016.",
+            "caption": "1971 title ends, Aug 16, 2010"
+          },
+          {
+            "id": "tag16",
+            "track": "tag16",
+            "name": "SmackDown Tag Team Championship",
+            "type": "origin"
+          }
+        ],
+        "note": "The Usos held both championships. Neither record was retired. The titles separated again at WrestleMania XL."
+      },
+      "outputs": [
+        {
+          "id": "tag-raw-now",
+          "track": "tag02",
+          "name": "World Tag Team Championship",
+          "type": "split",
+          "events": [
+            "tags-split",
+            "tag-world-name"
+          ],
+          "caption": "Separated Apr 6, renamed Apr 15, 2024",
+          "note": "The Raw title continues the record established in 2002.",
+          "edge": "Separate champions"
+        },
+        {
+          "id": "tag-sd-now",
+          "track": "tag16",
+          "name": "WWE Tag Team Championship",
+          "type": "split",
+          "events": [
+            "tags-split",
+            "tag-wwe-name"
+          ],
+          "caption": "Separated Apr 6, renamed Apr 19, 2024",
+          "note": "The SmackDown title continues the record established in 2016.",
+          "edge": "Separate champions"
+        }
+      ],
+      "intro": "Two old tag titles joined the history; two current championships still survive.",
+      "notes": [
+        "The 2009 and 2022 pairings had unified holders, but initially kept two championship records. Both of today’s tag championships continued after the April 2024 separation."
+      ],
+      "background": [
+        "Connections show championship records, not every belt redesign. A promotion acquisition, a renamed title or a similar-looking belt does not by itself create a unification."
+      ]
+    }
   }
 }

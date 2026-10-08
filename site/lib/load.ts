@@ -26,6 +26,8 @@ export interface SiteData {
   /** nameKey of every name and ring name → person ids, for linking free-text names. */
   peopleByName: Map<string, string[]>;
   calendar: any;
+  /** Title lineage diagrams: lineage titles, events, views and the title-history trees. */
+  lineages: any;
   ratings: any;
   segmentCount: number;
 }
@@ -142,7 +144,9 @@ export function loadSite(dir = 'data'): SiteData {
     storylinesByPerson,
     familiesByPerson,
     peopleByName,
-    calendar: readJson(join(dir, 'calendar', '2026.json')),
+    // The newest year's calendar.
+    calendar: readJson(join(dir, 'calendar', listFiles(join(dir, 'calendar')).sort().at(-1)!)),
+    lineages: readJson(join(dir, 'title-lineages.json')),
     ratings: readJson(join(dir, 'ratings.json')),
     segmentCount,
   };

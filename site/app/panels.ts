@@ -45,6 +45,26 @@ function ratingBlock(detail: DetailRow): string {
 
 // ---------- Pieces ----------
 
+/** Match types that say nothing the title doesn't already say. */
+export const GENERIC_TYPE = /^(match|other match|singles( match)?|\d+-person match|tag team( match)?|tag)$/i;
+
+/**
+ * Context worth showing: not a repeat of the result, and not just the match type and duration
+ * that bulk records spell out ("Singles Match, Duration: 1:35.").
+ */
+export function usefulContext(context: string, result: string, matchType: string): string {
+  const text = context.replace(/(^|[,·]\s*)Duration:\s*[\d:]+\.?\s*$/, '').replace(/[\s,.·]+$/, '').trim();
+  if (!text || text === result || text.toLowerCase() === matchType.toLowerCase().trim()) return '';
+  return text;
+}
+
+/** The type line for a match: title match, stipulation, duration. */
+export function matchTypeLine(kind: number, matchType: string, duration: string): string {
+  const stipulation = matchType && !GENERIC_TYPE.test(matchType) ? matchType : '';
+  const label = kind === 1 && !/title|championship/i.test(stipulation) ? 'Title match' : kind === 2 ? 'Promo' : kind === 3 ? 'Appearance' : '';
+  return [label, stipulation, duration].filter(Boolean).join(', ');
+}
+
 export const chips = (model: Model, ids: number[]) => ids.map((i) => `<button type="button" class="chip" data-person="${i}">${esc(model.people[i].name)}</button>`).join('');
 
 export function eventCard(m: Moment, detail?: DetailRow): string {
@@ -60,7 +80,8 @@ const sourceLinks = (urls: string[]) =>
 
 export function momentPanel(model: Model, m: Moment, detail: DetailRow | undefined, related: Moment[], storylines: { id: string; title: string }[]): string {
   const [result, context, matchType, duration, sources] = detail ?? ['', '', '', '', [], []];
-  const meta = [matchType && !/^(match|other match|singles( match)?|\d+-person match|tag team( match)?)$/i.test(matchType) ? matchType : '', duration].filter(Boolean).join(', ');
+  const meta = [matchType && !GENERIC_TYPE.test(matchType) ? matchType : '', duration].filter(Boolean).join(', ');
+  const why = usefulContext(context, result, matchType);
   return `<div class="panel-top"><span class="panel-kind">${KIND_LABEL[m.kind]}</span>${close('Close this moment and restore the A to Z roster')}</div>
 <p class="panel-date">${m.show.recorded ? 'Taped ' : ''}${esc(fmtDate(m.date, true))}</p>
 <h2>${esc(m.title)}</h2>
@@ -68,7 +89,7 @@ export function momentPanel(model: Model, m: Moment, detail: DetailRow | undefin
 ${m.people.length ? `<div class="chips">${chips(model, m.people)}</div>` : ''}
 ${result && result !== m.title ? `<p class="panel-result">${esc(result)}</p>` : ''}
 ${detail ? ratingBlock(detail) : '<p class="quiet loading">Loading details…</p>'}
-${context && context !== result ? `<h3>Context</h3><p>${esc(context.replace(/ · Duration: [\d:]+\.?$/, ''))}</p>` : ''}
+${why ? `<h3>Context</h3><p>${esc(why)}</p>` : ''}
 ${m.involved.length ? `<h3>Also involved</h3><div class="chips">${chips(model, m.involved)}</div><p class="hint">Hollow marks show involvement outside the match lineup.</p>` : ''}
 ${sourceLinks(sources)}
 ${related.length ? `<h3>Follow the connections</h3><div class="event-list">${related.map((r) => eventCard(r)).join('')}</div>` : ''}
@@ -227,7 +248,7 @@ export function reignDialog(r: Reign, person: number | null, asOf: string): stri
   const days = Math.round((Date.parse(r.end || asOf) - Date.parse(start)) / DAY);
   return `<p class="panel-kind">Title reign</p><h2 id="dialog-title">${esc(r.name)}</h2><p>${esc(r.holder)}</p>
 <dl class="dl-facts"><dt>Won</dt><dd>${esc(fmtDate(start, true))}</dd><dt>${r.end ? 'Lost' : 'Through'}</dt><dd>${esc(fmtDate(r.end || asOf, true))}${r.end ? '' : ', still champion'}</dd><dt>Length</dt><dd>${days < 1 ? 'Under a day' : plural(days, 'day')}</dd></dl>
-<p><a href="/titles/${esc(r.title.id)}/#${esc(r.id)}">Full title history</a></p>`;
+<p><a href="/titles/${esc(r.title.id)}/?reign=${esc(r.id)}">Every ${esc(r.title.name)} reign</a></p>`;
 }
 
 export function periodDialog(model: Model, list: Period[]): string {

@@ -1,4 +1,5 @@
 // Championship records with their reigns, plus the lineage diagrams from v69.
+import { LINEAGE_PROMOTIONS, LINEAGE_TREES } from './lineage-trees.ts';
 import type { Reign, Title } from '../../lib/types.ts';
 import { compact, nameKey, slugify, unique } from '../../lib/util.ts';
 import type { LegacyIdMaps, MigrationLog } from './context.ts';
@@ -182,6 +183,8 @@ export function buildTitles(d: any, identity: Identity, maps: LegacyIdMaps, log:
     views: Object.fromEntries(
       Object.entries(L.views ?? {}).map(([vid, v]: [string, any]) => [vid, { ...v, title: BELT_TITLE[vid] ?? vid }]),
     ),
+    promotions: LINEAGE_PROMOTIONS,
+    trees: LINEAGE_TREES,
   });
   return { titles, lineages };
 }

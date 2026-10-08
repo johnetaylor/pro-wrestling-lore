@@ -2,7 +2,7 @@
 
 A visual archive of pro wrestling history: every televised match and segment, with careers, title lineages, storylines and wrestling families shown as pictures first and the facts underneath.
 
-**Status:** rebuild in progress. Phase 0 (reference snapshot and audit) and Phase 1 (data model and migration) are done. Phase 2 built the site generator, design system and SEO base. The explorer (Careers, Statistics and Storylines) is rebuilt at parity with v69; Shows, Championships, Calendar and Dynasties are next. The current site is at <https://wrestling-atlas.johnetaylor667212.chatgpt.site>.
+**Status:** rebuild in progress. Phase 0 (reference snapshot and audit) and Phase 1 (data model and migration) are done. Phase 2 built the site generator, design system and SEO base. The explorer is rebuilt at parity with v69: Careers (with Statistics), Storylines, Shows, Championships, Calendar and Dynasties. The current site is at <https://wrestling-atlas.johnetaylor667212.chatgpt.site>.
 
 ## Scope
 
@@ -40,9 +40,18 @@ SITE_URL=https://example.org npm run build -- --production   # canonical URLs, s
 
 ## The site
 
-The site is the explorer: every wrestler's career on one timeline, with a scrub bar to zoom and move through time, and each promotion's storylines on the same kind of timeline. It runs in the browser from compact data bundles the build writes to `dist/data/<version>/` (`core.json` for the timeline, then match details by year, profiles and storylines, each loaded when first needed). The code is in `site/app/`; `site/bundle.ts` joins it into one script.
+The site is the explorer, in six sections:
 
-Every address is also a static page. `/wrestlers/hulk-hogan/` opens the timeline focused on Hogan, and `/storylines/bloodline/` opens that story; each of those pages carries the full static record as well, for readers without scripts and for search engines. Explorer states have addresses too (`?year=1998`, `?moment=…`, `?from=…&to=…`), so the back button and shared links work. Shows, championships and families are static pages until their explorer views are rebuilt. Search runs in the browser from a small index built with the site.
+- **Careers:** every wrestler's career on one timeline, with a scrub bar to zoom and move through time, plus a sortable Statistics table.
+- **Storylines:** each promotion's storylines on the same kind of timeline.
+- **Shows:** each series as a grid of years and months, with every card.
+- **Championships:** every title's reigns on a timeline, and the trees of how the main WWE belts connect.
+- **Calendar:** the year week by week.
+- **Dynasties:** wrestling family trees.
+
+It runs in the browser from compact data bundles the build writes to `dist/data/<version>/`: `core.json` for the timelines, then match and show details by year, profiles, storylines, championships, families and the calendar, each loaded when first needed. The code is in `site/app/`, one module per view; `site/bundle.ts` joins it into one script.
+
+Every address is also a static page. `/wrestlers/hulk-hogan/` opens the timeline focused on Hogan, `/shows/wwe/wrestlemania/1987-03-29/` opens that card, `/titles/wwe-championship/` that title's history. Each page carries the full static record too, for readers without scripts and for search engines. Explorer states have addresses (`?year=1998`, `?moment=…`, `?reign=r12`), so the back button and shared links work. Search runs in the browser from a small index built with the site.
 
 The design keeps the v69 navy and cyan and the wordmark, sets everything in Barlow (Barlow Condensed for names and headings), and uses color only for meaning: gold for championships and pay-per-views, violet for promos and appearances, and one color per promotion. Fonts are self-hosted, so pages make no third-party requests.
 

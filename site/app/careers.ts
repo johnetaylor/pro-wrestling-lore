@@ -6,6 +6,7 @@ import { loadDetails, loadProfile } from './data.ts';
 import { dayNum, isoDay, memberStart, normalize, type DetailRow, type Model, type Moment, type Period, type ProfileBundle, type Reign } from './model.ts';
 import { createNavigator, type Navigator } from './navigator.ts';
 import { careerPanel, careerSpan, choicePanel, momentPanel, periodDialog, previewList, reignDialog, type CareerSpan } from './panels.ts';
+import { BELT, STAR } from './ui.ts';
 
 export type KindFilter = 'all' | 'match' | 'title' | 'story' | 'promo' | 'appearance';
 
@@ -15,8 +16,6 @@ const REIGN_TRACK = 22;
 const BRACKET_TRACK = 32;
 const BUFFER = 600; // px of lanes rendered above and below the viewport
 const CLUSTER_PX = 14; // marks closer than this merge into one, with a count
-const STAR = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.2 1.3-6.6L2.5 9.3l6.6-.8z"/></svg>';
-const BELT = '<svg viewBox="0 0 24 14" aria-hidden="true"><rect x="1" y="4" width="22" height="6" rx="2"/><ellipse cx="12" cy="7" rx="5" ry="6"/></svg>';
 
 export interface CareersOptions {
   model: Model;

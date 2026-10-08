@@ -15,7 +15,7 @@ export interface PageMeta {
   description: string;
   path: string; // absolute path beginning with /
   /** Which section tab is current. */
-  nav?: 'careers' | 'wrestlers' | 'storylines' | 'shows' | 'titles' | 'dynasties' | 'home';
+  nav?: 'careers' | 'wrestlers' | 'storylines' | 'shows' | 'titles' | 'calendar' | 'dynasties' | 'home';
   /** An explorer page: full-width frame, and the app script. */
   app?: boolean;
   breadcrumbs?: { name: string; url: string }[];
@@ -32,6 +32,7 @@ const NAV: { keys: PageMeta['nav'][]; label: string; url: string }[] = [
   { keys: ['storylines'], label: 'Storylines', url: '/storylines/' },
   { keys: ['shows'], label: 'Shows', url: '/shows/' },
   { keys: ['titles'], label: 'Championships', url: '/titles/' },
+  { keys: ['calendar'], label: 'Calendar', url: '/calendar/' },
   { keys: ['dynasties'], label: 'Dynasties', url: '/families/' },
 ];
 
@@ -91,7 +92,7 @@ ${body}
 </main>
 <footer class="site-footer">
   <div class="${frame}">
-    <nav class="footer-nav" aria-label="More"><a href="/">Careers</a> <a href="/wrestlers/">Wrestlers A to Z</a> <a href="/storylines/">Storylines</a> <a href="/shows/">Shows</a> <a href="/titles/">Championships</a> <a href="/families/">Dynasties</a></nav>
+    <nav class="footer-nav" aria-label="More"><a href="/">Careers</a> <a href="/wrestlers/">Wrestlers A to Z</a> <a href="/storylines/">Storylines</a> <a href="/shows/">Shows</a> <a href="/titles/">Championships</a> <a href="/calendar/">Calendar</a> <a href="/families/">Dynasties</a></nav>
     <p>Pro Wrestling Lore indexes televised matches and segments only, never dark matches or house shows. Every record links to its source, and counts are records in this archive rather than complete career totals.</p>
     <p>Updated ${formatDate(ctx.buildDate)}. Set in Barlow, under the SIL Open Font License.</p>
   </div>

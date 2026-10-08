@@ -97,6 +97,16 @@ for (const file of listFiles(join(dir, 'titles'))) {
 }
 const lineages = readJson<any>(join(dir, 'title-lineages.json'));
 for (const [lid, lt] of Object.entries<any>(lineages.titles ?? {})) if (!titles.has(lt.title)) warn(`lineage ${lid}: no title record ${lt.title}`);
+// Title-history trees point at lineage titles and events that exist.
+const lineageEvents = new Set((lineages.events ?? []).map((e: any) => e.id));
+const treeNodes = (n: any): any[] => [n, ...(n.parents ?? []).flatMap(treeNodes)];
+for (const [vid, tree] of Object.entries<any>(lineages.trees ?? {})) {
+  if (!lineages.views?.[vid]) fail(`lineage tree ${vid}: no lineage view of that name`);
+  for (const n of [...treeNodes(tree.root), ...(tree.outputs ?? [])]) {
+    if (!lineages.titles?.[n.track]) fail(`lineage tree ${vid}: node ${n.id} on unknown track ${n.track}`);
+    for (const e of [n.event, ...(n.events ?? [])].filter(Boolean)) if (!lineageEvents.has(e)) fail(`lineage tree ${vid}: node ${n.id} cites unknown event ${e}`);
+  }
+}
 
 // Storylines.
 let chapters = 0;

@@ -1,5 +1,5 @@
 // Loads the data bundles the build writes under /data/<version>/, once each.
-import { decode, type DetailBundle, type Model, type ProfileBundle, type StorylineBundle } from './model.ts';
+import { decode, type CalendarBundle, type DetailBundle, type FamilyBundle, type Model, type ProfileBundle, type ShowDetailBundle, type StorylineBundle, type TitleBundle } from './model.ts';
 
 let base = '';
 const cache = new Map<string, Promise<unknown>>();
@@ -28,3 +28,7 @@ export async function loadModel(): Promise<Model> {
 export const loadDetails = (year: string) => get<DetailBundle>(`details/${year}.json`).catch(() => ({}) as DetailBundle);
 export const loadProfile = async (id: string): Promise<ProfileBundle | null> => (await get<Record<string, ProfileBundle>>('profiles.json'))[id] ?? null;
 export const loadStorylines = () => get<StorylineBundle>('storylines.json');
+export const loadShowDetails = (year: string) => get<ShowDetailBundle>(`shows/${year}.json`).catch(() => ({}) as ShowDetailBundle);
+export const loadTitles = () => get<TitleBundle>('titles.json');
+export const loadFamilies = () => get<FamilyBundle>('families.json');
+export const loadCalendar = () => get<CalendarBundle>('calendar.json');
