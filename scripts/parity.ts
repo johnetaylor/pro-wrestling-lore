@@ -4,11 +4,14 @@
 import { join } from 'node:path';
 import type { Family, Person, Show, Storyline, Title } from './lib/types.ts';
 import { listFiles, readGzipJson, readJson, writeText } from './lib/util.ts';
+import { applyCorrections } from './migrate/v69/corrections.ts';
 
 const DATA = 'data';
 const REF = 'reference/v69';
 const MIG = 'migration/v69';
 const d = readGzipJson<any>(join(REF, 'snapshot.json.gz')).data;
+// Compare with v69 as corrected: the same documented fixes the migration applies.
+const corrections = applyCorrections(d);
 const maps = readJson<any>(join(MIG, 'legacy-ids.json'));
 
 const people = new Map<string, Person>();
@@ -217,6 +220,19 @@ check('People', 'Cody and Hogan keep their curated career content', curatedCases
   const rel = d.careerRelationshipData[c.legacy];
   for (const k of ['feuds', 'factions', 'teams']) if ((cur.relationships as any)?.[k]?.length !== rel[k].length) return `${c.legacy}: ${k} differ`;
   if (!cur.legacyHtml?.biography || !cur.legacyHtml?.details) return `${c.legacy}: explorer text missing`;
+  // The structured profile must hold everything the explorer showed.
+  const details = cur.legacyHtml.details;
+  const prof = cur.profile;
+  if (!prof?.intro || !prof.inBrief) return `${c.legacy}: biography not parsed`;
+  if (!prof.trainedBy?.text) return `${c.legacy}: trainer not parsed`;
+  const moves = (/<div class="signature-moves">([\s\S]*?)<\/div>/.exec(details)?.[1].match(/<span>/g) ?? []).length;
+  if (prof.signatureMoves?.moves.length !== moves) return `${c.legacy}: signature moves ${prof.signatureMoves?.moves.length} vs ${moves}`;
+  const items = (details.match(/<li>/g) ?? []).length;
+  const parsed = (prof.associates?.length ?? 0) + (prof.guestCornermen?.length ?? 0);
+  if (parsed !== items) return `${c.legacy}: associates ${parsed} vs ${items}`;
+  const anchors = (details.match(/<a /g) ?? []).length;
+  const links = (prof.trainedBy.links?.length ?? 0) + (prof.signatureMoves?.links?.length ?? 0) + (prof.links?.length ?? 0);
+  if (links !== anchors) return `${c.legacy}: profile links ${links} vs ${anchors}`;
   return null;
 });
 

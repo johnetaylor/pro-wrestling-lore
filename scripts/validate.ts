@@ -130,6 +130,20 @@ for (const file of listFiles(join(dir, 'calendar'))) {
   for (const e of [...(c.events ?? []), ...(c.weeklyEvents ?? [])]) if (e.show && !shows.has(e.show)) fail(`calendar ${e.id}: missing show ${e.show}`);
 }
 
+// Plausibility: well-formed records that are probably wrong. Warnings, for review.
+for (const s of shows.values()) {
+  if (s.recordedDate?.length === 10 && s.date.length === 10 && s.date < s.recordedDate) warn(`${s.id}: airs before its taping date`);
+}
+const firstMatch = new Map<string, string>();
+for (const s of shows.values())
+  for (const seg of s.segments)
+    if (seg.type === 'match')
+      for (const p of seg.participants) if (p.role === 'competitor' && !(firstMatch.get(p.person)! <= s.date)) firstMatch.set(p.person, s.date);
+for (const [pid, first] of firstMatch) {
+  const debut = people.get(pid)?.debut?.date;
+  if (debut && first.slice(0, 4) < debut.slice(0, 4)) warn(`people/${pid}.json: has a televised match before the recorded debut year`);
+}
+
 const summary = { people: people.size, shows: shows.size, segments, titles: titles.size, reigns, chapters, familyMembers: members, errors: errors.length, warnings: warnings.length };
 console.log(JSON.stringify(summary, null, 2));
 for (const e of errors.slice(0, 40)) console.log('ERROR', e);

@@ -1,0 +1,39 @@
+[
+  {
+    "kind": "show-date",
+    "target": "bulk-event-10222",
+    "change": "2004-03-14 → 2014-03-14 (27 records)",
+    "reason": "The source dataset typed 2004 for the March 14, 2014 SmackDown; its own taping date is March 11, 2014 and every match cites the 2014 results page.",
+    "sources": [
+      "https://kbwrestlingreviews.com/2014/03/14/smackdown-march-14-2014-when-being-big-isnt-enough/"
+    ]
+  },
+  {
+    "kind": "show-date",
+    "target": "bulk-event-7762",
+    "change": "1998-09-27 → 2006-11-27 (19 records)",
+    "reason": "The source dataset dated the live November 27, 2006 Raw to 1998; its own recorded date is November 27, 2006 and every match cites the 2006 results page.",
+    "sources": [
+      "https://www.wrestlinginc.com/news/2006/11/wwe-raw-results-494452/"
+    ]
+  },
+  {
+    "kind": "identity-split",
+    "target": "jacob-fatu → rikishi",
+    "change": "620 records before 2010-01-01 moved to Rikishi",
+    "reason": "v69 credited Rikishi (Solofa Fatu Jr.) as Fatu, The Sultan and Rikishi from 1994 to 2004 to Jacob Fatu, who debuted in 2012. Every Jacob Fatu record before 2010 belongs to Rikishi.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rikishi_(wrestler)",
+      "https://www.cagematch.net/?id=2&nr=14128&page=22"
+    ]
+  },
+  {
+    "kind": "profile-field",
+    "target": "logan-paul",
+    "change": "debut 2026-01-08 → 2022-04-02",
+    "reason": "v69 listed a 2026 debut, but the archive itself has his matches from 2023; his in-ring debut was the WrestleMania 38 tag match on April 2, 2022.",
+    "sources": [
+      "https://www.sescoops.com/?p=249166"
+    ]
+  }
+]

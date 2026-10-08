@@ -30,6 +30,8 @@ All site data lives in `data/` as JSON, one file per record, so every change is 
 - `ringNames` lists every name with documented `from`/`to` boundaries where known. `billed.first` / `billed.last` record the first and last show where that person alone was billed under the name; this is evidence, not a boundary.
 - `gender` carries `genderBasis: legacy-placeholder` until confirmed from a source.
 - `externalTotals` are career totals from another database (CAGEMATCH), never computed from our records. Our own totals are always labeled as indexed records.
+- A ring name with `note: "Billed under this name in indexed matches."` was added from billing evidence: billed at least twice, nobody else's name, and not a team name on that card.
+- `curated` holds the full career standard (Hulk Hogan and Cody Rhodes so far): `promotionPeriods`, `relationships` (feuds, factions, teams), `signatureMatches` (with segment references) and `profile` (intro, career in brief, trainers, signature moves, managers and guest cornermen, profile links). `legacyHtml` keeps the v69 explorer text for reference only; pages use the structured fields.
 
 ## Shows and coverage
 

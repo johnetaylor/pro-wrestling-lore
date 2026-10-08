@@ -1,0 +1,65 @@
+/* Design tokens. Every color, size and space on the site comes from here. */
+:root {
+  color-scheme: dark;
+
+  /* Surfaces: the v69 navy-black, stepped up for panels and controls. */
+  --ink-0: #080c11;
+  --ink-1: #0d131b;
+  --ink-2: #141e29;
+  --rule: #243140;
+  --rule-strong: #34465a;
+
+  /* Text. --text-3 keeps 4.5:1 on --ink-0 for small labels. */
+  --text: #e9eff5;
+  --text-2: #9baabc;
+  --text-3: #74859a;
+
+  /* Meaning. Color is never decoration: each hue stands for one thing. */
+  --accent: #5ce4df; /* links, focus, selection */
+  --gold: #e9bf6b; /* championships and pay-per-views */
+  --violet: #b59bf6; /* promos and appearances */
+
+  /* Promotions, used in strips, bands and tags. */
+  --p-wwe: #f45a64;
+  --p-wcw: #aa8bd5;
+  --p-ecw: #da7c70;
+  --p-aew: #c7a451;
+  --p-tna: #e0805a;
+  --p-njpw: #e7b856;
+  --p-aaa: #73c59c;
+  --p-roh: #ce687a;
+  --p-cmll: #70aee0;
+  --p-stardom: #c28ce3;
+  --p-awa: #8fb4a8;
+  --p-indy: #9baabc;
+
+  /* Type: one family in two widths. Barlow Condensed carries names and headings,
+     Barlow carries reading text and data. Scale: major third (1.25) from 17px. */
+  --font-display: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  --font-body: 'Barlow', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --step--1: 0.8rem;
+  --step-0: 1rem;
+  --step-1: 1.25rem;
+  --step-2: 1.5625rem;
+  --step-3: 1.953rem;
+  --step-4: 2.441rem;
+  --step-5: 3.052rem;
+  --step-6: 3.815rem;
+
+  /* Space, on a 4px grid. */
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 24px;
+  --s6: 32px;
+  --s7: 48px;
+  --s8: 64px;
+
+  /* Corners: small for data marks, medium for panels and inputs. */
+  --r1: 2px;
+  --r2: 6px;
+
+  --frame: 1240px;
+  --measure: 66ch;
+}

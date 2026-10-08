@@ -3,6 +3,7 @@ import type { Person, RingName, Show } from '../../lib/types.ts';
 import { compact, isoDate, nameKey, unique } from '../../lib/util.ts';
 import type { LegacyIdMaps, MigrationLog } from './context.ts';
 import { DATED_RING_NAMES, NAMES, type Identity } from './identity.ts';
+import { parseLegacyProfile } from './profile.ts';
 
 /** Splits display labels like "Chad Gable / El Grande Americano" and strips quotes. */
 function splitNames(label: string | undefined): string[] {
@@ -73,6 +74,51 @@ export function buildPeople(
     }
   }
 
+  // Names people were billed under that none of their records list ("Rocky Maivia", "The
+  // Giant"). Billing lists competitors in card order, so a name is paired with the competitor
+  // in the same position. It is kept only when it is nobody else's name, is not a team name on
+  // that card ("BirthRight (Channing Lorenzo, …)"), is not part of a name they already have
+  // ("Hogan"), is credited to one person only, and turns up at least twice.
+  const ownerOf = new Map<string, Set<string>>();
+  for (const [pid, keys] of keysById) for (const k of keys) (ownerOf.get(k) ?? ownerOf.set(k, new Set()).get(k)!).add(pid);
+  const billedOnly = new Map<string, { name: string; people: Map<string, { from: string; to: string; n: number }> }>();
+  for (const show of shows.values()) {
+    for (const seg of show.segments) {
+      const comps = seg.participants.filter((x) => x.role === 'competitor');
+      if (!seg.billing || seg.billing.length !== comps.length) continue;
+      seg.billing.forEach((billed, i) => {
+        const pid = comps[i].person;
+        const k = nameKey(billed);
+        if (!k || ownerOf.has(k) || seg.title.includes(`${billed} (`)) return;
+        const words = new Set((candidatesById.get(pid) ?? []).flatMap((n) => n.toLowerCase().split(/\s+/)));
+        if (billed.toLowerCase().split(/\s+/).every((w) => words.has(w))) return;
+        const entry = billedOnly.get(k) ?? billedOnly.set(k, { name: billed, people: new Map() }).get(k)!;
+        const cur = entry.people.get(pid);
+        if (!cur) entry.people.set(pid, { from: show.date, to: show.date, n: 1 });
+        else {
+          cur.n++;
+          if (show.date < cur.from) cur.from = show.date;
+          if (show.date > cur.to) cur.to = show.date;
+        }
+      });
+    }
+  }
+  const extraNames = new Map<string, RingName[]>();
+  const singles: string[] = [];
+  for (const { name: billed, people: credited } of billedOnly.values()) {
+    if (credited.size !== 1) continue;
+    const [[pid, ev]] = [...credited];
+    if (ev.n < 2) {
+      singles.push(`${pid}: "${billed}" (${ev.from})`);
+      continue;
+    }
+    const list = extraNames.get(pid) ?? extraNames.set(pid, []).get(pid)!;
+    list.push({ name: billed, note: 'Billed under this name in indexed matches.', billed: { first: ev.from, last: ev.to } });
+  }
+  const added = [...extraNames.values()].reduce((n, l) => n + l.length, 0);
+  if (added) log.count('ring names added from billing evidence', added);
+  if (singles.length) log.queue({ kind: 'identity', title: 'Names billed once that no record lists (confirm before adding as ring names)', records: singles.sort() });
+
   for (const [id, legacyIds] of identity.members) {
     const records = legacyIds.map((l) => ({ legacy: l, roster: rosterById.get(l), profile: d.profiles[l] ?? {} }));
     const primary = records[0];
@@ -107,6 +153,7 @@ export function buildPeople(
       if (seenKeys.has(nameKey(x.name))) continue;
       ringNames.push(compact({ ...x }) as RingName);
     }
+    for (const x of extraNames.get(id) ?? []) if (!seenKeys.has(nameKey(x.name))) ringNames.push(x);
 
     const pres = records.map((rec) => presentation[rec.legacy]).find(Boolean) ?? {};
     const placeholder = r.placeholder ?? pres.placeholder;
@@ -194,6 +241,7 @@ export function buildPeople(
       signatureMatches: (signature ?? []).map((m: any) =>
         compact({ segment: segRef(m.id), date: m.date, show: m.show, title: m.title, why: m.why, source: m.source }),
       ),
+      profile: parseLegacyProfile(html.biography, html.details),
       legacyHtml: html,
       sources: legacy === 'cody-rhodes' ? d.codyExplorer?.sources : undefined,
     });

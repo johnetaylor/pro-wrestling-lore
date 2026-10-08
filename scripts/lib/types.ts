@@ -91,6 +91,28 @@ export interface SignatureMatch {
   source?: Url;
 }
 
+export interface LinkRef {
+  label: string;
+  url: Url;
+}
+
+export interface Associate {
+  name: string;
+  meta?: string; // promotion and years, as written
+  note?: string;
+}
+
+/** Structured career profile, parsed from the v69 explorer text. */
+export interface CareerProfile {
+  intro?: string;
+  inBrief?: string;
+  trainedBy?: { text: string; links?: LinkRef[] };
+  signatureMoves?: { moves: string[]; note?: string; links?: LinkRef[] };
+  associates?: Associate[];
+  guestCornermen?: Associate[];
+  links?: LinkRef[];
+}
+
 export interface Person {
   id: string;
   name: string;
@@ -117,7 +139,8 @@ export interface Person {
     promotionPeriods?: PromotionPeriod[];
     relationships?: { feuds?: Relationship[]; factions?: Relationship[]; teams?: Relationship[] };
     signatureMatches?: SignatureMatch[];
-    /** v69 explorer content kept as HTML until the wrestler page has structured fields. */
+    profile?: CareerProfile;
+    /** v69 explorer content as rendered, kept for reference; pages use the structured fields. */
     legacyHtml?: Record<string, string>;
     sources?: Record<string, Url>;
   };

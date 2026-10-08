@@ -8,6 +8,7 @@ import { join } from 'node:path';
 import { parseArgs } from 'node:util';
 import { emptyDir, readGzipJson, readJson, writeJson, writeText } from '../../lib/util.ts';
 import { emptyMaps, MigrationLog } from './context.ts';
+import { applyCorrections } from './corrections.ts';
 import { buildIdentity } from './identity.ts';
 import { buildCalendar, buildFamilies, buildRatingsMethod, buildStorylines, legacyReports, legacySourceLedger } from './other.ts';
 import { buildPeople } from './people.ts';
@@ -28,6 +29,7 @@ const migrationDir = args.migration!;
 const snapshot = readGzipJson<any>(join(args.reference!, 'snapshot.json.gz'));
 const d = snapshot.data;
 const rendered = snapshot.rendered;
+const corrections = applyCorrections(d);
 const log = new MigrationLog();
 const maps = emptyMaps();
 
@@ -61,6 +63,7 @@ writeJson(join(outDir, 'sources', 'v69-ledger.json'), legacySourceLedger(d));
 
 writeJson(join(migrationDir, 'legacy-ids.json'), maps);
 writeJson(join(migrationDir, 'review-queue.json'), log.review);
+writeJson(join(migrationDir, 'corrections.json'), corrections);
 
 const segmentCount = [...shows.values()].reduce((n, s) => n + s.segments.length, 0);
 const counts = {
@@ -86,6 +89,12 @@ const lines = [
   '| Item | Count |',
   '| --- | ---: |',
   ...Object.entries(counts).map(([k, v]) => `| ${k} | ${v.toLocaleString('en-US')} |`),
+  '',
+  '## Corrections to v69',
+  '',
+  'Errors inherited from v69, fixed before migrating (see corrections.ts; parity applies the same fixes).',
+  '',
+  ...corrections.map((c) => `- **${c.kind}** ${c.target}: ${c.change}. ${c.reason} Sources: ${c.sources.join(', ')}`),
   '',
   '## Review queue',
   '',
