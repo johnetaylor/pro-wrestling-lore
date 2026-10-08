@@ -22,6 +22,9 @@ import { promotionPage, seriesPages, showsIndex, LANE_ORDER } from './pages/show
 import { titlePage, titlesIndex, titlePromotion } from './pages/titles.ts';
 import { wrestlersIndex } from './pages/wrestlers.ts';
 import { familiesIndex, familyPage, notFoundPage, searchPage, storylinePage, storylinesIndex } from './pages/misc.ts';
+import { appShell } from './components/appShell.ts';
+import { writeAppData } from './appData.ts';
+import { bundle } from './bundle.ts';
 
 const ROOT = join(import.meta.dirname, '..');
 const SITE = join(ROOT, 'site');
@@ -83,7 +86,7 @@ const minifyCss = (css: string) =>
     .replace(/\s*([{};,>])\s*/g, '$1')
     .replace(/;}/g, '}')
     .trim();
-const cssSource = ['tokens.css', 'base.css', 'components.css', 'pages.css']
+const cssSource = ['tokens.css', 'base.css', 'components.css', 'pages.css', 'app.css']
   .map((f) => readFileSync(join(SITE, 'styles', f), 'utf8'))
   .join('\n')
   .replace(/url\(\/assets\/([^)]+)\)/g, (m, name) => (files[name] ? `url(/assets/${files[name]})` : m));
@@ -94,11 +97,15 @@ for (const f of readdirSync(join(SITE, 'client')).filter((f) => f.endsWith('.ts'
   const code = stripTypeScriptTypes(readFileSync(join(SITE, 'client', f), 'utf8'), { mode: 'strip' });
   js[basename(f, '.ts')] = emit(`${basename(f, '.ts')}.js`, code);
 }
+// The explorer: one script built from site/app.
+js.app = emit('app.js', bundle(join(SITE, 'app', 'main.ts'), ROOT).code);
 
 // ---------- Data ----------
 
 const site = loadSite(join(ROOT, 'data'));
 const loaded = Date.now();
+const appData = writeAppData(site, OUT, buildDate);
+const dataDir = `/${appData.dir}/`;
 
 // Other ways people type the same thing: "WrestleMania 3" for III, "Starrcade 97", "US title".
 const ROMAN: Record<string, number> = { I: 1, II: 2, III: 3, IV: 4, V: 5, VI: 6, VII: 7, VIII: 8, IX: 9, X: 10, XI: 11, XII: 12, XIII: 13, XIV: 14, XV: 15, XVI: 16, XVII: 17, XVIII: 18, XIX: 19, XX: 20, XXI: 21, XXII: 22, XXIII: 23, XXIV: 24, XXV: 25, XXVI: 26, XXVII: 27, XXVIII: 28, XXIX: 29, XXX: 30, X8: 18, X7: 17 };
@@ -184,17 +191,27 @@ function write(rendered: { meta: PageMeta; body: Raw }, section = 'other') {
   }
 }
 
-write(homePage(site, buildDate, siteUrl), 'other');
+// Explorer pages: the app, with the static page inside it for readers and crawlers without scripts.
+const home = homePage(site, buildDate, siteUrl);
+const homeTitle = `Pro Wrestling Lore: ${home.meta.title}`;
+write({ meta: { ...home.meta, app: true }, body: appShell({ view: 'careers', data: dataDir, homeTitle, fallback: home.body }) }, 'other');
 write(wrestlersIndex(site), 'wrestlers');
-for (const p of site.people.values()) write(personPage(p, site, buildDate), 'wrestlers');
+for (const p of site.people.values()) {
+  const r = personPage(p, site, buildDate);
+  write({ meta: { ...r.meta, app: true }, body: appShell({ view: 'careers', data: dataDir, person: p.id, homeTitle, fallback: r.body }) }, 'wrestlers');
+}
 write(showsIndex(site), 'shows');
 for (const p of LANE_ORDER) if (site.promotions.has(p) && [...site.series.values()].some((s) => s.promotion === p && site.showsBySeries.get(s.id)?.length)) write(promotionPage(p, site), 'shows');
 for (const s of site.series.values()) if (site.showsBySeries.get(s.id)?.length) for (const r of seriesPages(s, site)) write(r, 'shows');
 for (const s of site.shows.values()) write(showPage(s, site), 'shows');
 write(titlesIndex(site, buildDate), 'titles');
 for (const t of site.titles.values()) write(titlePage(t, site, buildDate), 'titles');
-write(storylinesIndex(site), 'other');
-for (const s of site.storylines.values()) write(storylinePage(s, site), 'other');
+const stories = storylinesIndex(site);
+write({ meta: { ...stories.meta, app: true }, body: appShell({ view: 'storylines', data: dataDir, homeTitle, fallback: stories.body }) }, 'other');
+for (const s of site.storylines.values()) {
+  const r = storylinePage(s, site);
+  write({ meta: { ...r.meta, app: true }, body: appShell({ view: 'storylines', data: dataDir, story: s.id, promotion: s.promotion, homeTitle, fallback: r.body }) }, 'other');
+}
 write(familiesIndex(site), 'other');
 for (const f of site.families.values()) write(familyPage(f, site), 'other');
 write(searchPage());
@@ -219,10 +236,10 @@ if (production) {
   writeFileSync(join(OUT, 'robots.txt'), 'User-agent: *\nDisallow: /\n');
 }
 // Cache headers for hosts that read a _headers file (Cloudflare Pages, Netlify).
-writeFileSync(join(OUT, '_headers'), '/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n');
+writeFileSync(join(OUT, '_headers'), '/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n/data/*\n  Cache-Control: public, max-age=31536000, immutable\n');
 
 const indexed = [...sitemap.values()].reduce((a, l) => a + l.length, 0);
 console.log(
-  `Built ${pages.toLocaleString('en-US')} pages (${indexed.toLocaleString('en-US')} indexable) into ${opts.out} in ${((Date.now() - started) / 1000).toFixed(1)}s ` +
+  `Built ${pages.toLocaleString('en-US')} pages (${indexed.toLocaleString('en-US')} indexable) and ${appData.files} explorer data files into ${opts.out} in ${((Date.now() - started) / 1000).toFixed(1)}s ` +
     `(data ${((loaded - started) / 1000).toFixed(1)}s). ${production ? `Production build for ${siteUrl}.` : 'Preview build: robots blocked, every page noindex.'}`,
 );

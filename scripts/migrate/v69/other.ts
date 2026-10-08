@@ -96,6 +96,11 @@ export function buildStorylines(d: any, identity: Identity, shows: Map<string, S
         brands: s.brands,
         cast: s.cast,
         people: unique<string>((s.people ?? []).map((l: string) => identity.pid(l) ?? l)),
+        // Researched histories run from their first to their last milestone; the others are
+        // still going, so they have a start but no end.
+        start: s.start ?? chapters[0]?.date,
+        end: s.end,
+        source: s.source,
         chapters,
         legacyId: s.id,
       }) as Storyline,

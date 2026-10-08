@@ -17,24 +17,28 @@
   height: 46px;
   width: auto;
 }
+/* Section tabs, under the wordmark and search. */
 .site-nav {
   display: flex;
   gap: var(--s5);
+  overflow-x: auto;
+  scrollbar-width: none;
 }
 .site-nav a {
+  flex-shrink: 0;
   font-family: var(--font-display);
   font-size: var(--step-1);
   font-weight: 600;
   color: var(--text-2);
   text-decoration: none;
-  padding: var(--s1) 0;
+  padding: var(--s2) 0 var(--s2);
   border-bottom: 2px solid transparent;
 }
 .site-nav a:hover {
   color: var(--text);
 }
 .site-nav a[aria-current='page'] {
-  color: var(--text);
+  color: var(--accent);
   border-bottom-color: var(--accent);
 }
 

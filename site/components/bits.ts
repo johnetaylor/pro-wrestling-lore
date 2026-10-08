@@ -81,7 +81,14 @@ export function displayTitle(seg: Segment, people: Map<string, Person>): string 
   const comps = seg.participants.filter((p) => p.role === 'competitor');
   const names = seg.billing?.length === comps.length ? seg.billing : comps.map((p) => people.get(p.person)?.name ?? p.person);
   if (names.length === 2) return `${names[0]} vs. ${names[1]}`;
-  if (names.length > 2) return names.join(', ');
+  if (names.length > 2) {
+    // Teams of the same size, read from the result: "A and B vs. C and D".
+    const won = names.filter((_, i) => comps[i].outcome === 'win');
+    const lost = names.filter((_, i) => comps[i].outcome && comps[i].outcome !== 'win');
+    const team = (list: string[]) => (list.length === 2 ? list.join(' and ') : `${list.slice(0, -1).join(', ')} and ${list.at(-1)}`);
+    if (won.length >= 2 && won.length === lost.length && won.length + lost.length === names.length) return `${team(won)} vs. ${team(lost)}`;
+    return names.length <= 4 ? names.join(' vs. ') : names.join(', ');
+  }
   return t || 'Untitled segment';
 }
 

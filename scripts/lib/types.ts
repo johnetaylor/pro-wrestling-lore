@@ -279,6 +279,10 @@ export interface Storyline {
   brands?: string[];
   cast?: string[];
   people?: string[];
+  /** First milestone; end is the last milestone, absent while the story is still going. */
+  start?: IsoDate;
+  end?: IsoDate;
+  source?: Url;
   chapters: Chapter[];
   legacyId: string;
 }

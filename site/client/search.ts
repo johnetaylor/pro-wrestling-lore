@@ -145,10 +145,20 @@
     form.addEventListener('submit', (ev) => {
       ev.preventDefault();
       const target = active >= 0 ? results[active] : results.length && norm(results[0][1]) === norm(input.value) ? results[0] : null;
-      location.href = target ? target[2] : `/search/?q=${encodeURIComponent(input.value.trim())}`;
+      const url = target ? target[2] : `/search/?q=${encodeURIComponent(input.value.trim())}`;
+      // The explorer opens its own addresses in place; it cancels this event when it does.
+      if (window.dispatchEvent(new CustomEvent('pwl:navigate', { detail: url, cancelable: true }))) location.href = url;
+      else {
+        close();
+        input.blur();
+      }
     });
     document.addEventListener('click', (ev) => {
       if (!form.contains(ev.target as Node)) close();
+    });
+    list.addEventListener('click', () => {
+      close();
+      input.value = '';
     });
   }
 

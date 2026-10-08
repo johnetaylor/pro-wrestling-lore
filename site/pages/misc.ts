@@ -26,6 +26,7 @@ ${breadcrumbs([{ name: 'Storylines', url: '/storylines/' }, { name: story.title 
 </article>`;
   return {
     meta: {
+      nav: 'storylines',
       title: `${story.title}: the storyline, chapter by chapter`,
       description: (story.summary ?? `${story.title}, a ${promo?.name ?? ''} storyline told across ${plural(chapters.length, 'chapter')}.`).slice(0, 300),
       path: storylineUrl(story.id),
@@ -54,7 +55,7 @@ ${[...byPromo].sort((a, b) => b[1].length - a[1].length).map(([p, list]) => html
     .sort((a, b) => (b.dates.at(-1) ?? '').localeCompare(a.dates.at(-1) ?? ''))
     .map(({ s, dates }) => html`<li><a href="${storylineUrl(s.id)}">${s.title}</a><span class="quiet">${yearSpan(dates[0], dates.at(-1))}</span></li>`)}</ul></section>`)}`;
   return {
-    meta: { title: 'Storylines', description: `${plural(site.storylines.size, 'wrestling storyline')}, chapter by chapter, linked to the matches and promos that told them.`, path: '/storylines/', breadcrumbs: [{ name: 'Storylines', url: '/storylines/' }] },
+    meta: { nav: 'storylines', title: 'Storylines', description: `${plural(site.storylines.size, 'wrestling storyline')}, chapter by chapter, linked to the matches and promos that told them.`, path: '/storylines/', breadcrumbs: [{ name: 'Storylines', url: '/storylines/' }] },
     body,
   };
 }
@@ -94,6 +95,7 @@ ${fam.branches.map((b) => {
 </article>`;
   return {
     meta: {
+      nav: 'dynasties',
       title: `The ${name} wrestling family`,
       description: (fam.description ?? `The ${name} wrestling family: ${plural(fam.members.length, 'member')} and how they are related.`).slice(0, 300),
       path: familyUrl(fam.id),
@@ -114,7 +116,7 @@ ${breadcrumbs([{ name: 'Families' }])}
 <p class="lede">${plural(list.length, 'family', 'families')}, with each member linked to their career where we have one.</p>
 </header>
 <ul class="link-list link-list--cols">${list.map((f) => html`<li><a href="${familyUrl(f.id)}">${f.name.replace(/ · /g, ', ')}</a><span class="quiet">${plural(f.members.length, 'member')}</span></li>`)}</ul>`;
-  return { meta: { title: 'Wrestling families', description: `${plural(list.length, 'wrestling family', 'wrestling families')} and how their members are related.`, path: '/families/', breadcrumbs: [{ name: 'Families', url: '/families/' }] }, body };
+  return { meta: { nav: 'dynasties', title: 'Wrestling families', description: `${plural(list.length, 'wrestling family', 'wrestling families')} and how their members are related.`, path: '/families/', breadcrumbs: [{ name: 'Families', url: '/families/' }] }, body };
 }
 
 export function searchPage(): { meta: PageMeta; body: Raw } {

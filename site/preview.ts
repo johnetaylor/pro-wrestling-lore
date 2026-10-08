@@ -41,7 +41,7 @@ function rewriteUrl(url: string, own: string): string {
   if (url.startsWith('#')) return `${fileFor(own)}${url}`;
   if (!url.startsWith('/') || url.startsWith('//')) return url;
   const [path, fragment] = url.split('#');
-  if (path.startsWith('/assets/') || path === '/favicon.svg') return path.slice(1);
+  if (path.startsWith('/assets/') || path.startsWith('/data/') || path === '/favicon.svg') return path.slice(1);
   const clean = path.split('?')[0];
   if (!included.has(clean)) return MISSING;
   return `${fileFor(clean)}${fragment ? `#${fragment}` : ''}`;
@@ -61,7 +61,7 @@ for (const path of pages) {
   const src = join(DIST, fileFor(path));
   if (!existsSync(src)) throw new Error(`Not built: ${path}`);
   let doc = readFileSync(src, 'utf8');
-  doc = doc.replace(/\s(href|src|data-href|content)="([^"]*)"/g, (m, attr, url) => (attr === 'content' && !url.startsWith('/') ? m : ` ${attr}="${rewriteUrl(url, path)}"`));
+  doc = doc.replace(/\s(href|src|data-href|data-data|content)="([^"]*)"/g, (m, attr, url) => (attr === 'content' && !url.startsWith('/') ? m : ` ${attr}="${rewriteUrl(url, path)}"`));
   doc = doc.replace(/(srcset=")([^"]*)(")/g, (m, a, list, b) => a + list.replace(/\/assets\//g, 'assets/') + b);
   const base = depth(path) ? '../'.repeat(depth(path)) : '';
   doc = doc.replace('<head>\n', `<head>\n${base ? `<base href="${base}">\n` : ''}`);
@@ -75,7 +75,7 @@ for (const path of pages) {
     const body = /<body>([\s\S]*?)<\/body>/.exec(doc)![1];
     const keep = head
       .split('\n')
-      .filter((l) => /<title>|<link rel="stylesheet"|<meta name="search-index"|<meta name="description"|<script type="application\/ld\+json">/.test(l))
+      .filter((l) => /<title>|<link rel="stylesheet"|<meta name="search-index"|<meta name="description"|<script type="application\/ld\+json">|<script>document\.documentElement/.test(l))
       .join('\n');
     const titled = opts.title ? keep.replace(/<title>[^<]*<\/title>/, `<title>${opts.title}</title>`) : keep;
     writeFileSync(join(OUT, 'index.html'), `${titled}\n${body}`);
@@ -102,6 +102,11 @@ const copyTree = (from: string, to: string) => {
 };
 mkdirSync(join(OUT, 'assets'), { recursive: true });
 copyTree(join(DIST, 'assets'), join(OUT, 'assets'));
+// The explorer's data bundles, as they are.
+if (existsSync(join(DIST, 'data'))) {
+  mkdirSync(join(OUT, 'data'), { recursive: true });
+  copyTree(join(DIST, 'data'), join(OUT, 'data'));
+}
 copyFileSync(join(DIST, 'favicon.svg'), join(OUT, 'favicon.svg'));
 
 // The notice for pages left out.

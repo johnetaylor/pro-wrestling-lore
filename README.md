@@ -2,7 +2,7 @@
 
 A visual archive of pro wrestling history: every televised match and segment, with careers, title lineages, storylines and wrestling families shown as pictures first and the facts underneath.
 
-**Status:** rebuild in progress. Phase 0 (reference snapshot and audit) and Phase 1 (data model and migration) are done. Phase 2 (site generator, design system and SEO base) is built and in design review. The current site is at <https://wrestling-atlas.johnetaylor667212.chatgpt.site>.
+**Status:** rebuild in progress. Phase 0 (reference snapshot and audit) and Phase 1 (data model and migration) are done. Phase 2 built the site generator, design system and SEO base. The explorer (Careers, Statistics and Storylines) is rebuilt at parity with v69; Shows, Championships, Calendar and Dynasties are next. The current site is at <https://wrestling-atlas.johnetaylor667212.chatgpt.site>.
 
 ## Scope
 
@@ -40,7 +40,9 @@ SITE_URL=https://example.org npm run build -- --production   # canonical URLs, s
 
 ## The site
 
-Every page is a static HTML file built from `data/`. A wrestler page leads with the career strip: title reigns, every indexed match and segment as a dot, and runs in each promotion, on one time axis. Shows list their card in running order with linked names; championships show every reign on a single line. Search runs in the browser from a small index built with the site.
+The site is the explorer: every wrestler's career on one timeline, with a scrub bar to zoom and move through time, and each promotion's storylines on the same kind of timeline. It runs in the browser from compact data bundles the build writes to `dist/data/<version>/` (`core.json` for the timeline, then match details by year, profiles and storylines, each loaded when first needed). The code is in `site/app/`; `site/bundle.ts` joins it into one script.
+
+Every address is also a static page. `/wrestlers/hulk-hogan/` opens the timeline focused on Hogan, and `/storylines/bloodline/` opens that story; each of those pages carries the full static record as well, for readers without scripts and for search engines. Explorer states have addresses too (`?year=1998`, `?moment=…`, `?from=…&to=…`), so the back button and shared links work. Shows, championships and families are static pages until their explorer views are rebuilt. Search runs in the browser from a small index built with the site.
 
 The design keeps the v69 navy and cyan and the wordmark, sets everything in Barlow (Barlow Condensed for names and headings), and uses color only for meaning: gold for championships and pay-per-views, violet for promos and appearances, and one color per promotion. Fonts are self-hosted, so pages make no third-party requests.
 

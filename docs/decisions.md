@@ -22,6 +22,10 @@ Decided = Blimper's call. Default = proposed in the rebuild plan and standing un
 | Structured data | BreadcrumbList on every page, Person on wrestler pages, WebSite on the home page. SportsEvent waits until shows have venues, since Google flags events without a location | Default |
 | Inherited errors | Fixed before migrating, each with a reason and source (`scripts/migrate/v69/corrections.ts`); parity compares against v69 as corrected | Default |
 | Ring names from billing | A name a person was billed under twice or more, that belongs to no one else and isn't a team name, becomes a ring name with its first and last billing dates; names billed once go to review | Default |
+| The product | The interactive explorer from v69 (Careers timeline with the scrub bar, Statistics, Storylines by promotion, then Shows, Championships, Calendar and Dynasties) at parity; static pages are the version behind it for search engines and readers without scripts | Decided |
+| Explorer pages | `/` is Careers, `/wrestlers/<id>/` is Careers focused on that wrestler, `/storylines/` and `/storylines/<id>/` are Storylines; each is the app plus the static record as a fallback. States go in the query string (`year`, `moment`, `from`, `to`, `view`, `promotion`, `period`, `chapter`) | Default |
+| Explorer data | Content-addressed bundles under `/data/<hash>/`, cached forever: the timeline core (about 1.8 MB, 360 KB gzipped) up front; match details by year, profiles and storylines when first needed | Default |
+| Explorer zoom | The visible range always fits the screen; the scrub bar, sideways scrolling and pinch zoom change the range (v69's horizontal-scroll month mode is a zoom level instead) | Default |
 | Search | Own compact name index; no search service | Default |
 | Growth | Promotion waves from the bulk dataset, plus full-career completion for featured wrestlers | Default |
 | Weekly updates | A scheduled import drafts each new show as a pull request; a person approves | Default |

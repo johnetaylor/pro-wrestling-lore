@@ -40,6 +40,12 @@ All site data lives in `data/` as JSON, one file per record, so every change is 
 - `coverage.segments`: `reviewed-partial`, `not-indexed` or `unknown`. No show claims complete promo and appearance coverage.
 - Only confirmed broadcast material is published. Held-back rows stay in the private research repo.
 
+## Storylines
+
+- A storyline is a promotion's story told through dated chapters. `start` is the first researched milestone and `end` the last; a storyline without `end` is still going and is drawn through the archive date. Neither is a definitive start or end of the feud.
+- A chapter's `kind` is `match`, `title` (a championship match) or `story` (a promo, angle or appearance). `segment` links it to the archived match or segment when there is one; `showCategory` records a source's pay-per-view label.
+- `source` is the storyline's overall reference, when it has one; every chapter carries its own `sources`.
+
 ## Sources
 
 Every show and every segment has at least one source URL; people, reigns and chapters carry theirs. A bulk dataset is never the only source for a published match.
