@@ -34,6 +34,12 @@ const log = new MigrationLog();
 const maps = emptyMaps();
 
 const identity = buildIdentity(d.roster, log);
+// Found while building pages; needs sources before anything moves.
+log.queue({
+  kind: 'identity',
+  title: 'El Torito (WWF 1997, WWE 2014) is credited to Mascarita Sagrada; probably two or three different people',
+  records: ['mascarita-sagrada'],
+});
 const registry = buildRegistry(d);
 const { shows, appearances } = buildShows(d, identity, registry, maps, log);
 const people = buildPeople(d, rendered, identity, shows, appearances, maps, log);

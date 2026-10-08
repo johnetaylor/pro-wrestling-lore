@@ -40,6 +40,7 @@ Errors inherited from v69, fixed before migrating (see corrections.ts; parity ap
 - **identity-decision:** bravo-americano → tyler-bate (1) — applied
 - **identity-decision:** cruz-montana merged into mike-santana (2) — applied
 - **identity-decision:** eli-knight merged into ek-prosper (2) — applied
+- **identity:** El Torito (WWF 1997, WWE 2014) is credited to Mascarita Sagrada; probably two or three different people (1)
 - **show-merge:** NXT Countdown To Stand & Deliver and NXT Stand & Deliver share one show (2026-04-04) (2)
 - **show-merge:** Saturday Night's Main Event and Saturday Night's Main Event - Countdown share one show (2026-07-18) (2)
 - **show-merge:** Sunday Night's Main Event and Sunday Night's Main Event - Countdown share one show (2026-09-06) (2)
