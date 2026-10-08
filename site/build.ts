@@ -24,6 +24,7 @@ import { wrestlersIndex } from './pages/wrestlers.ts';
 import { familiesIndex, familyPage, notFoundPage, searchPage, storylinePage, storylinesIndex } from './pages/misc.ts';
 import { appShell } from './components/appShell.ts';
 import { calendarPage } from './pages/calendar.ts';
+import { coveragePage } from './pages/about.ts';
 import { writeAppData } from './appData.ts';
 import { bundle } from './bundle.ts';
 
@@ -212,6 +213,7 @@ for (const s of site.storylines.values()) write(explorer(storylinePage(s, site))
 write(explorer(calendarPage(site)), 'other');
 write(explorer(familiesIndex(site)), 'other');
 for (const f of site.families.values()) write(explorer(familyPage(f, site)), 'other');
+write(coveragePage(site, buildDate), 'other');
 write(searchPage());
 write(notFoundPage());
 

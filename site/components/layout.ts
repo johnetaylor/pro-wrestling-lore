@@ -15,7 +15,7 @@ export interface PageMeta {
   description: string;
   path: string; // absolute path beginning with /
   /** Which section tab is current. */
-  nav?: 'careers' | 'wrestlers' | 'storylines' | 'shows' | 'titles' | 'calendar' | 'dynasties' | 'home';
+  nav?: 'careers' | 'wrestlers' | 'storylines' | 'shows' | 'titles' | 'calendar' | 'dynasties' | 'home' | 'about';
   /** An explorer page: full-width frame, and the app script. */
   app?: boolean;
   breadcrumbs?: { name: string; url: string }[];
@@ -85,14 +85,14 @@ ${ld.map((d) => jsonLd(d))}
       <ul class="search__results" id="site-search-results" role="listbox" hidden></ul>
     </form>
   </div>
-  <nav class="${frame} site-nav" aria-label="Sections">${NAV.map((n) => html`<a href="${n.url}"${n.keys.includes(meta.nav) ? html` aria-current="page"` : ''}>${n.label}</a>`)}</nav>
+  <nav class="${frame} site-nav" aria-label="Sections">${NAV.map((n) => html`<a href="${n.url}"${n.keys.includes(meta.nav) ? html` aria-current="page"` : ''}>${n.label}</a>`)}<a class="site-nav__about" href="/about/"${meta.nav === 'about' ? html` aria-current="page"` : ''}>Coverage and sources</a></nav>
 </header>
 <main id="main" class="${frame}">
 ${body}
 </main>
 <footer class="site-footer">
   <div class="${frame}">
-    <nav class="footer-nav" aria-label="More"><a href="/">Careers</a> <a href="/wrestlers/">Wrestlers A to Z</a> <a href="/storylines/">Storylines</a> <a href="/shows/">Shows</a> <a href="/titles/">Championships</a> <a href="/calendar/">Calendar</a> <a href="/families/">Dynasties</a></nav>
+    <nav class="footer-nav" aria-label="More"><a href="/">Careers</a> <a href="/wrestlers/">Wrestlers A to Z</a> <a href="/storylines/">Storylines</a> <a href="/shows/">Shows</a> <a href="/titles/">Championships</a> <a href="/calendar/">Calendar</a> <a href="/families/">Dynasties</a> <a href="/about/">Coverage and sources</a></nav>
     <p>Pro Wrestling Lore indexes televised matches and segments only, never dark matches or house shows. Every record links to its source, and counts are records in this archive rather than complete career totals.</p>
     <p>Updated ${formatDate(ctx.buildDate)}. Set in Barlow, under the SIL Open Font License.</p>
   </div>

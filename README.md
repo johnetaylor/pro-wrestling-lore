@@ -53,6 +53,8 @@ It runs in the browser from compact data bundles the build writes to `dist/data/
 
 Every address is also a static page. `/wrestlers/hulk-hogan/` opens the timeline focused on Hogan, `/shows/wwe/wrestlemania/1987-03-29/` opens that card, `/titles/wwe-championship/` that title's history. Each page carries the full static record too, for readers without scripts and for search engines. Explorer states have addresses (`?year=1998`, `?moment=…`, `?reign=r12`), so the back button and shared links work. Search runs in the browser from a small index built with the site.
 
+`/about/` is Coverage and sources, v69's scope panel as a page: what counts, shows by promotion, how complete the cards are, how the PWL rating works and the most-cited sources. Its figures are counted from `data/` at build time, so they can't go stale.
+
 The design keeps the v69 navy and cyan and the wordmark, sets everything in Barlow (Barlow Condensed for names and headings), and uses color only for meaning: gold for championships and pay-per-views, violet for promos and appearances, and one color per promotion. Fonts are self-hosted, so pages make no third-party requests.
 
 Raw sources, staging data and the legacy export live in a private research repository.

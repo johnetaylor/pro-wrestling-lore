@@ -576,3 +576,53 @@ table.matches td.show {
     margin-right: calc(var(--s4) * -1);
   }
 }
+
+/* ---------- Coverage and sources ---------- */
+.prose-page {
+  max-width: 52rem;
+}
+.prose-page .section > p + p,
+.prose-page .section > p + .table-wrap,
+.prose-page .section > .table-wrap + h3,
+.prose-page .section > p + h3,
+.prose-page .section > h3 + p,
+.prose-page .section > p + .rules,
+.prose-page .section > .rules + .section-note,
+.prose-page .section > .section-note + .section-note,
+.prose-page .section > .table-wrap + .section-note {
+  margin-top: var(--s3);
+}
+.prose-page .section > h3 {
+  font-size: var(--step-1);
+  margin-bottom: var(--s2);
+}
+.prose-page .section-note {
+  margin-bottom: 0;
+}
+.rules {
+  margin: 0;
+  padding-left: 1.2em;
+  display: grid;
+  gap: var(--s2);
+  max-width: var(--measure);
+}
+.rules li::marker {
+  color: var(--text-3);
+}
+table.data--compact {
+  width: auto;
+  min-width: min(100%, 26rem);
+}
+table.data tbody th {
+  color: var(--text);
+  font-weight: 400;
+  white-space: normal;
+  border-bottom: 1px solid var(--rule);
+}
+table.data tfoot th,
+table.data tfoot td {
+  color: var(--text);
+  font-weight: 600;
+  border-top: 1px solid var(--rule-strong);
+  border-bottom: 0;
+}
