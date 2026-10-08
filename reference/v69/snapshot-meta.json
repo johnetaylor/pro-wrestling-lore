@@ -1,0 +1,260 @@
+{
+  "sha256OfJson": "8c926656de41c8befded3c359dd0ee2161ba832edfb8c530c2d317d30ba53e93",
+  "jsonBytes": 53055590,
+  "scriptsRun": 37,
+  "scriptsSkipped": [
+    "app.js"
+  ],
+  "scriptErrors": [],
+  "topLevelCounts": {
+    "roster": 2265,
+    "moments": 17473,
+    "sources": 32,
+    "rosterSources": 6,
+    "stories": 293,
+    "championships": 6,
+    "reigns": 46,
+    "storyMoments": 703,
+    "dynastySources": 45,
+    "dynasties": 25,
+    "profiles": 2265,
+    "broadcasts": 3257,
+    "broadcastCoverage": 4,
+    "yearRosters": 1,
+    "coverageByYear": 2,
+    "audit": 8,
+    "auditUI": 0,
+    "championshipLineages": 5,
+    "lineageUI": 0,
+    "matchRatings": 7,
+    "ratingUI": 0,
+    "showHistory": 3,
+    "ringsideImport": 15,
+    "importedEventNames": 92,
+    "ringsideUI": 0,
+    "fullArchive": 16,
+    "archiveBrands": 2195,
+    "archiveStats": 1104,
+    "rawBackfill": 2,
+    "showsUI": 4,
+    "careerPresentation": 3,
+    "hoganMatchReview": 3,
+    "hoganCareer": 5,
+    "hoganPeriods": 25,
+    "careerRelationshipData": 2,
+    "hoganWorkbook": 7,
+    "careerReigns": 902,
+    "careerReignCoverage": 4,
+    "codyMatchCoverage": 5,
+    "codyExplorer": 2,
+    "careerRivalries": 0,
+    "hoganExplorer": 1,
+    "careerExplorers": 2,
+    "careerRelationships": 0,
+    "statisticsQuality": 2,
+    "calendarData": 7,
+    "calendarUI": 0,
+    "careerPromotions": 1,
+    "storyPromotions": 6,
+    "storyCatalogResearch": 4
+  },
+  "renderedExplorers": [
+    "cody-rhodes",
+    "archive-person-hulkhogan"
+  ],
+  "renderedRelationships": [
+    "cody-rhodes",
+    "archive-person-hulkhogan"
+  ],
+  "scripts": [
+    {
+      "file": "data.js",
+      "status": "ok",
+      "sha256": "4bf57f3e008836f81fe5640e33b60523f6894eed1d120969448c875701951f40"
+    },
+    {
+      "file": "expansion.js",
+      "status": "ok",
+      "sha256": "60bea524befd40bb8d47857b19f1b6276cc9f9790c0c4007167059542676283f"
+    },
+    {
+      "file": "portraits.js",
+      "status": "ok",
+      "sha256": "c5476c43c52434f1d37337f71a9da3ea36a1b6cf953e0afa8113abe7e2e8982a"
+    },
+    {
+      "file": "championships.js",
+      "status": "ok",
+      "sha256": "21c13c2d7092d984252abe197b9e61e1329e35db634cc72eb78e97d79f90b34e"
+    },
+    {
+      "file": "history.js",
+      "status": "ok",
+      "sha256": "0d38d6b63b2aeedb0c0797531d5ccad8ed045e5091fc8e862e1912004723c96a"
+    },
+    {
+      "file": "dynasties.js",
+      "status": "ok",
+      "sha256": "466ba36314931bce35a3808c5046eb5989a091a180324a24dbe8e9e2b52b7dbb"
+    },
+    {
+      "file": "profiles.js",
+      "status": "ok",
+      "sha256": "eb97c4e03ad19e670d19b21d87d9aa0bddc82518fec893dfaab07629f77e775c"
+    },
+    {
+      "file": "broadcasts-2026.js",
+      "status": "ok",
+      "sha256": "bc2d760664880fe7383b5b0c92a007ccbaf45abeb54d3343deee9cafa77d5894"
+    },
+    {
+      "file": "broadcasts-2025.js",
+      "status": "ok",
+      "sha256": "1a533ce5d6008aecde13b571e337bed20486ccca3c531ae869c137ea80b7ffbb"
+    },
+    {
+      "file": "audit-data.js",
+      "status": "ok",
+      "sha256": "273a5d09cb44785e34dae67b774aee6e3fb8b7e366337b5c90773ef4f0b78b0d"
+    },
+    {
+      "file": "audit-ui.js",
+      "status": "ok",
+      "sha256": "5ed5a91ff3228c072db28a442be2dc32c3038e68ac0ce2aec80ac1eb523ddb9d"
+    },
+    {
+      "file": "championship-lineages.js",
+      "status": "ok",
+      "sha256": "5e0c6cc2b56825253028c31f88a17402b10f9cadbb562095f04755aa2f552706"
+    },
+    {
+      "file": "lineage-ui.js",
+      "status": "ok",
+      "sha256": "46714a376a8bcc1a60baf7aae766c44977c5c373a5b27108561a095e4dcf1864"
+    },
+    {
+      "file": "match-ratings-data.js",
+      "status": "ok",
+      "sha256": "556ad9b4790ad45dcfe7dee8fee86c7e9961cfc60a114226a975c942494d3e6e"
+    },
+    {
+      "file": "match-ratings.js",
+      "status": "ok",
+      "sha256": "812249f8f252516711c3e98b950e1595d9f6b3f76537f4626be62ff143403eb2"
+    },
+    {
+      "file": "shows-history.js",
+      "status": "ok",
+      "sha256": "4c8e5a84d5b711af46de9b67af2725f602ebaa292667f432b40357ff048a5fe1"
+    },
+    {
+      "file": "ringside-data.js",
+      "status": "ok",
+      "sha256": "7715eb30971a8a25371b851fb345cc51ab3f1dc25256f0d7d8c57a599493e719"
+    },
+    {
+      "file": "ringside-ui.js",
+      "status": "ok",
+      "sha256": "3ec92d47df1854eb908b65de563c90b3252b9461e7fd7a1591c38fc4e6be7095"
+    },
+    {
+      "file": "full-archive.js",
+      "status": "ok",
+      "sha256": "ee1deac63aa5fb54fa1294a75da8ce0372e03c3f15b3c71ade0bb2ce03adf355"
+    },
+    {
+      "file": "raw-backfill.js",
+      "status": "ok",
+      "sha256": "2b557c2f9e12291eb51c92760e325051b5b5da9fc6955db6db82e00342c55d04"
+    },
+    {
+      "file": "shows-ui.js",
+      "status": "ok",
+      "sha256": "1e7f6d84a7f95ceaed1a174d8531cc494b38cf908c31599074c8d0ac80628a55"
+    },
+    {
+      "file": "career-spans.js",
+      "status": "ok",
+      "sha256": "52c97cc4b9d3cc020d989a36c2de87b448d498bff8a38b6c8cb3d66a8f7d21ff"
+    },
+    {
+      "file": "career-presentation.js",
+      "status": "ok",
+      "sha256": "8495b73d9207912ed051d84e2470d05689babeec1f70b43f567cba4c8e01e45f"
+    },
+    {
+      "file": "dynasty-career-links.js",
+      "status": "ok",
+      "sha256": "aedb06ad508ff0c353db57661cb313ae5a28d8421ad2d7e8af5fdace67596dd5"
+    },
+    {
+      "file": "hogan-match-review.js",
+      "status": "ok",
+      "sha256": "879c63340978f287685ed44b607105731ab630e63c176ed39138461934858822"
+    },
+    {
+      "file": "hogan-career-data.js",
+      "status": "ok",
+      "sha256": "bc1807b5309149fd54a06aafb355815a56b15adb118c0594cae81c700ef33fe7"
+    },
+    {
+      "file": "hogan-workbook-data.js",
+      "status": "ok",
+      "sha256": "5a91f4bac6308da09b1014fe9b459ecbc1b85410ca4dbc0ef9ce43a752f46d11"
+    },
+    {
+      "file": "career-reigns.js",
+      "status": "ok",
+      "sha256": "66e793b0c5337a2a0f1b85781beddd8a5f5311a4aee4b66ceceff04400c61c29"
+    },
+    {
+      "file": "cody-matches.js",
+      "status": "ok",
+      "sha256": "035a973181dbf4a94d61c72a69b025e8e66563080af2d2471c07c1ed4a197ddf"
+    },
+    {
+      "file": "cody-explorer.js",
+      "status": "ok",
+      "sha256": "b26268f9a0e714398b19ede701e69b90a282c68d697402b8531303a0efdd48d3"
+    },
+    {
+      "file": "career-rivalries.js",
+      "status": "ok",
+      "sha256": "72f6d14378416879ecf7184947f330490604c5513c7523125e085453b4c73fd2"
+    },
+    {
+      "file": "career-explorers.js",
+      "status": "ok",
+      "sha256": "641eeee832919cb7ded352232f126d7616eda3d08b4ac5b12210ad6d9fd8d4f1"
+    },
+    {
+      "file": "statistics-data.js",
+      "status": "ok",
+      "sha256": "a5dc033cf7c3187d0f21f39d160a50cb4999fa80f65f94d52f446ae915c758f9"
+    },
+    {
+      "file": "calendar-data.js",
+      "status": "ok",
+      "sha256": "56aeb57894d5ffcc9fea663dd10e6624db79f6573bffac13d769edaad8d742af"
+    },
+    {
+      "file": "calendar-ui.js",
+      "status": "ok",
+      "sha256": "7c20bad904eddf4df3f0b9ffef660735a0f3491f644853c83394f6c5cc4e443c"
+    },
+    {
+      "file": "career-promotions.js",
+      "status": "ok",
+      "sha256": "061c779a0a4bae133f221fd93250051ab22e4af49bedbc2754d7ce7ae793b91e"
+    },
+    {
+      "file": "story-catalog.js",
+      "status": "ok",
+      "sha256": "6d94c66cf1be909ef40cd6364bc0f5bb7b46f359847a215d2e0711bb66064b9f"
+    },
+    {
+      "file": "app.js",
+      "status": "skipped (render-only)"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "pro-wrestling-lore",
+  "private": true,
+  "type": "module",
+  "description": "A visual archive of televised pro wrestling history.",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "audit:reference": "node scripts/reference/audit.mjs reference/v69"
+  }
+}

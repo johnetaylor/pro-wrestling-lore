@@ -1,0 +1,2517 @@
+{
+ "snapshotSha256": "8c926656de41c8befded3c359dd0ee2161ba832edfb8c530c2d317d30ba53e93",
+ "counts": {
+  "people": 2265,
+  "peopleByScheme": {
+   "archive-person-*": 1992,
+   "curated slug": 231,
+   "hf-person-*": 42
+  },
+  "peopleByGenderPlaceholder": {
+   "male": 2054,
+   "female": 211
+  },
+  "genderByScheme": {
+   "curated slug": {
+    "male": 231
+   },
+   "hf-person-*": {
+    "female": 38,
+    "male": 4
+   },
+   "archive-person-*": {
+    "female": 173,
+    "male": 1819
+   }
+  },
+  "moments": 17473,
+  "momentsByKind": {
+   "match": 13888,
+   "title": 2710,
+   "story": 875
+  },
+  "momentsBySegmentType": {
+   "match": 16562,
+   "promo": 470,
+   "appearance": 405,
+   "(none)": 36
+  },
+  "momentYears": {
+   "first": "1979",
+   "last": "2026"
+  },
+  "shows": 3257,
+  "showsByCategory": {
+   "Raw": 1345,
+   "SmackDown": 1196,
+   "PLE / special": 447,
+   "NXT": 255,
+   "PLE": 13,
+   "TV special": 1
+  },
+  "showsTabArchive": 3772,
+  "cardEntries": 16367,
+  "careerReigns": 902,
+  "titlesWithReigns": 184,
+  "lineageTitles": 18,
+  "storylines": 293,
+  "storylinesByPromotion": {
+   "njpw": 55,
+   "wcw": 52,
+   "aew": 50,
+   "wwe": 47,
+   "tna": 45,
+   "ecw": 44
+  },
+  "storyChapters": 703,
+  "families": 25,
+  "familyMembers": 147,
+  "ratedMatches": 380,
+  "calendarEvents": 63,
+  "calendarWeeklyEvents": 129,
+  "profilesWithDebut": 188,
+  "profilesPartial": 2076,
+  "profilesWithCagematchTotals": 107
+ },
+ "findings": [
+  {
+   "severity": "high",
+   "area": "Moments",
+   "title": "Likely double-counted matches",
+   "count": 106,
+   "detail": "Same date and same participants under different IDs. Usually one bout recorded twice (mirrored names, a generic title next to a named one); sometimes a real second bout (a restart, a two-fall match). The old site already leaves 106 matches out of its statistics; each group needs a merge-or-keep decision.",
+   "sample": [
+    "2026-06-19 Cody Rhodes vs. Gunther → 2026-06-19-smackdown-match-1, 2026-06-19-smackdown-match-2",
+    "1998-07-13 Kane, Mankind vs. Billy Gunn, Road Dogg → bulk-match-30846, bulk-match-30849",
+    "1999-09-13 Singles match → bulk-match-36007, bulk-match-36012",
+    "2000-04-02 Chris Benoit vs. Chris Jericho, Kurt Angle → bulk-match-38637, bulk-match-38638",
+    "2001-01-22 Al Snow vs. Raven → bulk-match-41579, bulk-match-41580",
+    "2001-07-10 4-person match → bulk-match-42748, bulk-match-164269",
+    "2001-09-10 Kurt Angle vs. Rob Van Dam → bulk-match-43125, bulk-match-43126",
+    "2001-10-16 Singles match → bulk-match-43377, bulk-match-163640",
+    "2002-01-21 William Regal vs. Edge → bulk-match-162973, bulk-match-44000",
+    "2002-01-21 Singles match → bulk-match-162974, bulk-match-44001"
+   ]
+  },
+  {
+   "severity": "high",
+   "area": "Coverage",
+   "title": "Weekly-show years with fewer than 45 indexed cards",
+   "count": 36,
+   "detail": "Full years (Raw from 1994, SmackDown from 2000, NXT from 2011, through 2025) where fewer than 45 of roughly 52 episodes have an indexed card. Wave 1 fills these.",
+   "sample": [
+    "Raw 1994: 0 with cards, 49 listed",
+    "Raw 1995: 5 with cards, 50 listed",
+    "Raw 1996: 2 with cards, 51 listed",
+    "Raw 1997: 43 with cards, 50 listed",
+    "Raw 2011: 34 with cards, 52 listed",
+    "Raw 2012: 22 with cards, 53 listed",
+    "Raw 2015: 44 with cards, 52 listed",
+    "Raw 2016: 37 with cards, 52 listed",
+    "Raw 2017: 42 with cards, 42 listed",
+    "Raw 2020: 26 with cards, 46 listed",
+    "Raw 2021: 29 with cards, 52 listed",
+    "Raw 2022: 33 with cards, 34 listed",
+    "Raw 2023: 42 with cards, 46 listed",
+    "SmackDown 2012: 41 with cards, 41 listed"
+   ]
+  },
+  {
+   "severity": "medium",
+   "area": "People",
+   "title": "Same name under different IDs within one scheme",
+   "count": 3,
+   "detail": "Usually different people who share a ring name, sometimes one person split in two. Review case by case.",
+   "sample": [
+    "El Grande Americano → chad-gable, el-grande-americano",
+    "Mike Santana → cruz-montana, mike-santana",
+    "Eli Knight → ek-prosper, eli-knight"
+   ]
+  },
+  {
+   "severity": "medium",
+   "area": "People",
+   "title": "Gender comes from portrait placeholders",
+   "count": 2265,
+   "detail": "Gender is only recorded as a placeholder image choice (male: 2054, female: 211). The bulk source defaults most people to male, so this needs verification before women's divisions launch.",
+   "sample": []
+  },
+  {
+   "severity": "medium",
+   "area": "Moments",
+   "title": "Competitor lists mix teams, members and guests",
+   "count": 211,
+   "detail": "More competitor names than linked people: team names sit next to their members (\"The MFTs\", \"Solo Sikoa\", ...) and some guests have no profile. The new model stores teams as their own records.",
+   "sample": [
+    "2026-01-09-smackdown-match-3: The MFTs vs Solo Sikoa vs Talla Tonga vs Tama Tonga vs Tonga Loa vs The Wyatt Sicks vs Dexter Lumis vs Erick Rowan vs Joe Gacy vs Uncle Howdy",
+    "2026-01-12-raw-match-3: Dragon Lee vs Penta vs The Vision vs Austin Theory vs Bronson Reed",
+    "2026-01-19-raw-match-2: LWO vs Dragon Lee vs Rey Mysterio vs Penta vs The Vision vs Austin Theory vs Bronson Reed vs Logan Paul",
+    "2026-01-20-nxt-match-3: The Vanity Project vs Brad Baylor vs Ricky Smokes vs Chase U vs Kale Dixon vs Uriah Connors",
+    "2026-01-23-smackdown-match-3: The MFTs vs Solo Sikoa vs Tama Tonga vs The Wyatt Sicks vs Dexter Lumis vs Joe Gacy",
+    "m49: Alpha Academy vs Akira Tozawa vs Otis vs American Made vs Brutus Creed vs Julius Creed vs Los Americanos vs Bravo Americano vs Rayo Americano vs The New Day vs Kofi Kingston vs Xavier Woods"
+   ]
+  },
+  {
+   "severity": "medium",
+   "area": "Shows",
+   "title": "Card matches missing from career data",
+   "count": 40,
+   "detail": "Matches on show cards that no career strip shows; 40 have no linked participants at all (for example 2025 women's title matches whose title field holds a single name).",
+   "sample": [
+    "2025-12-29-raw: \"Stephanie Vaquer\"",
+    "2025-12-15-raw: \"Maxxine Dupri\"",
+    "2025-12-15-raw: \"Stephanie Vaquer\"",
+    "2025-11-25-nxt: \"Kendal Grey\"",
+    "2025-11-18-nxt: \"Blake Monroe\"",
+    "2025-11-10-raw: \"Stephanie Vaquer\""
+   ]
+  },
+  {
+   "severity": "medium",
+   "area": "Titles",
+   "title": "Different holders overlapping on one title",
+   "count": 1,
+   "detail": "Two holders at once. A few are real (unrecognized champions, brand splits), most are date errors.",
+   "sample": [
+    "MLW Caribbean Heavyweight Championship: El Mesías (2021-07-10 to 2022-05-12) overlaps Octagón Jr. (from 2022-03-31)"
+   ]
+  },
+  {
+   "severity": "medium",
+   "area": "Titles",
+   "title": "Championship names need one registry",
+   "count": 185,
+   "detail": "Reigns name 185 distinct titles, but one championship often appears under several spellings; the WWE Championship alone appears as \"Undisputed WWE Championship\", \"/Undisputed WWE Championship\", \"WWE Championship\", \"WWE World Heavyweight/WWE Championship\", \"WWF / WWE Championship\". 1 name is malformed (stray punctuation). Migration maps every spelling to one title record with its lineage.",
+   "sample": [
+    "/Undisputed WWE Championship"
+   ]
+  },
+  {
+   "severity": "low",
+   "area": "Titles",
+   "title": "One team reign stored once per member",
+   "count": 94,
+   "detail": "Same title, same start, shared holder. Migration merges each set into one reign with its members.",
+   "sample": [
+    "/Undisputed WWE Championship: Drew McIntyre from 2026-01-09 (undisputed-wwe-2 + profile-reign-drew-mcintyre-194)",
+    "/Undisputed WWE Championship: CM Punk from 2026-07-06 (undisputed-wwe-5 + profile-reign-cm-punk-96)",
+    "WWE Tag Team Championship: Tama Tonga & Jacob Fatu & Tonga Loa from 2024-08-02 (profile-reign-jacob-fatu-322 + profile-reign-tama-tonga-787)",
+    "AAA World Trios Championship: Psycho Clown & Murder Clown & Monster Clown from 2012-03-11 (profile-reign-monster-clown-440 + profile-reign-murder-clown-453)",
+    "AAA World Trios Championship: Psycho Clown & Murder Clown & Monster Clown from 2012-03-11 (profile-reign-monster-clown-440 + profile-reign-psycho-clown-544)",
+    "AAA World Trios Championship: Psycho Clown & Murder Clown & Monster Clown from 2013-02-18 (profile-reign-monster-clown-439 + profile-reign-murder-clown-452)"
+   ]
+  },
+  {
+   "severity": "info",
+   "area": "People",
+   "title": "Same name under different ID schemes",
+   "count": 0,
+   "detail": "A name or alias maps to IDs from different schemes (curated, archive-person, hf-person). Each needs a merge decision before one-ID-per-person.",
+   "sample": []
+  },
+  {
+   "severity": "info",
+   "area": "Shows",
+   "title": "Shows tab lists more episodes than the career data",
+   "count": 515,
+   "detail": "Episodes in the Shows archive with no record in the main show list (listed without indexed cards). They migrate as shows with coverage \"listed only\".",
+   "sample": [
+    "Raw: 357",
+    "AEW Collision: 33",
+    "Lucha Libre AAA: 32",
+    "AEW Dynamite: 29",
+    "AEW Dynamite & Collision: 8",
+    "PLE / special: 3",
+    "SmackDown: 2",
+    "NXT: 2"
+   ]
+  },
+  {
+   "severity": "info",
+   "area": "Titles",
+   "title": "Same holder, conflicting reign dates",
+   "count": 0,
+   "detail": "Two records of one holder overlap with different start dates; one of the dates is wrong.",
+   "sample": []
+  },
+  {
+   "severity": "info",
+   "area": "Families",
+   "title": "Family members without a career link",
+   "count": 78,
+   "detail": "Of 147 family members, these have no career page link yet; many are historical relatives.",
+   "sample": []
+  },
+  {
+   "severity": "info",
+   "area": "Sources",
+   "title": "Where moment sources point",
+   "count": 17473,
+   "detail": "Top source sites for moments. Records citing only the bulk dataset need an independent source before they count as verified.",
+   "sample": [
+    "thehistoryofwwe.com: 10822",
+    "wwe.com: 5107",
+    "thesmackdownhotel.com: 893",
+    "cagematch.net: 628",
+    "allelitewrestling.com: 11",
+    "njpw1972.com: 3",
+    "wrestleview.com: 3",
+    "en.wikipedia.org: 2"
+   ]
+  }
+ ],
+ "details": {
+  "nameCollisions": [
+   {
+    "names": [
+     "El Grande Americano"
+    ],
+    "ids": [
+     "chad-gable",
+     "el-grande-americano"
+    ],
+    "schemes": [
+     "curated slug"
+    ]
+   },
+   {
+    "names": [
+     "Mike Santana"
+    ],
+    "ids": [
+     "cruz-montana",
+     "mike-santana"
+    ],
+    "schemes": [
+     "curated slug"
+    ]
+   },
+   {
+    "names": [
+     "Eli Knight"
+    ],
+    "ids": [
+     "ek-prosper",
+     "eli-knight"
+    ],
+    "schemes": [
+     "curated slug"
+    ]
+   }
+  ],
+  "orphanPeople": {},
+  "likelyDuplicateMatches": [
+   [
+    {
+     "id": "2026-06-19-smackdown-match-1",
+     "date": "2026-06-19",
+     "show": "SmackDown",
+     "title": "Cody Rhodes vs. Gunther",
+     "source": "https://www.cagematch.net/?id=1&nr=448747"
+    },
+    {
+     "id": "2026-06-19-smackdown-match-2",
+     "date": "2026-06-19",
+     "show": "SmackDown",
+     "title": "Gunther vs. Cody Rhodes by DQ",
+     "source": "https://www.cagematch.net/?id=1&nr=448747"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-30846",
+     "date": "1998-07-13",
+     "show": "Raw",
+     "title": "Kane, Mankind vs. Billy Gunn, Road Dogg",
+     "source": "https://thehistoryofwwe.com/wwf-results-1998/"
+    },
+    {
+     "id": "bulk-match-30849",
+     "date": "1998-07-13",
+     "show": "Raw",
+     "title": "4-person match",
+     "source": "https://thehistoryofwwe.com/wwf-results-1998/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-36007",
+     "date": "1999-09-13",
+     "show": "Raw",
+     "title": "Singles match",
+     "source": "https://thehistoryofwwe.com/wwf-results-1999/"
+    },
+    {
+     "id": "bulk-match-36012",
+     "date": "1999-09-13",
+     "show": "Raw",
+     "title": "Triple H vs. Steve Austin",
+     "source": "https://thehistoryofwwe.com/wwf-results-1999/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-38637",
+     "date": "2000-04-02",
+     "show": "WrestleMania 2000",
+     "title": "Chris Benoit vs. Chris Jericho, Kurt Angle",
+     "source": "https://thehistoryofwwe.com/wwf-results-2000/"
+    },
+    {
+     "id": "bulk-match-38638",
+     "date": "2000-04-02",
+     "show": "WrestleMania 2000",
+     "title": "Chris Jericho vs. Chris Benoit, Kurt Angle",
+     "source": "https://thehistoryofwwe.com/wwf-results-2000/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-41579",
+     "date": "2001-01-22",
+     "show": "Raw",
+     "title": "Al Snow vs. Raven",
+     "source": "https://thehistoryofwwe.com/wwf-results-2001/"
+    },
+    {
+     "id": "bulk-match-41580",
+     "date": "2001-01-22",
+     "show": "Raw",
+     "title": "Raven vs. Al Snow",
+     "source": "https://thehistoryofwwe.com/wwf-results-2001/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-42748",
+     "date": "2001-07-10",
+     "show": "SmackDown",
+     "title": "4-person match",
+     "source": "https://thehistoryofwwe.com/wwf-results-2001/"
+    },
+    {
+     "id": "bulk-match-164269",
+     "date": "2001-07-10",
+     "show": "SmackDown",
+     "title": "4-person match",
+     "source": "https://thehistoryofwwe.com/wwf-results-2001/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-43125",
+     "date": "2001-09-10",
+     "show": "Raw",
+     "title": "Kurt Angle vs. Rob Van Dam",
+     "source": "https://thehistoryofwwe.com/wwf-results-2001/"
+    },
+    {
+     "id": "bulk-match-43126",
+     "date": "2001-09-10",
+     "show": "Raw",
+     "title": "Rob Van Dam vs. Kurt Angle",
+     "source": "https://thehistoryofwwe.com/wwf-results-2001/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-43377",
+     "date": "2001-10-16",
+     "show": "SmackDown",
+     "title": "Singles match",
+     "source": "https://thehistoryofwwe.com/wwf-results-2001/"
+    },
+    {
+     "id": "bulk-match-163640",
+     "date": "2001-10-16",
+     "show": "SmackDown",
+     "title": "Singles match",
+     "source": "https://thehistoryofwwe.com/wwf-results-2001/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-162973",
+     "date": "2002-01-21",
+     "show": "Raw",
+     "title": "William Regal vs. Edge",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    },
+    {
+     "id": "bulk-match-44000",
+     "date": "2002-01-21",
+     "show": "Raw",
+     "title": "William Regal vs. Edge",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-162974",
+     "date": "2002-01-21",
+     "show": "Raw",
+     "title": "Singles match",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    },
+    {
+     "id": "bulk-match-44001",
+     "date": "2002-01-21",
+     "show": "Raw",
+     "title": "Singles match",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-162976",
+     "date": "2002-01-21",
+     "show": "Raw",
+     "title": "The Rock, Triple H vs. Chris Jericho, Kurt Angle",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    },
+    {
+     "id": "bulk-match-44003",
+     "date": "2002-01-21",
+     "show": "Raw",
+     "title": "The Rock, Triple H vs. Chris Jericho, Kurt Angle",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-44266",
+     "date": "2002-02-26",
+     "show": "SmackDown",
+     "title": "Maven vs. Goldust",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    },
+    {
+     "id": "bulk-match-44268",
+     "date": "2002-02-26",
+     "show": "SmackDown",
+     "title": "Goldust vs. Maven",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-44652",
+     "date": "2002-05-04",
+     "show": "Insurrextion '02",
+     "title": "Booker T. vs. Steven Richards",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    },
+    {
+     "id": "bulk-match-44655",
+     "date": "2002-05-04",
+     "show": "Insurrextion '02",
+     "title": "Steven Richards vs. Booker T.",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-44759",
+     "date": "2002-05-27",
+     "show": "Raw",
+     "title": "Terri vs. Steven Richards",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    },
+    {
+     "id": "bulk-match-44760",
+     "date": "2002-05-27",
+     "show": "Raw",
+     "title": "Steven Richards vs. Terri",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-44817",
+     "date": "2002-06-11",
+     "show": "SmackDown",
+     "title": "Hardcore Holly vs. Tajiri",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    },
+    {
+     "id": "bulk-match-162146",
+     "date": "2002-06-11",
+     "show": "SmackDown",
+     "title": "Hardcore Holly vs. Tajiri",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-44819",
+     "date": "2002-06-11",
+     "show": "SmackDown",
+     "title": "Faarooq vs. D-Von Dudley",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    },
+    {
+     "id": "bulk-match-162148",
+     "date": "2002-06-11",
+     "show": "SmackDown",
+     "title": "Faarooq vs. D-Von Dudley",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-44820",
+     "date": "2002-06-11",
+     "show": "SmackDown",
+     "title": "Linda Miles, Trish Stratus vs. Ivory, Jackie Gayda",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    },
+    {
+     "id": "bulk-match-162149",
+     "date": "2002-06-11",
+     "show": "SmackDown",
+     "title": "Linda Miles, Trish Stratus vs. Ivory, Jackie Gayda",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-44988",
+     "date": "2002-07-15",
+     "show": "Raw",
+     "title": "Johnny Stamboli vs. Bradshaw",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    },
+    {
+     "id": "bulk-match-44989",
+     "date": "2002-07-15",
+     "show": "Raw",
+     "title": "Bradshaw vs. Johnny Stamboli",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-161762",
+     "date": "2002-08-27",
+     "show": "SmackDown",
+     "title": "Rikishi vs. Eddie Guerrero",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    },
+    {
+     "id": "bulk-match-45205",
+     "date": "2002-08-27",
+     "show": "SmackDown",
+     "title": "Rikishi vs. Eddie Guerrero",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-161763",
+     "date": "2002-08-27",
+     "show": "SmackDown",
+     "title": "Shannon Moore vs. Tajiri",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    },
+    {
+     "id": "bulk-match-45206",
+     "date": "2002-08-27",
+     "show": "SmackDown",
+     "title": "Shannon Moore vs. Tajiri",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-161764",
+     "date": "2002-08-27",
+     "show": "SmackDown",
+     "title": "Chris Benoit vs. Rikishi",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    },
+    {
+     "id": "bulk-match-45207",
+     "date": "2002-08-27",
+     "show": "SmackDown",
+     "title": "Chris Benoit vs. Rikishi",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-161765",
+     "date": "2002-08-27",
+     "show": "SmackDown",
+     "title": "Brock Lesnar vs. Matt Hardy",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    },
+    {
+     "id": "bulk-match-45208",
+     "date": "2002-08-27",
+     "show": "SmackDown",
+     "title": "Brock Lesnar vs. Matt Hardy",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-161766",
+     "date": "2002-08-27",
+     "show": "SmackDown",
+     "title": "The Undertaker vs. Chris Benoit, Kurt Angle",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    },
+    {
+     "id": "bulk-match-45209",
+     "date": "2002-08-27",
+     "show": "SmackDown",
+     "title": "The Undertaker vs. Chris Benoit, Kurt Angle",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-45256",
+     "date": "2002-09-02",
+     "show": "Raw",
+     "title": "Terri vs. Stacy Keibler",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    },
+    {
+     "id": "bulk-match-161715",
+     "date": "2002-09-02",
+     "show": "Raw",
+     "title": "Terri vs. Stacy Keibler",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-45257",
+     "date": "2002-09-02",
+     "show": "Raw",
+     "title": "Ric Flair, Rob Van Dam vs. Chris Jericho, Triple H",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    },
+    {
+     "id": "bulk-match-161716",
+     "date": "2002-09-02",
+     "show": "Raw",
+     "title": "Ric Flair, Rob Van Dam vs. Chris Jericho, Triple H",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-161436",
+     "date": "2002-10-29",
+     "show": "SmackDown",
+     "title": "Matt Hardy vs. Tajiri",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    },
+    {
+     "id": "bulk-match-45532",
+     "date": "2002-10-29",
+     "show": "SmackDown",
+     "title": "Matt Hardy vs. Tajiri",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-161437",
+     "date": "2002-10-29",
+     "show": "SmackDown",
+     "title": "Eddie Guerrero vs. Kurt Angle",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    },
+    {
+     "id": "bulk-match-45533",
+     "date": "2002-10-29",
+     "show": "SmackDown",
+     "title": "Eddie Guerrero vs. Kurt Angle",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-161438",
+     "date": "2002-10-29",
+     "show": "SmackDown",
+     "title": "Singles match",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    },
+    {
+     "id": "bulk-match-45534",
+     "date": "2002-10-29",
+     "show": "SmackDown",
+     "title": "Singles match",
+     "source": "https://thehistoryofwwe.com/wwe-results-2002/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-45848",
+     "date": "2003-01-13",
+     "show": "Raw",
+     "title": "Singles match",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    },
+    {
+     "id": "bulk-match-161145",
+     "date": "2003-01-13",
+     "show": "Raw",
+     "title": "Singles match",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-45849",
+     "date": "2003-01-13",
+     "show": "Raw",
+     "title": "The Hurricane vs. Steven Richards",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    },
+    {
+     "id": "bulk-match-161146",
+     "date": "2003-01-13",
+     "show": "Raw",
+     "title": "The Hurricane vs. Steven Richards",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-45850",
+     "date": "2003-01-13",
+     "show": "Raw",
+     "title": "Chris Jericho vs. Batista, Kane, Rob Van Dam",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    },
+    {
+     "id": "bulk-match-161147",
+     "date": "2003-01-13",
+     "show": "Raw",
+     "title": "Chris Jericho vs. Batista, Kane, Rob Van Dam",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-160733",
+     "date": "2003-04-27",
+     "show": "Backlash '03",
+     "title": "Jazz vs. Trish Stratus",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    },
+    {
+     "id": "bulk-match-46263",
+     "date": "2003-04-27",
+     "show": "Backlash '03",
+     "title": "Jazz vs. Trish Stratus",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-160734",
+     "date": "2003-04-27",
+     "show": "Backlash '03",
+     "title": "The Big Show vs. Rey Mysterio",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    },
+    {
+     "id": "bulk-match-46264",
+     "date": "2003-04-27",
+     "show": "Backlash '03",
+     "title": "The Big Show vs. Rey Mysterio",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-160735",
+     "date": "2003-04-27",
+     "show": "Backlash '03",
+     "title": "Brock Lesnar vs. John Cena",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    },
+    {
+     "id": "bulk-match-46265",
+     "date": "2003-04-27",
+     "show": "Backlash '03",
+     "title": "Brock Lesnar vs. John Cena",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-160736",
+     "date": "2003-04-27",
+     "show": "Backlash '03",
+     "title": "Chris Jericho, Ric Flair, Triple H vs. Booker T., Kevin Nash, Shawn Michaels",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    },
+    {
+     "id": "bulk-match-46266",
+     "date": "2003-04-27",
+     "show": "Backlash '03",
+     "title": "Chris Jericho, Ric Flair, Triple H vs. Booker T., Kevin Nash, Shawn Michaels",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-160737",
+     "date": "2003-04-27",
+     "show": "Backlash '03",
+     "title": "Goldberg vs. The Rock",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    },
+    {
+     "id": "bulk-match-46267",
+     "date": "2003-04-27",
+     "show": "Backlash '03",
+     "title": "Goldberg vs. The Rock",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-46446",
+     "date": "2003-06-10",
+     "show": "SmackDown",
+     "title": "Mr. McMahon vs. Zach Gowen",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    },
+    {
+     "id": "bulk-match-46447",
+     "date": "2003-06-10",
+     "show": "SmackDown",
+     "title": "Mr. McMahon vs. Zach Gowen",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-160299",
+     "date": "2003-08-05",
+     "show": "SmackDown",
+     "title": "Chris Benoit, Tajiri vs. Eddie Guerrero, Rhyno",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    },
+    {
+     "id": "bulk-match-46691",
+     "date": "2003-08-05",
+     "show": "SmackDown",
+     "title": "Chris Benoit, Tajiri vs. Eddie Guerrero, Rhyno",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-160300",
+     "date": "2003-08-05",
+     "show": "SmackDown",
+     "title": "Jamie Noble vs. Doug Basham",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    },
+    {
+     "id": "bulk-match-46694",
+     "date": "2003-08-05",
+     "show": "SmackDown",
+     "title": "Jamie Noble vs. Doug Basham",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-160301",
+     "date": "2003-08-05",
+     "show": "SmackDown",
+     "title": "John Cena vs. The Undertaker",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    },
+    {
+     "id": "bulk-match-46693",
+     "date": "2003-08-05",
+     "show": "SmackDown",
+     "title": "John Cena vs. The Undertaker",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-160302",
+     "date": "2003-08-05",
+     "show": "SmackDown",
+     "title": "Charlie Haas vs. Rey Mysterio",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    },
+    {
+     "id": "bulk-match-46695",
+     "date": "2003-08-05",
+     "show": "SmackDown",
+     "title": "Charlie Haas vs. Rey Mysterio",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-160303",
+     "date": "2003-08-05",
+     "show": "SmackDown",
+     "title": "Cage match",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    },
+    {
+     "id": "bulk-match-46696",
+     "date": "2003-08-05",
+     "show": "SmackDown",
+     "title": "Cage match",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-47019",
+     "date": "2003-10-20",
+     "show": "Raw",
+     "title": "Singles match",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    },
+    {
+     "id": "bulk-match-47023",
+     "date": "2003-10-20",
+     "show": "Raw",
+     "title": "Singles match",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-47053",
+     "date": "2003-10-27",
+     "show": "Raw",
+     "title": "Chris Jericho vs. Rob Van Dam",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    },
+    {
+     "id": "bulk-match-47054",
+     "date": "2003-10-27",
+     "show": "Raw",
+     "title": "Rob Van Dam vs. Chris Jericho",
+     "source": "https://thehistoryofwwe.com/wwe-results-2003/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-47864",
+     "date": "2004-05-24",
+     "show": "Raw",
+     "title": "Chris Benoit, Eugene vs. Garrison Cade, Jonathan Coachman",
+     "source": "https://thehistoryofwwe.com/wwe-results-2004/"
+    },
+    {
+     "id": "bulk-match-159138",
+     "date": "2004-05-24",
+     "show": "Raw",
+     "title": "Chris Benoit, Eugene vs. Garrison Cade, Jonathan Coachman",
+     "source": "https://thehistoryofwwe.com/wwe-results-2004/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-48620",
+     "date": "2005-01-09",
+     "show": "New Year's Revolution '05",
+     "title": "Shelton Benjamin vs. Maven",
+     "source": "https://thehistoryofwwe.com/wwe-results-2005/"
+    },
+    {
+     "id": "bulk-match-48621",
+     "date": "2005-01-09",
+     "show": "New Year's Revolution '05",
+     "title": "Shelton Benjamin vs. Maven",
+     "source": "https://thehistoryofwwe.com/wwe-results-2005/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-50651",
+     "date": "2006-06-13",
+     "show": "SmackDown",
+     "title": "Singles match",
+     "source": "https://thehistoryofwwe.com/wwe-results-2006/"
+    },
+    {
+     "id": "bulk-match-50656",
+     "date": "2006-06-13",
+     "show": "SmackDown",
+     "title": "Bobby Lashley vs. King Booker",
+     "source": "https://thehistoryofwwe.com/wwe-results-2006/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-52151",
+     "date": "2007-07-31",
+     "show": "SmackDown",
+     "title": "Matt Hardy vs. Montel Vontavious Porter",
+     "source": "https://thehistoryofwwe.com/wwe-results-2007/"
+    },
+    {
+     "id": "bulk-match-52152",
+     "date": "2007-07-31",
+     "show": "SmackDown",
+     "title": "Matt Hardy vs. Montel Vontavious Porter",
+     "source": "https://thehistoryofwwe.com/wwe-results-2007/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-52357",
+     "date": "2007-10-07",
+     "show": "No Mercy '07",
+     "title": "Triple H vs. Randy Orton",
+     "source": "https://thehistoryofwwe.com/wwe-results-2007/"
+    },
+    {
+     "id": "bulk-match-52364",
+     "date": "2007-10-07",
+     "show": "No Mercy '07",
+     "title": "Randy Orton vs. Triple H",
+     "source": "https://thehistoryofwwe.com/wwe-results-2007/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-52517",
+     "date": "2007-11-13",
+     "show": "SmackDown",
+     "title": "John Morrison, The Miz vs. Matt Hardy, Montel Vontavious Porter",
+     "source": "https://thehistoryofwwe.com/wwe-results-2007/"
+    },
+    {
+     "id": "bulk-match-52518",
+     "date": "2007-11-13",
+     "show": "SmackDown",
+     "title": "John Morrison, The Miz vs. Matt Hardy, Montel Vontavious Porter",
+     "source": "https://thehistoryofwwe.com/wwe-results-2007/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-52774",
+     "date": "2008-02-04",
+     "show": "Raw",
+     "title": "John Cena vs. Mark Henry",
+     "source": "https://thehistoryofwwe.com/wwe-results-2008/"
+    },
+    {
+     "id": "bulk-match-52782",
+     "date": "2008-02-04",
+     "show": "Raw",
+     "title": "Other match",
+     "source": "https://thehistoryofwwe.com/wwe-results-2008/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-152738",
+     "date": "2008-03-25",
+     "show": "SmackDown",
+     "title": "Chris Jericho vs. Montel Vontavious Porter",
+     "source": "https://thehistoryofwwe.com/wwe-results-2008/"
+    },
+    {
+     "id": "bulk-match-52956",
+     "date": "2008-03-25",
+     "show": "SmackDown",
+     "title": "Chris Jericho vs. Montel Vontavious Porter",
+     "source": "https://thehistoryofwwe.com/wwe-results-2008/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-54642",
+     "date": "2009-08-07",
+     "show": "SmackDown",
+     "title": "Singles match",
+     "source": "https://thehistoryofwwe.com/wwe-results-2009/"
+    },
+    {
+     "id": "bulk-match-54648",
+     "date": "2009-08-07",
+     "show": "SmackDown",
+     "title": "Jeff Hardy vs. CM Punk",
+     "source": "https://thehistoryofwwe.com/wwe-results-2009/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-55194",
+     "date": "2009-12-28",
+     "show": "Raw",
+     "title": "Kofi Kingston vs. The Miz",
+     "source": "https://thehistoryofwwe.com/wwe-results-2009/"
+    },
+    {
+     "id": "bulk-match-55195",
+     "date": "2009-12-28",
+     "show": "Raw",
+     "title": "Kofi Kingston vs. The Miz",
+     "source": "https://thehistoryofwwe.com/wwe-results-2009/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-55594",
+     "date": "2010-05-03",
+     "show": "Raw",
+     "title": "John Morrison vs. Ted DiBiase Jr.",
+     "source": "https://thehistoryofwwe.com/wwe-results-2010/"
+    },
+    {
+     "id": "bulk-match-55595",
+     "date": "2010-05-03",
+     "show": "Raw",
+     "title": "John Morrison vs. Ted DiBiase Jr.",
+     "source": "https://thehistoryofwwe.com/wwe-results-2010/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-55735",
+     "date": "2010-06-18",
+     "show": "SmackDown",
+     "title": "Rey Mysterio, The Big Show vs. CM Punk, Jack Swagger",
+     "source": "https://thehistoryofwwe.com/wwe-results-2010/"
+    },
+    {
+     "id": "bulk-match-55736",
+     "date": "2010-06-18",
+     "show": "SmackDown",
+     "title": "Rey Mysterio, The Big Show vs. CM Punk, Jack Swagger",
+     "source": "https://thehistoryofwwe.com/wwe-results-2010/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-55765",
+     "date": "2010-06-25",
+     "show": "SmackDown",
+     "title": "The Big Show vs. Jack Swagger",
+     "source": "https://thehistoryofwwe.com/wwe-results-2010/"
+    },
+    {
+     "id": "bulk-match-55770",
+     "date": "2010-06-25",
+     "show": "SmackDown",
+     "title": "The Big Show vs. Jack Swagger",
+     "source": "https://thehistoryofwwe.com/wwe-results-2010/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-55980",
+     "date": "2010-09-06",
+     "show": "Raw",
+     "title": "Edge vs. The Great Khali",
+     "source": "https://thehistoryofwwe.com/wwe-results-2010/"
+    },
+    {
+     "id": "bulk-match-55981",
+     "date": "2010-09-06",
+     "show": "Raw",
+     "title": "Edge vs. The Great Khali",
+     "source": "https://thehistoryofwwe.com/wwe-results-2010/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-56453",
+     "date": "2011-01-07",
+     "show": "SmackDown",
+     "title": "Kofi Kingston vs. Dolph Ziggler",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    },
+    {
+     "id": "bulk-match-56454",
+     "date": "2011-01-07",
+     "show": "SmackDown",
+     "title": "Kofi Kingston vs. Dolph Ziggler",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-56606",
+     "date": "2011-02-21",
+     "show": "Raw",
+     "title": "John Cena, The Miz vs. Heath Slater, Justin Gabriel",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    },
+    {
+     "id": "bulk-match-56607",
+     "date": "2011-02-21",
+     "show": "Raw",
+     "title": "Heath Slater, Justin Gabriel vs. John Cena, The Miz",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-57195",
+     "date": "2011-08-08",
+     "show": "Raw",
+     "title": "John Cena vs. Jack Swagger",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    },
+    {
+     "id": "bulk-match-146305",
+     "date": "2011-08-08",
+     "show": "Raw",
+     "title": "John Cena vs. Jack Swagger",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-57196",
+     "date": "2011-08-08",
+     "show": "Raw",
+     "title": "The Miz vs. Kofi Kingston",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    },
+    {
+     "id": "bulk-match-146306",
+     "date": "2011-08-08",
+     "show": "Raw",
+     "title": "The Miz vs. Kofi Kingston",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-57197",
+     "date": "2011-08-08",
+     "show": "Raw",
+     "title": "CM Punk vs. Alberto Del Rio",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    },
+    {
+     "id": "bulk-match-146307",
+     "date": "2011-08-08",
+     "show": "Raw",
+     "title": "CM Punk vs. Alberto Del Rio",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-57199",
+     "date": "2011-08-08",
+     "show": "Raw",
+     "title": "Alex Riley vs. Dolph Ziggler",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    },
+    {
+     "id": "bulk-match-146309",
+     "date": "2011-08-08",
+     "show": "Raw",
+     "title": "Alex Riley vs. Dolph Ziggler",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-57200",
+     "date": "2011-08-08",
+     "show": "Raw",
+     "title": "R-Truth vs. John Morrison",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    },
+    {
+     "id": "bulk-match-146310",
+     "date": "2011-08-08",
+     "show": "Raw",
+     "title": "R-Truth vs. John Morrison",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-145527",
+     "date": "2011-11-04",
+     "show": "SmackDown",
+     "title": "Randy Orton vs. Cody Rhodes",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    },
+    {
+     "id": "bulk-match-57748",
+     "date": "2011-11-04",
+     "show": "SmackDown",
+     "title": "Randy Orton vs. Cody Rhodes",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-145528",
+     "date": "2011-11-04",
+     "show": "SmackDown",
+     "title": "Ted DiBiase Jr. vs. Tyson Kidd",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    },
+    {
+     "id": "bulk-match-57749",
+     "date": "2011-11-04",
+     "show": "SmackDown",
+     "title": "Ted DiBiase Jr. vs. Tyson Kidd",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-145529",
+     "date": "2011-11-04",
+     "show": "SmackDown",
+     "title": "Alicia Fox vs. Natalya",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    },
+    {
+     "id": "bulk-match-57750",
+     "date": "2011-11-04",
+     "show": "SmackDown",
+     "title": "Alicia Fox vs. Natalya",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-145530",
+     "date": "2011-11-04",
+     "show": "SmackDown",
+     "title": "Wade Barrett vs. Sheamus",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    },
+    {
+     "id": "bulk-match-57751",
+     "date": "2011-11-04",
+     "show": "SmackDown",
+     "title": "Wade Barrett vs. Sheamus",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-145531",
+     "date": "2011-11-04",
+     "show": "SmackDown",
+     "title": "Sin Cara vs. Epico",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    },
+    {
+     "id": "bulk-match-57752",
+     "date": "2011-11-04",
+     "show": "SmackDown",
+     "title": "Sin Cara vs. Epico",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-145532",
+     "date": "2011-11-04",
+     "show": "SmackDown",
+     "title": "Mark Henry vs. Daniel Bryan",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    },
+    {
+     "id": "bulk-match-57753",
+     "date": "2011-11-04",
+     "show": "SmackDown",
+     "title": "Mark Henry vs. Daniel Bryan",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-145534",
+     "date": "2011-11-04",
+     "show": "SmackDown",
+     "title": "Sheamus vs. Christian",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    },
+    {
+     "id": "bulk-match-57755",
+     "date": "2011-11-04",
+     "show": "SmackDown",
+     "title": "Sheamus vs. Christian",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-57934",
+     "date": "2011-11-25",
+     "show": "SmackDown",
+     "title": "Daniel Bryan vs. Cody Rhodes, Randy Orton, Wade Barrett",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    },
+    {
+     "id": "bulk-match-57935",
+     "date": "2011-11-25",
+     "show": "SmackDown",
+     "title": "Daniel Bryan, Randy Orton vs. Cody Rhodes, Wade Barrett",
+     "source": "https://thehistoryofwwe.com/wwe-results-2011/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-59041",
+     "date": "2012-05-04",
+     "show": "SmackDown",
+     "title": "Sheamus vs. Daniel Bryan",
+     "source": "https://thehistoryofwwe.com/wwe-results-2012/"
+    },
+    {
+     "id": "bulk-match-59047",
+     "date": "2012-05-04",
+     "show": "SmackDown",
+     "title": "Sheamus vs. Daniel Bryan",
+     "source": "https://thehistoryofwwe.com/wwe-results-2012/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-60563",
+     "date": "2012-10-29",
+     "show": "Raw",
+     "title": "AJ vs. Beth Phoenix",
+     "source": "https://thehistoryofwwe.com/wwe-results-2012/"
+    },
+    {
+     "id": "bulk-match-60564",
+     "date": "2012-10-29",
+     "show": "Raw",
+     "title": "Beth Phoenix vs. AJ",
+     "source": "https://thehistoryofwwe.com/wwe-results-2012/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-62566",
+     "date": "2013-06-10",
+     "show": "Raw",
+     "title": "Curtis Axel vs. Triple H",
+     "source": "https://thehistoryofwwe.com/wwe-results-2013/"
+    },
+    {
+     "id": "bulk-match-62567",
+     "date": "2013-06-10",
+     "show": "Raw",
+     "title": "Curtis Axel vs. Triple H",
+     "source": "https://thehistoryofwwe.com/wwe-results-2013/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-62690",
+     "date": "2013-06-24",
+     "show": "Raw",
+     "title": "Singles match",
+     "source": "https://thehistoryofwwe.com/wwe-results-2013/"
+    },
+    {
+     "id": "bulk-match-62697",
+     "date": "2013-06-24",
+     "show": "Raw",
+     "title": "Daniel Bryan vs. Randy Orton",
+     "source": "https://thehistoryofwwe.com/wwe-results-2013/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-62764",
+     "date": "2013-07-01",
+     "show": "Raw",
+     "title": "Kane vs. Randy Orton",
+     "source": "https://thehistoryofwwe.com/wwe-results-2013/"
+    },
+    {
+     "id": "bulk-match-62765",
+     "date": "2013-07-01",
+     "show": "Raw",
+     "title": "Kane vs. Randy Orton",
+     "source": "https://thehistoryofwwe.com/wwe-results-2013/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-66890",
+     "date": "2014-10-10",
+     "show": "SmackDown",
+     "title": "Seth Rollins vs. Kofi Kingston",
+     "source": "https://thehistoryofwwe.com/wwe-results-2014/"
+    },
+    {
+     "id": "bulk-match-66893",
+     "date": "2014-10-10",
+     "show": "SmackDown",
+     "title": "Seth Rollins vs. Kofi Kingston",
+     "source": "https://thehistoryofwwe.com/wwe-results-2014/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-129493",
+     "date": "2015-09-28",
+     "show": "Raw",
+     "title": "Other match",
+     "source": "https://thehistoryofwwe.com/wwe-results-2015/"
+    },
+    {
+     "id": "bulk-match-70571",
+     "date": "2015-09-28",
+     "show": "Raw",
+     "title": "Other match",
+     "source": "https://thehistoryofwwe.com/wwe-results-2015/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-129495",
+     "date": "2015-09-28",
+     "show": "Raw",
+     "title": "Singles match",
+     "source": "https://thehistoryofwwe.com/wwe-results-2015/"
+    },
+    {
+     "id": "bulk-match-70572",
+     "date": "2015-09-28",
+     "show": "Raw",
+     "title": "Singles match",
+     "source": "https://thehistoryofwwe.com/wwe-results-2015/"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-123779",
+     "date": "2017-01-09",
+     "show": "Raw",
+     "title": "Neville vs. Lince Dorado",
+     "source": "https://www.wwe.com/shows/raw/2017-01-09"
+    },
+    {
+     "id": "bulk-match-75780",
+     "date": "2017-01-09",
+     "show": "Raw",
+     "title": "Neville vs. Lince Dorado",
+     "source": "https://www.wwe.com/shows/raw/2017-01-09"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-123780",
+     "date": "2017-01-09",
+     "show": "Raw",
+     "title": "Charlotte Flair, Nia Jax vs. Bayley, Sasha Banks",
+     "source": "https://www.wwe.com/shows/raw/2017-01-09"
+    },
+    {
+     "id": "bulk-match-75781",
+     "date": "2017-01-09",
+     "show": "Raw",
+     "title": "Charlotte Flair, Nia Jax vs. Bayley, Sasha Banks",
+     "source": "https://www.wwe.com/shows/raw/2017-01-09"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-123782",
+     "date": "2017-01-09",
+     "show": "Raw",
+     "title": "Chris Jericho, Kevin Owens vs. Roman Reigns",
+     "source": "https://www.wwe.com/shows/raw/2017-01-09"
+    },
+    {
+     "id": "bulk-match-75783",
+     "date": "2017-01-09",
+     "show": "Raw",
+     "title": "Chris Jericho, Kevin Owens vs. Roman Reigns",
+     "source": "https://www.wwe.com/shows/raw/2017-01-09"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-81300",
+     "date": "2018-08-27",
+     "show": "Raw",
+     "title": "Finn Bálor vs. Baron Corbin",
+     "source": "https://www.wwe.com/shows/raw/2018-08-27"
+    },
+    {
+     "id": "bulk-match-81301",
+     "date": "2018-08-27",
+     "show": "Raw",
+     "title": "Baron Corbin vs. Finn Bálor",
+     "source": "https://www.wwe.com/shows/raw/2018-08-27"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-81467",
+     "date": "2018-09-17",
+     "show": "Raw",
+     "title": "Roman Reigns vs. Baron Corbin",
+     "source": "https://www.wwe.com/shows/raw/2018-09-17"
+    },
+    {
+     "id": "bulk-match-81468",
+     "date": "2018-09-17",
+     "show": "Raw",
+     "title": "Roman Reigns vs. Baron Corbin",
+     "source": "https://www.wwe.com/shows/raw/2018-09-17"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-116657",
+     "date": "2019-03-25",
+     "show": "Raw",
+     "title": "Finn Bálor vs. Bobby Lashley, Jinder Mahal",
+     "source": "https://www.wwe.com/shows/raw/2019-03-25"
+    },
+    {
+     "id": "bulk-match-82792",
+     "date": "2019-03-25",
+     "show": "Raw",
+     "title": "Finn Bálor vs. Bobby Lashley, Jinder Mahal",
+     "source": "https://www.wwe.com/shows/raw/2019-03-25"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-83251",
+     "date": "2019-05-28",
+     "show": "SmackDown",
+     "title": "Elias vs. R-Truth",
+     "source": "https://www.wwe.com/shows/smackdown/2019-05-28"
+    },
+    {
+     "id": "bulk-match-83254",
+     "date": "2019-05-28",
+     "show": "SmackDown",
+     "title": "R-Truth vs. Elias",
+     "source": "https://www.wwe.com/shows/smackdown/2019-05-28"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-83276",
+     "date": "2019-06-04",
+     "show": "SmackDown",
+     "title": "Elias vs. R-Truth",
+     "source": "https://www.wwe.com/shows/smackdown/2019-06-04"
+    },
+    {
+     "id": "bulk-match-83277",
+     "date": "2019-06-04",
+     "show": "SmackDown",
+     "title": "R-Truth vs. Elias",
+     "source": "https://www.wwe.com/shows/smackdown/2019-06-04"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-83394",
+     "date": "2019-06-17",
+     "show": "Raw",
+     "title": "Seth Rollins vs. Daniel Bryan",
+     "source": "https://www.wwe.com/shows/raw/2019-06-17"
+    },
+    {
+     "id": "bulk-match-83395",
+     "date": "2019-06-17",
+     "show": "Raw",
+     "title": "Seth Rollins vs. Daniel Bryan",
+     "source": "https://www.wwe.com/shows/raw/2019-06-17"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-83437",
+     "date": "2019-06-24",
+     "show": "Raw",
+     "title": "Heath Slater vs. R-Truth",
+     "source": "https://www.wwe.com/shows/raw/2019-06-24"
+    },
+    {
+     "id": "bulk-match-83438",
+     "date": "2019-06-24",
+     "show": "Raw",
+     "title": "R-Truth vs. Heath Slater",
+     "source": "https://www.wwe.com/shows/raw/2019-06-24"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-83618",
+     "date": "2019-07-22",
+     "show": "Raw",
+     "title": "Drake Maverick vs. R-Truth",
+     "source": "https://www.wwe.com/shows/raw/2019-07-22"
+    },
+    {
+     "id": "bulk-match-83630",
+     "date": "2019-07-22",
+     "show": "Raw",
+     "title": "R-Truth vs. Drake Maverick",
+     "source": "https://www.wwe.com/shows/raw/2019-07-22"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-86141",
+     "date": "2020-09-14",
+     "show": "Raw",
+     "title": "Braun Strowman vs. Dolph Ziggler, Riddick Moss",
+     "source": "https://www.wwe.com/shows/raw/2020-09-14"
+    },
+    {
+     "id": "bulk-match-86147",
+     "date": "2020-09-14",
+     "show": "Raw",
+     "title": "Braun Strowman vs. Dolph Ziggler, Riddick Moss",
+     "source": "https://www.wwe.com/shows/raw/2020-09-14"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-112412",
+     "date": "2020-10-21",
+     "show": "NXT",
+     "title": "Bronson Reed vs. Austin Theory",
+     "source": "https://www.wwe.com/shows/wwenxt/2020-10-21"
+    },
+    {
+     "id": "bulk-match-112413",
+     "date": "2020-10-21",
+     "show": "NXT",
+     "title": "Bronson Reed vs. Austin Theory",
+     "source": "https://www.wwe.com/shows/wwenxt/2020-10-21"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-86410",
+     "date": "2020-11-23",
+     "show": "Raw",
+     "title": "Cedric Alexander, Shelton Benjamin vs. Kofi Kingston, Xavier Woods",
+     "source": "https://www.wwe.com/shows/raw/2020-11-23"
+    },
+    {
+     "id": "bulk-match-86411",
+     "date": "2020-11-23",
+     "show": "Raw",
+     "title": "Kofi Kingston, Xavier Woods vs. Cedric Alexander, Shelton Benjamin",
+     "source": "https://www.wwe.com/shows/raw/2020-11-23"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-87700",
+     "date": "2021-09-27",
+     "show": "Raw",
+     "title": "Singles match",
+     "source": "https://www.wwe.com/shows/raw/2021-09-27"
+    },
+    {
+     "id": "bulk-match-87709",
+     "date": "2021-09-27",
+     "show": "Raw",
+     "title": "Big E vs. Bobby Lashley",
+     "source": "https://www.wwe.com/shows/raw/2021-09-27"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-108953",
+     "date": "2021-12-03",
+     "show": "SmackDown",
+     "title": "Sasha Banks vs. Shayna Baszler",
+     "source": "https://www.wwe.com/shows/smackdown/2021-12-03"
+    },
+    {
+     "id": "bulk-match-88109",
+     "date": "2021-12-03",
+     "show": "SmackDown",
+     "title": "Sasha Banks vs. Shayna Baszler",
+     "source": "https://www.wwe.com/shows/smackdown/2021-12-03"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-108955",
+     "date": "2021-12-03",
+     "show": "SmackDown",
+     "title": "King Woods vs. Jey Uso",
+     "source": "https://www.wwe.com/shows/smackdown/2021-12-03"
+    },
+    {
+     "id": "bulk-match-88113",
+     "date": "2021-12-03",
+     "show": "SmackDown",
+     "title": "King Woods vs. Jey Uso",
+     "source": "https://www.wwe.com/shows/smackdown/2021-12-03"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-108956",
+     "date": "2021-12-03",
+     "show": "SmackDown",
+     "title": "Sheamus vs. Cesaro",
+     "source": "https://www.wwe.com/shows/smackdown/2021-12-03"
+    },
+    {
+     "id": "bulk-match-88114",
+     "date": "2021-12-03",
+     "show": "SmackDown",
+     "title": "Sheamus vs. Cesaro",
+     "source": "https://www.wwe.com/shows/smackdown/2021-12-03"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-108957",
+     "date": "2021-12-03",
+     "show": "SmackDown",
+     "title": "Roman Reigns vs. Sami Zayn",
+     "source": "https://www.wwe.com/shows/smackdown/2021-12-03"
+    },
+    {
+     "id": "bulk-match-88115",
+     "date": "2021-12-03",
+     "show": "SmackDown",
+     "title": "Roman Reigns vs. Sami Zayn",
+     "source": "https://www.wwe.com/shows/smackdown/2021-12-03"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-108958",
+     "date": "2021-12-03",
+     "show": "SmackDown",
+     "title": "Drew McIntyre, King Woods, Kofi Kingston vs. Jey Uso, Jimmy Uso, Roman Reigns",
+     "source": "https://www.wwe.com/shows/smackdown/2021-12-03"
+    },
+    {
+     "id": "bulk-match-88116",
+     "date": "2021-12-03",
+     "show": "SmackDown",
+     "title": "Drew McIntyre, King Woods, Kofi Kingston vs. Jey Uso, Jimmy Uso, Roman Reigns",
+     "source": "https://www.wwe.com/shows/smackdown/2021-12-03"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-88955",
+     "date": "2022-04-25",
+     "show": "Raw",
+     "title": "Bianca Belair vs. Sonya Deville",
+     "source": "https://www.wwe.com/shows/raw/2022-04-25"
+    },
+    {
+     "id": "bulk-match-88956",
+     "date": "2022-04-25",
+     "show": "Raw",
+     "title": "Bianca Belair vs. Sonya Deville",
+     "source": "https://www.wwe.com/shows/raw/2022-04-25"
+    },
+    {
+     "id": "bulk-match-88957",
+     "date": "2022-04-25",
+     "show": "Raw",
+     "title": "Bianca Belair vs. Sonya Deville",
+     "source": "https://www.wwe.com/shows/raw/2022-04-25"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-8756",
+     "date": "2022-06-06",
+     "show": "Raw",
+     "title": "Singles match",
+     "source": "https://www.wwe.com/shows/raw/2022-06-06"
+    },
+    {
+     "id": "bulk-match-8758",
+     "date": "2022-06-06",
+     "show": "Raw",
+     "title": "Dana Brooke vs. Becky Lynch",
+     "source": "https://www.wwe.com/shows/raw/2022-06-06"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-3633",
+     "date": "2023-10-06",
+     "show": "SmackDown",
+     "title": "Bobby Lashley vs. Rey Mysterio",
+     "source": "https://www.wwe.com/shows/smackdown/2023-10-06"
+    },
+    {
+     "id": "bulk-match-92620",
+     "date": "2023-10-06",
+     "show": "SmackDown",
+     "title": "Bobby Lashley vs. Rey Mysterio",
+     "source": "https://www.wwe.com/shows/smackdown/2023-10-06"
+    }
+   ],
+   [
+    {
+     "id": "bulk-match-95380",
+     "date": "2024-12-13",
+     "show": "SmackDown",
+     "title": "Carmelo Hayes vs. Braun Strowman",
+     "source": "https://www.wwe.com/shows/smackdown/2024-12-13"
+    },
+    {
+     "id": "bulk-match-95385",
+     "date": "2024-12-13",
+     "show": "SmackDown",
+     "title": "Braun Strowman vs. Carmelo Hayes",
+     "source": "https://www.wwe.com/shows/smackdown/2024-12-13"
+    }
+   ],
+   [
+    {
+     "id": "hogan-workbook-hm-0277",
+     "date": "2010-03-08",
+     "show": "Impact! (live, first Monday episode)",
+     "title": "Hulk Hogan & Abyss vs. Ric Flair & AJ Styles",
+     "source": "https://thehistoryofwwe.com/tna-results-2010/"
+    },
+    {
+     "id": "hogan-workbook-hm-0278",
+     "date": "2010-03-08",
+     "show": "Impact! (live, first Monday episode)",
+     "title": "Hulk Hogan & Abyss vs. Ric Flair & AJ Styles",
+     "source": "https://thehistoryofwwe.com/tna-results-2010/"
+    }
+   ]
+  ],
+  "weeklyCoverage": {
+   "SmackDown": {
+    "1999": 17,
+    "2000": 50,
+    "2001": 50,
+    "2002": 52,
+    "2003": 51,
+    "2004": 50,
+    "2005": 46,
+    "2006": 49,
+    "2007": 47,
+    "2008": 53,
+    "2009": 53,
+    "2010": 50,
+    "2011": 50,
+    "2012": 41,
+    "2013": 36,
+    "2014": 27,
+    "2015": 26,
+    "2016": 22,
+    "2017": 48,
+    "2018": 46,
+    "2019": 44,
+    "2020": 23,
+    "2021": 39,
+    "2022": 42,
+    "2023": 46,
+    "2024": 46,
+    "2025": 52,
+    "2026": 40
+   },
+   "NXT": {
+    "2012": 2,
+    "2014": 4,
+    "2015": 4,
+    "2016": 1,
+    "2017": 2,
+    "2018": 4,
+    "2019": 18,
+    "2020": 36,
+    "2021": 27,
+    "2023": 34,
+    "2024": 32,
+    "2025": 54,
+    "2026": 42
+   },
+   "Raw": {
+    "1993": 6,
+    "1995": 5,
+    "1996": 2,
+    "1997": 43,
+    "1998": 50,
+    "1999": 50,
+    "2000": 53,
+    "2001": 51,
+    "2002": 50,
+    "2003": 50,
+    "2004": 50,
+    "2005": 49,
+    "2006": 49,
+    "2007": 51,
+    "2008": 52,
+    "2009": 52,
+    "2010": 46,
+    "2011": 34,
+    "2012": 22,
+    "2013": 47,
+    "2014": 46,
+    "2015": 44,
+    "2016": 37,
+    "2017": 42,
+    "2018": 48,
+    "2019": 47,
+    "2020": 26,
+    "2021": 29,
+    "2022": 33,
+    "2023": 42,
+    "2024": 48,
+    "2025": 52,
+    "2026": 39
+   }
+  },
+  "weeklyListed": {
+   "Raw": {
+    "1993": 47,
+    "1994": 49,
+    "1995": 50,
+    "1996": 51,
+    "1997": 50,
+    "1998": 56,
+    "1999": 52,
+    "2000": 53,
+    "2001": 53,
+    "2002": 52,
+    "2003": 52,
+    "2004": 52,
+    "2005": 52,
+    "2006": 49,
+    "2007": 52,
+    "2008": 52,
+    "2009": 52,
+    "2010": 52,
+    "2011": 52,
+    "2012": 53,
+    "2013": 52,
+    "2014": 52,
+    "2015": 52,
+    "2016": 52,
+    "2017": 42,
+    "2018": 52,
+    "2019": 48,
+    "2020": 46,
+    "2021": 52,
+    "2022": 34,
+    "2023": 46,
+    "2024": 51,
+    "2025": 52,
+    "2026": 40
+   },
+   "SmackDown": {
+    "1999": 19,
+    "2000": 50,
+    "2001": 50,
+    "2002": 52,
+    "2003": 51,
+    "2004": 50,
+    "2005": 46,
+    "2006": 49,
+    "2007": 47,
+    "2008": 53,
+    "2009": 53,
+    "2010": 50,
+    "2011": 50,
+    "2012": 41,
+    "2013": 36,
+    "2014": 27,
+    "2015": 26,
+    "2016": 22,
+    "2017": 48,
+    "2018": 46,
+    "2019": 44,
+    "2020": 23,
+    "2021": 39,
+    "2022": 42,
+    "2023": 46,
+    "2024": 46,
+    "2025": 52,
+    "2026": 40
+   },
+   "NXT": {
+    "2010": 1,
+    "2012": 2,
+    "2014": 4,
+    "2015": 4,
+    "2016": 1,
+    "2017": 2,
+    "2018": 4,
+    "2019": 18,
+    "2020": 36,
+    "2021": 27,
+    "2023": 34,
+    "2024": 32,
+    "2025": 54,
+    "2026": 43
+   }
+  },
+  "weeklyGaps": [
+   {
+    "series": "Raw",
+    "year": 1994,
+    "episodes": 0,
+    "listed": 49
+   },
+   {
+    "series": "Raw",
+    "year": 1995,
+    "episodes": 5,
+    "listed": 50
+   },
+   {
+    "series": "Raw",
+    "year": 1996,
+    "episodes": 2,
+    "listed": 51
+   },
+   {
+    "series": "Raw",
+    "year": 1997,
+    "episodes": 43,
+    "listed": 50
+   },
+   {
+    "series": "Raw",
+    "year": 2011,
+    "episodes": 34,
+    "listed": 52
+   },
+   {
+    "series": "Raw",
+    "year": 2012,
+    "episodes": 22,
+    "listed": 53
+   },
+   {
+    "series": "Raw",
+    "year": 2015,
+    "episodes": 44,
+    "listed": 52
+   },
+   {
+    "series": "Raw",
+    "year": 2016,
+    "episodes": 37,
+    "listed": 52
+   },
+   {
+    "series": "Raw",
+    "year": 2017,
+    "episodes": 42,
+    "listed": 42
+   },
+   {
+    "series": "Raw",
+    "year": 2020,
+    "episodes": 26,
+    "listed": 46
+   },
+   {
+    "series": "Raw",
+    "year": 2021,
+    "episodes": 29,
+    "listed": 52
+   },
+   {
+    "series": "Raw",
+    "year": 2022,
+    "episodes": 33,
+    "listed": 34
+   },
+   {
+    "series": "Raw",
+    "year": 2023,
+    "episodes": 42,
+    "listed": 46
+   },
+   {
+    "series": "SmackDown",
+    "year": 2012,
+    "episodes": 41,
+    "listed": 41
+   },
+   {
+    "series": "SmackDown",
+    "year": 2013,
+    "episodes": 36,
+    "listed": 36
+   },
+   {
+    "series": "SmackDown",
+    "year": 2014,
+    "episodes": 27,
+    "listed": 27
+   },
+   {
+    "series": "SmackDown",
+    "year": 2015,
+    "episodes": 26,
+    "listed": 26
+   },
+   {
+    "series": "SmackDown",
+    "year": 2016,
+    "episodes": 22,
+    "listed": 22
+   },
+   {
+    "series": "SmackDown",
+    "year": 2019,
+    "episodes": 44,
+    "listed": 44
+   },
+   {
+    "series": "SmackDown",
+    "year": 2020,
+    "episodes": 23,
+    "listed": 23
+   },
+   {
+    "series": "SmackDown",
+    "year": 2021,
+    "episodes": 39,
+    "listed": 39
+   },
+   {
+    "series": "SmackDown",
+    "year": 2022,
+    "episodes": 42,
+    "listed": 42
+   },
+   {
+    "series": "NXT",
+    "year": 2011,
+    "episodes": 0,
+    "listed": 0
+   },
+   {
+    "series": "NXT",
+    "year": 2012,
+    "episodes": 2,
+    "listed": 2
+   },
+   {
+    "series": "NXT",
+    "year": 2013,
+    "episodes": 0,
+    "listed": 0
+   },
+   {
+    "series": "NXT",
+    "year": 2014,
+    "episodes": 4,
+    "listed": 4
+   },
+   {
+    "series": "NXT",
+    "year": 2015,
+    "episodes": 4,
+    "listed": 4
+   },
+   {
+    "series": "NXT",
+    "year": 2016,
+    "episodes": 1,
+    "listed": 1
+   },
+   {
+    "series": "NXT",
+    "year": 2017,
+    "episodes": 2,
+    "listed": 2
+   },
+   {
+    "series": "NXT",
+    "year": 2018,
+    "episodes": 4,
+    "listed": 4
+   },
+   {
+    "series": "NXT",
+    "year": 2019,
+    "episodes": 18,
+    "listed": 18
+   },
+   {
+    "series": "NXT",
+    "year": 2020,
+    "episodes": 36,
+    "listed": 36
+   },
+   {
+    "series": "NXT",
+    "year": 2021,
+    "episodes": 27,
+    "listed": 27
+   },
+   {
+    "series": "NXT",
+    "year": 2022,
+    "episodes": 0,
+    "listed": 0
+   },
+   {
+    "series": "NXT",
+    "year": 2023,
+    "episodes": 34,
+    "listed": 34
+   },
+   {
+    "series": "NXT",
+    "year": 2024,
+    "episodes": 32,
+    "listed": 32
+   }
+  ],
+  "reignOverlaps": [
+   "MLW Caribbean Heavyweight Championship: El Mesías (2021-07-10 to 2022-05-12) overlaps Octagón Jr. (from 2022-03-31)"
+  ],
+  "reignOverlapsSameHolder": [],
+  "duplicateReignRecords": [
+   "/Undisputed WWE Championship: Drew McIntyre from 2026-01-09 (undisputed-wwe-2 + profile-reign-drew-mcintyre-194)",
+   "/Undisputed WWE Championship: CM Punk from 2026-07-06 (undisputed-wwe-5 + profile-reign-cm-punk-96)",
+   "WWE Tag Team Championship: Tama Tonga & Jacob Fatu & Tonga Loa from 2024-08-02 (profile-reign-jacob-fatu-322 + profile-reign-tama-tonga-787)",
+   "AAA World Trios Championship: Psycho Clown & Murder Clown & Monster Clown from 2012-03-11 (profile-reign-monster-clown-440 + profile-reign-murder-clown-453)",
+   "AAA World Trios Championship: Psycho Clown & Murder Clown & Monster Clown from 2012-03-11 (profile-reign-monster-clown-440 + profile-reign-psycho-clown-544)",
+   "AAA World Trios Championship: Psycho Clown & Murder Clown & Monster Clown from 2013-02-18 (profile-reign-monster-clown-439 + profile-reign-murder-clown-452)",
+   "AAA World Trios Championship: Psycho Clown & Murder Clown & Monster Clown from 2013-02-18 (profile-reign-monster-clown-439 + profile-reign-psycho-clown-543)",
+   "AAA World Trios Championship: El Hijo del Vikingo & Laredo Kid & Myzteziz Jr. from 2018-12-02 (profile-reign-el-hijo-del-vikingo-230 + profile-reign-laredo-kid-416)",
+   "AAA World Trios Championship: El Hijo del Vikingo & Laredo Kid & Myzteziz Jr. from 2018-12-02 (profile-reign-el-hijo-del-vikingo-230 + profile-reign-myzteziz-jr-458)",
+   "AAA World Trios Championship: El Hijo del Vikingo & Octagón Jr. & Myzteziz Jr. from 2019-08-03 (profile-reign-el-hijo-del-vikingo-229 + profile-reign-myzteziz-jr-457)",
+   "AAA World Trios Championship: El Hijo del Vikingo & Octagón Jr. & Myzteziz Jr. from 2019-08-03 (profile-reign-el-hijo-del-vikingo-229 + profile-reign-octagon-jr-503)",
+   "AAA World Trios Championship: Sansón & Forastero from 2022-08-05 (profile-reign-forastero-295 + profile-reign-sanson-725)",
+   "AAA World Trios Championship: Abismo Negro Jr. & Psicosis & El Fiscal from 2023-07-21 (profile-reign-abismo-negro-jr-0 + profile-reign-el-fiscal-213)",
+   "AAA World Trios Championship: Abismo Negro Jr. & Psicosis & El Fiscal from 2023-07-21 (profile-reign-abismo-negro-jr-0 + profile-reign-psicosis-531)",
+   "AAA World Trios Championship: Dave the Clown & Murder Clown & Panic Clown & Psycho Clown from 2024-11-17 (profile-reign-dave-the-clown-163 + profile-reign-murder-clown-450)",
+   "AAA World Trios Championship: Dave the Clown & Murder Clown & Panic Clown & Psycho Clown from 2024-11-17 (profile-reign-dave-the-clown-163 + profile-reign-panic-clown-511)",
+   "AAA World Trios Championship: Dave the Clown & Murder Clown & Panic Clown & Psycho Clown from 2024-11-17 (profile-reign-dave-the-clown-163 + profile-reign-psycho-clown-540)",
+   "AAA World Tag Team Championship: Drago & Aero Star from 2016-08-28 (profile-reign-aero-star-3 + profile-reign-drago-180)",
+   "AAA World Tag Team Championship: Monster Clown & Murder Clown from 2017-08-26 (profile-reign-monster-clown-438 + profile-reign-murder-clown-451)",
+   "AAA World Tag Team Championship: Rey Fénix & Pentagón Jr. from 2019-03-16 (profile-reign-penta-516 + profile-reign-rey-fenix-645)",
+   "AAA World Tag Team Championship: Rey Fénix & Pentagón Jr. from 2019-06-16 (profile-reign-penta-515 + profile-reign-rey-fenix-644)",
+   "AAA World Tag Team Championship: Sansón & Forastero from 2023-11-19 (profile-reign-forastero-294 + profile-reign-sanson-724)",
+   "AAA World Tag Team Championship: Sansón & Forastero from 2025-03-22 (profile-reign-forastero-293 + profile-reign-sanson-723)",
+   "Lucha Underground Trios Championship: Fénix & Drago & Aero Star from 2016-07-20 (profile-reign-aero-star-4 + profile-reign-drago-181)",
+   "Lucha Underground Trios Championship: Fénix & Drago & Aero Star from 2016-07-20 (profile-reign-aero-star-4 + profile-reign-rey-fenix-650)",
+   "AAA Trios Championship: Daga & Angel & Berto from 2026-09-11 (profile-reign-angel-30 + profile-reign-berto-50)",
+   "AAA Trios Championship: Daga & Angel & Berto from 2026-09-11 (profile-reign-angel-30 + profile-reign-daga-144)",
+   "AAA Tag Team Championship: Angel & Berto from 2025-06-15 (profile-reign-angel-31 + profile-reign-berto-51)",
+   "AAA Tag Team Championship: Erik & Ivar from 2026-05-30 (profile-reign-erik-252 + profile-reign-ivar-313)",
+   "AAA Tag Team Championship: El Hijo de Dr. Wagner Jr. & Galeno from 2026-09-13 (profile-reign-el-hijo-de-dr-wagner-jr-218 + profile-reign-galeno-299)",
+   "WWE Raw/World Tag Team Championship: Erik & Ivar from 2019-10-14 (profile-reign-erik-255 + profile-reign-ivar-315)",
+   "WWE Raw/World Tag Team Championship: Angelo Dawkins & Montez Ford from 2020-03-02 (profile-reign-angelo-dawkins-37 + profile-reign-montez-ford-445)",
+   "WWE Raw/World Tag Team Championship: Erik & Ivar from 2024-12-16 (profile-reign-erik-253 + profile-reign-ivar-314)",
+   "WWE Raw/World Tag Team Championship: Angelo Dawkins & Montez Ford from 2026-06-22 (profile-reign-angelo-dawkins-34 + profile-reign-montez-ford-442)",
+   "WWE SmackDown/WWE Tag Team Championship: Angelo Dawkins & Montez Ford from 2020-10-12 (profile-reign-angelo-dawkins-36 + profile-reign-montez-ford-444)",
+   "WWE SmackDown/WWE Tag Team Championship: Angelo Dawkins & Montez Ford from 2025-03-14 (profile-reign-angelo-dawkins-35 + profile-reign-montez-ford-443)",
+   "NXT Tag Team Championship: Hanson & Rowe from 2019-01-26 (profile-reign-erik-256 + profile-reign-ivar-316)",
+   "NXT Tag Team Championship: Montez Ford & Angelo Dawkins from 2019-06-01 (profile-reign-angelo-dawkins-38 + profile-reign-montez-ford-446)",
+   "NXT Tag Team Championship: Brutus Creed & Julius Creed from 2022-06-04 (profile-reign-brutus-creed-69 + profile-reign-julius-creed-370)",
+   "NXT Tag Team Championship: Tony D'Angelo & Channing \"Stacks\" Lorenzo from 2023-07-30 (profile-reign-channing-stacks-lorenzo-82 + profile-reign-tony-d-angelo-837)",
+   "NXT Tag Team Championship: Tony D'Angelo & Channing \"Stacks\" Lorenzo from 2023-11-14 (profile-reign-channing-stacks-lorenzo-81 + profile-reign-tony-d-angelo-836)",
+   "NXT Tag Team Championship: Baron Corbin & Bron Breakker from 2024-02-13 (profile-reign-baron-corbin-48 + profile-reign-bron-breakker-64)",
+   "NXT Tag Team Championship: Nathan Frazer & Axiom from 2024-04-09 (profile-reign-axiom-45 + profile-reign-nathan-frazer-474)",
+   "NXT Tag Team Championship: Nathan Frazer & Axiom from 2024-09-01 (profile-reign-axiom-44 + profile-reign-nathan-frazer-473)",
+   "NXT Tag Team Championship: Hank Walker & Tank Ledger from 2025-04-19 (profile-reign-hank-walker-311 + profile-reign-tank-ledger-809)",
+   "NXT Tag Team Championship: Osiris Griffin & Dion Lennox from 2025-08-24 (profile-reign-dion-lennox-166 + profile-reign-osiris-griffin-507)",
+   "NXT Tag Team Championship: Osiris Griffin & Dion Lennox & Saquon Shugars from 2025-10-25 (profile-reign-dion-lennox-165 + profile-reign-osiris-griffin-506)",
+   "NXT Tag Team Championship: Osiris Griffin & Dion Lennox & Saquon Shugars from 2025-10-25 (profile-reign-dion-lennox-165 + profile-reign-saquon-shugars-730)",
+   "NXT Tag Team Championship: Brad Baylor & Ricky Smokes from 2026-02-24 (profile-reign-brad-baylor-54 + profile-reign-ricky-smokes-690)",
+   "NXT Tag Team Championship: Myles Borne & Tavion Heights from 2026-08-04 (profile-reign-myles-borne-455 + profile-reign-tavion-heights-810)",
+   "NXT Tag Team Championship: Brad Baylor & Ricky Smokes from 2026-08-30 (profile-reign-brad-baylor-53 + profile-reign-ricky-smokes-689)",
+   "EVOLVE Tag Team Championship: Drew Galloway & Johnny Gargano from 2016-01-24 (profile-reign-drew-mcintyre-203 + profile-reign-johnny-gargano-364)",
+   "EVOLVE Tag Team Championship: Angelo Dawkins & Montez Ford from 2018-10-28 (profile-reign-angelo-dawkins-39 + profile-reign-montez-ford-447)",
+   "WWE SmackDown Tag Team Championship: Jey Uso & Jimmy Uso from 2017-03-21 (profile-reign-jey-uso-337 + profile-reign-jimmy-uso-347)",
+   "WWE SmackDown Tag Team Championship: Jey Uso & Jimmy Uso from 2017-08-20 (profile-reign-jey-uso-336 + profile-reign-jimmy-uso-346)",
+   "WWE SmackDown Tag Team Championship: Jey Uso & Jimmy Uso from 2017-10-08 (profile-reign-jey-uso-335 + profile-reign-jimmy-uso-345)",
+   "WWE SmackDown Tag Team Championship: Jey Uso & Jimmy Uso from 2019-02-17 (profile-reign-jey-uso-334 + profile-reign-jimmy-uso-344)",
+   "WWE SmackDown Tag Team Championship: Rey Mysterio & Dominik Mysterio from 2021-05-16 (profile-reign-dominik-mysterio-177 + profile-reign-rey-mysterio-656)",
+   "WWE SmackDown Tag Team Championship: Jey Uso & Jimmy Uso from 2021-07-18 (profile-reign-jey-uso-333 + profile-reign-jimmy-uso-343)",
+   "WWE SmackDown Tag Team Championship: Kevin Owens & Sami Zayn from 2023-04-01 (profile-reign-kevin-owens-372 + profile-reign-sami-zayn-709)",
+   "WWE SmackDown Tag Team Championship: Cody Rhodes & Jey Uso from 2023-10-07 (profile-reign-cody-rhodes-115 + profile-reign-jey-uso-330)",
+   "WWE SmackDown Tag Team Championship: Austin Theory & Grayson Waller from 2024-04-06 (profile-reign-austin-theory-40 + profile-reign-grayson-waller-302)",
+   "MLW World Tag Team Championship: Pentagón Dark & Rey Fénix from 2018-06-07 (profile-reign-penta-519 + profile-reign-rey-fenix-648)",
+   "AEW World Tag Team Championship: Penta El Zero Miedo & Rey Fénix from 2021-09-05 (profile-reign-penta-514 + profile-reign-rey-fenix-643)",
+   "AEW World Tag Team Championship: Ricky Starks & Big Bill from 2023-10-07 (profile-reign-big-cass-52 + profile-reign-ricky-saints-686)",
+   "NXT UK Tag Team Championship: Brooks Jensen & Josh Briggs from 2022-06-23 (profile-reign-brooks-jensen-68 + profile-reign-josh-briggs-368)",
+   "WWE Speed Championship: Chad Gable & El Grande Americano from 2025-05-07 (profile-reign-chad-gable-74 + profile-reign-el-grande-americano-215)",
+   "WWE Raw Tag Team Championship: Chad Gable & Otis from 2022-01-10 (profile-reign-chad-gable-75 + profile-reign-otis-508)",
+   "WWE Raw Tag Team Championship: Kevin Owens & Sami Zayn from 2023-04-01 (profile-reign-kevin-owens-371 + profile-reign-sami-zayn-708)",
+   "Mexican National Atómicos Championship: Chessman & Killer Clown & Psycho Clown & Zombie Clown from 2009-01-18 (profile-reign-chessman-91 + profile-reign-monster-clown-441)",
+   "Mexican National Atómicos Championship: Chessman & Killer Clown & Psycho Clown & Zombie Clown from 2009-01-18 (profile-reign-chessman-91 + profile-reign-murder-clown-454)",
+   "Mexican National Atómicos Championship: Chessman & Killer Clown & Psycho Clown & Zombie Clown from 2009-01-18 (profile-reign-chessman-91 + profile-reign-psycho-clown-545)",
+   "OVW Southern Tag Team Championship: Cody Runnels & Shawn Spears from 2006-10-18 (profile-reign-cody-rhodes-135 + profile-reign-shawn-spears-762)",
+   "OVW Southern Tag Team Championship: Cody Runnels & Shawn Spears from 2006-12-13 (profile-reign-cody-rhodes-134 + profile-reign-shawn-spears-761)",
+   "WWE/WWE Raw Tag Team Championship: Cody Rhodes & Drew McIntyre from 2010-09-19 (profile-reign-cody-rhodes-128 + profile-reign-drew-mcintyre-207)",
+   "WWE/WWE Raw Tag Team Championship: The Miz & R-Truth from 2024-04-06 (profile-reign-r-truth-546 + profile-reign-the-miz-811)",
+   "GHC Tag Team Championship: Hank Walker & Tank Ledger from 2025-11-08 (profile-reign-hank-walker-310 + profile-reign-tank-ledger-808)",
+   "Mexican National Trios Championship: Forastero & Sansón from 2017-07-25 (profile-reign-forastero-297 + profile-reign-sanson-727)",
+   "ROH World Tag Team Championship: Kevin Steen & El Generico from 2008-09-19 (profile-reign-kevin-owens-384 + profile-reign-sami-zayn-717)",
+   "ROH World Tag Team Championship: Hanson & Raymond Rowe from 2015-12-18 (profile-reign-erik-259 + profile-reign-ivar-319)",
+   "ROH World Tag Team Championship: Penta El Zero Miedo & Rey Fénix from 2023-03-31 (profile-reign-penta-512 + profile-reign-rey-fenix-639)",
+   "FCW Florida Tag Team Championship: Jimmy Uso & Jules Uso from 2010-03-13 (profile-reign-jey-uso-340 + profile-reign-jimmy-uso-350)",
+   "IWGP Tag Team Championship: Raymond Rowe & Hanson from 2017-04-09 (profile-reign-erik-258 + profile-reign-ivar-318)",
+   "IWGP Tag Team Championship: Raymond Rowe & Hanson from 2017-07-01 (profile-reign-erik-257 + profile-reign-ivar-317)",
+   "Impact World Tag Team Championship: Pentagón Jr. & Rey Fénix from 2019-02-08 (profile-reign-penta-517 + profile-reign-rey-fenix-646)",
+   "PWG World Tag Team Championship: Pentagón Dark & Fénix from 2017-03-18 (profile-reign-penta-523 + profile-reign-rey-fenix-649)",
+   "CMLL World Trios Championship: Forastero & Sansón from 2021-03-26 (profile-reign-forastero-296 + profile-reign-sanson-726)",
+   "CMLL Occidente Trios Championship: Forastero & Sansón from 2015-11-01 (profile-reign-forastero-298 + profile-reign-sanson-729)",
+   "WWE/WWE Raw/World Tag Team Championship: Jey Uso & Jimmy Uso from 2014-03-03 (profile-reign-jey-uso-339 + profile-reign-jimmy-uso-349)",
+   "WWE/WWE Raw/World Tag Team Championship: Jey Uso & Jimmy Uso from 2014-12-29 (profile-reign-jey-uso-338 + profile-reign-jimmy-uso-348)",
+   "WWE/WWE Raw/World Tag Team Championship: Jey Uso & Jimmy Uso from 2022-05-20 (profile-reign-jey-uso-332 + profile-reign-jimmy-uso-342)",
+   "WWE/WWE Raw/World Tag Team Championship: Jey Uso & Jimmy Uso from 2025-12-29 (profile-reign-jey-uso-328 + profile-reign-jimmy-uso-341)",
+   "AAA World/AAA Tag Team Championship: Pagano & Psycho Clown from 2025-08-16 (profile-reign-pagano-509 + profile-reign-psycho-clown-539)",
+   "AEW World Trios Championship: PAC & Penta El Zero Miedo & Rey Fénix from 2022-09-07 (profile-reign-penta-513 + profile-reign-rey-fenix-640)"
+  ],
+  "sourceHosts": {
+   "thehistoryofwwe.com": 10822,
+   "wwe.com": 5107,
+   "thesmackdownhotel.com": 893,
+   "cagematch.net": 628,
+   "allelitewrestling.com": 11,
+   "njpw1972.com": 3,
+   "wrestleview.com": 3,
+   "en.wikipedia.org": 2,
+   "wrestlinginc.com": 2,
+   "onlineworldofwrestling.com": 1,
+   "prowrestling.net": 1
+  }
+ },
+ "logicToPort": [
+  "PLE detection: app.js marks a show as PLE by category or by a show-name pattern (WrestleMania, SummerSlam, Royal Rumble, ...).",
+  "Historical display names: a person shows a different name before 2025 or in 2025 (importedEventNames, yearRosters).",
+  "Default roster filter: RAW and SmackDown checked, NXT and AAA unchecked; brands combine with OR.",
+  "PWL rating: equal-weight mean of available source scores on a 0–100 scale (matchRatings.method, ratingUI.normalize).",
+  "Statistics record sets and the 106 excluded matches (statisticsRecord, statisticsQuality).",
+  "Rivalry clustering for feud highlighting (careerRivalries.find / clusters).",
+  "Championship lineage tree layout (lineageUI.config / layout).",
+  "Show catalog grouping by promotion and series (showsUI.seriesFor).",
+  "Explorer HTML for Cody and Hogan: biography, trained by, moves, managers, signature matches (captured as rendered HTML in the snapshot)."
+ ]
+}
