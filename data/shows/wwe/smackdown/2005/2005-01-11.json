@@ -1,0 +1,160 @@
+{
+  "id": "wwe/smackdown/2005-01-11",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2005-01-11",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "John Cena vs. Kenzo Suzuki",
+      "result": "John Cena defeated Kenzo Suzuki.",
+      "matchType": "Singles match",
+      "duration": 99,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kenzo-suzuki",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Kenzo Suzuki"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48638",
+          "157992"
+        ],
+        "sourceEventIds": [
+          "7273"
+        ]
+      },
+      "legacyId": "bulk-match-48638",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Amy Weber vs. Joy Giovanni",
+      "result": "Amy Weber defeated Joy Giovanni.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "amy-weber",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "joy-giovanni",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Amy Weber",
+        "Joy Giovanni"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48639",
+          "157993"
+        ],
+        "sourceEventIds": [
+          "7273"
+        ]
+      },
+      "legacyId": "bulk-match-48639",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Sho Funaki vs. Nunzio",
+      "result": "Sho Funaki defeated Nunzio.",
+      "matchType": "Singles match",
+      "duration": 196,
+      "participants": [
+        {
+          "person": "sho-funaki",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nunzio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sho Funaki",
+        "Nunzio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48640",
+          "157994"
+        ],
+        "sourceEventIds": [
+          "7273"
+        ]
+      },
+      "legacyId": "bulk-match-48640",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7273"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7273"
+    ]
+  }
+}

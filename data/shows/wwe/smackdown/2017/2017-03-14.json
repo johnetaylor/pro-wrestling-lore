@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2017-03-14",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-03-14",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-03-14"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Becky Lynch vs. Natalya",
+      "result": "Becky Lynch defeated Natalya.",
+      "matchType": "Singles match",
+      "duration": 525,
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Natalya"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-03-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76527",
+          "122996"
+        ],
+        "sourceEventIds": [
+          "11861"
+        ]
+      },
+      "legacyId": "bulk-match-76527",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Mickie James vs. Alexa Bliss",
+      "result": "Mickie James defeated Alexa Bliss.",
+      "matchType": "Singles match",
+      "duration": 516,
+      "participants": [
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mickie James",
+        "Alexa Bliss"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-03-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76528",
+          "122997"
+        ],
+        "sourceEventIds": [
+          "11861"
+        ]
+      },
+      "legacyId": "bulk-match-76528",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Mojo Rawley vs. Dolph Ziggler",
+      "result": "Mojo Rawley defeated Dolph Ziggler by count-out.",
+      "matchType": "Singles match",
+      "duration": 149,
+      "participants": [
+        {
+          "person": "mojo-rawley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Mojo Rawley",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-03-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76529",
+          "122998"
+        ],
+        "sourceEventIds": [
+          "11861"
+        ]
+      },
+      "legacyId": "bulk-match-76529",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11861"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11861"
+    ]
+  }
+}

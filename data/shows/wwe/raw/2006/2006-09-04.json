@@ -1,0 +1,185 @@
+{
+  "id": "wwe/raw/2006-09-04",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2006-09-04",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2006/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Jeff Hardy vs. Johnny Nitro",
+      "result": "Jeff Hardy defeated Johnny Nitro by disqualification.",
+      "matchType": "Singles match",
+      "duration": 738,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Johnny Nitro"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50975",
+          "155182"
+        ],
+        "sourceEventIds": [
+          "7710"
+        ]
+      },
+      "legacyId": "bulk-match-50975",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Super Crazy vs. Chris Masters",
+      "result": "Super Crazy defeated Chris Masters.",
+      "matchType": "Singles match",
+      "duration": 240,
+      "participants": [
+        {
+          "person": "super-crazy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-masters",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Super Crazy",
+        "Chris Masters"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50976",
+          "155183"
+        ],
+        "sourceEventIds": [
+          "7710"
+        ]
+      },
+      "legacyId": "bulk-match-50976",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Edge, Lita, Randy Orton vs. Carlito, John Cena, Trish Stratus",
+      "result": "Edge, Lita, Randy Orton defeated Carlito, John Cena, Trish Stratus.",
+      "matchType": "Tag Team match",
+      "duration": 894,
+      "participants": [
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "lita",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "trish-stratus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Edge",
+        "Lita",
+        "Randy Orton",
+        "Carlito",
+        "John Cena",
+        "Trish Stratus"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50978",
+          "155185"
+        ],
+        "sourceEventIds": [
+          "7710"
+        ]
+      },
+      "legacyId": "bulk-match-50978",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7710"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7710"
+    ]
+  }
+}

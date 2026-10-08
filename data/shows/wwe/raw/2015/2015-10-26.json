@@ -1,0 +1,217 @@
+{
+  "id": "wwe/raw/2015-10-26",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2015-10-26",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2015/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Roman Reigns vs. Kofi Kingston",
+      "result": "Roman Reigns defeated Kofi Kingston.",
+      "matchType": "Singles match",
+      "duration": 764,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Kofi Kingston"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "70870",
+          "129161"
+        ],
+        "sourceEventIds": [
+          "11026"
+        ]
+      },
+      "legacyId": "bulk-match-70870",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Kevin Owens vs. Cesaro",
+      "result": "Kevin Owens defeated Cesaro.",
+      "matchType": "Singles match",
+      "duration": 622,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Cesaro"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "70871",
+          "129162"
+        ],
+        "sourceEventIds": [
+          "11026"
+        ]
+      },
+      "legacyId": "bulk-match-70871",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Alberto Del Rio vs. Neville",
+      "result": "Alberto Del Rio defeated Neville.",
+      "matchType": "Singles match",
+      "duration": 722,
+      "participants": [
+        {
+          "person": "alberto-del-rio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "neville",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alberto Del Rio",
+        "Neville"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "70873",
+          "129164"
+        ],
+        "sourceEventIds": [
+          "11026"
+        ]
+      },
+      "legacyId": "bulk-match-70873",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Roman Reigns vs. Alberto Del Rio, Dolph Ziggler, Kevin Owens",
+      "result": "Roman Reigns defeated Alberto Del Rio, Dolph Ziggler, Kevin Owens.",
+      "matchType": "Fatal Four Way match",
+      "duration": 900,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alberto-del-rio",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Alberto Del Rio",
+        "Dolph Ziggler",
+        "Kevin Owens"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "70876",
+          "129167"
+        ],
+        "sourceEventIds": [
+          "11026"
+        ]
+      },
+      "legacyId": "bulk-match-70876",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11026"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11026"
+    ]
+  }
+}

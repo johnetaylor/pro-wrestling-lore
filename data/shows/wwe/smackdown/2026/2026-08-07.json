@@ -1,0 +1,227 @@
+{
+  "id": "wwe/smackdown/2026-08-07",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2026-08-07",
+  "recordedDate": "2026-08-07",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "legacyCardStatus": "Card indexed",
+    "legacySegmentStatus": "Recap reviewed · partial appearance coverage"
+  },
+  "sources": [
+    "https://www.cagematch.net/?id=1&nr=456640",
+    "https://www.wwe.com/shows/smackdown/2026-08-07"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Baron Corbin vs. Trick Williams",
+      "result": "Baron Corbin (c) defeats Trick Williams (10:08)",
+      "context": "The newly crowned champion turned back Williams in their immediate SummerSlam rematch. WWE United States Title Match · Duration: 10:08.",
+      "matchType": "WWE United States Title Match",
+      "duration": "10:08",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "baron-corbin",
+          "role": "competitor"
+        },
+        {
+          "person": "trick-williams",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Baron Corbin",
+        "Trick Williams"
+      ],
+      "rating": {
+        "sources": [
+          {
+            "provider": "cagematch",
+            "value": 5.2,
+            "unit": "points",
+            "url": "https://www.cagematch.net/?id=1&nr=456640",
+            "checked": "2026-10-05",
+            "votes": 100
+          }
+        ],
+        "matchCheck": {
+          "method": "date + exact result",
+          "sourceFixture": "Baron Corbin (c) defeats Trick Williams (10:08)",
+          "eventUrl": "https://www.cagematch.net/?id=1&nr=456640"
+        }
+      },
+      "sources": [
+        "https://www.cagematch.net/?id=1&nr=456640",
+        "https://www.wwe.com/shows/smackdown/2026-08-07"
+      ],
+      "legacyId": "m79",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Fatal Influence (Fallon Henley & Lainey Reid) vs. Chelsea Green & Tiffany Stratton",
+      "result": "Fatal Influence (Fallon Henley & Lainey Reid) (w/Jacy Jayne) (c) defeat Chelsea Green & Tiffany Stratton (7:50)",
+      "context": "WWE Women's Tag Team Title Match · Duration: 7:50.",
+      "matchType": "WWE Women's Tag Team Title Match",
+      "duration": "7:50",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "fallon-henley",
+          "role": "competitor"
+        },
+        {
+          "person": "lainey-reid",
+          "role": "competitor"
+        },
+        {
+          "person": "chelsea-green",
+          "role": "competitor"
+        },
+        {
+          "person": "tiffany-stratton",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Fatal Influence",
+        "Fallon Henley",
+        "Lainey Reid",
+        "Chelsea Green",
+        "Tiffany Stratton"
+      ],
+      "guests": "Fallon Henley, Lainey Reid, Chelsea Green, Tiffany Stratton",
+      "sources": [
+        "https://www.cagematch.net/?id=1&nr=456640",
+        "https://www.wwe.com/shows/smackdown/2026-08-07"
+      ],
+      "legacyId": "2026-08-07-smackdown-match-2",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Charlotte Flair vs. Jade Cargill",
+      "result": "Charlotte Flair defeats Jade Cargill (13:16)",
+      "context": "Singles Match · Duration: 13:16.",
+      "matchType": "Singles Match",
+      "duration": "13:16",
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor"
+        },
+        {
+          "person": "jade-cargill",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Jade Cargill"
+      ],
+      "guests": "Charlotte Flair, Jade Cargill",
+      "sources": [
+        "https://www.cagematch.net/?id=1&nr=456640",
+        "https://www.wwe.com/shows/smackdown/2026-08-07"
+      ],
+      "legacyId": "2026-08-07-smackdown-match-3",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "s1",
+      "type": "promo",
+      "title": "Punk confronts Rhodes",
+      "result": "Punk confronts Rhodes.",
+      "context": "A televised promo, interview or verbal confrontation. The linked recap provides the surrounding story.",
+      "participants": [
+        {
+          "person": "cm-punk",
+          "role": "competitor"
+        },
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2026-08-07",
+        "https://www.wwe.com/videos/cody-rhodes-confronts-cm-punk-smackdown-highlights-aug-7-2026"
+      ],
+      "legacyId": "2026-08-07-smackdown-segment-0",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s2",
+      "type": "promo",
+      "title": "Owens confronts Punk",
+      "result": "Owens confronts Punk.",
+      "context": "A televised promo, interview or verbal confrontation. The linked recap provides the surrounding story.",
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor"
+        },
+        {
+          "person": "cm-punk",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2026-08-07",
+        "https://www.wwe.com/videos/cm-punk-and-kevin-owens-describe-volatile-history-smackdown-highlights-aug-7-2026"
+      ],
+      "legacyId": "2026-08-07-smackdown-segment-1",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s3",
+      "type": "promo",
+      "title": "Rhodes confronts Orton",
+      "result": "Rhodes confronts Orton.",
+      "context": "A televised promo, interview or verbal confrontation. The linked recap provides the surrounding story.",
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2026-08-07",
+        "https://www.wwe.com/videos/full-segment-cody-rhodes-vows-to-kill-the-legend-of-randy-orton-smackdown-highlights-aug-7"
+      ],
+      "legacyId": "2026-08-07-smackdown-segment-5",
+      "legacy": {
+        "kind": "story"
+      }
+    }
+  ],
+  "legacyIds": [
+    "2026-08-07-smackdown"
+  ],
+  "legacy": {
+    "showFamily": "smackdown"
+  }
+}

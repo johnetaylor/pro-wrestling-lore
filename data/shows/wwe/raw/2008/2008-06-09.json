@@ -1,0 +1,217 @@
+{
+  "id": "wwe/raw/2008-06-09",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2008-06-09",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Mickie James vs. Beth Phoenix",
+      "result": "Mickie James defeated Beth Phoenix.",
+      "matchType": "Singles match",
+      "duration": 150,
+      "participants": [
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "beth-phoenix",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mickie James",
+        "Beth Phoenix"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53294",
+          "152314"
+        ],
+        "sourceEventIds": [
+          "8123"
+        ]
+      },
+      "legacyId": "bulk-match-53294",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "John Cena vs. John Bradshaw Layfield",
+      "result": "John Cena defeated John Bradshaw Layfield.",
+      "matchType": "Singles match",
+      "duration": 608,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "John Bradshaw Layfield"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53295",
+          "152315"
+        ],
+        "sourceEventIds": [
+          "8123"
+        ]
+      },
+      "legacyId": "bulk-match-53295",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Snitsky, Umaga vs. Cody Rhodes, Hardcore Holly",
+      "result": "Snitsky, Umaga defeated Cody Rhodes, Hardcore Holly.",
+      "matchType": "4-person match",
+      "duration": 184,
+      "participants": [
+        {
+          "person": "snitsky",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "umaga",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Snitsky",
+        "Umaga",
+        "Cody Rhodes",
+        "Hardcore Holly"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53296",
+          "152316"
+        ],
+        "sourceEventIds": [
+          "8123"
+        ]
+      },
+      "legacyId": "bulk-match-53296",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Jeff Hardy vs. Triple H",
+      "result": "Jeff Hardy defeated Triple H by count-out.",
+      "matchType": "Singles match",
+      "duration": 504,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Triple H"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53298",
+          "152318"
+        ],
+        "sourceEventIds": [
+          "8123"
+        ]
+      },
+      "legacyId": "bulk-match-53298",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8123"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8123"
+    ]
+  }
+}

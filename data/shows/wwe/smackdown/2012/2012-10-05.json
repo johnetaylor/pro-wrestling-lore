@@ -1,0 +1,131 @@
+{
+  "id": "wwe/smackdown/2012-10-05",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2012-10-05",
+  "dateBasis": "aired",
+  "recordedDate": "2012-10-02",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2012/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 6,
+      "type": "match",
+      "title": "Daniel Bryan, Kane vs. Alberto Del Rio, David Otunga",
+      "result": "Daniel Bryan, Kane defeated Alberto Del Rio, David Otunga.",
+      "matchType": "4-person match",
+      "duration": 292,
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alberto-del-rio",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "david-otunga",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "Kane",
+        "Alberto Del Rio",
+        "David Otunga"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2012/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "60345",
+          "141978"
+        ],
+        "sourceEventIds": [
+          "9511"
+        ]
+      },
+      "legacyId": "bulk-match-60345",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 8,
+      "type": "match",
+      "title": "CM Punk vs. Dolph Ziggler",
+      "result": "CM Punk defeated Dolph Ziggler.",
+      "matchType": "Singles match",
+      "duration": 596,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "cm-punk",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "CM Punk",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2012/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "60347",
+          "141980"
+        ],
+        "sourceEventIds": [
+          "9511"
+        ]
+      },
+      "legacyId": "bulk-match-60347",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-9511"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "9511"
+    ]
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "id": "wwe/raw/2002-03-04",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2002-03-04",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2002/",
+    "https://thehistoryofwwe.com/wwe-raw-2002/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Steve Austin vs. Booker T.",
+      "result": "Steve Austin defeated Booker T..",
+      "matchType": "Singles match",
+      "duration": 143,
+      "participants": [
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Steve Austin",
+        "Booker T."
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44311",
+          "162643"
+        ],
+        "sourceEventIds": [
+          "6505"
+        ]
+      },
+      "legacyId": "bulk-match-44311",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Mr. Perfect, Test vs. Albert, Scotty 2 Hotty",
+      "result": "Mr. Perfect, Test defeated Albert, Scotty 2 Hotty.",
+      "matchType": "4-person match",
+      "duration": 138,
+      "participants": [
+        {
+          "person": "curt-hennig",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tensai",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "scotty-2-hotty",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mr. Perfect",
+        "Test",
+        "Albert",
+        "Scotty 2 Hotty"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44312",
+          "162644"
+        ],
+        "sourceEventIds": [
+          "6505"
+        ]
+      },
+      "legacyId": "bulk-match-44312",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Goldust vs. Tazz",
+      "result": "Goldust defeated Tazz.",
+      "matchType": "Other match",
+      "duration": 129,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tazz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Goldust",
+        "Tazz"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44313",
+          "162645"
+        ],
+        "sourceEventIds": [
+          "6505"
+        ]
+      },
+      "legacyId": "bulk-match-44313",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Jazz vs. Trish Stratus",
+      "result": "Jazz defeated Trish Stratus by disqualification.",
+      "matchType": "Singles match",
+      "duration": 195,
+      "participants": [
+        {
+          "person": "jazz",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "trish-stratus",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Jazz",
+        "Trish Stratus"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44314",
+          "162646"
+        ],
+        "sourceEventIds": [
+          "6505"
+        ]
+      },
+      "legacyId": "bulk-match-44314",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 5,
+      "type": "match",
+      "title": "Rob Van Dam vs. Lance Storm",
+      "result": "Rob Van Dam defeated Lance Storm.",
+      "matchType": "Singles match",
+      "duration": 343,
+      "participants": [
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "lance-storm",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rob Van Dam",
+        "Lance Storm"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44315",
+          "162647"
+        ],
+        "sourceEventIds": [
+          "6505"
+        ]
+      },
+      "legacyId": "bulk-match-44315",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 6,
+      "type": "match",
+      "title": "Scott Hall vs. Spike Dudley",
+      "result": "Scott Hall defeated Spike Dudley.",
+      "matchType": "Singles match",
+      "duration": 152,
+      "participants": [
+        {
+          "person": "scott-hall",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "spike-dudley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Scott Hall",
+        "Spike Dudley"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44316",
+          "162648"
+        ],
+        "sourceEventIds": [
+          "6505"
+        ]
+      },
+      "legacyId": "bulk-match-44316",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m7",
+      "order": 7,
+      "type": "match",
+      "title": "Kurt Angle vs. Triple H",
+      "result": "Kurt Angle defeated Triple H.",
+      "matchType": "Cage match",
+      "duration": 934,
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Triple H"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44317",
+          "162649"
+        ],
+        "sourceEventIds": [
+          "6505"
+        ]
+      },
+      "legacyId": "bulk-match-44317",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "s1",
+      "type": "appearance",
+      "title": "Hulk Hogan · run-in / confrontation",
+      "result": "nWo attacked Steve Austin during Austin vs. Booker T",
+      "context": "Also in the segment: Scott Hall, Kevin Nash, Steve Austin. Venue: Frank Erwin Center, Austin, TX.",
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor"
+        },
+        {
+          "person": "scott-hall",
+          "role": "involved"
+        },
+        {
+          "person": "kevin-nash",
+          "role": "involved"
+        },
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "involved"
+        }
+      ],
+      "promotionLabel": "WWF",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-raw-2002/"
+      ],
+      "legacyId": "hogan-workbook-ha-0276",
+      "legacy": {
+        "show": "Monday Night Raw",
+        "kind": "story"
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6505"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6505"
+    ]
+  }
+}

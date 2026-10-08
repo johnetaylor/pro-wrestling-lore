@@ -1,0 +1,173 @@
+{
+  "id": "wwe/smackdown/2018-03-27",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-03-27",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-03-27"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Jinder Mahal, Rusev vs. Bobby Roode, Randy Orton",
+      "result": "Jinder Mahal, Rusev defeated Bobby Roode, Randy Orton.",
+      "matchType": "4-person match",
+      "duration": 1104,
+      "participants": [
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bobby-roode",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jinder Mahal",
+        "Rusev",
+        "Bobby Roode",
+        "Randy Orton"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-03-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80077",
+          "119393"
+        ],
+        "sourceEventIds": [
+          "12446"
+        ]
+      },
+      "legacyId": "bulk-match-80077",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Dolph Ziggler vs. Tyler Breeze",
+      "result": "Dolph Ziggler defeated Tyler Breeze.",
+      "matchType": "Singles match",
+      "duration": 120,
+      "participants": [
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tyler-breeze",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dolph Ziggler",
+        "Tyler Breeze"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-03-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80080",
+          "119396"
+        ],
+        "sourceEventIds": [
+          "12446"
+        ]
+      },
+      "legacyId": "bulk-match-80080",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Shinsuke Nakamura vs. Shelton Benjamin",
+      "result": "Shinsuke Nakamura defeated Shelton Benjamin.",
+      "matchType": "Singles match",
+      "duration": 570,
+      "participants": [
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shinsuke Nakamura",
+        "Shelton Benjamin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-03-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80081",
+          "119397"
+        ],
+        "sourceEventIds": [
+          "12446"
+        ]
+      },
+      "legacyId": "bulk-match-80081",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12446"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12446"
+    ]
+  }
+}

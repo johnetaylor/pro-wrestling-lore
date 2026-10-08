@@ -1,0 +1,182 @@
+{
+  "id": "wwe/smackdown/2018-12-18",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-12-18",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-12-18"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Asuka vs. Naomi",
+      "result": "Asuka defeated Naomi.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "asuka",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Asuka",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-12-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82137",
+          "117314"
+        ],
+        "sourceEventIds": [
+          "12798"
+        ]
+      },
+      "legacyId": "bulk-match-82137",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Mandy Rose, The Miz vs. Carmella, R-Truth",
+      "result": "Mandy Rose, The Miz defeated Carmella, R-Truth.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "mandy-rose",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mandy Rose",
+        "The Miz",
+        "Carmella",
+        "R-Truth"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-12-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82138",
+          "117315"
+        ],
+        "sourceEventIds": [
+          "12798"
+        ]
+      },
+      "legacyId": "bulk-match-82138",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "A.J. Styles, Mustafa Ali vs. Andrade \"Cien\" Almas, Daniel Bryan",
+      "result": "A.J. Styles, Mustafa Ali defeated Andrade \"Cien\" Almas, Daniel Bryan.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mustafa-ali",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Mustafa Ali",
+        "Andrade \"Cien\" Almas",
+        "Daniel Bryan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-12-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82140",
+          "117317"
+        ],
+        "sourceEventIds": [
+          "12798"
+        ]
+      },
+      "legacyId": "bulk-match-82140",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12798"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12798"
+    ]
+  }
+}

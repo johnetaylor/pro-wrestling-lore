@@ -1,0 +1,218 @@
+{
+  "id": "wwe/raw/2018-10-22",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2018-10-22",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2018-10-22"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Finn Bálor vs. Bobby Lashley",
+      "result": "Finn Bálor defeated Bobby Lashley.",
+      "matchType": "Singles match",
+      "duration": 519,
+      "participants": [
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Finn Bálor",
+        "Bobby Lashley"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-10-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81703",
+          "117744"
+        ],
+        "sourceEventIds": [
+          "12718"
+        ]
+      },
+      "legacyId": "bulk-match-81703",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Ruby Riott vs. Sasha Banks",
+      "result": "Ruby Riott defeated Sasha Banks.",
+      "matchType": "Singles match",
+      "duration": 579,
+      "participants": [
+        {
+          "person": "ruby-riott",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ruby Riott",
+        "Sasha Banks"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-10-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81704",
+          "117745"
+        ],
+        "sourceEventIds": [
+          "12718"
+        ]
+      },
+      "legacyId": "bulk-match-81704",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Elias vs. Apollo Crews",
+      "result": "Elias defeated Apollo Crews.",
+      "matchType": "Singles match",
+      "duration": 478,
+      "participants": [
+        {
+          "person": "elias",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "apollo-crews",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Elias",
+        "Apollo Crews"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-10-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81705",
+          "117746"
+        ],
+        "sourceEventIds": [
+          "12718"
+        ]
+      },
+      "legacyId": "bulk-match-81705",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Dean Ambrose, Seth Rollins vs. Dolph Ziggler, Drew McIntyre",
+      "result": "Dean Ambrose, Seth Rollins defeated Dolph Ziggler, Drew McIntyre.",
+      "matchType": "4-person match",
+      "duration": 1157,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dean Ambrose",
+        "Seth Rollins",
+        "Dolph Ziggler",
+        "Drew McIntyre"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-10-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81707",
+          "117748"
+        ],
+        "sourceEventIds": [
+          "12718"
+        ]
+      },
+      "legacyId": "bulk-match-81707",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12718"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12718"
+    ]
+  }
+}

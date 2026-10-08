@@ -1,0 +1,374 @@
+{
+  "id": "wwe/raw/2019-08-19",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2019-08-19",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2019-08-19"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Roman Reigns vs. Dolph Ziggler",
+      "result": "Roman Reigns defeated Dolph Ziggler.",
+      "matchType": "Singles match",
+      "duration": 653,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-08-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83862",
+          "115531"
+        ],
+        "sourceEventIds": [
+          "13098"
+        ]
+      },
+      "legacyId": "bulk-match-83862",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Ricochet, The Miz vs. Baron Corbin, Drew McIntyre",
+      "result": "Ricochet, The Miz defeated Baron Corbin, Drew McIntyre.",
+      "matchType": "4-person match",
+      "duration": 615,
+      "participants": [
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ricochet",
+        "The Miz",
+        "Baron Corbin",
+        "Drew McIntyre"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-08-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83863",
+          "115532"
+        ],
+        "sourceEventIds": [
+          "13098"
+        ]
+      },
+      "legacyId": "bulk-match-83863",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Braun Strowman vs. A.J. Styles",
+      "result": "Braun Strowman defeated A.J. Styles by disqualification.",
+      "matchType": "Singles match",
+      "duration": 111,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Braun Strowman",
+        "A.J. Styles"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-08-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83864",
+          "115533"
+        ],
+        "sourceEventIds": [
+          "13098"
+        ]
+      },
+      "legacyId": "bulk-match-83864",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Samoa Joe vs. Cesaro",
+      "result": "Samoa Joe defeated Cesaro.",
+      "matchType": "Singles match",
+      "duration": 618,
+      "participants": [
+        {
+          "person": "samoa-joe",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Samoa Joe",
+        "Cesaro"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-08-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83865",
+          "115534"
+        ],
+        "sourceEventIds": [
+          "13098"
+        ]
+      },
+      "legacyId": "bulk-match-83865",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 6,
+      "type": "match",
+      "title": "Alexa Bliss, Nikki Cross vs. Mandy Rose, Sonya Deville",
+      "result": "Alexa Bliss, Nikki Cross defeated Mandy Rose, Sonya Deville.",
+      "matchType": "4-person match",
+      "duration": 257,
+      "participants": [
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nikki-cross",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mandy-rose",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sonya-deville",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alexa Bliss",
+        "Nikki Cross",
+        "Mandy Rose",
+        "Sonya Deville"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-08-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83867",
+          "115536"
+        ],
+        "sourceEventIds": [
+          "13098"
+        ]
+      },
+      "legacyId": "bulk-match-83867",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 7,
+      "type": "match",
+      "title": "Cedric Alexander vs. Sami Zayn",
+      "result": "Cedric Alexander defeated Sami Zayn.",
+      "matchType": "Singles match",
+      "duration": 214,
+      "participants": [
+        {
+          "person": "cedric-alexander",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cedric Alexander",
+        "Sami Zayn"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-08-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83868",
+          "115537"
+        ],
+        "sourceEventIds": [
+          "13098"
+        ]
+      },
+      "legacyId": "bulk-match-83868",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m7",
+      "order": 8,
+      "type": "match",
+      "title": "Braun Strowman, Seth Rollins vs. Karl Anderson, Luke Gallows",
+      "result": "Braun Strowman, Seth Rollins defeated Karl Anderson, Luke Gallows.",
+      "matchType": "4-person match",
+      "duration": 737,
+      "participants": [
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "karl-anderson",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "luke-gallows",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Braun Strowman",
+        "Seth Rollins",
+        "Karl Anderson",
+        "Luke Gallows"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-08-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83869",
+          "115538"
+        ],
+        "sourceEventIds": [
+          "13098"
+        ]
+      },
+      "legacyId": "bulk-match-83869",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13098"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13098"
+    ]
+  }
+}

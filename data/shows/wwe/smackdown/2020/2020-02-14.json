@@ -1,0 +1,180 @@
+{
+  "id": "wwe/smackdown/2020-02-14",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2020-02-14",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2020-02-14"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Bayley vs. Carmella",
+      "result": "Bayley defeated Carmella.",
+      "matchType": "Singles match",
+      "duration": 858,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Carmella"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-02-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85236",
+          "113989"
+        ],
+        "sourceEventIds": [
+          "13313"
+        ]
+      },
+      "legacyId": "bulk-match-85236",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Sheamus vs. Apollo Crews, Shorty G",
+      "result": "Sheamus defeated Apollo Crews, Shorty G.",
+      "matchType": "Tag Team match",
+      "duration": 215,
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "apollo-crews",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Apollo Crews",
+        "Shorty G"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-02-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85237",
+          "113990"
+        ],
+        "sourceEventIds": [
+          "13313"
+        ]
+      },
+      "legacyId": "bulk-match-85237",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Daniel Bryan, Roman Reigns vs. John Morrison, The Miz",
+      "result": "Daniel Bryan, Roman Reigns defeated John Morrison, The Miz.",
+      "matchType": "4-person match",
+      "duration": 825,
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "Roman Reigns",
+        "John Morrison",
+        "The Miz"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-02-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85238",
+          "113991"
+        ],
+        "sourceEventIds": [
+          "13313"
+        ]
+      },
+      "legacyId": "bulk-match-85238",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13313"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13313"
+    ]
+  }
+}

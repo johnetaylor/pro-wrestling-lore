@@ -1,0 +1,206 @@
+{
+  "id": "wwe/raw/2009-01-19",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2009-01-19",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2009/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Beth Phoenix vs. Kelly Kelly",
+      "result": "Beth Phoenix defeated Kelly Kelly.",
+      "matchType": "Singles match",
+      "duration": 70,
+      "participants": [
+        {
+          "person": "beth-phoenix",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kelly-kelly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Beth Phoenix",
+        "Kelly Kelly"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53963",
+          "151407"
+        ],
+        "sourceEventIds": [
+          "8236"
+        ]
+      },
+      "legacyId": "bulk-match-53963",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "CM Punk vs. William Regal",
+      "result": "CM Punk defeated William Regal.",
+      "matchType": "Other match",
+      "duration": 597,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "cm-punk",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "CM Punk",
+        "William Regal"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53964",
+          "151408"
+        ],
+        "sourceEventIds": [
+          "8236"
+        ]
+      },
+      "legacyId": "bulk-match-53964",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Rey Mysterio vs. Mike Knox",
+      "result": "Rey Mysterio defeated Mike Knox by disqualification.",
+      "matchType": "Singles match",
+      "duration": 149,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mike-knox",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Mike Knox"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53965",
+          "151409"
+        ],
+        "sourceEventIds": [
+          "8236"
+        ]
+      },
+      "legacyId": "bulk-match-53965",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Melina vs. Jillian Hall",
+      "result": "Melina defeated Jillian Hall.",
+      "matchType": "Singles match",
+      "duration": 83,
+      "participants": [
+        {
+          "person": "melina",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jillian-hall",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Melina",
+        "Jillian Hall"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53967",
+          "151411"
+        ],
+        "sourceEventIds": [
+          "8236"
+        ]
+      },
+      "legacyId": "bulk-match-53967",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8236"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8236"
+    ]
+  }
+}

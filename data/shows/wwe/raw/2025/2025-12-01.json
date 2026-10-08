@@ -1,0 +1,187 @@
+{
+  "id": "wwe/raw/2025-12-01",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2025-12-01",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "legacyCardStatus": "Card indexed",
+    "legacySegmentStatus": "Partial recap coverage · not a full appearance audit"
+  },
+  "sources": [
+    "https://www.thesmackdownhotel.com/events-results/wwe/raw-2025",
+    "https://www.wwe.com/shows/raw/2025-12-01"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "LA Knight vs. Jey Uso",
+      "result": "LA Knight defeats Jey Uso",
+      "context": "\"Last Time is Now\" Tournament - Semifinal. Open the linked recap for the finish and surrounding story.",
+      "matchType": "\"Last Time is Now\" Tournament - Semifinal",
+      "participants": [
+        {
+          "person": "la-knight",
+          "role": "competitor"
+        },
+        {
+          "person": "jey-uso",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/raw-2025",
+        "https://www.wwe.com/shows/raw/2025-12-01"
+      ],
+      "legacyId": "2025-12-01-raw-match-1",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "AJ Styles & Dragon Lee",
+      "result": "AJ Styles & Dragon Lee (c) defeat The New Day (Kofi Kingston & Xavier Woods) to retain the titles",
+      "context": "WWE World Tag Team Championship. Open the linked recap for the finish and surrounding story.",
+      "matchType": "WWE World Tag Team Championship",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "kofi-kingston",
+          "role": "competitor"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor"
+        },
+        {
+          "person": "dragon-lee",
+          "role": "competitor"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/raw-2025",
+        "https://www.wwe.com/shows/raw/2025-12-01"
+      ],
+      "legacyId": "2025-12-01-raw-match-2",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Gunther vs. Solo Sikoa",
+      "result": "Gunther defeats Solo Sikoa",
+      "context": "\"Last Time is Now\" Tournament - Semifinal. Open the linked recap for the finish and surrounding story.",
+      "matchType": "\"Last Time is Now\" Tournament - Semifinal",
+      "participants": [
+        {
+          "person": "solo-sikoa",
+          "role": "competitor"
+        },
+        {
+          "person": "gunther",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/raw-2025",
+        "https://www.wwe.com/shows/raw/2025-12-01"
+      ],
+      "legacyId": "2025-12-01-raw-match-3",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Rhea Ripley & IYO SKY vs. Alexa Bliss & Charlotte Flair",
+      "result": "Rhea Ripley & IYO SKY vs. Alexa Bliss & Charlotte Flair ends in a no contest",
+      "context": "Televised match. Open the linked show recap for the finish and surrounding story.",
+      "matchType": "Match",
+      "participants": [
+        {
+          "person": "rhea-ripley",
+          "role": "competitor"
+        },
+        {
+          "person": "iyo-sky",
+          "role": "competitor"
+        },
+        {
+          "person": "alexa-bliss",
+          "role": "competitor"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/raw-2025",
+        "https://www.wwe.com/shows/raw/2025-12-01"
+      ],
+      "legacyId": "2025-12-01-raw-match-4",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "s1",
+      "type": "promo",
+      "title": "Dominik Mysterio celebrates his title victory with Liv Morgan and Judgment Day",
+      "result": "Dominik Mysterio celebrates his title victory with Liv Morgan and Judgment Day.",
+      "context": "Selected televised promo, interview or verbal exchange. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/raw/2025-12-01"
+      ],
+      "legacyId": "2025-12-01-raw-segment-1",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s2",
+      "type": "promo",
+      "title": "Bron Breakker is announced as the next world-title challenger",
+      "result": "Bron Breakker is announced as the next world-title challenger.",
+      "context": "Selected televised promo, interview or verbal exchange. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "bron-breakker",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/raw/2025-12-01"
+      ],
+      "legacyId": "2025-12-01-raw-segment-2",
+      "legacy": {
+        "kind": "story"
+      }
+    }
+  ],
+  "legacyIds": [
+    "2025-12-01-raw"
+  ],
+  "legacy": {
+    "showFamily": "raw"
+  }
+}

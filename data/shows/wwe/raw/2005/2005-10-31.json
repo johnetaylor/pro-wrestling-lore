@@ -1,0 +1,205 @@
+{
+  "id": "wwe/raw/2005-10-31",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2005-10-31",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Kurt Angle vs. Tajiri",
+      "result": "Kurt Angle defeated Tajiri.",
+      "matchType": "Singles match",
+      "duration": 240,
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tajiri",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Tajiri"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49688",
+          "156696"
+        ],
+        "sourceEventIds": [
+          "7479"
+        ]
+      },
+      "legacyId": "bulk-match-49688",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Eugene vs. Rob Conway",
+      "result": "Eugene defeated Rob Conway by disqualification.",
+      "matchType": "Singles match",
+      "duration": 190,
+      "participants": [
+        {
+          "person": "eugene",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rob-conway",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Eugene",
+        "Rob Conway"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49689",
+          "156697"
+        ],
+        "sourceEventIds": [
+          "7479"
+        ]
+      },
+      "legacyId": "bulk-match-49689",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Triple H vs. Viscera",
+      "result": "Triple H defeated Viscera.",
+      "matchType": "Singles match",
+      "duration": 30,
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "viscera",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "Viscera"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49690",
+          "156698"
+        ],
+        "sourceEventIds": [
+          "7479"
+        ]
+      },
+      "legacyId": "bulk-match-49690",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Shawn Michaels vs. John Cena",
+      "result": "Shawn Michaels defeated John Cena by disqualification.",
+      "matchType": "Singles match",
+      "duration": 560,
+      "participants": [
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Shawn Michaels",
+        "John Cena"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49692",
+          "156700"
+        ],
+        "sourceEventIds": [
+          "7479"
+        ]
+      },
+      "legacyId": "bulk-match-49692",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7479"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7479"
+    ]
+  }
+}

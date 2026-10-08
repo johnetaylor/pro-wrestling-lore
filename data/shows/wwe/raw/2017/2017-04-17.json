@@ -1,0 +1,229 @@
+{
+  "id": "wwe/raw/2017-04-17",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2017-04-17",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2017-04-17"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Samoa Joe vs. Chris Jericho",
+      "result": "Samoa Joe defeated Chris Jericho.",
+      "matchType": "Other match",
+      "duration": 545,
+      "participants": [
+        {
+          "person": "samoa-joe",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Samoa Joe",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-04-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76863",
+          "122642"
+        ],
+        "sourceEventIds": [
+          "11915"
+        ]
+      },
+      "legacyId": "bulk-match-76863",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Karl Anderson, Luke Gallows vs. Big Cass, Enzo Amore",
+      "result": "Karl Anderson, Luke Gallows defeated Big Cass, Enzo Amore.",
+      "matchType": "4-person match",
+      "duration": 655,
+      "participants": [
+        {
+          "person": "karl-anderson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "luke-gallows",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-cass",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "enzo-amore",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Karl Anderson",
+        "Luke Gallows",
+        "Big Cass",
+        "Enzo Amore"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-04-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76864",
+          "122643"
+        ],
+        "sourceEventIds": [
+          "11915"
+        ]
+      },
+      "legacyId": "bulk-match-76864",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Alexa Bliss vs. Mickie James, Nia Jax, Sasha Banks",
+      "result": "Alexa Bliss defeated Mickie James, Nia Jax, Sasha Banks.",
+      "matchType": "Fatal Four Way match",
+      "duration": 825,
+      "participants": [
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "nia-jax",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alexa Bliss",
+        "Mickie James",
+        "Nia Jax",
+        "Sasha Banks"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-04-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76866",
+          "122645"
+        ],
+        "sourceEventIds": [
+          "11915"
+        ]
+      },
+      "legacyId": "bulk-match-76866",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Jeff Hardy vs. Cesaro",
+      "result": "Jeff Hardy defeated Cesaro.",
+      "matchType": "Singles match",
+      "duration": 784,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Cesaro"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-04-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76868",
+          "122647"
+        ],
+        "sourceEventIds": [
+          "11915"
+        ]
+      },
+      "legacyId": "bulk-match-76868",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11915"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11915"
+    ]
+  }
+}

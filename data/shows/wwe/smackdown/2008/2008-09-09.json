@@ -1,0 +1,223 @@
+{
+  "id": "wwe/smackdown/2008-09-09",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2008-09-09",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "R-Truth vs. Chavo Guerrero",
+      "result": "R-Truth defeated Chavo Guerrero by disqualification.",
+      "matchType": "Singles match",
+      "duration": 204,
+      "participants": [
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chavo-guerrero",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "R-Truth",
+        "Chavo Guerrero"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53620",
+          "151883"
+        ],
+        "sourceEventIds": [
+          "8175"
+        ]
+      },
+      "legacyId": "bulk-match-53620",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Festus, Kenny Dykstra — no contest.",
+      "matchType": "Singles match",
+      "duration": 60,
+      "participants": [
+        {
+          "person": "festus",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "kenny-dykstra",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Festus",
+        "Kenny Dykstra"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53621",
+          "151884"
+        ],
+        "sourceEventIds": [
+          "8175"
+        ]
+      },
+      "legacyId": "bulk-match-53621",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Vladimir Kozlov vs. Scotty Goldman, Sho Funaki",
+      "result": "Vladimir Kozlov defeated Scotty Goldman, Sho Funaki.",
+      "matchType": "Tag Team match",
+      "duration": 64,
+      "participants": [
+        {
+          "person": "vladimir-kozlov",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "scotty-goldman",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sho-funaki",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Vladimir Kozlov",
+        "Scotty Goldman",
+        "Sho Funaki"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53622",
+          "151885"
+        ],
+        "sourceEventIds": [
+          "8175"
+        ]
+      },
+      "legacyId": "bulk-match-53622",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Jeff Hardy vs. Montel Vontavious Porter, Shelton Benjamin, The Brian Kendrick",
+      "result": "Jeff Hardy defeated Montel Vontavious Porter, Shelton Benjamin, The Brian Kendrick.",
+      "matchType": "Other match",
+      "duration": 933,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "montel-vontavious-porter",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "brian-kendrick",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Montel Vontavious Porter",
+        "Shelton Benjamin",
+        "The Brian Kendrick"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53624",
+          "151887"
+        ],
+        "sourceEventIds": [
+          "8175"
+        ]
+      },
+      "legacyId": "bulk-match-53624",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8175"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8175"
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "id": "wwe/raw/2008-03-31",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2008-03-31",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Brian Kendrick, Paul London vs. Cody Rhodes, Hardcore Holly",
+      "result": "Brian Kendrick, Paul London defeated Cody Rhodes, Hardcore Holly.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "brian-kendrick",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "paul-london",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Brian Kendrick",
+        "Paul London",
+        "Cody Rhodes",
+        "Hardcore Holly"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52972",
+          "152710"
+        ],
+        "sourceEventIds": [
+          "8070"
+        ]
+      },
+      "legacyId": "bulk-match-52972",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Chris Jericho vs. CM Punk",
+      "result": "Chris Jericho defeated CM Punk.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cm-punk",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "CM Punk"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52973",
+          "152711"
+        ],
+        "sourceEventIds": [
+          "8070"
+        ]
+      },
+      "legacyId": "bulk-match-52973",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Randy Orton vs. Matt Hardy",
+      "result": "Randy Orton defeated Matt Hardy.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Matt Hardy"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52974",
+          "152712"
+        ],
+        "sourceEventIds": [
+          "8070"
+        ]
+      },
+      "legacyId": "bulk-match-52974",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8070"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8070"
+    ]
+  }
+}

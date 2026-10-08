@@ -1,0 +1,212 @@
+{
+  "id": "wwe/smackdown/2018-04-10",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-04-10",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-04-10"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Naomi vs. Natalya",
+      "result": "Naomi defeated Natalya.",
+      "matchType": "Singles match",
+      "duration": 450,
+      "participants": [
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Naomi",
+        "Natalya"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-04-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80217",
+          "119248"
+        ],
+        "sourceEventIds": [
+          "12464"
+        ]
+      },
+      "legacyId": "bulk-match-80217",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Carmella vs. Charlotte Flair",
+      "result": "Carmella defeated Charlotte Flair.",
+      "matchType": "Singles match",
+      "duration": 14,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Carmella",
+        "Charlotte Flair"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-04-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80218",
+          "119249"
+        ],
+        "sourceEventIds": [
+          "12464"
+        ]
+      },
+      "legacyId": "bulk-match-80218",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Randy Orton vs. Bobby Roode, Rusev",
+      "result": "Randy Orton defeated Bobby Roode, Rusev.",
+      "matchType": "Other match",
+      "duration": 427,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bobby-roode",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Bobby Roode",
+        "Rusev"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-04-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80219",
+          "119250"
+        ],
+        "sourceEventIds": [
+          "12464"
+        ]
+      },
+      "legacyId": "bulk-match-80219",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Daniel Bryan vs. A.J. Styles",
+      "result": "Daniel Bryan defeated A.J. Styles by disqualification.",
+      "matchType": "Singles match",
+      "duration": 765,
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "A.J. Styles"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-04-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80220",
+          "119251"
+        ],
+        "sourceEventIds": [
+          "12464"
+        ]
+      },
+      "legacyId": "bulk-match-80220",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12464"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12464"
+    ]
+  }
+}

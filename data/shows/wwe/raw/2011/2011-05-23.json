@@ -1,0 +1,230 @@
+{
+  "id": "wwe/raw/2011-05-23",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2011-05-23",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2011/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "David Otunga, Michael McGillicutty vs. Kane, The Big Show",
+      "result": "David Otunga, Michael McGillicutty defeated Kane, The Big Show.",
+      "matchType": "4-person match",
+      "duration": 540,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "david-otunga",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "curtis-axel",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "David Otunga",
+        "Michael McGillicutty",
+        "Kane",
+        "The Big Show"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "56889",
+          "146794"
+        ],
+        "sourceEventIds": [
+          "8902"
+        ]
+      },
+      "legacyId": "bulk-match-56889",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Jack Swagger vs. Evan Bourne",
+      "result": "Jack Swagger defeated Evan Bourne.",
+      "matchType": "Singles match",
+      "duration": 130,
+      "participants": [
+        {
+          "person": "jack-swagger",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "evan-bourne",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jack Swagger",
+        "Evan Bourne"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "56890",
+          "146795"
+        ],
+        "sourceEventIds": [
+          "8902"
+        ]
+      },
+      "legacyId": "bulk-match-56890",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Kofi Kingston vs. Drew McIntyre",
+      "result": "Kofi Kingston defeated Drew McIntyre.",
+      "matchType": "Singles match",
+      "duration": 265,
+      "participants": [
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kofi Kingston",
+        "Drew McIntyre"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "56892",
+          "146797"
+        ],
+        "sourceEventIds": [
+          "8902"
+        ]
+      },
+      "legacyId": "bulk-match-56892",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "John Cena, Rey Mysterio vs. CM Punk, R-Truth",
+      "result": "John Cena, Rey Mysterio defeated CM Punk, R-Truth.",
+      "matchType": "Other match",
+      "duration": 585,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cm-punk",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Rey Mysterio",
+        "CM Punk",
+        "R-Truth"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "56893",
+          "146798"
+        ],
+        "sourceEventIds": [
+          "8902"
+        ]
+      },
+      "legacyId": "bulk-match-56893",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8902"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8902"
+    ]
+  }
+}

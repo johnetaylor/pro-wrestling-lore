@@ -1,0 +1,202 @@
+{
+  "id": "wwe/raw/1997-04-21",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1997-04-21",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1997/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "The Sultan vs. Ahmed Johnson",
+      "result": "The Sultan defeated Ahmed Johnson by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ahmed-johnson",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "The Sultan",
+        "Ahmed Johnson"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27013",
+          "180030"
+        ],
+        "sourceEventIds": [
+          "4184"
+        ]
+      },
+      "legacyId": "bulk-match-27013",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Other match",
+      "result": "Steve Austin, Bret Hart — no contest.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "bret-hart",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Steve Austin",
+        "Bret Hart"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27014",
+          "180031"
+        ],
+        "sourceEventIds": [
+          "4184"
+        ]
+      },
+      "legacyId": "bulk-match-27014",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Tiger Ali Singh vs. Salvatore Sincere",
+      "result": "Tiger Ali Singh defeated Salvatore Sincere.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "tiger-ali-singh",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "salvatore-sincere",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tiger Ali Singh",
+        "Salvatore Sincere"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27015",
+          "180032"
+        ],
+        "sourceEventIds": [
+          "4184"
+        ]
+      },
+      "legacyId": "bulk-match-27015",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "The Undertaker vs. Hunter Hearst Helmsley",
+      "result": "The Undertaker defeated Hunter Hearst Helmsley by disqualification.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "Hunter Hearst Helmsley"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27017",
+          "180034"
+        ],
+        "sourceEventIds": [
+          "4184"
+        ]
+      },
+      "legacyId": "bulk-match-27017",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4184"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4184"
+    ]
+  }
+}

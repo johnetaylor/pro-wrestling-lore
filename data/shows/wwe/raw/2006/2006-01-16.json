@@ -1,0 +1,205 @@
+{
+  "id": "wwe/raw/2006-01-16",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2006-01-16",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2006/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Shawn Michaels vs. Kurt Angle",
+      "result": "Shawn Michaels defeated Kurt Angle.",
+      "matchType": "Singles match",
+      "duration": 1020,
+      "participants": [
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shawn Michaels",
+        "Kurt Angle"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50077",
+          "156245"
+        ],
+        "sourceEventIds": [
+          "7548"
+        ]
+      },
+      "legacyId": "bulk-match-50077",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Other match",
+      "result": "Chris Masters, John Cena — no contest.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "chris-masters",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Chris Masters",
+        "John Cena"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50078",
+          "156246"
+        ],
+        "sourceEventIds": [
+          "7548"
+        ]
+      },
+      "legacyId": "bulk-match-50078",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Shelton Benjamin vs. The Big Show",
+      "result": "Shelton Benjamin defeated The Big Show by count-out.",
+      "matchType": "Singles match",
+      "duration": 124,
+      "participants": [
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Shelton Benjamin",
+        "The Big Show"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50080",
+          "156248"
+        ],
+        "sourceEventIds": [
+          "7548"
+        ]
+      },
+      "legacyId": "bulk-match-50080",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Edge vs. Ric Flair",
+      "result": "Edge defeated Ric Flair.",
+      "matchType": "Tlc match",
+      "duration": 1000,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ric-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Edge",
+        "Ric Flair"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50081",
+          "156249"
+        ],
+        "sourceEventIds": [
+          "7548"
+        ]
+      },
+      "legacyId": "bulk-match-50081",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7548"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7548"
+    ]
+  }
+}

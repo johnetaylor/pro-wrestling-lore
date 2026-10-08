@@ -1,0 +1,204 @@
+{
+  "id": "wwe/raw/2018-11-12",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2018-11-12",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2018-11-12"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Tamina vs. Ember Moon",
+      "result": "Tamina defeated Ember Moon.",
+      "matchType": "Singles match",
+      "duration": 515,
+      "participants": [
+        {
+          "person": "tamina",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ember-moon",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tamina",
+        "Ember Moon"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-11-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81850",
+          "117598"
+        ],
+        "sourceEventIds": [
+          "12744"
+        ]
+      },
+      "legacyId": "bulk-match-81850",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Finn Bálor vs. Dolph Ziggler",
+      "result": "Finn Bálor defeated Dolph Ziggler.",
+      "matchType": "Singles match",
+      "duration": 732,
+      "participants": [
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Finn Bálor",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-11-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81851",
+          "117599"
+        ],
+        "sourceEventIds": [
+          "12744"
+        ]
+      },
+      "legacyId": "bulk-match-81851",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Bobby Lashley vs. Elias",
+      "result": "Bobby Lashley defeated Elias by count-out.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "elias",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Bobby Lashley",
+        "Elias"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-11-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81853",
+          "117601"
+        ],
+        "sourceEventIds": [
+          "12744"
+        ]
+      },
+      "legacyId": "bulk-match-81853",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Bayley, Sasha Banks — no contest.",
+      "matchType": "Singles match",
+      "duration": 515,
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Sasha Banks"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-11-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81854",
+          "117602"
+        ],
+        "sourceEventIds": [
+          "12744"
+        ]
+      },
+      "legacyId": "bulk-match-81854",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12744"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12744"
+    ]
+  }
+}

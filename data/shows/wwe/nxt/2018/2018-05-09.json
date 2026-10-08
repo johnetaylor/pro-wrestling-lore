@@ -1,0 +1,73 @@
+{
+  "id": "wwe/nxt/2018-05-09",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2018-05-09",
+  "dateBasis": "aired",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwenxt/2018-05-09"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Shayna Baszler vs. Dakota Kai",
+      "result": "Shayna Baszler defeated Dakota Kai.",
+      "matchType": "Singles match",
+      "duration": 340,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "shayna-baszler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dakota-kai",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shayna Baszler",
+        "Dakota Kai"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2018-05-09"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "119008"
+        ],
+        "sourceEventIds": [
+          "17618"
+        ]
+      },
+      "legacyId": "bulk-match-119008",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-17618"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "17618"
+    ]
+  }
+}

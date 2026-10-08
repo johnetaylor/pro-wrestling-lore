@@ -1,0 +1,229 @@
+{
+  "id": "wwe/raw/2009-02-02",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2009-02-02",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2009/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Layla, William Regal vs. CM Punk, Mickie James",
+      "result": "Layla, William Regal defeated CM Punk, Mickie James.",
+      "matchType": "4-person match",
+      "duration": 198,
+      "participants": [
+        {
+          "person": "layla",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cm-punk",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Layla",
+        "William Regal",
+        "CM Punk",
+        "Mickie James"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53997",
+          "151360"
+        ],
+        "sourceEventIds": [
+          "8242"
+        ]
+      },
+      "legacyId": "bulk-match-53997",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Kane, Mike Knox vs. Kofi Kingston, Rey Mysterio",
+      "result": "Kane, Mike Knox defeated Kofi Kingston, Rey Mysterio.",
+      "matchType": "4-person match",
+      "duration": 703,
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mike-knox",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "Mike Knox",
+        "Kofi Kingston",
+        "Rey Mysterio"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53999",
+          "151362"
+        ],
+        "sourceEventIds": [
+          "8242"
+        ]
+      },
+      "legacyId": "bulk-match-53999",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Beth Phoenix vs. Candice Michelle",
+      "result": "Beth Phoenix defeated Candice Michelle.",
+      "matchType": "Singles match",
+      "duration": 157,
+      "participants": [
+        {
+          "person": "beth-phoenix",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "candice-michelle",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Beth Phoenix",
+        "Candice Michelle"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54000",
+          "151363"
+        ],
+        "sourceEventIds": [
+          "8242"
+        ]
+      },
+      "legacyId": "bulk-match-54000",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "John Cena vs. Chris Jericho",
+      "result": "John Cena defeated Chris Jericho.",
+      "matchType": "Singles match",
+      "duration": 752,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54001",
+          "151364"
+        ],
+        "sourceEventIds": [
+          "8242"
+        ]
+      },
+      "legacyId": "bulk-match-54001",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8242"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8242"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "wwe/raw/2004-07-26",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2004-07-26",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Chris Benoit vs. Triple H",
+      "result": "Chris Benoit defeated Triple H.",
+      "matchType": "Iron Man match",
+      "duration": 3600,
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Triple H"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48079",
+          "158784"
+        ],
+        "sourceEventIds": [
+          "7153"
+        ]
+      },
+      "legacyId": "bulk-match-48079",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7153"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7153"
+    ]
+  }
+}

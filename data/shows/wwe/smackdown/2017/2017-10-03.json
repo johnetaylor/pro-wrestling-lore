@@ -1,0 +1,217 @@
+{
+  "id": "wwe/smackdown/2017-10-03",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-10-03",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-10-03"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Carmella, Natalya vs. Becky Lynch, Charlotte Flair",
+      "result": "Carmella, Natalya defeated Becky Lynch, Charlotte Flair.",
+      "matchType": "4-person match",
+      "duration": 416,
+      "participants": [
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Carmella",
+        "Natalya",
+        "Becky Lynch",
+        "Charlotte Flair"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-10-03"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78736",
+          "120727"
+        ],
+        "sourceEventIds": [
+          "12205"
+        ]
+      },
+      "legacyId": "bulk-match-78736",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Bobby Roode vs. Mike Kanellis",
+      "result": "Bobby Roode defeated Mike Kanellis.",
+      "matchType": "Singles match",
+      "duration": 55,
+      "participants": [
+        {
+          "person": "bobby-roode",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mike-kanellis",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bobby Roode",
+        "Mike Kanellis"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-10-03"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78737",
+          "120728"
+        ],
+        "sourceEventIds": [
+          "12205"
+        ]
+      },
+      "legacyId": "bulk-match-78737",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Tye Dillinger vs. Baron Corbin",
+      "result": "Tye Dillinger defeated Baron Corbin.",
+      "matchType": "Singles match",
+      "duration": 348,
+      "participants": [
+        {
+          "person": "shawn-spears",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tye Dillinger",
+        "Baron Corbin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-10-03"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78738",
+          "120729"
+        ],
+        "sourceEventIds": [
+          "12205"
+        ]
+      },
+      "legacyId": "bulk-match-78738",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Randy Orton vs. Aiden English",
+      "result": "Randy Orton defeated Aiden English.",
+      "matchType": "Singles match",
+      "duration": 80,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aiden-english",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Aiden English"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-10-03"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78739",
+          "120730"
+        ],
+        "sourceEventIds": [
+          "12205"
+        ]
+      },
+      "legacyId": "bulk-match-78739",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12205"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12205"
+    ]
+  }
+}

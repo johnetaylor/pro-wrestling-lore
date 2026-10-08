@@ -1,0 +1,423 @@
+{
+  "id": "wwe/elimination-chamber/2024-02-24",
+  "promotion": "wwe",
+  "series": "wwe/elimination-chamber",
+  "name": "Elimination Chamber: Perth 2024",
+  "date": "2024-02-24",
+  "category": "PLE",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "note": "Hugging Face import · official-results comparison. Unverified extra matches were excluded.",
+    "legacyCardStatus": "Imported card compared with official WWE results",
+    "legacySegmentStatus": "Partial; the match dataset does not contain a promo/appearance archive"
+  },
+  "sources": [
+    "https://www.wwe.com/article/full-elimination-chamber-results"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Asuka & Kairi Sane vs. Candice LeRae, Indi Hartwell",
+      "result": "Asuka & Kairi Sane defeated Candice LeRae, Indi Hartwell.",
+      "context": "Televised kickoff / countdown. Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Tag Team Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "asuka",
+          "role": "competitor"
+        },
+        {
+          "person": "kairi-sane",
+          "role": "competitor"
+        },
+        {
+          "person": "candice-lerae",
+          "role": "competitor"
+        },
+        {
+          "person": "indi-hartwell",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Asuka",
+        "Kairi Sane",
+        "Candice LeRae",
+        "Indi Hartwell"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-elimination-chamber-results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-elimination-chamber-results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "427",
+        "sourceMatchIds": [
+          "2159",
+          "100487"
+        ],
+        "rawInputSha256": "d5d422bbc72b09d023293fd244e243822de810ba3dfb934afb76e249a1c774fb",
+        "normalizedParticipants": [
+          {
+            "name": "Asuka",
+            "result": "win"
+          },
+          {
+            "name": "Kairi Sane",
+            "result": "win"
+          },
+          {
+            "name": "Candice LeRae",
+            "result": "loss"
+          },
+          {
+            "name": "Indi Hartwell",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-elimination-chamber-results"
+      },
+      "legacyId": "hf-match-2159",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Becky Lynch vs. Bianca Belair, Liv Morgan, Naomi, Raquel Rodriguez, Tiffany Stratton",
+      "result": "Becky Lynch defeated Bianca Belair, Liv Morgan, Naomi, Raquel Rodriguez, Tiffany Stratton.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Women’s Elimination Chamber",
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor"
+        },
+        {
+          "person": "bianca-belair",
+          "role": "competitor"
+        },
+        {
+          "person": "liv-morgan",
+          "role": "competitor"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor"
+        },
+        {
+          "person": "raquel-rodriguez",
+          "role": "competitor"
+        },
+        {
+          "person": "tiffany-stratton",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Bianca Belair",
+        "Liv Morgan",
+        "Naomi",
+        "Raquel Rodriguez",
+        "Tiffany Stratton"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-elimination-chamber-results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-elimination-chamber-results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "427",
+        "sourceMatchIds": [
+          "2160",
+          "100488"
+        ],
+        "rawInputSha256": "f3fbaaa979311dd47d40f5059fa0eb033e5ba17bd8174a44e5a664113af76693",
+        "normalizedParticipants": [
+          {
+            "name": "Becky Lynch",
+            "result": "win"
+          },
+          {
+            "name": "Bianca Belair",
+            "result": "loss"
+          },
+          {
+            "name": "Liv Morgan",
+            "result": "loss"
+          },
+          {
+            "name": "Naomi",
+            "result": "loss"
+          },
+          {
+            "name": "Raquel Rodriguez",
+            "result": "loss"
+          },
+          {
+            "name": "Tiffany Stratton",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-elimination-chamber-results"
+      },
+      "legacyId": "hf-match-2160",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Damian Priest & Finn Bálor vs. Pete Dunne, Tyler Bate",
+      "result": "Damian Priest & Finn Bálor defeated Pete Dunne, Tyler Bate.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Tag Team Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "damian-priest",
+          "role": "competitor"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor"
+        },
+        {
+          "person": "pete-dunne",
+          "role": "competitor"
+        },
+        {
+          "person": "tyler-bate",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Damian Priest",
+        "Finn Bálor",
+        "Pete Dunne",
+        "Tyler Bate"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-elimination-chamber-results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-elimination-chamber-results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "427",
+        "sourceMatchIds": [
+          "2161",
+          "100489"
+        ],
+        "rawInputSha256": "e05c582a5c73c1feec76b26dbb6d15c0b6898f13d279b1cf238d99851b5f034e",
+        "normalizedParticipants": [
+          {
+            "name": "Damian Priest",
+            "result": "win"
+          },
+          {
+            "name": "Finn Bálor",
+            "result": "win"
+          },
+          {
+            "name": "Pete Dunne",
+            "result": "loss"
+          },
+          {
+            "name": "Tyler Bate",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-elimination-chamber-results"
+      },
+      "legacyId": "hf-match-2161",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Drew McIntyre vs. Bobby Lashley, Kevin Owens, LA Knight, Logan Paul, Randy Orton",
+      "result": "Drew McIntyre defeated Bobby Lashley, Kevin Owens, LA Knight, Logan Paul, Randy Orton.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Men’s Elimination Chamber",
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor"
+        },
+        {
+          "person": "bobby-lashley",
+          "role": "competitor"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor"
+        },
+        {
+          "person": "la-knight",
+          "role": "competitor"
+        },
+        {
+          "person": "logan-paul",
+          "role": "competitor"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "Bobby Lashley",
+        "Kevin Owens",
+        "LA Knight",
+        "Logan Paul",
+        "Randy Orton"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-elimination-chamber-results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-elimination-chamber-results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "427",
+        "sourceMatchIds": [
+          "2162",
+          "100490"
+        ],
+        "rawInputSha256": "ed9055dbd3b0d2beee7f05e8dbc6586dfbbff1961f912917abe4fb5e33aeaec7",
+        "normalizedParticipants": [
+          {
+            "name": "Drew McIntyre",
+            "result": "win"
+          },
+          {
+            "name": "Bobby Lashley",
+            "result": "loss"
+          },
+          {
+            "name": "Kevin Owens",
+            "result": "loss"
+          },
+          {
+            "name": "LA Knight",
+            "result": "loss"
+          },
+          {
+            "name": "Logan Paul",
+            "result": "loss"
+          },
+          {
+            "name": "Randy Orton",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-elimination-chamber-results"
+      },
+      "legacyId": "hf-match-2162",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m5",
+      "type": "match",
+      "title": "Rhea Ripley vs. Nia Jax",
+      "result": "Rhea Ripley defeated Nia Jax.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "rhea-ripley",
+          "role": "competitor"
+        },
+        {
+          "person": "nia-jax",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Rhea Ripley",
+        "Nia Jax"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-elimination-chamber-results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-elimination-chamber-results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "427",
+        "sourceMatchIds": [
+          "2163",
+          "100491"
+        ],
+        "rawInputSha256": "60e76a5a64ce9598b9dd83dfd321ddf31401f2041851c5b21ad7e90fe00c2c80",
+        "normalizedParticipants": [
+          {
+            "name": "Rhea Ripley",
+            "result": "win"
+          },
+          {
+            "name": "Nia Jax",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-elimination-chamber-results"
+      },
+      "legacyId": "hf-match-2163",
+      "legacy": {
+        "kind": "title"
+      }
+    }
+  ],
+  "legacyIds": [
+    "hf-event-427"
+  ],
+  "legacy": {
+    "showFamily": "elimination-chamber-perth",
+    "importBatch": "ringside-2024-ple"
+  }
+}

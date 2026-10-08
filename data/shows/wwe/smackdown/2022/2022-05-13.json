@@ -1,0 +1,219 @@
+{
+  "id": "wwe/smackdown/2022-05-13",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2022-05-13",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2022-05-13"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Riddle vs. Sami Zayn",
+      "result": "Riddle defeated Sami Zayn.",
+      "matchType": "Singles match",
+      "duration": 624,
+      "participants": [
+        {
+          "person": "riddle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Riddle",
+        "Sami Zayn"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-05-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "89077",
+          "107321"
+        ],
+        "sourceEventIds": [
+          "14023"
+        ]
+      },
+      "legacyId": "bulk-match-89077",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Ronda Rousey vs. Raquel Rodriguez",
+      "result": "Ronda Rousey defeated Raquel Rodriguez.",
+      "matchType": "Singles match",
+      "duration": 354,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "ronda-rousey",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "raquel-rodriguez",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ronda Rousey",
+        "Raquel Rodriguez"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-05-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "89078",
+          "107322"
+        ],
+        "sourceEventIds": [
+          "14023"
+        ]
+      },
+      "legacyId": "bulk-match-89078",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Naomi, Sasha Banks vs. Natalya, Shayna Baszler",
+      "result": "Naomi, Sasha Banks defeated Natalya, Shayna Baszler.",
+      "matchType": "4-person match",
+      "duration": 513,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shayna-baszler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Naomi",
+        "Sasha Banks",
+        "Natalya",
+        "Shayna Baszler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-05-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "89079",
+          "107323"
+        ],
+        "sourceEventIds": [
+          "14023"
+        ]
+      },
+      "legacyId": "bulk-match-89079",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Butch vs. Kofi Kingston",
+      "result": "Butch defeated Kofi Kingston.",
+      "matchType": "Singles match",
+      "duration": 513,
+      "participants": [
+        {
+          "person": "pete-dunne",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Butch",
+        "Kofi Kingston"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-05-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "89080",
+          "107324"
+        ],
+        "sourceEventIds": [
+          "14023"
+        ]
+      },
+      "legacyId": "bulk-match-89080",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-14023"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "14023"
+    ]
+  }
+}

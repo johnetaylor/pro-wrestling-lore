@@ -1,0 +1,217 @@
+{
+  "id": "wwe/raw/2018-04-02",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2018-04-02",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2018-04-02"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Bayley vs. Sonya Deville",
+      "result": "Bayley defeated Sonya Deville.",
+      "matchType": "Singles match",
+      "duration": 592,
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sonya-deville",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Sonya Deville"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-04-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80106",
+          "119357"
+        ],
+        "sourceEventIds": [
+          "12450"
+        ]
+      },
+      "legacyId": "bulk-match-80106",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Seth Rollins vs. Finn Bálor",
+      "result": "Seth Rollins defeated Finn Bálor.",
+      "matchType": "Other match",
+      "duration": 1322,
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Seth Rollins",
+        "Finn Bálor"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-04-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80107",
+          "119358"
+        ],
+        "sourceEventIds": [
+          "12450"
+        ]
+      },
+      "legacyId": "bulk-match-80107",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Matt Hardy vs. Goldust",
+      "result": "Matt Hardy defeated Goldust.",
+      "matchType": "Singles match",
+      "duration": 192,
+      "participants": [
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Matt Hardy",
+        "Goldust"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-04-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80108",
+          "119359"
+        ],
+        "sourceEventIds": [
+          "12450"
+        ]
+      },
+      "legacyId": "bulk-match-80108",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Asuka, Dana Brooke vs. Alexa Bliss, Mickie James",
+      "result": "Asuka, Dana Brooke defeated Alexa Bliss, Mickie James.",
+      "matchType": "4-person match",
+      "duration": 637,
+      "participants": [
+        {
+          "person": "asuka",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dana-brooke",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Asuka",
+        "Dana Brooke",
+        "Alexa Bliss",
+        "Mickie James"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-04-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80110",
+          "119361"
+        ],
+        "sourceEventIds": [
+          "12450"
+        ]
+      },
+      "legacyId": "bulk-match-80110",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12450"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12450"
+    ]
+  }
+}

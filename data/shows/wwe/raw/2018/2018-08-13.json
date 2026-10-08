@@ -1,0 +1,216 @@
+{
+  "id": "wwe/raw/2018-08-13",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2018-08-13",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2018-08-13"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Ember Moon vs. Alexa Bliss",
+      "result": "Ember Moon defeated Alexa Bliss by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "ember-moon",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Ember Moon",
+        "Alexa Bliss"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-08-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81201",
+          "118253"
+        ],
+        "sourceEventIds": [
+          "12625"
+        ]
+      },
+      "legacyId": "bulk-match-81201",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Baron Corbin vs. Tyler Breeze",
+      "result": "Baron Corbin defeated Tyler Breeze.",
+      "matchType": "Singles match",
+      "duration": 251,
+      "participants": [
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tyler-breeze",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Baron Corbin",
+        "Tyler Breeze"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-08-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81202",
+          "118254"
+        ],
+        "sourceEventIds": [
+          "12625"
+        ]
+      },
+      "legacyId": "bulk-match-81202",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Braun Strowman, Finn Bálor vs. Jinder Mahal, Kevin Owens",
+      "result": "Braun Strowman, Finn Bálor defeated Jinder Mahal, Kevin Owens.",
+      "matchType": "4-person match",
+      "duration": 840,
+      "participants": [
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Braun Strowman",
+        "Finn Bálor",
+        "Jinder Mahal",
+        "Kevin Owens"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-08-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81203",
+          "118255"
+        ],
+        "sourceEventIds": [
+          "12625"
+        ]
+      },
+      "legacyId": "bulk-match-81203",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Ruby Riott vs. Sasha Banks",
+      "result": "Ruby Riott defeated Sasha Banks.",
+      "matchType": "Singles match",
+      "duration": 535,
+      "participants": [
+        {
+          "person": "ruby-riott",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ruby Riott",
+        "Sasha Banks"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-08-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81206",
+          "118258"
+        ],
+        "sourceEventIds": [
+          "12625"
+        ]
+      },
+      "legacyId": "bulk-match-81206",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12625"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12625"
+    ]
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "id": "wwe/raw/2007-04-09",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2007-04-09",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Candice Michelle, Mickie James vs. Melina, Victoria",
+      "result": "Candice Michelle, Mickie James defeated Melina, Victoria.",
+      "matchType": "4-person match",
+      "duration": 286,
+      "participants": [
+        {
+          "person": "candice-michelle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "melina",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "victoria",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Candice Michelle",
+        "Mickie James",
+        "Melina",
+        "Victoria"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51758",
+          "154242"
+        ],
+        "sourceEventIds": [
+          "7848"
+        ]
+      },
+      "legacyId": "bulk-match-51758",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Lance Cade, Trevor Murdoch vs. Carlito, Ric Flair",
+      "result": "Lance Cade, Trevor Murdoch defeated Carlito, Ric Flair.",
+      "matchType": "4-person match",
+      "duration": 360,
+      "participants": [
+        {
+          "person": "lance-cade",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "trevor-murdoch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "ric-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lance Cade",
+        "Trevor Murdoch",
+        "Carlito",
+        "Ric Flair"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51759",
+          "154243"
+        ],
+        "sourceEventIds": [
+          "7848"
+        ]
+      },
+      "legacyId": "bulk-match-51759",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Shawn Michaels, Randy Orton — draw.",
+      "matchType": "Singles match",
+      "duration": 870,
+      "participants": [
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "draw"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "draw"
+        }
+      ],
+      "billing": [
+        "Shawn Michaels",
+        "Randy Orton"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51760",
+          "154244"
+        ],
+        "sourceEventIds": [
+          "7848"
+        ]
+      },
+      "legacyId": "bulk-match-51760",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Bobby Lashley vs. Shane McMahon",
+      "result": "Bobby Lashley defeated Shane McMahon by disqualification.",
+      "matchType": "Other match",
+      "duration": 89,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shane-mcmahon",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Bobby Lashley",
+        "Shane McMahon"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51762",
+          "154246"
+        ],
+        "sourceEventIds": [
+          "7848"
+        ]
+      },
+      "legacyId": "bulk-match-51762",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7848"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7848"
+    ]
+  }
+}

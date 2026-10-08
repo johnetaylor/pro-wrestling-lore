@@ -1,0 +1,87 @@
+{
+  "id": "vachon",
+  "name": "Vachon",
+  "description": "Maurice, Paul and Vivian were siblings. Luna was Paul’s adopted daughter.",
+  "branches": [
+    {
+      "id": "vachon",
+      "name": "The Vachon family"
+    }
+  ],
+  "members": [
+    {
+      "id": "maurice-vachon",
+      "name": "Maurice “Mad Dog” Vachon",
+      "branch": "vachon",
+      "aliases": [
+        "Mad Dog Vachon",
+        "Maurice Vachon"
+      ],
+      "source": "vachon",
+      "layout": {
+        "x": 16,
+        "y": 24
+      }
+    },
+    {
+      "id": "paul-vachon",
+      "name": "Paul “Butcher” Vachon",
+      "branch": "vachon",
+      "aliases": [
+        "Paul Vachon"
+      ],
+      "source": "vachon",
+      "layout": {
+        "x": 196,
+        "y": 24
+      }
+    },
+    {
+      "id": "vivian-vachon",
+      "name": "Vivian Vachon",
+      "branch": "vachon",
+      "source": "vachon",
+      "layout": {
+        "x": 376,
+        "y": 24
+      }
+    },
+    {
+      "id": "luna-vachon",
+      "name": "Luna Vachon",
+      "person": "luna-vachon",
+      "branch": "vachon",
+      "source": "vachon",
+      "layout": {
+        "x": 196,
+        "y": 164
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "maurice-vachon",
+      "b": "paul-vachon",
+      "type": "sibling",
+      "source": "vachon"
+    },
+    {
+      "a": "paul-vachon",
+      "b": "vivian-vachon",
+      "type": "sibling",
+      "source": "vachon"
+    },
+    {
+      "a": "paul-vachon",
+      "b": "luna-vachon",
+      "type": "adoption",
+      "source": "vachon"
+    }
+  ],
+  "sources": {
+    "vachon": {
+      "label": "POST Wrestling: Paul Vachon and family",
+      "url": "https://www.postwrestling.com/2024/03/01/paul-butcher-vachon-passes-away-at-86/"
+    }
+  }
+}

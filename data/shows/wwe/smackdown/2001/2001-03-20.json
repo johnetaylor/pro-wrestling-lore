@@ -1,0 +1,171 @@
+{
+  "id": "wwe/smackdown/2001-03-20",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2001-03-20",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2001/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Raven vs. William Regal",
+      "result": "Raven defeated William Regal.",
+      "matchType": "Other match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "raven",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Raven",
+        "William Regal"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42098",
+          "164910"
+        ],
+        "sourceEventIds": [
+          "6211"
+        ]
+      },
+      "legacyId": "bulk-match-42098",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "The Big Show, Triple H vs. Kane",
+      "result": "The Big Show, Triple H defeated Kane.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "Triple H",
+        "Kane"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42100",
+          "164912"
+        ],
+        "sourceEventIds": [
+          "6211"
+        ]
+      },
+      "legacyId": "bulk-match-42100",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "The Rock vs. Chris Benoit, Kurt Angle",
+      "result": "The Rock defeated Chris Benoit, Kurt Angle.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Rock",
+        "Chris Benoit",
+        "Kurt Angle"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42102",
+          "164914"
+        ],
+        "sourceEventIds": [
+          "6211"
+        ]
+      },
+      "legacyId": "bulk-match-42102",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6211"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6211"
+    ]
+  }
+}

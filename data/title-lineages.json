@@ -1,0 +1,890 @@
+{
+  "asOf": "2026-10-05",
+  "coverage": "Origins, unifications, revivals and title identities for the six men’s main-roster championships. This history is not an all-time reign-by-reign or match archive. Historical-title dates may be recognition/taping dates; they do not add non-televised matches to the broadcast archive. The Georgia–National–United States branch is included. Early territorial records can be disputed; the Georgia unification is shown at year precision. This is a researched merger map, not a claim that every historical lineage dispute has been resolved.",
+  "titles": {
+    "wwe": {
+      "id": "wwe",
+      "name": "WWE Championship",
+      "start": "1963-04-25",
+      "first": "Buddy Rogers",
+      "source": "https://www.wwe.com/article/wwe-championship-60-year-anniversary",
+      "note": "The continuing record behind today’s Undisputed WWE Championship. A new name or belt does not restart its history.",
+      "names": "WWWF World Heavyweight → WWF Heavyweight / World Heavyweight → WWF / WWE → Undisputed → WWE World Heavyweight → WWE → Undisputed WWE",
+      "title": "wwe-championship"
+    },
+    "wcw": {
+      "id": "wcw",
+      "name": "WCW World Championship",
+      "start": "1991-01-11",
+      "end": "2001-12-09",
+      "first": "Ric Flair",
+      "source": "https://www.wwe.com/titlehistory/wcw-world-championship",
+      "note": "WCW’s separately recognized world title. Its NWA heritage does not mean the still-separate NWA championship was retired in 2001.",
+      "names": "WCW World Heavyweight → WCW Championship → World Championship (WWF, 2001)",
+      "title": "wcw-world-heavyweight-championship"
+    },
+    "intl": {
+      "id": "intl",
+      "name": "WCW International World",
+      "start": "1993-07-18",
+      "end": "1994-06-23",
+      "first": "Ric Flair",
+      "source": "https://www.wrestling-titles.com/wcw/wcw-in-h.html",
+      "note": "The record begins with Flair’s NWA title win. After WCW left the NWA in September 1993, WCW continued its own recognition; the International name followed. The NWA record remained separate.",
+      "title": "wcw-international-world-heavyweight-championship"
+    },
+    "oldworld": {
+      "id": "oldworld",
+      "name": "World Heavyweight · 2002–2013",
+      "start": "2002-09-02",
+      "end": "2013-12-15",
+      "first": "Triple H",
+      "source": "https://www.wwe.com/inside/magazine/a-storied-championships-wwe-legacy",
+      "note": "A new WWE title in 2002, with Big Gold heritage. It is neither a continuation of WCW’s record nor the championship introduced in 2023.",
+      "title": "world-heavyweight-championship-2002"
+    },
+    "universal": {
+      "id": "universal",
+      "name": "Universal Championship",
+      "start": "2016-08-21",
+      "end": "2024-04-07",
+      "first": "Finn Bálor",
+      "source": "https://www.wwe.com/titlehistory/universal-championship",
+      "note": "WWE’s current historical table ends this title with Roman Reigns on April 7, 2024. The 2022 winner-take-all match did not immediately end its separate record.",
+      "title": "wwe-universal-championship"
+    },
+    "ic": {
+      "id": "ic",
+      "name": "Intercontinental Championship",
+      "start": "1979-09-01",
+      "first": "Pat Patterson",
+      "source": "https://www.wwe.com/article/intercontinental-championship-40th-anniversary-week-schedule",
+      "note": "Patterson was the inaugural champion. The Rio tournament and South American title belong to the storyline origin, not a separately documented tournament record.",
+      "names": "WWF Intercontinental Heavyweight → WWF Intercontinental → WWE Intercontinental",
+      "gaps": [
+        [
+          "2002-10-20",
+          "2003-05-18"
+        ]
+      ],
+      "title": "intercontinental-championship"
+    },
+    "us": {
+      "id": "us",
+      "name": "United States Championship",
+      "start": "1975-01-01",
+      "first": "Harley Race",
+      "source": "https://www.wwe.com/classics/classic-lists/us-title-history",
+      "note": "The Mid-Atlantic/Jim Crockett title continued through WCW and into WWE. Its 2003 return resumed the 1975 record.",
+      "names": "NWA United States (Mid-Atlantic) → WCW United States → WWE United States",
+      "gaps": [
+        [
+          "2001-11-18",
+          "2003-07-27"
+        ]
+      ],
+      "title": "united-states-championship"
+    },
+    "european": {
+      "id": "european",
+      "name": "European Championship",
+      "start": "1997-02-26",
+      "end": "2002-07-22",
+      "first": "British Bulldog",
+      "source": "https://www.wwe.com/titlehistory/european-championship",
+      "note": "Bulldog defeated Owen Hart in Berlin. WWE records February 26; the match aired on Raw on March 3, 1997. Dates here describe title history, not a new broadcast-archive entry.",
+      "gaps": [
+        [
+          "1999-04-04",
+          "1999-06-21"
+        ]
+      ],
+      "title": "wwe-european-championship"
+    },
+    "hardcore": {
+      "id": "hardcore",
+      "name": "Hardcore Championship",
+      "start": "1998-11-02",
+      "end": "2002-08-26",
+      "first": "Mankind",
+      "source": "https://www.wwe.com/titlehistory/hardcore-championship",
+      "note": "Introduced by awarding the championship to Mankind; its later 24/7 rule allowed rapid title changes.",
+      "title": "wwf-hardcore-championship"
+    },
+    "north-american": {
+      "id": "north-american",
+      "name": "WWF North American",
+      "start": "1979-02-13",
+      "end": "1981-04-23",
+      "first": "Ted DiBiase",
+      "source": "https://www.thesmackdownhotel.com/title-history/wwe/wwf-north-american-heavyweight-championship",
+      "note": "Patterson held this belt when the Intercontinental title was introduced. It continued in Japan afterward, so the origin story is not drawn as a permanent merger.",
+      "title": "wwf-north-american-heavyweight-championship"
+    },
+    "nwa": {
+      "id": "nwa",
+      "name": "NWA Worlds Heavyweight",
+      "start": "1948-07-01",
+      "first": "Orville Brown",
+      "source": "https://nwa1948.com/milestones/1948-birth-of-the-nwa/",
+      "note": "Historical background, not an absorbed WWE title. Sources differ on the precise July founding date; the map deliberately uses month-level precision.",
+      "precision": "month",
+      "context": true,
+      "title": "nwa-worlds-heavyweight-championship"
+    },
+    "tag02": {
+      "id": "tag02",
+      "name": "World Tag Team · 2002 lineage",
+      "start": "2002-10-20",
+      "first": "Kurt Angle & Chris Benoit",
+      "source": "https://www.wwe.com/titlehistory/raw-tag-team-championship",
+      "note": "Today’s RAW title follows the championship introduced on SmackDown in 2002. It does not inherit the older title’s 1971 start date.",
+      "names": "WWE Tag Team → Unified WWE Tag Team (shared billing) → WWE Tag Team → Raw Tag Team → World Tag Team",
+      "title": "world-tag-team-championship"
+    },
+    "tag71": {
+      "id": "tag71",
+      "name": "World Tag Team · 1971–2010",
+      "start": "1971-06-03",
+      "end": "2010-08-16",
+      "first": "Luke Graham & Tarzan Tyler",
+      "source": "https://www.wwe.com/titlehistory/world-tag-team-championship",
+      "note": "The original WWWF/WWF team title. It kept a separate record during the 2009–2010 unified presentation.",
+      "names": "WWWF World Tag Team → WWF Tag Team → WWE / World Tag Team",
+      "title": "world-tag-team-championship-1971"
+    },
+    "wcwtag": {
+      "id": "wcwtag",
+      "name": "WCW World Tag Team",
+      "start": "1975-01-29",
+      "end": "2001-11-18",
+      "first": "Gene & Ole Anderson",
+      "source": "https://www.thesmackdownhotel.com/title-history/wcw/wcw-world-tag-team-championship",
+      "note": "This is the Mid-Atlantic/Jim Crockett version of the NWA World Tag Team title, later WCW’s. Other regional NWA tag titles are separate records.",
+      "names": "NWA World Tag Team (Mid-Atlantic) → WCW World Tag Team",
+      "title": "wcw-world-tag-team-championship"
+    },
+    "tag16": {
+      "id": "tag16",
+      "name": "WWE Tag Team · 2016 lineage",
+      "start": "2016-09-11",
+      "first": "Heath Slater & Rhyno",
+      "source": "https://www.wwe.com/shows/backlash/2016/heath-slater-rhyno-vs-usos-smackdown-tag-team-championship-results",
+      "note": "A separate championship created for SmackDown. First awarded at Backlash after a tournament.",
+      "names": "SmackDown Tag Team → Undisputed WWE Tag Team (shared billing) → WWE Tag Team",
+      "title": "wwe-tag-team-championship"
+    },
+    "world23": {
+      "id": "world23",
+      "name": "World Heavyweight · 2023 lineage",
+      "start": "2023-05-27",
+      "first": "Seth Rollins",
+      "source": "https://www.wwe.com/classics/titlehistory/world-heavyweight-championship",
+      "note": "A new championship announced in April 2023. Rollins defeated AJ Styles at Night of Champions to become its first champion. The 2002–2013 record was not restarted.",
+      "title": "world-heavyweight-championship"
+    },
+    "national": {
+      "id": "national",
+      "name": "NWA National Heavyweight Championship",
+      "start": "1980-01-01",
+      "precision": "year",
+      "end": "1986-09-28",
+      "first": "Disputed: Jack Brisco is documented in October 1980; some histories name Austin Idol earlier that year",
+      "source": "https://www.wrestling-titles.com/nwa/others/nat-h.html",
+      "note": "Established in Georgia Championship Wrestling in 1980. Early title histories disagree about the first champion. This branch follows the original 1980–1986 title through its unification into the United States title; the National title was later revived by the NWA in 1997.",
+      "title": "nwa-national-heavyweight-championship"
+    },
+    "georgia": {
+      "id": "georgia",
+      "name": "NWA Georgia Heavyweight Championship",
+      "start": "1962-10-30",
+      "end": "1981-09-12",
+      "first": "Choo-Choo Lynn (1962 sanctioned record; earlier local claims also existed)",
+      "source": "https://www.wrestling-titles.com/us/ga/ga-h.html",
+      "note": "The territorial record is traced to Choo-Choo Lynn in 1962, with formal belt presentation in November. Some summaries begin with Sputnik Monroe in 1964. Masked Superstar unified it with the National title in 1981; historical records disagree on the exact date. Later revivals are outside this original branch.",
+      "originLabel": "Territorial record traced to 1962",
+      "title": "nwa-georgia-heavyweight-championship"
+    }
+  },
+  "events": [
+    {
+      "id": "nwa-wwe",
+      "date": "1963-04-25",
+      "kind": "heritage",
+      "track": "wwe",
+      "label": "WWE’s separate record begins",
+      "text": "Buddy Rogers becomes the first recognized WWWF champion. NWA history is background; the NWA title was not unified into this championship.",
+      "sources": [
+        "https://www.wwe.com/article/wwe-championship-60-year-anniversary",
+        "https://www.wwe.com/classics/phantom-title-changes"
+      ],
+      "from": "nwa"
+    },
+    {
+      "id": "nwa-wcw",
+      "date": "1991-01-11",
+      "kind": "heritage",
+      "track": "wcw",
+      "label": "WCW recognition begins",
+      "text": "Ric Flair is recognized as WCW champion following his win over Sting. This starts WCW’s record alongside its NWA background.",
+      "sources": [
+        "https://www.wwe.com/titlehistory/wcw-world-championship"
+      ],
+      "from": "nwa"
+    },
+    {
+      "id": "nwa-intl",
+      "date": "1993-09-01",
+      "kind": "heritage",
+      "track": "intl",
+      "label": "WCW leaves the NWA",
+      "text": "Flair’s July title win becomes the starting point of WCW’s separate International record after the split.",
+      "sources": [
+        "https://www.wrestling-titles.com/wcw/wcw-in-h.html"
+      ],
+      "from": "nwa",
+      "precision": "month"
+    },
+    {
+      "id": "intl-wcw",
+      "date": "1994-06-23",
+      "kind": "merge",
+      "track": "wcw",
+      "label": "Flair unifies WCW’s world titles",
+      "text": "Ric Flair defeats Sting at Clash of the Champions XXVII. The International championship ends; the WCW World record continues.",
+      "sources": [
+        "https://www.wwe.com/videos/ric-flair-vs-sting-wcw-world-and-international-championship-unification-match-clash-of-the-champion-xxvii",
+        "https://www.wrestling-titles.com/wcw/wcw-in-h.html"
+      ],
+      "from": "intl"
+    },
+    {
+      "id": "wcw-wwe",
+      "date": "2001-12-09",
+      "kind": "merge",
+      "track": "wwe",
+      "label": "Jericho becomes Undisputed Champion",
+      "text": "At Vengeance, Chris Jericho beats The Rock and then Steve Austin. WCW’s title is absorbed; WWE’s 1963 record continues.",
+      "sources": [
+        "https://www.wwe.com/shows/vengeance/2001"
+      ],
+      "from": "wcw"
+    },
+    {
+      "id": "undisputed-belt",
+      "date": "2002-04-01",
+      "kind": "rename",
+      "track": "wwe",
+      "label": "One Undisputed belt",
+      "text": "Triple H receives one belt representing the championship unified the previous December. This is a presentation change, not another lineage.",
+      "sources": [
+        "https://www.wwe.com/classics/era-of-unification"
+      ]
+    },
+    {
+      "id": "biggold",
+      "date": "2002-09-02",
+      "kind": "heritage",
+      "track": "oldworld",
+      "label": "A new title, familiar Big Gold",
+      "text": "Eric Bischoff awards Triple H the new World Heavyweight Championship. The belt evokes WCW, but the official reign record starts in 2002.",
+      "sources": [
+        "https://www.wwe.com/inside/magazine/a-storied-championships-wwe-legacy"
+      ],
+      "from": "wcw"
+    },
+    {
+      "id": "oldworld-wwe",
+      "date": "2013-12-15",
+      "kind": "merge",
+      "track": "wwe",
+      "label": "Orton unifies the world titles",
+      "text": "Randy Orton defeats John Cena at TLC. The 2002 World Heavyweight record ends; the WWE record continues as WWE World Heavyweight Championship.",
+      "sources": [
+        "https://www.wwe.com/shows/wwetlc/2013/john-cena-randy-orton"
+      ],
+      "from": "oldworld"
+    },
+    {
+      "id": "universal-pair",
+      "date": "2022-04-03",
+      "kind": "shared",
+      "track": "wwe",
+      "label": "Roman holds both championships",
+      "text": "Roman Reigns defeats Brock Lesnar at WrestleMania 38. Both title records continue under one champion and Undisputed WWE Universal billing.",
+      "sources": [
+        "https://www.wwe.com/shows/wrestlemania/wrestlemania-38/wrestlemania-sunday/brock-lesnar-vs-roman-reigns-results",
+        "https://www.wwe.com/titlehistory/universal-championship"
+      ],
+      "from": "universal"
+    },
+    {
+      "id": "single-gold",
+      "date": "2023-06-02",
+      "kind": "rename",
+      "track": "wwe",
+      "label": "A single Undisputed belt",
+      "text": "Triple H presents Roman Reigns with a new belt. The physical redesign is separate from when the Universal record ends.",
+      "sources": [
+        "https://www.wwe.com/videos/triple-h-presents-roman-reigns-with-a-new-undisputed-wwe-universal-title-smackdown-highlights-june-2-2023",
+        "https://www.wwe.com/titlehistory/universal-championship"
+      ]
+    },
+    {
+      "id": "universal-end",
+      "date": "2024-04-07",
+      "kind": "retire",
+      "track": "wwe",
+      "label": "Universal record ends",
+      "text": "WWE’s current title history ends the Universal championship with Reigns on this date. WWE’s 1963 lineage continues with Cody Rhodes.",
+      "sources": [
+        "https://www.wwe.com/titlehistory/universal-championship",
+        "https://www.wwe.com/classics/titlehistory/wwe-world-heavyweight-championship"
+      ],
+      "from": "universal"
+    },
+    {
+      "id": "ic-origin-story",
+      "date": "1979-09-01",
+      "kind": "heritage",
+      "track": "ic",
+      "label": "Patterson’s Intercontinental origin",
+      "text": "The North American/South American unification explains the name in storyline. The North American title actually continued in Japan until 1981.",
+      "sources": [
+        "https://www.wwe.com/classics/phantom-title-changes",
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwf-north-american-heavyweight-championship"
+      ],
+      "from": "north-american"
+    },
+    {
+      "id": "us-ic",
+      "date": "2001-11-18",
+      "kind": "merge",
+      "track": "ic",
+      "label": "Edge unifies U.S. and IC",
+      "text": "Edge defeats Test at Survivor Series. The U.S. championship becomes inactive while the Intercontinental title continues.",
+      "sources": [
+        "https://www.wwe.com/classics/era-of-unification"
+      ],
+      "from": "us"
+    },
+    {
+      "id": "euro-ic",
+      "date": "2002-07-22",
+      "kind": "merge",
+      "track": "ic",
+      "label": "European title absorbed",
+      "text": "Rob Van Dam defeats Jeff Hardy in a Raw ladder match, ending the European championship.",
+      "sources": [
+        "https://www.wwe.com/videos/rob-van-dam-vs-jeff-hardy-raw-intercontinental-and-european-championship-unification-ladder-match-july-22-2002",
+        "https://www.wwe.com/titlehistory/european-championship"
+      ],
+      "from": "european"
+    },
+    {
+      "id": "hard-ic",
+      "date": "2002-08-26",
+      "kind": "merge",
+      "track": "ic",
+      "label": "Hardcore title absorbed",
+      "text": "Rob Van Dam defeats Tommy Dreamer on Raw. The Hardcore championship is retired into the Intercontinental title.",
+      "sources": [
+        "https://www.wwe.com/videos/rob-van-dam-vs-tommy-dreamer-hardcore-and-intercontinental-championship-unification-match-raw-august-26-2002",
+        "https://www.wwe.com/titlehistory/hardcore-championship"
+      ],
+      "from": "hardcore"
+    },
+    {
+      "id": "ic-world",
+      "date": "2002-10-20",
+      "kind": "merge",
+      "track": "oldworld",
+      "label": "Intercontinental title deactivated",
+      "text": "Triple H defeats Kane at No Mercy to unify their titles. The IC championship disappears temporarily, returning in 2003.",
+      "sources": [
+        "https://www.wwe.com/shows/nomercy/2002/rawmainevent"
+      ],
+      "from": "ic"
+    },
+    {
+      "id": "ic-return",
+      "date": "2003-05-18",
+      "kind": "revive",
+      "track": "ic",
+      "label": "Christian wins the revived title",
+      "text": "After its May 5 reinstatement announcement, Christian wins the vacant Intercontinental championship in a Judgment Day battle royal.",
+      "sources": [
+        "https://www.wwe.com/classics/era-of-unification",
+        "https://www.wwe.com/videos/battle-royal-for-the-vacant-intercontinental-championship-judgment-day-2003"
+      ]
+    },
+    {
+      "id": "us-return",
+      "date": "2003-07-27",
+      "kind": "revive",
+      "track": "us",
+      "label": "Eddie wins the revived U.S. title",
+      "text": "Eddie Guerrero defeats Chris Benoit in the Vengeance tournament final. WWE resumes the title’s existing lineage.",
+      "sources": [
+        "https://www.wwe.com/shows/vengeance/2003",
+        "https://www.wwe.com/classics/era-of-unification"
+      ]
+    },
+    {
+      "id": "tag-first-pair",
+      "date": "2001-08-19",
+      "kind": "shared",
+      "track": "tag71",
+      "label": "Brothers of Destruction hold both",
+      "text": "Undertaker and Kane win both sets at SummerSlam. The titles subsequently separate before the final November unification.",
+      "sources": [
+        "https://www.wwe.com/classics/era-of-unification"
+      ],
+      "from": "wcwtag"
+    },
+    {
+      "id": "wcwtag-merge",
+      "date": "2001-11-18",
+      "kind": "merge",
+      "track": "tag71",
+      "label": "Dudleys end the WCW tag lineage",
+      "text": "The Dudley Boyz beat the Hardy Boyz in a Survivor Series cage match. WCW’s tag title is retired.",
+      "sources": [
+        "https://www.wwe.com/videos/the-hardy-boyz-vs-the-dudley-boyz-tag-team-championship-unification-steel-cage-m",
+        "https://www.wwe.com/classics/era-of-unification"
+      ],
+      "from": "wcwtag"
+    },
+    {
+      "id": "tags09",
+      "date": "2009-04-05",
+      "kind": "shared",
+      "track": "tag02",
+      "label": "Four belts, one champion team",
+      "text": "Carlito and Primo defeat The Miz and John Morrison at WrestleMania XXV. Both records continue under Unified WWE Tag Team billing.",
+      "sources": [
+        "https://www.wwe.com/classics/era-of-unification"
+      ],
+      "from": "tag71"
+    },
+    {
+      "id": "tags10",
+      "date": "2010-08-16",
+      "kind": "retire",
+      "track": "tag02",
+      "label": "Original World Tag Team record ends",
+      "text": "The Hart Dynasty receive redesigned belts. The 1971 title is retired; the 2002 title continues.",
+      "sources": [
+        "https://www.wwe.com/videos/bret-hit-man-hart-presents-the-hart-dynasty-with-the-new-wwe-tag-team-championships-raw-august-16-2010",
+        "https://www.wwe.com/titlehistory/world-tag-team-championship"
+      ],
+      "from": "tag71"
+    },
+    {
+      "id": "tag-raw",
+      "date": "2016-09-05",
+      "kind": "rename",
+      "track": "tag02",
+      "label": "The RAW tag championship",
+      "text": "The 2002 championship becomes RAW’s counterpart to the newly introduced SmackDown title. The same reign record continues.",
+      "sources": [
+        "https://www.wwe.com/titlehistory/raw-tag-team-championship"
+      ],
+      "precision": "year"
+    },
+    {
+      "id": "tags22",
+      "date": "2022-05-20",
+      "kind": "shared",
+      "track": "tag02",
+      "label": "The Usos hold RAW and SmackDown gold",
+      "text": "The Usos beat RK-Bro. Both title records remain active while defended together as the Undisputed WWE Tag Team Championship.",
+      "sources": [
+        "https://www.youtube.com/watch?v=e2Y4UWJudsM",
+        "https://www.wwe.com/titlehistory/raw-tag-team-championship",
+        "https://www.wwe.com/classics/titlehistory/wwe-tag-team-championship"
+      ],
+      "from": "tag16"
+    },
+    {
+      "id": "tags-split",
+      "date": "2024-04-06",
+      "kind": "split",
+      "track": "tag16",
+      "label": "The two tag titles separate",
+      "text": "At WrestleMania XL, A-Town Down Under take the SmackDown belts and Awesome Truth take the RAW belts. Both existing histories continue.",
+      "sources": [
+        "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      ],
+      "from": "tag02"
+    },
+    {
+      "id": "tag-world-name",
+      "date": "2024-04-15",
+      "kind": "rename",
+      "track": "tag02",
+      "label": "RAW title becomes World Tag Team",
+      "text": "Awesome Truth receive the renamed championship. Its lineage still begins in 2002, not 1971.",
+      "sources": [
+        "https://www.wwe.com/videos/triple-h-gifts-new-world-tag-team-titles-to-awesome-truth-raw-highlights-april-15-2024",
+        "https://www.wwe.com/titlehistory/raw-tag-team-championship"
+      ]
+    },
+    {
+      "id": "tag-wwe-name",
+      "date": "2024-04-19",
+      "kind": "rename",
+      "track": "tag16",
+      "label": "SmackDown title becomes WWE Tag Team",
+      "text": "A-Town Down Under receive the renamed belts. This is the continuing 2016 championship.",
+      "sources": [
+        "https://www.wwe.com/videos/triple-h-gifts-new-wwe-tag-team-titles-to-a-town-down-under-smackdown-highlights-april-19-2024",
+        "https://www.wwe.com/classics/titlehistory/wwe-tag-team-championship"
+      ]
+    },
+    {
+      "id": "new-world",
+      "date": "2023-05-27",
+      "kind": "origin",
+      "track": "world23",
+      "label": "Rollins becomes the first champion",
+      "text": "Seth Rollins defeats AJ Styles at Night of Champions. This starts the reign history of a new World Heavyweight championship.",
+      "sources": [
+        "https://www.wwe.com/classics/titlehistory/world-heavyweight-championship"
+      ]
+    },
+    {
+      "id": "origin-wwe",
+      "date": "1963-04-25",
+      "kind": "origin",
+      "track": "wwe",
+      "label": "Buddy Rogers · first champion",
+      "text": "The continuing record behind today’s Undisputed WWE Championship. A new name or belt does not restart its history.",
+      "sources": [
+        "https://www.wwe.com/article/wwe-championship-60-year-anniversary"
+      ],
+      "precision": "day"
+    },
+    {
+      "id": "origin-wcw",
+      "date": "1991-01-11",
+      "kind": "origin",
+      "track": "wcw",
+      "label": "Ric Flair · first champion",
+      "text": "WCW’s separately recognized world title. Its NWA heritage does not mean the still-separate NWA championship was retired in 2001.",
+      "sources": [
+        "https://www.wwe.com/titlehistory/wcw-world-championship"
+      ],
+      "precision": "day"
+    },
+    {
+      "id": "origin-intl",
+      "date": "1993-07-18",
+      "kind": "origin",
+      "track": "intl",
+      "label": "Ric Flair · first champion",
+      "text": "The record begins with Flair’s NWA title win. After WCW left the NWA in September 1993, WCW continued its own recognition; the International name followed. The NWA record remained separate.",
+      "sources": [
+        "https://www.wrestling-titles.com/wcw/wcw-in-h.html"
+      ],
+      "precision": "day"
+    },
+    {
+      "id": "origin-oldworld",
+      "date": "2002-09-02",
+      "kind": "origin",
+      "track": "oldworld",
+      "label": "Triple H · first champion",
+      "text": "A new WWE title in 2002, with Big Gold heritage. It is neither a continuation of WCW’s record nor the championship introduced in 2023.",
+      "sources": [
+        "https://www.wwe.com/inside/magazine/a-storied-championships-wwe-legacy"
+      ],
+      "precision": "day"
+    },
+    {
+      "id": "origin-universal",
+      "date": "2016-08-21",
+      "kind": "origin",
+      "track": "universal",
+      "label": "Finn Bálor · first champion",
+      "text": "WWE’s current historical table ends this title with Roman Reigns on April 7, 2024. The 2022 winner-take-all match did not immediately end its separate record.",
+      "sources": [
+        "https://www.wwe.com/titlehistory/universal-championship"
+      ],
+      "precision": "day"
+    },
+    {
+      "id": "origin-ic",
+      "date": "1979-09-01",
+      "kind": "origin",
+      "track": "ic",
+      "label": "Pat Patterson · first champion",
+      "text": "Patterson was the inaugural champion. The Rio tournament and South American title belong to the storyline origin, not a separately documented tournament record.",
+      "sources": [
+        "https://www.wwe.com/article/intercontinental-championship-40th-anniversary-week-schedule"
+      ],
+      "precision": "day"
+    },
+    {
+      "id": "origin-us",
+      "date": "1975-01-01",
+      "kind": "origin",
+      "track": "us",
+      "label": "Harley Race · first champion",
+      "text": "The Mid-Atlantic/Jim Crockett title continued through WCW and into WWE. Its 2003 return resumed the 1975 record.",
+      "sources": [
+        "https://www.wwe.com/classics/classic-lists/us-title-history"
+      ],
+      "precision": "day"
+    },
+    {
+      "id": "origin-european",
+      "date": "1997-02-26",
+      "kind": "origin",
+      "track": "european",
+      "label": "British Bulldog · first champion",
+      "text": "Bulldog defeated Owen Hart in Berlin. WWE records February 26; the match aired on Raw on March 3, 1997. Dates here describe title history, not a new broadcast-archive entry.",
+      "sources": [
+        "https://www.wwe.com/titlehistory/european-championship"
+      ],
+      "precision": "day"
+    },
+    {
+      "id": "origin-hardcore",
+      "date": "1998-11-02",
+      "kind": "origin",
+      "track": "hardcore",
+      "label": "Mankind · first champion",
+      "text": "Introduced by awarding the championship to Mankind; its later 24/7 rule allowed rapid title changes.",
+      "sources": [
+        "https://www.wwe.com/titlehistory/hardcore-championship"
+      ],
+      "precision": "day"
+    },
+    {
+      "id": "origin-north-american",
+      "date": "1979-02-13",
+      "kind": "origin",
+      "track": "north-american",
+      "label": "Ted DiBiase · first champion",
+      "text": "Patterson held this belt when the Intercontinental title was introduced. It continued in Japan afterward, so the origin story is not drawn as a permanent merger.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwf-north-american-heavyweight-championship"
+      ],
+      "precision": "day"
+    },
+    {
+      "id": "origin-nwa",
+      "date": "1948-07-01",
+      "kind": "origin",
+      "track": "nwa",
+      "label": "Orville Brown · first champion",
+      "text": "Historical background, not an absorbed WWE title. Sources differ on the precise July founding date; the map deliberately uses month-level precision.",
+      "sources": [
+        "https://nwa1948.com/milestones/1948-birth-of-the-nwa/"
+      ],
+      "precision": "month"
+    },
+    {
+      "id": "origin-tag02",
+      "date": "2002-10-20",
+      "kind": "origin",
+      "track": "tag02",
+      "label": "Kurt Angle & Chris Benoit · first champion",
+      "text": "Today’s RAW title follows the championship introduced on SmackDown in 2002. It does not inherit the older title’s 1971 start date.",
+      "sources": [
+        "https://www.wwe.com/titlehistory/raw-tag-team-championship"
+      ],
+      "precision": "day"
+    },
+    {
+      "id": "origin-tag71",
+      "date": "1971-06-03",
+      "kind": "origin",
+      "track": "tag71",
+      "label": "Luke Graham & Tarzan Tyler · first champion",
+      "text": "The original WWWF/WWF team title. It kept a separate record during the 2009–2010 unified presentation.",
+      "sources": [
+        "https://www.wwe.com/titlehistory/world-tag-team-championship"
+      ],
+      "precision": "day"
+    },
+    {
+      "id": "origin-wcwtag",
+      "date": "1975-01-29",
+      "kind": "origin",
+      "track": "wcwtag",
+      "label": "Gene & Ole Anderson · first champion",
+      "text": "This is the Mid-Atlantic/Jim Crockett version of the NWA World Tag Team title, later WCW’s. Other regional NWA tag titles are separate records.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/wcw/wcw-world-tag-team-championship"
+      ],
+      "precision": "day"
+    },
+    {
+      "id": "origin-tag16",
+      "date": "2016-09-11",
+      "kind": "origin",
+      "track": "tag16",
+      "label": "Heath Slater & Rhyno · first champion",
+      "text": "A separate championship created for SmackDown. First awarded at Backlash after a tournament.",
+      "sources": [
+        "https://www.wwe.com/shows/backlash/2016/heath-slater-rhyno-vs-usos-smackdown-tag-team-championship-results"
+      ],
+      "precision": "day"
+    },
+    {
+      "id": "new-world-announced",
+      "date": "2023-04-24",
+      "kind": "announce",
+      "track": "world23",
+      "label": "Triple H introduces the new championship",
+      "text": "WWE announces a new World Heavyweight Championship. The first champion will be decided at Night of Champions; Roman Reigns keeps the existing Undisputed championship.",
+      "sources": [
+        "https://www.wwe.com/article/triple-h-introduces-the-world-heavyweight-championship"
+      ]
+    },
+    {
+      "id": "european-return",
+      "date": "1999-06-21",
+      "kind": "revive",
+      "track": "european",
+      "label": "European championship returns",
+      "text": "Mideon becomes champion after the brief 1999 retirement. The same European title record resumes.",
+      "sources": [
+        "https://www.wwe.com/titlehistory/european-championship"
+      ]
+    },
+    {
+      "id": "georgia-national",
+      "date": "1981-01-01",
+      "precision": "year",
+      "kind": "merge",
+      "track": "national",
+      "from": "georgia",
+      "label": "Georgia title unified into National title",
+      "text": "Masked Superstar defeated Tommy Rich to combine the Georgia and National titles in 1981. Wrestling-Titles records September 12, while The History of WWE lists August 29 and The SmackDown Hotel lists September 19. The tree shows the agreed year rather than a falsely precise day.",
+      "sources": [
+        "https://www.wrestling-titles.com/nwa/others/nat-h.html",
+        "https://thehistoryofwwe.com/nwa-national-heavyweight-title-history/",
+        "https://www.thesmackdownhotel.com/title-history/nwa/nwa-national-championship"
+      ]
+    },
+    {
+      "id": "national-us",
+      "date": "1986-09-28",
+      "kind": "merge",
+      "track": "us",
+      "from": "national",
+      "label": "National title unified into United States title",
+      "text": "United States Champion Nikita Koloff defeated National Champion Wahoo McDaniel in Atlanta. The original National title was deactivated, while the United States title continued under Jim Crockett Promotions. The NWA later revived its National title separately in 1997.",
+      "sources": [
+        "https://www.wrestling-titles.com/wcw/wcw-us-h.html",
+        "https://www.wrestling-titles.com/nwa/others/nat-h.html",
+        "https://www.thesmackdownhotel.com/title-history/nwa/nwa-national-championship"
+      ]
+    },
+    {
+      "id": "origin-georgia",
+      "date": "1962-10-30",
+      "precision": "day",
+      "kind": "origin",
+      "track": "georgia",
+      "label": "NWA Georgia Heavyweight Championship established",
+      "text": "The territorial record is traced to Choo-Choo Lynn in 1962, with formal belt presentation in November. Some summaries begin with Sputnik Monroe in 1964. Masked Superstar unified it with the National title in 1981; historical records disagree on the exact date. Later revivals are outside this original branch.",
+      "sources": [
+        "https://www.wrestling-titles.com/us/ga/ga-h.html"
+      ]
+    },
+    {
+      "id": "origin-national",
+      "date": "1980-01-01",
+      "precision": "year",
+      "kind": "origin",
+      "track": "national",
+      "label": "NWA National Heavyweight Championship established",
+      "text": "Established in Georgia Championship Wrestling in 1980. Early title histories disagree about the first champion. This branch follows the original 1980–1986 title through its unification into the United States title; the National title was later revived by the NWA in 1997.",
+      "sources": [
+        "https://www.wrestling-titles.com/nwa/others/nat-h.html"
+      ]
+    }
+  ],
+  "views": {
+    "undisputed-wwe": {
+      "main": "wwe",
+      "tracks": [
+        "wwe",
+        "wcw",
+        "intl",
+        "oldworld",
+        "universal",
+        "ic",
+        "us",
+        "european",
+        "hardcore",
+        "north-american",
+        "nwa",
+        "national",
+        "georgia"
+      ],
+      "summary": "The WWE record begins in 1963. Follow the WCW and 2002 World Heavyweight mergers, the Universal pairing, and the earlier branches that fed those titles.",
+      "title": "wwe-championship"
+    },
+    "world-heavyweight": {
+      "main": "world23",
+      "tracks": [
+        "world23"
+      ],
+      "summary": "Established in 2023. The shared name and Big Gold inspiration do not continue the 2002–2013 championship’s official record.",
+      "title": "world-heavyweight-championship"
+    },
+    "intercontinental": {
+      "main": "ic",
+      "tracks": [
+        "ic",
+        "north-american",
+        "us",
+        "european",
+        "hardcore",
+        "oldworld",
+        "national",
+        "georgia"
+      ],
+      "summary": "Established in 1979. Absorbed three titles, was briefly unified out of existence itself, then returned with its original record.",
+      "title": "intercontinental-championship"
+    },
+    "united-states": {
+      "main": "us",
+      "tracks": [
+        "us",
+        "ic",
+        "national",
+        "georgia"
+      ],
+      "summary": "The 1975 Mid-Atlantic title continues through WCW and WWE, including a 2001–2003 interruption.",
+      "title": "united-states-championship"
+    },
+    "world-tag-team": {
+      "main": "tag02",
+      "tracks": [
+        "tag02",
+        "tag71",
+        "wcwtag",
+        "tag16"
+      ],
+      "summary": "The current World Tag Team title starts in 2002. Earlier tag championships connect through unifications without changing that starting date.",
+      "title": "world-tag-team-championship"
+    },
+    "wwe-tag-team": {
+      "main": "tag16",
+      "tracks": [
+        "tag16",
+        "tag02",
+        "tag71",
+        "wcwtag"
+      ],
+      "summary": "The current WWE Tag Team title starts in 2016. Its 2022–2024 partnership with RAW’s title did not erase either record.",
+      "title": "wwe-tag-team-championship"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "wwe/royal-rumble/1989-01-15",
+  "promotion": "wwe",
+  "series": "wwe/royal-rumble",
+  "name": "Royal Rumble '89",
+  "date": "1989-01-15",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1989/",
+    "https://thehistoryofwwe.com/royal-rumble-results/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Rockin' Robin vs. Judy Martin",
+      "result": "Rockin' Robin defeated Judy Martin.",
+      "matchType": "Singles match",
+      "duration": 384,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "rockin-robin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "judy-martin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rockin' Robin",
+        "Judy Martin"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1989/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "14449",
+          "192568"
+        ],
+        "sourceEventIds": [
+          "2328"
+        ]
+      },
+      "legacyId": "bulk-match-14449",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Hulk Hogan vs. 29 others",
+      "result": "Hogan's side: loss by eliminated.",
+      "context": "Big John Studd won Venue: The Summit, Houston, TX.",
+      "matchType": "Royal Rumble",
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Hulk Hogan",
+        "29 others"
+      ],
+      "guests": "29 others",
+      "promotionLabel": "WWF",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/royal-rumble-results/"
+      ],
+      "legacyId": "hogan-workbook-hm-0102",
+      "legacy": {
+        "show": "Royal Rumble 1989",
+        "kind": "match"
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-2328"
+  ],
+  "legacy": {
+    "showFamily": "royal-rumble",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "2328"
+    ]
+  }
+}

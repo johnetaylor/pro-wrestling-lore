@@ -1,0 +1,213 @@
+{
+  "id": "wwe/raw/2002-01-14",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2002-01-14",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2002/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Spike Dudley vs. Bubba Ray Dudley",
+      "result": "Spike Dudley defeated Bubba Ray Dudley.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "spike-dudley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bubba-ray-dudley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Spike Dudley",
+        "Bubba Ray Dudley"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "43958",
+          "163012"
+        ],
+        "sourceEventIds": [
+          "6462"
+        ]
+      },
+      "legacyId": "bulk-match-43958",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Kurt Angle vs. Kane",
+      "result": "Kurt Angle defeated Kane.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Kane"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "43961",
+          "163015"
+        ],
+        "sourceEventIds": [
+          "6462"
+        ]
+      },
+      "legacyId": "bulk-match-43961",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Test, William Regal vs. Edge, Rob Van Dam",
+      "result": "Test, William Regal defeated Edge, Rob Van Dam.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Test",
+        "William Regal",
+        "Edge",
+        "Rob Van Dam"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "43962",
+          "163016"
+        ],
+        "sourceEventIds": [
+          "6462"
+        ]
+      },
+      "legacyId": "bulk-match-43962",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Booker T. vs. The Big Show",
+      "result": "Booker T. defeated The Big Show.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Booker T.",
+        "The Big Show"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "43963",
+          "163017"
+        ],
+        "sourceEventIds": [
+          "6462"
+        ]
+      },
+      "legacyId": "bulk-match-43963",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6462"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6462"
+    ]
+  }
+}

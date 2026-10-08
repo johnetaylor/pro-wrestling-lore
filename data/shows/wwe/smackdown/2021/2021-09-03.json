@@ -1,0 +1,206 @@
+{
+  "id": "wwe/smackdown/2021-09-03",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2021-09-03",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2021-09-03"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Rick Boogs vs. Dolph Ziggler",
+      "result": "Rick Boogs defeated Dolph Ziggler.",
+      "matchType": "Singles match",
+      "duration": 88,
+      "participants": [
+        {
+          "person": "rick-boogs",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rick Boogs",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-09-03"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87546",
+          "109900"
+        ],
+        "sourceEventIds": [
+          "13767"
+        ]
+      },
+      "legacyId": "bulk-match-87546",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Cesaro vs. Seth Rollins",
+      "result": "Cesaro defeated Seth Rollins by disqualification.",
+      "matchType": "Singles match",
+      "duration": 583,
+      "participants": [
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Cesaro",
+        "Seth Rollins"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-09-03"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87547",
+          "109901"
+        ],
+        "sourceEventIds": [
+          "13767"
+        ]
+      },
+      "legacyId": "bulk-match-87547",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Sami Zayn vs. Dominik Mysterio",
+      "result": "Sami Zayn defeated Dominik Mysterio.",
+      "matchType": "Singles match",
+      "duration": 124,
+      "participants": [
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sami Zayn",
+        "Dominik Mysterio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-09-03"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87548",
+          "109902"
+        ],
+        "sourceEventIds": [
+          "13767"
+        ]
+      },
+      "legacyId": "bulk-match-87548",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Roman Reigns vs. Finn Bálor",
+      "result": "Roman Reigns defeated Finn Bálor.",
+      "matchType": "Singles match",
+      "duration": 700,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Finn Bálor"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-09-03"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87549",
+          "109903"
+        ],
+        "sourceEventIds": [
+          "13767"
+        ]
+      },
+      "legacyId": "bulk-match-87549",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13767"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13767"
+    ]
+  }
+}

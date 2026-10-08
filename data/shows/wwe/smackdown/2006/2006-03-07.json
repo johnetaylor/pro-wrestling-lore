@@ -1,0 +1,172 @@
+{
+  "id": "wwe/smackdown/2006-03-07",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2006-03-07",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2006/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Bobby Lashley, Finlay — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "finlay",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Bobby Lashley",
+        "Finlay"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50309",
+          "155973"
+        ],
+        "sourceEventIds": [
+          "7588"
+        ]
+      },
+      "legacyId": "bulk-match-50309",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Chris Benoit vs. Gregory Helms",
+      "result": "Chris Benoit defeated Gregory Helms.",
+      "matchType": "Singles match",
+      "duration": 384,
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-hurricane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Gregory Helms"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50312",
+          "155976"
+        ],
+        "sourceEventIds": [
+          "7588"
+        ]
+      },
+      "legacyId": "bulk-match-50312",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "4-person match",
+      "result": "Kurt Angle, Rey Mysterio, Mark Henry, Randy Orton — no contest.",
+      "matchType": "4-person match",
+      "duration": 780,
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Rey Mysterio",
+        "Mark Henry",
+        "Randy Orton"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50313",
+          "155977"
+        ],
+        "sourceEventIds": [
+          "7588"
+        ]
+      },
+      "legacyId": "bulk-match-50313",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7588"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7588"
+    ]
+  }
+}

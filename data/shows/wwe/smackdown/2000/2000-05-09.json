@@ -1,0 +1,202 @@
+{
+  "id": "wwe/smackdown/2000-05-09",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2000-05-09",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Chris Benoit vs. The Godfather",
+      "result": "Chris Benoit defeated The Godfather.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-godfather",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "The Godfather"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "39068",
+          "167946"
+        ],
+        "sourceEventIds": [
+          "5769"
+        ]
+      },
+      "legacyId": "bulk-match-39068",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Dean Malenko vs. Chyna",
+      "result": "Dean Malenko defeated Chyna.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "dean-malenko",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chyna",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dean Malenko",
+        "Chyna"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "39069",
+          "167947"
+        ],
+        "sourceEventIds": [
+          "5769"
+        ]
+      },
+      "legacyId": "bulk-match-39069",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Crash Holly vs. The British Bulldog",
+      "result": "Crash Holly defeated The British Bulldog.",
+      "matchType": "Other match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "crash-holly",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-british-bulldog",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Crash Holly",
+        "The British Bulldog"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "39071",
+          "167949"
+        ],
+        "sourceEventIds": [
+          "5769"
+        ]
+      },
+      "legacyId": "bulk-match-39071",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Eddie Guerrero vs. Perry Saturn",
+      "result": "Eddie Guerrero defeated Perry Saturn.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "perry-saturn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Eddie Guerrero",
+        "Perry Saturn"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "39073",
+          "167951"
+        ],
+        "sourceEventIds": [
+          "5769"
+        ]
+      },
+      "legacyId": "bulk-match-39073",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5769"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5769"
+    ]
+  }
+}

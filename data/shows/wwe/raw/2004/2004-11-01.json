@@ -1,0 +1,219 @@
+{
+  "id": "wwe/raw/2004-11-01",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2004-11-01",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Gene Snitsky vs. Eugene",
+      "result": "Gene Snitsky defeated Eugene.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "gene-snitsky",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eugene",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Gene Snitsky",
+        "Eugene"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48404",
+          "158292"
+        ],
+        "sourceEventIds": [
+          "7224"
+        ]
+      },
+      "legacyId": "bulk-match-48404",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Christian vs. The Hurricane",
+      "result": "Christian defeated The Hurricane.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-hurricane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Christian",
+        "The Hurricane"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48405",
+          "158293"
+        ],
+        "sourceEventIds": [
+          "7224"
+        ]
+      },
+      "legacyId": "bulk-match-48405",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Shelton Benjamin vs. Viscera",
+      "result": "Shelton Benjamin defeated Viscera.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "viscera",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shelton Benjamin",
+        "Viscera"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48407",
+          "158295"
+        ],
+        "sourceEventIds": [
+          "7224"
+        ]
+      },
+      "legacyId": "bulk-match-48407",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Chris Jericho, Maven, Randy Orton vs. Batista, Ric Flair",
+      "result": "Chris Jericho, Maven, Randy Orton defeated Batista, Ric Flair.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "maven",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "ric-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Maven",
+        "Randy Orton",
+        "Batista",
+        "Ric Flair"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48408",
+          "158296"
+        ],
+        "sourceEventIds": [
+          "7224"
+        ]
+      },
+      "legacyId": "bulk-match-48408",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7224"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7224"
+    ]
+  }
+}

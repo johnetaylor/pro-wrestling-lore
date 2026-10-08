@@ -1,0 +1,234 @@
+{
+  "id": "wwe/raw/2023-11-06",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2023-11-06",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2023-11-06"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Damian Priest, Finn Bálor vs. Kofi Kingston, Xavier Woods",
+      "result": "Damian Priest, Finn Bálor defeated Kofi Kingston, Xavier Woods.",
+      "matchType": "4-person match",
+      "duration": 550,
+      "participants": [
+        {
+          "person": "damian-priest",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Damian Priest",
+        "Finn Bálor",
+        "Kofi Kingston",
+        "Xavier Woods"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2023-11-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3308",
+          "92847",
+          "101636"
+        ],
+        "sourceEventIds": [
+          "617"
+        ]
+      },
+      "legacyId": "bulk-match-3308",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Shinsuke Nakamura vs. Akira Tozawa",
+      "result": "Shinsuke Nakamura defeated Akira Tozawa.",
+      "matchType": "Singles match",
+      "duration": 151,
+      "participants": [
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "akira-tozawa",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shinsuke Nakamura",
+        "Akira Tozawa"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2023-11-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3309",
+          "92848",
+          "101637"
+        ],
+        "sourceEventIds": [
+          "617"
+        ]
+      },
+      "legacyId": "bulk-match-3309",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "The Miz vs. Bronson Reed, Ivar, Ricochet",
+      "result": "The Miz defeated Bronson Reed, Ivar, Ricochet.",
+      "matchType": "Other match",
+      "duration": 823,
+      "participants": [
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bronson-reed",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "ivar",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Miz",
+        "Bronson Reed",
+        "Ivar",
+        "Ricochet"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2023-11-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3310",
+          "92849",
+          "101638"
+        ],
+        "sourceEventIds": [
+          "617"
+        ]
+      },
+      "legacyId": "bulk-match-3310",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Seth Rollins vs. Sami Zayn",
+      "result": "Seth Rollins defeated Sami Zayn.",
+      "matchType": "Singles match",
+      "duration": 1216,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Seth Rollins",
+        "Sami Zayn"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2023-11-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3313",
+          "92852",
+          "101641"
+        ],
+        "sourceEventIds": [
+          "617"
+        ]
+      },
+      "legacyId": "bulk-match-3313",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-617"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "617"
+    ]
+  }
+}

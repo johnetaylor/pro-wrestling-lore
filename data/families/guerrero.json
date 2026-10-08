@@ -1,0 +1,169 @@
+{
+  "id": "guerrero",
+  "name": "Guerrero",
+  "description": "Gory’s sons and grandson built a dynasty across Mexico and the United States.",
+  "branches": [
+    {
+      "id": "guerrero",
+      "name": "The Guerrero family"
+    }
+  ],
+  "members": [
+    {
+      "id": "gory",
+      "name": "Gory Guerrero",
+      "branch": "guerrero",
+      "source": "families",
+      "layout": {
+        "x": 286,
+        "y": 24
+      }
+    },
+    {
+      "id": "chavo-sr",
+      "name": "Chavo Guerrero Sr.",
+      "branch": "guerrero",
+      "source": "families",
+      "layout": {
+        "x": 16,
+        "y": 164
+      }
+    },
+    {
+      "id": "mando",
+      "name": "Mando Guerrero",
+      "branch": "guerrero",
+      "source": "families",
+      "layout": {
+        "x": 196,
+        "y": 164
+      }
+    },
+    {
+      "id": "hector",
+      "name": "Hector Guerrero",
+      "branch": "guerrero",
+      "source": "families",
+      "layout": {
+        "x": 376,
+        "y": 164
+      }
+    },
+    {
+      "id": "eddie",
+      "name": "Eddie Guerrero",
+      "person": "eddie-guerrero",
+      "branch": "guerrero",
+      "source": "families",
+      "layout": {
+        "x": 556,
+        "y": 164
+      }
+    },
+    {
+      "id": "chavo-jr",
+      "name": "Chavo Guerrero Jr.",
+      "person": "chavo-guerrero",
+      "branch": "guerrero",
+      "source": "chavo",
+      "layout": {
+        "x": 16,
+        "y": 304
+      }
+    },
+    {
+      "id": "vickie-guerrero",
+      "name": "Vickie Guerrero",
+      "person": "vickie-guerrero",
+      "branch": "guerrero",
+      "source": "vickie",
+      "layout": {
+        "x": 736,
+        "y": 164
+      }
+    },
+    {
+      "id": "shaul-guerrero",
+      "name": "Shaul Guerrero / Raquel Diaz",
+      "person": "raquel-diaz",
+      "branch": "guerrero",
+      "aliases": [
+        "Shaul Guerrero",
+        "Raquel Diaz"
+      ],
+      "source": "shaul",
+      "layout": {
+        "x": 646,
+        "y": 304
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "gory",
+      "b": "chavo-sr",
+      "type": "parent",
+      "source": "families"
+    },
+    {
+      "a": "gory",
+      "b": "mando",
+      "type": "parent",
+      "source": "families"
+    },
+    {
+      "a": "gory",
+      "b": "hector",
+      "type": "parent",
+      "source": "families"
+    },
+    {
+      "a": "gory",
+      "b": "eddie",
+      "type": "parent",
+      "source": "families"
+    },
+    {
+      "a": "chavo-sr",
+      "b": "chavo-jr",
+      "type": "parent",
+      "source": "chavo"
+    },
+    {
+      "a": "eddie",
+      "b": "vickie-guerrero",
+      "type": "marriage",
+      "source": "vickie"
+    },
+    {
+      "a": "eddie",
+      "b": "shaul-guerrero",
+      "type": "parent",
+      "source": "shaul"
+    },
+    {
+      "a": "vickie-guerrero",
+      "b": "shaul-guerrero",
+      "type": "parent",
+      "source": "shaul"
+    }
+  ],
+  "sources": {
+    "families": {
+      "label": "WWE: wrestling families",
+      "url": "https://www.wwe.com/classics/classic-lists/greatest-families-in-wwe-history"
+    },
+    "chavo": {
+      "label": "WWE: father and son champions",
+      "url": "https://www.wwe.com/article/father-son-champions"
+    },
+    "vickie": {
+      "label": "WWE: Vickie Guerrero",
+      "url": "https://www.wwe.com/superstars/vickieguerrero"
+    },
+    "shaul": {
+      "label": "Shaul Guerrero’s parents",
+      "url": "https://en.wikipedia.org/wiki/Shaul_Guerrero"
+    }
+  }
+}

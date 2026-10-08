@@ -1,0 +1,272 @@
+{
+  "id": "wwe/raw/1999-02-15",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1999-02-15",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1999/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "4-person match",
+      "result": "Debra, Jeff Jarrett, D-Lo Brown, Ivory — no contest.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "debra",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "jeff-jarrett",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "d-lo-brown",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "ivory",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Debra",
+        "Jeff Jarrett",
+        "D-Lo Brown",
+        "Ivory"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "33139",
+          "173895"
+        ],
+        "sourceEventIds": [
+          "4969"
+        ]
+      },
+      "legacyId": "bulk-match-33139",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Val Venis vs. Billy Gunn",
+      "result": "Val Venis defeated Billy Gunn.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "val-venis",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Val Venis",
+        "Billy Gunn"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "33140",
+          "173896"
+        ],
+        "sourceEventIds": [
+          "4969"
+        ]
+      },
+      "legacyId": "bulk-match-33140",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Kane, Shane McMahon vs. Triple H, X-Pac",
+      "result": "Kane, Shane McMahon defeated Triple H, X-Pac.",
+      "matchType": "4-person match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shane-mcmahon",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "x-pac",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "Shane McMahon",
+        "Triple H",
+        "X-Pac"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "33141",
+          "173897"
+        ],
+        "sourceEventIds": [
+          "4969"
+        ]
+      },
+      "legacyId": "bulk-match-33141",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Bob Holly vs. Steve Blackman",
+      "result": "Bob Holly defeated Steve Blackman.",
+      "matchType": "Other match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "steve-blackman",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bob Holly",
+        "Steve Blackman"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "33142",
+          "173898"
+        ],
+        "sourceEventIds": [
+          "4969"
+        ]
+      },
+      "legacyId": "bulk-match-33142",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 6,
+      "type": "match",
+      "title": "The Rock vs. Mankind",
+      "result": "The Rock defeated Mankind.",
+      "matchType": "Ladder match",
+      "duration": 780,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mick-foley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Rock",
+        "Mankind"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "33144",
+          "173900"
+        ],
+        "sourceEventIds": [
+          "4969"
+        ]
+      },
+      "legacyId": "bulk-match-33144",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4969"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4969"
+    ]
+  }
+}

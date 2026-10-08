@@ -1,0 +1,245 @@
+{
+  "id": "wwe/raw/2000-12-29",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2000-12-29",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "The Undertaker vs. Rikishi",
+      "result": "The Undertaker defeated Rikishi.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "Rikishi"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41346",
+          "165658"
+        ],
+        "sourceEventIds": [
+          "6107"
+        ]
+      },
+      "legacyId": "bulk-match-41346",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Raven vs. Crash Holly",
+      "result": "Raven defeated Crash Holly.",
+      "matchType": "Other match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "raven",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "crash-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Raven",
+        "Crash Holly"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41348",
+          "165660"
+        ],
+        "sourceEventIds": [
+          "6107"
+        ]
+      },
+      "legacyId": "bulk-match-41348",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Chris Benoit vs. Test",
+      "result": "Chris Benoit defeated Test.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Test"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41350",
+          "165662"
+        ],
+        "sourceEventIds": [
+          "6107"
+        ]
+      },
+      "legacyId": "bulk-match-41350",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Kane vs. The Rock",
+      "result": "Kane defeated The Rock.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "The Rock"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41352",
+          "165664"
+        ],
+        "sourceEventIds": [
+          "6107"
+        ]
+      },
+      "legacyId": "bulk-match-41352",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 8,
+      "type": "match",
+      "title": "William Regal vs. Steve Austin",
+      "result": "William Regal defeated Steve Austin.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "William Regal",
+        "Steve Austin"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41353",
+          "165665"
+        ],
+        "sourceEventIds": [
+          "6107"
+        ]
+      },
+      "legacyId": "bulk-match-41353",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6107"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6107"
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "id": "wwe/smackdown/2024-11-22",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2024-11-22",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2024-11-22"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Chelsea Green vs. Bianca Belair, Blair Davenport",
+      "result": "Chelsea Green defeated Bianca Belair, Blair Davenport.",
+      "matchType": "Other match",
+      "duration": 590,
+      "participants": [
+        {
+          "person": "chelsea-green",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bianca-belair",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "blair-davenport",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chelsea Green",
+        "Bianca Belair",
+        "Blair Davenport"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-11-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95296"
+        ],
+        "sourceEventIds": [
+          "15109"
+        ]
+      },
+      "legacyId": "bulk-match-95296",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "L.A. Knight vs. Santos Escobar",
+      "result": "L.A. Knight defeated Santos Escobar.",
+      "matchType": "Singles match",
+      "duration": 493,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "la-knight",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "santos-escobar",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "L.A. Knight",
+        "Santos Escobar"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-11-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95297"
+        ],
+        "sourceEventIds": [
+          "15109"
+        ]
+      },
+      "legacyId": "bulk-match-95297",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Montez Ford vs. Tommaso Ciampa",
+      "result": "Montez Ford defeated Tommaso Ciampa.",
+      "matchType": "Singles match",
+      "duration": 469,
+      "participants": [
+        {
+          "person": "montez-ford",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tommaso-ciampa",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Montez Ford",
+        "Tommaso Ciampa"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-11-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95299"
+        ],
+        "sourceEventIds": [
+          "15109"
+        ]
+      },
+      "legacyId": "bulk-match-95299",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-15109"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "15109"
+    ]
+  }
+}

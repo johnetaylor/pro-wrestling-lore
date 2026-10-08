@@ -1,0 +1,180 @@
+{
+  "id": "wwe/raw/2019-01-14",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2019-01-14",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2019-01-14"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Finn Bálor vs. Jinder Mahal",
+      "result": "Finn Bálor defeated Jinder Mahal.",
+      "matchType": "Singles match",
+      "duration": 568,
+      "participants": [
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Finn Bálor",
+        "Jinder Mahal"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-01-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82258",
+          "117194"
+        ],
+        "sourceEventIds": [
+          "12819"
+        ]
+      },
+      "legacyId": "bulk-match-82258",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Bobby Lashley vs. Dean Ambrose, Seth Rollins",
+      "result": "Bobby Lashley defeated Dean Ambrose, Seth Rollins.",
+      "matchType": "Other match",
+      "duration": 790,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bobby Lashley",
+        "Dean Ambrose",
+        "Seth Rollins"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-01-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82259",
+          "117195"
+        ],
+        "sourceEventIds": [
+          "12819"
+        ]
+      },
+      "legacyId": "bulk-match-82259",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Finn Bálor vs. Baron Corbin, Drew McIntyre, John Cena",
+      "result": "Finn Bálor defeated Baron Corbin, Drew McIntyre, John Cena.",
+      "matchType": "Fatal Four Way match",
+      "duration": 1119,
+      "participants": [
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Finn Bálor",
+        "Baron Corbin",
+        "Drew McIntyre",
+        "John Cena"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-01-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82260",
+          "117196"
+        ],
+        "sourceEventIds": [
+          "12819"
+        ]
+      },
+      "legacyId": "bulk-match-82260",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12819"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12819"
+    ]
+  }
+}

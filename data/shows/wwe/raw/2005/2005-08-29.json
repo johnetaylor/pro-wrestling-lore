@@ -1,0 +1,223 @@
+{
+  "id": "wwe/raw/2005-08-29",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2005-08-29",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "The Big Show vs. Buck Quartermaine, Steve Madison",
+      "result": "The Big Show defeated Buck Quartermaine, Steve Madison.",
+      "matchType": "Tag Team match",
+      "duration": 167,
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "buck-quartermaine",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "steve-madison",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "Buck Quartermaine",
+        "Steve Madison"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49425",
+          "157009"
+        ],
+        "sourceEventIds": [
+          "7431"
+        ]
+      },
+      "legacyId": "bulk-match-49425",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Other match",
+      "result": "Edge, Matt Hardy — no contest.",
+      "matchType": "Other match",
+      "duration": 1140,
+      "participants": [
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Edge",
+        "Matt Hardy"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49427",
+          "157011"
+        ],
+        "sourceEventIds": [
+          "7431"
+        ]
+      },
+      "legacyId": "bulk-match-49427",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Tyson Tomko vs. Rosey",
+      "result": "Tyson Tomko defeated Rosey.",
+      "matchType": "Singles match",
+      "duration": 60,
+      "participants": [
+        {
+          "person": "tyson-tomko",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rosey",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tyson Tomko",
+        "Rosey"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49428",
+          "157012"
+        ],
+        "sourceEventIds": [
+          "7431"
+        ]
+      },
+      "legacyId": "bulk-match-49428",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Carlito, Chris Masters vs. Ric Flair, Shawn Michaels",
+      "result": "Carlito, Chris Masters defeated Ric Flair, Shawn Michaels.",
+      "matchType": "4-person match",
+      "duration": 1217,
+      "participants": [
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-masters",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ric-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Carlito",
+        "Chris Masters",
+        "Ric Flair",
+        "Shawn Michaels"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49429",
+          "157013"
+        ],
+        "sourceEventIds": [
+          "7431"
+        ]
+      },
+      "legacyId": "bulk-match-49429",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7431"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7431"
+    ]
+  }
+}

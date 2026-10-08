@@ -1,0 +1,139 @@
+{
+  "id": "wwe/raw/1993-01-11",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1993-01-11",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "not-indexed",
+    "note": "First Raw broadcast. Televised matches only; the dark match is excluded.",
+    "legacyCardStatus": "Historical card indexed",
+    "legacySegmentStatus": "Promos and appearances not yet indexed"
+  },
+  "sources": [
+    "https://www.thesmackdownhotel.com/events-results/wwe/raw-1993"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Yokozuna beat Koko B. Ware.",
+      "result": "Yokozuna beat Koko B. Ware.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "yokozuna",
+          "role": "competitor"
+        },
+        {
+          "person": "koko-b-ware",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Yokozuna",
+        "Koko B. Ware"
+      ],
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/raw-1993"
+      ],
+      "legacyId": "1993-01-11-raw-match-1",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Rick and Scott Steiner beat the Executioners.",
+      "result": "Rick and Scott Steiner beat the Executioners.",
+      "matchType": "Tag team match",
+      "participants": [
+        {
+          "person": "rick-steiner",
+          "role": "competitor"
+        },
+        {
+          "person": "scott-steiner",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Rick Steiner",
+        "Scott Steiner"
+      ],
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/raw-1993"
+      ],
+      "legacyId": "1993-01-11-raw-match-2",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Shawn Michaels retained against Max Moon.",
+      "result": "Shawn Michaels retained against Max Moon.",
+      "matchType": "Intercontinental Championship",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "shawn-michaels",
+          "role": "competitor"
+        },
+        {
+          "person": "max-moon",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Shawn Michaels",
+        "Max Moon"
+      ],
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/raw-1993"
+      ],
+      "legacyId": "1993-01-11-raw-match-3",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "The Undertaker beat Damian Demento.",
+      "result": "The Undertaker beat Damian Demento.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor"
+        },
+        {
+          "person": "damian-demento",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "Damian Demento"
+      ],
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/raw-1993"
+      ],
+      "legacyId": "1993-01-11-raw-match-4",
+      "legacy": {
+        "kind": "match"
+      }
+    }
+  ],
+  "legacyIds": [
+    "1993-01-11-raw"
+  ],
+  "legacy": {
+    "showFamily": "raw"
+  }
+}

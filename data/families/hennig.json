@@ -1,0 +1,74 @@
+{
+  "id": "hennig",
+  "name": "Hennig",
+  "description": "Larry Hennig, Curt Hennig and Joe Hennig, known as Curtis Axel.",
+  "branches": [
+    {
+      "id": "hennig",
+      "name": "The Hennig family"
+    }
+  ],
+  "members": [
+    {
+      "id": "larry-hennig",
+      "name": "Larry “The Axe” Hennig",
+      "branch": "hennig",
+      "aliases": [
+        "Larry Hennig"
+      ],
+      "source": "hennig",
+      "layout": {
+        "x": 16,
+        "y": 24
+      }
+    },
+    {
+      "id": "curt-hennig",
+      "name": "Curt Hennig / Mr. Perfect",
+      "person": "curt-hennig",
+      "branch": "hennig",
+      "aliases": [
+        "Mr. Perfect",
+        "Curt Hennig"
+      ],
+      "source": "hennig",
+      "layout": {
+        "x": 16,
+        "y": 164
+      }
+    },
+    {
+      "id": "curtis-axel",
+      "name": "Curtis Axel / Joe Hennig",
+      "branch": "hennig",
+      "aliases": [
+        "Curtis Axel"
+      ],
+      "source": "hennig",
+      "layout": {
+        "x": 16,
+        "y": 304
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "larry-hennig",
+      "b": "curt-hennig",
+      "type": "parent",
+      "source": "hennig"
+    },
+    {
+      "a": "curt-hennig",
+      "b": "curtis-axel",
+      "type": "parent",
+      "source": "hennig"
+    }
+  ],
+  "sources": {
+    "hennig": {
+      "label": "WWE: Larry Hennig’s three generations",
+      "url": "https://www.wwe.com/article/larry-hennig-passes-away"
+    }
+  }
+}

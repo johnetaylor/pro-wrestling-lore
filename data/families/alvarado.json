@@ -1,0 +1,152 @@
+{
+  "id": "alvarado",
+  "name": "Alvarado · Los Brazos",
+  "description": "Shadito Cruz’s sons and the next generation of the Los Brazos family.",
+  "branches": [
+    {
+      "id": "alvarado",
+      "name": "The Alvarado · Los Brazos family"
+    }
+  ],
+  "members": [
+    {
+      "id": "shadito-cruz",
+      "name": "Shadito Cruz",
+      "branch": "alvarado",
+      "source": "alvarado",
+      "layout": {
+        "x": 196,
+        "y": 24
+      }
+    },
+    {
+      "id": "brazo-de-oro",
+      "name": "Brazo de Oro",
+      "branch": "alvarado",
+      "source": "alvarado",
+      "layout": {
+        "x": 16,
+        "y": 164
+      }
+    },
+    {
+      "id": "el-brazo",
+      "name": "El Brazo",
+      "branch": "alvarado",
+      "source": "alvarado",
+      "layout": {
+        "x": 196,
+        "y": 164
+      }
+    },
+    {
+      "id": "brazo-de-plata",
+      "name": "Brazo de Plata / Super Porky",
+      "branch": "alvarado",
+      "aliases": [
+        "Super Porky",
+        "Brazo de Plata"
+      ],
+      "source": "alvarado",
+      "layout": {
+        "x": 376,
+        "y": 164
+      }
+    },
+    {
+      "id": "la-mascara",
+      "name": "La Máscara",
+      "branch": "alvarado",
+      "source": "alvarado",
+      "layout": {
+        "x": 16,
+        "y": 304
+      }
+    },
+    {
+      "id": "psycho-clown",
+      "name": "Psycho Clown",
+      "person": "psycho-clown",
+      "branch": "alvarado",
+      "source": "alvarado",
+      "layout": {
+        "x": 196,
+        "y": 304
+      }
+    },
+    {
+      "id": "maximo",
+      "name": "Máximo",
+      "branch": "alvarado",
+      "source": "alvarado",
+      "layout": {
+        "x": 376,
+        "y": 304
+      }
+    },
+    {
+      "id": "goya-kong",
+      "name": "Goya Kong",
+      "branch": "alvarado",
+      "source": "alvarado",
+      "layout": {
+        "x": 556,
+        "y": 304
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "shadito-cruz",
+      "b": "brazo-de-oro",
+      "type": "parent",
+      "source": "alvarado"
+    },
+    {
+      "a": "shadito-cruz",
+      "b": "el-brazo",
+      "type": "parent",
+      "source": "alvarado"
+    },
+    {
+      "a": "shadito-cruz",
+      "b": "brazo-de-plata",
+      "type": "parent",
+      "source": "alvarado"
+    },
+    {
+      "a": "brazo-de-plata",
+      "b": "psycho-clown",
+      "type": "parent",
+      "source": "alvarado"
+    },
+    {
+      "a": "brazo-de-plata",
+      "b": "maximo",
+      "type": "parent",
+      "source": "alvarado"
+    },
+    {
+      "a": "brazo-de-plata",
+      "b": "goya-kong",
+      "type": "parent",
+      "source": "alvarado"
+    },
+    {
+      "a": "brazo-de-oro",
+      "b": "la-mascara",
+      "type": "parent",
+      "source": "alvarado-oro"
+    }
+  ],
+  "sources": {
+    "alvarado": {
+      "label": "Luchawiki: Brazo de Plata and the Alvarado family",
+      "url": "https://www.luchawiki.org/index.php?title=Brazo_de_Plata"
+    },
+    "alvarado-oro": {
+      "label": "Alvarado family branches",
+      "url": "https://en.wikipedia.org/wiki/Alvarado_wrestling_family"
+    }
+  }
+}

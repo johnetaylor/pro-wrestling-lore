@@ -1,0 +1,171 @@
+{
+  "id": "wwe/smackdown/2010-02-19",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2010-02-19",
+  "dateBasis": "aired",
+  "recordedDate": "2010-02-16",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2010/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Kane vs. Dolph Ziggler",
+      "result": "Kane defeated Dolph Ziggler.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55338",
+          "149530"
+        ],
+        "sourceEventIds": [
+          "8544"
+        ]
+      },
+      "legacyId": "bulk-match-55338",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "CM Punk, Luke Gallows vs. John Morrison, R-Truth",
+      "result": "CM Punk, Luke Gallows defeated John Morrison, R-Truth.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "cm-punk",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "luke-gallows",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "CM Punk",
+        "Luke Gallows",
+        "John Morrison",
+        "R-Truth"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55340",
+          "149532"
+        ],
+        "sourceEventIds": [
+          "8544"
+        ]
+      },
+      "legacyId": "bulk-match-55340",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Batista, Edge — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Batista",
+        "Edge"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55342",
+          "149534"
+        ],
+        "sourceEventIds": [
+          "8544"
+        ]
+      },
+      "legacyId": "bulk-match-55342",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8544"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8544"
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "id": "wwe/smackdown/2012-02-03",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2012-02-03",
+  "dateBasis": "aired",
+  "recordedDate": "2012-01-31",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2012/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Sheamus vs. Cody Rhodes",
+      "result": "Sheamus defeated Cody Rhodes.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Cody Rhodes"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2012/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "58384",
+          "144637"
+        ],
+        "sourceEventIds": [
+          "9180"
+        ]
+      },
+      "legacyId": "bulk-match-58384",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Beth Phoenix, Natalya vs. Aksana, Tamina",
+      "result": "Beth Phoenix, Natalya defeated Aksana, Tamina.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "beth-phoenix",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aksana",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tamina",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Beth Phoenix",
+        "Natalya",
+        "Aksana",
+        "Tamina"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2012/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "58387",
+          "144640"
+        ],
+        "sourceEventIds": [
+          "9180"
+        ]
+      },
+      "legacyId": "bulk-match-58387",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Randy Orton vs. Wade Barrett",
+      "result": "Randy Orton defeated Wade Barrett.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "wade-barrett",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Wade Barrett"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2012/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "58388",
+          "144641"
+        ],
+        "sourceEventIds": [
+          "9180"
+        ]
+      },
+      "legacyId": "bulk-match-58388",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-9180"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "9180"
+    ]
+  }
+}

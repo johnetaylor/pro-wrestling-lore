@@ -1,0 +1,230 @@
+{
+  "id": "wwe/raw/2005-07-18",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2005-07-18",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/",
+    "https://thehistoryofwwe.com/wwe-raw-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Shelton Benjamin vs. Carlito",
+      "result": "Shelton Benjamin defeated Carlito by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Shelton Benjamin",
+        "Carlito"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49270",
+          "157213"
+        ],
+        "sourceEventIds": [
+          "7400"
+        ]
+      },
+      "legacyId": "bulk-match-49270",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Kurt Angle vs. Matt Striker",
+      "result": "Kurt Angle defeated Matt Striker.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-striker",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Matt Striker"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49271",
+          "157214"
+        ],
+        "sourceEventIds": [
+          "7400"
+        ]
+      },
+      "legacyId": "bulk-match-49271",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Edge vs. Kane",
+      "result": "Edge defeated Kane.",
+      "matchType": "Cage match",
+      "duration": 629,
+      "participants": [
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Edge",
+        "Kane"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49273",
+          "157216"
+        ],
+        "sourceEventIds": [
+          "7400"
+        ]
+      },
+      "legacyId": "bulk-match-49273",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "John Cena vs. Gene Snitsky",
+      "result": "John Cena defeated Gene Snitsky.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "gene-snitsky",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Gene Snitsky"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49274",
+          "157217"
+        ],
+        "sourceEventIds": [
+          "7400"
+        ]
+      },
+      "legacyId": "bulk-match-49274",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "s1",
+      "type": "promo",
+      "title": "Hulk Hogan · promo / interview",
+      "result": "Called out Michaels and accepted his SummerSlam challenge",
+      "context": "Also in the segment: Shawn Michaels, Nick Bollea. Venue: Wachovia Center, Philadelphia, PA.",
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor"
+        },
+        {
+          "person": "shawn-michaels",
+          "role": "involved"
+        }
+      ],
+      "promotionLabel": "WWE",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-raw-2005/"
+      ],
+      "legacyId": "hogan-workbook-ha-0294",
+      "legacy": {
+        "show": "Monday Night Raw",
+        "kind": "story"
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7400"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7400"
+    ]
+  }
+}

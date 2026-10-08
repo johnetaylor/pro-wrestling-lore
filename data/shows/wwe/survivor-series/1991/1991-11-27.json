@@ -1,0 +1,169 @@
+{
+  "id": "wwe/survivor-series/1991-11-27",
+  "promotion": "wwe",
+  "series": "wwe/survivor-series",
+  "name": "Survivor Series '91",
+  "date": "1991-11-27",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1991/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Ric Flair, Ted DiBiase, The Mountie, The Warlord vs. Bret Hart, Roddy Piper, The British Bulldog, Virgil",
+      "result": "Ric Flair, Ted DiBiase, The Mountie, The Warlord defeated Bret Hart, Roddy Piper, The British Bulldog, Virgil by disqualification.",
+      "matchType": "Other match",
+      "duration": 1368,
+      "participants": [
+        {
+          "person": "ric-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ted-dibiase",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-mountie",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-warlord",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bret-hart",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "roddy-piper",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "the-british-bulldog",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "virgil",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Ric Flair",
+        "Ted DiBiase",
+        "The Mountie",
+        "The Warlord",
+        "Bret Hart",
+        "Roddy Piper",
+        "The British Bulldog",
+        "Virgil"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1991/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "17480",
+          "189565"
+        ],
+        "sourceEventIds": [
+          "2776"
+        ]
+      },
+      "legacyId": "bulk-match-17480",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "The Undertaker vs. Hulk Hogan",
+      "result": "The Undertaker defeated Hulk Hogan.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "Hulk Hogan"
+      ],
+      "showCategory": "PLE / special",
+      "promotionLabel": "WWF",
+      "dateBasis": "broadcast",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-07",
+        "source": "https://thehistoryofwwe.com/wwf-results-1991/",
+        "scope": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date."
+      },
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1991/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "17482",
+          "189567"
+        ],
+        "sourceEventIds": [
+          "2776"
+        ]
+      },
+      "legacyId": "bulk-match-17482",
+      "legacy": {
+        "kind": "title",
+        "hoganReview": {
+          "id": "bulk-match-17482",
+          "source": "https://thehistoryofwwe.com/wwf-results-1991/",
+          "date": "1991-11-27",
+          "reviewed": "2026-10-07",
+          "note": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date.",
+          "omitUnreviewedDuration": true
+        },
+        "workbookReference": "HM-0128",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-2776"
+  ],
+  "legacy": {
+    "showFamily": "survivor-series",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "2776"
+    ]
+  }
+}

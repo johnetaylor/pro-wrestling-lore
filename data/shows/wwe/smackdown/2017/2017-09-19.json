@@ -1,0 +1,173 @@
+{
+  "id": "wwe/smackdown/2017-09-19",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-09-19",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-09-19"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Randy Orton vs. Aiden English",
+      "result": "Randy Orton defeated Aiden English.",
+      "matchType": "Singles match",
+      "duration": 432,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aiden-english",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Aiden English"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-09-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78624",
+          "120846"
+        ],
+        "sourceEventIds": [
+          "12188"
+        ]
+      },
+      "legacyId": "bulk-match-78624",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Rusev vs. Randy Orton",
+      "result": "Rusev defeated Randy Orton.",
+      "matchType": "Singles match",
+      "duration": 10,
+      "participants": [
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rusev",
+        "Randy Orton"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-09-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78625",
+          "120847"
+        ],
+        "sourceEventIds": [
+          "12188"
+        ]
+      },
+      "legacyId": "bulk-match-78625",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Charlotte Flair vs. Becky Lynch, Naomi, Tamina",
+      "result": "Charlotte Flair defeated Becky Lynch, Naomi, Tamina.",
+      "matchType": "Other match",
+      "duration": 607,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tamina",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Becky Lynch",
+        "Naomi",
+        "Tamina"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-09-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78627",
+          "120849"
+        ],
+        "sourceEventIds": [
+          "12188"
+        ]
+      },
+      "legacyId": "bulk-match-78627",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12188"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12188"
+    ]
+  }
+}

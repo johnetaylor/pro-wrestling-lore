@@ -1,0 +1,173 @@
+{
+  "id": "wwe/raw/2008-02-25",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2008-02-25",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Cody Rhodes, Hardcore Holly vs. Carlito, Santino Marella",
+      "result": "Cody Rhodes, Hardcore Holly defeated Carlito, Santino Marella.",
+      "matchType": "4-person match",
+      "duration": 229,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "santino-marella",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Hardcore Holly",
+        "Carlito",
+        "Santino Marella"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52846",
+          "152881"
+        ],
+        "sourceEventIds": [
+          "8048"
+        ]
+      },
+      "legacyId": "bulk-match-52846",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Chris Jericho vs. Jeff Hardy",
+      "result": "Chris Jericho defeated Jeff Hardy.",
+      "matchType": "Singles match",
+      "duration": 752,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Jeff Hardy"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52847",
+          "152882"
+        ],
+        "sourceEventIds": [
+          "8048"
+        ]
+      },
+      "legacyId": "bulk-match-52847",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Shawn Michaels vs. Lance Cade",
+      "result": "Shawn Michaels defeated Lance Cade by disqualification.",
+      "matchType": "Singles match",
+      "duration": 213,
+      "participants": [
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "lance-cade",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Shawn Michaels",
+        "Lance Cade"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52849",
+          "152884"
+        ],
+        "sourceEventIds": [
+          "8048"
+        ]
+      },
+      "legacyId": "bulk-match-52849",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8048"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8048"
+    ]
+  }
+}

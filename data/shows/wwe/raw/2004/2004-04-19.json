@@ -1,0 +1,218 @@
+{
+  "id": "wwe/raw/2004-04-19",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2004-04-19",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Christian vs. Chris Jericho",
+      "result": "Christian defeated Chris Jericho.",
+      "matchType": "Singles match",
+      "duration": 914,
+      "participants": [
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Christian",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47746",
+          "159251"
+        ],
+        "sourceEventIds": [
+          "7084"
+        ]
+      },
+      "legacyId": "bulk-match-47746",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Victoria vs. Molly Holly",
+      "result": "Victoria defeated Molly Holly by disqualification.",
+      "matchType": "Singles match",
+      "duration": 138,
+      "participants": [
+        {
+          "person": "victoria",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "molly-holly",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Victoria",
+        "Molly Holly"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47747",
+          "159252"
+        ],
+        "sourceEventIds": [
+          "7084"
+        ]
+      },
+      "legacyId": "bulk-match-47747",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Garrison Cade vs. Tajiri",
+      "result": "Garrison Cade defeated Tajiri.",
+      "matchType": "Singles match",
+      "duration": 258,
+      "participants": [
+        {
+          "person": "garrison-cade",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tajiri",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Garrison Cade",
+        "Tajiri"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47748",
+          "159253"
+        ],
+        "sourceEventIds": [
+          "7084"
+        ]
+      },
+      "legacyId": "bulk-match-47748",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Chris Benoit, Edge vs. Batista, Ric Flair",
+      "result": "Chris Benoit, Edge defeated Batista, Ric Flair.",
+      "matchType": "4-person match",
+      "duration": 1042,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "ric-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Edge",
+        "Batista",
+        "Ric Flair"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47749",
+          "159254"
+        ],
+        "sourceEventIds": [
+          "7084"
+        ]
+      },
+      "legacyId": "bulk-match-47749",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7084"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7084"
+    ]
+  }
+}

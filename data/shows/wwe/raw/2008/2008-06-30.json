@@ -1,0 +1,206 @@
+{
+  "id": "wwe/raw/2008-06-30",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2008-06-30",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "CM Punk vs. Edge",
+      "result": "CM Punk defeated Edge.",
+      "matchType": "Singles match",
+      "duration": 12,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "cm-punk",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "CM Punk",
+        "Edge"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53377",
+          "152200"
+        ],
+        "sourceEventIds": [
+          "8134"
+        ]
+      },
+      "legacyId": "bulk-match-53377",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Mickie James vs. Jillian Hall",
+      "result": "Mickie James defeated Jillian Hall.",
+      "matchType": "Singles match",
+      "duration": 134,
+      "participants": [
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jillian-hall",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mickie James",
+        "Jillian Hall"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53378",
+          "152201"
+        ],
+        "sourceEventIds": [
+          "8134"
+        ]
+      },
+      "legacyId": "bulk-match-53378",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Kofi Kingston vs. Chris Jericho",
+      "result": "Kofi Kingston defeated Chris Jericho by disqualification.",
+      "matchType": "Singles match",
+      "duration": 300,
+      "participants": [
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Kofi Kingston",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53380",
+          "152203"
+        ],
+        "sourceEventIds": [
+          "8134"
+        ]
+      },
+      "legacyId": "bulk-match-53380",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "CM Punk vs. John Bradshaw Layfield",
+      "result": "CM Punk defeated John Bradshaw Layfield.",
+      "matchType": "Singles match",
+      "duration": 334,
+      "participants": [
+        {
+          "person": "cm-punk",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "CM Punk",
+        "John Bradshaw Layfield"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53381",
+          "152204"
+        ],
+        "sourceEventIds": [
+          "8134"
+        ]
+      },
+      "legacyId": "bulk-match-53381",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8134"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8134"
+    ]
+  }
+}

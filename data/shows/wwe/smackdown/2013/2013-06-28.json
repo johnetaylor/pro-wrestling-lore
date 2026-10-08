@@ -1,0 +1,159 @@
+{
+  "id": "wwe/smackdown/2013-06-28",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2013-06-28",
+  "dateBasis": "aired",
+  "recordedDate": "2013-06-25",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2013/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Sheamus vs. Damien Sandow",
+      "result": "Sheamus defeated Damien Sandow.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "damien-sandow",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Damien Sandow"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2013/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "62701",
+          "138847"
+        ],
+        "sourceEventIds": [
+          "9903"
+        ]
+      },
+      "legacyId": "bulk-match-62701",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Randy Orton vs. Kane",
+      "result": "Randy Orton defeated Kane.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Kane"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2013/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "62703",
+          "138849"
+        ],
+        "sourceEventIds": [
+          "9903"
+        ]
+      },
+      "legacyId": "bulk-match-62703",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Ryback vs. Justin Gabriel",
+      "result": "Ryback defeated Justin Gabriel.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "ryback",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "justin-gabriel",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ryback",
+        "Justin Gabriel"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2013/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "62704",
+          "138850"
+        ],
+        "sourceEventIds": [
+          "9903"
+        ]
+      },
+      "legacyId": "bulk-match-62704",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-9903"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "9903"
+    ]
+  }
+}

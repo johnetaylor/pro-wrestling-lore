@@ -1,0 +1,218 @@
+{
+  "id": "wwe/battleground/2014-07-20",
+  "promotion": "wwe",
+  "series": "wwe/battleground",
+  "name": "Battleground '14",
+  "date": "2014-07-20",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwebattleground/2014"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "A.J. Lee vs. Paige",
+      "result": "A.J. Lee defeated Paige.",
+      "matchType": "Singles match",
+      "duration": 432,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "aj-lee",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "paige",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Lee",
+        "Paige"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwebattleground/2014"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "66113",
+          "134605"
+        ],
+        "sourceEventIds": [
+          "10385"
+        ]
+      },
+      "legacyId": "bulk-match-66113",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 6,
+      "type": "match",
+      "title": "Seth Rollins vs. Dean Ambrose",
+      "result": "Seth Rollins defeated Dean Ambrose.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Seth Rollins",
+        "Dean Ambrose"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "66115",
+          "134607"
+        ],
+        "sourceEventIds": [
+          "10385"
+        ]
+      },
+      "legacyId": "bulk-match-66115",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 7,
+      "type": "match",
+      "title": "Chris Jericho vs. Bray Wyatt",
+      "result": "Chris Jericho defeated Bray Wyatt.",
+      "matchType": "Singles match",
+      "duration": 902,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bray-wyatt",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Bray Wyatt"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "66116",
+          "134608"
+        ],
+        "sourceEventIds": [
+          "10385"
+        ]
+      },
+      "legacyId": "bulk-match-66116",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 9,
+      "type": "match",
+      "title": "John Cena vs. Kane, Randy Orton, Roman Reigns",
+      "result": "John Cena defeated Kane, Randy Orton, Roman Reigns.",
+      "matchType": "Fatal Four Way match",
+      "duration": 1093,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Kane",
+        "Randy Orton",
+        "Roman Reigns"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "66118",
+          "134610"
+        ],
+        "sourceEventIds": [
+          "10385"
+        ]
+      },
+      "legacyId": "bulk-match-66118",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10385"
+  ],
+  "legacy": {
+    "showFamily": "battleground",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10385"
+    ]
+  }
+}

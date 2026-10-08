@@ -1,0 +1,205 @@
+{
+  "id": "wwe/raw/2004-10-04",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2004-10-04",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Shawn Michaels vs. Christian",
+      "result": "Shawn Michaels defeated Christian.",
+      "matchType": "Singles match",
+      "duration": 801,
+      "participants": [
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shawn Michaels",
+        "Christian"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48289",
+          "158431"
+        ],
+        "sourceEventIds": [
+          "7202"
+        ]
+      },
+      "legacyId": "bulk-match-48289",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Batista vs. Chris Benoit",
+      "result": "Batista defeated Chris Benoit by disqualification.",
+      "matchType": "Singles match",
+      "duration": 294,
+      "participants": [
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Batista",
+        "Chris Benoit"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48290",
+          "158432"
+        ],
+        "sourceEventIds": [
+          "7202"
+        ]
+      },
+      "legacyId": "bulk-match-48290",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Stacy Keibler vs. Molly Holly",
+      "result": "Stacy Keibler defeated Molly Holly.",
+      "matchType": "Singles match",
+      "duration": 171,
+      "participants": [
+        {
+          "person": "stacy-keibler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "molly-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Stacy Keibler",
+        "Molly Holly"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48292",
+          "158434"
+        ],
+        "sourceEventIds": [
+          "7202"
+        ]
+      },
+      "legacyId": "bulk-match-48292",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Triple H vs. Chris Jericho",
+      "result": "Triple H defeated Chris Jericho.",
+      "matchType": "Other match",
+      "duration": 320,
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48293",
+          "158435"
+        ],
+        "sourceEventIds": [
+          "7202"
+        ]
+      },
+      "legacyId": "bulk-match-48293",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7202"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7202"
+    ]
+  }
+}

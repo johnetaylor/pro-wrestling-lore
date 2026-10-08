@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2007-03-06",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2007-03-06",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "King Booker vs. Matt Hardy",
+      "result": "King Booker defeated Matt Hardy.",
+      "matchType": "Singles match",
+      "duration": 811,
+      "participants": [
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "King Booker",
+        "Matt Hardy"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51648",
+          "154371"
+        ],
+        "sourceEventIds": [
+          "7827"
+        ]
+      },
+      "legacyId": "bulk-match-51648",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Batista vs. Kane",
+      "result": "Batista defeated Kane.",
+      "matchType": "Singles match",
+      "duration": 1037,
+      "participants": [
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Batista",
+        "Kane"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51649",
+          "154372"
+        ],
+        "sourceEventIds": [
+          "7827"
+        ]
+      },
+      "legacyId": "bulk-match-51649",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "The Undertaker vs. Finlay",
+      "result": "The Undertaker defeated Finlay.",
+      "matchType": "Singles match",
+      "duration": 1037,
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finlay",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "Finlay"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51651",
+          "154374"
+        ],
+        "sourceEventIds": [
+          "7827"
+        ]
+      },
+      "legacyId": "bulk-match-51651",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7827"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7827"
+    ]
+  }
+}

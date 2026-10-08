@@ -1,0 +1,194 @@
+{
+  "id": "wwe/smackdown/2023-03-10",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2023-03-10",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2023-03-10"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Drew McIntyre, Sheamus vs. Karrion Kross, L.A. Knight, Xavier Woods",
+      "result": "Drew McIntyre, Sheamus defeated Karrion Kross, L.A. Knight, Xavier Woods.",
+      "matchType": "Other match",
+      "duration": 1055,
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "karrion-kross",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "la-knight",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "Sheamus",
+        "Karrion Kross",
+        "L.A. Knight",
+        "Xavier Woods"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-03-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5622",
+          "91209",
+          "103950"
+        ],
+        "sourceEventIds": [
+          "1016"
+        ]
+      },
+      "legacyId": "bulk-match-5622",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Erik, Ivar vs. Braun Strowman, Ricochet",
+      "result": "Erik, Ivar defeated Braun Strowman, Ricochet.",
+      "matchType": "4-person match",
+      "duration": 650,
+      "participants": [
+        {
+          "person": "erik",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ivar",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Erik",
+        "Ivar",
+        "Braun Strowman",
+        "Ricochet"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-03-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5624",
+          "91211",
+          "103952"
+        ],
+        "sourceEventIds": [
+          "1016"
+        ]
+      },
+      "legacyId": "bulk-match-5624",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Charlotte Flair vs. Shotzi",
+      "result": "Charlotte Flair defeated Shotzi.",
+      "matchType": "Singles match",
+      "duration": 485,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shotzi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Shotzi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-03-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5625",
+          "91212",
+          "103953"
+        ],
+        "sourceEventIds": [
+          "1016"
+        ]
+      },
+      "legacyId": "bulk-match-5625",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1016"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1016"
+    ]
+  }
+}

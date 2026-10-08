@@ -1,0 +1,206 @@
+{
+  "id": "wwe/smackdown/2017-06-20",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-06-20",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-06-20"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Big E vs. Jimmy Uso",
+      "result": "Big E defeated Jimmy Uso.",
+      "matchType": "Singles match",
+      "duration": 262,
+      "participants": [
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jimmy-uso",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Big E",
+        "Jimmy Uso"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-06-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77700",
+          "121800"
+        ],
+        "sourceEventIds": [
+          "12040"
+        ]
+      },
+      "legacyId": "bulk-match-77700",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Shinsuke Nakamura vs. Dolph Ziggler",
+      "result": "Shinsuke Nakamura defeated Dolph Ziggler.",
+      "matchType": "Singles match",
+      "duration": 1018,
+      "participants": [
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shinsuke Nakamura",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-06-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77701",
+          "121801"
+        ],
+        "sourceEventIds": [
+          "12040"
+        ]
+      },
+      "legacyId": "bulk-match-77701",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Kevin Owens vs. Chad Gable",
+      "result": "Kevin Owens defeated Chad Gable.",
+      "matchType": "Singles match",
+      "duration": 362,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Chad Gable"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-06-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77702",
+          "121802"
+        ],
+        "sourceEventIds": [
+          "12040"
+        ]
+      },
+      "legacyId": "bulk-match-77702",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Jinder Mahal vs. Luke Harper",
+      "result": "Jinder Mahal defeated Luke Harper.",
+      "matchType": "Singles match",
+      "duration": 579,
+      "participants": [
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "luke-harper",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jinder Mahal",
+        "Luke Harper"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-06-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77703",
+          "121803"
+        ],
+        "sourceEventIds": [
+          "12040"
+        ]
+      },
+      "legacyId": "bulk-match-77703",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12040"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12040"
+    ]
+  }
+}

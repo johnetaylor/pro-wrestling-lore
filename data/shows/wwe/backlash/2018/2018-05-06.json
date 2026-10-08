@@ -1,0 +1,85 @@
+{
+  "id": "wwe/backlash/2018-05-06",
+  "promotion": "wwe",
+  "series": "wwe/backlash",
+  "name": "Backlash '18",
+  "date": "2018-05-06",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/backlash/2018"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 8,
+      "type": "match",
+      "title": "Bobby Lashley, Braun Strowman vs. Kevin Owens, Sami Zayn",
+      "result": "Bobby Lashley, Braun Strowman defeated Kevin Owens, Sami Zayn.",
+      "matchType": "4-person match",
+      "duration": 519,
+      "participants": [
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bobby Lashley",
+        "Braun Strowman",
+        "Kevin Owens",
+        "Sami Zayn"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/backlash/2018"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80431",
+          "119044"
+        ],
+        "sourceEventIds": [
+          "12498"
+        ]
+      },
+      "legacyId": "bulk-match-80431",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12498"
+  ],
+  "legacy": {
+    "showFamily": "backlash",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12498"
+    ]
+  }
+}

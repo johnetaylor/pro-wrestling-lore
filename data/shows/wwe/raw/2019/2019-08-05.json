@@ -1,0 +1,304 @@
+{
+  "id": "wwe/raw/2019-08-05",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2019-08-05",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2019-08-05"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Mike Kanellis vs. Maria Kanellis",
+      "result": "Mike Kanellis defeated Maria Kanellis.",
+      "matchType": "Other match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "mike-kanellis",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "maria-kanellis",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mike Kanellis",
+        "Maria Kanellis"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-08-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83755",
+          "115638"
+        ],
+        "sourceEventIds": [
+          "13078",
+          "13079"
+        ]
+      },
+      "legacyId": "bulk-match-83755",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 1,
+      "type": "match",
+      "title": "Becky Lynch, Charlotte Flair vs. Natalya, Trish Stratus",
+      "result": "Becky Lynch, Charlotte Flair defeated Natalya, Trish Stratus by disqualification.",
+      "matchType": "4-person match",
+      "duration": 429,
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "trish-stratus",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Charlotte Flair",
+        "Natalya",
+        "Trish Stratus"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-08-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83757",
+          "115640"
+        ],
+        "sourceEventIds": [
+          "13078",
+          "13079"
+        ]
+      },
+      "legacyId": "bulk-match-83757",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 2,
+      "type": "match",
+      "title": "R-Truth vs. Mike Kanellis",
+      "result": "R-Truth defeated Mike Kanellis.",
+      "matchType": "Other match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mike-kanellis",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "R-Truth",
+        "Mike Kanellis"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-08-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83756",
+          "115639"
+        ],
+        "sourceEventIds": [
+          "13078",
+          "13079"
+        ]
+      },
+      "legacyId": "bulk-match-83756",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 2,
+      "type": "match",
+      "title": "Rey Mysterio vs. Andrade",
+      "result": "Rey Mysterio defeated Andrade.",
+      "matchType": "Singles match",
+      "duration": 746,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Andrade"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-08-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83758",
+          "115641"
+        ],
+        "sourceEventIds": [
+          "13078",
+          "13079"
+        ]
+      },
+      "legacyId": "bulk-match-83758",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 6,
+      "type": "match",
+      "title": "Alexa Bliss, Nikki Cross vs. Asuka, Billie Kay, Kairi Sane, Mandy Rose, Peyton Royce, Sonya Deville",
+      "result": "Alexa Bliss, Nikki Cross defeated Asuka, Billie Kay, Kairi Sane, Mandy Rose, Peyton Royce, Sonya Deville.",
+      "matchType": "Tag Team match",
+      "duration": 1243,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nikki-cross",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "asuka",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "billie-kay",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kairi-sane",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "mandy-rose",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "peyton-royce",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sonya-deville",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alexa Bliss",
+        "Nikki Cross",
+        "Asuka",
+        "Billie Kay",
+        "Kairi Sane",
+        "Mandy Rose",
+        "Peyton Royce",
+        "Sonya Deville"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-08-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83762",
+          "115645"
+        ],
+        "sourceEventIds": [
+          "13078",
+          "13079"
+        ]
+      },
+      "legacyId": "bulk-match-83762",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13078"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13078",
+      "13079"
+    ]
+  }
+}

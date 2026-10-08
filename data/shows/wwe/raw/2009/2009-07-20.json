@@ -1,0 +1,217 @@
+{
+  "id": "wwe/raw/2009-07-20",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2009-07-20",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2009/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Jerry Lawler vs. The Brian Kendrick",
+      "result": "Jerry Lawler defeated The Brian Kendrick.",
+      "matchType": "Singles match",
+      "duration": 140,
+      "participants": [
+        {
+          "person": "jerry-lawler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "brian-kendrick",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jerry Lawler",
+        "The Brian Kendrick"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54579",
+          "150587"
+        ],
+        "sourceEventIds": [
+          "8366"
+        ]
+      },
+      "legacyId": "bulk-match-54579",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Mark Henry vs. Chris Jericho",
+      "result": "Mark Henry defeated Chris Jericho by disqualification.",
+      "matchType": "Singles match",
+      "duration": 308,
+      "participants": [
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Mark Henry",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54580",
+          "150588"
+        ],
+        "sourceEventIds": [
+          "8366"
+        ]
+      },
+      "legacyId": "bulk-match-54580",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Hornswoggle vs. Chavo Guerrero",
+      "result": "Hornswoggle defeated Chavo Guerrero.",
+      "matchType": "Other match",
+      "duration": 152,
+      "participants": [
+        {
+          "person": "hornswoggle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chavo-guerrero",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hornswoggle",
+        "Chavo Guerrero"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54581",
+          "150589"
+        ],
+        "sourceEventIds": [
+          "8366"
+        ]
+      },
+      "legacyId": "bulk-match-54581",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Alicia Fox, Rosa Mendes vs. Gail Kim, Kelly Kelly",
+      "result": "Alicia Fox, Rosa Mendes defeated Gail Kim, Kelly Kelly.",
+      "matchType": "4-person match",
+      "duration": 223,
+      "participants": [
+        {
+          "person": "alicia-fox",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rosa-mendes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "gail-kim",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kelly-kelly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alicia Fox",
+        "Rosa Mendes",
+        "Gail Kim",
+        "Kelly Kelly"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54582",
+          "150590"
+        ],
+        "sourceEventIds": [
+          "8366"
+        ]
+      },
+      "legacyId": "bulk-match-54582",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8366"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8366"
+    ]
+  }
+}

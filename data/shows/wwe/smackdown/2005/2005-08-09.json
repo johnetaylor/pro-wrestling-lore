@@ -1,0 +1,205 @@
+{
+  "id": "wwe/smackdown/2005-08-09",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2005-08-09",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Booker T. vs. Joey Mercury",
+      "result": "Booker T. defeated Joey Mercury.",
+      "matchType": "Singles match",
+      "duration": 273,
+      "participants": [
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "joey-mercury",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Booker T.",
+        "Joey Mercury"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49357",
+          "157107"
+        ],
+        "sourceEventIds": [
+          "7418"
+        ]
+      },
+      "legacyId": "bulk-match-49357",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Randy Orton, Kamala — no contest.",
+      "matchType": "Singles match",
+      "duration": 190,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "kamala",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Kamala"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49359",
+          "157109"
+        ],
+        "sourceEventIds": [
+          "7418"
+        ]
+      },
+      "legacyId": "bulk-match-49359",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Chris Benoit vs. Simon Dean",
+      "result": "Chris Benoit defeated Simon Dean.",
+      "matchType": "Singles match",
+      "duration": 145,
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "simon-dean",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Simon Dean"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49361",
+          "157111"
+        ],
+        "sourceEventIds": [
+          "7418"
+        ]
+      },
+      "legacyId": "bulk-match-49361",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Batista vs. Christian",
+      "result": "Batista defeated Christian by disqualification.",
+      "matchType": "Singles match",
+      "duration": 314,
+      "participants": [
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Batista",
+        "Christian"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49362",
+          "157112"
+        ],
+        "sourceEventIds": [
+          "7418"
+        ]
+      },
+      "legacyId": "bulk-match-49362",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7418"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7418"
+    ]
+  }
+}

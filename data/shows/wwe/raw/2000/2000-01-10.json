@@ -1,0 +1,161 @@
+{
+  "id": "wwe/raw/2000-01-10",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2000-01-10",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Road Dogg vs. Billy Gunn",
+      "result": "Road Dogg defeated Billy Gunn.",
+      "matchType": "Singles match",
+      "duration": 265,
+      "participants": [
+        {
+          "person": "road-dogg",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Road Dogg",
+        "Billy Gunn"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "37539",
+          "169464"
+        ],
+        "sourceEventIds": [
+          "5553"
+        ]
+      },
+      "legacyId": "bulk-match-37539",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Val Venis vs. Edge",
+      "result": "Val Venis defeated Edge.",
+      "matchType": "Singles match",
+      "duration": 214,
+      "participants": [
+        {
+          "person": "val-venis",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Val Venis",
+        "Edge"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "37541",
+          "169466"
+        ],
+        "sourceEventIds": [
+          "5553"
+        ]
+      },
+      "legacyId": "bulk-match-37541",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Triple H vs. X-Pac",
+      "result": "Triple H defeated X-Pac.",
+      "matchType": "Singles match",
+      "duration": 191,
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "x-pac",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "X-Pac"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "37543",
+          "169468"
+        ],
+        "sourceEventIds": [
+          "5553"
+        ]
+      },
+      "legacyId": "bulk-match-37543",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5553"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5553"
+    ]
+  }
+}

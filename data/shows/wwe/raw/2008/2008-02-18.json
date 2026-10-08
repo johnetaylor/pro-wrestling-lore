@@ -1,0 +1,160 @@
+{
+  "id": "wwe/raw/2008-02-18",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2008-02-18",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Jeff Hardy vs. Snitsky",
+      "result": "Jeff Hardy defeated Snitsky.",
+      "matchType": "Singles match",
+      "duration": 628,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "snitsky",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Snitsky"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52824",
+          "152900"
+        ],
+        "sourceEventIds": [
+          "8044"
+        ]
+      },
+      "legacyId": "bulk-match-52824",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Cage match",
+      "result": "Hornswoggle, Mr. McMahon — no contest.",
+      "matchType": "Cage match",
+      "participants": [
+        {
+          "person": "hornswoggle",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "vince-mcmahon",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Hornswoggle",
+        "Mr. McMahon"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52827",
+          "152903"
+        ],
+        "sourceEventIds": [
+          "8044"
+        ]
+      },
+      "legacyId": "bulk-match-52827",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "John Cena vs. Randy Orton",
+      "result": "John Cena defeated Randy Orton.",
+      "matchType": "Other match",
+      "duration": 845,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Randy Orton"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52829",
+          "152905"
+        ],
+        "sourceEventIds": [
+          "8044"
+        ]
+      },
+      "legacyId": "bulk-match-52829",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8044"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8044"
+    ]
+  }
+}

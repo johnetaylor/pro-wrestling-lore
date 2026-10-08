@@ -1,0 +1,116 @@
+{
+  "id": "wwe/nxt/2016-01-27",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2016-01-27",
+  "dateBasis": "aired",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwenxt/2016-01-27"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Samoa Joe vs. Sami Zayn",
+      "result": "Samoa Joe defeated Sami Zayn.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "samoa-joe",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Samoa Joe",
+        "Sami Zayn"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2016-01-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "128130"
+        ],
+        "sourceEventIds": [
+          "19032",
+          "19035"
+        ]
+      },
+      "legacyId": "bulk-match-128130",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 6,
+      "type": "match",
+      "title": "Samoa Joe vs. Bull Dempsey",
+      "result": "Samoa Joe defeated Bull Dempsey.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "samoa-joe",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bull-dempsey",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Samoa Joe",
+        "Bull Dempsey"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2016-01-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "128119"
+        ],
+        "sourceEventIds": [
+          "19032",
+          "19035"
+        ]
+      },
+      "legacyId": "bulk-match-128119",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-19035"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "19032",
+      "19035"
+    ]
+  }
+}

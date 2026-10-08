@@ -1,0 +1,117 @@
+{
+  "id": "wwe/smackdown/2022-01-07",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2022-01-07",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2022-01-07"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Rick Boogs vs. Sami Zayn",
+      "result": "Rick Boogs defeated Sami Zayn.",
+      "matchType": "Singles match",
+      "duration": 393,
+      "participants": [
+        {
+          "person": "rick-boogs",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rick Boogs",
+        "Sami Zayn"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-01-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88329",
+          "108593"
+        ],
+        "sourceEventIds": [
+          "13897"
+        ]
+      },
+      "legacyId": "bulk-match-88329",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Charlotte Flair vs. Naomi",
+      "result": "Charlotte Flair defeated Naomi.",
+      "matchType": "Singles match",
+      "duration": 790,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-01-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88330",
+          "108594"
+        ],
+        "sourceEventIds": [
+          "13897"
+        ]
+      },
+      "legacyId": "bulk-match-88330",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13897"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13897"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "wwe/nxt/2017-10-04",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2017-10-04",
+  "dateBasis": "aired",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwenxt/2017-10-04"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Roderick Strong vs. Adam Cole",
+      "result": "Roderick Strong defeated Adam Cole by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "roderick-strong",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "adam-cole",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Roderick Strong",
+        "Adam Cole"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2017-10-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "120719"
+        ],
+        "sourceEventIds": [
+          "17914"
+        ]
+      },
+      "legacyId": "bulk-match-120719",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-17914"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "17914"
+    ]
+  }
+}

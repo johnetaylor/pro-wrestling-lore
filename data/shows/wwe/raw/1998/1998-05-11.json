@@ -1,0 +1,213 @@
+{
+  "id": "wwe/raw/1998-05-11",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1998-05-11",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1998/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Vader vs. Barry Windham",
+      "result": "Vader defeated Barry Windham.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "vader",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "barry-windham",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Vader",
+        "Barry Windham"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "30283",
+          "176752"
+        ],
+        "sourceEventIds": [
+          "4594"
+        ]
+      },
+      "legacyId": "bulk-match-30283",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Jeff Jarrett vs. Faarooq",
+      "result": "Jeff Jarrett defeated Faarooq by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "jeff-jarrett",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ron-simmons",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Jeff Jarrett",
+        "Faarooq"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "30285",
+          "176754"
+        ],
+        "sourceEventIds": [
+          "4594"
+        ]
+      },
+      "legacyId": "bulk-match-30285",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Triple H, Owen Hart — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "owen-hart",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "Owen Hart"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "30287",
+          "176756"
+        ],
+        "sourceEventIds": [
+          "4594"
+        ]
+      },
+      "legacyId": "bulk-match-30287",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "4-person match",
+      "result": "Mr. McMahon, Steve Austin, D-Lo Brown, Rocky Maivia — no contest.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "vince-mcmahon",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "d-lo-brown",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Mr. McMahon",
+        "Steve Austin",
+        "D-Lo Brown",
+        "Rocky Maivia"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "30289",
+          "176758"
+        ],
+        "sourceEventIds": [
+          "4594"
+        ]
+      },
+      "legacyId": "bulk-match-30289",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4594"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4594"
+    ]
+  }
+}

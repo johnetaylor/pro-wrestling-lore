@@ -1,0 +1,215 @@
+{
+  "id": "wwe/smackdown/2009-10-09",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2009-10-09",
+  "dateBasis": "aired",
+  "recordedDate": "2009-10-06",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2009/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rey Mysterio vs. Chris Jericho",
+      "result": "Rey Mysterio defeated Chris Jericho.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Chris Jericho"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54874",
+          "150157"
+        ],
+        "sourceEventIds": [
+          "8434"
+        ]
+      },
+      "legacyId": "bulk-match-54874",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "John Morrison vs. Dolph Ziggler",
+      "result": "John Morrison defeated Dolph Ziggler.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Morrison",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54876",
+          "150159"
+        ],
+        "sourceEventIds": [
+          "8434"
+        ]
+      },
+      "legacyId": "bulk-match-54876",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Drew McIntyre, Kane vs. Matt Hardy, R-Truth",
+      "result": "Drew McIntyre, Kane defeated Matt Hardy, R-Truth.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "Kane",
+        "Matt Hardy",
+        "R-Truth"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54877",
+          "150160"
+        ],
+        "sourceEventIds": [
+          "8434"
+        ]
+      },
+      "legacyId": "bulk-match-54877",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "CM Punk vs. Batista",
+      "result": "CM Punk defeated Batista by count-out.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "cm-punk",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "CM Punk",
+        "Batista"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54878",
+          "150161"
+        ],
+        "sourceEventIds": [
+          "8434"
+        ]
+      },
+      "legacyId": "bulk-match-54878",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8434"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8434"
+    ]
+  }
+}

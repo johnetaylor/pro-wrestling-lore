@@ -1,0 +1,115 @@
+{
+  "id": "wwe/money-in-the-bank/2023-11-05",
+  "promotion": "wwe",
+  "series": "wwe/money-in-the-bank",
+  "name": "Money in the Bank",
+  "date": "2023-11-05",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/moneyinthebank/2023"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 135,
+      "type": "match",
+      "title": "WALTER vs. Pete Dunne",
+      "result": "WALTER defeated Pete Dunne.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "gunther",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "pete-dunne",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "WALTER",
+        "Pete Dunne"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/moneyinthebank/2023"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "97775"
+        ],
+        "sourceEventIds": [
+          "15672"
+        ]
+      },
+      "legacyId": "bulk-match-97775",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 405,
+      "type": "match",
+      "title": "Finn Balor vs. Ricochet",
+      "result": "Finn Balor defeated Ricochet.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Finn Balor",
+        "Ricochet"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/moneyinthebank/2023"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "98034"
+        ],
+        "sourceEventIds": [
+          "15672"
+        ]
+      },
+      "legacyId": "bulk-match-98034",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-15672"
+  ],
+  "legacy": {
+    "showFamily": "money-in-the-bank",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "15672"
+    ]
+  }
+}

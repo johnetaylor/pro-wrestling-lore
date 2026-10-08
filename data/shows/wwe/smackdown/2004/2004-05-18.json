@@ -1,0 +1,215 @@
+{
+  "id": "wwe/smackdown/2004-05-18",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2004-05-18",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Charlie Haas, Rico vs. Johnny Stamboli, Nunzio",
+      "result": "Charlie Haas, Rico defeated Johnny Stamboli, Nunzio.",
+      "matchType": "4-person match",
+      "duration": 271,
+      "participants": [
+        {
+          "person": "charlie-haas",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rico",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "johnny-stamboli",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "nunzio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlie Haas",
+        "Rico",
+        "Johnny Stamboli",
+        "Nunzio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47852",
+          "159144"
+        ],
+        "sourceEventIds": [
+          "7106"
+        ]
+      },
+      "legacyId": "bulk-match-47852",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Akio, Billy Kidman — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "akio",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "billy-kidman",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Akio",
+        "Billy Kidman"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47853",
+          "159145"
+        ],
+        "sourceEventIds": [
+          "7106"
+        ]
+      },
+      "legacyId": "bulk-match-47853",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Rene Dupree vs. John Cena",
+      "result": "Rene Dupree defeated John Cena by count-out.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "rene-dupree",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Rene Dupree",
+        "John Cena"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47854",
+          "159146"
+        ],
+        "sourceEventIds": [
+          "7106"
+        ]
+      },
+      "legacyId": "bulk-match-47854",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Booker T. vs. Sho Funaki",
+      "result": "Booker T. defeated Sho Funaki.",
+      "matchType": "Singles match",
+      "duration": 282,
+      "participants": [
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sho-funaki",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Booker T.",
+        "Sho Funaki"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47856",
+          "159148"
+        ],
+        "sourceEventIds": [
+          "7106"
+        ]
+      },
+      "legacyId": "bulk-match-47856",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7106"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7106"
+    ]
+  }
+}

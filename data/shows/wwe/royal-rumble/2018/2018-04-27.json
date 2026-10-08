@@ -1,0 +1,207 @@
+{
+  "id": "wwe/royal-rumble/2018-04-27",
+  "promotion": "wwe",
+  "series": "wwe/royal-rumble",
+  "name": "Greatest Royal Rumble",
+  "date": "2018-04-27",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/greatest-royal-rumble/2018"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "John Cena vs. Triple H",
+      "result": "John Cena defeated Triple H.",
+      "matchType": "Singles match",
+      "duration": 944,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Triple H"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/greatest-royal-rumble/2018"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80363",
+          "119105"
+        ],
+        "sourceEventIds": [
+          "12489"
+        ]
+      },
+      "legacyId": "bulk-match-80363",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 7,
+      "type": "match",
+      "title": "Singles match",
+      "result": "A.J. Styles, Shinsuke Nakamura — double count-out.",
+      "matchType": "Singles match",
+      "duration": 867,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/greatest-royal-rumble/2018"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80369",
+          "119111"
+        ],
+        "sourceEventIds": [
+          "12489"
+        ]
+      },
+      "legacyId": "bulk-match-80369",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 8,
+      "type": "match",
+      "title": "The Undertaker vs. Rusev",
+      "result": "The Undertaker defeated Rusev.",
+      "matchType": "Other match",
+      "duration": 577,
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "Rusev"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/greatest-royal-rumble/2018"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80370",
+          "119112"
+        ],
+        "sourceEventIds": [
+          "12489"
+        ]
+      },
+      "legacyId": "bulk-match-80370",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 9,
+      "type": "match",
+      "title": "Brock Lesnar vs. Roman Reigns",
+      "result": "Brock Lesnar defeated Roman Reigns.",
+      "matchType": "Cage match",
+      "duration": 554,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "brock-lesnar",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Brock Lesnar",
+        "Roman Reigns"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/greatest-royal-rumble/2018"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80371",
+          "119113"
+        ],
+        "sourceEventIds": [
+          "12489"
+        ]
+      },
+      "legacyId": "bulk-match-80371",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12489"
+  ],
+  "legacy": {
+    "showFamily": "royal-rumble",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12489"
+    ]
+  }
+}

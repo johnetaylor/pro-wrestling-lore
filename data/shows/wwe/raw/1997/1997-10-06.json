@@ -1,0 +1,117 @@
+{
+  "id": "wwe/raw/1997-10-06",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1997-10-06",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1997/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "The British Bulldog vs. Rocky Maivia",
+      "result": "The British Bulldog defeated Rocky Maivia.",
+      "matchType": "Singles match",
+      "duration": 225,
+      "participants": [
+        {
+          "person": "the-british-bulldog",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The British Bulldog",
+        "Rocky Maivia"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "28323",
+          "178716"
+        ],
+        "sourceEventIds": [
+          "4355"
+        ]
+      },
+      "legacyId": "bulk-match-28323",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 6,
+      "type": "match",
+      "title": "Hunter Hearst Helmsley vs. Bret Hart",
+      "result": "Hunter Hearst Helmsley defeated Bret Hart by count-out.",
+      "matchType": "Singles match",
+      "duration": 630,
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bret-hart",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Hunter Hearst Helmsley",
+        "Bret Hart"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "28326",
+          "178719"
+        ],
+        "sourceEventIds": [
+          "4355"
+        ]
+      },
+      "legacyId": "bulk-match-28326",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4355"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4355"
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "id": "wwe/smackdown/2012-08-10",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2012-08-10",
+  "dateBasis": "aired",
+  "recordedDate": "2012-08-07",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2012/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Christian vs. Antonio Cesaro",
+      "result": "Christian defeated Antonio Cesaro.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Christian",
+        "Antonio Cesaro"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2012/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "59849",
+          "142610"
+        ],
+        "sourceEventIds": [
+          "9423"
+        ]
+      },
+      "legacyId": "bulk-match-59849",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 7,
+      "type": "match",
+      "title": "Rey Mysterio vs. The Miz",
+      "result": "Rey Mysterio defeated The Miz.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "The Miz"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2012/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "59853",
+          "142614"
+        ],
+        "sourceEventIds": [
+          "9423"
+        ]
+      },
+      "legacyId": "bulk-match-59853",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 8,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Sheamus, Alberto Del Rio — no contest.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "alberto-del-rio",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Alberto Del Rio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2012/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "59854",
+          "142615"
+        ],
+        "sourceEventIds": [
+          "9423"
+        ]
+      },
+      "legacyId": "bulk-match-59854",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-9423"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "9423"
+    ]
+  }
+}

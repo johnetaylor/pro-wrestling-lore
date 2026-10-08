@@ -1,0 +1,205 @@
+{
+  "id": "wwe/raw/2017-06-19",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2017-06-19",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2017-06-19"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Finn Bálor vs. Bo Dallas",
+      "result": "Finn Bálor defeated Bo Dallas.",
+      "matchType": "Singles match",
+      "duration": 213,
+      "participants": [
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "uncle-howdy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Finn Bálor",
+        "Bo Dallas"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-06-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77687",
+          "121821"
+        ],
+        "sourceEventIds": [
+          "12037"
+        ]
+      },
+      "legacyId": "bulk-match-77687",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Akira Tozawa vs. TJP",
+      "result": "Akira Tozawa defeated TJP.",
+      "matchType": "Singles match",
+      "duration": 633,
+      "participants": [
+        {
+          "person": "akira-tozawa",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tjp",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Akira Tozawa",
+        "TJP"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-06-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77688",
+          "121822"
+        ],
+        "sourceEventIds": [
+          "12037"
+        ]
+      },
+      "legacyId": "bulk-match-77688",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Samoa Joe vs. Roman Reigns",
+      "result": "Samoa Joe defeated Roman Reigns.",
+      "matchType": "Singles match",
+      "duration": 1092,
+      "participants": [
+        {
+          "person": "samoa-joe",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Samoa Joe",
+        "Roman Reigns"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-06-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77689",
+          "121823"
+        ],
+        "sourceEventIds": [
+          "12037"
+        ]
+      },
+      "legacyId": "bulk-match-77689",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Nia Jax vs. Sasha Banks",
+      "result": "Nia Jax defeated Sasha Banks by disqualification.",
+      "matchType": "Other match",
+      "duration": 137,
+      "participants": [
+        {
+          "person": "nia-jax",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Nia Jax",
+        "Sasha Banks"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-06-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77691",
+          "121825"
+        ],
+        "sourceEventIds": [
+          "12037"
+        ]
+      },
+      "legacyId": "bulk-match-77691",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12037"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12037"
+    ]
+  }
+}

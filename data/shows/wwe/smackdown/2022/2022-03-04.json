@@ -1,0 +1,206 @@
+{
+  "id": "wwe/smackdown/2022-03-04",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2022-03-04",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2022-03-04"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Ricochet vs. Sami Zayn",
+      "result": "Ricochet defeated Sami Zayn.",
+      "matchType": "Singles match",
+      "duration": 566,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ricochet",
+        "Sami Zayn"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-03-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88617",
+          "108040"
+        ],
+        "sourceEventIds": [
+          "13949"
+        ]
+      },
+      "legacyId": "bulk-match-88617",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Naomi vs. Carmella",
+      "result": "Naomi defeated Carmella.",
+      "matchType": "Singles match",
+      "duration": 127,
+      "participants": [
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Naomi",
+        "Carmella"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-03-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88618",
+          "108041"
+        ],
+        "sourceEventIds": [
+          "13949"
+        ]
+      },
+      "legacyId": "bulk-match-88618",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Drew McIntyre vs. Jinder Mahal",
+      "result": "Drew McIntyre defeated Jinder Mahal.",
+      "matchType": "Singles match",
+      "duration": 124,
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "Jinder Mahal"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-03-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88619",
+          "108042"
+        ],
+        "sourceEventIds": [
+          "13949"
+        ]
+      },
+      "legacyId": "bulk-match-88619",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Ronda Rousey vs. Sonya Deville",
+      "result": "Ronda Rousey defeated Sonya Deville.",
+      "matchType": "Singles match",
+      "duration": 192,
+      "participants": [
+        {
+          "person": "ronda-rousey",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sonya-deville",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ronda Rousey",
+        "Sonya Deville"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-03-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88621",
+          "108044"
+        ],
+        "sourceEventIds": [
+          "13949"
+        ]
+      },
+      "legacyId": "bulk-match-88621",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13949"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13949"
+    ]
+  }
+}

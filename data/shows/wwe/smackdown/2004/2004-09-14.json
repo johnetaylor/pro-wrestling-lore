@@ -1,0 +1,173 @@
+{
+  "id": "wwe/smackdown/2004-09-14",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2004-09-14",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "John Cena vs. Booker T.",
+      "result": "John Cena defeated Booker T..",
+      "matchType": "Singles match",
+      "duration": 720,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Booker T."
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48231",
+          "158513"
+        ],
+        "sourceEventIds": [
+          "7189"
+        ]
+      },
+      "legacyId": "bulk-match-48231",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Kenzo Suzuki, Rene Dupree vs. Johnny Stamboli, Nunzio",
+      "result": "Kenzo Suzuki, Rene Dupree defeated Johnny Stamboli, Nunzio.",
+      "matchType": "4-person match",
+      "duration": 210,
+      "participants": [
+        {
+          "person": "kenzo-suzuki",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rene-dupree",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "johnny-stamboli",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "nunzio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kenzo Suzuki",
+        "Rene Dupree",
+        "Johnny Stamboli",
+        "Nunzio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48233",
+          "158515"
+        ],
+        "sourceEventIds": [
+          "7189"
+        ]
+      },
+      "legacyId": "bulk-match-48233",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Charlie Haas vs. Spike Dudley",
+      "result": "Charlie Haas defeated Spike Dudley by disqualification.",
+      "matchType": "Singles match",
+      "duration": 184,
+      "participants": [
+        {
+          "person": "charlie-haas",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "spike-dudley",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Charlie Haas",
+        "Spike Dudley"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48234",
+          "158516"
+        ],
+        "sourceEventIds": [
+          "7189"
+        ]
+      },
+      "legacyId": "bulk-match-48234",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7189"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7189"
+    ]
+  }
+}

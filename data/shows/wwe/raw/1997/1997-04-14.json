@@ -1,0 +1,162 @@
+{
+  "id": "wwe/raw/1997-04-14",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1997-04-14",
+  "dateBasis": "aired",
+  "recordedDate": "1997-04-09",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1997/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Savio Vega vs. Rocky Maivia",
+      "result": "Savio Vega defeated Rocky Maivia.",
+      "matchType": "Singles match",
+      "duration": 1055,
+      "participants": [
+        {
+          "person": "savio-vega",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Savio Vega",
+        "Rocky Maivia"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "26934",
+          "180106"
+        ],
+        "sourceEventIds": [
+          "4173"
+        ]
+      },
+      "legacyId": "bulk-match-26934",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Goldust vs. The Sultan",
+      "result": "Goldust defeated The Sultan by disqualification.",
+      "matchType": "Singles match",
+      "duration": 780,
+      "participants": [
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Goldust",
+        "The Sultan"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "26935",
+          "180107"
+        ],
+        "sourceEventIds": [
+          "4173"
+        ]
+      },
+      "legacyId": "bulk-match-26935",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Ahmed Johnson vs. Crush",
+      "result": "Ahmed Johnson defeated Crush.",
+      "matchType": "Singles match",
+      "duration": 690,
+      "participants": [
+        {
+          "person": "ahmed-johnson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "crush",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ahmed Johnson",
+        "Crush"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "26936",
+          "180108"
+        ],
+        "sourceEventIds": [
+          "4173"
+        ]
+      },
+      "legacyId": "bulk-match-26936",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4173"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4173"
+    ]
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "id": "wwe/raw/2001-02-05",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2001-02-05",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2001/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Chris Jericho vs. Matt Hardy",
+      "result": "Chris Jericho defeated Matt Hardy.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Matt Hardy"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41714",
+          "165309"
+        ],
+        "sourceEventIds": [
+          "6156"
+        ]
+      },
+      "legacyId": "bulk-match-41714",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Christian, Edge vs. Sho Funaki, TAKA Michinoku",
+      "result": "Christian, Edge defeated Sho Funaki, TAKA Michinoku.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sho-funaki",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "taka-michinoku",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Christian",
+        "Edge",
+        "Sho Funaki",
+        "TAKA Michinoku"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41715",
+          "165310"
+        ],
+        "sourceEventIds": [
+          "6156"
+        ]
+      },
+      "legacyId": "bulk-match-41715",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Chris Benoit vs. Al Snow",
+      "result": "Chris Benoit defeated Al Snow.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "al-snow",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Al Snow"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41718",
+          "165313"
+        ],
+        "sourceEventIds": [
+          "6156"
+        ]
+      },
+      "legacyId": "bulk-match-41718",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Kurt Angle, The Rock vs. Steve Austin, Triple H",
+      "result": "Kurt Angle, The Rock defeated Steve Austin, Triple H.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "The Rock",
+        "Steve Austin",
+        "Triple H"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41719",
+          "165314"
+        ],
+        "sourceEventIds": [
+          "6156"
+        ]
+      },
+      "legacyId": "bulk-match-41719",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6156"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6156"
+    ]
+  }
+}

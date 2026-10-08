@@ -1,0 +1,164 @@
+{
+  "id": "wwe/smackdown/2024-04-19",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2024-04-19",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2024-04-19"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "A.J. Styles vs. L.A. Knight",
+      "result": "A.J. Styles defeated L.A. Knight.",
+      "matchType": "Singles match",
+      "duration": 665,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "la-knight",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "L.A. Knight"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-04-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "1580",
+          "94022",
+          "99908"
+        ],
+        "sourceEventIds": [
+          "315"
+        ]
+      },
+      "legacyId": "bulk-match-1580",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Santos Escobar vs. Carlito",
+      "result": "Santos Escobar defeated Carlito.",
+      "matchType": "Singles match",
+      "duration": 454,
+      "participants": [
+        {
+          "person": "santos-escobar",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Santos Escobar",
+        "Carlito"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-04-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "1582",
+          "94024",
+          "99910"
+        ],
+        "sourceEventIds": [
+          "315"
+        ]
+      },
+      "legacyId": "bulk-match-1582",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Bayley, Naomi — no contest.",
+      "matchType": "Singles match",
+      "duration": 680,
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-04-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "1583",
+          "94025",
+          "99911"
+        ],
+        "sourceEventIds": [
+          "315"
+        ]
+      },
+      "legacyId": "bulk-match-1583",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-315"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "315"
+    ]
+  }
+}

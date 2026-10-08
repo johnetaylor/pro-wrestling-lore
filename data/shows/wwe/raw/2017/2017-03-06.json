@@ -1,0 +1,363 @@
+{
+  "id": "wwe/raw/2017-03-06",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2017-03-06",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2017-03-06"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Kevin Owens vs. Sami Zayn",
+      "result": "Kevin Owens defeated Sami Zayn.",
+      "matchType": "Singles match",
+      "duration": 287,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Sami Zayn"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-03-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76426",
+          "123095"
+        ],
+        "sourceEventIds": [
+          "11845"
+        ]
+      },
+      "legacyId": "bulk-match-76426",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Neville vs. Rich Swann",
+      "result": "Neville defeated Rich Swann.",
+      "matchType": "Other match",
+      "duration": 813,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "neville",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rich-swann",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Neville",
+        "Rich Swann"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-03-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76427",
+          "123096"
+        ],
+        "sourceEventIds": [
+          "11845"
+        ]
+      },
+      "legacyId": "bulk-match-76427",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Karl Anderson, Luke Gallows vs. Big Cass, Enzo Amore",
+      "result": "Karl Anderson, Luke Gallows defeated Big Cass, Enzo Amore by disqualification.",
+      "matchType": "4-person match",
+      "duration": 417,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "karl-anderson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "luke-gallows",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-cass",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "enzo-amore",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Karl Anderson",
+        "Luke Gallows",
+        "Big Cass",
+        "Enzo Amore"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-03-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76428",
+          "123097"
+        ],
+        "sourceEventIds": [
+          "11845"
+        ]
+      },
+      "legacyId": "bulk-match-76428",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Akira Tozawa vs. Ariya Daivari",
+      "result": "Akira Tozawa defeated Ariya Daivari.",
+      "matchType": "Singles match",
+      "duration": 134,
+      "participants": [
+        {
+          "person": "akira-tozawa",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ariya-daivari",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Akira Tozawa",
+        "Ariya Daivari"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-03-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76429",
+          "123098"
+        ],
+        "sourceEventIds": [
+          "11845"
+        ]
+      },
+      "legacyId": "bulk-match-76429",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 5,
+      "type": "match",
+      "title": "Big E, Kofi Kingston vs. Epico, Primo",
+      "result": "Big E, Kofi Kingston defeated Epico, Primo.",
+      "matchType": "4-person match",
+      "duration": 78,
+      "participants": [
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "epico",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "primo",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Big E",
+        "Kofi Kingston",
+        "Epico",
+        "Primo"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-03-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76430",
+          "123099"
+        ],
+        "sourceEventIds": [
+          "11845"
+        ]
+      },
+      "legacyId": "bulk-match-76430",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 6,
+      "type": "match",
+      "title": "Sasha Banks vs. Bayley",
+      "result": "Sasha Banks defeated Bayley.",
+      "matchType": "Other match",
+      "duration": 779,
+      "participants": [
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sasha Banks",
+        "Bayley"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-03-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76431",
+          "123100"
+        ],
+        "sourceEventIds": [
+          "11845"
+        ]
+      },
+      "legacyId": "bulk-match-76431",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m7",
+      "order": 7,
+      "type": "match",
+      "title": "Samoa Joe vs. Chris Jericho",
+      "result": "Samoa Joe defeated Chris Jericho by count-out.",
+      "matchType": "Singles match",
+      "duration": 237,
+      "participants": [
+        {
+          "person": "samoa-joe",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Samoa Joe",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-03-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76432",
+          "123101"
+        ],
+        "sourceEventIds": [
+          "11845"
+        ]
+      },
+      "legacyId": "bulk-match-76432",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11845"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11845"
+    ]
+  }
+}

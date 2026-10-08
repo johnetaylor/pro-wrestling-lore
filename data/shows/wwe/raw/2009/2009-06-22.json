@@ -1,0 +1,186 @@
+{
+  "id": "wwe/raw/2009-06-22",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2009-06-22",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2009/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Jeff Hardy, Rey Mysterio, The Great Khali vs. Chris Jericho, Dolph Ziggler, Edge",
+      "result": "Jeff Hardy, Rey Mysterio, The Great Khali defeated Chris Jericho, Dolph Ziggler, Edge.",
+      "matchType": "Tag Team match",
+      "duration": 308,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-great-khali",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Rey Mysterio",
+        "The Great Khali",
+        "Chris Jericho",
+        "Dolph Ziggler",
+        "Edge"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54495",
+          "150709"
+        ],
+        "sourceEventIds": [
+          "8345"
+        ]
+      },
+      "legacyId": "bulk-match-54495",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Last Man Standing match",
+      "result": "Randy Orton, Triple H — draw.",
+      "matchType": "Last Man Standing match",
+      "duration": 1203,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "draw"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "draw"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Triple H"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54497",
+          "150711"
+        ],
+        "sourceEventIds": [
+          "8345"
+        ]
+      },
+      "legacyId": "bulk-match-54497",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "The Big Show vs. John Cena",
+      "result": "The Big Show defeated John Cena.",
+      "matchType": "Singles match",
+      "duration": 625,
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "John Cena"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54499",
+          "150713"
+        ],
+        "sourceEventIds": [
+          "8345"
+        ]
+      },
+      "legacyId": "bulk-match-54499",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8345"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8345"
+    ]
+  }
+}

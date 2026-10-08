@@ -1,0 +1,227 @@
+{
+  "id": "wwe/raw/2015-03-16",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2015-03-16",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2015/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Ryback vs. The Miz",
+      "result": "Ryback defeated The Miz.",
+      "matchType": "Singles match",
+      "duration": 113,
+      "participants": [
+        {
+          "person": "ryback",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ryback",
+        "The Miz"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "68500",
+          "131834"
+        ],
+        "sourceEventIds": [
+          "10705"
+        ]
+      },
+      "legacyId": "bulk-match-68500",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Erick Rowan, The Big Show — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "erick-rowan",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Erick Rowan",
+        "The Big Show"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "68502",
+          "131836"
+        ],
+        "sourceEventIds": [
+          "10705"
+        ]
+      },
+      "legacyId": "bulk-match-68502",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Daniel Bryan, Dean Ambrose, Dolph Ziggler vs. Bad News Barrett, Luke Harper, Stardust",
+      "result": "Daniel Bryan, Dean Ambrose, Dolph Ziggler defeated Bad News Barrett, Luke Harper, Stardust.",
+      "matchType": "Tag Team match",
+      "duration": 1063,
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "wade-barrett",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "luke-harper",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "Dean Ambrose",
+        "Dolph Ziggler",
+        "Bad News Barrett",
+        "Luke Harper",
+        "Stardust"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "68504",
+          "131838"
+        ],
+        "sourceEventIds": [
+          "10705"
+        ]
+      },
+      "legacyId": "bulk-match-68504",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Seth Rollins, Randy Orton — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Seth Rollins",
+        "Randy Orton"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "68505",
+          "131839"
+        ],
+        "sourceEventIds": [
+          "10705"
+        ]
+      },
+      "legacyId": "bulk-match-68505",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10705"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10705"
+    ]
+  }
+}

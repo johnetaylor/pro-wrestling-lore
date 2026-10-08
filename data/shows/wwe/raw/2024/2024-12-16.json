@@ -1,0 +1,122 @@
+{
+  "id": "wwe/raw/2024-12-16",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2024-12-16",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2024-12-16"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Bron Breakker vs. Ludwig Kaiser",
+      "result": "Bron Breakker defeated Ludwig Kaiser.",
+      "matchType": "Singles match",
+      "duration": 1094,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bron-breakker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ludwig-kaiser",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bron Breakker",
+        "Ludwig Kaiser"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-12-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95414"
+        ],
+        "sourceEventIds": [
+          "15141"
+        ]
+      },
+      "legacyId": "bulk-match-95414",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Zoey Stark vs. Kayden Carter, Raquel Rodriguez",
+      "result": "Zoey Stark defeated Kayden Carter, Raquel Rodriguez.",
+      "matchType": "Triple Threat match",
+      "duration": 566,
+      "participants": [
+        {
+          "person": "zoey-stark",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kayden-carter",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "raquel-rodriguez",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Zoey Stark",
+        "Kayden Carter",
+        "Raquel Rodriguez"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-12-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95415"
+        ],
+        "sourceEventIds": [
+          "15141"
+        ]
+      },
+      "legacyId": "bulk-match-95415",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-15141"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "15141"
+    ]
+  }
+}

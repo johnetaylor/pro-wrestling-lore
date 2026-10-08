@@ -1,0 +1,269 @@
+{
+  "id": "wwe/raw/2001-01-08",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2001-01-08",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2001/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Billy Gunn vs. Val Venis",
+      "result": "Billy Gunn defeated Val Venis.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "val-venis",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Billy Gunn",
+        "Val Venis"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41430",
+          "165593"
+        ],
+        "sourceEventIds": [
+          "6118"
+        ]
+      },
+      "legacyId": "bulk-match-41430",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Jack Doan, Teddy Long, The Rock vs. Kane, Rikishi",
+      "result": "Jack Doan, Teddy Long, The Rock defeated Kane, Rikishi by disqualification.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "jack-doan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "teddy-long",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Jack Doan",
+        "Teddy Long",
+        "The Rock",
+        "Kane",
+        "Rikishi"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41431",
+          "165594"
+        ],
+        "sourceEventIds": [
+          "6118"
+        ]
+      },
+      "legacyId": "bulk-match-41431",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Raven vs. Steve Blackman",
+      "result": "Raven defeated Steve Blackman.",
+      "matchType": "Other match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "raven",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "steve-blackman",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Raven",
+        "Steve Blackman"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41432",
+          "165595"
+        ],
+        "sourceEventIds": [
+          "6118"
+        ]
+      },
+      "legacyId": "bulk-match-41432",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Albert, Trish Stratus vs. Test",
+      "result": "Albert, Trish Stratus defeated Test.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "tensai",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "trish-stratus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Albert",
+        "Trish Stratus",
+        "Test"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41433",
+          "165596"
+        ],
+        "sourceEventIds": [
+          "6118"
+        ]
+      },
+      "legacyId": "bulk-match-41433",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 6,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Steve Austin, Kurt Angle — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Steve Austin",
+        "Kurt Angle"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41434",
+          "165597"
+        ],
+        "sourceEventIds": [
+          "6118"
+        ]
+      },
+      "legacyId": "bulk-match-41434",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6118"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6118"
+    ]
+  }
+}

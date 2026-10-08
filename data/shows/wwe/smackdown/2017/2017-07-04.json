@@ -1,0 +1,160 @@
+{
+  "id": "wwe/smackdown/2017-07-04",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-07-04",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-07-04"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "A.J. Styles vs. Chad Gable",
+      "result": "A.J. Styles defeated Chad Gable.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Chad Gable"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-07-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77830",
+          "121648"
+        ],
+        "sourceEventIds": [
+          "12061"
+        ]
+      },
+      "legacyId": "bulk-match-77830",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Naomi vs. Lana",
+      "result": "Naomi defeated Lana.",
+      "matchType": "Singles match",
+      "duration": 11,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "lana",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Naomi",
+        "Lana"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-07-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77831",
+          "121649"
+        ],
+        "sourceEventIds": [
+          "12061"
+        ]
+      },
+      "legacyId": "bulk-match-77831",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Aiden English vs. Randy Orton",
+      "result": "Aiden English defeated Randy Orton by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "aiden-english",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Aiden English",
+        "Randy Orton"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-07-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77832",
+          "121650"
+        ],
+        "sourceEventIds": [
+          "12061"
+        ]
+      },
+      "legacyId": "bulk-match-77832",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12061"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12061"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "flair",
+  "name": "Flair",
+  "description": "Ric Flair and his three children who entered professional wrestling.",
+  "branches": [
+    {
+      "id": "flair",
+      "name": "The Flair family"
+    }
+  ],
+  "members": [
+    {
+      "id": "ric-flair",
+      "name": "Ric Flair",
+      "person": "ric-flair",
+      "branch": "flair",
+      "source": "flair",
+      "layout": {
+        "x": 196,
+        "y": 24
+      }
+    },
+    {
+      "id": "david-flair",
+      "name": "David Flair",
+      "person": "david-flair",
+      "branch": "flair",
+      "source": "flair",
+      "layout": {
+        "x": 16,
+        "y": 164
+      }
+    },
+    {
+      "id": "charlotte-flair",
+      "name": "Charlotte Flair",
+      "person": "charlotte-flair",
+      "branch": "flair",
+      "source": "flair",
+      "layout": {
+        "x": 196,
+        "y": 164
+      }
+    },
+    {
+      "id": "reid-flair",
+      "name": "Reid Flair",
+      "branch": "flair",
+      "source": "flair",
+      "layout": {
+        "x": 376,
+        "y": 164
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "ric-flair",
+      "b": "david-flair",
+      "type": "parent",
+      "source": "flair"
+    },
+    {
+      "a": "ric-flair",
+      "b": "charlotte-flair",
+      "type": "parent",
+      "source": "flair"
+    },
+    {
+      "a": "ric-flair",
+      "b": "reid-flair",
+      "type": "parent",
+      "source": "flair"
+    }
+  ],
+  "sources": {
+    "flair": {
+      "label": "People: Ric Flair’s children",
+      "url": "https://people.com/all-about-ric-flair-children-7643135"
+    }
+  }
+}

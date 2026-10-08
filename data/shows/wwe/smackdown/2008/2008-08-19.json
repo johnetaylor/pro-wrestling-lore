@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2008-08-19",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2008-08-19",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Montel Vontavious Porter vs. Festus",
+      "result": "Montel Vontavious Porter defeated Festus by count-out.",
+      "matchType": "Singles match",
+      "duration": 490,
+      "participants": [
+        {
+          "person": "montel-vontavious-porter",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "festus",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Montel Vontavious Porter",
+        "Festus"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53533",
+          "151992"
+        ],
+        "sourceEventIds": [
+          "8161"
+        ]
+      },
+      "legacyId": "bulk-match-53533",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Shelton Benjamin vs. Finlay",
+      "result": "Shelton Benjamin defeated Finlay.",
+      "matchType": "Singles match",
+      "duration": 978,
+      "participants": [
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finlay",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shelton Benjamin",
+        "Finlay"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53534",
+          "151993"
+        ],
+        "sourceEventIds": [
+          "8161"
+        ]
+      },
+      "legacyId": "bulk-match-53534",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Jeff Hardy vs. The Great Khali",
+      "result": "Jeff Hardy defeated The Great Khali.",
+      "matchType": "Singles match",
+      "duration": 319,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-great-khali",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "The Great Khali"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53535",
+          "151994"
+        ],
+        "sourceEventIds": [
+          "8161"
+        ]
+      },
+      "legacyId": "bulk-match-53535",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8161"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8161"
+    ]
+  }
+}

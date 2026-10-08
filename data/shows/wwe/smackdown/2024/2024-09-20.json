@@ -1,0 +1,171 @@
+{
+  "id": "wwe/smackdown/2024-09-20",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2024-09-20",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2024-09-20"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "L.A. Knight vs. Andrade",
+      "result": "L.A. Knight defeated Andrade.",
+      "matchType": "Singles match",
+      "duration": 1029,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "la-knight",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "L.A. Knight",
+        "Andrade"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-09-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "94962"
+        ],
+        "sourceEventIds": [
+          "15038"
+        ]
+      },
+      "legacyId": "bulk-match-94962",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Apollo Crews vs. Giovanni Vinci",
+      "result": "Apollo Crews defeated Giovanni Vinci.",
+      "matchType": "Singles match",
+      "duration": 97,
+      "participants": [
+        {
+          "person": "apollo-crews",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "giovanni-vinci",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Apollo Crews",
+        "Giovanni Vinci"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-09-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "94963"
+        ],
+        "sourceEventIds": [
+          "15038"
+        ]
+      },
+      "legacyId": "bulk-match-94963",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Bayley, Naomi vs. Nia Jax, Tiffany Stratton",
+      "result": "Bayley, Naomi defeated Nia Jax, Tiffany Stratton.",
+      "matchType": "4-person match",
+      "duration": 666,
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nia-jax",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tiffany-stratton",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Naomi",
+        "Nia Jax",
+        "Tiffany Stratton"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-09-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "94964"
+        ],
+        "sourceEventIds": [
+          "15038"
+        ]
+      },
+      "legacyId": "bulk-match-94964",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-15038"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "15038"
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "id": "wwe/smackdown/1999-09-28",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "1999-09-28",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1999/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Road Dogg, Chris Jericho — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "road-dogg",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Road Dogg",
+        "Chris Jericho"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "36182",
+          "170830"
+        ],
+        "sourceEventIds": [
+          "5380"
+        ]
+      },
+      "legacyId": "bulk-match-36182",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Singles match",
+      "result": "The Big Show, D-Lo Brown — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "d-lo-brown",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "D-Lo Brown"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "36184",
+          "170832"
+        ],
+        "sourceEventIds": [
+          "5380"
+        ]
+      },
+      "legacyId": "bulk-match-36184",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Other match",
+      "result": "The British Bulldog, Triple H — no contest.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "the-british-bulldog",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "The British Bulldog",
+        "Triple H"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "36186",
+          "170834"
+        ],
+        "sourceEventIds": [
+          "5380"
+        ]
+      },
+      "legacyId": "bulk-match-36186",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5380"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5380"
+    ]
+  }
+}

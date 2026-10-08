@@ -1,0 +1,173 @@
+{
+  "id": "wwe/smackdown/2020-03-13",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2020-03-13",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2020-03-13"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Bayley, Sasha Banks vs. Alexa Bliss, Nikki Cross",
+      "result": "Bayley, Sasha Banks defeated Alexa Bliss, Nikki Cross.",
+      "matchType": "4-person match",
+      "duration": 660,
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "nikki-cross",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Sasha Banks",
+        "Alexa Bliss",
+        "Nikki Cross"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-03-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85480",
+          "113688"
+        ],
+        "sourceEventIds": [
+          "13350"
+        ]
+      },
+      "legacyId": "bulk-match-85480",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Daniel Bryan vs. Cesaro",
+      "result": "Daniel Bryan defeated Cesaro.",
+      "matchType": "Singles match",
+      "duration": 393,
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "Cesaro"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-03-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85481",
+          "113689"
+        ],
+        "sourceEventIds": [
+          "13350"
+        ]
+      },
+      "legacyId": "bulk-match-85481",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Jeff Hardy vs. King Corbin",
+      "result": "Jeff Hardy defeated King Corbin.",
+      "matchType": "Singles match",
+      "duration": 170,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "King Corbin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-03-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85482",
+          "113690"
+        ],
+        "sourceEventIds": [
+          "13350"
+        ]
+      },
+      "legacyId": "bulk-match-85482",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13350"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13350"
+    ]
+  }
+}

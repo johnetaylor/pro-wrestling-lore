@@ -1,0 +1,84 @@
+{
+  "id": "wwe/smackdown/2001-01-09",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2001-01-09",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2001/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Rikishi vs. Kane, The Rock, The Undertaker",
+      "result": "Rikishi defeated Kane, The Rock, The Undertaker.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rikishi",
+        "Kane",
+        "The Rock",
+        "The Undertaker"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41442",
+          "165571"
+        ],
+        "sourceEventIds": [
+          "6120"
+        ]
+      },
+      "legacyId": "bulk-match-41442",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6120"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6120"
+    ]
+  }
+}

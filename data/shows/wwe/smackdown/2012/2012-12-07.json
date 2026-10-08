@@ -1,0 +1,159 @@
+{
+  "id": "wwe/smackdown/2012-12-07",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2012-12-07",
+  "dateBasis": "aired",
+  "recordedDate": "2012-12-04",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2012/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "The Big Show vs. Daniel Bryan",
+      "result": "The Big Show defeated Daniel Bryan.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "Daniel Bryan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2012/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "60872",
+          "141222"
+        ],
+        "sourceEventIds": [
+          "9602"
+        ]
+      },
+      "legacyId": "bulk-match-60872",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Randy Orton vs. Wade Barrett",
+      "result": "Randy Orton defeated Wade Barrett.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "wade-barrett",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Wade Barrett"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2012/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "60874",
+          "141224"
+        ],
+        "sourceEventIds": [
+          "9602"
+        ]
+      },
+      "legacyId": "bulk-match-60874",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Sheamus vs. Alberto Del Rio",
+      "result": "Sheamus defeated Alberto Del Rio.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alberto-del-rio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Alberto Del Rio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2012/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "60876",
+          "141226"
+        ],
+        "sourceEventIds": [
+          "9602"
+        ]
+      },
+      "legacyId": "bulk-match-60876",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-9602"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "9602"
+    ]
+  }
+}

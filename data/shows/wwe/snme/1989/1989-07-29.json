@@ -1,0 +1,152 @@
+{
+  "id": "wwe/snme/1989-07-29",
+  "promotion": "wwe",
+  "series": "wwe/snme",
+  "name": "Saturday Night's Main Event Taping",
+  "date": "1989-07-29",
+  "dateBasis": "aired",
+  "recordedDate": "1989-07-18",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1989/",
+    "https://thehistoryofwwe.com/wwf-saturday-nights-main-event/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Jimmy Snuka vs. Greg Valentine",
+      "result": "Jimmy Snuka defeated Greg Valentine.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "jimmy-snuka",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "greg-valentine",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jimmy Snuka",
+        "Greg Valentine"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1989/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "14891",
+          "192152"
+        ],
+        "sourceEventIds": [
+          "2390"
+        ]
+      },
+      "legacyId": "bulk-match-14891",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Brutus Beefcake vs. Randy Savage",
+      "result": "Brutus Beefcake defeated Randy Savage by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "brutus-beefcake",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-savage",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Brutus Beefcake",
+        "Randy Savage"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1989/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "14892",
+          "192153"
+        ],
+        "sourceEventIds": [
+          "2390"
+        ]
+      },
+      "legacyId": "bulk-match-14892",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Hulk Hogan vs. The Honky Tonk Man",
+      "result": "Hogan's side: win by pinfall.",
+      "context": "Legdrop Listed duration: 6:14. Recorded 1989-07-18. Venue: The Centrum, Worcester, MA.",
+      "matchType": "Singles",
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "honky-tonk-man",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hulk Hogan",
+        "The Honky Tonk Man"
+      ],
+      "promotionLabel": "WWF",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-saturday-nights-main-event/"
+      ],
+      "legacyId": "hogan-workbook-hm-0107",
+      "legacy": {
+        "show": "Saturday Night's Main Event",
+        "kind": "match",
+        "recordedDate": "1989-07-18"
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-2390"
+  ],
+  "legacy": {
+    "showFamily": "snme",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "2390"
+    ]
+  }
+}

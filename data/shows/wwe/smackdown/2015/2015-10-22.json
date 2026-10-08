@@ -1,0 +1,159 @@
+{
+  "id": "wwe/smackdown/2015-10-22",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2015-10-22",
+  "dateBasis": "aired",
+  "recordedDate": "2015-10-20",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2015/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Seth Rollins vs. Cesaro",
+      "result": "Seth Rollins defeated Cesaro.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Seth Rollins",
+        "Cesaro"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "70823",
+          "129209"
+        ],
+        "sourceEventIds": [
+          "11018"
+        ]
+      },
+      "legacyId": "bulk-match-70823",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Nikki Bella vs. Paige",
+      "result": "Nikki Bella defeated Paige.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "nikki-bella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "paige",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Nikki Bella",
+        "Paige"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "70824",
+          "129210"
+        ],
+        "sourceEventIds": [
+          "11018"
+        ]
+      },
+      "legacyId": "bulk-match-70824",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Ryback vs. Bo Dallas",
+      "result": "Ryback defeated Bo Dallas.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "ryback",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "uncle-howdy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ryback",
+        "Bo Dallas"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "70826",
+          "129212"
+        ],
+        "sourceEventIds": [
+          "11018"
+        ]
+      },
+      "legacyId": "bulk-match-70826",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11018"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11018"
+    ]
+  }
+}

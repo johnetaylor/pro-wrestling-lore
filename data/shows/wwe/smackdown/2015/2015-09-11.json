@@ -1,0 +1,159 @@
+{
+  "id": "wwe/smackdown/2015-09-11",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2015-09-11",
+  "dateBasis": "aired",
+  "recordedDate": "2015-09-08",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2015/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Cesaro vs. The Miz",
+      "result": "Cesaro defeated The Miz.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cesaro",
+        "The Miz"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "70343",
+          "129735"
+        ],
+        "sourceEventIds": [
+          "10953"
+        ]
+      },
+      "legacyId": "bulk-match-70343",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Sasha Banks, Paige — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "paige",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Sasha Banks",
+        "Paige"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "70344",
+          "129736"
+        ],
+        "sourceEventIds": [
+          "10953"
+        ]
+      },
+      "legacyId": "bulk-match-70344",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Seth Rollins vs. Ryback",
+      "result": "Seth Rollins defeated Ryback.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ryback",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Seth Rollins",
+        "Ryback"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "70347",
+          "129739"
+        ],
+        "sourceEventIds": [
+          "10953"
+        ]
+      },
+      "legacyId": "bulk-match-70347",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10953"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10953"
+    ]
+  }
+}

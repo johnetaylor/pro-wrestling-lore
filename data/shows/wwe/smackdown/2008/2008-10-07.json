@@ -1,0 +1,202 @@
+{
+  "id": "wwe/smackdown/2008-10-07",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2008-10-07",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Brie Bella vs. Natalya",
+      "result": "Brie Bella defeated Natalya.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "brie-bella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Brie Bella",
+        "Natalya"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53689",
+          "151784"
+        ],
+        "sourceEventIds": [
+          "8188"
+        ]
+      },
+      "legacyId": "bulk-match-53689",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "R-Truth vs. Shelton Benjamin",
+      "result": "R-Truth defeated Shelton Benjamin.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "R-Truth",
+        "Shelton Benjamin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53690",
+          "151785"
+        ],
+        "sourceEventIds": [
+          "8188"
+        ]
+      },
+      "legacyId": "bulk-match-53690",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Jeff Hardy vs. Montel Vontavious Porter",
+      "result": "Jeff Hardy defeated Montel Vontavious Porter.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "montel-vontavious-porter",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Montel Vontavious Porter"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53691",
+          "151786"
+        ],
+        "sourceEventIds": [
+          "8188"
+        ]
+      },
+      "legacyId": "bulk-match-53691",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Triple H, The Big Show — no contest.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "The Big Show"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53694",
+          "151789"
+        ],
+        "sourceEventIds": [
+          "8188"
+        ]
+      },
+      "legacyId": "bulk-match-53694",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8188"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8188"
+    ]
+  }
+}

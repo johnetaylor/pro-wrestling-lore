@@ -1,0 +1,72 @@
+{
+  "id": "wwe/nxt/2021-08-24",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2021-08-24",
+  "dateBasis": "aired",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwenxt/2021-08-24"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Santos Escobar vs. Carmelo Hayes",
+      "result": "Santos Escobar defeated Carmelo Hayes.",
+      "matchType": "Singles match",
+      "duration": 829,
+      "participants": [
+        {
+          "person": "santos-escobar",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmelo-hayes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Santos Escobar",
+        "Carmelo Hayes"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2021-08-24"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "109973"
+        ],
+        "sourceEventIds": [
+          "16103"
+        ]
+      },
+      "legacyId": "bulk-match-109973",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-16103"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "16103"
+    ]
+  }
+}

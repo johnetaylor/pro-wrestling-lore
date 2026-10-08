@@ -1,0 +1,202 @@
+{
+  "id": "wwe/smackdown/2015-01-02",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2015-01-02",
+  "dateBasis": "aired",
+  "recordedDate": "2014-12-30",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2014/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Bray Wyatt vs. Erick Rowan",
+      "result": "Bray Wyatt defeated Erick Rowan.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "bray-wyatt",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "erick-rowan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bray Wyatt",
+        "Erick Rowan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "67700",
+          "132845"
+        ],
+        "sourceEventIds": [
+          "10602"
+        ]
+      },
+      "legacyId": "bulk-match-67700",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "The Big Show vs. Ryback",
+      "result": "The Big Show defeated Ryback by count-out.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ryback",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "Ryback"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "67701",
+          "132846"
+        ],
+        "sourceEventIds": [
+          "10602"
+        ]
+      },
+      "legacyId": "bulk-match-67701",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Curtis Axel, Dean Ambrose — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "curtis-axel",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Curtis Axel",
+        "Dean Ambrose"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "67703",
+          "132848"
+        ],
+        "sourceEventIds": [
+          "10602"
+        ]
+      },
+      "legacyId": "bulk-match-67703",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 8,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Rusev, Roman Reigns — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Rusev",
+        "Roman Reigns"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "67706",
+          "132851"
+        ],
+        "sourceEventIds": [
+          "10602"
+        ]
+      },
+      "legacyId": "bulk-match-67706",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10602"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10602"
+    ]
+  }
+}

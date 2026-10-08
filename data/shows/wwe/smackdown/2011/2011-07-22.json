@@ -1,0 +1,202 @@
+{
+  "id": "wwe/smackdown/2011-07-22",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2011-07-22",
+  "dateBasis": "aired",
+  "recordedDate": "2011-07-19",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2011/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Christian vs. Ezekiel Jackson",
+      "result": "Christian defeated Ezekiel Jackson.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ezekiel-jackson",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Christian",
+        "Ezekiel Jackson"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "57075",
+          "146480"
+        ],
+        "sourceEventIds": [
+          "8945"
+        ]
+      },
+      "legacyId": "bulk-match-57075",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Daniel Bryan vs. Heath Slater",
+      "result": "Daniel Bryan defeated Heath Slater.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "heath-slater",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "Heath Slater"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "57076",
+          "146481"
+        ],
+        "sourceEventIds": [
+          "8945"
+        ]
+      },
+      "legacyId": "bulk-match-57076",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Sheamus, Wade Barrett — double count-out.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "wade-barrett",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Wade Barrett"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "57077",
+          "146482"
+        ],
+        "sourceEventIds": [
+          "8945"
+        ]
+      },
+      "legacyId": "bulk-match-57077",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Randy Orton vs. Kane",
+      "result": "Randy Orton defeated Kane.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Kane"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "57078",
+          "146483"
+        ],
+        "sourceEventIds": [
+          "8945"
+        ]
+      },
+      "legacyId": "bulk-match-57078",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8945"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8945"
+    ]
+  }
+}

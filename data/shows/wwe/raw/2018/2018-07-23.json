@@ -1,0 +1,362 @@
+{
+  "id": "wwe/raw/2018-07-23",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2018-07-23",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2018-07-23"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Bo Dallas, Curtis Axel vs. Bray Wyatt, Matt Hardy",
+      "result": "Bo Dallas, Curtis Axel defeated Bray Wyatt, Matt Hardy.",
+      "matchType": "4-person match",
+      "duration": 500,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "uncle-howdy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "curtis-axel",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bray-wyatt",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bo Dallas",
+        "Curtis Axel",
+        "Bray Wyatt",
+        "Matt Hardy"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-07-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81028",
+          "118432"
+        ],
+        "sourceEventIds": [
+          "12600"
+        ]
+      },
+      "legacyId": "bulk-match-81028",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Mickie James vs. Natalya",
+      "result": "Mickie James defeated Natalya.",
+      "matchType": "Singles match",
+      "duration": 224,
+      "participants": [
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mickie James",
+        "Natalya"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-07-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81030",
+          "118434"
+        ],
+        "sourceEventIds": [
+          "12600"
+        ]
+      },
+      "legacyId": "bulk-match-81030",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Mojo Rawley vs. Tyler Breeze",
+      "result": "Mojo Rawley defeated Tyler Breeze.",
+      "matchType": "Singles match",
+      "duration": 137,
+      "participants": [
+        {
+          "person": "mojo-rawley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tyler-breeze",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mojo Rawley",
+        "Tyler Breeze"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-07-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81031",
+          "118435"
+        ],
+        "sourceEventIds": [
+          "12600"
+        ]
+      },
+      "legacyId": "bulk-match-81031",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Finn Bálor vs. Drew McIntyre",
+      "result": "Finn Bálor defeated Drew McIntyre by disqualification.",
+      "matchType": "Singles match",
+      "duration": 430,
+      "participants": [
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Finn Bálor",
+        "Drew McIntyre"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-07-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81032",
+          "118436"
+        ],
+        "sourceEventIds": [
+          "12600"
+        ]
+      },
+      "legacyId": "bulk-match-81032",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 6,
+      "type": "match",
+      "title": "Finn Bálor, Seth Rollins vs. Dolph Ziggler, Drew McIntyre",
+      "result": "Finn Bálor, Seth Rollins defeated Dolph Ziggler, Drew McIntyre.",
+      "matchType": "4-person match",
+      "duration": 709,
+      "participants": [
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Finn Bálor",
+        "Seth Rollins",
+        "Dolph Ziggler",
+        "Drew McIntyre"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-07-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81033",
+          "118437"
+        ],
+        "sourceEventIds": [
+          "12600"
+        ]
+      },
+      "legacyId": "bulk-match-81033",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 7,
+      "type": "match",
+      "title": "Ember Moon vs. Liv Morgan",
+      "result": "Ember Moon defeated Liv Morgan.",
+      "matchType": "Singles match",
+      "duration": 210,
+      "participants": [
+        {
+          "person": "ember-moon",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ember Moon",
+        "Liv Morgan"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-07-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81034",
+          "118438"
+        ],
+        "sourceEventIds": [
+          "12600"
+        ]
+      },
+      "legacyId": "bulk-match-81034",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m7",
+      "order": 8,
+      "type": "match",
+      "title": "Roman Reigns vs. Bobby Lashley",
+      "result": "Roman Reigns defeated Bobby Lashley.",
+      "matchType": "Singles match",
+      "duration": 1081,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Bobby Lashley"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-07-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81035",
+          "118439"
+        ],
+        "sourceEventIds": [
+          "12600"
+        ]
+      },
+      "legacyId": "bulk-match-81035",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12600"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12600"
+    ]
+  }
+}

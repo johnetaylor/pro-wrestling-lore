@@ -1,0 +1,166 @@
+{
+  "id": "wwe/smackdown/2024-11-15",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2024-11-15",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2024-11-15"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Bayley vs. B-Fab, Candice LeRae",
+      "result": "Bayley defeated B-Fab, Candice LeRae.",
+      "matchType": "Triple Threat match",
+      "duration": 594,
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "b-fab",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "candice-lerae",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "B-Fab",
+        "Candice LeRae"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-11-15"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95257"
+        ],
+        "sourceEventIds": [
+          "15103"
+        ]
+      },
+      "legacyId": "bulk-match-95257",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "L.A. Knight vs. Berto",
+      "result": "L.A. Knight defeated Berto.",
+      "matchType": "Singles match",
+      "duration": 240,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "la-knight",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "berto",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "L.A. Knight",
+        "Berto"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-11-15"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95258"
+        ],
+        "sourceEventIds": [
+          "15103"
+        ]
+      },
+      "legacyId": "bulk-match-95258",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Nia Jax vs. Naomi",
+      "result": "Nia Jax defeated Naomi.",
+      "matchType": "Singles match",
+      "duration": 733,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "nia-jax",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Nia Jax",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-11-15"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95260"
+        ],
+        "sourceEventIds": [
+          "15103"
+        ]
+      },
+      "legacyId": "bulk-match-95260",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-15103"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "15103"
+    ]
+  }
+}

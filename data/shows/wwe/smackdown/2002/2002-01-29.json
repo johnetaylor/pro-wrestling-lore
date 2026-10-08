@@ -1,0 +1,174 @@
+{
+  "id": "wwe/smackdown/2002-01-29",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2002-01-29",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2002/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Chris Jericho vs. Tazz",
+      "result": "Chris Jericho defeated Tazz.",
+      "matchType": "Other match",
+      "duration": 155,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tazz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Tazz"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44064",
+          "162906"
+        ],
+        "sourceEventIds": [
+          "6476"
+        ]
+      },
+      "legacyId": "bulk-match-44064",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Diamond Dallas Page vs. Christian",
+      "result": "Diamond Dallas Page defeated Christian.",
+      "matchType": "Singles match",
+      "duration": 243,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "diamond-dallas-page",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Diamond Dallas Page",
+        "Christian"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44065",
+          "162907"
+        ],
+        "sourceEventIds": [
+          "6476"
+        ]
+      },
+      "legacyId": "bulk-match-44065",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "The Rock, Triple H vs. Kurt Angle, The Undertaker",
+      "result": "The Rock, Triple H defeated Kurt Angle, The Undertaker by disqualification.",
+      "matchType": "4-person match",
+      "duration": 531,
+      "participants": [
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "The Rock",
+        "Triple H",
+        "Kurt Angle",
+        "The Undertaker"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44068",
+          "162910"
+        ],
+        "sourceEventIds": [
+          "6476"
+        ]
+      },
+      "legacyId": "bulk-match-44068",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6476"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6476"
+    ]
+  }
+}

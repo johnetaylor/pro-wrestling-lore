@@ -1,0 +1,158 @@
+{
+  "id": "wwe/smackdown/2001-03-13",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2001-03-13",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2001/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Test vs. Eddie Guerrero",
+      "result": "Test defeated Eddie Guerrero.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Test",
+        "Eddie Guerrero"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42033",
+          "164974"
+        ],
+        "sourceEventIds": [
+          "6202"
+        ]
+      },
+      "legacyId": "bulk-match-42033",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Triple H vs. Kane",
+      "result": "Triple H defeated Kane.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "Kane"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42037",
+          "164978"
+        ],
+        "sourceEventIds": [
+          "6202"
+        ]
+      },
+      "legacyId": "bulk-match-42037",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Steve Austin vs. Kurt Angle",
+      "result": "Steve Austin defeated Kurt Angle.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Steve Austin",
+        "Kurt Angle"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42038",
+          "164979"
+        ],
+        "sourceEventIds": [
+          "6202"
+        ]
+      },
+      "legacyId": "bulk-match-42038",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6202"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6202"
+    ]
+  }
+}

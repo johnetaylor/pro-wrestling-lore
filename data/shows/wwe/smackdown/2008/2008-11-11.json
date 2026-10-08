@@ -1,0 +1,117 @@
+{
+  "id": "wwe/smackdown/2008-11-11",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2008-11-11",
+  "dateBasis": "recorded",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Matt Hardy vs. Shelton Benjamin",
+      "result": "Matt Hardy defeated Shelton Benjamin.",
+      "matchType": "Singles match",
+      "duration": 848,
+      "participants": [
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Matt Hardy",
+        "Shelton Benjamin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "recorded",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53798",
+          "151632"
+        ],
+        "sourceEventIds": [
+          "8207"
+        ]
+      },
+      "legacyId": "bulk-match-53798",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "The Brian Kendrick vs. Carlito",
+      "result": "The Brian Kendrick defeated Carlito.",
+      "matchType": "Singles match",
+      "duration": 350,
+      "participants": [
+        {
+          "person": "brian-kendrick",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Brian Kendrick",
+        "Carlito"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "recorded",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53799",
+          "151633"
+        ],
+        "sourceEventIds": [
+          "8207"
+        ]
+      },
+      "legacyId": "bulk-match-53799",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8207"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8207"
+    ]
+  }
+}

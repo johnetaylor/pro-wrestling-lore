@@ -1,0 +1,218 @@
+{
+  "id": "wwe/smackdown/2020-04-24",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2020-04-24",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2020-04-24"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "King Corbin vs. Drew Gulak",
+      "result": "King Corbin defeated Drew Gulak.",
+      "matchType": "Singles match",
+      "duration": 570,
+      "participants": [
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "drew-gulak",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "King Corbin",
+        "Drew Gulak"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-04-24"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85613",
+          "113505"
+        ],
+        "sourceEventIds": [
+          "13381"
+        ]
+      },
+      "legacyId": "bulk-match-85613",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Sheamus vs. Daniel Vidot",
+      "result": "Sheamus defeated Daniel Vidot.",
+      "matchType": "Singles match",
+      "duration": 45,
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "daniel-vidot",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Daniel Vidot"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-04-24"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85614",
+          "113506"
+        ],
+        "sourceEventIds": [
+          "13381"
+        ]
+      },
+      "legacyId": "bulk-match-85614",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Lacey Evans vs. Sasha Banks",
+      "result": "Lacey Evans defeated Sasha Banks.",
+      "matchType": "Singles match",
+      "duration": 330,
+      "participants": [
+        {
+          "person": "lacey-evans",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lacey Evans",
+        "Sasha Banks"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-04-24"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85616",
+          "113508"
+        ],
+        "sourceEventIds": [
+          "13381"
+        ]
+      },
+      "legacyId": "bulk-match-85616",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Alexa Bliss, Nikki Cross vs. Carmella, Dana Brooke",
+      "result": "Alexa Bliss, Nikki Cross defeated Carmella, Dana Brooke.",
+      "matchType": "4-person match",
+      "duration": 385,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nikki-cross",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "dana-brooke",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alexa Bliss",
+        "Nikki Cross",
+        "Carmella",
+        "Dana Brooke"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-04-24"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85617",
+          "113509"
+        ],
+        "sourceEventIds": [
+          "13381"
+        ]
+      },
+      "legacyId": "bulk-match-85617",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13381"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13381"
+    ]
+  }
+}

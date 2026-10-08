@@ -1,0 +1,197 @@
+{
+  "id": "wwe/smackdown/2017-10-17",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-10-17",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-10-17"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Becky Lynch, Charlotte Flair, Naomi vs. Lana, Natalya, Tamina",
+      "result": "Becky Lynch, Charlotte Flair, Naomi defeated Lana, Natalya, Tamina.",
+      "matchType": "Tag Team match",
+      "duration": 522,
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "lana",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tamina",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Charlotte Flair",
+        "Naomi",
+        "Lana",
+        "Natalya",
+        "Tamina"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-10-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78840",
+          "120624"
+        ],
+        "sourceEventIds": [
+          "12224"
+        ]
+      },
+      "legacyId": "bulk-match-78840",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Dolph Ziggler vs. Bobby Roode",
+      "result": "Dolph Ziggler defeated Bobby Roode.",
+      "matchType": "Singles match",
+      "duration": 234,
+      "participants": [
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bobby-roode",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dolph Ziggler",
+        "Bobby Roode"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-10-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78842",
+          "120626"
+        ],
+        "sourceEventIds": [
+          "12224"
+        ]
+      },
+      "legacyId": "bulk-match-78842",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Kevin Owens, Sami Zayn vs. Randy Orton, Shinsuke Nakamura",
+      "result": "Kevin Owens, Sami Zayn defeated Randy Orton, Shinsuke Nakamura.",
+      "matchType": "4-person match",
+      "duration": 783,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Sami Zayn",
+        "Randy Orton",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-10-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78843",
+          "120627"
+        ],
+        "sourceEventIds": [
+          "12224"
+        ]
+      },
+      "legacyId": "bulk-match-78843",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12224"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12224"
+    ]
+  }
+}

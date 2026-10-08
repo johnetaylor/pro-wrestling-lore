@@ -1,0 +1,217 @@
+{
+  "id": "wwe/smackdown/2022-05-06",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2022-05-06",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2022-05-06"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Shayna Baszler vs. Sasha Banks",
+      "result": "Shayna Baszler defeated Sasha Banks.",
+      "matchType": "Singles match",
+      "duration": 495,
+      "participants": [
+        {
+          "person": "shayna-baszler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shayna Baszler",
+        "Sasha Banks"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-05-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "89037",
+          "107378"
+        ],
+        "sourceEventIds": [
+          "14016"
+        ]
+      },
+      "legacyId": "bulk-match-89037",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Gunther vs. Drew Gulak",
+      "result": "Gunther defeated Drew Gulak.",
+      "matchType": "Singles match",
+      "duration": 119,
+      "participants": [
+        {
+          "person": "gunther",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "drew-gulak",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Gunther",
+        "Drew Gulak"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-05-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "89038",
+          "107379"
+        ],
+        "sourceEventIds": [
+          "14016"
+        ]
+      },
+      "legacyId": "bulk-match-89038",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Ridge Holland, Sheamus vs. Kofi Kingston, Xavier Woods",
+      "result": "Ridge Holland, Sheamus defeated Kofi Kingston, Xavier Woods.",
+      "matchType": "Tag Team match",
+      "duration": 751,
+      "participants": [
+        {
+          "person": "ridge-holland",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ridge Holland",
+        "Sheamus",
+        "Kofi Kingston",
+        "Xavier Woods"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-05-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "89039",
+          "107380"
+        ],
+        "sourceEventIds": [
+          "14016"
+        ]
+      },
+      "legacyId": "bulk-match-89039",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Sami Zayn vs. Shinsuke Nakamura",
+      "result": "Sami Zayn defeated Shinsuke Nakamura by count-out.",
+      "matchType": "Singles match",
+      "duration": 552,
+      "participants": [
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Sami Zayn",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-05-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "89040",
+          "107381"
+        ],
+        "sourceEventIds": [
+          "14016"
+        ]
+      },
+      "legacyId": "bulk-match-89040",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-14016"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "14016"
+    ]
+  }
+}

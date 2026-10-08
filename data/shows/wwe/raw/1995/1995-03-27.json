@@ -1,0 +1,74 @@
+{
+  "id": "wwe/raw/1995-03-27",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1995-03-27",
+  "dateBasis": "aired",
+  "recordedDate": "1995-03-13",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1995/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Bret Hart vs. Owen Hart",
+      "result": "Bret Hart defeated Owen Hart.",
+      "matchType": "Other match",
+      "duration": 720,
+      "participants": [
+        {
+          "person": "bret-hart",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "owen-hart",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bret Hart",
+        "Owen Hart"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1995/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "22497",
+          "184515"
+        ],
+        "sourceEventIds": [
+          "3554"
+        ]
+      },
+      "legacyId": "bulk-match-22497",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-3554"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "3554"
+    ]
+  }
+}

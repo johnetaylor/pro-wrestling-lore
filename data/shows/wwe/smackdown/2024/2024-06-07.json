@@ -1,0 +1,176 @@
+{
+  "id": "wwe/smackdown/2024-06-07",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2024-06-07",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2024-06-07"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Bianca Belair, Jade Cargill vs. Candice LeRae, Indi Hartwell",
+      "result": "Bianca Belair, Jade Cargill defeated Candice LeRae, Indi Hartwell.",
+      "matchType": "4-person match",
+      "duration": 389,
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jade-cargill",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "candice-lerae",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "indi-hartwell",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bianca Belair",
+        "Jade Cargill",
+        "Candice LeRae",
+        "Indi Hartwell"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-06-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "1030",
+          "94356",
+          "99358"
+        ],
+        "sourceEventIds": [
+          "210"
+        ]
+      },
+      "legacyId": "bulk-match-1030",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Grayson Waller vs. Johnny Gargano",
+      "result": "Grayson Waller defeated Johnny Gargano.",
+      "matchType": "Singles match",
+      "duration": 495,
+      "participants": [
+        {
+          "person": "grayson-waller",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "johnny-gargano",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Grayson Waller",
+        "Johnny Gargano"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-06-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "1031",
+          "94357",
+          "99359"
+        ],
+        "sourceEventIds": [
+          "210"
+        ]
+      },
+      "legacyId": "bulk-match-1031",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "L.A. Knight vs. Carmelo Hayes",
+      "result": "L.A. Knight defeated Carmelo Hayes.",
+      "matchType": "Singles match",
+      "duration": 510,
+      "participants": [
+        {
+          "person": "la-knight",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmelo-hayes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "L.A. Knight",
+        "Carmelo Hayes"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-06-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "1032",
+          "94358",
+          "99360"
+        ],
+        "sourceEventIds": [
+          "210"
+        ]
+      },
+      "legacyId": "bulk-match-1032",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-210"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "210"
+    ]
+  }
+}

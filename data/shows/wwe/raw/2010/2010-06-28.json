@@ -1,0 +1,117 @@
+{
+  "id": "wwe/raw/2010-06-28",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2010-06-28",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2010/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Vladimir Kozlov vs. Santino Marella",
+      "result": "Vladimir Kozlov defeated Santino Marella.",
+      "matchType": "Singles match",
+      "duration": 84,
+      "participants": [
+        {
+          "person": "vladimir-kozlov",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "santino-marella",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Vladimir Kozlov",
+        "Santino Marella"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55778",
+          "148804"
+        ],
+        "sourceEventIds": [
+          "8647"
+        ]
+      },
+      "legacyId": "bulk-match-55778",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Sheamus vs. Mark Henry",
+      "result": "Sheamus defeated Mark Henry.",
+      "matchType": "Singles match",
+      "duration": 151,
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Mark Henry"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55779",
+          "148805"
+        ],
+        "sourceEventIds": [
+          "8647"
+        ]
+      },
+      "legacyId": "bulk-match-55779",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8647"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8647"
+    ]
+  }
+}

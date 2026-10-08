@@ -1,0 +1,97 @@
+{
+  "id": "wwe/smackdown/2013-11-01",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2013-11-01",
+  "dateBasis": "aired",
+  "recordedDate": "2013-10-29",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2013/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Cody Rhodes, Goldust, John Cena vs. Antonio Cesaro, Damien Sandow, Jack Swagger",
+      "result": "Cody Rhodes, Goldust, John Cena defeated Antonio Cesaro, Damien Sandow, Jack Swagger.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "damien-sandow",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "jack-swagger",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Goldust",
+        "John Cena",
+        "Antonio Cesaro",
+        "Damien Sandow",
+        "Jack Swagger"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2013/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "63808",
+          "137513"
+        ],
+        "sourceEventIds": [
+          "10067"
+        ]
+      },
+      "legacyId": "bulk-match-63808",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10067"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10067"
+    ]
+  }
+}

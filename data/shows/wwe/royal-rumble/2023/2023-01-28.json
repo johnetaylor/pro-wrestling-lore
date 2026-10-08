@@ -1,0 +1,120 @@
+{
+  "id": "wwe/royal-rumble/2023-01-28",
+  "promotion": "wwe",
+  "series": "wwe/royal-rumble",
+  "name": "Royal Rumble 2023",
+  "date": "2023-01-28",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/royalrumble/2023"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Bray Wyatt vs. L.A. Knight",
+      "result": "Bray Wyatt defeated L.A. Knight.",
+      "matchType": "Other match",
+      "duration": 303,
+      "participants": [
+        {
+          "person": "bray-wyatt",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "la-knight",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bray Wyatt",
+        "L.A. Knight"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/royalrumble/2023"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6076",
+          "90945",
+          "104404"
+        ],
+        "sourceEventIds": [
+          "1094"
+        ]
+      },
+      "legacyId": "bulk-match-6076",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Roman Reigns vs. Kevin Owens",
+      "result": "Roman Reigns defeated Kevin Owens.",
+      "matchType": "Singles match",
+      "duration": 1152,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Kevin Owens"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/royalrumble/2023"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6079",
+          "90948",
+          "104407"
+        ],
+        "sourceEventIds": [
+          "1094"
+        ]
+      },
+      "legacyId": "bulk-match-6079",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1094"
+  ],
+  "legacy": {
+    "showFamily": "royal-rumble",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1094"
+    ]
+  }
+}

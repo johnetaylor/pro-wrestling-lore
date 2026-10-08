@@ -1,0 +1,160 @@
+{
+  "id": "wwe/smackdown/2001-09-18",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2001-09-18",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2001/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rob Van Dam vs. Raven",
+      "result": "Rob Van Dam defeated Raven.",
+      "matchType": "Other match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "raven",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rob Van Dam",
+        "Raven"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "43160",
+          "163845"
+        ],
+        "sourceEventIds": [
+          "6363"
+        ]
+      },
+      "legacyId": "bulk-match-43160",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Edge vs. Kanyon",
+      "result": "Edge defeated Kanyon.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kanyon",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Edge",
+        "Kanyon"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "43161",
+          "163846"
+        ],
+        "sourceEventIds": [
+          "6363"
+        ]
+      },
+      "legacyId": "bulk-match-43161",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Steve Austin vs. Tajiri",
+      "result": "Steve Austin defeated Tajiri.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tajiri",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Steve Austin",
+        "Tajiri"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "43163",
+          "163848"
+        ],
+        "sourceEventIds": [
+          "6363"
+        ]
+      },
+      "legacyId": "bulk-match-43163",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6363"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6363"
+    ]
+  }
+}

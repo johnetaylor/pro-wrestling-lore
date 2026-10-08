@@ -1,0 +1,207 @@
+{
+  "id": "wwe/royal-rumble/2020-01-26",
+  "promotion": "wwe",
+  "series": "wwe/royal-rumble",
+  "name": "Royal Rumble '20",
+  "date": "2020-01-26",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/royalrumble/2020"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Sheamus vs. Shorty G",
+      "result": "Sheamus defeated Shorty G.",
+      "matchType": "Other match",
+      "duration": 756,
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Shorty G"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/royalrumble/2020"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85092",
+          "114141"
+        ],
+        "sourceEventIds": [
+          "13291"
+        ]
+      },
+      "legacyId": "bulk-match-85092",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Roman Reigns vs. King Corbin",
+      "result": "Roman Reigns defeated King Corbin.",
+      "matchType": "Other match",
+      "duration": 1278,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "King Corbin"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/royalrumble/2020"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85094",
+          "114143"
+        ],
+        "sourceEventIds": [
+          "13291"
+        ]
+      },
+      "legacyId": "bulk-match-85094",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "The Fiend vs. Daniel Bryan",
+      "result": "The Fiend defeated Daniel Bryan.",
+      "matchType": "Other match",
+      "duration": 1051,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bray-wyatt",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Fiend",
+        "Daniel Bryan"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/royalrumble/2020"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85097",
+          "114146"
+        ],
+        "sourceEventIds": [
+          "13291"
+        ]
+      },
+      "legacyId": "bulk-match-85097",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Becky Lynch vs. Asuka",
+      "result": "Becky Lynch defeated Asuka.",
+      "matchType": "Singles match",
+      "duration": 983,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "asuka",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Asuka"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/royalrumble/2020"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85098",
+          "114147"
+        ],
+        "sourceEventIds": [
+          "13291"
+        ]
+      },
+      "legacyId": "bulk-match-85098",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13291"
+  ],
+  "legacy": {
+    "showFamily": "royal-rumble",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13291"
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "id": "wwe/smackdown/2004-12-14",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2004-12-14",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rey Mysterio, Rob Van Dam vs. Akio, Billy Kidman",
+      "result": "Rey Mysterio, Rob Van Dam defeated Akio, Billy Kidman.",
+      "matchType": "4-person match",
+      "duration": 256,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "akio",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "billy-kidman",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Rob Van Dam",
+        "Akio",
+        "Billy Kidman"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48568",
+          "158080"
+        ],
+        "sourceEventIds": [
+          "7258"
+        ]
+      },
+      "legacyId": "bulk-match-48568",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Booker T., Eddie Guerrero vs. Kenzo Suzuki, Rene Dupree",
+      "result": "Booker T., Eddie Guerrero defeated Kenzo Suzuki, Rene Dupree.",
+      "matchType": "4-person match",
+      "duration": 642,
+      "participants": [
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kenzo-suzuki",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rene-dupree",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Booker T.",
+        "Eddie Guerrero",
+        "Kenzo Suzuki",
+        "Rene Dupree"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48569",
+          "158081"
+        ],
+        "sourceEventIds": [
+          "7258"
+        ]
+      },
+      "legacyId": "bulk-match-48569",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Kurt Angle vs. John Bradshaw Layfield",
+      "result": "Kurt Angle defeated John Bradshaw Layfield by disqualification.",
+      "matchType": "Singles match",
+      "duration": 857,
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "John Bradshaw Layfield"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48570",
+          "158082"
+        ],
+        "sourceEventIds": [
+          "7258"
+        ]
+      },
+      "legacyId": "bulk-match-48570",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7258"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7258"
+    ]
+  }
+}

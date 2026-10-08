@@ -1,0 +1,219 @@
+{
+  "id": "wwe/wrestlemania/1997-03-23",
+  "promotion": "wwe",
+  "series": "wwe/wrestlemania",
+  "name": "WrestleMania 13",
+  "date": "1997-03-23",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1997/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Rocky Maivia vs. The Sultan",
+      "result": "Rocky Maivia defeated The Sultan.",
+      "matchType": "Singles match",
+      "duration": 585,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rocky Maivia",
+        "The Sultan"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "26799",
+          "180242"
+        ],
+        "sourceEventIds": [
+          "4154"
+        ]
+      },
+      "legacyId": "bulk-match-26799",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Hunter Hearst Helmsley vs. Goldust",
+      "result": "Hunter Hearst Helmsley defeated Goldust.",
+      "matchType": "Singles match",
+      "duration": 868,
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hunter Hearst Helmsley",
+        "Goldust"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "26800",
+          "180243"
+        ],
+        "sourceEventIds": [
+          "4154"
+        ]
+      },
+      "legacyId": "bulk-match-26800",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "4-person match",
+      "result": "Owen Hart, The British Bulldog, Mankind, Vader — double count-out.",
+      "matchType": "4-person match",
+      "duration": 968,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "owen-hart",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "the-british-bulldog",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "mick-foley",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "vader",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Owen Hart",
+        "The British Bulldog",
+        "Mankind",
+        "Vader"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "26801",
+          "180244"
+        ],
+        "sourceEventIds": [
+          "4154"
+        ]
+      },
+      "legacyId": "bulk-match-26801",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Bret Hart vs. Steve Austin",
+      "result": "Bret Hart defeated Steve Austin.",
+      "matchType": "Other match",
+      "duration": 1325,
+      "participants": [
+        {
+          "person": "bret-hart",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bret Hart",
+        "Steve Austin"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "26802",
+          "180245"
+        ],
+        "sourceEventIds": [
+          "4154"
+        ]
+      },
+      "legacyId": "bulk-match-26802",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4154"
+  ],
+  "legacy": {
+    "showFamily": "wrestlemania",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4154"
+    ]
+  }
+}

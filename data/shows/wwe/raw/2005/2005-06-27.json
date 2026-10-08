@@ -1,0 +1,198 @@
+{
+  "id": "wwe/raw/2005-06-27",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2005-06-27",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "The Big Show vs. Gene Snitsky",
+      "result": "The Big Show defeated Gene Snitsky.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "gene-snitsky",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "Gene Snitsky"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49190",
+          "157311"
+        ],
+        "sourceEventIds": [
+          "7387"
+        ]
+      },
+      "legacyId": "bulk-match-49190",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Kurt Angle vs. Ric Flair",
+      "result": "Kurt Angle defeated Ric Flair.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ric-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Ric Flair"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49192",
+          "157313"
+        ],
+        "sourceEventIds": [
+          "7387"
+        ]
+      },
+      "legacyId": "bulk-match-49192",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Hulk Hogan, John Cena, Shawn Michaels vs. Chris Jericho, Christian, Tyson Tomko",
+      "result": "Hulk Hogan, John Cena, Shawn Michaels defeated Chris Jericho, Christian, Tyson Tomko.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tyson-tomko",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hulk Hogan",
+        "John Cena",
+        "Shawn Michaels",
+        "Chris Jericho",
+        "Christian",
+        "Tyson Tomko"
+      ],
+      "showCategory": "Raw",
+      "promotionLabel": "WWE",
+      "dateBasis": "broadcast",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-07",
+        "source": "https://thehistoryofwwe.com/wwe-results-2005/",
+        "scope": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date."
+      },
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49193",
+          "157314"
+        ],
+        "sourceEventIds": [
+          "7387"
+        ]
+      },
+      "legacyId": "bulk-match-49193",
+      "legacy": {
+        "kind": "match",
+        "hoganReview": {
+          "id": "bulk-match-49193",
+          "source": "https://thehistoryofwwe.com/wwe-results-2005/",
+          "date": "2005-06-27",
+          "reviewed": "2026-10-07",
+          "note": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date.",
+          "omitUnreviewedDuration": true
+        },
+        "workbookReference": "HM-0272",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7387"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7387"
+    ]
+  }
+}

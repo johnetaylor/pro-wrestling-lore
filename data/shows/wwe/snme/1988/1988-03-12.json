@@ -1,0 +1,221 @@
+{
+  "id": "wwe/snme/1988-03-12",
+  "promotion": "wwe",
+  "series": "wwe/snme",
+  "name": "Saturday Night's Main Event Taping",
+  "date": "1988-03-12",
+  "dateBasis": "aired",
+  "recordedDate": "1988-03-07",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1988/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Brutus Beefcake vs. Greg Valentine",
+      "result": "Brutus Beefcake defeated Greg Valentine.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "brutus-beefcake",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "greg-valentine",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Brutus Beefcake",
+        "Greg Valentine"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1988/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "13619",
+          "193396"
+        ],
+        "sourceEventIds": [
+          "2212"
+        ]
+      },
+      "legacyId": "bulk-match-13619",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Hulk Hogan vs. Harley Race",
+      "result": "Hulk Hogan defeated Harley Race.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "harley-race",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hulk Hogan",
+        "Harley Race"
+      ],
+      "showCategory": "PLE / special",
+      "promotionLabel": "WWF",
+      "dateBasis": "broadcast",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-07",
+        "source": "https://thehistoryofwwe.com/wwf-results-1988/",
+        "scope": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date."
+      },
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1988/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "13620",
+          "193397"
+        ],
+        "sourceEventIds": [
+          "2212"
+        ]
+      },
+      "legacyId": "bulk-match-13620",
+      "legacy": {
+        "show": "Saturday Night’s Main Event",
+        "kind": "match",
+        "hoganReview": {
+          "id": "bulk-match-13620",
+          "source": "https://thehistoryofwwe.com/wwf-results-1988/",
+          "date": "1988-03-12",
+          "reviewed": "2026-10-07",
+          "note": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date.",
+          "show": "Saturday Night’s Main Event",
+          "omitUnreviewedDuration": true
+        },
+        "workbookReference": "HM-0095",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Ted DiBiase vs. Randy Savage",
+      "result": "Ted DiBiase defeated Randy Savage by count-out.",
+      "matchType": "Singles match",
+      "duration": 699,
+      "participants": [
+        {
+          "person": "ted-dibiase",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-savage",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Ted DiBiase",
+        "Randy Savage"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1988/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "13621",
+          "193398"
+        ],
+        "sourceEventIds": [
+          "2212"
+        ]
+      },
+      "legacyId": "bulk-match-13621",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "One Man Gang vs. Ken Patera",
+      "result": "One Man Gang defeated Ken Patera.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "one-man-gang",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ken-patera",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "One Man Gang",
+        "Ken Patera"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1988/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "13623",
+          "193400"
+        ],
+        "sourceEventIds": [
+          "2212"
+        ]
+      },
+      "legacyId": "bulk-match-13623",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-2212"
+  ],
+  "legacy": {
+    "showFamily": "snme",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "2212"
+    ]
+  }
+}

@@ -1,0 +1,781 @@
+{
+  "id": "wwe/royal-rumble/2024-01-27",
+  "promotion": "wwe",
+  "series": "wwe/royal-rumble",
+  "name": "Royal Rumble 2024",
+  "date": "2024-01-27",
+  "category": "PLE",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "note": "Hugging Face import · official-results comparison. Unverified extra matches were excluded.",
+    "legacyCardStatus": "Imported card compared with official WWE results",
+    "legacySegmentStatus": "Partial; the match dataset does not contain a promo/appearance archive"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/royalrumble/article/full-royal-rumble-results-2024"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Women’s Royal Rumble",
+      "result": "Bayley won the women’s 30-person Royal Rumble.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Women’s Royal Rumble",
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor"
+        },
+        {
+          "person": "alba-fyre",
+          "role": "competitor"
+        },
+        {
+          "person": "asuka",
+          "role": "competitor"
+        },
+        {
+          "person": "becky-lynch",
+          "role": "competitor"
+        },
+        {
+          "person": "bianca-belair",
+          "role": "competitor"
+        },
+        {
+          "person": "candice-lerae",
+          "role": "competitor"
+        },
+        {
+          "person": "chelsea-green",
+          "role": "competitor"
+        },
+        {
+          "person": "indi-hartwell",
+          "role": "competitor"
+        },
+        {
+          "person": "ivy-nile",
+          "role": "competitor"
+        },
+        {
+          "person": "jade-cargill",
+          "role": "competitor"
+        },
+        {
+          "person": "jordynne-grace",
+          "role": "competitor"
+        },
+        {
+          "person": "kairi-sane",
+          "role": "competitor"
+        },
+        {
+          "person": "katana-chance",
+          "role": "competitor"
+        },
+        {
+          "person": "kayden-carter",
+          "role": "competitor"
+        },
+        {
+          "person": "liv-morgan",
+          "role": "competitor"
+        },
+        {
+          "person": "maxxine-dupri",
+          "role": "competitor"
+        },
+        {
+          "person": "michin",
+          "role": "competitor"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor"
+        },
+        {
+          "person": "nia-jax",
+          "role": "competitor"
+        },
+        {
+          "person": "piper-niven",
+          "role": "competitor"
+        },
+        {
+          "person": "roxanne-perez",
+          "role": "competitor"
+        },
+        {
+          "person": "shayna-baszler",
+          "role": "competitor"
+        },
+        {
+          "person": "shotzi",
+          "role": "competitor"
+        },
+        {
+          "person": "tegan-nox",
+          "role": "competitor"
+        },
+        {
+          "person": "tiffany-stratton",
+          "role": "competitor"
+        },
+        {
+          "person": "valhalla",
+          "role": "competitor"
+        },
+        {
+          "person": "xia-li",
+          "role": "competitor"
+        },
+        {
+          "person": "zelina-vega",
+          "role": "competitor"
+        },
+        {
+          "person": "zoey-stark",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Alba Fyre",
+        "Asuka",
+        "Becky Lynch",
+        "Bianca Belair",
+        "Candice LeRae",
+        "Chelsea Green",
+        "Indi Hartwell",
+        "Ivy Nile",
+        "Jade Cargill",
+        "Jordynne Grace",
+        "Kairi Sane",
+        "Katana Chance",
+        "Kayden Carter",
+        "Liv Morgan",
+        "Maxxine Dupri",
+        "Michin",
+        "Naomi",
+        "Natalya",
+        "Nia Jax",
+        "Piper Niven",
+        "Roxanne Perez",
+        "Shayna Baszler",
+        "Shotzi",
+        "Tegan Nox",
+        "Tiffany Stratton",
+        "Valhalla",
+        "Xia Li",
+        "Zelina Vega",
+        "Zoey Stark"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/royalrumble/article/full-royal-rumble-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/royalrumble/article/full-royal-rumble-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "468",
+        "sourceMatchIds": [
+          "2386",
+          "100714"
+        ],
+        "rawInputSha256": "8ea68c208874371c7ad822569806c0c2904fa91cf6f183b9780860096b87e038",
+        "normalizedParticipants": [
+          {
+            "name": "Bayley",
+            "result": "win"
+          },
+          {
+            "name": "Alba Fyre",
+            "result": "loss"
+          },
+          {
+            "name": "Asuka",
+            "result": "loss"
+          },
+          {
+            "name": "Becky Lynch",
+            "result": "loss"
+          },
+          {
+            "name": "Bianca Belair",
+            "result": "loss"
+          },
+          {
+            "name": "Candice LeRae",
+            "result": "loss"
+          },
+          {
+            "name": "Chelsea Green",
+            "result": "loss"
+          },
+          {
+            "name": "Indi Hartwell",
+            "result": "loss"
+          },
+          {
+            "name": "Ivy Nile",
+            "result": "loss"
+          },
+          {
+            "name": "Jade Cargill",
+            "result": "loss"
+          },
+          {
+            "name": "Jordynne Grace",
+            "result": "loss"
+          },
+          {
+            "name": "Kairi Sane",
+            "result": "loss"
+          },
+          {
+            "name": "Katana Chance",
+            "result": "loss"
+          },
+          {
+            "name": "Kayden Carter",
+            "result": "loss"
+          },
+          {
+            "name": "Liv Morgan",
+            "result": "loss"
+          },
+          {
+            "name": "Maxxine Dupri",
+            "result": "loss"
+          },
+          {
+            "name": "Michin",
+            "result": "loss"
+          },
+          {
+            "name": "Naomi",
+            "result": "loss"
+          },
+          {
+            "name": "Natalya",
+            "result": "loss"
+          },
+          {
+            "name": "Nia Jax",
+            "result": "loss"
+          },
+          {
+            "name": "Piper Niven",
+            "result": "loss"
+          },
+          {
+            "name": "Roxanne Perez",
+            "result": "loss"
+          },
+          {
+            "name": "Shayna Baszler",
+            "result": "loss"
+          },
+          {
+            "name": "Shotzi",
+            "result": "loss"
+          },
+          {
+            "name": "Tegan Nox",
+            "result": "loss"
+          },
+          {
+            "name": "Tiffany Stratton",
+            "result": "loss"
+          },
+          {
+            "name": "Valhalla",
+            "result": "loss"
+          },
+          {
+            "name": "Xia Li",
+            "result": "loss"
+          },
+          {
+            "name": "Zelina Vega",
+            "result": "loss"
+          },
+          {
+            "name": "Zoey Stark",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/royalrumble/article/full-royal-rumble-results-2024",
+        "additionalSource": "https://www.wwe.com/shows/royalrumble/2024/royal-rumble-match-stats-2024"
+      },
+      "legacyId": "hf-match-2386",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Roman Reigns vs. AJ Styles, LA Knight, Randy Orton",
+      "result": "Roman Reigns defeated AJ Styles, LA Knight, Randy Orton.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Fatal 4-Way Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor"
+        },
+        {
+          "person": "la-knight",
+          "role": "competitor"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "AJ Styles",
+        "LA Knight",
+        "Randy Orton"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/royalrumble/article/full-royal-rumble-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/royalrumble/article/full-royal-rumble-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "468",
+        "sourceMatchIds": [
+          "2387",
+          "100715"
+        ],
+        "rawInputSha256": "2c0cf96fc3d78e8df417723003cc3f0fa7856da522e3db4c45d914e81e95dbcc",
+        "normalizedParticipants": [
+          {
+            "name": "Roman Reigns",
+            "result": "win"
+          },
+          {
+            "name": "AJ Styles",
+            "result": "loss"
+          },
+          {
+            "name": "LA Knight",
+            "result": "loss"
+          },
+          {
+            "name": "Randy Orton",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/royalrumble/article/full-royal-rumble-results-2024"
+      },
+      "legacyId": "hf-match-2387",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Logan Paul vs. Kevin Owens",
+      "result": "Logan Paul defeated Kevin Owens by disqualification.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "logan-paul",
+          "role": "competitor"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Logan Paul",
+        "Kevin Owens"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/royalrumble/article/full-royal-rumble-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/royalrumble/article/full-royal-rumble-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "468",
+        "sourceMatchIds": [
+          "2388",
+          "100716"
+        ],
+        "rawInputSha256": "2972672545aae8f48d33a9cebd58de2e4ef3b83526c7c64c928cbeb833e100c5",
+        "normalizedParticipants": [
+          {
+            "name": "Logan Paul",
+            "result": "win"
+          },
+          {
+            "name": "Kevin Owens",
+            "result": "dq"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/royalrumble/article/full-royal-rumble-results-2024"
+      },
+      "legacyId": "hf-match-2388",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Men’s Royal Rumble",
+      "result": "Cody Rhodes won the men’s 30-person Royal Rumble.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Men’s Royal Rumble",
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        },
+        {
+          "person": "andrade",
+          "role": "competitor"
+        },
+        {
+          "person": "austin-theory",
+          "role": "competitor"
+        },
+        {
+          "person": "bobby-lashley",
+          "role": "competitor"
+        },
+        {
+          "person": "bron-breakker",
+          "role": "competitor"
+        },
+        {
+          "person": "bronson-reed",
+          "role": "competitor"
+        },
+        {
+          "person": "carlito",
+          "role": "competitor"
+        },
+        {
+          "person": "carmelo-hayes",
+          "role": "competitor"
+        },
+        {
+          "person": "cm-punk",
+          "role": "competitor"
+        },
+        {
+          "person": "damian-priest",
+          "role": "competitor"
+        },
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor"
+        },
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor"
+        },
+        {
+          "person": "grayson-waller",
+          "role": "competitor"
+        },
+        {
+          "person": "gunther",
+          "role": "competitor"
+        },
+        {
+          "person": "ivar",
+          "role": "competitor"
+        },
+        {
+          "person": "jd-mcdonagh",
+          "role": "competitor"
+        },
+        {
+          "person": "jey-uso",
+          "role": "competitor"
+        },
+        {
+          "person": "jimmy-uso",
+          "role": "competitor"
+        },
+        {
+          "person": "karrion-kross",
+          "role": "competitor"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor"
+        },
+        {
+          "person": "ludwig-kaiser",
+          "role": "competitor"
+        },
+        {
+          "person": "omos",
+          "role": "competitor"
+        },
+        {
+          "person": "pat-mcafee",
+          "role": "competitor"
+        },
+        {
+          "person": "r-truth",
+          "role": "competitor"
+        },
+        {
+          "person": "ricochet",
+          "role": "competitor"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor"
+        },
+        {
+          "person": "santos-escobar",
+          "role": "competitor"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Andrade",
+        "Austin Theory",
+        "Bobby Lashley",
+        "Bron Breakker",
+        "Bronson Reed",
+        "Carlito",
+        "Carmelo Hayes",
+        "CM Punk",
+        "Damian Priest",
+        "Dominik Mysterio",
+        "Drew McIntyre",
+        "Finn Bálor",
+        "Grayson Waller",
+        "Gunther",
+        "Ivar",
+        "JD McDonagh",
+        "Jey Uso",
+        "Jimmy Uso",
+        "Karrion Kross",
+        "Kofi Kingston",
+        "Ludwig Kaiser",
+        "Omos",
+        "Pat McAfee",
+        "R-Truth",
+        "Ricochet",
+        "Sami Zayn",
+        "Santos Escobar",
+        "Shinsuke Nakamura",
+        "The Miz"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/royalrumble/article/full-royal-rumble-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/royalrumble/article/full-royal-rumble-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "468",
+        "sourceMatchIds": [
+          "2389",
+          "100717"
+        ],
+        "rawInputSha256": "3df18b4b69c69f1e2e4726172f179d3ca36391740e16bda2817e8c69234df4c2",
+        "normalizedParticipants": [
+          {
+            "name": "Cody Rhodes",
+            "result": "win"
+          },
+          {
+            "name": "Andrade",
+            "result": "loss"
+          },
+          {
+            "name": "Austin Theory",
+            "result": "loss"
+          },
+          {
+            "name": "Bobby Lashley",
+            "result": "loss"
+          },
+          {
+            "name": "Bron Breakker",
+            "result": "loss"
+          },
+          {
+            "name": "Bronson Reed",
+            "result": "loss"
+          },
+          {
+            "name": "Carlito",
+            "result": "loss"
+          },
+          {
+            "name": "Carmelo Hayes",
+            "result": "loss"
+          },
+          {
+            "name": "CM Punk",
+            "result": "loss"
+          },
+          {
+            "name": "Damian Priest",
+            "result": "loss"
+          },
+          {
+            "name": "Dominik Mysterio",
+            "result": "loss"
+          },
+          {
+            "name": "Drew McIntyre",
+            "result": "loss"
+          },
+          {
+            "name": "Finn Bálor",
+            "result": "loss"
+          },
+          {
+            "name": "Grayson Waller",
+            "result": "loss"
+          },
+          {
+            "name": "Gunther",
+            "result": "loss"
+          },
+          {
+            "name": "Ivar",
+            "result": "loss"
+          },
+          {
+            "name": "JD McDonagh",
+            "result": "loss"
+          },
+          {
+            "name": "Jey Uso",
+            "result": "loss"
+          },
+          {
+            "name": "Jimmy Uso",
+            "result": "loss"
+          },
+          {
+            "name": "Karrion Kross",
+            "result": "loss"
+          },
+          {
+            "name": "Kofi Kingston",
+            "result": "loss"
+          },
+          {
+            "name": "Ludwig Kaiser",
+            "result": "loss"
+          },
+          {
+            "name": "Omos",
+            "result": "loss"
+          },
+          {
+            "name": "Pat McAfee",
+            "result": "loss"
+          },
+          {
+            "name": "R-Truth",
+            "result": "loss"
+          },
+          {
+            "name": "Ricochet",
+            "result": "loss"
+          },
+          {
+            "name": "Sami Zayn",
+            "result": "loss"
+          },
+          {
+            "name": "Santos Escobar",
+            "result": "loss"
+          },
+          {
+            "name": "Shinsuke Nakamura",
+            "result": "loss"
+          },
+          {
+            "name": "The Miz",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/royalrumble/article/full-royal-rumble-results-2024",
+        "additionalSource": "https://www.wwe.com/shows/royalrumble/2024/royal-rumble-match-stats-2024"
+      },
+      "legacyId": "hf-match-2389",
+      "legacy": {
+        "kind": "match"
+      }
+    }
+  ],
+  "legacyIds": [
+    "hf-event-468"
+  ],
+  "legacy": {
+    "showFamily": "royal-rumble",
+    "importBatch": "ringside-2024-ple"
+  }
+}

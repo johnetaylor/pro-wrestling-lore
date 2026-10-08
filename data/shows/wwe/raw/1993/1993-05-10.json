@@ -1,0 +1,203 @@
+{
+  "id": "wwe/raw/1993-05-10",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1993-05-10",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1993/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Bam Bam Bigelow vs. Typhoon",
+      "result": "Bam Bam Bigelow defeated Typhoon.",
+      "matchType": "Singles match",
+      "duration": 308,
+      "participants": [
+        {
+          "person": "bam-bam-bigelow",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tugboat",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bam Bam Bigelow",
+        "Typhoon"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1993/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "19756",
+          "187273"
+        ],
+        "sourceEventIds": [
+          "3111"
+        ]
+      },
+      "legacyId": "bulk-match-19756",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Mr. Perfect vs. Iron Mike Sharpe",
+      "result": "Mr. Perfect defeated Iron Mike Sharpe.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "curt-hennig",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "iron-mike-sharpe",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mr. Perfect",
+        "Iron Mike Sharpe"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1993/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "19758",
+          "187275"
+        ],
+        "sourceEventIds": [
+          "3111"
+        ]
+      },
+      "legacyId": "bulk-match-19758",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Mr. Hughes vs. The Cannonball Kid",
+      "result": "Mr. Hughes defeated The Cannonball Kid.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "mr-hughes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-cannonball-kid",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mr. Hughes",
+        "The Cannonball Kid"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1993/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "19759",
+          "187276"
+        ],
+        "sourceEventIds": [
+          "3111"
+        ]
+      },
+      "legacyId": "bulk-match-19759",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Shawn Michaels vs. Jim Duggan",
+      "result": "Shawn Michaels defeated Jim Duggan by disqualification.",
+      "matchType": "Other match",
+      "duration": 1080,
+      "participants": [
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jim-duggan",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Shawn Michaels",
+        "Jim Duggan"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1993/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "19760",
+          "187277"
+        ],
+        "sourceEventIds": [
+          "3111"
+        ]
+      },
+      "legacyId": "bulk-match-19760",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-3111"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "3111"
+    ]
+  }
+}

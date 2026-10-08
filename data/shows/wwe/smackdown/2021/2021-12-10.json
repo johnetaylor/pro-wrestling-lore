@@ -1,0 +1,173 @@
+{
+  "id": "wwe/smackdown/2021-12-10",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2021-12-10",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2021-12-10"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rick Boogs, Shinsuke Nakamura vs. Angel, Humberto",
+      "result": "Rick Boogs, Shinsuke Nakamura defeated Angel, Humberto.",
+      "matchType": "4-person match",
+      "duration": 85,
+      "participants": [
+        {
+          "person": "rick-boogs",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "angel",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "berto",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rick Boogs",
+        "Shinsuke Nakamura",
+        "Angel",
+        "Humberto"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-12-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88153",
+          "108858"
+        ],
+        "sourceEventIds": [
+          "13866"
+        ]
+      },
+      "legacyId": "bulk-match-88153",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Drew McIntyre vs. Sheamus",
+      "result": "Drew McIntyre defeated Sheamus.",
+      "matchType": "Singles match",
+      "duration": 454,
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "Sheamus"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-12-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88154",
+          "108859"
+        ],
+        "sourceEventIds": [
+          "13866"
+        ]
+      },
+      "legacyId": "bulk-match-88154",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Toni Storm vs. Charlotte Flair",
+      "result": "Toni Storm defeated Charlotte Flair by disqualification.",
+      "matchType": "Singles match",
+      "duration": 200,
+      "participants": [
+        {
+          "person": "toni-storm",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Toni Storm",
+        "Charlotte Flair"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-12-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88155",
+          "108860"
+        ],
+        "sourceEventIds": [
+          "13866"
+        ]
+      },
+      "legacyId": "bulk-match-88155",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13866"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13866"
+    ]
+  }
+}

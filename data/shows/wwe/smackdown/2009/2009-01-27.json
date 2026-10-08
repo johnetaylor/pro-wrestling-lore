@@ -1,0 +1,73 @@
+{
+  "id": "wwe/smackdown/2009-01-27",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2009-01-27",
+  "dateBasis": "recorded",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2009/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "R-Truth vs. The Brian Kendrick",
+      "result": "R-Truth defeated The Brian Kendrick.",
+      "matchType": "Singles match",
+      "duration": 134,
+      "participants": [
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "brian-kendrick",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "R-Truth",
+        "The Brian Kendrick"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "recorded",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53988",
+          "151377"
+        ],
+        "sourceEventIds": [
+          "8240"
+        ]
+      },
+      "legacyId": "bulk-match-53988",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8240"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8240"
+    ]
+  }
+}

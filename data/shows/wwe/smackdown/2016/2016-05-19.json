@@ -1,0 +1,202 @@
+{
+  "id": "wwe/smackdown/2016-05-19",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2016-05-19",
+  "dateBasis": "aired",
+  "recordedDate": "2016-05-17",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2016/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Kevin Owens vs. Cesaro",
+      "result": "Kevin Owens defeated Cesaro.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Cesaro"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "73070",
+          "126780"
+        ],
+        "sourceEventIds": [
+          "11338"
+        ]
+      },
+      "legacyId": "bulk-match-73070",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Dana Brooke vs. Paige",
+      "result": "Dana Brooke defeated Paige.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "dana-brooke",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "paige",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dana Brooke",
+        "Paige"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "73071",
+          "126781"
+        ],
+        "sourceEventIds": [
+          "11338"
+        ]
+      },
+      "legacyId": "bulk-match-73071",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Dolph Ziggler vs. Sheamus",
+      "result": "Dolph Ziggler defeated Sheamus.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dolph Ziggler",
+        "Sheamus"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "73072",
+          "126782"
+        ],
+        "sourceEventIds": [
+          "11338"
+        ]
+      },
+      "legacyId": "bulk-match-73072",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Roman Reigns, Luke Gallows — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "luke-gallows",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Luke Gallows"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "73074",
+          "126784"
+        ],
+        "sourceEventIds": [
+          "11338"
+        ]
+      },
+      "legacyId": "bulk-match-73074",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11338"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11338"
+    ]
+  }
+}

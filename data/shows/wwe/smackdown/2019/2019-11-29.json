@@ -1,0 +1,218 @@
+{
+  "id": "wwe/smackdown/2019-11-29",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2019-11-29",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2019-11-29"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Roman Reigns vs. Robert Roode",
+      "result": "Roman Reigns defeated Robert Roode.",
+      "matchType": "Singles match",
+      "duration": 820,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "robert-roode",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Robert Roode"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-11-29"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "84675",
+          "114622"
+        ],
+        "sourceEventIds": [
+          "13222"
+        ]
+      },
+      "legacyId": "bulk-match-84675",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Mustafa Ali vs. Drew Gulak",
+      "result": "Mustafa Ali defeated Drew Gulak.",
+      "matchType": "Singles match",
+      "duration": 175,
+      "participants": [
+        {
+          "person": "mustafa-ali",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "drew-gulak",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mustafa Ali",
+        "Drew Gulak"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-11-29"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "84676",
+          "114623"
+        ],
+        "sourceEventIds": [
+          "13222"
+        ]
+      },
+      "legacyId": "bulk-match-84676",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Nikki Cross vs. Sonya Deville",
+      "result": "Nikki Cross defeated Sonya Deville.",
+      "matchType": "Singles match",
+      "duration": 100,
+      "participants": [
+        {
+          "person": "nikki-cross",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sonya-deville",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Nikki Cross",
+        "Sonya Deville"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-11-29"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "84677",
+          "114624"
+        ],
+        "sourceEventIds": [
+          "13222"
+        ]
+      },
+      "legacyId": "bulk-match-84677",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Big E, Kofi Kingston vs. Cesaro, Shinsuke Nakamura",
+      "result": "Big E, Kofi Kingston defeated Cesaro, Shinsuke Nakamura.",
+      "matchType": "4-person match",
+      "duration": 670,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Big E",
+        "Kofi Kingston",
+        "Cesaro",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-11-29"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "84678",
+          "114625"
+        ],
+        "sourceEventIds": [
+          "13222"
+        ]
+      },
+      "legacyId": "bulk-match-84678",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13222"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13222"
+    ]
+  }
+}

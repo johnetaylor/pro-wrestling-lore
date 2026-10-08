@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2006-04-11",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2006-04-11",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2006/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Brian Kendrick vs. Johnny Nitro",
+      "result": "Brian Kendrick defeated Johnny Nitro.",
+      "matchType": "Singles match",
+      "duration": 186,
+      "participants": [
+        {
+          "person": "brian-kendrick",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Brian Kendrick",
+        "Johnny Nitro"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50410",
+          "155851"
+        ],
+        "sourceEventIds": [
+          "7608"
+        ]
+      },
+      "legacyId": "bulk-match-50410",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "John Bradshaw Layfield vs. Chris Benoit",
+      "result": "John Bradshaw Layfield defeated Chris Benoit.",
+      "matchType": "Cage match",
+      "duration": 1127,
+      "participants": [
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Bradshaw Layfield",
+        "Chris Benoit"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50413",
+          "155854"
+        ],
+        "sourceEventIds": [
+          "7608"
+        ]
+      },
+      "legacyId": "bulk-match-50413",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Kurt Angle vs. Randy Orton",
+      "result": "Kurt Angle defeated Randy Orton.",
+      "matchType": "Singles match",
+      "duration": 494,
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Randy Orton"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50415",
+          "155856"
+        ],
+        "sourceEventIds": [
+          "7608"
+        ]
+      },
+      "legacyId": "bulk-match-50415",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7608"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7608"
+    ]
+  }
+}

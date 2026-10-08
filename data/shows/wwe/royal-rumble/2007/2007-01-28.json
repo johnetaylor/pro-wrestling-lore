@@ -1,0 +1,175 @@
+{
+  "id": "wwe/royal-rumble/2007-01-28",
+  "promotion": "wwe",
+  "series": "wwe/royal-rumble",
+  "name": "Royal Rumble '07",
+  "date": "2007-01-28",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Jeff Hardy, Matt Hardy vs. Joey Mercury, Johnny Nitro",
+      "result": "Jeff Hardy, Matt Hardy defeated Joey Mercury, Johnny Nitro.",
+      "matchType": "4-person match",
+      "duration": 927,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "joey-mercury",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Matt Hardy",
+        "Joey Mercury",
+        "Johnny Nitro"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51518",
+          "154530"
+        ],
+        "sourceEventIds": [
+          "7803"
+        ]
+      },
+      "legacyId": "bulk-match-51518",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Bobby Lashley vs. Test",
+      "result": "Bobby Lashley defeated Test by count-out.",
+      "matchType": "Singles match",
+      "duration": 431,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Bobby Lashley",
+        "Test"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51519",
+          "154531"
+        ],
+        "sourceEventIds": [
+          "7803"
+        ]
+      },
+      "legacyId": "bulk-match-51519",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "John Cena vs. Umaga",
+      "result": "John Cena defeated Umaga.",
+      "matchType": "Last Man Standing match",
+      "duration": 1389,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "umaga",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Umaga"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51521",
+          "154533"
+        ],
+        "sourceEventIds": [
+          "7803"
+        ]
+      },
+      "legacyId": "bulk-match-51521",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7803"
+  ],
+  "legacy": {
+    "showFamily": "royal-rumble",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7803"
+    ]
+  }
+}

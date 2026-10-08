@@ -1,0 +1,213 @@
+{
+  "id": "wwe/smackdown/2019-08-06",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2019-08-06",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2019-08-06"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Dolph Ziggler vs. Ali",
+      "result": "Dolph Ziggler defeated Ali.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mustafa-ali",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dolph Ziggler",
+        "Ali"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-08-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83765",
+          "115632"
+        ],
+        "sourceEventIds": [
+          "13081"
+        ]
+      },
+      "legacyId": "bulk-match-83765",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Ember Moon, Natalya — double count-out.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "ember-moon",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Ember Moon",
+        "Natalya"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-08-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83766",
+          "115633"
+        ],
+        "sourceEventIds": [
+          "13081"
+        ]
+      },
+      "legacyId": "bulk-match-83766",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Aleister Black vs. Sami Zayn",
+      "result": "Aleister Black defeated Sami Zayn.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "aleister-black",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Aleister Black",
+        "Sami Zayn"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-08-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83767",
+          "115634"
+        ],
+        "sourceEventIds": [
+          "13081"
+        ]
+      },
+      "legacyId": "bulk-match-83767",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Big E, Xavier Woods vs. Daniel Bryan, Rowan",
+      "result": "Big E, Xavier Woods defeated Daniel Bryan, Rowan by disqualification.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "erick-rowan",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Big E",
+        "Xavier Woods",
+        "Daniel Bryan",
+        "Rowan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-08-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83768",
+          "115635"
+        ],
+        "sourceEventIds": [
+          "13081"
+        ]
+      },
+      "legacyId": "bulk-match-83768",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13081"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13081"
+    ]
+  }
+}

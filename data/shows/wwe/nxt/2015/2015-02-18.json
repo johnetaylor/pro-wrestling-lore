@@ -1,0 +1,164 @@
+{
+  "id": "wwe/nxt/2015-02-18",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2015-02-18",
+  "dateBasis": "aired",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwenxt/2015-02-18"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Kevin Owens vs. Finn Bálor",
+      "result": "Kevin Owens defeated Finn Bálor.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Finn Bálor"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2015-02-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "132157"
+        ],
+        "sourceEventIds": [
+          "19578",
+          "19579",
+          "19580"
+        ]
+      },
+      "legacyId": "bulk-match-132157",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Rhyno vs. Elias Samson",
+      "result": "Rhyno defeated Elias Samson.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "rhyno",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "elias-samson",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rhyno",
+        "Elias Samson"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2015-02-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "132166"
+        ],
+        "sourceEventIds": [
+          "19578",
+          "19579",
+          "19580"
+        ]
+      },
+      "legacyId": "bulk-match-132166",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Sami Zayn vs. Rhyno",
+      "result": "Sami Zayn defeated Rhyno.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rhyno",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sami Zayn",
+        "Rhyno"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2015-02-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "132162"
+        ],
+        "sourceEventIds": [
+          "19578",
+          "19579",
+          "19580"
+        ]
+      },
+      "legacyId": "bulk-match-132162",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-19578"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "19578",
+      "19579",
+      "19580"
+    ]
+  }
+}

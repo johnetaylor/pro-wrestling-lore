@@ -1,0 +1,402 @@
+{
+  "id": "wwe/raw/2022-06-06",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2022-06-06",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2022-06-06"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Becky Lynch, Dana Brooke — no contest.",
+      "matchType": "Singles match",
+      "duration": 60,
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "dana-brooke",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Dana Brooke"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2022-06-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8756",
+          "89226",
+          "107084"
+        ],
+        "sourceEventIds": [
+          "1520"
+        ]
+      },
+      "legacyId": "bulk-match-8756",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Dana Brooke vs. Akira Tozawa",
+      "result": "Dana Brooke defeated Akira Tozawa.",
+      "matchType": "Other match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "dana-brooke",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "akira-tozawa",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dana Brooke",
+        "Akira Tozawa"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2022-06-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8757",
+          "89227",
+          "107085"
+        ],
+        "sourceEventIds": [
+          "1520"
+        ]
+      },
+      "legacyId": "bulk-match-8757",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Dana Brooke vs. Becky Lynch",
+      "result": "Dana Brooke defeated Becky Lynch.",
+      "matchType": "Singles match",
+      "duration": 133,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "dana-brooke",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dana Brooke",
+        "Becky Lynch"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2022-06-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8758",
+          "89228",
+          "107086"
+        ],
+        "sourceEventIds": [
+          "1520"
+        ]
+      },
+      "legacyId": "bulk-match-8758",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Riddle vs. The Miz",
+      "result": "Riddle defeated The Miz.",
+      "matchType": "Singles match",
+      "duration": 133,
+      "participants": [
+        {
+          "person": "riddle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Riddle",
+        "The Miz"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2022-06-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8759",
+          "89229",
+          "107087"
+        ],
+        "sourceEventIds": [
+          "1520"
+        ]
+      },
+      "legacyId": "bulk-match-8759",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 6,
+      "type": "match",
+      "title": "Veer Mahaan vs. Dominik Mysterio",
+      "result": "Veer Mahaan defeated Dominik Mysterio by disqualification.",
+      "matchType": "Singles match",
+      "duration": 554,
+      "participants": [
+        {
+          "person": "veer-mahaan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Veer Mahaan",
+        "Dominik Mysterio"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2022-06-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8761",
+          "89231",
+          "107089"
+        ],
+        "sourceEventIds": [
+          "1520"
+        ]
+      },
+      "legacyId": "bulk-match-8761",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 7,
+      "type": "match",
+      "title": "Omos vs. Cedric Alexander",
+      "result": "Omos defeated Cedric Alexander.",
+      "matchType": "Singles match",
+      "duration": 7,
+      "participants": [
+        {
+          "person": "omos",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cedric-alexander",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Omos",
+        "Cedric Alexander"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2022-06-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8762",
+          "89232",
+          "107090"
+        ],
+        "sourceEventIds": [
+          "1520"
+        ]
+      },
+      "legacyId": "bulk-match-8762",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m7",
+      "order": 8,
+      "type": "match",
+      "title": "Ezekiel vs. Otis",
+      "result": "Ezekiel defeated Otis.",
+      "matchType": "Singles match",
+      "duration": 139,
+      "participants": [
+        {
+          "person": "ezekiel",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "otis",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ezekiel",
+        "Otis"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2022-06-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8763",
+          "89233",
+          "107091"
+        ],
+        "sourceEventIds": [
+          "1520"
+        ]
+      },
+      "legacyId": "bulk-match-8763",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m8",
+      "order": 9,
+      "type": "match",
+      "title": "Rhea Ripley vs. Alexa Bliss, Doudrop, Liv Morgan",
+      "result": "Rhea Ripley defeated Alexa Bliss, Doudrop, Liv Morgan.",
+      "matchType": "Other match",
+      "duration": 858,
+      "participants": [
+        {
+          "person": "rhea-ripley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "piper-niven",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rhea Ripley",
+        "Alexa Bliss",
+        "Doudrop",
+        "Liv Morgan"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2022-06-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8764",
+          "89234",
+          "107092"
+        ],
+        "sourceEventIds": [
+          "1520"
+        ]
+      },
+      "legacyId": "bulk-match-8764",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1520"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1520"
+    ]
+  }
+}

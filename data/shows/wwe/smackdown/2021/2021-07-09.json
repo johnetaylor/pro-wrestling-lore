@@ -1,0 +1,171 @@
+{
+  "id": "wwe/smackdown/2021-07-09",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2021-07-09",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2021-07-09"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "King Nakamura vs. Baron Corbin",
+      "result": "King Nakamura defeated Baron Corbin.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "King Nakamura",
+        "Baron Corbin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-07-09"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87236",
+          "110457"
+        ],
+        "sourceEventIds": [
+          "13714"
+        ]
+      },
+      "legacyId": "bulk-match-87236",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Nox, Shotzi vs. Natalya, Tamina",
+      "result": "Nox, Shotzi defeated Natalya, Tamina.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "nox",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shotzi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tamina",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Nox",
+        "Shotzi",
+        "Natalya",
+        "Tamina"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-07-09"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87237",
+          "110458"
+        ],
+        "sourceEventIds": [
+          "13714"
+        ]
+      },
+      "legacyId": "bulk-match-87237",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Seth Rollins vs. Cesaro",
+      "result": "Seth Rollins defeated Cesaro.",
+      "matchType": "Singles match",
+      "duration": 1097,
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Seth Rollins",
+        "Cesaro"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-07-09"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87238",
+          "110459"
+        ],
+        "sourceEventIds": [
+          "13714"
+        ]
+      },
+      "legacyId": "bulk-match-87238",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13714"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13714"
+    ]
+  }
+}

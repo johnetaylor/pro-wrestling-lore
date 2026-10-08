@@ -1,0 +1,176 @@
+{
+  "id": "wwe/smackdown/2024-03-22",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2024-03-22",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2024-03-22"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Santos Escobar vs. Rey Mysterio",
+      "result": "Santos Escobar defeated Rey Mysterio.",
+      "matchType": "Singles match",
+      "duration": 754,
+      "participants": [
+        {
+          "person": "santos-escobar",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Santos Escobar",
+        "Rey Mysterio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-03-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "1881",
+          "93786",
+          "100209"
+        ],
+        "sourceEventIds": [
+          "377"
+        ]
+      },
+      "legacyId": "bulk-match-1881",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Austin Theory, Grayson Waller vs. Karl Anderson, Luke Gallows",
+      "result": "Austin Theory, Grayson Waller defeated Karl Anderson, Luke Gallows.",
+      "matchType": "4-person match",
+      "duration": 414,
+      "participants": [
+        {
+          "person": "austin-theory",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "grayson-waller",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "karl-anderson",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "luke-gallows",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Austin Theory",
+        "Grayson Waller",
+        "Karl Anderson",
+        "Luke Gallows"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-03-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "1882",
+          "93787",
+          "100210"
+        ],
+        "sourceEventIds": [
+          "377"
+        ]
+      },
+      "legacyId": "bulk-match-1882",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "IYO SKY vs. Naomi",
+      "result": "IYO SKY defeated Naomi.",
+      "matchType": "Singles match",
+      "duration": 536,
+      "participants": [
+        {
+          "person": "iyo-sky",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "IYO SKY",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-03-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "1883",
+          "93788",
+          "100211"
+        ],
+        "sourceEventIds": [
+          "377"
+        ]
+      },
+      "legacyId": "bulk-match-1883",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-377"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "377"
+    ]
+  }
+}

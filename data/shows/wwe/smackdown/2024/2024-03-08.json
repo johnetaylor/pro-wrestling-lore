@@ -1,0 +1,221 @@
+{
+  "id": "wwe/smackdown/2024-03-08",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2024-03-08",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2024-03-08"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Kevin Owens, Randy Orton vs. Austin Theory, Grayson Waller",
+      "result": "Kevin Owens, Randy Orton defeated Austin Theory, Grayson Waller.",
+      "matchType": "4-person match",
+      "duration": 587,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "austin-theory",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "grayson-waller",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Randy Orton",
+        "Austin Theory",
+        "Grayson Waller"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-03-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "2011",
+          "93702",
+          "100339"
+        ],
+        "sourceEventIds": [
+          "401"
+        ]
+      },
+      "legacyId": "bulk-match-2011",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Bobby Lashley vs. Karrion Kross",
+      "result": "Bobby Lashley defeated Karrion Kross by disqualification.",
+      "matchType": "Singles match",
+      "duration": 519,
+      "participants": [
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "karrion-kross",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Bobby Lashley",
+        "Karrion Kross"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-03-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "2012",
+          "93703",
+          "100340"
+        ],
+        "sourceEventIds": [
+          "401"
+        ]
+      },
+      "legacyId": "bulk-match-2012",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Tiffany Stratton vs. Michin",
+      "result": "Tiffany Stratton defeated Michin.",
+      "matchType": "Singles match",
+      "duration": 149,
+      "participants": [
+        {
+          "person": "tiffany-stratton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "michin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tiffany Stratton",
+        "Michin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-03-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "2013",
+          "93704",
+          "100341"
+        ],
+        "sourceEventIds": [
+          "401"
+        ]
+      },
+      "legacyId": "bulk-match-2013",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Dragon Lee vs. Angel",
+      "result": "Dragon Lee defeated Angel.",
+      "matchType": "Singles match",
+      "duration": 436,
+      "participants": [
+        {
+          "person": "dragon-lee",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "angel",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dragon Lee",
+        "Angel"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-03-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "2014",
+          "93705",
+          "100342"
+        ],
+        "sourceEventIds": [
+          "401"
+        ]
+      },
+      "legacyId": "bulk-match-2014",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-401"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "401"
+    ]
+  }
+}

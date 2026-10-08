@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2022-01-14",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2022-01-14",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2022-01-14"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Aliyah vs. Natalya",
+      "result": "Aliyah defeated Natalya.",
+      "matchType": "Singles match",
+      "duration": 3,
+      "participants": [
+        {
+          "person": "aliyah",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Aliyah",
+        "Natalya"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-01-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88366",
+          "108523"
+        ],
+        "sourceEventIds": [
+          "13904"
+        ]
+      },
+      "legacyId": "bulk-match-88366",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Sheamus vs. Ricochet",
+      "result": "Sheamus defeated Ricochet.",
+      "matchType": "Singles match",
+      "duration": 597,
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Ricochet"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-01-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88367",
+          "108524"
+        ],
+        "sourceEventIds": [
+          "13904"
+        ]
+      },
+      "legacyId": "bulk-match-88367",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Madcap Moss vs. Kofi Kingston",
+      "result": "Madcap Moss defeated Kofi Kingston.",
+      "matchType": "Singles match",
+      "duration": 340,
+      "participants": [
+        {
+          "person": "madcap-moss",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Madcap Moss",
+        "Kofi Kingston"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-01-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88368",
+          "108525"
+        ],
+        "sourceEventIds": [
+          "13904"
+        ]
+      },
+      "legacyId": "bulk-match-88368",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13904"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13904"
+    ]
+  }
+}

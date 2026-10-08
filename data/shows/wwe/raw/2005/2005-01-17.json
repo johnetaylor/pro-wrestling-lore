@@ -1,0 +1,205 @@
+{
+  "id": "wwe/raw/2005-01-17",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2005-01-17",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Shawn Michaels vs. Christian",
+      "result": "Shawn Michaels defeated Christian.",
+      "matchType": "Singles match",
+      "duration": 382,
+      "participants": [
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shawn Michaels",
+        "Christian"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48646",
+          "157973"
+        ],
+        "sourceEventIds": [
+          "7275"
+        ]
+      },
+      "legacyId": "bulk-match-48646",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Batista vs. Viscera",
+      "result": "Batista defeated Viscera.",
+      "matchType": "Singles match",
+      "duration": 144,
+      "participants": [
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "viscera",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Batista",
+        "Viscera"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48647",
+          "157974"
+        ],
+        "sourceEventIds": [
+          "7275"
+        ]
+      },
+      "legacyId": "bulk-match-48647",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Chris Jericho vs. Chris Benoit",
+      "result": "Chris Jericho defeated Chris Benoit.",
+      "matchType": "Singles match",
+      "duration": 762,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Chris Benoit"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48648",
+          "157975"
+        ],
+        "sourceEventIds": [
+          "7275"
+        ]
+      },
+      "legacyId": "bulk-match-48648",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Other match",
+      "result": "Kane, Gene Snitsky — no contest.",
+      "matchType": "Other match",
+      "duration": 376,
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "gene-snitsky",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "Gene Snitsky"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48649",
+          "157976"
+        ],
+        "sourceEventIds": [
+          "7275"
+        ]
+      },
+      "legacyId": "bulk-match-48649",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7275"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7275"
+    ]
+  }
+}

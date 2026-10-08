@@ -1,0 +1,121 @@
+{
+  "id": "wwe/smackdown/2019-11-22",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2019-11-22",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2019-11-22"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rhea Ripley vs. Charlotte Flair, Sasha Banks",
+      "result": "Rhea Ripley defeated Charlotte Flair, Sasha Banks.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "rhea-ripley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rhea Ripley",
+        "Charlotte Flair",
+        "Sasha Banks"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-11-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "84631",
+          "114670"
+        ],
+        "sourceEventIds": [
+          "13215"
+        ]
+      },
+      "legacyId": "bulk-match-84631",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Daniel Bryan, The Miz — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "The Miz"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-11-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "84633",
+          "114672"
+        ],
+        "sourceEventIds": [
+          "13215"
+        ]
+      },
+      "legacyId": "bulk-match-84633",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13215"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13215"
+    ]
+  }
+}

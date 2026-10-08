@@ -1,0 +1,185 @@
+{
+  "id": "wwe/smackdown/2008-10-28",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2008-10-28",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Jimmy Wang Yang vs. The Brian Kendrick",
+      "result": "Jimmy Wang Yang defeated The Brian Kendrick by disqualification.",
+      "matchType": "Singles match",
+      "duration": 167,
+      "participants": [
+        {
+          "person": "jimmy-wang-yang",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "brian-kendrick",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Jimmy Wang Yang",
+        "The Brian Kendrick"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53750",
+          "151705"
+        ],
+        "sourceEventIds": [
+          "8199"
+        ]
+      },
+      "legacyId": "bulk-match-53750",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Jeff Hardy, Matt Hardy, Rey Mysterio vs. Kane, Mark Henry, Montel Vontavious Porter",
+      "result": "Jeff Hardy, Matt Hardy, Rey Mysterio defeated Kane, Mark Henry, Montel Vontavious Porter.",
+      "matchType": "Tag Team match",
+      "duration": 666,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "montel-vontavious-porter",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Matt Hardy",
+        "Rey Mysterio",
+        "Kane",
+        "Mark Henry",
+        "Montel Vontavious Porter"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53751",
+          "151706"
+        ],
+        "sourceEventIds": [
+          "8199"
+        ]
+      },
+      "legacyId": "bulk-match-53751",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "The Undertaker vs. Chavo Guerrero",
+      "result": "The Undertaker defeated Chavo Guerrero.",
+      "matchType": "Other match",
+      "duration": 422,
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chavo-guerrero",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "Chavo Guerrero"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53753",
+          "151708"
+        ],
+        "sourceEventIds": [
+          "8199"
+        ]
+      },
+      "legacyId": "bulk-match-53753",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8199"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8199"
+    ]
+  }
+}

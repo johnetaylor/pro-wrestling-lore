@@ -1,0 +1,315 @@
+{
+  "id": "wwe/royal-rumble/2025-02-01",
+  "promotion": "wwe",
+  "series": "wwe/royal-rumble",
+  "name": "Royal Rumble 2025",
+  "date": "2025-02-01",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "legacyCardStatus": "Card indexed",
+    "legacySegmentStatus": "Partial recap coverage · not a full appearance audit"
+  },
+  "sources": [
+    "https://www.thesmackdownhotel.com/events-results/ppv-special/wwe-royal-rumble-2025"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Charlotte Flair won Royal Rumble 30-Woman Match",
+      "result": "Charlotte Flair won Royal Rumble 30-Woman Match.",
+      "context": "Royal Rumble 30-Woman Match. Open the linked recap for the finish and surrounding story.",
+      "matchType": "Royal Rumble 30-Woman Match",
+      "unlinked": true,
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/ppv-special/wwe-royal-rumble-2025"
+      ],
+      "legacyId": "2025-02-01-royal-rumble-2025-match-1",
+      "legacy": {
+        "kind": "match"
+      },
+      "participants": []
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Tommaso Ciampa & Johnny Gargano vs. Alex Shelley & Chris Sabin",
+      "result": "Tommaso Ciampa & Johnny Gargano defeated Alex Shelley & Chris Sabin to retain the Titles [2-1].",
+      "context": "WWE Tag Team Championship 2 out of 3 Falls Match. Open the linked recap for the finish and surrounding story.",
+      "matchType": "WWE Tag Team Championship 2 out of 3 Falls Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "johnny-gargano",
+          "role": "competitor"
+        },
+        {
+          "person": "tommaso-ciampa",
+          "role": "competitor"
+        },
+        {
+          "person": "alex-shelley",
+          "role": "competitor"
+        },
+        {
+          "person": "chris-sabin",
+          "role": "competitor"
+        }
+      ],
+      "rating": {
+        "sources": [
+          {
+            "provider": "cagematch",
+            "value": 5.81,
+            "unit": "points",
+            "url": "https://www.cagematch.net/?id=1&nr=398090",
+            "checked": "2026-10-05",
+            "votes": 717
+          },
+          {
+            "provider": "observer",
+            "value": 3.25,
+            "unit": "stars",
+            "url": "https://www.cagematch.net/?id=1&nr=398090",
+            "checked": "2026-10-05"
+          },
+          {
+            "provider": "411mania",
+            "value": 4.25,
+            "unit": "stars",
+            "url": "https://411mania.com/wrestling/slimmers-wwe-royal-rumble-2025-review/",
+            "checked": "2026-10-05",
+            "reviewer": "Scott Slimmer"
+          }
+        ],
+        "matchCheck": {
+          "method": "date + exact indexed participant set",
+          "sourceFixture": "#DIY (Johnny Gargano & Tommaso Ciampa) (c) defeat The Motor City Machine Guns (Alex Shelley & Chris Sabin) [2:1] (14:00)",
+          "eventUrl": "https://www.cagematch.net/?id=1&nr=398090"
+        }
+      },
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/ppv-special/wwe-royal-rumble-2025"
+      ],
+      "legacyId": "2025-02-01-royal-rumble-2025-match-2",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Cody Rhodes vs. Kevin Owens",
+      "result": "Cody Rhodes defeated Kevin Owens to retain the Title.",
+      "context": "Undisputed WWE Championship Ladder Match. Open the linked recap for the finish and surrounding story.",
+      "matchType": "Undisputed WWE Championship Ladder Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor"
+        }
+      ],
+      "rating": {
+        "sources": [
+          {
+            "provider": "cagematch",
+            "value": 8.12,
+            "unit": "points",
+            "url": "https://www.cagematch.net/?id=1&nr=398090",
+            "checked": "2026-10-05",
+            "votes": 903
+          },
+          {
+            "provider": "observer",
+            "value": 4.5,
+            "unit": "stars",
+            "url": "https://www.cagematch.net/?id=1&nr=398090",
+            "checked": "2026-10-05"
+          },
+          {
+            "provider": "411mania",
+            "value": 4.5,
+            "unit": "stars",
+            "url": "https://411mania.com/wrestling/slimmers-wwe-royal-rumble-2025-review/",
+            "checked": "2026-10-05",
+            "reviewer": "Scott Slimmer"
+          }
+        ],
+        "matchCheck": {
+          "method": "date + exact indexed participant set",
+          "sourceFixture": "Cody Rhodes (c) defeats Kevin Owens (25:22)",
+          "eventUrl": "https://www.cagematch.net/?id=1&nr=398090"
+        }
+      },
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/ppv-special/wwe-royal-rumble-2025"
+      ],
+      "legacyId": "2025-02-01-royal-rumble-2025-match-3",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Jey Uso won Royal Rumble 30-Man Match",
+      "result": "Jey Uso won Royal Rumble 30-Man Match.",
+      "context": "Royal Rumble 30-Man Match. Open the linked recap for the finish and surrounding story.",
+      "matchType": "Royal Rumble 30-Man Match",
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor"
+        },
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor"
+        },
+        {
+          "person": "braun-strowman",
+          "role": "competitor"
+        },
+        {
+          "person": "santos-escobar",
+          "role": "competitor"
+        },
+        {
+          "person": "bron-breakker",
+          "role": "competitor"
+        },
+        {
+          "person": "carmelo-hayes",
+          "role": "competitor"
+        },
+        {
+          "person": "damian-priest",
+          "role": "competitor"
+        },
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor"
+        },
+        {
+          "person": "ludwig-kaiser",
+          "role": "competitor"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor"
+        },
+        {
+          "person": "ishowspeed",
+          "role": "competitor"
+        },
+        {
+          "person": "jacob-fatu",
+          "role": "competitor"
+        },
+        {
+          "person": "joe-hendry",
+          "role": "competitor"
+        },
+        {
+          "person": "logan-paul",
+          "role": "competitor"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor"
+        },
+        {
+          "person": "jimmy-uso",
+          "role": "competitor"
+        },
+        {
+          "person": "la-knight",
+          "role": "competitor"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor"
+        },
+        {
+          "person": "cm-punk",
+          "role": "competitor"
+        },
+        {
+          "person": "jey-uso",
+          "role": "competitor"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor"
+        },
+        {
+          "person": "andrade",
+          "role": "competitor"
+        },
+        {
+          "person": "penta",
+          "role": "competitor"
+        },
+        {
+          "person": "otis",
+          "role": "competitor"
+        }
+      ],
+      "rating": {
+        "sources": [
+          {
+            "provider": "411mania",
+            "value": 4.5,
+            "unit": "stars",
+            "url": "https://411mania.com/wrestling/slimmers-wwe-royal-rumble-2025-review/",
+            "checked": "2026-10-05",
+            "reviewer": "Scott Slimmer"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/ppv-special/wwe-royal-rumble-2025"
+      ],
+      "legacyId": "2025-02-01-royal-rumble-2025-match-4",
+      "legacy": {
+        "kind": "match"
+      }
+    }
+  ],
+  "legacyIds": [
+    "2025-02-01-royal-rumble-2025"
+  ],
+  "legacy": {
+    "showFamily": "royal-rumble"
+  }
+}

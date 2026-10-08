@@ -1,0 +1,89 @@
+{
+  "id": "rodriguez",
+  "name": "Rodríguez · Máscaras",
+  "description": "Mil Máscaras, Dos Caras and Sicodélico are brothers; Alberto is Dos Caras’s son.",
+  "branches": [
+    {
+      "id": "rodriguez",
+      "name": "The Rodríguez · Máscaras family"
+    }
+  ],
+  "members": [
+    {
+      "id": "mil-mascaras",
+      "name": "Mil Máscaras",
+      "person": "mil-mascaras",
+      "branch": "rodriguez",
+      "source": "rodriguez",
+      "layout": {
+        "x": 16,
+        "y": 24
+      }
+    },
+    {
+      "id": "dos-caras",
+      "name": "Dos Caras",
+      "person": "dos-caras",
+      "branch": "rodriguez",
+      "source": "rodriguez",
+      "layout": {
+        "x": 196,
+        "y": 24
+      }
+    },
+    {
+      "id": "sicodelico",
+      "name": "El Sicodélico",
+      "branch": "rodriguez",
+      "aliases": [
+        "Sicodelico"
+      ],
+      "source": "rodriguez",
+      "layout": {
+        "x": 376,
+        "y": 24
+      }
+    },
+    {
+      "id": "alberto-del-rio",
+      "name": "Alberto Del Rio / Dos Caras Jr.",
+      "person": "alberto-del-rio",
+      "branch": "rodriguez",
+      "aliases": [
+        "Alberto Del Rio",
+        "Alberto El Patron"
+      ],
+      "source": "rodriguez",
+      "layout": {
+        "x": 196,
+        "y": 164
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "mil-mascaras",
+      "b": "dos-caras",
+      "type": "sibling",
+      "source": "rodriguez"
+    },
+    {
+      "a": "dos-caras",
+      "b": "sicodelico",
+      "type": "sibling",
+      "source": "rodriguez"
+    },
+    {
+      "a": "dos-caras",
+      "b": "alberto-del-rio",
+      "type": "parent",
+      "source": "rodriguez"
+    }
+  ],
+  "sources": {
+    "rodriguez": {
+      "label": "Luchawiki: Rodríguez family",
+      "url": "https://www.luchawiki.org/index.php/Rodr%C3%ADguez_Family"
+    }
+  }
+}

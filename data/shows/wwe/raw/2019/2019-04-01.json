@@ -1,0 +1,172 @@
+{
+  "id": "wwe/raw/2019-04-01",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2019-04-01",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2019-04-01"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Apollo Crews vs. Jinder Mahal",
+      "result": "Apollo Crews defeated Jinder Mahal.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "apollo-crews",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Apollo Crews",
+        "Jinder Mahal"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-04-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82835",
+          "116612"
+        ],
+        "sourceEventIds": [
+          "12918"
+        ]
+      },
+      "legacyId": "bulk-match-82835",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Dash Wilder, Scott Dawson vs. Aleister Black, Ricochet",
+      "result": "Dash Wilder, Scott Dawson defeated Aleister Black, Ricochet by count-out.",
+      "matchType": "4-person match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "dash-wilder",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "scott-dawson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aleister-black",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Dash Wilder",
+        "Scott Dawson",
+        "Aleister Black",
+        "Ricochet"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-04-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82836",
+          "116613"
+        ],
+        "sourceEventIds": [
+          "12918"
+        ]
+      },
+      "legacyId": "bulk-match-82836",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 7,
+      "type": "match",
+      "title": "Baron Corbin vs. Rey Mysterio",
+      "result": "Baron Corbin defeated Rey Mysterio.",
+      "matchType": "Singles match",
+      "duration": 815,
+      "participants": [
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Baron Corbin",
+        "Rey Mysterio"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-04-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82840",
+          "116617"
+        ],
+        "sourceEventIds": [
+          "12918"
+        ]
+      },
+      "legacyId": "bulk-match-82840",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12918"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12918"
+    ]
+  }
+}

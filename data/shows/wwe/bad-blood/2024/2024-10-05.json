@@ -1,0 +1,327 @@
+{
+  "id": "wwe/bad-blood/2024-10-05",
+  "promotion": "wwe",
+  "series": "wwe/bad-blood",
+  "name": "Bad Blood 2024",
+  "date": "2024-10-05",
+  "category": "PLE",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "note": "Hugging Face import · official-results comparison. Unverified extra matches were excluded.",
+    "legacyCardStatus": "Imported card compared with official WWE results",
+    "legacySegmentStatus": "Partial; the match dataset does not contain a promo/appearance archive"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/bad-blood/2024/results"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "CM Punk vs. Drew McIntyre",
+      "result": "CM Punk defeated Drew McIntyre.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Hell In A Cell Match",
+      "participants": [
+        {
+          "person": "cm-punk",
+          "role": "competitor"
+        },
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "CM Punk",
+        "Drew McIntyre"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/bad-blood/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/bad-blood/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15055",
+        "sourceMatchIds": [
+          "95040"
+        ],
+        "rawInputSha256": "129eb483246a90f6d372433e07adf67488b3f19aa441099b0584e0816fcf764e",
+        "normalizedParticipants": [
+          {
+            "name": "CM Punk",
+            "result": "win"
+          },
+          {
+            "name": "Drew McIntyre",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/bad-blood/2024/results"
+      },
+      "legacyId": "hf-match-95040",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Nia Jax vs. Bayley",
+      "result": "Nia Jax defeated Bayley.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "nia-jax",
+          "role": "competitor"
+        },
+        {
+          "person": "bayley",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Nia Jax",
+        "Bayley"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/bad-blood/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/bad-blood/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15055",
+        "sourceMatchIds": [
+          "95041"
+        ],
+        "rawInputSha256": "c3c67f1bc77a84fd36c90780b91c41ba367afa40dac6363d6537082792347774",
+        "normalizedParticipants": [
+          {
+            "name": "Nia Jax",
+            "result": "win"
+          },
+          {
+            "name": "Bayley",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/bad-blood/2024/results"
+      },
+      "legacyId": "hf-match-95041",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Damian Priest vs. Finn Bálor",
+      "result": "Damian Priest defeated Finn Bálor.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "participants": [
+        {
+          "person": "damian-priest",
+          "role": "competitor"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Damian Priest",
+        "Finn Bálor"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/bad-blood/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/bad-blood/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15055",
+        "sourceMatchIds": [
+          "95042"
+        ],
+        "rawInputSha256": "19fc98a58e87fdc182a84ff4cd318f0346170160ddcabdfbd27a2700d7575cff",
+        "normalizedParticipants": [
+          {
+            "name": "Damian Priest",
+            "result": "win"
+          },
+          {
+            "name": "Finn Bálor",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/bad-blood/2024/results"
+      },
+      "legacyId": "hf-match-95042",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Rhea Ripley vs. Liv Morgan",
+      "result": "Rhea Ripley defeated Liv Morgan by disqualification.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "rhea-ripley",
+          "role": "competitor"
+        },
+        {
+          "person": "liv-morgan",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Rhea Ripley",
+        "Liv Morgan"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/bad-blood/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/bad-blood/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15055",
+        "sourceMatchIds": [
+          "95043"
+        ],
+        "rawInputSha256": "488a8d6cc8c4cce0db4e9e65d81605eacbed8e44cfcc8fd505c80215fc71b34b",
+        "normalizedParticipants": [
+          {
+            "name": "Rhea Ripley",
+            "result": "win"
+          },
+          {
+            "name": "Liv Morgan",
+            "result": "dq"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/bad-blood/2024/results"
+      },
+      "legacyId": "hf-match-95043",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m5",
+      "type": "match",
+      "title": "Cody Rhodes & Roman Reigns vs. Jacob Fatu, Solo Sikoa",
+      "result": "Cody Rhodes & Roman Reigns defeated Jacob Fatu, Solo Sikoa.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Tag Team Match",
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor"
+        },
+        {
+          "person": "jacob-fatu",
+          "role": "competitor"
+        },
+        {
+          "person": "solo-sikoa",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Roman Reigns",
+        "Jacob Fatu",
+        "Solo Sikoa"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/bad-blood/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/bad-blood/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15055",
+        "sourceMatchIds": [
+          "95044"
+        ],
+        "rawInputSha256": "5b223b1bd4d0fe7994b357d6d7e9eeb1b4106bf346c0e073c72a4b7cbb785e19",
+        "normalizedParticipants": [
+          {
+            "name": "Cody Rhodes",
+            "result": "win"
+          },
+          {
+            "name": "Roman Reigns",
+            "result": "win"
+          },
+          {
+            "name": "Jacob Fatu",
+            "result": "loss"
+          },
+          {
+            "name": "Solo Sikoa",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/bad-blood/2024/results"
+      },
+      "legacyId": "hf-match-95044",
+      "legacy": {
+        "kind": "match"
+      }
+    }
+  ],
+  "legacyIds": [
+    "hf-event-15055"
+  ],
+  "legacy": {
+    "showFamily": "bad-blood",
+    "importBatch": "ringside-2024-ple"
+  }
+}

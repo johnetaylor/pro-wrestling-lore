@@ -1,0 +1,222 @@
+{
+  "id": "wwe/smackdown/2023-01-06",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2023-01-06",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2023-01-06"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Santos Escobar vs. Kofi Kingston",
+      "result": "Santos Escobar defeated Kofi Kingston.",
+      "matchType": "Singles match",
+      "duration": 605,
+      "participants": [
+        {
+          "person": "santos-escobar",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Santos Escobar",
+        "Kofi Kingston"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-01-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6309",
+          "90789",
+          "104637"
+        ],
+        "sourceEventIds": [
+          "1133"
+        ]
+      },
+      "legacyId": "bulk-match-6309",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Karrion Kross, Scarlett vs. Emma, Madcap Moss",
+      "result": "Karrion Kross, Scarlett defeated Emma, Madcap Moss.",
+      "matchType": "4-person match",
+      "duration": 188,
+      "participants": [
+        {
+          "person": "karrion-kross",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "scarlett",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "emma",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "madcap-moss",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Karrion Kross",
+        "Scarlett",
+        "Emma",
+        "Madcap Moss"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-01-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6310",
+          "90790",
+          "104638"
+        ],
+        "sourceEventIds": [
+          "1133"
+        ]
+      },
+      "legacyId": "bulk-match-6310",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Charlotte Flair vs. Sonya Deville",
+      "result": "Charlotte Flair defeated Sonya Deville.",
+      "matchType": "Singles match",
+      "duration": 406,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sonya-deville",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Sonya Deville"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-01-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6311",
+          "90791",
+          "104639"
+        ],
+        "sourceEventIds": [
+          "1133"
+        ]
+      },
+      "legacyId": "bulk-match-6311",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Ricochet vs. Top Dolla",
+      "result": "Ricochet defeated Top Dolla.",
+      "matchType": "Singles match",
+      "duration": 117,
+      "participants": [
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "top-dolla",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ricochet",
+        "Top Dolla"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-01-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6312",
+          "90792",
+          "104640"
+        ],
+        "sourceEventIds": [
+          "1133"
+        ]
+      },
+      "legacyId": "bulk-match-6312",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1133"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1133"
+    ]
+  }
+}

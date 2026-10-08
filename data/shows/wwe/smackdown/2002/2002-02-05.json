@@ -1,0 +1,168 @@
+{
+  "id": "wwe/smackdown/2002-02-05",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2002-02-05",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2002/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "The Rock vs. Booker T.",
+      "result": "The Rock defeated Booker T..",
+      "matchType": "Singles match",
+      "duration": 269,
+      "participants": [
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Rock",
+        "Booker T."
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44122",
+          "162850"
+        ],
+        "sourceEventIds": [
+          "6482"
+        ]
+      },
+      "legacyId": "bulk-match-44122",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Maven vs. The Undertaker",
+      "result": "Maven defeated The Undertaker.",
+      "matchType": "Other match",
+      "duration": 334,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "maven",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Maven",
+        "The Undertaker"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44124",
+          "162852"
+        ],
+        "sourceEventIds": [
+          "6482"
+        ]
+      },
+      "legacyId": "bulk-match-44124",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Chris Jericho, Kurt Angle vs. Triple H",
+      "result": "Chris Jericho, Kurt Angle defeated Triple H.",
+      "matchType": "Tag Team match",
+      "duration": 403,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Kurt Angle",
+        "Triple H"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44125",
+          "162853"
+        ],
+        "sourceEventIds": [
+          "6482"
+        ]
+      },
+      "legacyId": "bulk-match-44125",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6482"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6482"
+    ]
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "id": "wwe/smackdown/2023-09-01",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2023-09-01",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2023-09-01"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Austin Theory, Grayson Waller vs. Rey Mysterio, Santos Escobar",
+      "result": "Austin Theory, Grayson Waller defeated Rey Mysterio, Santos Escobar.",
+      "matchType": "4-person match",
+      "duration": 485,
+      "participants": [
+        {
+          "person": "austin-theory",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "grayson-waller",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "santos-escobar",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Austin Theory",
+        "Grayson Waller",
+        "Rey Mysterio",
+        "Santos Escobar"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-09-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3998",
+          "92378",
+          "102326"
+        ],
+        "sourceEventIds": [
+          "732"
+        ]
+      },
+      "legacyId": "bulk-match-3998",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Kevin Owens, Sami Zayn vs. Cruz Del Toro, Joaquin Wilde",
+      "result": "Kevin Owens, Sami Zayn defeated Cruz Del Toro, Joaquin Wilde.",
+      "matchType": "4-person match",
+      "duration": 148,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cruz-del-toro",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "joaquin-wilde",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Sami Zayn",
+        "Cruz Del Toro",
+        "Joaquin Wilde"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-09-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3999",
+          "92379",
+          "102327"
+        ],
+        "sourceEventIds": [
+          "732"
+        ]
+      },
+      "legacyId": "bulk-match-3999",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Shotzi vs. Bayley",
+      "result": "Shotzi defeated Bayley.",
+      "matchType": "Singles match",
+      "duration": 549,
+      "participants": [
+        {
+          "person": "shotzi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shotzi",
+        "Bayley"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-09-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "4000",
+          "92380",
+          "102328"
+        ],
+        "sourceEventIds": [
+          "732"
+        ]
+      },
+      "legacyId": "bulk-match-4000",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Solo Sikoa vs. A.J. Styles",
+      "result": "Solo Sikoa defeated A.J. Styles.",
+      "matchType": "Singles match",
+      "duration": 724,
+      "participants": [
+        {
+          "person": "solo-sikoa",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Solo Sikoa",
+        "A.J. Styles"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-09-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "4001",
+          "92381",
+          "102329"
+        ],
+        "sourceEventIds": [
+          "732"
+        ]
+      },
+      "legacyId": "bulk-match-4001",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-732"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "732"
+    ]
+  }
+}

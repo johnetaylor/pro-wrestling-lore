@@ -1,0 +1,194 @@
+{
+  "id": "wwe/smackdown/2022-08-19",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2022-08-19",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2022-08-19"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Gigi Dolin, Jacy Jayne vs. Natalya, Sonya Deville",
+      "result": "Gigi Dolin, Jacy Jayne defeated Natalya, Sonya Deville.",
+      "matchType": "4-person match",
+      "duration": 599,
+      "participants": [
+        {
+          "person": "gigi-dolin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jacy-jayne",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sonya-deville",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Gigi Dolin",
+        "Jacy Jayne",
+        "Natalya",
+        "Sonya Deville"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-08-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "7916",
+          "89782",
+          "106244"
+        ],
+        "sourceEventIds": [
+          "1392"
+        ]
+      },
+      "legacyId": "bulk-match-7916",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Sheamus vs. Happy Corbin, Madcap Moss, Ricochet, Sami Zayn",
+      "result": "Sheamus defeated Happy Corbin, Madcap Moss, Ricochet, Sami Zayn.",
+      "matchType": "Other match",
+      "duration": 1344,
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "madcap-moss",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Happy Corbin",
+        "Madcap Moss",
+        "Ricochet",
+        "Sami Zayn"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-08-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "7917",
+          "89783",
+          "106245"
+        ],
+        "sourceEventIds": [
+          "1392"
+        ]
+      },
+      "legacyId": "bulk-match-7917",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Liv Morgan vs. Shotzi",
+      "result": "Liv Morgan defeated Shotzi.",
+      "matchType": "Singles match",
+      "duration": 362,
+      "participants": [
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shotzi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Liv Morgan",
+        "Shotzi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-08-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "7918",
+          "89784",
+          "106246"
+        ],
+        "sourceEventIds": [
+          "1392"
+        ]
+      },
+      "legacyId": "bulk-match-7918",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1392"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1392"
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "id": "wwe/smackdown/2001-04-03",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2001-04-03",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2001/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Kurt Angle, William Regal vs. Chris Benoit",
+      "result": "Kurt Angle, William Regal defeated Chris Benoit.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "William Regal",
+        "Chris Benoit"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42193",
+          "164818"
+        ],
+        "sourceEventIds": [
+          "6224"
+        ]
+      },
+      "legacyId": "bulk-match-42193",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Jeff Hardy vs. The Big Show",
+      "result": "Jeff Hardy defeated The Big Show.",
+      "matchType": "Singles match",
+      "duration": 187,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "The Big Show"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42194",
+          "164819"
+        ],
+        "sourceEventIds": [
+          "6224"
+        ]
+      },
+      "legacyId": "bulk-match-42194",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Albert, Justin Credible, X-Pac vs. Billy Gunn, Grandmaster Sexay, Steve Blackman",
+      "result": "Albert, Justin Credible, X-Pac defeated Billy Gunn, Grandmaster Sexay, Steve Blackman.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "tensai",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aldo-montoya",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "x-pac",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "grand-master-sexay",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "steve-blackman",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Albert",
+        "Justin Credible",
+        "X-Pac",
+        "Billy Gunn",
+        "Grandmaster Sexay",
+        "Steve Blackman"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42195",
+          "164820"
+        ],
+        "sourceEventIds": [
+          "6224"
+        ]
+      },
+      "legacyId": "bulk-match-42195",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Triple H vs. Chris Jericho",
+      "result": "Triple H defeated Chris Jericho.",
+      "matchType": "Singles match",
+      "duration": 450,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "Chris Jericho"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42196",
+          "164821"
+        ],
+        "sourceEventIds": [
+          "6224"
+        ]
+      },
+      "legacyId": "bulk-match-42196",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6224"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6224"
+    ]
+  }
+}

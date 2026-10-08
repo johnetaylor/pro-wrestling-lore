@@ -1,0 +1,223 @@
+{
+  "id": "wwe/smackdown/2019-01-08",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2019-01-08",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2019-01-08"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Daniel Bryan vs. R-Truth",
+      "result": "Daniel Bryan defeated R-Truth.",
+      "matchType": "Singles match",
+      "duration": 251,
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "R-Truth"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-01-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82233",
+          "117215"
+        ],
+        "sourceEventIds": [
+          "12815"
+        ]
+      },
+      "legacyId": "bulk-match-82233",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Andrade \"Cien\" Almas, Samoa Joe vs. Mustafa Ali, Rey Mysterio",
+      "result": "Andrade \"Cien\" Almas, Samoa Joe defeated Mustafa Ali, Rey Mysterio.",
+      "matchType": "4-person match",
+      "duration": 704,
+      "participants": [
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "samoa-joe",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mustafa-ali",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Andrade \"Cien\" Almas",
+        "Samoa Joe",
+        "Mustafa Ali",
+        "Rey Mysterio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-01-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82234",
+          "117216"
+        ],
+        "sourceEventIds": [
+          "12815"
+        ]
+      },
+      "legacyId": "bulk-match-82234",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Becky Lynch vs. Carmella, Charlotte Flair",
+      "result": "Becky Lynch defeated Carmella, Charlotte Flair.",
+      "matchType": "Other match",
+      "duration": 971,
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Carmella",
+        "Charlotte Flair"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-01-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82236",
+          "117218"
+        ],
+        "sourceEventIds": [
+          "12815"
+        ]
+      },
+      "legacyId": "bulk-match-82236",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "A.J. Styles vs. Daniel Bryan",
+      "result": "A.J. Styles defeated Daniel Bryan by disqualification.",
+      "matchType": "Other match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Daniel Bryan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-01-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82237",
+          "117219"
+        ],
+        "sourceEventIds": [
+          "12815"
+        ]
+      },
+      "legacyId": "bulk-match-82237",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12815"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12815"
+    ]
+  }
+}

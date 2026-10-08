@@ -1,0 +1,218 @@
+{
+  "id": "wwe/smackdown/2005-12-27",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2005-12-27",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Matt Hardy vs. John Bradshaw Layfield",
+      "result": "Matt Hardy defeated John Bradshaw Layfield by count-out.",
+      "matchType": "Singles match",
+      "duration": 376,
+      "participants": [
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Matt Hardy",
+        "John Bradshaw Layfield"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49991",
+          "156342"
+        ],
+        "sourceEventIds": [
+          "7531"
+        ]
+      },
+      "legacyId": "bulk-match-49991",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Chris Benoit vs. Randy Orton",
+      "result": "Chris Benoit defeated Randy Orton by disqualification.",
+      "matchType": "Singles match",
+      "duration": 1274,
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Randy Orton"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49993",
+          "156344"
+        ],
+        "sourceEventIds": [
+          "7531"
+        ]
+      },
+      "legacyId": "bulk-match-49993",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Bobby Lashley vs. Sylvan",
+      "result": "Bobby Lashley defeated Sylvan by count-out.",
+      "matchType": "Singles match",
+      "duration": 92,
+      "participants": [
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sylvan",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Bobby Lashley",
+        "Sylvan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49994",
+          "156345"
+        ],
+        "sourceEventIds": [
+          "7531"
+        ]
+      },
+      "legacyId": "bulk-match-49994",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Joey Mercury, Johnny Nitro vs. Batista, Rey Mysterio",
+      "result": "Joey Mercury, Johnny Nitro defeated Batista, Rey Mysterio.",
+      "matchType": "4-person match",
+      "duration": 843,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "joey-mercury",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Joey Mercury",
+        "Johnny Nitro",
+        "Batista",
+        "Rey Mysterio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49995",
+          "156346"
+        ],
+        "sourceEventIds": [
+          "7531"
+        ]
+      },
+      "legacyId": "bulk-match-49995",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7531"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7531"
+    ]
+  }
+}

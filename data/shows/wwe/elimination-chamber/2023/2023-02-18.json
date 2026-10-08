@@ -1,0 +1,74 @@
+{
+  "id": "wwe/elimination-chamber/2023-02-18",
+  "promotion": "wwe",
+  "series": "wwe/elimination-chamber",
+  "name": "Elimination Chamber 2023",
+  "date": "2023-02-18",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/eliminationchamber/2023"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Bobby Lashley vs. Brock Lesnar",
+      "result": "Bobby Lashley defeated Brock Lesnar by disqualification.",
+      "matchType": "Singles match",
+      "duration": 281,
+      "participants": [
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "brock-lesnar",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Bobby Lashley",
+        "Brock Lesnar"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/eliminationchamber/2023"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5856",
+          "91062",
+          "104184"
+        ],
+        "sourceEventIds": [
+          "1059"
+        ]
+      },
+      "legacyId": "bulk-match-5856",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1059"
+  ],
+  "legacy": {
+    "showFamily": "elimination-chamber",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1059"
+    ]
+  }
+}

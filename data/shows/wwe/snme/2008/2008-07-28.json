@@ -1,0 +1,117 @@
+{
+  "id": "wwe/snme/2008-07-28",
+  "promotion": "wwe",
+  "series": "wwe/snme",
+  "name": "Saturday Night's Main Event Taping",
+  "date": "2008-07-28",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "The Great Khali vs. Jimmy Wang Yang",
+      "result": "The Great Khali defeated Jimmy Wang Yang.",
+      "matchType": "Singles match",
+      "duration": 90,
+      "participants": [
+        {
+          "person": "the-great-khali",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jimmy-wang-yang",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Great Khali",
+        "Jimmy Wang Yang"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53464",
+          "152102"
+        ],
+        "sourceEventIds": [
+          "8149"
+        ]
+      },
+      "legacyId": "bulk-match-53464",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Edge vs. Jeff Hardy",
+      "result": "Edge defeated Jeff Hardy.",
+      "matchType": "Singles match",
+      "duration": 720,
+      "participants": [
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Edge",
+        "Jeff Hardy"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53465",
+          "152103"
+        ],
+        "sourceEventIds": [
+          "8149"
+        ]
+      },
+      "legacyId": "bulk-match-53465",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8149"
+  ],
+  "legacy": {
+    "showFamily": "snme",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8149"
+    ]
+  }
+}

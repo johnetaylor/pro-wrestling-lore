@@ -1,0 +1,214 @@
+{
+  "id": "wwe/raw/2001-01-29",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2001-01-29",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2001/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Val Venis vs. Steve Blackman",
+      "result": "Val Venis defeated Steve Blackman.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "val-venis",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "steve-blackman",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Val Venis",
+        "Steve Blackman"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41642",
+          "165382"
+        ],
+        "sourceEventIds": [
+          "6147"
+        ]
+      },
+      "legacyId": "bulk-match-41642",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Raven vs. Crash Holly",
+      "result": "Raven defeated Crash Holly.",
+      "matchType": "Other match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "raven",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "crash-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Raven",
+        "Crash Holly"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41644",
+          "165384"
+        ],
+        "sourceEventIds": [
+          "6147"
+        ]
+      },
+      "legacyId": "bulk-match-41644",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "The Undertaker vs. Haku",
+      "result": "The Undertaker defeated Haku.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "haku",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "Haku"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41645",
+          "165385"
+        ],
+        "sourceEventIds": [
+          "6147"
+        ]
+      },
+      "legacyId": "bulk-match-41645",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "The Rock vs. Chris Benoit, Chris Jericho, The Big Show",
+      "result": "The Rock defeated Chris Benoit, Chris Jericho, The Big Show.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Rock",
+        "Chris Benoit",
+        "Chris Jericho",
+        "The Big Show"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41647",
+          "165387"
+        ],
+        "sourceEventIds": [
+          "6147"
+        ]
+      },
+      "legacyId": "bulk-match-41647",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6147"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6147"
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "id": "wwe/smackdown/2024-02-02",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2024-02-02",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2024-02-02"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Kevin Owens vs. Austin Theory",
+      "result": "Kevin Owens defeated Austin Theory.",
+      "matchType": "Singles match",
+      "duration": 653,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "austin-theory",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Austin Theory"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-02-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "2353",
+          "93479",
+          "100681"
+        ],
+        "sourceEventIds": [
+          "460"
+        ]
+      },
+      "legacyId": "bulk-match-2353",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Tiffany Stratton vs. Michin",
+      "result": "Tiffany Stratton defeated Michin.",
+      "matchType": "Singles match",
+      "duration": 465,
+      "participants": [
+        {
+          "person": "tiffany-stratton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "michin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tiffany Stratton",
+        "Michin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-02-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "2355",
+          "93481",
+          "100683"
+        ],
+        "sourceEventIds": [
+          "460"
+        ]
+      },
+      "legacyId": "bulk-match-2355",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-460"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "460"
+    ]
+  }
+}

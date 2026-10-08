@@ -1,0 +1,194 @@
+{
+  "id": "wwe/raw/2004-09-20",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2004-09-20",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Stacy Keibler, Victoria vs. Molly Holly, Trish Stratus",
+      "result": "Stacy Keibler, Victoria defeated Molly Holly, Trish Stratus.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "stacy-keibler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "victoria",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "molly-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "trish-stratus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Stacy Keibler",
+        "Victoria",
+        "Molly Holly",
+        "Trish Stratus"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48239",
+          "158507"
+        ],
+        "sourceEventIds": [
+          "7191"
+        ]
+      },
+      "legacyId": "bulk-match-48239",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Shawn Michaels, Chris Jericho — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Shawn Michaels",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48240",
+          "158508"
+        ],
+        "sourceEventIds": [
+          "7191"
+        ]
+      },
+      "legacyId": "bulk-match-48240",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Chris Benoit, Randy Orton, Shelton Benjamin vs. Batista, Ric Flair, Triple H",
+      "result": "Chris Benoit, Randy Orton, Shelton Benjamin defeated Batista, Ric Flair, Triple H.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "ric-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Randy Orton",
+        "Shelton Benjamin",
+        "Batista",
+        "Ric Flair",
+        "Triple H"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48241",
+          "158509"
+        ],
+        "sourceEventIds": [
+          "7191"
+        ]
+      },
+      "legacyId": "bulk-match-48241",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7191"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7191"
+    ]
+  }
+}

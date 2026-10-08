@@ -1,0 +1,225 @@
+{
+  "id": "wwe/raw/2000-01-24",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2000-01-24",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "4-person match",
+      "result": "Christian, Edge, Al Snow, Steve Blackman — no contest.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "al-snow",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "steve-blackman",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Christian",
+        "Edge",
+        "Al Snow",
+        "Steve Blackman"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "37717",
+          "169298"
+        ],
+        "sourceEventIds": [
+          "5577"
+        ]
+      },
+      "legacyId": "bulk-match-37717",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Chris Jericho vs. Hardcore Holly",
+      "result": "Chris Jericho defeated Hardcore Holly.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Hardcore Holly"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "37718",
+          "169299"
+        ],
+        "sourceEventIds": [
+          "5577"
+        ]
+      },
+      "legacyId": "bulk-match-37718",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Kane vs. X-Pac",
+      "result": "Kane defeated X-Pac by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "x-pac",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "X-Pac"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "37720",
+          "169301"
+        ],
+        "sourceEventIds": [
+          "5577"
+        ]
+      },
+      "legacyId": "bulk-match-37720",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 8,
+      "type": "match",
+      "title": "Rikishi, The Rock vs. The Big Show, Triple H",
+      "result": "Rikishi, The Rock defeated The Big Show, Triple H by disqualification.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Rikishi",
+        "The Rock",
+        "The Big Show",
+        "Triple H"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "37724",
+          "169305"
+        ],
+        "sourceEventIds": [
+          "5577"
+        ]
+      },
+      "legacyId": "bulk-match-37724",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5577"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5577"
+    ]
+  }
+}

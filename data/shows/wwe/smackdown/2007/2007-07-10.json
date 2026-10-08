@@ -1,0 +1,205 @@
+{
+  "id": "wwe/smackdown/2007-07-10",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2007-07-10",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Matt Hardy vs. Chris Masters",
+      "result": "Matt Hardy defeated Chris Masters.",
+      "matchType": "Singles match",
+      "duration": 786,
+      "participants": [
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-masters",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Matt Hardy",
+        "Chris Masters"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52061",
+          "153867"
+        ],
+        "sourceEventIds": [
+          "7905"
+        ]
+      },
+      "legacyId": "bulk-match-52061",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Finlay vs. Jimmy Wang Yang",
+      "result": "Finlay defeated Jimmy Wang Yang.",
+      "matchType": "Singles match",
+      "duration": 402,
+      "participants": [
+        {
+          "person": "finlay",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jimmy-wang-yang",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Finlay",
+        "Jimmy Wang Yang"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52062",
+          "153868"
+        ],
+        "sourceEventIds": [
+          "7905"
+        ]
+      },
+      "legacyId": "bulk-match-52062",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Mark Henry vs. Eugene",
+      "result": "Mark Henry defeated Eugene.",
+      "matchType": "Singles match",
+      "duration": 99,
+      "participants": [
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eugene",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mark Henry",
+        "Eugene"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52065",
+          "153871"
+        ],
+        "sourceEventIds": [
+          "7905"
+        ]
+      },
+      "legacyId": "bulk-match-52065",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Torrie Wilson vs. Victoria",
+      "result": "Torrie Wilson defeated Victoria by count-out.",
+      "matchType": "Singles match",
+      "duration": 272,
+      "participants": [
+        {
+          "person": "torrie-wilson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "victoria",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Torrie Wilson",
+        "Victoria"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52066",
+          "153872"
+        ],
+        "sourceEventIds": [
+          "7905"
+        ]
+      },
+      "legacyId": "bulk-match-52066",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7905"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7905"
+    ]
+  }
+}

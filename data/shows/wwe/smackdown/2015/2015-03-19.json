@@ -1,0 +1,212 @@
+{
+  "id": "wwe/smackdown/2015-03-19",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2015-03-19",
+  "dateBasis": "aired",
+  "recordedDate": "2015-03-17",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2015/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Paige vs. Brie Bella",
+      "result": "Paige defeated Brie Bella.",
+      "matchType": "Singles match",
+      "duration": 149,
+      "participants": [
+        {
+          "person": "paige",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "brie-bella",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Paige",
+        "Brie Bella"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "68509",
+          "131806"
+        ],
+        "sourceEventIds": [
+          "10707"
+        ]
+      },
+      "legacyId": "bulk-match-68509",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Daniel Bryan vs. Luke Harper",
+      "result": "Daniel Bryan defeated Luke Harper.",
+      "matchType": "Gauntlet match",
+      "duration": 416,
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "luke-harper",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "Luke Harper"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "68513",
+          "131810"
+        ],
+        "sourceEventIds": [
+          "10707"
+        ]
+      },
+      "legacyId": "bulk-match-68513",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Dolph Ziggler vs. Daniel Bryan",
+      "result": "Dolph Ziggler defeated Daniel Bryan.",
+      "matchType": "Gauntlet match",
+      "duration": 461,
+      "participants": [
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dolph Ziggler",
+        "Daniel Bryan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "68514",
+          "131811"
+        ],
+        "sourceEventIds": [
+          "10707"
+        ]
+      },
+      "legacyId": "bulk-match-68514",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 8,
+      "type": "match",
+      "title": "Roman Reigns vs. Kane, Seth Rollins",
+      "result": "Roman Reigns defeated Kane, Seth Rollins.",
+      "matchType": "Tag Team match",
+      "duration": 303,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Kane",
+        "Seth Rollins"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "68516",
+          "131813"
+        ],
+        "sourceEventIds": [
+          "10707"
+        ]
+      },
+      "legacyId": "bulk-match-68516",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10707"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10707"
+    ]
+  }
+}

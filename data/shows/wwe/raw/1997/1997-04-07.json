@@ -1,0 +1,158 @@
+{
+  "id": "wwe/raw/1997-04-07",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1997-04-07",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1997/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Steve Austin vs. Billy Gunn",
+      "result": "Steve Austin defeated Billy Gunn.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Steve Austin",
+        "Billy Gunn"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "26924",
+          "180125"
+        ],
+        "sourceEventIds": [
+          "4171"
+        ]
+      },
+      "legacyId": "bulk-match-26924",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Ken Shamrock vs. Vernon White",
+      "result": "Ken Shamrock defeated Vernon White.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "ken-shamrock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "vernon-white",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ken Shamrock",
+        "Vernon White"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "26926",
+          "180127"
+        ],
+        "sourceEventIds": [
+          "4171"
+        ]
+      },
+      "legacyId": "bulk-match-26926",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Steve Austin, Mankind — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "mick-foley",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Steve Austin",
+        "Mankind"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "26928",
+          "180129"
+        ],
+        "sourceEventIds": [
+          "4171"
+        ]
+      },
+      "legacyId": "bulk-match-26928",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4171"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4171"
+    ]
+  }
+}

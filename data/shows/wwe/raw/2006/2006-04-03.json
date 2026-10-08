@@ -1,0 +1,186 @@
+{
+  "id": "wwe/raw/2006-04-03",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2006-04-03",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2006/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Kenny, Mikey vs. Kane, The Big Show",
+      "result": "Kenny, Mikey defeated Kane, The Big Show.",
+      "matchType": "4-person match",
+      "duration": 233,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "kenny",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mikey",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kenny",
+        "Mikey",
+        "Kane",
+        "The Big Show"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50380",
+          "155881"
+        ],
+        "sourceEventIds": [
+          "7602"
+        ]
+      },
+      "legacyId": "bulk-match-50380",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Candice Michelle, Mickie James vs. Torrie Wilson, Trish Stratus",
+      "result": "Candice Michelle, Mickie James defeated Torrie Wilson, Trish Stratus.",
+      "matchType": "4-person match",
+      "duration": 100,
+      "participants": [
+        {
+          "person": "candice-michelle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "torrie-wilson",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "trish-stratus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Candice Michelle",
+        "Mickie James",
+        "Torrie Wilson",
+        "Trish Stratus"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50382",
+          "155883"
+        ],
+        "sourceEventIds": [
+          "7602"
+        ]
+      },
+      "legacyId": "bulk-match-50382",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Shelton Benjamin vs. Chavo Guerrero",
+      "result": "Shelton Benjamin defeated Chavo Guerrero.",
+      "matchType": "Singles match",
+      "duration": 300,
+      "participants": [
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chavo-guerrero",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shelton Benjamin",
+        "Chavo Guerrero"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50383",
+          "155884"
+        ],
+        "sourceEventIds": [
+          "7602"
+        ]
+      },
+      "legacyId": "bulk-match-50383",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7602"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7602"
+    ]
+  }
+}

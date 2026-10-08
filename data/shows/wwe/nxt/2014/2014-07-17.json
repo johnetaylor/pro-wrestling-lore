@@ -1,0 +1,128 @@
+{
+  "id": "wwe/nxt/2014-07-17",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2014-07-17",
+  "dateBasis": "aired",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwenxt/2014-07-17"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Big Cass, Enzo Amore vs. Jason Jordan, Tye Dillinger",
+      "result": "Big Cass, Enzo Amore defeated Jason Jordan, Tye Dillinger.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "big-cass",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "enzo-amore",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jason-jordan",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shawn-spears",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Big Cass",
+        "Enzo Amore",
+        "Jason Jordan",
+        "Tye Dillinger"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2014-07-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "134644"
+        ],
+        "sourceEventIds": [
+          "19925",
+          "19926"
+        ]
+      },
+      "legacyId": "bulk-match-134644",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 6,
+      "type": "match",
+      "title": "Adam Rose vs. Tyson Kidd",
+      "result": "Adam Rose defeated Tyson Kidd.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "adam-rose",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tyson-kidd",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Adam Rose",
+        "Tyson Kidd"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2014-07-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "134653"
+        ],
+        "sourceEventIds": [
+          "19925",
+          "19926"
+        ]
+      },
+      "legacyId": "bulk-match-134653",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-19925"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "19925",
+      "19926"
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "id": "wwe/raw/2007-05-28",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2007-05-28",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Randy Orton vs. Rob Van Dam",
+      "result": "Randy Orton defeated Rob Van Dam.",
+      "matchType": "Singles match",
+      "duration": 983,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Rob Van Dam"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51918",
+          "154049"
+        ],
+        "sourceEventIds": [
+          "7879"
+        ]
+      },
+      "legacyId": "bulk-match-51918",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Carlito, Victoria vs. Ric Flair, Torrie Wilson",
+      "result": "Carlito, Victoria defeated Ric Flair, Torrie Wilson.",
+      "matchType": "4-person match",
+      "duration": 216,
+      "participants": [
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "victoria",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ric-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "torrie-wilson",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Carlito",
+        "Victoria",
+        "Ric Flair",
+        "Torrie Wilson"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51919",
+          "154050"
+        ],
+        "sourceEventIds": [
+          "7879"
+        ]
+      },
+      "legacyId": "bulk-match-51919",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Shane McMahon, The Great Khali, Umaga vs. Bobby Lashley, John Cena",
+      "result": "Shane McMahon, The Great Khali, Umaga defeated Bobby Lashley, John Cena.",
+      "matchType": "Tag Team match",
+      "duration": 479,
+      "participants": [
+        {
+          "person": "shane-mcmahon",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-great-khali",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "umaga",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shane McMahon",
+        "The Great Khali",
+        "Umaga",
+        "Bobby Lashley",
+        "John Cena"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51920",
+          "154051"
+        ],
+        "sourceEventIds": [
+          "7879"
+        ]
+      },
+      "legacyId": "bulk-match-51920",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7879"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7879"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "big-show",
+  "name": "Big Show",
+  "gender": "male",
+  "genderBasis": "legacy-placeholder",
+  "ringNames": [
+    {
+      "name": "Big Show",
+      "billed": {
+        "first": "1999-04-29",
+        "last": "1999-08-26"
+      }
+    },
+    {
+      "name": "Paul Wight",
+      "billed": {
+        "first": "1999-02-22",
+        "last": "1999-03-22"
+      }
+    },
+    {
+      "name": "The Big Show",
+      "billed": {
+        "first": "1999-03-28",
+        "last": "2020-07-20"
+      }
+    }
+  ],
+  "promotions": [
+    "WWE"
+  ],
+  "summary": "Big Show is listed in WWE match records from 1999 to 2020. Explore available broadcast matches on the timeline.",
+  "rosters": [
+    {
+      "asOf": "2026-10-05",
+      "brands": [
+        "NXT",
+        "Raw",
+        "SmackDown",
+        "WWE"
+      ]
+    },
+    {
+      "asOf": "archive",
+      "brands": [
+        "NXT",
+        "Raw",
+        "SmackDown",
+        "WWE"
+      ]
+    }
+  ],
+  "partial": true,
+  "archiveFirst": "1999-02-16",
+  "archiveLast": "2020-07-20",
+  "sources": [
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
+  ],
+  "legacyIds": [
+    "archive-person-bigshow"
+  ],
+  "legacyFlags": {
+    "archiveOnly": true,
+    "archiveProfile": true
+  }
+}

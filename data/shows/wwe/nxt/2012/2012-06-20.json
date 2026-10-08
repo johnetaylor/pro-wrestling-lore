@@ -1,0 +1,72 @@
+{
+  "id": "wwe/nxt/2012-06-20",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2012-06-20",
+  "dateBasis": "aired",
+  "recordedDate": "2012-05-17",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2012/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Bo Dallas vs. Rick Victor",
+      "result": "Bo Dallas defeated Rick Victor.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "uncle-howdy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "viktor",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bo Dallas",
+        "Rick Victor"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2012/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "143503"
+        ],
+        "sourceEventIds": [
+          "21312"
+        ]
+      },
+      "legacyId": "bulk-match-143503",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-21312"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "21312"
+    ]
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "id": "wwe/smackdown/2021-08-20",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2021-08-20",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2021-08-20"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Jey Uso vs. Rey Mysterio",
+      "result": "Jey Uso defeated Rey Mysterio.",
+      "matchType": "Singles match",
+      "duration": 687,
+      "participants": [
+        {
+          "person": "jey-uso",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jey Uso",
+        "Rey Mysterio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-08-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87457",
+          "110051"
+        ],
+        "sourceEventIds": [
+          "13752"
+        ]
+      },
+      "legacyId": "bulk-match-87457",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Baron Corbin vs. Kevin Owens",
+      "result": "Baron Corbin defeated Kevin Owens by disqualification.",
+      "matchType": "Singles match",
+      "duration": 249,
+      "participants": [
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Baron Corbin",
+        "Kevin Owens"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-08-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87458",
+          "110052"
+        ],
+        "sourceEventIds": [
+          "13752"
+        ]
+      },
+      "legacyId": "bulk-match-87458",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Nox, Shotzi vs. Natalya, Tamina",
+      "result": "Nox, Shotzi defeated Natalya, Tamina.",
+      "matchType": "4-person match",
+      "duration": 179,
+      "participants": [
+        {
+          "person": "nox",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shotzi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tamina",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Nox",
+        "Shotzi",
+        "Natalya",
+        "Tamina"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-08-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87459",
+          "110053"
+        ],
+        "sourceEventIds": [
+          "13752"
+        ]
+      },
+      "legacyId": "bulk-match-87459",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Otis vs. Montez Ford",
+      "result": "Otis defeated Montez Ford.",
+      "matchType": "Singles match",
+      "duration": 167,
+      "participants": [
+        {
+          "person": "otis",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "montez-ford",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Otis",
+        "Montez Ford"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-08-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87460",
+          "110054"
+        ],
+        "sourceEventIds": [
+          "13752"
+        ]
+      },
+      "legacyId": "bulk-match-87460",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 7,
+      "type": "match",
+      "title": "King Nakamura, Rick Boogs vs. Apollo Crews, Commander Azeez",
+      "result": "King Nakamura, Rick Boogs defeated Apollo Crews, Commander Azeez.",
+      "matchType": "4-person match",
+      "duration": 222,
+      "participants": [
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rick-boogs",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "apollo-crews",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "commander-azeez",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "King Nakamura",
+        "Rick Boogs",
+        "Apollo Crews",
+        "Commander Azeez"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-08-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87461",
+          "110055"
+        ],
+        "sourceEventIds": [
+          "13752"
+        ]
+      },
+      "legacyId": "bulk-match-87461",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 8,
+      "type": "match",
+      "title": "Bianca Belair vs. Zelina Vega",
+      "result": "Bianca Belair defeated Zelina Vega.",
+      "matchType": "Singles match",
+      "duration": 86,
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "zelina-vega",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bianca Belair",
+        "Zelina Vega"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-08-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87462",
+          "110056"
+        ],
+        "sourceEventIds": [
+          "13752"
+        ]
+      },
+      "legacyId": "bulk-match-87462",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m7",
+      "order": 9,
+      "type": "match",
+      "title": "Bianca Belair vs. Carmella",
+      "result": "Bianca Belair defeated Carmella.",
+      "matchType": "Singles match",
+      "duration": 235,
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bianca Belair",
+        "Carmella"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-08-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87463",
+          "110057"
+        ],
+        "sourceEventIds": [
+          "13752"
+        ]
+      },
+      "legacyId": "bulk-match-87463",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13752"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13752"
+    ]
+  }
+}

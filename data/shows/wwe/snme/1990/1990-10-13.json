@@ -1,0 +1,74 @@
+{
+  "id": "wwe/snme/1990-10-13",
+  "promotion": "wwe",
+  "series": "wwe/snme",
+  "name": "Saturday Night's Main Event Taping",
+  "date": "1990-10-13",
+  "dateBasis": "aired",
+  "recordedDate": "1990-09-18",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1990/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Sergeant Slaughter vs. Koko B Ware",
+      "result": "Sergeant Slaughter defeated Koko B Ware.",
+      "matchType": "Singles match",
+      "duration": 249,
+      "participants": [
+        {
+          "person": "sgt-slaughter",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "koko-b-ware",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sergeant Slaughter",
+        "Koko B Ware"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1990/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "15871",
+          "191133"
+        ],
+        "sourceEventIds": [
+          "2539"
+        ]
+      },
+      "legacyId": "bulk-match-15871",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-2539"
+  ],
+  "legacy": {
+    "showFamily": "snme",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "2539"
+    ]
+  }
+}

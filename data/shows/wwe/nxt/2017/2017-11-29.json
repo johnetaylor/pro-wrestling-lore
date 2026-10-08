@@ -1,0 +1,73 @@
+{
+  "id": "wwe/nxt/2017-11-29",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2017-11-29",
+  "dateBasis": "aired",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwenxt/2017-11-29"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Pete Dunne vs. Tyler Bate",
+      "result": "Pete Dunne defeated Tyler Bate.",
+      "matchType": "Singles match",
+      "duration": 1375,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "pete-dunne",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tyler-bate",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Pete Dunne",
+        "Tyler Bate"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2017-11-29"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "120293"
+        ],
+        "sourceEventIds": [
+          "17841"
+        ]
+      },
+      "legacyId": "bulk-match-120293",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-17841"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "17841"
+    ]
+  }
+}

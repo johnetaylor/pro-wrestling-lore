@@ -1,0 +1,170 @@
+{
+  "id": "wwe/smackdown/2014-11-18",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2014-11-18",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2014/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Rusev vs. Dolph Ziggler",
+      "result": "Rusev defeated Dolph Ziggler.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rusev",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "67358",
+          "133181"
+        ],
+        "sourceEventIds": [
+          "10551"
+        ]
+      },
+      "legacyId": "bulk-match-67358",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Erick Rowan vs. Cesaro",
+      "result": "Erick Rowan defeated Cesaro.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "erick-rowan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Erick Rowan",
+        "Cesaro"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "67361",
+          "133184"
+        ],
+        "sourceEventIds": [
+          "10551"
+        ]
+      },
+      "legacyId": "bulk-match-67361",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Ryback, The Big Show vs. Kane, Seth Rollins",
+      "result": "Ryback, The Big Show defeated Kane, Seth Rollins by disqualification.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "ryback",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Ryback",
+        "The Big Show",
+        "Kane",
+        "Seth Rollins"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "67362",
+          "133185"
+        ],
+        "sourceEventIds": [
+          "10551"
+        ]
+      },
+      "legacyId": "bulk-match-67362",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10551"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10551"
+    ]
+  }
+}

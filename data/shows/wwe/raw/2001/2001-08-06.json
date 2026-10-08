@@ -1,0 +1,247 @@
+{
+  "id": "wwe/raw/2001-08-06",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2001-08-06",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2001/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rob Van Dam vs. Kane",
+      "result": "Rob Van Dam defeated Kane.",
+      "matchType": "Other match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rob Van Dam",
+        "Kane"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42892",
+          "164116"
+        ],
+        "sourceEventIds": [
+          "6323"
+        ]
+      },
+      "legacyId": "bulk-match-42892",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Tajiri vs. X-Pac",
+      "result": "Tajiri defeated X-Pac.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "tajiri",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "x-pac",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tajiri",
+        "X-Pac"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42894",
+          "164118"
+        ],
+        "sourceEventIds": [
+          "6323"
+        ]
+      },
+      "legacyId": "bulk-match-42894",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Lance Storm vs. Christian",
+      "result": "Lance Storm defeated Christian.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "lance-storm",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lance Storm",
+        "Christian"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42896",
+          "164120"
+        ],
+        "sourceEventIds": [
+          "6323"
+        ]
+      },
+      "legacyId": "bulk-match-42896",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Steve Austin vs. Matt Hardy",
+      "result": "Steve Austin defeated Matt Hardy.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Steve Austin",
+        "Matt Hardy"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42897",
+          "164121"
+        ],
+        "sourceEventIds": [
+          "6323"
+        ]
+      },
+      "legacyId": "bulk-match-42897",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 7,
+      "type": "match",
+      "title": "The Rock vs. Shane McMahon",
+      "result": "The Rock defeated Shane McMahon.",
+      "matchType": "Other match",
+      "duration": 499,
+      "participants": [
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shane-mcmahon",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Rock",
+        "Shane McMahon"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42898",
+          "164122"
+        ],
+        "sourceEventIds": [
+          "6323"
+        ]
+      },
+      "legacyId": "bulk-match-42898",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6323"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6323"
+    ]
+  }
+}

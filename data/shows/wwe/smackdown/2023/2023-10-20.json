@@ -1,0 +1,177 @@
+{
+  "id": "wwe/smackdown/2023-10-20",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2023-10-20",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2023-10-20"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Montez Ford vs. Santos Escobar",
+      "result": "Montez Ford defeated Santos Escobar.",
+      "matchType": "Singles match",
+      "duration": 541,
+      "participants": [
+        {
+          "person": "montez-ford",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "santos-escobar",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Montez Ford",
+        "Santos Escobar"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-10-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3514",
+          "92704",
+          "101842"
+        ],
+        "sourceEventIds": [
+          "648"
+        ]
+      },
+      "legacyId": "bulk-match-3514",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Austin Theory, Grayson Waller vs. Cameron Grimes, Dragon Lee",
+      "result": "Austin Theory, Grayson Waller defeated Cameron Grimes, Dragon Lee.",
+      "matchType": "4-person match",
+      "duration": 363,
+      "participants": [
+        {
+          "person": "austin-theory",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "grayson-waller",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cameron-grimes",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "dragon-lee",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Austin Theory",
+        "Grayson Waller",
+        "Cameron Grimes",
+        "Dragon Lee"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-10-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3515",
+          "92705",
+          "101843"
+        ],
+        "sourceEventIds": [
+          "648"
+        ]
+      },
+      "legacyId": "bulk-match-3515",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Iyo Sky vs. Charlotte Flair",
+      "result": "Iyo Sky defeated Charlotte Flair.",
+      "matchType": "Singles match",
+      "duration": 963,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "iyo-sky",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Iyo Sky",
+        "Charlotte Flair"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-10-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3516",
+          "92706",
+          "101844"
+        ],
+        "sourceEventIds": [
+          "648"
+        ]
+      },
+      "legacyId": "bulk-match-3516",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-648"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "648"
+    ]
+  }
+}

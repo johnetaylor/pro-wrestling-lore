@@ -1,0 +1,171 @@
+{
+  "id": "wwe/raw/2001-01-15",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2001-01-15",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2001/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Raven vs. Test",
+      "result": "Raven defeated Test.",
+      "matchType": "Other match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "raven",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Raven",
+        "Test"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41520",
+          "165500"
+        ],
+        "sourceEventIds": [
+          "6129"
+        ]
+      },
+      "legacyId": "bulk-match-41520",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Rikishi, The Undertaker vs. Kane, The Rock",
+      "result": "Rikishi, The Undertaker defeated Kane, The Rock.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rikishi",
+        "The Undertaker",
+        "Kane",
+        "The Rock"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41521",
+          "165501"
+        ],
+        "sourceEventIds": [
+          "6129"
+        ]
+      },
+      "legacyId": "bulk-match-41521",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Hardcore Holly, Steve Blackman — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "steve-blackman",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Hardcore Holly",
+        "Steve Blackman"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41522",
+          "165502"
+        ],
+        "sourceEventIds": [
+          "6129"
+        ]
+      },
+      "legacyId": "bulk-match-41522",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6129"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6129"
+    ]
+  }
+}

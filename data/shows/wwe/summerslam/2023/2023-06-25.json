@@ -1,0 +1,71 @@
+{
+  "id": "wwe/summerslam/2023-06-25",
+  "promotion": "wwe",
+  "series": "wwe/summerslam",
+  "name": "SummerSlam",
+  "date": "2023-06-25",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/summerslam/2023"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 386,
+      "type": "match",
+      "title": "Roman Reigns vs. Seth Rollins",
+      "result": "Roman Reigns defeated Seth Rollins.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Seth Rollins"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/summerslam/2023"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "98016"
+        ],
+        "sourceEventIds": [
+          "15653"
+        ]
+      },
+      "legacyId": "bulk-match-98016",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-15653"
+  ],
+  "legacy": {
+    "showFamily": "summerslam",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "15653"
+    ]
+  }
+}

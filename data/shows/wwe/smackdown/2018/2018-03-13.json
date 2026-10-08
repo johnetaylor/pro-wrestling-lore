@@ -1,0 +1,217 @@
+{
+  "id": "wwe/smackdown/2018-03-13",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-03-13",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-03-13"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "A.J. Styles vs. Rusev",
+      "result": "A.J. Styles defeated Rusev by disqualification.",
+      "matchType": "Singles match",
+      "duration": 675,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Rusev"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-03-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79979",
+          "119483"
+        ],
+        "sourceEventIds": [
+          "12427"
+        ]
+      },
+      "legacyId": "bulk-match-79979",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Harper, Rowan vs. Big E, Jimmy Uso",
+      "result": "Harper, Rowan defeated Big E, Jimmy Uso.",
+      "matchType": "4-person match",
+      "duration": 150,
+      "participants": [
+        {
+          "person": "harper",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "erick-rowan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "jimmy-uso",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Harper",
+        "Rowan",
+        "Big E",
+        "Jimmy Uso"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-03-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79980",
+          "119484"
+        ],
+        "sourceEventIds": [
+          "12427"
+        ]
+      },
+      "legacyId": "bulk-match-79980",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Jinder Mahal vs. Bobby Roode",
+      "result": "Jinder Mahal defeated Bobby Roode.",
+      "matchType": "Singles match",
+      "duration": 390,
+      "participants": [
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bobby-roode",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jinder Mahal",
+        "Bobby Roode"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-03-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79981",
+          "119485"
+        ],
+        "sourceEventIds": [
+          "12427"
+        ]
+      },
+      "legacyId": "bulk-match-79981",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Carmella vs. Naomi",
+      "result": "Carmella defeated Naomi.",
+      "matchType": "Singles match",
+      "duration": 182,
+      "participants": [
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Carmella",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-03-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79982",
+          "119486"
+        ],
+        "sourceEventIds": [
+          "12427"
+        ]
+      },
+      "legacyId": "bulk-match-79982",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12427"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12427"
+    ]
+  }
+}

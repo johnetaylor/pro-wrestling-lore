@@ -1,0 +1,132 @@
+{
+  "id": "wwe/smackdown/2022-08-12",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2022-08-12",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2022-08-12"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Aliyah, Raquel Rodriguez vs. Shotzi, Xia Li",
+      "result": "Aliyah, Raquel Rodriguez defeated Shotzi, Xia Li.",
+      "matchType": "4-person match",
+      "duration": 571,
+      "participants": [
+        {
+          "person": "aliyah",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "raquel-rodriguez",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shotzi",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "xia-li",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Aliyah",
+        "Raquel Rodriguez",
+        "Shotzi",
+        "Xia Li"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-08-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "7970",
+          "89737",
+          "106298"
+        ],
+        "sourceEventIds": [
+          "1402"
+        ]
+      },
+      "legacyId": "bulk-match-7970",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Gunther vs. Shinsuke Nakamura",
+      "result": "Gunther defeated Shinsuke Nakamura.",
+      "matchType": "Singles match",
+      "duration": 786,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "gunther",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Gunther",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-08-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "7973",
+          "89740",
+          "106301"
+        ],
+        "sourceEventIds": [
+          "1402"
+        ]
+      },
+      "legacyId": "bulk-match-7973",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1402"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1402"
+    ]
+  }
+}

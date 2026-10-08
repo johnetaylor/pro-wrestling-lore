@@ -1,0 +1,205 @@
+{
+  "id": "wwe/raw/1997-09-22",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1997-09-22",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1997/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Ahmed Johnson vs. Rocky Maivia",
+      "result": "Ahmed Johnson defeated Rocky Maivia.",
+      "matchType": "Singles match",
+      "duration": 298,
+      "participants": [
+        {
+          "person": "ahmed-johnson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ahmed Johnson",
+        "Rocky Maivia"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "28223",
+          "178820"
+        ],
+        "sourceEventIds": [
+          "4343"
+        ]
+      },
+      "legacyId": "bulk-match-28223",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Owen Hart vs. Brian Pillman",
+      "result": "Owen Hart defeated Brian Pillman by disqualification.",
+      "matchType": "Singles match",
+      "duration": 432,
+      "participants": [
+        {
+          "person": "owen-hart",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "brian-pillman",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Owen Hart",
+        "Brian Pillman"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "28225",
+          "178822"
+        ],
+        "sourceEventIds": [
+          "4343"
+        ]
+      },
+      "legacyId": "bulk-match-28225",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Cactus Jack vs. Hunter Hearst Helmsley",
+      "result": "Cactus Jack defeated Hunter Hearst Helmsley.",
+      "matchType": "Other match",
+      "duration": 820,
+      "participants": [
+        {
+          "person": "mick-foley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cactus Jack",
+        "Hunter Hearst Helmsley"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "28226",
+          "178823"
+        ],
+        "sourceEventIds": [
+          "4343"
+        ]
+      },
+      "legacyId": "bulk-match-28226",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Bret Hart vs. Goldust",
+      "result": "Bret Hart defeated Goldust by count-out.",
+      "matchType": "Singles match",
+      "duration": 770,
+      "participants": [
+        {
+          "person": "bret-hart",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Bret Hart",
+        "Goldust"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "28227",
+          "178824"
+        ],
+        "sourceEventIds": [
+          "4343"
+        ]
+      },
+      "legacyId": "bulk-match-28227",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4343"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4343"
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "id": "von-erich",
+  "name": "Von Erich",
+  "description": "Fritz’s wrestling sons and Kevin’s sons Ross and Marshall.",
+  "branches": [
+    {
+      "id": "von-erich",
+      "name": "The Von Erich family"
+    }
+  ],
+  "members": [
+    {
+      "id": "fritz-von-erich",
+      "name": "Fritz Von Erich",
+      "branch": "von-erich",
+      "source": "von-erich",
+      "layout": {
+        "x": 376,
+        "y": 24
+      }
+    },
+    {
+      "id": "kevin-von-erich",
+      "name": "Kevin Von Erich",
+      "branch": "von-erich",
+      "source": "von-erich",
+      "layout": {
+        "x": 16,
+        "y": 164
+      }
+    },
+    {
+      "id": "david-von-erich",
+      "name": "David Von Erich",
+      "branch": "von-erich",
+      "source": "von-erich",
+      "layout": {
+        "x": 196,
+        "y": 164
+      }
+    },
+    {
+      "id": "kerry-von-erich",
+      "name": "Kerry Von Erich / Texas Tornado",
+      "person": "the-texas-tornado",
+      "branch": "von-erich",
+      "aliases": [
+        "Kerry Von Erich",
+        "The Texas Tornado"
+      ],
+      "source": "von-erich",
+      "layout": {
+        "x": 376,
+        "y": 164
+      }
+    },
+    {
+      "id": "mike-von-erich",
+      "name": "Mike Von Erich",
+      "branch": "von-erich",
+      "source": "von-erich",
+      "layout": {
+        "x": 556,
+        "y": 164
+      }
+    },
+    {
+      "id": "chris-von-erich",
+      "name": "Chris Von Erich",
+      "branch": "von-erich",
+      "source": "von-erich",
+      "layout": {
+        "x": 736,
+        "y": 164
+      }
+    },
+    {
+      "id": "ross-von-erich",
+      "name": "Ross Von Erich",
+      "branch": "von-erich",
+      "source": "von-erich-next",
+      "layout": {
+        "x": 16,
+        "y": 304
+      }
+    },
+    {
+      "id": "marshall-von-erich",
+      "name": "Marshall Von Erich",
+      "branch": "von-erich",
+      "source": "von-erich-next",
+      "layout": {
+        "x": 196,
+        "y": 304
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "fritz-von-erich",
+      "b": "kevin-von-erich",
+      "type": "parent",
+      "source": "von-erich"
+    },
+    {
+      "a": "fritz-von-erich",
+      "b": "david-von-erich",
+      "type": "parent",
+      "source": "von-erich"
+    },
+    {
+      "a": "fritz-von-erich",
+      "b": "kerry-von-erich",
+      "type": "parent",
+      "source": "von-erich"
+    },
+    {
+      "a": "fritz-von-erich",
+      "b": "mike-von-erich",
+      "type": "parent",
+      "source": "von-erich"
+    },
+    {
+      "a": "fritz-von-erich",
+      "b": "chris-von-erich",
+      "type": "parent",
+      "source": "von-erich"
+    },
+    {
+      "a": "kevin-von-erich",
+      "b": "ross-von-erich",
+      "type": "parent",
+      "source": "von-erich-next"
+    },
+    {
+      "a": "kevin-von-erich",
+      "b": "marshall-von-erich",
+      "type": "parent",
+      "source": "von-erich-next"
+    }
+  ],
+  "sources": {
+    "von-erich": {
+      "label": "WWE: Von Erich family",
+      "url": "https://www.wwe.com/superstars/vonerichs"
+    },
+    "von-erich-next": {
+      "label": "Kevin Von Erich on Ross and Marshall",
+      "url": "https://www.wwe.com/classics/wherearetheynow/vonerich"
+    }
+  }
+}

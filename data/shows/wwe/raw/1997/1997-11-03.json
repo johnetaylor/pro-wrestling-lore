@@ -1,0 +1,162 @@
+{
+  "id": "wwe/raw/1997-11-03",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1997-11-03",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1997/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Marc Mero vs. Savio Vega",
+      "result": "Marc Mero defeated Savio Vega.",
+      "matchType": "Singles match",
+      "duration": 153,
+      "participants": [
+        {
+          "person": "marc-mero",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "savio-vega",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Marc Mero",
+        "Savio Vega"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "28583",
+          "178466"
+        ],
+        "sourceEventIds": [
+          "4388"
+        ]
+      },
+      "legacyId": "bulk-match-28583",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Vader vs. Davey Boy Smith",
+      "result": "Vader defeated Davey Boy Smith.",
+      "matchType": "Other match",
+      "duration": 214,
+      "participants": [
+        {
+          "person": "vader",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-british-bulldog",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Vader",
+        "Davey Boy Smith"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "28584",
+          "178467"
+        ],
+        "sourceEventIds": [
+          "4388"
+        ]
+      },
+      "legacyId": "bulk-match-28584",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Ken Shamrock vs. Shawn Michaels",
+      "result": "Ken Shamrock defeated Shawn Michaels by disqualification.",
+      "matchType": "Singles match",
+      "duration": 660,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "ken-shamrock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Ken Shamrock",
+        "Shawn Michaels"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "28586",
+          "178469"
+        ],
+        "sourceEventIds": [
+          "4388"
+        ]
+      },
+      "legacyId": "bulk-match-28586",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4388"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4388"
+    ]
+  }
+}

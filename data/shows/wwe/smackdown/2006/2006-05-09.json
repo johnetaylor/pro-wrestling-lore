@@ -1,0 +1,167 @@
+{
+  "id": "wwe/smackdown/2006-05-09",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2006-05-09",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2006/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Super Crazy vs. Kid Kash, Nunzio",
+      "result": "Super Crazy defeated Kid Kash, Nunzio.",
+      "matchType": "Triple Threat match",
+      "duration": 274,
+      "participants": [
+        {
+          "person": "super-crazy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kid-kash",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "nunzio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Super Crazy",
+        "Kid Kash",
+        "Nunzio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50514",
+          "155726"
+        ],
+        "sourceEventIds": [
+          "7627"
+        ]
+      },
+      "legacyId": "bulk-match-50514",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Bobby Lashley vs. Finlay",
+      "result": "Bobby Lashley defeated Finlay.",
+      "matchType": "Singles match",
+      "duration": 982,
+      "participants": [
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finlay",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bobby Lashley",
+        "Finlay"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50516",
+          "155728"
+        ],
+        "sourceEventIds": [
+          "7627"
+        ]
+      },
+      "legacyId": "bulk-match-50516",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "The Great Khali vs. Rey Mysterio",
+      "result": "The Great Khali defeated Rey Mysterio.",
+      "matchType": "Singles match",
+      "duration": 200,
+      "participants": [
+        {
+          "person": "the-great-khali",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Great Khali",
+        "Rey Mysterio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50518",
+          "155730"
+        ],
+        "sourceEventIds": [
+          "7627"
+        ]
+      },
+      "legacyId": "bulk-match-50518",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7627"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7627"
+    ]
+  }
+}

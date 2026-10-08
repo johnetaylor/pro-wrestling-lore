@@ -1,0 +1,163 @@
+{
+  "id": "wwe/royal-rumble/1996-01-21",
+  "promotion": "wwe",
+  "series": "wwe/royal-rumble",
+  "name": "Royal Rumble '96",
+  "date": "1996-01-21",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1996/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Ahmed Johnson vs. Jeff Jarrett",
+      "result": "Ahmed Johnson defeated Jeff Jarrett by disqualification.",
+      "matchType": "Singles match",
+      "duration": 400,
+      "participants": [
+        {
+          "person": "ahmed-johnson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jeff-jarrett",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Ahmed Johnson",
+        "Jeff Jarrett"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1996/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "23976",
+          "183048"
+        ],
+        "sourceEventIds": [
+          "3782"
+        ]
+      },
+      "legacyId": "bulk-match-23976",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Goldust vs. Razor Ramon",
+      "result": "Goldust defeated Razor Ramon.",
+      "matchType": "Singles match",
+      "duration": 857,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "scott-hall",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Goldust",
+        "Razor Ramon"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1996/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "23978",
+          "183050"
+        ],
+        "sourceEventIds": [
+          "3782"
+        ]
+      },
+      "legacyId": "bulk-match-23978",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "The Undertaker vs. Bret Hart",
+      "result": "The Undertaker defeated Bret Hart by disqualification.",
+      "matchType": "Singles match",
+      "duration": 1711,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bret-hart",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "Bret Hart"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1996/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "23980",
+          "183052"
+        ],
+        "sourceEventIds": [
+          "3782"
+        ]
+      },
+      "legacyId": "bulk-match-23980",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-3782"
+  ],
+  "legacy": {
+    "showFamily": "royal-rumble",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "3782"
+    ]
+  }
+}

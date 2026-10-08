@@ -1,0 +1,64 @@
+{
+  "id": "funk",
+  "name": "Funk",
+  "description": "Dory Funk Sr. and his sons Dory Jr. and Terry.",
+  "branches": [
+    {
+      "id": "funk",
+      "name": "The Funk family"
+    }
+  ],
+  "members": [
+    {
+      "id": "dory-funk-sr",
+      "name": "Dory Funk Sr.",
+      "branch": "funk",
+      "source": "funk",
+      "layout": {
+        "x": 106,
+        "y": 24
+      }
+    },
+    {
+      "id": "dory-funk-jr",
+      "name": "Dory Funk Jr.",
+      "branch": "funk",
+      "source": "funk",
+      "layout": {
+        "x": 16,
+        "y": 164
+      }
+    },
+    {
+      "id": "terry-funk",
+      "name": "Terry Funk",
+      "person": "terry-funk",
+      "branch": "funk",
+      "source": "funk",
+      "layout": {
+        "x": 196,
+        "y": 164
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "dory-funk-sr",
+      "b": "dory-funk-jr",
+      "type": "parent",
+      "source": "funk"
+    },
+    {
+      "a": "dory-funk-sr",
+      "b": "terry-funk",
+      "type": "parent",
+      "source": "funk"
+    }
+  ],
+  "sources": {
+    "funk": {
+      "label": "Dory Funk Jr.: the family’s account of Dory Sr.",
+      "url": "https://dory-funk.com/the-legend-of-dory-funk-sr/"
+    }
+  }
+}

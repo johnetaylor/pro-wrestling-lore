@@ -1,0 +1,206 @@
+{
+  "id": "wwe/nxt/2023-10-10",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2023-10-10",
+  "dateBasis": "aired",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwenxt/2023-10-10"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Asuka vs. Roxanne Perez",
+      "result": "Asuka defeated Roxanne Perez.",
+      "matchType": "Singles match",
+      "duration": 375,
+      "participants": [
+        {
+          "person": "asuka",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "roxanne-perez",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Asuka",
+        "Roxanne Perez"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2023-10-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3606",
+          "101934"
+        ],
+        "sourceEventIds": [
+          "665"
+        ]
+      },
+      "legacyId": "bulk-match-3606",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Ilja Dragunov vs. Dominik Mysterio",
+      "result": "Ilja Dragunov defeated Dominik Mysterio.",
+      "matchType": "Other match",
+      "duration": 715,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "ilja-dragunov",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ilja Dragunov",
+        "Dominik Mysterio"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2023-10-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3608",
+          "101936"
+        ],
+        "sourceEventIds": [
+          "665"
+        ]
+      },
+      "legacyId": "bulk-match-3608",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Lola Vice vs. Dani Palmer",
+      "result": "Lola Vice defeated Dani Palmer.",
+      "matchType": "Singles match",
+      "duration": 239,
+      "participants": [
+        {
+          "person": "lola-vice",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dani-palmer",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lola Vice",
+        "Dani Palmer"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2023-10-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3609",
+          "101937"
+        ],
+        "sourceEventIds": [
+          "665"
+        ]
+      },
+      "legacyId": "bulk-match-3609",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Carmelo Hayes vs. Bron Breakker",
+      "result": "Carmelo Hayes defeated Bron Breakker.",
+      "matchType": "Singles match",
+      "duration": 771,
+      "participants": [
+        {
+          "person": "carmelo-hayes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bron-breakker",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Carmelo Hayes",
+        "Bron Breakker"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2023-10-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3610",
+          "101938"
+        ],
+        "sourceEventIds": [
+          "665"
+        ]
+      },
+      "legacyId": "bulk-match-3610",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-665"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "665"
+    ]
+  }
+}

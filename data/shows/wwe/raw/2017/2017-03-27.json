@@ -1,0 +1,217 @@
+{
+  "id": "wwe/raw/2017-03-27",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2017-03-27",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2017-03-27"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Bayley, Sasha Banks vs. Charlotte Flair, Nia Jax",
+      "result": "Bayley, Sasha Banks defeated Charlotte Flair, Nia Jax.",
+      "matchType": "4-person match",
+      "duration": 780,
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "nia-jax",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Sasha Banks",
+        "Charlotte Flair",
+        "Nia Jax"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-03-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76669",
+          "122846"
+        ],
+        "sourceEventIds": [
+          "11882"
+        ]
+      },
+      "legacyId": "bulk-match-76669",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Austin Aries vs. Noam Dar",
+      "result": "Austin Aries defeated Noam Dar.",
+      "matchType": "Other match",
+      "duration": 460,
+      "participants": [
+        {
+          "person": "austin-aries",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "noam-dar",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Austin Aries",
+        "Noam Dar"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-03-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76670",
+          "122847"
+        ],
+        "sourceEventIds": [
+          "11882"
+        ]
+      },
+      "legacyId": "bulk-match-76670",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Neville vs. Gentleman Jack Gallagher",
+      "result": "Neville defeated Gentleman Jack Gallagher.",
+      "matchType": "Singles match",
+      "duration": 460,
+      "participants": [
+        {
+          "person": "neville",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "gentleman-jack-gallagher",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Neville",
+        "Gentleman Jack Gallagher"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-03-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76672",
+          "122849"
+        ],
+        "sourceEventIds": [
+          "11882"
+        ]
+      },
+      "legacyId": "bulk-match-76672",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Sami Zayn vs. Kevin Owens",
+      "result": "Sami Zayn defeated Kevin Owens.",
+      "matchType": "Other match",
+      "duration": 670,
+      "participants": [
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sami Zayn",
+        "Kevin Owens"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-03-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76673",
+          "122850"
+        ],
+        "sourceEventIds": [
+          "11882"
+        ]
+      },
+      "legacyId": "bulk-match-76673",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11882"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11882"
+    ]
+  }
+}

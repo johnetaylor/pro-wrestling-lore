@@ -1,0 +1,217 @@
+{
+  "id": "wwe/smackdown/2020-02-07",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2020-02-07",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2020-02-07"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Elias vs. Cesaro",
+      "result": "Elias defeated Cesaro.",
+      "matchType": "Singles match",
+      "duration": 450,
+      "participants": [
+        {
+          "person": "elias",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Elias",
+        "Cesaro"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-02-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85179",
+          "114056"
+        ],
+        "sourceEventIds": [
+          "13304"
+        ]
+      },
+      "legacyId": "bulk-match-85179",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Daniel Bryan vs. Heath Slater",
+      "result": "Daniel Bryan defeated Heath Slater.",
+      "matchType": "Singles match",
+      "duration": 100,
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "heath-slater",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "Heath Slater"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-02-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85180",
+          "114057"
+        ],
+        "sourceEventIds": [
+          "13304"
+        ]
+      },
+      "legacyId": "bulk-match-85180",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Sheamus vs. Apollo Crews",
+      "result": "Sheamus defeated Apollo Crews.",
+      "matchType": "Singles match",
+      "duration": 40,
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "apollo-crews",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Apollo Crews"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-02-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85181",
+          "114058"
+        ],
+        "sourceEventIds": [
+          "13304"
+        ]
+      },
+      "legacyId": "bulk-match-85181",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Carmella vs. Alexa Bliss, Dana Brooke, Naomi",
+      "result": "Carmella defeated Alexa Bliss, Dana Brooke, Naomi.",
+      "matchType": "Other match",
+      "duration": 710,
+      "participants": [
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "dana-brooke",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Carmella",
+        "Alexa Bliss",
+        "Dana Brooke",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-02-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85182",
+          "114059"
+        ],
+        "sourceEventIds": [
+          "13304"
+        ]
+      },
+      "legacyId": "bulk-match-85182",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13304"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13304"
+    ]
+  }
+}

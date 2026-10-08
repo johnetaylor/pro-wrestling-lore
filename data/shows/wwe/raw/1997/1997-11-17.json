@@ -1,0 +1,204 @@
+{
+  "id": "wwe/raw/1997-11-17",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1997-11-17",
+  "dateBasis": "aired",
+  "recordedDate": "1997-11-11",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1997/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Jerry Lawler vs. Marc Mero",
+      "result": "Jerry Lawler defeated Marc Mero by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "jerry-lawler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "marc-mero",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Jerry Lawler",
+        "Marc Mero"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "28665",
+          "178365"
+        ],
+        "sourceEventIds": [
+          "4399"
+        ]
+      },
+      "legacyId": "bulk-match-28665",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Scott Taylor vs. Eric Shelley",
+      "result": "Scott Taylor defeated Eric Shelley.",
+      "matchType": "Singles match",
+      "duration": 327,
+      "participants": [
+        {
+          "person": "scotty-2-hotty",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eric-shelley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Scott Taylor",
+        "Eric Shelley"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "28668",
+          "178368"
+        ],
+        "sourceEventIds": [
+          "4399"
+        ]
+      },
+      "legacyId": "bulk-match-28668",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Vader, Goldust — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "vader",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Vader",
+        "Goldust"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "28669",
+          "178369"
+        ],
+        "sourceEventIds": [
+          "4399"
+        ]
+      },
+      "legacyId": "bulk-match-28669",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Dude Love vs. Rocky Maivia",
+      "result": "Dude Love defeated Rocky Maivia by disqualification.",
+      "matchType": "Singles match",
+      "duration": 262,
+      "participants": [
+        {
+          "person": "mick-foley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Dude Love",
+        "Rocky Maivia"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "28670",
+          "178370"
+        ],
+        "sourceEventIds": [
+          "4399"
+        ]
+      },
+      "legacyId": "bulk-match-28670",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4399"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4399"
+    ]
+  }
+}

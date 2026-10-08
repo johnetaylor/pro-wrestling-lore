@@ -1,0 +1,66 @@
+{
+  "id": "rhodes",
+  "name": "Rhodes",
+  "description": "Dusty Rhodes and the two sons who carried the family’s wrestling legacy into another generation.",
+  "branches": [
+    {
+      "id": "rhodes",
+      "name": "The Rhodes family"
+    }
+  ],
+  "members": [
+    {
+      "id": "dusty",
+      "name": "Dusty Rhodes",
+      "person": "dusty-rhodes",
+      "branch": "rhodes",
+      "source": "families",
+      "layout": {
+        "x": 106,
+        "y": 24
+      }
+    },
+    {
+      "id": "dustin",
+      "name": "Dustin Rhodes / Goldust",
+      "person": "dustin-rhodes",
+      "branch": "rhodes",
+      "source": "families",
+      "layout": {
+        "x": 16,
+        "y": 164
+      }
+    },
+    {
+      "id": "cody-rhodes",
+      "name": "Cody Rhodes",
+      "person": "cody-rhodes",
+      "branch": "rhodes",
+      "source": "families",
+      "layout": {
+        "x": 196,
+        "y": 164
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "dusty",
+      "b": "dustin",
+      "type": "parent",
+      "source": "families"
+    },
+    {
+      "a": "dusty",
+      "b": "cody-rhodes",
+      "type": "parent",
+      "source": "families"
+    }
+  ],
+  "sources": {
+    "families": {
+      "label": "WWE: wrestling families",
+      "url": "https://www.wwe.com/classics/classic-lists/greatest-families-in-wwe-history"
+    }
+  }
+}

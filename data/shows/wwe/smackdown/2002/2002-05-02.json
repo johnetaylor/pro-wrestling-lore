@@ -1,0 +1,231 @@
+{
+  "id": "wwe/smackdown/2002-05-02",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2002-05-02",
+  "dateBasis": "aired",
+  "recordedDate": "2002-04-30",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2002/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Randy Orton vs. Hardcore Holly",
+      "result": "Randy Orton defeated Hardcore Holly by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Hardcore Holly"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44610",
+          "162355"
+        ],
+        "sourceEventIds": [
+          "6550"
+        ]
+      },
+      "legacyId": "bulk-match-44610",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Christian, Test vs. Faarooq, Mark Henry",
+      "result": "Christian, Test defeated Faarooq, Mark Henry.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ron-simmons",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Christian",
+        "Test",
+        "Faarooq",
+        "Mark Henry"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44612",
+          "162357"
+        ],
+        "sourceEventIds": [
+          "6550"
+        ]
+      },
+      "legacyId": "bulk-match-44612",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Tajiri vs. Billy Kidman",
+      "result": "Tajiri defeated Billy Kidman.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "tajiri",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billy-kidman",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tajiri",
+        "Billy Kidman"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44613",
+          "162358"
+        ],
+        "sourceEventIds": [
+          "6550"
+        ]
+      },
+      "legacyId": "bulk-match-44613",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Hulk Hogan vs. Chris Jericho",
+      "result": "Hulk Hogan defeated Chris Jericho.",
+      "matchType": "Other match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hulk Hogan",
+        "Chris Jericho"
+      ],
+      "showCategory": "SmackDown",
+      "promotionLabel": "WWF",
+      "dateBasis": "broadcast",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-07",
+        "source": "https://thehistoryofwwe.com/wwe-results-2002/",
+        "scope": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date."
+      },
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44614",
+          "162359"
+        ],
+        "sourceEventIds": [
+          "6550"
+        ]
+      },
+      "legacyId": "bulk-match-44614",
+      "legacy": {
+        "kind": "title",
+        "hoganReview": {
+          "id": "bulk-match-44614",
+          "source": "https://thehistoryofwwe.com/wwe-results-2002/",
+          "date": "2002-05-02",
+          "reviewed": "2026-10-07",
+          "note": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date.",
+          "omitUnreviewedDuration": true
+        },
+        "workbookReference": "HM-0252",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6550"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6550"
+    ]
+  }
+}

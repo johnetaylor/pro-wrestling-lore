@@ -1,0 +1,197 @@
+{
+  "id": "wwe/smackdown/2020-05-08",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2020-05-08",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2020-05-08"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Sonya Deville vs. Mandy Rose",
+      "result": "Sonya Deville defeated Mandy Rose.",
+      "matchType": "Singles match",
+      "duration": 310,
+      "participants": [
+        {
+          "person": "sonya-deville",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mandy-rose",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sonya Deville",
+        "Mandy Rose"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-05-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85659",
+          "113435"
+        ],
+        "sourceEventIds": [
+          "13388"
+        ]
+      },
+      "legacyId": "bulk-match-85659",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Lacey Evans, Tamina vs. Bayley, Sasha Banks",
+      "result": "Lacey Evans, Tamina defeated Bayley, Sasha Banks.",
+      "matchType": "4-person match",
+      "duration": 780,
+      "participants": [
+        {
+          "person": "lacey-evans",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tamina",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lacey Evans",
+        "Tamina",
+        "Bayley",
+        "Sasha Banks"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-05-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85661",
+          "113437"
+        ],
+        "sourceEventIds": [
+          "13388"
+        ]
+      },
+      "legacyId": "bulk-match-85661",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Cesaro, King Corbin, Shinsuke Nakamura vs. Daniel Bryan, Drew Gulak, Otis",
+      "result": "Cesaro, King Corbin, Shinsuke Nakamura defeated Daniel Bryan, Drew Gulak, Otis.",
+      "matchType": "Tag Team match",
+      "duration": 655,
+      "participants": [
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "drew-gulak",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "otis",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cesaro",
+        "King Corbin",
+        "Shinsuke Nakamura",
+        "Daniel Bryan",
+        "Drew Gulak",
+        "Otis"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-05-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85662",
+          "113438"
+        ],
+        "sourceEventIds": [
+          "13388"
+        ]
+      },
+      "legacyId": "bulk-match-85662",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13388"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13388"
+    ]
+  }
+}

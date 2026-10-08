@@ -1,0 +1,159 @@
+{
+  "id": "wwe/smackdown/2021-06-04",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2021-06-04",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2021-06-04"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Carmella vs. Liv Morgan",
+      "result": "Carmella defeated Liv Morgan.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Carmella",
+        "Liv Morgan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-06-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87110",
+          "110749"
+        ],
+        "sourceEventIds": [
+          "13687"
+        ]
+      },
+      "legacyId": "bulk-match-87110",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "King Corbin vs. Shinsuke Nakamura",
+      "result": "King Corbin defeated Shinsuke Nakamura.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "King Corbin",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-06-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87111",
+          "110750"
+        ],
+        "sourceEventIds": [
+          "13687"
+        ]
+      },
+      "legacyId": "bulk-match-87111",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Apollo Crews vs. Kevin Owens",
+      "result": "Apollo Crews defeated Kevin Owens.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "apollo-crews",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Apollo Crews",
+        "Kevin Owens"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-06-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87112",
+          "110751"
+        ],
+        "sourceEventIds": [
+          "13687"
+        ]
+      },
+      "legacyId": "bulk-match-87112",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13687"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13687"
+    ]
+  }
+}

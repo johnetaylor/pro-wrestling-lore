@@ -1,0 +1,118 @@
+{
+  "id": "wwe/smackdown/2006-11-03",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2006-11-03",
+  "dateBasis": "aired",
+  "recordedDate": "2006-10-29",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2006/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Gregory Helms vs. Jimmy Wang Yang",
+      "result": "Gregory Helms defeated Jimmy Wang Yang.",
+      "matchType": "Singles match",
+      "duration": 200,
+      "participants": [
+        {
+          "person": "the-hurricane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jimmy-wang-yang",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Gregory Helms",
+        "Jimmy Wang Yang"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51197",
+          "154918"
+        ],
+        "sourceEventIds": [
+          "7747"
+        ]
+      },
+      "legacyId": "bulk-match-51197",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Bobby Lashley vs. Jamie Noble",
+      "result": "Bobby Lashley defeated Jamie Noble.",
+      "matchType": "Singles match",
+      "duration": 74,
+      "participants": [
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jamie-noble",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bobby Lashley",
+        "Jamie Noble"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51199",
+          "154920"
+        ],
+        "sourceEventIds": [
+          "7747"
+        ]
+      },
+      "legacyId": "bulk-match-51199",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7747"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7747"
+    ]
+  }
+}

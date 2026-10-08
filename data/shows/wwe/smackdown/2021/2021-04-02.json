@@ -1,0 +1,72 @@
+{
+  "id": "wwe/smackdown/2021-04-02",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2021-04-02",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2021-04-02"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Tamina vs. Nia Jax",
+      "result": "Tamina defeated Nia Jax by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "tamina",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nia-jax",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Tamina",
+        "Nia Jax"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-04-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86889",
+          "111248"
+        ],
+        "sourceEventIds": [
+          "13640"
+        ]
+      },
+      "legacyId": "bulk-match-86889",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13640"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13640"
+    ]
+  }
+}

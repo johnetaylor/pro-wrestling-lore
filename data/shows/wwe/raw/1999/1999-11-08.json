@@ -1,0 +1,215 @@
+{
+  "id": "wwe/raw/1999-11-08",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1999-11-08",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1999/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Billy Gunn, Road Dogg vs. Al Snow, Mankind",
+      "result": "Billy Gunn, Road Dogg defeated Al Snow, Mankind.",
+      "matchType": "4-person match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "road-dogg",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "al-snow",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "mick-foley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Billy Gunn",
+        "Road Dogg",
+        "Al Snow",
+        "Mankind"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "36717",
+          "170296"
+        ],
+        "sourceEventIds": [
+          "5449"
+        ]
+      },
+      "legacyId": "bulk-match-36717",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "The Godfather vs. Val Venis",
+      "result": "The Godfather defeated Val Venis by count-out.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "the-godfather",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "val-venis",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "The Godfather",
+        "Val Venis"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "36718",
+          "170297"
+        ],
+        "sourceEventIds": [
+          "5449"
+        ]
+      },
+      "legacyId": "bulk-match-36718",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "The Rock vs. X-Pac",
+      "result": "The Rock defeated X-Pac.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "x-pac",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Rock",
+        "X-Pac"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "36720",
+          "170299"
+        ],
+        "sourceEventIds": [
+          "5449"
+        ]
+      },
+      "legacyId": "bulk-match-36720",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Triple H vs. Test",
+      "result": "Triple H defeated Test by count-out.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "Test"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "36723",
+          "170302"
+        ],
+        "sourceEventIds": [
+          "5449"
+        ]
+      },
+      "legacyId": "bulk-match-36723",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5449"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5449"
+    ]
+  }
+}

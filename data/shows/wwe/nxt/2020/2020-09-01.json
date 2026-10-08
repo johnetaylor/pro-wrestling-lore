@@ -1,0 +1,171 @@
+{
+  "id": "wwe/nxt/2020-09-01",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2020-09-01",
+  "dateBasis": "aired",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwenxt/2020-09-01"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Candice LeRae vs. Kacy Catanzaro",
+      "result": "Candice LeRae defeated Kacy Catanzaro.",
+      "matchType": "Singles match",
+      "duration": 180,
+      "participants": [
+        {
+          "person": "candice-lerae",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "katana-chance",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Candice LeRae",
+        "Kacy Catanzaro"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2020-09-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "112748"
+        ],
+        "sourceEventIds": [
+          "16536"
+        ]
+      },
+      "legacyId": "bulk-match-112748",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Timothy Thatcher vs. Bronson Reed",
+      "result": "Timothy Thatcher defeated Bronson Reed.",
+      "matchType": "Singles match",
+      "duration": 289,
+      "participants": [
+        {
+          "person": "timothy-thatcher",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bronson-reed",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Timothy Thatcher",
+        "Bronson Reed"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2020-09-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "112749"
+        ],
+        "sourceEventIds": [
+          "16536"
+        ]
+      },
+      "legacyId": "bulk-match-112749",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Iron Man match",
+      "result": "Adam Cole, Finn Bálor, Tommaso Ciampa, Johnny Gargano — draw.",
+      "matchType": "Iron Man match",
+      "duration": 3600,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "adam-cole",
+          "role": "competitor",
+          "outcome": "draw"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "draw"
+        },
+        {
+          "person": "tommaso-ciampa",
+          "role": "competitor",
+          "outcome": "draw"
+        },
+        {
+          "person": "johnny-gargano",
+          "role": "competitor",
+          "outcome": "draw"
+        }
+      ],
+      "billing": [
+        "Adam Cole",
+        "Finn Bálor",
+        "Tommaso Ciampa",
+        "Johnny Gargano"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2020-09-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "112750"
+        ],
+        "sourceEventIds": [
+          "16536"
+        ]
+      },
+      "legacyId": "bulk-match-112750",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-16536"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "16536"
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "id": "wwe/smackdown/2018-08-21",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-08-21",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-08-21"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Randy Orton vs. Jeff Hardy",
+      "result": "Randy Orton defeated Jeff Hardy by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Jeff Hardy"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-08-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81262",
+          "118194"
+        ],
+        "sourceEventIds": [
+          "12636"
+        ]
+      },
+      "legacyId": "bulk-match-81262",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Peyton Royce vs. Naomi",
+      "result": "Peyton Royce defeated Naomi.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "peyton-royce",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Peyton Royce",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-08-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81263",
+          "118195"
+        ],
+        "sourceEventIds": [
+          "12636"
+        ]
+      },
+      "legacyId": "bulk-match-81263",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Lana, Rusev vs. Andrade \"Cien\" Almas, Zelina Vega",
+      "result": "Lana, Rusev defeated Andrade \"Cien\" Almas, Zelina Vega.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "lana",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "zelina-vega",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lana",
+        "Rusev",
+        "Andrade \"Cien\" Almas",
+        "Zelina Vega"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-08-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81264",
+          "118196"
+        ],
+        "sourceEventIds": [
+          "12636"
+        ]
+      },
+      "legacyId": "bulk-match-81264",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Kofi Kingston, Xavier Woods vs. Harper, Rowan",
+      "result": "Kofi Kingston, Xavier Woods defeated Harper, Rowan.",
+      "matchType": "Tag Team match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "harper",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "erick-rowan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kofi Kingston",
+        "Xavier Woods",
+        "Harper",
+        "Rowan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-08-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81265",
+          "118197"
+        ],
+        "sourceEventIds": [
+          "12636"
+        ]
+      },
+      "legacyId": "bulk-match-81265",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12636"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12636"
+    ]
+  }
+}

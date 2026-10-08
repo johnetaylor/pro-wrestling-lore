@@ -1,0 +1,129 @@
+{
+  "id": "wwe/smackdown/2014-01-03",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2014-01-03",
+  "dateBasis": "aired",
+  "recordedDate": "2013-12-29",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2013/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "R-Truth vs. Fandango",
+      "result": "R-Truth defeated Fandango.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "fandango",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "R-Truth",
+        "Fandango"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2013/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "64307",
+          "136934"
+        ],
+        "sourceEventIds": [
+          "10135"
+        ]
+      },
+      "legacyId": "bulk-match-64307",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Cody Rhodes, Goldust vs. Erick Rowan, Luke Harper",
+      "result": "Cody Rhodes, Goldust defeated Erick Rowan, Luke Harper.",
+      "matchType": "4-person match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "erick-rowan",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "luke-harper",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Goldust",
+        "Erick Rowan",
+        "Luke Harper"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2013/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "64308",
+          "136935"
+        ],
+        "sourceEventIds": [
+          "10135"
+        ]
+      },
+      "legacyId": "bulk-match-64308",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10135"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10135"
+    ]
+  }
+}

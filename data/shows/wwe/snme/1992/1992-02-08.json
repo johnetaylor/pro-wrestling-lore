@@ -1,0 +1,191 @@
+{
+  "id": "wwe/snme/1992-02-08",
+  "promotion": "wwe",
+  "series": "wwe/snme",
+  "name": "Saturday Night's Main Event Taping",
+  "date": "1992-02-08",
+  "dateBasis": "aired",
+  "recordedDate": "1992-01-27",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1992/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Roddy Piper vs. The Mountie",
+      "result": "Roddy Piper defeated The Mountie.",
+      "matchType": "Singles match",
+      "duration": 204,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "roddy-piper",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-mountie",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roddy Piper",
+        "The Mountie"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1992/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "17890",
+          "189128"
+        ],
+        "sourceEventIds": [
+          "2827"
+        ]
+      },
+      "legacyId": "bulk-match-17890",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Hulk Hogan, Sid Justice vs. Ric Flair, The Undertaker",
+      "result": "Hulk Hogan, Sid Justice defeated Ric Flair, The Undertaker by disqualification.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sid-justice",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ric-flair",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Hulk Hogan",
+        "Sid Justice",
+        "Ric Flair",
+        "The Undertaker"
+      ],
+      "showCategory": "PLE / special",
+      "promotionLabel": "WWF",
+      "dateBasis": "broadcast",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-07",
+        "source": "https://thehistoryofwwe.com/wwf-results-1992/",
+        "scope": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date."
+      },
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1992/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "17891",
+          "189129"
+        ],
+        "sourceEventIds": [
+          "2827"
+        ]
+      },
+      "legacyId": "bulk-match-17891",
+      "legacy": {
+        "show": "Saturday Night’s Main Event",
+        "kind": "match",
+        "hoganReview": {
+          "id": "bulk-match-17891",
+          "source": "https://thehistoryofwwe.com/wwf-results-1992/",
+          "date": "1992-02-08",
+          "reviewed": "2026-10-07",
+          "note": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date.",
+          "show": "Saturday Night’s Main Event",
+          "omitUnreviewedDuration": true
+        },
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Randy Savage vs. Jake Roberts",
+      "result": "Randy Savage defeated Jake Roberts.",
+      "matchType": "Singles match",
+      "duration": 325,
+      "participants": [
+        {
+          "person": "randy-savage",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jake-roberts",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Savage",
+        "Jake Roberts"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1992/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "17893",
+          "189131"
+        ],
+        "sourceEventIds": [
+          "2827"
+        ]
+      },
+      "legacyId": "bulk-match-17893",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-2827"
+  ],
+  "legacy": {
+    "showFamily": "snme",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "2827"
+    ]
+  }
+}

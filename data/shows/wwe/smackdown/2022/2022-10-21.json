@@ -1,0 +1,222 @@
+{
+  "id": "wwe/smackdown/2022-10-21",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2022-10-21",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2022-10-21"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Solo Sikoa vs. Sheamus",
+      "result": "Solo Sikoa defeated Sheamus.",
+      "matchType": "Singles match",
+      "duration": 785,
+      "participants": [
+        {
+          "person": "solo-sikoa",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Solo Sikoa",
+        "Sheamus"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-10-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "7179",
+          "90217",
+          "105507"
+        ],
+        "sourceEventIds": [
+          "1272"
+        ]
+      },
+      "legacyId": "bulk-match-7179",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Liv Morgan, Sonya Deville — double count-out.",
+      "matchType": "Singles match",
+      "duration": 525,
+      "participants": [
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "sonya-deville",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Liv Morgan",
+        "Sonya Deville"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-10-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "7180",
+          "90218",
+          "105508"
+        ],
+        "sourceEventIds": [
+          "1272"
+        ]
+      },
+      "legacyId": "bulk-match-7180",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Dakota Kai, Iyo Sky vs. Raquel Rodriguez, Shotzi",
+      "result": "Dakota Kai, Iyo Sky defeated Raquel Rodriguez, Shotzi.",
+      "matchType": "4-person match",
+      "duration": 612,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "dakota-kai",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "iyo-sky",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "raquel-rodriguez",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shotzi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dakota Kai",
+        "Iyo Sky",
+        "Raquel Rodriguez",
+        "Shotzi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-10-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "7181",
+          "90219",
+          "105509"
+        ],
+        "sourceEventIds": [
+          "1272"
+        ]
+      },
+      "legacyId": "bulk-match-7181",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Rey Mysterio vs. Ludwig Kaiser",
+      "result": "Rey Mysterio defeated Ludwig Kaiser.",
+      "matchType": "Singles match",
+      "duration": 680,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ludwig-kaiser",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Ludwig Kaiser"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-10-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "7182",
+          "90220",
+          "105510"
+        ],
+        "sourceEventIds": [
+          "1272"
+        ]
+      },
+      "legacyId": "bulk-match-7182",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1272"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1272"
+    ]
+  }
+}

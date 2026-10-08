@@ -1,0 +1,461 @@
+{
+  "id": "wwe/raw/2018-05-21",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2018-05-21",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2018-05-21"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Roman Reigns vs. Kevin Owens",
+      "result": "Roman Reigns defeated Kevin Owens by disqualification.",
+      "matchType": "Singles match",
+      "duration": 794,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Kevin Owens"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-05-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80563",
+          "118896"
+        ],
+        "sourceEventIds": [
+          "12523"
+        ]
+      },
+      "legacyId": "bulk-match-80563",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Roman Reigns, Seth Rollins vs. Jinder Mahal, Kevin Owens",
+      "result": "Roman Reigns, Seth Rollins defeated Jinder Mahal, Kevin Owens.",
+      "matchType": "4-person match",
+      "duration": 832,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Seth Rollins",
+        "Jinder Mahal",
+        "Kevin Owens"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-05-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80564",
+          "118897"
+        ],
+        "sourceEventIds": [
+          "12523"
+        ]
+      },
+      "legacyId": "bulk-match-80564",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Ember Moon vs. Alexa Bliss",
+      "result": "Ember Moon defeated Alexa Bliss.",
+      "matchType": "Singles match",
+      "duration": 519,
+      "participants": [
+        {
+          "person": "ember-moon",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ember Moon",
+        "Alexa Bliss"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-05-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80565",
+          "118898"
+        ],
+        "sourceEventIds": [
+          "12523"
+        ]
+      },
+      "legacyId": "bulk-match-80565",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Baron Corbin vs. No Way Jose",
+      "result": "Baron Corbin defeated No Way Jose.",
+      "matchType": "Singles match",
+      "duration": 253,
+      "participants": [
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "no-way-jose",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Baron Corbin",
+        "No Way Jose"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-05-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80566",
+          "118899"
+        ],
+        "sourceEventIds": [
+          "12523"
+        ]
+      },
+      "legacyId": "bulk-match-80566",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 5,
+      "type": "match",
+      "title": "Bo Dallas, Curtis Axel vs. Fandango, Tyler Breeze",
+      "result": "Bo Dallas, Curtis Axel defeated Fandango, Tyler Breeze.",
+      "matchType": "4-person match",
+      "duration": 102,
+      "participants": [
+        {
+          "person": "uncle-howdy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "curtis-axel",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "fandango",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tyler-breeze",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bo Dallas",
+        "Curtis Axel",
+        "Fandango",
+        "Tyler Breeze"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-05-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80567",
+          "118900"
+        ],
+        "sourceEventIds": [
+          "12523"
+        ]
+      },
+      "legacyId": "bulk-match-80567",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 6,
+      "type": "match",
+      "title": "Dolph Ziggler vs. Chad Gable",
+      "result": "Dolph Ziggler defeated Chad Gable.",
+      "matchType": "Singles match",
+      "duration": 279,
+      "participants": [
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dolph Ziggler",
+        "Chad Gable"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-05-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80568",
+          "118901"
+        ],
+        "sourceEventIds": [
+          "12523"
+        ]
+      },
+      "legacyId": "bulk-match-80568",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m7",
+      "order": 7,
+      "type": "match",
+      "title": "Natalya vs. Dana Brooke, Liv Morgan, Sarah Logan",
+      "result": "Natalya defeated Dana Brooke, Liv Morgan, Sarah Logan.",
+      "matchType": "Fatal Four Way match",
+      "duration": 266,
+      "participants": [
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dana-brooke",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "valhalla",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Natalya",
+        "Dana Brooke",
+        "Liv Morgan",
+        "Sarah Logan"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-05-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80569",
+          "118902"
+        ],
+        "sourceEventIds": [
+          "12523"
+        ]
+      },
+      "legacyId": "bulk-match-80569",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m8",
+      "order": 8,
+      "type": "match",
+      "title": "Elias vs. Bobby Roode",
+      "result": "Elias defeated Bobby Roode.",
+      "matchType": "Singles match",
+      "duration": 510,
+      "participants": [
+        {
+          "person": "elias",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bobby-roode",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Elias",
+        "Bobby Roode"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-05-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80570",
+          "118903"
+        ],
+        "sourceEventIds": [
+          "12523"
+        ]
+      },
+      "legacyId": "bulk-match-80570",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m9",
+      "order": 9,
+      "type": "match",
+      "title": "Braun Strowman vs. Finn Bálor",
+      "result": "Braun Strowman defeated Finn Bálor.",
+      "matchType": "Singles match",
+      "duration": 632,
+      "participants": [
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Braun Strowman",
+        "Finn Bálor"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-05-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80571",
+          "118904"
+        ],
+        "sourceEventIds": [
+          "12523"
+        ]
+      },
+      "legacyId": "bulk-match-80571",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12523"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12523"
+    ]
+  }
+}

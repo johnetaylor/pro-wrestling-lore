@@ -1,0 +1,174 @@
+{
+  "id": "wwe/smackdown/2020-01-31",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2020-01-31",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2020-01-31"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Alexa Bliss, Nikki Cross vs. Mandy Rose, Sonya Deville",
+      "result": "Alexa Bliss, Nikki Cross defeated Mandy Rose, Sonya Deville.",
+      "matchType": "4-person match",
+      "duration": 210,
+      "participants": [
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nikki-cross",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mandy-rose",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sonya-deville",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alexa Bliss",
+        "Nikki Cross",
+        "Mandy Rose",
+        "Sonya Deville"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-01-31"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85135",
+          "114099"
+        ],
+        "sourceEventIds": [
+          "13297"
+        ]
+      },
+      "legacyId": "bulk-match-85135",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Braun Strowman vs. Shinsuke Nakamura",
+      "result": "Braun Strowman defeated Shinsuke Nakamura.",
+      "matchType": "Singles match",
+      "duration": 280,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Braun Strowman",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-01-31"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85136",
+          "114100"
+        ],
+        "sourceEventIds": [
+          "13297"
+        ]
+      },
+      "legacyId": "bulk-match-85136",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Sheamus vs. Shorty G",
+      "result": "Sheamus defeated Shorty G.",
+      "matchType": "Singles match",
+      "duration": 225,
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Shorty G"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-01-31"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85137",
+          "114101"
+        ],
+        "sourceEventIds": [
+          "13297"
+        ]
+      },
+      "legacyId": "bulk-match-85137",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13297"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13297"
+    ]
+  }
+}

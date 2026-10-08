@@ -1,0 +1,218 @@
+{
+  "id": "wwe/smackdown/2018-02-06",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-02-06",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-02-06"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Charlotte Flair vs. Liv Morgan",
+      "result": "Charlotte Flair defeated Liv Morgan.",
+      "matchType": "Singles match",
+      "duration": 481,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Liv Morgan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-02-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79681",
+          "119789"
+        ],
+        "sourceEventIds": [
+          "12374"
+        ]
+      },
+      "legacyId": "bulk-match-79681",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Bobby Roode vs. Rusev",
+      "result": "Bobby Roode defeated Rusev.",
+      "matchType": "Singles match",
+      "duration": 950,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bobby-roode",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bobby Roode",
+        "Rusev"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-02-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79683",
+          "119791"
+        ],
+        "sourceEventIds": [
+          "12374"
+        ]
+      },
+      "legacyId": "bulk-match-79683",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Chad Gable, Shelton Benjamin vs. Konnor, Viktor",
+      "result": "Chad Gable, Shelton Benjamin defeated Konnor, Viktor.",
+      "matchType": "4-person match",
+      "duration": 227,
+      "participants": [
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "konnor",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "viktor",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chad Gable",
+        "Shelton Benjamin",
+        "Konnor",
+        "Viktor"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-02-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79684",
+          "119792"
+        ],
+        "sourceEventIds": [
+          "12374"
+        ]
+      },
+      "legacyId": "bulk-match-79684",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Kevin Owens, Sami Zayn — no contest.",
+      "matchType": "Singles match",
+      "duration": 840,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Sami Zayn"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-02-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79685",
+          "119793"
+        ],
+        "sourceEventIds": [
+          "12374"
+        ]
+      },
+      "legacyId": "bulk-match-79685",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12374"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12374"
+    ]
+  }
+}

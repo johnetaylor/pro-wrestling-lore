@@ -1,0 +1,185 @@
+{
+  "id": "wwe/smackdown/2007-02-20",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2007-02-20",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Brian Kendrick, Matt Hardy, Paul London vs. Deuce, Domino, Joey Mercury",
+      "result": "Brian Kendrick, Matt Hardy, Paul London defeated Deuce, Domino, Joey Mercury.",
+      "matchType": "Tag Team match",
+      "duration": 682,
+      "participants": [
+        {
+          "person": "brian-kendrick",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "paul-london",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "la-knight",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "domino",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "joey-mercury",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Brian Kendrick",
+        "Matt Hardy",
+        "Paul London",
+        "Deuce",
+        "Domino",
+        "Joey Mercury"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51607",
+          "154416"
+        ],
+        "sourceEventIds": [
+          "7819"
+        ]
+      },
+      "legacyId": "bulk-match-51607",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Chavo Guerrero vs. Scotty 2 Hotty",
+      "result": "Chavo Guerrero defeated Scotty 2 Hotty.",
+      "matchType": "Singles match",
+      "duration": 459,
+      "participants": [
+        {
+          "person": "chavo-guerrero",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "scotty-2-hotty",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chavo Guerrero",
+        "Scotty 2 Hotty"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51608",
+          "154417"
+        ],
+        "sourceEventIds": [
+          "7819"
+        ]
+      },
+      "legacyId": "bulk-match-51608",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "King Booker vs. Kane",
+      "result": "King Booker defeated Kane.",
+      "matchType": "Other match",
+      "duration": 1076,
+      "participants": [
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "King Booker",
+        "Kane"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51609",
+          "154418"
+        ],
+        "sourceEventIds": [
+          "7819"
+        ]
+      },
+      "legacyId": "bulk-match-51609",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7819"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7819"
+    ]
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "id": "wwe/smackdown/2017-11-21",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-11-21",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-11-21"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Shelton Benjamin vs. Jey Uso",
+      "result": "Shelton Benjamin defeated Jey Uso.",
+      "matchType": "Singles match",
+      "duration": 440,
+      "participants": [
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jey-uso",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shelton Benjamin",
+        "Jey Uso"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-11-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79134",
+          "120329"
+        ],
+        "sourceEventIds": [
+          "12273"
+        ]
+      },
+      "legacyId": "bulk-match-79134",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Harper, Rowan vs. Mojo Rawley, Zack Ryder",
+      "result": "Harper, Rowan defeated Mojo Rawley, Zack Ryder.",
+      "matchType": "4-person match",
+      "duration": 92,
+      "participants": [
+        {
+          "person": "harper",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "erick-rowan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mojo-rawley",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "matt-cardona",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Harper",
+        "Rowan",
+        "Mojo Rawley",
+        "Zack Ryder"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-11-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79135",
+          "120330"
+        ],
+        "sourceEventIds": [
+          "12273"
+        ]
+      },
+      "legacyId": "bulk-match-79135",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Charlotte Flair, Natalya — no contest.",
+      "matchType": "Singles match",
+      "duration": 413,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Natalya"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-11-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79136",
+          "120331"
+        ],
+        "sourceEventIds": [
+          "12273"
+        ]
+      },
+      "legacyId": "bulk-match-79136",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Kevin Owens, Sami Zayn vs. Big E, Kofi Kingston",
+      "result": "Kevin Owens, Sami Zayn defeated Big E, Kofi Kingston.",
+      "matchType": "Tag Team match",
+      "duration": 710,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Sami Zayn",
+        "Big E",
+        "Kofi Kingston"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-11-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79137",
+          "120332"
+        ],
+        "sourceEventIds": [
+          "12273"
+        ]
+      },
+      "legacyId": "bulk-match-79137",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12273"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12273"
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "id": "wwe/raw/2017-01-23",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2017-01-23",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2017-01-23"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Luke Gallows vs. Cesaro",
+      "result": "Luke Gallows defeated Cesaro.",
+      "matchType": "Singles match",
+      "duration": 521,
+      "participants": [
+        {
+          "person": "luke-gallows",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Luke Gallows",
+        "Cesaro"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-01-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "75913",
+          "123631"
+        ],
+        "sourceEventIds": [
+          "11764"
+        ]
+      },
+      "legacyId": "bulk-match-75913",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Sami Zayn vs. Seth Rollins",
+      "result": "Sami Zayn defeated Seth Rollins.",
+      "matchType": "Singles match",
+      "duration": 959,
+      "participants": [
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sami Zayn",
+        "Seth Rollins"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-01-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "75914",
+          "123632"
+        ],
+        "sourceEventIds": [
+          "11764"
+        ]
+      },
+      "legacyId": "bulk-match-75914",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Roman Reigns vs. Chris Jericho",
+      "result": "Roman Reigns defeated Chris Jericho by disqualification.",
+      "matchType": "Other match",
+      "duration": 579,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-01-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "75917",
+          "123635"
+        ],
+        "sourceEventIds": [
+          "11764"
+        ]
+      },
+      "legacyId": "bulk-match-75917",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Rich Swann vs. Noam Dar",
+      "result": "Rich Swann defeated Noam Dar.",
+      "matchType": "Singles match",
+      "duration": 352,
+      "participants": [
+        {
+          "person": "rich-swann",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "noam-dar",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rich Swann",
+        "Noam Dar"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-01-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "75919",
+          "123637"
+        ],
+        "sourceEventIds": [
+          "11764"
+        ]
+      },
+      "legacyId": "bulk-match-75919",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11764"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11764"
+    ]
+  }
+}

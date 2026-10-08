@@ -1,0 +1,174 @@
+{
+  "id": "wwe/smackdown/2017-08-22",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-08-22",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-08-22"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Bobby Roode vs. Aiden English",
+      "result": "Bobby Roode defeated Aiden English.",
+      "matchType": "Singles match",
+      "duration": 386,
+      "participants": [
+        {
+          "person": "bobby-roode",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aiden-english",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bobby Roode",
+        "Aiden English"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-08-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78448",
+          "121021"
+        ],
+        "sourceEventIds": [
+          "12154"
+        ]
+      },
+      "legacyId": "bulk-match-78448",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Becky Lynch, Naomi vs. Carmella, Natalya",
+      "result": "Becky Lynch, Naomi defeated Carmella, Natalya.",
+      "matchType": "4-person match",
+      "duration": 444,
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Naomi",
+        "Carmella",
+        "Natalya"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-08-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78451",
+          "121024"
+        ],
+        "sourceEventIds": [
+          "12154"
+        ]
+      },
+      "legacyId": "bulk-match-78451",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "A.J. Styles vs. Kevin Owens",
+      "result": "A.J. Styles defeated Kevin Owens.",
+      "matchType": "Other match",
+      "duration": 775,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Kevin Owens"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-08-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78452",
+          "121025"
+        ],
+        "sourceEventIds": [
+          "12154"
+        ]
+      },
+      "legacyId": "bulk-match-78452",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12154"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12154"
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": "wwe/raw/2000-07-17",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2000-07-17",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Dean Malenko vs. Chyna",
+      "result": "Dean Malenko defeated Chyna by disqualification.",
+      "matchType": "Singles match",
+      "duration": 153,
+      "participants": [
+        {
+          "person": "dean-malenko",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chyna",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Dean Malenko",
+        "Chyna"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "39725",
+          "167297"
+        ],
+        "sourceEventIds": [
+          "5867"
+        ]
+      },
+      "legacyId": "bulk-match-39725",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Rikishi vs. Test",
+      "result": "Rikishi defeated Test.",
+      "matchType": "Singles match",
+      "duration": 116,
+      "participants": [
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rikishi",
+        "Test"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "39726",
+          "167298"
+        ],
+        "sourceEventIds": [
+          "5867"
+        ]
+      },
+      "legacyId": "bulk-match-39726",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Kane, The Undertaker vs. Kurt Angle, Triple H",
+      "result": "Kane, The Undertaker defeated Kurt Angle, Triple H.",
+      "matchType": "4-person match",
+      "duration": 313,
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "The Undertaker",
+        "Kurt Angle",
+        "Triple H"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "39727",
+          "167299"
+        ],
+        "sourceEventIds": [
+          "5867"
+        ]
+      },
+      "legacyId": "bulk-match-39727",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5867"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5867"
+    ]
+  }
+}

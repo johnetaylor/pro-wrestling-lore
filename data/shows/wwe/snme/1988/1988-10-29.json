@@ -1,0 +1,177 @@
+{
+  "id": "wwe/snme/1988-10-29",
+  "promotion": "wwe",
+  "series": "wwe/snme",
+  "name": "Saturday Night's Main Event Taping",
+  "date": "1988-10-29",
+  "dateBasis": "aired",
+  "recordedDate": "1988-10-25",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1988/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Jake Roberts vs. Rick Rude",
+      "result": "Jake Roberts defeated Rick Rude by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "jake-roberts",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rick-rude",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Jake Roberts",
+        "Rick Rude"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1988/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "14255",
+          "192780"
+        ],
+        "sourceEventIds": [
+          "2298"
+        ]
+      },
+      "legacyId": "bulk-match-14255",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Hulk Hogan vs. King Haku",
+      "result": "Hulk Hogan defeated King Haku.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "king-haku",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hulk Hogan",
+        "King Haku"
+      ],
+      "showCategory": "PLE / special",
+      "promotionLabel": "WWF",
+      "dateBasis": "broadcast",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-07",
+        "source": "https://thehistoryofwwe.com/wwf-results-1988/",
+        "scope": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date."
+      },
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1988/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "14257",
+          "192782"
+        ],
+        "sourceEventIds": [
+          "2298"
+        ]
+      },
+      "legacyId": "bulk-match-14257",
+      "legacy": {
+        "show": "Saturday Night’s Main Event",
+        "kind": "match",
+        "hoganReview": {
+          "id": "bulk-match-14257",
+          "source": "https://thehistoryofwwe.com/wwf-results-1988/",
+          "date": "1988-10-29",
+          "reviewed": "2026-10-07",
+          "note": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date.",
+          "show": "Saturday Night’s Main Event",
+          "omitUnreviewedDuration": true
+        },
+        "workbookReference": "HM-0099",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Dino Bravo vs. Ken Patera",
+      "result": "Dino Bravo defeated Ken Patera.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "dino-bravo",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ken-patera",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dino Bravo",
+        "Ken Patera"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1988/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "14258",
+          "192783"
+        ],
+        "sourceEventIds": [
+          "2298"
+        ]
+      },
+      "legacyId": "bulk-match-14258",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-2298"
+  ],
+  "legacy": {
+    "showFamily": "snme",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "2298"
+    ]
+  }
+}

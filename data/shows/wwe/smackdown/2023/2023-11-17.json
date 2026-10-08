@@ -1,0 +1,164 @@
+{
+  "id": "wwe/smackdown/2023-11-17",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2023-11-17",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2023-11-17"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Dragon Lee vs. Axiom",
+      "result": "Dragon Lee defeated Axiom.",
+      "matchType": "Singles match",
+      "duration": 570,
+      "participants": [
+        {
+          "person": "dragon-lee",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "axiom",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dragon Lee",
+        "Axiom"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-11-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3200",
+          "92926",
+          "101528"
+        ],
+        "sourceEventIds": [
+          "599"
+        ]
+      },
+      "legacyId": "bulk-match-3200",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Grayson Waller vs. Cameron Grimes",
+      "result": "Grayson Waller defeated Cameron Grimes.",
+      "matchType": "Singles match",
+      "duration": 162,
+      "participants": [
+        {
+          "person": "grayson-waller",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cameron-grimes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Grayson Waller",
+        "Cameron Grimes"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-11-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3201",
+          "92927",
+          "101529"
+        ],
+        "sourceEventIds": [
+          "599"
+        ]
+      },
+      "legacyId": "bulk-match-3201",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "L.A. Knight vs. Jimmy Uso",
+      "result": "L.A. Knight defeated Jimmy Uso.",
+      "matchType": "Singles match",
+      "duration": 560,
+      "participants": [
+        {
+          "person": "la-knight",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jimmy-uso",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "L.A. Knight",
+        "Jimmy Uso"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-11-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3202",
+          "92928",
+          "101530"
+        ],
+        "sourceEventIds": [
+          "599"
+        ]
+      },
+      "legacyId": "bulk-match-3202",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-599"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "599"
+    ]
+  }
+}

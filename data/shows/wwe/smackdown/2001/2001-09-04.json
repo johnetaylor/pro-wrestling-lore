@@ -1,0 +1,205 @@
+{
+  "id": "wwe/smackdown/2001-09-04",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2001-09-04",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2001/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Singles match",
+      "result": "The Undertaker, Steven Richards — no contest.",
+      "matchType": "Singles match",
+      "duration": 30,
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "steven-richards",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "Steven Richards"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "43087",
+          "163923"
+        ],
+        "sourceEventIds": [
+          "6352"
+        ]
+      },
+      "legacyId": "bulk-match-43087",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Test vs. Billy Gunn",
+      "result": "Test defeated Billy Gunn.",
+      "matchType": "Singles match",
+      "duration": 294,
+      "participants": [
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Test",
+        "Billy Gunn"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "43088",
+          "163924"
+        ],
+        "sourceEventIds": [
+          "6352"
+        ]
+      },
+      "legacyId": "bulk-match-43088",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "The Big Show vs. The Hurricane",
+      "result": "The Big Show defeated The Hurricane by disqualification.",
+      "matchType": "Singles match",
+      "duration": 101,
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-hurricane",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "The Hurricane"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "43089",
+          "163925"
+        ],
+        "sourceEventIds": [
+          "6352"
+        ]
+      },
+      "legacyId": "bulk-match-43089",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Rob Van Dam vs. Steve Austin",
+      "result": "Rob Van Dam defeated Steve Austin.",
+      "matchType": "Singles match",
+      "duration": 589,
+      "participants": [
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rob Van Dam",
+        "Steve Austin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "43091",
+          "163927"
+        ],
+        "sourceEventIds": [
+          "6352"
+        ]
+      },
+      "legacyId": "bulk-match-43091",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6352"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6352"
+    ]
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "id": "wwe/raw/2008-05-26",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2008-05-26",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Melina vs. Jillian Hall",
+      "result": "Melina defeated Jillian Hall.",
+      "matchType": "Singles match",
+      "duration": 123,
+      "participants": [
+        {
+          "person": "melina",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jillian-hall",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Melina",
+        "Jillian Hall"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53212",
+          "152408"
+        ],
+        "sourceEventIds": [
+          "8110"
+        ]
+      },
+      "legacyId": "bulk-match-53212",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Cody Rhodes, Hardcore Holly vs. Brian Kendrick, Paul London",
+      "result": "Cody Rhodes, Hardcore Holly defeated Brian Kendrick, Paul London.",
+      "matchType": "4-person match",
+      "duration": 213,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "brian-kendrick",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "paul-london",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Hardcore Holly",
+        "Brian Kendrick",
+        "Paul London"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53213",
+          "152409"
+        ],
+        "sourceEventIds": [
+          "8110"
+        ]
+      },
+      "legacyId": "bulk-match-53213",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "John Bradshaw Layfield, Umaga vs. Jeff Hardy, John Cena",
+      "result": "John Bradshaw Layfield, Umaga defeated Jeff Hardy, John Cena.",
+      "matchType": "4-person match",
+      "duration": 573,
+      "participants": [
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "umaga",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Bradshaw Layfield",
+        "Umaga",
+        "Jeff Hardy",
+        "John Cena"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53214",
+          "152410"
+        ],
+        "sourceEventIds": [
+          "8110"
+        ]
+      },
+      "legacyId": "bulk-match-53214",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Shawn Michaels, Chris Jericho — double count-out.",
+      "matchType": "Singles match",
+      "duration": 599,
+      "participants": [
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Shawn Michaels",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53216",
+          "152412"
+        ],
+        "sourceEventIds": [
+          "8110"
+        ]
+      },
+      "legacyId": "bulk-match-53216",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8110"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8110"
+    ]
+  }
+}

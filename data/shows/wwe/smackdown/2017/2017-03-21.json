@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2017-03-21",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-03-21",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-03-21"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Randy Orton vs. Baron Corbin",
+      "result": "Randy Orton defeated Baron Corbin.",
+      "matchType": "Singles match",
+      "duration": 768,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Baron Corbin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-03-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76600",
+          "122915"
+        ],
+        "sourceEventIds": [
+          "11872"
+        ]
+      },
+      "legacyId": "bulk-match-76600",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "John Cena vs. Fandango",
+      "result": "John Cena defeated Fandango.",
+      "matchType": "Singles match",
+      "duration": 85,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "fandango",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Fandango"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-03-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76601",
+          "122916"
+        ],
+        "sourceEventIds": [
+          "11872"
+        ]
+      },
+      "legacyId": "bulk-match-76601",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Carmella vs. Becky Lynch",
+      "result": "Carmella defeated Becky Lynch by disqualification.",
+      "matchType": "Other match",
+      "duration": 41,
+      "participants": [
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Carmella",
+        "Becky Lynch"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-03-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76602",
+          "122917"
+        ],
+        "sourceEventIds": [
+          "11872"
+        ]
+      },
+      "legacyId": "bulk-match-76602",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11872"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11872"
+    ]
+  }
+}

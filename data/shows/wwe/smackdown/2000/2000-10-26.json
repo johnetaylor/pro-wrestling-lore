@@ -1,0 +1,214 @@
+{
+  "id": "wwe/smackdown/2000-10-26",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2000-10-26",
+  "dateBasis": "aired",
+  "recordedDate": "2000-10-24",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Chris Benoit, Dean Malenko vs. Road Dogg, Triple H",
+      "result": "Chris Benoit, Dean Malenko defeated Road Dogg, Triple H.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dean-malenko",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "road-dogg",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Dean Malenko",
+        "Road Dogg",
+        "Triple H"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40725",
+          "166284"
+        ],
+        "sourceEventIds": [
+          "6021"
+        ]
+      },
+      "legacyId": "bulk-match-40725",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Chris Jericho vs. Kurt Angle",
+      "result": "Chris Jericho defeated Kurt Angle by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Kurt Angle"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40726",
+          "166285"
+        ],
+        "sourceEventIds": [
+          "6021"
+        ]
+      },
+      "legacyId": "bulk-match-40726",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Albert vs. Crash Holly",
+      "result": "Albert defeated Crash Holly.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "tensai",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "crash-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Albert",
+        "Crash Holly"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40727",
+          "166286"
+        ],
+        "sourceEventIds": [
+          "6021"
+        ]
+      },
+      "legacyId": "bulk-match-40727",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Raven vs. Al Snow",
+      "result": "Raven defeated Al Snow.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "raven",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "al-snow",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Raven",
+        "Al Snow"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40729",
+          "166288"
+        ],
+        "sourceEventIds": [
+          "6021"
+        ]
+      },
+      "legacyId": "bulk-match-40729",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6021"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6021"
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "id": "wwe/raw/2019-02-25",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2019-02-25",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2019-02-25"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Aleister Black, Ricochet vs. Dash Wilder, Scott Dawson",
+      "result": "Aleister Black, Ricochet defeated Dash Wilder, Scott Dawson.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "aleister-black",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dash-wilder",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "scott-dawson",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Aleister Black",
+        "Ricochet",
+        "Dash Wilder",
+        "Scott Dawson"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-02-25"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82583",
+          "116863"
+        ],
+        "sourceEventIds": [
+          "12876"
+        ]
+      },
+      "legacyId": "bulk-match-82583",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Finn Bálor vs. Lio Rush",
+      "result": "Finn Bálor defeated Lio Rush.",
+      "matchType": "Singles match",
+      "duration": 452,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "lio-rush",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Finn Bálor",
+        "Lio Rush"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-02-25"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82586",
+          "116866"
+        ],
+        "sourceEventIds": [
+          "12876"
+        ]
+      },
+      "legacyId": "bulk-match-82586",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Drew McIntyre vs. Dean Ambrose",
+      "result": "Drew McIntyre defeated Dean Ambrose.",
+      "matchType": "Other match",
+      "duration": 556,
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "Dean Ambrose"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-02-25"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82587",
+          "116867"
+        ],
+        "sourceEventIds": [
+          "12876"
+        ]
+      },
+      "legacyId": "bulk-match-82587",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Bayley vs. Nia Jax",
+      "result": "Bayley defeated Nia Jax.",
+      "matchType": "Singles match",
+      "duration": 536,
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nia-jax",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Nia Jax"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-02-25"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82588",
+          "116868"
+        ],
+        "sourceEventIds": [
+          "12876"
+        ]
+      },
+      "legacyId": "bulk-match-82588",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12876"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12876"
+    ]
+  }
+}

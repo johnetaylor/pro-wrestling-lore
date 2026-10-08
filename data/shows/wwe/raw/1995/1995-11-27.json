@@ -1,0 +1,160 @@
+{
+  "id": "wwe/raw/1995-11-27",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1995-11-27",
+  "dateBasis": "aired",
+  "recordedDate": "1995-11-20",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1995/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "The British Bulldog vs. Bob Holly",
+      "result": "The British Bulldog defeated Bob Holly.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "the-british-bulldog",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The British Bulldog",
+        "Bob Holly"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1995/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "23643",
+          "183359"
+        ],
+        "sourceEventIds": [
+          "3739"
+        ]
+      },
+      "legacyId": "bulk-match-23643",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 1,
+      "type": "match",
+      "title": "Ahmed Johnson vs. Rad Radford",
+      "result": "Ahmed Johnson defeated Rad Radford.",
+      "matchType": "Singles match",
+      "duration": 166,
+      "participants": [
+        {
+          "person": "ahmed-johnson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rad-radford",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ahmed Johnson",
+        "Rad Radford"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1995/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "23647",
+          "183363"
+        ],
+        "sourceEventIds": [
+          "3739"
+        ]
+      },
+      "legacyId": "bulk-match-23647",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Razor Ramon vs. Dean Douglas",
+      "result": "Razor Ramon defeated Dean Douglas.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "scott-hall",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shane-douglas",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Razor Ramon",
+        "Dean Douglas"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1995/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "23645",
+          "183361"
+        ],
+        "sourceEventIds": [
+          "3739"
+        ]
+      },
+      "legacyId": "bulk-match-23645",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-3739"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "3739"
+    ]
+  }
+}

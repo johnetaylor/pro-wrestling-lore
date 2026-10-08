@@ -1,0 +1,217 @@
+{
+  "id": "wwe/raw/2009-06-01",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2009-06-01",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2009/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Batista vs. Cody Rhodes",
+      "result": "Batista defeated Cody Rhodes.",
+      "matchType": "Cage match",
+      "duration": 190,
+      "participants": [
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Batista",
+        "Cody Rhodes"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54421",
+          "150788"
+        ],
+        "sourceEventIds": [
+          "8329"
+        ]
+      },
+      "legacyId": "bulk-match-54421",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Beth Phoenix, Maryse vs. Kelly Kelly, Mickie James",
+      "result": "Beth Phoenix, Maryse defeated Kelly Kelly, Mickie James.",
+      "matchType": "4-person match",
+      "duration": 177,
+      "participants": [
+        {
+          "person": "beth-phoenix",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "maryse",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kelly-kelly",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Beth Phoenix",
+        "Maryse",
+        "Kelly Kelly",
+        "Mickie James"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54422",
+          "150789"
+        ],
+        "sourceEventIds": [
+          "8329"
+        ]
+      },
+      "legacyId": "bulk-match-54422",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Kofi Kingston vs. Montel Vontavious Porter",
+      "result": "Kofi Kingston defeated Montel Vontavious Porter.",
+      "matchType": "Singles match",
+      "duration": 684,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "montel-vontavious-porter",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kofi Kingston",
+        "Montel Vontavious Porter"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54425",
+          "150792"
+        ],
+        "sourceEventIds": [
+          "8329"
+        ]
+      },
+      "legacyId": "bulk-match-54425",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Santino Marella, Vickie Guerrero — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "santino-marella",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "vickie-guerrero",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Santino Marella",
+        "Vickie Guerrero"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54426",
+          "150793"
+        ],
+        "sourceEventIds": [
+          "8329"
+        ]
+      },
+      "legacyId": "bulk-match-54426",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8329"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8329"
+    ]
+  }
+}

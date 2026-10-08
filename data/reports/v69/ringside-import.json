@@ -1,0 +1,2848 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-06",
+  "dataset": "datamatters24/ringside-analytics",
+  "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+  "source": "https://huggingface.co/datasets/datamatters24/ringside-analytics",
+  "snapshot": {
+    "matches": 482166,
+    "events": 35309,
+    "wrestlers": 12814,
+    "participantRows": 731133,
+    "matchesWithoutParticipants": 179339,
+    "matchesWithOneParticipantRow": 61923,
+    "orphanParticipantRows": 0,
+    "matchesWithMissingEvent": 0,
+    "candidateMatches": 53326,
+    "candidateRawRows": 55666,
+    "collapsedDuplicateRows": 2340
+  },
+  "candidateFlags": {
+    "broadcast-status-unverified": 53326,
+    "source-date-not-confirmed-as-airdate": 53326,
+    "teams-not-specified": 16040,
+    "compound-participant-needs-review": 1269,
+    "ambiguous-outcome": 366,
+    "insufficient-participant-rows": 113
+  },
+  "candidateYears": [
+    {
+      "year": "1985",
+      "events": 12,
+      "candidates": 84,
+      "sha256": "75dd5f3877f8cedf7df5674ed09cab0bdb2791f8ce9352666470225ebf9c8983"
+    },
+    {
+      "year": "1986",
+      "events": 18,
+      "candidates": 104,
+      "sha256": "d325a762667f1f15d2832a2903361d3e59daf2647121f9df57f06228651e53b4"
+    },
+    {
+      "year": "1987",
+      "events": 16,
+      "candidates": 106,
+      "sha256": "477a9d2e5659215233d5c2cfff2bae3ccea581fb96e48bc09df1278fb93c1fac"
+    },
+    {
+      "year": "1988",
+      "events": 20,
+      "candidates": 150,
+      "sha256": "e53c132c00bd9b6396bff43911711fc8ab3b2cc7f9767a9edd0f47761d67996c"
+    },
+    {
+      "year": "1989",
+      "events": 24,
+      "candidates": 154,
+      "sha256": "59305881edd0e7ff43c64d960db620757b389cdbbbb750f75df8f563d9f0d6cc"
+    },
+    {
+      "year": "1990",
+      "events": 18,
+      "candidates": 120,
+      "sha256": "fa4f1dff805d4d3b67367bdee3f6053a9f4c9fb8226de02ea14ac87150fd24da"
+    },
+    {
+      "year": "1991",
+      "events": 14,
+      "candidates": 118,
+      "sha256": "292ac187472e6bb2cf31f4773209255facb1280704355c130e0f8ae876e0e1ad"
+    },
+    {
+      "year": "1992",
+      "events": 14,
+      "candidates": 96,
+      "sha256": "b5f31c29323e1ad1b4748b50b724ecda16a349df6b0069c319505778e73f36cc"
+    },
+    {
+      "year": "1993",
+      "events": 96,
+      "candidates": 496,
+      "sha256": "959be2eff52e5cb45d1b2c1d50e3ab1c63bb8378803790defc11d6392fde71f7"
+    },
+    {
+      "year": "1994",
+      "events": 76,
+      "candidates": 472,
+      "sha256": "1c87d78c9a0c3512c2ae5a7b285a981988b7891869c56a87cfe2ed048c9a3348"
+    },
+    {
+      "year": "1995",
+      "events": 84,
+      "candidates": 556,
+      "sha256": "3ff02b2acc9673ec8b38e62a00de9620803aa00a2c4235505b736bb2715de4b8"
+    },
+    {
+      "year": "1996",
+      "events": 84,
+      "candidates": 568,
+      "sha256": "58e2ff66861b6bd7c29095eb2dbca5be26b4be33e78c17cf085296ce52e88e06"
+    },
+    {
+      "year": "1997",
+      "events": 124,
+      "candidates": 836,
+      "sha256": "c80ce13eaae1f857f1fbf68bea3186f9e99a44fed2d976ac104feb4fa70a6ea3"
+    },
+    {
+      "year": "1998",
+      "events": 126,
+      "candidates": 994,
+      "sha256": "386c88ef67e6abf1225e23bb413c48cdc0472ebc5270f4f1f6649f720f1f0485"
+    },
+    {
+      "year": "1999",
+      "events": 168,
+      "candidates": 1346,
+      "sha256": "3a852b65743b503feef91c7e6db0d739bccaa80363188ee70b0e6738e9b9745e"
+    },
+    {
+      "year": "2000",
+      "events": 240,
+      "candidates": 1900,
+      "sha256": "f2cd7bab1c4207453eaa270d3dabf3f4e4dc46bd5545e5d99bc0bc88958d1568"
+    },
+    {
+      "year": "2001",
+      "events": 228,
+      "candidates": 1576,
+      "sha256": "8822d0cc4becc97c89f143831a8981c00a5e064df6fcf230eacf81b76d6d511b"
+    },
+    {
+      "year": "2002",
+      "events": 232,
+      "candidates": 1538,
+      "sha256": "fd029805ea5c8ee2be01fc8788456b071c6b2bc4fa30417e33f520b5430c234d"
+    },
+    {
+      "year": "2003",
+      "events": 230,
+      "candidates": 1458,
+      "sha256": "6a542b39432c21827247bd01e60f74c1ae2583006e71672b6b3669581b1ef004"
+    },
+    {
+      "year": "2004",
+      "events": 232,
+      "candidates": 1264,
+      "sha256": "d785a43fc4bac1a6ac1a792ebaf5e5a2fc071362676d53c16f93b257ba1b85b5"
+    },
+    {
+      "year": "2005",
+      "events": 240,
+      "candidates": 1334,
+      "sha256": "7b694de1337d7d1cc0388e933ec36ec8cf55c4c414a64669e4b7a6c3e3c05c71"
+    },
+    {
+      "year": "2006",
+      "events": 236,
+      "candidates": 1418,
+      "sha256": "51f33be4978b76baa2645e14fc4ab0f573ba20899a1dd97ce6426daf8d6c81e5"
+    },
+    {
+      "year": "2007",
+      "events": 240,
+      "candidates": 1488,
+      "sha256": "05f91b7472fe4490287b24e002658c4331870b9f72ff823547e495883908ca5e"
+    },
+    {
+      "year": "2008",
+      "events": 236,
+      "candidates": 1570,
+      "sha256": "3cf2330a981401a53b6f35a012edb48724bf485e89ab7e02d8a207d877e14ac2"
+    },
+    {
+      "year": "2009",
+      "events": 236,
+      "candidates": 1442,
+      "sha256": "08fbfd3e15344d3cb297fe4ccb6ea1e92ed16dfc4c4a51b42d4d2e6bf5a3a759"
+    },
+    {
+      "year": "2010",
+      "events": 242,
+      "candidates": 1602,
+      "sha256": "d6dc7caf452e83866851a17ec7079cf4b9e5242b10d8b2346fa36b43da2505c3"
+    },
+    {
+      "year": "2011",
+      "events": 232,
+      "candidates": 1631,
+      "sha256": "c197772e0bd28865a5d3a68f2bdfe6a599d6673b808e823be00542bc3e0d20c0"
+    },
+    {
+      "year": "2012",
+      "events": 298,
+      "candidates": 2120,
+      "sha256": "7d4b500fcd07c6c45f0c6d42b9b204fc25a10394b395760071bb239c06fb7d25"
+    },
+    {
+      "year": "2013",
+      "events": 346,
+      "candidates": 2284,
+      "sha256": "eb0bd5b50c9ab515015849fb89c16c592a41477cf636adf5a147142ba1ecaab9"
+    },
+    {
+      "year": "2014",
+      "events": 336,
+      "candidates": 2318,
+      "sha256": "9428ef88335d95eb77f974a0999005450d81e3acfa6249110158aad2a98248ee"
+    },
+    {
+      "year": "2015",
+      "events": 340,
+      "candidates": 2226,
+      "sha256": "7cbac03e2fe1539896297f3ebab494d4f9c6133709774efafbe1ae9a45583829"
+    },
+    {
+      "year": "2016",
+      "events": 314,
+      "candidates": 1944,
+      "sha256": "01a0fdd10df35a0d6fc4f2027208d03a73d73ee00292c19b09331c6f58b06faf"
+    },
+    {
+      "year": "2017",
+      "events": 252,
+      "candidates": 1504,
+      "sha256": "303dd3e19ecaa34242a69b0434a47c58bc8157691d212d1c31280732cc33890e"
+    },
+    {
+      "year": "2018",
+      "events": 262,
+      "candidates": 1626,
+      "sha256": "63e24aca9d2f6f6ef840e08e8812fea9643a7109dd59a8eec05d579d3dcb8a62"
+    },
+    {
+      "year": "2019",
+      "events": 292,
+      "candidates": 1930,
+      "sha256": "229526987f1954057c41f06465b923bb31993da1f57f9e34d35a5b50804c8099"
+    },
+    {
+      "year": "2020",
+      "events": 348,
+      "candidates": 2256,
+      "sha256": "c2cb840f3b42918c9824a6b878c797863142550bcc33728a3626879dbac55222"
+    },
+    {
+      "year": "2021",
+      "events": 346,
+      "candidates": 2404,
+      "sha256": "a1d5a9f51889662af0bc1e64cee2797eae1b5c6ba2ff53c3bfa6b06d861de364"
+    },
+    {
+      "year": "2022",
+      "events": 342,
+      "candidates": 2297,
+      "sha256": "193004dedf7760d78e191bef6771e72d5b1035ee6f728cc7e487d74671d69430"
+    },
+    {
+      "year": "2023",
+      "events": 391,
+      "candidates": 3019,
+      "sha256": "b89f6fd6735c3101e90f0990a00e9302e85693f80a018446fc08550bc5282d4b"
+    },
+    {
+      "year": "2024",
+      "events": 307,
+      "candidates": 2009,
+      "sha256": "c423b398bcaa90209b14fccfd3e844e82f165294c8c5e87f9eee959cb56bfb28"
+    },
+    {
+      "year": "2025",
+      "events": 179,
+      "candidates": 915,
+      "sha256": "850553fbd271c9af240381c2779adcc9b84be4bc32b0b1168dff671b5cf4dfbf"
+    },
+    {
+      "year": "2026",
+      "events": 11,
+      "candidates": 53,
+      "sha256": "882896e6c49c280f57f1588ff471f8f0cd720ee4c6f2f457553785df4e555c6e"
+    }
+  ],
+  "published": {
+    "broadcasts": 14,
+    "matches": 77,
+    "segments": 1,
+    "newLimitedProfiles": 42,
+    "linkedIdentities": 92
+  },
+  "january2025Benchmark": [
+    {
+      "date": "2025-01-31",
+      "show": "SmackDown",
+      "auditedMatches": 6,
+      "datasetUniqueMatchRows": 6,
+      "countDifference": 0
+    },
+    {
+      "date": "2025-01-28",
+      "show": "NXT",
+      "auditedMatches": 5,
+      "datasetUniqueMatchRows": 5,
+      "countDifference": 0
+    },
+    {
+      "date": "2025-01-27",
+      "show": "Raw",
+      "auditedMatches": 4,
+      "datasetUniqueMatchRows": 4,
+      "countDifference": 0
+    },
+    {
+      "date": "2025-01-25",
+      "show": "Saturday Night's Main Event XXXVIII",
+      "auditedMatches": 4,
+      "datasetUniqueMatchRows": 4,
+      "countDifference": 0
+    },
+    {
+      "date": "2025-01-24",
+      "show": "SmackDown",
+      "auditedMatches": 7,
+      "datasetUniqueMatchRows": 7,
+      "countDifference": 0
+    },
+    {
+      "date": "2025-01-21",
+      "show": "NXT",
+      "auditedMatches": 6,
+      "datasetUniqueMatchRows": 9,
+      "countDifference": 3
+    },
+    {
+      "date": "2025-01-20",
+      "show": "Raw",
+      "auditedMatches": 5,
+      "datasetUniqueMatchRows": 6,
+      "countDifference": 1
+    },
+    {
+      "date": "2025-01-17",
+      "show": "SmackDown",
+      "auditedMatches": 6,
+      "datasetUniqueMatchRows": 6,
+      "countDifference": 0
+    },
+    {
+      "date": "2025-01-14",
+      "show": "NXT",
+      "auditedMatches": 5,
+      "datasetUniqueMatchRows": 5,
+      "countDifference": 0
+    },
+    {
+      "date": "2025-01-13",
+      "show": "Raw",
+      "auditedMatches": 5,
+      "datasetUniqueMatchRows": 7,
+      "countDifference": 2
+    },
+    {
+      "date": "2025-01-10",
+      "show": "SmackDown",
+      "auditedMatches": 6,
+      "datasetUniqueMatchRows": 6,
+      "countDifference": 0
+    },
+    {
+      "date": "2025-01-07",
+      "show": "NXT",
+      "auditedMatches": 5,
+      "datasetUniqueMatchRows": 5,
+      "countDifference": 0
+    },
+    {
+      "date": "2025-01-06",
+      "show": "Raw",
+      "auditedMatches": 4,
+      "datasetUniqueMatchRows": 4,
+      "countDifference": 0
+    },
+    {
+      "date": "2025-01-03",
+      "show": "SmackDown",
+      "auditedMatches": 6,
+      "datasetUniqueMatchRows": 6,
+      "countDifference": 0
+    }
+  ],
+  "episodes": [
+    {
+      "id": "hf-event-468",
+      "date": "2024-01-27",
+      "show": "Royal Rumble 2024",
+      "matches": 4,
+      "source": "https://www.wwe.com/shows/royalrumble/article/full-royal-rumble-results-2024"
+    },
+    {
+      "id": "hf-event-427",
+      "date": "2024-02-24",
+      "show": "Elimination Chamber: Perth 2024",
+      "matches": 5,
+      "source": "https://www.wwe.com/article/full-elimination-chamber-results"
+    },
+    {
+      "id": "hf-event-338",
+      "date": "2024-04-06",
+      "show": "WrestleMania XL · Night 1",
+      "matches": 7,
+      "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+    },
+    {
+      "id": "hf-event-337",
+      "date": "2024-04-07",
+      "show": "WrestleMania XL · Night 2",
+      "matches": 7,
+      "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+    },
+    {
+      "id": "hf-event-278",
+      "date": "2024-05-04",
+      "show": "Backlash France 2024",
+      "matches": 5,
+      "source": "https://www.wwe.com/article/full-backlash-results"
+    },
+    {
+      "id": "hf-event-231",
+      "date": "2024-05-25",
+      "show": "King and Queen of the Ring 2024",
+      "matches": 6,
+      "source": "https://www.wwe.com/article/full-king-and-queen-2024-results"
+    },
+    {
+      "id": "hf-event-194",
+      "date": "2024-06-15",
+      "show": "Clash at the Castle: Scotland 2024",
+      "matches": 5,
+      "source": "https://www.wwe.com/shows/clash-at-the-castle/2024/results"
+    },
+    {
+      "id": "hf-event-149",
+      "date": "2024-07-06",
+      "show": "Money in the Bank 2024",
+      "matches": 5,
+      "source": "https://www.wwe.com/shows/moneyinthebank/2024/results"
+    },
+    {
+      "id": "hf-event-87",
+      "date": "2024-08-03",
+      "show": "SummerSlam 2024",
+      "matches": 7,
+      "source": "https://www.wwe.com/shows/summerslam/2024/results"
+    },
+    {
+      "id": "hf-event-33",
+      "date": "2024-08-31",
+      "show": "Bash in Berlin 2024",
+      "matches": 5,
+      "source": "https://www.wwe.com/article/full-bash-in-berlin-results-2024"
+    },
+    {
+      "id": "hf-event-15055",
+      "date": "2024-10-05",
+      "show": "Bad Blood 2024",
+      "matches": 5,
+      "source": "https://www.wwe.com/shows/bad-blood/2024/results"
+    },
+    {
+      "id": "hf-event-15087",
+      "date": "2024-11-02",
+      "show": "Crown Jewel 2024",
+      "matches": 6,
+      "source": "https://www.wwe.com/shows/wwe-crown-jewel/2024/results"
+    },
+    {
+      "id": "hf-event-15117",
+      "date": "2024-11-30",
+      "show": "Survivor Series: WarGames 2024",
+      "matches": 5,
+      "source": "https://www.wwe.com/shows/survivor-series-wargames/2024/article/results"
+    },
+    {
+      "id": "hf-event-15136",
+      "date": "2024-12-14",
+      "show": "Saturday Night’s Main Event",
+      "matches": 5,
+      "source": "https://www.wwe.com/shows/snme/2024/article/episode-brief-1-saturday-nights-main-event-2024"
+    }
+  ],
+  "excludedReviewedRows": [
+    {
+      "sourceMatchId": "95399",
+      "reason": "Not on the official broadcast card; excluded under televised-only policy."
+    }
+  ],
+  "limitations": [
+    "Candidate rows are NOT accepted televised matches. Weekly TV, tape dates and dark-match flags require source checks.",
+    "No comprehensive promo/appearance data. No derived lifetime statistics or imported ratings.",
+    "Historical title reigns, family relationships, biographies and alignment dates were not imported from this snapshot.",
+    "Existing curated records and the January 2025 audit are preserved. 2024 weekly shows and NXT are not complete."
+  ],
+  "identityLinks": [
+    {
+      "id": "hf-person-bayley",
+      "eventName": "Bayley",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-albafyre",
+      "eventName": "Alba Fyre",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-asuka",
+      "eventName": "Asuka",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-beckylynch",
+      "eventName": "Becky Lynch",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-biancabelair",
+      "eventName": "Bianca Belair",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-candicelerae",
+      "eventName": "Candice LeRae",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-chelseagreen",
+      "eventName": "Chelsea Green",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-indihartwell",
+      "eventName": "Indi Hartwell",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-ivynile",
+      "eventName": "Ivy Nile",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-jadecargill",
+      "eventName": "Jade Cargill",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-jordynnegrace",
+      "eventName": "Jordynne Grace",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-kairisane",
+      "eventName": "Kairi Sane",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-katanachance",
+      "eventName": "Katana Chance",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-kaydencarter",
+      "eventName": "Kayden Carter",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-livmorgan",
+      "eventName": "Liv Morgan",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-maxxinedupri",
+      "eventName": "Maxxine Dupri",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-michin",
+      "eventName": "Michin",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-naomi",
+      "eventName": "Naomi",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-natalya",
+      "eventName": "Natalya",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-niajax",
+      "eventName": "Nia Jax",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-piperniven",
+      "eventName": "Piper Niven",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-roxanneperez",
+      "eventName": "Roxanne Perez",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-shaynabaszler",
+      "eventName": "Shayna Baszler",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-shotzi",
+      "eventName": "Shotzi",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-tegannox",
+      "eventName": "Tegan Nox",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-tiffanystratton",
+      "eventName": "Tiffany Stratton",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-valhalla",
+      "eventName": "Valhalla",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-xiali",
+      "eventName": "Xia Li",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-zelinavega",
+      "eventName": "Zelina Vega",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-zoeystark",
+      "eventName": "Zoey Stark",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "roman-reigns",
+      "eventName": "Roman Reigns",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "aj-styles",
+      "eventName": "AJ Styles",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "la-knight",
+      "eventName": "LA Knight",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "randy-orton",
+      "eventName": "Randy Orton",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "logan-paul",
+      "eventName": "Logan Paul",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "kevin-owens",
+      "eventName": "Kevin Owens",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "cody-rhodes",
+      "eventName": "Cody Rhodes",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "andrade",
+      "eventName": "Andrade",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "austin-theory",
+      "eventName": "Austin Theory",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "hf-person-bobbylashley",
+      "eventName": "Bobby Lashley",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "bron-breakker",
+      "eventName": "Bron Breakker",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "bronson-reed",
+      "eventName": "Bronson Reed",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "carlito",
+      "eventName": "Carlito",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "carmelo-hayes",
+      "eventName": "Carmelo Hayes",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "cm-punk",
+      "eventName": "CM Punk",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "damian-priest",
+      "eventName": "Damian Priest",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "dominik-mysterio",
+      "eventName": "Dominik Mysterio",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "drew-mcintyre",
+      "eventName": "Drew McIntyre",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "finn-balor",
+      "eventName": "Finn Bálor",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "grayson-waller",
+      "eventName": "Grayson Waller",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "gunther",
+      "eventName": "Gunther",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "ivar",
+      "eventName": "Ivar",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "jd-mcdonagh",
+      "eventName": "JD McDonagh",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "jey-uso",
+      "eventName": "Jey Uso",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "jimmy-uso",
+      "eventName": "Jimmy Uso",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "karrion-kross",
+      "eventName": "Karrion Kross",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "kofi-kingston",
+      "eventName": "Kofi Kingston",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "el-grande-americano",
+      "eventName": "Ludwig Kaiser",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "omos",
+      "eventName": "Omos",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "pat-mcafee",
+      "eventName": "Pat McAfee",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "r-truth",
+      "eventName": "R-Truth",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "hf-person-ricochet",
+      "eventName": "Ricochet",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "sami-zayn",
+      "eventName": "Sami Zayn",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "santos-escobar",
+      "eventName": "Santos Escobar",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "shinsuke-nakamura",
+      "eventName": "Shinsuke Nakamura",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "the-miz",
+      "eventName": "The Miz",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "hf-person-raquelrodriguez",
+      "eventName": "Raquel Rodriguez",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "rayo-americano",
+      "eventName": "Pete Dunne",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "bravo-americano",
+      "eventName": "Tyler Bate",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "hf-person-rhearipley",
+      "eventName": "Rhea Ripley",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "johnny-gargano",
+      "eventName": "Johnny Gargano",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "tommaso-ciampa",
+      "eventName": "Tommaso Ciampa",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "xavier-woods",
+      "eventName": "Xavier Woods",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "rey-mysterio",
+      "eventName": "Rey Mysterio",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "hf-person-dakotakai",
+      "eventName": "Dakota Kai",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "the-rock",
+      "eventName": "The Rock",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "seth-rollins",
+      "eventName": "Seth Rollins",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "angelo-dawkins",
+      "eventName": "Angelo Dawkins",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "montez-ford",
+      "eventName": "Montez Ford",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "hf-person-akam",
+      "eventName": "Akam",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-rezar",
+      "eventName": "Rezar",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-iyosky",
+      "eventName": "IYO SKY",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "solo-sikoa",
+      "eventName": "Solo Sikoa",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "tama-tonga",
+      "eventName": "Tama Tonga",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "chad-gable",
+      "eventName": "Chad Gable",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "hf-person-lyravalkyria",
+      "eventName": "Lyra Valkyria",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-isladawn",
+      "eventName": "Isla Dawn",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "jacob-fatu",
+      "eventName": "Jacob Fatu",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "hf-person-jakarajackson",
+      "eventName": "Jakara Jackson",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "hf-person-lashlegend",
+      "eventName": "Lash Legend",
+      "method": "new-limited-historical-profile"
+    },
+    {
+      "id": "sheamus",
+      "eventName": "Sheamus",
+      "method": "exact-unique-name-or-alias"
+    },
+    {
+      "id": "tonga-loa",
+      "eventName": "Tonga Loa",
+      "method": "exact-unique-name-or-alias"
+    }
+  ],
+  "normalizationLog": [
+    {
+      "id": "hf-match-2386",
+      "source": "https://www.wwe.com/shows/royalrumble/article/full-royal-rumble-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Bayley",
+        "Alba Fyre, Asuka, Becky Lynch, Bianca BelAir, Candice LeRae, Chelsea Green, Indi Hartwell, Ivy Nile, Jade Cargill, Jordynne Grace, Kairi Sane, Katana Chance, Kayden Carter, Liv Morgan, Maxxine Dupri, Michin, Naomi, Natalya, Nia Jax, Piper Niven, Roxanne Perez, Shayna Baszler, Shotzi, Tegan Nox, Tiffany Stratton, Valhalla, Xia Li, Zelina Vega, Zoey Stark"
+      ],
+      "participants": [
+        {
+          "name": "Bayley",
+          "result": "win"
+        },
+        {
+          "name": "Alba Fyre",
+          "result": "loss"
+        },
+        {
+          "name": "Asuka",
+          "result": "loss"
+        },
+        {
+          "name": "Becky Lynch",
+          "result": "loss"
+        },
+        {
+          "name": "Bianca Belair",
+          "result": "loss"
+        },
+        {
+          "name": "Candice LeRae",
+          "result": "loss"
+        },
+        {
+          "name": "Chelsea Green",
+          "result": "loss"
+        },
+        {
+          "name": "Indi Hartwell",
+          "result": "loss"
+        },
+        {
+          "name": "Ivy Nile",
+          "result": "loss"
+        },
+        {
+          "name": "Jade Cargill",
+          "result": "loss"
+        },
+        {
+          "name": "Jordynne Grace",
+          "result": "loss"
+        },
+        {
+          "name": "Kairi Sane",
+          "result": "loss"
+        },
+        {
+          "name": "Katana Chance",
+          "result": "loss"
+        },
+        {
+          "name": "Kayden Carter",
+          "result": "loss"
+        },
+        {
+          "name": "Liv Morgan",
+          "result": "loss"
+        },
+        {
+          "name": "Maxxine Dupri",
+          "result": "loss"
+        },
+        {
+          "name": "Michin",
+          "result": "loss"
+        },
+        {
+          "name": "Naomi",
+          "result": "loss"
+        },
+        {
+          "name": "Natalya",
+          "result": "loss"
+        },
+        {
+          "name": "Nia Jax",
+          "result": "loss"
+        },
+        {
+          "name": "Piper Niven",
+          "result": "loss"
+        },
+        {
+          "name": "Roxanne Perez",
+          "result": "loss"
+        },
+        {
+          "name": "Shayna Baszler",
+          "result": "loss"
+        },
+        {
+          "name": "Shotzi",
+          "result": "loss"
+        },
+        {
+          "name": "Tegan Nox",
+          "result": "loss"
+        },
+        {
+          "name": "Tiffany Stratton",
+          "result": "loss"
+        },
+        {
+          "name": "Valhalla",
+          "result": "loss"
+        },
+        {
+          "name": "Xia Li",
+          "result": "loss"
+        },
+        {
+          "name": "Zelina Vega",
+          "result": "loss"
+        },
+        {
+          "name": "Zoey Stark",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Women’s Royal Rumble"
+    },
+    {
+      "id": "hf-match-2387",
+      "source": "https://www.wwe.com/shows/royalrumble/article/full-royal-rumble-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Roman Reigns (c)",
+        "A.J. Styles, L.A. Knight, Randy Orton"
+      ],
+      "participants": [
+        {
+          "name": "Roman Reigns",
+          "result": "win"
+        },
+        {
+          "name": "AJ Styles",
+          "result": "loss"
+        },
+        {
+          "name": "LA Knight",
+          "result": "loss"
+        },
+        {
+          "name": "Randy Orton",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Fatal 4-Way Match"
+    },
+    {
+      "id": "hf-match-2388",
+      "source": "https://www.wwe.com/shows/royalrumble/article/full-royal-rumble-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Logan Paul (c)",
+        "Kevin Owens"
+      ],
+      "participants": [
+        {
+          "name": "Logan Paul",
+          "result": "win"
+        },
+        {
+          "name": "Kevin Owens",
+          "result": "dq"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-2389",
+      "source": "https://www.wwe.com/shows/royalrumble/article/full-royal-rumble-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Cody Rhodes",
+        "Andrade, Austin Theory, Bobby Lashley, Bron Breakker, Bronson Reed, Carlito, Carmelo Hayes, CM Punk, Damian Priest, Dominik Mysterio, Drew McIntyre, Finn Bálor, Grayson Waller, Gunther, Ivar, JD McDonagh, Jey Uso, Jimmy Uso, Karrion Kross, Kofi Kingston, Ludwig Kaiser, Omos, Pat McAfee, R-Truth, Ricochet, Sami Zayn, Santos Escobar, Shinsuke Nakamura, The Miz"
+      ],
+      "participants": [
+        {
+          "name": "Cody Rhodes",
+          "result": "win"
+        },
+        {
+          "name": "Andrade",
+          "result": "loss"
+        },
+        {
+          "name": "Austin Theory",
+          "result": "loss"
+        },
+        {
+          "name": "Bobby Lashley",
+          "result": "loss"
+        },
+        {
+          "name": "Bron Breakker",
+          "result": "loss"
+        },
+        {
+          "name": "Bronson Reed",
+          "result": "loss"
+        },
+        {
+          "name": "Carlito",
+          "result": "loss"
+        },
+        {
+          "name": "Carmelo Hayes",
+          "result": "loss"
+        },
+        {
+          "name": "CM Punk",
+          "result": "loss"
+        },
+        {
+          "name": "Damian Priest",
+          "result": "loss"
+        },
+        {
+          "name": "Dominik Mysterio",
+          "result": "loss"
+        },
+        {
+          "name": "Drew McIntyre",
+          "result": "loss"
+        },
+        {
+          "name": "Finn Bálor",
+          "result": "loss"
+        },
+        {
+          "name": "Grayson Waller",
+          "result": "loss"
+        },
+        {
+          "name": "Gunther",
+          "result": "loss"
+        },
+        {
+          "name": "Ivar",
+          "result": "loss"
+        },
+        {
+          "name": "JD McDonagh",
+          "result": "loss"
+        },
+        {
+          "name": "Jey Uso",
+          "result": "loss"
+        },
+        {
+          "name": "Jimmy Uso",
+          "result": "loss"
+        },
+        {
+          "name": "Karrion Kross",
+          "result": "loss"
+        },
+        {
+          "name": "Kofi Kingston",
+          "result": "loss"
+        },
+        {
+          "name": "Ludwig Kaiser",
+          "result": "loss"
+        },
+        {
+          "name": "Omos",
+          "result": "loss"
+        },
+        {
+          "name": "Pat McAfee",
+          "result": "loss"
+        },
+        {
+          "name": "R-Truth",
+          "result": "loss"
+        },
+        {
+          "name": "Ricochet",
+          "result": "loss"
+        },
+        {
+          "name": "Sami Zayn",
+          "result": "loss"
+        },
+        {
+          "name": "Santos Escobar",
+          "result": "loss"
+        },
+        {
+          "name": "Shinsuke Nakamura",
+          "result": "loss"
+        },
+        {
+          "name": "The Miz",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Men’s Royal Rumble"
+    },
+    {
+      "id": "hf-match-2159",
+      "source": "https://www.wwe.com/article/full-elimination-chamber-results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Asuka (c)",
+        "Kairi Sane (c)",
+        "Candice LeRae",
+        "Indi Hartwell"
+      ],
+      "participants": [
+        {
+          "name": "Asuka",
+          "result": "win"
+        },
+        {
+          "name": "Kairi Sane",
+          "result": "win"
+        },
+        {
+          "name": "Candice LeRae",
+          "result": "loss"
+        },
+        {
+          "name": "Indi Hartwell",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Tag Team Match"
+    },
+    {
+      "id": "hf-match-2160",
+      "source": "https://www.wwe.com/article/full-elimination-chamber-results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Becky Lynch",
+        "Bianca BelAir, Liv Morgan, Naomi, Raquel Rodriguez, Tiffany Stratton"
+      ],
+      "participants": [
+        {
+          "name": "Becky Lynch",
+          "result": "win"
+        },
+        {
+          "name": "Bianca Belair",
+          "result": "loss"
+        },
+        {
+          "name": "Liv Morgan",
+          "result": "loss"
+        },
+        {
+          "name": "Naomi",
+          "result": "loss"
+        },
+        {
+          "name": "Raquel Rodriguez",
+          "result": "loss"
+        },
+        {
+          "name": "Tiffany Stratton",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Women’s Elimination Chamber"
+    },
+    {
+      "id": "hf-match-2161",
+      "source": "https://www.wwe.com/article/full-elimination-chamber-results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Damian Priest (c)",
+        "Finn Bálor (c)",
+        "Pete Dunne",
+        "Tyler Bate"
+      ],
+      "participants": [
+        {
+          "name": "Damian Priest",
+          "result": "win"
+        },
+        {
+          "name": "Finn Bálor",
+          "result": "win"
+        },
+        {
+          "name": "Pete Dunne",
+          "result": "loss"
+        },
+        {
+          "name": "Tyler Bate",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Tag Team Match"
+    },
+    {
+      "id": "hf-match-2162",
+      "source": "https://www.wwe.com/article/full-elimination-chamber-results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Drew McIntyre",
+        "Bobby Lashley, Kevin Owens, L.A. Knight, Logan Paul, Randy Orton"
+      ],
+      "participants": [
+        {
+          "name": "Drew McIntyre",
+          "result": "win"
+        },
+        {
+          "name": "Bobby Lashley",
+          "result": "loss"
+        },
+        {
+          "name": "Kevin Owens",
+          "result": "loss"
+        },
+        {
+          "name": "LA Knight",
+          "result": "loss"
+        },
+        {
+          "name": "Logan Paul",
+          "result": "loss"
+        },
+        {
+          "name": "Randy Orton",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Men’s Elimination Chamber"
+    },
+    {
+      "id": "hf-match-2163",
+      "source": "https://www.wwe.com/article/full-elimination-chamber-results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Rhea Ripley (c)",
+        "Nia Jax"
+      ],
+      "participants": [
+        {
+          "name": "Rhea Ripley",
+          "result": "win"
+        },
+        {
+          "name": "Nia Jax",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-1697",
+      "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Rhea Ripley (c)",
+        "Becky Lynch"
+      ],
+      "participants": [
+        {
+          "name": "Rhea Ripley",
+          "result": "win"
+        },
+        {
+          "name": "Becky Lynch",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-1698",
+      "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Austin Theory",
+        "Grayson Waller",
+        "R-Truth",
+        "The Miz",
+        "Damian Priest (c)",
+        "Finn Bálor (c), Johnny Gargano",
+        "Tommaso Ciampa, Kofi Kingston",
+        "Xavier Woods, Pete Dunne",
+        "Tyler Bate"
+      ],
+      "participants": [
+        {
+          "name": "Austin Theory",
+          "result": "win"
+        },
+        {
+          "name": "Grayson Waller",
+          "result": "win"
+        },
+        {
+          "name": "R-Truth",
+          "result": "win"
+        },
+        {
+          "name": "The Miz",
+          "result": "win"
+        },
+        {
+          "name": "Damian Priest",
+          "result": "loss"
+        },
+        {
+          "name": "Finn Bálor",
+          "result": "loss"
+        },
+        {
+          "name": "Johnny Gargano",
+          "result": "loss"
+        },
+        {
+          "name": "Tommaso Ciampa",
+          "result": "loss"
+        },
+        {
+          "name": "Kofi Kingston",
+          "result": "loss"
+        },
+        {
+          "name": "Xavier Woods",
+          "result": "loss"
+        },
+        {
+          "name": "Pete Dunne",
+          "result": "loss"
+        },
+        {
+          "name": "Tyler Bate",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Six-Pack Tag Team Ladder Match"
+    },
+    {
+      "id": "hf-match-1699",
+      "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Andrade",
+        "Rey Mysterio",
+        "Dominik Mysterio",
+        "Santos Escobar"
+      ],
+      "participants": [
+        {
+          "name": "Andrade",
+          "result": "win"
+        },
+        {
+          "name": "Rey Mysterio",
+          "result": "win"
+        },
+        {
+          "name": "Dominik Mysterio",
+          "result": "loss"
+        },
+        {
+          "name": "Santos Escobar",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Tag Team Match"
+    },
+    {
+      "id": "hf-match-1701",
+      "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Bianca Belair",
+        "Jade Cargill",
+        "Naomi",
+        "Asuka",
+        "Dakota Kai",
+        "Kairi Sane"
+      ],
+      "participants": [
+        {
+          "name": "Bianca Belair",
+          "result": "win"
+        },
+        {
+          "name": "Jade Cargill",
+          "result": "win"
+        },
+        {
+          "name": "Naomi",
+          "result": "win"
+        },
+        {
+          "name": "Asuka",
+          "result": "loss"
+        },
+        {
+          "name": "Dakota Kai",
+          "result": "loss"
+        },
+        {
+          "name": "Kairi Sane",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Six-Woman Tag Team Match"
+    },
+    {
+      "id": "hf-match-1702",
+      "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Sami Zayn",
+        "Gunther (c)"
+      ],
+      "participants": [
+        {
+          "name": "Sami Zayn",
+          "result": "win"
+        },
+        {
+          "name": "Gunther",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-1703",
+      "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Roman Reigns",
+        "The Rock",
+        "Cody Rhodes",
+        "Seth Rollins"
+      ],
+      "participants": [
+        {
+          "name": "Roman Reigns",
+          "result": "win"
+        },
+        {
+          "name": "The Rock",
+          "result": "win"
+        },
+        {
+          "name": "Cody Rhodes",
+          "result": "loss"
+        },
+        {
+          "name": "Seth Rollins",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Tag Team Match"
+    },
+    {
+      "id": "hf-match-1690",
+      "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Drew McIntyre",
+        "Seth Rollins (c)"
+      ],
+      "participants": [
+        {
+          "name": "Drew McIntyre",
+          "result": "win"
+        },
+        {
+          "name": "Seth Rollins",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-1691",
+      "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Damian Priest",
+        "Drew McIntyre (c)"
+      ],
+      "participants": [
+        {
+          "name": "Damian Priest",
+          "result": "win"
+        },
+        {
+          "name": "Drew McIntyre",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-1692",
+      "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Angelo Dawkins",
+        "Bobby Lashley",
+        "Montez Ford",
+        "Akam",
+        "Karrion Kross",
+        "Rezar"
+      ],
+      "participants": [
+        {
+          "name": "Angelo Dawkins",
+          "result": "win"
+        },
+        {
+          "name": "Bobby Lashley",
+          "result": "win"
+        },
+        {
+          "name": "Montez Ford",
+          "result": "win"
+        },
+        {
+          "name": "Akam",
+          "result": "loss"
+        },
+        {
+          "name": "Karrion Kross",
+          "result": "loss"
+        },
+        {
+          "name": "Rezar",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Philadelphia Street Fight"
+    },
+    {
+      "id": "hf-match-1694",
+      "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Logan Paul (c)",
+        "Kevin Owens, Randy Orton"
+      ],
+      "participants": [
+        {
+          "name": "Logan Paul",
+          "result": "win"
+        },
+        {
+          "name": "Kevin Owens",
+          "result": "loss"
+        },
+        {
+          "name": "Randy Orton",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Triple Threat Match"
+    },
+    {
+      "id": "hf-match-1695",
+      "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Bayley",
+        "Iyo Sky (c)"
+      ],
+      "participants": [
+        {
+          "name": "Bayley",
+          "result": "win"
+        },
+        {
+          "name": "IYO SKY",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-1696",
+      "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Cody Rhodes",
+        "Roman Reigns (c)"
+      ],
+      "participants": [
+        {
+          "name": "Cody Rhodes",
+          "result": "win"
+        },
+        {
+          "name": "Roman Reigns",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Bloodline Rules"
+    },
+    {
+      "id": "hf-match-1383",
+      "source": "https://www.wwe.com/article/full-backlash-results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Solo Sikoa",
+        "Tama Tonga",
+        "Kevin Owens",
+        "Randy Orton"
+      ],
+      "participants": [
+        {
+          "name": "Solo Sikoa",
+          "result": "win"
+        },
+        {
+          "name": "Tama Tonga",
+          "result": "win"
+        },
+        {
+          "name": "Kevin Owens",
+          "result": "loss"
+        },
+        {
+          "name": "Randy Orton",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Street Fight"
+    },
+    {
+      "id": "hf-match-1384",
+      "source": "https://www.wwe.com/article/full-backlash-results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Bayley (c)",
+        "Naomi, Tiffany Stratton"
+      ],
+      "participants": [
+        {
+          "name": "Bayley",
+          "result": "win"
+        },
+        {
+          "name": "Naomi",
+          "result": "loss"
+        },
+        {
+          "name": "Tiffany Stratton",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Triple Threat Match"
+    },
+    {
+      "id": "hf-match-1385",
+      "source": "https://www.wwe.com/article/full-backlash-results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Damian Priest (c)",
+        "Jey Uso"
+      ],
+      "participants": [
+        {
+          "name": "Damian Priest",
+          "result": "win"
+        },
+        {
+          "name": "Jey Uso",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-1386",
+      "source": "https://www.wwe.com/article/full-backlash-results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Bianca Belair",
+        "Jade Cargill",
+        "Asuka (c)",
+        "Kairi Sane (c)"
+      ],
+      "participants": [
+        {
+          "name": "Bianca Belair",
+          "result": "win"
+        },
+        {
+          "name": "Jade Cargill",
+          "result": "win"
+        },
+        {
+          "name": "Asuka",
+          "result": "loss"
+        },
+        {
+          "name": "Kairi Sane",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Tag Team Match"
+    },
+    {
+      "id": "hf-match-1387",
+      "source": "https://www.wwe.com/article/full-backlash-results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Cody Rhodes (c)",
+        "A.J. Styles"
+      ],
+      "participants": [
+        {
+          "name": "Cody Rhodes",
+          "result": "win"
+        },
+        {
+          "name": "AJ Styles",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-1158",
+      "source": "https://www.wwe.com/article/full-king-and-queen-2024-results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Bianca BelAir (c)",
+        "Jade Cargill (c)",
+        "Candice LeRae",
+        "Indi Hartwell"
+      ],
+      "participants": [
+        {
+          "name": "Bianca Belair",
+          "result": "win"
+        },
+        {
+          "name": "Jade Cargill",
+          "result": "win"
+        },
+        {
+          "name": "Candice LeRae",
+          "result": "loss"
+        },
+        {
+          "name": "Indi Hartwell",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Tag Team Match"
+    },
+    {
+      "id": "hf-match-1159",
+      "source": "https://www.wwe.com/article/full-king-and-queen-2024-results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Liv Morgan",
+        "Becky Lynch (c)"
+      ],
+      "participants": [
+        {
+          "name": "Liv Morgan",
+          "result": "win"
+        },
+        {
+          "name": "Becky Lynch",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-1160",
+      "source": "https://www.wwe.com/article/full-king-and-queen-2024-results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Sami Zayn (c)",
+        "Bronson Reed, Chad Gable"
+      ],
+      "participants": [
+        {
+          "name": "Sami Zayn",
+          "result": "win"
+        },
+        {
+          "name": "Bronson Reed",
+          "result": "loss"
+        },
+        {
+          "name": "Chad Gable",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Triple Threat Match"
+    },
+    {
+      "id": "hf-match-1161",
+      "source": "https://www.wwe.com/article/full-king-and-queen-2024-results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Nia Jax",
+        "Lyra Valkyria"
+      ],
+      "participants": [
+        {
+          "name": "Nia Jax",
+          "result": "win"
+        },
+        {
+          "name": "Lyra Valkyria",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Queen of the Ring Final"
+    },
+    {
+      "id": "hf-match-1162",
+      "source": "https://www.wwe.com/article/full-king-and-queen-2024-results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Gunther",
+        "Randy Orton"
+      ],
+      "participants": [
+        {
+          "name": "Gunther",
+          "result": "win"
+        },
+        {
+          "name": "Randy Orton",
+          "result": "loss"
+        }
+      ],
+      "matchType": "King of the Ring Final"
+    },
+    {
+      "id": "hf-match-1163",
+      "source": "https://www.wwe.com/article/full-king-and-queen-2024-results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Cody Rhodes (c)",
+        "Logan Paul"
+      ],
+      "participants": [
+        {
+          "name": "Cody Rhodes",
+          "result": "win"
+        },
+        {
+          "name": "Logan Paul",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-941",
+      "source": "https://www.wwe.com/shows/clash-at-the-castle/2024/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Cody Rhodes (c)",
+        "A.J. Styles"
+      ],
+      "participants": [
+        {
+          "name": "Cody Rhodes",
+          "result": "win"
+        },
+        {
+          "name": "AJ Styles",
+          "result": "loss"
+        }
+      ],
+      "matchType": "I Quit Match"
+    },
+    {
+      "id": "hf-match-942",
+      "source": "https://www.wwe.com/shows/clash-at-the-castle/2024/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Alba Fyre",
+        "Isla Dawn",
+        "Bianca BelAir (c)",
+        "Jade Cargill (c), Shayna Baszler",
+        "Zoey Stark"
+      ],
+      "participants": [
+        {
+          "name": "Alba Fyre",
+          "result": "win"
+        },
+        {
+          "name": "Isla Dawn",
+          "result": "win"
+        },
+        {
+          "name": "Bianca Belair",
+          "result": "loss"
+        },
+        {
+          "name": "Jade Cargill",
+          "result": "loss"
+        },
+        {
+          "name": "Shayna Baszler",
+          "result": "loss"
+        },
+        {
+          "name": "Zoey Stark",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Triple Threat Tag Team Match"
+    },
+    {
+      "id": "hf-match-943",
+      "source": "https://www.wwe.com/shows/clash-at-the-castle/2024/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Sami Zayn (c)",
+        "Chad Gable"
+      ],
+      "participants": [
+        {
+          "name": "Sami Zayn",
+          "result": "win"
+        },
+        {
+          "name": "Chad Gable",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-944",
+      "source": "https://www.wwe.com/shows/clash-at-the-castle/2024/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Bayley (c)",
+        "Piper Niven"
+      ],
+      "participants": [
+        {
+          "name": "Bayley",
+          "result": "win"
+        },
+        {
+          "name": "Piper Niven",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-945",
+      "source": "https://www.wwe.com/shows/clash-at-the-castle/2024/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Damian Priest (c)",
+        "Drew McIntyre"
+      ],
+      "participants": [
+        {
+          "name": "Damian Priest",
+          "result": "win"
+        },
+        {
+          "name": "Drew McIntyre",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-726",
+      "source": "https://www.wwe.com/shows/moneyinthebank/2024/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Drew McIntyre",
+        "Andrade, Carmelo Hayes, Chad Gable, Jey Uso, L.A. Knight"
+      ],
+      "participants": [
+        {
+          "name": "Drew McIntyre",
+          "result": "win"
+        },
+        {
+          "name": "Andrade",
+          "result": "loss"
+        },
+        {
+          "name": "Carmelo Hayes",
+          "result": "loss"
+        },
+        {
+          "name": "Chad Gable",
+          "result": "loss"
+        },
+        {
+          "name": "Jey Uso",
+          "result": "loss"
+        },
+        {
+          "name": "LA Knight",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Men’s Money in the Bank Ladder Match"
+    },
+    {
+      "id": "hf-match-727",
+      "source": "https://www.wwe.com/shows/moneyinthebank/2024/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Sami Zayn (c)",
+        "Bron Breakker"
+      ],
+      "participants": [
+        {
+          "name": "Sami Zayn",
+          "result": "win"
+        },
+        {
+          "name": "Bron Breakker",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-728",
+      "source": "https://www.wwe.com/shows/moneyinthebank/2024/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Damian Priest (c)",
+        "Drew McIntyre, Seth Rollins"
+      ],
+      "participants": [
+        {
+          "name": "Damian Priest",
+          "result": "win"
+        },
+        {
+          "name": "Drew McIntyre",
+          "result": "loss"
+        },
+        {
+          "name": "Seth Rollins",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Triple Threat Match"
+    },
+    {
+      "id": "hf-match-729",
+      "source": "https://www.wwe.com/shows/moneyinthebank/2024/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Tiffany Stratton",
+        "Chelsea Green, Iyo Sky, Lyra Valkyria, Naomi, Zoey Stark"
+      ],
+      "participants": [
+        {
+          "name": "Tiffany Stratton",
+          "result": "win"
+        },
+        {
+          "name": "Chelsea Green",
+          "result": "loss"
+        },
+        {
+          "name": "IYO SKY",
+          "result": "loss"
+        },
+        {
+          "name": "Lyra Valkyria",
+          "result": "loss"
+        },
+        {
+          "name": "Naomi",
+          "result": "loss"
+        },
+        {
+          "name": "Zoey Stark",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Women’s Money in the Bank Ladder Match"
+    },
+    {
+      "id": "hf-match-730",
+      "source": "https://www.wwe.com/shows/moneyinthebank/2024/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Jacob Fatu",
+        "Solo Sikoa",
+        "Tama Tonga",
+        "Cody Rhodes",
+        "Kevin Owens",
+        "Randy Orton"
+      ],
+      "participants": [
+        {
+          "name": "Jacob Fatu",
+          "result": "win"
+        },
+        {
+          "name": "Solo Sikoa",
+          "result": "win"
+        },
+        {
+          "name": "Tama Tonga",
+          "result": "win"
+        },
+        {
+          "name": "Cody Rhodes",
+          "result": "loss"
+        },
+        {
+          "name": "Kevin Owens",
+          "result": "loss"
+        },
+        {
+          "name": "Randy Orton",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Six-Man Tag Team Match"
+    },
+    {
+      "id": "hf-match-438",
+      "source": "https://www.wwe.com/shows/summerslam/2024/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Liv Morgan (c)",
+        "Rhea Ripley"
+      ],
+      "participants": [
+        {
+          "name": "Liv Morgan",
+          "result": "win"
+        },
+        {
+          "name": "Rhea Ripley",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-439",
+      "source": "https://www.wwe.com/shows/summerslam/2024/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Bron Breakker",
+        "Sami Zayn (c)"
+      ],
+      "participants": [
+        {
+          "name": "Bron Breakker",
+          "result": "win"
+        },
+        {
+          "name": "Sami Zayn",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-440",
+      "source": "https://www.wwe.com/shows/summerslam/2024/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "L.A. Knight",
+        "Logan Paul (c)"
+      ],
+      "participants": [
+        {
+          "name": "LA Knight",
+          "result": "win"
+        },
+        {
+          "name": "Logan Paul",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-441",
+      "source": "https://www.wwe.com/shows/summerslam/2024/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Nia Jax",
+        "Bayley (c)"
+      ],
+      "participants": [
+        {
+          "name": "Nia Jax",
+          "result": "win"
+        },
+        {
+          "name": "Bayley",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-442",
+      "source": "https://www.wwe.com/shows/summerslam/2024/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Drew McIntyre",
+        "CM Punk"
+      ],
+      "participants": [
+        {
+          "name": "Drew McIntyre",
+          "result": "win"
+        },
+        {
+          "name": "CM Punk",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles · special guest referee Seth Rollins"
+    },
+    {
+      "id": "hf-match-443",
+      "source": "https://www.wwe.com/shows/summerslam/2024/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Gunther",
+        "Damian Priest (c)"
+      ],
+      "participants": [
+        {
+          "name": "Gunther",
+          "result": "win"
+        },
+        {
+          "name": "Damian Priest",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-444",
+      "source": "https://www.wwe.com/shows/summerslam/2024/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Cody Rhodes (c)",
+        "Solo Sikoa"
+      ],
+      "participants": [
+        {
+          "name": "Cody Rhodes",
+          "result": "win"
+        },
+        {
+          "name": "Solo Sikoa",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Bloodline Rules"
+    },
+    {
+      "id": "hf-match-145",
+      "source": "https://www.wwe.com/article/full-bash-in-berlin-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Cody Rhodes (c)",
+        "Kevin Owens"
+      ],
+      "participants": [
+        {
+          "name": "Cody Rhodes",
+          "result": "win"
+        },
+        {
+          "name": "Kevin Owens",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-146",
+      "source": "https://www.wwe.com/article/full-bash-in-berlin-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Bianca Belair",
+        "Jade Cargill",
+        "Alba Fyre (c)",
+        "Isla Dawn (c)"
+      ],
+      "participants": [
+        {
+          "name": "Bianca Belair",
+          "result": "win"
+        },
+        {
+          "name": "Jade Cargill",
+          "result": "win"
+        },
+        {
+          "name": "Alba Fyre",
+          "result": "loss"
+        },
+        {
+          "name": "Isla Dawn",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Tag Team Match"
+    },
+    {
+      "id": "hf-match-147",
+      "source": "https://www.wwe.com/article/full-bash-in-berlin-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "CM Punk",
+        "Drew McIntyre"
+      ],
+      "participants": [
+        {
+          "name": "CM Punk",
+          "result": "win"
+        },
+        {
+          "name": "Drew McIntyre",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Strap Match"
+    },
+    {
+      "id": "hf-match-148",
+      "source": "https://www.wwe.com/article/full-bash-in-berlin-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Damian Priest",
+        "Rhea Ripley",
+        "Dominik Mysterio",
+        "Liv Morgan"
+      ],
+      "participants": [
+        {
+          "name": "Damian Priest",
+          "result": "win"
+        },
+        {
+          "name": "Rhea Ripley",
+          "result": "win"
+        },
+        {
+          "name": "Dominik Mysterio",
+          "result": "loss"
+        },
+        {
+          "name": "Liv Morgan",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Mixed Tag Team Match"
+    },
+    {
+      "id": "hf-match-149",
+      "source": "https://www.wwe.com/article/full-bash-in-berlin-results-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Gunther (c)",
+        "Randy Orton"
+      ],
+      "participants": [
+        {
+          "name": "Gunther",
+          "result": "win"
+        },
+        {
+          "name": "Randy Orton",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Singles Match"
+    },
+    {
+      "id": "hf-match-95044",
+      "source": "https://www.wwe.com/shows/bad-blood/2024/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Cody Rhodes",
+        "Roman Reigns",
+        "Jacob Fatu",
+        "Solo Sikoa"
+      ],
+      "participants": [
+        {
+          "name": "Cody Rhodes",
+          "result": "win"
+        },
+        {
+          "name": "Roman Reigns",
+          "result": "win"
+        },
+        {
+          "name": "Jacob Fatu",
+          "result": "loss"
+        },
+        {
+          "name": "Solo Sikoa",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Tag Team Match"
+    },
+    {
+      "id": "hf-match-95175",
+      "source": "https://www.wwe.com/shows/wwe-crown-jewel/2024/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Bianca Belair",
+        "Jade Cargill",
+        "Chelsea Green",
+        "IYO SKY",
+        "Jakara Jackson",
+        "Kairi Sane",
+        "Lash Legend",
+        "Piper Niven"
+      ],
+      "participants": [
+        {
+          "name": "Bianca Belair",
+          "result": "win"
+        },
+        {
+          "name": "Jade Cargill",
+          "result": "win"
+        },
+        {
+          "name": "Chelsea Green",
+          "result": "loss"
+        },
+        {
+          "name": "IYO SKY",
+          "result": "loss"
+        },
+        {
+          "name": "Jakara Jackson",
+          "result": "loss"
+        },
+        {
+          "name": "Kairi Sane",
+          "result": "loss"
+        },
+        {
+          "name": "Lash Legend",
+          "result": "loss"
+        },
+        {
+          "name": "Piper Niven",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Fatal 4-Way Tag Team Match"
+    },
+    {
+      "id": "hf-match-95178",
+      "source": "https://www.wwe.com/shows/wwe-crown-jewel/2024/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "L.A. Knight",
+        "Andrade",
+        "Carmelo Hayes"
+      ],
+      "participants": [
+        {
+          "name": "LA Knight",
+          "result": "win"
+        },
+        {
+          "name": "Andrade",
+          "result": "loss"
+        },
+        {
+          "name": "Carmelo Hayes",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Triple Threat Match"
+    },
+    {
+      "id": "hf-match-95328",
+      "source": "https://www.wwe.com/shows/survivor-series-wargames/2024/article/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Bayley",
+        "Bianca Belair",
+        "IYO SKY",
+        "Naomi",
+        "Rhea Ripley",
+        "Candice LeRae",
+        "Liv Morgan",
+        "Nia Jax",
+        "Raquel Rodriguez",
+        "Tiffany Stratton"
+      ],
+      "participants": [
+        {
+          "name": "Bayley",
+          "result": "win"
+        },
+        {
+          "name": "Bianca Belair",
+          "result": "win"
+        },
+        {
+          "name": "IYO SKY",
+          "result": "win"
+        },
+        {
+          "name": "Naomi",
+          "result": "win"
+        },
+        {
+          "name": "Rhea Ripley",
+          "result": "win"
+        },
+        {
+          "name": "Candice LeRae",
+          "result": "loss"
+        },
+        {
+          "name": "Liv Morgan",
+          "result": "loss"
+        },
+        {
+          "name": "Nia Jax",
+          "result": "loss"
+        },
+        {
+          "name": "Raquel Rodriguez",
+          "result": "loss"
+        },
+        {
+          "name": "Tiffany Stratton",
+          "result": "loss"
+        }
+      ],
+      "matchType": "WarGames"
+    },
+    {
+      "id": "hf-match-95330",
+      "source": "https://www.wwe.com/shows/survivor-series-wargames/2024/article/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Bron Breakker",
+        "Ludwig Kaiser",
+        "Sheamus"
+      ],
+      "participants": [
+        {
+          "name": "Bron Breakker",
+          "result": "win"
+        },
+        {
+          "name": "Ludwig Kaiser",
+          "result": "loss"
+        },
+        {
+          "name": "Sheamus",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Triple Threat Match"
+    },
+    {
+      "id": "hf-match-95332",
+      "source": "https://www.wwe.com/shows/survivor-series-wargames/2024/article/results",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "CM Punk",
+        "Jey Uso",
+        "Jimmy Uso",
+        "Roman Reigns",
+        "Sami Zayn",
+        "Bronson Reed",
+        "Jacob Fatu",
+        "Solo Sikoa",
+        "Tama Tonga",
+        "Tonga Loa"
+      ],
+      "participants": [
+        {
+          "name": "CM Punk",
+          "result": "win"
+        },
+        {
+          "name": "Jey Uso",
+          "result": "win"
+        },
+        {
+          "name": "Jimmy Uso",
+          "result": "win"
+        },
+        {
+          "name": "Roman Reigns",
+          "result": "win"
+        },
+        {
+          "name": "Sami Zayn",
+          "result": "win"
+        },
+        {
+          "name": "Bronson Reed",
+          "result": "loss"
+        },
+        {
+          "name": "Jacob Fatu",
+          "result": "loss"
+        },
+        {
+          "name": "Solo Sikoa",
+          "result": "loss"
+        },
+        {
+          "name": "Tama Tonga",
+          "result": "loss"
+        },
+        {
+          "name": "Tonga Loa",
+          "result": "loss"
+        }
+      ],
+      "matchType": "WarGames"
+    },
+    {
+      "id": "hf-match-95402",
+      "source": "https://www.wwe.com/shows/snme/2024/article/episode-brief-1-saturday-nights-main-event-2024",
+      "note": "Reviewed participant parsing, champion markers and/or match-type normalization",
+      "rawNames": [
+        "Gunther",
+        "Damian Priest",
+        "Finn Bálor"
+      ],
+      "participants": [
+        {
+          "name": "Gunther",
+          "result": "win"
+        },
+        {
+          "name": "Damian Priest",
+          "result": "loss"
+        },
+        {
+          "name": "Finn Bálor",
+          "result": "loss"
+        }
+      ],
+      "matchType": "Triple Threat Match"
+    }
+  ]
+}

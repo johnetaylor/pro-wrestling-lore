@@ -1,0 +1,222 @@
+{
+  "id": "wwe/smackdown/2023-07-21",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2023-07-21",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2023-07-21"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Rey Mysterio vs. Cameron Grimes, L.A. Knight, Sheamus",
+      "result": "Rey Mysterio defeated Cameron Grimes, L.A. Knight, Sheamus.",
+      "matchType": "Fatal Four Way match",
+      "duration": 1118,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cameron-grimes",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "la-knight",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Cameron Grimes",
+        "L.A. Knight",
+        "Sheamus"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-07-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "4371",
+          "92118",
+          "102699"
+        ],
+        "sourceEventIds": [
+          "800"
+        ]
+      },
+      "legacyId": "bulk-match-4371",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Charlotte Flair vs. IYO SKY",
+      "result": "Charlotte Flair defeated IYO SKY.",
+      "matchType": "Singles match",
+      "duration": 849,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "iyo-sky",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "IYO SKY"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-07-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "4372",
+          "92119",
+          "102700"
+        ],
+        "sourceEventIds": [
+          "800"
+        ]
+      },
+      "legacyId": "bulk-match-4372",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Santos Escobar vs. Austin Theory",
+      "result": "Santos Escobar defeated Austin Theory.",
+      "matchType": "Singles match",
+      "duration": 644,
+      "participants": [
+        {
+          "person": "santos-escobar",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "austin-theory",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Santos Escobar",
+        "Austin Theory"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-07-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "4373",
+          "92120",
+          "102701"
+        ],
+        "sourceEventIds": [
+          "800"
+        ]
+      },
+      "legacyId": "bulk-match-4373",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Dominik Mysterio vs. Butch",
+      "result": "Dominik Mysterio defeated Butch.",
+      "matchType": "Singles match",
+      "duration": 473,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "pete-dunne",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dominik Mysterio",
+        "Butch"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-07-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "4374",
+          "92121",
+          "102702"
+        ],
+        "sourceEventIds": [
+          "800"
+        ]
+      },
+      "legacyId": "bulk-match-4374",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-800"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "800"
+    ]
+  }
+}

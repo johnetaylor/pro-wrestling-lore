@@ -1,0 +1,201 @@
+{
+  "id": "wwe/smackdown/2019-07-23",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2019-07-23",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2019-07-23"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Shinsuke Nakamura vs. Apollo Crews",
+      "result": "Shinsuke Nakamura defeated Apollo Crews.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "apollo-crews",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shinsuke Nakamura",
+        "Apollo Crews"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-07-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83635",
+          "115762"
+        ],
+        "sourceEventIds": [
+          "13061"
+        ]
+      },
+      "legacyId": "bulk-match-83635",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Ember Moon vs. Charlotte Flair",
+      "result": "Ember Moon defeated Charlotte Flair.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "ember-moon",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ember Moon",
+        "Charlotte Flair"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-07-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83636",
+          "115763"
+        ],
+        "sourceEventIds": [
+          "13061"
+        ]
+      },
+      "legacyId": "bulk-match-83636",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Kofi Kingston, Samoa Joe — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "samoa-joe",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Kofi Kingston",
+        "Samoa Joe"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-07-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83637",
+          "115764"
+        ],
+        "sourceEventIds": [
+          "13061"
+        ]
+      },
+      "legacyId": "bulk-match-83637",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Kevin Owens vs. Roman Reigns",
+      "result": "Kevin Owens defeated Roman Reigns by disqualification.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Roman Reigns"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-07-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83638",
+          "115765"
+        ],
+        "sourceEventIds": [
+          "13061"
+        ]
+      },
+      "legacyId": "bulk-match-83638",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13061"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13061"
+    ]
+  }
+}

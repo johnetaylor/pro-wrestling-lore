@@ -1,0 +1,206 @@
+{
+  "id": "wwe/raw/2000-05-08",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2000-05-08",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Chris Jericho vs. Kurt Angle",
+      "result": "Chris Jericho defeated Kurt Angle.",
+      "matchType": "Singles match",
+      "duration": 335,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Kurt Angle"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "39045",
+          "167967"
+        ],
+        "sourceEventIds": [
+          "5766"
+        ]
+      },
+      "legacyId": "bulk-match-39045",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Eddie Guerrero vs. The Godfather",
+      "result": "Eddie Guerrero defeated The Godfather.",
+      "matchType": "Singles match",
+      "duration": 146,
+      "participants": [
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-godfather",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Eddie Guerrero",
+        "The Godfather"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "39046",
+          "167968"
+        ],
+        "sourceEventIds": [
+          "5766"
+        ]
+      },
+      "legacyId": "bulk-match-39046",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Chris Jericho vs. The Big Show",
+      "result": "Chris Jericho defeated The Big Show by count-out.",
+      "matchType": "Singles match",
+      "duration": 199,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "The Big Show"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "39048",
+          "167970"
+        ],
+        "sourceEventIds": [
+          "5766"
+        ]
+      },
+      "legacyId": "bulk-match-39048",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 9,
+      "type": "match",
+      "title": "Chris Benoit vs. Chris Jericho",
+      "result": "Chris Benoit defeated Chris Jericho.",
+      "matchType": "Singles match",
+      "duration": 428,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "39052",
+          "167974"
+        ],
+        "sourceEventIds": [
+          "5766"
+        ]
+      },
+      "legacyId": "bulk-match-39052",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5766"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5766"
+    ]
+  }
+}

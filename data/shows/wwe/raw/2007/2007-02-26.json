@@ -1,0 +1,216 @@
+{
+  "id": "wwe/raw/2007-02-26",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2007-02-26",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Jeff Hardy vs. Shelton Benjamin",
+      "result": "Jeff Hardy defeated Shelton Benjamin.",
+      "matchType": "Singles match",
+      "duration": 604,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Shelton Benjamin"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51615",
+          "154406"
+        ],
+        "sourceEventIds": [
+          "7821"
+        ]
+      },
+      "legacyId": "bulk-match-51615",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Johnny Nitro, Super Crazy — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "super-crazy",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Johnny Nitro",
+        "Super Crazy"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51616",
+          "154407"
+        ],
+        "sourceEventIds": [
+          "7821"
+        ]
+      },
+      "legacyId": "bulk-match-51616",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Carlito vs. Kenny Dykstra",
+      "result": "Carlito defeated Kenny Dykstra.",
+      "matchType": "Singles match",
+      "duration": 600,
+      "participants": [
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kenny-dykstra",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Carlito",
+        "Kenny Dykstra"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51618",
+          "154409"
+        ],
+        "sourceEventIds": [
+          "7821"
+        ]
+      },
+      "legacyId": "bulk-match-51618",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "John Cena, Shawn Michaels vs. Edge, Randy Orton",
+      "result": "John Cena, Shawn Michaels defeated Edge, Randy Orton.",
+      "matchType": "4-person match",
+      "duration": 937,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Shawn Michaels",
+        "Edge",
+        "Randy Orton"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51619",
+          "154410"
+        ],
+        "sourceEventIds": [
+          "7821"
+        ]
+      },
+      "legacyId": "bulk-match-51619",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7821"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7821"
+    ]
+  }
+}

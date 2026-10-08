@@ -1,0 +1,91 @@
+{
+  "id": "wwe/smackdown/2005-10-25",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2005-10-25",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rey Mysterio vs. Christian, Hardcore Holly, John Bradshaw Layfield, Matt Hardy",
+      "result": "Rey Mysterio defeated Christian, Hardcore Holly, John Bradshaw Layfield, Matt Hardy.",
+      "matchType": "Other match",
+      "duration": 540,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Christian",
+        "Hardcore Holly",
+        "John Bradshaw Layfield",
+        "Matt Hardy"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49645",
+          "156755"
+        ],
+        "sourceEventIds": [
+          "7472"
+        ]
+      },
+      "legacyId": "bulk-match-49645",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7472"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7472"
+    ]
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "id": "wwe/royal-rumble/2000-01-23",
+  "promotion": "wwe",
+  "series": "wwe/royal-rumble",
+  "name": "Royal Rumble '00",
+  "date": "2000-01-23",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Tazz vs. Kurt Angle",
+      "result": "Tazz defeated Kurt Angle.",
+      "matchType": "Singles match",
+      "duration": 196,
+      "participants": [
+        {
+          "person": "tazz",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tazz",
+        "Kurt Angle"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "37700",
+          "169311"
+        ],
+        "sourceEventIds": [
+          "5575"
+        ]
+      },
+      "legacyId": "bulk-match-37700",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Chris Jericho vs. Chyna, Hardcore Holly",
+      "result": "Chris Jericho defeated Chyna, Hardcore Holly.",
+      "matchType": "Other match",
+      "duration": 450,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chyna",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Chyna",
+        "Hardcore Holly"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "37703",
+          "169314"
+        ],
+        "sourceEventIds": [
+          "5575"
+        ]
+      },
+      "legacyId": "bulk-match-37703",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Triple H vs. Cactus Jack",
+      "result": "Triple H defeated Cactus Jack.",
+      "matchType": "Other match",
+      "duration": 1611,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mick-foley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "Cactus Jack"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "37705",
+          "169316"
+        ],
+        "sourceEventIds": [
+          "5575"
+        ]
+      },
+      "legacyId": "bulk-match-37705",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5575"
+  ],
+  "legacy": {
+    "showFamily": "royal-rumble",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5575"
+    ]
+  }
+}

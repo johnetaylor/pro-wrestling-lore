@@ -1,0 +1,513 @@
+{
+  "id": "wwe/raw/2021-07-26",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2021-07-26",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2021-07-26"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Damian Priest vs. Sheamus",
+      "result": "Damian Priest defeated Sheamus.",
+      "matchType": "Singles match",
+      "duration": 605,
+      "participants": [
+        {
+          "person": "damian-priest",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Damian Priest",
+        "Sheamus"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2021-07-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87331",
+          "110289"
+        ],
+        "sourceEventIds": [
+          "13733"
+        ]
+      },
+      "legacyId": "bulk-match-87331",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "A.J. Styles, Omos vs. Erik, Ivar",
+      "result": "A.J. Styles, Omos defeated Erik, Ivar.",
+      "matchType": "4-person match",
+      "duration": 515,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "omos",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "erik",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "ivar",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Omos",
+        "Erik",
+        "Ivar"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2021-07-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87332",
+          "110290"
+        ],
+        "sourceEventIds": [
+          "13733"
+        ]
+      },
+      "legacyId": "bulk-match-87332",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Veer vs. Drew McIntyre",
+      "result": "Veer defeated Drew McIntyre by disqualification.",
+      "matchType": "Singles match",
+      "duration": 230,
+      "participants": [
+        {
+          "person": "veer",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Veer",
+        "Drew McIntyre"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2021-07-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87333",
+          "110291"
+        ],
+        "sourceEventIds": [
+          "13733"
+        ]
+      },
+      "legacyId": "bulk-match-87333",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Natalya, Tamina vs. Doudrop, Eva Marie",
+      "result": "Natalya, Tamina defeated Doudrop, Eva Marie.",
+      "matchType": "4-person match",
+      "duration": 190,
+      "participants": [
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tamina",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "piper-niven",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "eva-marie",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Natalya",
+        "Tamina",
+        "Doudrop",
+        "Eva Marie"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2021-07-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87334",
+          "110292"
+        ],
+        "sourceEventIds": [
+          "13733"
+        ]
+      },
+      "legacyId": "bulk-match-87334",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 5,
+      "type": "match",
+      "title": "Karrion Kross vs. Keith Lee",
+      "result": "Karrion Kross defeated Keith Lee.",
+      "matchType": "Singles match",
+      "duration": 532,
+      "participants": [
+        {
+          "person": "karrion-kross",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "keith-lee",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Karrion Kross",
+        "Keith Lee"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2021-07-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87335",
+          "110293"
+        ],
+        "sourceEventIds": [
+          "13733"
+        ]
+      },
+      "legacyId": "bulk-match-87335",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 6,
+      "type": "match",
+      "title": "Mansoor, Mustafa Ali vs. MACE, T-BAR",
+      "result": "Mansoor, Mustafa Ali defeated MACE, T-BAR.",
+      "matchType": "4-person match",
+      "duration": 184,
+      "participants": [
+        {
+          "person": "man-soor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mustafa-ali",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ma-ce",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "dijak",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mansoor",
+        "Mustafa Ali",
+        "MACE",
+        "T-BAR"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2021-07-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87336",
+          "110294"
+        ],
+        "sourceEventIds": [
+          "13733"
+        ]
+      },
+      "legacyId": "bulk-match-87336",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m7",
+      "order": 7,
+      "type": "match",
+      "title": "Bobby Lashley vs. Cedric Alexander, Shelton Benjamin",
+      "result": "Bobby Lashley defeated Cedric Alexander, Shelton Benjamin.",
+      "matchType": "Tag Team match",
+      "duration": 164,
+      "participants": [
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cedric-alexander",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bobby Lashley",
+        "Cedric Alexander",
+        "Shelton Benjamin"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2021-07-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87337",
+          "110295"
+        ],
+        "sourceEventIds": [
+          "13733"
+        ]
+      },
+      "legacyId": "bulk-match-87337",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m8",
+      "order": 8,
+      "type": "match",
+      "title": "John Morrison vs. Riddle",
+      "result": "John Morrison defeated Riddle.",
+      "matchType": "Singles match",
+      "duration": 596,
+      "participants": [
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "riddle",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Morrison",
+        "Riddle"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2021-07-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87338",
+          "110296"
+        ],
+        "sourceEventIds": [
+          "13733"
+        ]
+      },
+      "legacyId": "bulk-match-87338",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m9",
+      "order": 9,
+      "type": "match",
+      "title": "Reginald vs. R-Truth",
+      "result": "Reginald defeated R-Truth.",
+      "matchType": "Singles match",
+      "duration": 91,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "reginald",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Reginald",
+        "R-Truth"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2021-07-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87339",
+          "110297"
+        ],
+        "sourceEventIds": [
+          "13733"
+        ]
+      },
+      "legacyId": "bulk-match-87339",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m10",
+      "order": 10,
+      "type": "match",
+      "title": "Charlotte Flair vs. Nikki A.S.H.",
+      "result": "Charlotte Flair defeated Nikki A.S.H..",
+      "matchType": "Singles match",
+      "duration": 753,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nikki-cross",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Nikki A.S.H."
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2021-07-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87340",
+          "110298"
+        ],
+        "sourceEventIds": [
+          "13733"
+        ]
+      },
+      "legacyId": "bulk-match-87340",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13733"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13733"
+    ]
+  }
+}

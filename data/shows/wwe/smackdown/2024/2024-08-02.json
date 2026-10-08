@@ -1,0 +1,235 @@
+{
+  "id": "wwe/smackdown/2024-08-02",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2024-08-02",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2024-08-02"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Andrade vs. Carmelo Hayes",
+      "result": "Andrade defeated Carmelo Hayes.",
+      "matchType": "Singles match",
+      "duration": 966,
+      "participants": [
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmelo-hayes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Andrade",
+        "Carmelo Hayes"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-08-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "463",
+          "94679",
+          "98791"
+        ],
+        "sourceEventIds": [
+          "97"
+        ]
+      },
+      "legacyId": "bulk-match-463",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Santos Escobar vs. Apollo Crews",
+      "result": "Santos Escobar defeated Apollo Crews.",
+      "matchType": "Singles match",
+      "duration": 208,
+      "participants": [
+        {
+          "person": "santos-escobar",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "apollo-crews",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Santos Escobar",
+        "Apollo Crews"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-08-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "464",
+          "94680",
+          "98792"
+        ],
+        "sourceEventIds": [
+          "97"
+        ]
+      },
+      "legacyId": "bulk-match-464",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Bianca Belair, Jade Cargill vs. Alba Fyre, Isla Dawn",
+      "result": "Bianca Belair, Jade Cargill defeated Alba Fyre, Isla Dawn by disqualification.",
+      "matchType": "4-person match",
+      "duration": 443,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jade-cargill",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alba-fyre",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "isla-dawn",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Bianca Belair",
+        "Jade Cargill",
+        "Alba Fyre",
+        "Isla Dawn"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-08-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "465",
+          "94681",
+          "98793"
+        ],
+        "sourceEventIds": [
+          "97"
+        ]
+      },
+      "legacyId": "bulk-match-465",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Jacob Fatu, Tama Tonga vs. Johnny Gargano, Tommaso Ciampa",
+      "result": "Jacob Fatu, Tama Tonga defeated Johnny Gargano, Tommaso Ciampa.",
+      "matchType": "4-person match",
+      "duration": 550,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tama-tonga",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "johnny-gargano",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tommaso-ciampa",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jacob Fatu",
+        "Tama Tonga",
+        "Johnny Gargano",
+        "Tommaso Ciampa"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-08-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "466",
+          "94682",
+          "98794"
+        ],
+        "sourceEventIds": [
+          "97"
+        ]
+      },
+      "legacyId": "bulk-match-466",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-97"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "97"
+    ]
+  }
+}

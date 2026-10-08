@@ -1,0 +1,236 @@
+{
+  "id": "wwe/raw/2009-05-25",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2009-05-25",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2009/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Kelly Kelly vs. Maryse",
+      "result": "Kelly Kelly defeated Maryse by disqualification.",
+      "matchType": "Singles match",
+      "duration": 167,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "kelly-kelly",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "maryse",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Kelly Kelly",
+        "Maryse"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54404",
+          "150823"
+        ],
+        "sourceEventIds": [
+          "8324"
+        ]
+      },
+      "legacyId": "bulk-match-54404",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Kofi Kingston vs. Matt Hardy, William Regal",
+      "result": "Kofi Kingston defeated Matt Hardy, William Regal.",
+      "matchType": "Other match",
+      "duration": 588,
+      "participants": [
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kofi Kingston",
+        "Matt Hardy",
+        "William Regal"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54405",
+          "150824"
+        ],
+        "sourceEventIds": [
+          "8324"
+        ]
+      },
+      "legacyId": "bulk-match-54405",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Mickie James, Santino Marella vs. Beth Phoenix, Chavo Guerrero",
+      "result": "Mickie James, Santino Marella defeated Beth Phoenix, Chavo Guerrero.",
+      "matchType": "4-person match",
+      "duration": 97,
+      "participants": [
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "santino-marella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "beth-phoenix",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "chavo-guerrero",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mickie James",
+        "Santino Marella",
+        "Beth Phoenix",
+        "Chavo Guerrero"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54406",
+          "150825"
+        ],
+        "sourceEventIds": [
+          "8324"
+        ]
+      },
+      "legacyId": "bulk-match-54406",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Goldust, Hornswoggle vs. Festus, The Brian Kendrick",
+      "result": "Goldust, Hornswoggle defeated Festus, The Brian Kendrick.",
+      "matchType": "4-person match",
+      "duration": 130,
+      "participants": [
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "hornswoggle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "festus",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "brian-kendrick",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Goldust",
+        "Hornswoggle",
+        "Festus",
+        "The Brian Kendrick"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54407",
+          "150826"
+        ],
+        "sourceEventIds": [
+          "8324"
+        ]
+      },
+      "legacyId": "bulk-match-54407",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8324"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8324"
+    ]
+  }
+}

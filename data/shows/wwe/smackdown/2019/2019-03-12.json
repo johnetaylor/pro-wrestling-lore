@@ -1,0 +1,182 @@
+{
+  "id": "wwe/smackdown/2019-03-12",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2019-03-12",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2019-03-12"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Asuka vs. Sonya Deville",
+      "result": "Asuka defeated Sonya Deville.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "asuka",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sonya-deville",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Asuka",
+        "Sonya Deville"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-03-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82706",
+          "116744"
+        ],
+        "sourceEventIds": [
+          "12896"
+        ]
+      },
+      "legacyId": "bulk-match-82706",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "R-Truth, Rey Mysterio vs. Andrade, Samoa Joe",
+      "result": "R-Truth, Rey Mysterio defeated Andrade, Samoa Joe.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "samoa-joe",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "R-Truth",
+        "Rey Mysterio",
+        "Andrade",
+        "Samoa Joe"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-03-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82707",
+          "116745"
+        ],
+        "sourceEventIds": [
+          "12896"
+        ]
+      },
+      "legacyId": "bulk-match-82707",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Daniel Bryan, Rowan vs. Kevin Owens, Mustafa Ali",
+      "result": "Daniel Bryan, Rowan defeated Kevin Owens, Mustafa Ali.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "erick-rowan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "mustafa-ali",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "Rowan",
+        "Kevin Owens",
+        "Mustafa Ali"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-03-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82708",
+          "116746"
+        ],
+        "sourceEventIds": [
+          "12896"
+        ]
+      },
+      "legacyId": "bulk-match-82708",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12896"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12896"
+    ]
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "id": "wwe/raw/2000-03-13",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2000-03-13",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Kurt Angle vs. Chris Jericho, Tazz",
+      "result": "Kurt Angle defeated Chris Jericho, Tazz.",
+      "matchType": "Other match",
+      "duration": 194,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tazz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Chris Jericho",
+        "Tazz"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "38368",
+          "168648"
+        ],
+        "sourceEventIds": [
+          "5667"
+        ]
+      },
+      "legacyId": "bulk-match-38368",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 6,
+      "type": "match",
+      "title": "Dean Malenko vs. Essa Rios",
+      "result": "Dean Malenko defeated Essa Rios.",
+      "matchType": "Singles match",
+      "duration": 255,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "dean-malenko",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "essa-rios",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dean Malenko",
+        "Essa Rios"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "38371",
+          "168651"
+        ],
+        "sourceEventIds": [
+          "5667"
+        ]
+      },
+      "legacyId": "bulk-match-38371",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 8,
+      "type": "match",
+      "title": "Chris Benoit, Perry Saturn vs. Test, Val Venis",
+      "result": "Chris Benoit, Perry Saturn defeated Test, Val Venis.",
+      "matchType": "4-person match",
+      "duration": 265,
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "perry-saturn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "val-venis",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Perry Saturn",
+        "Test",
+        "Val Venis"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "38373",
+          "168653"
+        ],
+        "sourceEventIds": [
+          "5667"
+        ]
+      },
+      "legacyId": "bulk-match-38373",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 9,
+      "type": "match",
+      "title": "The Rock vs. The Big Show",
+      "result": "The Rock defeated The Big Show.",
+      "matchType": "Singles match",
+      "duration": 556,
+      "participants": [
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Rock",
+        "The Big Show"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "38374",
+          "168654"
+        ],
+        "sourceEventIds": [
+          "5667"
+        ]
+      },
+      "legacyId": "bulk-match-38374",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5667"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5667"
+    ]
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "id": "wwe/smackdown/2006-02-07",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2006-02-07",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2006/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Chris Benoit vs. John Bradshaw Layfield, Matt Hardy, Orlando Jordan",
+      "result": "Chris Benoit defeated John Bradshaw Layfield, Matt Hardy, Orlando Jordan.",
+      "matchType": "Other match",
+      "duration": 1013,
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "orlando-jordan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "John Bradshaw Layfield",
+        "Matt Hardy",
+        "Orlando Jordan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50206",
+          "156100"
+        ],
+        "sourceEventIds": [
+          "7569"
+        ]
+      },
+      "legacyId": "bulk-match-50206",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Joey Mercury, Johnny Nitro vs. Brian Kendrick, Paul London",
+      "result": "Joey Mercury, Johnny Nitro defeated Brian Kendrick, Paul London.",
+      "matchType": "4-person match",
+      "duration": 316,
+      "participants": [
+        {
+          "person": "joey-mercury",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "brian-kendrick",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "paul-london",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Joey Mercury",
+        "Johnny Nitro",
+        "Brian Kendrick",
+        "Paul London"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50207",
+          "156101"
+        ],
+        "sourceEventIds": [
+          "7569"
+        ]
+      },
+      "legacyId": "bulk-match-50207",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Gregory Helms vs. Nunzio",
+      "result": "Gregory Helms defeated Nunzio.",
+      "matchType": "Singles match",
+      "duration": 256,
+      "participants": [
+        {
+          "person": "the-hurricane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nunzio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Gregory Helms",
+        "Nunzio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50208",
+          "156102"
+        ],
+        "sourceEventIds": [
+          "7569"
+        ]
+      },
+      "legacyId": "bulk-match-50208",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "The Undertaker vs. Mark Henry",
+      "result": "The Undertaker defeated Mark Henry by disqualification.",
+      "matchType": "Singles match",
+      "duration": 798,
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "Mark Henry"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50210",
+          "156104"
+        ],
+        "sourceEventIds": [
+          "7569"
+        ]
+      },
+      "legacyId": "bulk-match-50210",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7569"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7569"
+    ]
+  }
+}

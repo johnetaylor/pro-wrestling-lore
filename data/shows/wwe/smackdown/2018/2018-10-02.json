@@ -1,0 +1,170 @@
+{
+  "id": "wwe/smackdown/2018-10-02",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-10-02",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-10-02"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Carmella, R-Truth vs. Andrade \"Cien\" Almas, Zelina Vega",
+      "result": "Carmella, R-Truth defeated Andrade \"Cien\" Almas, Zelina Vega.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "zelina-vega",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Carmella",
+        "R-Truth",
+        "Andrade \"Cien\" Almas",
+        "Zelina Vega"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-10-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81566",
+          "117893"
+        ],
+        "sourceEventIds": [
+          "12692"
+        ]
+      },
+      "legacyId": "bulk-match-81566",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Shelton Benjamin vs. Daniel Bryan",
+      "result": "Shelton Benjamin defeated Daniel Bryan.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shelton Benjamin",
+        "Daniel Bryan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-10-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81567",
+          "117894"
+        ],
+        "sourceEventIds": [
+          "12692"
+        ]
+      },
+      "legacyId": "bulk-match-81567",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Asuka vs. Peyton Royce",
+      "result": "Asuka defeated Peyton Royce.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "asuka",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "peyton-royce",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Asuka",
+        "Peyton Royce"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-10-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81568",
+          "117895"
+        ],
+        "sourceEventIds": [
+          "12692"
+        ]
+      },
+      "legacyId": "bulk-match-81568",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12692"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12692"
+    ]
+  }
+}

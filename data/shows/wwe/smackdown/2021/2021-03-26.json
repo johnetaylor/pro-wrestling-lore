@@ -1,0 +1,158 @@
+{
+  "id": "wwe/smackdown/2021-03-26",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2021-03-26",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2021-03-26"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Seth Rollins vs. Shinsuke Nakamura",
+      "result": "Seth Rollins defeated Shinsuke Nakamura.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Seth Rollins",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-03-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86863",
+          "111271"
+        ],
+        "sourceEventIds": [
+          "13634"
+        ]
+      },
+      "legacyId": "bulk-match-86863",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Bianca Belair vs. Natalya",
+      "result": "Bianca Belair defeated Natalya.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bianca Belair",
+        "Natalya"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-03-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86865",
+          "111273"
+        ],
+        "sourceEventIds": [
+          "13634"
+        ]
+      },
+      "legacyId": "bulk-match-86865",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Rey Mysterio vs. Dolph Ziggler",
+      "result": "Rey Mysterio defeated Dolph Ziggler.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-03-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86866",
+          "111274"
+        ],
+        "sourceEventIds": [
+          "13634"
+        ]
+      },
+      "legacyId": "bulk-match-86866",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13634"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13634"
+    ]
+  }
+}

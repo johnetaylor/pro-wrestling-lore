@@ -1,0 +1,217 @@
+{
+  "id": "wwe/raw/2015-11-23",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2015-11-23",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2015/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Sasha Banks vs. Becky Lynch",
+      "result": "Sasha Banks defeated Becky Lynch.",
+      "matchType": "Singles match",
+      "duration": 246,
+      "participants": [
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sasha Banks",
+        "Becky Lynch"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "71225",
+          "128808"
+        ],
+        "sourceEventIds": [
+          "11069"
+        ]
+      },
+      "legacyId": "bulk-match-71225",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Neville vs. Mark Henry",
+      "result": "Neville defeated Mark Henry.",
+      "matchType": "Singles match",
+      "duration": 145,
+      "participants": [
+        {
+          "person": "neville",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Neville",
+        "Mark Henry"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "71226",
+          "128809"
+        ],
+        "sourceEventIds": [
+          "11069"
+        ]
+      },
+      "legacyId": "bulk-match-71226",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Dean Ambrose, Dolph Ziggler vs. Kevin Owens, Tyler Breeze",
+      "result": "Dean Ambrose, Dolph Ziggler defeated Kevin Owens, Tyler Breeze.",
+      "matchType": "4-person match",
+      "duration": 327,
+      "participants": [
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tyler-breeze",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dean Ambrose",
+        "Dolph Ziggler",
+        "Kevin Owens",
+        "Tyler Breeze"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "71229",
+          "128812"
+        ],
+        "sourceEventIds": [
+          "11069"
+        ]
+      },
+      "legacyId": "bulk-match-71229",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Roman Reigns vs. Rusev",
+      "result": "Roman Reigns defeated Rusev by disqualification.",
+      "matchType": "Singles match",
+      "duration": 1126,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Rusev"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "71230",
+          "128813"
+        ],
+        "sourceEventIds": [
+          "11069"
+        ]
+      },
+      "legacyId": "bulk-match-71230",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11069"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11069"
+    ]
+  }
+}

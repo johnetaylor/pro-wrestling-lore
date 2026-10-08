@@ -1,0 +1,221 @@
+{
+  "id": "wwe/smackdown/2007-03-20",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2007-03-20",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Brian Kendrick, Paul London vs. Joey Mercury, Johnny Nitro",
+      "result": "Brian Kendrick, Paul London defeated Joey Mercury, Johnny Nitro.",
+      "matchType": "4-person match",
+      "duration": 300,
+      "participants": [
+        {
+          "person": "brian-kendrick",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "paul-london",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "joey-mercury",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Brian Kendrick",
+        "Paul London",
+        "Joey Mercury",
+        "Johnny Nitro"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51701",
+          "154306"
+        ],
+        "sourceEventIds": [
+          "7837"
+        ]
+      },
+      "legacyId": "bulk-match-51701",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Jimmy Wang Yang vs. Chavo Guerrero",
+      "result": "Jimmy Wang Yang defeated Chavo Guerrero.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "jimmy-wang-yang",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chavo-guerrero",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jimmy Wang Yang",
+        "Chavo Guerrero"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51702",
+          "154307"
+        ],
+        "sourceEventIds": [
+          "7837"
+        ]
+      },
+      "legacyId": "bulk-match-51702",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Chris Benoit vs. Gregory Helms",
+      "result": "Chris Benoit defeated Gregory Helms.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-hurricane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Gregory Helms"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51705",
+          "154310"
+        ],
+        "sourceEventIds": [
+          "7837"
+        ]
+      },
+      "legacyId": "bulk-match-51705",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "The Undertaker vs. Finlay, King Booker",
+      "result": "The Undertaker defeated Finlay, King Booker by disqualification.",
+      "matchType": "Tag Team match",
+      "duration": 706,
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finlay",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "Finlay",
+        "King Booker"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51706",
+          "154311"
+        ],
+        "sourceEventIds": [
+          "7837"
+        ]
+      },
+      "legacyId": "bulk-match-51706",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7837"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7837"
+    ]
+  }
+}

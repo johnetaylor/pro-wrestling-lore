@@ -1,0 +1,173 @@
+{
+  "id": "wwe/smackdown/2020-02-21",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2020-02-21",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2020-02-21"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Braun Strowman, Elias vs. Cesaro, Shinsuke Nakamura",
+      "result": "Braun Strowman, Elias defeated Cesaro, Shinsuke Nakamura.",
+      "matchType": "Tag Team match",
+      "duration": 645,
+      "participants": [
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "elias",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Braun Strowman",
+        "Elias",
+        "Cesaro",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-02-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85294",
+          "113915"
+        ],
+        "sourceEventIds": [
+          "13322"
+        ]
+      },
+      "legacyId": "bulk-match-85294",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Daniel Bryan vs. Heath Slater",
+      "result": "Daniel Bryan defeated Heath Slater.",
+      "matchType": "Singles match",
+      "duration": 165,
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "heath-slater",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "Heath Slater"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-02-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85295",
+          "113916"
+        ],
+        "sourceEventIds": [
+          "13322"
+        ]
+      },
+      "legacyId": "bulk-match-85295",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Naomi vs. Carmella",
+      "result": "Naomi defeated Carmella.",
+      "matchType": "Singles match",
+      "duration": 765,
+      "participants": [
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Naomi",
+        "Carmella"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-02-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85296",
+          "113917"
+        ],
+        "sourceEventIds": [
+          "13322"
+        ]
+      },
+      "legacyId": "bulk-match-85296",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13322"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13322"
+    ]
+  }
+}

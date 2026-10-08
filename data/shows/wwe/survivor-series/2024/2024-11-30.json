@@ -1,0 +1,463 @@
+{
+  "id": "wwe/survivor-series/2024-11-30",
+  "promotion": "wwe",
+  "series": "wwe/survivor-series",
+  "name": "Survivor Series: WarGames 2024",
+  "date": "2024-11-30",
+  "category": "PLE",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "note": "Hugging Face import · official-results comparison. Unverified extra matches were excluded.",
+    "legacyCardStatus": "Imported card compared with official WWE results",
+    "legacySegmentStatus": "Partial; the match dataset does not contain a promo/appearance archive"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/survivor-series-wargames/2024/article/results"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Bayley & Bianca Belair & IYO SKY & Naomi & Rhea Ripley vs. Candice LeRae, Liv Morgan, Nia Jax, Raquel Rodriguez, Tiffany Stratton",
+      "result": "Bayley & Bianca Belair & IYO SKY & Naomi & Rhea Ripley defeated Candice LeRae, Liv Morgan, Nia Jax, Raquel Rodriguez, Tiffany Stratton.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "WarGames",
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor"
+        },
+        {
+          "person": "bianca-belair",
+          "role": "competitor"
+        },
+        {
+          "person": "iyo-sky",
+          "role": "competitor"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor"
+        },
+        {
+          "person": "rhea-ripley",
+          "role": "competitor"
+        },
+        {
+          "person": "candice-lerae",
+          "role": "competitor"
+        },
+        {
+          "person": "liv-morgan",
+          "role": "competitor"
+        },
+        {
+          "person": "nia-jax",
+          "role": "competitor"
+        },
+        {
+          "person": "raquel-rodriguez",
+          "role": "competitor"
+        },
+        {
+          "person": "tiffany-stratton",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Bianca Belair",
+        "IYO SKY",
+        "Naomi",
+        "Rhea Ripley",
+        "Candice LeRae",
+        "Liv Morgan",
+        "Nia Jax",
+        "Raquel Rodriguez",
+        "Tiffany Stratton"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/survivor-series-wargames/2024/article/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/survivor-series-wargames/2024/article/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15117",
+        "sourceMatchIds": [
+          "95328"
+        ],
+        "rawInputSha256": "f1b24b26d155ee4e209a48718b8eec9683934a52780f714c7aae280a17b15957",
+        "normalizedParticipants": [
+          {
+            "name": "Bayley",
+            "result": "win"
+          },
+          {
+            "name": "Bianca Belair",
+            "result": "win"
+          },
+          {
+            "name": "IYO SKY",
+            "result": "win"
+          },
+          {
+            "name": "Naomi",
+            "result": "win"
+          },
+          {
+            "name": "Rhea Ripley",
+            "result": "win"
+          },
+          {
+            "name": "Candice LeRae",
+            "result": "loss"
+          },
+          {
+            "name": "Liv Morgan",
+            "result": "loss"
+          },
+          {
+            "name": "Nia Jax",
+            "result": "loss"
+          },
+          {
+            "name": "Raquel Rodriguez",
+            "result": "loss"
+          },
+          {
+            "name": "Tiffany Stratton",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/survivor-series-wargames/2024/article/results"
+      },
+      "legacyId": "hf-match-95328",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Shinsuke Nakamura vs. LA Knight",
+      "result": "Shinsuke Nakamura defeated LA Knight.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor"
+        },
+        {
+          "person": "la-knight",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Shinsuke Nakamura",
+        "LA Knight"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/survivor-series-wargames/2024/article/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/survivor-series-wargames/2024/article/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15117",
+        "sourceMatchIds": [
+          "95329"
+        ],
+        "rawInputSha256": "e93aeef6bb8d510f8de76756de29b799f5c434e60232c6c6610cde9abf4c2214",
+        "normalizedParticipants": [
+          {
+            "name": "Shinsuke Nakamura",
+            "result": "win"
+          },
+          {
+            "name": "LA Knight",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/survivor-series-wargames/2024/article/results"
+      },
+      "legacyId": "hf-match-95329",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Bron Breakker vs. Ludwig Kaiser, Sheamus",
+      "result": "Bron Breakker defeated Ludwig Kaiser, Sheamus.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Triple Threat Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bron-breakker",
+          "role": "competitor"
+        },
+        {
+          "person": "ludwig-kaiser",
+          "role": "competitor"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Bron Breakker",
+        "Ludwig Kaiser",
+        "Sheamus"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/survivor-series-wargames/2024/article/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/survivor-series-wargames/2024/article/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15117",
+        "sourceMatchIds": [
+          "95330"
+        ],
+        "rawInputSha256": "cfdacf09e56d1a315fcd083d1180026c02fa2c463238bda6ae3b7768632467cf",
+        "normalizedParticipants": [
+          {
+            "name": "Bron Breakker",
+            "result": "win"
+          },
+          {
+            "name": "Ludwig Kaiser",
+            "result": "loss"
+          },
+          {
+            "name": "Sheamus",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/survivor-series-wargames/2024/article/results"
+      },
+      "legacyId": "hf-match-95330",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Gunther vs. Damian Priest",
+      "result": "Gunther defeated Damian Priest.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "gunther",
+          "role": "competitor"
+        },
+        {
+          "person": "damian-priest",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Gunther",
+        "Damian Priest"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/survivor-series-wargames/2024/article/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/survivor-series-wargames/2024/article/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15117",
+        "sourceMatchIds": [
+          "95331"
+        ],
+        "rawInputSha256": "48d797845a72ed370c7b7f673524bbbf35bea47e67dce609daddacefbfb35c9b",
+        "normalizedParticipants": [
+          {
+            "name": "Gunther",
+            "result": "win"
+          },
+          {
+            "name": "Damian Priest",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/survivor-series-wargames/2024/article/results"
+      },
+      "legacyId": "hf-match-95331",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m5",
+      "type": "match",
+      "title": "CM Punk & Jey Uso & Jimmy Uso & Roman Reigns & Sami Zayn vs. Bronson Reed, Jacob Fatu, Solo Sikoa, Tama Tonga, Tonga Loa",
+      "result": "CM Punk & Jey Uso & Jimmy Uso & Roman Reigns & Sami Zayn defeated Bronson Reed, Jacob Fatu, Solo Sikoa, Tama Tonga, Tonga Loa.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "WarGames",
+      "participants": [
+        {
+          "person": "cm-punk",
+          "role": "competitor"
+        },
+        {
+          "person": "jey-uso",
+          "role": "competitor"
+        },
+        {
+          "person": "jimmy-uso",
+          "role": "competitor"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor"
+        },
+        {
+          "person": "bronson-reed",
+          "role": "competitor"
+        },
+        {
+          "person": "jacob-fatu",
+          "role": "competitor"
+        },
+        {
+          "person": "solo-sikoa",
+          "role": "competitor"
+        },
+        {
+          "person": "tama-tonga",
+          "role": "competitor"
+        },
+        {
+          "person": "tonga-loa",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "CM Punk",
+        "Jey Uso",
+        "Jimmy Uso",
+        "Roman Reigns",
+        "Sami Zayn",
+        "Bronson Reed",
+        "Jacob Fatu",
+        "Solo Sikoa",
+        "Tama Tonga",
+        "Tonga Loa"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/survivor-series-wargames/2024/article/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/survivor-series-wargames/2024/article/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15117",
+        "sourceMatchIds": [
+          "95332"
+        ],
+        "rawInputSha256": "0bc6c39d0386ca3e2aa0bc16f9445ac2af8b18c488da893fec2937424156acb1",
+        "normalizedParticipants": [
+          {
+            "name": "CM Punk",
+            "result": "win"
+          },
+          {
+            "name": "Jey Uso",
+            "result": "win"
+          },
+          {
+            "name": "Jimmy Uso",
+            "result": "win"
+          },
+          {
+            "name": "Roman Reigns",
+            "result": "win"
+          },
+          {
+            "name": "Sami Zayn",
+            "result": "win"
+          },
+          {
+            "name": "Bronson Reed",
+            "result": "loss"
+          },
+          {
+            "name": "Jacob Fatu",
+            "result": "loss"
+          },
+          {
+            "name": "Solo Sikoa",
+            "result": "loss"
+          },
+          {
+            "name": "Tama Tonga",
+            "result": "loss"
+          },
+          {
+            "name": "Tonga Loa",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/survivor-series-wargames/2024/article/results"
+      },
+      "legacyId": "hf-match-95332",
+      "legacy": {
+        "kind": "match"
+      }
+    }
+  ],
+  "legacyIds": [
+    "hf-event-15117"
+  ],
+  "legacy": {
+    "showFamily": "survivor-series-wargames",
+    "importBatch": "ringside-2024-ple"
+  }
+}

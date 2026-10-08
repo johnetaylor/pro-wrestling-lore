@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2004-03-30",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2004-03-30",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "The Big Show vs. Rikishi",
+      "result": "The Big Show defeated Rikishi.",
+      "matchType": "Singles match",
+      "duration": 164,
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "Rikishi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47671",
+          "159324"
+        ],
+        "sourceEventIds": [
+          "7070"
+        ]
+      },
+      "legacyId": "bulk-match-47671",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Charlie Haas, Rob Van Dam — draw.",
+      "matchType": "Singles match",
+      "duration": 458,
+      "participants": [
+        {
+          "person": "charlie-haas",
+          "role": "competitor",
+          "outcome": "draw"
+        },
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "draw"
+        }
+      ],
+      "billing": [
+        "Charlie Haas",
+        "Rob Van Dam"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47673",
+          "159326"
+        ],
+        "sourceEventIds": [
+          "7070"
+        ]
+      },
+      "legacyId": "bulk-match-47673",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Booker T. vs. Hardcore Holly",
+      "result": "Booker T. defeated Hardcore Holly.",
+      "matchType": "Singles match",
+      "duration": 896,
+      "participants": [
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Booker T.",
+        "Hardcore Holly"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47674",
+          "159327"
+        ],
+        "sourceEventIds": [
+          "7070"
+        ]
+      },
+      "legacyId": "bulk-match-47674",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7070"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7070"
+    ]
+  }
+}

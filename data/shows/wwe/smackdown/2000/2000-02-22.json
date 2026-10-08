@@ -1,0 +1,215 @@
+{
+  "id": "wwe/smackdown/2000-02-22",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2000-02-22",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Crash Holly vs. Test",
+      "result": "Crash Holly defeated Test.",
+      "matchType": "Other match",
+      "duration": 237,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "crash-holly",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Crash Holly",
+        "Test"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "38134",
+          "168875"
+        ],
+        "sourceEventIds": [
+          "5634"
+        ]
+      },
+      "legacyId": "bulk-match-38134",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Chris Benoit, Kane — double count-out.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Kane"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "38135",
+          "168876"
+        ],
+        "sourceEventIds": [
+          "5634"
+        ]
+      },
+      "legacyId": "bulk-match-38135",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Billy Gunn vs. Bubba Ray Dudley",
+      "result": "Billy Gunn defeated Bubba Ray Dudley by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bubba-ray-dudley",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Billy Gunn",
+        "Bubba Ray Dudley"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "38139",
+          "168880"
+        ],
+        "sourceEventIds": [
+          "5634"
+        ]
+      },
+      "legacyId": "bulk-match-38139",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Kurt Angle, The Big Show vs. Chris Jericho, The Rock",
+      "result": "Kurt Angle, The Big Show defeated Chris Jericho, The Rock by disqualification.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "The Big Show",
+        "Chris Jericho",
+        "The Rock"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "38140",
+          "168881"
+        ],
+        "sourceEventIds": [
+          "5634"
+        ]
+      },
+      "legacyId": "bulk-match-38140",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5634"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5634"
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2014-11-25",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2014-11-25",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2014/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Nikki Bella vs. Emma",
+      "result": "Nikki Bella defeated Emma.",
+      "matchType": "Singles match",
+      "duration": 117,
+      "participants": [
+        {
+          "person": "nikki-bella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "emma",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Nikki Bella",
+        "Emma"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "67409",
+          "133131"
+        ],
+        "sourceEventIds": [
+          "10559"
+        ]
+      },
+      "legacyId": "bulk-match-67409",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Ryback vs. Seth Rollins",
+      "result": "Ryback defeated Seth Rollins by disqualification.",
+      "matchType": "Singles match",
+      "duration": 825,
+      "participants": [
+        {
+          "person": "ryback",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Ryback",
+        "Seth Rollins"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "67410",
+          "133132"
+        ],
+        "sourceEventIds": [
+          "10559"
+        ]
+      },
+      "legacyId": "bulk-match-67410",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Dolph Ziggler vs. Luke Harper",
+      "result": "Dolph Ziggler defeated Luke Harper by count-out.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "luke-harper",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Dolph Ziggler",
+        "Luke Harper"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "67412",
+          "133134"
+        ],
+        "sourceEventIds": [
+          "10559"
+        ]
+      },
+      "legacyId": "bulk-match-67412",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10559"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10559"
+    ]
+  }
+}

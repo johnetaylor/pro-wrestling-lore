@@ -1,0 +1,159 @@
+{
+  "id": "wwe/smackdown/2009-03-06",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2009-03-06",
+  "dateBasis": "aired",
+  "recordedDate": "2009-03-03",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2009/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Montel Vontavious Porter vs. Matt Hardy",
+      "result": "Montel Vontavious Porter defeated Matt Hardy.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "montel-vontavious-porter",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Montel Vontavious Porter",
+        "Matt Hardy"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54084",
+          "151251"
+        ],
+        "sourceEventIds": [
+          "8257"
+        ]
+      },
+      "legacyId": "bulk-match-54084",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Shelton Benjamin vs. Jeff Hardy",
+      "result": "Shelton Benjamin defeated Jeff Hardy by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Shelton Benjamin",
+        "Jeff Hardy"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54087",
+          "151254"
+        ],
+        "sourceEventIds": [
+          "8257"
+        ]
+      },
+      "legacyId": "bulk-match-54087",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Triple H, Umaga — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "umaga",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "Umaga"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54088",
+          "151255"
+        ],
+        "sourceEventIds": [
+          "8257"
+        ]
+      },
+      "legacyId": "bulk-match-54088",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8257"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8257"
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "wwe/raw/2008-03-24",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2008-03-24",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Carlito, Montel Vontavious Porter vs. CM Punk, Chris Jericho",
+      "result": "Carlito, Montel Vontavious Porter defeated CM Punk, Chris Jericho.",
+      "matchType": "4-person match",
+      "duration": 599,
+      "participants": [
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "montel-vontavious-porter",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cm-punk",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Carlito",
+        "Montel Vontavious Porter",
+        "CM Punk",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52942",
+          "152744"
+        ],
+        "sourceEventIds": [
+          "8065"
+        ]
+      },
+      "legacyId": "bulk-match-52942",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "The Great Khali vs. Hardcore Holly",
+      "result": "The Great Khali defeated Hardcore Holly.",
+      "matchType": "Singles match",
+      "duration": 111,
+      "participants": [
+        {
+          "person": "the-great-khali",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Great Khali",
+        "Hardcore Holly"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52943",
+          "152745"
+        ],
+        "sourceEventIds": [
+          "8065"
+        ]
+      },
+      "legacyId": "bulk-match-52943",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8065"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8065"
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "id": "wwe/raw/2011-05-02",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2011-05-02",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2011/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Kelly Kelly, Maryse — no contest.",
+      "matchType": "Singles match",
+      "duration": 12,
+      "participants": [
+        {
+          "person": "kelly-kelly",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "maryse",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Kelly Kelly",
+        "Maryse"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "56821",
+          "146944"
+        ],
+        "sourceEventIds": [
+          "8886"
+        ]
+      },
+      "legacyId": "bulk-match-56821",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "John Cena vs. The Miz",
+      "result": "John Cena defeated The Miz by disqualification.",
+      "matchType": "Singles match",
+      "duration": 735,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "The Miz"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "56822",
+          "146945"
+        ],
+        "sourceEventIds": [
+          "8886"
+        ]
+      },
+      "legacyId": "bulk-match-56822",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Kofi Kingston, Rey Mysterio vs. Drew McIntyre, Jack Swagger",
+      "result": "Kofi Kingston, Rey Mysterio defeated Drew McIntyre, Jack Swagger.",
+      "matchType": "4-person match",
+      "duration": 520,
+      "participants": [
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "jack-swagger",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kofi Kingston",
+        "Rey Mysterio",
+        "Drew McIntyre",
+        "Jack Swagger"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "56823",
+          "146946"
+        ],
+        "sourceEventIds": [
+          "8886"
+        ]
+      },
+      "legacyId": "bulk-match-56823",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Kane vs. Mason Ryan",
+      "result": "Kane defeated Mason Ryan by disqualification.",
+      "matchType": "Singles match",
+      "duration": 98,
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mason-ryan",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "Mason Ryan"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "56824",
+          "146947"
+        ],
+        "sourceEventIds": [
+          "8886"
+        ]
+      },
+      "legacyId": "bulk-match-56824",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8886"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8886"
+    ]
+  }
+}

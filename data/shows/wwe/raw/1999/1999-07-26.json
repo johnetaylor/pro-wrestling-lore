@@ -1,0 +1,225 @@
+{
+  "id": "wwe/raw/1999-07-26",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1999-07-26",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1999/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "The Godfather, Val Venis vs. Droz, Prince Albert",
+      "result": "The Godfather, Val Venis defeated Droz, Prince Albert.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "the-godfather",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "val-venis",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "droz",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tensai",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Godfather",
+        "Val Venis",
+        "Droz",
+        "Prince Albert"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "35356",
+          "171671"
+        ],
+        "sourceEventIds": [
+          "5270"
+        ]
+      },
+      "legacyId": "bulk-match-35356",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Kane vs. The Big Show, The Undertaker",
+      "result": "Kane defeated The Big Show, The Undertaker by disqualification.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "The Big Show",
+        "The Undertaker"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "35357",
+          "171672"
+        ],
+        "sourceEventIds": [
+          "5270"
+        ]
+      },
+      "legacyId": "bulk-match-35357",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Triple H vs. Ken Shamrock",
+      "result": "Triple H defeated Ken Shamrock.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ken-shamrock",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "Ken Shamrock"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "35358",
+          "171673"
+        ],
+        "sourceEventIds": [
+          "5270"
+        ]
+      },
+      "legacyId": "bulk-match-35358",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Tag Team match",
+      "result": "The Rock, Billy Gunn, Chyna — no contest.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "chyna",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "The Rock",
+        "Billy Gunn",
+        "Chyna"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "35359",
+          "171674"
+        ],
+        "sourceEventIds": [
+          "5270"
+        ]
+      },
+      "legacyId": "bulk-match-35359",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5270"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5270"
+    ]
+  }
+}

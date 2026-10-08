@@ -1,0 +1,233 @@
+{
+  "id": "wwe/raw/2015-08-24",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2015-08-24",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2015/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Dean Ambrose, Roman Reigns vs. Bray Wyatt, Luke Harper",
+      "result": "Dean Ambrose, Roman Reigns defeated Bray Wyatt, Luke Harper by disqualification.",
+      "matchType": "4-person match",
+      "duration": 637,
+      "participants": [
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bray-wyatt",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "luke-harper",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Dean Ambrose",
+        "Roman Reigns",
+        "Bray Wyatt",
+        "Luke Harper"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "70181",
+          "129909"
+        ],
+        "sourceEventIds": [
+          "10931"
+        ]
+      },
+      "legacyId": "bulk-match-70181",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Alicia Fox, Brie Bella, Nikki Bella vs. Becky Lynch, Charlotte, Paige",
+      "result": "Alicia Fox, Brie Bella, Nikki Bella defeated Becky Lynch, Charlotte, Paige.",
+      "matchType": "Tag Team match",
+      "duration": 846,
+      "participants": [
+        {
+          "person": "alicia-fox",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "brie-bella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nikki-bella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "paige",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alicia Fox",
+        "Brie Bella",
+        "Nikki Bella",
+        "Becky Lynch",
+        "Charlotte",
+        "Paige"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "70182",
+          "129910"
+        ],
+        "sourceEventIds": [
+          "10931"
+        ]
+      },
+      "legacyId": "bulk-match-70182",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Cesaro, Dolph Ziggler, Randy Orton, Ryback vs. Kevin Owens, Rusev, Sheamus, The Big Show",
+      "result": "Cesaro, Dolph Ziggler, Randy Orton, Ryback defeated Kevin Owens, Rusev, Sheamus, The Big Show.",
+      "matchType": "Tag Team match",
+      "duration": 1072,
+      "participants": [
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ryback",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cesaro",
+        "Dolph Ziggler",
+        "Randy Orton",
+        "Ryback",
+        "Kevin Owens",
+        "Rusev",
+        "Sheamus",
+        "The Big Show"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "70184",
+          "129912"
+        ],
+        "sourceEventIds": [
+          "10931"
+        ]
+      },
+      "legacyId": "bulk-match-70184",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10931"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10931"
+    ]
+  }
+}

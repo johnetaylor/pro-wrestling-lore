@@ -1,0 +1,190 @@
+{
+  "id": "wwe/smackdown/2024-08-23",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2024-08-23",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2024-08-23"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "L.A. Knight vs. Santos Escobar",
+      "result": "L.A. Knight defeated Santos Escobar.",
+      "matchType": "Singles match",
+      "duration": 542,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "la-knight",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "santos-escobar",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "L.A. Knight",
+        "Santos Escobar"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-08-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "265",
+          "94800",
+          "98593"
+        ],
+        "sourceEventIds": [
+          "51"
+        ]
+      },
+      "legacyId": "bulk-match-265",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Tama Tonga, Tonga Loa vs. Angelo Dawkins, Montez Ford",
+      "result": "Tama Tonga, Tonga Loa defeated Angelo Dawkins, Montez Ford.",
+      "matchType": "4-person match",
+      "duration": 552,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "tama-tonga",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tonga-loa",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "angelo-dawkins",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "montez-ford",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tama Tonga",
+        "Tonga Loa",
+        "Angelo Dawkins",
+        "Montez Ford"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-08-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "267",
+          "94802",
+          "98595"
+        ],
+        "sourceEventIds": [
+          "51"
+        ]
+      },
+      "legacyId": "bulk-match-267",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Cody Rhodes, Kevin Owens vs. Austin Theory, Grayson Waller",
+      "result": "Cody Rhodes, Kevin Owens defeated Austin Theory, Grayson Waller.",
+      "matchType": "4-person match",
+      "duration": 697,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "austin-theory",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "grayson-waller",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Kevin Owens",
+        "Austin Theory",
+        "Grayson Waller"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-08-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "268",
+          "94803",
+          "98596"
+        ],
+        "sourceEventIds": [
+          "51"
+        ]
+      },
+      "legacyId": "bulk-match-268",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-51"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "51"
+    ]
+  }
+}

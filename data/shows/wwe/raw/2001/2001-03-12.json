@@ -1,0 +1,245 @@
+{
+  "id": "wwe/raw/2001-03-12",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2001-03-12",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2001/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "D-Von Dudley vs. Christian",
+      "result": "D-Von Dudley defeated Christian.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "d-von-dudley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "D-Von Dudley",
+        "Christian"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42024",
+          "164998"
+        ],
+        "sourceEventIds": [
+          "6200"
+        ]
+      },
+      "legacyId": "bulk-match-42024",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Chris Benoit vs. Eddie Guerrero",
+      "result": "Chris Benoit defeated Eddie Guerrero.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Eddie Guerrero"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42025",
+          "164999"
+        ],
+        "sourceEventIds": [
+          "6200"
+        ]
+      },
+      "legacyId": "bulk-match-42025",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Other match",
+      "result": "The Big Show, The Undertaker — no contest.",
+      "matchType": "Other match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "The Undertaker"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42027",
+          "165001"
+        ],
+        "sourceEventIds": [
+          "6200"
+        ]
+      },
+      "legacyId": "bulk-match-42027",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Test vs. Raven",
+      "result": "Test defeated Raven.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "raven",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Test",
+        "Raven"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42028",
+          "165002"
+        ],
+        "sourceEventIds": [
+          "6200"
+        ]
+      },
+      "legacyId": "bulk-match-42028",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 7,
+      "type": "match",
+      "title": "The Rock vs. Kurt Angle",
+      "result": "The Rock defeated Kurt Angle by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "The Rock",
+        "Kurt Angle"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42029",
+          "165003"
+        ],
+        "sourceEventIds": [
+          "6200"
+        ]
+      },
+      "legacyId": "bulk-match-42029",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6200"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6200"
+    ]
+  }
+}

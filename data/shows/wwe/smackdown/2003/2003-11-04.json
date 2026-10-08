@@ -1,0 +1,241 @@
+{
+  "id": "wwe/smackdown/2003-11-04",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2003-11-04",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2003/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "John Cena vs. Rey Mysterio",
+      "result": "John Cena defeated Rey Mysterio.",
+      "matchType": "Singles match",
+      "duration": 346,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Rey Mysterio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47097",
+          "159908"
+        ],
+        "sourceEventIds": [
+          "6966"
+        ]
+      },
+      "legacyId": "bulk-match-47097",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "The Big Show vs. Bradshaw",
+      "result": "The Big Show defeated Bradshaw.",
+      "matchType": "Singles match",
+      "duration": 229,
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "Bradshaw"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47098",
+          "159909"
+        ],
+        "sourceEventIds": [
+          "6966"
+        ]
+      },
+      "legacyId": "bulk-match-47098",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Jamie Noble, Ultimo Dragon vs. Nunzio, Tajiri",
+      "result": "Jamie Noble, Ultimo Dragon defeated Nunzio, Tajiri.",
+      "matchType": "4-person match",
+      "duration": 416,
+      "participants": [
+        {
+          "person": "jamie-noble",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ultimo-dragon",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nunzio",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tajiri",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jamie Noble",
+        "Ultimo Dragon",
+        "Nunzio",
+        "Tajiri"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47100",
+          "159911"
+        ],
+        "sourceEventIds": [
+          "6966"
+        ]
+      },
+      "legacyId": "bulk-match-47100",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Chris Benoit, Kurt Angle vs. A-Train, Brock Lesnar, Matt Morgan, Nathan Jones",
+      "result": "Chris Benoit, Kurt Angle defeated A-Train, Brock Lesnar, Matt Morgan, Nathan Jones by disqualification.",
+      "matchType": "Tag Team match",
+      "duration": 864,
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tensai",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "brock-lesnar",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "matt-morgan",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "nathan-jones",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Kurt Angle",
+        "A-Train",
+        "Brock Lesnar",
+        "Matt Morgan",
+        "Nathan Jones"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47101",
+          "159912"
+        ],
+        "sourceEventIds": [
+          "6966"
+        ]
+      },
+      "legacyId": "bulk-match-47101",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6966"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6966"
+    ]
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "id": "wwe/raw/2004-08-09",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2004-08-09",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Nidia, Stacy Keibler, Victoria vs. Gail Kim, Jazz, Molly Holly",
+      "result": "Nidia, Stacy Keibler, Victoria defeated Gail Kim, Jazz, Molly Holly.",
+      "matchType": "Tag Team match",
+      "duration": 234,
+      "participants": [
+        {
+          "person": "nidia",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "stacy-keibler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "victoria",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "gail-kim",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "jazz",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "molly-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Nidia",
+        "Stacy Keibler",
+        "Victoria",
+        "Gail Kim",
+        "Jazz",
+        "Molly Holly"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48109",
+          "158717"
+        ],
+        "sourceEventIds": [
+          "7161"
+        ]
+      },
+      "legacyId": "bulk-match-48109",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Chris Jericho vs. Edge",
+      "result": "Chris Jericho defeated Edge.",
+      "matchType": "Singles match",
+      "duration": 1161,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Edge"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48110",
+          "158718"
+        ],
+        "sourceEventIds": [
+          "7161"
+        ]
+      },
+      "legacyId": "bulk-match-48110",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "4-person match",
+      "result": "Rhyno, Tajiri, Brent Albright, Chris Cage — draw.",
+      "matchType": "4-person match",
+      "duration": 120,
+      "participants": [
+        {
+          "person": "rhyno",
+          "role": "competitor",
+          "outcome": "draw"
+        },
+        {
+          "person": "tajiri",
+          "role": "competitor",
+          "outcome": "draw"
+        },
+        {
+          "person": "brent-albright",
+          "role": "competitor",
+          "outcome": "draw"
+        },
+        {
+          "person": "chris-cage",
+          "role": "competitor",
+          "outcome": "draw"
+        }
+      ],
+      "billing": [
+        "Rhyno",
+        "Tajiri",
+        "Brent Albright",
+        "Chris Cage"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48111",
+          "158719"
+        ],
+        "sourceEventIds": [
+          "7161"
+        ]
+      },
+      "legacyId": "bulk-match-48111",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Chris Benoit vs. Randy Orton, Triple H",
+      "result": "Chris Benoit defeated Randy Orton, Triple H by disqualification.",
+      "matchType": "Triple Threat match",
+      "duration": 639,
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Randy Orton",
+        "Triple H"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48112",
+          "158720"
+        ],
+        "sourceEventIds": [
+          "7161"
+        ]
+      },
+      "legacyId": "bulk-match-48112",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7161"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7161"
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "id": "wwe/raw/2001-11-19",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2001-11-19",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2001/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Trish Stratus vs. Lita",
+      "result": "Trish Stratus defeated Lita.",
+      "matchType": "Singles match",
+      "duration": 165,
+      "participants": [
+        {
+          "person": "trish-stratus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "lita",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Trish Stratus",
+        "Lita"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "43610",
+          "163380"
+        ],
+        "sourceEventIds": [
+          "6419"
+        ]
+      },
+      "legacyId": "bulk-match-43610",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "The Rock vs. Kurt Angle",
+      "result": "The Rock defeated Kurt Angle.",
+      "matchType": "Singles match",
+      "duration": 368,
+      "participants": [
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Rock",
+        "Kurt Angle"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "43612",
+          "163382"
+        ],
+        "sourceEventIds": [
+          "6419"
+        ]
+      },
+      "legacyId": "bulk-match-43612",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Kane vs. Chris Jericho",
+      "result": "Kane defeated Chris Jericho by disqualification.",
+      "matchType": "Singles match",
+      "duration": 186,
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "43613",
+          "163383"
+        ],
+        "sourceEventIds": [
+          "6419"
+        ]
+      },
+      "legacyId": "bulk-match-43613",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "William Regal vs. Tazz",
+      "result": "William Regal defeated Tazz.",
+      "matchType": "Singles match",
+      "duration": 53,
+      "participants": [
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tazz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "William Regal",
+        "Tazz"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "43614",
+          "163384"
+        ],
+        "sourceEventIds": [
+          "6419"
+        ]
+      },
+      "legacyId": "bulk-match-43614",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6419"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6419"
+    ]
+  }
+}

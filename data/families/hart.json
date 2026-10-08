@@ -1,0 +1,245 @@
+{
+  "id": "hart",
+  "name": "Hart · Neidhart · Smith",
+  "description": "Wrestling branches of the Hart family, including the daughters whose marriages connect the Neidhart and Smith lines.",
+  "branches": [
+    {
+      "id": "hart",
+      "name": "The Hart family"
+    }
+  ],
+  "members": [
+    {
+      "id": "stu",
+      "name": "Stu Hart",
+      "branch": "hart",
+      "source": "stu",
+      "layout": {
+        "x": 376,
+        "y": 24
+      }
+    },
+    {
+      "id": "bret",
+      "name": "Bret Hart",
+      "person": "bret-hart",
+      "branch": "hart",
+      "source": "stu",
+      "layout": {
+        "x": 16,
+        "y": 164
+      }
+    },
+    {
+      "id": "owen",
+      "name": "Owen Hart",
+      "person": "owen-hart",
+      "branch": "hart",
+      "source": "stu",
+      "layout": {
+        "x": 196,
+        "y": 164
+      }
+    },
+    {
+      "id": "ellie",
+      "name": "Ellie Hart",
+      "branch": "hart",
+      "source": "jim",
+      "layout": {
+        "x": 376,
+        "y": 164
+      }
+    },
+    {
+      "id": "jim",
+      "name": "Jim Neidhart",
+      "person": "jim-neidhart",
+      "branch": "hart",
+      "source": "jim",
+      "layout": {
+        "x": 556,
+        "y": 164
+      }
+    },
+    {
+      "id": "diana",
+      "name": "Diana Hart",
+      "branch": "hart",
+      "source": "smith",
+      "layout": {
+        "x": 736,
+        "y": 164
+      }
+    },
+    {
+      "id": "davey",
+      "name": "Davey Boy Smith",
+      "person": "the-british-bulldog",
+      "branch": "hart",
+      "source": "smith",
+      "layout": {
+        "x": 916,
+        "y": 164
+      }
+    },
+    {
+      "id": "natalya",
+      "name": "Natalya",
+      "person": "natalya",
+      "branch": "hart",
+      "source": "jim",
+      "layout": {
+        "x": 466,
+        "y": 304
+      }
+    },
+    {
+      "id": "harry",
+      "name": "Harry / Davey Boy Smith Jr.",
+      "person": "harry-smith",
+      "branch": "hart",
+      "source": "smith",
+      "layout": {
+        "x": 826,
+        "y": 304
+      }
+    },
+    {
+      "id": "georgia-hart",
+      "name": "Georgia Hart",
+      "branch": "hart",
+      "source": "teddy-hart",
+      "layout": {
+        "x": 1096,
+        "y": 164
+      }
+    },
+    {
+      "id": "bj-annis",
+      "name": "B. J. Annis",
+      "branch": "hart",
+      "source": "teddy-hart",
+      "layout": {
+        "x": 1276,
+        "y": 164
+      }
+    },
+    {
+      "id": "teddy-hart",
+      "name": "Teddy Hart",
+      "branch": "hart",
+      "source": "teddy-hart",
+      "layout": {
+        "x": 1186,
+        "y": 304
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "stu",
+      "b": "bret",
+      "type": "parent",
+      "source": "stu"
+    },
+    {
+      "a": "stu",
+      "b": "owen",
+      "type": "parent",
+      "source": "stu"
+    },
+    {
+      "a": "stu",
+      "b": "ellie",
+      "type": "parent",
+      "source": "stu"
+    },
+    {
+      "a": "stu",
+      "b": "diana",
+      "type": "parent",
+      "source": "stu"
+    },
+    {
+      "a": "ellie",
+      "b": "jim",
+      "type": "marriage",
+      "label": "Marriage / family link",
+      "source": "jim"
+    },
+    {
+      "a": "diana",
+      "b": "davey",
+      "type": "marriage",
+      "label": "Marriage / family link",
+      "source": "smith"
+    },
+    {
+      "a": "ellie",
+      "b": "natalya",
+      "type": "parent",
+      "source": "jim"
+    },
+    {
+      "a": "jim",
+      "b": "natalya",
+      "type": "parent",
+      "source": "jim"
+    },
+    {
+      "a": "diana",
+      "b": "harry",
+      "type": "parent",
+      "source": "smith"
+    },
+    {
+      "a": "davey",
+      "b": "harry",
+      "type": "parent",
+      "source": "smith"
+    },
+    {
+      "a": "stu",
+      "b": "georgia-hart",
+      "type": "parent",
+      "source": "teddy-hart"
+    },
+    {
+      "a": "georgia-hart",
+      "b": "teddy-hart",
+      "type": "parent",
+      "source": "teddy-hart"
+    },
+    {
+      "a": "bj-annis",
+      "b": "teddy-hart",
+      "type": "parent",
+      "source": "teddy-hart"
+    },
+    {
+      "a": "georgia-hart",
+      "b": "bj-annis",
+      "type": "marriage",
+      "source": "teddy-hart"
+    }
+  ],
+  "sources": {
+    "stu": {
+      "label": "WWE: Stu Hart",
+      "url": "https://www.wwe.com/superstars/stuhart"
+    },
+    "jim": {
+      "label": "WWE: Jim Neidhart and Ellie Hart",
+      "url": "https://www.wwe.com/article/jim-the-anvil-neidhart-passes-away"
+    },
+    "smith": {
+      "label": "WWE: Harry Smith’s parents",
+      "url": "https://www.wwe.com/inside/news/archive/harrysmithlegacy"
+    },
+    "teddy-hart": {
+      "label": "B. J. Annis and the Hart family",
+      "url": "https://en.wikipedia.org/wiki/B._J._Annis"
+    }
+  }
+}

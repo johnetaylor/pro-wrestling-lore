@@ -1,0 +1,196 @@
+{
+  "id": "wwe/snme/1989-05-27",
+  "promotion": "wwe",
+  "series": "wwe/snme",
+  "name": "Saturday Night's Main Event Taping",
+  "date": "1989-05-27",
+  "dateBasis": "aired",
+  "recordedDate": "1989-04-25",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1989/",
+    "https://thehistoryofwwe.com/wwf-saturday-nights-main-event/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Jim Duggan vs. Rick Rude",
+      "result": "Jim Duggan defeated Rick Rude by count-out.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "jim-duggan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rick-rude",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Jim Duggan",
+        "Rick Rude"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1989/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "14676",
+          "192321"
+        ],
+        "sourceEventIds": [
+          "2361"
+        ]
+      },
+      "legacyId": "bulk-match-14676",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Randy Savage vs. Jim Neidhart",
+      "result": "Randy Savage defeated Jim Neidhart.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "randy-savage",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jim-neidhart",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Savage",
+        "Jim Neidhart"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1989/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "14677",
+          "192322"
+        ],
+        "sourceEventIds": [
+          "2361"
+        ]
+      },
+      "legacyId": "bulk-match-14677",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Jimmy Snuka vs. Boris Zhukov",
+      "result": "Jimmy Snuka defeated Boris Zhukov.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "jimmy-snuka",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "boris-zhukov",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jimmy Snuka",
+        "Boris Zhukov"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1989/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "14680",
+          "192325"
+        ],
+        "sourceEventIds": [
+          "2361"
+        ]
+      },
+      "legacyId": "bulk-match-14680",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Hulk Hogan vs. Big Boss Man",
+      "result": "Hogan's side: win by escape.",
+      "context": "Handcuffed Boss Man to the ropes and climbed out Listed duration: 10:01. Recorded 1989-04-25. Venue: Veterans Memorial Auditorium, Des Moines, IA.",
+      "matchType": "Steel cage",
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-boss-man",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hulk Hogan",
+        "Big Boss Man"
+      ],
+      "promotionLabel": "WWF",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-saturday-nights-main-event/"
+      ],
+      "legacyId": "hogan-workbook-hm-0106",
+      "legacy": {
+        "show": "Saturday Night's Main Event",
+        "kind": "match",
+        "recordedDate": "1989-04-25"
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-2361"
+  ],
+  "legacy": {
+    "showFamily": "snme",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "2361"
+    ]
+  }
+}

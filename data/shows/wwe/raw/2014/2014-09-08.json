@@ -1,0 +1,217 @@
+{
+  "id": "wwe/raw/2014-09-08",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2014-09-08",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2014/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Bray Wyatt vs. Chris Jericho",
+      "result": "Bray Wyatt defeated Chris Jericho.",
+      "matchType": "Cage match",
+      "duration": 1021,
+      "participants": [
+        {
+          "person": "bray-wyatt",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bray Wyatt",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "66543",
+          "134053"
+        ],
+        "sourceEventIds": [
+          "10444"
+        ]
+      },
+      "legacyId": "bulk-match-66543",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Seth Rollins vs. Sheamus",
+      "result": "Seth Rollins defeated Sheamus.",
+      "matchType": "Singles match",
+      "duration": 597,
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Seth Rollins",
+        "Sheamus"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "66545",
+          "134055"
+        ],
+        "sourceEventIds": [
+          "10444"
+        ]
+      },
+      "legacyId": "bulk-match-66545",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Adrian Neville, Sami Zayn vs. Tyler Breeze, Tyson Kidd",
+      "result": "Adrian Neville, Sami Zayn defeated Tyler Breeze, Tyson Kidd.",
+      "matchType": "4-person match",
+      "duration": 267,
+      "participants": [
+        {
+          "person": "neville",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tyler-breeze",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tyson-kidd",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Adrian Neville",
+        "Sami Zayn",
+        "Tyler Breeze",
+        "Tyson Kidd"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "66546",
+          "134056"
+        ],
+        "sourceEventIds": [
+          "10444"
+        ]
+      },
+      "legacyId": "bulk-match-66546",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Roman Reigns vs. Randy Orton",
+      "result": "Roman Reigns defeated Randy Orton by disqualification.",
+      "matchType": "Singles match",
+      "duration": 1230,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Randy Orton"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "66549",
+          "134059"
+        ],
+        "sourceEventIds": [
+          "10444"
+        ]
+      },
+      "legacyId": "bulk-match-66549",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10444"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10444"
+    ]
+  }
+}

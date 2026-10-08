@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2005-03-15",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2005-03-15",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Kurt Angle vs. Marty Jannetty",
+      "result": "Kurt Angle defeated Marty Jannetty.",
+      "matchType": "Singles match",
+      "duration": 1076,
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "marty-jannetty",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Marty Jannetty"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48845",
+          "157724"
+        ],
+        "sourceEventIds": [
+          "7315"
+        ]
+      },
+      "legacyId": "bulk-match-48845",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Booker T. vs. Luther Reigns",
+      "result": "Booker T. defeated Luther Reigns.",
+      "matchType": "Singles match",
+      "duration": 242,
+      "participants": [
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "luther-reigns",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Booker T.",
+        "Luther Reigns"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48846",
+          "157725"
+        ],
+        "sourceEventIds": [
+          "7315"
+        ]
+      },
+      "legacyId": "bulk-match-48846",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Paul London vs. Billy Kidman",
+      "result": "Paul London defeated Billy Kidman.",
+      "matchType": "Singles match",
+      "duration": 333,
+      "participants": [
+        {
+          "person": "paul-london",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billy-kidman",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Paul London",
+        "Billy Kidman"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48847",
+          "157726"
+        ],
+        "sourceEventIds": [
+          "7315"
+        ]
+      },
+      "legacyId": "bulk-match-48847",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7315"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7315"
+    ]
+  }
+}

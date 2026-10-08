@@ -1,0 +1,114 @@
+{
+  "id": "wwe/nxt/2015-11-18",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2015-11-18",
+  "dateBasis": "aired",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwenxt/2015-11-18"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Asuka, Dana Brooke — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "asuka",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "dana-brooke",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Asuka",
+        "Dana Brooke"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2015-11-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "128855"
+        ],
+        "sourceEventIds": [
+          "19144"
+        ]
+      },
+      "legacyId": "bulk-match-128855",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Bayley vs. Eva Marie",
+      "result": "Bayley defeated Eva Marie.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eva-marie",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Eva Marie"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2015-11-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "128857"
+        ],
+        "sourceEventIds": [
+          "19144"
+        ]
+      },
+      "legacyId": "bulk-match-128857",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-19144"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "19144"
+    ]
+  }
+}

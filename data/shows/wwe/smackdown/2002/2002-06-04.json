@@ -1,0 +1,222 @@
+{
+  "id": "wwe/smackdown/2002-06-04",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2002-06-04",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2002/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Kurt Angle vs. Hardcore Holly",
+      "result": "Kurt Angle defeated Hardcore Holly.",
+      "matchType": "Singles match",
+      "duration": 419,
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Hardcore Holly"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44795",
+          "162171"
+        ],
+        "sourceEventIds": [
+          "6578"
+        ]
+      },
+      "legacyId": "bulk-match-44795",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Chris Jericho vs. Edge",
+      "result": "Chris Jericho defeated Edge.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Edge"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44796",
+          "162172"
+        ],
+        "sourceEventIds": [
+          "6578"
+        ]
+      },
+      "legacyId": "bulk-match-44796",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Lance Storm vs. Billy Kidman",
+      "result": "Lance Storm defeated Billy Kidman.",
+      "matchType": "Singles match",
+      "duration": 164,
+      "participants": [
+        {
+          "person": "lance-storm",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billy-kidman",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lance Storm",
+        "Billy Kidman"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44797",
+          "162173"
+        ],
+        "sourceEventIds": [
+          "6578"
+        ]
+      },
+      "legacyId": "bulk-match-44797",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Triple H vs. Hulk Hogan",
+      "result": "Triple H defeated Hulk Hogan.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "Hulk Hogan"
+      ],
+      "showCategory": "SmackDown",
+      "promotionLabel": "WWE",
+      "dateBasis": "broadcast",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-07",
+        "source": "https://thehistoryofwwe.com/wwe-results-2002/",
+        "scope": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date."
+      },
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44798",
+          "162174"
+        ],
+        "sourceEventIds": [
+          "6578"
+        ]
+      },
+      "legacyId": "bulk-match-44798",
+      "legacy": {
+        "date": "2002-06-06",
+        "kind": "match",
+        "hoganReview": {
+          "id": "bulk-match-44798",
+          "source": "https://thehistoryofwwe.com/wwe-results-2002/",
+          "date": "2002-06-06",
+          "reviewed": "2026-10-07",
+          "note": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date.",
+          "recordedDate": "2002-06-04",
+          "omitUnreviewedDuration": true
+        },
+        "workbookReference": "HM-0257",
+        "recordedDate": "2002-06-04",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6578"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6578"
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "id": "wwe/raw/2008-11-17",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2008-11-17",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Kelly Kelly vs. Victoria",
+      "result": "Kelly Kelly defeated Victoria.",
+      "matchType": "Singles match",
+      "duration": 87,
+      "participants": [
+        {
+          "person": "kelly-kelly",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "victoria",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kelly Kelly",
+        "Victoria"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53806",
+          "151615"
+        ],
+        "sourceEventIds": [
+          "8209"
+        ]
+      },
+      "legacyId": "bulk-match-53806",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Batista vs. Manu",
+      "result": "Batista defeated Manu.",
+      "matchType": "Singles match",
+      "duration": 249,
+      "participants": [
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "manu",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Batista",
+        "Manu"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53807",
+          "151616"
+        ],
+        "sourceEventIds": [
+          "8209"
+        ]
+      },
+      "legacyId": "bulk-match-53807",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "John Morrison, The Miz vs. Rey Mysterio, Shawn Michaels",
+      "result": "John Morrison, The Miz defeated Rey Mysterio, Shawn Michaels.",
+      "matchType": "4-person match",
+      "duration": 686,
+      "participants": [
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Morrison",
+        "The Miz",
+        "Rey Mysterio",
+        "Shawn Michaels"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53808",
+          "151617"
+        ],
+        "sourceEventIds": [
+          "8209"
+        ]
+      },
+      "legacyId": "bulk-match-53808",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Randy Orton vs. CM Punk",
+      "result": "Randy Orton defeated CM Punk.",
+      "matchType": "Other match",
+      "duration": 563,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cm-punk",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "CM Punk"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53811",
+          "151620"
+        ],
+        "sourceEventIds": [
+          "8209"
+        ]
+      },
+      "legacyId": "bulk-match-53811",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8209"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8209"
+    ]
+  }
+}

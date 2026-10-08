@@ -1,0 +1,222 @@
+{
+  "id": "wwe/smackdown/2022-06-17",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2022-06-17",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2022-06-17"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Madcap Moss vs. Happy Corbin",
+      "result": "Madcap Moss defeated Happy Corbin.",
+      "matchType": "Other match",
+      "duration": 559,
+      "participants": [
+        {
+          "person": "madcap-moss",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Madcap Moss",
+        "Happy Corbin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-06-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8587",
+          "89327",
+          "106915"
+        ],
+        "sourceEventIds": [
+          "1495"
+        ]
+      },
+      "legacyId": "bulk-match-8587",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Kofi Kingston, Xavier Woods vs. Jinder Mahal, Shanky",
+      "result": "Kofi Kingston, Xavier Woods defeated Jinder Mahal, Shanky.",
+      "matchType": "4-person match",
+      "duration": 182,
+      "participants": [
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shanky",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kofi Kingston",
+        "Xavier Woods",
+        "Jinder Mahal",
+        "Shanky"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-06-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8588",
+          "89328",
+          "106916"
+        ],
+        "sourceEventIds": [
+          "1495"
+        ]
+      },
+      "legacyId": "bulk-match-8588",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Raquel Rodriguez vs. Shayna Baszler",
+      "result": "Raquel Rodriguez defeated Shayna Baszler.",
+      "matchType": "Singles match",
+      "duration": 193,
+      "participants": [
+        {
+          "person": "raquel-rodriguez",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shayna-baszler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Raquel Rodriguez",
+        "Shayna Baszler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-06-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8589",
+          "89329",
+          "106917"
+        ],
+        "sourceEventIds": [
+          "1495"
+        ]
+      },
+      "legacyId": "bulk-match-8589",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Roman Reigns vs. Riddle",
+      "result": "Roman Reigns defeated Riddle.",
+      "matchType": "Singles match",
+      "duration": 1007,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "riddle",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Riddle"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-06-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8590",
+          "89330",
+          "106918"
+        ],
+        "sourceEventIds": [
+          "1495"
+        ]
+      },
+      "legacyId": "bulk-match-8590",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1495"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1495"
+    ]
+  }
+}

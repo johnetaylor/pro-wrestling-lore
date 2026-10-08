@@ -1,0 +1,225 @@
+{
+  "id": "wwe/smackdown/2006-03-14",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2006-03-14",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2006/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Finlay vs. Bobby Lashley",
+      "result": "Finlay defeated Bobby Lashley.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "finlay",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Finlay",
+        "Bobby Lashley"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50328",
+          "155947"
+        ],
+        "sourceEventIds": [
+          "7592"
+        ]
+      },
+      "legacyId": "bulk-match-50328",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Matt Hardy vs. Road Warrior",
+      "result": "Matt Hardy defeated Road Warrior.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "road-warrior",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Matt Hardy",
+        "Road Warrior"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50330",
+          "155949"
+        ],
+        "sourceEventIds": [
+          "7592"
+        ]
+      },
+      "legacyId": "bulk-match-50330",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Chris Benoit vs. Orlando Jordan",
+      "result": "Chris Benoit defeated Orlando Jordan.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "orlando-jordan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Orlando Jordan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50331",
+          "155950"
+        ],
+        "sourceEventIds": [
+          "7592"
+        ]
+      },
+      "legacyId": "bulk-match-50331",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Kurt Angle, Randy Orton, Rey Mysterio vs. Joey Mercury, Johnny Nitro, Mark Henry",
+      "result": "Kurt Angle, Randy Orton, Rey Mysterio defeated Joey Mercury, Johnny Nitro, Mark Henry.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "joey-mercury",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Randy Orton",
+        "Rey Mysterio",
+        "Joey Mercury",
+        "Johnny Nitro",
+        "Mark Henry"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50332",
+          "155951"
+        ],
+        "sourceEventIds": [
+          "7592"
+        ]
+      },
+      "legacyId": "bulk-match-50332",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7592"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7592"
+    ]
+  }
+}

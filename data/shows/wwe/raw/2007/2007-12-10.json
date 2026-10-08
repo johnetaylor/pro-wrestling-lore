@@ -1,0 +1,217 @@
+{
+  "id": "wwe/raw/2007-12-10",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2007-12-10",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Jeff Hardy vs. Carlito",
+      "result": "Jeff Hardy defeated Carlito.",
+      "matchType": "Singles match",
+      "duration": 720,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Carlito"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52596",
+          "153195"
+        ],
+        "sourceEventIds": [
+          "8004"
+        ]
+      },
+      "legacyId": "bulk-match-52596",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Rob Van Dam vs. Santino Marella",
+      "result": "Rob Van Dam defeated Santino Marella.",
+      "matchType": "Singles match",
+      "duration": 25,
+      "participants": [
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "santino-marella",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rob Van Dam",
+        "Santino Marella"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52597",
+          "153196"
+        ],
+        "sourceEventIds": [
+          "8004"
+        ]
+      },
+      "legacyId": "bulk-match-52597",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Hornswoggle, The Great Khali — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "hornswoggle",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "the-great-khali",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Hornswoggle",
+        "The Great Khali"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52599",
+          "153198"
+        ],
+        "sourceEventIds": [
+          "8004"
+        ]
+      },
+      "legacyId": "bulk-match-52599",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Cody Rhodes, Hardcore Holly vs. Lance Cade, Trevor Murdoch",
+      "result": "Cody Rhodes, Hardcore Holly defeated Lance Cade, Trevor Murdoch.",
+      "matchType": "4-person match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "lance-cade",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "trevor-murdoch",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Hardcore Holly",
+        "Lance Cade",
+        "Trevor Murdoch"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52601",
+          "153200"
+        ],
+        "sourceEventIds": [
+          "8004"
+        ]
+      },
+      "legacyId": "bulk-match-52601",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8004"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8004"
+    ]
+  }
+}

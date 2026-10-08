@@ -1,0 +1,221 @@
+{
+  "id": "wwe/smackdown/2022-07-08",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2022-07-08",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2022-07-08"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Shinsuke Nakamura vs. Ludwig Kaiser",
+      "result": "Shinsuke Nakamura defeated Ludwig Kaiser.",
+      "matchType": "Singles match",
+      "duration": 400,
+      "participants": [
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ludwig-kaiser",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shinsuke Nakamura",
+        "Ludwig Kaiser"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-07-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8401",
+          "89473",
+          "106729"
+        ],
+        "sourceEventIds": [
+          "1465"
+        ]
+      },
+      "legacyId": "bulk-match-8401",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Ronda Rousey vs. Natalya",
+      "result": "Ronda Rousey defeated Natalya.",
+      "matchType": "Singles match",
+      "duration": 135,
+      "participants": [
+        {
+          "person": "ronda-rousey",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ronda Rousey",
+        "Natalya"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-07-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8402",
+          "89474",
+          "106730"
+        ],
+        "sourceEventIds": [
+          "1465"
+        ]
+      },
+      "legacyId": "bulk-match-8402",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Jey Uso, Jimmy Uso vs. Angel, Humberto",
+      "result": "Jey Uso, Jimmy Uso defeated Angel, Humberto.",
+      "matchType": "4-person match",
+      "duration": 120,
+      "participants": [
+        {
+          "person": "jey-uso",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jimmy-uso",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "angel",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "berto",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jey Uso",
+        "Jimmy Uso",
+        "Angel",
+        "Humberto"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-07-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8403",
+          "89475",
+          "106731"
+        ],
+        "sourceEventIds": [
+          "1465"
+        ]
+      },
+      "legacyId": "bulk-match-8403",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Drew McIntyre vs. Butch",
+      "result": "Drew McIntyre defeated Butch.",
+      "matchType": "Singles match",
+      "duration": 90,
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "pete-dunne",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "Butch"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-07-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8404",
+          "89476",
+          "106732"
+        ],
+        "sourceEventIds": [
+          "1465"
+        ]
+      },
+      "legacyId": "bulk-match-8404",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1465"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1465"
+    ]
+  }
+}

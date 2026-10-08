@@ -1,0 +1,160 @@
+{
+  "id": "wwe/smackdown/2017-01-17",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-01-17",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-01-17"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Other match",
+      "result": "The Miz, A.J. Styles — no contest.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "The Miz",
+        "A.J. Styles"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-01-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "75879",
+          "123667"
+        ],
+        "sourceEventIds": [
+          "11759"
+        ]
+      },
+      "legacyId": "bulk-match-75879",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Dean Ambrose vs. Randy Orton",
+      "result": "Dean Ambrose defeated Randy Orton.",
+      "matchType": "Singles match",
+      "duration": 824,
+      "participants": [
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dean Ambrose",
+        "Randy Orton"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-01-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "75880",
+          "123668"
+        ],
+        "sourceEventIds": [
+          "11759"
+        ]
+      },
+      "legacyId": "bulk-match-75880",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Alexa Bliss vs. Becky Lynch",
+      "result": "Alexa Bliss defeated Becky Lynch.",
+      "matchType": "Cage match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alexa Bliss",
+        "Becky Lynch"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-01-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "75881",
+          "123669"
+        ],
+        "sourceEventIds": [
+          "11759"
+        ]
+      },
+      "legacyId": "bulk-match-75881",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11759"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11759"
+    ]
+  }
+}

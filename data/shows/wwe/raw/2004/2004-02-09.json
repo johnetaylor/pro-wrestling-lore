@@ -1,0 +1,223 @@
+{
+  "id": "wwe/raw/2004-02-09",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2004-02-09",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Chris Jericho, Trish Stratus vs. Matt Hardy, Molly Holly",
+      "result": "Chris Jericho, Trish Stratus defeated Matt Hardy, Molly Holly.",
+      "matchType": "4-person match",
+      "duration": 265,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "trish-stratus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "molly-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Trish Stratus",
+        "Matt Hardy",
+        "Molly Holly"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47458",
+          "159548"
+        ],
+        "sourceEventIds": [
+          "7031"
+        ]
+      },
+      "legacyId": "bulk-match-47458",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Chris Benoit vs. Ric Flair",
+      "result": "Chris Benoit defeated Ric Flair.",
+      "matchType": "Singles match",
+      "duration": 678,
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ric-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Ric Flair"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47459",
+          "159549"
+        ],
+        "sourceEventIds": [
+          "7031"
+        ]
+      },
+      "legacyId": "bulk-match-47459",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Kane vs. The Hurricane",
+      "result": "Kane defeated The Hurricane.",
+      "matchType": "Singles match",
+      "duration": 75,
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-hurricane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "The Hurricane"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47460",
+          "159550"
+        ],
+        "sourceEventIds": [
+          "7031"
+        ]
+      },
+      "legacyId": "bulk-match-47460",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Randy Orton vs. Booker T., Rob Van Dam",
+      "result": "Randy Orton defeated Booker T., Rob Van Dam.",
+      "matchType": "Triple Threat match",
+      "duration": 648,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Booker T.",
+        "Rob Van Dam"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47461",
+          "159551"
+        ],
+        "sourceEventIds": [
+          "7031"
+        ]
+      },
+      "legacyId": "bulk-match-47461",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7031"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7031"
+    ]
+  }
+}

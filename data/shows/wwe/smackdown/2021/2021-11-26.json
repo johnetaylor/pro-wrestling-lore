@@ -1,0 +1,229 @@
+{
+  "id": "wwe/smackdown/2021-11-26",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2021-11-26",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2021-11-26"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Drew McIntyre, Jeff Hardy vs. Happy Corbin, Madcap Moss",
+      "result": "Drew McIntyre, Jeff Hardy defeated Happy Corbin, Madcap Moss.",
+      "matchType": "4-person match",
+      "duration": 505,
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "madcap-moss",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "Jeff Hardy",
+        "Happy Corbin",
+        "Madcap Moss"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-11-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88082",
+          "109005"
+        ],
+        "sourceEventIds": [
+          "13853"
+        ]
+      },
+      "legacyId": "bulk-match-88082",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Cesaro vs. Ridge Holland",
+      "result": "Cesaro defeated Ridge Holland.",
+      "matchType": "Singles match",
+      "duration": 168,
+      "participants": [
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ridge-holland",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cesaro",
+        "Ridge Holland"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-11-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88083",
+          "109006"
+        ],
+        "sourceEventIds": [
+          "13853"
+        ]
+      },
+      "legacyId": "bulk-match-88083",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Angel vs. Rick Boogs",
+      "result": "Angel defeated Rick Boogs.",
+      "matchType": "Other match",
+      "duration": 192,
+      "participants": [
+        {
+          "person": "angel",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rick-boogs",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Angel",
+        "Rick Boogs"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-11-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88084",
+          "109007"
+        ],
+        "sourceEventIds": [
+          "13853"
+        ]
+      },
+      "legacyId": "bulk-match-88084",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Naomi, Sasha Banks vs. Natalya, Shayna Baszler",
+      "result": "Naomi, Sasha Banks defeated Natalya, Shayna Baszler.",
+      "matchType": "4-person match",
+      "duration": 616,
+      "participants": [
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shayna-baszler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Naomi",
+        "Sasha Banks",
+        "Natalya",
+        "Shayna Baszler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-11-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88085",
+          "109008"
+        ],
+        "sourceEventIds": [
+          "13853"
+        ]
+      },
+      "legacyId": "bulk-match-88085",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13853"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13853"
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "id": "wwe/smackdown/2019-04-16",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2019-04-16",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2019-04-16"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Finn Bálor vs. Ali",
+      "result": "Finn Bálor defeated Ali.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mustafa-ali",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Finn Bálor",
+        "Ali"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-04-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82945",
+          "116503"
+        ],
+        "sourceEventIds": [
+          "12940"
+        ]
+      },
+      "legacyId": "bulk-match-82945",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Charlotte Flair vs. Carmella",
+      "result": "Charlotte Flair defeated Carmella.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Carmella"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-04-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82946",
+          "116504"
+        ],
+        "sourceEventIds": [
+          "12940"
+        ]
+      },
+      "legacyId": "bulk-match-82946",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Kevin Owens, Kofi Kingston, Xavier Woods vs. Cesaro, Rusev, Shinsuke Nakamura",
+      "result": "Kevin Owens, Kofi Kingston, Xavier Woods defeated Cesaro, Rusev, Shinsuke Nakamura.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Kofi Kingston",
+        "Xavier Woods",
+        "Cesaro",
+        "Rusev",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-04-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82948",
+          "116506"
+        ],
+        "sourceEventIds": [
+          "12940"
+        ]
+      },
+      "legacyId": "bulk-match-82948",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12940"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12940"
+    ]
+  }
+}

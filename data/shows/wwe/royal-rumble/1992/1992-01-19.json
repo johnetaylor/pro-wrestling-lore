@@ -1,0 +1,105 @@
+{
+  "id": "wwe/royal-rumble/1992-01-19",
+  "promotion": "wwe",
+  "series": "wwe/royal-rumble",
+  "name": "Royal Rumble '92",
+  "date": "1992-01-19",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1992/",
+    "https://thehistoryofwwe.com/royal-rumble-results/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Roddy Piper vs. The Mountie",
+      "result": "Roddy Piper defeated The Mountie.",
+      "matchType": "Singles match",
+      "duration": 322,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "roddy-piper",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-mountie",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roddy Piper",
+        "The Mountie"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1992/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "17839",
+          "189194"
+        ],
+        "sourceEventIds": [
+          "2821"
+        ]
+      },
+      "legacyId": "bulk-match-17839",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Hulk Hogan vs. 29 others",
+      "result": "Hogan's side: loss by eliminated.",
+      "context": "Eliminated by Sid Justice; Ric Flair won At stake: WWF World Heavyweight (vacant). Venue: Knickerbocker Arena, Albany, NY.",
+      "matchType": "Royal Rumble (vacant WWF title)",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Hulk Hogan",
+        "29 others"
+      ],
+      "guests": "29 others",
+      "promotionLabel": "WWF",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/royal-rumble-results/"
+      ],
+      "legacyId": "hogan-workbook-hm-0130",
+      "legacy": {
+        "show": "Royal Rumble 1992",
+        "kind": "title"
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-2821"
+  ],
+  "legacy": {
+    "showFamily": "royal-rumble",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "2821"
+    ]
+  }
+}

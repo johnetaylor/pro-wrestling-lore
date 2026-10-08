@@ -1,0 +1,202 @@
+{
+  "id": "wwe/raw/1997-05-12",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1997-05-12",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1997/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Ahmed Johnson vs. Hunter Hearst Helmsley",
+      "result": "Ahmed Johnson defeated Hunter Hearst Helmsley by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "ahmed-johnson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Ahmed Johnson",
+        "Hunter Hearst Helmsley"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27144",
+          "179896"
+        ],
+        "sourceEventIds": [
+          "4203"
+        ]
+      },
+      "legacyId": "bulk-match-27144",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Scott Putski vs. Leif Cassidy",
+      "result": "Scott Putski defeated Leif Cassidy.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "scott-putski",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "leif-cassidy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Scott Putski",
+        "Leif Cassidy"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27145",
+          "179897"
+        ],
+        "sourceEventIds": [
+          "4203"
+        ]
+      },
+      "legacyId": "bulk-match-27145",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "The Undertaker vs. Savio Vega",
+      "result": "The Undertaker defeated Savio Vega by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "savio-vega",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "Savio Vega"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27147",
+          "179899"
+        ],
+        "sourceEventIds": [
+          "4203"
+        ]
+      },
+      "legacyId": "bulk-match-27147",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Rob Van Dam vs. Jeff Hardy",
+      "result": "Rob Van Dam defeated Jeff Hardy.",
+      "matchType": "Singles match",
+      "duration": 149,
+      "participants": [
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rob Van Dam",
+        "Jeff Hardy"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27148",
+          "179900"
+        ],
+        "sourceEventIds": [
+          "4203"
+        ]
+      },
+      "legacyId": "bulk-match-27148",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4203"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4203"
+    ]
+  }
+}

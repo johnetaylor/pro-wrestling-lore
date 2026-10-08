@@ -1,0 +1,67 @@
+{
+  "id": "steiner",
+  "name": "Steiner",
+  "description": "Rick and Scott are brothers. Bron Breakker is Rick’s son and Scott’s nephew.",
+  "branches": [
+    {
+      "id": "steiner",
+      "name": "The Steiner family"
+    }
+  ],
+  "members": [
+    {
+      "id": "rick",
+      "name": "Rick Steiner",
+      "person": "rick-steiner",
+      "branch": "steiner",
+      "source": "bron",
+      "layout": {
+        "x": 16,
+        "y": 24
+      }
+    },
+    {
+      "id": "scott",
+      "name": "Scott Steiner",
+      "person": "scott-steiner",
+      "branch": "steiner",
+      "source": "bron",
+      "layout": {
+        "x": 376,
+        "y": 24
+      }
+    },
+    {
+      "id": "bron-breakker",
+      "name": "Bron Breakker",
+      "person": "bron-breakker",
+      "branch": "steiner",
+      "source": "bron",
+      "layout": {
+        "x": 16,
+        "y": 164
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "rick",
+      "b": "scott",
+      "type": "sibling",
+      "label": "Brothers",
+      "source": "bron"
+    },
+    {
+      "a": "rick",
+      "b": "bron-breakker",
+      "type": "parent",
+      "source": "bron"
+    }
+  ],
+  "sources": {
+    "bron": {
+      "label": "WWE: Bron Breakker’s family",
+      "url": "https://www.wwe.com/superstars/bron-breakker"
+    }
+  }
+}

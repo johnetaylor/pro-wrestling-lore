@@ -1,0 +1,201 @@
+{
+  "id": "wwe/smackdown/2010-01-05",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2010-01-05",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2010/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Dolph Ziggler vs. Kane",
+      "result": "Dolph Ziggler defeated Kane by count-out.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Dolph Ziggler",
+        "Kane"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55220",
+          "149702"
+        ],
+        "sourceEventIds": [
+          "8512"
+        ]
+      },
+      "legacyId": "bulk-match-55220",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Luke Gallows vs. Matt Hardy",
+      "result": "Luke Gallows defeated Matt Hardy.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "luke-gallows",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Luke Gallows",
+        "Matt Hardy"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55222",
+          "149704"
+        ],
+        "sourceEventIds": [
+          "8512"
+        ]
+      },
+      "legacyId": "bulk-match-55222",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Beth Phoenix vs. Layla",
+      "result": "Beth Phoenix defeated Layla.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "beth-phoenix",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "layla",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Beth Phoenix",
+        "Layla"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55223",
+          "149705"
+        ],
+        "sourceEventIds": [
+          "8512"
+        ]
+      },
+      "legacyId": "bulk-match-55223",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Batista, Rey Mysterio — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Batista",
+        "Rey Mysterio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55224",
+          "149706"
+        ],
+        "sourceEventIds": [
+          "8512"
+        ]
+      },
+      "legacyId": "bulk-match-55224",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8512"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8512"
+    ]
+  }
+}

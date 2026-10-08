@@ -1,0 +1,218 @@
+{
+  "id": "wwe/smackdown/2016-10-25",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2016-10-25",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2016/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Bray Wyatt vs. Kane",
+      "result": "Bray Wyatt defeated Kane.",
+      "matchType": "Other match",
+      "duration": 637,
+      "participants": [
+        {
+          "person": "bray-wyatt",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bray Wyatt",
+        "Kane"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "74919",
+          "124733"
+        ],
+        "sourceEventIds": [
+          "11612"
+        ]
+      },
+      "legacyId": "bulk-match-74919",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Nikki Bella vs. Natalya",
+      "result": "Nikki Bella defeated Natalya.",
+      "matchType": "Singles match",
+      "duration": 400,
+      "participants": [
+        {
+          "person": "nikki-bella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Nikki Bella",
+        "Natalya"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "74921",
+          "124735"
+        ],
+        "sourceEventIds": [
+          "11612"
+        ]
+      },
+      "legacyId": "bulk-match-74921",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Heath Slater, Rhyno vs. Kenny, Mikey",
+      "result": "Heath Slater, Rhyno defeated Kenny, Mikey.",
+      "matchType": "Other match",
+      "duration": 244,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "heath-slater",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rhyno",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kenny",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "mikey",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Heath Slater",
+        "Rhyno",
+        "Kenny",
+        "Mikey"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "74922",
+          "124736"
+        ],
+        "sourceEventIds": [
+          "11612"
+        ]
+      },
+      "legacyId": "bulk-match-74922",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "A.J. Styles vs. Dean Ambrose",
+      "result": "A.J. Styles defeated Dean Ambrose by disqualification.",
+      "matchType": "Singles match",
+      "duration": 1196,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Dean Ambrose"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "74923",
+          "124737"
+        ],
+        "sourceEventIds": [
+          "11612"
+        ]
+      },
+      "legacyId": "bulk-match-74923",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11612"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11612"
+    ]
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "id": "wwe/raw/2017-03-13",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2017-03-13",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2017-03-13"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Sasha Banks vs. Dana Brooke",
+      "result": "Sasha Banks defeated Dana Brooke.",
+      "matchType": "Singles match",
+      "duration": 82,
+      "participants": [
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dana-brooke",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sasha Banks",
+        "Dana Brooke"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-03-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76512",
+          "123008"
+        ],
+        "sourceEventIds": [
+          "11858"
+        ]
+      },
+      "legacyId": "bulk-match-76512",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Chris Jericho, Sami Zayn vs. Kevin Owens, Samoa Joe",
+      "result": "Chris Jericho, Sami Zayn defeated Kevin Owens, Samoa Joe by disqualification.",
+      "matchType": "4-person match",
+      "duration": 221,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "samoa-joe",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Sami Zayn",
+        "Kevin Owens",
+        "Samoa Joe"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-03-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76514",
+          "123010"
+        ],
+        "sourceEventIds": [
+          "11858"
+        ]
+      },
+      "legacyId": "bulk-match-76514",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "4-person match",
+      "result": "Cesaro, Sheamus, Big Cass, Enzo Amore — no contest.",
+      "matchType": "4-person match",
+      "duration": 479,
+      "participants": [
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "big-cass",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "enzo-amore",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Cesaro",
+        "Sheamus",
+        "Big Cass",
+        "Enzo Amore"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-03-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76515",
+          "123011"
+        ],
+        "sourceEventIds": [
+          "11858"
+        ]
+      },
+      "legacyId": "bulk-match-76515",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Roman Reigns vs. Jinder Mahal",
+      "result": "Roman Reigns defeated Jinder Mahal.",
+      "matchType": "Singles match",
+      "duration": 175,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Jinder Mahal"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-03-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76516",
+          "123012"
+        ],
+        "sourceEventIds": [
+          "11858"
+        ]
+      },
+      "legacyId": "bulk-match-76516",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 6,
+      "type": "match",
+      "title": "Austin Aries vs. Ariya Daivari",
+      "result": "Austin Aries defeated Ariya Daivari.",
+      "matchType": "Singles match",
+      "duration": 226,
+      "participants": [
+        {
+          "person": "austin-aries",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ariya-daivari",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Austin Aries",
+        "Ariya Daivari"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-03-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76517",
+          "123013"
+        ],
+        "sourceEventIds": [
+          "11858"
+        ]
+      },
+      "legacyId": "bulk-match-76517",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 7,
+      "type": "match",
+      "title": "The Big Show vs. Titus O'Neil",
+      "result": "The Big Show defeated Titus O'Neil.",
+      "matchType": "Singles match",
+      "duration": 110,
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "titus-oneil",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "Titus O'Neil"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-03-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76518",
+          "123014"
+        ],
+        "sourceEventIds": [
+          "11858"
+        ]
+      },
+      "legacyId": "bulk-match-76518",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m7",
+      "order": 8,
+      "type": "match",
+      "title": "Bayley vs. Nia Jax",
+      "result": "Bayley defeated Nia Jax by disqualification.",
+      "matchType": "Singles match",
+      "duration": 465,
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nia-jax",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Nia Jax"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-03-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76519",
+          "123015"
+        ],
+        "sourceEventIds": [
+          "11858"
+        ]
+      },
+      "legacyId": "bulk-match-76519",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11858"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11858"
+    ]
+  }
+}

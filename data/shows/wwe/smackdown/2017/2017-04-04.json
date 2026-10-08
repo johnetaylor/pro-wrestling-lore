@@ -1,0 +1,218 @@
+{
+  "id": "wwe/smackdown/2017-04-04",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-04-04",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-04-04"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Naomi vs. Alexa Bliss",
+      "result": "Naomi defeated Alexa Bliss.",
+      "matchType": "Singles match",
+      "duration": 607,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Naomi",
+        "Alexa Bliss"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-04-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76739",
+          "122777"
+        ],
+        "sourceEventIds": [
+          "11895"
+        ]
+      },
+      "legacyId": "bulk-match-76739",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Tye Dillinger vs. Curt Hawkins",
+      "result": "Tye Dillinger defeated Curt Hawkins.",
+      "matchType": "Singles match",
+      "duration": 116,
+      "participants": [
+        {
+          "person": "shawn-spears",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "curt-hawkins",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tye Dillinger",
+        "Curt Hawkins"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-04-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76740",
+          "122778"
+        ],
+        "sourceEventIds": [
+          "11895"
+        ]
+      },
+      "legacyId": "bulk-match-76740",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Baron Corbin vs. Dean Ambrose",
+      "result": "Baron Corbin defeated Dean Ambrose.",
+      "matchType": "Other match",
+      "duration": 655,
+      "participants": [
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Baron Corbin",
+        "Dean Ambrose"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-04-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76741",
+          "122779"
+        ],
+        "sourceEventIds": [
+          "11895"
+        ]
+      },
+      "legacyId": "bulk-match-76741",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Luke Harper, Randy Orton vs. Bray Wyatt, Erick Rowan",
+      "result": "Luke Harper, Randy Orton defeated Bray Wyatt, Erick Rowan.",
+      "matchType": "4-person match",
+      "duration": 712,
+      "participants": [
+        {
+          "person": "luke-harper",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bray-wyatt",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "erick-rowan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Luke Harper",
+        "Randy Orton",
+        "Bray Wyatt",
+        "Erick Rowan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-04-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76742",
+          "122780"
+        ],
+        "sourceEventIds": [
+          "11895"
+        ]
+      },
+      "legacyId": "bulk-match-76742",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11895"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11895"
+    ]
+  }
+}

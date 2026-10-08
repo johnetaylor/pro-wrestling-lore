@@ -1,0 +1,172 @@
+{
+  "id": "wwe/raw/2008-10-27",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2008-10-27",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Santino Marella, Charlie Haas — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "santino-marella",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "charlie-haas",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Santino Marella",
+        "Charlie Haas"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53744",
+          "151717"
+        ],
+        "sourceEventIds": [
+          "8198"
+        ]
+      },
+      "legacyId": "bulk-match-53744",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Rey Mysterio vs. Evan Bourne",
+      "result": "Rey Mysterio defeated Evan Bourne.",
+      "matchType": "Singles match",
+      "duration": 674,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "evan-bourne",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Evan Bourne"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53746",
+          "151719"
+        ],
+        "sourceEventIds": [
+          "8198"
+        ]
+      },
+      "legacyId": "bulk-match-53746",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Batista, Shawn Michaels vs. Chris Jericho, John Bradshaw Layfield",
+      "result": "Batista, Shawn Michaels defeated Chris Jericho, John Bradshaw Layfield.",
+      "matchType": "4-person match",
+      "duration": 775,
+      "participants": [
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Batista",
+        "Shawn Michaels",
+        "Chris Jericho",
+        "John Bradshaw Layfield"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53747",
+          "151720"
+        ],
+        "sourceEventIds": [
+          "8198"
+        ]
+      },
+      "legacyId": "bulk-match-53747",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8198"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8198"
+    ]
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "id": "wwe/smackdown/2014-08-26",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2014-08-26",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2014/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Roman Reigns vs. Bray Wyatt",
+      "result": "Roman Reigns defeated Bray Wyatt by disqualification.",
+      "matchType": "Singles match",
+      "duration": 264,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bray-wyatt",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Bray Wyatt"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "66440",
+          "134187"
+        ],
+        "sourceEventIds": [
+          "10431"
+        ]
+      },
+      "legacyId": "bulk-match-66440",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Paige vs. Emma",
+      "result": "Paige defeated Emma.",
+      "matchType": "Singles match",
+      "duration": 64,
+      "participants": [
+        {
+          "person": "paige",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "emma",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Paige",
+        "Emma"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "66442",
+          "134189"
+        ],
+        "sourceEventIds": [
+          "10431"
+        ]
+      },
+      "legacyId": "bulk-match-66442",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Rusev vs. Jack Swagger",
+      "result": "Rusev defeated Jack Swagger.",
+      "matchType": "Other match",
+      "duration": 609,
+      "participants": [
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jack-swagger",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rusev",
+        "Jack Swagger"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "66443",
+          "134190"
+        ],
+        "sourceEventIds": [
+          "10431"
+        ]
+      },
+      "legacyId": "bulk-match-66443",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Mark Henry, Roman Reigns, The Big Show vs. Bray Wyatt, Erick Rowan, Luke Harper",
+      "result": "Mark Henry, Roman Reigns, The Big Show defeated Bray Wyatt, Erick Rowan, Luke Harper.",
+      "matchType": "Tag Team match",
+      "duration": 988,
+      "participants": [
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bray-wyatt",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "erick-rowan",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "luke-harper",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mark Henry",
+        "Roman Reigns",
+        "The Big Show",
+        "Bray Wyatt",
+        "Erick Rowan",
+        "Luke Harper"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "66446",
+          "134193"
+        ],
+        "sourceEventIds": [
+          "10431"
+        ]
+      },
+      "legacyId": "bulk-match-66446",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10431"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10431"
+    ]
+  }
+}

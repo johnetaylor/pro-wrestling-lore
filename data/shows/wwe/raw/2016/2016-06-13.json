@@ -1,0 +1,205 @@
+{
+  "id": "wwe/raw/2016-06-13",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2016-06-13",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2016/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Paige vs. Charlotte",
+      "result": "Paige defeated Charlotte.",
+      "matchType": "Other match",
+      "duration": 148,
+      "participants": [
+        {
+          "person": "paige",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Paige",
+        "Charlotte"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "73373",
+          "126479"
+        ],
+        "sourceEventIds": [
+          "11382"
+        ]
+      },
+      "legacyId": "bulk-match-73373",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Sheamus vs. Zack Ryder",
+      "result": "Sheamus defeated Zack Ryder.",
+      "matchType": "Singles match",
+      "duration": 114,
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-cardona",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Zack Ryder"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "73374",
+          "126480"
+        ],
+        "sourceEventIds": [
+          "11382"
+        ]
+      },
+      "legacyId": "bulk-match-73374",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Sami Zayn vs. Cesaro",
+      "result": "Sami Zayn defeated Cesaro.",
+      "matchType": "Singles match",
+      "duration": 491,
+      "participants": [
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sami Zayn",
+        "Cesaro"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "73375",
+          "126481"
+        ],
+        "sourceEventIds": [
+          "11382"
+        ]
+      },
+      "legacyId": "bulk-match-73375",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Dean Ambrose vs. Chris Jericho",
+      "result": "Dean Ambrose defeated Chris Jericho.",
+      "matchType": "Other match",
+      "duration": 713,
+      "participants": [
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dean Ambrose",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "73377",
+          "126483"
+        ],
+        "sourceEventIds": [
+          "11382"
+        ]
+      },
+      "legacyId": "bulk-match-73377",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11382"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11382"
+    ]
+  }
+}

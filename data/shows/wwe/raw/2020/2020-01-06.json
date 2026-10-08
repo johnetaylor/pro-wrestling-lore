@@ -1,0 +1,206 @@
+{
+  "id": "wwe/raw/2020-01-06",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2020-01-06",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2020-01-06"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Andrade vs. Rey Mysterio",
+      "result": "Andrade defeated Rey Mysterio.",
+      "matchType": "Singles match",
+      "duration": 1195,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Andrade",
+        "Rey Mysterio"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2020-01-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "84936",
+          "114314"
+        ],
+        "sourceEventIds": [
+          "13266"
+        ]
+      },
+      "legacyId": "bulk-match-84936",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "A.J. Styles vs. Akira Tozawa",
+      "result": "A.J. Styles defeated Akira Tozawa.",
+      "matchType": "Singles match",
+      "duration": 131,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "akira-tozawa",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Akira Tozawa"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2020-01-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "84939",
+          "114317"
+        ],
+        "sourceEventIds": [
+          "13266"
+        ]
+      },
+      "legacyId": "bulk-match-84939",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Drew McIntyre vs. No Way Jose",
+      "result": "Drew McIntyre defeated No Way Jose.",
+      "matchType": "Singles match",
+      "duration": 104,
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "no-way-jose",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "No Way Jose"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2020-01-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "84940",
+          "114318"
+        ],
+        "sourceEventIds": [
+          "13266"
+        ]
+      },
+      "legacyId": "bulk-match-84940",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Aleister Black vs. Shelton Benjamin",
+      "result": "Aleister Black defeated Shelton Benjamin.",
+      "matchType": "Singles match",
+      "duration": 164,
+      "participants": [
+        {
+          "person": "aleister-black",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Aleister Black",
+        "Shelton Benjamin"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2020-01-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "84941",
+          "114319"
+        ],
+        "sourceEventIds": [
+          "13266"
+        ]
+      },
+      "legacyId": "bulk-match-84941",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13266"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13266"
+    ]
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "id": "wwe/bash-in-berlin/2024-08-31",
+  "promotion": "wwe",
+  "series": "wwe/bash-in-berlin",
+  "name": "Bash in Berlin 2024",
+  "date": "2024-08-31",
+  "category": "PLE",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "note": "Hugging Face import · official-results comparison. Unverified extra matches were excluded.",
+    "legacyCardStatus": "Imported card compared with official WWE results",
+    "legacySegmentStatus": "Partial; the match dataset does not contain a promo/appearance archive"
+  },
+  "sources": [
+    "https://www.wwe.com/article/full-bash-in-berlin-results-2024"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Cody Rhodes vs. Kevin Owens",
+      "result": "Cody Rhodes defeated Kevin Owens.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Kevin Owens"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-bash-in-berlin-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-bash-in-berlin-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "33",
+        "sourceMatchIds": [
+          "145",
+          "98473"
+        ],
+        "rawInputSha256": "55fb154e7be62ad90bc43cdc730c26db1dc4c8a2a62abdc74e9853101c0f61df",
+        "normalizedParticipants": [
+          {
+            "name": "Cody Rhodes",
+            "result": "win"
+          },
+          {
+            "name": "Kevin Owens",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-bash-in-berlin-results-2024"
+      },
+      "legacyId": "hf-match-145",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Bianca Belair & Jade Cargill vs. Alba Fyre, Isla Dawn",
+      "result": "Bianca Belair & Jade Cargill defeated Alba Fyre, Isla Dawn.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Tag Team Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor"
+        },
+        {
+          "person": "jade-cargill",
+          "role": "competitor"
+        },
+        {
+          "person": "alba-fyre",
+          "role": "competitor"
+        },
+        {
+          "person": "isla-dawn",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Bianca Belair",
+        "Jade Cargill",
+        "Alba Fyre",
+        "Isla Dawn"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-bash-in-berlin-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-bash-in-berlin-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "33",
+        "sourceMatchIds": [
+          "146",
+          "98474"
+        ],
+        "rawInputSha256": "e34e0c8854c4698463c2bb3ece4ae0c753f6b7652a995e721d3f7552c6f8388c",
+        "normalizedParticipants": [
+          {
+            "name": "Bianca Belair",
+            "result": "win"
+          },
+          {
+            "name": "Jade Cargill",
+            "result": "win"
+          },
+          {
+            "name": "Alba Fyre",
+            "result": "loss"
+          },
+          {
+            "name": "Isla Dawn",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-bash-in-berlin-results-2024"
+      },
+      "legacyId": "hf-match-146",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "CM Punk vs. Drew McIntyre",
+      "result": "CM Punk defeated Drew McIntyre.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Strap Match",
+      "participants": [
+        {
+          "person": "cm-punk",
+          "role": "competitor"
+        },
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "CM Punk",
+        "Drew McIntyre"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-bash-in-berlin-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-bash-in-berlin-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "33",
+        "sourceMatchIds": [
+          "147",
+          "98475"
+        ],
+        "rawInputSha256": "7350d315401ce8598bf75f53017d654cbd549f29214059a1df8b30fb51e2838a",
+        "normalizedParticipants": [
+          {
+            "name": "CM Punk",
+            "result": "win"
+          },
+          {
+            "name": "Drew McIntyre",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-bash-in-berlin-results-2024"
+      },
+      "legacyId": "hf-match-147",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Damian Priest & Rhea Ripley vs. Dominik Mysterio, Liv Morgan",
+      "result": "Damian Priest & Rhea Ripley defeated Dominik Mysterio, Liv Morgan.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Mixed Tag Team Match",
+      "participants": [
+        {
+          "person": "damian-priest",
+          "role": "competitor"
+        },
+        {
+          "person": "rhea-ripley",
+          "role": "competitor"
+        },
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor"
+        },
+        {
+          "person": "liv-morgan",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Damian Priest",
+        "Rhea Ripley",
+        "Dominik Mysterio",
+        "Liv Morgan"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-bash-in-berlin-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-bash-in-berlin-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "33",
+        "sourceMatchIds": [
+          "148",
+          "98476"
+        ],
+        "rawInputSha256": "c17a50150b80dfecbd13bfb980daa248a6bce442d107e69c84c5c0996325a737",
+        "normalizedParticipants": [
+          {
+            "name": "Damian Priest",
+            "result": "win"
+          },
+          {
+            "name": "Rhea Ripley",
+            "result": "win"
+          },
+          {
+            "name": "Dominik Mysterio",
+            "result": "loss"
+          },
+          {
+            "name": "Liv Morgan",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-bash-in-berlin-results-2024"
+      },
+      "legacyId": "hf-match-148",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m5",
+      "type": "match",
+      "title": "Gunther vs. Randy Orton",
+      "result": "Gunther defeated Randy Orton.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "gunther",
+          "role": "competitor"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Gunther",
+        "Randy Orton"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-bash-in-berlin-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-bash-in-berlin-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "33",
+        "sourceMatchIds": [
+          "149",
+          "98477"
+        ],
+        "rawInputSha256": "b19537352b83f94dae1c6ba1a0bc555503aea6763b3fcecd44c76c5e5342bf01",
+        "normalizedParticipants": [
+          {
+            "name": "Gunther",
+            "result": "win"
+          },
+          {
+            "name": "Randy Orton",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-bash-in-berlin-results-2024"
+      },
+      "legacyId": "hf-match-149",
+      "legacy": {
+        "kind": "title"
+      }
+    }
+  ],
+  "legacyIds": [
+    "hf-event-33"
+  ],
+  "legacy": {
+    "showFamily": "bash-in-berlin",
+    "importBatch": "ringside-2024-ple"
+  }
+}

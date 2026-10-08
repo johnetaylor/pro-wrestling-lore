@@ -1,0 +1,217 @@
+{
+  "id": "wwe/smackdown/2020-02-28",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2020-02-28",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2020-02-28"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Naomi vs. Bayley",
+      "result": "Naomi defeated Bayley by disqualification.",
+      "matchType": "Singles match",
+      "duration": 55,
+      "participants": [
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Naomi",
+        "Bayley"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-02-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85364",
+          "113838"
+        ],
+        "sourceEventIds": [
+          "13332"
+        ]
+      },
+      "legacyId": "bulk-match-85364",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Lacey Evans, Naomi vs. Bayley, Sasha Banks",
+      "result": "Lacey Evans, Naomi defeated Bayley, Sasha Banks.",
+      "matchType": "4-person match",
+      "duration": 565,
+      "participants": [
+        {
+          "person": "lacey-evans",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lacey Evans",
+        "Naomi",
+        "Bayley",
+        "Sasha Banks"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-02-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85365",
+          "113839"
+        ],
+        "sourceEventIds": [
+          "13332"
+        ]
+      },
+      "legacyId": "bulk-match-85365",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Robert Roode vs. Kofi Kingston",
+      "result": "Robert Roode defeated Kofi Kingston.",
+      "matchType": "Singles match",
+      "duration": 760,
+      "participants": [
+        {
+          "person": "robert-roode",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Robert Roode",
+        "Kofi Kingston"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-02-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85366",
+          "113840"
+        ],
+        "sourceEventIds": [
+          "13332"
+        ]
+      },
+      "legacyId": "bulk-match-85366",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Daniel Bryan vs. Curtis Axel",
+      "result": "Daniel Bryan defeated Curtis Axel.",
+      "matchType": "Singles match",
+      "duration": 270,
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "curtis-axel",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "Curtis Axel"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-02-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85367",
+          "113841"
+        ],
+        "sourceEventIds": [
+          "13332"
+        ]
+      },
+      "legacyId": "bulk-match-85367",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13332"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13332"
+    ]
+  }
+}

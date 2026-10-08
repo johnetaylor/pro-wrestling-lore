@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2004-04-20",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2004-04-20",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Booker T. vs. Rob Van Dam",
+      "result": "Booker T. defeated Rob Van Dam.",
+      "matchType": "Singles match",
+      "duration": 280,
+      "participants": [
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Booker T.",
+        "Rob Van Dam"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47754",
+          "159242"
+        ],
+        "sourceEventIds": [
+          "7086"
+        ]
+      },
+      "legacyId": "bulk-match-47754",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "John Bradshaw Layfield vs. El Gran Luchadore",
+      "result": "John Bradshaw Layfield defeated El Gran Luchadore.",
+      "matchType": "Singles match",
+      "duration": 270,
+      "participants": [
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "el-gran-luchadore",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Bradshaw Layfield",
+        "El Gran Luchadore"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47756",
+          "159244"
+        ],
+        "sourceEventIds": [
+          "7086"
+        ]
+      },
+      "legacyId": "bulk-match-47756",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "D-Von Dudley vs. Eddie Guerrero",
+      "result": "D-Von Dudley defeated Eddie Guerrero.",
+      "matchType": "Singles match",
+      "duration": 1034,
+      "participants": [
+        {
+          "person": "d-von-dudley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "D-Von Dudley",
+        "Eddie Guerrero"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47758",
+          "159246"
+        ],
+        "sourceEventIds": [
+          "7086"
+        ]
+      },
+      "legacyId": "bulk-match-47758",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7086"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7086"
+    ]
+  }
+}

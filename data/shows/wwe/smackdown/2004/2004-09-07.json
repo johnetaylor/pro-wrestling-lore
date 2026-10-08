@@ -1,0 +1,174 @@
+{
+  "id": "wwe/smackdown/2004-09-07",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2004-09-07",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "John Bradshaw Layfield vs. Charlie Haas",
+      "result": "John Bradshaw Layfield defeated Charlie Haas.",
+      "matchType": "Singles match",
+      "duration": 291,
+      "participants": [
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlie-haas",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Bradshaw Layfield",
+        "Charlie Haas"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48208",
+          "158553"
+        ],
+        "sourceEventIds": [
+          "7183"
+        ]
+      },
+      "legacyId": "bulk-match-48208",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Kenzo Suzuki, Rene Dupree vs. Billy Kidman, Paul London",
+      "result": "Kenzo Suzuki, Rene Dupree defeated Billy Kidman, Paul London.",
+      "matchType": "4-person match",
+      "duration": 605,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "kenzo-suzuki",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rene-dupree",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billy-kidman",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "paul-london",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kenzo Suzuki",
+        "Rene Dupree",
+        "Billy Kidman",
+        "Paul London"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48209",
+          "158554"
+        ],
+        "sourceEventIds": [
+          "7183"
+        ]
+      },
+      "legacyId": "bulk-match-48209",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Other match",
+      "result": "Eddie Guerrero, Kurt Angle — no contest.",
+      "matchType": "Other match",
+      "duration": 940,
+      "participants": [
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Eddie Guerrero",
+        "Kurt Angle"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48211",
+          "158556"
+        ],
+        "sourceEventIds": [
+          "7183"
+        ]
+      },
+      "legacyId": "bulk-match-48211",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7183"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7183"
+    ]
+  }
+}

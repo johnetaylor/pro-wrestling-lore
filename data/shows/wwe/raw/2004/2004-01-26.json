@@ -1,0 +1,223 @@
+{
+  "id": "wwe/raw/2004-01-26",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2004-01-26",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Lita, Victoria vs. Jazz, Molly Holly",
+      "result": "Lita, Victoria defeated Jazz, Molly Holly.",
+      "matchType": "4-person match",
+      "duration": 354,
+      "participants": [
+        {
+          "person": "lita",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "victoria",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jazz",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "molly-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lita",
+        "Victoria",
+        "Jazz",
+        "Molly Holly"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47399",
+          "159608"
+        ],
+        "sourceEventIds": [
+          "7020"
+        ]
+      },
+      "legacyId": "bulk-match-47399",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Bubba Ray Dudley vs. Kane",
+      "result": "Bubba Ray Dudley defeated Kane by disqualification.",
+      "matchType": "Singles match",
+      "duration": 140,
+      "participants": [
+        {
+          "person": "bubba-ray-dudley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Bubba Ray Dudley",
+        "Kane"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47400",
+          "159609"
+        ],
+        "sourceEventIds": [
+          "7020"
+        ]
+      },
+      "legacyId": "bulk-match-47400",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Rico vs. Rob Conway",
+      "result": "Rico defeated Rob Conway.",
+      "matchType": "Singles match",
+      "duration": 201,
+      "participants": [
+        {
+          "person": "rico",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rob-conway",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rico",
+        "Rob Conway"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47401",
+          "159610"
+        ],
+        "sourceEventIds": [
+          "7020"
+        ]
+      },
+      "legacyId": "bulk-match-47401",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Goldberg vs. Jonathan Coachman, Mark Henry",
+      "result": "Goldberg defeated Jonathan Coachman, Mark Henry.",
+      "matchType": "Tag Team match",
+      "duration": 263,
+      "participants": [
+        {
+          "person": "goldberg",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jonathan-coachman",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Goldberg",
+        "Jonathan Coachman",
+        "Mark Henry"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47402",
+          "159611"
+        ],
+        "sourceEventIds": [
+          "7020"
+        ]
+      },
+      "legacyId": "bulk-match-47402",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7020"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7020"
+    ]
+  }
+}

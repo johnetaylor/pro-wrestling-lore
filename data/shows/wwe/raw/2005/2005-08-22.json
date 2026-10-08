@@ -1,0 +1,206 @@
+{
+  "id": "wwe/raw/2005-08-22",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2005-08-22",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Kurt Angle vs. Shelton Benjamin",
+      "result": "Kurt Angle defeated Shelton Benjamin.",
+      "matchType": "Singles match",
+      "duration": 775,
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Shelton Benjamin"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49397",
+          "157038"
+        ],
+        "sourceEventIds": [
+          "7426"
+        ]
+      },
+      "legacyId": "bulk-match-49397",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Rob Conway vs. Matt Hardy",
+      "result": "Rob Conway defeated Matt Hardy.",
+      "matchType": "Singles match",
+      "duration": 229,
+      "participants": [
+        {
+          "person": "rob-conway",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rob Conway",
+        "Matt Hardy"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49398",
+          "157039"
+        ],
+        "sourceEventIds": [
+          "7426"
+        ]
+      },
+      "legacyId": "bulk-match-49398",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "The Big Show vs. Gene Snitsky",
+      "result": "The Big Show defeated Gene Snitsky by count-out.",
+      "matchType": "Singles match",
+      "duration": 223,
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "gene-snitsky",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "Gene Snitsky"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49399",
+          "157040"
+        ],
+        "sourceEventIds": [
+          "7426"
+        ]
+      },
+      "legacyId": "bulk-match-49399",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "John Cena vs. Chris Jericho",
+      "result": "John Cena defeated Chris Jericho.",
+      "matchType": "Singles match",
+      "duration": 949,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49400",
+          "157041"
+        ],
+        "sourceEventIds": [
+          "7426"
+        ]
+      },
+      "legacyId": "bulk-match-49400",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7426"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7426"
+    ]
+  }
+}

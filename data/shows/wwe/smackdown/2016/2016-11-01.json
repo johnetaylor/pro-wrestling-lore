@@ -1,0 +1,174 @@
+{
+  "id": "wwe/smackdown/2016-11-01",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2016-11-01",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2016/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Randy Orton vs. Kane",
+      "result": "Randy Orton defeated Kane.",
+      "matchType": "Other match",
+      "duration": 128,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Kane"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "75018",
+          "124634"
+        ],
+        "sourceEventIds": [
+          "11627"
+        ]
+      },
+      "legacyId": "bulk-match-75018",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Alexa Bliss, Carmella vs. Becky Lynch, Nikki Bella",
+      "result": "Alexa Bliss, Carmella defeated Becky Lynch, Nikki Bella.",
+      "matchType": "4-person match",
+      "duration": 356,
+      "participants": [
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "nikki-bella",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alexa Bliss",
+        "Carmella",
+        "Becky Lynch",
+        "Nikki Bella"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "75019",
+          "124635"
+        ],
+        "sourceEventIds": [
+          "11627"
+        ]
+      },
+      "legacyId": "bulk-match-75019",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Dolph Ziggler vs. Curt Hawkins",
+      "result": "Dolph Ziggler defeated Curt Hawkins.",
+      "matchType": "Singles match",
+      "duration": 7,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "curt-hawkins",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dolph Ziggler",
+        "Curt Hawkins"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "75021",
+          "124637"
+        ],
+        "sourceEventIds": [
+          "11627"
+        ]
+      },
+      "legacyId": "bulk-match-75021",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11627"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11627"
+    ]
+  }
+}

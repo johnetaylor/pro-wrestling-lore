@@ -1,0 +1,175 @@
+{
+  "id": "wwe/smackdown/2021-04-30",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2021-04-30",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2021-04-30"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Natalya, Tamina vs. Nia Jax, Shayna Baszler",
+      "result": "Natalya, Tamina defeated Nia Jax, Shayna Baszler.",
+      "matchType": "4-person match",
+      "duration": 293,
+      "participants": [
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tamina",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nia-jax",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shayna-baszler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Natalya",
+        "Tamina",
+        "Nia Jax",
+        "Shayna Baszler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-04-30"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86988",
+          "111004"
+        ],
+        "sourceEventIds": [
+          "13661"
+        ]
+      },
+      "legacyId": "bulk-match-86988",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Big E vs. Apollo Crews",
+      "result": "Big E defeated Apollo Crews by disqualification.",
+      "matchType": "Singles match",
+      "duration": 606,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "apollo-crews",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Big E",
+        "Apollo Crews"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-04-30"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86989",
+          "111005"
+        ],
+        "sourceEventIds": [
+          "13661"
+        ]
+      },
+      "legacyId": "bulk-match-86989",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Roman Reigns vs. Daniel Bryan",
+      "result": "Roman Reigns defeated Daniel Bryan.",
+      "matchType": "Singles match",
+      "duration": 1638,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Daniel Bryan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-04-30"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86990",
+          "111006"
+        ],
+        "sourceEventIds": [
+          "13661"
+        ]
+      },
+      "legacyId": "bulk-match-86990",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13661"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13661"
+    ]
+  }
+}

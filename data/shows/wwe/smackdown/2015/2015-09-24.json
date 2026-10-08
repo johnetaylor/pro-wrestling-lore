@@ -1,0 +1,218 @@
+{
+  "id": "wwe/smackdown/2015-09-24",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2015-09-24",
+  "dateBasis": "aired",
+  "recordedDate": "2015-09-22",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2015/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Roman Reigns vs. Luke Harper",
+      "result": "Roman Reigns defeated Luke Harper.",
+      "matchType": "Singles match",
+      "duration": 224,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "luke-harper",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Luke Harper"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "70500",
+          "129562"
+        ],
+        "sourceEventIds": [
+          "10974"
+        ]
+      },
+      "legacyId": "bulk-match-70500",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Cesaro vs. Bo Dallas",
+      "result": "Cesaro defeated Bo Dallas.",
+      "matchType": "Singles match",
+      "duration": 265,
+      "participants": [
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "uncle-howdy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cesaro",
+        "Bo Dallas"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "70502",
+          "129564"
+        ],
+        "sourceEventIds": [
+          "10974"
+        ]
+      },
+      "legacyId": "bulk-match-70502",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Dolph Ziggler, Ryback vs. Kevin Owens, Rusev",
+      "result": "Dolph Ziggler, Ryback defeated Kevin Owens, Rusev.",
+      "matchType": "4-person match",
+      "duration": 714,
+      "participants": [
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ryback",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dolph Ziggler",
+        "Ryback",
+        "Kevin Owens",
+        "Rusev"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "70503",
+          "129565"
+        ],
+        "sourceEventIds": [
+          "10974"
+        ]
+      },
+      "legacyId": "bulk-match-70503",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Dean Ambrose vs. Seth Rollins",
+      "result": "Dean Ambrose defeated Seth Rollins.",
+      "matchType": "Singles match",
+      "duration": 800,
+      "participants": [
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dean Ambrose",
+        "Seth Rollins"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "70504",
+          "129566"
+        ],
+        "sourceEventIds": [
+          "10974"
+        ]
+      },
+      "legacyId": "bulk-match-70504",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10974"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10974"
+    ]
+  }
+}

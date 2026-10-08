@@ -1,0 +1,153 @@
+{
+  "id": "wwe/smackdown/2006-02-21",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2006-02-21",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2006/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Joey Mercury, Johnny Nitro vs. Matt Hardy, Tatanka",
+      "result": "Joey Mercury, Johnny Nitro defeated Matt Hardy, Tatanka.",
+      "matchType": "4-person match",
+      "duration": 444,
+      "participants": [
+        {
+          "person": "joey-mercury",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tatanka",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Joey Mercury",
+        "Johnny Nitro",
+        "Matt Hardy",
+        "Tatanka"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50262",
+          "156028"
+        ],
+        "sourceEventIds": [
+          "7580"
+        ]
+      },
+      "legacyId": "bulk-match-50262",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Bobby Lashley, Chris Benoit, Rey Mysterio vs. Finlay, John Bradshaw Layfield, Randy Orton",
+      "result": "Bobby Lashley, Chris Benoit, Rey Mysterio defeated Finlay, John Bradshaw Layfield, Randy Orton.",
+      "matchType": "Tag Team match",
+      "duration": 955,
+      "participants": [
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finlay",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bobby Lashley",
+        "Chris Benoit",
+        "Rey Mysterio",
+        "Finlay",
+        "John Bradshaw Layfield",
+        "Randy Orton"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50265",
+          "156031"
+        ],
+        "sourceEventIds": [
+          "7580"
+        ]
+      },
+      "legacyId": "bulk-match-50265",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7580"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7580"
+    ]
+  }
+}

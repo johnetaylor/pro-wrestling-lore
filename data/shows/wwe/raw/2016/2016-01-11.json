@@ -1,0 +1,241 @@
+{
+  "id": "wwe/raw/2016-01-11",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2016-01-11",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2016/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Sheamus, Dean Ambrose — double count-out.",
+      "matchType": "Singles match",
+      "duration": 848,
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Dean Ambrose"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "71684",
+          "128295"
+        ],
+        "sourceEventIds": [
+          "11134"
+        ]
+      },
+      "legacyId": "bulk-match-71684",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Braun Strowman, Bray Wyatt, Erick Rowan, Luke Harper vs. Adam Rose, Bo Dallas, Curtis Axel, Heath Slater",
+      "result": "Braun Strowman, Bray Wyatt, Erick Rowan, Luke Harper defeated Adam Rose, Bo Dallas, Curtis Axel, Heath Slater.",
+      "matchType": "Tag Team match",
+      "duration": 79,
+      "participants": [
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bray-wyatt",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "erick-rowan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "luke-harper",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "adam-rose",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "uncle-howdy",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "curtis-axel",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "heath-slater",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Braun Strowman",
+        "Bray Wyatt",
+        "Erick Rowan",
+        "Luke Harper",
+        "Adam Rose",
+        "Bo Dallas",
+        "Curtis Axel",
+        "Heath Slater"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "71687",
+          "128298"
+        ],
+        "sourceEventIds": [
+          "11134"
+        ]
+      },
+      "legacyId": "bulk-match-71687",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Kalisto vs. Alberto Del Rio",
+      "result": "Kalisto defeated Alberto Del Rio.",
+      "matchType": "Singles match",
+      "duration": 917,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "kalisto",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alberto-del-rio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kalisto",
+        "Alberto Del Rio"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "71688",
+          "128299"
+        ],
+        "sourceEventIds": [
+          "11134"
+        ]
+      },
+      "legacyId": "bulk-match-71688",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Brie Bella, Charlotte — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "brie-bella",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Brie Bella",
+        "Charlotte"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "71689",
+          "128300"
+        ],
+        "sourceEventIds": [
+          "11134"
+        ]
+      },
+      "legacyId": "bulk-match-71689",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11134"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11134"
+    ]
+  }
+}

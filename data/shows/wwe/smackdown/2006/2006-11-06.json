@@ -1,0 +1,173 @@
+{
+  "id": "wwe/smackdown/2006-11-06",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2006-11-06",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2006/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "King Booker vs. Bobby Lashley",
+      "result": "King Booker defeated Bobby Lashley.",
+      "matchType": "Singles match",
+      "duration": 828,
+      "participants": [
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "King Booker",
+        "Bobby Lashley"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51221",
+          "154886"
+        ],
+        "sourceEventIds": [
+          "7752"
+        ]
+      },
+      "legacyId": "bulk-match-51221",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Jimmy Wang Yang, Matt Hardy vs. Gregory Helms, Sylvan",
+      "result": "Jimmy Wang Yang, Matt Hardy defeated Gregory Helms, Sylvan.",
+      "matchType": "4-person match",
+      "duration": 443,
+      "participants": [
+        {
+          "person": "jimmy-wang-yang",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-hurricane",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sylvan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jimmy Wang Yang",
+        "Matt Hardy",
+        "Gregory Helms",
+        "Sylvan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51222",
+          "154887"
+        ],
+        "sourceEventIds": [
+          "7752"
+        ]
+      },
+      "legacyId": "bulk-match-51222",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Batista vs. Finlay",
+      "result": "Batista defeated Finlay.",
+      "matchType": "Singles match",
+      "duration": 937,
+      "participants": [
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finlay",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Batista",
+        "Finlay"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51225",
+          "154890"
+        ],
+        "sourceEventIds": [
+          "7752"
+        ]
+      },
+      "legacyId": "bulk-match-51225",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7752"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7752"
+    ]
+  }
+}

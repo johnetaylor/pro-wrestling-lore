@@ -1,0 +1,225 @@
+{
+  "id": "wwe/smackdown/2001-03-27",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2001-03-27",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2001/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Chris Benoit, Test vs. Eddie Guerrero, Kurt Angle",
+      "result": "Chris Benoit, Test defeated Eddie Guerrero, Kurt Angle.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Test",
+        "Eddie Guerrero",
+        "Kurt Angle"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42156",
+          "164853"
+        ],
+        "sourceEventIds": [
+          "6218"
+        ]
+      },
+      "legacyId": "bulk-match-42156",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Rhyno vs. Matt Hardy",
+      "result": "Rhyno defeated Matt Hardy.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "rhyno",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rhyno",
+        "Matt Hardy"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42157",
+          "164854"
+        ],
+        "sourceEventIds": [
+          "6218"
+        ]
+      },
+      "legacyId": "bulk-match-42157",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Other match",
+      "result": "Trish Stratus, Ivory — no contest.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "trish-stratus",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "ivory",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Trish Stratus",
+        "Ivory"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42158",
+          "164855"
+        ],
+        "sourceEventIds": [
+          "6218"
+        ]
+      },
+      "legacyId": "bulk-match-42158",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "The Big Show, William Regal vs. Chris Jericho, Kane",
+      "result": "The Big Show, William Regal defeated Chris Jericho, Kane.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "William Regal",
+        "Chris Jericho",
+        "Kane"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42159",
+          "164856"
+        ],
+        "sourceEventIds": [
+          "6218"
+        ]
+      },
+      "legacyId": "bulk-match-42159",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6218"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6218"
+    ]
+  }
+}

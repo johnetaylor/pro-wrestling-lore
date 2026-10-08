@@ -1,0 +1,176 @@
+{
+  "id": "wwe/smackdown/2024-04-05",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2024-04-05",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2024-04-05"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Elektra Lopez vs. Zelina Vega",
+      "result": "Elektra Lopez defeated Zelina Vega.",
+      "matchType": "Singles match",
+      "duration": 158,
+      "participants": [
+        {
+          "person": "elektra-lopez",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "zelina-vega",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Elektra Lopez",
+        "Zelina Vega"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-04-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "1714",
+          "93901",
+          "100042"
+        ],
+        "sourceEventIds": [
+          "341"
+        ]
+      },
+      "legacyId": "bulk-match-1714",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Pete Dunne, Tyler Bate vs. Austin Theory, Grayson Waller",
+      "result": "Pete Dunne, Tyler Bate defeated Austin Theory, Grayson Waller.",
+      "matchType": "4-person match",
+      "duration": 447,
+      "participants": [
+        {
+          "person": "pete-dunne",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tyler-bate",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "austin-theory",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "grayson-waller",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Pete Dunne",
+        "Tyler Bate",
+        "Austin Theory",
+        "Grayson Waller"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-04-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "1715",
+          "93902",
+          "100043"
+        ],
+        "sourceEventIds": [
+          "341"
+        ]
+      },
+      "legacyId": "bulk-match-1715",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Jey Uso vs. Solo Sikoa",
+      "result": "Jey Uso defeated Solo Sikoa by disqualification.",
+      "matchType": "Singles match",
+      "duration": 394,
+      "participants": [
+        {
+          "person": "jey-uso",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "solo-sikoa",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Jey Uso",
+        "Solo Sikoa"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-04-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "1716",
+          "93903",
+          "100044"
+        ],
+        "sourceEventIds": [
+          "341"
+        ]
+      },
+      "legacyId": "bulk-match-1716",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-341"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "341"
+    ]
+  }
+}

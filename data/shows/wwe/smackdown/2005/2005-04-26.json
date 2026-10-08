@@ -1,0 +1,225 @@
+{
+  "id": "wwe/smackdown/2005-04-26",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2005-04-26",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Chavo Guerrero vs. Paul London",
+      "result": "Chavo Guerrero defeated Paul London by count-out.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "chavo-guerrero",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "paul-london",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Chavo Guerrero",
+        "Paul London"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48967",
+          "157569"
+        ],
+        "sourceEventIds": [
+          "7341"
+        ]
+      },
+      "legacyId": "bulk-match-48967",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Joey Mercury, Johnny Nitro vs. Eddie Guerrero, Rey Mysterio",
+      "result": "Joey Mercury, Johnny Nitro defeated Eddie Guerrero, Rey Mysterio.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "joey-mercury",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Joey Mercury",
+        "Johnny Nitro",
+        "Eddie Guerrero",
+        "Rey Mysterio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48968",
+          "157570"
+        ],
+        "sourceEventIds": [
+          "7341"
+        ]
+      },
+      "legacyId": "bulk-match-48968",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Matt Morgan vs. Mikey Whiplash",
+      "result": "Matt Morgan defeated Mikey Whiplash.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "matt-morgan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mikey-whiplash",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Matt Morgan",
+        "Mikey Whiplash"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48969",
+          "157571"
+        ],
+        "sourceEventIds": [
+          "7341"
+        ]
+      },
+      "legacyId": "bulk-match-48969",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "John Bradshaw Layfield vs. Booker T., Kurt Angle, The Big Show",
+      "result": "John Bradshaw Layfield defeated Booker T., Kurt Angle, The Big Show.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Bradshaw Layfield",
+        "Booker T.",
+        "Kurt Angle",
+        "The Big Show"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48971",
+          "157573"
+        ],
+        "sourceEventIds": [
+          "7341"
+        ]
+      },
+      "legacyId": "bulk-match-48971",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7341"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7341"
+    ]
+  }
+}

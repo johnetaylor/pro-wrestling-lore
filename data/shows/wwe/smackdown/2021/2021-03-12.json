@@ -1,0 +1,171 @@
+{
+  "id": "wwe/smackdown/2021-03-12",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2021-03-12",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2021-03-12"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Cesaro vs. Murphy",
+      "result": "Cesaro defeated Murphy by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "murphy",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Cesaro",
+        "Murphy"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-03-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86810",
+          "111389"
+        ],
+        "sourceEventIds": [
+          "13623"
+        ]
+      },
+      "legacyId": "bulk-match-86810",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Natalya, Tamina vs. Bianca Belair, Sasha Banks",
+      "result": "Natalya, Tamina defeated Bianca Belair, Sasha Banks.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tamina",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bianca-belair",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Natalya",
+        "Tamina",
+        "Bianca Belair",
+        "Sasha Banks"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-03-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86811",
+          "111390"
+        ],
+        "sourceEventIds": [
+          "13623"
+        ]
+      },
+      "legacyId": "bulk-match-86811",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Big E vs. Sami Zayn",
+      "result": "Big E defeated Sami Zayn.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Big E",
+        "Sami Zayn"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-03-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86812",
+          "111391"
+        ],
+        "sourceEventIds": [
+          "13623"
+        ]
+      },
+      "legacyId": "bulk-match-86812",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13623"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13623"
+    ]
+  }
+}

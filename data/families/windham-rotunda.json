@@ -1,0 +1,155 @@
+{
+  "id": "windham-rotunda",
+  "name": "Windham · Rotunda",
+  "description": "The Windham and Rotunda branches connect through Stephanie Windham and Mike Rotunda.",
+  "branches": [
+    {
+      "id": "windham-rotunda",
+      "name": "The Windham · Rotunda family"
+    }
+  ],
+  "members": [
+    {
+      "id": "blackjack-mulligan",
+      "name": "Blackjack Mulligan",
+      "person": "blackjack-mulligan",
+      "branch": "windham-rotunda",
+      "source": "windham",
+      "layout": {
+        "x": 196,
+        "y": 24
+      }
+    },
+    {
+      "id": "barry-windham",
+      "name": "Barry Windham",
+      "person": "barry-windham",
+      "branch": "windham-rotunda",
+      "source": "windham",
+      "layout": {
+        "x": 16,
+        "y": 164
+      }
+    },
+    {
+      "id": "kendall-windham",
+      "name": "Kendall Windham",
+      "branch": "windham-rotunda",
+      "source": "windham",
+      "layout": {
+        "x": 196,
+        "y": 164
+      }
+    },
+    {
+      "id": "stephanie-windham",
+      "name": "Stephanie Windham Rotunda",
+      "branch": "windham-rotunda",
+      "source": "rotunda-family",
+      "layout": {
+        "x": 376,
+        "y": 164
+      }
+    },
+    {
+      "id": "mike-rotunda",
+      "name": "Mike Rotunda / I.R.S.",
+      "person": "mike-rotunda",
+      "branch": "windham-rotunda",
+      "aliases": [
+        "Mike Rotunda",
+        "Irwin R. Schyster"
+      ],
+      "source": "rotunda-family",
+      "layout": {
+        "x": 556,
+        "y": 164
+      }
+    },
+    {
+      "id": "bray-wyatt",
+      "name": "Bray Wyatt",
+      "person": "bray-wyatt",
+      "branch": "windham-rotunda",
+      "source": "rotunda-family",
+      "layout": {
+        "x": 376,
+        "y": 304
+      }
+    },
+    {
+      "id": "bo-dallas",
+      "name": "Bo Dallas",
+      "branch": "windham-rotunda",
+      "source": "rotunda-family",
+      "layout": {
+        "x": 556,
+        "y": 304
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "blackjack-mulligan",
+      "b": "barry-windham",
+      "type": "parent",
+      "source": "windham"
+    },
+    {
+      "a": "blackjack-mulligan",
+      "b": "kendall-windham",
+      "type": "parent",
+      "source": "windham"
+    },
+    {
+      "a": "blackjack-mulligan",
+      "b": "stephanie-windham",
+      "type": "parent",
+      "source": "rotunda-family"
+    },
+    {
+      "a": "stephanie-windham",
+      "b": "mike-rotunda",
+      "type": "marriage",
+      "source": "rotunda-family"
+    },
+    {
+      "a": "stephanie-windham",
+      "b": "bray-wyatt",
+      "type": "parent",
+      "source": "rotunda-family"
+    },
+    {
+      "a": "stephanie-windham",
+      "b": "bo-dallas",
+      "type": "parent",
+      "source": "rotunda-family"
+    },
+    {
+      "a": "mike-rotunda",
+      "b": "bray-wyatt",
+      "type": "parent",
+      "source": "us-express"
+    },
+    {
+      "a": "mike-rotunda",
+      "b": "bo-dallas",
+      "type": "parent",
+      "source": "us-express"
+    }
+  ],
+  "sources": {
+    "windham": {
+      "label": "WWE: Blackjack Mulligan’s family",
+      "url": "https://www.wwe.com/article/blackjack-mulligan-passes-away?sf23930795=1"
+    },
+    "rotunda-family": {
+      "label": "Mike Rotunda: Windham family relationships",
+      "url": "https://en.wikipedia.org/wiki/Mike_Rotunda"
+    },
+    "us-express": {
+      "label": "WWE: Windham and Rotunda family ties",
+      "url": "https://www.wwe.com/superstars/the-us-express"
+    }
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "id": "wwe/raw/2011-02-21",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2011-02-21",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2011/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "CM Punk vs. John Morrison",
+      "result": "CM Punk defeated John Morrison.",
+      "matchType": "Singles match",
+      "duration": 123,
+      "participants": [
+        {
+          "person": "cm-punk",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "CM Punk",
+        "John Morrison"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "56603",
+          "147366"
+        ],
+        "sourceEventIds": [
+          "8833"
+        ]
+      },
+      "legacyId": "bulk-match-56603",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Mark Henry vs. Sheamus",
+      "result": "Mark Henry defeated Sheamus.",
+      "matchType": "Singles match",
+      "duration": 232,
+      "participants": [
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mark Henry",
+        "Sheamus"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "56605",
+          "147368"
+        ],
+        "sourceEventIds": [
+          "8833"
+        ]
+      },
+      "legacyId": "bulk-match-56605",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "John Cena, The Miz vs. Heath Slater, Justin Gabriel",
+      "result": "John Cena, The Miz defeated Heath Slater, Justin Gabriel.",
+      "matchType": "4-person match",
+      "duration": 192,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "heath-slater",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "justin-gabriel",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "The Miz",
+        "Heath Slater",
+        "Justin Gabriel"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "56606",
+          "147369"
+        ],
+        "sourceEventIds": [
+          "8833"
+        ]
+      },
+      "legacyId": "bulk-match-56606",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Heath Slater, Justin Gabriel vs. John Cena, The Miz",
+      "result": "Heath Slater, Justin Gabriel defeated John Cena, The Miz.",
+      "matchType": "4-person match",
+      "duration": 671,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "heath-slater",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "justin-gabriel",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Heath Slater",
+        "Justin Gabriel",
+        "John Cena",
+        "The Miz"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "56607",
+          "147370"
+        ],
+        "sourceEventIds": [
+          "8833"
+        ]
+      },
+      "legacyId": "bulk-match-56607",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8833"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8833"
+    ]
+  }
+}

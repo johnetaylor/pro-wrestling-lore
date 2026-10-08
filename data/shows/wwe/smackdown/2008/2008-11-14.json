@@ -1,0 +1,118 @@
+{
+  "id": "wwe/smackdown/2008-11-14",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2008-11-14",
+  "dateBasis": "aired",
+  "recordedDate": "2008-11-11",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Kung Fu Naki vs. Montel Vontavious Porter",
+      "result": "Kung Fu Naki defeated Montel Vontavious Porter.",
+      "matchType": "Singles match",
+      "duration": 82,
+      "participants": [
+        {
+          "person": "sho-funaki",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "montel-vontavious-porter",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kung Fu Naki",
+        "Montel Vontavious Porter"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53800",
+          "151634"
+        ],
+        "sourceEventIds": [
+          "8207"
+        ]
+      },
+      "legacyId": "bulk-match-53800",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Jeff Hardy vs. The Undertaker",
+      "result": "Jeff Hardy defeated The Undertaker.",
+      "matchType": "Other match",
+      "duration": 954,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "The Undertaker"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53802",
+          "151636"
+        ],
+        "sourceEventIds": [
+          "8207"
+        ]
+      },
+      "legacyId": "bulk-match-53802",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8207"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8207"
+    ]
+  }
+}

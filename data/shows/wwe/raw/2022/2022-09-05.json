@@ -1,0 +1,176 @@
+{
+  "id": "wwe/raw/2022-09-05",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2022-09-05",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2022-09-05"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Aliyah, Raquel Rodriguez vs. Doudrop, Nikki A.S.H.",
+      "result": "Aliyah, Raquel Rodriguez defeated Doudrop, Nikki A.S.H..",
+      "matchType": "4-person match",
+      "duration": 211,
+      "participants": [
+        {
+          "person": "aliyah",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "raquel-rodriguez",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "piper-niven",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "nikki-cross",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Aliyah",
+        "Raquel Rodriguez",
+        "Doudrop",
+        "Nikki A.S.H."
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2022-09-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "7663",
+          "89904",
+          "105991"
+        ],
+        "sourceEventIds": [
+          "1352"
+        ]
+      },
+      "legacyId": "bulk-match-7663",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Kevin Owens vs. Austin Theory",
+      "result": "Kevin Owens defeated Austin Theory.",
+      "matchType": "Singles match",
+      "duration": 1017,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "austin-theory",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Austin Theory"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2022-09-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "7664",
+          "89905",
+          "105992"
+        ],
+        "sourceEventIds": [
+          "1352"
+        ]
+      },
+      "legacyId": "bulk-match-7664",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Damian Priest vs. Rey Mysterio",
+      "result": "Damian Priest defeated Rey Mysterio.",
+      "matchType": "Singles match",
+      "duration": 808,
+      "participants": [
+        {
+          "person": "damian-priest",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Damian Priest",
+        "Rey Mysterio"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2022-09-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "7665",
+          "89906",
+          "105993"
+        ],
+        "sourceEventIds": [
+          "1352"
+        ]
+      },
+      "legacyId": "bulk-match-7665",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1352"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1352"
+    ]
+  }
+}

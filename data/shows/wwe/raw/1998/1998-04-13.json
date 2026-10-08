@@ -1,0 +1,214 @@
+{
+  "id": "wwe/raw/1998-04-13",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1998-04-13",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1998/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "4-person match",
+      "result": "Brian Christopher, Scott Taylor, Aguila, Pantera — no contest.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "grand-master-sexay",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "scotty-2-hotty",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "aguila",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "pantera",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Brian Christopher",
+        "Scott Taylor",
+        "Aguila",
+        "Pantera"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "30044",
+          "176989"
+        ],
+        "sourceEventIds": [
+          "4562"
+        ]
+      },
+      "legacyId": "bulk-match-30044",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "TAKA Michinoku vs. Jeff Jarrett",
+      "result": "TAKA Michinoku defeated Jeff Jarrett by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "taka-michinoku",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jeff-jarrett",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "TAKA Michinoku",
+        "Jeff Jarrett"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "30045",
+          "176990"
+        ],
+        "sourceEventIds": [
+          "4562"
+        ]
+      },
+      "legacyId": "bulk-match-30045",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Owen Hart vs. Billy Gunn",
+      "result": "Owen Hart defeated Billy Gunn.",
+      "matchType": "Singles match",
+      "duration": 516,
+      "participants": [
+        {
+          "person": "owen-hart",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Owen Hart",
+        "Billy Gunn"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "30048",
+          "176993"
+        ],
+        "sourceEventIds": [
+          "4562"
+        ]
+      },
+      "legacyId": "bulk-match-30048",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Steve Austin, Mr. McMahon — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "vince-mcmahon",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Steve Austin",
+        "Mr. McMahon"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "30049",
+          "176994"
+        ],
+        "sourceEventIds": [
+          "4562"
+        ]
+      },
+      "legacyId": "bulk-match-30049",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4562"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4562"
+    ]
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "id": "wwe/smackdown/2019-03-05",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2019-03-05",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2019-03-05"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "The Miz vs. Jey Uso",
+      "result": "The Miz defeated Jey Uso.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jey-uso",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Miz",
+        "Jey Uso"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-03-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82655",
+          "116791"
+        ],
+        "sourceEventIds": [
+          "12888"
+        ]
+      },
+      "legacyId": "bulk-match-82655",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Samoa Joe vs. Andrade, R-Truth, Rey Mysterio",
+      "result": "Samoa Joe defeated Andrade, R-Truth, Rey Mysterio.",
+      "matchType": "Fatal Four Way match",
+      "duration": 873,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "samoa-joe",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Samoa Joe",
+        "Andrade",
+        "R-Truth",
+        "Rey Mysterio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-03-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82656",
+          "116792"
+        ],
+        "sourceEventIds": [
+          "12888"
+        ]
+      },
+      "legacyId": "bulk-match-82656",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Aleister Black, Ricochet vs. Cesaro, Sheamus",
+      "result": "Aleister Black, Ricochet defeated Cesaro, Sheamus.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "aleister-black",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Aleister Black",
+        "Ricochet",
+        "Cesaro",
+        "Sheamus"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-03-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82657",
+          "116793"
+        ],
+        "sourceEventIds": [
+          "12888"
+        ]
+      },
+      "legacyId": "bulk-match-82657",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Mandy Rose vs. Naomi",
+      "result": "Mandy Rose defeated Naomi.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "mandy-rose",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mandy Rose",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-03-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82658",
+          "116794"
+        ],
+        "sourceEventIds": [
+          "12888"
+        ]
+      },
+      "legacyId": "bulk-match-82658",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 5,
+      "type": "match",
+      "title": "Kevin Owens vs. Rowan",
+      "result": "Kevin Owens defeated Rowan by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "erick-rowan",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Rowan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-03-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82659",
+          "116795"
+        ],
+        "sourceEventIds": [
+          "12888"
+        ]
+      },
+      "legacyId": "bulk-match-82659",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12888"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12888"
+    ]
+  }
+}

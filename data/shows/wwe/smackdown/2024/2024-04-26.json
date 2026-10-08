@@ -1,0 +1,221 @@
+{
+  "id": "wwe/smackdown/2024-04-26",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2024-04-26",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2024-04-26"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Dragon Lee, Rey Mysterio vs. Angel, Berto",
+      "result": "Dragon Lee, Rey Mysterio defeated Angel, Berto.",
+      "matchType": "4-person match",
+      "duration": 325,
+      "participants": [
+        {
+          "person": "dragon-lee",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "angel",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "berto",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dragon Lee",
+        "Rey Mysterio",
+        "Angel",
+        "Berto"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-04-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "1458",
+          "94079",
+          "99786"
+        ],
+        "sourceEventIds": [
+          "294"
+        ]
+      },
+      "legacyId": "bulk-match-1458",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Bron Breakker vs. Cedric Alexander",
+      "result": "Bron Breakker defeated Cedric Alexander.",
+      "matchType": "Singles match",
+      "duration": 16,
+      "participants": [
+        {
+          "person": "bron-breakker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cedric-alexander",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bron Breakker",
+        "Cedric Alexander"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-04-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "1459",
+          "94080",
+          "99787"
+        ],
+        "sourceEventIds": [
+          "294"
+        ]
+      },
+      "legacyId": "bulk-match-1459",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Naomi vs. Tiffany Stratton",
+      "result": "Naomi defeated Tiffany Stratton by disqualification.",
+      "matchType": "Singles match",
+      "duration": 377,
+      "participants": [
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tiffany-stratton",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Naomi",
+        "Tiffany Stratton"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-04-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "1460",
+          "94081",
+          "99788"
+        ],
+        "sourceEventIds": [
+          "294"
+        ]
+      },
+      "legacyId": "bulk-match-1460",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Cody Rhodes vs. Carmelo Hayes",
+      "result": "Cody Rhodes defeated Carmelo Hayes.",
+      "matchType": "Singles match",
+      "duration": 519,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmelo-hayes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Carmelo Hayes"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-04-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "1461",
+          "94082",
+          "99789"
+        ],
+        "sourceEventIds": [
+          "294"
+        ]
+      },
+      "legacyId": "bulk-match-1461",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-294"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "294"
+    ]
+  }
+}

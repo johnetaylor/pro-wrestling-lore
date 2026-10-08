@@ -1,0 +1,218 @@
+{
+  "id": "wwe/smackdown/2003-06-03",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2003-06-03",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2003/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "The Undertaker vs. Chuck Palumbo",
+      "result": "The Undertaker defeated Chuck Palumbo.",
+      "matchType": "Singles match",
+      "duration": 319,
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chuck-palumbo",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "Chuck Palumbo"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46402",
+          "160585"
+        ],
+        "sourceEventIds": [
+          "6848"
+        ]
+      },
+      "legacyId": "bulk-match-46402",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "John Cena vs. Chris Benoit",
+      "result": "John Cena defeated Chris Benoit.",
+      "matchType": "Singles match",
+      "duration": 212,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Chris Benoit"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46404",
+          "160587"
+        ],
+        "sourceEventIds": [
+          "6848"
+        ]
+      },
+      "legacyId": "bulk-match-46404",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Rikishi, Torrie Wilson vs. Jamie Noble, Nidia",
+      "result": "Rikishi, Torrie Wilson defeated Jamie Noble, Nidia.",
+      "matchType": "4-person match",
+      "duration": 211,
+      "participants": [
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "torrie-wilson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jamie-noble",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "nidia",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rikishi",
+        "Torrie Wilson",
+        "Jamie Noble",
+        "Nidia"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46405",
+          "160588"
+        ],
+        "sourceEventIds": [
+          "6848"
+        ]
+      },
+      "legacyId": "bulk-match-46405",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Rey Mysterio vs. Matt Hardy",
+      "result": "Rey Mysterio defeated Matt Hardy.",
+      "matchType": "Singles match",
+      "duration": 838,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Matt Hardy"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46406",
+          "160589"
+        ],
+        "sourceEventIds": [
+          "6848"
+        ]
+      },
+      "legacyId": "bulk-match-46406",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6848"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6848"
+    ]
+  }
+}

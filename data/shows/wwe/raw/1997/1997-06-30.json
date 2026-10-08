@@ -1,0 +1,204 @@
+{
+  "id": "wwe/raw/1997-06-30",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1997-06-30",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1997/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Ken Shamrock vs. Hunter Hearst Helmsley",
+      "result": "Ken Shamrock defeated Hunter Hearst Helmsley.",
+      "matchType": "Singles match",
+      "duration": 282,
+      "participants": [
+        {
+          "person": "ken-shamrock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ken Shamrock",
+        "Hunter Hearst Helmsley"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27595",
+          "179448"
+        ],
+        "sourceEventIds": [
+          "4264"
+        ]
+      },
+      "legacyId": "bulk-match-27595",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Brian Christopher vs. Scott Putski",
+      "result": "Brian Christopher defeated Scott Putski.",
+      "matchType": "Singles match",
+      "duration": 218,
+      "participants": [
+        {
+          "person": "grand-master-sexay",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "scott-putski",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Brian Christopher",
+        "Scott Putski"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27597",
+          "179450"
+        ],
+        "sourceEventIds": [
+          "4264"
+        ]
+      },
+      "legacyId": "bulk-match-27597",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Brian Pillman vs. Mankind",
+      "result": "Brian Pillman defeated Mankind by count-out.",
+      "matchType": "Singles match",
+      "duration": 543,
+      "participants": [
+        {
+          "person": "brian-pillman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mick-foley",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Brian Pillman",
+        "Mankind"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27598",
+          "179451"
+        ],
+        "sourceEventIds": [
+          "4264"
+        ]
+      },
+      "legacyId": "bulk-match-27598",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Vader, Rockabilly — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "vader",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Vader",
+        "Rockabilly"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27600",
+          "179453"
+        ],
+        "sourceEventIds": [
+          "4264"
+        ]
+      },
+      "legacyId": "bulk-match-27600",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4264"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4264"
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "id": "wwe/smackdown/2013-03-29",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2013-03-29",
+  "dateBasis": "aired",
+  "recordedDate": "2013-03-26",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2013/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Chris Jericho vs. Wade Barrett",
+      "result": "Chris Jericho defeated Wade Barrett.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "wade-barrett",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Wade Barrett"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2013/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "61848",
+          "139893"
+        ],
+        "sourceEventIds": [
+          "9768"
+        ]
+      },
+      "legacyId": "bulk-match-61848",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Jack Swagger, The Great Khali — double count-out.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "jack-swagger",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "the-great-khali",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Jack Swagger",
+        "The Great Khali"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2013/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "61851",
+          "139896"
+        ],
+        "sourceEventIds": [
+          "9768"
+        ]
+      },
+      "legacyId": "bulk-match-61851",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Randy Orton, Sheamus, The Big Show vs. Antonio Cesaro, Cody Rhodes, Damien Sandow",
+      "result": "Randy Orton, Sheamus, The Big Show defeated Antonio Cesaro, Cody Rhodes, Damien Sandow.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "damien-sandow",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Sheamus",
+        "The Big Show",
+        "Antonio Cesaro",
+        "Cody Rhodes",
+        "Damien Sandow"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2013/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "61852",
+          "139897"
+        ],
+        "sourceEventIds": [
+          "9768"
+        ]
+      },
+      "legacyId": "bulk-match-61852",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-9768"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "9768"
+    ]
+  }
+}

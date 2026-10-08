@@ -1,0 +1,229 @@
+{
+  "id": "wwe/raw/2019-05-27",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2019-05-27",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2019-05-27"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Becky Lynch, Nikki Cross vs. Billie Kay, Peyton Royce",
+      "result": "Becky Lynch, Nikki Cross defeated Billie Kay, Peyton Royce.",
+      "matchType": "4-person match",
+      "duration": 590,
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nikki-cross",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billie-kay",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "peyton-royce",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Nikki Cross",
+        "Billie Kay",
+        "Peyton Royce"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-05-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83242",
+          "116182"
+        ],
+        "sourceEventIds": [
+          "12990"
+        ]
+      },
+      "legacyId": "bulk-match-83242",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Ricochet vs. Cesaro",
+      "result": "Ricochet defeated Cesaro.",
+      "matchType": "Singles match",
+      "duration": 588,
+      "participants": [
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ricochet",
+        "Cesaro"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-05-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83243",
+          "116183"
+        ],
+        "sourceEventIds": [
+          "12990"
+        ]
+      },
+      "legacyId": "bulk-match-83243",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Baron Corbin vs. Bobby Lashley, Braun Strowman, The Miz",
+      "result": "Baron Corbin defeated Bobby Lashley, Braun Strowman, The Miz.",
+      "matchType": "Fatal Four Way match",
+      "duration": 971,
+      "participants": [
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Baron Corbin",
+        "Bobby Lashley",
+        "Braun Strowman",
+        "The Miz"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-05-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83244",
+          "116184"
+        ],
+        "sourceEventIds": [
+          "12990"
+        ]
+      },
+      "legacyId": "bulk-match-83244",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Seth Rollins vs. Sami Zayn",
+      "result": "Seth Rollins defeated Sami Zayn.",
+      "matchType": "Singles match",
+      "duration": 1206,
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Seth Rollins",
+        "Sami Zayn"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-05-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83245",
+          "116185"
+        ],
+        "sourceEventIds": [
+          "12990"
+        ]
+      },
+      "legacyId": "bulk-match-83245",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12990"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12990"
+    ]
+  }
+}

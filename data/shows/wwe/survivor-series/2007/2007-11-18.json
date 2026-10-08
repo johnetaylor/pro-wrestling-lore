@@ -1,0 +1,137 @@
+{
+  "id": "wwe/survivor-series/2007-11-18",
+  "promotion": "wwe",
+  "series": "wwe/survivor-series",
+  "name": "Survivor Series '07",
+  "date": "2007-11-18",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "CM Punk vs. John Morrison, The Miz",
+      "result": "CM Punk defeated John Morrison, The Miz.",
+      "matchType": "Other match",
+      "duration": 476,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "cm-punk",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "CM Punk",
+        "John Morrison",
+        "The Miz"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52524",
+          "153291"
+        ],
+        "sourceEventIds": [
+          "7990"
+        ]
+      },
+      "legacyId": "bulk-match-52524",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Lance Cade, Trevor Murdoch vs. Cody Rhodes, Hardcore Holly",
+      "result": "Lance Cade, Trevor Murdoch defeated Cody Rhodes, Hardcore Holly.",
+      "matchType": "4-person match",
+      "duration": 476,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "lance-cade",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "trevor-murdoch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lance Cade",
+        "Trevor Murdoch",
+        "Cody Rhodes",
+        "Hardcore Holly"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52526",
+          "153293"
+        ],
+        "sourceEventIds": [
+          "7990"
+        ]
+      },
+      "legacyId": "bulk-match-52526",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7990"
+  ],
+  "legacy": {
+    "showFamily": "survivor-series",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7990"
+    ]
+  }
+}

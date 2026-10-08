@@ -1,0 +1,168 @@
+{
+  "id": "wwe/raw/2007-12-03",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2007-12-03",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Chris Jericho vs. Umaga",
+      "result": "Chris Jericho defeated Umaga by disqualification.",
+      "matchType": "Singles match",
+      "duration": 540,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "umaga",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Umaga"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52583",
+          "153219"
+        ],
+        "sourceEventIds": [
+          "8001"
+        ]
+      },
+      "legacyId": "bulk-match-52583",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Hornswoggle vs. Carlito, Jonathan Coachman",
+      "result": "Hornswoggle defeated Carlito, Jonathan Coachman.",
+      "matchType": "Tag Team match",
+      "duration": 77,
+      "participants": [
+        {
+          "person": "hornswoggle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "jonathan-coachman",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hornswoggle",
+        "Carlito",
+        "Jonathan Coachman"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52584",
+          "153220"
+        ],
+        "sourceEventIds": [
+          "8001"
+        ]
+      },
+      "legacyId": "bulk-match-52584",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Jeff Hardy vs. Snitsky",
+      "result": "Jeff Hardy defeated Snitsky.",
+      "matchType": "Singles match",
+      "duration": 249,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "snitsky",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Snitsky"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52585",
+          "153221"
+        ],
+        "sourceEventIds": [
+          "8001"
+        ]
+      },
+      "legacyId": "bulk-match-52585",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8001"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8001"
+    ]
+  }
+}

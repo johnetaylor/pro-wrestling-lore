@@ -1,0 +1,206 @@
+{
+  "id": "wwe/no-mercy/2000-10-22",
+  "promotion": "wwe",
+  "series": "wwe/no-mercy",
+  "name": "No Mercy '00",
+  "date": "2000-10-22",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 5,
+      "type": "match",
+      "title": "Chris Jericho vs. X-Pac",
+      "result": "Chris Jericho defeated X-Pac.",
+      "matchType": "Cage match",
+      "duration": 640,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "x-pac",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "X-Pac"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40690",
+          "166325"
+        ],
+        "sourceEventIds": [
+          "6016"
+        ]
+      },
+      "legacyId": "bulk-match-40690",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 7,
+      "type": "match",
+      "title": "Other match",
+      "result": "Steve Austin, Rikishi — no contest.",
+      "matchType": "Other match",
+      "duration": 561,
+      "participants": [
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Steve Austin",
+        "Rikishi"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40692",
+          "166327"
+        ],
+        "sourceEventIds": [
+          "6016"
+        ]
+      },
+      "legacyId": "bulk-match-40692",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 10,
+      "type": "match",
+      "title": "Triple H vs. Chris Benoit",
+      "result": "Triple H defeated Chris Benoit.",
+      "matchType": "Singles match",
+      "duration": 1123,
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "Chris Benoit"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40695",
+          "166330"
+        ],
+        "sourceEventIds": [
+          "6016"
+        ]
+      },
+      "legacyId": "bulk-match-40695",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 11,
+      "type": "match",
+      "title": "Kurt Angle vs. The Rock",
+      "result": "Kurt Angle defeated The Rock.",
+      "matchType": "Other match",
+      "duration": 1261,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "The Rock"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40696",
+          "166331"
+        ],
+        "sourceEventIds": [
+          "6016"
+        ]
+      },
+      "legacyId": "bulk-match-40696",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6016"
+  ],
+  "legacy": {
+    "showFamily": "no-mercy",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6016"
+    ]
+  }
+}

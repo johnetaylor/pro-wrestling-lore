@@ -1,0 +1,127 @@
+{
+  "id": "wwe/smackdown/2000-03-21",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2000-03-21",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Al Snow, Steve Blackman vs. Crash Holly, Hardcore Holly",
+      "result": "Al Snow, Steve Blackman defeated Crash Holly, Hardcore Holly by count-out.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "al-snow",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "steve-blackman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "crash-holly",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Al Snow",
+        "Steve Blackman",
+        "Crash Holly",
+        "Hardcore Holly"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "38491",
+          "168529"
+        ],
+        "sourceEventIds": [
+          "5684"
+        ]
+      },
+      "legacyId": "bulk-match-38491",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "The Rock vs. Bubba Ray Dudley",
+      "result": "The Rock defeated Bubba Ray Dudley.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bubba-ray-dudley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Rock",
+        "Bubba Ray Dudley"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "38492",
+          "168530"
+        ],
+        "sourceEventIds": [
+          "5684"
+        ]
+      },
+      "legacyId": "bulk-match-38492",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5684"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5684"
+    ]
+  }
+}

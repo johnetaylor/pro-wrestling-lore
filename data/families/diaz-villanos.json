@@ -1,0 +1,111 @@
+{
+  "id": "diaz-villanos",
+  "name": "Díaz · Mendoza · Los Villanos",
+  "description": "Ray Mendoza and his five sons who wrestled as Villanos I–V.",
+  "branches": [
+    {
+      "id": "diaz-villanos",
+      "name": "The Díaz · Mendoza · Los Villanos family"
+    }
+  ],
+  "members": [
+    {
+      "id": "ray-mendoza",
+      "name": "Ray Mendoza",
+      "branch": "diaz-villanos",
+      "source": "villanos",
+      "layout": {
+        "x": 376,
+        "y": 24
+      }
+    },
+    {
+      "id": "villano-1",
+      "name": "Villano I",
+      "branch": "diaz-villanos",
+      "source": "villanos",
+      "layout": {
+        "x": 16,
+        "y": 164
+      }
+    },
+    {
+      "id": "villano-2",
+      "name": "Villano II",
+      "branch": "diaz-villanos",
+      "source": "villanos",
+      "layout": {
+        "x": 196,
+        "y": 164
+      }
+    },
+    {
+      "id": "villano-3",
+      "name": "Villano III",
+      "branch": "diaz-villanos",
+      "source": "villanos",
+      "layout": {
+        "x": 376,
+        "y": 164
+      }
+    },
+    {
+      "id": "villano-4",
+      "name": "Villano IV",
+      "branch": "diaz-villanos",
+      "source": "villanos",
+      "layout": {
+        "x": 556,
+        "y": 164
+      }
+    },
+    {
+      "id": "villano-5",
+      "name": "Villano V",
+      "branch": "diaz-villanos",
+      "source": "villanos",
+      "layout": {
+        "x": 736,
+        "y": 164
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "ray-mendoza",
+      "b": "villano-1",
+      "type": "parent",
+      "source": "villanos"
+    },
+    {
+      "a": "ray-mendoza",
+      "b": "villano-2",
+      "type": "parent",
+      "source": "villanos"
+    },
+    {
+      "a": "ray-mendoza",
+      "b": "villano-3",
+      "type": "parent",
+      "source": "villanos"
+    },
+    {
+      "a": "ray-mendoza",
+      "b": "villano-4",
+      "type": "parent",
+      "source": "villanos"
+    },
+    {
+      "a": "ray-mendoza",
+      "b": "villano-5",
+      "type": "parent",
+      "source": "villanos"
+    }
+  ],
+  "sources": {
+    "villanos": {
+      "label": "Luchawiki: Ray Mendoza and Los Villanos",
+      "url": "https://www.luchawiki.org/index.php/Los_Villanos"
+    }
+  }
+}

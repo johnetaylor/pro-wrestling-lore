@@ -1,0 +1,129 @@
+{
+  "id": "wwe/smackdown/2006-08-08",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2006-08-08",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2006/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Gregory Helms vs. Tatanka",
+      "result": "Gregory Helms defeated Tatanka.",
+      "matchType": "Singles match",
+      "duration": 294,
+      "participants": [
+        {
+          "person": "the-hurricane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tatanka",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Gregory Helms",
+        "Tatanka"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50871",
+          "155301"
+        ],
+        "sourceEventIds": [
+          "7691"
+        ]
+      },
+      "legacyId": "bulk-match-50871",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 6,
+      "type": "match",
+      "title": "Batista, Bobby Lashley vs. Finlay, William Regal",
+      "result": "Batista, Bobby Lashley defeated Finlay, William Regal.",
+      "matchType": "4-person match",
+      "duration": 600,
+      "participants": [
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finlay",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Batista",
+        "Bobby Lashley",
+        "Finlay",
+        "William Regal"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50876",
+          "155306"
+        ],
+        "sourceEventIds": [
+          "7691"
+        ]
+      },
+      "legacyId": "bulk-match-50876",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7691"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7691"
+    ]
+  }
+}

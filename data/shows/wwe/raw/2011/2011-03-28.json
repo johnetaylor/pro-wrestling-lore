@@ -1,0 +1,228 @@
+{
+  "id": "wwe/raw/2011-03-28",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2011-03-28",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2011/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Christian, Edge vs. Alberto Del Rio, Brodus Clay",
+      "result": "Christian, Edge defeated Alberto Del Rio, Brodus Clay.",
+      "matchType": "4-person match",
+      "duration": 496,
+      "participants": [
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alberto-del-rio",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "brodus-clay",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Christian",
+        "Edge",
+        "Alberto Del Rio",
+        "Brodus Clay"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "56712",
+          "147149"
+        ],
+        "sourceEventIds": [
+          "8858"
+        ]
+      },
+      "legacyId": "bulk-match-56712",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Santino Marella vs. Justin Gabriel",
+      "result": "Santino Marella defeated Justin Gabriel.",
+      "matchType": "Singles match",
+      "duration": 113,
+      "participants": [
+        {
+          "person": "santino-marella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "justin-gabriel",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Santino Marella",
+        "Justin Gabriel"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "56713",
+          "147150"
+        ],
+        "sourceEventIds": [
+          "8858"
+        ]
+      },
+      "legacyId": "bulk-match-56713",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Jack Swagger vs. Jerry Lawler",
+      "result": "Jack Swagger defeated Jerry Lawler by disqualification.",
+      "matchType": "Singles match",
+      "duration": 77,
+      "participants": [
+        {
+          "person": "jack-swagger",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jerry-lawler",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Jack Swagger",
+        "Jerry Lawler"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "56714",
+          "147151"
+        ],
+        "sourceEventIds": [
+          "8858"
+        ]
+      },
+      "legacyId": "bulk-match-56714",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Dolph Ziggler, Sheamus vs. Daniel Bryan, John Morrison",
+      "result": "Dolph Ziggler, Sheamus defeated Daniel Bryan, John Morrison.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dolph Ziggler",
+        "Sheamus",
+        "Daniel Bryan",
+        "John Morrison"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "56715",
+          "147152"
+        ],
+        "sourceEventIds": [
+          "8858"
+        ]
+      },
+      "legacyId": "bulk-match-56715",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8858"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8858"
+    ]
+  }
+}

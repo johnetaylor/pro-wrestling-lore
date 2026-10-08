@@ -1,0 +1,223 @@
+{
+  "id": "wwe/raw/1999-03-15",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1999-03-15",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1999/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Road Dogg vs. Val Venis",
+      "result": "Road Dogg defeated Val Venis.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "road-dogg",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "val-venis",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Road Dogg",
+        "Val Venis"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "33436",
+          "173592"
+        ],
+        "sourceEventIds": [
+          "5013"
+        ]
+      },
+      "legacyId": "bulk-match-33436",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Shane McMahon vs. Gerald Brisco, Pat Patterson",
+      "result": "Shane McMahon defeated Gerald Brisco, Pat Patterson.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "shane-mcmahon",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "gerald-brisco",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "pat-patterson",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shane McMahon",
+        "Gerald Brisco",
+        "Pat Patterson"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "33437",
+          "173593"
+        ],
+        "sourceEventIds": [
+          "5013"
+        ]
+      },
+      "legacyId": "bulk-match-33437",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Billy Gunn vs. Hardcore Holly",
+      "result": "Billy Gunn defeated Hardcore Holly.",
+      "matchType": "Other match",
+      "duration": 419,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Billy Gunn",
+        "Hardcore Holly"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "33440",
+          "173596"
+        ],
+        "sourceEventIds": [
+          "5013"
+        ]
+      },
+      "legacyId": "bulk-match-33440",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "4-person match",
+      "result": "Mankind, Steve Austin, Paul Wight, The Rock — no contest.",
+      "matchType": "4-person match",
+      "duration": 706,
+      "participants": [
+        {
+          "person": "mick-foley",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Mankind",
+        "Steve Austin",
+        "Paul Wight",
+        "The Rock"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "33441",
+          "173597"
+        ],
+        "sourceEventIds": [
+          "5013"
+        ]
+      },
+      "legacyId": "bulk-match-33441",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5013"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5013"
+    ]
+  }
+}

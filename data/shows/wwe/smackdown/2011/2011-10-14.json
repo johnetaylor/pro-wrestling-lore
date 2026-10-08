@@ -1,0 +1,219 @@
+{
+  "id": "wwe/smackdown/2011-10-14",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2011-10-14",
+  "dateBasis": "aired",
+  "recordedDate": "2011-10-11",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2011/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Beth Phoenix vs. Kelly Kelly",
+      "result": "Beth Phoenix defeated Kelly Kelly.",
+      "matchType": "Singles match",
+      "duration": 112,
+      "participants": [
+        {
+          "person": "beth-phoenix",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kelly-kelly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Beth Phoenix",
+        "Kelly Kelly"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "57629",
+          "145699"
+        ],
+        "sourceEventIds": [
+          "9046"
+        ]
+      },
+      "legacyId": "bulk-match-57629",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Alberto Del Rio vs. Sheamus",
+      "result": "Alberto Del Rio defeated Sheamus.",
+      "matchType": "Singles match",
+      "duration": 235,
+      "participants": [
+        {
+          "person": "alberto-del-rio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alberto Del Rio",
+        "Sheamus"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "57631",
+          "145701"
+        ],
+        "sourceEventIds": [
+          "9046"
+        ]
+      },
+      "legacyId": "bulk-match-57631",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Kofi Kingston, Zack Ryder vs. Dolph Ziggler, Jack Swagger",
+      "result": "Kofi Kingston, Zack Ryder defeated Dolph Ziggler, Jack Swagger.",
+      "matchType": "4-person match",
+      "duration": 606,
+      "participants": [
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-cardona",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "jack-swagger",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kofi Kingston",
+        "Zack Ryder",
+        "Dolph Ziggler",
+        "Jack Swagger"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "57632",
+          "145702"
+        ],
+        "sourceEventIds": [
+          "9046"
+        ]
+      },
+      "legacyId": "bulk-match-57632",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Randy Orton vs. Mark Henry",
+      "result": "Randy Orton defeated Mark Henry by disqualification.",
+      "matchType": "Singles match",
+      "duration": 598,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Mark Henry"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "57633",
+          "145703"
+        ],
+        "sourceEventIds": [
+          "9046"
+        ]
+      },
+      "legacyId": "bulk-match-57633",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-9046"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "9046"
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "id": "wwe/royal-rumble/2001-01-21",
+  "promotion": "wwe",
+  "series": "wwe/royal-rumble",
+  "name": "Royal Rumble '01",
+  "date": "2001-01-21",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2001/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Chris Jericho vs. Chris Benoit",
+      "result": "Chris Jericho defeated Chris Benoit.",
+      "matchType": "Ladder match",
+      "duration": 1124,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Chris Benoit"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41555",
+          "165459"
+        ],
+        "sourceEventIds": [
+          "6134"
+        ]
+      },
+      "legacyId": "bulk-match-41555",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Ivory vs. Chyna",
+      "result": "Ivory defeated Chyna.",
+      "matchType": "Singles match",
+      "duration": 212,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "ivory",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chyna",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ivory",
+        "Chyna"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41556",
+          "165460"
+        ],
+        "sourceEventIds": [
+          "6134"
+        ]
+      },
+      "legacyId": "bulk-match-41556",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Kurt Angle vs. Triple H",
+      "result": "Kurt Angle defeated Triple H.",
+      "matchType": "Singles match",
+      "duration": 1455,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Triple H"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41557",
+          "165461"
+        ],
+        "sourceEventIds": [
+          "6134"
+        ]
+      },
+      "legacyId": "bulk-match-41557",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6134"
+  ],
+  "legacy": {
+    "showFamily": "royal-rumble",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6134"
+    ]
+  }
+}

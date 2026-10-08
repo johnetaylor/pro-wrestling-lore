@@ -1,0 +1,350 @@
+{
+  "id": "wwe/raw/2018-05-28",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2018-05-28",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2018-05-28"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Finn Bálor vs. Braun Strowman",
+      "result": "Finn Bálor defeated Braun Strowman by disqualification.",
+      "matchType": "Singles match",
+      "duration": 687,
+      "participants": [
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Finn Bálor",
+        "Braun Strowman"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-05-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80609",
+          "118847"
+        ],
+        "sourceEventIds": [
+          "12530"
+        ]
+      },
+      "legacyId": "bulk-match-80609",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Jinder Mahal vs. Seth Rollins",
+      "result": "Jinder Mahal defeated Seth Rollins by disqualification.",
+      "matchType": "Singles match",
+      "duration": 773,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Jinder Mahal",
+        "Seth Rollins"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-05-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80610",
+          "118848"
+        ],
+        "sourceEventIds": [
+          "12530"
+        ]
+      },
+      "legacyId": "bulk-match-80610",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Bray Wyatt, Matt Hardy vs. Konnor, Viktor",
+      "result": "Bray Wyatt, Matt Hardy defeated Konnor, Viktor.",
+      "matchType": "4-person match",
+      "duration": 286,
+      "participants": [
+        {
+          "person": "bray-wyatt",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "konnor",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "viktor",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bray Wyatt",
+        "Matt Hardy",
+        "Konnor",
+        "Viktor"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-05-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80612",
+          "118850"
+        ],
+        "sourceEventIds": [
+          "12530"
+        ]
+      },
+      "legacyId": "bulk-match-80612",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Kevin Owens vs. Bobby Roode",
+      "result": "Kevin Owens defeated Bobby Roode.",
+      "matchType": "Singles match",
+      "duration": 581,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bobby-roode",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Bobby Roode"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-05-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80613",
+          "118851"
+        ],
+        "sourceEventIds": [
+          "12530"
+        ]
+      },
+      "legacyId": "bulk-match-80613",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 10,
+      "type": "match",
+      "title": "Ruby Riott vs. Dana Brooke",
+      "result": "Ruby Riott defeated Dana Brooke.",
+      "matchType": "Gauntlet match",
+      "duration": 56,
+      "participants": [
+        {
+          "person": "ruby-riott",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dana-brooke",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ruby Riott",
+        "Dana Brooke"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-05-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80618",
+          "118856"
+        ],
+        "sourceEventIds": [
+          "12530"
+        ]
+      },
+      "legacyId": "bulk-match-80618",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 11,
+      "type": "match",
+      "title": "Ruby Riott vs. Mickie James",
+      "result": "Ruby Riott defeated Mickie James.",
+      "matchType": "Gauntlet match",
+      "duration": 383,
+      "participants": [
+        {
+          "person": "ruby-riott",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ruby Riott",
+        "Mickie James"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-05-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80619",
+          "118857"
+        ],
+        "sourceEventIds": [
+          "12530"
+        ]
+      },
+      "legacyId": "bulk-match-80619",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m7",
+      "order": 12,
+      "type": "match",
+      "title": "Sasha Banks vs. Ruby Riott",
+      "result": "Sasha Banks defeated Ruby Riott.",
+      "matchType": "Gauntlet match",
+      "duration": 352,
+      "participants": [
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ruby-riott",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sasha Banks",
+        "Ruby Riott"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-05-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80620",
+          "118858"
+        ],
+        "sourceEventIds": [
+          "12530"
+        ]
+      },
+      "legacyId": "bulk-match-80620",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12530"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12530"
+    ]
+  }
+}

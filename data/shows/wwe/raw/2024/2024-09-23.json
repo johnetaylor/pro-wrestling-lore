@@ -1,0 +1,214 @@
+{
+  "id": "wwe/raw/2024-09-23",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2024-09-23",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2024-09-23"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Sami Zayn vs. Ludwig Kaiser",
+      "result": "Sami Zayn defeated Ludwig Kaiser.",
+      "matchType": "Singles match",
+      "duration": 740,
+      "participants": [
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ludwig-kaiser",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sami Zayn",
+        "Ludwig Kaiser"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-09-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "94971"
+        ],
+        "sourceEventIds": [
+          "15040"
+        ]
+      },
+      "legacyId": "bulk-match-94971",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Dragon Lee vs. Carlito",
+      "result": "Dragon Lee defeated Carlito.",
+      "matchType": "Singles match",
+      "duration": 138,
+      "participants": [
+        {
+          "person": "dragon-lee",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dragon Lee",
+        "Carlito"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-09-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "94972"
+        ],
+        "sourceEventIds": [
+          "15040"
+        ]
+      },
+      "legacyId": "bulk-match-94972",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "IYO SKY, Kairi Sane vs. Alba Fyre, Isla Dawn",
+      "result": "IYO SKY, Kairi Sane defeated Alba Fyre, Isla Dawn.",
+      "matchType": "4-person match",
+      "duration": 574,
+      "participants": [
+        {
+          "person": "iyo-sky",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kairi-sane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alba-fyre",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "isla-dawn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "IYO SKY",
+        "Kairi Sane",
+        "Alba Fyre",
+        "Isla Dawn"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-09-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "94973"
+        ],
+        "sourceEventIds": [
+          "15040"
+        ]
+      },
+      "legacyId": "bulk-match-94973",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Jey Uso vs. Bron Breakker",
+      "result": "Jey Uso defeated Bron Breakker.",
+      "matchType": "Singles match",
+      "duration": 1249,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "jey-uso",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bron-breakker",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jey Uso",
+        "Bron Breakker"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-09-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "94975"
+        ],
+        "sourceEventIds": [
+          "15040"
+        ]
+      },
+      "legacyId": "bulk-match-94975",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-15040"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "15040"
+    ]
+  }
+}

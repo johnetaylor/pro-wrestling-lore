@@ -1,0 +1,118 @@
+{
+  "id": "wwe/smackdown/2017-06-27",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-06-27",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-06-27"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Naomi vs. Lana",
+      "result": "Naomi defeated Lana.",
+      "matchType": "Singles match",
+      "duration": 42,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "lana",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Naomi",
+        "Lana"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-06-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77766",
+          "121728"
+        ],
+        "sourceEventIds": [
+          "12051"
+        ]
+      },
+      "legacyId": "bulk-match-77766",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Baron Corbin vs. Sami Zayn",
+      "result": "Baron Corbin defeated Sami Zayn.",
+      "matchType": "Singles match",
+      "duration": 490,
+      "participants": [
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Baron Corbin",
+        "Sami Zayn"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-06-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77767",
+          "121729"
+        ],
+        "sourceEventIds": [
+          "12051"
+        ]
+      },
+      "legacyId": "bulk-match-77767",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12051"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12051"
+    ]
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "id": "wwe/smackdown/2008-07-01",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2008-07-01",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Michelle McCool vs. Cherry, Kelly Kelly, Maryse, Victoria",
+      "result": "Michelle McCool defeated Cherry, Kelly Kelly, Maryse, Victoria.",
+      "matchType": "Other match",
+      "duration": 204,
+      "participants": [
+        {
+          "person": "michelle-mccool",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cherry",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kelly-kelly",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "maryse",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "victoria",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Michelle McCool",
+        "Cherry",
+        "Kelly Kelly",
+        "Maryse",
+        "Victoria"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53382",
+          "152192"
+        ],
+        "sourceEventIds": [
+          "8135"
+        ]
+      },
+      "legacyId": "bulk-match-53382",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Jeff Hardy vs. John Morrison",
+      "result": "Jeff Hardy defeated John Morrison.",
+      "matchType": "Singles match",
+      "duration": 770,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "John Morrison"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53384",
+          "152194"
+        ],
+        "sourceEventIds": [
+          "8135"
+        ]
+      },
+      "legacyId": "bulk-match-53384",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Umaga vs. Sho Funaki",
+      "result": "Umaga defeated Sho Funaki.",
+      "matchType": "Singles match",
+      "duration": 118,
+      "participants": [
+        {
+          "person": "umaga",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sho-funaki",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Umaga",
+        "Sho Funaki"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53385",
+          "152195"
+        ],
+        "sourceEventIds": [
+          "8135"
+        ]
+      },
+      "legacyId": "bulk-match-53385",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8135"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8135"
+    ]
+  }
+}

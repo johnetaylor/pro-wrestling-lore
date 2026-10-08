@@ -1,0 +1,162 @@
+{
+  "id": "wwe/royal-rumble/1997-01-19",
+  "promotion": "wwe",
+  "series": "wwe/royal-rumble",
+  "name": "Royal Rumble '97",
+  "date": "1997-01-19",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1997/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Hunter Hearst Helmsley vs. Goldust",
+      "result": "Hunter Hearst Helmsley defeated Goldust.",
+      "matchType": "Singles match",
+      "duration": 1010,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hunter Hearst Helmsley",
+        "Goldust"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "26292",
+          "180748"
+        ],
+        "sourceEventIds": [
+          "4089"
+        ]
+      },
+      "legacyId": "bulk-match-26292",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Ahmed Johnson vs. Faarooq",
+      "result": "Ahmed Johnson defeated Faarooq by disqualification.",
+      "matchType": "Singles match",
+      "duration": 528,
+      "participants": [
+        {
+          "person": "ahmed-johnson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ron-simmons",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Ahmed Johnson",
+        "Faarooq"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "26293",
+          "180749"
+        ],
+        "sourceEventIds": [
+          "4089"
+        ]
+      },
+      "legacyId": "bulk-match-26293",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Vader vs. The Undertaker",
+      "result": "Vader defeated The Undertaker.",
+      "matchType": "Singles match",
+      "duration": 799,
+      "participants": [
+        {
+          "person": "vader",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Vader",
+        "The Undertaker"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "26294",
+          "180750"
+        ],
+        "sourceEventIds": [
+          "4089"
+        ]
+      },
+      "legacyId": "bulk-match-26294",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4089"
+  ],
+  "legacy": {
+    "showFamily": "royal-rumble",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4089"
+    ]
+  }
+}

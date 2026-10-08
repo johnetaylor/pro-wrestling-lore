@@ -1,0 +1,208 @@
+{
+  "id": "wwe/raw/2024-10-07",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2024-10-07",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2024-10-07"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Jey Uso vs. Xavier Woods",
+      "result": "Jey Uso defeated Xavier Woods.",
+      "matchType": "Singles match",
+      "duration": 392,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "jey-uso",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jey Uso",
+        "Xavier Woods"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-10-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95053"
+        ],
+        "sourceEventIds": [
+          "15058",
+          "15059"
+        ]
+      },
+      "legacyId": "bulk-match-95053",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Sheamus vs. Pete Dunne",
+      "result": "Sheamus defeated Pete Dunne.",
+      "matchType": "Other match",
+      "duration": 778,
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "pete-dunne",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Pete Dunne"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-10-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95054"
+        ],
+        "sourceEventIds": [
+          "15058",
+          "15059"
+        ]
+      },
+      "legacyId": "bulk-match-95054",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Bron Breakker vs. Kofi Kingston",
+      "result": "Bron Breakker defeated Kofi Kingston.",
+      "matchType": "Singles match",
+      "duration": 506,
+      "participants": [
+        {
+          "person": "bron-breakker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bron Breakker",
+        "Kofi Kingston"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-10-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95050"
+        ],
+        "sourceEventIds": [
+          "15058",
+          "15059"
+        ]
+      },
+      "legacyId": "bulk-match-95050",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Gunther vs. Sami Zayn",
+      "result": "Gunther defeated Sami Zayn.",
+      "matchType": "Singles match",
+      "duration": 1004,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "gunther",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Gunther",
+        "Sami Zayn"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-10-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95056"
+        ],
+        "sourceEventIds": [
+          "15058",
+          "15059"
+        ]
+      },
+      "legacyId": "bulk-match-95056",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-15059"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "15058",
+      "15059"
+    ]
+  }
+}

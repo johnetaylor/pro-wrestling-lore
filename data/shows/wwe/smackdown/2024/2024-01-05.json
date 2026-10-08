@@ -1,0 +1,171 @@
+{
+  "id": "wwe/smackdown/2024-01-05",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2024-01-05",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2024-01-05"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Kevin Owens vs. Santos Escobar",
+      "result": "Kevin Owens defeated Santos Escobar.",
+      "matchType": "Singles match",
+      "duration": 1013,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "santos-escobar",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Santos Escobar"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-01-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "2680",
+          "93292",
+          "101008"
+        ],
+        "sourceEventIds": [
+          "522"
+        ]
+      },
+      "legacyId": "bulk-match-2680",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Iyo Sky vs. Michin",
+      "result": "Iyo Sky defeated Michin.",
+      "matchType": "Singles match",
+      "duration": 620,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "iyo-sky",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "michin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Iyo Sky",
+        "Michin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-01-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "2681",
+          "93293",
+          "101009"
+        ],
+        "sourceEventIds": [
+          "522"
+        ]
+      },
+      "legacyId": "bulk-match-2681",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Other match",
+      "result": "A.J. Styles, L.A. Knight, Randy Orton — no contest.",
+      "matchType": "Other match",
+      "duration": 960,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "la-knight",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "L.A. Knight",
+        "Randy Orton"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-01-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "2683",
+          "93295",
+          "101011"
+        ],
+        "sourceEventIds": [
+          "522"
+        ]
+      },
+      "legacyId": "bulk-match-2683",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-522"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "522"
+    ]
+  }
+}

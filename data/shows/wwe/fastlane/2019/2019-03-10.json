@@ -1,0 +1,174 @@
+{
+  "id": "wwe/fastlane/2019-03-10",
+  "promotion": "wwe",
+  "series": "wwe/fastlane",
+  "name": "Fastlane '19",
+  "date": "2019-03-10",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwefastlane/2019"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Big E, Xavier Woods vs. Rusev, Shinsuke Nakamura",
+      "result": "Big E, Xavier Woods defeated Rusev, Shinsuke Nakamura.",
+      "matchType": "Other match",
+      "duration": 795,
+      "participants": [
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Big E",
+        "Xavier Woods",
+        "Rusev",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwefastlane/2019"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82687",
+          "116757"
+        ],
+        "sourceEventIds": [
+          "12893"
+        ]
+      },
+      "legacyId": "bulk-match-82687",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Asuka vs. Mandy Rose",
+      "result": "Asuka defeated Mandy Rose.",
+      "matchType": "Singles match",
+      "duration": 400,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "asuka",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mandy-rose",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Asuka",
+        "Mandy Rose"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwefastlane/2019"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82689",
+          "116759"
+        ],
+        "sourceEventIds": [
+          "12893"
+        ]
+      },
+      "legacyId": "bulk-match-82689",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 9,
+      "type": "match",
+      "title": "Becky Lynch vs. Charlotte Flair",
+      "result": "Becky Lynch defeated Charlotte Flair by disqualification.",
+      "matchType": "Singles match",
+      "duration": 524,
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Charlotte Flair"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwefastlane/2019"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82695",
+          "116765"
+        ],
+        "sourceEventIds": [
+          "12893"
+        ]
+      },
+      "legacyId": "bulk-match-82695",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12893"
+  ],
+  "legacy": {
+    "showFamily": "fastlane",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12893"
+    ]
+  }
+}

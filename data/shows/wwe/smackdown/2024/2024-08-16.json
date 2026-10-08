@@ -1,0 +1,164 @@
+{
+  "id": "wwe/smackdown/2024-08-16",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2024-08-16",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2024-08-16"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Carmelo Hayes vs. Andrade",
+      "result": "Carmelo Hayes defeated Andrade.",
+      "matchType": "Singles match",
+      "duration": 599,
+      "participants": [
+        {
+          "person": "carmelo-hayes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Carmelo Hayes",
+        "Andrade"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-08-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "333",
+          "94747",
+          "98661"
+        ],
+        "sourceEventIds": [
+          "63"
+        ]
+      },
+      "legacyId": "bulk-match-333",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Blair Davenport vs. Naomi",
+      "result": "Blair Davenport defeated Naomi.",
+      "matchType": "Singles match",
+      "duration": 412,
+      "participants": [
+        {
+          "person": "blair-davenport",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Blair Davenport",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-08-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "334",
+          "94748",
+          "98662"
+        ],
+        "sourceEventIds": [
+          "63"
+        ]
+      },
+      "legacyId": "bulk-match-334",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Kevin Owens vs. Grayson Waller",
+      "result": "Kevin Owens defeated Grayson Waller.",
+      "matchType": "Singles match",
+      "duration": 307,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "grayson-waller",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Grayson Waller"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-08-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "335",
+          "94749",
+          "98663"
+        ],
+        "sourceEventIds": [
+          "63"
+        ]
+      },
+      "legacyId": "bulk-match-335",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-63"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "63"
+    ]
+  }
+}

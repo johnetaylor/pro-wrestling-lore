@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "checked": "2026-10-05",
+  "methodVersion": "PWL v1",
+  "method": "PWL v1: equal-weight mean of available source scores on a 0–100 display scale. CAGEMATCH points × 10; critic stars × 20, capped to 0–100. At least two distinct rating providers are required. CAGEMATCH needs at least five votes to contribute. Original scores, including stars above five, remain visible. Missing scores never count as zero. Reprints of Observer scores count once. These editorial conversions are not a scientific calibration.",
+  "providers": {
+    "cagematch": {
+      "name": "CAGEMATCH",
+      "kind": "Audience",
+      "unit": "points",
+      "scale": 10,
+      "methodSource": "https://www.cagematch.net/en/?id=406"
+    },
+    "observer": {
+      "name": "Wrestling Observer",
+      "kind": "Critic",
+      "reviewer": "Dave Meltzer",
+      "unit": "stars",
+      "scale": 5,
+      "note": "Transcribed by CAGEMATCH; not a second CAGEMATCH audience vote."
+    },
+    "411mania": {
+      "name": "411Mania",
+      "kind": "Critic",
+      "reviewer": "Scott Slimmer",
+      "unit": "stars",
+      "scale": 5
+    }
+  },
+  "coverage": {
+    "scope": "Published ratings matched to specific televised matches in the indexed 2025–2026 archive. Broad 2026 CAGEMATCH coverage; selected major 2025 events plus the January 6 Raw. 411Mania coverage is selected 2025 PLEs. This is a sourced snapshot, not live or exhaustive coverage.",
+    "pwi": "PWI’s public ratings rank wrestlers, not individual matches, and are excluded.",
+    "pwiSource": "https://pwi-online.com/pwi-ratings/",
+    "excluded": "The 411 SummerSlam 2025 Punk/Gunther review also describes the Rollins cash-in under one rating, so that score is excluded from both matches pending clearer attribution."
+  }
+}

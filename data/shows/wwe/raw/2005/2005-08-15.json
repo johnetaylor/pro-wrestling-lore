@@ -1,0 +1,270 @@
+{
+  "id": "wwe/raw/2005-08-15",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2005-08-15",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Eugene, Rene Dupree — no contest.",
+      "matchType": "Singles match",
+      "duration": 13,
+      "participants": [
+        {
+          "person": "eugene",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "rene-dupree",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Eugene",
+        "Rene Dupree"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49368",
+          "157087"
+        ],
+        "sourceEventIds": [
+          "7420"
+        ]
+      },
+      "legacyId": "bulk-match-49368",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "John Cena vs. Carlito, Chris Jericho",
+      "result": "John Cena defeated Carlito, Chris Jericho.",
+      "matchType": "Tag Team match",
+      "duration": 883,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Carlito",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49369",
+          "157088"
+        ],
+        "sourceEventIds": [
+          "7420"
+        ]
+      },
+      "legacyId": "bulk-match-49369",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Edge vs. Val Venis",
+      "result": "Edge defeated Val Venis.",
+      "matchType": "Singles match",
+      "duration": 321,
+      "participants": [
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "val-venis",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Edge",
+        "Val Venis"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49370",
+          "157089"
+        ],
+        "sourceEventIds": [
+          "7420"
+        ]
+      },
+      "legacyId": "bulk-match-49370",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Rob Conway vs. The Hurricane",
+      "result": "Rob Conway defeated The Hurricane.",
+      "matchType": "Singles match",
+      "duration": 150,
+      "participants": [
+        {
+          "person": "rob-conway",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-hurricane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rob Conway",
+        "The Hurricane"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49371",
+          "157090"
+        ],
+        "sourceEventIds": [
+          "7420"
+        ]
+      },
+      "legacyId": "bulk-match-49371",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 6,
+      "type": "match",
+      "title": "Hulk Hogan vs. Kurt Angle",
+      "result": "Hulk Hogan defeated Kurt Angle by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Hulk Hogan",
+        "Kurt Angle"
+      ],
+      "showCategory": "Raw",
+      "promotionLabel": "WWE",
+      "dateBasis": "broadcast",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-07",
+        "source": "https://thehistoryofwwe.com/wwe-results-2005/",
+        "scope": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date."
+      },
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49372",
+          "157091"
+        ],
+        "sourceEventIds": [
+          "7420"
+        ]
+      },
+      "legacyId": "bulk-match-49372",
+      "legacy": {
+        "kind": "match",
+        "hoganReview": {
+          "id": "bulk-match-49372",
+          "source": "https://thehistoryofwwe.com/wwe-results-2005/",
+          "date": "2005-08-15",
+          "reviewed": "2026-10-07",
+          "note": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date.",
+          "omitUnreviewedDuration": true
+        },
+        "workbookReference": "HM-0274",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7420"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7420"
+    ]
+  }
+}

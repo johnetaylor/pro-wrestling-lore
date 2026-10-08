@@ -1,0 +1,312 @@
+{
+  "id": "wwe/raw/2000-09-11",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2000-09-11",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Lita vs. Ivory",
+      "result": "Lita defeated Ivory.",
+      "matchType": "Singles match",
+      "duration": 123,
+      "participants": [
+        {
+          "person": "lita",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ivory",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lita",
+        "Ivory"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40302",
+          "166712"
+        ],
+        "sourceEventIds": [
+          "5960"
+        ]
+      },
+      "legacyId": "bulk-match-40302",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Chris Jericho vs. Triple H",
+      "result": "Chris Jericho defeated Triple H by disqualification.",
+      "matchType": "Singles match",
+      "duration": 309,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Triple H"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40304",
+          "166714"
+        ],
+        "sourceEventIds": [
+          "5960"
+        ]
+      },
+      "legacyId": "bulk-match-40304",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Al Snow vs. Tazz",
+      "result": "Al Snow defeated Tazz.",
+      "matchType": "Singles match",
+      "duration": 88,
+      "participants": [
+        {
+          "person": "al-snow",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tazz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Al Snow",
+        "Tazz"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40306",
+          "166716"
+        ],
+        "sourceEventIds": [
+          "5960"
+        ]
+      },
+      "legacyId": "bulk-match-40306",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Tag Team match",
+      "result": "Kurt Angle, Albert, Test — no contest.",
+      "matchType": "Tag Team match",
+      "duration": 172,
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "tensai",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Albert",
+        "Test"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40307",
+          "166717"
+        ],
+        "sourceEventIds": [
+          "5960"
+        ]
+      },
+      "legacyId": "bulk-match-40307",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 8,
+      "type": "match",
+      "title": "Steve Blackman vs. X-Pac",
+      "result": "Steve Blackman defeated X-Pac.",
+      "matchType": "Other match",
+      "duration": 207,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "steve-blackman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "x-pac",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Steve Blackman",
+        "X-Pac"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40308",
+          "166718"
+        ],
+        "sourceEventIds": [
+          "5960"
+        ]
+      },
+      "legacyId": "bulk-match-40308",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 9,
+      "type": "match",
+      "title": "Chris Benoit, Kane vs. The Rock, The Undertaker",
+      "result": "Chris Benoit, Kane defeated The Rock, The Undertaker.",
+      "matchType": "Tag Team match",
+      "duration": 302,
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Kane",
+        "The Rock",
+        "The Undertaker"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40309",
+          "166719"
+        ],
+        "sourceEventIds": [
+          "5960"
+        ]
+      },
+      "legacyId": "bulk-match-40309",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5960"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5960"
+    ]
+  }
+}

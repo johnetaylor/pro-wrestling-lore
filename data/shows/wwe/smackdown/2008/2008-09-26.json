@@ -1,0 +1,174 @@
+{
+  "id": "wwe/smackdown/2008-09-26",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2008-09-26",
+  "dateBasis": "aired",
+  "recordedDate": "2008-09-21",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Jeff Hardy, Triple H vs. Montel Vontavious Porter, The Brian Kendrick",
+      "result": "Jeff Hardy, Triple H defeated Montel Vontavious Porter, The Brian Kendrick.",
+      "matchType": "4-person match",
+      "duration": 841,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "montel-vontavious-porter",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "brian-kendrick",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Triple H",
+        "Montel Vontavious Porter",
+        "The Brian Kendrick"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53644",
+          "151839"
+        ],
+        "sourceEventIds": [
+          "8180"
+        ]
+      },
+      "legacyId": "bulk-match-53644",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Singles match",
+      "result": "The Great Khali, Vladimir Kozlov — no contest.",
+      "matchType": "Singles match",
+      "duration": 180,
+      "participants": [
+        {
+          "person": "the-great-khali",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "vladimir-kozlov",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "The Great Khali",
+        "Vladimir Kozlov"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53646",
+          "151841"
+        ],
+        "sourceEventIds": [
+          "8180"
+        ]
+      },
+      "legacyId": "bulk-match-53646",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Chavo Guerrero vs. Jimmy Wang Yang",
+      "result": "Chavo Guerrero defeated Jimmy Wang Yang.",
+      "matchType": "Singles match",
+      "duration": 296,
+      "participants": [
+        {
+          "person": "chavo-guerrero",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jimmy-wang-yang",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chavo Guerrero",
+        "Jimmy Wang Yang"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53647",
+          "151842"
+        ],
+        "sourceEventIds": [
+          "8180"
+        ]
+      },
+      "legacyId": "bulk-match-53647",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8180"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8180"
+    ]
+  }
+}

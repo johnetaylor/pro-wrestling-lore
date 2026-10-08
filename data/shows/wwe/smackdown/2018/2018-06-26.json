@@ -1,0 +1,202 @@
+{
+  "id": "wwe/smackdown/2018-06-26",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-06-26",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-06-26"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rusev vs. Xavier Woods",
+      "result": "Rusev defeated Xavier Woods.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rusev",
+        "Xavier Woods"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-06-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80853",
+          "118609"
+        ],
+        "sourceEventIds": [
+          "12570"
+        ]
+      },
+      "legacyId": "bulk-match-80853",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Jeff Hardy, Eric Young — no contest.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "eric-young",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Eric Young"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-06-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80854",
+          "118610"
+        ],
+        "sourceEventIds": [
+          "12570"
+        ]
+      },
+      "legacyId": "bulk-match-80854",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Becky Lynch vs. Sonya Deville",
+      "result": "Becky Lynch defeated Sonya Deville.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sonya-deville",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Sonya Deville"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-06-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80856",
+          "118612"
+        ],
+        "sourceEventIds": [
+          "12570"
+        ]
+      },
+      "legacyId": "bulk-match-80856",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Daniel Bryan vs. Harper",
+      "result": "Daniel Bryan defeated Harper by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "harper",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "Harper"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-06-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80857",
+          "118613"
+        ],
+        "sourceEventIds": [
+          "12570"
+        ]
+      },
+      "legacyId": "bulk-match-80857",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12570"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12570"
+    ]
+  }
+}

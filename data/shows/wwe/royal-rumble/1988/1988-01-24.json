@@ -1,0 +1,115 @@
+{
+  "id": "wwe/royal-rumble/1988-01-24",
+  "promotion": "wwe",
+  "series": "wwe/royal-rumble",
+  "name": "Royal Rumble 1988",
+  "date": "1988-01-24",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "not-indexed",
+    "note": "The official source also records Dino Bravo’s bench-press segment and a Hogan–Andre contract signing. Listing order follows the source.",
+    "legacyCardStatus": "Historical card indexed",
+    "legacySegmentStatus": "Promos and appearances not yet indexed"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/royalrumble/history/1988114/results"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Ricky Steamboat won against Rick Rude by disqualification.",
+      "result": "Ricky Steamboat won against Rick Rude by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "ricky-steamboat",
+          "role": "competitor"
+        },
+        {
+          "person": "rick-rude",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Ricky Steamboat",
+        "Rick Rude"
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/royalrumble/history/1988114/results"
+      ],
+      "legacyId": "1988-01-24-royal-rumble-match-1",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "The Jumping Bomb Angels won the belts from The Glamour Girls.",
+      "result": "The Jumping Bomb Angels won the belts from The Glamour Girls.",
+      "matchType": "Women’s Tag Team Championship · two out of three falls",
+      "titleMatch": true,
+      "unlinked": true,
+      "sources": [
+        "https://www.wwe.com/shows/royalrumble/history/1988114/results"
+      ],
+      "legacyId": "1988-01-24-royal-rumble-match-2",
+      "legacy": {
+        "kind": "title"
+      },
+      "participants": []
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "The Islanders beat The Young Stallions.",
+      "result": "The Islanders beat The Young Stallions.",
+      "matchType": "Two out of three falls tag team match",
+      "unlinked": true,
+      "sources": [
+        "https://www.wwe.com/shows/royalrumble/history/1988114/results"
+      ],
+      "legacyId": "1988-01-24-royal-rumble-match-3",
+      "legacy": {
+        "kind": "match"
+      },
+      "participants": []
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Jim Duggan won the 20-man Rumble, eliminating One Man Gang last.",
+      "result": "Jim Duggan won the 20-man Rumble, eliminating One Man Gang last.",
+      "matchType": "Royal Rumble",
+      "participants": [
+        {
+          "person": "jim-duggan",
+          "role": "competitor"
+        },
+        {
+          "person": "one-man-gang",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Jim Duggan",
+        "One Man Gang"
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/royalrumble/history/1988114/results"
+      ],
+      "legacyId": "1988-01-24-royal-rumble-match-4",
+      "legacy": {
+        "kind": "match"
+      }
+    }
+  ],
+  "legacyIds": [
+    "1988-01-24-royal-rumble"
+  ],
+  "legacy": {
+    "showFamily": "royal-rumble"
+  }
+}

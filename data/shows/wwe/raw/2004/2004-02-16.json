@@ -1,0 +1,230 @@
+{
+  "id": "wwe/raw/2004-02-16",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2004-02-16",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Booker T., Rob Van Dam vs. Batista, Ric Flair",
+      "result": "Booker T., Rob Van Dam defeated Batista, Ric Flair.",
+      "matchType": "4-person match",
+      "duration": 578,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "ric-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Booker T.",
+        "Rob Van Dam",
+        "Batista",
+        "Ric Flair"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47483",
+          "159523"
+        ],
+        "sourceEventIds": [
+          "7037"
+        ]
+      },
+      "legacyId": "bulk-match-47483",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Kane, Chris Jericho — no contest.",
+      "matchType": "Singles match",
+      "duration": 240,
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47484",
+          "159524"
+        ],
+        "sourceEventIds": [
+          "7037"
+        ]
+      },
+      "legacyId": "bulk-match-47484",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Trish Stratus, Victoria vs. Jazz, Molly Holly",
+      "result": "Trish Stratus, Victoria defeated Jazz, Molly Holly.",
+      "matchType": "4-person match",
+      "duration": 212,
+      "participants": [
+        {
+          "person": "trish-stratus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "victoria",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jazz",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "molly-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Trish Stratus",
+        "Victoria",
+        "Jazz",
+        "Molly Holly"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47485",
+          "159525"
+        ],
+        "sourceEventIds": [
+          "7037"
+        ]
+      },
+      "legacyId": "bulk-match-47485",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Shawn Michaels vs. Chris Benoit",
+      "result": "Shawn Michaels defeated Chris Benoit.",
+      "matchType": "Singles match",
+      "duration": 1268,
+      "participants": [
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shawn Michaels",
+        "Chris Benoit"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47486",
+          "159526"
+        ],
+        "sourceEventIds": [
+          "7037"
+        ]
+      },
+      "legacyId": "bulk-match-47486",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7037"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7037"
+    ]
+  }
+}

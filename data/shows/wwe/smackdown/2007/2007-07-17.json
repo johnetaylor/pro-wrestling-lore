@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2007-07-17",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2007-07-17",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Victoria vs. Torrie Wilson",
+      "result": "Victoria defeated Torrie Wilson.",
+      "matchType": "Singles match",
+      "duration": 338,
+      "participants": [
+        {
+          "person": "victoria",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "torrie-wilson",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Victoria",
+        "Torrie Wilson"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52080",
+          "153836"
+        ],
+        "sourceEventIds": [
+          "7909"
+        ]
+      },
+      "legacyId": "bulk-match-52080",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Matt Hardy vs. Kenny Dykstra",
+      "result": "Matt Hardy defeated Kenny Dykstra.",
+      "matchType": "Singles match",
+      "duration": 494,
+      "participants": [
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kenny-dykstra",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Matt Hardy",
+        "Kenny Dykstra"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52082",
+          "153838"
+        ],
+        "sourceEventIds": [
+          "7909"
+        ]
+      },
+      "legacyId": "bulk-match-52082",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Batista, Kane — no contest.",
+      "matchType": "Singles match",
+      "duration": 743,
+      "participants": [
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Batista",
+        "Kane"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52083",
+          "153839"
+        ],
+        "sourceEventIds": [
+          "7909"
+        ]
+      },
+      "legacyId": "bulk-match-52083",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7909"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7909"
+    ]
+  }
+}

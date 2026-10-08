@@ -1,0 +1,238 @@
+{
+  "id": "wwe/smackdown/2019-03-26",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2019-03-26",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2019-03-26"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Charlotte Flair vs. Asuka",
+      "result": "Charlotte Flair defeated Asuka.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "asuka",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Asuka"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-03-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82800",
+          "116645"
+        ],
+        "sourceEventIds": [
+          "12913"
+        ]
+      },
+      "legacyId": "bulk-match-82800",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Big E, Xavier Woods vs. Rusev, Shinsuke Nakamura",
+      "result": "Big E, Xavier Woods defeated Rusev, Shinsuke Nakamura.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Big E",
+        "Xavier Woods",
+        "Rusev",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-03-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82803",
+          "116648"
+        ],
+        "sourceEventIds": [
+          "12913"
+        ]
+      },
+      "legacyId": "bulk-match-82803",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Big E, Xavier Woods vs. Cesaro, Sheamus",
+      "result": "Big E, Xavier Woods defeated Cesaro, Sheamus.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Big E",
+        "Xavier Woods",
+        "Cesaro",
+        "Sheamus"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-03-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82804",
+          "116649"
+        ],
+        "sourceEventIds": [
+          "12913"
+        ]
+      },
+      "legacyId": "bulk-match-82804",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Big E, Xavier Woods vs. Daniel Bryan, Rowan",
+      "result": "Big E, Xavier Woods defeated Daniel Bryan, Rowan by count-out.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "erick-rowan",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Big E",
+        "Xavier Woods",
+        "Daniel Bryan",
+        "Rowan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-03-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82806",
+          "116651"
+        ],
+        "sourceEventIds": [
+          "12913"
+        ]
+      },
+      "legacyId": "bulk-match-82806",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12913"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12913"
+    ]
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "id": "wwe/smackdown/2000-05-02",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2000-05-02",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Chris Jericho vs. Chris Benoit",
+      "result": "Chris Jericho defeated Chris Benoit.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Chris Benoit"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "38986",
+          "168026"
+        ],
+        "sourceEventIds": [
+          "5757"
+        ]
+      },
+      "legacyId": "bulk-match-38986",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Chyna, Eddie Guerrero vs. Essa Rios, Lita",
+      "result": "Chyna, Eddie Guerrero defeated Essa Rios, Lita.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "chyna",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "essa-rios",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "lita",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chyna",
+        "Eddie Guerrero",
+        "Essa Rios",
+        "Lita"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "38987",
+          "168027"
+        ],
+        "sourceEventIds": [
+          "5757"
+        ]
+      },
+      "legacyId": "bulk-match-38987",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Kurt Angle vs. Hardcore Holly",
+      "result": "Kurt Angle defeated Hardcore Holly.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Hardcore Holly"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "38988",
+          "168028"
+        ],
+        "sourceEventIds": [
+          "5757"
+        ]
+      },
+      "legacyId": "bulk-match-38988",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Rikishi vs. Christian, Edge",
+      "result": "Rikishi defeated Christian, Edge by count-out.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Rikishi",
+        "Christian",
+        "Edge"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "38989",
+          "168029"
+        ],
+        "sourceEventIds": [
+          "5757"
+        ]
+      },
+      "legacyId": "bulk-match-38989",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 7,
+      "type": "match",
+      "title": "Crash Holly vs. Dean Malenko",
+      "result": "Crash Holly defeated Dean Malenko.",
+      "matchType": "Other match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "crash-holly",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dean-malenko",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Crash Holly",
+        "Dean Malenko"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "38992",
+          "168032"
+        ],
+        "sourceEventIds": [
+          "5757"
+        ]
+      },
+      "legacyId": "bulk-match-38992",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 8,
+      "type": "match",
+      "title": "Earl Hebner, The Rock vs. Road Dogg, Triple H, X-Pac",
+      "result": "Earl Hebner, The Rock defeated Road Dogg, Triple H, X-Pac.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "earl-hebner",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "road-dogg",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "x-pac",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Earl Hebner",
+        "The Rock",
+        "Road Dogg",
+        "Triple H",
+        "X-Pac"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "38993",
+          "168033"
+        ],
+        "sourceEventIds": [
+          "5757"
+        ]
+      },
+      "legacyId": "bulk-match-38993",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5757"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5757"
+    ]
+  }
+}

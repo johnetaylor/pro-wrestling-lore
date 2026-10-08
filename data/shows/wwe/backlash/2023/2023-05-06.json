@@ -1,0 +1,164 @@
+{
+  "id": "wwe/backlash/2023-05-06",
+  "promotion": "wwe",
+  "series": "wwe/backlash",
+  "name": "Backlash 2023",
+  "date": "2023-05-06",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/backlash/2023"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Seth Rollins vs. Omos",
+      "result": "Seth Rollins defeated Omos.",
+      "matchType": "Singles match",
+      "duration": 631,
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "omos",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Seth Rollins",
+        "Omos"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/backlash/2023"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5063",
+          "91606",
+          "103391"
+        ],
+        "sourceEventIds": [
+          "921"
+        ]
+      },
+      "legacyId": "bulk-match-5063",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Bad Bunny vs. Damian Priest",
+      "result": "Bad Bunny defeated Damian Priest.",
+      "matchType": "Other match",
+      "duration": 1502,
+      "participants": [
+        {
+          "person": "bad-bunny",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "damian-priest",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bad Bunny",
+        "Damian Priest"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/backlash/2023"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5066",
+          "91609",
+          "103394"
+        ],
+        "sourceEventIds": [
+          "921"
+        ]
+      },
+      "legacyId": "bulk-match-5066",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 7,
+      "type": "match",
+      "title": "Cody Rhodes vs. Brock Lesnar",
+      "result": "Cody Rhodes defeated Brock Lesnar.",
+      "matchType": "Singles match",
+      "duration": 582,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "brock-lesnar",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Brock Lesnar"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/backlash/2023"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5068",
+          "91611",
+          "103396"
+        ],
+        "sourceEventIds": [
+          "921"
+        ]
+      },
+      "legacyId": "bulk-match-5068",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-921"
+  ],
+  "legacy": {
+    "showFamily": "backlash",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "921"
+    ]
+  }
+}

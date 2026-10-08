@@ -1,0 +1,215 @@
+{
+  "id": "wwe/smackdown/2021-05-14",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2021-05-14",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2021-05-14"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Natalya, Tamina vs. Nia Jax, Shayna Baszler",
+      "result": "Natalya, Tamina defeated Nia Jax, Shayna Baszler.",
+      "matchType": "4-person match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tamina",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nia-jax",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shayna-baszler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Natalya",
+        "Tamina",
+        "Nia Jax",
+        "Shayna Baszler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-05-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87033",
+          "110853"
+        ],
+        "sourceEventIds": [
+          "13671"
+        ]
+      },
+      "legacyId": "bulk-match-87033",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Rey Mysterio vs. Dolph Ziggler",
+      "result": "Rey Mysterio defeated Dolph Ziggler.",
+      "matchType": "Singles match",
+      "duration": 755,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-05-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87034",
+          "110854"
+        ],
+        "sourceEventIds": [
+          "13671"
+        ]
+      },
+      "legacyId": "bulk-match-87034",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "King Corbin vs. Shinsuke Nakamura",
+      "result": "King Corbin defeated Shinsuke Nakamura.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "King Corbin",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-05-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87035",
+          "110855"
+        ],
+        "sourceEventIds": [
+          "13671"
+        ]
+      },
+      "legacyId": "bulk-match-87035",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Cesaro vs. Jimmy Uso",
+      "result": "Cesaro defeated Jimmy Uso by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jimmy-uso",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Cesaro",
+        "Jimmy Uso"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-05-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87036",
+          "110856"
+        ],
+        "sourceEventIds": [
+          "13671"
+        ]
+      },
+      "legacyId": "bulk-match-87036",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13671"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13671"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "wwe/smackdown/2022-12-09",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2022-12-09",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2022-12-09"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Liv Morgan, Tegan Nox vs. Ronda Rousey, Shayna Baszler",
+      "result": "Liv Morgan, Tegan Nox defeated Ronda Rousey, Shayna Baszler.",
+      "matchType": "4-person match",
+      "duration": 248,
+      "participants": [
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tegan-nox",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ronda-rousey",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shayna-baszler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Liv Morgan",
+        "Tegan Nox",
+        "Ronda Rousey",
+        "Shayna Baszler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-12-09"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6633",
+          "90581",
+          "104961"
+        ],
+        "sourceEventIds": [
+          "1181"
+        ]
+      },
+      "legacyId": "bulk-match-6633",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1181"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1181"
+    ]
+  }
+}

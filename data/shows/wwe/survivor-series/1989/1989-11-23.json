@@ -1,0 +1,180 @@
+{
+  "id": "wwe/survivor-series/1989-11-23",
+  "promotion": "wwe",
+  "series": "wwe/survivor-series",
+  "name": "Survivor Series '89",
+  "date": "1989-11-23",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1989/",
+    "https://thehistoryofwwe.com/survivor-series-results/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 5,
+      "type": "match",
+      "title": "Jim Neidhart, Marty Jannetty, Shawn Michaels, The Ultimate Warrior vs. Andre the Giant, Arn Anderson, Bobby Heenan, Haku",
+      "result": "Jim Neidhart, Marty Jannetty, Shawn Michaels, The Ultimate Warrior defeated Andre the Giant, Arn Anderson, Bobby Heenan, Haku.",
+      "matchType": "Other match",
+      "duration": 1228,
+      "participants": [
+        {
+          "person": "jim-neidhart",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "marty-jannetty",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-ultimate-warrior",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "andre-the-giant",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "arn-anderson",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "bobby-heenan",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "haku",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jim Neidhart",
+        "Marty Jannetty",
+        "Shawn Michaels",
+        "The Ultimate Warrior",
+        "Andre the Giant",
+        "Arn Anderson",
+        "Bobby Heenan",
+        "Haku"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1989/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "15231",
+          "191792"
+        ],
+        "sourceEventIds": [
+          "2439"
+        ]
+      },
+      "legacyId": "bulk-match-15231",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Hogan & Jake Roberts & Ax & Smash vs. Ted DiBiase & Zeus & The Warlord & The Barbarian",
+      "result": "Hogan's side: win by survivor.",
+      "context": "Hogan survived Venue: Rosemont Horizon, Rosemont, IL.",
+      "matchType": "4-on-4 elimination",
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jake-roberts",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ax",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "barry-darsow",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ted-dibiase",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "zeus",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-warlord",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-barbarian",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hogan",
+        "Jake Roberts",
+        "Ax",
+        "Smash",
+        "Ted DiBiase",
+        "Zeus",
+        "The Warlord",
+        "The Barbarian"
+      ],
+      "promotionLabel": "WWF",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/survivor-series-results/"
+      ],
+      "legacyId": "hogan-workbook-hm-0111",
+      "legacy": {
+        "show": "Survivor Series 1989",
+        "kind": "match"
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-2439"
+  ],
+  "legacy": {
+    "showFamily": "survivor-series",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "2439"
+    ]
+  }
+}

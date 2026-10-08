@@ -1,0 +1,217 @@
+{
+  "id": "wwe/smackdown/2021-07-02",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2021-07-02",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2021-07-02"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Big E, King Nakamura vs. Apollo Crews, Baron Corbin",
+      "result": "Big E, King Nakamura defeated Apollo Crews, Baron Corbin.",
+      "matchType": "4-person match",
+      "duration": 538,
+      "participants": [
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "apollo-crews",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Big E",
+        "King Nakamura",
+        "Apollo Crews",
+        "Baron Corbin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-07-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87214",
+          "110501"
+        ],
+        "sourceEventIds": [
+          "13709"
+        ]
+      },
+      "legacyId": "bulk-match-87214",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Kevin Owens vs. Sami Zayn",
+      "result": "Kevin Owens defeated Sami Zayn.",
+      "matchType": "Last Man Standing match",
+      "duration": 1410,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Sami Zayn"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-07-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87215",
+          "110502"
+        ],
+        "sourceEventIds": [
+          "13709"
+        ]
+      },
+      "legacyId": "bulk-match-87215",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Liv Morgan vs. Zelina Vega",
+      "result": "Liv Morgan defeated Zelina Vega.",
+      "matchType": "Singles match",
+      "duration": 104,
+      "participants": [
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "zelina-vega",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Liv Morgan",
+        "Zelina Vega"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-07-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87216",
+          "110503"
+        ],
+        "sourceEventIds": [
+          "13709"
+        ]
+      },
+      "legacyId": "bulk-match-87216",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Otis vs. Angelo Dawkins",
+      "result": "Otis defeated Angelo Dawkins.",
+      "matchType": "Singles match",
+      "duration": 119,
+      "participants": [
+        {
+          "person": "otis",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "angelo-dawkins",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Otis",
+        "Angelo Dawkins"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-07-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87217",
+          "110504"
+        ],
+        "sourceEventIds": [
+          "13709"
+        ]
+      },
+      "legacyId": "bulk-match-87217",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13709"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13709"
+    ]
+  }
+}

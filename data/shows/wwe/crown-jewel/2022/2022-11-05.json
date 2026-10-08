@@ -1,0 +1,165 @@
+{
+  "id": "wwe/crown-jewel/2022-11-05",
+  "promotion": "wwe",
+  "series": "wwe/crown-jewel",
+  "name": "Crown Jewel 2022",
+  "date": "2022-11-05",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwe-crown-jewel/2022"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Drew McIntyre vs. Karrion Kross",
+      "result": "Drew McIntyre defeated Karrion Kross.",
+      "matchType": "Cage match",
+      "duration": 781,
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "karrion-kross",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "Karrion Kross"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwe-crown-jewel/2022"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6973",
+          "90356",
+          "105301"
+        ],
+        "sourceEventIds": [
+          "1240"
+        ]
+      },
+      "legacyId": "bulk-match-6973",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Braun Strowman vs. Omos",
+      "result": "Braun Strowman defeated Omos.",
+      "matchType": "Singles match",
+      "duration": 439,
+      "participants": [
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "omos",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Braun Strowman",
+        "Omos"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwe-crown-jewel/2022"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6975",
+          "90358",
+          "105303"
+        ],
+        "sourceEventIds": [
+          "1240"
+        ]
+      },
+      "legacyId": "bulk-match-6975",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 7,
+      "type": "match",
+      "title": "Bianca BelAir vs. Bayley",
+      "result": "Bianca BelAir defeated Bayley.",
+      "matchType": "Other match",
+      "duration": 1229,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bianca BelAir",
+        "Bayley"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwe-crown-jewel/2022"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6977",
+          "90360",
+          "105305"
+        ],
+        "sourceEventIds": [
+          "1240"
+        ]
+      },
+      "legacyId": "bulk-match-6977",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1240"
+  ],
+  "legacy": {
+    "showFamily": "crown-jewel",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1240"
+    ]
+  }
+}

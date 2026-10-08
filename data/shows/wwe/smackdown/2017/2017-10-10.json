@@ -1,0 +1,171 @@
+{
+  "id": "wwe/smackdown/2017-10-10",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-10-10",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-10-10"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Becky Lynch vs. Carmella",
+      "result": "Becky Lynch defeated Carmella.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Carmella"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-10-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78799",
+          "120667"
+        ],
+        "sourceEventIds": [
+          "12217"
+        ]
+      },
+      "legacyId": "bulk-match-78799",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Randy Orton, Shinsuke Nakamura vs. Aiden English, Rusev",
+      "result": "Randy Orton, Shinsuke Nakamura defeated Aiden English, Rusev.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aiden-english",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Shinsuke Nakamura",
+        "Aiden English",
+        "Rusev"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-10-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78800",
+          "120668"
+        ],
+        "sourceEventIds": [
+          "12217"
+        ]
+      },
+      "legacyId": "bulk-match-78800",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Baron Corbin vs. A.J. Styles",
+      "result": "Baron Corbin defeated A.J. Styles.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Baron Corbin",
+        "A.J. Styles"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-10-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78801",
+          "120669"
+        ],
+        "sourceEventIds": [
+          "12217"
+        ]
+      },
+      "legacyId": "bulk-match-78801",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12217"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12217"
+    ]
+  }
+}

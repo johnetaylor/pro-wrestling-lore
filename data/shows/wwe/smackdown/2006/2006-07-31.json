@@ -1,0 +1,205 @@
+{
+  "id": "wwe/smackdown/2006-07-31",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2006-07-31",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2006/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "William Regal vs. Finlay",
+      "result": "William Regal defeated Finlay by disqualification.",
+      "matchType": "Singles match",
+      "duration": 303,
+      "participants": [
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finlay",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "William Regal",
+        "Finlay"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50843",
+          "155333"
+        ],
+        "sourceEventIds": [
+          "7686"
+        ]
+      },
+      "legacyId": "bulk-match-50843",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Elijah Burke vs. Scott Wright",
+      "result": "Elijah Burke defeated Scott Wright.",
+      "matchType": "Singles match",
+      "duration": 183,
+      "participants": [
+        {
+          "person": "elijah-burke",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "scott-wright",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Elijah Burke",
+        "Scott Wright"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50844",
+          "155334"
+        ],
+        "sourceEventIds": [
+          "7686"
+        ]
+      },
+      "legacyId": "bulk-match-50844",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Vito vs. The Brooklyn Brawler",
+      "result": "Vito defeated The Brooklyn Brawler.",
+      "matchType": "Singles match",
+      "duration": 160,
+      "participants": [
+        {
+          "person": "vito",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-brooklyn-brawler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Vito",
+        "The Brooklyn Brawler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50848",
+          "155338"
+        ],
+        "sourceEventIds": [
+          "7686"
+        ]
+      },
+      "legacyId": "bulk-match-50848",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 8,
+      "type": "match",
+      "title": "The Undertaker vs. King Booker",
+      "result": "The Undertaker defeated King Booker by disqualification.",
+      "matchType": "Singles match",
+      "duration": 786,
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "King Booker"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50850",
+          "155340"
+        ],
+        "sourceEventIds": [
+          "7686"
+        ]
+      },
+      "legacyId": "bulk-match-50850",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7686"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7686"
+    ]
+  }
+}

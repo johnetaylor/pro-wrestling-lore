@@ -1,0 +1,191 @@
+{
+  "id": "wwe/raw/2007-07-23",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2007-07-23",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Randy Orton vs. Cody Rhodes",
+      "result": "Randy Orton defeated Cody Rhodes.",
+      "matchType": "Singles match",
+      "duration": 346,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Cody Rhodes"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52098",
+          "153817"
+        ],
+        "sourceEventIds": [
+          "7912"
+        ]
+      },
+      "legacyId": "bulk-match-52098",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Charlie Haas, Shelton Benjamin vs. Brian Kendrick, Paul London",
+      "result": "Charlie Haas, Shelton Benjamin defeated Brian Kendrick, Paul London.",
+      "matchType": "4-person match",
+      "duration": 227,
+      "participants": [
+        {
+          "person": "charlie-haas",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "brian-kendrick",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "paul-london",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlie Haas",
+        "Shelton Benjamin",
+        "Brian Kendrick",
+        "Paul London"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52100",
+          "153819"
+        ],
+        "sourceEventIds": [
+          "7912"
+        ]
+      },
+      "legacyId": "bulk-match-52100",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Candice Michelle, John Cena vs. Lance Cade, Trevor Murdoch, Umaga",
+      "result": "Candice Michelle, John Cena defeated Lance Cade, Trevor Murdoch, Umaga.",
+      "matchType": "Tag Team match",
+      "duration": 282,
+      "participants": [
+        {
+          "person": "candice-michelle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "lance-cade",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "trevor-murdoch",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "umaga",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Candice Michelle",
+        "John Cena",
+        "Lance Cade",
+        "Trevor Murdoch",
+        "Umaga"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52101",
+          "153820"
+        ],
+        "sourceEventIds": [
+          "7912"
+        ]
+      },
+      "legacyId": "bulk-match-52101",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7912"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7912"
+    ]
+  }
+}

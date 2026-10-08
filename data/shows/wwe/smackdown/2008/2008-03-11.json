@@ -1,0 +1,179 @@
+{
+  "id": "wwe/smackdown/2008-03-11",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2008-03-11",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "The Big Show vs. Jimmy Wang Yang, Shannon Moore",
+      "result": "The Big Show defeated Jimmy Wang Yang, Shannon Moore.",
+      "matchType": "Tag Team match",
+      "duration": 123,
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jimmy-wang-yang",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shannon-moore",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "Jimmy Wang Yang",
+        "Shannon Moore"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52910",
+          "152787"
+        ],
+        "sourceEventIds": [
+          "8059"
+        ]
+      },
+      "legacyId": "bulk-match-52910",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Montel Vontavious Porter vs. Batista",
+      "result": "Montel Vontavious Porter defeated Batista.",
+      "matchType": "Other match",
+      "duration": 1057,
+      "participants": [
+        {
+          "person": "montel-vontavious-porter",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Montel Vontavious Porter",
+        "Batista"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52912",
+          "152789"
+        ],
+        "sourceEventIds": [
+          "8059"
+        ]
+      },
+      "legacyId": "bulk-match-52912",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Chuck Palumbo, The Great Khali vs. Jamie Noble, Kane",
+      "result": "Chuck Palumbo, The Great Khali defeated Jamie Noble, Kane.",
+      "matchType": "4-person match",
+      "duration": 169,
+      "participants": [
+        {
+          "person": "chuck-palumbo",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-great-khali",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jamie-noble",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chuck Palumbo",
+        "The Great Khali",
+        "Jamie Noble",
+        "Kane"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52913",
+          "152790"
+        ],
+        "sourceEventIds": [
+          "8059"
+        ]
+      },
+      "legacyId": "bulk-match-52913",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8059"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8059"
+    ]
+  }
+}

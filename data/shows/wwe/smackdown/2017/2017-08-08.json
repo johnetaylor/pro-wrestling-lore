@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2017-08-08",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-08-08",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-08-08"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Charlotte vs. Lana",
+      "result": "Charlotte defeated Lana.",
+      "matchType": "Singles match",
+      "duration": 145,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "lana",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte",
+        "Lana"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-08-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78313",
+          "121160"
+        ],
+        "sourceEventIds": [
+          "12133"
+        ]
+      },
+      "legacyId": "bulk-match-78313",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Carmella vs. Naomi",
+      "result": "Carmella defeated Naomi.",
+      "matchType": "Singles match",
+      "duration": 385,
+      "participants": [
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Carmella",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-08-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78314",
+          "121161"
+        ],
+        "sourceEventIds": [
+          "12133"
+        ]
+      },
+      "legacyId": "bulk-match-78314",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Randy Orton vs. Jinder Mahal",
+      "result": "Randy Orton defeated Jinder Mahal.",
+      "matchType": "Singles match",
+      "duration": 698,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Jinder Mahal"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-08-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78315",
+          "121162"
+        ],
+        "sourceEventIds": [
+          "12133"
+        ]
+      },
+      "legacyId": "bulk-match-78315",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12133"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12133"
+    ]
+  }
+}

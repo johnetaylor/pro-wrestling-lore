@@ -1,0 +1,209 @@
+{
+  "id": "wwe/smackdown/2023-12-01",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2023-12-01",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2023-12-01"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Bobby Lashley vs. Butch",
+      "result": "Bobby Lashley defeated Butch.",
+      "matchType": "Singles match",
+      "duration": 488,
+      "participants": [
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "pete-dunne",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bobby Lashley",
+        "Butch"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-12-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3062",
+          "93013",
+          "101390"
+        ],
+        "sourceEventIds": [
+          "577"
+        ]
+      },
+      "legacyId": "bulk-match-3062",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Santos Escobar vs. Joaquin Wilde",
+      "result": "Santos Escobar defeated Joaquin Wilde.",
+      "matchType": "Singles match",
+      "duration": 239,
+      "participants": [
+        {
+          "person": "santos-escobar",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "joaquin-wilde",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Santos Escobar",
+        "Joaquin Wilde"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-12-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3063",
+          "93014",
+          "101391"
+        ],
+        "sourceEventIds": [
+          "577"
+        ]
+      },
+      "legacyId": "bulk-match-3063",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Kevin Owens vs. Grayson Waller",
+      "result": "Kevin Owens defeated Grayson Waller.",
+      "matchType": "Singles match",
+      "duration": 650,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "grayson-waller",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Grayson Waller"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-12-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3064",
+          "93015",
+          "101392"
+        ],
+        "sourceEventIds": [
+          "577"
+        ]
+      },
+      "legacyId": "bulk-match-3064",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Bianca Belair vs. Kairi Sane",
+      "result": "Bianca Belair defeated Kairi Sane.",
+      "matchType": "Singles match",
+      "duration": 636,
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kairi-sane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bianca Belair",
+        "Kairi Sane"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-12-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3065",
+          "93016",
+          "101393"
+        ],
+        "sourceEventIds": [
+          "577"
+        ]
+      },
+      "legacyId": "bulk-match-3065",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-577"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "577"
+    ]
+  }
+}

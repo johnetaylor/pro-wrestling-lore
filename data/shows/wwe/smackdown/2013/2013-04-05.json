@@ -1,0 +1,73 @@
+{
+  "id": "wwe/smackdown/2013-04-05",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2013-04-05",
+  "dateBasis": "aired",
+  "recordedDate": "2013-04-01",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2013/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Jack Swagger vs. Kofi Kingston",
+      "result": "Jack Swagger defeated Kofi Kingston.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "jack-swagger",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jack Swagger",
+        "Kofi Kingston"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2013/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "61907",
+          "139843"
+        ],
+        "sourceEventIds": [
+          "9777"
+        ]
+      },
+      "legacyId": "bulk-match-61907",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-9777"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "9777"
+    ]
+  }
+}

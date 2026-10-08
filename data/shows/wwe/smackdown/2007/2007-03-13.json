@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2007-03-13",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2007-03-13",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Montel Vontavious Porter vs. El Grande Latte",
+      "result": "Montel Vontavious Porter defeated El Grande Latte.",
+      "matchType": "Singles match",
+      "duration": 93,
+      "participants": [
+        {
+          "person": "montel-vontavious-porter",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "el-grande-latte",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Montel Vontavious Porter",
+        "El Grande Latte"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51682",
+          "154331"
+        ],
+        "sourceEventIds": [
+          "7833"
+        ]
+      },
+      "legacyId": "bulk-match-51682",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Kane, Daivari — no contest.",
+      "matchType": "Singles match",
+      "duration": 180,
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "daivari",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "Daivari"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51684",
+          "154333"
+        ],
+        "sourceEventIds": [
+          "7833"
+        ]
+      },
+      "legacyId": "bulk-match-51684",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "The Undertaker vs. King Booker",
+      "result": "The Undertaker defeated King Booker by disqualification.",
+      "matchType": "Singles match",
+      "duration": 913,
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "King Booker"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51685",
+          "154334"
+        ],
+        "sourceEventIds": [
+          "7833"
+        ]
+      },
+      "legacyId": "bulk-match-51685",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7833"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7833"
+    ]
+  }
+}

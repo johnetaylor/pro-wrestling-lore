@@ -1,0 +1,280 @@
+{
+  "id": "wwe/raw/2006-05-15",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2006-05-15",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2006/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Chris Masters, Shelton Benjamin, Triple H vs. John Cena, Rob Van Dam",
+      "result": "Chris Masters, Shelton Benjamin, Triple H defeated John Cena, Rob Van Dam.",
+      "matchType": "Tag Team match",
+      "duration": 777,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "chris-masters",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Masters",
+        "Shelton Benjamin",
+        "Triple H",
+        "John Cena",
+        "Rob Van Dam"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50522",
+          "155710"
+        ],
+        "sourceEventIds": [
+          "7629"
+        ]
+      },
+      "legacyId": "bulk-match-50522",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Johnny, Nicky vs. Gene Snitsky, Goldust",
+      "result": "Johnny, Nicky defeated Gene Snitsky, Goldust.",
+      "matchType": "4-person match",
+      "duration": 465,
+      "participants": [
+        {
+          "person": "johnny",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nicky",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "gene-snitsky",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Johnny",
+        "Nicky",
+        "Gene Snitsky",
+        "Goldust"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50523",
+          "155711"
+        ],
+        "sourceEventIds": [
+          "7629"
+        ]
+      },
+      "legacyId": "bulk-match-50523",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Matt Striker vs. Eugene",
+      "result": "Matt Striker defeated Eugene.",
+      "matchType": "Singles match",
+      "duration": 170,
+      "participants": [
+        {
+          "person": "matt-striker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eugene",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Matt Striker",
+        "Eugene"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50524",
+          "155712"
+        ],
+        "sourceEventIds": [
+          "7629"
+        ]
+      },
+      "legacyId": "bulk-match-50524",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Umaga vs. Chris Wellman",
+      "result": "Umaga defeated Chris Wellman.",
+      "matchType": "Singles match",
+      "duration": 122,
+      "participants": [
+        {
+          "person": "umaga",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-wellman",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Umaga",
+        "Chris Wellman"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50525",
+          "155713"
+        ],
+        "sourceEventIds": [
+          "7629"
+        ]
+      },
+      "legacyId": "bulk-match-50525",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 5,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Shawn Michaels, Kenny — no contest.",
+      "matchType": "Singles match",
+      "duration": 390,
+      "participants": [
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "kenny",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Shawn Michaels",
+        "Kenny"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50526",
+          "155714"
+        ],
+        "sourceEventIds": [
+          "7629"
+        ]
+      },
+      "legacyId": "bulk-match-50526",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7629"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7629"
+    ]
+  }
+}

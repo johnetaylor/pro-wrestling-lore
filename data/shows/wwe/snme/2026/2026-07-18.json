@@ -1,0 +1,285 @@
+{
+  "id": "wwe/snme/2026-07-18",
+  "promotion": "wwe",
+  "series": "wwe/snme",
+  "name": "Saturday Night's Main Event",
+  "date": "2026-07-18",
+  "recordedDate": "2026-07-18",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "not-indexed",
+    "legacyCardStatus": "Card indexed",
+    "legacySegmentStatus": "Appearance review pending"
+  },
+  "sources": [
+    "https://www.cagematch.net/?id=1&nr=449802",
+    "https://www.thesmackdownhotel.com/events-results/ppv-special/wwe-saturday-night-s-main-event-xlv",
+    "https://www.cagematch.net/?id=1&nr=458598"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Fatal Influence (Fallon Henley & Lainey Reid) vs. Brie Bella & Paige",
+      "result": "Fatal Influence (Fallon Henley & Lainey Reid) (w/Jacy Jayne) defeat Brie Bella & Paige (c) (7:14) - TITLE CHANGE !!!",
+      "context": "WWE Women's Tag Team Title Match.",
+      "matchType": "WWE Women's Tag Team Title Match",
+      "duration": "7:14",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "fallon-henley",
+          "role": "competitor"
+        },
+        {
+          "person": "lainey-reid",
+          "role": "competitor"
+        },
+        {
+          "person": "brie-bella",
+          "role": "competitor"
+        },
+        {
+          "person": "paige",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Fatal Influence",
+        "Fallon Henley",
+        "Lainey Reid",
+        "Brie Bella",
+        "Paige"
+      ],
+      "guests": "Fallon Henley, Lainey Reid, Brie Bella, Paige",
+      "sources": [
+        "https://www.cagematch.net/?id=1&nr=449802",
+        "https://www.thesmackdownhotel.com/events-results/ppv-special/wwe-saturday-night-s-main-event-xlv"
+      ],
+      "legacyId": "2026-07-18-saturday-night-s-main-event-match-1",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Danhausen vs. JD McDonagh",
+      "result": "Danhausen defeats JD McDonagh (w/Dominik Mysterio) (11:31)",
+      "context": "No Disqualification Match · Duration: 11:31.",
+      "matchType": "No Disqualification Match",
+      "duration": "11:31",
+      "participants": [
+        {
+          "person": "danhausen",
+          "role": "competitor"
+        },
+        {
+          "person": "jd-mcdonagh",
+          "role": "competitor"
+        },
+        {
+          "person": "dominik-mysterio",
+          "role": "involved"
+        }
+      ],
+      "billing": [
+        "Danhausen",
+        "JD McDonagh"
+      ],
+      "rating": {
+        "sources": [
+          {
+            "provider": "cagematch",
+            "value": 3.82,
+            "unit": "points",
+            "url": "https://www.cagematch.net/?id=1&nr=449802",
+            "checked": "2026-10-05",
+            "votes": 166
+          },
+          {
+            "provider": "observer",
+            "value": 2,
+            "unit": "stars",
+            "url": "https://www.cagematch.net/?id=1&nr=449802",
+            "checked": "2026-10-05"
+          }
+        ],
+        "matchCheck": {
+          "method": "date + exact result",
+          "sourceFixture": "Danhausen defeats JD McDonagh (w/Dominik Mysterio) (11:31)",
+          "eventUrl": "https://www.cagematch.net/?id=1&nr=449802"
+        }
+      },
+      "sources": [
+        "https://www.cagematch.net/?id=1&nr=449802",
+        "https://www.thesmackdownhotel.com/events-results/ppv-special/wwe-saturday-night-s-main-event-xlv"
+      ],
+      "legacyId": "2026-07-18-saturday-night-s-main-event-match-2",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Lyra Valkyria vs. Bayley",
+      "result": "Lyra Valkyria defeats Bayley (10:30)",
+      "context": "Singles Match · Duration: 10:30.",
+      "matchType": "Singles Match",
+      "duration": "10:30",
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor"
+        },
+        {
+          "person": "lyra-valkyria",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Lyra Valkyria",
+        "Bayley"
+      ],
+      "guests": "Lyra Valkyria, Bayley",
+      "sources": [
+        "https://www.cagematch.net/?id=1&nr=449802",
+        "https://www.thesmackdownhotel.com/events-results/ppv-special/wwe-saturday-night-s-main-event-xlv"
+      ],
+      "legacyId": "2026-07-18-saturday-night-s-main-event-match-3",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "CM Punk & Cody Rhodes vs. Gunther & Sami Zayn",
+      "result": "CM Punk & Cody Rhodes defeat Gunther & Sami Zayn (14:08)",
+      "context": "Tag Team Match · Duration: 14:08.",
+      "matchType": "Tag Team Match",
+      "duration": "14:08",
+      "participants": [
+        {
+          "person": "cm-punk",
+          "role": "competitor"
+        },
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        },
+        {
+          "person": "gunther",
+          "role": "competitor"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "CM Punk",
+        "Cody Rhodes",
+        "Gunther",
+        "Sami Zayn"
+      ],
+      "rating": {
+        "sources": [
+          {
+            "provider": "cagematch",
+            "value": 7.72,
+            "unit": "points",
+            "url": "https://www.cagematch.net/?id=1&nr=449802",
+            "checked": "2026-10-05",
+            "votes": 217
+          },
+          {
+            "provider": "observer",
+            "value": 4.5,
+            "unit": "stars",
+            "url": "https://www.cagematch.net/?id=1&nr=449802",
+            "checked": "2026-10-05"
+          }
+        ],
+        "matchCheck": {
+          "method": "date + exact result",
+          "sourceFixture": "CM Punk & Cody Rhodes defeat Gunther & Sami Zayn (14:08)",
+          "eventUrl": "https://www.cagematch.net/?id=1&nr=449802"
+        }
+      },
+      "sources": [
+        "https://www.cagematch.net/?id=1&nr=449802",
+        "https://www.thesmackdownhotel.com/events-results/ppv-special/wwe-saturday-night-s-main-event-xlv"
+      ],
+      "legacyId": "2026-07-18-saturday-night-s-main-event-match-4",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m5",
+      "type": "match",
+      "title": "Trick Williams vs. Laredo Kid",
+      "result": "Trick Williams defeats Laredo Kid (7:15)",
+      "context": "Non Title Match · Duration: 7:15.",
+      "matchType": "Non Title Match",
+      "duration": "7:15",
+      "participants": [
+        {
+          "person": "trick-williams",
+          "role": "competitor"
+        },
+        {
+          "person": "laredo-kid",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Trick Williams",
+        "Laredo Kid"
+      ],
+      "rating": {
+        "sources": [
+          {
+            "provider": "cagematch",
+            "value": 5.51,
+            "unit": "points",
+            "url": "https://www.cagematch.net/?id=1&nr=458598",
+            "checked": "2026-10-05",
+            "votes": 60
+          },
+          {
+            "provider": "observer",
+            "value": 2.25,
+            "unit": "stars",
+            "url": "https://www.cagematch.net/?id=1&nr=458598",
+            "checked": "2026-10-05"
+          }
+        ],
+        "matchCheck": {
+          "method": "date + exact result",
+          "sourceFixture": "Trick Williams defeats Laredo Kid (7:15)",
+          "eventUrl": "https://www.cagematch.net/?id=1&nr=458598"
+        }
+      },
+      "sources": [
+        "https://www.cagematch.net/?id=1&nr=458598",
+        "https://www.thesmackdownhotel.com/events-results/ppv-special/wwe-saturday-night-s-main-event-xlv"
+      ],
+      "legacyId": "2026-07-18-saturday-night-s-main-event-countdown-match-1",
+      "legacy": {
+        "show": "Saturday Night's Main Event - Countdown",
+        "kind": "match"
+      }
+    }
+  ],
+  "legacyIds": [
+    "2026-07-18-saturday-night-s-main-event",
+    "2026-07-18-saturday-night-s-main-event-countdown"
+  ],
+  "legacy": {
+    "showFamily": "snme"
+  }
+}

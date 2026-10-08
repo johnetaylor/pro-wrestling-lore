@@ -1,0 +1,233 @@
+{
+  "id": "wwe/raw/2000-10-02",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2000-10-02",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Rikishi, The Rock vs. Chris Benoit, Kane",
+      "result": "Rikishi, The Rock defeated Chris Benoit, Kane.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rikishi",
+        "The Rock",
+        "Chris Benoit",
+        "Kane"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40506",
+          "166512"
+        ],
+        "sourceEventIds": [
+          "5990"
+        ]
+      },
+      "legacyId": "bulk-match-40506",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Steve Blackman vs. Christian, Edge",
+      "result": "Steve Blackman defeated Christian, Edge.",
+      "matchType": "Other match",
+      "duration": 196,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "steve-blackman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Steve Blackman",
+        "Christian",
+        "Edge"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40507",
+          "166513"
+        ],
+        "sourceEventIds": [
+          "5990"
+        ]
+      },
+      "legacyId": "bulk-match-40507",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Chyna, Eddie Guerrero vs. Steven Richards, Val Venis",
+      "result": "Chyna, Eddie Guerrero defeated Steven Richards, Val Venis.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "chyna",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "steven-richards",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "val-venis",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chyna",
+        "Eddie Guerrero",
+        "Steven Richards",
+        "Val Venis"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40508",
+          "166514"
+        ],
+        "sourceEventIds": [
+          "5990"
+        ]
+      },
+      "legacyId": "bulk-match-40508",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Kurt Angle vs. Triple H",
+      "result": "Kurt Angle defeated Triple H.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Triple H"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40509",
+          "166515"
+        ],
+        "sourceEventIds": [
+          "5990"
+        ]
+      },
+      "legacyId": "bulk-match-40509",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5990"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5990"
+    ]
+  }
+}

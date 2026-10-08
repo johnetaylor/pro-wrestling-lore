@@ -1,0 +1,222 @@
+{
+  "id": "wwe/smackdown/2024-09-13",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2024-09-13",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2024-09-13"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Cody Rhodes vs. Solo Sikoa",
+      "result": "Cody Rhodes defeated Solo Sikoa.",
+      "matchType": "Cage match",
+      "duration": 980,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "solo-sikoa",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Solo Sikoa"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-09-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "29",
+          "94928",
+          "98357"
+        ],
+        "sourceEventIds": [
+          "10"
+        ]
+      },
+      "legacyId": "bulk-match-29",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Michin vs. Piper Niven",
+      "result": "Michin defeated Piper Niven.",
+      "matchType": "Singles match",
+      "duration": 122,
+      "participants": [
+        {
+          "person": "michin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "piper-niven",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Michin",
+        "Piper Niven"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-09-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "30",
+          "94929",
+          "98358"
+        ],
+        "sourceEventIds": [
+          "10"
+        ]
+      },
+      "legacyId": "bulk-match-30",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Kevin Owens, Randy Orton vs. Austin Theory, Grayson Waller",
+      "result": "Kevin Owens, Randy Orton defeated Austin Theory, Grayson Waller.",
+      "matchType": "4-person match",
+      "duration": 560,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "austin-theory",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "grayson-waller",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Randy Orton",
+        "Austin Theory",
+        "Grayson Waller"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-09-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "31",
+          "94930",
+          "98359"
+        ],
+        "sourceEventIds": [
+          "10"
+        ]
+      },
+      "legacyId": "bulk-match-31",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Andrade vs. Carmelo Hayes",
+      "result": "Andrade defeated Carmelo Hayes.",
+      "matchType": "Singles match",
+      "duration": 592,
+      "participants": [
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmelo-hayes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Andrade",
+        "Carmelo Hayes"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-09-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "32",
+          "94931",
+          "98360"
+        ],
+        "sourceEventIds": [
+          "10"
+        ]
+      },
+      "legacyId": "bulk-match-32",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10"
+    ]
+  }
+}

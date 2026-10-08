@@ -1,0 +1,211 @@
+{
+  "id": "wwe/raw/2001-06-11",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2001-06-11",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2001/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Christian vs. Kane",
+      "result": "Christian defeated Kane.",
+      "matchType": "Singles match",
+      "duration": 133,
+      "participants": [
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Christian",
+        "Kane"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42566",
+          "164439"
+        ],
+        "sourceEventIds": [
+          "6276"
+        ]
+      },
+      "legacyId": "bulk-match-42566",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Rhyno, The Big Show vs. Chris Jericho",
+      "result": "Rhyno, The Big Show defeated Chris Jericho.",
+      "matchType": "Tag Team match",
+      "duration": 260,
+      "participants": [
+        {
+          "person": "rhyno",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rhyno",
+        "The Big Show",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42568",
+          "164441"
+        ],
+        "sourceEventIds": [
+          "6276"
+        ]
+      },
+      "legacyId": "bulk-match-42568",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Perry Saturn vs. Steve Blackman",
+      "result": "Perry Saturn defeated Steve Blackman.",
+      "matchType": "Singles match",
+      "duration": 121,
+      "participants": [
+        {
+          "person": "perry-saturn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "steve-blackman",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Perry Saturn",
+        "Steve Blackman"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42569",
+          "164442"
+        ],
+        "sourceEventIds": [
+          "6276"
+        ]
+      },
+      "legacyId": "bulk-match-42569",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Kurt Angle vs. Chris Benoit",
+      "result": "Kurt Angle defeated Chris Benoit.",
+      "matchType": "Cage match",
+      "duration": 871,
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Chris Benoit"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2001/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "42571",
+          "164444"
+        ],
+        "sourceEventIds": [
+          "6276"
+        ]
+      },
+      "legacyId": "bulk-match-42571",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6276"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6276"
+    ]
+  }
+}

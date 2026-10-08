@@ -1,0 +1,591 @@
+{
+  "id": "wwe/wrestlemania/2024-04-06",
+  "promotion": "wwe",
+  "series": "wwe/wrestlemania",
+  "name": "WrestleMania XL · Night 1",
+  "date": "2024-04-06",
+  "category": "PLE",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "note": "Hugging Face import · official-results comparison. Unverified extra matches were excluded.",
+    "legacyCardStatus": "Imported card compared with official WWE results",
+    "legacySegmentStatus": "Partial; the match dataset does not contain a promo/appearance archive"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Rhea Ripley vs. Becky Lynch",
+      "result": "Rhea Ripley defeated Becky Lynch.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "rhea-ripley",
+          "role": "competitor"
+        },
+        {
+          "person": "becky-lynch",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Rhea Ripley",
+        "Becky Lynch"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "338",
+        "sourceMatchIds": [
+          "1697",
+          "100025"
+        ],
+        "rawInputSha256": "1aae3269da00485a20daa1f5c5f79c425a1d4b39ff793f02bcf07583c4d80da1",
+        "normalizedParticipants": [
+          {
+            "name": "Rhea Ripley",
+            "result": "win"
+          },
+          {
+            "name": "Becky Lynch",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      },
+      "legacyId": "hf-match-1697",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Austin Theory & Grayson Waller & R-Truth & The Miz vs. Damian Priest, Finn Bálor, Johnny Gargano, Tommaso Ciampa, Kofi Kingston, Xavier Woods, Pete Dunne, Tyler Bate",
+      "result": "Austin Theory and Grayson Waller won the SmackDown Tag Team titles; R-Truth and The Miz won the Raw Tag Team titles in the same six-team ladder match.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Six-Pack Tag Team Ladder Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "austin-theory",
+          "role": "competitor"
+        },
+        {
+          "person": "grayson-waller",
+          "role": "competitor"
+        },
+        {
+          "person": "r-truth",
+          "role": "competitor"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor"
+        },
+        {
+          "person": "damian-priest",
+          "role": "competitor"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor"
+        },
+        {
+          "person": "johnny-gargano",
+          "role": "competitor"
+        },
+        {
+          "person": "tommaso-ciampa",
+          "role": "competitor"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor"
+        },
+        {
+          "person": "pete-dunne",
+          "role": "competitor"
+        },
+        {
+          "person": "tyler-bate",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Austin Theory",
+        "Grayson Waller",
+        "R-Truth",
+        "The Miz",
+        "Damian Priest",
+        "Finn Bálor",
+        "Johnny Gargano",
+        "Tommaso Ciampa",
+        "Kofi Kingston",
+        "Xavier Woods",
+        "Pete Dunne",
+        "Tyler Bate"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "338",
+        "sourceMatchIds": [
+          "1698",
+          "100026"
+        ],
+        "rawInputSha256": "4f4045101f78d6e0b79776646505c8b1a2112f677b4c74d10c7cb9de121f9357",
+        "normalizedParticipants": [
+          {
+            "name": "Austin Theory",
+            "result": "win"
+          },
+          {
+            "name": "Grayson Waller",
+            "result": "win"
+          },
+          {
+            "name": "R-Truth",
+            "result": "win"
+          },
+          {
+            "name": "The Miz",
+            "result": "win"
+          },
+          {
+            "name": "Damian Priest",
+            "result": "loss"
+          },
+          {
+            "name": "Finn Bálor",
+            "result": "loss"
+          },
+          {
+            "name": "Johnny Gargano",
+            "result": "loss"
+          },
+          {
+            "name": "Tommaso Ciampa",
+            "result": "loss"
+          },
+          {
+            "name": "Kofi Kingston",
+            "result": "loss"
+          },
+          {
+            "name": "Xavier Woods",
+            "result": "loss"
+          },
+          {
+            "name": "Pete Dunne",
+            "result": "loss"
+          },
+          {
+            "name": "Tyler Bate",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      },
+      "legacyId": "hf-match-1698",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Andrade & Rey Mysterio vs. Dominik Mysterio, Santos Escobar",
+      "result": "Andrade & Rey Mysterio defeated Dominik Mysterio, Santos Escobar.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Tag Team Match",
+      "participants": [
+        {
+          "person": "andrade",
+          "role": "competitor"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor"
+        },
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor"
+        },
+        {
+          "person": "santos-escobar",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Andrade",
+        "Rey Mysterio",
+        "Dominik Mysterio",
+        "Santos Escobar"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "338",
+        "sourceMatchIds": [
+          "1699",
+          "100027"
+        ],
+        "rawInputSha256": "740a2a75440e93249a3762d003e625e1ba5276ad8b1fa6f68e509753a48b5291",
+        "normalizedParticipants": [
+          {
+            "name": "Andrade",
+            "result": "win"
+          },
+          {
+            "name": "Rey Mysterio",
+            "result": "win"
+          },
+          {
+            "name": "Dominik Mysterio",
+            "result": "loss"
+          },
+          {
+            "name": "Santos Escobar",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      },
+      "legacyId": "hf-match-1699",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Jey Uso vs. Jimmy Uso",
+      "result": "Jey Uso defeated Jimmy Uso.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "participants": [
+        {
+          "person": "jey-uso",
+          "role": "competitor"
+        },
+        {
+          "person": "jimmy-uso",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Jey Uso",
+        "Jimmy Uso"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "338",
+        "sourceMatchIds": [
+          "1700",
+          "100028"
+        ],
+        "rawInputSha256": "a0337451a4bf296792a2b0fc6314712938c37bb98f1e5a2e97fbca21cc474485",
+        "normalizedParticipants": [
+          {
+            "name": "Jey Uso",
+            "result": "win"
+          },
+          {
+            "name": "Jimmy Uso",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      },
+      "legacyId": "hf-match-1700",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m5",
+      "type": "match",
+      "title": "Bianca Belair & Jade Cargill & Naomi vs. Asuka, Dakota Kai, Kairi Sane",
+      "result": "Bianca Belair & Jade Cargill & Naomi defeated Asuka, Dakota Kai, Kairi Sane.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Six-Woman Tag Team Match",
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor"
+        },
+        {
+          "person": "jade-cargill",
+          "role": "competitor"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor"
+        },
+        {
+          "person": "asuka",
+          "role": "competitor"
+        },
+        {
+          "person": "dakota-kai",
+          "role": "competitor"
+        },
+        {
+          "person": "kairi-sane",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Bianca Belair",
+        "Jade Cargill",
+        "Naomi",
+        "Asuka",
+        "Dakota Kai",
+        "Kairi Sane"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "338",
+        "sourceMatchIds": [
+          "1701",
+          "100029"
+        ],
+        "rawInputSha256": "819c1ae1d6bffb8c6cd405ec1982721551267b88f2c90bde4a2bd1e50af0a5ce",
+        "normalizedParticipants": [
+          {
+            "name": "Bianca Belair",
+            "result": "win"
+          },
+          {
+            "name": "Jade Cargill",
+            "result": "win"
+          },
+          {
+            "name": "Naomi",
+            "result": "win"
+          },
+          {
+            "name": "Asuka",
+            "result": "loss"
+          },
+          {
+            "name": "Dakota Kai",
+            "result": "loss"
+          },
+          {
+            "name": "Kairi Sane",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      },
+      "legacyId": "hf-match-1701",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m6",
+      "type": "match",
+      "title": "Sami Zayn vs. Gunther",
+      "result": "Sami Zayn defeated Gunther.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "sami-zayn",
+          "role": "competitor"
+        },
+        {
+          "person": "gunther",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Sami Zayn",
+        "Gunther"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "338",
+        "sourceMatchIds": [
+          "1702",
+          "100030"
+        ],
+        "rawInputSha256": "42e8dc554a84a2b7476fece12a1a0bd0389225ed2b6263eb1d8d297514ce651c",
+        "normalizedParticipants": [
+          {
+            "name": "Sami Zayn",
+            "result": "win"
+          },
+          {
+            "name": "Gunther",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      },
+      "legacyId": "hf-match-1702",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m7",
+      "type": "match",
+      "title": "Roman Reigns & The Rock vs. Cody Rhodes, Seth Rollins",
+      "result": "Roman Reigns & The Rock defeated Cody Rhodes, Seth Rollins.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Tag Team Match",
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor"
+        },
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "The Rock",
+        "Cody Rhodes",
+        "Seth Rollins"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "338",
+        "sourceMatchIds": [
+          "1703",
+          "100031"
+        ],
+        "rawInputSha256": "7ca19ddd5faa24153ffa911ffab57c59442d2b6c2a56de28b25853a7702e80f7",
+        "normalizedParticipants": [
+          {
+            "name": "Roman Reigns",
+            "result": "win"
+          },
+          {
+            "name": "The Rock",
+            "result": "win"
+          },
+          {
+            "name": "Cody Rhodes",
+            "result": "loss"
+          },
+          {
+            "name": "Seth Rollins",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      },
+      "legacyId": "hf-match-1703",
+      "legacy": {
+        "kind": "match"
+      }
+    }
+  ],
+  "legacyIds": [
+    "hf-event-338"
+  ],
+  "legacy": {
+    "showFamily": "wrestlemania",
+    "importBatch": "ringside-2024-ple"
+  }
+}

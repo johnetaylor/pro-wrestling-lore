@@ -1,0 +1,215 @@
+{
+  "id": "wwe/smackdown/2000-12-19",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2000-12-19",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Singles match",
+      "result": "William Regal, Hardcore Holly — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "William Regal",
+        "Hardcore Holly"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41274",
+          "165737"
+        ],
+        "sourceEventIds": [
+          "6097"
+        ]
+      },
+      "legacyId": "bulk-match-41274",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 6,
+      "type": "match",
+      "title": "Steve Blackman vs. Raven",
+      "result": "Steve Blackman defeated Raven.",
+      "matchType": "Other match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "steve-blackman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "raven",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Steve Blackman",
+        "Raven"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41276",
+          "165739"
+        ],
+        "sourceEventIds": [
+          "6097"
+        ]
+      },
+      "legacyId": "bulk-match-41276",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 7,
+      "type": "match",
+      "title": "Billy Gunn vs. Steven Richards",
+      "result": "Billy Gunn defeated Steven Richards.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "steven-richards",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Billy Gunn",
+        "Steven Richards"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41277",
+          "165740"
+        ],
+        "sourceEventIds": [
+          "6097"
+        ]
+      },
+      "legacyId": "bulk-match-41277",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 8,
+      "type": "match",
+      "title": "Christian, Edge vs. The Rock, The Undertaker",
+      "result": "Christian, Edge defeated The Rock, The Undertaker.",
+      "matchType": "4-person match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Christian",
+        "Edge",
+        "The Rock",
+        "The Undertaker"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41278",
+          "165741"
+        ],
+        "sourceEventIds": [
+          "6097"
+        ]
+      },
+      "legacyId": "bulk-match-41278",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6097"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6097"
+    ]
+  }
+}

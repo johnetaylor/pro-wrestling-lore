@@ -1,0 +1,204 @@
+{
+  "id": "wwe/raw/2002-01-07",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2002-01-07",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2002/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rob Van Dam vs. Test",
+      "result": "Rob Van Dam defeated Test.",
+      "matchType": "Singles match",
+      "duration": 224,
+      "participants": [
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rob Van Dam",
+        "Test"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "43898",
+          "163071"
+        ],
+        "sourceEventIds": [
+          "6456"
+        ]
+      },
+      "legacyId": "bulk-match-43898",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Edge vs. Lance Storm",
+      "result": "Edge defeated Lance Storm.",
+      "matchType": "Singles match",
+      "duration": 70,
+      "participants": [
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "lance-storm",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Edge",
+        "Lance Storm"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "43900",
+          "163073"
+        ],
+        "sourceEventIds": [
+          "6456"
+        ]
+      },
+      "legacyId": "bulk-match-43900",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Chris Jericho vs. Rikishi",
+      "result": "Chris Jericho defeated Rikishi.",
+      "matchType": "Singles match",
+      "duration": 267,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Rikishi"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "43902",
+          "163075"
+        ],
+        "sourceEventIds": [
+          "6456"
+        ]
+      },
+      "legacyId": "bulk-match-43902",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Other match",
+      "result": "Trish Stratus, Terri — no contest.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "trish-stratus",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "terri",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Trish Stratus",
+        "Terri"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "43904",
+          "163077"
+        ],
+        "sourceEventIds": [
+          "6456"
+        ]
+      },
+      "legacyId": "bulk-match-43904",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6456"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6456"
+    ]
+  }
+}

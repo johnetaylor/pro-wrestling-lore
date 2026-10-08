@@ -1,0 +1,161 @@
+{
+  "id": "wwe/raw/2013-02-18",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2013-02-18",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2013/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Mark Henry vs. Sin Cara",
+      "result": "Mark Henry defeated Sin Cara.",
+      "matchType": "Singles match",
+      "duration": 93,
+      "participants": [
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sin-cara",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mark Henry",
+        "Sin Cara"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2013/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "61476",
+          "140404"
+        ],
+        "sourceEventIds": [
+          "9704"
+        ]
+      },
+      "legacyId": "bulk-match-61476",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "The Miz vs. Antonio Cesaro",
+      "result": "The Miz defeated Antonio Cesaro.",
+      "matchType": "Other match",
+      "duration": 229,
+      "participants": [
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Miz",
+        "Antonio Cesaro"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2013/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "61477",
+          "140405"
+        ],
+        "sourceEventIds": [
+          "9704"
+        ]
+      },
+      "legacyId": "bulk-match-61477",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Alberto Del Rio vs. Dolph Ziggler",
+      "result": "Alberto Del Rio defeated Dolph Ziggler.",
+      "matchType": "Singles match",
+      "duration": 391,
+      "participants": [
+        {
+          "person": "alberto-del-rio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alberto Del Rio",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2013/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "61478",
+          "140406"
+        ],
+        "sourceEventIds": [
+          "9704"
+        ]
+      },
+      "legacyId": "bulk-match-61478",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-9704"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "9704"
+    ]
+  }
+}

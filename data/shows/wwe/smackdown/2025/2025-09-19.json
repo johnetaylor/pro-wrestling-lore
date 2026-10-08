@@ -1,0 +1,158 @@
+{
+  "id": "wwe/smackdown/2025-09-19",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2025-09-19",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "legacyCardStatus": "Card indexed",
+    "legacySegmentStatus": "Partial recap coverage · not a full appearance audit"
+  },
+  "sources": [
+    "https://www.thesmackdownhotel.com/events-results/wwe/smackdown-2025",
+    "https://www.wwe.com/shows/smackdown/2025-09-19"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Alexa Bliss & Charlotte Flair",
+      "result": "Alexa Bliss & Charlotte Flair (c) defeat Chelsea Green & Alba Fyre to retain the title",
+      "context": "WWE Women's Tag Team Championship. Open the linked recap for the finish and surrounding story.",
+      "matchType": "WWE Women's Tag Team Championship",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "alexa-bliss",
+          "role": "competitor"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/smackdown-2025",
+        "https://www.wwe.com/shows/smackdown/2025-09-19"
+      ],
+      "legacyId": "2025-09-19-smackdown-match-1",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "The Vision (Bron Breakker & Bronson Reed) vs. Fraxiom (Nathan Frazer & Axiom)",
+      "result": "The Vision (Bron Breakker & Bronson Reed) defeat Fraxiom (Nathan Frazer & Axiom)",
+      "context": "Televised match. Open the linked show recap for the finish and surrounding story.",
+      "matchType": "Match",
+      "participants": [
+        {
+          "person": "bron-breakker",
+          "role": "competitor"
+        },
+        {
+          "person": "nathan-frazer",
+          "role": "competitor"
+        },
+        {
+          "person": "bronson-reed",
+          "role": "competitor"
+        },
+        {
+          "person": "axiom",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/smackdown-2025",
+        "https://www.wwe.com/shows/smackdown/2025-09-19"
+      ],
+      "legacyId": "2025-09-19-smackdown-match-2",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Sami Zayn",
+      "result": "Sami Zayn (c) defeats Carmelo Hayes to retain the title",
+      "context": "WWE United States Championship Open Challenge. Open the linked recap for the finish and surrounding story.",
+      "matchType": "WWE United States Championship Open Challenge",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "carmelo-hayes",
+          "role": "competitor"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/smackdown-2025",
+        "https://www.wwe.com/shows/smackdown/2025-09-19"
+      ],
+      "legacyId": "2025-09-19-smackdown-match-3",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "s1",
+      "type": "promo",
+      "title": "Corey Graves takes an F-5 from Brock Lesnar",
+      "result": "Corey Graves takes an F-5 from Brock Lesnar.",
+      "context": "Selected televised promo, interview or verbal exchange. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "brock-lesnar",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2025-09-19"
+      ],
+      "legacyId": "2025-09-19-smackdown-segment-1",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s2",
+      "type": "appearance",
+      "title": "Cody Rhodes and Drew McIntyre's contract signing turns into a fight",
+      "result": "Cody Rhodes and Drew McIntyre's contract signing turns into a fight.",
+      "context": "Selected televised appearance or physical confrontation. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor"
+        },
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2025-09-19"
+      ],
+      "legacyId": "2025-09-19-smackdown-segment-2",
+      "legacy": {
+        "kind": "story"
+      }
+    }
+  ],
+  "legacyIds": [
+    "2025-09-19-smackdown"
+  ],
+  "legacy": {
+    "showFamily": "smackdown"
+  }
+}

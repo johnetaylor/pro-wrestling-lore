@@ -1,0 +1,185 @@
+{
+  "id": "wwe/raw/2008-01-28",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2008-01-28",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Cody Rhodes vs. Carlito",
+      "result": "Cody Rhodes defeated Carlito.",
+      "matchType": "Singles match",
+      "duration": 186,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Carlito"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52752",
+          "152990"
+        ],
+        "sourceEventIds": [
+          "8031"
+        ]
+      },
+      "legacyId": "bulk-match-52752",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Shawn Michaels, Triple H vs. Snitsky, Umaga",
+      "result": "Shawn Michaels, Triple H defeated Snitsky, Umaga.",
+      "matchType": "4-person match",
+      "duration": 734,
+      "participants": [
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "snitsky",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "umaga",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shawn Michaels",
+        "Triple H",
+        "Snitsky",
+        "Umaga"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52753",
+          "152991"
+        ],
+        "sourceEventIds": [
+          "8031"
+        ]
+      },
+      "legacyId": "bulk-match-52753",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "John Bradshaw Layfield, Randy Orton vs. Chris Jericho, Jeff Hardy",
+      "result": "John Bradshaw Layfield, Randy Orton defeated Chris Jericho, Jeff Hardy.",
+      "matchType": "4-person match",
+      "duration": 658,
+      "participants": [
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Bradshaw Layfield",
+        "Randy Orton",
+        "Chris Jericho",
+        "Jeff Hardy"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52756",
+          "152994"
+        ],
+        "sourceEventIds": [
+          "8031"
+        ]
+      },
+      "legacyId": "bulk-match-52756",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8031"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8031"
+    ]
+  }
+}

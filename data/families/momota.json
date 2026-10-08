@@ -1,0 +1,63 @@
+{
+  "id": "momota",
+  "name": "Momota",
+  "description": "Rikidōzan and his sons Yoshihiro and Mitsuo Momota.",
+  "branches": [
+    {
+      "id": "momota",
+      "name": "The Momota family"
+    }
+  ],
+  "members": [
+    {
+      "id": "rikidozan",
+      "name": "Rikidōzan",
+      "branch": "momota",
+      "source": "momota",
+      "layout": {
+        "x": 106,
+        "y": 24
+      }
+    },
+    {
+      "id": "yoshihiro-momota",
+      "name": "Yoshihiro Momota",
+      "branch": "momota",
+      "source": "momota",
+      "layout": {
+        "x": 16,
+        "y": 164
+      }
+    },
+    {
+      "id": "mitsuo-momota",
+      "name": "Mitsuo Momota",
+      "branch": "momota",
+      "source": "momota",
+      "layout": {
+        "x": 196,
+        "y": 164
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "rikidozan",
+      "b": "yoshihiro-momota",
+      "type": "parent",
+      "source": "momota"
+    },
+    {
+      "a": "rikidozan",
+      "b": "mitsuo-momota",
+      "type": "parent",
+      "source": "momota"
+    }
+  ],
+  "sources": {
+    "momota": {
+      "label": "Rikidōzan and his sons",
+      "url": "https://en.wikipedia.org/wiki/Rikid%C5%8Dzan"
+    }
+  }
+}

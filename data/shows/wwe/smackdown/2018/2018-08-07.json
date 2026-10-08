@@ -1,0 +1,226 @@
+{
+  "id": "wwe/smackdown/2018-08-07",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-08-07",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-08-07"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Becky Lynch, Charlotte Flair vs. Billie Kay, Peyton Royce",
+      "result": "Becky Lynch, Charlotte Flair defeated Billie Kay, Peyton Royce.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billie-kay",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "peyton-royce",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Charlotte Flair",
+        "Billie Kay",
+        "Peyton Royce"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-08-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81143",
+          "118311"
+        ],
+        "sourceEventIds": [
+          "12619"
+        ]
+      },
+      "legacyId": "bulk-match-81143",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Zelina Vega vs. Lana",
+      "result": "Zelina Vega defeated Lana.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "zelina-vega",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "lana",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Zelina Vega",
+        "Lana"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-08-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81144",
+          "118312"
+        ],
+        "sourceEventIds": [
+          "12619"
+        ]
+      },
+      "legacyId": "bulk-match-81144",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Shinsuke Nakamura vs. R-Truth",
+      "result": "Shinsuke Nakamura defeated R-Truth.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shinsuke Nakamura",
+        "R-Truth"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-08-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81145",
+          "118313"
+        ],
+        "sourceEventIds": [
+          "12619"
+        ]
+      },
+      "legacyId": "bulk-match-81145",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Big E, Kofi Kingston vs. Cesaro, Sheamus",
+      "result": "Big E, Kofi Kingston defeated Cesaro, Sheamus.",
+      "matchType": "4-person match",
+      "duration": 1504,
+      "participants": [
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Big E",
+        "Kofi Kingston",
+        "Cesaro",
+        "Sheamus"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-08-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81147",
+          "118315"
+        ],
+        "sourceEventIds": [
+          "12619"
+        ]
+      },
+      "legacyId": "bulk-match-81147",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12619"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12619"
+    ]
+  }
+}

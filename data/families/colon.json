@@ -1,0 +1,101 @@
+{
+  "id": "colon",
+  "name": "Colón",
+  "description": "Carlito and Primo are Carlos Colón’s sons. Epico is Carlos’s nephew and their cousin.",
+  "branches": [
+    {
+      "id": "colon",
+      "name": "The Colón family"
+    }
+  ],
+  "members": [
+    {
+      "id": "carlos-colon",
+      "name": "Carlos Colón Sr.",
+      "person": "carlos-colon",
+      "branch": "colon",
+      "aliases": [
+        "Carlos Colon"
+      ],
+      "source": "colon",
+      "layout": {
+        "x": 196,
+        "y": 24
+      }
+    },
+    {
+      "id": "carlito",
+      "name": "Carlito",
+      "person": "carlito",
+      "branch": "colon",
+      "source": "colon",
+      "layout": {
+        "x": 16,
+        "y": 164
+      }
+    },
+    {
+      "id": "primo",
+      "name": "Primo / Eddie Colón",
+      "branch": "colon",
+      "aliases": [
+        "Primo",
+        "Primo Colon",
+        "Eddie Colon"
+      ],
+      "source": "colon",
+      "layout": {
+        "x": 196,
+        "y": 164
+      }
+    },
+    {
+      "id": "epico",
+      "name": "Epico / Orlando Colón",
+      "person": "epico",
+      "branch": "colon",
+      "aliases": [
+        "Epico",
+        "Epico Colon",
+        "Orlando Colon"
+      ],
+      "source": "colon",
+      "layout": {
+        "x": 376,
+        "y": 164
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "carlos-colon",
+      "b": "carlito",
+      "type": "parent",
+      "source": "colon"
+    },
+    {
+      "a": "carlos-colon",
+      "b": "primo",
+      "type": "parent",
+      "source": "colon"
+    },
+    {
+      "a": "carlos-colon",
+      "b": "epico",
+      "type": "uncle",
+      "source": "colon"
+    },
+    {
+      "a": "primo",
+      "b": "epico",
+      "type": "cousin",
+      "source": "colon"
+    }
+  ],
+  "sources": {
+    "colon": {
+      "label": "WWE: Carlos Colón’s sons and nephew",
+      "url": "https://www.wwe.com/superstars/carlos-colon"
+    }
+  }
+}

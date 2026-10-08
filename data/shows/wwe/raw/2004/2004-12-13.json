@@ -1,0 +1,197 @@
+{
+  "id": "wwe/raw/2004-12-13",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2004-12-13",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Randy Orton vs. Edge",
+      "result": "Randy Orton defeated Edge.",
+      "matchType": "Singles match",
+      "duration": 1068,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Edge"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48560",
+          "158085"
+        ],
+        "sourceEventIds": [
+          "7256"
+        ]
+      },
+      "legacyId": "bulk-match-48560",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Batista, Triple H vs. Chris Benoit, Chris Jericho",
+      "result": "Batista, Triple H defeated Chris Benoit, Chris Jericho.",
+      "matchType": "4-person match",
+      "duration": 1009,
+      "participants": [
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Batista",
+        "Triple H",
+        "Chris Benoit",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48561",
+          "158086"
+        ],
+        "sourceEventIds": [
+          "7256"
+        ]
+      },
+      "legacyId": "bulk-match-48561",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Christian, Maven, Tyson Tomko vs. Eugene, Shelton Benjamin, William Regal",
+      "result": "Christian, Maven, Tyson Tomko defeated Eugene, Shelton Benjamin, William Regal.",
+      "matchType": "Tag Team match",
+      "duration": 438,
+      "participants": [
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "maven",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tyson-tomko",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eugene",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Christian",
+        "Maven",
+        "Tyson Tomko",
+        "Eugene",
+        "Shelton Benjamin",
+        "William Regal"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48562",
+          "158087"
+        ],
+        "sourceEventIds": [
+          "7256"
+        ]
+      },
+      "legacyId": "bulk-match-48562",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7256"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7256"
+    ]
+  }
+}

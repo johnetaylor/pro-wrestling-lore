@@ -1,0 +1,229 @@
+{
+  "id": "wwe/raw/2004-07-05",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2004-07-05",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Kane, Batista — no contest.",
+      "matchType": "Singles match",
+      "duration": 118,
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "Batista"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48007",
+          "158904"
+        ],
+        "sourceEventIds": [
+          "7138"
+        ]
+      },
+      "legacyId": "bulk-match-48007",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Randy Orton vs. Chris Jericho",
+      "result": "Randy Orton defeated Chris Jericho.",
+      "matchType": "Singles match",
+      "duration": 1080,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48008",
+          "158905"
+        ],
+        "sourceEventIds": [
+          "7138"
+        ]
+      },
+      "legacyId": "bulk-match-48008",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Nidia vs. Molly Holly, Victoria",
+      "result": "Nidia defeated Molly Holly, Victoria.",
+      "matchType": "Triple Threat match",
+      "duration": 210,
+      "participants": [
+        {
+          "person": "nidia",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "molly-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "victoria",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Nidia",
+        "Molly Holly",
+        "Victoria"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48009",
+          "158906"
+        ],
+        "sourceEventIds": [
+          "7138"
+        ]
+      },
+      "legacyId": "bulk-match-48009",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Eugene, Ric Flair, Triple H vs. Chris Benoit, Edge",
+      "result": "Eugene, Ric Flair, Triple H defeated Chris Benoit, Edge.",
+      "matchType": "Tag Team match",
+      "duration": 930,
+      "participants": [
+        {
+          "person": "eugene",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ric-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Eugene",
+        "Ric Flair",
+        "Triple H",
+        "Chris Benoit",
+        "Edge"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48011",
+          "158908"
+        ],
+        "sourceEventIds": [
+          "7138"
+        ]
+      },
+      "legacyId": "bulk-match-48011",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7138"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7138"
+    ]
+  }
+}

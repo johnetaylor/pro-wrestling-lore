@@ -1,0 +1,218 @@
+{
+  "id": "wwe/smackdown/2004-11-16",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2004-11-16",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Charlie Haas vs. Heidenreich",
+      "result": "Charlie Haas defeated Heidenreich by count-out.",
+      "matchType": "Singles match",
+      "duration": 79,
+      "participants": [
+        {
+          "person": "charlie-haas",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "heidenreich",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Charlie Haas",
+        "Heidenreich"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48464",
+          "158214"
+        ],
+        "sourceEventIds": [
+          "7237"
+        ]
+      },
+      "legacyId": "bulk-match-48464",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Rey Mysterio, Rob Van Dam vs. Kenzo Suzuki, Rene Dupree",
+      "result": "Rey Mysterio, Rob Van Dam defeated Kenzo Suzuki, Rene Dupree.",
+      "matchType": "4-person match",
+      "duration": 701,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kenzo-suzuki",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rene-dupree",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Rob Van Dam",
+        "Kenzo Suzuki",
+        "Rene Dupree"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48465",
+          "158215"
+        ],
+        "sourceEventIds": [
+          "7237"
+        ]
+      },
+      "legacyId": "bulk-match-48465",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Kurt Angle vs. Dean Visk",
+      "result": "Kurt Angle defeated Dean Visk.",
+      "matchType": "Singles match",
+      "duration": 135,
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dean-visk",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Dean Visk"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48466",
+          "158216"
+        ],
+        "sourceEventIds": [
+          "7237"
+        ]
+      },
+      "legacyId": "bulk-match-48466",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "John Cena vs. Carlito",
+      "result": "John Cena defeated Carlito.",
+      "matchType": "Singles match",
+      "duration": 24,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Carlito"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48467",
+          "158217"
+        ],
+        "sourceEventIds": [
+          "7237"
+        ]
+      },
+      "legacyId": "bulk-match-48467",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7237"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7237"
+    ]
+  }
+}

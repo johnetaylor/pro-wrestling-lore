@@ -1,0 +1,141 @@
+{
+  "id": "wwe/raw/2020-03-23",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2020-03-23",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2020-03-23"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Andrade, Angel Garza vs. Cedric Alexander, Ricochet",
+      "result": "Andrade, Angel Garza defeated Cedric Alexander, Ricochet.",
+      "matchType": "4-person match",
+      "duration": 1220,
+      "participants": [
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "angel",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cedric-alexander",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Andrade",
+        "Angel Garza",
+        "Cedric Alexander",
+        "Ricochet"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2020-03-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85519",
+          "113656"
+        ],
+        "sourceEventIds": [
+          "13362"
+        ]
+      },
+      "legacyId": "bulk-match-85519",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Angelo Dawkins, Montez Ford vs. Brendan Vink, Shane Thorne",
+      "result": "Angelo Dawkins, Montez Ford defeated Brendan Vink, Shane Thorne.",
+      "matchType": "4-person match",
+      "duration": 180,
+      "participants": [
+        {
+          "person": "angelo-dawkins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "montez-ford",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "brendan-vink",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shane-thorne",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Angelo Dawkins",
+        "Montez Ford",
+        "Brendan Vink",
+        "Shane Thorne"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2020-03-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85520",
+          "113657"
+        ],
+        "sourceEventIds": [
+          "13362"
+        ]
+      },
+      "legacyId": "bulk-match-85520",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13362"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13362"
+    ]
+  }
+}

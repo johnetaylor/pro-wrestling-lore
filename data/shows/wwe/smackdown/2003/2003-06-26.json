@@ -1,0 +1,199 @@
+{
+  "id": "wwe/smackdown/2003-06-26",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2003-06-26",
+  "dateBasis": "aired",
+  "recordedDate": "2003-06-24",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2003/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Matt Hardy vs. Rikishi",
+      "result": "Matt Hardy defeated Rikishi.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Matt Hardy",
+        "Rikishi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46518",
+          "160473"
+        ],
+        "sourceEventIds": [
+          "6865"
+        ]
+      },
+      "legacyId": "bulk-match-46518",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Ultimo Dragon vs. Shannon Moore",
+      "result": "Ultimo Dragon defeated Shannon Moore.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "ultimo-dragon",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shannon-moore",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ultimo Dragon",
+        "Shannon Moore"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46520",
+          "160475"
+        ],
+        "sourceEventIds": [
+          "6865"
+        ]
+      },
+      "legacyId": "bulk-match-46520",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Charlie Haas, Shelton Benjamin, The Big Show vs. Brock Lesnar, Kurt Angle, Mr. America",
+      "result": "Charlie Haas, Shelton Benjamin, The Big Show defeated Brock Lesnar, Kurt Angle, Mr. America.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "charlie-haas",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "brock-lesnar",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlie Haas",
+        "Shelton Benjamin",
+        "The Big Show",
+        "Brock Lesnar",
+        "Kurt Angle",
+        "Mr. America"
+      ],
+      "showCategory": "SmackDown",
+      "promotionLabel": "WWE",
+      "dateBasis": "broadcast",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-07",
+        "source": "https://thehistoryofwwe.com/wwe-results-2003/",
+        "scope": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date."
+      },
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46521",
+          "160476"
+        ],
+        "sourceEventIds": [
+          "6865"
+        ]
+      },
+      "legacyId": "bulk-match-46521",
+      "legacy": {
+        "kind": "match",
+        "hoganReview": {
+          "id": "bulk-match-46521",
+          "source": "https://thehistoryofwwe.com/wwe-results-2003/",
+          "date": "2003-06-26",
+          "reviewed": "2026-10-07",
+          "note": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date.",
+          "omitUnreviewedDuration": true
+        },
+        "workbookReference": "HM-0269",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6865"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6865"
+    ]
+  }
+}

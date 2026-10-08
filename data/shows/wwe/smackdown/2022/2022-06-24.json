@@ -1,0 +1,216 @@
+{
+  "id": "wwe/smackdown/2022-06-24",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2022-06-24",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2022-06-24"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Sami Zayn vs. Shinsuke Nakamura",
+      "result": "Sami Zayn defeated Shinsuke Nakamura.",
+      "matchType": "Singles match",
+      "duration": 594,
+      "participants": [
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sami Zayn",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-06-24"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8535",
+          "89367",
+          "106863"
+        ],
+        "sourceEventIds": [
+          "1487"
+        ]
+      },
+      "legacyId": "bulk-match-8535",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Lacey Evans, Raquel Rodriguez vs. Sonya Deville",
+      "result": "Lacey Evans, Raquel Rodriguez defeated Sonya Deville.",
+      "matchType": "Tag Team match",
+      "duration": 187,
+      "participants": [
+        {
+          "person": "lacey-evans",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "raquel-rodriguez",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sonya-deville",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lacey Evans",
+        "Raquel Rodriguez",
+        "Sonya Deville"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-06-24"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8536",
+          "89368",
+          "106864"
+        ],
+        "sourceEventIds": [
+          "1487"
+        ]
+      },
+      "legacyId": "bulk-match-8536",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Gunther vs. Ricochet",
+      "result": "Gunther defeated Ricochet.",
+      "matchType": "Singles match",
+      "duration": 188,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "gunther",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Gunther",
+        "Ricochet"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-06-24"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8537",
+          "89369",
+          "106865"
+        ],
+        "sourceEventIds": [
+          "1487"
+        ]
+      },
+      "legacyId": "bulk-match-8537",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Shotzi vs. Tamina",
+      "result": "Shotzi defeated Tamina.",
+      "matchType": "Singles match",
+      "duration": 159,
+      "participants": [
+        {
+          "person": "shotzi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tamina",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shotzi",
+        "Tamina"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-06-24"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8538",
+          "89370",
+          "106866"
+        ],
+        "sourceEventIds": [
+          "1487"
+        ]
+      },
+      "legacyId": "bulk-match-8538",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1487"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1487"
+    ]
+  }
+}

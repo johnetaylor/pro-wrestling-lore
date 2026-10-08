@@ -1,0 +1,176 @@
+{
+  "id": "wwe/nxt/2014-10-23",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2014-10-23",
+  "dateBasis": "aired",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwenxt/2014-10-23"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Becky Lynch vs. Bayley",
+      "result": "Becky Lynch defeated Bayley.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Bayley"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2014-10-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "133505"
+        ],
+        "sourceEventIds": [
+          "19759",
+          "19761",
+          "19762"
+        ]
+      },
+      "legacyId": "bulk-match-133505",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Aiden English, Simon Gotch vs. Buddy Murphy, Wesley Blake",
+      "result": "Aiden English, Simon Gotch defeated Buddy Murphy, Wesley Blake.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "aiden-english",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "simon-gotch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "buddy-murphy",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "wesley-blake",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Aiden English",
+        "Simon Gotch",
+        "Buddy Murphy",
+        "Wesley Blake"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2014-10-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "133497"
+        ],
+        "sourceEventIds": [
+          "19759",
+          "19761",
+          "19762"
+        ]
+      },
+      "legacyId": "bulk-match-133497",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Adrian Neville vs. Sami Zayn",
+      "result": "Adrian Neville defeated Sami Zayn.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "neville",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Adrian Neville",
+        "Sami Zayn"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2014-10-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "133515"
+        ],
+        "sourceEventIds": [
+          "19759",
+          "19761",
+          "19762"
+        ]
+      },
+      "legacyId": "bulk-match-133515",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-19761"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "19759",
+      "19761",
+      "19762"
+    ]
+  }
+}

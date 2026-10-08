@@ -1,0 +1,63 @@
+{
+  "id": "hamada",
+  "name": "Hamada",
+  "description": "Gran Hamada and his daughters Xóchitl and Ayako, spanning Japanese and Mexican wrestling.",
+  "branches": [
+    {
+      "id": "hamada",
+      "name": "The Hamada family"
+    }
+  ],
+  "members": [
+    {
+      "id": "gran-hamada",
+      "name": "Gran Hamada",
+      "branch": "hamada",
+      "source": "hamada",
+      "layout": {
+        "x": 106,
+        "y": 24
+      }
+    },
+    {
+      "id": "xochitl-hamada",
+      "name": "Xóchitl Hamada",
+      "branch": "hamada",
+      "source": "hamada",
+      "layout": {
+        "x": 16,
+        "y": 164
+      }
+    },
+    {
+      "id": "ayako-hamada",
+      "name": "Ayako Hamada",
+      "branch": "hamada",
+      "source": "hamada",
+      "layout": {
+        "x": 196,
+        "y": 164
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "gran-hamada",
+      "b": "xochitl-hamada",
+      "type": "parent",
+      "source": "hamada"
+    },
+    {
+      "a": "gran-hamada",
+      "b": "ayako-hamada",
+      "type": "parent",
+      "source": "hamada"
+    }
+  ],
+  "sources": {
+    "hamada": {
+      "label": "POST Wrestling: Gran Hamada and his daughters",
+      "url": "https://www.postwrestling.com/2025/02/15/gran-hamada-passes-away/"
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "id": "wwe/smackdown/2004-05-25",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2004-05-25",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Booker T. vs. Scotty 2 Hotty",
+      "result": "Booker T. defeated Scotty 2 Hotty.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "scotty-2-hotty",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Booker T.",
+        "Scotty 2 Hotty"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47872",
+          "159127"
+        ],
+        "sourceEventIds": [
+          "7110"
+        ]
+      },
+      "legacyId": "bulk-match-47872",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Eddie Guerrero, Danny Basham — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "danny-basham",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Eddie Guerrero",
+        "Danny Basham"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47873",
+          "159128"
+        ],
+        "sourceEventIds": [
+          "7110"
+        ]
+      },
+      "legacyId": "bulk-match-47873",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Spike Dudley, Torrie Wilson vs. Dawn Marie, Jamie Noble",
+      "result": "Spike Dudley, Torrie Wilson defeated Dawn Marie, Jamie Noble.",
+      "matchType": "4-person match",
+      "duration": 316,
+      "participants": [
+        {
+          "person": "spike-dudley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "torrie-wilson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dawn-marie",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "jamie-noble",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Spike Dudley",
+        "Torrie Wilson",
+        "Dawn Marie",
+        "Jamie Noble"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47874",
+          "159129"
+        ],
+        "sourceEventIds": [
+          "7110"
+        ]
+      },
+      "legacyId": "bulk-match-47874",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "John Cena vs. Rene Dupree",
+      "result": "John Cena defeated Rene Dupree.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rene-dupree",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Rene Dupree"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47876",
+          "159131"
+        ],
+        "sourceEventIds": [
+          "7110"
+        ]
+      },
+      "legacyId": "bulk-match-47876",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7110"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7110"
+    ]
+  }
+}

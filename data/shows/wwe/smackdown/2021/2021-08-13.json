@@ -1,0 +1,174 @@
+{
+  "id": "wwe/smackdown/2021-08-13",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2021-08-13",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2021-08-13"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "King Nakamura vs. Apollo Crews",
+      "result": "King Nakamura defeated Apollo Crews.",
+      "matchType": "Singles match",
+      "duration": 600,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "apollo-crews",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "King Nakamura",
+        "Apollo Crews"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-08-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87417",
+          "110113"
+        ],
+        "sourceEventIds": [
+          "13745"
+        ]
+      },
+      "legacyId": "bulk-match-87417",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Angelo Dawkins, Montez Ford vs. Chad Gable, Otis",
+      "result": "Angelo Dawkins, Montez Ford defeated Chad Gable, Otis.",
+      "matchType": "4-person match",
+      "duration": 218,
+      "participants": [
+        {
+          "person": "angelo-dawkins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "montez-ford",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "otis",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Angelo Dawkins",
+        "Montez Ford",
+        "Chad Gable",
+        "Otis"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-08-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87418",
+          "110114"
+        ],
+        "sourceEventIds": [
+          "13745"
+        ]
+      },
+      "legacyId": "bulk-match-87418",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 7,
+      "type": "match",
+      "title": "Kevin Owens vs. Baron Corbin",
+      "result": "Kevin Owens defeated Baron Corbin.",
+      "matchType": "Singles match",
+      "duration": 590,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Baron Corbin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-08-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87420",
+          "110116"
+        ],
+        "sourceEventIds": [
+          "13745"
+        ]
+      },
+      "legacyId": "bulk-match-87420",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13745"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13745"
+    ]
+  }
+}

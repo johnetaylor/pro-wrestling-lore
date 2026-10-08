@@ -1,0 +1,228 @@
+{
+  "id": "wwe/smackdown/2021-04-23",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2021-04-23",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2021-04-23"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Cesaro, Daniel Bryan vs. Jey Uso, Seth Rollins",
+      "result": "Cesaro, Daniel Bryan defeated Jey Uso, Seth Rollins.",
+      "matchType": "4-person match",
+      "duration": 1148,
+      "participants": [
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jey-uso",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cesaro",
+        "Daniel Bryan",
+        "Jey Uso",
+        "Seth Rollins"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-04-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86967",
+          "111023"
+        ],
+        "sourceEventIds": [
+          "13656"
+        ]
+      },
+      "legacyId": "bulk-match-86967",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Tamina vs. Nia Jax",
+      "result": "Tamina defeated Nia Jax.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "tamina",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nia-jax",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tamina",
+        "Nia Jax"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-04-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86968",
+          "111024"
+        ],
+        "sourceEventIds": [
+          "13656"
+        ]
+      },
+      "legacyId": "bulk-match-86968",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Apollo Crews vs. Kevin Owens",
+      "result": "Apollo Crews defeated Kevin Owens.",
+      "matchType": "Singles match",
+      "duration": 818,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "apollo-crews",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Apollo Crews",
+        "Kevin Owens"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-04-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86969",
+          "111025"
+        ],
+        "sourceEventIds": [
+          "13656"
+        ]
+      },
+      "legacyId": "bulk-match-86969",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Dominik Mysterio, Rey Mysterio vs. Chad Gable, Otis",
+      "result": "Dominik Mysterio, Rey Mysterio defeated Chad Gable, Otis.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "otis",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dominik Mysterio",
+        "Rey Mysterio",
+        "Chad Gable",
+        "Otis"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-04-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86970",
+          "111026"
+        ],
+        "sourceEventIds": [
+          "13656"
+        ]
+      },
+      "legacyId": "bulk-match-86970",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13656"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13656"
+    ]
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "id": "wwe/raw/2010-05-24",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2010-05-24",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2010/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Sheamus vs. Mark Henry",
+      "result": "Sheamus defeated Mark Henry.",
+      "matchType": "Singles match",
+      "duration": 245,
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Mark Henry"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55671",
+          "148979"
+        ],
+        "sourceEventIds": [
+          "8621"
+        ]
+      },
+      "legacyId": "bulk-match-55671",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "R-Truth vs. The Miz",
+      "result": "R-Truth defeated The Miz.",
+      "matchType": "Singles match",
+      "duration": 605,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "R-Truth",
+        "The Miz"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55673",
+          "148981"
+        ],
+        "sourceEventIds": [
+          "8621"
+        ]
+      },
+      "legacyId": "bulk-match-55673",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "David Hart Smith, Tyson Kidd vs. Vladimir Kozlov, William Regal",
+      "result": "David Hart Smith, Tyson Kidd defeated Vladimir Kozlov, William Regal.",
+      "matchType": "4-person match",
+      "duration": 80,
+      "participants": [
+        {
+          "person": "david-hart-smith",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tyson-kidd",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "vladimir-kozlov",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "David Hart Smith",
+        "Tyson Kidd",
+        "Vladimir Kozlov",
+        "William Regal"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55674",
+          "148982"
+        ],
+        "sourceEventIds": [
+          "8621"
+        ]
+      },
+      "legacyId": "bulk-match-55674",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Edge vs. Chris Jericho, John Cena",
+      "result": "Edge defeated Chris Jericho, John Cena.",
+      "matchType": "Other match",
+      "duration": 620,
+      "participants": [
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Edge",
+        "Chris Jericho",
+        "John Cena"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55675",
+          "148983"
+        ],
+        "sourceEventIds": [
+          "8621"
+        ]
+      },
+      "legacyId": "bulk-match-55675",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8621"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8621"
+    ]
+  }
+}

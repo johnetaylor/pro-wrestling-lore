@@ -1,0 +1,223 @@
+{
+  "id": "wwe/raw/2006-04-10",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2006-04-10",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2006/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rob Van Dam vs. Rob Conway",
+      "result": "Rob Van Dam defeated Rob Conway.",
+      "matchType": "Singles match",
+      "duration": 100,
+      "participants": [
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rob-conway",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rob Van Dam",
+        "Rob Conway"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50400",
+          "155861"
+        ],
+        "sourceEventIds": [
+          "7606"
+        ]
+      },
+      "legacyId": "bulk-match-50400",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Johnny, Mikey vs. Kane, The Big Show",
+      "result": "Johnny, Mikey defeated Kane, The Big Show by disqualification.",
+      "matchType": "4-person match",
+      "duration": 802,
+      "participants": [
+        {
+          "person": "johnny",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mikey",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Johnny",
+        "Mikey",
+        "Kane",
+        "The Big Show"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50401",
+          "155862"
+        ],
+        "sourceEventIds": [
+          "7606"
+        ]
+      },
+      "legacyId": "bulk-match-50401",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Umaga vs. Chris Guy",
+      "result": "Umaga defeated Chris Guy.",
+      "matchType": "Singles match",
+      "duration": 70,
+      "participants": [
+        {
+          "person": "umaga",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-guy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Umaga",
+        "Chris Guy"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50402",
+          "155863"
+        ],
+        "sourceEventIds": [
+          "7606"
+        ]
+      },
+      "legacyId": "bulk-match-50402",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "John Cena, Triple H vs. Edge",
+      "result": "John Cena, Triple H defeated Edge.",
+      "matchType": "Tag Team match",
+      "duration": 469,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Triple H",
+        "Edge"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50404",
+          "155865"
+        ],
+        "sourceEventIds": [
+          "7606"
+        ]
+      },
+      "legacyId": "bulk-match-50404",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7606"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7606"
+    ]
+  }
+}

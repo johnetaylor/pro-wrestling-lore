@@ -1,0 +1,348 @@
+{
+  "id": "wwe/smackdown/2002-03-26",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2002-03-26",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2002/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Diamond Dallas Page vs. Booker T.",
+      "result": "Diamond Dallas Page defeated Booker T. by disqualification.",
+      "matchType": "Singles match",
+      "duration": 120,
+      "participants": [
+        {
+          "person": "diamond-dallas-page",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Diamond Dallas Page",
+        "Booker T."
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44444",
+          "162516"
+        ],
+        "sourceEventIds": [
+          "6525"
+        ]
+      },
+      "legacyId": "bulk-match-44444",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Hulk Hogan, Kane, The Rock vs. Kevin Nash, Scott Hall, X-Pac",
+      "result": "Hulk Hogan, Kane, The Rock defeated Kevin Nash, Scott Hall, X-Pac.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-nash",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "scott-hall",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "x-pac",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hulk Hogan",
+        "Kane",
+        "The Rock",
+        "Kevin Nash",
+        "Scott Hall",
+        "X-Pac"
+      ],
+      "showCategory": "SmackDown",
+      "promotionLabel": "WWF",
+      "dateBasis": "broadcast",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-07",
+        "source": "https://thehistoryofwwe.com/wwe-results-2002/",
+        "scope": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date."
+      },
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44446",
+          "162518"
+        ],
+        "sourceEventIds": [
+          "6525"
+        ]
+      },
+      "legacyId": "bulk-match-44446",
+      "legacy": {
+        "date": "2002-03-28",
+        "kind": "match",
+        "hoganReview": {
+          "id": "bulk-match-44446",
+          "source": "https://thehistoryofwwe.com/wwe-results-2002/",
+          "date": "2002-03-28",
+          "reviewed": "2026-10-07",
+          "note": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date.",
+          "recordedDate": "2002-03-26",
+          "omitUnreviewedDuration": true
+        },
+        "workbookReference": "HM-0248",
+        "recordedDate": "2002-03-26",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Chris Jericho vs. Matt Hardy",
+      "result": "Chris Jericho defeated Matt Hardy.",
+      "matchType": "Singles match",
+      "duration": 132,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Matt Hardy"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44447",
+          "162519"
+        ],
+        "sourceEventIds": [
+          "6525"
+        ]
+      },
+      "legacyId": "bulk-match-44447",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Rob Van Dam vs. Test",
+      "result": "Rob Van Dam defeated Test.",
+      "matchType": "Singles match",
+      "duration": 144,
+      "participants": [
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rob Van Dam",
+        "Test"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44448",
+          "162520"
+        ],
+        "sourceEventIds": [
+          "6525"
+        ]
+      },
+      "legacyId": "bulk-match-44448",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 6,
+      "type": "match",
+      "title": "Raven vs. Maven",
+      "result": "Raven defeated Maven.",
+      "matchType": "Other match",
+      "duration": 105,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "raven",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "maven",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Raven",
+        "Maven"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44449",
+          "162521"
+        ],
+        "sourceEventIds": [
+          "6525"
+        ]
+      },
+      "legacyId": "bulk-match-44449",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 7,
+      "type": "match",
+      "title": "Kurt Angle, Mr. McMahon vs. Ric Flair, Triple H",
+      "result": "Kurt Angle, Mr. McMahon defeated Ric Flair, Triple H.",
+      "matchType": "4-person match",
+      "duration": 544,
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "vince-mcmahon",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ric-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Mr. McMahon",
+        "Ric Flair",
+        "Triple H"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44450",
+          "162522"
+        ],
+        "sourceEventIds": [
+          "6525"
+        ]
+      },
+      "legacyId": "bulk-match-44450",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6525"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6525"
+    ]
+  }
+}

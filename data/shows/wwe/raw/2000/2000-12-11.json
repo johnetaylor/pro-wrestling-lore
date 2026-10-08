@@ -1,0 +1,160 @@
+{
+  "id": "wwe/raw/2000-12-11",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2000-12-11",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Billy Gunn vs. Chris Benoit",
+      "result": "Billy Gunn defeated Chris Benoit by disqualification.",
+      "matchType": "Singles match",
+      "duration": 206,
+      "participants": [
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Billy Gunn",
+        "Chris Benoit"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41200",
+          "165822"
+        ],
+        "sourceEventIds": [
+          "6086"
+        ]
+      },
+      "legacyId": "bulk-match-41200",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Chyna vs. Ivory",
+      "result": "Chyna defeated Ivory by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "chyna",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ivory",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Chyna",
+        "Ivory"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41202",
+          "165824"
+        ],
+        "sourceEventIds": [
+          "6086"
+        ]
+      },
+      "legacyId": "bulk-match-41202",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 7,
+      "type": "match",
+      "title": "Raven vs. Al Snow",
+      "result": "Raven defeated Al Snow.",
+      "matchType": "Other match",
+      "duration": 227,
+      "participants": [
+        {
+          "person": "raven",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "al-snow",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Raven",
+        "Al Snow"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41205",
+          "165827"
+        ],
+        "sourceEventIds": [
+          "6086"
+        ]
+      },
+      "legacyId": "bulk-match-41205",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6086"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6086"
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2015-01-29",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2015-01-29",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2015/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Roman Reigns vs. The Big Show",
+      "result": "Roman Reigns defeated The Big Show.",
+      "matchType": "Singles match",
+      "duration": 745,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "The Big Show"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "67958",
+          "132557"
+        ],
+        "sourceEventIds": [
+          "10636"
+        ]
+      },
+      "legacyId": "bulk-match-67958",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Tyson Kidd vs. Jey Uso",
+      "result": "Tyson Kidd defeated Jey Uso.",
+      "matchType": "Singles match",
+      "duration": 151,
+      "participants": [
+        {
+          "person": "tyson-kidd",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jey-uso",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tyson Kidd",
+        "Jey Uso"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "67959",
+          "132558"
+        ],
+        "sourceEventIds": [
+          "10636"
+        ]
+      },
+      "legacyId": "bulk-match-67959",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Daniel Bryan vs. Kane",
+      "result": "Daniel Bryan defeated Kane.",
+      "matchType": "Other match",
+      "duration": 1333,
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "Kane"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "67961",
+          "132560"
+        ],
+        "sourceEventIds": [
+          "10636"
+        ]
+      },
+      "legacyId": "bulk-match-67961",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10636"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10636"
+    ]
+  }
+}

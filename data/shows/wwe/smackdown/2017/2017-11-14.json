@@ -1,0 +1,171 @@
+{
+  "id": "wwe/smackdown/2017-11-14",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-11-14",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-11-14"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Charlotte Flair vs. Natalya",
+      "result": "Charlotte Flair defeated Natalya.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Natalya"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-11-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79082",
+          "120383"
+        ],
+        "sourceEventIds": [
+          "12263"
+        ]
+      },
+      "legacyId": "bulk-match-79082",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Jimmy Uso vs. Chad Gable",
+      "result": "Jimmy Uso defeated Chad Gable.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "jimmy-uso",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jimmy Uso",
+        "Chad Gable"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-11-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79083",
+          "120384"
+        ],
+        "sourceEventIds": [
+          "12263"
+        ]
+      },
+      "legacyId": "bulk-match-79083",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "4-person match",
+      "result": "Kevin Owens, Sami Zayn, Big E, Xavier Woods — no contest.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Sami Zayn",
+        "Big E",
+        "Xavier Woods"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-11-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79084",
+          "120385"
+        ],
+        "sourceEventIds": [
+          "12263"
+        ]
+      },
+      "legacyId": "bulk-match-79084",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12263"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12263"
+    ]
+  }
+}

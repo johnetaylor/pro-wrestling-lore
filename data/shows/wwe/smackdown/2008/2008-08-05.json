@@ -1,0 +1,162 @@
+{
+  "id": "wwe/smackdown/2008-08-05",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2008-08-05",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Jeff Hardy vs. Shelton Benjamin",
+      "result": "Jeff Hardy defeated Shelton Benjamin by disqualification.",
+      "matchType": "Singles match",
+      "duration": 1078,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Shelton Benjamin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53492",
+          "152054"
+        ],
+        "sourceEventIds": [
+          "8154"
+        ]
+      },
+      "legacyId": "bulk-match-53492",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Vladimir Kozlov vs. Jesse",
+      "result": "Vladimir Kozlov defeated Jesse.",
+      "matchType": "Singles match",
+      "duration": 102,
+      "participants": [
+        {
+          "person": "vladimir-kozlov",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jesse",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Vladimir Kozlov",
+        "Jesse"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53493",
+          "152055"
+        ],
+        "sourceEventIds": [
+          "8154"
+        ]
+      },
+      "legacyId": "bulk-match-53493",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "The Brian Kendrick vs. Super Crazy",
+      "result": "The Brian Kendrick defeated Super Crazy.",
+      "matchType": "Singles match",
+      "duration": 278,
+      "participants": [
+        {
+          "person": "brian-kendrick",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "super-crazy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Brian Kendrick",
+        "Super Crazy"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53494",
+          "152056"
+        ],
+        "sourceEventIds": [
+          "8154"
+        ]
+      },
+      "legacyId": "bulk-match-53494",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8154"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8154"
+    ]
+  }
+}

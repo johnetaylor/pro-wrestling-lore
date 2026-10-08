@@ -1,0 +1,202 @@
+{
+  "id": "wwe/smackdown/2018-10-09",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-10-09",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-10-09"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Other match",
+      "result": "Becky Lynch, Charlotte Flair — double count-out.",
+      "matchType": "Other match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Charlotte Flair"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-10-09"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81618",
+          "117840"
+        ],
+        "sourceEventIds": [
+          "12701"
+        ]
+      },
+      "legacyId": "bulk-match-81618",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Jeff Hardy vs. Samoa Joe",
+      "result": "Jeff Hardy defeated Samoa Joe.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "samoa-joe",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Samoa Joe"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-10-09"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81619",
+          "117841"
+        ],
+        "sourceEventIds": [
+          "12701"
+        ]
+      },
+      "legacyId": "bulk-match-81619",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "A.J. Styles vs. Shelton Benjamin",
+      "result": "A.J. Styles defeated Shelton Benjamin.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Shelton Benjamin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-10-09"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81620",
+          "117842"
+        ],
+        "sourceEventIds": [
+          "12701"
+        ]
+      },
+      "legacyId": "bulk-match-81620",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Randy Orton vs. The Big Show",
+      "result": "Randy Orton defeated The Big Show.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "The Big Show"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-10-09"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81621",
+          "117843"
+        ],
+        "sourceEventIds": [
+          "12701"
+        ]
+      },
+      "legacyId": "bulk-match-81621",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12701"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12701"
+    ]
+  }
+}

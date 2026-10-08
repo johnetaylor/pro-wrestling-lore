@@ -1,0 +1,171 @@
+{
+  "id": "wwe/smackdown/2016-02-11",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2016-02-11",
+  "dateBasis": "aired",
+  "recordedDate": "2016-02-09",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2016/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "A.J. Styles, Chris Jericho vs. Adam Rose, Curtis Axel",
+      "result": "A.J. Styles, Chris Jericho defeated Adam Rose, Curtis Axel.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "adam-rose",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "curtis-axel",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Chris Jericho",
+        "Adam Rose",
+        "Curtis Axel"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "72031",
+          "127917"
+        ],
+        "sourceEventIds": [
+          "11187"
+        ]
+      },
+      "legacyId": "bulk-match-72031",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Sasha Banks vs. Naomi",
+      "result": "Sasha Banks defeated Naomi.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sasha Banks",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "72032",
+          "127918"
+        ],
+        "sourceEventIds": [
+          "11187"
+        ]
+      },
+      "legacyId": "bulk-match-72032",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Chris Jericho vs. A.J. Styles",
+      "result": "Chris Jericho defeated A.J. Styles.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "A.J. Styles"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "72034",
+          "127920"
+        ],
+        "sourceEventIds": [
+          "11187"
+        ]
+      },
+      "legacyId": "bulk-match-72034",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11187"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11187"
+    ]
+  }
+}

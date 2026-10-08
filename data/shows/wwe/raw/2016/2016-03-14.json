@@ -1,0 +1,217 @@
+{
+  "id": "wwe/raw/2016-03-14",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2016-03-14",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2016/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Sami Zayn vs. The Miz",
+      "result": "Sami Zayn defeated The Miz.",
+      "matchType": "Other match",
+      "duration": 433,
+      "participants": [
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sami Zayn",
+        "The Miz"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "72443",
+          "127508"
+        ],
+        "sourceEventIds": [
+          "11241"
+        ]
+      },
+      "legacyId": "bulk-match-72443",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Naomi, Tamina vs. Alicia Fox, Brie Bella",
+      "result": "Naomi, Tamina defeated Alicia Fox, Brie Bella.",
+      "matchType": "4-person match",
+      "duration": 159,
+      "participants": [
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tamina",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alicia-fox",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "brie-bella",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Naomi",
+        "Tamina",
+        "Alicia Fox",
+        "Brie Bella"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "72444",
+          "127509"
+        ],
+        "sourceEventIds": [
+          "11241"
+        ]
+      },
+      "legacyId": "bulk-match-72444",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Triple H vs. Dolph Ziggler",
+      "result": "Triple H defeated Dolph Ziggler.",
+      "matchType": "Singles match",
+      "duration": 1048,
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "72446",
+          "127511"
+        ],
+        "sourceEventIds": [
+          "11241"
+        ]
+      },
+      "legacyId": "bulk-match-72446",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Neville vs. Chris Jericho",
+      "result": "Neville defeated Chris Jericho by disqualification.",
+      "matchType": "Singles match",
+      "duration": 292,
+      "participants": [
+        {
+          "person": "neville",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Neville",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "72447",
+          "127512"
+        ],
+        "sourceEventIds": [
+          "11241"
+        ]
+      },
+      "legacyId": "bulk-match-72447",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11241"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11241"
+    ]
+  }
+}

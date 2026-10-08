@@ -7,6 +7,10 @@
     "node": ">=22.18"
   },
   "scripts": {
+    "migrate:v69": "node scripts/migrate/v69/index.ts",
+    "validate": "node scripts/validate.ts",
+    "parity": "node scripts/parity.ts",
+    "check": "node scripts/validate.ts && node scripts/parity.ts",
     "audit:reference": "node scripts/reference/audit.mjs reference/v69"
   }
 }

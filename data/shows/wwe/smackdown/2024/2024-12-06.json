@@ -1,0 +1,220 @@
+{
+  "id": "wwe/smackdown/2024-12-06",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2024-12-06",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2024-12-06"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Tiffany Stratton vs. Elektra Lopez, Naomi",
+      "result": "Tiffany Stratton defeated Elektra Lopez, Naomi.",
+      "matchType": "Triple Threat match",
+      "duration": 435,
+      "participants": [
+        {
+          "person": "tiffany-stratton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "elektra-lopez",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tiffany Stratton",
+        "Elektra Lopez",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-12-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95351"
+        ],
+        "sourceEventIds": [
+          "15124"
+        ]
+      },
+      "legacyId": "bulk-match-95351",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Bianca Belair vs. Piper Niven",
+      "result": "Bianca Belair defeated Piper Niven.",
+      "matchType": "Singles match",
+      "duration": 737,
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "piper-niven",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bianca Belair",
+        "Piper Niven"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-12-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95352"
+        ],
+        "sourceEventIds": [
+          "15124"
+        ]
+      },
+      "legacyId": "bulk-match-95352",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Johnny Gargano, Tommaso Ciampa vs. Alex Shelley, Chris Sabin",
+      "result": "Johnny Gargano, Tommaso Ciampa defeated Alex Shelley, Chris Sabin.",
+      "matchType": "4-person match",
+      "duration": 640,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "johnny-gargano",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tommaso-ciampa",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alex-shelley",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "chris-sabin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Johnny Gargano",
+        "Tommaso Ciampa",
+        "Alex Shelley",
+        "Chris Sabin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-12-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95353"
+        ],
+        "sourceEventIds": [
+          "15124"
+        ]
+      },
+      "legacyId": "bulk-match-95353",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Cody Rhodes vs. Chad Gable",
+      "result": "Cody Rhodes defeated Chad Gable.",
+      "matchType": "Singles match",
+      "duration": 746,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Chad Gable"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-12-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95354"
+        ],
+        "sourceEventIds": [
+          "15124"
+        ]
+      },
+      "legacyId": "bulk-match-95354",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-15124"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "15124"
+    ]
+  }
+}

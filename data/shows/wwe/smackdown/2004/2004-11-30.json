@@ -1,0 +1,79 @@
+{
+  "id": "wwe/smackdown/2004-11-30",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2004-11-30",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "The Undertaker vs. John Bradshaw Layfield, Orlando Jordan",
+      "result": "The Undertaker defeated John Bradshaw Layfield, Orlando Jordan by disqualification.",
+      "matchType": "Tag Team match",
+      "duration": 768,
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "orlando-jordan",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "John Bradshaw Layfield",
+        "Orlando Jordan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48512",
+          "158157"
+        ],
+        "sourceEventIds": [
+          "7246"
+        ]
+      },
+      "legacyId": "bulk-match-48512",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7246"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7246"
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "id": "wwe/raw/1997-09-08",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1997-09-08",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1997/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Other match",
+      "result": "Bret Hart, Vader — no contest.",
+      "matchType": "Other match",
+      "duration": 670,
+      "participants": [
+        {
+          "person": "bret-hart",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "vader",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Bret Hart",
+        "Vader"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "28116",
+          "178939"
+        ],
+        "sourceEventIds": [
+          "4329"
+        ]
+      },
+      "legacyId": "bulk-match-28116",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Max Mini vs. Piratita Morgan",
+      "result": "Max Mini defeated Piratita Morgan.",
+      "matchType": "Singles match",
+      "duration": 161,
+      "participants": [
+        {
+          "person": "max-mini",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "piratita-morgan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Max Mini",
+        "Piratita Morgan"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "28118",
+          "178941"
+        ],
+        "sourceEventIds": [
+          "4329"
+        ]
+      },
+      "legacyId": "bulk-match-28118",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Owen Hart vs. Goldust",
+      "result": "Owen Hart defeated Goldust by disqualification.",
+      "matchType": "Singles match",
+      "duration": 129,
+      "participants": [
+        {
+          "person": "owen-hart",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Owen Hart",
+        "Goldust"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "28119",
+          "178942"
+        ],
+        "sourceEventIds": [
+          "4329"
+        ]
+      },
+      "legacyId": "bulk-match-28119",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Hunter Hearst Helmsley vs. Savio Vega, The Patriot",
+      "result": "Hunter Hearst Helmsley defeated Savio Vega, The Patriot.",
+      "matchType": "Triple Threat match",
+      "duration": 1024,
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "savio-vega",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-patriot",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hunter Hearst Helmsley",
+        "Savio Vega",
+        "The Patriot"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "28120",
+          "178943"
+        ],
+        "sourceEventIds": [
+          "4329"
+        ]
+      },
+      "legacyId": "bulk-match-28120",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4329"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4329"
+    ]
+  }
+}

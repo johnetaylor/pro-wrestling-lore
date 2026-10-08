@@ -1,0 +1,162 @@
+{
+  "id": "wwe/fastlane/2021-03-21",
+  "promotion": "wwe",
+  "series": "wwe/fastlane",
+  "name": "Fastlane 2021",
+  "date": "2021-03-21",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwefastlane/2021"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Riddle vs. Mustafa Ali",
+      "result": "Riddle defeated Mustafa Ali.",
+      "matchType": "Singles match",
+      "duration": 557,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "riddle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mustafa-ali",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Riddle",
+        "Mustafa Ali"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwefastlane/2021"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86836",
+          "111355"
+        ],
+        "sourceEventIds": [
+          "13629"
+        ]
+      },
+      "legacyId": "bulk-match-86836",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 7,
+      "type": "match",
+      "title": "Seth Rollins vs. Shinsuke Nakamura",
+      "result": "Seth Rollins defeated Shinsuke Nakamura.",
+      "matchType": "Singles match",
+      "duration": 774,
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Seth Rollins",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwefastlane/2021"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86842",
+          "111361"
+        ],
+        "sourceEventIds": [
+          "13629"
+        ]
+      },
+      "legacyId": "bulk-match-86842",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 8,
+      "type": "match",
+      "title": "Drew McIntyre vs. Sheamus",
+      "result": "Drew McIntyre defeated Sheamus.",
+      "matchType": "Other match",
+      "duration": 1182,
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "Sheamus"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwefastlane/2021"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86843",
+          "111362"
+        ],
+        "sourceEventIds": [
+          "13629"
+        ]
+      },
+      "legacyId": "bulk-match-86843",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13629"
+  ],
+  "legacy": {
+    "showFamily": "fastlane",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13629"
+    ]
+  }
+}

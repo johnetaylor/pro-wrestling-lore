@@ -1,0 +1,221 @@
+{
+  "id": "wwe/snme/1989-10-14",
+  "promotion": "wwe",
+  "series": "wwe/snme",
+  "name": "Saturday Night's Main Event Taping",
+  "date": "1989-10-14",
+  "dateBasis": "aired",
+  "recordedDate": "1989-09-21",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1989/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Randy Savage vs. Jimmy Snuka",
+      "result": "Randy Savage defeated Jimmy Snuka.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "randy-savage",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jimmy-snuka",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Savage",
+        "Jimmy Snuka"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1989/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "15038",
+          "191956"
+        ],
+        "sourceEventIds": [
+          "2411"
+        ]
+      },
+      "legacyId": "bulk-match-15038",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Hulk Hogan vs. Ted DiBiase",
+      "result": "Hulk Hogan defeated Ted DiBiase.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ted-dibiase",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hulk Hogan",
+        "Ted DiBiase"
+      ],
+      "showCategory": "PLE / special",
+      "promotionLabel": "WWF",
+      "dateBasis": "broadcast",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-07",
+        "source": "https://thehistoryofwwe.com/wwf-results-1989/",
+        "scope": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date."
+      },
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1989/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "15039",
+          "191957"
+        ],
+        "sourceEventIds": [
+          "2411"
+        ]
+      },
+      "legacyId": "bulk-match-15039",
+      "legacy": {
+        "show": "Saturday Night’s Main Event",
+        "kind": "title",
+        "hoganReview": {
+          "id": "bulk-match-15039",
+          "source": "https://thehistoryofwwe.com/wwf-results-1989/",
+          "date": "1989-10-14",
+          "reviewed": "2026-10-07",
+          "note": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date.",
+          "show": "Saturday Night’s Main Event",
+          "omitUnreviewedDuration": true
+        },
+        "workbookReference": "HM-0109",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Roddy Piper vs. Haku",
+      "result": "Roddy Piper defeated Haku.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "roddy-piper",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "haku",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roddy Piper",
+        "Haku"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1989/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "15040",
+          "191958"
+        ],
+        "sourceEventIds": [
+          "2411"
+        ]
+      },
+      "legacyId": "bulk-match-15040",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Tito Santana, Rick Martel — double disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "tito-santana",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "rick-martel",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Tito Santana",
+        "Rick Martel"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1989/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "15041",
+          "191959"
+        ],
+        "sourceEventIds": [
+          "2411"
+        ]
+      },
+      "legacyId": "bulk-match-15041",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-2411"
+  ],
+  "legacy": {
+    "showFamily": "snme",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "2411"
+    ]
+  }
+}

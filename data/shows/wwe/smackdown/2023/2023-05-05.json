@@ -1,0 +1,131 @@
+{
+  "id": "wwe/smackdown/2023-05-05",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2023-05-05",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2023-05-05"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 5,
+      "type": "match",
+      "title": "Shinsuke Nakamura vs. Karrion Kross",
+      "result": "Shinsuke Nakamura defeated Karrion Kross.",
+      "matchType": "Singles match",
+      "duration": 533,
+      "participants": [
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "karrion-kross",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shinsuke Nakamura",
+        "Karrion Kross"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-05-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5073",
+          "91602",
+          "103401"
+        ],
+        "sourceEventIds": [
+          "922"
+        ]
+      },
+      "legacyId": "bulk-match-5073",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 6,
+      "type": "match",
+      "title": "Rey Mysterio, Zelina Vega vs. Dominik Mysterio, Rhea Ripley",
+      "result": "Rey Mysterio, Zelina Vega defeated Dominik Mysterio, Rhea Ripley.",
+      "matchType": "4-person match",
+      "duration": 575,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "zelina-vega",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rhea-ripley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Zelina Vega",
+        "Dominik Mysterio",
+        "Rhea Ripley"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-05-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5074",
+          "91603",
+          "103402"
+        ],
+        "sourceEventIds": [
+          "922"
+        ]
+      },
+      "legacyId": "bulk-match-5074",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-922"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "922"
+    ]
+  }
+}

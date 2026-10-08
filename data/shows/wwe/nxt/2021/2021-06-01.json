@@ -1,0 +1,220 @@
+{
+  "id": "wwe/nxt/2021-06-01",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2021-06-01",
+  "dateBasis": "aired",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwenxt/2021-06-01"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Other match",
+      "result": "Johnny Gargano, Kyle O'Reilly, Pete Dunne — no contest.",
+      "matchType": "Other match",
+      "duration": 1109,
+      "participants": [
+        {
+          "person": "johnny-gargano",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "kyle-oreilly",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "pete-dunne",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Johnny Gargano",
+        "Kyle O'Reilly",
+        "Pete Dunne"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2021-06-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "110755"
+        ],
+        "sourceEventIds": [
+          "16221"
+        ]
+      },
+      "legacyId": "bulk-match-110755",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Jake Atlas vs. L.A. Knight",
+      "result": "Jake Atlas defeated L.A. Knight.",
+      "matchType": "Singles match",
+      "duration": 759,
+      "participants": [
+        {
+          "person": "jake-atlas",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "la-knight",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jake Atlas",
+        "L.A. Knight"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2021-06-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "110756"
+        ],
+        "sourceEventIds": [
+          "16221"
+        ]
+      },
+      "legacyId": "bulk-match-110756",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "KUSHIDA vs. Carmelo Hayes",
+      "result": "KUSHIDA defeated Carmelo Hayes.",
+      "matchType": "Singles match",
+      "duration": 657,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "kushida",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmelo-hayes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "KUSHIDA",
+        "Carmelo Hayes"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2021-06-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "110757"
+        ],
+        "sourceEventIds": [
+          "16221"
+        ]
+      },
+      "legacyId": "bulk-match-110757",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Candice LeRae, Indi Hartwell vs. Zayda Ramier, Zoey Stark",
+      "result": "Candice LeRae, Indi Hartwell defeated Zayda Ramier, Zoey Stark.",
+      "matchType": "4-person match",
+      "duration": 217,
+      "participants": [
+        {
+          "person": "candice-lerae",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "indi-hartwell",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "zayda-ramier",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "zoey-stark",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Candice LeRae",
+        "Indi Hartwell",
+        "Zayda Ramier",
+        "Zoey Stark"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2021-06-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "110758"
+        ],
+        "sourceEventIds": [
+          "16221"
+        ]
+      },
+      "legacyId": "bulk-match-110758",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-16221"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "16221"
+    ]
+  }
+}

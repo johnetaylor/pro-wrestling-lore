@@ -1,0 +1,173 @@
+{
+  "id": "wwe/raw/2003-05-19",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2003-05-19",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2003/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Kane, Rob Van Dam vs. Chris Jericho, Christian",
+      "result": "Kane, Rob Van Dam defeated Chris Jericho, Christian by disqualification.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "Rob Van Dam",
+        "Chris Jericho",
+        "Christian"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46346",
+          "160643"
+        ],
+        "sourceEventIds": [
+          "6838"
+        ]
+      },
+      "legacyId": "bulk-match-46346",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Rodney Mack vs. Spike Dudley",
+      "result": "Rodney Mack defeated Spike Dudley.",
+      "matchType": "Other match",
+      "duration": 299,
+      "participants": [
+        {
+          "person": "rodney-mack",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "spike-dudley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rodney Mack",
+        "Spike Dudley"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46347",
+          "160644"
+        ],
+        "sourceEventIds": [
+          "6838"
+        ]
+      },
+      "legacyId": "bulk-match-46347",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Triple H vs. Ric Flair",
+      "result": "Triple H defeated Ric Flair.",
+      "matchType": "Singles match",
+      "duration": 444,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ric-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "Ric Flair"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46350",
+          "160647"
+        ],
+        "sourceEventIds": [
+          "6838"
+        ]
+      },
+      "legacyId": "bulk-match-46350",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6838"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6838"
+    ]
+  }
+}

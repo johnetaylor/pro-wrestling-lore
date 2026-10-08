@@ -1,0 +1,183 @@
+{
+  "id": "wwe/raw/2010-03-29",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2010-03-29",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2010/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Christian vs. Ted DiBiase Jr.",
+      "result": "Christian defeated Ted DiBiase Jr..",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ted-dibiase-jr",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Christian",
+        "Ted DiBiase Jr."
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55485",
+          "149317"
+        ],
+        "sourceEventIds": [
+          "8579"
+        ]
+      },
+      "legacyId": "bulk-match-55485",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "David Hart Smith, Tyson Kidd vs. The Big Show, The Miz",
+      "result": "David Hart Smith, Tyson Kidd defeated The Big Show, The Miz by count-out.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "david-hart-smith",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tyson-kidd",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "David Hart Smith",
+        "Tyson Kidd",
+        "The Big Show",
+        "The Miz"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55487",
+          "149319"
+        ],
+        "sourceEventIds": [
+          "8579"
+        ]
+      },
+      "legacyId": "bulk-match-55487",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "John Cena, Randy Orton vs. Batista, Jack Swagger",
+      "result": "John Cena, Randy Orton defeated Batista, Jack Swagger.",
+      "matchType": "4-person match",
+      "duration": 486,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "jack-swagger",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Randy Orton",
+        "Batista",
+        "Jack Swagger"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55488",
+          "149320"
+        ],
+        "sourceEventIds": [
+          "8579"
+        ]
+      },
+      "legacyId": "bulk-match-55488",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8579"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8579"
+    ]
+  }
+}

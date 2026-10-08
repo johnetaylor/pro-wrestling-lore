@@ -1,0 +1,225 @@
+{
+  "id": "wwe/raw/2018-09-03",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2018-09-03",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2018-09-03"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Bobby Roode, Chad Gable vs. Konnor, Viktor",
+      "result": "Bobby Roode, Chad Gable defeated Konnor, Viktor.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "bobby-roode",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "konnor",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "viktor",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bobby Roode",
+        "Chad Gable",
+        "Konnor",
+        "Viktor"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-09-03"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81343",
+          "118112"
+        ],
+        "sourceEventIds": [
+          "12651"
+        ]
+      },
+      "legacyId": "bulk-match-81343",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Alexa Bliss vs. Natalya",
+      "result": "Alexa Bliss defeated Natalya.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alexa Bliss",
+        "Natalya"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-09-03"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81344",
+          "118113"
+        ],
+        "sourceEventIds": [
+          "12651"
+        ]
+      },
+      "legacyId": "bulk-match-81344",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Bayley, Sasha Banks vs. Dana Brooke, Ember Moon",
+      "result": "Bayley, Sasha Banks defeated Dana Brooke, Ember Moon.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dana-brooke",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "ember-moon",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Sasha Banks",
+        "Dana Brooke",
+        "Ember Moon"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-09-03"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81347",
+          "118116"
+        ],
+        "sourceEventIds": [
+          "12651"
+        ]
+      },
+      "legacyId": "bulk-match-81347",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Braun Strowman vs. Finn Bálor",
+      "result": "Braun Strowman defeated Finn Bálor.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Braun Strowman",
+        "Finn Bálor"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-09-03"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81348",
+          "118117"
+        ],
+        "sourceEventIds": [
+          "12651"
+        ]
+      },
+      "legacyId": "bulk-match-81348",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12651"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12651"
+    ]
+  }
+}

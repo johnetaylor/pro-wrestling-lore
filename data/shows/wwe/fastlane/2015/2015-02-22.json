@@ -1,0 +1,320 @@
+{
+  "id": "wwe/fastlane/2015-02-22",
+  "promotion": "wwe",
+  "series": "wwe/fastlane",
+  "name": "Fastlane '15",
+  "date": "2015-02-22",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2015/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Kane, Seth Rollins, The Big Show vs. Dolph Ziggler, Erick Rowan, Ryback",
+      "result": "Kane, Seth Rollins, The Big Show defeated Dolph Ziggler, Erick Rowan, Ryback.",
+      "matchType": "Tag Team match",
+      "duration": 781,
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "erick-rowan",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "ryback",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "Seth Rollins",
+        "The Big Show",
+        "Dolph Ziggler",
+        "Erick Rowan",
+        "Ryback"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "68230",
+          "132133"
+        ],
+        "sourceEventIds": [
+          "10674"
+        ]
+      },
+      "legacyId": "bulk-match-68230",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Goldust vs. Stardust",
+      "result": "Goldust defeated Stardust.",
+      "matchType": "Singles match",
+      "duration": 536,
+      "participants": [
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Goldust",
+        "Stardust"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "68231",
+          "132134"
+        ],
+        "sourceEventIds": [
+          "10674"
+        ]
+      },
+      "legacyId": "bulk-match-68231",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Nikki Bella vs. Paige",
+      "result": "Nikki Bella defeated Paige.",
+      "matchType": "Singles match",
+      "duration": 335,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "nikki-bella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "paige",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Nikki Bella",
+        "Paige"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "68233",
+          "132136"
+        ],
+        "sourceEventIds": [
+          "10674"
+        ]
+      },
+      "legacyId": "bulk-match-68233",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Bad News Barrett vs. Dean Ambrose",
+      "result": "Bad News Barrett defeated Dean Ambrose by disqualification.",
+      "matchType": "Singles match",
+      "duration": 483,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "wade-barrett",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Bad News Barrett",
+        "Dean Ambrose"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "68234",
+          "132137"
+        ],
+        "sourceEventIds": [
+          "10674"
+        ]
+      },
+      "legacyId": "bulk-match-68234",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 6,
+      "type": "match",
+      "title": "Rusev vs. John Cena",
+      "result": "Rusev defeated John Cena.",
+      "matchType": "Singles match",
+      "duration": 1123,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rusev",
+        "John Cena"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "68235",
+          "132138"
+        ],
+        "sourceEventIds": [
+          "10674"
+        ]
+      },
+      "legacyId": "bulk-match-68235",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 7,
+      "type": "match",
+      "title": "Roman Reigns vs. Daniel Bryan",
+      "result": "Roman Reigns defeated Daniel Bryan.",
+      "matchType": "Singles match",
+      "duration": 1211,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Daniel Bryan"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "68236",
+          "132139"
+        ],
+        "sourceEventIds": [
+          "10674"
+        ]
+      },
+      "legacyId": "bulk-match-68236",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10674"
+  ],
+  "legacy": {
+    "showFamily": "fastlane",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10674"
+    ]
+  }
+}

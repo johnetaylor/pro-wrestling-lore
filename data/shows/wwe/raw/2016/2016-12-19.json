@@ -1,0 +1,62 @@
+{
+  "id": "wwe/raw/2016-12-19",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2016-12-19",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "unlinked",
+    "segments": "unknown",
+    "legacyCardStatus": "Sourced results; segment and appearance coverage may be incomplete."
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2016-12-19"
+  ],
+  "segments": [
+    {
+      "key": "s1",
+      "type": "appearance",
+      "title": "Cesaro, Sheamus & The New Day vs. Gallows, Anderson & The Shining Stars",
+      "result": "Cesaro, Sheamus & The New Day defeated Luke Gallows, Karl Anderson & The Shining Stars.",
+      "matchType": "Eight-man tag team match",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2016-12-19/article/raw-tag-team-champions-cesaro-sheamus-the-new-day-def-luke-gallows-karl"
+      ],
+      "legacyId": "raw-backfill-2016-12-19-match-1",
+      "participants": []
+    },
+    {
+      "key": "s2",
+      "type": "appearance",
+      "title": "Bayley vs. Charlotte Flair",
+      "result": "Bayley defeated Charlotte Flair in a non-title match.",
+      "matchType": "Non-title match",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2016-12-19/article/bayley-def-raw-womens-champion-charlotte-flair"
+      ],
+      "legacyId": "raw-backfill-2016-12-19-match-2",
+      "participants": []
+    },
+    {
+      "key": "s3",
+      "type": "appearance",
+      "title": "Seth Rollins & Roman Reigns vs. Jeri-KO",
+      "result": "Seth Rollins & Roman Reigns defeated Kevin Owens & Chris Jericho by disqualification following Braun Strowman's interference.",
+      "matchType": "Tag team match",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2016-12-19/article/seth-rollins-us-champion-roman-reigns-def-jeri-ko-via-disqualification"
+      ],
+      "legacyId": "raw-backfill-2016-12-19-match-3",
+      "participants": []
+    }
+  ],
+  "legacyIds": [
+    "raw-backfill-2016-12-19"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "rawBackfill": true
+  }
+}

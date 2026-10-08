@@ -1,0 +1,223 @@
+{
+  "id": "wwe/smackdown/2022-12-30",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2022-12-30",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2022-12-30"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Solo Sikoa vs. Sheamus",
+      "result": "Solo Sikoa defeated Sheamus.",
+      "matchType": "Singles match",
+      "duration": 667,
+      "participants": [
+        {
+          "person": "solo-sikoa",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Solo Sikoa",
+        "Sheamus"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-12-30"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6358",
+          "90758",
+          "104686"
+        ],
+        "sourceEventIds": [
+          "1141"
+        ]
+      },
+      "legacyId": "bulk-match-6358",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Ronda Rousey vs. Raquel Rodriguez",
+      "result": "Ronda Rousey defeated Raquel Rodriguez.",
+      "matchType": "Singles match",
+      "duration": 980,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "ronda-rousey",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "raquel-rodriguez",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ronda Rousey",
+        "Raquel Rodriguez"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-12-30"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6359",
+          "90759",
+          "104687"
+        ],
+        "sourceEventIds": [
+          "1141"
+        ]
+      },
+      "legacyId": "bulk-match-6359",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Charlotte Flair vs. Ronda Rousey",
+      "result": "Charlotte Flair defeated Ronda Rousey.",
+      "matchType": "Singles match",
+      "duration": 40,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ronda-rousey",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Ronda Rousey"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-12-30"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6360",
+          "90760",
+          "104688"
+        ],
+        "sourceEventIds": [
+          "1141"
+        ]
+      },
+      "legacyId": "bulk-match-6360",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "John Cena, Kevin Owens vs. Roman Reigns, Sami Zayn",
+      "result": "John Cena, Kevin Owens defeated Roman Reigns, Sami Zayn.",
+      "matchType": "4-person match",
+      "duration": 657,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Kevin Owens",
+        "Roman Reigns",
+        "Sami Zayn"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-12-30"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6361",
+          "90761",
+          "104689"
+        ],
+        "sourceEventIds": [
+          "1141"
+        ]
+      },
+      "legacyId": "bulk-match-6361",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1141"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1141"
+    ]
+  }
+}

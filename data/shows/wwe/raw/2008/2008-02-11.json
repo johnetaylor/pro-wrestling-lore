@@ -1,0 +1,74 @@
+{
+  "id": "wwe/raw/2008-02-11",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2008-02-11",
+  "dateBasis": "aired",
+  "recordedDate": "2008-02-04",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Hornswoggle vs. Mr. McMahon",
+      "result": "Hornswoggle defeated Mr. McMahon.",
+      "matchType": "Other match",
+      "duration": 339,
+      "participants": [
+        {
+          "person": "hornswoggle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "vince-mcmahon",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hornswoggle",
+        "Mr. McMahon"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52771",
+          "152967"
+        ],
+        "sourceEventIds": [
+          "8035"
+        ]
+      },
+      "legacyId": "bulk-match-52771",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8035"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8035"
+    ]
+  }
+}

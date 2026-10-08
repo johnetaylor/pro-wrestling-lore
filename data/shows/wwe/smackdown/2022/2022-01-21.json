@@ -1,0 +1,205 @@
+{
+  "id": "wwe/smackdown/2022-01-21",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2022-01-21",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2022-01-21"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Kofi Kingston vs. Madcap Moss",
+      "result": "Kofi Kingston defeated Madcap Moss.",
+      "matchType": "Singles match",
+      "duration": 462,
+      "participants": [
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "madcap-moss",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kofi Kingston",
+        "Madcap Moss"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-01-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88406",
+          "108425"
+        ],
+        "sourceEventIds": [
+          "13911"
+        ]
+      },
+      "legacyId": "bulk-match-88406",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Aliyah vs. Natalya",
+      "result": "Aliyah defeated Natalya by disqualification.",
+      "matchType": "Singles match",
+      "duration": 130,
+      "participants": [
+        {
+          "person": "aliyah",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Aliyah",
+        "Natalya"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-01-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88407",
+          "108426"
+        ],
+        "sourceEventIds": [
+          "13911"
+        ]
+      },
+      "legacyId": "bulk-match-88407",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Charlotte Flair vs. Naomi",
+      "result": "Charlotte Flair defeated Naomi.",
+      "matchType": "Singles match",
+      "duration": 144,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-01-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88409",
+          "108428"
+        ],
+        "sourceEventIds": [
+          "13911"
+        ]
+      },
+      "legacyId": "bulk-match-88409",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Sheamus vs. Ricochet",
+      "result": "Sheamus defeated Ricochet.",
+      "matchType": "Singles match",
+      "duration": 198,
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Ricochet"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-01-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88410",
+          "108429"
+        ],
+        "sourceEventIds": [
+          "13911"
+        ]
+      },
+      "legacyId": "bulk-match-88410",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13911"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13911"
+    ]
+  }
+}

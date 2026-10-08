@@ -1,0 +1,73 @@
+{
+  "id": "wwe/nxt/2019-06-12",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2019-06-12",
+  "dateBasis": "aired",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwenxt/2019-06-12"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Shayna Baszler vs. Io Shirai",
+      "result": "Shayna Baszler defeated Io Shirai.",
+      "matchType": "Cage match",
+      "duration": 819,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "shayna-baszler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "iyo-sky",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shayna Baszler",
+        "Io Shirai"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2019-06-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "116080"
+        ],
+        "sourceEventIds": [
+          "17106"
+        ]
+      },
+      "legacyId": "bulk-match-116080",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-17106"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "17106"
+    ]
+  }
+}

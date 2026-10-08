@@ -1,0 +1,72 @@
+{
+  "id": "wwe/nxt/2018-07-18",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2018-07-18",
+  "dateBasis": "aired",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwenxt/2018-07-18"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Shayna Baszler vs. Candice LeRae",
+      "result": "Shayna Baszler defeated Candice LeRae.",
+      "matchType": "Singles match",
+      "duration": 478,
+      "participants": [
+        {
+          "person": "shayna-baszler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "candice-lerae",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shayna Baszler",
+        "Candice LeRae"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2018-07-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "118468"
+        ],
+        "sourceEventIds": [
+          "17528"
+        ]
+      },
+      "legacyId": "bulk-match-118468",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-17528"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "17528"
+    ]
+  }
+}

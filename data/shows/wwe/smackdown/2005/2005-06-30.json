@@ -1,0 +1,183 @@
+{
+  "id": "wwe/smackdown/2005-06-30",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2005-06-30",
+  "dateBasis": "aired",
+  "recordedDate": "2005-06-27",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Paul London, Chavo Guerrero — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "paul-london",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "chavo-guerrero",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Paul London",
+        "Chavo Guerrero"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49187",
+          "157308"
+        ],
+        "sourceEventIds": [
+          "7386"
+        ]
+      },
+      "legacyId": "bulk-match-49187",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Melina vs. Michelle McCool",
+      "result": "Melina defeated Michelle McCool.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "melina",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "michelle-mccool",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Melina",
+        "Michelle McCool"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49188",
+          "157309"
+        ],
+        "sourceEventIds": [
+          "7386"
+        ]
+      },
+      "legacyId": "bulk-match-49188",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "John Bradshaw Layfield vs. Booker T., Chris Benoit, Christian, Muhammad Hassan, The Undertaker",
+      "result": "John Bradshaw Layfield defeated Booker T., Chris Benoit, Christian, Muhammad Hassan, The Undertaker.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "muhammad-hassan",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Bradshaw Layfield",
+        "Booker T.",
+        "Chris Benoit",
+        "Christian",
+        "Muhammad Hassan",
+        "The Undertaker"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49189",
+          "157310"
+        ],
+        "sourceEventIds": [
+          "7386"
+        ]
+      },
+      "legacyId": "bulk-match-49189",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7386"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7386"
+    ]
+  }
+}

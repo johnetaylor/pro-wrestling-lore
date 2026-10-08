@@ -1,0 +1,161 @@
+{
+  "id": "wwe/raw/1999-10-18",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1999-10-18",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1999/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Viscera vs. The Godfather",
+      "result": "Viscera defeated The Godfather.",
+      "matchType": "Singles match",
+      "duration": 129,
+      "participants": [
+        {
+          "person": "viscera",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-godfather",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Viscera",
+        "The Godfather"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "36463",
+          "170551"
+        ],
+        "sourceEventIds": [
+          "5416"
+        ]
+      },
+      "legacyId": "bulk-match-36463",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Test vs. The British Bulldog",
+      "result": "Test defeated The British Bulldog by disqualification.",
+      "matchType": "Singles match",
+      "duration": 137,
+      "participants": [
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-british-bulldog",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Test",
+        "The British Bulldog"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "36464",
+          "170552"
+        ],
+        "sourceEventIds": [
+          "5416"
+        ]
+      },
+      "legacyId": "bulk-match-36464",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Val Venis vs. Al Snow",
+      "result": "Val Venis defeated Al Snow.",
+      "matchType": "Singles match",
+      "duration": 279,
+      "participants": [
+        {
+          "person": "val-venis",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "al-snow",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Val Venis",
+        "Al Snow"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "36465",
+          "170553"
+        ],
+        "sourceEventIds": [
+          "5416"
+        ]
+      },
+      "legacyId": "bulk-match-36465",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5416"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5416"
+    ]
+  }
+}

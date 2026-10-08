@@ -1,0 +1,173 @@
+{
+  "id": "wwe/smackdown/2018-04-03",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-04-03",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-04-03"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Charlotte Flair vs. Natalya",
+      "result": "Charlotte Flair defeated Natalya.",
+      "matchType": "Singles match",
+      "duration": 872,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Natalya"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-04-03"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80114",
+          "119348"
+        ],
+        "sourceEventIds": [
+          "12452"
+        ]
+      },
+      "legacyId": "bulk-match-80114",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Rusev vs. Jinder Mahal",
+      "result": "Rusev defeated Jinder Mahal.",
+      "matchType": "Singles match",
+      "duration": 764,
+      "participants": [
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rusev",
+        "Jinder Mahal"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-04-03"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80115",
+          "119349"
+        ],
+        "sourceEventIds": [
+          "12452"
+        ]
+      },
+      "legacyId": "bulk-match-80115",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "A.J. Styles, Shinsuke Nakamura vs. Chad Gable, Shelton Benjamin",
+      "result": "A.J. Styles, Shinsuke Nakamura defeated Chad Gable, Shelton Benjamin.",
+      "matchType": "4-person match",
+      "duration": 732,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Shinsuke Nakamura",
+        "Chad Gable",
+        "Shelton Benjamin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-04-03"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80117",
+          "119351"
+        ],
+        "sourceEventIds": [
+          "12452"
+        ]
+      },
+      "legacyId": "bulk-match-80117",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12452"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12452"
+    ]
+  }
+}

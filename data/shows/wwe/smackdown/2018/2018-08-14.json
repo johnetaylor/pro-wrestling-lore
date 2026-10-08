@@ -1,0 +1,172 @@
+{
+  "id": "wwe/smackdown/2018-08-14",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-08-14",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-08-14"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Becky Lynch, Charlotte Flair vs. Mandy Rose, Sonya Deville",
+      "result": "Becky Lynch, Charlotte Flair defeated Mandy Rose, Sonya Deville.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mandy-rose",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sonya-deville",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Charlotte Flair",
+        "Mandy Rose",
+        "Sonya Deville"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-08-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81209",
+          "118245"
+        ],
+        "sourceEventIds": [
+          "12627"
+        ]
+      },
+      "legacyId": "bulk-match-81209",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Andrade \"Cien\" Almas vs. Aiden English",
+      "result": "Andrade \"Cien\" Almas defeated Aiden English.",
+      "matchType": "Singles match",
+      "duration": 90,
+      "participants": [
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aiden-english",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Andrade \"Cien\" Almas",
+        "Aiden English"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-08-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81212",
+          "118248"
+        ],
+        "sourceEventIds": [
+          "12627"
+        ]
+      },
+      "legacyId": "bulk-match-81212",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Jeff Hardy vs. Shelton Benjamin",
+      "result": "Jeff Hardy defeated Shelton Benjamin.",
+      "matchType": "Singles match",
+      "duration": 273,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Shelton Benjamin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-08-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81213",
+          "118249"
+        ],
+        "sourceEventIds": [
+          "12627"
+        ]
+      },
+      "legacyId": "bulk-match-81213",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12627"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12627"
+    ]
+  }
+}

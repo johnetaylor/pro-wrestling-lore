@@ -1,0 +1,282 @@
+{
+  "id": "wwe/raw/2019-02-11",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2019-02-11",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2019-02-11"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Finn Bálor vs. Drew McIntyre",
+      "result": "Finn Bálor defeated Drew McIntyre by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Finn Bálor",
+        "Drew McIntyre"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-02-11"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82484",
+          "116964"
+        ],
+        "sourceEventIds": [
+          "12858"
+        ]
+      },
+      "legacyId": "bulk-match-82484",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Braun Strowman, Finn Bálor, Kurt Angle vs. Baron Corbin, Bobby Lashley, Drew McIntyre",
+      "result": "Braun Strowman, Finn Bálor, Kurt Angle defeated Baron Corbin, Bobby Lashley, Drew McIntyre.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Braun Strowman",
+        "Finn Bálor",
+        "Kurt Angle",
+        "Baron Corbin",
+        "Bobby Lashley",
+        "Drew McIntyre"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-02-11"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82485",
+          "116965"
+        ],
+        "sourceEventIds": [
+          "12858"
+        ]
+      },
+      "legacyId": "bulk-match-82485",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Ruby Riott vs. Nikki Cross",
+      "result": "Ruby Riott defeated Nikki Cross.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "ruby-riott",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nikki-cross",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ruby Riott",
+        "Nikki Cross"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-02-11"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82486",
+          "116966"
+        ],
+        "sourceEventIds": [
+          "12858"
+        ]
+      },
+      "legacyId": "bulk-match-82486",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Dean Ambrose vs. EC3",
+      "result": "Dean Ambrose defeated EC3.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ec3",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dean Ambrose",
+        "EC3"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-02-11"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82487",
+          "116967"
+        ],
+        "sourceEventIds": [
+          "12858"
+        ]
+      },
+      "legacyId": "bulk-match-82487",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 6,
+      "type": "match",
+      "title": "Dash Wilder, Scott Dawson vs. Bobby Roode, Chad Gable",
+      "result": "Dash Wilder, Scott Dawson defeated Bobby Roode, Chad Gable.",
+      "matchType": "4-person match",
+      "duration": 1165,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "dash-wilder",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "scott-dawson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bobby-roode",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dash Wilder",
+        "Scott Dawson",
+        "Bobby Roode",
+        "Chad Gable"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-02-11"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82488",
+          "116968"
+        ],
+        "sourceEventIds": [
+          "12858"
+        ]
+      },
+      "legacyId": "bulk-match-82488",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12858"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12858"
+    ]
+  }
+}

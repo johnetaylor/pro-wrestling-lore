@@ -1,0 +1,163 @@
+{
+  "id": "wwe/royal-rumble/1994-01-22",
+  "promotion": "wwe",
+  "series": "wwe/royal-rumble",
+  "name": "Royal Rumble '94",
+  "date": "1994-01-22",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1994/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Tatanka vs. Bam Bam Bigelow",
+      "result": "Tatanka defeated Bam Bam Bigelow.",
+      "matchType": "Singles match",
+      "duration": 492,
+      "participants": [
+        {
+          "person": "tatanka",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bam-bam-bigelow",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tatanka",
+        "Bam Bam Bigelow"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1994/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "20669",
+          "186361"
+        ],
+        "sourceEventIds": [
+          "3258"
+        ]
+      },
+      "legacyId": "bulk-match-20669",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Razor Ramon vs. Irwin R. Schyster",
+      "result": "Razor Ramon defeated Irwin R. Schyster.",
+      "matchType": "Singles match",
+      "duration": 690,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "scott-hall",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mike-rotunda",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Razor Ramon",
+        "Irwin R. Schyster"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1994/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "20671",
+          "186363"
+        ],
+        "sourceEventIds": [
+          "3258"
+        ]
+      },
+      "legacyId": "bulk-match-20671",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Yokozuna vs. The Undertaker",
+      "result": "Yokozuna defeated The Undertaker.",
+      "matchType": "Other match",
+      "duration": 860,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "yokozuna",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Yokozuna",
+        "The Undertaker"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1994/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "20672",
+          "186364"
+        ],
+        "sourceEventIds": [
+          "3258"
+        ]
+      },
+      "legacyId": "bulk-match-20672",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-3258"
+  ],
+  "legacy": {
+    "showFamily": "royal-rumble",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "3258"
+    ]
+  }
+}

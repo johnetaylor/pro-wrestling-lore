@@ -1,0 +1,205 @@
+{
+  "id": "wwe/raw/2007-11-19",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2007-11-19",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Jerry Lawler vs. Santino Marella",
+      "result": "Jerry Lawler defeated Santino Marella.",
+      "matchType": "Singles match",
+      "duration": 221,
+      "participants": [
+        {
+          "person": "jerry-lawler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "santino-marella",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jerry Lawler",
+        "Santino Marella"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52531",
+          "153282"
+        ],
+        "sourceEventIds": [
+          "7991"
+        ]
+      },
+      "legacyId": "bulk-match-52531",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Jeff Hardy vs. Umaga",
+      "result": "Jeff Hardy defeated Umaga by disqualification.",
+      "matchType": "Singles match",
+      "duration": 1047,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "umaga",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Umaga"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52532",
+          "153283"
+        ],
+        "sourceEventIds": [
+          "7991"
+        ]
+      },
+      "legacyId": "bulk-match-52532",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Cody Rhodes vs. Hardcore Holly",
+      "result": "Cody Rhodes defeated Hardcore Holly.",
+      "matchType": "Singles match",
+      "duration": 170,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Hardcore Holly"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52533",
+          "153284"
+        ],
+        "sourceEventIds": [
+          "7991"
+        ]
+      },
+      "legacyId": "bulk-match-52533",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Hornswoggle vs. Carlito",
+      "result": "Hornswoggle defeated Carlito.",
+      "matchType": "Other match",
+      "duration": 245,
+      "participants": [
+        {
+          "person": "hornswoggle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hornswoggle",
+        "Carlito"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52535",
+          "153286"
+        ],
+        "sourceEventIds": [
+          "7991"
+        ]
+      },
+      "legacyId": "bulk-match-52535",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7991"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7991"
+    ]
+  }
+}

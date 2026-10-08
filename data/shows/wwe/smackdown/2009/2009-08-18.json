@@ -1,0 +1,139 @@
+{
+  "id": "wwe/smackdown/2009-08-18",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2009-08-18",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2009/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Finlay vs. Mike Knox",
+      "result": "Finlay defeated Mike Knox by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "finlay",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mike-knox",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Finlay",
+        "Mike Knox"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54690",
+          "150443"
+        ],
+        "sourceEventIds": [
+          "8390"
+        ]
+      },
+      "legacyId": "bulk-match-54690",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Jeff Hardy, John Morrison, Matt Hardy vs. CM Punk, David Hart Smith, Tyson Kidd",
+      "result": "Jeff Hardy, John Morrison, Matt Hardy defeated CM Punk, David Hart Smith, Tyson Kidd.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cm-punk",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "david-hart-smith",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tyson-kidd",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "John Morrison",
+        "Matt Hardy",
+        "CM Punk",
+        "David Hart Smith",
+        "Tyson Kidd"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54692",
+          "150445"
+        ],
+        "sourceEventIds": [
+          "8390"
+        ]
+      },
+      "legacyId": "bulk-match-54692",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8390"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8390"
+    ]
+  }
+}

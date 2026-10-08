@@ -1,0 +1,174 @@
+{
+  "id": "wwe/evolution/2018-10-28",
+  "promotion": "wwe",
+  "series": "wwe/evolution",
+  "name": "Evolution",
+  "date": "2018-10-28",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wweevolution/2018"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Lita, Trish Stratus vs. Alicia Fox, Mickie James",
+      "result": "Lita, Trish Stratus defeated Alicia Fox, Mickie James.",
+      "matchType": "4-person match",
+      "duration": 662,
+      "participants": [
+        {
+          "person": "lita",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "trish-stratus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alicia-fox",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lita",
+        "Trish Stratus",
+        "Alicia Fox",
+        "Mickie James"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wweevolution/2018"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81735",
+          "117713"
+        ],
+        "sourceEventIds": [
+          "12725"
+        ]
+      },
+      "legacyId": "bulk-match-81735",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Toni Storm vs. Io Shirai",
+      "result": "Toni Storm defeated Io Shirai.",
+      "matchType": "Singles match",
+      "duration": 604,
+      "participants": [
+        {
+          "person": "toni-storm",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "iyo-sky",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Toni Storm",
+        "Io Shirai"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wweevolution/2018"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81737",
+          "117715"
+        ],
+        "sourceEventIds": [
+          "12725"
+        ]
+      },
+      "legacyId": "bulk-match-81737",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 7,
+      "type": "match",
+      "title": "Becky Lynch vs. Charlotte Flair",
+      "result": "Becky Lynch defeated Charlotte Flair.",
+      "matchType": "Other match",
+      "duration": 1717,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Charlotte Flair"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wweevolution/2018"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81740",
+          "117718"
+        ],
+        "sourceEventIds": [
+          "12725"
+        ]
+      },
+      "legacyId": "bulk-match-81740",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12725"
+  ],
+  "legacy": {
+    "showFamily": "evolution",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12725"
+    ]
+  }
+}

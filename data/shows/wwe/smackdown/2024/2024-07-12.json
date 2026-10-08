@@ -1,0 +1,234 @@
+{
+  "id": "wwe/smackdown/2024-07-12",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2024-07-12",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2024-07-12"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Nia Jax vs. Michin",
+      "result": "Nia Jax defeated Michin.",
+      "matchType": "Singles match",
+      "duration": 565,
+      "participants": [
+        {
+          "person": "nia-jax",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "michin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Nia Jax",
+        "Michin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-07-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "679",
+          "94553",
+          "99007"
+        ],
+        "sourceEventIds": [
+          "140"
+        ]
+      },
+      "legacyId": "bulk-match-679",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Angel, Berto vs. Apollo Crews, Baron Corbin",
+      "result": "Angel, Berto defeated Apollo Crews, Baron Corbin.",
+      "matchType": "4-person match",
+      "duration": 481,
+      "participants": [
+        {
+          "person": "angel",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "berto",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "apollo-crews",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Angel",
+        "Berto",
+        "Apollo Crews",
+        "Baron Corbin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-07-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "680",
+          "94554",
+          "99008"
+        ],
+        "sourceEventIds": [
+          "140"
+        ]
+      },
+      "legacyId": "bulk-match-680",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Naomi vs. Blair Davenport",
+      "result": "Naomi defeated Blair Davenport.",
+      "matchType": "Singles match",
+      "duration": 446,
+      "participants": [
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "blair-davenport",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Naomi",
+        "Blair Davenport"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-07-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "681",
+          "94555",
+          "99009"
+        ],
+        "sourceEventIds": [
+          "140"
+        ]
+      },
+      "legacyId": "bulk-match-681",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Johnny Gargano, Tommaso Ciampa vs. Austin Theory, Grayson Waller",
+      "result": "Johnny Gargano, Tommaso Ciampa defeated Austin Theory, Grayson Waller.",
+      "matchType": "4-person match",
+      "duration": 435,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "johnny-gargano",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tommaso-ciampa",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "austin-theory",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "grayson-waller",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Johnny Gargano",
+        "Tommaso Ciampa",
+        "Austin Theory",
+        "Grayson Waller"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-07-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "682",
+          "94556",
+          "99010"
+        ],
+        "sourceEventIds": [
+          "140"
+        ]
+      },
+      "legacyId": "bulk-match-682",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-140"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "140"
+    ]
+  }
+}

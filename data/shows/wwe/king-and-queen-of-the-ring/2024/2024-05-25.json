@@ -1,0 +1,400 @@
+{
+  "id": "wwe/king-and-queen-of-the-ring/2024-05-25",
+  "promotion": "wwe",
+  "series": "wwe/king-and-queen-of-the-ring",
+  "name": "King and Queen of the Ring 2024",
+  "date": "2024-05-25",
+  "category": "PLE",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "note": "Hugging Face import · official-results comparison. Unverified extra matches were excluded.",
+    "legacyCardStatus": "Imported card compared with official WWE results",
+    "legacySegmentStatus": "Partial; the match dataset does not contain a promo/appearance archive"
+  },
+  "sources": [
+    "https://www.wwe.com/article/full-king-and-queen-2024-results"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Bianca Belair & Jade Cargill vs. Candice LeRae, Indi Hartwell",
+      "result": "Bianca Belair & Jade Cargill defeated Candice LeRae, Indi Hartwell.",
+      "context": "Televised kickoff / countdown. Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Tag Team Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor"
+        },
+        {
+          "person": "jade-cargill",
+          "role": "competitor"
+        },
+        {
+          "person": "candice-lerae",
+          "role": "competitor"
+        },
+        {
+          "person": "indi-hartwell",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Bianca Belair",
+        "Jade Cargill",
+        "Candice LeRae",
+        "Indi Hartwell"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-king-and-queen-2024-results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-king-and-queen-2024-results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "231",
+        "sourceMatchIds": [
+          "1158",
+          "99486"
+        ],
+        "rawInputSha256": "bc1feaa65789cebecd357fcbf574f5c59c938fde96544464d5f33614a0f403f0",
+        "normalizedParticipants": [
+          {
+            "name": "Bianca Belair",
+            "result": "win"
+          },
+          {
+            "name": "Jade Cargill",
+            "result": "win"
+          },
+          {
+            "name": "Candice LeRae",
+            "result": "loss"
+          },
+          {
+            "name": "Indi Hartwell",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-king-and-queen-2024-results"
+      },
+      "legacyId": "hf-match-1158",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Liv Morgan vs. Becky Lynch",
+      "result": "Liv Morgan defeated Becky Lynch.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "liv-morgan",
+          "role": "competitor"
+        },
+        {
+          "person": "becky-lynch",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Liv Morgan",
+        "Becky Lynch"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-king-and-queen-2024-results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-king-and-queen-2024-results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "231",
+        "sourceMatchIds": [
+          "1159",
+          "99487"
+        ],
+        "rawInputSha256": "46e019ac8dbc92952bd4711b774d845a502444572b00737d422f4d7a7eac5467",
+        "normalizedParticipants": [
+          {
+            "name": "Liv Morgan",
+            "result": "win"
+          },
+          {
+            "name": "Becky Lynch",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-king-and-queen-2024-results"
+      },
+      "legacyId": "hf-match-1159",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Sami Zayn vs. Bronson Reed, Chad Gable",
+      "result": "Sami Zayn defeated Bronson Reed, Chad Gable.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Triple Threat Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "sami-zayn",
+          "role": "competitor"
+        },
+        {
+          "person": "bronson-reed",
+          "role": "competitor"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Sami Zayn",
+        "Bronson Reed",
+        "Chad Gable"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-king-and-queen-2024-results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-king-and-queen-2024-results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "231",
+        "sourceMatchIds": [
+          "1160",
+          "99488"
+        ],
+        "rawInputSha256": "3466186dbcd1156f1646f01a26bdcfd1284ff7fb3795a3fab22a954f4fa1b0a1",
+        "normalizedParticipants": [
+          {
+            "name": "Sami Zayn",
+            "result": "win"
+          },
+          {
+            "name": "Bronson Reed",
+            "result": "loss"
+          },
+          {
+            "name": "Chad Gable",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-king-and-queen-2024-results"
+      },
+      "legacyId": "hf-match-1160",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Nia Jax vs. Lyra Valkyria",
+      "result": "Nia Jax defeated Lyra Valkyria.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Queen of the Ring Final",
+      "participants": [
+        {
+          "person": "nia-jax",
+          "role": "competitor"
+        },
+        {
+          "person": "lyra-valkyria",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Nia Jax",
+        "Lyra Valkyria"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-king-and-queen-2024-results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-king-and-queen-2024-results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "231",
+        "sourceMatchIds": [
+          "1161",
+          "99489"
+        ],
+        "rawInputSha256": "58f5f7f7b34b1442f81dc477909ab065c2eaa3bfd6cd70c4647eb71c1719f0d6",
+        "normalizedParticipants": [
+          {
+            "name": "Nia Jax",
+            "result": "win"
+          },
+          {
+            "name": "Lyra Valkyria",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-king-and-queen-2024-results"
+      },
+      "legacyId": "hf-match-1161",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m5",
+      "type": "match",
+      "title": "Gunther vs. Randy Orton",
+      "result": "Gunther defeated Randy Orton.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "King of the Ring Final",
+      "participants": [
+        {
+          "person": "gunther",
+          "role": "competitor"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Gunther",
+        "Randy Orton"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-king-and-queen-2024-results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-king-and-queen-2024-results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "231",
+        "sourceMatchIds": [
+          "1162",
+          "99490"
+        ],
+        "rawInputSha256": "00d37a5c9420e6fe97de7e38c4009d2ed0cd6836b1315c3a75f97a7389d1feee",
+        "normalizedParticipants": [
+          {
+            "name": "Gunther",
+            "result": "win"
+          },
+          {
+            "name": "Randy Orton",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-king-and-queen-2024-results"
+      },
+      "legacyId": "hf-match-1162",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m6",
+      "type": "match",
+      "title": "Cody Rhodes vs. Logan Paul",
+      "result": "Cody Rhodes defeated Logan Paul.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        },
+        {
+          "person": "logan-paul",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Logan Paul"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-king-and-queen-2024-results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-king-and-queen-2024-results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "231",
+        "sourceMatchIds": [
+          "1163",
+          "99491"
+        ],
+        "rawInputSha256": "adbfa344f6db26cfe3d5e6e0b8903aef438193dcd850113a8f3448d9266553bc",
+        "normalizedParticipants": [
+          {
+            "name": "Cody Rhodes",
+            "result": "win"
+          },
+          {
+            "name": "Logan Paul",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-king-and-queen-2024-results"
+      },
+      "legacyId": "hf-match-1163",
+      "legacy": {
+        "kind": "title"
+      }
+    }
+  ],
+  "legacyIds": [
+    "hf-event-231"
+  ],
+  "legacy": {
+    "showFamily": "king-and-queen-of-the-ring",
+    "importBatch": "ringside-2024-ple"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2007-01-02",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2007-01-02",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Other match",
+      "result": "Paul London, Brian Kendrick — draw.",
+      "matchType": "Other match",
+      "duration": 474,
+      "participants": [
+        {
+          "person": "paul-london",
+          "role": "competitor",
+          "outcome": "draw"
+        },
+        {
+          "person": "brian-kendrick",
+          "role": "competitor",
+          "outcome": "draw"
+        }
+      ],
+      "billing": [
+        "Paul London",
+        "Brian Kendrick"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51411",
+          "154646"
+        ],
+        "sourceEventIds": [
+          "7785"
+        ]
+      },
+      "legacyId": "bulk-match-51411",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "King Booker vs. Gregory Helms",
+      "result": "King Booker defeated Gregory Helms.",
+      "matchType": "Other match",
+      "duration": 384,
+      "participants": [
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-hurricane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "King Booker",
+        "Gregory Helms"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51412",
+          "154647"
+        ],
+        "sourceEventIds": [
+          "7785"
+        ]
+      },
+      "legacyId": "bulk-match-51412",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Other match",
+      "result": "Tatanka, Jimmy Wang Yang — draw.",
+      "matchType": "Other match",
+      "duration": 388,
+      "participants": [
+        {
+          "person": "tatanka",
+          "role": "competitor",
+          "outcome": "draw"
+        },
+        {
+          "person": "jimmy-wang-yang",
+          "role": "competitor",
+          "outcome": "draw"
+        }
+      ],
+      "billing": [
+        "Tatanka",
+        "Jimmy Wang Yang"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51414",
+          "154649"
+        ],
+        "sourceEventIds": [
+          "7785"
+        ]
+      },
+      "legacyId": "bulk-match-51414",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7785"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7785"
+    ]
+  }
+}

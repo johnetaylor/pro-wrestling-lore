@@ -1,0 +1,136 @@
+{
+  "id": "aaa/noche-de-los-grandes/2026-05-30",
+  "promotion": "aaa",
+  "series": "aaa/noche-de-los-grandes",
+  "name": "AAA · Noche de Los Grandes",
+  "date": "2026-05-30",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "not-indexed",
+    "legacyCardStatus": "Selected matches · card incomplete",
+    "legacySegmentStatus": "Appearance review pending"
+  },
+  "sources": [
+    "https://www.wwe.com/article/noche-de-los-grandes-results"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "The mask comes off",
+      "result": "El Grande Americano won the Mask vs. Mask match.",
+      "context": "The defeated “Original” unmasked as Chad Gable. Two wrestlers claiming the same identity finally had their decisive confrontation.",
+      "matchType": "Match",
+      "participants": [
+        {
+          "person": "ludwig-kaiser",
+          "role": "competitor"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/article/noche-de-los-grandes-results"
+      ],
+      "legacyId": "x01",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Fenix wins AAA cruiserweight gold",
+      "result": "Rey Fenix won the AAA World Cruiserweight Championship.",
+      "context": "Fenix dethroned Laredo Kid.",
+      "matchType": "Championship match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "rey-fenix",
+          "role": "competitor"
+        },
+        {
+          "person": "laredo-kid",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/article/noche-de-los-grandes-results"
+      ],
+      "legacyId": "x02",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Vikingo takes the Latin American title",
+      "result": "Vikingo defeated Wagner to win the title.",
+      "context": "The AAA Latin American Championship changed hands.",
+      "matchType": "Championship match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "el-hijo-del-vikingo",
+          "role": "competitor"
+        },
+        {
+          "person": "el-hijo-de-dr-wagner-jr",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/article/noche-de-los-grandes-results"
+      ],
+      "legacyId": "x03",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "War Raiders win in AAA",
+      "result": "Erik and Ivar won the AAA World Tag Team Championship.",
+      "context": "The War Raiders ended Psycho Clown and Pagano’s reign.",
+      "matchType": "Championship match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "erik",
+          "role": "competitor"
+        },
+        {
+          "person": "ivar",
+          "role": "competitor"
+        },
+        {
+          "person": "psycho-clown",
+          "role": "competitor"
+        },
+        {
+          "person": "pagano",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/article/noche-de-los-grandes-results"
+      ],
+      "legacyId": "x04",
+      "legacy": {
+        "kind": "title"
+      }
+    }
+  ],
+  "legacyIds": [
+    "2026-05-30-aaa-noche-de-los-grandes"
+  ],
+  "legacy": {
+    "showFamily": "aaa-noche-de-los-grandes"
+  }
+}

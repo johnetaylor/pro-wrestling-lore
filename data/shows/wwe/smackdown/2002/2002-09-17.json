@@ -1,0 +1,171 @@
+{
+  "id": "wwe/smackdown/2002-09-17",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2002-09-17",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2002/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rey Mysterio, Torrie Wilson vs. Jamie Noble, Nidia",
+      "result": "Rey Mysterio, Torrie Wilson defeated Jamie Noble, Nidia.",
+      "matchType": "4-person match",
+      "duration": 246,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "torrie-wilson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jamie-noble",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "nidia",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Torrie Wilson",
+        "Jamie Noble",
+        "Nidia"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45317",
+          "161645"
+        ],
+        "sourceEventIds": [
+          "6660"
+        ]
+      },
+      "legacyId": "bulk-match-45317",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Brock Lesnar vs. John Cena",
+      "result": "Brock Lesnar defeated John Cena.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "brock-lesnar",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Brock Lesnar",
+        "John Cena"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45318",
+          "161646"
+        ],
+        "sourceEventIds": [
+          "6660"
+        ]
+      },
+      "legacyId": "bulk-match-45318",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Matt Hardy vs. The Hurricane",
+      "result": "Matt Hardy defeated The Hurricane.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-hurricane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Matt Hardy",
+        "The Hurricane"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45320",
+          "161648"
+        ],
+        "sourceEventIds": [
+          "6660"
+        ]
+      },
+      "legacyId": "bulk-match-45320",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6660"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6660"
+    ]
+  }
+}

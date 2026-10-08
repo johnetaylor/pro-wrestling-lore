@@ -1,0 +1,230 @@
+{
+  "id": "wwe/smackdown/2005-03-01",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2005-03-01",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Eddie Guerrero, Rey Mysterio vs. Luther Reigns, Mark Jindrak",
+      "result": "Eddie Guerrero, Rey Mysterio defeated Luther Reigns, Mark Jindrak.",
+      "matchType": "4-person match",
+      "duration": 388,
+      "participants": [
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "luther-reigns",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "mark-jindrak",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Eddie Guerrero",
+        "Rey Mysterio",
+        "Luther Reigns",
+        "Mark Jindrak"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48812",
+          "157779"
+        ],
+        "sourceEventIds": [
+          "7307"
+        ]
+      },
+      "legacyId": "bulk-match-48812",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Booker T. vs. Heidenreich",
+      "result": "Booker T. defeated Heidenreich by disqualification.",
+      "matchType": "Singles match",
+      "duration": 327,
+      "participants": [
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "heidenreich",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Booker T.",
+        "Heidenreich"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48813",
+          "157780"
+        ],
+        "sourceEventIds": [
+          "7307"
+        ]
+      },
+      "legacyId": "bulk-match-48813",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Michelle McCool, The Big Show vs. Dawn Marie, Rene Dupree",
+      "result": "Michelle McCool, The Big Show defeated Dawn Marie, Rene Dupree.",
+      "matchType": "4-person match",
+      "duration": 151,
+      "participants": [
+        {
+          "person": "michelle-mccool",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dawn-marie",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rene-dupree",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Michelle McCool",
+        "The Big Show",
+        "Dawn Marie",
+        "Rene Dupree"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48814",
+          "157781"
+        ],
+        "sourceEventIds": [
+          "7307"
+        ]
+      },
+      "legacyId": "bulk-match-48814",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Orlando Jordan vs. John Cena",
+      "result": "Orlando Jordan defeated John Cena.",
+      "matchType": "Singles match",
+      "duration": 925,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "orlando-jordan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Orlando Jordan",
+        "John Cena"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48815",
+          "157782"
+        ],
+        "sourceEventIds": [
+          "7307"
+        ]
+      },
+      "legacyId": "bulk-match-48815",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7307"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7307"
+    ]
+  }
+}

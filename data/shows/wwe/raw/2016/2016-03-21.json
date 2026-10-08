@@ -1,0 +1,205 @@
+{
+  "id": "wwe/raw/2016-03-21",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2016-03-21",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2016/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Kevin Owens vs. A.J. Styles",
+      "result": "Kevin Owens defeated A.J. Styles.",
+      "matchType": "Singles match",
+      "duration": 1159,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "A.J. Styles"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "72525",
+          "127364"
+        ],
+        "sourceEventIds": [
+          "11254"
+        ]
+      },
+      "legacyId": "bulk-match-72525",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Chris Jericho vs. Fandango",
+      "result": "Chris Jericho defeated Fandango.",
+      "matchType": "Singles match",
+      "duration": 128,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "fandango",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Fandango"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "72527",
+          "127366"
+        ],
+        "sourceEventIds": [
+          "11254"
+        ]
+      },
+      "legacyId": "bulk-match-72527",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Charlotte vs. Natalya",
+      "result": "Charlotte defeated Natalya.",
+      "matchType": "Other match",
+      "duration": 287,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte",
+        "Natalya"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "72529",
+          "127368"
+        ],
+        "sourceEventIds": [
+          "11254"
+        ]
+      },
+      "legacyId": "bulk-match-72529",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Bubba Ray Dudley vs. R-Truth",
+      "result": "Bubba Ray Dudley defeated R-Truth.",
+      "matchType": "Singles match",
+      "duration": 124,
+      "participants": [
+        {
+          "person": "bubba-ray-dudley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bubba Ray Dudley",
+        "R-Truth"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "72530",
+          "127369"
+        ],
+        "sourceEventIds": [
+          "11254"
+        ]
+      },
+      "legacyId": "bulk-match-72530",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11254"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11254"
+    ]
+  }
+}

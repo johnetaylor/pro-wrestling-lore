@@ -1,0 +1,213 @@
+{
+  "id": "wwe/raw/2005-08-01",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2005-08-01",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Shelton Benjamin, The Big Show vs. Chris Masters, Gene Snitsky",
+      "result": "Shelton Benjamin, The Big Show defeated Chris Masters, Gene Snitsky.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-masters",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "gene-snitsky",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shelton Benjamin",
+        "The Big Show",
+        "Chris Masters",
+        "Gene Snitsky"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49316",
+          "157141"
+        ],
+        "sourceEventIds": [
+          "7410"
+        ]
+      },
+      "legacyId": "bulk-match-49316",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Eugene vs. Tatanka",
+      "result": "Eugene defeated Tatanka by disqualification.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "eugene",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tatanka",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Eugene",
+        "Tatanka"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49317",
+          "157142"
+        ],
+        "sourceEventIds": [
+          "7410"
+        ]
+      },
+      "legacyId": "bulk-match-49317",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Rob Conway vs. Val Venis",
+      "result": "Rob Conway defeated Val Venis.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "rob-conway",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "val-venis",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rob Conway",
+        "Val Venis"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49318",
+          "157143"
+        ],
+        "sourceEventIds": [
+          "7410"
+        ]
+      },
+      "legacyId": "bulk-match-49318",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "John Cena vs. Carlito",
+      "result": "John Cena defeated Carlito.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Carlito"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49319",
+          "157144"
+        ],
+        "sourceEventIds": [
+          "7410"
+        ]
+      },
+      "legacyId": "bulk-match-49319",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7410"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7410"
+    ]
+  }
+}

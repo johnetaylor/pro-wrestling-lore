@@ -1,0 +1,213 @@
+{
+  "id": "wwe/smackdown/2005-08-16",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2005-08-16",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Joey Mercury, Melina vs. Booker T., Sharmell",
+      "result": "Joey Mercury, Melina defeated Booker T., Sharmell.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "joey-mercury",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "melina",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sharmell",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Joey Mercury",
+        "Melina",
+        "Booker T.",
+        "Sharmell"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49379",
+          "157077"
+        ],
+        "sourceEventIds": [
+          "7422"
+        ]
+      },
+      "legacyId": "bulk-match-49379",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Singles match",
+      "result": "John Bradshaw Layfield, Sho Funaki — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "sho-funaki",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "John Bradshaw Layfield",
+        "Sho Funaki"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49381",
+          "157079"
+        ],
+        "sourceEventIds": [
+          "7422"
+        ]
+      },
+      "legacyId": "bulk-match-49381",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Rey Mysterio vs. Simon Dean",
+      "result": "Rey Mysterio defeated Simon Dean.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "simon-dean",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Simon Dean"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49382",
+          "157080"
+        ],
+        "sourceEventIds": [
+          "7422"
+        ]
+      },
+      "legacyId": "bulk-match-49382",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Randy Orton vs. Chris Benoit",
+      "result": "Randy Orton defeated Chris Benoit.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Chris Benoit"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49383",
+          "157081"
+        ],
+        "sourceEventIds": [
+          "7422"
+        ]
+      },
+      "legacyId": "bulk-match-49383",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7422"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7422"
+    ]
+  }
+}

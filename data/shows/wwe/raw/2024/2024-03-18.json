@@ -1,0 +1,176 @@
+{
+  "id": "wwe/raw/2024-03-18",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2024-03-18",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2024-03-18"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Candice LeRae, Indi Hartwell vs. Katana Chance, Kayden Carter",
+      "result": "Candice LeRae, Indi Hartwell defeated Katana Chance, Kayden Carter.",
+      "matchType": "4-person match",
+      "duration": 122,
+      "participants": [
+        {
+          "person": "candice-lerae",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "indi-hartwell",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "katana-chance",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kayden-carter",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Candice LeRae",
+        "Indi Hartwell",
+        "Katana Chance",
+        "Kayden Carter"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-03-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "1918",
+          "93760",
+          "100246"
+        ],
+        "sourceEventIds": [
+          "384"
+        ]
+      },
+      "legacyId": "bulk-match-1918",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Ricochet vs. Dominik Mysterio",
+      "result": "Ricochet defeated Dominik Mysterio.",
+      "matchType": "Singles match",
+      "duration": 442,
+      "participants": [
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ricochet",
+        "Dominik Mysterio"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-03-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "1919",
+          "93761",
+          "100247"
+        ],
+        "sourceEventIds": [
+          "384"
+        ]
+      },
+      "legacyId": "bulk-match-1919",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Becky Lynch vs. Nia Jax",
+      "result": "Becky Lynch defeated Nia Jax.",
+      "matchType": "Other match",
+      "duration": 1112,
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nia-jax",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Nia Jax"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-03-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "1922",
+          "93764",
+          "100250"
+        ],
+        "sourceEventIds": [
+          "384"
+        ]
+      },
+      "legacyId": "bulk-match-1922",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-384"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "384"
+    ]
+  }
+}

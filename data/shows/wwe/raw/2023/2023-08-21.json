@@ -1,0 +1,405 @@
+{
+  "id": "wwe/raw/2023-08-21",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2023-08-21",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2023-08-21"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Kofi Kingston, Xavier Woods vs. Drew McIntyre, Matt Riddle",
+      "result": "Kofi Kingston, Xavier Woods defeated Drew McIntyre, Matt Riddle.",
+      "matchType": "4-person match",
+      "duration": 567,
+      "participants": [
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "matt-riddle",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kofi Kingston",
+        "Xavier Woods",
+        "Drew McIntyre",
+        "Matt Riddle"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2023-08-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "4081",
+          "92324",
+          "102409"
+        ],
+        "sourceEventIds": [
+          "747"
+        ]
+      },
+      "legacyId": "bulk-match-4081",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Chad Gable vs. Gunther",
+      "result": "Chad Gable defeated Gunther by count-out.",
+      "matchType": "Singles match",
+      "duration": 783,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "gunther",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Chad Gable",
+        "Gunther"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2023-08-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "4082",
+          "92325",
+          "102410"
+        ],
+        "sourceEventIds": [
+          "747"
+        ]
+      },
+      "legacyId": "bulk-match-4082",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Rhea Ripley vs. Candice LeRae",
+      "result": "Rhea Ripley defeated Candice LeRae.",
+      "matchType": "Singles match",
+      "duration": 75,
+      "participants": [
+        {
+          "person": "rhea-ripley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "candice-lerae",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rhea Ripley",
+        "Candice LeRae"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2023-08-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "4083",
+          "92326",
+          "102411"
+        ],
+        "sourceEventIds": [
+          "747"
+        ]
+      },
+      "legacyId": "bulk-match-4083",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Akira Tozawa vs. The Miz",
+      "result": "Akira Tozawa defeated The Miz.",
+      "matchType": "Singles match",
+      "duration": 431,
+      "participants": [
+        {
+          "person": "akira-tozawa",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Akira Tozawa",
+        "The Miz"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2023-08-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "4084",
+          "92327",
+          "102412"
+        ],
+        "sourceEventIds": [
+          "747"
+        ]
+      },
+      "legacyId": "bulk-match-4084",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 5,
+      "type": "match",
+      "title": "Chelsea Green, Piper Niven vs. Katana Chance, Kayden Carter",
+      "result": "Chelsea Green, Piper Niven defeated Katana Chance, Kayden Carter.",
+      "matchType": "4-person match",
+      "duration": 84,
+      "participants": [
+        {
+          "person": "chelsea-green",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "piper-niven",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "katana-chance",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kayden-carter",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chelsea Green",
+        "Piper Niven",
+        "Katana Chance",
+        "Kayden Carter"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2023-08-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "4085",
+          "92328",
+          "102413"
+        ],
+        "sourceEventIds": [
+          "747"
+        ]
+      },
+      "legacyId": "bulk-match-4085",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 6,
+      "type": "match",
+      "title": "Damian Priest, Finn Bálor vs. Kevin Owens, Sami Zayn",
+      "result": "Damian Priest, Finn Bálor defeated Kevin Owens, Sami Zayn by disqualification.",
+      "matchType": "4-person match",
+      "duration": 155,
+      "participants": [
+        {
+          "person": "damian-priest",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Damian Priest",
+        "Finn Bálor",
+        "Kevin Owens",
+        "Sami Zayn"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2023-08-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "4086",
+          "92329",
+          "102414"
+        ],
+        "sourceEventIds": [
+          "747"
+        ]
+      },
+      "legacyId": "bulk-match-4086",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m7",
+      "order": 7,
+      "type": "match",
+      "title": "Cody Rhodes, Kevin Owens, Sami Zayn vs. Damian Priest, Dominik Mysterio, Finn Bálor",
+      "result": "Cody Rhodes, Kevin Owens, Sami Zayn defeated Damian Priest, Dominik Mysterio, Finn Bálor.",
+      "matchType": "Tag Team match",
+      "duration": 864,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "damian-priest",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Kevin Owens",
+        "Sami Zayn",
+        "Damian Priest",
+        "Dominik Mysterio",
+        "Finn Bálor"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2023-08-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "4087",
+          "92330",
+          "102415"
+        ],
+        "sourceEventIds": [
+          "747"
+        ]
+      },
+      "legacyId": "bulk-match-4087",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-747"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "747"
+    ]
+  }
+}

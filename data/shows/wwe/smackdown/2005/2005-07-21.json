@@ -1,0 +1,162 @@
+{
+  "id": "wwe/smackdown/2005-07-21",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2005-07-21",
+  "dateBasis": "aired",
+  "recordedDate": "2005-07-19",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rey Mysterio vs. Super Crazy",
+      "result": "Rey Mysterio defeated Super Crazy by disqualification.",
+      "matchType": "Singles match",
+      "duration": 1019,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "super-crazy",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Super Crazy"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49280",
+          "157205"
+        ],
+        "sourceEventIds": [
+          "7402"
+        ]
+      },
+      "legacyId": "bulk-match-49280",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Chris Benoit vs. Eddie Guerrero",
+      "result": "Chris Benoit defeated Eddie Guerrero by count-out.",
+      "matchType": "Singles match",
+      "duration": 1053,
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Eddie Guerrero"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49282",
+          "157207"
+        ],
+        "sourceEventIds": [
+          "7402"
+        ]
+      },
+      "legacyId": "bulk-match-49282",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Booker T. vs. Simon Dean",
+      "result": "Booker T. defeated Simon Dean.",
+      "matchType": "Singles match",
+      "duration": 101,
+      "participants": [
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "simon-dean",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Booker T.",
+        "Simon Dean"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49283",
+          "157208"
+        ],
+        "sourceEventIds": [
+          "7402"
+        ]
+      },
+      "legacyId": "bulk-match-49283",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7402"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7402"
+    ]
+  }
+}

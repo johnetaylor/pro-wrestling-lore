@@ -1,0 +1,218 @@
+{
+  "id": "wwe/smackdown/2006-01-03",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2006-01-03",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2006/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "John Bradshaw Layfield vs. Matt Hardy",
+      "result": "John Bradshaw Layfield defeated Matt Hardy.",
+      "matchType": "Other match",
+      "duration": 324,
+      "participants": [
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Bradshaw Layfield",
+        "Matt Hardy"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50017",
+          "156325"
+        ],
+        "sourceEventIds": [
+          "7536"
+        ]
+      },
+      "legacyId": "bulk-match-50017",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Kid Kash vs. Juventud Guerrera",
+      "result": "Kid Kash defeated Juventud Guerrera.",
+      "matchType": "Singles match",
+      "duration": 369,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "kid-kash",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "juventud-guerrera",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kid Kash",
+        "Juventud Guerrera"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50019",
+          "156327"
+        ],
+        "sourceEventIds": [
+          "7536"
+        ]
+      },
+      "legacyId": "bulk-match-50019",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Chris Benoit vs. Randy Orton",
+      "result": "Chris Benoit defeated Randy Orton by disqualification.",
+      "matchType": "Singles match",
+      "duration": 646,
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Randy Orton"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50020",
+          "156328"
+        ],
+        "sourceEventIds": [
+          "7536"
+        ]
+      },
+      "legacyId": "bulk-match-50020",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Joey Mercury, Johnny Nitro vs. Batista, Rey Mysterio",
+      "result": "Joey Mercury, Johnny Nitro defeated Batista, Rey Mysterio.",
+      "matchType": "Cage match",
+      "duration": 1025,
+      "participants": [
+        {
+          "person": "joey-mercury",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Joey Mercury",
+        "Johnny Nitro",
+        "Batista",
+        "Rey Mysterio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50021",
+          "156329"
+        ],
+        "sourceEventIds": [
+          "7536"
+        ]
+      },
+      "legacyId": "bulk-match-50021",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7536"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7536"
+    ]
+  }
+}

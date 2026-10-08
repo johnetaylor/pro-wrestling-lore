@@ -1,0 +1,129 @@
+{
+  "id": "wwe/smackdown/2005-05-24",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2005-05-24",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Charlie Haas, Hardcore Holly vs. Joey Mercury, Johnny Nitro",
+      "result": "Charlie Haas, Hardcore Holly defeated Joey Mercury, Johnny Nitro by disqualification.",
+      "matchType": "4-person match",
+      "duration": 731,
+      "participants": [
+        {
+          "person": "charlie-haas",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "joey-mercury",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Charlie Haas",
+        "Hardcore Holly",
+        "Joey Mercury",
+        "Johnny Nitro"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49076",
+          "157446"
+        ],
+        "sourceEventIds": [
+          "7363"
+        ]
+      },
+      "legacyId": "bulk-match-49076",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "The Big Show vs. Carlito",
+      "result": "The Big Show defeated Carlito.",
+      "matchType": "Singles match",
+      "duration": 204,
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "Carlito"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "49077",
+          "157447"
+        ],
+        "sourceEventIds": [
+          "7363"
+        ]
+      },
+      "legacyId": "bulk-match-49077",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7363"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7363"
+    ]
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "id": "wwe/raw/2023-04-24",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2023-04-24",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2023-04-24"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Bianca Belair, Liv Morgan, Raquel Rodriguez vs. Bayley, Dakota Kai, IYO SKY",
+      "result": "Bianca Belair, Liv Morgan, Raquel Rodriguez defeated Bayley, Dakota Kai, IYO SKY.",
+      "matchType": "Tag Team match",
+      "duration": 537,
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "raquel-rodriguez",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "dakota-kai",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "iyo-sky",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bianca Belair",
+        "Liv Morgan",
+        "Raquel Rodriguez",
+        "Bayley",
+        "Dakota Kai",
+        "IYO SKY"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2023-04-24"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5197",
+          "91496",
+          "103525"
+        ],
+        "sourceEventIds": [
+          "941"
+        ]
+      },
+      "legacyId": "bulk-match-5197",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Mustafa Ali vs. Chad Gable",
+      "result": "Mustafa Ali defeated Chad Gable.",
+      "matchType": "Singles match",
+      "duration": 110,
+      "participants": [
+        {
+          "person": "mustafa-ali",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mustafa Ali",
+        "Chad Gable"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2023-04-24"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5198",
+          "91497",
+          "103526"
+        ],
+        "sourceEventIds": [
+          "941"
+        ]
+      },
+      "legacyId": "bulk-match-5198",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Cody Rhodes vs. Finn Bálor",
+      "result": "Cody Rhodes defeated Finn Bálor.",
+      "matchType": "Singles match",
+      "duration": 660,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Finn Bálor"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2023-04-24"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5199",
+          "91498",
+          "103527"
+        ],
+        "sourceEventIds": [
+          "941"
+        ]
+      },
+      "legacyId": "bulk-match-5199",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Rey Mysterio vs. Damian Priest",
+      "result": "Rey Mysterio defeated Damian Priest by disqualification.",
+      "matchType": "Singles match",
+      "duration": 680,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "damian-priest",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Damian Priest"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2023-04-24"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5200",
+          "91499",
+          "103528"
+        ],
+        "sourceEventIds": [
+          "941"
+        ]
+      },
+      "legacyId": "bulk-match-5200",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-941"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "941"
+    ]
+  }
+}

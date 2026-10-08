@@ -1,0 +1,203 @@
+{
+  "id": "wwe/raw/2003-05-12",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2003-05-12",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2003/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Goldberg vs. Christian",
+      "result": "Goldberg defeated Christian.",
+      "matchType": "Cage match",
+      "duration": 410,
+      "participants": [
+        {
+          "person": "goldberg",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Goldberg",
+        "Christian"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46314",
+          "160675"
+        ],
+        "sourceEventIds": [
+          "6832"
+        ]
+      },
+      "legacyId": "bulk-match-46314",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Ric Flair vs. The Hurricane",
+      "result": "Ric Flair defeated The Hurricane.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "ric-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-hurricane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ric Flair",
+        "The Hurricane"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46315",
+          "160676"
+        ],
+        "sourceEventIds": [
+          "6832"
+        ]
+      },
+      "legacyId": "bulk-match-46315",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Trish Stratus vs. Victoria",
+      "result": "Trish Stratus defeated Victoria.",
+      "matchType": "Other match",
+      "duration": 287,
+      "participants": [
+        {
+          "person": "trish-stratus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "victoria",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Trish Stratus",
+        "Victoria"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46317",
+          "160678"
+        ],
+        "sourceEventIds": [
+          "6832"
+        ]
+      },
+      "legacyId": "bulk-match-46317",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Kevin Nash, Chris Jericho — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "kevin-nash",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Kevin Nash",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46318",
+          "160679"
+        ],
+        "sourceEventIds": [
+          "6832"
+        ]
+      },
+      "legacyId": "bulk-match-46318",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6832"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6832"
+    ]
+  }
+}

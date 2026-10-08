@@ -1,0 +1,180 @@
+{
+  "id": "wwe/smackdown/2016-01-21",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2016-01-21",
+  "dateBasis": "aired",
+  "recordedDate": "2016-01-19",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2016/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Becky Lynch vs. Alicia Fox",
+      "result": "Becky Lynch defeated Alicia Fox.",
+      "matchType": "Singles match",
+      "duration": 205,
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alicia-fox",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Alicia Fox"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "71798",
+          "128183"
+        ],
+        "sourceEventIds": [
+          "11151"
+        ]
+      },
+      "legacyId": "bulk-match-71798",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Bray Wyatt vs. Ryback",
+      "result": "Bray Wyatt defeated Ryback.",
+      "matchType": "Singles match",
+      "duration": 347,
+      "participants": [
+        {
+          "person": "bray-wyatt",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ryback",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bray Wyatt",
+        "Ryback"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "71799",
+          "128184"
+        ],
+        "sourceEventIds": [
+          "11151"
+        ]
+      },
+      "legacyId": "bulk-match-71799",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Roman Reigns vs. Alberto Del Rio, Bad News Barrett, Rusev, Sheamus",
+      "result": "Roman Reigns defeated Alberto Del Rio, Bad News Barrett, Rusev, Sheamus by disqualification.",
+      "matchType": "Tag Team match",
+      "duration": 306,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alberto-del-rio",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "wade-barrett",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Alberto Del Rio",
+        "Bad News Barrett",
+        "Rusev",
+        "Sheamus"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "71801",
+          "128186"
+        ],
+        "sourceEventIds": [
+          "11151"
+        ]
+      },
+      "legacyId": "bulk-match-71801",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11151"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11151"
+    ]
+  }
+}

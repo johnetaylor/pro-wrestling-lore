@@ -1,0 +1,312 @@
+{
+  "id": "wwe/raw/2026-03-02",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2026-03-02",
+  "recordedDate": "2026-03-02",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "legacyCardStatus": "Card indexed",
+    "legacySegmentStatus": "Recap reviewed · partial appearance coverage"
+  },
+  "sources": [
+    "https://www.cagematch.net/?id=1&nr=439204",
+    "https://www.wwe.com/shows/raw/2026-03-02"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Gunther vs. Dragon Lee",
+      "result": "Gunther defeats Dragon Lee (14:22)",
+      "context": "Singles Match · Duration: 14:22.",
+      "matchType": "Singles Match",
+      "duration": "14:22",
+      "participants": [
+        {
+          "person": "gunther",
+          "role": "competitor"
+        },
+        {
+          "person": "dragon-lee",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Gunther",
+        "Dragon Lee"
+      ],
+      "rating": {
+        "sources": [
+          {
+            "provider": "cagematch",
+            "value": 8.2,
+            "unit": "points",
+            "url": "https://www.cagematch.net/?id=1&nr=439204",
+            "checked": "2026-10-05",
+            "votes": 297
+          },
+          {
+            "provider": "observer",
+            "value": 4,
+            "unit": "stars",
+            "url": "https://www.cagematch.net/?id=1&nr=439204",
+            "checked": "2026-10-05"
+          }
+        ],
+        "matchCheck": {
+          "method": "date + exact result",
+          "sourceFixture": "Gunther defeats Dragon Lee (14:22)",
+          "eventUrl": "https://www.cagematch.net/?id=1&nr=439204"
+        }
+      },
+      "sources": [
+        "https://www.cagematch.net/?id=1&nr=439204",
+        "https://www.wwe.com/shows/raw/2026-03-02"
+      ],
+      "legacyId": "2026-03-02-raw-match-1",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "The Original El Grande Americano vs. Rayo Americano",
+      "result": "The Original El Grande Americano defeats Rayo Americano (w/Bravo Americano & El Grande Americano) (10:09)",
+      "context": "Singles Match · Duration: 10:09.",
+      "matchType": "Singles Match",
+      "duration": "10:09",
+      "participants": [
+        {
+          "person": "chad-gable",
+          "role": "competitor"
+        },
+        {
+          "person": "pete-dunne",
+          "role": "competitor"
+        },
+        {
+          "person": "the-original-el-grande-americano",
+          "role": "competitor"
+        },
+        {
+          "person": "tyler-bate",
+          "role": "involved"
+        },
+        {
+          "person": "ludwig-kaiser",
+          "role": "involved"
+        }
+      ],
+      "billing": [
+        "The Original El Grande Americano",
+        "Rayo Americano"
+      ],
+      "rating": {
+        "sources": [
+          {
+            "provider": "cagematch",
+            "value": 6.55,
+            "unit": "points",
+            "url": "https://www.cagematch.net/?id=1&nr=439204",
+            "checked": "2026-10-05",
+            "votes": 153
+          },
+          {
+            "provider": "observer",
+            "value": 3.5,
+            "unit": "stars",
+            "url": "https://www.cagematch.net/?id=1&nr=439204",
+            "checked": "2026-10-05"
+          }
+        ],
+        "matchCheck": {
+          "method": "date + exact result",
+          "sourceFixture": "The Original El Grande Americano defeats Rayo Americano (w/Bravo Americano & El Grande Americano) (10:09)",
+          "eventUrl": "https://www.cagematch.net/?id=1&nr=439204"
+        }
+      },
+      "sources": [
+        "https://www.cagematch.net/?id=1&nr=439204",
+        "https://www.wwe.com/shows/raw/2026-03-02"
+      ],
+      "legacyId": "2026-03-02-raw-match-2",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Jimmy Uso vs. Austin Theory by DQ",
+      "result": "Jimmy Uso defeats Austin Theory by DQ (2:39)",
+      "context": "Singles Match · Duration: 2:39.",
+      "matchType": "Singles Match",
+      "duration": "2:39",
+      "participants": [
+        {
+          "person": "jimmy-uso",
+          "role": "competitor"
+        },
+        {
+          "person": "austin-theory",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Jimmy Uso",
+        "Austin Theory"
+      ],
+      "sources": [
+        "https://www.cagematch.net/?id=1&nr=439204",
+        "https://www.wwe.com/shows/raw/2026-03-02"
+      ],
+      "legacyId": "2026-03-02-raw-match-3",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Penta vs. Dominik Mysterio",
+      "result": "Penta defeats Dominik Mysterio (w/Finn Balor & JD McDonagh) (c) (15:40) - TITLE CHANGE !!!",
+      "context": "WWE Intercontinental Title Match.",
+      "matchType": "WWE Intercontinental Title Match",
+      "duration": "15:40",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "penta",
+          "role": "competitor"
+        },
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor"
+        },
+        {
+          "person": "finn-balor",
+          "role": "involved"
+        },
+        {
+          "person": "jd-mcdonagh",
+          "role": "involved"
+        }
+      ],
+      "billing": [
+        "Penta",
+        "Dominik Mysterio"
+      ],
+      "rating": {
+        "sources": [
+          {
+            "provider": "cagematch",
+            "value": 7.29,
+            "unit": "points",
+            "url": "https://www.cagematch.net/?id=1&nr=439204",
+            "checked": "2026-10-05",
+            "votes": 216
+          },
+          {
+            "provider": "observer",
+            "value": 3.5,
+            "unit": "stars",
+            "url": "https://www.cagematch.net/?id=1&nr=439204",
+            "checked": "2026-10-05"
+          }
+        ],
+        "matchCheck": {
+          "method": "date + exact result",
+          "sourceFixture": "Penta defeats Dominik Mysterio (w/Finn Balor & JD McDonagh) (c) (15:40) - TITLE CHANGE !!!",
+          "eventUrl": "https://www.cagematch.net/?id=1&nr=439204"
+        }
+      },
+      "sources": [
+        "https://www.cagematch.net/?id=1&nr=439204",
+        "https://www.wwe.com/shows/raw/2026-03-02"
+      ],
+      "legacyId": "2026-03-02-raw-match-4",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "s1",
+      "type": "appearance",
+      "title": "Rollins hits Heyman with a Stomp",
+      "result": "Rollins hits Heyman with a Stomp.",
+      "context": "A televised non-match segment or action outside the bell-to-bell match. Open the recap or highlight for the full sequence.",
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/raw/2026-03-02"
+      ],
+      "legacyId": "2026-03-02-raw-segment-0",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s2",
+      "type": "appearance",
+      "title": "Femi and Rusev confront one another",
+      "result": "Femi and Rusev confront one another.",
+      "context": "A televised non-match segment or action outside the bell-to-bell match. Open the recap or highlight for the full sequence.",
+      "participants": [
+        {
+          "person": "oba-femi",
+          "role": "competitor"
+        },
+        {
+          "person": "rusev",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/raw/2026-03-02"
+      ],
+      "legacyId": "2026-03-02-raw-segment-4",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s3",
+      "type": "promo",
+      "title": "Reigns and Punk face off",
+      "result": "Reigns and Punk face off.",
+      "context": "A televised promo, interview or verbal confrontation. The linked recap provides the surrounding story.",
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor"
+        },
+        {
+          "person": "cm-punk",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/raw/2026-03-02"
+      ],
+      "legacyId": "2026-03-02-raw-segment-7",
+      "legacy": {
+        "kind": "story"
+      }
+    }
+  ],
+  "legacyIds": [
+    "2026-03-02-raw"
+  ],
+  "legacy": {
+    "showFamily": "raw"
+  }
+}

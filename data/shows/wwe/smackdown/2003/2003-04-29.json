@@ -1,0 +1,182 @@
+{
+  "id": "wwe/smackdown/2003-04-29",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2003-04-29",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2003/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "The Big Show vs. Sho Funaki",
+      "result": "The Big Show defeated Sho Funaki.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sho-funaki",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "Sho Funaki"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46281",
+          "160709"
+        ],
+        "sourceEventIds": [
+          "6826"
+        ]
+      },
+      "legacyId": "bulk-match-46281",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Chuck Palumbo, Johnny Stamboli vs. Chris Benoit, Rhyno",
+      "result": "Chuck Palumbo, Johnny Stamboli defeated Chris Benoit, Rhyno.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "chuck-palumbo",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "johnny-stamboli",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rhyno",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chuck Palumbo",
+        "Johnny Stamboli",
+        "Chris Benoit",
+        "Rhyno"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46282",
+          "160710"
+        ],
+        "sourceEventIds": [
+          "6826"
+        ]
+      },
+      "legacyId": "bulk-match-46282",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Dawn Marie, Nidia vs. Sable, Torrie Wilson",
+      "result": "Dawn Marie, Nidia defeated Sable, Torrie Wilson.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "dawn-marie",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nidia",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sable",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "torrie-wilson",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dawn Marie",
+        "Nidia",
+        "Sable",
+        "Torrie Wilson"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46284",
+          "160712"
+        ],
+        "sourceEventIds": [
+          "6826"
+        ]
+      },
+      "legacyId": "bulk-match-46284",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6826"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6826"
+    ]
+  }
+}

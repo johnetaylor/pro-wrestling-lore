@@ -1,0 +1,349 @@
+{
+  "id": "wwe/raw/2019-03-18",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2019-03-18",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2019-03-18"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Braun Strowman, Finn Bálor vs. Bobby Lashley, Lio Rush",
+      "result": "Braun Strowman, Finn Bálor defeated Bobby Lashley, Lio Rush.",
+      "matchType": "4-person match",
+      "duration": 445,
+      "participants": [
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "lio-rush",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Braun Strowman",
+        "Finn Bálor",
+        "Bobby Lashley",
+        "Lio Rush"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-03-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82746",
+          "116698"
+        ],
+        "sourceEventIds": [
+          "12904"
+        ]
+      },
+      "legacyId": "bulk-match-82746",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Kurt Angle vs. Chad Gable",
+      "result": "Kurt Angle defeated Chad Gable.",
+      "matchType": "Singles match",
+      "duration": 736,
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Chad Gable"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-03-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82748",
+          "116700"
+        ],
+        "sourceEventIds": [
+          "12904"
+        ]
+      },
+      "legacyId": "bulk-match-82748",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Natalya, Sasha Banks — no contest.",
+      "matchType": "Singles match",
+      "duration": 171,
+      "participants": [
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Natalya",
+        "Sasha Banks"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-03-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82749",
+          "116701"
+        ],
+        "sourceEventIds": [
+          "12904"
+        ]
+      },
+      "legacyId": "bulk-match-82749",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Ricochet vs. Jinder Mahal",
+      "result": "Ricochet defeated Jinder Mahal.",
+      "matchType": "Singles match",
+      "duration": 405,
+      "participants": [
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ricochet",
+        "Jinder Mahal"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-03-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82750",
+          "116702"
+        ],
+        "sourceEventIds": [
+          "12904"
+        ]
+      },
+      "legacyId": "bulk-match-82750",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 6,
+      "type": "match",
+      "title": "Ronda Rousey vs. Dana Brooke",
+      "result": "Ronda Rousey defeated Dana Brooke.",
+      "matchType": "Singles match",
+      "duration": 17,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "ronda-rousey",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dana-brooke",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ronda Rousey",
+        "Dana Brooke"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-03-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82751",
+          "116703"
+        ],
+        "sourceEventIds": [
+          "12904"
+        ]
+      },
+      "legacyId": "bulk-match-82751",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 7,
+      "type": "match",
+      "title": "Apollo Crews vs. Baron Corbin",
+      "result": "Apollo Crews defeated Baron Corbin.",
+      "matchType": "Singles match",
+      "duration": 263,
+      "participants": [
+        {
+          "person": "apollo-crews",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Apollo Crews",
+        "Baron Corbin"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-03-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82752",
+          "116704"
+        ],
+        "sourceEventIds": [
+          "12904"
+        ]
+      },
+      "legacyId": "bulk-match-82752",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m7",
+      "order": 8,
+      "type": "match",
+      "title": "Drew McIntyre vs. Seth Rollins",
+      "result": "Drew McIntyre defeated Seth Rollins.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "Seth Rollins"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-03-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82753",
+          "116705"
+        ],
+        "sourceEventIds": [
+          "12904"
+        ]
+      },
+      "legacyId": "bulk-match-82753",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12904"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12904"
+    ]
+  }
+}

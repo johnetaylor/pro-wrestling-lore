@@ -1,0 +1,185 @@
+{
+  "id": "wwe/smackdown/2017-03-07",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-03-07",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-03-07"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "John Cena, Nikki Bella vs. Carmella, James Ellsworth",
+      "result": "John Cena, Nikki Bella defeated Carmella, James Ellsworth.",
+      "matchType": "Other match",
+      "duration": 426,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nikki-bella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "james-ellsworth",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Nikki Bella",
+        "Carmella",
+        "James Ellsworth"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-03-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76440",
+          "123084"
+        ],
+        "sourceEventIds": [
+          "11848"
+        ]
+      },
+      "legacyId": "bulk-match-76440",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Alexa Bliss, Mickie James vs. Becky Lynch, Natalya",
+      "result": "Alexa Bliss, Mickie James defeated Becky Lynch, Natalya.",
+      "matchType": "4-person match",
+      "duration": 760,
+      "participants": [
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alexa Bliss",
+        "Mickie James",
+        "Becky Lynch",
+        "Natalya"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-03-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76441",
+          "123085"
+        ],
+        "sourceEventIds": [
+          "11848"
+        ]
+      },
+      "legacyId": "bulk-match-76441",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Randy Orton vs. A.J. Styles",
+      "result": "Randy Orton defeated A.J. Styles.",
+      "matchType": "Singles match",
+      "duration": 1062,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "A.J. Styles"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-03-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76442",
+          "123086"
+        ],
+        "sourceEventIds": [
+          "11848"
+        ]
+      },
+      "legacyId": "bulk-match-76442",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11848"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11848"
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "id": "wwe/raw/2008-01-07",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2008-01-07",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Hardcore Holly vs. Carlito",
+      "result": "Hardcore Holly defeated Carlito.",
+      "matchType": "Other match",
+      "duration": 203,
+      "participants": [
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hardcore Holly",
+        "Carlito"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52665",
+          "153099"
+        ],
+        "sourceEventIds": [
+          "8016"
+        ]
+      },
+      "legacyId": "bulk-match-52665",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Triple H vs. William Regal",
+      "result": "Triple H defeated William Regal.",
+      "matchType": "Other match",
+      "duration": 324,
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "William Regal"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52667",
+          "153101"
+        ],
+        "sourceEventIds": [
+          "8016"
+        ]
+      },
+      "legacyId": "bulk-match-52667",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Tag Team match",
+      "result": "Chris Jericho, John Bradshaw Layfield, Snitsky — no contest.",
+      "matchType": "Tag Team match",
+      "duration": 180,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "snitsky",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "John Bradshaw Layfield",
+        "Snitsky"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52668",
+          "153102"
+        ],
+        "sourceEventIds": [
+          "8016"
+        ]
+      },
+      "legacyId": "bulk-match-52668",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Jeff Hardy vs. Umaga",
+      "result": "Jeff Hardy defeated Umaga.",
+      "matchType": "Cage match",
+      "duration": 871,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "umaga",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Umaga"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52670",
+          "153104"
+        ],
+        "sourceEventIds": [
+          "8016"
+        ]
+      },
+      "legacyId": "bulk-match-52670",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8016"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8016"
+    ]
+  }
+}

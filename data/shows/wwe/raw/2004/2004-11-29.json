@@ -1,0 +1,180 @@
+{
+  "id": "wwe/raw/2004-11-29",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2004-11-29",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Lita, Victoria vs. Molly Holly, Trish Stratus",
+      "result": "Lita, Victoria defeated Molly Holly, Trish Stratus.",
+      "matchType": "4-person match",
+      "duration": 410,
+      "participants": [
+        {
+          "person": "lita",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "victoria",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "molly-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "trish-stratus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lita",
+        "Victoria",
+        "Molly Holly",
+        "Trish Stratus"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48500",
+          "158162"
+        ],
+        "sourceEventIds": [
+          "7244"
+        ]
+      },
+      "legacyId": "bulk-match-48500",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Ric Flair vs. Jerry Lawler",
+      "result": "Ric Flair defeated Jerry Lawler.",
+      "matchType": "Singles match",
+      "duration": 378,
+      "participants": [
+        {
+          "person": "ric-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jerry-lawler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ric Flair",
+        "Jerry Lawler"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48501",
+          "158163"
+        ],
+        "sourceEventIds": [
+          "7244"
+        ]
+      },
+      "legacyId": "bulk-match-48501",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Triple Threat match",
+      "result": "Chris Benoit, Edge, Triple H — no contest.",
+      "matchType": "Triple Threat match",
+      "duration": 867,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Edge",
+        "Triple H"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48503",
+          "158165"
+        ],
+        "sourceEventIds": [
+          "7244"
+        ]
+      },
+      "legacyId": "bulk-match-48503",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7244"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7244"
+    ]
+  }
+}

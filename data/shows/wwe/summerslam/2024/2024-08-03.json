@@ -1,0 +1,432 @@
+{
+  "id": "wwe/summerslam/2024-08-03",
+  "promotion": "wwe",
+  "series": "wwe/summerslam",
+  "name": "SummerSlam 2024",
+  "date": "2024-08-03",
+  "category": "PLE",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "note": "Hugging Face import · official-results comparison. Unverified extra matches were excluded.",
+    "legacyCardStatus": "Imported card compared with official WWE results",
+    "legacySegmentStatus": "Partial; the match dataset does not contain a promo/appearance archive"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/summerslam/2024/results"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Liv Morgan vs. Rhea Ripley",
+      "result": "Liv Morgan defeated Rhea Ripley.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "liv-morgan",
+          "role": "competitor"
+        },
+        {
+          "person": "rhea-ripley",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Liv Morgan",
+        "Rhea Ripley"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/summerslam/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/summerslam/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "87",
+        "sourceMatchIds": [
+          "438",
+          "98766"
+        ],
+        "rawInputSha256": "ec9d6c9dffc04f633359d13a3710cfd84e3164b100f12fb96215132eb0c58ee8",
+        "normalizedParticipants": [
+          {
+            "name": "Liv Morgan",
+            "result": "win"
+          },
+          {
+            "name": "Rhea Ripley",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/summerslam/2024/results"
+      },
+      "legacyId": "hf-match-438",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Bron Breakker vs. Sami Zayn",
+      "result": "Bron Breakker defeated Sami Zayn.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bron-breakker",
+          "role": "competitor"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Bron Breakker",
+        "Sami Zayn"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/summerslam/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/summerslam/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "87",
+        "sourceMatchIds": [
+          "439",
+          "98767"
+        ],
+        "rawInputSha256": "80b9b9eb0ab9ac9c8cf34c88c4158cb345b0ce30a8a0d5f1d7b1d4ad9d2bafd7",
+        "normalizedParticipants": [
+          {
+            "name": "Bron Breakker",
+            "result": "win"
+          },
+          {
+            "name": "Sami Zayn",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/summerslam/2024/results"
+      },
+      "legacyId": "hf-match-439",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "LA Knight vs. Logan Paul",
+      "result": "LA Knight defeated Logan Paul.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "la-knight",
+          "role": "competitor"
+        },
+        {
+          "person": "logan-paul",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "LA Knight",
+        "Logan Paul"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/summerslam/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/summerslam/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "87",
+        "sourceMatchIds": [
+          "440",
+          "98768"
+        ],
+        "rawInputSha256": "3e2723ec559bc014bfa42f05bf3546033349efccb206a4ccf3276ed489750df5",
+        "normalizedParticipants": [
+          {
+            "name": "LA Knight",
+            "result": "win"
+          },
+          {
+            "name": "Logan Paul",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/summerslam/2024/results"
+      },
+      "legacyId": "hf-match-440",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Nia Jax vs. Bayley",
+      "result": "Nia Jax defeated Bayley.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "nia-jax",
+          "role": "competitor"
+        },
+        {
+          "person": "bayley",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Nia Jax",
+        "Bayley"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/summerslam/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/summerslam/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "87",
+        "sourceMatchIds": [
+          "441",
+          "98769"
+        ],
+        "rawInputSha256": "a476ec3336d26a3b1273aa70b1eb7bbf872cc9aa3dd44f0606e67f73642704e6",
+        "normalizedParticipants": [
+          {
+            "name": "Nia Jax",
+            "result": "win"
+          },
+          {
+            "name": "Bayley",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/summerslam/2024/results"
+      },
+      "legacyId": "hf-match-441",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m5",
+      "type": "match",
+      "title": "Drew McIntyre vs. CM Punk",
+      "result": "Drew McIntyre defeated CM Punk.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles · special guest referee Seth Rollins",
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor"
+        },
+        {
+          "person": "cm-punk",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "CM Punk"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/summerslam/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/summerslam/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "87",
+        "sourceMatchIds": [
+          "442",
+          "98770"
+        ],
+        "rawInputSha256": "61f53b86b623c3c3349515eb5e2d965d038dd43268240ad8149bf30a3687d5ed",
+        "normalizedParticipants": [
+          {
+            "name": "Drew McIntyre",
+            "result": "win"
+          },
+          {
+            "name": "CM Punk",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/summerslam/2024/results"
+      },
+      "legacyId": "hf-match-442",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m6",
+      "type": "match",
+      "title": "Gunther vs. Damian Priest",
+      "result": "Gunther defeated Damian Priest.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "gunther",
+          "role": "competitor"
+        },
+        {
+          "person": "damian-priest",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Gunther",
+        "Damian Priest"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/summerslam/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/summerslam/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "87",
+        "sourceMatchIds": [
+          "443",
+          "98771"
+        ],
+        "rawInputSha256": "81495b0ae8b938cff0e38dd77e9a286a607cf7a16dc1a720cf4f8c0c8f5ec0e5",
+        "normalizedParticipants": [
+          {
+            "name": "Gunther",
+            "result": "win"
+          },
+          {
+            "name": "Damian Priest",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/summerslam/2024/results"
+      },
+      "legacyId": "hf-match-443",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m7",
+      "type": "match",
+      "title": "Cody Rhodes vs. Solo Sikoa",
+      "result": "Cody Rhodes defeated Solo Sikoa.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Bloodline Rules",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        },
+        {
+          "person": "solo-sikoa",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Solo Sikoa"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/summerslam/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/summerslam/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "87",
+        "sourceMatchIds": [
+          "444",
+          "98772"
+        ],
+        "rawInputSha256": "7e7daf7e05cddbdbb40f46ebb51cceeaf608cb1498f4175a21808ddff0055602",
+        "normalizedParticipants": [
+          {
+            "name": "Cody Rhodes",
+            "result": "win"
+          },
+          {
+            "name": "Solo Sikoa",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/summerslam/2024/results"
+      },
+      "legacyId": "hf-match-444",
+      "legacy": {
+        "kind": "title"
+      }
+    }
+  ],
+  "legacyIds": [
+    "hf-event-87"
+  ],
+  "legacy": {
+    "showFamily": "summerslam",
+    "importBatch": "ringside-2024-ple"
+  }
+}

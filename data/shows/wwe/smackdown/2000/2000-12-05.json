@@ -1,0 +1,237 @@
+{
+  "id": "wwe/smackdown/2000-12-05",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2000-12-05",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Ivory, Val Venis vs. Billy Gunn, Chyna",
+      "result": "Ivory, Val Venis defeated Billy Gunn, Chyna.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "ivory",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "val-venis",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "chyna",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ivory",
+        "Val Venis",
+        "Billy Gunn",
+        "Chyna"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41156",
+          "165851"
+        ],
+        "sourceEventIds": [
+          "6079"
+        ]
+      },
+      "legacyId": "bulk-match-41156",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Molly Holly vs. Trish Stratus",
+      "result": "Molly Holly defeated Trish Stratus by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "molly-holly",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "trish-stratus",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Molly Holly",
+        "Trish Stratus"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41157",
+          "165852"
+        ],
+        "sourceEventIds": [
+          "6079"
+        ]
+      },
+      "legacyId": "bulk-match-41157",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Chris Jericho, Hardcore Holly vs. Kane, William Regal",
+      "result": "Chris Jericho, Hardcore Holly defeated Kane, William Regal.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Hardcore Holly",
+        "Kane",
+        "William Regal"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41158",
+          "165853"
+        ],
+        "sourceEventIds": [
+          "6079"
+        ]
+      },
+      "legacyId": "bulk-match-41158",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Other match",
+      "result": "Kurt Angle, Steve Austin, The Rock, The Undertaker — no contest.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Steve Austin",
+        "The Rock",
+        "The Undertaker"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "41160",
+          "165855"
+        ],
+        "sourceEventIds": [
+          "6079"
+        ]
+      },
+      "legacyId": "bulk-match-41160",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6079"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6079"
+    ]
+  }
+}

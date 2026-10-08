@@ -1,0 +1,68 @@
+{
+  "id": "poffo",
+  "name": "Poffo",
+  "description": "Angelo Poffo and his sons Randy Savage and Lanny Poffo.",
+  "branches": [
+    {
+      "id": "poffo",
+      "name": "The Poffo family"
+    }
+  ],
+  "members": [
+    {
+      "id": "angelo-poffo",
+      "name": "Angelo Poffo",
+      "branch": "poffo",
+      "source": "poffo",
+      "layout": {
+        "x": 106,
+        "y": 24
+      }
+    },
+    {
+      "id": "randy-savage",
+      "name": "Randy Savage",
+      "person": "randy-savage",
+      "branch": "poffo",
+      "source": "poffo",
+      "layout": {
+        "x": 16,
+        "y": 164
+      }
+    },
+    {
+      "id": "lanny-poffo",
+      "name": "Lanny Poffo / The Genius",
+      "branch": "poffo",
+      "aliases": [
+        "Lanny Poffo",
+        "The Genius"
+      ],
+      "source": "poffo",
+      "layout": {
+        "x": 196,
+        "y": 164
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "angelo-poffo",
+      "b": "randy-savage",
+      "type": "parent",
+      "source": "poffo"
+    },
+    {
+      "a": "angelo-poffo",
+      "b": "lanny-poffo",
+      "type": "parent",
+      "source": "poffo"
+    }
+  ],
+  "sources": {
+    "poffo": {
+      "label": "WWE: Lanny Poffo and his family",
+      "url": "https://www.wwe.com/article/lanny-poffo-passes-away"
+    }
+  }
+}

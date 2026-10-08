@@ -1,0 +1,220 @@
+{
+  "id": "wwe/raw/1998-09-21",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1998-09-21",
+  "dateBasis": "aired",
+  "recordedDate": "1998-09-15",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1998/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Kane, The Undertaker vs. Billy Gunn, Steve Austin",
+      "result": "Kane, The Undertaker defeated Billy Gunn, Steve Austin.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "The Undertaker",
+        "Billy Gunn",
+        "Steve Austin"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "31422",
+          "175621"
+        ],
+        "sourceEventIds": [
+          "4739"
+        ]
+      },
+      "legacyId": "bulk-match-31422",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Al Snow vs. Sergeant Slaughter",
+      "result": "Al Snow defeated Sergeant Slaughter.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "al-snow",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sgt-slaughter",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Al Snow",
+        "Sergeant Slaughter"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "31423",
+          "175622"
+        ],
+        "sourceEventIds": [
+          "4739"
+        ]
+      },
+      "legacyId": "bulk-match-31423",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Val Venis vs. Owen Hart",
+      "result": "Val Venis defeated Owen Hart by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "val-venis",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "owen-hart",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Val Venis",
+        "Owen Hart"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "31424",
+          "175623"
+        ],
+        "sourceEventIds": [
+          "4739"
+        ]
+      },
+      "legacyId": "bulk-match-31424",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 9,
+      "type": "match",
+      "title": "Other match",
+      "result": "The Rock, Ken Shamrock, Mankind — no contest.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "ken-shamrock",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "mick-foley",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "The Rock",
+        "Ken Shamrock",
+        "Mankind"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "31427",
+          "175626"
+        ],
+        "sourceEventIds": [
+          "4739"
+        ]
+      },
+      "legacyId": "bulk-match-31427",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4739"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4739"
+    ]
+  }
+}

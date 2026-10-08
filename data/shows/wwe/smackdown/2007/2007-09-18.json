@@ -1,0 +1,173 @@
+{
+  "id": "wwe/smackdown/2007-09-18",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2007-09-18",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Jimmy Wang Yang vs. Jamie Noble",
+      "result": "Jimmy Wang Yang defeated Jamie Noble.",
+      "matchType": "Singles match",
+      "duration": 298,
+      "participants": [
+        {
+          "person": "jimmy-wang-yang",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jamie-noble",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jimmy Wang Yang",
+        "Jamie Noble"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52300",
+          "153576"
+        ],
+        "sourceEventIds": [
+          "7950"
+        ]
+      },
+      "legacyId": "bulk-match-52300",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Deuce, Domino vs. Matt Hardy, Montel Vontavious Porter",
+      "result": "Deuce, Domino defeated Matt Hardy, Montel Vontavious Porter.",
+      "matchType": "4-person match",
+      "duration": 598,
+      "participants": [
+        {
+          "person": "la-knight",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "domino",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "montel-vontavious-porter",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Deuce",
+        "Domino",
+        "Matt Hardy",
+        "Montel Vontavious Porter"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52301",
+          "153577"
+        ],
+        "sourceEventIds": [
+          "7950"
+        ]
+      },
+      "legacyId": "bulk-match-52301",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Batista, Mark Henry — no contest.",
+      "matchType": "Singles match",
+      "duration": 112,
+      "participants": [
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Batista",
+        "Mark Henry"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52302",
+          "153578"
+        ],
+        "sourceEventIds": [
+          "7950"
+        ]
+      },
+      "legacyId": "bulk-match-52302",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7950"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7950"
+    ]
+  }
+}

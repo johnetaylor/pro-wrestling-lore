@@ -1,0 +1,228 @@
+{
+  "id": "wwe/raw/2000-09-18",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2000-09-18",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Kane vs. Chris Benoit",
+      "result": "Kane defeated Chris Benoit by disqualification.",
+      "matchType": "Singles match",
+      "duration": 232,
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "Chris Benoit"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40359",
+          "166656"
+        ],
+        "sourceEventIds": [
+          "5969"
+        ]
+      },
+      "legacyId": "bulk-match-40359",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Kurt Angle, Stephanie McMahon, Triple H vs. Albert, Test, Trish Stratus",
+      "result": "Kurt Angle, Stephanie McMahon, Triple H defeated Albert, Test, Trish Stratus.",
+      "matchType": "Tag Team match",
+      "duration": 315,
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "stephanie-mcmahon",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tensai",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "trish-stratus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Stephanie McMahon",
+        "Triple H",
+        "Albert",
+        "Test",
+        "Trish Stratus"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40360",
+          "166657"
+        ],
+        "sourceEventIds": [
+          "5969"
+        ]
+      },
+      "legacyId": "bulk-match-40360",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Rikishi, Chyna — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "chyna",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Rikishi",
+        "Chyna"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40361",
+          "166658"
+        ],
+        "sourceEventIds": [
+          "5969"
+        ]
+      },
+      "legacyId": "bulk-match-40361",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "The Undertaker vs. The Rock",
+      "result": "The Undertaker defeated The Rock.",
+      "matchType": "Singles match",
+      "duration": 263,
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "The Rock"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40363",
+          "166660"
+        ],
+        "sourceEventIds": [
+          "5969"
+        ]
+      },
+      "legacyId": "bulk-match-40363",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5969"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5969"
+    ]
+  }
+}

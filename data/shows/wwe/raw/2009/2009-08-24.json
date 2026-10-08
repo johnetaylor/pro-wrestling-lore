@@ -1,0 +1,196 @@
+{
+  "id": "wwe/raw/2009-08-24",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2009-08-24",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2009/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Alicia Fox, Beth Phoenix, Rosa Mendes vs. Gail Kim, Kelly Kelly, Mickie James",
+      "result": "Alicia Fox, Beth Phoenix, Rosa Mendes defeated Gail Kim, Kelly Kelly, Mickie James.",
+      "matchType": "Tag Team match",
+      "duration": 156,
+      "participants": [
+        {
+          "person": "alicia-fox",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "beth-phoenix",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rosa-mendes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "gail-kim",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kelly-kelly",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alicia Fox",
+        "Beth Phoenix",
+        "Rosa Mendes",
+        "Gail Kim",
+        "Kelly Kelly",
+        "Mickie James"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54703",
+          "150424"
+        ],
+        "sourceEventIds": [
+          "8395"
+        ]
+      },
+      "legacyId": "bulk-match-54703",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Mark Henry, Montel Vontavious Porter vs. Chris Jericho, The Big Show",
+      "result": "Mark Henry, Montel Vontavious Porter defeated Chris Jericho, The Big Show.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "montel-vontavious-porter",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mark Henry",
+        "Montel Vontavious Porter",
+        "Chris Jericho",
+        "The Big Show"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54704",
+          "150425"
+        ],
+        "sourceEventIds": [
+          "8395"
+        ]
+      },
+      "legacyId": "bulk-match-54704",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Hornswoggle vs. Chavo Guerrero",
+      "result": "Hornswoggle defeated Chavo Guerrero by disqualification.",
+      "matchType": "Other match",
+      "duration": 67,
+      "participants": [
+        {
+          "person": "hornswoggle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chavo-guerrero",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Hornswoggle",
+        "Chavo Guerrero"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54705",
+          "150426"
+        ],
+        "sourceEventIds": [
+          "8395"
+        ]
+      },
+      "legacyId": "bulk-match-54705",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8395"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8395"
+    ]
+  }
+}

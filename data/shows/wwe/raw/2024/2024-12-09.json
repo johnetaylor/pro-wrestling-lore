@@ -1,0 +1,164 @@
+{
+  "id": "wwe/raw/2024-12-09",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2024-12-09",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2024-12-09"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Liv Morgan vs. Dakota Kai",
+      "result": "Liv Morgan defeated Dakota Kai.",
+      "matchType": "Singles match",
+      "duration": 445,
+      "participants": [
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dakota-kai",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Liv Morgan",
+        "Dakota Kai"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-12-09"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95366"
+        ],
+        "sourceEventIds": [
+          "15128"
+        ]
+      },
+      "legacyId": "bulk-match-95366",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Lyra Valkyria vs. Ivy Nile, Zelina Vega",
+      "result": "Lyra Valkyria defeated Ivy Nile, Zelina Vega.",
+      "matchType": "Other match",
+      "duration": 470,
+      "participants": [
+        {
+          "person": "lyra-valkyria",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ivy-nile",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "zelina-vega",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lyra Valkyria",
+        "Ivy Nile",
+        "Zelina Vega"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-12-09"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95367"
+        ],
+        "sourceEventIds": [
+          "15128"
+        ]
+      },
+      "legacyId": "bulk-match-95367",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Rhea Ripley vs. Raquel Rodriguez",
+      "result": "Rhea Ripley defeated Raquel Rodriguez.",
+      "matchType": "Other match",
+      "duration": 479,
+      "participants": [
+        {
+          "person": "rhea-ripley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "raquel-rodriguez",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rhea Ripley",
+        "Raquel Rodriguez"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-12-09"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95368"
+        ],
+        "sourceEventIds": [
+          "15128"
+        ]
+      },
+      "legacyId": "bulk-match-95368",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-15128"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "15128"
+    ]
+  }
+}

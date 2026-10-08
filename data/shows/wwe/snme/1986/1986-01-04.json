@@ -1,0 +1,136 @@
+{
+  "id": "wwe/snme/1986-01-04",
+  "promotion": "wwe",
+  "series": "wwe/snme",
+  "name": "Saturday Night's Main Event Taping",
+  "date": "1986-01-04",
+  "dateBasis": "aired",
+  "recordedDate": "1985-12-19",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1985/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Hulk Hogan vs. Terry Funk",
+      "result": "Hulk Hogan defeated Terry Funk.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "terry-funk",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hulk Hogan",
+        "Terry Funk"
+      ],
+      "showCategory": "PLE / special",
+      "promotionLabel": "WWF",
+      "dateBasis": "broadcast",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-07",
+        "source": "https://thehistoryofwwe.com/wwf-results-1985/",
+        "scope": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date."
+      },
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1985/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "12021",
+          "194996"
+        ],
+        "sourceEventIds": [
+          "1968"
+        ]
+      },
+      "legacyId": "bulk-match-12021",
+      "legacy": {
+        "show": "Saturday Night’s Main Event",
+        "kind": "title",
+        "hoganReview": {
+          "id": "bulk-match-12021",
+          "source": "https://thehistoryofwwe.com/wwf-results-1985/",
+          "date": "1986-01-04",
+          "reviewed": "2026-10-07",
+          "note": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date.",
+          "show": "Saturday Night’s Main Event",
+          "omitUnreviewedDuration": true
+        },
+        "workbookReference": "HM-0075",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Randy Savage vs. George Steele",
+      "result": "Randy Savage defeated George Steele.",
+      "matchType": "Singles match",
+      "duration": 191,
+      "participants": [
+        {
+          "person": "randy-savage",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "george-steele",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Savage",
+        "George Steele"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1985/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "12022",
+          "194997"
+        ],
+        "sourceEventIds": [
+          "1968"
+        ]
+      },
+      "legacyId": "bulk-match-12022",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1968"
+  ],
+  "legacy": {
+    "showFamily": "snme",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1968"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "id": "wwe/smackdown/2021-10-01",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2021-10-01",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2021-10-01"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Happy Corbin vs. Kevin Owens",
+      "result": "Happy Corbin defeated Kevin Owens.",
+      "matchType": "Singles match",
+      "duration": 448,
+      "participants": [
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Happy Corbin",
+        "Kevin Owens"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-10-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87725",
+          "109580"
+        ],
+        "sourceEventIds": [
+          "13794"
+        ]
+      },
+      "legacyId": "bulk-match-87725",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Angelo Dawkins, Kofi Kingston, Montez Ford, Xavier Woods vs. Chad Gable, Dolph Ziggler, Otis, Robert Roode",
+      "result": "Angelo Dawkins, Kofi Kingston, Montez Ford, Xavier Woods defeated Chad Gable, Dolph Ziggler, Otis, Robert Roode.",
+      "matchType": "Tag Team match",
+      "duration": 609,
+      "participants": [
+        {
+          "person": "angelo-dawkins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "montez-ford",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "otis",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "robert-roode",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Angelo Dawkins",
+        "Kofi Kingston",
+        "Montez Ford",
+        "Xavier Woods",
+        "Chad Gable",
+        "Dolph Ziggler",
+        "Otis",
+        "Robert Roode"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-10-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87726",
+          "109581"
+        ],
+        "sourceEventIds": [
+          "13794"
+        ]
+      },
+      "legacyId": "bulk-match-87726",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Sasha Banks vs. Bianca Belair",
+      "result": "Sasha Banks defeated Bianca Belair.",
+      "matchType": "Singles match",
+      "duration": 825,
+      "participants": [
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bianca-belair",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sasha Banks",
+        "Bianca Belair"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-10-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87727",
+          "109582"
+        ],
+        "sourceEventIds": [
+          "13794"
+        ]
+      },
+      "legacyId": "bulk-match-87727",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13794"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13794"
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "id": "wwe/smackdown/2003-09-02",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2003-09-02",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2003/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Chris Benoit vs. A-Train",
+      "result": "Chris Benoit defeated A-Train.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tensai",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "A-Train"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46804",
+          "160199"
+        ],
+        "sourceEventIds": [
+          "6915"
+        ]
+      },
+      "legacyId": "bulk-match-46804",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Singles match",
+      "result": "The Undertaker, Kurt Angle — no contest.",
+      "matchType": "Singles match",
+      "duration": 1013,
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "Kurt Angle"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46805",
+          "160200"
+        ],
+        "sourceEventIds": [
+          "6915"
+        ]
+      },
+      "legacyId": "bulk-match-46805",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Torrie Wilson vs. Dawn Marie, Nidia, Sable",
+      "result": "Torrie Wilson defeated Dawn Marie, Nidia, Sable.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "torrie-wilson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dawn-marie",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "nidia",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sable",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Torrie Wilson",
+        "Dawn Marie",
+        "Nidia",
+        "Sable"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46806",
+          "160201"
+        ],
+        "sourceEventIds": [
+          "6915"
+        ]
+      },
+      "legacyId": "bulk-match-46806",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Rey Mysterio vs. Tajiri",
+      "result": "Rey Mysterio defeated Tajiri.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tajiri",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Tajiri"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46807",
+          "160202"
+        ],
+        "sourceEventIds": [
+          "6915"
+        ]
+      },
+      "legacyId": "bulk-match-46807",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6915"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6915"
+    ]
+  }
+}

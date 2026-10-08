@@ -12,7 +12,10 @@ Decided = Blimper's call. Default = proposed in the rebuild plan and standing un
 | Site framework | Dependency-free: Node's standard library only (TypeScript through Node's type stripping, built-in `node:sqlite` at build time), no npm packages | Decided |
 | Unconfirmed broadcasts | Held back and logged, never published or counted | Default |
 | Visual identity | Keep the dark theme (#080c11), cyan accent (#5ce4df) and the wordmark; turn them into design tokens | Default |
-| Data storage | JSON files in git, one per show (with its card) and one per person; SQLite only during the build | Default |
+| Data storage | JSON files in git, one per show (with its card), person, title, storyline and family; SQLite only during the build | Decided |
+| Identity: shared and renamed characters | El Grande Americano is a ring name of Chad Gable (to July 6, 2025) and Ludwig Kaiser (from July 7, 2025); `rayo-americano` → Pete Dunne, `bravo-americano` → Tyler Bate | Decided |
+| Identity: merged duplicates | Cruz Montana is Mike Santana ([POST Wrestling](https://www.postwrestling.com/2026/07/27/mike-santana-reveals-new-nxt-name-cruz-montana/)); EK Prosper is Eli Knight ([F4W](https://www.f4wonline.com/news/wwe-nxts-eli-knight-gets-new-in-ring-name)) | Decided |
+| Title lineages | Reign names map to one title per lineage (e.g. the 2002 WWE Tag Team → Raw Tag Team → World Tag Team lineage); see `migration/v69/review-queue.json` for the rules | Default |
 | Match pages | Matches live on show and wrestler pages; standalone pages only for notable matches | Default |
 | Search | Own compact name index; no search service | Default |
 | Growth | Promotion waves from the bulk dataset, plus full-career completion for featured wrestlers | Default |

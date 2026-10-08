@@ -1,0 +1,50 @@
+{
+  "id": "ric-flair",
+  "name": "Ric Flair",
+  "gender": "male",
+  "genderBasis": "legacy-placeholder",
+  "ringNames": [
+    {
+      "name": "Ric Flair",
+      "billed": {
+        "first": "1991-11-27",
+        "last": "2010-03-08"
+      }
+    }
+  ],
+  "promotions": [
+    "WWE"
+  ],
+  "summary": "Ric Flair is listed in WWE match records from 1991 to 2009. Explore available broadcast matches on the timeline.",
+  "rosters": [
+    {
+      "asOf": "2026-10-05",
+      "brands": [
+        "Raw",
+        "SmackDown",
+        "WWE"
+      ]
+    },
+    {
+      "asOf": "archive",
+      "brands": [
+        "Raw",
+        "SmackDown",
+        "WWE"
+      ]
+    }
+  ],
+  "partial": true,
+  "archiveFirst": "1991-10-03",
+  "archiveLast": "2009-06-01",
+  "sources": [
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
+  ],
+  "legacyIds": [
+    "archive-person-ricflair"
+  ],
+  "legacyFlags": {
+    "archiveOnly": true,
+    "archiveProfile": true
+  }
+}

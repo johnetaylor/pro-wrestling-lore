@@ -1,0 +1,223 @@
+{
+  "id": "wwe/raw/1998-01-12",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1998-01-12",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1998/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Kurrgan vs. Jimmy Cicero, Lance Diamond",
+      "result": "Kurrgan defeated Jimmy Cicero, Lance Diamond.",
+      "matchType": "Tag Team match",
+      "duration": 148,
+      "participants": [
+        {
+          "person": "kurrgan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jimmy-cicero",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "lance-diamond",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurrgan",
+        "Jimmy Cicero",
+        "Lance Diamond"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "29150",
+          "177894"
+        ],
+        "sourceEventIds": [
+          "4458"
+        ]
+      },
+      "legacyId": "bulk-match-29150",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Vader vs. Marc Mero",
+      "result": "Vader defeated Marc Mero by disqualification.",
+      "matchType": "Singles match",
+      "duration": 177,
+      "participants": [
+        {
+          "person": "vader",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "marc-mero",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Vader",
+        "Marc Mero"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "29151",
+          "177895"
+        ],
+        "sourceEventIds": [
+          "4458"
+        ]
+      },
+      "legacyId": "bulk-match-29151",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "4-person match",
+      "result": "Ken Shamrock, Mark Henry, D-Lo Brown, Rocky Maivia — no contest.",
+      "matchType": "4-person match",
+      "duration": 226,
+      "participants": [
+        {
+          "person": "ken-shamrock",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "d-lo-brown",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Ken Shamrock",
+        "Mark Henry",
+        "D-Lo Brown",
+        "Rocky Maivia"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "29152",
+          "177896"
+        ],
+        "sourceEventIds": [
+          "4458"
+        ]
+      },
+      "legacyId": "bulk-match-29152",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Mankind, The Artist Formerly Known As Goldust — no contest.",
+      "matchType": "Singles match",
+      "duration": 14,
+      "participants": [
+        {
+          "person": "mick-foley",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Mankind",
+        "The Artist Formerly Known As Goldust"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "29154",
+          "177898"
+        ],
+        "sourceEventIds": [
+          "4458"
+        ]
+      },
+      "legacyId": "bulk-match-29154",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4458"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4458"
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "id": "wwe/smackdown/2020-01-24",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2020-01-24",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2020-01-24"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "4-person match",
+      "result": "Alexa Bliss, Nikki Cross, Mandy Rose, Sonya Deville — no contest.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "nikki-cross",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "mandy-rose",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "sonya-deville",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Alexa Bliss",
+        "Nikki Cross",
+        "Mandy Rose",
+        "Sonya Deville"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-01-24"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85083",
+          "114169"
+        ],
+        "sourceEventIds": [
+          "13289"
+        ]
+      },
+      "legacyId": "bulk-match-85083",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Braun Strowman, Elias vs. Cesaro, Shinsuke Nakamura",
+      "result": "Braun Strowman, Elias defeated Cesaro, Shinsuke Nakamura.",
+      "matchType": "4-person match",
+      "duration": 531,
+      "participants": [
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "elias",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Braun Strowman",
+        "Elias",
+        "Cesaro",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-01-24"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85084",
+          "114170"
+        ],
+        "sourceEventIds": [
+          "13289"
+        ]
+      },
+      "legacyId": "bulk-match-85084",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "John Morrison vs. Kofi Kingston",
+      "result": "John Morrison defeated Kofi Kingston.",
+      "matchType": "Singles match",
+      "duration": 632,
+      "participants": [
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Morrison",
+        "Kofi Kingston"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-01-24"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85085",
+          "114171"
+        ],
+        "sourceEventIds": [
+          "13289"
+        ]
+      },
+      "legacyId": "bulk-match-85085",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13289"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13289"
+    ]
+  }
+}

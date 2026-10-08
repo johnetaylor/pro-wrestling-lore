@@ -1,0 +1,160 @@
+{
+  "id": "wwe/smackdown/2018-11-13",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-11-13",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-11-13"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Jeff Hardy vs. Andrade \"Cien\" Almas",
+      "result": "Jeff Hardy defeated Andrade \"Cien\" Almas.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Andrade \"Cien\" Almas"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-11-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81857",
+          "117588"
+        ],
+        "sourceEventIds": [
+          "12746"
+        ]
+      },
+      "legacyId": "bulk-match-81857",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Rey Mysterio vs. The Miz",
+      "result": "Rey Mysterio defeated The Miz.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "The Miz"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-11-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81858",
+          "117589"
+        ],
+        "sourceEventIds": [
+          "12746"
+        ]
+      },
+      "legacyId": "bulk-match-81858",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Daniel Bryan vs. A.J. Styles",
+      "result": "Daniel Bryan defeated A.J. Styles.",
+      "matchType": "Singles match",
+      "duration": 1219,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "A.J. Styles"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-11-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81860",
+          "117591"
+        ],
+        "sourceEventIds": [
+          "12746"
+        ]
+      },
+      "legacyId": "bulk-match-81860",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12746"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12746"
+    ]
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "id": "wwe/clash-at-the-castle/2024-06-15",
+  "promotion": "wwe",
+  "series": "wwe/clash-at-the-castle",
+  "name": "Clash at the Castle: Scotland 2024",
+  "date": "2024-06-15",
+  "category": "PLE",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "note": "Hugging Face import · official-results comparison. Unverified extra matches were excluded.",
+    "legacyCardStatus": "Imported card compared with official WWE results",
+    "legacySegmentStatus": "Partial; the match dataset does not contain a promo/appearance archive"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/clash-at-the-castle/2024/results"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Cody Rhodes vs. AJ Styles",
+      "result": "Cody Rhodes defeated AJ Styles.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "I Quit Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "AJ Styles"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/clash-at-the-castle/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/clash-at-the-castle/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "194",
+        "sourceMatchIds": [
+          "941",
+          "99269"
+        ],
+        "rawInputSha256": "d477d7f08c44718e720b8d63410d571948af677f6896058070379331b0b332e3",
+        "normalizedParticipants": [
+          {
+            "name": "Cody Rhodes",
+            "result": "win"
+          },
+          {
+            "name": "AJ Styles",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/clash-at-the-castle/2024/results"
+      },
+      "legacyId": "hf-match-941",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Alba Fyre & Isla Dawn vs. Bianca Belair, Jade Cargill, Shayna Baszler, Zoey Stark",
+      "result": "Alba Fyre & Isla Dawn defeated Bianca Belair, Jade Cargill, Shayna Baszler, Zoey Stark.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Triple Threat Tag Team Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "alba-fyre",
+          "role": "competitor"
+        },
+        {
+          "person": "isla-dawn",
+          "role": "competitor"
+        },
+        {
+          "person": "bianca-belair",
+          "role": "competitor"
+        },
+        {
+          "person": "jade-cargill",
+          "role": "competitor"
+        },
+        {
+          "person": "shayna-baszler",
+          "role": "competitor"
+        },
+        {
+          "person": "zoey-stark",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Alba Fyre",
+        "Isla Dawn",
+        "Bianca Belair",
+        "Jade Cargill",
+        "Shayna Baszler",
+        "Zoey Stark"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/clash-at-the-castle/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/clash-at-the-castle/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "194",
+        "sourceMatchIds": [
+          "942",
+          "99270"
+        ],
+        "rawInputSha256": "cddd9f94d7752a29e266761be90392a21d2942b150c68b2241f748af86ce08ec",
+        "normalizedParticipants": [
+          {
+            "name": "Alba Fyre",
+            "result": "win"
+          },
+          {
+            "name": "Isla Dawn",
+            "result": "win"
+          },
+          {
+            "name": "Bianca Belair",
+            "result": "loss"
+          },
+          {
+            "name": "Jade Cargill",
+            "result": "loss"
+          },
+          {
+            "name": "Shayna Baszler",
+            "result": "loss"
+          },
+          {
+            "name": "Zoey Stark",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/clash-at-the-castle/2024/results"
+      },
+      "legacyId": "hf-match-942",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Sami Zayn vs. Chad Gable",
+      "result": "Sami Zayn defeated Chad Gable.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "sami-zayn",
+          "role": "competitor"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Sami Zayn",
+        "Chad Gable"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/clash-at-the-castle/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/clash-at-the-castle/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "194",
+        "sourceMatchIds": [
+          "943",
+          "99271"
+        ],
+        "rawInputSha256": "469248e6a79f5035fde4073375c0ad28bfd8c896ec697919ad8eb42685b239a9",
+        "normalizedParticipants": [
+          {
+            "name": "Sami Zayn",
+            "result": "win"
+          },
+          {
+            "name": "Chad Gable",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/clash-at-the-castle/2024/results"
+      },
+      "legacyId": "hf-match-943",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Bayley vs. Piper Niven",
+      "result": "Bayley defeated Piper Niven.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor"
+        },
+        {
+          "person": "piper-niven",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Piper Niven"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/clash-at-the-castle/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/clash-at-the-castle/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "194",
+        "sourceMatchIds": [
+          "944",
+          "99272"
+        ],
+        "rawInputSha256": "48645d7064af2a7899b680e440302de8adb0ab57d93173103489d279ae3b139e",
+        "normalizedParticipants": [
+          {
+            "name": "Bayley",
+            "result": "win"
+          },
+          {
+            "name": "Piper Niven",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/clash-at-the-castle/2024/results"
+      },
+      "legacyId": "hf-match-944",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m5",
+      "type": "match",
+      "title": "Damian Priest vs. Drew McIntyre",
+      "result": "Damian Priest defeated Drew McIntyre.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "damian-priest",
+          "role": "competitor"
+        },
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Damian Priest",
+        "Drew McIntyre"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/clash-at-the-castle/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/clash-at-the-castle/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "194",
+        "sourceMatchIds": [
+          "945",
+          "99273"
+        ],
+        "rawInputSha256": "a46517b2ae022f70c7e3189302bbc5880cc48f5b37f7f8ce6e2703c986148f5c",
+        "normalizedParticipants": [
+          {
+            "name": "Damian Priest",
+            "result": "win"
+          },
+          {
+            "name": "Drew McIntyre",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/clash-at-the-castle/2024/results"
+      },
+      "legacyId": "hf-match-945",
+      "legacy": {
+        "kind": "title"
+      }
+    }
+  ],
+  "legacyIds": [
+    "hf-event-194"
+  ],
+  "legacy": {
+    "showFamily": "clash-at-the-castle-scotland",
+    "importBatch": "ringside-2024-ple"
+  }
+}

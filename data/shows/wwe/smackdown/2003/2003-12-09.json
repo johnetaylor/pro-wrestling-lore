@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2003-12-09",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2003-12-09",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2003/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rhyno vs. Bradshaw",
+      "result": "Rhyno defeated Bradshaw.",
+      "matchType": "Singles match",
+      "duration": 256,
+      "participants": [
+        {
+          "person": "rhyno",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rhyno",
+        "Bradshaw"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47240",
+          "159766"
+        ],
+        "sourceEventIds": [
+          "6991"
+        ]
+      },
+      "legacyId": "bulk-match-47240",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Shannon Moore vs. A-Train",
+      "result": "Shannon Moore defeated A-Train.",
+      "matchType": "Singles match",
+      "duration": 106,
+      "participants": [
+        {
+          "person": "shannon-moore",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tensai",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shannon Moore",
+        "A-Train"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47241",
+          "159767"
+        ],
+        "sourceEventIds": [
+          "6991"
+        ]
+      },
+      "legacyId": "bulk-match-47241",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Brock Lesnar vs. Rey Mysterio",
+      "result": "Brock Lesnar defeated Rey Mysterio.",
+      "matchType": "Singles match",
+      "duration": 881,
+      "participants": [
+        {
+          "person": "brock-lesnar",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Brock Lesnar",
+        "Rey Mysterio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47243",
+          "159769"
+        ],
+        "sourceEventIds": [
+          "6991"
+        ]
+      },
+      "legacyId": "bulk-match-47243",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6991"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6991"
+    ]
+  }
+}

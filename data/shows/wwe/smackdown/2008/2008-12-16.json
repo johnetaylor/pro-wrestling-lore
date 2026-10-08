@@ -1,0 +1,173 @@
+{
+  "id": "wwe/smackdown/2008-12-16",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2008-12-16",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Hurricane Helms, R-Truth vs. Montel Vontavious Porter, Shelton Benjamin",
+      "result": "Hurricane Helms, R-Truth defeated Montel Vontavious Porter, Shelton Benjamin.",
+      "matchType": "4-person match",
+      "duration": 341,
+      "participants": [
+        {
+          "person": "the-hurricane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "montel-vontavious-porter",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hurricane Helms",
+        "R-Truth",
+        "Montel Vontavious Porter",
+        "Shelton Benjamin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53881",
+          "151503"
+        ],
+        "sourceEventIds": [
+          "8222"
+        ]
+      },
+      "legacyId": "bulk-match-53881",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "John Morrison vs. Festus",
+      "result": "John Morrison defeated Festus.",
+      "matchType": "Singles match",
+      "duration": 162,
+      "participants": [
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "festus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Morrison",
+        "Festus"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53882",
+          "151504"
+        ],
+        "sourceEventIds": [
+          "8222"
+        ]
+      },
+      "legacyId": "bulk-match-53882",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Jeff Hardy vs. Vladimir Kozlov",
+      "result": "Jeff Hardy defeated Vladimir Kozlov by disqualification.",
+      "matchType": "Singles match",
+      "duration": 585,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "vladimir-kozlov",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Vladimir Kozlov"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53886",
+          "151508"
+        ],
+        "sourceEventIds": [
+          "8222"
+        ]
+      },
+      "legacyId": "bulk-match-53886",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8222"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8222"
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "id": "wwe/smackdown/2023-07-14",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2023-07-14",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2023-07-14"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Elton Prince, Kit Wilson vs. Ridge Holland, Sheamus",
+      "result": "Elton Prince, Kit Wilson defeated Ridge Holland, Sheamus.",
+      "matchType": "4-person match",
+      "duration": 627,
+      "participants": [
+        {
+          "person": "elton-prince",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kit-wilson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ridge-holland",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Elton Prince",
+        "Kit Wilson",
+        "Ridge Holland",
+        "Sheamus"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-07-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "4425",
+          "92071",
+          "102753"
+        ],
+        "sourceEventIds": [
+          "811"
+        ]
+      },
+      "legacyId": "bulk-match-4425",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Bayley vs. Zelina Vega",
+      "result": "Bayley defeated Zelina Vega.",
+      "matchType": "Singles match",
+      "duration": 122,
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "zelina-vega",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Zelina Vega"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-07-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "4426",
+          "92072",
+          "102754"
+        ],
+        "sourceEventIds": [
+          "811"
+        ]
+      },
+      "legacyId": "bulk-match-4426",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Santos Escobar vs. A.J. Styles, Butch, Grayson Waller",
+      "result": "Santos Escobar defeated A.J. Styles, Butch, Grayson Waller.",
+      "matchType": "Fatal Four Way match",
+      "duration": 755,
+      "participants": [
+        {
+          "person": "santos-escobar",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "pete-dunne",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "grayson-waller",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Santos Escobar",
+        "A.J. Styles",
+        "Butch",
+        "Grayson Waller"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-07-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "4427",
+          "92073",
+          "102755"
+        ],
+        "sourceEventIds": [
+          "811"
+        ]
+      },
+      "legacyId": "bulk-match-4427",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Bianca Belair vs. Asuka",
+      "result": "Bianca Belair defeated Asuka by disqualification.",
+      "matchType": "Singles match",
+      "duration": 541,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "asuka",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Bianca Belair",
+        "Asuka"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-07-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "4428",
+          "92074",
+          "102756"
+        ],
+        "sourceEventIds": [
+          "811"
+        ]
+      },
+      "legacyId": "bulk-match-4428",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-811"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "811"
+    ]
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "id": "wwe/smackdown/2021-07-16",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2021-07-16",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2021-07-16"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Nox, Shotzi vs. Natalya, Tamina",
+      "result": "Nox, Shotzi defeated Natalya, Tamina.",
+      "matchType": "4-person match",
+      "duration": 203,
+      "participants": [
+        {
+          "person": "nox",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shotzi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tamina",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Nox",
+        "Shotzi",
+        "Natalya",
+        "Tamina"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-07-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87260",
+          "110390"
+        ],
+        "sourceEventIds": [
+          "13719"
+        ]
+      },
+      "legacyId": "bulk-match-87260",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Bianca Belair vs. Carmella",
+      "result": "Bianca Belair defeated Carmella.",
+      "matchType": "Singles match",
+      "duration": 664,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bianca Belair",
+        "Carmella"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-07-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87261",
+          "110391"
+        ],
+        "sourceEventIds": [
+          "13719"
+        ]
+      },
+      "legacyId": "bulk-match-87261",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Cesaro vs. Otis",
+      "result": "Cesaro defeated Otis by disqualification.",
+      "matchType": "Singles match",
+      "duration": 67,
+      "participants": [
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "otis",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Cesaro",
+        "Otis"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-07-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87262",
+          "110392"
+        ],
+        "sourceEventIds": [
+          "13719"
+        ]
+      },
+      "legacyId": "bulk-match-87262",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Seth Rollins vs. Big E, Kevin Owens, King Nakamura",
+      "result": "Seth Rollins defeated Big E, Kevin Owens, King Nakamura.",
+      "matchType": "Other match",
+      "duration": 481,
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Seth Rollins",
+        "Big E",
+        "Kevin Owens",
+        "King Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-07-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87263",
+          "110393"
+        ],
+        "sourceEventIds": [
+          "13719"
+        ]
+      },
+      "legacyId": "bulk-match-87263",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 9,
+      "type": "match",
+      "title": "Big E vs. Seth Rollins",
+      "result": "Big E defeated Seth Rollins.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Big E",
+        "Seth Rollins"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-07-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87265",
+          "110395"
+        ],
+        "sourceEventIds": [
+          "13719"
+        ]
+      },
+      "legacyId": "bulk-match-87265",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13719"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13719"
+    ]
+  }
+}

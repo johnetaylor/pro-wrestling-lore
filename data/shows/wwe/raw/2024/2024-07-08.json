@@ -1,0 +1,221 @@
+{
+  "id": "wwe/raw/2024-07-08",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2024-07-08",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2024-07-08"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Jey Uso vs. Chad Gable",
+      "result": "Jey Uso defeated Chad Gable.",
+      "matchType": "Singles match",
+      "duration": 435,
+      "participants": [
+        {
+          "person": "jey-uso",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jey Uso",
+        "Chad Gable"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-07-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "709",
+          "94525",
+          "99037"
+        ],
+        "sourceEventIds": [
+          "146"
+        ]
+      },
+      "legacyId": "bulk-match-709",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Bronson Reed vs. Pete Dunne",
+      "result": "Bronson Reed defeated Pete Dunne.",
+      "matchType": "Singles match",
+      "duration": 437,
+      "participants": [
+        {
+          "person": "bronson-reed",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "pete-dunne",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bronson Reed",
+        "Pete Dunne"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-07-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "710",
+          "94526",
+          "99038"
+        ],
+        "sourceEventIds": [
+          "146"
+        ]
+      },
+      "legacyId": "bulk-match-710",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Ilja Dragunov vs. Bron Breakker",
+      "result": "Ilja Dragunov defeated Bron Breakker by disqualification.",
+      "matchType": "Singles match",
+      "duration": 629,
+      "participants": [
+        {
+          "person": "ilja-dragunov",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bron-breakker",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Ilja Dragunov",
+        "Bron Breakker"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-07-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "712",
+          "94528",
+          "99040"
+        ],
+        "sourceEventIds": [
+          "146"
+        ]
+      },
+      "legacyId": "bulk-match-712",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Dominik Mysterio, Liv Morgan vs. Rey Mysterio, Zelina Vega",
+      "result": "Dominik Mysterio, Liv Morgan defeated Rey Mysterio, Zelina Vega.",
+      "matchType": "4-person match",
+      "duration": 773,
+      "participants": [
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "zelina-vega",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dominik Mysterio",
+        "Liv Morgan",
+        "Rey Mysterio",
+        "Zelina Vega"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-07-08"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "714",
+          "94530",
+          "99042"
+        ],
+        "sourceEventIds": [
+          "146"
+        ]
+      },
+      "legacyId": "bulk-match-714",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-146"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "146"
+    ]
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "id": "wwe/smackdown/2003-09-23",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2003-09-23",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2003/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Chavo Guerrero, Eddie Guerrero vs. Matt Hardy, Shannon Moore",
+      "result": "Chavo Guerrero, Eddie Guerrero defeated Matt Hardy, Shannon Moore.",
+      "matchType": "4-person match",
+      "duration": 322,
+      "participants": [
+        {
+          "person": "chavo-guerrero",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shannon-moore",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chavo Guerrero",
+        "Eddie Guerrero",
+        "Matt Hardy",
+        "Shannon Moore"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46907",
+          "160096"
+        ],
+        "sourceEventIds": [
+          "6933"
+        ]
+      },
+      "legacyId": "bulk-match-46907",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Tajiri vs. Rey Mysterio",
+      "result": "Tajiri defeated Rey Mysterio.",
+      "matchType": "Singles match",
+      "duration": 692,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "tajiri",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tajiri",
+        "Rey Mysterio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46908",
+          "160097"
+        ],
+        "sourceEventIds": [
+          "6933"
+        ]
+      },
+      "legacyId": "bulk-match-46908",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "The Big Show vs. Arch Kincaid, John Walters",
+      "result": "The Big Show defeated Arch Kincaid, John Walters.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "arch-kincaid",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "john-walters",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "Arch Kincaid",
+        "John Walters"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46910",
+          "160099"
+        ],
+        "sourceEventIds": [
+          "6933"
+        ]
+      },
+      "legacyId": "bulk-match-46910",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Eddie Guerrero vs. Charlie Haas",
+      "result": "Eddie Guerrero defeated Charlie Haas.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlie-haas",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Eddie Guerrero",
+        "Charlie Haas"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46911",
+          "160100"
+        ],
+        "sourceEventIds": [
+          "6933"
+        ]
+      },
+      "legacyId": "bulk-match-46911",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6933"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6933"
+    ]
+  }
+}

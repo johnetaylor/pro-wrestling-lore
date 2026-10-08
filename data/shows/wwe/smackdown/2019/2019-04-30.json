@@ -1,0 +1,176 @@
+{
+  "id": "wwe/smackdown/2019-04-30",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2019-04-30",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2019-04-30"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Becky Lynch vs. Bayley",
+      "result": "Becky Lynch defeated Bayley.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Bayley"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-04-30"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83045",
+          "116403"
+        ],
+        "sourceEventIds": [
+          "12957"
+        ]
+      },
+      "legacyId": "bulk-match-83045",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Roman Reigns vs. Bo Dallas, Curtis Axel",
+      "result": "Roman Reigns defeated Bo Dallas, Curtis Axel.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "uncle-howdy",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "curtis-axel",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Bo Dallas",
+        "Curtis Axel"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-04-30"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83047",
+          "116405"
+        ],
+        "sourceEventIds": [
+          "12957"
+        ]
+      },
+      "legacyId": "bulk-match-83047",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Ali, Finn Bálor vs. Andrade, Randy Orton",
+      "result": "Ali, Finn Bálor defeated Andrade, Randy Orton.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "mustafa-ali",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ali",
+        "Finn Bálor",
+        "Andrade",
+        "Randy Orton"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-04-30"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83048",
+          "116406"
+        ],
+        "sourceEventIds": [
+          "12957"
+        ]
+      },
+      "legacyId": "bulk-match-83048",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12957"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12957"
+    ]
+  }
+}

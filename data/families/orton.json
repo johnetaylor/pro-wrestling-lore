@@ -1,0 +1,89 @@
+{
+  "id": "orton",
+  "name": "Orton",
+  "description": "Three generations, from Bob Orton Sr. through Cowboy Bob to Randy.",
+  "branches": [
+    {
+      "id": "orton",
+      "name": "The Orton family"
+    }
+  ],
+  "members": [
+    {
+      "id": "bob-sr",
+      "name": "Bob Orton Sr.",
+      "branch": "orton",
+      "source": "families",
+      "layout": {
+        "x": 16,
+        "y": 24
+      }
+    },
+    {
+      "id": "bob-jr",
+      "name": "“Cowboy” Bob Orton",
+      "person": "bob-orton-jr",
+      "branch": "orton",
+      "source": "families",
+      "layout": {
+        "x": 16,
+        "y": 164
+      }
+    },
+    {
+      "id": "randy-orton",
+      "name": "Randy Orton",
+      "person": "randy-orton",
+      "branch": "orton",
+      "source": "families",
+      "layout": {
+        "x": 16,
+        "y": 304
+      }
+    },
+    {
+      "id": "barry-orton",
+      "name": "Barry O / Barry Orton",
+      "branch": "orton",
+      "aliases": [
+        "Barry O",
+        "Barry Orton"
+      ],
+      "source": "barry-orton",
+      "layout": {
+        "x": 196,
+        "y": 164
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "bob-sr",
+      "b": "bob-jr",
+      "type": "parent",
+      "source": "families"
+    },
+    {
+      "a": "bob-jr",
+      "b": "randy-orton",
+      "type": "parent",
+      "source": "families"
+    },
+    {
+      "a": "bob-sr",
+      "b": "barry-orton",
+      "type": "parent",
+      "source": "barry-orton"
+    }
+  ],
+  "sources": {
+    "families": {
+      "label": "WWE: wrestling families",
+      "url": "https://www.wwe.com/classics/classic-lists/greatest-families-in-wwe-history"
+    },
+    "barry-orton": {
+      "label": "Barry Orton’s family",
+      "url": "https://en.wikipedia.org/wiki/Barry_Orton"
+    }
+  }
+}

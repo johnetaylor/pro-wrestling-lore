@@ -1,0 +1,128 @@
+{
+  "id": "wwe/smackdown/2000-09-12",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2000-09-12",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Albert, Test vs. Kurt Angle, Triple H",
+      "result": "Albert, Test defeated Kurt Angle, Triple H.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "tensai",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Albert",
+        "Test",
+        "Kurt Angle",
+        "Triple H"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40322",
+          "166694"
+        ],
+        "sourceEventIds": [
+          "5964"
+        ]
+      },
+      "legacyId": "bulk-match-40322",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Steve Blackman vs. Perry Saturn",
+      "result": "Steve Blackman defeated Perry Saturn.",
+      "matchType": "Other match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "steve-blackman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "perry-saturn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Steve Blackman",
+        "Perry Saturn"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40323",
+          "166695"
+        ],
+        "sourceEventIds": [
+          "5964"
+        ]
+      },
+      "legacyId": "bulk-match-40323",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5964"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5964"
+    ]
+  }
+}

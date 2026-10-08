@@ -1,0 +1,411 @@
+{
+  "id": "wwe/raw/2025-01-06",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2025-01-06",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "legacyCardStatus": "Card compared with official recap",
+    "legacySegmentStatus": "Recap reviewed; appearance coverage remains partial"
+  },
+  "sources": [
+    "https://www.thesmackdownhotel.com/events-results/wwe/raw-2025",
+    "https://www.wwe.com/shows/raw/2025-01-06"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Roman Reigns vs. Solo Sikoa",
+      "result": "Roman Reigns defeats Solo Sikoa",
+      "context": "Both Bloodline factions intervened. Owens attacked Reigns; Rhodes fought Owens. Reigns defeated Sikoa and regained the Ula Fala.",
+      "matchType": "\"Winner gets the Ula Fala and the recognition as Tribal Chief of the Anoa'i family\" Tribal Combat",
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor"
+        },
+        {
+          "person": "solo-sikoa",
+          "role": "competitor"
+        },
+        {
+          "person": "tama-tonga",
+          "role": "involved"
+        },
+        {
+          "person": "jacob-fatu",
+          "role": "involved"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "involved"
+        },
+        {
+          "person": "jimmy-uso",
+          "role": "involved"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "involved"
+        },
+        {
+          "person": "cody-rhodes",
+          "role": "involved"
+        }
+      ],
+      "rating": {
+        "sources": [
+          {
+            "provider": "cagematch",
+            "value": 5.89,
+            "unit": "points",
+            "url": "https://www.cagematch.net/?id=1&nr=404035",
+            "checked": "2026-10-05",
+            "votes": 485
+          },
+          {
+            "provider": "observer",
+            "value": 4.25,
+            "unit": "stars",
+            "url": "https://www.cagematch.net/?id=1&nr=404035",
+            "checked": "2026-10-05"
+          }
+        ],
+        "matchCheck": {
+          "method": "date + exact indexed participant set",
+          "sourceFixture": "Roman Reigns (w/Paul Heyman) defeats Solo Sikoa (21:30)",
+          "eventUrl": "https://www.cagematch.net/?id=1&nr=404035"
+        }
+      },
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/raw/2025-01-06",
+        "evidence": "WWE recap: Tribal Combat interference and finish",
+        "fields": [
+          "involved",
+          "context"
+        ]
+      },
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/raw-2025",
+        "https://www.wwe.com/shows/raw/2025-01-06"
+      ],
+      "legacyId": "2025-01-06-raw-match-1",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Rhea Ripley vs. Liv Morgan",
+      "result": "Rhea Ripley defeats Liv Morgan (c) to win the title",
+      "context": "Dominik tried to assist Morgan with the championship belt; Ripley won the title.",
+      "matchType": "Women's World Championship",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "liv-morgan",
+          "role": "competitor"
+        },
+        {
+          "person": "rhea-ripley",
+          "role": "competitor"
+        },
+        {
+          "person": "dominik-mysterio",
+          "role": "involved"
+        }
+      ],
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/raw/2025-01-06",
+        "evidence": "WWE recap: Women's World Championship finish",
+        "fields": [
+          "involved",
+          "context"
+        ]
+      },
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/raw-2025",
+        "https://www.wwe.com/shows/raw/2025-01-06"
+      ],
+      "legacyId": "2025-01-06-raw-match-2",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Jey Uso vs. Drew McIntyre",
+      "result": "Jey Uso defeats Drew McIntyre",
+      "context": "Televised match. Open the linked show recap for the finish and surrounding story.",
+      "matchType": "Match",
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor"
+        },
+        {
+          "person": "jey-uso",
+          "role": "competitor"
+        }
+      ],
+      "rating": {
+        "sources": [
+          {
+            "provider": "cagematch",
+            "value": 3.85,
+            "unit": "points",
+            "url": "https://www.cagematch.net/?id=1&nr=404035",
+            "checked": "2026-10-05",
+            "votes": 392
+          }
+        ],
+        "matchCheck": {
+          "method": "date + exact indexed participant set",
+          "sourceFixture": "Jey Uso defeats Drew McIntyre (10:20)",
+          "eventUrl": "https://www.cagematch.net/?id=1&nr=404035"
+        }
+      },
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/raw/2025-01-06",
+        "scope": "Listed competitors and result; not every field or full broadcast"
+      },
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/raw-2025",
+        "https://www.wwe.com/shows/raw/2025-01-06"
+      ],
+      "legacyId": "2025-01-06-raw-match-3",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "CM Punk vs. Seth Rollins",
+      "result": "CM Punk defeats Seth Rollins",
+      "context": "Televised match. Open the linked show recap for the finish and surrounding story.",
+      "matchType": "Match",
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor"
+        },
+        {
+          "person": "cm-punk",
+          "role": "competitor"
+        }
+      ],
+      "rating": {
+        "sources": [
+          {
+            "provider": "cagematch",
+            "value": 7.33,
+            "unit": "points",
+            "url": "https://www.cagematch.net/?id=1&nr=404035",
+            "checked": "2026-10-05",
+            "votes": 587
+          },
+          {
+            "provider": "observer",
+            "value": 4.25,
+            "unit": "stars",
+            "url": "https://www.cagematch.net/?id=1&nr=404035",
+            "checked": "2026-10-05"
+          }
+        ],
+        "matchCheck": {
+          "method": "date + exact indexed participant set",
+          "sourceFixture": "CM Punk defeats Seth Rollins (18:58)",
+          "eventUrl": "https://www.cagematch.net/?id=1&nr=404035"
+        }
+      },
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/raw/2025-01-06",
+        "scope": "Listed competitors and result; not every field or full broadcast"
+      },
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/raw-2025",
+        "https://www.wwe.com/shows/raw/2025-01-06"
+      ],
+      "legacyId": "2025-01-06-raw-match-4",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "s1",
+      "type": "promo",
+      "title": "Triple H opens Raw's first Netflix broadcast",
+      "result": "Triple H opens Raw's first Netflix broadcast.",
+      "context": "Selected televised promo, interview or verbal exchange. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/raw/2025-01-06"
+      ],
+      "legacyId": "2025-01-06-raw-segment-1",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s2",
+      "type": "promo",
+      "title": "The Rock speaks with Cody Rhodes ahead of the Tribal Combat bout",
+      "result": "The Rock speaks with Cody Rhodes ahead of the Tribal Combat bout.",
+      "context": "Selected televised promo, interview or verbal exchange. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/raw/2025-01-06"
+      ],
+      "legacyId": "2025-01-06-raw-segment-2",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s3",
+      "type": "promo",
+      "title": "John Cena announces his entry in the Royal Rumble",
+      "result": "John Cena announces his entry in the Royal Rumble.",
+      "context": "Selected televised promo, interview or verbal exchange. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/raw/2025-01-06"
+      ],
+      "legacyId": "2025-01-06-raw-segment-3",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s4",
+      "type": "appearance",
+      "title": "The Rock presents the Ula Fala to Roman Reigns",
+      "result": "The Rock presents the Ula Fala to Roman Reigns.",
+      "context": "Added from the official episode recap. Full-broadcast appearance coverage remains incomplete.",
+      "participants": [
+        {
+          "person": "the-rock",
+          "role": "competitor"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor"
+        }
+      ],
+      "verification": {
+        "status": "recap-supported",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/raw/2025-01-06",
+        "evidence": "WWE recap: after Tribal Combat"
+      },
+      "evidence": "WWE recap: after Tribal Combat",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2025-01-06"
+      ],
+      "legacyId": "2025-01-06-raw-audit-ula-fala",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s5",
+      "type": "appearance",
+      "title": "Ripley rejects Dominik after her title victory",
+      "result": "Ripley rejects Dominik after her title victory.",
+      "context": "Added from the official episode recap. Full-broadcast appearance coverage remains incomplete.",
+      "participants": [
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor"
+        }
+      ],
+      "verification": {
+        "status": "recap-supported",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/raw/2025-01-06",
+        "evidence": "WWE recap: Ripley attacks Dominik after the match"
+      },
+      "evidence": "WWE recap: Ripley attacks Dominik after the match",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2025-01-06"
+      ],
+      "legacyId": "2025-01-06-raw-audit-ripley-dominik",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s6",
+      "type": "appearance",
+      "title": "The Undertaker joins Ripley's celebration",
+      "result": "The Undertaker joins Ripley's celebration.",
+      "context": "Added from the official episode recap. Full-broadcast appearance coverage remains incomplete.",
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor"
+        }
+      ],
+      "verification": {
+        "status": "recap-supported",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/raw/2025-01-06",
+        "evidence": "WWE recap: Ripley's post-match celebration"
+      },
+      "evidence": "WWE recap: Ripley's post-match celebration",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2025-01-06"
+      ],
+      "legacyId": "2025-01-06-raw-audit-undertaker",
+      "legacy": {
+        "kind": "story"
+      }
+    }
+  ],
+  "legacyIds": [
+    "2025-01-06-raw"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "audit": {
+      "batch": "january-2025-recap-audit",
+      "checked": "2026-10-06",
+      "source": "https://www.wwe.com/shows/raw/2025-01-06",
+      "method": "Manual source comparison with deterministic validation; not a full broadcast viewing"
+    }
+  }
+}

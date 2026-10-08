@@ -1,0 +1,229 @@
+{
+  "id": "wwe/raw/2007-10-01",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2007-10-01",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Brian Kendrick, Jeff Hardy, Paul London vs. Lance Cade, Shelton Benjamin, Trevor Murdoch",
+      "result": "Brian Kendrick, Jeff Hardy, Paul London defeated Lance Cade, Shelton Benjamin, Trevor Murdoch.",
+      "matchType": "Tag Team match",
+      "duration": 200,
+      "participants": [
+        {
+          "person": "brian-kendrick",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "paul-london",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "lance-cade",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "trevor-murdoch",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Brian Kendrick",
+        "Jeff Hardy",
+        "Paul London",
+        "Lance Cade",
+        "Shelton Benjamin",
+        "Trevor Murdoch"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52335",
+          "153538"
+        ],
+        "sourceEventIds": [
+          "7957"
+        ]
+      },
+      "legacyId": "bulk-match-52335",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Hardcore Holly vs. Cody Rhodes",
+      "result": "Hardcore Holly defeated Cody Rhodes.",
+      "matchType": "Singles match",
+      "duration": 115,
+      "participants": [
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hardcore Holly",
+        "Cody Rhodes"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52336",
+          "153539"
+        ],
+        "sourceEventIds": [
+          "7957"
+        ]
+      },
+      "legacyId": "bulk-match-52336",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Mr. McMahon vs. Triple H",
+      "result": "Mr. McMahon defeated Triple H by disqualification.",
+      "matchType": "Singles match",
+      "duration": 166,
+      "participants": [
+        {
+          "person": "vince-mcmahon",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Mr. McMahon",
+        "Triple H"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52337",
+          "153540"
+        ],
+        "sourceEventIds": [
+          "7957"
+        ]
+      },
+      "legacyId": "bulk-match-52337",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Mickie James vs. Melina",
+      "result": "Mickie James defeated Melina.",
+      "matchType": "Singles match",
+      "duration": 172,
+      "participants": [
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "melina",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mickie James",
+        "Melina"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "52338",
+          "153541"
+        ],
+        "sourceEventIds": [
+          "7957"
+        ]
+      },
+      "legacyId": "bulk-match-52338",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7957"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7957"
+    ]
+  }
+}

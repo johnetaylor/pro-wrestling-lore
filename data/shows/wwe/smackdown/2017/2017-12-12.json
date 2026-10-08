@@ -1,0 +1,217 @@
+{
+  "id": "wwe/smackdown/2017-12-12",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-12-12",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-12-12"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Charlotte vs. Ruby Riott",
+      "result": "Charlotte defeated Ruby Riott by disqualification.",
+      "matchType": "Singles match",
+      "duration": 303,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ruby-riott",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Charlotte",
+        "Ruby Riott"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-12-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79307",
+          "120163"
+        ],
+        "sourceEventIds": [
+          "12304"
+        ]
+      },
+      "legacyId": "bulk-match-79307",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Dolph Ziggler vs. Baron Corbin",
+      "result": "Dolph Ziggler defeated Baron Corbin by disqualification.",
+      "matchType": "Singles match",
+      "duration": 97,
+      "participants": [
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Dolph Ziggler",
+        "Baron Corbin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-12-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79308",
+          "120164"
+        ],
+        "sourceEventIds": [
+          "12304"
+        ]
+      },
+      "legacyId": "bulk-match-79308",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Harper, Rowan vs. Colin Delaney, Joe Monroe",
+      "result": "Harper, Rowan defeated Colin Delaney, Joe Monroe.",
+      "matchType": "4-person match",
+      "duration": 45,
+      "participants": [
+        {
+          "person": "harper",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "erick-rowan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "colin-delaney",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "joe-monroe",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Harper",
+        "Rowan",
+        "Colin Delaney",
+        "Joe Monroe"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-12-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79309",
+          "120165"
+        ],
+        "sourceEventIds": [
+          "12304"
+        ]
+      },
+      "legacyId": "bulk-match-79309",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Kevin Owens vs. Shinsuke Nakamura",
+      "result": "Kevin Owens defeated Shinsuke Nakamura.",
+      "matchType": "Singles match",
+      "duration": 865,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-12-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79311",
+          "120167"
+        ],
+        "sourceEventIds": [
+          "12304"
+        ]
+      },
+      "legacyId": "bulk-match-79311",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12304"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12304"
+    ]
+  }
+}

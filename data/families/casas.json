@@ -1,0 +1,100 @@
+{
+  "id": "casas",
+  "name": "Casas",
+  "description": "Pepe Casas’s sons Negro Casas, El Felino and Heavy Metal, with El Felino’s son Puma King.",
+  "branches": [
+    {
+      "id": "casas",
+      "name": "The Casas family"
+    }
+  ],
+  "members": [
+    {
+      "id": "pepe-casas",
+      "name": "Pepe “Tropi” Casas",
+      "branch": "casas",
+      "aliases": [
+        "Pepe Casas"
+      ],
+      "source": "casas",
+      "layout": {
+        "x": 196,
+        "y": 24
+      }
+    },
+    {
+      "id": "negro-casas",
+      "name": "Negro Casas",
+      "person": "negro-casas",
+      "branch": "casas",
+      "source": "casas",
+      "layout": {
+        "x": 16,
+        "y": 164
+      }
+    },
+    {
+      "id": "el-felino",
+      "name": "El Felino",
+      "branch": "casas",
+      "source": "casas",
+      "layout": {
+        "x": 196,
+        "y": 164
+      }
+    },
+    {
+      "id": "heavy-metal",
+      "name": "Heavy Metal",
+      "person": "heavy-metal",
+      "branch": "casas",
+      "source": "casas",
+      "layout": {
+        "x": 376,
+        "y": 164
+      }
+    },
+    {
+      "id": "puma-king",
+      "name": "Puma King",
+      "branch": "casas",
+      "source": "casas",
+      "layout": {
+        "x": 196,
+        "y": 304
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "pepe-casas",
+      "b": "negro-casas",
+      "type": "parent",
+      "source": "casas"
+    },
+    {
+      "a": "pepe-casas",
+      "b": "el-felino",
+      "type": "parent",
+      "source": "casas"
+    },
+    {
+      "a": "pepe-casas",
+      "b": "heavy-metal",
+      "type": "parent",
+      "source": "casas"
+    },
+    {
+      "a": "el-felino",
+      "b": "puma-king",
+      "type": "parent",
+      "source": "casas"
+    }
+  ],
+  "sources": {
+    "casas": {
+      "label": "Casas wrestling family genealogy",
+      "url": "https://en.wikipedia.org/wiki/Casas_wrestling_family"
+    }
+  }
+}

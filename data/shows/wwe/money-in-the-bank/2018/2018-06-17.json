@@ -1,0 +1,118 @@
+{
+  "id": "wwe/money-in-the-bank/2018-06-17",
+  "promotion": "wwe",
+  "series": "wwe/money-in-the-bank",
+  "name": "Money in the Bank ‘18",
+  "date": "2018-06-17",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/moneyinthebank/2018"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 6,
+      "type": "match",
+      "title": "Roman Reigns vs. Jinder Mahal",
+      "result": "Roman Reigns defeated Jinder Mahal.",
+      "matchType": "Singles match",
+      "duration": 939,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Jinder Mahal"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/moneyinthebank/2018"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80772",
+          "118707"
+        ],
+        "sourceEventIds": [
+          "12555"
+        ]
+      },
+      "legacyId": "bulk-match-80772",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 8,
+      "type": "match",
+      "title": "A.J. Styles vs. Shinsuke Nakamura",
+      "result": "A.J. Styles defeated Shinsuke Nakamura.",
+      "matchType": "Singles match",
+      "duration": 1862,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/moneyinthebank/2018"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80774",
+          "118709"
+        ],
+        "sourceEventIds": [
+          "12555"
+        ]
+      },
+      "legacyId": "bulk-match-80774",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12555"
+  ],
+  "legacy": {
+    "showFamily": "money-in-the-bank-18",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12555"
+    ]
+  }
+}

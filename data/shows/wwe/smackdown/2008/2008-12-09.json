@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2008-12-09",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2008-12-09",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2008/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "R-Truth vs. Montel Vontavious Porter",
+      "result": "R-Truth defeated Montel Vontavious Porter.",
+      "matchType": "Singles match",
+      "duration": 224,
+      "participants": [
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "montel-vontavious-porter",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "R-Truth",
+        "Montel Vontavious Porter"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53859",
+          "151535"
+        ],
+        "sourceEventIds": [
+          "8218"
+        ]
+      },
+      "legacyId": "bulk-match-53859",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Hurricane Helms vs. Shelton Benjamin",
+      "result": "Hurricane Helms defeated Shelton Benjamin.",
+      "matchType": "Singles match",
+      "duration": 288,
+      "participants": [
+        {
+          "person": "the-hurricane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hurricane Helms",
+        "Shelton Benjamin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53861",
+          "151537"
+        ],
+        "sourceEventIds": [
+          "8218"
+        ]
+      },
+      "legacyId": "bulk-match-53861",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Triple H, Jeff Hardy — no contest.",
+      "matchType": "Singles match",
+      "duration": 1009,
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "Jeff Hardy"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "53864",
+          "151540"
+        ],
+        "sourceEventIds": [
+          "8218"
+        ]
+      },
+      "legacyId": "bulk-match-53864",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8218"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8218"
+    ]
+  }
+}

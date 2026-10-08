@@ -1,0 +1,161 @@
+{
+  "id": "wwe/raw/1997-05-05",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1997-05-05",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1997/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rockabilly vs. Ahmed Johnson",
+      "result": "Rockabilly defeated Ahmed Johnson by disqualification.",
+      "matchType": "Singles match",
+      "duration": 237,
+      "participants": [
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ahmed-johnson",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Rockabilly",
+        "Ahmed Johnson"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27084",
+          "179954"
+        ],
+        "sourceEventIds": [
+          "4195"
+        ]
+      },
+      "legacyId": "bulk-match-27084",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Vader vs. Goldust",
+      "result": "Vader defeated Goldust.",
+      "matchType": "Singles match",
+      "duration": 502,
+      "participants": [
+        {
+          "person": "vader",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Vader",
+        "Goldust"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27085",
+          "179955"
+        ],
+        "sourceEventIds": [
+          "4195"
+        ]
+      },
+      "legacyId": "bulk-match-27085",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Ahmed Johnson vs. Crush",
+      "result": "Ahmed Johnson defeated Crush.",
+      "matchType": "Gauntlet match",
+      "duration": 10,
+      "participants": [
+        {
+          "person": "ahmed-johnson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "crush",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ahmed Johnson",
+        "Crush"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27088",
+          "179958"
+        ],
+        "sourceEventIds": [
+          "4195"
+        ]
+      },
+      "legacyId": "bulk-match-27088",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4195"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4195"
+    ]
+  }
+}

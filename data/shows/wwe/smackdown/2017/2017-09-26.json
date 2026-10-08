@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2017-09-26",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-09-26",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-09-26"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Baron Corbin vs. Tye Dillinger",
+      "result": "Baron Corbin defeated Tye Dillinger by count-out.",
+      "matchType": "Singles match",
+      "duration": 358,
+      "participants": [
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shawn-spears",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Baron Corbin",
+        "Tye Dillinger"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-09-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78698",
+          "120772"
+        ],
+        "sourceEventIds": [
+          "12199"
+        ]
+      },
+      "legacyId": "bulk-match-78698",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Charlotte Flair vs. Carmella",
+      "result": "Charlotte Flair defeated Carmella.",
+      "matchType": "Singles match",
+      "duration": 419,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Carmella"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-09-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78700",
+          "120774"
+        ],
+        "sourceEventIds": [
+          "12199"
+        ]
+      },
+      "legacyId": "bulk-match-78700",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Kevin Owens vs. Sami Zayn",
+      "result": "Kevin Owens defeated Sami Zayn.",
+      "matchType": "Singles match",
+      "duration": 547,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Sami Zayn"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-09-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78701",
+          "120775"
+        ],
+        "sourceEventIds": [
+          "12199"
+        ]
+      },
+      "legacyId": "bulk-match-78701",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12199"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12199"
+    ]
+  }
+}

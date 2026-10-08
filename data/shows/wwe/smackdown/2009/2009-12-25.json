@@ -1,0 +1,209 @@
+{
+  "id": "wwe/smackdown/2009-12-25",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2009-12-25",
+  "dateBasis": "aired",
+  "recordedDate": "2009-12-20",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2009/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Finlay, John Morrison, Matt Hardy, R-Truth vs. CM Punk, Dolph Ziggler, Drew McIntyre, Luke Gallows",
+      "result": "Finlay, John Morrison, Matt Hardy, R-Truth defeated CM Punk, Dolph Ziggler, Drew McIntyre, Luke Gallows.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "finlay",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cm-punk",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "luke-gallows",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Finlay",
+        "John Morrison",
+        "Matt Hardy",
+        "R-Truth",
+        "CM Punk",
+        "Dolph Ziggler",
+        "Drew McIntyre",
+        "Luke Gallows"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55175",
+          "149763"
+        ],
+        "sourceEventIds": [
+          "8500"
+        ]
+      },
+      "legacyId": "bulk-match-55175",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Singles match",
+      "result": "The Undertaker, Rey Mysterio — no contest.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "Rey Mysterio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55176",
+          "149764"
+        ],
+        "sourceEventIds": [
+          "8500"
+        ]
+      },
+      "legacyId": "bulk-match-55176",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Shawn Michaels, Triple H vs. David Hart Smith, Tyson Kidd",
+      "result": "Shawn Michaels, Triple H defeated David Hart Smith, Tyson Kidd.",
+      "matchType": "4-person match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "david-hart-smith",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tyson-kidd",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shawn Michaels",
+        "Triple H",
+        "David Hart Smith",
+        "Tyson Kidd"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55179",
+          "149767"
+        ],
+        "sourceEventIds": [
+          "8500"
+        ]
+      },
+      "legacyId": "bulk-match-55179",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8500"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8500"
+    ]
+  }
+}

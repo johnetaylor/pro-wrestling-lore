@@ -1,0 +1,205 @@
+{
+  "id": "wwe/smackdown/2021-05-07",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2021-05-07",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2021-05-07"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Cesaro vs. Seth Rollins",
+      "result": "Cesaro defeated Seth Rollins.",
+      "matchType": "Singles match",
+      "duration": 762,
+      "participants": [
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cesaro",
+        "Seth Rollins"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-05-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87010",
+          "110944"
+        ],
+        "sourceEventIds": [
+          "13666"
+        ]
+      },
+      "legacyId": "bulk-match-87010",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Carmella vs. Ruby Riott",
+      "result": "Carmella defeated Ruby Riott.",
+      "matchType": "Singles match",
+      "duration": 138,
+      "participants": [
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ruby-riott",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Carmella",
+        "Ruby Riott"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-05-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87011",
+          "110945"
+        ],
+        "sourceEventIds": [
+          "13666"
+        ]
+      },
+      "legacyId": "bulk-match-87011",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Dolph Ziggler vs. Dominik Mysterio",
+      "result": "Dolph Ziggler defeated Dominik Mysterio.",
+      "matchType": "Singles match",
+      "duration": 135,
+      "participants": [
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dolph Ziggler",
+        "Dominik Mysterio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-05-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87012",
+          "110946"
+        ],
+        "sourceEventIds": [
+          "13666"
+        ]
+      },
+      "legacyId": "bulk-match-87012",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Tamina vs. Reginald",
+      "result": "Tamina defeated Reginald by disqualification.",
+      "matchType": "Singles match",
+      "duration": 135,
+      "participants": [
+        {
+          "person": "tamina",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "reginald",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Tamina",
+        "Reginald"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-05-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87013",
+          "110947"
+        ],
+        "sourceEventIds": [
+          "13666"
+        ]
+      },
+      "legacyId": "bulk-match-87013",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13666"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13666"
+    ]
+  }
+}

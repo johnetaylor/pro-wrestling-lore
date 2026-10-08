@@ -1,0 +1,210 @@
+{
+  "id": "wwe/raw/2024-08-12",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2024-08-12",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2024-08-12"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Damian Priest vs. Carlito",
+      "result": "Damian Priest defeated Carlito.",
+      "matchType": "Singles match",
+      "duration": 559,
+      "participants": [
+        {
+          "person": "damian-priest",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Damian Priest",
+        "Carlito"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-08-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "362",
+          "94726",
+          "98690"
+        ],
+        "sourceEventIds": [
+          "70"
+        ]
+      },
+      "legacyId": "bulk-match-362",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Odyssey Jones vs. Vincent Winey",
+      "result": "Odyssey Jones defeated Vincent Winey.",
+      "matchType": "Singles match",
+      "duration": 95,
+      "participants": [
+        {
+          "person": "odyssey-jones",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "harlem-lewis",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Odyssey Jones",
+        "Vincent Winey"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-08-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "363",
+          "94727",
+          "98691"
+        ],
+        "sourceEventIds": [
+          "70"
+        ]
+      },
+      "legacyId": "bulk-match-363",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Bronson Reed vs. The Miz",
+      "result": "Bronson Reed defeated The Miz.",
+      "matchType": "Singles match",
+      "duration": 399,
+      "participants": [
+        {
+          "person": "bronson-reed",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bronson Reed",
+        "The Miz"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-08-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "366",
+          "94730",
+          "98694"
+        ],
+        "sourceEventIds": [
+          "70"
+        ]
+      },
+      "legacyId": "bulk-match-366",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Bron Breakker vs. Sami Zayn",
+      "result": "Bron Breakker defeated Sami Zayn.",
+      "matchType": "Other match",
+      "duration": 1053,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bron-breakker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bron Breakker",
+        "Sami Zayn"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-08-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "367",
+          "94731",
+          "98695"
+        ],
+        "sourceEventIds": [
+          "70"
+        ]
+      },
+      "legacyId": "bulk-match-367",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-70"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "70"
+    ]
+  }
+}

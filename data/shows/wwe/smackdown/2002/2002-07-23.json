@@ -1,0 +1,333 @@
+{
+  "id": "wwe/smackdown/2002-07-23",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2002-07-23",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2002/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Mark Henry vs. Kurt Angle",
+      "result": "Mark Henry defeated Kurt Angle by disqualification.",
+      "matchType": "Singles match",
+      "duration": 178,
+      "participants": [
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Mark Henry",
+        "Kurt Angle"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45024",
+          "161936"
+        ],
+        "sourceEventIds": [
+          "6615"
+        ]
+      },
+      "legacyId": "bulk-match-45024",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Rikishi vs. Albert",
+      "result": "Rikishi defeated Albert.",
+      "matchType": "Singles match",
+      "duration": 165,
+      "participants": [
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tensai",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rikishi",
+        "Albert"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45026",
+          "161938"
+        ],
+        "sourceEventIds": [
+          "6615"
+        ]
+      },
+      "legacyId": "bulk-match-45026",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Hulk Hogan, The Rock vs. Christian, Lance Storm",
+      "result": "Hulk Hogan & The Rock defeated Christian & Lance Storm by disqualification. Christian & Storm retained the World Tag Team Championship.",
+      "matchType": "World Tag Team Championship match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "lance-storm",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Hulk Hogan",
+        "The Rock",
+        "Christian",
+        "Lance Storm"
+      ],
+      "showCategory": "SmackDown",
+      "promotionLabel": "WWE",
+      "dateBasis": "broadcast",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-07",
+        "source": "https://thehistoryofwwe.com/wwe-results-2002/",
+        "scope": "Added the missing disqualification finish; the champions retained. Broadcast July 25, taped July 23."
+      },
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45027",
+          "161939"
+        ],
+        "sourceEventIds": [
+          "6615"
+        ]
+      },
+      "legacyId": "bulk-match-45027",
+      "legacy": {
+        "date": "2002-07-25",
+        "kind": "title",
+        "hoganReview": {
+          "id": "bulk-match-45027",
+          "source": "https://thehistoryofwwe.com/wwe-results-2002/",
+          "date": "2002-07-25",
+          "reviewed": "2026-10-07",
+          "note": "Added the missing disqualification finish; the champions retained. Broadcast July 25, taped July 23.",
+          "recordedDate": "2002-07-23",
+          "result": "Hulk Hogan & The Rock defeated Christian & Lance Storm by disqualification. Christian & Storm retained the World Tag Team Championship.",
+          "kind": "title",
+          "matchType": "World Tag Team Championship match",
+          "omitUnreviewedDuration": true,
+          "outcomes": [
+            "win",
+            "win",
+            "dq",
+            "dq"
+          ]
+        },
+        "workbookReference": "HM-0263",
+        "recordedDate": "2002-07-23",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Rey Mysterio vs. Chavo Guerrero",
+      "result": "Rey Mysterio defeated Chavo Guerrero.",
+      "matchType": "Singles match",
+      "duration": 352,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chavo-guerrero",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Chavo Guerrero"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45028",
+          "161940"
+        ],
+        "sourceEventIds": [
+          "6615"
+        ]
+      },
+      "legacyId": "bulk-match-45028",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 6,
+      "type": "match",
+      "title": "John Cena vs. Test",
+      "result": "John Cena defeated Test.",
+      "matchType": "Singles match",
+      "duration": 199,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Test"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45029",
+          "161941"
+        ],
+        "sourceEventIds": [
+          "6615"
+        ]
+      },
+      "legacyId": "bulk-match-45029",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 7,
+      "type": "match",
+      "title": "Edge vs. Chris Jericho",
+      "result": "Edge defeated Chris Jericho.",
+      "matchType": "Cage match",
+      "duration": 900,
+      "participants": [
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Edge",
+        "Chris Jericho"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45030",
+          "161942"
+        ],
+        "sourceEventIds": [
+          "6615"
+        ]
+      },
+      "legacyId": "bulk-match-45030",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6615"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6615"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "id": "wwe/nxt/2018-11-28",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2018-11-28",
+  "dateBasis": "aired",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwenxt/2018-11-28"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "EC3 vs. Bobby Fish",
+      "result": "EC3 defeated Bobby Fish.",
+      "matchType": "Singles match",
+      "duration": 330,
+      "participants": [
+        {
+          "person": "ec3",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bobby-fish",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "EC3",
+        "Bobby Fish"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2018-11-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "117501"
+        ],
+        "sourceEventIds": [
+          "17355"
+        ]
+      },
+      "legacyId": "bulk-match-117501",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Danny Burch, Oney Lorcan vs. Nick Miller, Shane Thorne",
+      "result": "Danny Burch, Oney Lorcan defeated Nick Miller, Shane Thorne.",
+      "matchType": "4-person match",
+      "duration": 310,
+      "participants": [
+        {
+          "person": "danny-burch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "oney-lorcan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nick-miller",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shane-thorne",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Danny Burch",
+        "Oney Lorcan",
+        "Nick Miller",
+        "Shane Thorne"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2018-11-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "117502"
+        ],
+        "sourceEventIds": [
+          "17355"
+        ]
+      },
+      "legacyId": "bulk-match-117502",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-17355"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "17355"
+    ]
+  }
+}

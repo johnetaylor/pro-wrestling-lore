@@ -1,0 +1,222 @@
+{
+  "id": "wwe/raw/2023-11-27",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2023-11-27",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2023-11-27"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Bronson Reed, Ivar — double count-out.",
+      "matchType": "Singles match",
+      "duration": 513,
+      "participants": [
+        {
+          "person": "bronson-reed",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "ivar",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Bronson Reed",
+        "Ivar"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2023-11-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3089",
+          "92986",
+          "101417"
+        ],
+        "sourceEventIds": [
+          "583"
+        ]
+      },
+      "legacyId": "bulk-match-3089",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Nia Jax vs. Zoey Stark",
+      "result": "Nia Jax defeated Zoey Stark.",
+      "matchType": "Singles match",
+      "duration": 546,
+      "participants": [
+        {
+          "person": "nia-jax",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "zoey-stark",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Nia Jax",
+        "Zoey Stark"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2023-11-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3090",
+          "92987",
+          "101418"
+        ],
+        "sourceEventIds": [
+          "583"
+        ]
+      },
+      "legacyId": "bulk-match-3090",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Chelsea Green, Piper Niven vs. Natalya, Tegan Nox",
+      "result": "Chelsea Green, Piper Niven defeated Natalya, Tegan Nox.",
+      "matchType": "4-person match",
+      "duration": 520,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "chelsea-green",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "piper-niven",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tegan-nox",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chelsea Green",
+        "Piper Niven",
+        "Natalya",
+        "Tegan Nox"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2023-11-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3091",
+          "92988",
+          "101419"
+        ],
+        "sourceEventIds": [
+          "583"
+        ]
+      },
+      "legacyId": "bulk-match-3091",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Randy Orton vs. Dominik Mysterio",
+      "result": "Randy Orton defeated Dominik Mysterio.",
+      "matchType": "Singles match",
+      "duration": 565,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Dominik Mysterio"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2023-11-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3092",
+          "92989",
+          "101420"
+        ],
+        "sourceEventIds": [
+          "583"
+        ]
+      },
+      "legacyId": "bulk-match-3092",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-583"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "583"
+    ]
+  }
+}

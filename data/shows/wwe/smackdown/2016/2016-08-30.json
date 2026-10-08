@@ -1,0 +1,185 @@
+{
+  "id": "wwe/smackdown/2016-08-30",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2016-08-30",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2016/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Mojo Rawley, Zack Ryder vs. Aiden English, Simon Gotch",
+      "result": "Mojo Rawley, Zack Ryder defeated Aiden English, Simon Gotch.",
+      "matchType": "4-person match",
+      "duration": 170,
+      "participants": [
+        {
+          "person": "mojo-rawley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-cardona",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aiden-english",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "simon-gotch",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mojo Rawley",
+        "Zack Ryder",
+        "Aiden English",
+        "Simon Gotch"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "74247",
+          "125463"
+        ],
+        "sourceEventIds": [
+          "11510"
+        ]
+      },
+      "legacyId": "bulk-match-74247",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "A.J. Styles vs. Apollo Crews",
+      "result": "A.J. Styles defeated Apollo Crews.",
+      "matchType": "Singles match",
+      "duration": 490,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "apollo-crews",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Apollo Crews"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "74248",
+          "125464"
+        ],
+        "sourceEventIds": [
+          "11510"
+        ]
+      },
+      "legacyId": "bulk-match-74248",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Alexa Bliss, Natalya vs. Becky Lynch, Naomi",
+      "result": "Alexa Bliss, Natalya defeated Becky Lynch, Naomi.",
+      "matchType": "Other match",
+      "duration": 440,
+      "participants": [
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alexa Bliss",
+        "Natalya",
+        "Becky Lynch",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "74249",
+          "125465"
+        ],
+        "sourceEventIds": [
+          "11510"
+        ]
+      },
+      "legacyId": "bulk-match-74249",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11510"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11510"
+    ]
+  }
+}

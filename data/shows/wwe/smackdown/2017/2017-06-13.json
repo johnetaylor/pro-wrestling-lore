@@ -1,0 +1,185 @@
+{
+  "id": "wwe/smackdown/2017-06-13",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-06-13",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-06-13"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Naomi vs. Tamina Snuka",
+      "result": "Naomi defeated Tamina Snuka.",
+      "matchType": "Singles match",
+      "duration": 311,
+      "participants": [
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tamina",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Naomi",
+        "Tamina Snuka"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-06-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77615",
+          "121886"
+        ],
+        "sourceEventIds": [
+          "12028"
+        ]
+      },
+      "legacyId": "bulk-match-77615",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Charlotte vs. Natalya",
+      "result": "Charlotte defeated Natalya.",
+      "matchType": "Singles match",
+      "duration": 493,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte",
+        "Natalya"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-06-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77616",
+          "121887"
+        ],
+        "sourceEventIds": [
+          "12028"
+        ]
+      },
+      "legacyId": "bulk-match-77616",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "A.J. Styles, Sami Zayn, Shinsuke Nakamura vs. Baron Corbin, Dolph Ziggler, Kevin Owens",
+      "result": "A.J. Styles, Sami Zayn, Shinsuke Nakamura defeated Baron Corbin, Dolph Ziggler, Kevin Owens.",
+      "matchType": "Tag Team match",
+      "duration": 782,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Sami Zayn",
+        "Shinsuke Nakamura",
+        "Baron Corbin",
+        "Dolph Ziggler",
+        "Kevin Owens"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-06-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77617",
+          "121888"
+        ],
+        "sourceEventIds": [
+          "12028"
+        ]
+      },
+      "legacyId": "bulk-match-77617",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12028"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12028"
+    ]
+  }
+}

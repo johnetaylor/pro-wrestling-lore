@@ -1,0 +1,222 @@
+{
+  "id": "wwe/smackdown/2018-03-06",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-03-06",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-03-06"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Jinder Mahal vs. Randy Orton",
+      "result": "Jinder Mahal defeated Randy Orton.",
+      "matchType": "Singles match",
+      "duration": 601,
+      "participants": [
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jinder Mahal",
+        "Randy Orton"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-03-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79920",
+          "119542"
+        ],
+        "sourceEventIds": [
+          "12414"
+        ]
+      },
+      "legacyId": "bulk-match-79920",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Becky Lynch vs. Carmella",
+      "result": "Becky Lynch defeated Carmella.",
+      "matchType": "Singles match",
+      "duration": 315,
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Carmella"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-03-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79921",
+          "119543"
+        ],
+        "sourceEventIds": [
+          "12414"
+        ]
+      },
+      "legacyId": "bulk-match-79921",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Singles match",
+      "result": "A.J. Styles, Dolph Ziggler — no contest.",
+      "matchType": "Singles match",
+      "duration": 985,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-03-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79922",
+          "119544"
+        ],
+        "sourceEventIds": [
+          "12414"
+        ]
+      },
+      "legacyId": "bulk-match-79922",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Sami Zayn vs. A.J. Styles, Baron Corbin, Dolph Ziggler, Kevin Owens",
+      "result": "Sami Zayn defeated A.J. Styles, Baron Corbin, Dolph Ziggler, Kevin Owens.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sami Zayn",
+        "A.J. Styles",
+        "Baron Corbin",
+        "Dolph Ziggler",
+        "Kevin Owens"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-03-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79923",
+          "119545"
+        ],
+        "sourceEventIds": [
+          "12414"
+        ]
+      },
+      "legacyId": "bulk-match-79923",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12414"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12414"
+    ]
+  }
+}

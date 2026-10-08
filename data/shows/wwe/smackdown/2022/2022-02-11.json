@@ -1,0 +1,211 @@
+{
+  "id": "wwe/smackdown/2022-02-11",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2022-02-11",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2022-02-11"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Natalya vs. Aliyah",
+      "result": "Natalya defeated Aliyah.",
+      "matchType": "Singles match",
+      "duration": 160,
+      "participants": [
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aliyah",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Natalya",
+        "Aliyah"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-02-11"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88523",
+          "108213"
+        ],
+        "sourceEventIds": [
+          "13931",
+          "13932"
+        ]
+      },
+      "legacyId": "bulk-match-88523",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Sami Zayn vs. Shinsuke Nakamura",
+      "result": "Sami Zayn defeated Shinsuke Nakamura.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sami Zayn",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-02-11"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88521",
+          "108211"
+        ],
+        "sourceEventIds": [
+          "13931",
+          "13932"
+        ]
+      },
+      "legacyId": "bulk-match-88521",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Happy Corbin vs. Cesaro",
+      "result": "Happy Corbin defeated Cesaro.",
+      "matchType": "Singles match",
+      "duration": 238,
+      "participants": [
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Happy Corbin",
+        "Cesaro"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-02-11"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88524",
+          "108214"
+        ],
+        "sourceEventIds": [
+          "13931",
+          "13932"
+        ]
+      },
+      "legacyId": "bulk-match-88524",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Charlotte Flair vs. Naomi",
+      "result": "Charlotte Flair defeated Naomi.",
+      "matchType": "Singles match",
+      "duration": 1186,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-02-11"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88525",
+          "108215"
+        ],
+        "sourceEventIds": [
+          "13931",
+          "13932"
+        ]
+      },
+      "legacyId": "bulk-match-88525",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13932"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13931",
+      "13932"
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "id": "wwe/raw/2006-07-10",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2006-07-10",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2006/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "John Cena vs. Shelton Benjamin",
+      "result": "John Cena defeated Shelton Benjamin.",
+      "matchType": "Singles match",
+      "duration": 660,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Shelton Benjamin"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50766",
+          "155428"
+        ],
+        "sourceEventIds": [
+          "7671"
+        ]
+      },
+      "legacyId": "bulk-match-50766",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Melina vs. Trish Stratus",
+      "result": "Melina defeated Trish Stratus.",
+      "matchType": "Singles match",
+      "duration": 237,
+      "participants": [
+        {
+          "person": "melina",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "trish-stratus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Melina",
+        "Trish Stratus"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50767",
+          "155429"
+        ],
+        "sourceEventIds": [
+          "7671"
+        ]
+      },
+      "legacyId": "bulk-match-50767",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Viscera, Charlie Haas — no contest.",
+      "matchType": "Singles match",
+      "duration": 210,
+      "participants": [
+        {
+          "person": "viscera",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "charlie-haas",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Viscera",
+        "Charlie Haas"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50769",
+          "155431"
+        ],
+        "sourceEventIds": [
+          "7671"
+        ]
+      },
+      "legacyId": "bulk-match-50769",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Randy Orton vs. Val Venis",
+      "result": "Randy Orton defeated Val Venis.",
+      "matchType": "Singles match",
+      "duration": 20,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "val-venis",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Val Venis"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50770",
+          "155432"
+        ],
+        "sourceEventIds": [
+          "7671"
+        ]
+      },
+      "legacyId": "bulk-match-50770",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7671"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7671"
+    ]
+  }
+}

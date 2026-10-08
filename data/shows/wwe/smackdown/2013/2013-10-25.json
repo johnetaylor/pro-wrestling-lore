@@ -1,0 +1,195 @@
+{
+  "id": "wwe/smackdown/2013-10-25",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2013-10-25",
+  "dateBasis": "aired",
+  "recordedDate": "2013-10-22",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2013/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 5,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Fandango, The Great Khali — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "fandango",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "the-great-khali",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Fandango",
+        "The Great Khali"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2013/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "63758",
+          "137571"
+        ],
+        "sourceEventIds": [
+          "10058"
+        ]
+      },
+      "legacyId": "bulk-match-63758",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 6,
+      "type": "match",
+      "title": "Big E. Langston, Cody Rhodes, Daniel Bryan, Goldust vs. Dean Ambrose, Randy Orton, Roman Reigns, Seth Rollins",
+      "result": "Big E. Langston, Cody Rhodes, Daniel Bryan, Goldust defeated Dean Ambrose, Randy Orton, Roman Reigns, Seth Rollins.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "big-e-langston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Big E. Langston",
+        "Cody Rhodes",
+        "Daniel Bryan",
+        "Goldust",
+        "Dean Ambrose",
+        "Randy Orton",
+        "Roman Reigns",
+        "Seth Rollins"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2013/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "63759",
+          "137572"
+        ],
+        "sourceEventIds": [
+          "10058"
+        ]
+      },
+      "legacyId": "bulk-match-63759",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 7,
+      "type": "match",
+      "title": "Daniel Bryan vs. Randy Orton",
+      "result": "Daniel Bryan defeated Randy Orton.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "Randy Orton"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2013/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "63760",
+          "137573"
+        ],
+        "sourceEventIds": [
+          "10058"
+        ]
+      },
+      "legacyId": "bulk-match-63760",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10058"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10058"
+    ]
+  }
+}

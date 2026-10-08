@@ -1,0 +1,142 @@
+{
+  "id": "wwe/nxt/2018-04-11",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2018-04-11",
+  "dateBasis": "aired",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwenxt/2018-04-11"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Otis Dozovic, Tucker Knight vs. Riddick Moss, Tino Sabbatelli",
+      "result": "Otis Dozovic, Tucker Knight defeated Riddick Moss, Tino Sabbatelli.",
+      "matchType": "4-person match",
+      "duration": 245,
+      "participants": [
+        {
+          "person": "otis",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tucker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "riddick-moss",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tino-sabbatelli",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Otis Dozovic",
+        "Tucker Knight",
+        "Riddick Moss",
+        "Tino Sabbatelli"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2018-04-11"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "119239"
+        ],
+        "sourceEventIds": [
+          "17654",
+          "17656"
+        ]
+      },
+      "legacyId": "bulk-match-119239",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Hanson, Rowe vs. Otis Dozovic, Tucker Knight",
+      "result": "Hanson, Rowe defeated Otis Dozovic, Tucker Knight.",
+      "matchType": "4-person match",
+      "duration": 169,
+      "participants": [
+        {
+          "person": "ivar",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "erik",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "otis",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tucker",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hanson",
+        "Rowe",
+        "Otis Dozovic",
+        "Tucker Knight"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2018-04-11"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "119231"
+        ],
+        "sourceEventIds": [
+          "17654",
+          "17656"
+        ]
+      },
+      "legacyId": "bulk-match-119231",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-17656"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "17654",
+      "17656"
+    ]
+  }
+}

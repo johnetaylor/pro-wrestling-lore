@@ -1,0 +1,159 @@
+{
+  "id": "wwe/raw/2002-05-20",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2002-05-20",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2002/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Bubba Ray Dudley vs. William Regal",
+      "result": "Bubba Ray Dudley defeated William Regal by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "bubba-ray-dudley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Bubba Ray Dudley",
+        "William Regal"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44736",
+          "162229"
+        ],
+        "sourceEventIds": [
+          "6568"
+        ]
+      },
+      "legacyId": "bulk-match-44736",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Jerry Lawler vs. Raven",
+      "result": "Jerry Lawler defeated Raven by count-out.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "jerry-lawler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "raven",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Jerry Lawler",
+        "Raven"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44738",
+          "162231"
+        ],
+        "sourceEventIds": [
+          "6568"
+        ]
+      },
+      "legacyId": "bulk-match-44738",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "The Undertaker vs. Rob Van Dam",
+      "result": "The Undertaker defeated Rob Van Dam.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "Rob Van Dam"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44739",
+          "162232"
+        ],
+        "sourceEventIds": [
+          "6568"
+        ]
+      },
+      "legacyId": "bulk-match-44739",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6568"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6568"
+    ]
+  }
+}

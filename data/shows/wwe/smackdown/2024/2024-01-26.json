@@ -1,0 +1,222 @@
+{
+  "id": "wwe/smackdown/2024-01-26",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2024-01-26",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2024-01-26"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Santos Escobar vs. Carlito",
+      "result": "Santos Escobar defeated Carlito.",
+      "matchType": "Singles match",
+      "duration": 589,
+      "participants": [
+        {
+          "person": "santos-escobar",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Santos Escobar",
+        "Carlito"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-01-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "2398",
+          "93451",
+          "100726"
+        ],
+        "sourceEventIds": [
+          "470"
+        ]
+      },
+      "legacyId": "bulk-match-2398",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Asuka, Kairi Sane vs. Katana Chance, Kayden Carter",
+      "result": "Asuka, Kairi Sane defeated Katana Chance, Kayden Carter.",
+      "matchType": "4-person match",
+      "duration": 543,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "asuka",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kairi-sane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "katana-chance",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kayden-carter",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Asuka",
+        "Kairi Sane",
+        "Katana Chance",
+        "Kayden Carter"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-01-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "2399",
+          "93452",
+          "100727"
+        ],
+        "sourceEventIds": [
+          "470"
+        ]
+      },
+      "legacyId": "bulk-match-2399",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Austin Theory vs. Carmelo Hayes",
+      "result": "Austin Theory defeated Carmelo Hayes.",
+      "matchType": "Singles match",
+      "duration": 418,
+      "participants": [
+        {
+          "person": "austin-theory",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmelo-hayes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Austin Theory",
+        "Carmelo Hayes"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-01-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "2400",
+          "93453",
+          "100728"
+        ],
+        "sourceEventIds": [
+          "470"
+        ]
+      },
+      "legacyId": "bulk-match-2400",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "L.A. Knight vs. Solo Sikoa",
+      "result": "L.A. Knight defeated Solo Sikoa by disqualification.",
+      "matchType": "Singles match",
+      "duration": 519,
+      "participants": [
+        {
+          "person": "la-knight",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "solo-sikoa",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "L.A. Knight",
+        "Solo Sikoa"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-01-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "2401",
+          "93454",
+          "100729"
+        ],
+        "sourceEventIds": [
+          "470"
+        ]
+      },
+      "legacyId": "bulk-match-2401",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-470"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "470"
+    ]
+  }
+}

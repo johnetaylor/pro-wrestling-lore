@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2022-02-25",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2022-02-25",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2022-02-25"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Xia Li vs. Natalya",
+      "result": "Xia Li defeated Natalya.",
+      "matchType": "Singles match",
+      "duration": 241,
+      "participants": [
+        {
+          "person": "xia-li",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Xia Li",
+        "Natalya"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-02-25"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88575",
+          "108125"
+        ],
+        "sourceEventIds": [
+          "13942"
+        ]
+      },
+      "legacyId": "bulk-match-88575",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Sasha Banks vs. Shotzi",
+      "result": "Sasha Banks defeated Shotzi.",
+      "matchType": "Singles match",
+      "duration": 131,
+      "participants": [
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shotzi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sasha Banks",
+        "Shotzi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-02-25"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88576",
+          "108126"
+        ],
+        "sourceEventIds": [
+          "13942"
+        ]
+      },
+      "legacyId": "bulk-match-88576",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Drew McIntyre vs. Madcap Moss",
+      "result": "Drew McIntyre defeated Madcap Moss.",
+      "matchType": "Singles match",
+      "duration": 441,
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "madcap-moss",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "Madcap Moss"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-02-25"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88577",
+          "108127"
+        ],
+        "sourceEventIds": [
+          "13942"
+        ]
+      },
+      "legacyId": "bulk-match-88577",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13942"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13942"
+    ]
+  }
+}

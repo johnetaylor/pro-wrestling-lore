@@ -1,0 +1,197 @@
+{
+  "id": "wwe/smackdown/2018-05-01",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-05-01",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-05-01"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Jeff Hardy, Randy Orton vs. Shelton Benjamin, The Miz",
+      "result": "Jeff Hardy, Randy Orton defeated Shelton Benjamin, The Miz.",
+      "matchType": "4-person match",
+      "duration": 759,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Randy Orton",
+        "Shelton Benjamin",
+        "The Miz"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-05-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80391",
+          "119073"
+        ],
+        "sourceEventIds": [
+          "12493"
+        ]
+      },
+      "legacyId": "bulk-match-80391",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Xavier Woods vs. Sheamus",
+      "result": "Xavier Woods defeated Sheamus.",
+      "matchType": "Singles match",
+      "duration": 454,
+      "participants": [
+        {
+          "person": "xavier-woods",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Xavier Woods",
+        "Sheamus"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-05-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80392",
+          "119074"
+        ],
+        "sourceEventIds": [
+          "12493"
+        ]
+      },
+      "legacyId": "bulk-match-80392",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Asuka, Becky Lynch, Charlotte Flair vs. Billie Kay, Carmella, Peyton Royce",
+      "result": "Asuka, Becky Lynch, Charlotte Flair defeated Billie Kay, Carmella, Peyton Royce.",
+      "matchType": "Tag Team match",
+      "duration": 815,
+      "participants": [
+        {
+          "person": "asuka",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billie-kay",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "peyton-royce",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Asuka",
+        "Becky Lynch",
+        "Charlotte Flair",
+        "Billie Kay",
+        "Carmella",
+        "Peyton Royce"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-05-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80393",
+          "119075"
+        ],
+        "sourceEventIds": [
+          "12493"
+        ]
+      },
+      "legacyId": "bulk-match-80393",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12493"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12493"
+    ]
+  }
+}

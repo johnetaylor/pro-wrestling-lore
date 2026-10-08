@@ -1,0 +1,218 @@
+{
+  "id": "wwe/smackdown/2017-05-02",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-05-02",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-05-02"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Jinder Mahal vs. Sami Zayn",
+      "result": "Jinder Mahal defeated Sami Zayn.",
+      "matchType": "Singles match",
+      "duration": 655,
+      "participants": [
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jinder Mahal",
+        "Sami Zayn"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-05-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77038",
+          "122469"
+        ],
+        "sourceEventIds": [
+          "11943"
+        ]
+      },
+      "legacyId": "bulk-match-77038",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Tye Dillinger vs. Aiden English",
+      "result": "Tye Dillinger defeated Aiden English.",
+      "matchType": "Singles match",
+      "duration": 63,
+      "participants": [
+        {
+          "person": "shawn-spears",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aiden-english",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tye Dillinger",
+        "Aiden English"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-05-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77039",
+          "122470"
+        ],
+        "sourceEventIds": [
+          "11943"
+        ]
+      },
+      "legacyId": "bulk-match-77039",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Carmella, Natalya vs. Charlotte Flair, Naomi",
+      "result": "Carmella, Natalya defeated Charlotte Flair, Naomi.",
+      "matchType": "4-person match",
+      "duration": 715,
+      "participants": [
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Carmella",
+        "Natalya",
+        "Charlotte Flair",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-05-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77040",
+          "122471"
+        ],
+        "sourceEventIds": [
+          "11943"
+        ]
+      },
+      "legacyId": "bulk-match-77040",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Kevin Owens vs. Chris Jericho",
+      "result": "Kevin Owens defeated Chris Jericho.",
+      "matchType": "Singles match",
+      "duration": 760,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Chris Jericho"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-05-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77042",
+          "122473"
+        ],
+        "sourceEventIds": [
+          "11943"
+        ]
+      },
+      "legacyId": "bulk-match-77042",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11943"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11943"
+    ]
+  }
+}

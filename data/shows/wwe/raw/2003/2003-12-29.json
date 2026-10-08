@@ -1,0 +1,231 @@
+{
+  "id": "wwe/raw/2003-12-29",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2003-12-29",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2003/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rob Van Dam vs. Scott Steiner",
+      "result": "Rob Van Dam defeated Scott Steiner.",
+      "matchType": "Singles match",
+      "duration": 367,
+      "participants": [
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "scott-steiner",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rob Van Dam",
+        "Scott Steiner"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47301",
+          "159703"
+        ],
+        "sourceEventIds": [
+          "7001"
+        ]
+      },
+      "legacyId": "bulk-match-47301",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Randy Orton vs. Booker T.",
+      "result": "Randy Orton defeated Booker T..",
+      "matchType": "Singles match",
+      "duration": 357,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Booker T."
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47303",
+          "159705"
+        ],
+        "sourceEventIds": [
+          "7001"
+        ]
+      },
+      "legacyId": "bulk-match-47303",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Lita, Stacy Keibler, Trish Stratus vs. Jackie Gayda, Molly Holly, Victoria",
+      "result": "Lita, Stacy Keibler, Trish Stratus defeated Jackie Gayda, Molly Holly, Victoria.",
+      "matchType": "Tag Team match",
+      "duration": 201,
+      "participants": [
+        {
+          "person": "lita",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "stacy-keibler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "trish-stratus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jackie-gayda",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "molly-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "victoria",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lita",
+        "Stacy Keibler",
+        "Trish Stratus",
+        "Jackie Gayda",
+        "Molly Holly",
+        "Victoria"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47304",
+          "159706"
+        ],
+        "sourceEventIds": [
+          "7001"
+        ]
+      },
+      "legacyId": "bulk-match-47304",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Triple H, Shawn Michaels — draw.",
+      "matchType": "Singles match",
+      "duration": 1752,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "draw"
+        },
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "draw"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "Shawn Michaels"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47305",
+          "159707"
+        ],
+        "sourceEventIds": [
+          "7001"
+        ]
+      },
+      "legacyId": "bulk-match-47305",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7001"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7001"
+    ]
+  }
+}

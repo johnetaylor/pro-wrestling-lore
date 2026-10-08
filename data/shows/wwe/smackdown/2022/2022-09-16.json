@@ -1,0 +1,165 @@
+{
+  "id": "wwe/smackdown/2022-09-16",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2022-09-16",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2022-09-16"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Ricochet vs. Sami Zayn",
+      "result": "Ricochet defeated Sami Zayn.",
+      "matchType": "Singles match",
+      "duration": 782,
+      "participants": [
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ricochet",
+        "Sami Zayn"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-09-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "7534",
+          "89994",
+          "105862"
+        ],
+        "sourceEventIds": [
+          "1328"
+        ]
+      },
+      "legacyId": "bulk-match-7534",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Bayley vs. Raquel Rodriguez",
+      "result": "Bayley defeated Raquel Rodriguez.",
+      "matchType": "Singles match",
+      "duration": 386,
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "raquel-rodriguez",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Raquel Rodriguez"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-09-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "7535",
+          "89995",
+          "105863"
+        ],
+        "sourceEventIds": [
+          "1328"
+        ]
+      },
+      "legacyId": "bulk-match-7535",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Solo Sikoa vs. Madcap Moss",
+      "result": "Solo Sikoa defeated Madcap Moss.",
+      "matchType": "Singles match",
+      "duration": 651,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "solo-sikoa",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "madcap-moss",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Solo Sikoa",
+        "Madcap Moss"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-09-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "7536",
+          "89996",
+          "105864"
+        ],
+        "sourceEventIds": [
+          "1328"
+        ]
+      },
+      "legacyId": "bulk-match-7536",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1328"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1328"
+    ]
+  }
+}

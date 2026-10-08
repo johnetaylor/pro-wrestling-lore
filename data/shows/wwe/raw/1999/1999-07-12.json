@@ -1,0 +1,237 @@
+{
+  "id": "wwe/raw/1999-07-12",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1999-07-12",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1999/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Edge, Gangrel — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "gangrel",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Edge",
+        "Gangrel"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "35189",
+          "171825"
+        ],
+        "sourceEventIds": [
+          "5248"
+        ]
+      },
+      "legacyId": "bulk-match-35189",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Road Dogg, The Rock, X-Pac vs. Billy Gunn, Chyna, Triple H",
+      "result": "Road Dogg, The Rock, X-Pac defeated Billy Gunn, Chyna, Triple H.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "road-dogg",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "x-pac",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "chyna",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Road Dogg",
+        "The Rock",
+        "X-Pac",
+        "Billy Gunn",
+        "Chyna",
+        "Triple H"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "35191",
+          "171827"
+        ],
+        "sourceEventIds": [
+          "5248"
+        ]
+      },
+      "legacyId": "bulk-match-35191",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Al Snow vs. Droz",
+      "result": "Al Snow defeated Droz.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "al-snow",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "droz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Al Snow",
+        "Droz"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "35192",
+          "171828"
+        ],
+        "sourceEventIds": [
+          "5248"
+        ]
+      },
+      "legacyId": "bulk-match-35192",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 8,
+      "type": "match",
+      "title": "Steve Austin, The Big Show vs. Kane, The Undertaker",
+      "result": "Steve Austin, The Big Show defeated Kane, The Undertaker.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Steve Austin",
+        "The Big Show",
+        "Kane",
+        "The Undertaker"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "35196",
+          "171832"
+        ],
+        "sourceEventIds": [
+          "5248"
+        ]
+      },
+      "legacyId": "bulk-match-35196",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5248"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5248"
+    ]
+  }
+}

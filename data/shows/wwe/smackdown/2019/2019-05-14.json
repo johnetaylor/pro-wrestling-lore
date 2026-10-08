@@ -1,0 +1,139 @@
+{
+  "id": "wwe/smackdown/2019-05-14",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2019-05-14",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2019-05-14"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Andrade vs. Ali, Finn Bálor, Randy Orton",
+      "result": "Andrade defeated Ali, Finn Bálor, Randy Orton.",
+      "matchType": "Fatal Four Way match",
+      "participants": [
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mustafa-ali",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Andrade",
+        "Ali",
+        "Finn Bálor",
+        "Randy Orton"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-05-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83145",
+          "116288"
+        ],
+        "sourceEventIds": [
+          "12975"
+        ]
+      },
+      "legacyId": "bulk-match-83145",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Asuka, Kairi Sane vs. Mandy Rose, Sonya Deville",
+      "result": "Asuka, Kairi Sane defeated Mandy Rose, Sonya Deville.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "asuka",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kairi-sane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mandy-rose",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sonya-deville",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Asuka",
+        "Kairi Sane",
+        "Mandy Rose",
+        "Sonya Deville"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-05-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83147",
+          "116290"
+        ],
+        "sourceEventIds": [
+          "12975"
+        ]
+      },
+      "legacyId": "bulk-match-83147",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12975"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12975"
+    ]
+  }
+}

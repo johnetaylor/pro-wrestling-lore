@@ -1,0 +1,54 @@
+{
+  "id": "wwe/wrestlemania/1986-04-07",
+  "promotion": "wwe",
+  "series": "wwe/wrestlemania",
+  "name": "WWF WrestleMania 2",
+  "date": "1986-04-07",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "career-only",
+    "segments": "unknown",
+    "note": "Known only from career records; the full card is not indexed yet."
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wrestlemania/2/results"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Hulk Hogan vs. King Kong Bundy",
+      "result": "Hulk Hogan defeated King Kong Bundy by escaping the cage to retain the WWF Championship.",
+      "context": "The cage showdown at the center of WrestleMania’s three-city experiment.",
+      "matchType": "WWF Championship steel cage match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "king-kong-bundy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hulk Hogan",
+        "King Kong Bundy"
+      ],
+      "showCategory": "PLE / special",
+      "promotionLabel": "WWF",
+      "sources": [
+        "https://www.wwe.com/shows/wrestlemania/2/results"
+      ],
+      "legacyId": "hogan-reviewed-1986-04-07",
+      "legacy": {
+        "kind": "title",
+        "workbookReference": "HM-0079"
+      }
+    }
+  ],
+  "legacyIds": []
+}

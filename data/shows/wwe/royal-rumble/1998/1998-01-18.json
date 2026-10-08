@@ -1,0 +1,163 @@
+{
+  "id": "wwe/royal-rumble/1998-01-18",
+  "promotion": "wwe",
+  "series": "wwe/royal-rumble",
+  "name": "Royal Rumble '98",
+  "date": "1998-01-18",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1998/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Vader vs. The Artist Formerly Known As Goldust",
+      "result": "Vader defeated The Artist Formerly Known As Goldust.",
+      "matchType": "Singles match",
+      "duration": 467,
+      "participants": [
+        {
+          "person": "vader",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Vader",
+        "The Artist Formerly Known As Goldust"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "29187",
+          "177853"
+        ],
+        "sourceEventIds": [
+          "4463"
+        ]
+      },
+      "legacyId": "bulk-match-29187",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "The Rock vs. Ken Shamrock",
+      "result": "The Rock defeated Ken Shamrock by disqualification.",
+      "matchType": "Singles match",
+      "duration": 653,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ken-shamrock",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "The Rock",
+        "Ken Shamrock"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "29189",
+          "177855"
+        ],
+        "sourceEventIds": [
+          "4463"
+        ]
+      },
+      "legacyId": "bulk-match-29189",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Shawn Michaels vs. The Undertaker",
+      "result": "Shawn Michaels defeated The Undertaker.",
+      "matchType": "Other match",
+      "duration": 1237,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shawn Michaels",
+        "The Undertaker"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "29192",
+          "177858"
+        ],
+        "sourceEventIds": [
+          "4463"
+        ]
+      },
+      "legacyId": "bulk-match-29192",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4463"
+  ],
+  "legacy": {
+    "showFamily": "royal-rumble",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4463"
+    ]
+  }
+}

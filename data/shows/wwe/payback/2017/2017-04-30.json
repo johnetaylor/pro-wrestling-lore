@@ -1,0 +1,219 @@
+{
+  "id": "wwe/payback/2017-04-30",
+  "promotion": "wwe",
+  "series": "wwe/payback",
+  "name": "Payback '17",
+  "date": "2017-04-30",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwepayback/2017"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Big Cass, Enzo Amore vs. Karl Anderson, Luke Gallows",
+      "result": "Big Cass, Enzo Amore defeated Karl Anderson, Luke Gallows.",
+      "matchType": "Other match",
+      "duration": 393,
+      "participants": [
+        {
+          "person": "big-cass",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "enzo-amore",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "karl-anderson",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "luke-gallows",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Big Cass",
+        "Enzo Amore",
+        "Karl Anderson",
+        "Luke Gallows"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwepayback/2017"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77009",
+          "122490"
+        ],
+        "sourceEventIds": [
+          "11938"
+        ]
+      },
+      "legacyId": "bulk-match-77009",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Chris Jericho vs. Kevin Owens",
+      "result": "Chris Jericho defeated Kevin Owens.",
+      "matchType": "Other match",
+      "duration": 841,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Kevin Owens"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwepayback/2017"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77010",
+          "122491"
+        ],
+        "sourceEventIds": [
+          "11938"
+        ]
+      },
+      "legacyId": "bulk-match-77010",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Austin Aries vs. Neville",
+      "result": "Austin Aries defeated Neville by disqualification.",
+      "matchType": "Singles match",
+      "duration": 678,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "austin-aries",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "neville",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Austin Aries",
+        "Neville"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwepayback/2017"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77011",
+          "122492"
+        ],
+        "sourceEventIds": [
+          "11938"
+        ]
+      },
+      "legacyId": "bulk-match-77011",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Bray Wyatt vs. Randy Orton",
+      "result": "Bray Wyatt defeated Randy Orton.",
+      "matchType": "Other match",
+      "duration": 252,
+      "participants": [
+        {
+          "person": "bray-wyatt",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bray Wyatt",
+        "Randy Orton"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwepayback/2017"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77015",
+          "122496"
+        ],
+        "sourceEventIds": [
+          "11938"
+        ]
+      },
+      "legacyId": "bulk-match-77015",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11938"
+  ],
+  "legacy": {
+    "showFamily": "payback",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11938"
+    ]
+  }
+}

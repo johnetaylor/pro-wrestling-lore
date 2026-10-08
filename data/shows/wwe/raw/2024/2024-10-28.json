@@ -1,0 +1,158 @@
+{
+  "id": "wwe/raw/2024-10-28",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2024-10-28",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2024-10-28"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Sheamus vs. Ludwig Kaiser",
+      "result": "Sheamus defeated Ludwig Kaiser.",
+      "matchType": "Singles match",
+      "duration": 581,
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ludwig-kaiser",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Ludwig Kaiser"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-10-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95148"
+        ],
+        "sourceEventIds": [
+          "15082"
+        ]
+      },
+      "legacyId": "bulk-match-95148",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Ivy Nile vs. Zelina Vega",
+      "result": "Ivy Nile defeated Zelina Vega.",
+      "matchType": "Singles match",
+      "duration": 392,
+      "participants": [
+        {
+          "person": "ivy-nile",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "zelina-vega",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ivy Nile",
+        "Zelina Vega"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-10-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95149"
+        ],
+        "sourceEventIds": [
+          "15082"
+        ]
+      },
+      "legacyId": "bulk-match-95149",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Dominik Mysterio vs. Damian Priest",
+      "result": "Dominik Mysterio defeated Damian Priest.",
+      "matchType": "Singles match",
+      "duration": 780,
+      "participants": [
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "damian-priest",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dominik Mysterio",
+        "Damian Priest"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-10-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95151"
+        ],
+        "sourceEventIds": [
+          "15082"
+        ]
+      },
+      "legacyId": "bulk-match-95151",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-15082"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "15082"
+    ]
+  }
+}

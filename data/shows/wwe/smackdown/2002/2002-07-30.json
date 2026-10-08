@@ -1,0 +1,320 @@
+{
+  "id": "wwe/smackdown/2002-07-30",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2002-07-30",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2002/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rey Mysterio vs. Tajiri",
+      "result": "Rey Mysterio defeated Tajiri.",
+      "matchType": "Singles match",
+      "duration": 435,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tajiri",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Tajiri"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45078",
+          "161883"
+        ],
+        "sourceEventIds": [
+          "6622"
+        ]
+      },
+      "legacyId": "bulk-match-45078",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Brock Lesnar vs. Mark Henry",
+      "result": "Brock Lesnar defeated Mark Henry.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "brock-lesnar",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Brock Lesnar",
+        "Mark Henry"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45079",
+          "161884"
+        ],
+        "sourceEventIds": [
+          "6622"
+        ]
+      },
+      "legacyId": "bulk-match-45079",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Hulk Hogan vs. Kurt Angle",
+      "result": "Hulk Hogan defeated Kurt Angle by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Hulk Hogan",
+        "Kurt Angle"
+      ],
+      "showCategory": "SmackDown",
+      "promotionLabel": "WWE",
+      "dateBasis": "broadcast",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-07",
+        "source": "https://thehistoryofwwe.com/wwe-results-2002/",
+        "scope": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date."
+      },
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45080",
+          "161885"
+        ],
+        "sourceEventIds": [
+          "6622"
+        ]
+      },
+      "legacyId": "bulk-match-45080",
+      "legacy": {
+        "date": "2002-08-01",
+        "kind": "match",
+        "hoganReview": {
+          "id": "bulk-match-45080",
+          "source": "https://thehistoryofwwe.com/wwe-results-2002/",
+          "date": "2002-08-01",
+          "reviewed": "2026-10-07",
+          "note": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date.",
+          "recordedDate": "2002-07-30",
+          "omitUnreviewedDuration": true
+        },
+        "workbookReference": "HM-0264",
+        "recordedDate": "2002-07-30",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Rikishi vs. Reverend D-Von",
+      "result": "Rikishi defeated Reverend D-Von.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "d-von-dudley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rikishi",
+        "Reverend D-Von"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45081",
+          "161886"
+        ],
+        "sourceEventIds": [
+          "6622"
+        ]
+      },
+      "legacyId": "bulk-match-45081",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 5,
+      "type": "match",
+      "title": "John Cena vs. Rico",
+      "result": "John Cena defeated Rico.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rico",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Rico"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45082",
+          "161887"
+        ],
+        "sourceEventIds": [
+          "6622"
+        ]
+      },
+      "legacyId": "bulk-match-45082",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 6,
+      "type": "match",
+      "title": "Chris Benoit, Eddie Guerrero vs. Edge, The Rock",
+      "result": "Chris Benoit, Eddie Guerrero defeated Edge, The Rock.",
+      "matchType": "4-person match",
+      "duration": 780,
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Eddie Guerrero",
+        "Edge",
+        "The Rock"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45083",
+          "161888"
+        ],
+        "sourceEventIds": [
+          "6622"
+        ]
+      },
+      "legacyId": "bulk-match-45083",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6622"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6622"
+    ]
+  }
+}

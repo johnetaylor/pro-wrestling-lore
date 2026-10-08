@@ -1,0 +1,188 @@
+{
+  "id": "wwe/raw/2025-12-29",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2025-12-29",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "legacyCardStatus": "Card indexed",
+    "legacySegmentStatus": "Partial recap coverage · not a full appearance audit"
+  },
+  "sources": [
+    "https://www.thesmackdownhotel.com/events-results/wwe/raw-2025",
+    "https://www.wwe.com/shows/raw/2025-12-29"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Stephanie Vaquer",
+      "result": "Stephanie Vaquer (c) defeats Nikki Bella and Raquel Rodriguez to retain the title",
+      "context": "Women's World Championship Triple Threat Match. Open the linked recap for the finish and surrounding story.",
+      "matchType": "Women's World Championship Triple Threat Match",
+      "titleMatch": true,
+      "unlinked": true,
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/raw-2025",
+        "https://www.wwe.com/shows/raw/2025-12-29"
+      ],
+      "legacyId": "2025-12-29-raw-match-1",
+      "legacy": {
+        "kind": "title"
+      },
+      "participants": []
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Gunther vs. R-Truth",
+      "result": "Gunther defeats R-Truth",
+      "context": "Televised match. Open the linked show recap for the finish and surrounding story.",
+      "matchType": "Match",
+      "participants": [
+        {
+          "person": "gunther",
+          "role": "competitor"
+        },
+        {
+          "person": "r-truth",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/raw-2025",
+        "https://www.wwe.com/shows/raw/2025-12-29"
+      ],
+      "legacyId": "2025-12-29-raw-match-2",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Rey Mysterio vs. Austin Theory",
+      "result": "Rey Mysterio defeats Austin Theory via DQ",
+      "context": "Televised match. Open the linked show recap for the finish and surrounding story.",
+      "matchType": "Match",
+      "participants": [
+        {
+          "person": "austin-theory",
+          "role": "competitor"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/raw-2025",
+        "https://www.wwe.com/shows/raw/2025-12-29"
+      ],
+      "legacyId": "2025-12-29-raw-match-3",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "The Usos (Jey & Jimmy Uso) vs. AJ Styles & Dragon Lee",
+      "result": "The Usos (Jey & Jimmy Uso) defeat AJ Styles & Dragon Lee (c) to win the titles",
+      "context": "World Tag Team Championship. A championship changes hands on this broadcast. The title timeline records the reign for supported main-roster belts.",
+      "matchType": "World Tag Team Championship",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "dragon-lee",
+          "role": "competitor"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor"
+        },
+        {
+          "person": "jimmy-uso",
+          "role": "competitor"
+        },
+        {
+          "person": "jey-uso",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/raw-2025",
+        "https://www.wwe.com/shows/raw/2025-12-29"
+      ],
+      "legacyId": "2025-12-29-raw-match-4",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "s1",
+      "type": "appearance",
+      "title": "Bron Breakker and CM Punk trade personal verbal attacks",
+      "result": "Bron Breakker and CM Punk trade personal verbal attacks.",
+      "context": "Selected televised appearance or physical confrontation. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "bron-breakker",
+          "role": "competitor"
+        },
+        {
+          "person": "cm-punk",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/raw/2025-12-29"
+      ],
+      "legacyId": "2025-12-29-raw-segment-1",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s2",
+      "type": "promo",
+      "title": "Rey Mysterio gets help from the returning Penta against Austin Theory and Logan Paul",
+      "result": "Rey Mysterio gets help from the returning Penta against Austin Theory and Logan Paul.",
+      "context": "Selected televised promo, interview or verbal exchange. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "austin-theory",
+          "role": "competitor"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor"
+        },
+        {
+          "person": "logan-paul",
+          "role": "competitor"
+        },
+        {
+          "person": "penta",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/raw/2025-12-29"
+      ],
+      "legacyId": "2025-12-29-raw-segment-2",
+      "legacy": {
+        "kind": "story"
+      }
+    }
+  ],
+  "legacyIds": [
+    "2025-12-29-raw"
+  ],
+  "legacy": {
+    "showFamily": "raw"
+  }
+}

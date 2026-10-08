@@ -1,0 +1,170 @@
+{
+  "id": "wwe/smackdown/2018-07-10",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-07-10",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-07-10"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "A.J. Styles vs. Shinsuke Nakamura",
+      "result": "A.J. Styles defeated Shinsuke Nakamura by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-07-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80934",
+          "118528"
+        ],
+        "sourceEventIds": [
+          "12584"
+        ]
+      },
+      "legacyId": "bulk-match-80934",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Rusev, Shinsuke Nakamura vs. A.J. Styles, Jeff Hardy",
+      "result": "Rusev, Shinsuke Nakamura defeated A.J. Styles, Jeff Hardy.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rusev",
+        "Shinsuke Nakamura",
+        "A.J. Styles",
+        "Jeff Hardy"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-07-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80935",
+          "118529"
+        ],
+        "sourceEventIds": [
+          "12584"
+        ]
+      },
+      "legacyId": "bulk-match-80935",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Asuka vs. James Ellsworth",
+      "result": "Asuka defeated James Ellsworth.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "asuka",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "james-ellsworth",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Asuka",
+        "James Ellsworth"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-07-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80936",
+          "118530"
+        ],
+        "sourceEventIds": [
+          "12584"
+        ]
+      },
+      "legacyId": "bulk-match-80936",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12584"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12584"
+    ]
+  }
+}

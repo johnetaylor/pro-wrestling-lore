@@ -1,0 +1,214 @@
+{
+  "id": "wwe/smackdown/1999-10-26",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "1999-10-26",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1999/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Grandmaster Sexay, Scotty 2 Hotty vs. Christian, Edge",
+      "result": "Grandmaster Sexay, Scotty 2 Hotty defeated Christian, Edge.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "grand-master-sexay",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "scotty-2-hotty",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Grandmaster Sexay",
+        "Scotty 2 Hotty",
+        "Christian",
+        "Edge"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "36571",
+          "170444"
+        ],
+        "sourceEventIds": [
+          "5432"
+        ]
+      },
+      "legacyId": "bulk-match-36571",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Stevie Richards vs. Chris Jericho",
+      "result": "Stevie Richards defeated Chris Jericho.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "stevie-richards",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Stevie Richards",
+        "Chris Jericho"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "36572",
+          "170445"
+        ],
+        "sourceEventIds": [
+          "5432"
+        ]
+      },
+      "legacyId": "bulk-match-36572",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "The British Bulldog vs. D-Lo Brown",
+      "result": "The British Bulldog defeated D-Lo Brown.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "the-british-bulldog",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "d-lo-brown",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The British Bulldog",
+        "D-Lo Brown"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "36573",
+          "170446"
+        ],
+        "sourceEventIds": [
+          "5432"
+        ]
+      },
+      "legacyId": "bulk-match-36573",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Mankind vs. Val Venis",
+      "result": "Mankind defeated Val Venis.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "mick-foley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "val-venis",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mankind",
+        "Val Venis"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "36577",
+          "170450"
+        ],
+        "sourceEventIds": [
+          "5432"
+        ]
+      },
+      "legacyId": "bulk-match-36577",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5432"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5432"
+    ]
+  }
+}

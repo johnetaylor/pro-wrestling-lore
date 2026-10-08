@@ -1,0 +1,206 @@
+{
+  "id": "wwe/raw/2009-02-16",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2009-02-16",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2009/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Kane vs. Jamie Noble",
+      "result": "Kane defeated Jamie Noble.",
+      "matchType": "Singles match",
+      "duration": 15,
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jamie-noble",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "Jamie Noble"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54034",
+          "151307"
+        ],
+        "sourceEventIds": [
+          "8249"
+        ]
+      },
+      "legacyId": "bulk-match-54034",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Rey Mysterio vs. Mike Knox",
+      "result": "Rey Mysterio defeated Mike Knox.",
+      "matchType": "Singles match",
+      "duration": 575,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mike-knox",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Mike Knox"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54035",
+          "151308"
+        ],
+        "sourceEventIds": [
+          "8249"
+        ]
+      },
+      "legacyId": "bulk-match-54035",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Melina vs. Beth Phoenix",
+      "result": "Melina defeated Beth Phoenix.",
+      "matchType": "Singles match",
+      "duration": 172,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "melina",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "beth-phoenix",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Melina",
+        "Beth Phoenix"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54036",
+          "151309"
+        ],
+        "sourceEventIds": [
+          "8249"
+        ]
+      },
+      "legacyId": "bulk-match-54036",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Other match",
+      "result": "Randy Orton, Shane McMahon — no contest.",
+      "matchType": "Other match",
+      "duration": 390,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "shane-mcmahon",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Shane McMahon"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54037",
+          "151310"
+        ],
+        "sourceEventIds": [
+          "8249"
+        ]
+      },
+      "legacyId": "bulk-match-54037",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8249"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8249"
+    ]
+  }
+}

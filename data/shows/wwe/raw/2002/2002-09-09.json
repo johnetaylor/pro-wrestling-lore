@@ -1,0 +1,336 @@
+{
+  "id": "wwe/raw/2002-09-09",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2002-09-09",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2002/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Christian, Lance Storm vs. Bradshaw, Kane",
+      "result": "Christian, Lance Storm defeated Bradshaw, Kane.",
+      "matchType": "4-person match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "lance-storm",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Christian",
+        "Lance Storm",
+        "Bradshaw",
+        "Kane"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45274",
+          "161688"
+        ],
+        "sourceEventIds": [
+          "6653"
+        ]
+      },
+      "legacyId": "bulk-match-45274",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Bubba Ray Dudley vs. Steven Richards",
+      "result": "Bubba Ray Dudley defeated Steven Richards.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "bubba-ray-dudley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "steven-richards",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bubba Ray Dudley",
+        "Steven Richards"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45275",
+          "161689"
+        ],
+        "sourceEventIds": [
+          "6653"
+        ]
+      },
+      "legacyId": "bulk-match-45275",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Terri, Trish Stratus vs. Stacy Keibler, Victoria",
+      "result": "Terri, Trish Stratus defeated Stacy Keibler, Victoria.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "terri",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "trish-stratus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "stacy-keibler",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "victoria",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Terri",
+        "Trish Stratus",
+        "Stacy Keibler",
+        "Victoria"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45276",
+          "161690"
+        ],
+        "sourceEventIds": [
+          "6653"
+        ]
+      },
+      "legacyId": "bulk-match-45276",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Triple H vs. Spike Dudley",
+      "result": "Triple H defeated Spike Dudley.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "spike-dudley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "Spike Dudley"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45277",
+          "161691"
+        ],
+        "sourceEventIds": [
+          "6653"
+        ]
+      },
+      "legacyId": "bulk-match-45277",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 5,
+      "type": "match",
+      "title": "Test, William Regal vs. Booker T., Goldust",
+      "result": "Test, William Regal defeated Booker T., Goldust by disqualification.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Test",
+        "William Regal",
+        "Booker T.",
+        "Goldust"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45278",
+          "161692"
+        ],
+        "sourceEventIds": [
+          "6653"
+        ]
+      },
+      "legacyId": "bulk-match-45278",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 6,
+      "type": "match",
+      "title": "Rob Van Dam vs. Chris Jericho, Jeff Hardy, The Big Show",
+      "result": "Rob Van Dam defeated Chris Jericho, Jeff Hardy, The Big Show.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rob Van Dam",
+        "Chris Jericho",
+        "Jeff Hardy",
+        "The Big Show"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "45279",
+          "161693"
+        ],
+        "sourceEventIds": [
+          "6653"
+        ]
+      },
+      "legacyId": "bulk-match-45279",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6653"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6653"
+    ]
+  }
+}

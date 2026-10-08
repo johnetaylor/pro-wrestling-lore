@@ -1,0 +1,170 @@
+{
+  "id": "wwe/smackdown/2019-02-05",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2019-02-05",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2019-02-05"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rusev, Shinsuke Nakamura vs. Karl Anderson, Luke Gallows",
+      "result": "Rusev, Shinsuke Nakamura defeated Karl Anderson, Luke Gallows.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "karl-anderson",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "luke-gallows",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rusev",
+        "Shinsuke Nakamura",
+        "Karl Anderson",
+        "Luke Gallows"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-02-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82423",
+          "117025"
+        ],
+        "sourceEventIds": [
+          "12849"
+        ]
+      },
+      "legacyId": "bulk-match-82423",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Randy Orton vs. Mustafa Ali",
+      "result": "Randy Orton defeated Mustafa Ali.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mustafa-ali",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Mustafa Ali"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-02-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82424",
+          "117026"
+        ],
+        "sourceEventIds": [
+          "12849"
+        ]
+      },
+      "legacyId": "bulk-match-82424",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Jeff Hardy vs. Daniel Bryan",
+      "result": "Jeff Hardy defeated Daniel Bryan by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Daniel Bryan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-02-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82426",
+          "117028"
+        ],
+        "sourceEventIds": [
+          "12849"
+        ]
+      },
+      "legacyId": "bulk-match-82426",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12849"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12849"
+    ]
+  }
+}

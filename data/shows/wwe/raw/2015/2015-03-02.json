@@ -1,0 +1,250 @@
+{
+  "id": "wwe/raw/2015-03-02",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2015-03-02",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2015/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Dean Ambrose vs. Bad News Barrett",
+      "result": "Dean Ambrose defeated Bad News Barrett.",
+      "matchType": "Singles match",
+      "duration": 561,
+      "participants": [
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "wade-barrett",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dean Ambrose",
+        "Bad News Barrett"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "68317",
+          "132044"
+        ],
+        "sourceEventIds": [
+          "10684"
+        ]
+      },
+      "legacyId": "bulk-match-68317",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "John Cena vs. Curtis Axel",
+      "result": "John Cena defeated Curtis Axel.",
+      "matchType": "Singles match",
+      "duration": 125,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "curtis-axel",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Curtis Axel"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "68319",
+          "132046"
+        ],
+        "sourceEventIds": [
+          "10684"
+        ]
+      },
+      "legacyId": "bulk-match-68319",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Paige vs. Nikki Bella",
+      "result": "Paige defeated Nikki Bella by disqualification.",
+      "matchType": "Singles match",
+      "duration": 397,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "paige",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nikki-bella",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Paige",
+        "Nikki Bella"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "68320",
+          "132047"
+        ],
+        "sourceEventIds": [
+          "10684"
+        ]
+      },
+      "legacyId": "bulk-match-68320",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Daniel Bryan vs. Luke Harper",
+      "result": "Daniel Bryan defeated Luke Harper.",
+      "matchType": "Singles match",
+      "duration": 381,
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "luke-harper",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "Luke Harper"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "68321",
+          "132048"
+        ],
+        "sourceEventIds": [
+          "10684"
+        ]
+      },
+      "legacyId": "bulk-match-68321",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 6,
+      "type": "match",
+      "title": "Seth Rollins vs. Roman Reigns",
+      "result": "Seth Rollins defeated Roman Reigns.",
+      "matchType": "Singles match",
+      "duration": 941,
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Seth Rollins",
+        "Roman Reigns"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2015/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "68322",
+          "132049"
+        ],
+        "sourceEventIds": [
+          "10684"
+        ]
+      },
+      "legacyId": "bulk-match-68322",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10684"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10684"
+    ]
+  }
+}

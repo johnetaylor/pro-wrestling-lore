@@ -1,0 +1,155 @@
+{
+  "id": "wwe/summerslam/2023-04-16",
+  "promotion": "wwe",
+  "series": "wwe/summerslam",
+  "name": "SummerSlam",
+  "date": "2023-04-16",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/summerslam/2023"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 196,
+      "type": "match",
+      "title": "Seth Rollins vs. Brock Lesnar",
+      "result": "Seth Rollins defeated Brock Lesnar.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "brock-lesnar",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Seth Rollins",
+        "Brock Lesnar"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/summerslam/2023"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "97834"
+        ],
+        "sourceEventIds": [
+          "15643"
+        ]
+      },
+      "legacyId": "bulk-match-97834",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 466,
+      "type": "match",
+      "title": "Bronson Reed vs. Damian Priest",
+      "result": "Bronson Reed defeated Damian Priest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "bronson-reed",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "damian-priest",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bronson Reed",
+        "Damian Priest"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/summerslam/2023"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "98092"
+        ],
+        "sourceEventIds": [
+          "15643"
+        ]
+      },
+      "legacyId": "bulk-match-98092",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 601,
+      "type": "match",
+      "title": "Ricochet vs. Finn Balor",
+      "result": "Ricochet defeated Finn Balor.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ricochet",
+        "Finn Balor"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/summerslam/2023"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "98221"
+        ],
+        "sourceEventIds": [
+          "15643"
+        ]
+      },
+      "legacyId": "bulk-match-98221",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-15643"
+  ],
+  "legacy": {
+    "showFamily": "summerslam",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "15643"
+    ]
+  }
+}

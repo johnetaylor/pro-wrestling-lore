@@ -1,0 +1,205 @@
+{
+  "id": "wwe/smackdown/2000-06-13",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2000-06-13",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Edge vs. Grandmaster Sexay",
+      "result": "Edge defeated Grandmaster Sexay.",
+      "matchType": "Singles match",
+      "duration": 304,
+      "participants": [
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "grand-master-sexay",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Edge",
+        "Grandmaster Sexay"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "39403",
+          "167608"
+        ],
+        "sourceEventIds": [
+          "5820"
+        ]
+      },
+      "legacyId": "bulk-match-39403",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Scotty 2 Hotty vs. D-Lo Brown",
+      "result": "Scotty 2 Hotty defeated D-Lo Brown.",
+      "matchType": "Singles match",
+      "duration": 190,
+      "participants": [
+        {
+          "person": "scotty-2-hotty",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "d-lo-brown",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Scotty 2 Hotty",
+        "D-Lo Brown"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "39405",
+          "167610"
+        ],
+        "sourceEventIds": [
+          "5820"
+        ]
+      },
+      "legacyId": "bulk-match-39405",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Kane vs. Chris Benoit",
+      "result": "Kane defeated Chris Benoit by disqualification.",
+      "matchType": "Singles match",
+      "duration": 209,
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "Chris Benoit"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "39406",
+          "167611"
+        ],
+        "sourceEventIds": [
+          "5820"
+        ]
+      },
+      "legacyId": "bulk-match-39406",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "The Rock vs. Kurt Angle",
+      "result": "The Rock defeated Kurt Angle by disqualification.",
+      "matchType": "Singles match",
+      "duration": 363,
+      "participants": [
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "The Rock",
+        "Kurt Angle"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "39409",
+          "167614"
+        ],
+        "sourceEventIds": [
+          "5820"
+        ]
+      },
+      "legacyId": "bulk-match-39409",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5820"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5820"
+    ]
+  }
+}

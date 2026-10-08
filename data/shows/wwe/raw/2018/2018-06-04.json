@@ -1,0 +1,217 @@
+{
+  "id": "wwe/raw/2018-06-04",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2018-06-04",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2018-06-04"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Elias, Jinder Mahal vs. Roman Reigns, Seth Rollins",
+      "result": "Elias, Jinder Mahal defeated Roman Reigns, Seth Rollins.",
+      "matchType": "4-person match",
+      "duration": 1058,
+      "participants": [
+        {
+          "person": "elias",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Elias",
+        "Jinder Mahal",
+        "Roman Reigns",
+        "Seth Rollins"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-06-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80654",
+          "118807"
+        ],
+        "sourceEventIds": [
+          "12537"
+        ]
+      },
+      "legacyId": "bulk-match-80654",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "James Harden vs. Curt Hawkins",
+      "result": "James Harden defeated Curt Hawkins by disqualification.",
+      "matchType": "Singles match",
+      "duration": 103,
+      "participants": [
+        {
+          "person": "james-harden",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "curt-hawkins",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "James Harden",
+        "Curt Hawkins"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-06-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80655",
+          "118808"
+        ],
+        "sourceEventIds": [
+          "12537"
+        ]
+      },
+      "legacyId": "bulk-match-80655",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Nia Jax vs. Natalya",
+      "result": "Nia Jax defeated Natalya.",
+      "matchType": "Singles match",
+      "duration": 439,
+      "participants": [
+        {
+          "person": "nia-jax",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Nia Jax",
+        "Natalya"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-06-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80656",
+          "118809"
+        ],
+        "sourceEventIds": [
+          "12537"
+        ]
+      },
+      "legacyId": "bulk-match-80656",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Finn Bálor vs. Kevin Owens",
+      "result": "Finn Bálor defeated Kevin Owens by disqualification.",
+      "matchType": "Singles match",
+      "duration": 1115,
+      "participants": [
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Finn Bálor",
+        "Kevin Owens"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-06-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80660",
+          "118813"
+        ],
+        "sourceEventIds": [
+          "12537"
+        ]
+      },
+      "legacyId": "bulk-match-80660",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12537"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12537"
+    ]
+  }
+}

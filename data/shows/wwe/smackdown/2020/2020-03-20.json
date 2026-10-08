@@ -1,0 +1,141 @@
+{
+  "id": "wwe/smackdown/2020-03-20",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2020-03-20",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2020-03-20"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Daniel Bryan, Drew Gulak vs. Cesaro, Shinsuke Nakamura",
+      "result": "Daniel Bryan, Drew Gulak defeated Cesaro, Shinsuke Nakamura.",
+      "matchType": "4-person match",
+      "duration": 600,
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "drew-gulak",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "Drew Gulak",
+        "Cesaro",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-03-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85488",
+          "113672"
+        ],
+        "sourceEventIds": [
+          "13354"
+        ]
+      },
+      "legacyId": "bulk-match-85488",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "John Morrison, The Miz vs. Otis, Tucker",
+      "result": "John Morrison, The Miz defeated Otis, Tucker by disqualification.",
+      "matchType": "4-person match",
+      "duration": 881,
+      "participants": [
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "otis",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "tucker",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "John Morrison",
+        "The Miz",
+        "Otis",
+        "Tucker"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-03-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85489",
+          "113673"
+        ],
+        "sourceEventIds": [
+          "13354"
+        ]
+      },
+      "legacyId": "bulk-match-85489",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13354"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13354"
+    ]
+  }
+}

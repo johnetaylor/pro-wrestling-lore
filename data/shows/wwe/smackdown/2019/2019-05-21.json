@@ -1,0 +1,213 @@
+{
+  "id": "wwe/smackdown/2019-05-21",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2019-05-21",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2019-05-21"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Ali vs. Andrade",
+      "result": "Ali defeated Andrade.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "mustafa-ali",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ali",
+        "Andrade"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-05-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83210",
+          "116221"
+        ],
+        "sourceEventIds": [
+          "12985"
+        ]
+      },
+      "legacyId": "bulk-match-83210",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Kofi Kingston vs. Sami Zayn",
+      "result": "Kofi Kingston defeated Sami Zayn.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kofi Kingston",
+        "Sami Zayn"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-05-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83212",
+          "116223"
+        ],
+        "sourceEventIds": [
+          "12985"
+        ]
+      },
+      "legacyId": "bulk-match-83212",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Bayley, Becky Lynch vs. Charlotte Flair, Lacey Evans",
+      "result": "Bayley, Becky Lynch defeated Charlotte Flair, Lacey Evans.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "lacey-evans",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Becky Lynch",
+        "Charlotte Flair",
+        "Lacey Evans"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-05-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83213",
+          "116224"
+        ],
+        "sourceEventIds": [
+          "12985"
+        ]
+      },
+      "legacyId": "bulk-match-83213",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Roman Reigns vs. Elias",
+      "result": "Roman Reigns defeated Elias.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "elias",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Elias"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-05-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83214",
+          "116225"
+        ],
+        "sourceEventIds": [
+          "12985"
+        ]
+      },
+      "legacyId": "bulk-match-83214",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12985"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12985"
+    ]
+  }
+}

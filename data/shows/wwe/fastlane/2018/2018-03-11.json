@@ -1,0 +1,142 @@
+{
+  "id": "wwe/fastlane/2018-03-11",
+  "promotion": "wwe",
+  "series": "wwe/fastlane",
+  "name": "Fastlane '18",
+  "date": "2018-03-11",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwefastlane/2018"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Shinsuke Nakamura vs. Rusev",
+      "result": "Shinsuke Nakamura defeated Rusev.",
+      "matchType": "Singles match",
+      "duration": 868,
+      "participants": [
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shinsuke Nakamura",
+        "Rusev"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwefastlane/2018"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79966",
+          "119499"
+        ],
+        "sourceEventIds": [
+          "12424"
+        ]
+      },
+      "legacyId": "bulk-match-79966",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 7,
+      "type": "match",
+      "title": "A.J. Styles vs. Baron Corbin, Dolph Ziggler, John Cena, Kevin Owens, Sami Zayn",
+      "result": "A.J. Styles defeated Baron Corbin, Dolph Ziggler, John Cena, Kevin Owens, Sami Zayn.",
+      "matchType": "Other match",
+      "duration": 1312,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Baron Corbin",
+        "Dolph Ziggler",
+        "John Cena",
+        "Kevin Owens",
+        "Sami Zayn"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwefastlane/2018"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79971",
+          "119504"
+        ],
+        "sourceEventIds": [
+          "12424"
+        ]
+      },
+      "legacyId": "bulk-match-79971",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12424"
+  ],
+  "legacy": {
+    "showFamily": "fastlane",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12424"
+    ]
+  }
+}

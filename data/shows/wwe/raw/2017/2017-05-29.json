@@ -1,0 +1,223 @@
+{
+  "id": "wwe/raw/2017-05-29",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2017-05-29",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2017-05-29"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Samoa Joe vs. Bray Wyatt, Finn Bálor",
+      "result": "Samoa Joe defeated Bray Wyatt, Finn Bálor.",
+      "matchType": "Triple Threat match",
+      "duration": 1005,
+      "participants": [
+        {
+          "person": "samoa-joe",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bray-wyatt",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Samoa Joe",
+        "Bray Wyatt",
+        "Finn Bálor"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-05-29"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77411",
+          "122091"
+        ],
+        "sourceEventIds": [
+          "11998"
+        ]
+      },
+      "legacyId": "bulk-match-77411",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Rich Swann vs. Noam Dar",
+      "result": "Rich Swann defeated Noam Dar.",
+      "matchType": "Singles match",
+      "duration": 172,
+      "participants": [
+        {
+          "person": "rich-swann",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "noam-dar",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rich Swann",
+        "Noam Dar"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-05-29"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77412",
+          "122092"
+        ],
+        "sourceEventIds": [
+          "11998"
+        ]
+      },
+      "legacyId": "bulk-match-77412",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Austin Aries, Gentleman Jack Gallagher vs. Neville, TJP",
+      "result": "Austin Aries, Gentleman Jack Gallagher defeated Neville, TJP.",
+      "matchType": "4-person match",
+      "duration": 755,
+      "participants": [
+        {
+          "person": "austin-aries",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "gentleman-jack-gallagher",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "neville",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tjp",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Austin Aries",
+        "Gentleman Jack Gallagher",
+        "Neville",
+        "TJP"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-05-29"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77414",
+          "122094"
+        ],
+        "sourceEventIds": [
+          "11998"
+        ]
+      },
+      "legacyId": "bulk-match-77414",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Roman Reigns vs. Seth Rollins",
+      "result": "Roman Reigns defeated Seth Rollins.",
+      "matchType": "Singles match",
+      "duration": 1094,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Seth Rollins"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-05-29"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77415",
+          "122095"
+        ],
+        "sourceEventIds": [
+          "11998"
+        ]
+      },
+      "legacyId": "bulk-match-77415",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11998"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11998"
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2019-08-20",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2019-08-20",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2019-08-20"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Andrade vs. Apollo Crews",
+      "result": "Andrade defeated Apollo Crews.",
+      "matchType": "Singles match",
+      "duration": 590,
+      "participants": [
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "apollo-crews",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Andrade",
+        "Apollo Crews"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-08-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83875",
+          "115527"
+        ],
+        "sourceEventIds": [
+          "13101"
+        ]
+      },
+      "legacyId": "bulk-match-83875",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Buddy Murphy vs. Daniel Bryan",
+      "result": "Buddy Murphy defeated Daniel Bryan.",
+      "matchType": "Singles match",
+      "duration": 805,
+      "participants": [
+        {
+          "person": "buddy-murphy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Buddy Murphy",
+        "Daniel Bryan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-08-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83876",
+          "115528"
+        ],
+        "sourceEventIds": [
+          "13101"
+        ]
+      },
+      "legacyId": "bulk-match-83876",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Elias vs. Kevin Owens",
+      "result": "Elias defeated Kevin Owens.",
+      "matchType": "Singles match",
+      "duration": 810,
+      "participants": [
+        {
+          "person": "elias",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Elias",
+        "Kevin Owens"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-08-20"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83878",
+          "115530"
+        ],
+        "sourceEventIds": [
+          "13101"
+        ]
+      },
+      "legacyId": "bulk-match-83878",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13101"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13101"
+    ]
+  }
+}

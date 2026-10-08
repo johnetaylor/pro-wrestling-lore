@@ -1,0 +1,213 @@
+{
+  "id": "wwe/raw/1998-01-26",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1998-01-26",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1998/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Ken Shamrock vs. Mark Henry",
+      "result": "Ken Shamrock defeated Mark Henry by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "ken-shamrock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Ken Shamrock",
+        "Mark Henry"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "29290",
+          "177763"
+        ],
+        "sourceEventIds": [
+          "4475"
+        ]
+      },
+      "legacyId": "bulk-match-29290",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Vader vs. The Artist Formerly Known As Goldust",
+      "result": "Vader defeated The Artist Formerly Known As Goldust.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "vader",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Vader",
+        "The Artist Formerly Known As Goldust"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "29292",
+          "177765"
+        ],
+        "sourceEventIds": [
+          "4475"
+        ]
+      },
+      "legacyId": "bulk-match-29292",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Billy Gunn, Road Dogg vs. Cactus Jack, Terry Funk",
+      "result": "Billy Gunn, Road Dogg defeated Cactus Jack, Terry Funk by disqualification.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "road-dogg",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mick-foley",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "terry-funk",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Billy Gunn",
+        "Road Dogg",
+        "Cactus Jack",
+        "Terry Funk"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "29293",
+          "177766"
+        ],
+        "sourceEventIds": [
+          "4475"
+        ]
+      },
+      "legacyId": "bulk-match-29293",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Pantera vs. Brian Christopher",
+      "result": "Pantera defeated Brian Christopher.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "pantera",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "grand-master-sexay",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Pantera",
+        "Brian Christopher"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "29294",
+          "177767"
+        ],
+        "sourceEventIds": [
+          "4475"
+        ]
+      },
+      "legacyId": "bulk-match-29294",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4475"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4475"
+    ]
+  }
+}

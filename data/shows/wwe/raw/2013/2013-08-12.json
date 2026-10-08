@@ -1,0 +1,161 @@
+{
+  "id": "wwe/raw/2013-08-12",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2013-08-12",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2013/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Wade Barrett vs. Daniel Bryan",
+      "result": "Wade Barrett defeated Daniel Bryan.",
+      "matchType": "Singles match",
+      "duration": 325,
+      "participants": [
+        {
+          "person": "wade-barrett",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Wade Barrett",
+        "Daniel Bryan"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2013/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "63078",
+          "138359"
+        ],
+        "sourceEventIds": [
+          "9961"
+        ]
+      },
+      "legacyId": "bulk-match-63078",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Randy Orton vs. Damien Sandow",
+      "result": "Randy Orton defeated Damien Sandow.",
+      "matchType": "Singles match",
+      "duration": 827,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "damien-sandow",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Damien Sandow"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2013/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "63079",
+          "138360"
+        ],
+        "sourceEventIds": [
+          "9961"
+        ]
+      },
+      "legacyId": "bulk-match-63079",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Alberto Del Rio vs. Kofi Kingston",
+      "result": "Alberto Del Rio defeated Kofi Kingston.",
+      "matchType": "Singles match",
+      "duration": 371,
+      "participants": [
+        {
+          "person": "alberto-del-rio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alberto Del Rio",
+        "Kofi Kingston"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2013/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "63082",
+          "138363"
+        ],
+        "sourceEventIds": [
+          "9961"
+        ]
+      },
+      "legacyId": "bulk-match-63082",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-9961"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "9961"
+    ]
+  }
+}

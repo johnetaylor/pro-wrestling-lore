@@ -1,0 +1,174 @@
+{
+  "id": "wwe/smackdown/2021-06-18",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2021-06-18",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2021-06-18"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Apollo Crews, Commander Azeez vs. Big E, Kevin Owens",
+      "result": "Apollo Crews, Commander Azeez defeated Big E, Kevin Owens.",
+      "matchType": "4-person match",
+      "duration": 549,
+      "participants": [
+        {
+          "person": "apollo-crews",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "commander-azeez",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Apollo Crews",
+        "Commander Azeez",
+        "Big E",
+        "Kevin Owens"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-06-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87160",
+          "110616"
+        ],
+        "sourceEventIds": [
+          "13698"
+        ]
+      },
+      "legacyId": "bulk-match-87160",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Shinsuke Nakamura vs. King Corbin",
+      "result": "Shinsuke Nakamura defeated King Corbin.",
+      "matchType": "Singles match",
+      "duration": 547,
+      "participants": [
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shinsuke Nakamura",
+        "King Corbin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-06-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87161",
+          "110617"
+        ],
+        "sourceEventIds": [
+          "13698"
+        ]
+      },
+      "legacyId": "bulk-match-87161",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Roman Reigns vs. Rey Mysterio",
+      "result": "Roman Reigns defeated Rey Mysterio.",
+      "matchType": "Hell In A Cell match",
+      "duration": 962,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Rey Mysterio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-06-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87162",
+          "110618"
+        ],
+        "sourceEventIds": [
+          "13698"
+        ]
+      },
+      "legacyId": "bulk-match-87162",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13698"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13698"
+    ]
+  }
+}

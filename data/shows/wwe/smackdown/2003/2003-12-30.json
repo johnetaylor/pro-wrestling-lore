@@ -1,0 +1,224 @@
+{
+  "id": "wwe/smackdown/2003-12-30",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2003-12-30",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2003/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rey Mysterio vs. Tajiri",
+      "result": "Rey Mysterio defeated Tajiri.",
+      "matchType": "Singles match",
+      "duration": 834,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tajiri",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Tajiri"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47311",
+          "159693"
+        ],
+        "sourceEventIds": [
+          "7003"
+        ]
+      },
+      "legacyId": "bulk-match-47311",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Bradshaw vs. Rhyno",
+      "result": "Bradshaw defeated Rhyno.",
+      "matchType": "Singles match",
+      "duration": 145,
+      "participants": [
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rhyno",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bradshaw",
+        "Rhyno"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47312",
+          "159694"
+        ],
+        "sourceEventIds": [
+          "7003"
+        ]
+      },
+      "legacyId": "bulk-match-47312",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Chris Benoit, John Cena vs. Chuck Palumbo, Johnny Stamboli, Nunzio",
+      "result": "Chris Benoit, John Cena defeated Chuck Palumbo, Johnny Stamboli, Nunzio.",
+      "matchType": "Tag Team match",
+      "duration": 413,
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chuck-palumbo",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "johnny-stamboli",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "nunzio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "John Cena",
+        "Chuck Palumbo",
+        "Johnny Stamboli",
+        "Nunzio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47313",
+          "159695"
+        ],
+        "sourceEventIds": [
+          "7003"
+        ]
+      },
+      "legacyId": "bulk-match-47313",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "The Big Show vs. Hardcore Holly",
+      "result": "The Big Show defeated Hardcore Holly by disqualification.",
+      "matchType": "Singles match",
+      "duration": 298,
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "Hardcore Holly"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47315",
+          "159697"
+        ],
+        "sourceEventIds": [
+          "7003"
+        ]
+      },
+      "legacyId": "bulk-match-47315",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7003"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7003"
+    ]
+  }
+}

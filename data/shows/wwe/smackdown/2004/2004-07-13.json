@@ -1,0 +1,230 @@
+{
+  "id": "wwe/smackdown/2004-07-13",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2004-07-13",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Rey Mysterio, Spike Dudley vs. Chavo Guerrero, Jamie Noble",
+      "result": "Rey Mysterio, Spike Dudley defeated Chavo Guerrero, Jamie Noble.",
+      "matchType": "4-person match",
+      "duration": 348,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "spike-dudley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chavo-guerrero",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "jamie-noble",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Spike Dudley",
+        "Chavo Guerrero",
+        "Jamie Noble"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48045",
+          "158851"
+        ],
+        "sourceEventIds": [
+          "7146"
+        ]
+      },
+      "legacyId": "bulk-match-48045",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Booker T., Kenzo Suzuki, Rene Dupree vs. John Cena",
+      "result": "Booker T., Kenzo Suzuki, Rene Dupree defeated John Cena.",
+      "matchType": "Tag Team match",
+      "duration": 784,
+      "participants": [
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kenzo-suzuki",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rene-dupree",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Booker T.",
+        "Kenzo Suzuki",
+        "Rene Dupree",
+        "John Cena"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48046",
+          "158852"
+        ],
+        "sourceEventIds": [
+          "7146"
+        ]
+      },
+      "legacyId": "bulk-match-48046",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Paul London vs. D-Von Dudley",
+      "result": "Paul London defeated D-Von Dudley.",
+      "matchType": "Singles match",
+      "duration": 184,
+      "participants": [
+        {
+          "person": "paul-london",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "d-von-dudley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Paul London",
+        "D-Von Dudley"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48047",
+          "158853"
+        ],
+        "sourceEventIds": [
+          "7146"
+        ]
+      },
+      "legacyId": "bulk-match-48047",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "John Bradshaw Layfield vs. Eddie Guerrero",
+      "result": "John Bradshaw Layfield defeated Eddie Guerrero.",
+      "matchType": "Cage match",
+      "duration": 1728,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Bradshaw Layfield",
+        "Eddie Guerrero"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48048",
+          "158854"
+        ],
+        "sourceEventIds": [
+          "7146"
+        ]
+      },
+      "legacyId": "bulk-match-48048",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7146"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7146"
+    ]
+  }
+}

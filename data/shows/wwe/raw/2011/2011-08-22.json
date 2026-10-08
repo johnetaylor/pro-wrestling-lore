@@ -1,0 +1,218 @@
+{
+  "id": "wwe/raw/2011-08-22",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2011-08-22",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2011/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Alberto Del Rio vs. John Morrison",
+      "result": "Alberto Del Rio defeated John Morrison.",
+      "matchType": "Singles match",
+      "duration": 748,
+      "participants": [
+        {
+          "person": "alberto-del-rio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alberto Del Rio",
+        "John Morrison"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "57271",
+          "146183"
+        ],
+        "sourceEventIds": [
+          "8983"
+        ]
+      },
+      "legacyId": "bulk-match-57271",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Alex Riley vs. Jack Swagger",
+      "result": "Alex Riley defeated Jack Swagger.",
+      "matchType": "Singles match",
+      "duration": 123,
+      "participants": [
+        {
+          "person": "alex-riley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jack-swagger",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alex Riley",
+        "Jack Swagger"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "57273",
+          "146185"
+        ],
+        "sourceEventIds": [
+          "8983"
+        ]
+      },
+      "legacyId": "bulk-match-57273",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Evan Bourne, Kofi Kingston vs. David Otunga, Michael McGillicutty",
+      "result": "Evan Bourne, Kofi Kingston defeated David Otunga, Michael McGillicutty.",
+      "matchType": "4-person match",
+      "duration": 306,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "evan-bourne",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "david-otunga",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "curtis-axel",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Evan Bourne",
+        "Kofi Kingston",
+        "David Otunga",
+        "Michael McGillicutty"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "57274",
+          "146186"
+        ],
+        "sourceEventIds": [
+          "8983"
+        ]
+      },
+      "legacyId": "bulk-match-57274",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "John Cena vs. CM Punk",
+      "result": "John Cena defeated CM Punk.",
+      "matchType": "Singles match",
+      "duration": 869,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cm-punk",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "CM Punk"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "57275",
+          "146187"
+        ],
+        "sourceEventIds": [
+          "8983"
+        ]
+      },
+      "legacyId": "bulk-match-57275",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8983"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8983"
+    ]
+  }
+}

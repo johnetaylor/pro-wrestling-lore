@@ -1,0 +1,177 @@
+{
+  "id": "wwe/raw/2011-07-04",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2011-07-04",
+  "dateBasis": "aired",
+  "recordedDate": "2011-06-27",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2011/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "David Otunga, Michael McGillicutty vs. Santino Marella, Vladimir Kozlov",
+      "result": "David Otunga, Michael McGillicutty defeated Santino Marella, Vladimir Kozlov.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "david-otunga",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "curtis-axel",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "santino-marella",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "vladimir-kozlov",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "David Otunga",
+        "Michael McGillicutty",
+        "Santino Marella",
+        "Vladimir Kozlov"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "57001",
+          "146590"
+        ],
+        "sourceEventIds": [
+          "8928"
+        ]
+      },
+      "legacyId": "bulk-match-57001",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Jack Swagger vs. Sergeant Slaughter",
+      "result": "Jack Swagger defeated Sergeant Slaughter.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "jack-swagger",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sgt-slaughter",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jack Swagger",
+        "Sergeant Slaughter"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "57002",
+          "146591"
+        ],
+        "sourceEventIds": [
+          "8928"
+        ]
+      },
+      "legacyId": "bulk-match-57002",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Alberto Del Rio vs. R-Truth, Rey Mysterio",
+      "result": "Alberto Del Rio defeated R-Truth, Rey Mysterio.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "alberto-del-rio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alberto Del Rio",
+        "R-Truth",
+        "Rey Mysterio"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "57003",
+          "146592"
+        ],
+        "sourceEventIds": [
+          "8928"
+        ]
+      },
+      "legacyId": "bulk-match-57003",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8928"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8928"
+    ]
+  }
+}

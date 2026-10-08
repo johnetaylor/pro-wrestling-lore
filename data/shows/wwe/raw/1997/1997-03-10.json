@@ -1,0 +1,171 @@
+{
+  "id": "wwe/raw/1997-03-10",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1997-03-10",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1997/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rocky Maivia vs. Tony Roy",
+      "result": "Rocky Maivia defeated Tony Roy.",
+      "matchType": "Singles match",
+      "duration": 98,
+      "participants": [
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tony-roy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rocky Maivia",
+        "Tony Roy"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "26688",
+          "180352"
+        ],
+        "sourceEventIds": [
+          "4141"
+        ]
+      },
+      "legacyId": "bulk-match-26688",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Ahmed Johnson vs. Roy Raymond",
+      "result": "Ahmed Johnson defeated Roy Raymond.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "ahmed-johnson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "roy-raymond",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ahmed Johnson",
+        "Roy Raymond"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "26690",
+          "180354"
+        ],
+        "sourceEventIds": [
+          "4141"
+        ]
+      },
+      "legacyId": "bulk-match-26690",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Blackjack Bradshaw, Blackjack Windham vs. Owen Hart, The British Bulldog",
+      "result": "Blackjack Bradshaw, Blackjack Windham defeated Owen Hart, The British Bulldog by disqualification.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "blackjack-bradshaw",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "blackjack-windham",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "owen-hart",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "the-british-bulldog",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Blackjack Bradshaw",
+        "Blackjack Windham",
+        "Owen Hart",
+        "The British Bulldog"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "26691",
+          "180355"
+        ],
+        "sourceEventIds": [
+          "4141"
+        ]
+      },
+      "legacyId": "bulk-match-26691",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4141"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4141"
+    ]
+  }
+}

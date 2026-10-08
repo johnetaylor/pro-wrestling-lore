@@ -1,0 +1,216 @@
+{
+  "id": "wwe/raw/2007-05-07",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2007-05-07",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Candice Michelle, Mickie James vs. Melina, Victoria",
+      "result": "Candice Michelle, Mickie James defeated Melina, Victoria.",
+      "matchType": "4-person match",
+      "duration": 157,
+      "participants": [
+        {
+          "person": "candice-michelle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "melina",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "victoria",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Candice Michelle",
+        "Mickie James",
+        "Melina",
+        "Victoria"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51839",
+          "154138"
+        ],
+        "sourceEventIds": [
+          "7865"
+        ]
+      },
+      "legacyId": "bulk-match-51839",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Santino Marella vs. Chris Masters",
+      "result": "Santino Marella defeated Chris Masters.",
+      "matchType": "Singles match",
+      "duration": 255,
+      "participants": [
+        {
+          "person": "santino-marella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-masters",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Santino Marella",
+        "Chris Masters"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51840",
+          "154139"
+        ],
+        "sourceEventIds": [
+          "7865"
+        ]
+      },
+      "legacyId": "bulk-match-51840",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "The Great Khali vs. Shawn Michaels",
+      "result": "The Great Khali defeated Shawn Michaels.",
+      "matchType": "Other match",
+      "duration": 358,
+      "participants": [
+        {
+          "person": "the-great-khali",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Great Khali",
+        "Shawn Michaels"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51842",
+          "154141"
+        ],
+        "sourceEventIds": [
+          "7865"
+        ]
+      },
+      "legacyId": "bulk-match-51842",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Singles match",
+      "result": "John Cena, Randy Orton — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Randy Orton"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51845",
+          "154144"
+        ],
+        "sourceEventIds": [
+          "7865"
+        ]
+      },
+      "legacyId": "bulk-match-51845",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7865"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7865"
+    ]
+  }
+}

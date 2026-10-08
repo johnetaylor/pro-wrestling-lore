@@ -1,0 +1,117 @@
+{
+  "id": "wwe/raw/2016-09-05",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2016-09-05",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2016/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 7,
+      "type": "match",
+      "title": "Darren Young vs. Jinder Mahal",
+      "result": "Darren Young defeated Jinder Mahal.",
+      "matchType": "Other match",
+      "duration": 134,
+      "participants": [
+        {
+          "person": "darren-young",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Darren Young",
+        "Jinder Mahal"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "74262",
+          "125458"
+        ],
+        "sourceEventIds": [
+          "11512"
+        ]
+      },
+      "legacyId": "bulk-match-74262",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 9,
+      "type": "match",
+      "title": "Kevin Owens vs. Sami Zayn",
+      "result": "Kevin Owens defeated Sami Zayn.",
+      "matchType": "Singles match",
+      "duration": 777,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Sami Zayn"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "74264",
+          "125460"
+        ],
+        "sourceEventIds": [
+          "11512"
+        ]
+      },
+      "legacyId": "bulk-match-74264",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11512"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11512"
+    ]
+  }
+}

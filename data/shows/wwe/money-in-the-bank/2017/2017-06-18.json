@@ -1,0 +1,74 @@
+{
+  "id": "wwe/money-in-the-bank/2017-06-18",
+  "promotion": "wwe",
+  "series": "wwe/money-in-the-bank",
+  "name": "Money In The Bank '17",
+  "date": "2017-06-18",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/moneyinthebank/2017"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Naomi vs. Lana",
+      "result": "Naomi defeated Lana.",
+      "matchType": "Singles match",
+      "duration": 446,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "lana",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Naomi",
+        "Lana"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/moneyinthebank/2017"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77666",
+          "121839"
+        ],
+        "sourceEventIds": [
+          "12035"
+        ]
+      },
+      "legacyId": "bulk-match-77666",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12035"
+  ],
+  "legacy": {
+    "showFamily": "money-in-the-bank",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12035"
+    ]
+  }
+}

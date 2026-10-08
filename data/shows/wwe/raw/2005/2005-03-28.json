@@ -1,0 +1,184 @@
+{
+  "id": "wwe/raw/2005-03-28",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2005-03-28",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Chris Benoit, Chris Jericho, Shelton Benjamin vs. Christian, Edge, Tyson Tomko",
+      "result": "Chris Benoit, Chris Jericho, Shelton Benjamin defeated Christian, Edge, Tyson Tomko.",
+      "matchType": "Tag Team match",
+      "duration": 870,
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tyson-tomko",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Chris Jericho",
+        "Shelton Benjamin",
+        "Christian",
+        "Edge",
+        "Tyson Tomko"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48869",
+          "157686"
+        ],
+        "sourceEventIds": [
+          "7321"
+        ]
+      },
+      "legacyId": "bulk-match-48869",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Christy Hemme vs. Trish Stratus",
+      "result": "Christy Hemme defeated Trish Stratus.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "christy-hemme",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "trish-stratus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Christy Hemme",
+        "Trish Stratus"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48870",
+          "157687"
+        ],
+        "sourceEventIds": [
+          "7321"
+        ]
+      },
+      "legacyId": "bulk-match-48870",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Shawn Michaels vs. Muhammad Hassan",
+      "result": "Shawn Michaels defeated Muhammad Hassan by disqualification.",
+      "matchType": "Singles match",
+      "duration": 725,
+      "participants": [
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "muhammad-hassan",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Shawn Michaels",
+        "Muhammad Hassan"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48872",
+          "157689"
+        ],
+        "sourceEventIds": [
+          "7321"
+        ]
+      },
+      "legacyId": "bulk-match-48872",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7321"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7321"
+    ]
+  }
+}

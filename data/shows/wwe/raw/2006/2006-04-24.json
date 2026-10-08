@@ -1,0 +1,142 @@
+{
+  "id": "wwe/raw/2006-04-24",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2006-04-24",
+  "dateBasis": "aired",
+  "recordedDate": "2006-04-21",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2006/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Carlito, Charlie Haas, Rob Van Dam vs. Chris Masters, Matt Striker, Shelton Benjamin",
+      "result": "Carlito, Charlie Haas, Rob Van Dam defeated Chris Masters, Matt Striker, Shelton Benjamin.",
+      "matchType": "Tag Team match",
+      "duration": 547,
+      "participants": [
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlie-haas",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-masters",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "matt-striker",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Carlito",
+        "Charlie Haas",
+        "Rob Van Dam",
+        "Chris Masters",
+        "Matt Striker",
+        "Shelton Benjamin"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50430",
+          "155826"
+        ],
+        "sourceEventIds": [
+          "7612"
+        ]
+      },
+      "legacyId": "bulk-match-50430",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Umaga vs. Steve Lewington",
+      "result": "Umaga defeated Steve Lewington.",
+      "matchType": "Singles match",
+      "duration": 124,
+      "participants": [
+        {
+          "person": "umaga",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "steve-lewington",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Umaga",
+        "Steve Lewington"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50433",
+          "155829"
+        ],
+        "sourceEventIds": [
+          "7612"
+        ]
+      },
+      "legacyId": "bulk-match-50433",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7612"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7612"
+    ]
+  }
+}

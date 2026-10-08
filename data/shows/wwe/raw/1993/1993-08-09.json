@@ -1,0 +1,171 @@
+{
+  "id": "wwe/raw/1993-08-09",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1993-08-09",
+  "dateBasis": "aired",
+  "recordedDate": "1993-07-25",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1993/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Tatanka vs. Mr. Hughes",
+      "result": "Tatanka defeated Mr. Hughes by count-out.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "tatanka",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mr-hughes",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Tatanka",
+        "Mr. Hughes"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1993/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "19977",
+          "187049"
+        ],
+        "sourceEventIds": [
+          "3152"
+        ]
+      },
+      "legacyId": "bulk-match-19977",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Razor Ramon vs. Dan Dubiel",
+      "result": "Razor Ramon defeated Dan Dubiel.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "scott-hall",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dan-dubiel",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Razor Ramon",
+        "Dan Dubiel"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1993/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "19979",
+          "187051"
+        ],
+        "sourceEventIds": [
+          "3152"
+        ]
+      },
+      "legacyId": "bulk-match-19979",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Jimmy Del Ray, Tom Prichard vs. Bobby Who, Mike Bucci",
+      "result": "Jimmy Del Ray, Tom Prichard defeated Bobby Who, Mike Bucci.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "jimmy-del-ray",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tom-prichard",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bobby-who",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "mike-bucci",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jimmy Del Ray",
+        "Tom Prichard",
+        "Bobby Who",
+        "Mike Bucci"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1993/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "19980",
+          "187052"
+        ],
+        "sourceEventIds": [
+          "3152"
+        ]
+      },
+      "legacyId": "bulk-match-19980",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-3152"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "3152"
+    ]
+  }
+}

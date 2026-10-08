@@ -1,0 +1,83 @@
+{
+  "id": "wwe/nxt/2015-09-10",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2015-09-10",
+  "dateBasis": "aired",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwenxt/2015-09-10"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Chad Gable, Jason Jordan vs. Dash Wilder, Scott Dawson",
+      "result": "Chad Gable, Jason Jordan defeated Dash Wilder, Scott Dawson.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jason-jordan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dash-wilder",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "scott-dawson",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chad Gable",
+        "Jason Jordan",
+        "Dash Wilder",
+        "Scott Dawson"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2015-09-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "129726"
+        ],
+        "sourceEventIds": [
+          "19257"
+        ]
+      },
+      "legacyId": "bulk-match-129726",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-19257"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "19257"
+    ]
+  }
+}

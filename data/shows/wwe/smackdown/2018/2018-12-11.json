@@ -1,0 +1,170 @@
+{
+  "id": "wwe/smackdown/2018-12-11",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-12-11",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-12-11"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Daniel Bryan vs. Mustafa Ali",
+      "result": "Daniel Bryan defeated Mustafa Ali.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mustafa-ali",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "Mustafa Ali"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-12-11"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82070",
+          "117376"
+        ],
+        "sourceEventIds": [
+          "12788"
+        ]
+      },
+      "legacyId": "bulk-match-82070",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Jeff Hardy, Rusev vs. Samoa Joe, Shinsuke Nakamura",
+      "result": "Jeff Hardy, Rusev defeated Samoa Joe, Shinsuke Nakamura.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "samoa-joe",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Rusev",
+        "Samoa Joe",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-12-11"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82072",
+          "117378"
+        ],
+        "sourceEventIds": [
+          "12788"
+        ]
+      },
+      "legacyId": "bulk-match-82072",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Asuka vs. Charlotte Flair",
+      "result": "Asuka defeated Charlotte Flair by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "asuka",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Asuka",
+        "Charlotte Flair"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-12-11"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82073",
+          "117379"
+        ],
+        "sourceEventIds": [
+          "12788"
+        ]
+      },
+      "legacyId": "bulk-match-82073",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12788"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12788"
+    ]
+  }
+}

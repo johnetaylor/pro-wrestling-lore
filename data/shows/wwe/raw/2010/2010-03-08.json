@@ -1,0 +1,129 @@
+{
+  "id": "wwe/raw/2010-03-08",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2010-03-08",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2010/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "4-person match",
+      "result": "The Big Show, The Miz, John Morrison, R-Truth — no contest.",
+      "matchType": "4-person match",
+      "duration": 35,
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "The Miz",
+        "John Morrison",
+        "R-Truth"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55405",
+          "149456"
+        ],
+        "sourceEventIds": [
+          "8560"
+        ]
+      },
+      "legacyId": "bulk-match-55405",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Evan Bourne vs. William Regal",
+      "result": "Evan Bourne defeated William Regal.",
+      "matchType": "Singles match",
+      "duration": 89,
+      "participants": [
+        {
+          "person": "evan-bourne",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Evan Bourne",
+        "William Regal"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55407",
+          "149458"
+        ],
+        "sourceEventIds": [
+          "8560"
+        ]
+      },
+      "legacyId": "bulk-match-55407",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8560"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8560"
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "id": "wwe/smackdown/2012-04-10",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2012-04-10",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2012/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Mark Henry vs. Randy Orton",
+      "result": "Mark Henry defeated Randy Orton by count-out.",
+      "matchType": "Singles match",
+      "duration": 660,
+      "participants": [
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Mark Henry",
+        "Randy Orton"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2012/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "58853",
+          "143958"
+        ],
+        "sourceEventIds": [
+          "9265"
+        ]
+      },
+      "legacyId": "bulk-match-58853",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Ryback vs. Benny Camer",
+      "result": "Ryback defeated Benny Camer.",
+      "matchType": "Singles match",
+      "duration": 35,
+      "participants": [
+        {
+          "person": "ryback",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "benny-camer",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ryback",
+        "Benny Camer"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2012/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "58854",
+          "143959"
+        ],
+        "sourceEventIds": [
+          "9265"
+        ]
+      },
+      "legacyId": "bulk-match-58854",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Hunico vs. Jim Duggan",
+      "result": "Hunico defeated Jim Duggan by disqualification.",
+      "matchType": "Singles match",
+      "duration": 60,
+      "participants": [
+        {
+          "person": "hunico",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jim-duggan",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Hunico",
+        "Jim Duggan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2012/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "58857",
+          "143962"
+        ],
+        "sourceEventIds": [
+          "9265"
+        ]
+      },
+      "legacyId": "bulk-match-58857",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Gene Okerlund, Sheamus vs. Alberto Del Rio, Daniel Bryan",
+      "result": "Gene Okerlund, Sheamus defeated Alberto Del Rio, Daniel Bryan.",
+      "matchType": "4-person match",
+      "duration": 205,
+      "participants": [
+        {
+          "person": "gene-okerlund",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alberto-del-rio",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Gene Okerlund",
+        "Sheamus",
+        "Alberto Del Rio",
+        "Daniel Bryan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2012/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "58858",
+          "143963"
+        ],
+        "sourceEventIds": [
+          "9265"
+        ]
+      },
+      "legacyId": "bulk-match-58858",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-9265"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "9265"
+    ]
+  }
+}

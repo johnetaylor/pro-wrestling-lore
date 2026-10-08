@@ -1,0 +1,161 @@
+{
+  "id": "wwe/raw/1997-08-11",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1997-08-11",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1997/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Scott Putski vs. Tony Williams",
+      "result": "Scott Putski defeated Tony Williams.",
+      "matchType": "Singles match",
+      "duration": 213,
+      "participants": [
+        {
+          "person": "scott-putski",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tony-williams",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Scott Putski",
+        "Tony Williams"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27903",
+          "179153"
+        ],
+        "sourceEventIds": [
+          "4303"
+        ]
+      },
+      "legacyId": "bulk-match-27903",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Faarooq vs. Chainz",
+      "result": "Faarooq defeated Chainz.",
+      "matchType": "Singles match",
+      "duration": 182,
+      "participants": [
+        {
+          "person": "ron-simmons",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chainz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Faarooq",
+        "Chainz"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27906",
+          "179156"
+        ],
+        "sourceEventIds": [
+          "4303"
+        ]
+      },
+      "legacyId": "bulk-match-27906",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Shawn Michaels vs. Mankind",
+      "result": "Shawn Michaels defeated Mankind.",
+      "matchType": "Singles match",
+      "duration": 660,
+      "participants": [
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mick-foley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shawn Michaels",
+        "Mankind"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27907",
+          "179157"
+        ],
+        "sourceEventIds": [
+          "4303"
+        ]
+      },
+      "legacyId": "bulk-match-27907",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4303"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4303"
+    ]
+  }
+}

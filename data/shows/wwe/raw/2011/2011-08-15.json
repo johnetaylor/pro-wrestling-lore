@@ -1,0 +1,218 @@
+{
+  "id": "wwe/raw/2011-08-15",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2011-08-15",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2011/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "John Morrison vs. R-Truth",
+      "result": "John Morrison defeated R-Truth.",
+      "matchType": "Other match",
+      "duration": 648,
+      "participants": [
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Morrison",
+        "R-Truth"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "57229",
+          "146243"
+        ],
+        "sourceEventIds": [
+          "8975"
+        ]
+      },
+      "legacyId": "bulk-match-57229",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Jack Swagger vs. Alex Riley",
+      "result": "Jack Swagger defeated Alex Riley.",
+      "matchType": "Singles match",
+      "duration": 263,
+      "participants": [
+        {
+          "person": "jack-swagger",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alex-riley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jack Swagger",
+        "Alex Riley"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "57231",
+          "146245"
+        ],
+        "sourceEventIds": [
+          "8975"
+        ]
+      },
+      "legacyId": "bulk-match-57231",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Evan Bourne, Kofi Kingston vs. David Otunga, Michael McGillicutty",
+      "result": "Evan Bourne, Kofi Kingston defeated David Otunga, Michael McGillicutty.",
+      "matchType": "4-person match",
+      "duration": 283,
+      "participants": [
+        {
+          "person": "evan-bourne",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "david-otunga",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "curtis-axel",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Evan Bourne",
+        "Kofi Kingston",
+        "David Otunga",
+        "Michael McGillicutty"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "57232",
+          "146246"
+        ],
+        "sourceEventIds": [
+          "8975"
+        ]
+      },
+      "legacyId": "bulk-match-57232",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Alberto Del Rio vs. Rey Mysterio",
+      "result": "Alberto Del Rio defeated Rey Mysterio.",
+      "matchType": "Singles match",
+      "duration": 770,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "alberto-del-rio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alberto Del Rio",
+        "Rey Mysterio"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2011/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "57233",
+          "146247"
+        ],
+        "sourceEventIds": [
+          "8975"
+        ]
+      },
+      "legacyId": "bulk-match-57233",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8975"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8975"
+    ]
+  }
+}

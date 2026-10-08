@@ -1,0 +1,175 @@
+{
+  "id": "wwe/smackdown/2017-09-12",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-09-12",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-09-12"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "A.J. Styles vs. Tye Dillinger",
+      "result": "A.J. Styles defeated Tye Dillinger.",
+      "matchType": "Singles match",
+      "duration": 439,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shawn-spears",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Tye Dillinger"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-09-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78557",
+          "120908"
+        ],
+        "sourceEventIds": [
+          "12175"
+        ]
+      },
+      "legacyId": "bulk-match-78557",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Natalya vs. Naomi",
+      "result": "Natalya defeated Naomi.",
+      "matchType": "Singles match",
+      "duration": 441,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Natalya",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-09-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78559",
+          "120910"
+        ],
+        "sourceEventIds": [
+          "12175"
+        ]
+      },
+      "legacyId": "bulk-match-78559",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Chad Gable, Shelton Benjamin vs. Mojo Rawley, Zack Ryder",
+      "result": "Chad Gable, Shelton Benjamin defeated Mojo Rawley, Zack Ryder.",
+      "matchType": "4-person match",
+      "duration": 145,
+      "participants": [
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mojo-rawley",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "matt-cardona",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chad Gable",
+        "Shelton Benjamin",
+        "Mojo Rawley",
+        "Zack Ryder"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-09-12"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78560",
+          "120911"
+        ],
+        "sourceEventIds": [
+          "12175"
+        ]
+      },
+      "legacyId": "bulk-match-78560",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12175"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12175"
+    ]
+  }
+}

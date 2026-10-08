@@ -1,0 +1,171 @@
+{
+  "id": "wwe/smackdown/2014-09-12",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2014-09-12",
+  "dateBasis": "aired",
+  "recordedDate": "2014-09-09",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2014/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Bo Dallas vs. Justin Gabriel",
+      "result": "Bo Dallas defeated Justin Gabriel.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "uncle-howdy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "justin-gabriel",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bo Dallas",
+        "Justin Gabriel"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "66555",
+          "134042"
+        ],
+        "sourceEventIds": [
+          "10446"
+        ]
+      },
+      "legacyId": "bulk-match-66555",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Paige vs. Summer Rae",
+      "result": "Paige defeated Summer Rae.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "paige",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "summer-rae",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Paige",
+        "Summer Rae"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "66556",
+          "134043"
+        ],
+        "sourceEventIds": [
+          "10446"
+        ]
+      },
+      "legacyId": "bulk-match-66556",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 8,
+      "type": "match",
+      "title": "Chris Jericho, Roman Reigns vs. Randy Orton, Seth Rollins",
+      "result": "Chris Jericho, Roman Reigns defeated Randy Orton, Seth Rollins.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Roman Reigns",
+        "Randy Orton",
+        "Seth Rollins"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "66560",
+          "134047"
+        ],
+        "sourceEventIds": [
+          "10446"
+        ]
+      },
+      "legacyId": "bulk-match-66560",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10446"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10446"
+    ]
+  }
+}

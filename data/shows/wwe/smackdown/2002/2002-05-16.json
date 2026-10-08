@@ -1,0 +1,225 @@
+{
+  "id": "wwe/smackdown/2002-05-16",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2002-05-16",
+  "dateBasis": "aired",
+  "recordedDate": "2002-05-14",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2002/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "D-Von Dudley vs. Maven",
+      "result": "D-Von Dudley defeated Maven.",
+      "matchType": "Singles match",
+      "duration": 114,
+      "participants": [
+        {
+          "person": "d-von-dudley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "maven",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "D-Von Dudley",
+        "Maven"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44716",
+          "162249"
+        ],
+        "sourceEventIds": [
+          "6564"
+        ]
+      },
+      "legacyId": "bulk-match-44716",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Rikishi vs. Rico",
+      "result": "Rikishi defeated Rico.",
+      "matchType": "Singles match",
+      "duration": 124,
+      "participants": [
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rico",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rikishi",
+        "Rico"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44717",
+          "162250"
+        ],
+        "sourceEventIds": [
+          "6564"
+        ]
+      },
+      "legacyId": "bulk-match-44717",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "The Hurricane vs. Billy Kidman, Tajiri",
+      "result": "The Hurricane defeated Billy Kidman, Tajiri.",
+      "matchType": "Other match",
+      "duration": 141,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "the-hurricane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billy-kidman",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tajiri",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Hurricane",
+        "Billy Kidman",
+        "Tajiri"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44718",
+          "162251"
+        ],
+        "sourceEventIds": [
+          "6564"
+        ]
+      },
+      "legacyId": "bulk-match-44718",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Chris Jericho, Kurt Angle vs. Edge, Triple H",
+      "result": "Chris Jericho, Kurt Angle defeated Edge, Triple H.",
+      "matchType": "4-person match",
+      "duration": 528,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Kurt Angle",
+        "Edge",
+        "Triple H"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44719",
+          "162252"
+        ],
+        "sourceEventIds": [
+          "6564"
+        ]
+      },
+      "legacyId": "bulk-match-44719",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6564"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6564"
+    ]
+  }
+}

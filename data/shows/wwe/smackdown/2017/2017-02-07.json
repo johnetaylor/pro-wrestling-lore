@@ -1,0 +1,173 @@
+{
+  "id": "wwe/smackdown/2017-02-07",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-02-07",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-02-07"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Baron Corbin vs. A.J. Styles, Dean Ambrose, The Miz",
+      "result": "Baron Corbin defeated A.J. Styles, Dean Ambrose, The Miz.",
+      "matchType": "Fatal Four Way match",
+      "duration": 775,
+      "participants": [
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Baron Corbin",
+        "A.J. Styles",
+        "Dean Ambrose",
+        "The Miz"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-02-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76089",
+          "123449"
+        ],
+        "sourceEventIds": [
+          "11794"
+        ]
+      },
+      "legacyId": "bulk-match-76089",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Apollo Crews vs. Dolph Ziggler",
+      "result": "Apollo Crews defeated Dolph Ziggler.",
+      "matchType": "Singles match",
+      "duration": 63,
+      "participants": [
+        {
+          "person": "apollo-crews",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Apollo Crews",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-02-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76090",
+          "123450"
+        ],
+        "sourceEventIds": [
+          "11794"
+        ]
+      },
+      "legacyId": "bulk-match-76090",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "John Cena vs. Randy Orton",
+      "result": "John Cena defeated Randy Orton.",
+      "matchType": "Singles match",
+      "duration": 814,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Randy Orton"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-02-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76092",
+          "123452"
+        ],
+        "sourceEventIds": [
+          "11794"
+        ]
+      },
+      "legacyId": "bulk-match-76092",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11794"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11794"
+    ]
+  }
+}

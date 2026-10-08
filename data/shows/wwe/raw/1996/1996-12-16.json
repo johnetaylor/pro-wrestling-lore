@@ -1,0 +1,115 @@
+{
+  "id": "wwe/raw/1996-12-16",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1996-12-16",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1996/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Vader, Steve Austin — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "vader",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Vader",
+        "Steve Austin"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1996/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "26057",
+          "180986"
+        ],
+        "sourceEventIds": [
+          "4058"
+        ]
+      },
+      "legacyId": "bulk-match-26057",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Bart Gunn vs. Billy Gunn",
+      "result": "Bart Gunn defeated Billy Gunn.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "bart-gunn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bart Gunn",
+        "Billy Gunn"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1996/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "26060",
+          "180989"
+        ],
+        "sourceEventIds": [
+          "4058"
+        ]
+      },
+      "legacyId": "bulk-match-26060",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4058"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4058"
+    ]
+  }
+}

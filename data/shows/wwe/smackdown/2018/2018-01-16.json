@@ -1,0 +1,230 @@
+{
+  "id": "wwe/smackdown/2018-01-16",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-01-16",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-01-16"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Jinder Mahal vs. Xavier Woods",
+      "result": "Jinder Mahal defeated Xavier Woods.",
+      "matchType": "Singles match",
+      "duration": 1081,
+      "participants": [
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jinder Mahal",
+        "Xavier Woods"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-01-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79516",
+          "119949"
+        ],
+        "sourceEventIds": [
+          "12341"
+        ]
+      },
+      "legacyId": "bulk-match-79516",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Bobby Roode vs. Mojo Rawley",
+      "result": "Bobby Roode defeated Mojo Rawley.",
+      "matchType": "Singles match",
+      "duration": 795,
+      "participants": [
+        {
+          "person": "bobby-roode",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mojo-rawley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bobby Roode",
+        "Mojo Rawley"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-01-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79517",
+          "119950"
+        ],
+        "sourceEventIds": [
+          "12341"
+        ]
+      },
+      "legacyId": "bulk-match-79517",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Liv Morgan, Ruby Riott, Sarah Logan vs. Becky Lynch, Charlotte Flair, Naomi",
+      "result": "Liv Morgan, Ruby Riott, Sarah Logan defeated Becky Lynch, Charlotte Flair, Naomi.",
+      "matchType": "Tag Team match",
+      "duration": 489,
+      "participants": [
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ruby-riott",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "valhalla",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Liv Morgan",
+        "Ruby Riott",
+        "Sarah Logan",
+        "Becky Lynch",
+        "Charlotte Flair",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-01-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79518",
+          "119951"
+        ],
+        "sourceEventIds": [
+          "12341"
+        ]
+      },
+      "legacyId": "bulk-match-79518",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Bobby Roode vs. Jinder Mahal",
+      "result": "Bobby Roode defeated Jinder Mahal.",
+      "matchType": "Singles match",
+      "duration": 944,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bobby-roode",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bobby Roode",
+        "Jinder Mahal"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-01-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79519",
+          "119952"
+        ],
+        "sourceEventIds": [
+          "12341"
+        ]
+      },
+      "legacyId": "bulk-match-79519",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12341"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12341"
+    ]
+  }
+}

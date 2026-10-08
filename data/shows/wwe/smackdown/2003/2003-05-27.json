@@ -1,0 +1,188 @@
+{
+  "id": "wwe/smackdown/2003-05-27",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2003-05-27",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2003/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Nidia vs. Torrie Wilson",
+      "result": "Nidia defeated Torrie Wilson.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "nidia",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "torrie-wilson",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Nidia",
+        "Torrie Wilson"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46380",
+          "160607"
+        ],
+        "sourceEventIds": [
+          "6844"
+        ]
+      },
+      "legacyId": "bulk-match-46380",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Eddie Guerrero, Tajiri vs. Charlie Haas, Shelton Benjamin",
+      "result": "Eddie Guerrero, Tajiri defeated Charlie Haas, Shelton Benjamin by disqualification.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tajiri",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlie-haas",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Eddie Guerrero",
+        "Tajiri",
+        "Charlie Haas",
+        "Shelton Benjamin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46381",
+          "160608"
+        ],
+        "sourceEventIds": [
+          "6844"
+        ]
+      },
+      "legacyId": "bulk-match-46381",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Chuck Palumbo, Johnny Stamboli, The Big Show vs. Brock Lesnar, The Undertaker",
+      "result": "Chuck Palumbo, Johnny Stamboli, The Big Show defeated Brock Lesnar, The Undertaker.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "chuck-palumbo",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "johnny-stamboli",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "brock-lesnar",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chuck Palumbo",
+        "Johnny Stamboli",
+        "The Big Show",
+        "Brock Lesnar",
+        "The Undertaker"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46384",
+          "160611"
+        ],
+        "sourceEventIds": [
+          "6844"
+        ]
+      },
+      "legacyId": "bulk-match-46384",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6844"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6844"
+    ]
+  }
+}

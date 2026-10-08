@@ -1,0 +1,115 @@
+{
+  "id": "mcmahon",
+  "name": "McMahon · Levesque",
+  "description": "Four generations of promoters and performers, with Triple H connected through Stephanie.",
+  "branches": [
+    {
+      "id": "mcmahon",
+      "name": "The McMahon · Levesque family"
+    }
+  ],
+  "members": [
+    {
+      "id": "jess-mcmahon",
+      "name": "Jess McMahon",
+      "branch": "mcmahon",
+      "source": "mcmahon",
+      "layout": {
+        "x": 196,
+        "y": 24
+      }
+    },
+    {
+      "id": "vincent-j-mcmahon",
+      "name": "Vincent J. McMahon",
+      "branch": "mcmahon",
+      "source": "mcmahon",
+      "layout": {
+        "x": 196,
+        "y": 164
+      }
+    },
+    {
+      "id": "vince-mcmahon",
+      "name": "Vince McMahon",
+      "person": "vince-mcmahon",
+      "branch": "mcmahon",
+      "source": "mcmahon",
+      "layout": {
+        "x": 196,
+        "y": 304
+      }
+    },
+    {
+      "id": "shane-mcmahon",
+      "name": "Shane McMahon",
+      "person": "shane-mcmahon",
+      "branch": "mcmahon",
+      "source": "mcmahon",
+      "layout": {
+        "x": 16,
+        "y": 444
+      }
+    },
+    {
+      "id": "stephanie-mcmahon",
+      "name": "Stephanie McMahon",
+      "person": "stephanie-mcmahon",
+      "branch": "mcmahon",
+      "source": "mcmahon",
+      "layout": {
+        "x": 196,
+        "y": 444
+      }
+    },
+    {
+      "id": "triple-h",
+      "name": "Triple H",
+      "person": "triple-h",
+      "branch": "mcmahon",
+      "source": "mcmahon",
+      "layout": {
+        "x": 376,
+        "y": 444
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "jess-mcmahon",
+      "b": "vincent-j-mcmahon",
+      "type": "parent",
+      "source": "mcmahon"
+    },
+    {
+      "a": "vincent-j-mcmahon",
+      "b": "vince-mcmahon",
+      "type": "parent",
+      "source": "mcmahon"
+    },
+    {
+      "a": "vince-mcmahon",
+      "b": "shane-mcmahon",
+      "type": "parent",
+      "source": "mcmahon"
+    },
+    {
+      "a": "vince-mcmahon",
+      "b": "stephanie-mcmahon",
+      "type": "parent",
+      "source": "mcmahon"
+    },
+    {
+      "a": "stephanie-mcmahon",
+      "b": "triple-h",
+      "type": "marriage",
+      "source": "mcmahon"
+    }
+  ],
+  "sources": {
+    "mcmahon": {
+      "label": "McMahon family genealogy",
+      "url": "https://en.wikipedia.org/wiki/McMahon_family"
+    }
+  }
+}

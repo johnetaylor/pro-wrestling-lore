@@ -1,0 +1,115 @@
+{
+  "id": "wwe/smackdown/2018-07-31",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-07-31",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-07-31"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Zelina Vega vs. Lana",
+      "result": "Zelina Vega defeated Lana.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "zelina-vega",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "lana",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Zelina Vega",
+        "Lana"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-07-31"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81104",
+          "118354"
+        ],
+        "sourceEventIds": [
+          "12612"
+        ]
+      },
+      "legacyId": "bulk-match-81104",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Charlotte Flair vs. Carmella",
+      "result": "Charlotte Flair defeated Carmella.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Carmella"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-07-31"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81105",
+          "118355"
+        ],
+        "sourceEventIds": [
+          "12612"
+        ]
+      },
+      "legacyId": "bulk-match-81105",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12612"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12612"
+    ]
+  }
+}

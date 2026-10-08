@@ -1,0 +1,226 @@
+{
+  "id": "wwe/raw/1999-02-01",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1999-02-01",
+  "dateBasis": "aired",
+  "recordedDate": "1999-01-26",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1999/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Val Venis vs. Billy Gunn",
+      "result": "Val Venis defeated Billy Gunn by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "val-venis",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Val Venis",
+        "Billy Gunn"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "32879",
+          "174149"
+        ],
+        "sourceEventIds": [
+          "4935"
+        ]
+      },
+      "legacyId": "bulk-match-32879",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Darren Drozdov vs. Kurrgan",
+      "result": "Darren Drozdov defeated Kurrgan.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "darren-drozdov",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kurrgan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Darren Drozdov",
+        "Kurrgan"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "32881",
+          "174151"
+        ],
+        "sourceEventIds": [
+          "4935"
+        ]
+      },
+      "legacyId": "bulk-match-32881",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Tag Team match",
+      "result": "Mideon, The Undertaker, Viscera, Christian, Edge, Gangrel — no contest.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "mideon",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "viscera",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "gangrel",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Mideon",
+        "The Undertaker",
+        "Viscera",
+        "Christian",
+        "Edge",
+        "Gangrel"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "32882",
+          "174152"
+        ],
+        "sourceEventIds": [
+          "4935"
+        ]
+      },
+      "legacyId": "bulk-match-32882",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Triple H vs. Kane",
+      "result": "Triple H defeated Kane.",
+      "matchType": "Cage match",
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "Kane"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "32884",
+          "174154"
+        ],
+        "sourceEventIds": [
+          "4935"
+        ]
+      },
+      "legacyId": "bulk-match-32884",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4935"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4935"
+    ]
+  }
+}

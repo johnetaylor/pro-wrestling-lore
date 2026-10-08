@@ -1,0 +1,176 @@
+{
+  "id": "wwe/smackdown/2023-01-27",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2023-01-27",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2023-01-27"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rey Mysterio vs. Karrion Kross",
+      "result": "Rey Mysterio defeated Karrion Kross.",
+      "matchType": "Singles match",
+      "duration": 437,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "karrion-kross",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Karrion Kross"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-01-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6080",
+          "90939",
+          "104408"
+        ],
+        "sourceEventIds": [
+          "1095"
+        ]
+      },
+      "legacyId": "bulk-match-6080",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Braun Strowman, Ricochet vs. Ashante \"Thee\" Adonis, Top Dolla",
+      "result": "Braun Strowman, Ricochet defeated Ashante \"Thee\" Adonis, Top Dolla.",
+      "matchType": "4-person match",
+      "duration": 297,
+      "participants": [
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ashante-thee-adonis",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "top-dolla",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Braun Strowman",
+        "Ricochet",
+        "Ashante \"Thee\" Adonis",
+        "Top Dolla"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-01-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6082",
+          "90941",
+          "104410"
+        ],
+        "sourceEventIds": [
+          "1095"
+        ]
+      },
+      "legacyId": "bulk-match-6082",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Kevin Owens, Solo Sikoa — no contest.",
+      "matchType": "Singles match",
+      "duration": 510,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "solo-sikoa",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Solo Sikoa"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-01-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6084",
+          "90943",
+          "104412"
+        ],
+        "sourceEventIds": [
+          "1095"
+        ]
+      },
+      "legacyId": "bulk-match-6084",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1095"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1095"
+    ]
+  }
+}

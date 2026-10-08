@@ -1,0 +1,230 @@
+{
+  "id": "wwe/smackdown/2020-12-18",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2020-12-18",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2020-12-18"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Angelo Dawkins, Montez Ford vs. Dolph Ziggler, Robert Roode",
+      "result": "Angelo Dawkins, Montez Ford defeated Dolph Ziggler, Robert Roode.",
+      "matchType": "4-person match",
+      "duration": 708,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "angelo-dawkins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "montez-ford",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "robert-roode",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Angelo Dawkins",
+        "Montez Ford",
+        "Dolph Ziggler",
+        "Robert Roode"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-12-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86491",
+          "112019"
+        ],
+        "sourceEventIds": [
+          "13556"
+        ]
+      },
+      "legacyId": "bulk-match-86491",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Liv Morgan, Ruby Riott vs. Billie Kay, Tamina",
+      "result": "Liv Morgan, Ruby Riott defeated Billie Kay, Tamina.",
+      "matchType": "4-person match",
+      "duration": 169,
+      "participants": [
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ruby-riott",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billie-kay",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tamina",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Liv Morgan",
+        "Ruby Riott",
+        "Billie Kay",
+        "Tamina"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-12-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86492",
+          "112020"
+        ],
+        "sourceEventIds": [
+          "13556"
+        ]
+      },
+      "legacyId": "bulk-match-86492",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Otis vs. Shinsuke Nakamura",
+      "result": "Otis defeated Shinsuke Nakamura.",
+      "matchType": "Singles match",
+      "duration": 177,
+      "participants": [
+        {
+          "person": "otis",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Otis",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-12-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86493",
+          "112021"
+        ],
+        "sourceEventIds": [
+          "13556"
+        ]
+      },
+      "legacyId": "bulk-match-86493",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Bayley vs. Bianca Belair",
+      "result": "Bayley defeated Bianca Belair.",
+      "matchType": "Singles match",
+      "duration": 611,
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bianca-belair",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Bianca Belair"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-12-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "86494",
+          "112022"
+        ],
+        "sourceEventIds": [
+          "13556"
+        ]
+      },
+      "legacyId": "bulk-match-86494",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13556"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13556"
+    ]
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "id": "wwe/raw/2009-04-06",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2009-04-06",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2009/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Tag Team match",
+      "result": "CM Punk, Jeff Hardy, John Cena, Rey Mysterio, Ricky Steamboat defeated Chris Jericho, Edge, Kane, Matt Hardy, The Big Show.",
+      "matchType": "Tag Team match",
+      "duration": 938,
+      "participants": [
+        {
+          "person": "cm-punk",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ricky-steamboat",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "CM Punk",
+        "Jeff Hardy",
+        "John Cena",
+        "Rey Mysterio",
+        "Ricky Steamboat",
+        "Chris Jericho",
+        "Edge",
+        "Kane",
+        "Matt Hardy",
+        "The Big Show"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54153",
+          "151145"
+        ],
+        "sourceEventIds": [
+          "8274"
+        ]
+      },
+      "legacyId": "bulk-match-54153",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Santina vs. Beth Phoenix",
+      "result": "Santina defeated Beth Phoenix.",
+      "matchType": "Singles match",
+      "duration": 77,
+      "participants": [
+        {
+          "person": "santina",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "beth-phoenix",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Santina",
+        "Beth Phoenix"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54154",
+          "151146"
+        ],
+        "sourceEventIds": [
+          "8274"
+        ]
+      },
+      "legacyId": "bulk-match-54154",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Mr. McMahon, Randy Orton — no contest.",
+      "matchType": "Singles match",
+      "duration": 300,
+      "participants": [
+        {
+          "person": "vince-mcmahon",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Mr. McMahon",
+        "Randy Orton"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54155",
+          "151147"
+        ],
+        "sourceEventIds": [
+          "8274"
+        ]
+      },
+      "legacyId": "bulk-match-54155",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8274"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8274"
+    ]
+  }
+}

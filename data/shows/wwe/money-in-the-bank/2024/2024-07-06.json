@@ -1,0 +1,431 @@
+{
+  "id": "wwe/money-in-the-bank/2024-07-06",
+  "promotion": "wwe",
+  "series": "wwe/money-in-the-bank",
+  "name": "Money in the Bank 2024",
+  "date": "2024-07-06",
+  "category": "PLE",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "note": "Hugging Face import · official-results comparison. Unverified extra matches were excluded.",
+    "legacyCardStatus": "Imported card compared with official WWE results",
+    "legacySegmentStatus": "Partial; the match dataset does not contain a promo/appearance archive"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/moneyinthebank/2024/results"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Drew McIntyre vs. Andrade, Carmelo Hayes, Chad Gable, Jey Uso, LA Knight",
+      "result": "Drew McIntyre defeated Andrade, Carmelo Hayes, Chad Gable, Jey Uso, LA Knight.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Men’s Money in the Bank Ladder Match",
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor"
+        },
+        {
+          "person": "andrade",
+          "role": "competitor"
+        },
+        {
+          "person": "carmelo-hayes",
+          "role": "competitor"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor"
+        },
+        {
+          "person": "jey-uso",
+          "role": "competitor"
+        },
+        {
+          "person": "la-knight",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "Andrade",
+        "Carmelo Hayes",
+        "Chad Gable",
+        "Jey Uso",
+        "LA Knight"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/moneyinthebank/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/moneyinthebank/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "149",
+        "sourceMatchIds": [
+          "726",
+          "99054"
+        ],
+        "rawInputSha256": "8ce7526ffb0fd36bac1bba2f88831b3423b40798bcc461414c57c4a8af8b6759",
+        "normalizedParticipants": [
+          {
+            "name": "Drew McIntyre",
+            "result": "win"
+          },
+          {
+            "name": "Andrade",
+            "result": "loss"
+          },
+          {
+            "name": "Carmelo Hayes",
+            "result": "loss"
+          },
+          {
+            "name": "Chad Gable",
+            "result": "loss"
+          },
+          {
+            "name": "Jey Uso",
+            "result": "loss"
+          },
+          {
+            "name": "LA Knight",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/moneyinthebank/2024/results"
+      },
+      "legacyId": "hf-match-726",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Sami Zayn vs. Bron Breakker",
+      "result": "Sami Zayn defeated Bron Breakker.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "sami-zayn",
+          "role": "competitor"
+        },
+        {
+          "person": "bron-breakker",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Sami Zayn",
+        "Bron Breakker"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/moneyinthebank/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/moneyinthebank/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "149",
+        "sourceMatchIds": [
+          "727",
+          "99055"
+        ],
+        "rawInputSha256": "20aacf40dc083b7d3f53214bb1128344aed02e1413fe467ca6f8b667be353fa7",
+        "normalizedParticipants": [
+          {
+            "name": "Sami Zayn",
+            "result": "win"
+          },
+          {
+            "name": "Bron Breakker",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/moneyinthebank/2024/results"
+      },
+      "legacyId": "hf-match-727",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Damian Priest vs. Drew McIntyre, Seth Rollins",
+      "result": "Damian Priest defeated Drew McIntyre, Seth Rollins.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Triple Threat Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "damian-priest",
+          "role": "competitor"
+        },
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Damian Priest",
+        "Drew McIntyre",
+        "Seth Rollins"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/moneyinthebank/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/moneyinthebank/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "149",
+        "sourceMatchIds": [
+          "728",
+          "99056"
+        ],
+        "rawInputSha256": "0e9bc6fb75f9f47d40d6476b424eff19b7bb1bd8e916e14cd51cc83a9b05cc3c",
+        "normalizedParticipants": [
+          {
+            "name": "Damian Priest",
+            "result": "win"
+          },
+          {
+            "name": "Drew McIntyre",
+            "result": "loss"
+          },
+          {
+            "name": "Seth Rollins",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/moneyinthebank/2024/results"
+      },
+      "legacyId": "hf-match-728",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Tiffany Stratton vs. Chelsea Green, IYO SKY, Lyra Valkyria, Naomi, Zoey Stark",
+      "result": "Tiffany Stratton defeated Chelsea Green, IYO SKY, Lyra Valkyria, Naomi, Zoey Stark.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Women’s Money in the Bank Ladder Match",
+      "participants": [
+        {
+          "person": "tiffany-stratton",
+          "role": "competitor"
+        },
+        {
+          "person": "chelsea-green",
+          "role": "competitor"
+        },
+        {
+          "person": "iyo-sky",
+          "role": "competitor"
+        },
+        {
+          "person": "lyra-valkyria",
+          "role": "competitor"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor"
+        },
+        {
+          "person": "zoey-stark",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Tiffany Stratton",
+        "Chelsea Green",
+        "IYO SKY",
+        "Lyra Valkyria",
+        "Naomi",
+        "Zoey Stark"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/moneyinthebank/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/moneyinthebank/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "149",
+        "sourceMatchIds": [
+          "729",
+          "99057"
+        ],
+        "rawInputSha256": "1833c79b3c01656c229b21f7d6fcc771435bb8092767007280d28f028776967b",
+        "normalizedParticipants": [
+          {
+            "name": "Tiffany Stratton",
+            "result": "win"
+          },
+          {
+            "name": "Chelsea Green",
+            "result": "loss"
+          },
+          {
+            "name": "IYO SKY",
+            "result": "loss"
+          },
+          {
+            "name": "Lyra Valkyria",
+            "result": "loss"
+          },
+          {
+            "name": "Naomi",
+            "result": "loss"
+          },
+          {
+            "name": "Zoey Stark",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/moneyinthebank/2024/results"
+      },
+      "legacyId": "hf-match-729",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m5",
+      "type": "match",
+      "title": "Jacob Fatu & Solo Sikoa & Tama Tonga vs. Cody Rhodes, Kevin Owens, Randy Orton",
+      "result": "Jacob Fatu & Solo Sikoa & Tama Tonga defeated Cody Rhodes, Kevin Owens, Randy Orton.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Six-Man Tag Team Match",
+      "participants": [
+        {
+          "person": "jacob-fatu",
+          "role": "competitor"
+        },
+        {
+          "person": "solo-sikoa",
+          "role": "competitor"
+        },
+        {
+          "person": "tama-tonga",
+          "role": "competitor"
+        },
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Jacob Fatu",
+        "Solo Sikoa",
+        "Tama Tonga",
+        "Cody Rhodes",
+        "Kevin Owens",
+        "Randy Orton"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/moneyinthebank/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/moneyinthebank/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "149",
+        "sourceMatchIds": [
+          "730",
+          "99058"
+        ],
+        "rawInputSha256": "c350ea64f3c4f5f80968483707a5cdd67934c0b09c0732031e44568e17504561",
+        "normalizedParticipants": [
+          {
+            "name": "Jacob Fatu",
+            "result": "win"
+          },
+          {
+            "name": "Solo Sikoa",
+            "result": "win"
+          },
+          {
+            "name": "Tama Tonga",
+            "result": "win"
+          },
+          {
+            "name": "Cody Rhodes",
+            "result": "loss"
+          },
+          {
+            "name": "Kevin Owens",
+            "result": "loss"
+          },
+          {
+            "name": "Randy Orton",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/moneyinthebank/2024/results"
+      },
+      "legacyId": "hf-match-730",
+      "legacy": {
+        "kind": "match"
+      }
+    }
+  ],
+  "legacyIds": [
+    "hf-event-149"
+  ],
+  "legacy": {
+    "showFamily": "money-in-the-bank",
+    "importBatch": "ringside-2024-ple"
+  }
+}

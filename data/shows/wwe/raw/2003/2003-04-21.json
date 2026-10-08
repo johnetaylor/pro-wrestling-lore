@@ -1,0 +1,216 @@
+{
+  "id": "wwe/raw/2003-04-21",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2003-04-21",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2003/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Chris Jericho vs. The Hurricane",
+      "result": "Chris Jericho defeated The Hurricane.",
+      "matchType": "Singles match",
+      "duration": 361,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-hurricane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "The Hurricane"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46235",
+          "160752"
+        ],
+        "sourceEventIds": [
+          "6818"
+        ]
+      },
+      "legacyId": "bulk-match-46235",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Rodney Mack vs. Sean Evans",
+      "result": "Rodney Mack defeated Sean Evans.",
+      "matchType": "Other match",
+      "duration": 106,
+      "participants": [
+        {
+          "person": "rodney-mack",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sean-evans",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rodney Mack",
+        "Sean Evans"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46236",
+          "160753"
+        ],
+        "sourceEventIds": [
+          "6818"
+        ]
+      },
+      "legacyId": "bulk-match-46236",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Scott Steiner, Test vs. Jamal, Rosey",
+      "result": "Scott Steiner, Test defeated Jamal, Rosey.",
+      "matchType": "4-person match",
+      "duration": 225,
+      "participants": [
+        {
+          "person": "scott-steiner",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "umaga",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rosey",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Scott Steiner",
+        "Test",
+        "Jamal",
+        "Rosey"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46237",
+          "160754"
+        ],
+        "sourceEventIds": [
+          "6818"
+        ]
+      },
+      "legacyId": "bulk-match-46237",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Booker T. vs. Triple H",
+      "result": "Booker T. defeated Triple H by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Booker T.",
+        "Triple H"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46239",
+          "160756"
+        ],
+        "sourceEventIds": [
+          "6818"
+        ]
+      },
+      "legacyId": "bulk-match-46239",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6818"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6818"
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "id": "dibiase",
+  "name": "DiBiase · Hild",
+  "description": "Helen Hild is Ted DiBiase’s mother; Iron Mike DiBiase was his adoptive father.",
+  "branches": [
+    {
+      "id": "dibiase",
+      "name": "The DiBiase · Hild family"
+    }
+  ],
+  "members": [
+    {
+      "id": "iron-mike-dibiase",
+      "name": "Iron Mike DiBiase",
+      "branch": "dibiase",
+      "source": "dibiase",
+      "layout": {
+        "x": 16,
+        "y": 24
+      }
+    },
+    {
+      "id": "helen-hild",
+      "name": "Helen Hild",
+      "branch": "dibiase",
+      "source": "dibiase",
+      "layout": {
+        "x": 376,
+        "y": 24
+      }
+    },
+    {
+      "id": "ted-dibiase-sr",
+      "name": "Ted DiBiase / Million Dollar Man",
+      "person": "ted-dibiase",
+      "branch": "dibiase",
+      "aliases": [
+        "Ted DiBiase"
+      ],
+      "source": "dibiase",
+      "layout": {
+        "x": 196,
+        "y": 164
+      }
+    },
+    {
+      "id": "mike-dibiase-ii",
+      "name": "Mike DiBiase II",
+      "branch": "dibiase",
+      "source": "dibiase",
+      "layout": {
+        "x": 16,
+        "y": 304
+      }
+    },
+    {
+      "id": "ted-dibiase-jr",
+      "name": "Ted DiBiase Jr.",
+      "person": "ted-dibiase-jr",
+      "branch": "dibiase",
+      "source": "dibiase",
+      "layout": {
+        "x": 196,
+        "y": 304
+      }
+    },
+    {
+      "id": "brett-dibiase",
+      "name": "Brett DiBiase",
+      "branch": "dibiase",
+      "source": "dibiase",
+      "layout": {
+        "x": 376,
+        "y": 304
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "helen-hild",
+      "b": "ted-dibiase-sr",
+      "type": "parent",
+      "source": "dibiase"
+    },
+    {
+      "a": "ted-dibiase-sr",
+      "b": "mike-dibiase-ii",
+      "type": "parent",
+      "source": "dibiase"
+    },
+    {
+      "a": "ted-dibiase-sr",
+      "b": "ted-dibiase-jr",
+      "type": "parent",
+      "source": "dibiase"
+    },
+    {
+      "a": "ted-dibiase-sr",
+      "b": "brett-dibiase",
+      "type": "parent",
+      "source": "dibiase"
+    },
+    {
+      "a": "iron-mike-dibiase",
+      "b": "ted-dibiase-sr",
+      "type": "adoption",
+      "source": "iron-mike"
+    },
+    {
+      "a": "iron-mike-dibiase",
+      "b": "helen-hild",
+      "type": "marriage",
+      "source": "iron-mike"
+    }
+  ],
+  "sources": {
+    "dibiase": {
+      "label": "Ted DiBiase’s parents and sons",
+      "url": "https://en.wikipedia.org/wiki/Ted_DiBiase"
+    },
+    "iron-mike": {
+      "label": "National Wrestling Hall of Fame: Mike DiBiase",
+      "url": "https://nwhof.org/hall_of_fame/bio/12650"
+    }
+  }
+}

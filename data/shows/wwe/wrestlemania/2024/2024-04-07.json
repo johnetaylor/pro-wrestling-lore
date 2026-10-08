@@ -1,0 +1,476 @@
+{
+  "id": "wwe/wrestlemania/2024-04-07",
+  "promotion": "wwe",
+  "series": "wwe/wrestlemania",
+  "name": "WrestleMania XL · Night 2",
+  "date": "2024-04-07",
+  "category": "PLE",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "note": "Hugging Face import · official-results comparison. Unverified extra matches were excluded.",
+    "legacyCardStatus": "Imported card compared with official WWE results",
+    "legacySegmentStatus": "Partial; the match dataset does not contain a promo/appearance archive"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Drew McIntyre vs. Seth Rollins",
+      "result": "Drew McIntyre defeated Seth Rollins.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "Seth Rollins"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "337",
+        "sourceMatchIds": [
+          "1690",
+          "100018"
+        ],
+        "rawInputSha256": "0329cb81c7457e630682e277896910709cf12d47ed176e938fbb71ee9b579784",
+        "normalizedParticipants": [
+          {
+            "name": "Drew McIntyre",
+            "result": "win"
+          },
+          {
+            "name": "Seth Rollins",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      },
+      "legacyId": "hf-match-1690",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Damian Priest vs. Drew McIntyre",
+      "result": "Damian Priest defeated Drew McIntyre.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "damian-priest",
+          "role": "competitor"
+        },
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Damian Priest",
+        "Drew McIntyre"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "337",
+        "sourceMatchIds": [
+          "1691",
+          "100019"
+        ],
+        "rawInputSha256": "511ebafdaf8b43ed5dea6a7e2ba75766914e59973b3debff7ad6048c5f9b2a66",
+        "normalizedParticipants": [
+          {
+            "name": "Damian Priest",
+            "result": "win"
+          },
+          {
+            "name": "Drew McIntyre",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      },
+      "legacyId": "hf-match-1691",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Angelo Dawkins & Bobby Lashley & Montez Ford vs. Akam, Karrion Kross, Rezar",
+      "result": "Angelo Dawkins & Bobby Lashley & Montez Ford defeated Akam, Karrion Kross, Rezar.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Philadelphia Street Fight",
+      "participants": [
+        {
+          "person": "angelo-dawkins",
+          "role": "competitor"
+        },
+        {
+          "person": "bobby-lashley",
+          "role": "competitor"
+        },
+        {
+          "person": "montez-ford",
+          "role": "competitor"
+        },
+        {
+          "person": "akam",
+          "role": "competitor"
+        },
+        {
+          "person": "karrion-kross",
+          "role": "competitor"
+        },
+        {
+          "person": "rezar",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Angelo Dawkins",
+        "Bobby Lashley",
+        "Montez Ford",
+        "Akam",
+        "Karrion Kross",
+        "Rezar"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "337",
+        "sourceMatchIds": [
+          "1692",
+          "100020"
+        ],
+        "rawInputSha256": "3adf235e753c5dc4ea39355916e5d3249f3b3841469d7523623e2294d74f6de3",
+        "normalizedParticipants": [
+          {
+            "name": "Angelo Dawkins",
+            "result": "win"
+          },
+          {
+            "name": "Bobby Lashley",
+            "result": "win"
+          },
+          {
+            "name": "Montez Ford",
+            "result": "win"
+          },
+          {
+            "name": "Akam",
+            "result": "loss"
+          },
+          {
+            "name": "Karrion Kross",
+            "result": "loss"
+          },
+          {
+            "name": "Rezar",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      },
+      "legacyId": "hf-match-1692",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "LA Knight vs. AJ Styles",
+      "result": "LA Knight defeated AJ Styles.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "participants": [
+        {
+          "person": "la-knight",
+          "role": "competitor"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "LA Knight",
+        "AJ Styles"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "337",
+        "sourceMatchIds": [
+          "1693",
+          "100021"
+        ],
+        "rawInputSha256": "250316c4ee90fd105849f5fbee277877045b06d1e497e1a662cb8e29703b8bd2",
+        "normalizedParticipants": [
+          {
+            "name": "LA Knight",
+            "result": "win"
+          },
+          {
+            "name": "AJ Styles",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      },
+      "legacyId": "hf-match-1693",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m5",
+      "type": "match",
+      "title": "Logan Paul vs. Kevin Owens, Randy Orton",
+      "result": "Logan Paul defeated Kevin Owens, Randy Orton.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Triple Threat Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "logan-paul",
+          "role": "competitor"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Logan Paul",
+        "Kevin Owens",
+        "Randy Orton"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "337",
+        "sourceMatchIds": [
+          "1694",
+          "100022"
+        ],
+        "rawInputSha256": "50d5a8d9036db7ab292669a284621a371c11edd750132f0d26c4724155c66d27",
+        "normalizedParticipants": [
+          {
+            "name": "Logan Paul",
+            "result": "win"
+          },
+          {
+            "name": "Kevin Owens",
+            "result": "loss"
+          },
+          {
+            "name": "Randy Orton",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      },
+      "legacyId": "hf-match-1694",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m6",
+      "type": "match",
+      "title": "Bayley vs. IYO SKY",
+      "result": "Bayley defeated IYO SKY.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor"
+        },
+        {
+          "person": "iyo-sky",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "IYO SKY"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "337",
+        "sourceMatchIds": [
+          "1695",
+          "100023"
+        ],
+        "rawInputSha256": "80299561319de8325b253a6f61a71948a64a4cbad3263bbbee6d339d31bd2b92",
+        "normalizedParticipants": [
+          {
+            "name": "Bayley",
+            "result": "win"
+          },
+          {
+            "name": "IYO SKY",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      },
+      "legacyId": "hf-match-1695",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m7",
+      "type": "match",
+      "title": "Cody Rhodes vs. Roman Reigns",
+      "result": "Cody Rhodes defeated Roman Reigns.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Bloodline Rules",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Roman Reigns"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "337",
+        "sourceMatchIds": [
+          "1696",
+          "100024"
+        ],
+        "rawInputSha256": "d5f362ebc074e486f86cb2e996e8918ee90242d07f6701be16882b5dd72eb725",
+        "normalizedParticipants": [
+          {
+            "name": "Cody Rhodes",
+            "result": "win"
+          },
+          {
+            "name": "Roman Reigns",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/wrestlemania/article/full-wrestlemania-results-2024"
+      },
+      "legacyId": "hf-match-1696",
+      "legacy": {
+        "kind": "title"
+      }
+    }
+  ],
+  "legacyIds": [
+    "hf-event-337"
+  ],
+  "legacy": {
+    "showFamily": "wrestlemania",
+    "importBatch": "ringside-2024-ple"
+  }
+}

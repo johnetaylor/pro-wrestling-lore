@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2005-04-14",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2005-04-14",
+  "dateBasis": "aired",
+  "recordedDate": "2005-04-12",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2005/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Booker T. vs. Orlando Jordan",
+      "result": "Booker T. defeated Orlando Jordan by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "orlando-jordan",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Booker T.",
+        "Orlando Jordan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48931",
+          "157612"
+        ],
+        "sourceEventIds": [
+          "7334"
+        ]
+      },
+      "legacyId": "bulk-match-48931",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Torrie Wilson vs. Dawn Marie",
+      "result": "Torrie Wilson defeated Dawn Marie.",
+      "matchType": "Singles match",
+      "duration": 147,
+      "participants": [
+        {
+          "person": "torrie-wilson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dawn-marie",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Torrie Wilson",
+        "Dawn Marie"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48933",
+          "157614"
+        ],
+        "sourceEventIds": [
+          "7334"
+        ]
+      },
+      "legacyId": "bulk-match-48933",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Kurt Angle vs. Eddie Guerrero",
+      "result": "Kurt Angle defeated Eddie Guerrero.",
+      "matchType": "Singles match",
+      "duration": 1543,
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Eddie Guerrero"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2005/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48935",
+          "157616"
+        ],
+        "sourceEventIds": [
+          "7334"
+        ]
+      },
+      "legacyId": "bulk-match-48935",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7334"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7334"
+    ]
+  }
+}

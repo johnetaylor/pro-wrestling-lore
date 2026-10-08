@@ -1,0 +1,232 @@
+{
+  "id": "wwe/smackdown/2023-04-28",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2023-04-28",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2023-04-28"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "L.A. Knight vs. Butch",
+      "result": "L.A. Knight defeated Butch.",
+      "matchType": "Singles match",
+      "duration": 481,
+      "participants": [
+        {
+          "person": "la-knight",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "pete-dunne",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "L.A. Knight",
+        "Butch"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-04-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5139",
+          "91549",
+          "103467"
+        ],
+        "sourceEventIds": [
+          "933"
+        ]
+      },
+      "legacyId": "bulk-match-5139",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Angelo Dawkins, Montez Ford vs. Braun Strowman, Ricochet, Cruz Del Toro, Joaquin Wilde",
+      "result": "Angelo Dawkins, Montez Ford defeated Braun Strowman, Ricochet, Cruz Del Toro, Joaquin Wilde.",
+      "matchType": "Tag Team match",
+      "duration": 457,
+      "participants": [
+        {
+          "person": "angelo-dawkins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "montez-ford",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "cruz-del-toro",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "joaquin-wilde",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Angelo Dawkins",
+        "Montez Ford",
+        "Braun Strowman",
+        "Ricochet",
+        "Cruz Del Toro",
+        "Joaquin Wilde"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-04-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5140",
+          "91550",
+          "103468"
+        ],
+        "sourceEventIds": [
+          "933"
+        ]
+      },
+      "legacyId": "bulk-match-5140",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Zelina Vega vs. Sonya Deville",
+      "result": "Zelina Vega defeated Sonya Deville.",
+      "matchType": "Singles match",
+      "duration": 185,
+      "participants": [
+        {
+          "person": "zelina-vega",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sonya-deville",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Zelina Vega",
+        "Sonya Deville"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-04-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5141",
+          "91551",
+          "103469"
+        ],
+        "sourceEventIds": [
+          "933"
+        ]
+      },
+      "legacyId": "bulk-match-5141",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Solo Sikoa vs. Matt Riddle",
+      "result": "Solo Sikoa defeated Matt Riddle.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "solo-sikoa",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "matt-riddle",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Solo Sikoa",
+        "Matt Riddle"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-04-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5143",
+          "91553",
+          "103471"
+        ],
+        "sourceEventIds": [
+          "933"
+        ]
+      },
+      "legacyId": "bulk-match-5143",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-933"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "933"
+    ]
+  }
+}

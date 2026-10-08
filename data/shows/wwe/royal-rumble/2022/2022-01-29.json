@@ -1,0 +1,220 @@
+{
+  "id": "wwe/royal-rumble/2022-01-29",
+  "promotion": "wwe",
+  "series": "wwe/royal-rumble",
+  "name": "Royal Rumble 2022",
+  "date": "2022-01-29",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/royalrumble/2022"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Seth Rollins vs. Roman Reigns",
+      "result": "Seth Rollins defeated Roman Reigns by disqualification.",
+      "matchType": "Singles match",
+      "duration": 863,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Seth Rollins",
+        "Roman Reigns"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/royalrumble/2022"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88452",
+          "108347"
+        ],
+        "sourceEventIds": [
+          "13919"
+        ]
+      },
+      "legacyId": "bulk-match-88452",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Becky Lynch vs. Doudrop",
+      "result": "Becky Lynch defeated Doudrop.",
+      "matchType": "Singles match",
+      "duration": 776,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "piper-niven",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Doudrop"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/royalrumble/2022"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88454",
+          "108349"
+        ],
+        "sourceEventIds": [
+          "13919"
+        ]
+      },
+      "legacyId": "bulk-match-88454",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Bobby Lashley vs. Brock Lesnar",
+      "result": "Bobby Lashley defeated Brock Lesnar.",
+      "matchType": "Singles match",
+      "duration": 615,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "brock-lesnar",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bobby Lashley",
+        "Brock Lesnar"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/royalrumble/2022"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88455",
+          "108350"
+        ],
+        "sourceEventIds": [
+          "13919"
+        ]
+      },
+      "legacyId": "bulk-match-88455",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Beth Phoenix, Edge vs. Maryse, The Miz",
+      "result": "Beth Phoenix, Edge defeated Maryse, The Miz.",
+      "matchType": "4-person match",
+      "duration": 750,
+      "participants": [
+        {
+          "person": "beth-phoenix",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "maryse",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Beth Phoenix",
+        "Edge",
+        "Maryse",
+        "The Miz"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/royalrumble/2022"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88456",
+          "108351"
+        ],
+        "sourceEventIds": [
+          "13919"
+        ]
+      },
+      "legacyId": "bulk-match-88456",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13919"
+  ],
+  "legacy": {
+    "showFamily": "royal-rumble",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13919"
+    ]
+  }
+}

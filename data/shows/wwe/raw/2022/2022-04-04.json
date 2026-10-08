@@ -1,0 +1,229 @@
+{
+  "id": "wwe/raw/2022-04-04",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2022-04-04",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2022-04-04"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Naomi, Sasha Banks vs. Liv Morgan, Rhea Ripley",
+      "result": "Naomi, Sasha Banks defeated Liv Morgan, Rhea Ripley.",
+      "matchType": "4-person match",
+      "duration": 537,
+      "participants": [
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rhea-ripley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Naomi",
+        "Sasha Banks",
+        "Liv Morgan",
+        "Rhea Ripley"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2022-04-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88830",
+          "107727"
+        ],
+        "sourceEventIds": [
+          "13983"
+        ]
+      },
+      "legacyId": "bulk-match-88830",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Bron Breakker vs. Dolph Ziggler",
+      "result": "Bron Breakker defeated Dolph Ziggler.",
+      "matchType": "Singles match",
+      "duration": 603,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bron-breakker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bron Breakker",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2022-04-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88832",
+          "107729"
+        ],
+        "sourceEventIds": [
+          "13983"
+        ]
+      },
+      "legacyId": "bulk-match-88832",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Angelo Dawkins, Montez Ford vs. Chad Gable, Otis",
+      "result": "Angelo Dawkins, Montez Ford defeated Chad Gable, Otis.",
+      "matchType": "4-person match",
+      "duration": 505,
+      "participants": [
+        {
+          "person": "angelo-dawkins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "montez-ford",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "otis",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Angelo Dawkins",
+        "Montez Ford",
+        "Chad Gable",
+        "Otis"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2022-04-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88834",
+          "107731"
+        ],
+        "sourceEventIds": [
+          "13983"
+        ]
+      },
+      "legacyId": "bulk-match-88834",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Cody Rhodes vs. Kevin Owens",
+      "result": "Cody Rhodes defeated Kevin Owens.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Kevin Owens"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2022-04-04"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "88835",
+          "107732"
+        ],
+        "sourceEventIds": [
+          "13983"
+        ]
+      },
+      "legacyId": "bulk-match-88835",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13983"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13983"
+    ]
+  }
+}

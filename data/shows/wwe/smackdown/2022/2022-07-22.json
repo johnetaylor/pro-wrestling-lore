@@ -1,0 +1,163 @@
+{
+  "id": "wwe/smackdown/2022-07-22",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2022-07-22",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2022-07-22"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Ludwig Kaiser vs. Shinsuke Nakamura",
+      "result": "Ludwig Kaiser defeated Shinsuke Nakamura.",
+      "matchType": "Singles match",
+      "duration": 570,
+      "participants": [
+        {
+          "person": "ludwig-kaiser",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ludwig Kaiser",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-07-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8185",
+          "89608",
+          "106513"
+        ],
+        "sourceEventIds": [
+          "1438"
+        ]
+      },
+      "legacyId": "bulk-match-8185",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Raquel Rodriguez vs. Sonya Deville",
+      "result": "Raquel Rodriguez defeated Sonya Deville.",
+      "matchType": "Singles match",
+      "duration": 215,
+      "participants": [
+        {
+          "person": "raquel-rodriguez",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sonya-deville",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Raquel Rodriguez",
+        "Sonya Deville"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-07-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8187",
+          "89610",
+          "106515"
+        ],
+        "sourceEventIds": [
+          "1438"
+        ]
+      },
+      "legacyId": "bulk-match-8187",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Drew McIntyre vs. Sheamus",
+      "result": "Drew McIntyre defeated Sheamus.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "Sheamus"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-07-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8189",
+          "89612",
+          "106517"
+        ],
+        "sourceEventIds": [
+          "1438"
+        ]
+      },
+      "legacyId": "bulk-match-8189",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1438"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1438"
+    ]
+  }
+}

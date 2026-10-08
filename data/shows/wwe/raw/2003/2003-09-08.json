@@ -1,0 +1,215 @@
+{
+  "id": "wwe/raw/2003-09-08",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2003-09-08",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2003/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Kane vs. Rob Van Dam",
+      "result": "Kane defeated Rob Van Dam.",
+      "matchType": "Cage match",
+      "duration": 850,
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "Rob Van Dam"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46822",
+          "160172"
+        ],
+        "sourceEventIds": [
+          "6918"
+        ]
+      },
+      "legacyId": "bulk-match-46822",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Lance Storm vs. Rico",
+      "result": "Lance Storm defeated Rico.",
+      "matchType": "Singles match",
+      "duration": 164,
+      "participants": [
+        {
+          "person": "lance-storm",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rico",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lance Storm",
+        "Rico"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46823",
+          "160173"
+        ],
+        "sourceEventIds": [
+          "6918"
+        ]
+      },
+      "legacyId": "bulk-match-46823",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Scott Steiner vs. Steven Richards",
+      "result": "Scott Steiner defeated Steven Richards.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "scott-steiner",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "steven-richards",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Scott Steiner",
+        "Steven Richards"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46826",
+          "160176"
+        ],
+        "sourceEventIds": [
+          "6918"
+        ]
+      },
+      "legacyId": "bulk-match-46826",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "4-person match",
+      "result": "Goldberg, Randy Orton, Ric Flair, Triple H — no contest.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "goldberg",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "ric-flair",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Goldberg",
+        "Randy Orton",
+        "Ric Flair",
+        "Triple H"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46827",
+          "160177"
+        ],
+        "sourceEventIds": [
+          "6918"
+        ]
+      },
+      "legacyId": "bulk-match-46827",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6918"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6918"
+    ]
+  }
+}

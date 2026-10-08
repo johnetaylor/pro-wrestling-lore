@@ -1,0 +1,72 @@
+{
+  "id": "wwe/money-in-the-bank/2023-08-27",
+  "promotion": "wwe",
+  "series": "wwe/money-in-the-bank",
+  "name": "Money in the Bank",
+  "date": "2023-08-27",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/moneyinthebank/2023"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 530,
+      "type": "match",
+      "title": "Roman Reigns vs. Seth Rollins",
+      "result": "Roman Reigns defeated Seth Rollins.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Seth Rollins"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/moneyinthebank/2023"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "98154"
+        ],
+        "sourceEventIds": [
+          "15662"
+        ]
+      },
+      "legacyId": "bulk-match-98154",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-15662"
+  ],
+  "legacy": {
+    "showFamily": "money-in-the-bank",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "15662"
+    ]
+  }
+}

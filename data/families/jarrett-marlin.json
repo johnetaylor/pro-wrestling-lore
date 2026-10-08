@@ -1,0 +1,76 @@
+{
+  "id": "jarrett-marlin",
+  "name": "Jarrett · Marlin",
+  "description": "Jerry and Jeff Jarrett, with Eddie Marlin connected as Jerry’s father-in-law and Jeff’s grandfather.",
+  "branches": [
+    {
+      "id": "jarrett-marlin",
+      "name": "The Jarrett · Marlin family"
+    }
+  ],
+  "members": [
+    {
+      "id": "eddie-marlin",
+      "name": "Eddie Marlin",
+      "branch": "jarrett-marlin",
+      "source": "marlin",
+      "layout": {
+        "x": 16,
+        "y": 24
+      }
+    },
+    {
+      "id": "jerry-jarrett",
+      "name": "Jerry Jarrett",
+      "branch": "jarrett-marlin",
+      "source": "jarrett",
+      "layout": {
+        "x": 196,
+        "y": 164
+      }
+    },
+    {
+      "id": "jeff-jarrett",
+      "name": "Jeff Jarrett",
+      "person": "jeff-jarrett",
+      "branch": "jarrett-marlin",
+      "source": "jarrett",
+      "layout": {
+        "x": 16,
+        "y": 304
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "jerry-jarrett",
+      "b": "jeff-jarrett",
+      "type": "parent",
+      "source": "jarrett"
+    },
+    {
+      "a": "eddie-marlin",
+      "b": "jerry-jarrett",
+      "type": "inlaw",
+      "label": "Father-in-law / son-in-law",
+      "source": "marlin"
+    },
+    {
+      "a": "eddie-marlin",
+      "b": "jeff-jarrett",
+      "type": "grandparent",
+      "label": "Grandfather / grandson",
+      "source": "marlin"
+    }
+  ],
+  "sources": {
+    "marlin": {
+      "label": "Eddie Marlin’s family connections",
+      "url": "https://en.wikipedia.org/wiki/Eddie_Marlin"
+    },
+    "jarrett": {
+      "label": "WWE: Jerry and Jeff Jarrett",
+      "url": "https://www.wwe.com/article/wwe-remembers-jerry-jarrett"
+    }
+  }
+}

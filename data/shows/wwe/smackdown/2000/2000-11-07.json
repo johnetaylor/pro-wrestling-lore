@@ -1,0 +1,237 @@
+{
+  "id": "wwe/smackdown/2000-11-07",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2000-11-07",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Billy Gunn vs. Eddie Guerrero",
+      "result": "Billy Gunn defeated Eddie Guerrero by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Billy Gunn",
+        "Eddie Guerrero"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40855",
+          "166154"
+        ],
+        "sourceEventIds": [
+          "6038"
+        ]
+      },
+      "legacyId": "bulk-match-40855",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "The Undertaker vs. Chris Benoit, Chris Jericho, Kane",
+      "result": "The Undertaker defeated Chris Benoit, Chris Jericho, Kane.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "Chris Benoit",
+        "Chris Jericho",
+        "Kane"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40857",
+          "166156"
+        ],
+        "sourceEventIds": [
+          "6038"
+        ]
+      },
+      "legacyId": "bulk-match-40857",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Crash Holly, Steve Blackman vs. Albert, Test",
+      "result": "Crash Holly, Steve Blackman defeated Albert, Test.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "crash-holly",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "steve-blackman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tensai",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Crash Holly",
+        "Steve Blackman",
+        "Albert",
+        "Test"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40859",
+          "166158"
+        ],
+        "sourceEventIds": [
+          "6038"
+        ]
+      },
+      "legacyId": "bulk-match-40859",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "4-person match",
+      "result": "Steve Austin, The Rock, Rikishi, Triple H — no contest.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Steve Austin",
+        "The Rock",
+        "Rikishi",
+        "Triple H"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "40860",
+          "166159"
+        ],
+        "sourceEventIds": [
+          "6038"
+        ]
+      },
+      "legacyId": "bulk-match-40860",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6038"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6038"
+    ]
+  }
+}

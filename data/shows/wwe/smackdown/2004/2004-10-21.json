@@ -1,0 +1,97 @@
+{
+  "id": "wwe/smackdown/2004-10-21",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2004-10-21",
+  "dateBasis": "aired",
+  "recordedDate": "2004-10-17",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Booker T., Rey Mysterio, Rob Van Dam vs. John Bradshaw Layfield, Kenzo Suzuki, Rene Dupree",
+      "result": "Booker T., Rey Mysterio, Rob Van Dam defeated John Bradshaw Layfield, Kenzo Suzuki, Rene Dupree.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kenzo-suzuki",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rene-dupree",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Booker T.",
+        "Rey Mysterio",
+        "Rob Van Dam",
+        "John Bradshaw Layfield",
+        "Kenzo Suzuki",
+        "Rene Dupree"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48367",
+          "158346"
+        ],
+        "sourceEventIds": [
+          "7215"
+        ]
+      },
+      "legacyId": "bulk-match-48367",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7215"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7215"
+    ]
+  }
+}

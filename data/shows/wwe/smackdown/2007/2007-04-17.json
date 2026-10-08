@@ -1,0 +1,180 @@
+{
+  "id": "wwe/smackdown/2007-04-17",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2007-04-17",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Batista vs. Finlay",
+      "result": "Batista defeated Finlay by disqualification.",
+      "matchType": "Singles match",
+      "duration": 501,
+      "participants": [
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finlay",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Batista",
+        "Finlay"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51784",
+          "154209"
+        ],
+        "sourceEventIds": [
+          "7854"
+        ]
+      },
+      "legacyId": "bulk-match-51784",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Deuce, Domino vs. Brian Kendrick, Paul London",
+      "result": "Deuce, Domino defeated Brian Kendrick, Paul London.",
+      "matchType": "4-person match",
+      "duration": 535,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "la-knight",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "domino",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "brian-kendrick",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "paul-london",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Deuce",
+        "Domino",
+        "Brian Kendrick",
+        "Paul London"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51786",
+          "154211"
+        ],
+        "sourceEventIds": [
+          "7854"
+        ]
+      },
+      "legacyId": "bulk-match-51786",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Kane vs. Dave Taylor, William Regal",
+      "result": "Kane defeated Dave Taylor, William Regal by count-out.",
+      "matchType": "Tag Team match",
+      "duration": 553,
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dave-taylor",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "Dave Taylor",
+        "William Regal"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51787",
+          "154212"
+        ],
+        "sourceEventIds": [
+          "7854"
+        ]
+      },
+      "legacyId": "bulk-match-51787",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7854"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7854"
+    ]
+  }
+}

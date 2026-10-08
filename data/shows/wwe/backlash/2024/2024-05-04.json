@@ -1,0 +1,361 @@
+{
+  "id": "wwe/backlash/2024-05-04",
+  "promotion": "wwe",
+  "series": "wwe/backlash",
+  "name": "Backlash France 2024",
+  "date": "2024-05-04",
+  "category": "PLE",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "note": "Hugging Face import · official-results comparison. Unverified extra matches were excluded.",
+    "legacyCardStatus": "Imported card compared with official WWE results",
+    "legacySegmentStatus": "Partial; the match dataset does not contain a promo/appearance archive"
+  },
+  "sources": [
+    "https://www.wwe.com/article/full-backlash-results"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Solo Sikoa & Tama Tonga vs. Kevin Owens, Randy Orton",
+      "result": "Solo Sikoa & Tama Tonga defeated Kevin Owens, Randy Orton.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Street Fight",
+      "participants": [
+        {
+          "person": "solo-sikoa",
+          "role": "competitor"
+        },
+        {
+          "person": "tama-tonga",
+          "role": "competitor"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Solo Sikoa",
+        "Tama Tonga",
+        "Kevin Owens",
+        "Randy Orton"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-backlash-results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-backlash-results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "278",
+        "sourceMatchIds": [
+          "1383",
+          "99711"
+        ],
+        "rawInputSha256": "cbcb7ba972bbf90e75c30727bc138d62dd754954aeec7d0a606e51bec928c453",
+        "normalizedParticipants": [
+          {
+            "name": "Solo Sikoa",
+            "result": "win"
+          },
+          {
+            "name": "Tama Tonga",
+            "result": "win"
+          },
+          {
+            "name": "Kevin Owens",
+            "result": "loss"
+          },
+          {
+            "name": "Randy Orton",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-backlash-results"
+      },
+      "legacyId": "hf-match-1383",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Bayley vs. Naomi, Tiffany Stratton",
+      "result": "Bayley defeated Naomi, Tiffany Stratton.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Triple Threat Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor"
+        },
+        {
+          "person": "tiffany-stratton",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Naomi",
+        "Tiffany Stratton"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-backlash-results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-backlash-results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "278",
+        "sourceMatchIds": [
+          "1384",
+          "99712"
+        ],
+        "rawInputSha256": "d0b6edeb8df8e112b2b8cccb6a11c6965e7bead39c013842417432aa1e7a4be1",
+        "normalizedParticipants": [
+          {
+            "name": "Bayley",
+            "result": "win"
+          },
+          {
+            "name": "Naomi",
+            "result": "loss"
+          },
+          {
+            "name": "Tiffany Stratton",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-backlash-results"
+      },
+      "legacyId": "hf-match-1384",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Damian Priest vs. Jey Uso",
+      "result": "Damian Priest defeated Jey Uso.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "damian-priest",
+          "role": "competitor"
+        },
+        {
+          "person": "jey-uso",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Damian Priest",
+        "Jey Uso"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-backlash-results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-backlash-results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "278",
+        "sourceMatchIds": [
+          "1385",
+          "99713"
+        ],
+        "rawInputSha256": "e6f76185179e4ab502426fe5f47598fc24ea75acbf33318a3a1024fb91df8b1b",
+        "normalizedParticipants": [
+          {
+            "name": "Damian Priest",
+            "result": "win"
+          },
+          {
+            "name": "Jey Uso",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-backlash-results"
+      },
+      "legacyId": "hf-match-1385",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Bianca Belair & Jade Cargill vs. Asuka, Kairi Sane",
+      "result": "Bianca Belair & Jade Cargill defeated Asuka, Kairi Sane.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Tag Team Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor"
+        },
+        {
+          "person": "jade-cargill",
+          "role": "competitor"
+        },
+        {
+          "person": "asuka",
+          "role": "competitor"
+        },
+        {
+          "person": "kairi-sane",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Bianca Belair",
+        "Jade Cargill",
+        "Asuka",
+        "Kairi Sane"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-backlash-results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-backlash-results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "278",
+        "sourceMatchIds": [
+          "1386",
+          "99714"
+        ],
+        "rawInputSha256": "ebb18389e53f2a10a106637854be3a884f78325a0eaf979f7a169717c5c827d8",
+        "normalizedParticipants": [
+          {
+            "name": "Bianca Belair",
+            "result": "win"
+          },
+          {
+            "name": "Jade Cargill",
+            "result": "win"
+          },
+          {
+            "name": "Asuka",
+            "result": "loss"
+          },
+          {
+            "name": "Kairi Sane",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-backlash-results"
+      },
+      "legacyId": "hf-match-1386",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m5",
+      "type": "match",
+      "title": "Cody Rhodes vs. AJ Styles",
+      "result": "Cody Rhodes defeated AJ Styles.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "AJ Styles"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/article/full-backlash-results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/article/full-backlash-results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "278",
+        "sourceMatchIds": [
+          "1387",
+          "99715"
+        ],
+        "rawInputSha256": "8916bfc8e8bfb08370ab5c8821999b74a0b08e9034030a422dec15a5f5637e72",
+        "normalizedParticipants": [
+          {
+            "name": "Cody Rhodes",
+            "result": "win"
+          },
+          {
+            "name": "AJ Styles",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/article/full-backlash-results"
+      },
+      "legacyId": "hf-match-1387",
+      "legacy": {
+        "kind": "title"
+      }
+    }
+  ],
+  "legacyIds": [
+    "hf-event-278"
+  ],
+  "legacy": {
+    "showFamily": "backlash-france",
+    "importBatch": "ringside-2024-ple"
+  }
+}

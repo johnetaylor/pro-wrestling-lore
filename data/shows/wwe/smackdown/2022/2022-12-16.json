@@ -1,0 +1,133 @@
+{
+  "id": "wwe/smackdown/2022-12-16",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2022-12-16",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2022-12-16"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Dakota Kai, Iyo Sky vs. Liv Morgan, Tegan Nox",
+      "result": "Dakota Kai, Iyo Sky defeated Liv Morgan, Tegan Nox.",
+      "matchType": "4-person match",
+      "duration": 645,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "dakota-kai",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "iyo-sky",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tegan-nox",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dakota Kai",
+        "Iyo Sky",
+        "Liv Morgan",
+        "Tegan Nox"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-12-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6541",
+          "90664",
+          "104869"
+        ],
+        "sourceEventIds": [
+          "1165"
+        ]
+      },
+      "legacyId": "bulk-match-6541",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Gunther vs. Ricochet",
+      "result": "Gunther defeated Ricochet.",
+      "matchType": "Singles match",
+      "duration": 1309,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "gunther",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Gunther",
+        "Ricochet"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-12-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6542",
+          "90665",
+          "104870"
+        ],
+        "sourceEventIds": [
+          "1165"
+        ]
+      },
+      "legacyId": "bulk-match-6542",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1165"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1165"
+    ]
+  }
+}

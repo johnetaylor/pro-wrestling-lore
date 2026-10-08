@@ -1,0 +1,230 @@
+{
+  "id": "wwe/raw/2009-03-09",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2009-03-09",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2009/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "John Bradshaw Layfield vs. CM Punk",
+      "result": "John Bradshaw Layfield defeated CM Punk.",
+      "matchType": "Singles match",
+      "duration": 573,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cm-punk",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Bradshaw Layfield",
+        "CM Punk"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54092",
+          "151240"
+        ],
+        "sourceEventIds": [
+          "8259"
+        ]
+      },
+      "legacyId": "bulk-match-54092",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Maryse vs. Melina",
+      "result": "Maryse defeated Melina.",
+      "matchType": "Singles match",
+      "duration": 132,
+      "participants": [
+        {
+          "person": "maryse",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "melina",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Maryse",
+        "Melina"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54093",
+          "151241"
+        ],
+        "sourceEventIds": [
+          "8259"
+        ]
+      },
+      "legacyId": "bulk-match-54093",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Kofi Kingston vs. Chris Jericho",
+      "result": "Kofi Kingston defeated Chris Jericho.",
+      "matchType": "Singles match",
+      "duration": 467,
+      "participants": [
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kofi Kingston",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54094",
+          "151242"
+        ],
+        "sourceEventIds": [
+          "8259"
+        ]
+      },
+      "legacyId": "bulk-match-54094",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Christian, Finlay, Rey Mysterio vs. John Morrison, Kane, The Miz",
+      "result": "Christian, Finlay, Rey Mysterio defeated John Morrison, Kane, The Miz.",
+      "matchType": "Tag Team match",
+      "duration": 232,
+      "participants": [
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finlay",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Christian",
+        "Finlay",
+        "Rey Mysterio",
+        "John Morrison",
+        "Kane",
+        "The Miz"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54095",
+          "151243"
+        ],
+        "sourceEventIds": [
+          "8259"
+        ]
+      },
+      "legacyId": "bulk-match-54095",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8259"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8259"
+    ]
+  }
+}

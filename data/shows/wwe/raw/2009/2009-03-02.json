@@ -1,0 +1,224 @@
+{
+  "id": "wwe/raw/2009-03-02",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2009-03-02",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2009/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Kane vs. Mike Knox, Rey Mysterio",
+      "result": "Kane defeated Mike Knox, Rey Mysterio.",
+      "matchType": "Other match",
+      "duration": 525,
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mike-knox",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "Mike Knox",
+        "Rey Mysterio"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54074",
+          "151260"
+        ],
+        "sourceEventIds": [
+          "8256"
+        ]
+      },
+      "legacyId": "bulk-match-54074",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Kelly Kelly, Mickie James vs. Beth Phoenix, Jillian Hall",
+      "result": "Kelly Kelly, Mickie James defeated Beth Phoenix, Jillian Hall.",
+      "matchType": "4-person match",
+      "duration": 157,
+      "participants": [
+        {
+          "person": "kelly-kelly",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "beth-phoenix",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "jillian-hall",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kelly Kelly",
+        "Mickie James",
+        "Beth Phoenix",
+        "Jillian Hall"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54075",
+          "151261"
+        ],
+        "sourceEventIds": [
+          "8256"
+        ]
+      },
+      "legacyId": "bulk-match-54075",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Shawn Michaels vs. Vladimir Kozlov",
+      "result": "Shawn Michaels defeated Vladimir Kozlov.",
+      "matchType": "Singles match",
+      "duration": 639,
+      "participants": [
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "vladimir-kozlov",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shawn Michaels",
+        "Vladimir Kozlov"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54076",
+          "151262"
+        ],
+        "sourceEventIds": [
+          "8256"
+        ]
+      },
+      "legacyId": "bulk-match-54076",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "John Cena vs. Edge",
+      "result": "John Cena defeated Edge by disqualification.",
+      "matchType": "Singles match",
+      "duration": 740,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Edge"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54077",
+          "151263"
+        ],
+        "sourceEventIds": [
+          "8256"
+        ]
+      },
+      "legacyId": "bulk-match-54077",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8256"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8256"
+    ]
+  }
+}

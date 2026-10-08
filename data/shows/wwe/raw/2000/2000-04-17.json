@@ -1,0 +1,213 @@
+{
+  "id": "wwe/raw/2000-04-17",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2000-04-17",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Chris Jericho vs. Triple H",
+      "result": "Chris Jericho defeated Triple H.",
+      "matchType": "Singles match",
+      "duration": 518,
+      "participants": [
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Jericho",
+        "Triple H"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "38827",
+          "168182"
+        ],
+        "sourceEventIds": [
+          "5735"
+        ]
+      },
+      "legacyId": "bulk-match-38827",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Crash Holly vs. Perry Saturn, Tazz",
+      "result": "Crash Holly defeated Perry Saturn, Tazz.",
+      "matchType": "Other match",
+      "duration": 205,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "crash-holly",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "perry-saturn",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tazz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Crash Holly",
+        "Perry Saturn",
+        "Tazz"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "38829",
+          "168184"
+        ],
+        "sourceEventIds": [
+          "5735"
+        ]
+      },
+      "legacyId": "bulk-match-38829",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Scotty 2 Hotty vs. Dean Malenko",
+      "result": "Scotty 2 Hotty defeated Dean Malenko.",
+      "matchType": "Singles match",
+      "duration": 282,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "scotty-2-hotty",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dean-malenko",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Scotty 2 Hotty",
+        "Dean Malenko"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "38831",
+          "168186"
+        ],
+        "sourceEventIds": [
+          "5735"
+        ]
+      },
+      "legacyId": "bulk-match-38831",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "The Big Show vs. Chris Benoit",
+      "result": "The Big Show defeated Chris Benoit by disqualification.",
+      "matchType": "Singles match",
+      "duration": 138,
+      "participants": [
+        {
+          "person": "big-show",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "The Big Show",
+        "Chris Benoit"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "38832",
+          "168187"
+        ],
+        "sourceEventIds": [
+          "5735"
+        ]
+      },
+      "legacyId": "bulk-match-38832",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5735"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5735"
+    ]
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "id": "wwe/smackdown/2023-03-17",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2023-03-17",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2023-03-17"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Dominik Mysterio, Rhea Ripley vs. Santos Escobar, Zelina Vega",
+      "result": "Dominik Mysterio, Rhea Ripley defeated Santos Escobar, Zelina Vega.",
+      "matchType": "4-person match",
+      "duration": 431,
+      "participants": [
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rhea-ripley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "santos-escobar",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "zelina-vega",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dominik Mysterio",
+        "Rhea Ripley",
+        "Santos Escobar",
+        "Zelina Vega"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-03-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5548",
+          "91258",
+          "103876"
+        ],
+        "sourceEventIds": [
+          "1003"
+        ]
+      },
+      "legacyId": "bulk-match-5548",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Liv Morgan, Raquel Rodriguez vs. Emma, Tegan Nox",
+      "result": "Liv Morgan, Raquel Rodriguez defeated Emma, Tegan Nox.",
+      "matchType": "4-person match",
+      "duration": 225,
+      "participants": [
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "raquel-rodriguez",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "emma",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tegan-nox",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Liv Morgan",
+        "Raquel Rodriguez",
+        "Emma",
+        "Tegan Nox"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-03-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5549",
+          "91259",
+          "103877"
+        ],
+        "sourceEventIds": [
+          "1003"
+        ]
+      },
+      "legacyId": "bulk-match-5549",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Xavier Woods vs. L.A. Knight",
+      "result": "Xavier Woods defeated L.A. Knight.",
+      "matchType": "Singles match",
+      "duration": 139,
+      "participants": [
+        {
+          "person": "xavier-woods",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "la-knight",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Xavier Woods",
+        "L.A. Knight"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-03-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5550",
+          "91260",
+          "103878"
+        ],
+        "sourceEventIds": [
+          "1003"
+        ]
+      },
+      "legacyId": "bulk-match-5550",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Drew McIntyre, Sheamus — no contest.",
+      "matchType": "Singles match",
+      "duration": 698,
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "Sheamus"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-03-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5551",
+          "91261",
+          "103879"
+        ],
+        "sourceEventIds": [
+          "1003"
+        ]
+      },
+      "legacyId": "bulk-match-5551",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1003"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1003"
+    ]
+  }
+}

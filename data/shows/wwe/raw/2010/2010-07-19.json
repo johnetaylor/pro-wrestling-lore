@@ -1,0 +1,223 @@
+{
+  "id": "wwe/raw/2010-07-19",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2010-07-19",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2010/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Randy Orton vs. Chris Jericho, Edge",
+      "result": "Randy Orton defeated Chris Jericho, Edge.",
+      "matchType": "Other match",
+      "duration": 910,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Chris Jericho",
+        "Edge"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55841",
+          "148698"
+        ],
+        "sourceEventIds": [
+          "8662"
+        ]
+      },
+      "legacyId": "bulk-match-55841",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Sheamus vs. Evan Bourne",
+      "result": "Sheamus defeated Evan Bourne.",
+      "matchType": "Singles match",
+      "duration": 630,
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "evan-bourne",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Evan Bourne"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55843",
+          "148700"
+        ],
+        "sourceEventIds": [
+          "8662"
+        ]
+      },
+      "legacyId": "bulk-match-55843",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Santino Marella, Vladimir Kozlov vs. William Regal, Zack Ryder",
+      "result": "Santino Marella, Vladimir Kozlov defeated William Regal, Zack Ryder.",
+      "matchType": "4-person match",
+      "duration": 175,
+      "participants": [
+        {
+          "person": "santino-marella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "vladimir-kozlov",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "matt-cardona",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Santino Marella",
+        "Vladimir Kozlov",
+        "William Regal",
+        "Zack Ryder"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55844",
+          "148701"
+        ],
+        "sourceEventIds": [
+          "8662"
+        ]
+      },
+      "legacyId": "bulk-match-55844",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Wade Barrett vs. Mark Henry",
+      "result": "Wade Barrett defeated Mark Henry.",
+      "matchType": "Singles match",
+      "duration": 200,
+      "participants": [
+        {
+          "person": "wade-barrett",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Wade Barrett",
+        "Mark Henry"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "55845",
+          "148702"
+        ],
+        "sourceEventIds": [
+          "8662"
+        ]
+      },
+      "legacyId": "bulk-match-55845",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8662"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8662"
+    ]
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "id": "wwe/smackdown/2021-08-27",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2021-08-27",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2021-08-27"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Bianca Belair vs. Carmella, Liv Morgan, Zelina Vega",
+      "result": "Bianca Belair defeated Carmella, Liv Morgan, Zelina Vega.",
+      "matchType": "Other match",
+      "duration": 716,
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "zelina-vega",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bianca Belair",
+        "Carmella",
+        "Liv Morgan",
+        "Zelina Vega"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-08-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87528",
+          "109947"
+        ],
+        "sourceEventIds": [
+          "13764"
+        ]
+      },
+      "legacyId": "bulk-match-87528",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Cesaro vs. Chad Gable",
+      "result": "Cesaro defeated Chad Gable by disqualification.",
+      "matchType": "Singles match",
+      "duration": 134,
+      "participants": [
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Cesaro",
+        "Chad Gable"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-08-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87529",
+          "109948"
+        ],
+        "sourceEventIds": [
+          "13764"
+        ]
+      },
+      "legacyId": "bulk-match-87529",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "King Nakamura, Rick Boogs vs. Dolph Ziggler, Robert Roode",
+      "result": "King Nakamura, Rick Boogs defeated Dolph Ziggler, Robert Roode.",
+      "matchType": "4-person match",
+      "duration": 543,
+      "participants": [
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rick-boogs",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "robert-roode",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "King Nakamura",
+        "Rick Boogs",
+        "Dolph Ziggler",
+        "Robert Roode"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-08-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87530",
+          "109949"
+        ],
+        "sourceEventIds": [
+          "13764"
+        ]
+      },
+      "legacyId": "bulk-match-87530",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Sami Zayn vs. Dominik Mysterio",
+      "result": "Sami Zayn defeated Dominik Mysterio.",
+      "matchType": "Singles match",
+      "duration": 467,
+      "participants": [
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sami Zayn",
+        "Dominik Mysterio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-08-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87531",
+          "109950"
+        ],
+        "sourceEventIds": [
+          "13764"
+        ]
+      },
+      "legacyId": "bulk-match-87531",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13764"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13764"
+    ]
+  }
+}

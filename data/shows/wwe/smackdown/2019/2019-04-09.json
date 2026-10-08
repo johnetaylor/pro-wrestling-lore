@@ -1,0 +1,165 @@
+{
+  "id": "wwe/smackdown/2019-04-09",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2019-04-09",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2019-04-09"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Aleister Black, Ali, Ricochet vs. Andrade, Rusev, Shinsuke Nakamura",
+      "result": "Aleister Black, Ali, Ricochet defeated Andrade, Rusev, Shinsuke Nakamura.",
+      "matchType": "Tag Team match",
+      "duration": 753,
+      "participants": [
+        {
+          "person": "aleister-black",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mustafa-ali",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Aleister Black",
+        "Ali",
+        "Ricochet",
+        "Andrade",
+        "Rusev",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-04-09"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82906",
+          "116543"
+        ],
+        "sourceEventIds": [
+          "12931"
+        ]
+      },
+      "legacyId": "bulk-match-82906",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Big E, Kofi Kingston, Xavier Woods vs. Cesaro, Drew McIntyre, Sheamus",
+      "result": "Big E, Kofi Kingston, Xavier Woods defeated Cesaro, Drew McIntyre, Sheamus.",
+      "matchType": "Tag Team match",
+      "duration": 509,
+      "participants": [
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Big E",
+        "Kofi Kingston",
+        "Xavier Woods",
+        "Cesaro",
+        "Drew McIntyre",
+        "Sheamus"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-04-09"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82909",
+          "116546"
+        ],
+        "sourceEventIds": [
+          "12931"
+        ]
+      },
+      "legacyId": "bulk-match-82909",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12931"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12931"
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "id": "wwe/summerslam/2016-08-21",
+  "promotion": "wwe",
+  "series": "wwe/summerslam",
+  "name": "SummerSlam '16",
+  "date": "2016-08-21",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/summerslam/2016"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Sheamus vs. Cesaro",
+      "result": "Sheamus defeated Cesaro.",
+      "matchType": "Other match",
+      "duration": 851,
+      "participants": [
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sheamus",
+        "Cesaro"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/summerslam/2016"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "74131",
+          "125586"
+        ],
+        "sourceEventIds": [
+          "11491"
+        ]
+      },
+      "legacyId": "bulk-match-74131",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 9,
+      "type": "match",
+      "title": "Dean Ambrose vs. Dolph Ziggler",
+      "result": "Dean Ambrose defeated Dolph Ziggler.",
+      "matchType": "Singles match",
+      "duration": 921,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dean Ambrose",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/summerslam/2016"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "74137",
+          "125592"
+        ],
+        "sourceEventIds": [
+          "11491"
+        ]
+      },
+      "legacyId": "bulk-match-74137",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 12,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Rusev, Roman Reigns — no contest.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Rusev",
+        "Roman Reigns"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/summerslam/2016"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "74140",
+          "125595"
+        ],
+        "sourceEventIds": [
+          "11491"
+        ]
+      },
+      "legacyId": "bulk-match-74140",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 13,
+      "type": "match",
+      "title": "Brock Lesnar vs. Randy Orton",
+      "result": "Brock Lesnar defeated Randy Orton.",
+      "matchType": "Singles match",
+      "duration": 709,
+      "participants": [
+        {
+          "person": "brock-lesnar",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Brock Lesnar",
+        "Randy Orton"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/summerslam/2016"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "74141",
+          "125596"
+        ],
+        "sourceEventIds": [
+          "11491"
+        ]
+      },
+      "legacyId": "bulk-match-74141",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11491"
+  ],
+  "legacy": {
+    "showFamily": "summerslam",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11491"
+    ]
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "id": "wwe/smackdown/2000-07-04",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2000-07-04",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-2000/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Kurt Angle vs. Chris Jericho",
+      "result": "Kurt Angle defeated Chris Jericho.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kurt Angle",
+        "Chris Jericho"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "39602",
+          "167402"
+        ],
+        "sourceEventIds": [
+          "5847"
+        ]
+      },
+      "legacyId": "bulk-match-39602",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Val Venis vs. Rikishi",
+      "result": "Val Venis defeated Rikishi.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "val-venis",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jacob-fatu",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Val Venis",
+        "Rikishi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "39605",
+          "167405"
+        ],
+        "sourceEventIds": [
+          "5847"
+        ]
+      },
+      "legacyId": "bulk-match-39605",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Kane, The Undertaker vs. Albert, Test",
+      "result": "Kane, The Undertaker defeated Albert, Test.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tensai",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "The Undertaker",
+        "Albert",
+        "Test"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "39607",
+          "167407"
+        ],
+        "sourceEventIds": [
+          "5847"
+        ]
+      },
+      "legacyId": "bulk-match-39607",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Sho Funaki, TAKA Michinoku, The Brooklyn Brawler vs. Triple H",
+      "result": "Sho Funaki, TAKA Michinoku, The Brooklyn Brawler defeated Triple H.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "sho-funaki",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "taka-michinoku",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-brooklyn-brawler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sho Funaki",
+        "TAKA Michinoku",
+        "The Brooklyn Brawler",
+        "Triple H"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "39608",
+          "167408"
+        ],
+        "sourceEventIds": [
+          "5847"
+        ]
+      },
+      "legacyId": "bulk-match-39608",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 8,
+      "type": "match",
+      "title": "Chyna, Eddie Guerrero, The Rock vs. Chris Benoit, Christian, Edge",
+      "result": "Chyna, Eddie Guerrero, The Rock defeated Chris Benoit, Christian, Edge.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "chyna",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "eddie-guerrero",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chyna",
+        "Eddie Guerrero",
+        "The Rock",
+        "Chris Benoit",
+        "Christian",
+        "Edge"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-2000/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "39609",
+          "167409"
+        ],
+        "sourceEventIds": [
+          "5847"
+        ]
+      },
+      "legacyId": "bulk-match-39609",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5847"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5847"
+    ]
+  }
+}

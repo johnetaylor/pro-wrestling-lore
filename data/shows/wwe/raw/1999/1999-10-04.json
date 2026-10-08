@@ -1,0 +1,170 @@
+{
+  "id": "wwe/raw/1999-10-04",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1999-10-04",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1999/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Mae Young, The Fabulous Moolah vs. Ivory, Miss Kitty",
+      "result": "Mae Young, The Fabulous Moolah defeated Ivory, Miss Kitty.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "mae-young",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-fabulous-moolah",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ivory",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "miss-kitty",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mae Young",
+        "The Fabulous Moolah",
+        "Ivory",
+        "Miss Kitty"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "36298",
+          "170720"
+        ],
+        "sourceEventIds": [
+          "5394"
+        ]
+      },
+      "legacyId": "bulk-match-36298",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Chyna vs. The British Bulldog",
+      "result": "Chyna defeated The British Bulldog by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "chyna",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-british-bulldog",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Chyna",
+        "The British Bulldog"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "36299",
+          "170721"
+        ],
+        "sourceEventIds": [
+          "5394"
+        ]
+      },
+      "legacyId": "bulk-match-36299",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "The Rock vs. Chris Jericho",
+      "result": "The Rock defeated Chris Jericho.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Rock",
+        "Chris Jericho"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1999/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "36301",
+          "170723"
+        ],
+        "sourceEventIds": [
+          "5394"
+        ]
+      },
+      "legacyId": "bulk-match-36301",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-5394"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "5394"
+    ]
+  }
+}

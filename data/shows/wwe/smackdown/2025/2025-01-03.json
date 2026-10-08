@@ -1,0 +1,347 @@
+{
+  "id": "wwe/smackdown/2025-01-03",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2025-01-03",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "legacyCardStatus": "Card compared with official recap",
+    "legacySegmentStatus": "Recap reviewed; appearance coverage remains partial"
+  },
+  "sources": [
+    "https://www.thesmackdownhotel.com/events-results/wwe/smackdown-2025",
+    "https://www.wwe.com/shows/smackdown/2025-01-03"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Shinsuke Nakamura vs. Andrade",
+      "result": "Shinsuke Nakamura defeats Andrade",
+      "context": "Televised match. Open the linked show recap for the finish and surrounding story.",
+      "matchType": "Match",
+      "participants": [
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor"
+        },
+        {
+          "person": "andrade",
+          "role": "competitor"
+        }
+      ],
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/smackdown/2025-01-03",
+        "scope": "Listed competitors and result; not every field or full broadcast"
+      },
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/smackdown-2025",
+        "https://www.wwe.com/shows/smackdown/2025-01-03"
+      ],
+      "legacyId": "2025-01-03-smackdown-match-1",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Michin vs. Piper Niven",
+      "result": "Michin defeats Piper Niven",
+      "context": "Televised match. Open the linked show recap for the finish and surrounding story.",
+      "matchType": "Match",
+      "participants": [
+        {
+          "person": "michin",
+          "role": "competitor"
+        },
+        {
+          "person": "piper-niven",
+          "role": "competitor"
+        }
+      ],
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/smackdown/2025-01-03",
+        "scope": "Listed competitors and result; not every field or full broadcast"
+      },
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/smackdown-2025",
+        "https://www.wwe.com/shows/smackdown/2025-01-03"
+      ],
+      "legacyId": "2025-01-03-smackdown-match-2",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "DIY vs. Motor City Machine Guns",
+      "result": "#DIY (Tommaso Ciampa & Johnny Gargano) (c) vs. Motor City Machine Guns (Alex Shelley & Chris Sabin) ends in a No Contest; #DIY retain the titles",
+      "context": "Interference by Pretty Deadly and Los Garza stopped the title bout; no winner was declared.",
+      "matchType": "WWE Tag Team Championship",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "johnny-gargano",
+          "role": "competitor"
+        },
+        {
+          "person": "tommaso-ciampa",
+          "role": "competitor"
+        },
+        {
+          "person": "alex-shelley",
+          "role": "competitor"
+        },
+        {
+          "person": "chris-sabin",
+          "role": "competitor"
+        },
+        {
+          "person": "kit-wilson",
+          "role": "involved"
+        },
+        {
+          "person": "elton-prince",
+          "role": "involved"
+        },
+        {
+          "person": "angel",
+          "role": "involved"
+        },
+        {
+          "person": "berto",
+          "role": "involved"
+        }
+      ],
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/smackdown/2025-01-03",
+        "evidence": "WWE recap: tag-title match paragraph",
+        "fields": [
+          "title",
+          "involved",
+          "context"
+        ]
+      },
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/smackdown-2025",
+        "https://www.wwe.com/shows/smackdown/2025-01-03"
+      ],
+      "legacyId": "2025-01-03-smackdown-match-3",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Nia Jax",
+      "result": "Nia Jax (c) defeats Naomi to retain the title",
+      "context": "WWE Women's Championship. Open the linked recap for the finish and surrounding story.",
+      "matchType": "WWE Women's Championship",
+      "titleMatch": true,
+      "unlinked": true,
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/smackdown/2025-01-03",
+        "scope": "Listed competitors and result; not every field or full broadcast"
+      },
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/smackdown-2025",
+        "https://www.wwe.com/shows/smackdown/2025-01-03"
+      ],
+      "legacyId": "2025-01-03-smackdown-match-4",
+      "legacy": {
+        "kind": "title"
+      },
+      "participants": []
+    },
+    {
+      "key": "m5",
+      "type": "match",
+      "title": "Tiffany Stratton vs. Nia Jax",
+      "result": "Tiffany Stratton defeats Nia Jax (c) to win the title [Stratton cashes-in the Money in the Bank]",
+      "context": "WWE Women's Championship. Open the linked recap for the finish and surrounding story.",
+      "matchType": "WWE Women's Championship",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "nia-jax",
+          "role": "competitor"
+        },
+        {
+          "person": "tiffany-stratton",
+          "role": "competitor"
+        }
+      ],
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/smackdown/2025-01-03",
+        "scope": "Listed competitors and result; not every field or full broadcast"
+      },
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/smackdown-2025",
+        "https://www.wwe.com/shows/smackdown/2025-01-03"
+      ],
+      "legacyId": "2025-01-03-smackdown-match-5",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m6",
+      "type": "match",
+      "title": "The Bloodline (Solo Sikoa, Jacob Fatu & Tama Tonga) vs. The OG Bloodline (The Usos (Jimmy & Jey Uso) & Sami Zayn)",
+      "result": "The Bloodline (Solo Sikoa, Jacob Fatu & Tama Tonga) defeat The OG Bloodline (The Usos (Jimmy & Jey Uso) & Sami Zayn)",
+      "context": "Televised match. Open the linked show recap for the finish and surrounding story.",
+      "matchType": "Match",
+      "participants": [
+        {
+          "person": "jacob-fatu",
+          "role": "competitor"
+        },
+        {
+          "person": "solo-sikoa",
+          "role": "competitor"
+        },
+        {
+          "person": "tama-tonga",
+          "role": "competitor"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor"
+        },
+        {
+          "person": "jey-uso",
+          "role": "competitor"
+        },
+        {
+          "person": "jimmy-uso",
+          "role": "competitor"
+        }
+      ],
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/smackdown/2025-01-03",
+        "scope": "Listed competitors and result; not every field or full broadcast"
+      },
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/smackdown-2025",
+        "https://www.wwe.com/shows/smackdown/2025-01-03"
+      ],
+      "legacyId": "2025-01-03-smackdown-match-6",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "s1",
+      "type": "appearance",
+      "title": "Drew McIntyre's offer is rejected by Cody Rhodes, who then fights Kevin Owens",
+      "result": "Drew McIntyre's offer is rejected by Cody Rhodes, who then fights Kevin Owens.",
+      "context": "Selected televised appearance or physical confrontation. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor"
+        },
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2025-01-03"
+      ],
+      "legacyId": "2025-01-03-smackdown-segment-1",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s2",
+      "type": "promo",
+      "title": "Solo Sikoa gives Paul Heyman instructions for the Tribal Combat ceremony",
+      "result": "Solo Sikoa gives Paul Heyman instructions for the Tribal Combat ceremony.",
+      "context": "Selected televised promo, interview or verbal exchange. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "paul-heyman",
+          "role": "competitor"
+        },
+        {
+          "person": "solo-sikoa",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2025-01-03"
+      ],
+      "legacyId": "2025-01-03-smackdown-segment-2",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s3",
+      "type": "appearance",
+      "title": "LA Knight attacks Nakamura after the Andrade match",
+      "result": "LA Knight attacks Nakamura after the Andrade match.",
+      "context": "Added from the official episode recap. Full-broadcast appearance coverage remains incomplete.",
+      "participants": [
+        {
+          "person": "la-knight",
+          "role": "competitor"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor"
+        }
+      ],
+      "verification": {
+        "status": "recap-supported",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/smackdown/2025-01-03",
+        "evidence": "WWE recap: Nakamura–Andrade aftermath"
+      },
+      "evidence": "WWE recap: Nakamura–Andrade aftermath",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2025-01-03"
+      ],
+      "legacyId": "2025-01-03-smackdown-audit-knight-attack",
+      "legacy": {
+        "kind": "story"
+      }
+    }
+  ],
+  "legacyIds": [
+    "2025-01-03-smackdown"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "audit": {
+      "batch": "january-2025-recap-audit",
+      "checked": "2026-10-06",
+      "source": "https://www.wwe.com/shows/smackdown/2025-01-03",
+      "method": "Manual source comparison with deterministic validation; not a full broadcast viewing"
+    }
+  }
+}

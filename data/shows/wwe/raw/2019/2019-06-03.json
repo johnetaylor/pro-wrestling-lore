@@ -1,0 +1,160 @@
+{
+  "id": "wwe/raw/2019-06-03",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2019-06-03",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2019-06-03"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Lacey Evans vs. Charlotte Flair",
+      "result": "Lacey Evans defeated Charlotte Flair by disqualification.",
+      "matchType": "Singles match",
+      "duration": 621,
+      "participants": [
+        {
+          "person": "lacey-evans",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Lacey Evans",
+        "Charlotte Flair"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-06-03"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83268",
+          "116156"
+        ],
+        "sourceEventIds": [
+          "12997"
+        ]
+      },
+      "legacyId": "bulk-match-83268",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Braun Strowman vs. Bobby Lashley",
+      "result": "Braun Strowman defeated Bobby Lashley.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Braun Strowman",
+        "Bobby Lashley"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-06-03"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83269",
+          "116157"
+        ],
+        "sourceEventIds": [
+          "12997"
+        ]
+      },
+      "legacyId": "bulk-match-83269",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Ricochet vs. Cesaro",
+      "result": "Ricochet defeated Cesaro.",
+      "matchType": "Singles match",
+      "duration": 552,
+      "participants": [
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ricochet",
+        "Cesaro"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2019-06-03"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83271",
+          "116159"
+        ],
+        "sourceEventIds": [
+          "12997"
+        ]
+      },
+      "legacyId": "bulk-match-83271",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12997"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12997"
+    ]
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "id": "wwe/raw/2014-10-20",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2014-10-20",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2014/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Brie Bella vs. Summer Rae",
+      "result": "Brie Bella defeated Summer Rae.",
+      "matchType": "Singles match",
+      "duration": 220,
+      "participants": [
+        {
+          "person": "brie-bella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "summer-rae",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Brie Bella",
+        "Summer Rae"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "67024",
+          "133530"
+        ],
+        "sourceEventIds": [
+          "10507"
+        ]
+      },
+      "legacyId": "bulk-match-67024",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Cesaro vs. Dolph Ziggler",
+      "result": "Cesaro defeated Dolph Ziggler.",
+      "matchType": "Singles match",
+      "duration": 578,
+      "participants": [
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cesaro",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "67025",
+          "133531"
+        ],
+        "sourceEventIds": [
+          "10507"
+        ]
+      },
+      "legacyId": "bulk-match-67025",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Kane, Randy Orton, Seth Rollins vs. Dean Ambrose, John Cena",
+      "result": "Kane, Randy Orton, Seth Rollins defeated Dean Ambrose, John Cena.",
+      "matchType": "Tag Team match",
+      "duration": 1129,
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dean-ambrose",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "Randy Orton",
+        "Seth Rollins",
+        "Dean Ambrose",
+        "John Cena"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "67026",
+          "133532"
+        ],
+        "sourceEventIds": [
+          "10507"
+        ]
+      },
+      "legacyId": "bulk-match-67026",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10507"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10507"
+    ]
+  }
+}

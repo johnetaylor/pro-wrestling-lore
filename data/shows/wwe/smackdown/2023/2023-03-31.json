@@ -1,0 +1,200 @@
+{
+  "id": "wwe/smackdown/2023-03-31",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2023-03-31",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2023-03-31"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Ricochet vs. Chad Gable, Erik, Montez Ford",
+      "result": "Ricochet defeated Chad Gable, Erik, Montez Ford.",
+      "matchType": "Fatal Four Way match",
+      "duration": 576,
+      "participants": [
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "erik",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "montez-ford",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ricochet",
+        "Chad Gable",
+        "Erik",
+        "Montez Ford"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-03-31"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5379",
+          "91356",
+          "103707"
+        ],
+        "sourceEventIds": [
+          "975"
+        ]
+      },
+      "legacyId": "bulk-match-5379",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Raquel Rodriguez vs. Natalya, Shayna Baszler, Sonya Deville",
+      "result": "Raquel Rodriguez defeated Natalya, Shayna Baszler, Sonya Deville.",
+      "matchType": "4-person match",
+      "duration": 172,
+      "participants": [
+        {
+          "person": "raquel-rodriguez",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "shayna-baszler",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sonya-deville",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Raquel Rodriguez",
+        "Natalya",
+        "Shayna Baszler",
+        "Sonya Deville"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-03-31"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5381",
+          "91358",
+          "103709"
+        ],
+        "sourceEventIds": [
+          "975"
+        ]
+      },
+      "legacyId": "bulk-match-5381",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Drew McIntyre, Sheamus vs. Giovanni Vinci, Ludwig Kaiser",
+      "result": "Drew McIntyre, Sheamus defeated Giovanni Vinci, Ludwig Kaiser.",
+      "matchType": "4-person match",
+      "duration": 526,
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "giovanni-vinci",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "ludwig-kaiser",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "Sheamus",
+        "Giovanni Vinci",
+        "Ludwig Kaiser"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-03-31"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "5382",
+          "91359",
+          "103710"
+        ],
+        "sourceEventIds": [
+          "975"
+        ]
+      },
+      "legacyId": "bulk-match-5382",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-975"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "975"
+    ]
+  }
+}

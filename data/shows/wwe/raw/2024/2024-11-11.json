@@ -1,0 +1,219 @@
+{
+  "id": "wwe/raw/2024-11-11",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2024-11-11",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2024-11-11"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Pete Dunne vs. Kofi Kingston",
+      "result": "Pete Dunne defeated Kofi Kingston.",
+      "matchType": "Singles match",
+      "duration": 535,
+      "participants": [
+        {
+          "person": "pete-dunne",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Pete Dunne",
+        "Kofi Kingston"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-11-11"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95235"
+        ],
+        "sourceEventIds": [
+          "15097",
+          "15098"
+        ]
+      },
+      "legacyId": "bulk-match-95235",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Damian Priest vs. Ludwig Kaiser",
+      "result": "Damian Priest defeated Ludwig Kaiser.",
+      "matchType": "Singles match",
+      "duration": 455,
+      "participants": [
+        {
+          "person": "damian-priest",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ludwig-kaiser",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Damian Priest",
+        "Ludwig Kaiser"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-11-11"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95236"
+        ],
+        "sourceEventIds": [
+          "15097",
+          "15098"
+        ]
+      },
+      "legacyId": "bulk-match-95236",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Bronson Reed vs. Seth Rollins",
+      "result": "Bronson Reed defeated Seth Rollins.",
+      "matchType": "Singles match",
+      "duration": 993,
+      "participants": [
+        {
+          "person": "bronson-reed",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bronson Reed",
+        "Seth Rollins"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-11-11"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95233"
+        ],
+        "sourceEventIds": [
+          "15097",
+          "15098"
+        ]
+      },
+      "legacyId": "bulk-match-95233",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Bianca Belair, Jade Cargill vs. Liv Morgan, Raquel Rodriguez",
+      "result": "Bianca Belair, Jade Cargill defeated Liv Morgan, Raquel Rodriguez.",
+      "matchType": "4-person match",
+      "duration": 444,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jade-cargill",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "raquel-rodriguez",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bianca Belair",
+        "Jade Cargill",
+        "Liv Morgan",
+        "Raquel Rodriguez"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-11-11"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95237"
+        ],
+        "sourceEventIds": [
+          "15097",
+          "15098"
+        ]
+      },
+      "legacyId": "bulk-match-95237",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-15098"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "15097",
+      "15098"
+    ]
+  }
+}

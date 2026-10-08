@@ -1,0 +1,48 @@
+{
+  "id": "brisco",
+  "name": "Brisco",
+  "description": "Jack and Gerald Brisco, the brothers from Oklahoma.",
+  "branches": [
+    {
+      "id": "brisco",
+      "name": "The Brisco family"
+    }
+  ],
+  "members": [
+    {
+      "id": "jack-brisco",
+      "name": "Jack Brisco",
+      "branch": "brisco",
+      "source": "brisco",
+      "layout": {
+        "x": 16,
+        "y": 24
+      }
+    },
+    {
+      "id": "gerald-brisco",
+      "name": "Gerald Brisco",
+      "person": "gerald-brisco",
+      "branch": "brisco",
+      "source": "brisco",
+      "layout": {
+        "x": 196,
+        "y": 24
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "jack-brisco",
+      "b": "gerald-brisco",
+      "type": "sibling",
+      "source": "brisco"
+    }
+  ],
+  "sources": {
+    "brisco": {
+      "label": "WWE: Gerald and Jack Brisco",
+      "url": "https://www.wwe.com/superstars/geraldbrisco"
+    }
+  }
+}

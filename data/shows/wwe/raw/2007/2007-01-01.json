@@ -1,0 +1,173 @@
+{
+  "id": "wwe/raw/2007-01-01",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2007-01-01",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2007/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Kevin Federline vs. John Cena",
+      "result": "Kevin Federline defeated John Cena.",
+      "matchType": "Other match",
+      "duration": 295,
+      "participants": [
+        {
+          "person": "kevin-federline",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Federline",
+        "John Cena"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51402",
+          "154655"
+        ],
+        "sourceEventIds": [
+          "7783"
+        ]
+      },
+      "legacyId": "bulk-match-51402",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Jeff Hardy vs. Rob Conway",
+      "result": "Jeff Hardy defeated Rob Conway.",
+      "matchType": "Singles match",
+      "duration": 21,
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rob-conway",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Rob Conway"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51404",
+          "154657"
+        ],
+        "sourceEventIds": [
+          "7783"
+        ]
+      },
+      "legacyId": "bulk-match-51404",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Chris Masters, Kenny Dykstra vs. Carlito, Ric Flair",
+      "result": "Chris Masters, Kenny Dykstra defeated Carlito, Ric Flair.",
+      "matchType": "4-person match",
+      "duration": 656,
+      "participants": [
+        {
+          "person": "chris-masters",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kenny-dykstra",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carlito",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "ric-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Masters",
+        "Kenny Dykstra",
+        "Carlito",
+        "Ric Flair"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "51406",
+          "154659"
+        ],
+        "sourceEventIds": [
+          "7783"
+        ]
+      },
+      "legacyId": "bulk-match-51406",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7783"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7783"
+    ]
+  }
+}

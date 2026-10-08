@@ -1,0 +1,121 @@
+{
+  "id": "wwe/money-in-the-bank/2022-07-02",
+  "promotion": "wwe",
+  "series": "wwe/money-in-the-bank",
+  "name": "Money In The Bank 2022",
+  "date": "2022-07-02",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/moneyinthebank/2022"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Bianca BelAir vs. Carmella",
+      "result": "Bianca BelAir defeated Carmella.",
+      "matchType": "Singles match",
+      "duration": 432,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bianca BelAir",
+        "Carmella"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/moneyinthebank/2022"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8449",
+          "89433",
+          "106777"
+        ],
+        "sourceEventIds": [
+          "1474"
+        ]
+      },
+      "legacyId": "bulk-match-8449",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Ronda Rousey vs. Natalya",
+      "result": "Ronda Rousey defeated Natalya.",
+      "matchType": "Singles match",
+      "duration": 753,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "ronda-rousey",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ronda Rousey",
+        "Natalya"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/moneyinthebank/2022"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "8451",
+          "89435",
+          "106779"
+        ],
+        "sourceEventIds": [
+          "1474"
+        ]
+      },
+      "legacyId": "bulk-match-8451",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1474"
+  ],
+  "legacy": {
+    "showFamily": "money-in-the-bank",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1474"
+    ]
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "id": "wwe/smackdown/2003-10-28",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2003-10-28",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2003/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Chris Benoit, Kurt Angle vs. A-Train, John Cena",
+      "result": "Chris Benoit, Kurt Angle defeated A-Train, John Cena.",
+      "matchType": "4-person match",
+      "duration": 396,
+      "participants": [
+        {
+          "person": "chris-benoit",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tensai",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chris Benoit",
+        "Kurt Angle",
+        "A-Train",
+        "John Cena"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47059",
+          "159945"
+        ],
+        "sourceEventIds": [
+          "6960"
+        ]
+      },
+      "legacyId": "bulk-match-47059",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Charlie Haas, Shelton Benjamin vs. Chuck Palumbo, Johnny Stamboli, Nunzio",
+      "result": "Charlie Haas, Shelton Benjamin defeated Chuck Palumbo, Johnny Stamboli, Nunzio.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "charlie-haas",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chuck-palumbo",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "johnny-stamboli",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "nunzio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlie Haas",
+        "Shelton Benjamin",
+        "Chuck Palumbo",
+        "Johnny Stamboli",
+        "Nunzio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47060",
+          "159946"
+        ],
+        "sourceEventIds": [
+          "6960"
+        ]
+      },
+      "legacyId": "bulk-match-47060",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Ultimo Dragon vs. Rey Mysterio",
+      "result": "Ultimo Dragon defeated Rey Mysterio.",
+      "matchType": "Singles match",
+      "duration": 159,
+      "participants": [
+        {
+          "person": "ultimo-dragon",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Ultimo Dragon",
+        "Rey Mysterio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47061",
+          "159947"
+        ],
+        "sourceEventIds": [
+          "6960"
+        ]
+      },
+      "legacyId": "bulk-match-47061",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Torrie Wilson vs. Dawn Marie",
+      "result": "Torrie Wilson defeated Dawn Marie.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "torrie-wilson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dawn-marie",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Torrie Wilson",
+        "Dawn Marie"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "47062",
+          "159948"
+        ],
+        "sourceEventIds": [
+          "6960"
+        ]
+      },
+      "legacyId": "bulk-match-47062",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6960"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6960"
+    ]
+  }
+}

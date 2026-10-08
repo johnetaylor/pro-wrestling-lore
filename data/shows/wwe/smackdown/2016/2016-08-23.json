@@ -1,0 +1,216 @@
+{
+  "id": "wwe/smackdown/2016-08-23",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2016-08-23",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2016/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Becky Lynch vs. Alexa Bliss",
+      "result": "Becky Lynch defeated Alexa Bliss.",
+      "matchType": "Other match",
+      "duration": 225,
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Alexa Bliss"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "74152",
+          "125565"
+        ],
+        "sourceEventIds": [
+          "11494"
+        ]
+      },
+      "legacyId": "bulk-match-74152",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Carmella, Nikki Bella — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "nikki-bella",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Carmella",
+        "Nikki Bella"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "74154",
+          "125567"
+        ],
+        "sourceEventIds": [
+          "11494"
+        ]
+      },
+      "legacyId": "bulk-match-74154",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Chad Gable, Jason Jordan vs. Fandango, Tyler Breeze",
+      "result": "Chad Gable, Jason Jordan defeated Fandango, Tyler Breeze.",
+      "matchType": "4-person match",
+      "duration": 629,
+      "participants": [
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jason-jordan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "fandango",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tyler-breeze",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chad Gable",
+        "Jason Jordan",
+        "Fandango",
+        "Tyler Breeze"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "74155",
+          "125568"
+        ],
+        "sourceEventIds": [
+          "11494"
+        ]
+      },
+      "legacyId": "bulk-match-74155",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "A.J. Styles vs. Dolph Ziggler",
+      "result": "A.J. Styles defeated Dolph Ziggler.",
+      "matchType": "Other match",
+      "duration": 1290,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2016/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "74156",
+          "125569"
+        ],
+        "sourceEventIds": [
+          "11494"
+        ]
+      },
+      "legacyId": "bulk-match-74156",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11494"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11494"
+    ]
+  }
+}

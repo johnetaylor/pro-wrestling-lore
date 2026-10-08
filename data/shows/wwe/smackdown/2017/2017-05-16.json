@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2017-05-16",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-05-16",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-05-16"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Jinder Mahal vs. A.J. Styles",
+      "result": "Jinder Mahal defeated A.J. Styles.",
+      "matchType": "Other match",
+      "duration": 940,
+      "participants": [
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jinder Mahal",
+        "A.J. Styles"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-05-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77264",
+          "122236"
+        ],
+        "sourceEventIds": [
+          "11975"
+        ]
+      },
+      "legacyId": "bulk-match-77264",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Carmella vs. Naomi",
+      "result": "Carmella defeated Naomi.",
+      "matchType": "Singles match",
+      "duration": 680,
+      "participants": [
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Carmella",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-05-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77266",
+          "122238"
+        ],
+        "sourceEventIds": [
+          "11975"
+        ]
+      },
+      "legacyId": "bulk-match-77266",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Randy Orton vs. Baron Corbin",
+      "result": "Randy Orton defeated Baron Corbin.",
+      "matchType": "Singles match",
+      "duration": 800,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Baron Corbin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-05-16"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77267",
+          "122239"
+        ],
+        "sourceEventIds": [
+          "11975"
+        ]
+      },
+      "legacyId": "bulk-match-77267",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11975"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11975"
+    ]
+  }
+}

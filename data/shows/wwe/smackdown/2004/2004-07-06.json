@@ -1,0 +1,185 @@
+{
+  "id": "wwe/smackdown/2004-07-06",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2004-07-06",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Rob Van Dam vs. Mark Jindrak",
+      "result": "Rob Van Dam defeated Mark Jindrak.",
+      "matchType": "Singles match",
+      "duration": 303,
+      "participants": [
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mark-jindrak",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rob Van Dam",
+        "Mark Jindrak"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48016",
+          "158894"
+        ],
+        "sourceEventIds": [
+          "7140"
+        ]
+      },
+      "legacyId": "bulk-match-48016",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Akio, Chavo Guerrero, Jamie Noble vs. Rey Mysterio, Scotty 2 Hotty, Spike Dudley",
+      "result": "Akio, Chavo Guerrero, Jamie Noble defeated Rey Mysterio, Scotty 2 Hotty, Spike Dudley.",
+      "matchType": "Tag Team match",
+      "duration": 313,
+      "participants": [
+        {
+          "person": "akio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "chavo-guerrero",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jamie-noble",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "scotty-2-hotty",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "spike-dudley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Akio",
+        "Chavo Guerrero",
+        "Jamie Noble",
+        "Rey Mysterio",
+        "Scotty 2 Hotty",
+        "Spike Dudley"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48020",
+          "158898"
+        ],
+        "sourceEventIds": [
+          "7140"
+        ]
+      },
+      "legacyId": "bulk-match-48020",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "John Cena vs. Booker T.",
+      "result": "John Cena defeated Booker T. by disqualification.",
+      "matchType": "Singles match",
+      "duration": 917,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Booker T."
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48021",
+          "158899"
+        ],
+        "sourceEventIds": [
+          "7140"
+        ]
+      },
+      "legacyId": "bulk-match-48021",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7140"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7140"
+    ]
+  }
+}

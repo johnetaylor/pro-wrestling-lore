@@ -1,0 +1,215 @@
+{
+  "id": "wwe/raw/1997-07-14",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1997-07-14",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1997/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "TAKA Michinoku vs. Yoshihiro Tajiri",
+      "result": "TAKA Michinoku defeated Yoshihiro Tajiri.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "taka-michinoku",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tajiri",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "TAKA Michinoku",
+        "Yoshihiro Tajiri"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27697",
+          "179347"
+        ],
+        "sourceEventIds": [
+          "4277"
+        ]
+      },
+      "legacyId": "bulk-match-27697",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Ken Shamrock vs. Jim Neidhart",
+      "result": "Ken Shamrock defeated Jim Neidhart by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "ken-shamrock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jim-neidhart",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Ken Shamrock",
+        "Jim Neidhart"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27699",
+          "179349"
+        ],
+        "sourceEventIds": [
+          "4277"
+        ]
+      },
+      "legacyId": "bulk-match-27699",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Vader vs. Flash Funk",
+      "result": "Vader defeated Flash Funk.",
+      "matchType": "Singles match",
+      "duration": 251,
+      "participants": [
+        {
+          "person": "vader",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "flash-funk",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Vader",
+        "Flash Funk"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27701",
+          "179351"
+        ],
+        "sourceEventIds": [
+          "4277"
+        ]
+      },
+      "legacyId": "bulk-match-27701",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Dude Love, Steve Austin vs. Davey Boy Smith, Owen Hart",
+      "result": "Dude Love, Steve Austin defeated Davey Boy Smith, Owen Hart.",
+      "matchType": "4-person match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "mick-foley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "stone-cold-steve-austin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-british-bulldog",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "owen-hart",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dude Love",
+        "Steve Austin",
+        "Davey Boy Smith",
+        "Owen Hart"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27702",
+          "179352"
+        ],
+        "sourceEventIds": [
+          "4277"
+        ]
+      },
+      "legacyId": "bulk-match-27702",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4277"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4277"
+    ]
+  }
+}

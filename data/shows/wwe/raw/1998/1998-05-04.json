@@ -1,0 +1,163 @@
+{
+  "id": "wwe/raw/1998-05-04",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1998-05-04",
+  "dateBasis": "aired",
+  "recordedDate": "1998-04-28",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1998/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Dan Severn vs. Savio Vega",
+      "result": "Dan Severn defeated Savio Vega.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "dan-severn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "savio-vega",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dan Severn",
+        "Savio Vega"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "30194",
+          "176841",
+          "176848"
+        ],
+        "sourceEventIds": [
+          "4583"
+        ]
+      },
+      "legacyId": "bulk-match-30194",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Marc Mero vs. Jeff Jarrett",
+      "result": "Marc Mero defeated Jeff Jarrett by count-out.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "marc-mero",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jeff-jarrett",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Marc Mero",
+        "Jeff Jarrett"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "30196",
+          "176843",
+          "176850"
+        ],
+        "sourceEventIds": [
+          "4583"
+        ]
+      },
+      "legacyId": "bulk-match-30196",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Mick Foley vs. Terry Funk",
+      "result": "Mick Foley defeated Terry Funk.",
+      "matchType": "Other match",
+      "duration": 1005,
+      "participants": [
+        {
+          "person": "mick-foley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "terry-funk",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mick Foley",
+        "Terry Funk"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "30198",
+          "176845",
+          "176852"
+        ],
+        "sourceEventIds": [
+          "4583"
+        ]
+      },
+      "legacyId": "bulk-match-30198",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4583"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4583"
+    ]
+  }
+}

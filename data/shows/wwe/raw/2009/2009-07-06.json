@@ -1,0 +1,214 @@
+{
+  "id": "wwe/raw/2009-07-06",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2009-07-06",
+  "dateBasis": "aired",
+  "recordedDate": "2009-06-29",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2009/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Gail Kim, Mickie James vs. Alicia Fox, Maryse",
+      "result": "Gail Kim, Mickie James defeated Alicia Fox, Maryse.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "gail-kim",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alicia-fox",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "maryse",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Gail Kim",
+        "Mickie James",
+        "Alicia Fox",
+        "Maryse"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54520",
+          "150653"
+        ],
+        "sourceEventIds": [
+          "8351"
+        ]
+      },
+      "legacyId": "bulk-match-54520",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Mark Henry vs. Cody Rhodes",
+      "result": "Mark Henry defeated Cody Rhodes by count-out.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Mark Henry",
+        "Cody Rhodes"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54521",
+          "150654"
+        ],
+        "sourceEventIds": [
+          "8351"
+        ]
+      },
+      "legacyId": "bulk-match-54521",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Evan Bourne vs. Kofi Kingston",
+      "result": "Evan Bourne defeated Kofi Kingston.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "evan-bourne",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Evan Bourne",
+        "Kofi Kingston"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54523",
+          "150656"
+        ],
+        "sourceEventIds": [
+          "8351"
+        ]
+      },
+      "legacyId": "bulk-match-54523",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Triple H, John Cena — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Triple H",
+        "John Cena"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2009/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "54524",
+          "150657"
+        ],
+        "sourceEventIds": [
+          "8351"
+        ]
+      },
+      "legacyId": "bulk-match-54524",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8351"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8351"
+    ]
+  }
+}

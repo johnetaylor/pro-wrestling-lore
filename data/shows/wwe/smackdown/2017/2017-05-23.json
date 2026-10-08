@@ -1,0 +1,330 @@
+{
+  "id": "wwe/smackdown/2017-05-23",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-05-23",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-05-23"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Becky Lynch, Charlotte vs. Carmella, Natalya",
+      "result": "Becky Lynch, Charlotte defeated Carmella, Natalya.",
+      "matchType": "4-person match",
+      "duration": 420,
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Charlotte",
+        "Carmella",
+        "Natalya"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-05-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77321",
+          "122169"
+        ],
+        "sourceEventIds": [
+          "11984"
+        ]
+      },
+      "legacyId": "bulk-match-77321",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Sami Zayn vs. Baron Corbin",
+      "result": "Sami Zayn defeated Baron Corbin.",
+      "matchType": "Singles match",
+      "duration": 20,
+      "participants": [
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sami Zayn",
+        "Baron Corbin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-05-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77322",
+          "122170"
+        ],
+        "sourceEventIds": [
+          "11984"
+        ]
+      },
+      "legacyId": "bulk-match-77322",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Tyler Breeze vs. Jey Uso",
+      "result": "Tyler Breeze defeated Jey Uso.",
+      "matchType": "Singles match",
+      "duration": 20,
+      "participants": [
+        {
+          "person": "tyler-breeze",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jey-uso",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tyler Breeze",
+        "Jey Uso"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-05-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77323",
+          "122171"
+        ],
+        "sourceEventIds": [
+          "11984"
+        ]
+      },
+      "legacyId": "bulk-match-77323",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Fandango vs. Jimmy Uso",
+      "result": "Fandango defeated Jimmy Uso.",
+      "matchType": "Singles match",
+      "duration": 20,
+      "participants": [
+        {
+          "person": "fandango",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jimmy-uso",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Fandango",
+        "Jimmy Uso"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-05-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77324",
+          "122172"
+        ],
+        "sourceEventIds": [
+          "11984"
+        ]
+      },
+      "legacyId": "bulk-match-77324",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 6,
+      "type": "match",
+      "title": "Jey Uso, Jimmy Uso vs. Fandango, Tyler Breeze",
+      "result": "Jey Uso, Jimmy Uso defeated Fandango, Tyler Breeze.",
+      "matchType": "4-person match",
+      "duration": 420,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "jey-uso",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jimmy-uso",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "fandango",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tyler-breeze",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jey Uso",
+        "Jimmy Uso",
+        "Fandango",
+        "Tyler Breeze"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-05-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77325",
+          "122173"
+        ],
+        "sourceEventIds": [
+          "11984"
+        ]
+      },
+      "legacyId": "bulk-match-77325",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 7,
+      "type": "match",
+      "title": "A.J. Styles, Shinsuke Nakamura vs. Dolph Ziggler, Kevin Owens",
+      "result": "A.J. Styles, Shinsuke Nakamura defeated Dolph Ziggler, Kevin Owens.",
+      "matchType": "4-person match",
+      "duration": 1560,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Shinsuke Nakamura",
+        "Dolph Ziggler",
+        "Kevin Owens"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-05-23"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "77326",
+          "122174"
+        ],
+        "sourceEventIds": [
+          "11984"
+        ]
+      },
+      "legacyId": "bulk-match-77326",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11984"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11984"
+    ]
+  }
+}

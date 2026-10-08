@@ -1,0 +1,217 @@
+{
+  "id": "wwe/raw/2004-09-27",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2004-09-27",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2004/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Shelton Benjamin vs. Triple H",
+      "result": "Shelton Benjamin defeated Triple H by disqualification.",
+      "matchType": "Singles match",
+      "duration": 580,
+      "participants": [
+        {
+          "person": "shelton-benjamin",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Shelton Benjamin",
+        "Triple H"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48263",
+          "158471"
+        ],
+        "sourceEventIds": [
+          "7196"
+        ]
+      },
+      "legacyId": "bulk-match-48263",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Rosey, The Hurricane vs. Rhyno, Tajiri",
+      "result": "Rosey, The Hurricane defeated Rhyno, Tajiri.",
+      "matchType": "4-person match",
+      "duration": 238,
+      "participants": [
+        {
+          "person": "rosey",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-hurricane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rhyno",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tajiri",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rosey",
+        "The Hurricane",
+        "Rhyno",
+        "Tajiri"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48264",
+          "158472"
+        ],
+        "sourceEventIds": [
+          "7196"
+        ]
+      },
+      "legacyId": "bulk-match-48264",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Gene Snitsky vs. Val Venis",
+      "result": "Gene Snitsky defeated Val Venis.",
+      "matchType": "Singles match",
+      "duration": 150,
+      "participants": [
+        {
+          "person": "gene-snitsky",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "val-venis",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Gene Snitsky",
+        "Val Venis"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48265",
+          "158473"
+        ],
+        "sourceEventIds": [
+          "7196"
+        ]
+      },
+      "legacyId": "bulk-match-48265",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Batista vs. Randy Orton",
+      "result": "Batista defeated Randy Orton.",
+      "matchType": "Other match",
+      "duration": 461,
+      "participants": [
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Batista",
+        "Randy Orton"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2004/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "48267",
+          "158475"
+        ],
+        "sourceEventIds": [
+          "7196"
+        ]
+      },
+      "legacyId": "bulk-match-48267",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7196"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7196"
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "id": "wwe/raw/1995-08-28",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1995-08-28",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1995/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "The 1-2-3 Kid vs. Razor Ramon",
+      "result": "The 1-2-3 Kid defeated Razor Ramon.",
+      "matchType": "Singles match",
+      "duration": 428,
+      "participants": [
+        {
+          "person": "x-pac",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "scott-hall",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The 1-2-3 Kid",
+        "Razor Ramon"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1995/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "23298",
+          "183708"
+        ],
+        "sourceEventIds": [
+          "3685"
+        ]
+      },
+      "legacyId": "bulk-match-23298",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 1,
+      "type": "match",
+      "title": "The British Bulldog vs. Razor Ramon",
+      "result": "The British Bulldog defeated Razor Ramon by disqualification.",
+      "matchType": "Singles match",
+      "duration": 430,
+      "participants": [
+        {
+          "person": "the-british-bulldog",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "scott-hall",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "The British Bulldog",
+        "Razor Ramon"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1995/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "23302",
+          "183712"
+        ],
+        "sourceEventIds": [
+          "3685"
+        ]
+      },
+      "legacyId": "bulk-match-23302",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 2,
+      "type": "match",
+      "title": "Kama, Tatanka vs. Bob Holly, Savio Vega",
+      "result": "Kama, Tatanka defeated Bob Holly, Savio Vega.",
+      "matchType": "4-person match",
+      "duration": 347,
+      "participants": [
+        {
+          "person": "the-godfather",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tatanka",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bob-holly",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "savio-vega",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kama",
+        "Tatanka",
+        "Bob Holly",
+        "Savio Vega"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1995/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "23299",
+          "183709"
+        ],
+        "sourceEventIds": [
+          "3685"
+        ]
+      },
+      "legacyId": "bulk-match-23299",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 3,
+      "type": "match",
+      "title": "Jean-Pierre Lafitte vs. Brian Walsh",
+      "result": "Jean-Pierre Lafitte defeated Brian Walsh.",
+      "matchType": "Singles match",
+      "duration": 198,
+      "participants": [
+        {
+          "person": "jean-pierre-lafitte",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "brian-walsh",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jean-Pierre Lafitte",
+        "Brian Walsh"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1995/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "23300",
+          "183710"
+        ],
+        "sourceEventIds": [
+          "3685"
+        ]
+      },
+      "legacyId": "bulk-match-23300",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-3685"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "3685"
+    ]
+  }
+}

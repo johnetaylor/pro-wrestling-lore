@@ -1,0 +1,277 @@
+{
+  "id": "wwe/smackdown/2002-05-07",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2002-05-07",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2002/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "The Hurricane vs. Tajiri",
+      "result": "The Hurricane defeated Tajiri by count-out.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "the-hurricane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tajiri",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "The Hurricane",
+        "Tajiri"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44694",
+          "162268"
+        ],
+        "sourceEventIds": [
+          "6560"
+        ]
+      },
+      "legacyId": "bulk-match-44694",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Test vs. Mark Henry",
+      "result": "Test defeated Mark Henry.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "test",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mark-henry",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Test",
+        "Mark Henry"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44695",
+          "162269"
+        ],
+        "sourceEventIds": [
+          "6560"
+        ]
+      },
+      "legacyId": "bulk-match-44695",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Lance Storm vs. Randy Orton",
+      "result": "Lance Storm defeated Randy Orton.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "lance-storm",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lance Storm",
+        "Randy Orton"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44696",
+          "162270"
+        ],
+        "sourceEventIds": [
+          "6560"
+        ]
+      },
+      "legacyId": "bulk-match-44696",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "D-Von Dudley vs. Triple H",
+      "result": "D-Von Dudley defeated Triple H.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "d-von-dudley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "D-Von Dudley",
+        "Triple H"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44697",
+          "162271"
+        ],
+        "sourceEventIds": [
+          "6560"
+        ]
+      },
+      "legacyId": "bulk-match-44697",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 6,
+      "type": "match",
+      "title": "Hulk Hogan & Edge vs. Chris Jericho & Kurt Angle",
+      "result": "Edge, Hulk Hogan, Chris Jericho, Kurt Angle — no contest.",
+      "matchType": "Tag team match",
+      "participants": [
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "chris-jericho",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "kurt-angle",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Edge",
+        "Hulk Hogan",
+        "Chris Jericho",
+        "Kurt Angle"
+      ],
+      "showCategory": "SmackDown",
+      "promotionLabel": "WWE",
+      "dateBasis": "broadcast",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-07",
+        "source": "https://thehistoryofwwe.com/wwe-results-2002/",
+        "scope": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date."
+      },
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2002/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "44699",
+          "162273"
+        ],
+        "sourceEventIds": [
+          "6560"
+        ]
+      },
+      "legacyId": "bulk-match-44699",
+      "legacy": {
+        "date": "2002-05-09",
+        "kind": "match",
+        "hoganReview": {
+          "id": "bulk-match-44699",
+          "source": "https://thehistoryofwwe.com/wwe-results-2002/",
+          "date": "2002-05-09",
+          "reviewed": "2026-10-07",
+          "note": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date.",
+          "recordedDate": "2002-05-07",
+          "omitUnreviewedDuration": true,
+          "title": "Hulk Hogan & Edge vs. Chris Jericho & Kurt Angle",
+          "matchType": "Tag team match"
+        },
+        "workbookReference": "HM-0253",
+        "recordedDate": "2002-05-07",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6560"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6560"
+    ]
+  }
+}

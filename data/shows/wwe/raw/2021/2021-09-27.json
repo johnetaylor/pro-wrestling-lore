@@ -1,0 +1,454 @@
+{
+  "id": "wwe/raw/2021-09-27",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2021-09-27",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2021-09-27"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Big E, Bobby Lashley — no contest.",
+      "matchType": "Singles match",
+      "duration": 606,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Big E",
+        "Bobby Lashley"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2021-09-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87700",
+          "109614"
+        ],
+        "sourceEventIds": [
+          "13790"
+        ]
+      },
+      "legacyId": "bulk-match-87700",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Angel Garza vs. Erik",
+      "result": "Angel Garza defeated Erik.",
+      "matchType": "Singles match",
+      "duration": 110,
+      "participants": [
+        {
+          "person": "angel",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "erik",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Angel Garza",
+        "Erik"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2021-09-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87701",
+          "109615"
+        ],
+        "sourceEventIds": [
+          "13790"
+        ]
+      },
+      "legacyId": "bulk-match-87701",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Ricochet vs. Reggie",
+      "result": "Ricochet defeated Reggie by disqualification.",
+      "matchType": "Singles match",
+      "duration": 81,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "reggie",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Ricochet",
+        "Reggie"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2021-09-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87702",
+          "109616"
+        ],
+        "sourceEventIds": [
+          "13790"
+        ]
+      },
+      "legacyId": "bulk-match-87702",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Damian Priest vs. Sheamus",
+      "result": "Damian Priest defeated Sheamus.",
+      "matchType": "Other match",
+      "duration": 951,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "damian-priest",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Damian Priest",
+        "Sheamus"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2021-09-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87704",
+          "109618"
+        ],
+        "sourceEventIds": [
+          "13790"
+        ]
+      },
+      "legacyId": "bulk-match-87704",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 6,
+      "type": "match",
+      "title": "Jinder Mahal, Shanky, Veer vs. Jeff Hardy, Mansoor, Mustafa Ali",
+      "result": "Jinder Mahal, Shanky, Veer defeated Jeff Hardy, Mansoor, Mustafa Ali.",
+      "matchType": "Tag Team match",
+      "duration": 224,
+      "participants": [
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shanky",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "veer",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "man-soor",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "mustafa-ali",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jinder Mahal",
+        "Shanky",
+        "Veer",
+        "Jeff Hardy",
+        "Mansoor",
+        "Mustafa Ali"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2021-09-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87705",
+          "109619"
+        ],
+        "sourceEventIds": [
+          "13790"
+        ]
+      },
+      "legacyId": "bulk-match-87705",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m6",
+      "order": 7,
+      "type": "match",
+      "title": "Karrion Kross vs. Jaxson Ryker",
+      "result": "Karrion Kross defeated Jaxson Ryker.",
+      "matchType": "Singles match",
+      "duration": 97,
+      "participants": [
+        {
+          "person": "karrion-kross",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jaxson-ryker",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Karrion Kross",
+        "Jaxson Ryker"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2021-09-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87706",
+          "109620"
+        ],
+        "sourceEventIds": [
+          "13790"
+        ]
+      },
+      "legacyId": "bulk-match-87706",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m7",
+      "order": 8,
+      "type": "match",
+      "title": "A.J. Styles vs. Riddle",
+      "result": "A.J. Styles defeated Riddle.",
+      "matchType": "Singles match",
+      "duration": 730,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "riddle",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Riddle"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2021-09-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87707",
+          "109621"
+        ],
+        "sourceEventIds": [
+          "13790"
+        ]
+      },
+      "legacyId": "bulk-match-87707",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m8",
+      "order": 9,
+      "type": "match",
+      "title": "Charlotte Flair vs. Doudrop",
+      "result": "Charlotte Flair defeated Doudrop.",
+      "matchType": "Singles match",
+      "duration": 112,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "piper-niven",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Doudrop"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2021-09-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87708",
+          "109622"
+        ],
+        "sourceEventIds": [
+          "13790"
+        ]
+      },
+      "legacyId": "bulk-match-87708",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m9",
+      "order": 10,
+      "type": "match",
+      "title": "Big E vs. Bobby Lashley",
+      "result": "Big E defeated Bobby Lashley.",
+      "matchType": "Cage match",
+      "duration": 991,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Big E",
+        "Bobby Lashley"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2021-09-27"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87709",
+          "109623"
+        ],
+        "sourceEventIds": [
+          "13790"
+        ]
+      },
+      "legacyId": "bulk-match-87709",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13790"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13790"
+    ]
+  }
+}

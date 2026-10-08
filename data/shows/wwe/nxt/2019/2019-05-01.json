@@ -1,0 +1,83 @@
+{
+  "id": "wwe/nxt/2019-05-01",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2019-05-01",
+  "dateBasis": "aired",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwenxt/2019-05-01"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "4-person match",
+      "result": "Danny Burch, Oney Lorcan, Steve Cutler, Wesley Blake — no contest.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "danny-burch",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "oney-lorcan",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "steve-cutler",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "wesley-blake",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Danny Burch",
+        "Oney Lorcan",
+        "Steve Cutler",
+        "Wesley Blake"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2019-05-01"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "116392"
+        ],
+        "sourceEventIds": [
+          "17160"
+        ]
+      },
+      "legacyId": "bulk-match-116392",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-17160"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "17160"
+    ]
+  }
+}

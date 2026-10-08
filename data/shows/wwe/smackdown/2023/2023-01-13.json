@@ -1,0 +1,210 @@
+{
+  "id": "wwe/smackdown/2023-01-13",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2023-01-13",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2023-01-13"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Gunther vs. Braun Strowman",
+      "result": "Gunther defeated Braun Strowman.",
+      "matchType": "Singles match",
+      "duration": 1048,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "gunther",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Gunther",
+        "Braun Strowman"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-01-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6213",
+          "90840",
+          "104541"
+        ],
+        "sourceEventIds": [
+          "1117"
+        ]
+      },
+      "legacyId": "bulk-match-6213",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Tegan Nox vs. Xia Li",
+      "result": "Tegan Nox defeated Xia Li.",
+      "matchType": "Singles match",
+      "duration": 162,
+      "participants": [
+        {
+          "person": "tegan-nox",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "xia-li",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tegan Nox",
+        "Xia Li"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-01-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6214",
+          "90841",
+          "104542"
+        ],
+        "sourceEventIds": [
+          "1117"
+        ]
+      },
+      "legacyId": "bulk-match-6214",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Raquel Rodriguez vs. Liv Morgan",
+      "result": "Raquel Rodriguez defeated Liv Morgan.",
+      "matchType": "Singles match",
+      "duration": 287,
+      "participants": [
+        {
+          "person": "raquel-rodriguez",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Raquel Rodriguez",
+        "Liv Morgan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-01-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6215",
+          "90842",
+          "104543"
+        ],
+        "sourceEventIds": [
+          "1117"
+        ]
+      },
+      "legacyId": "bulk-match-6215",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Kevin Owens vs. Sami Zayn",
+      "result": "Kevin Owens defeated Sami Zayn by disqualification.",
+      "matchType": "Singles match",
+      "duration": 905,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Sami Zayn"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-01-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6216",
+          "90843",
+          "104544"
+        ],
+        "sourceEventIds": [
+          "1117"
+        ]
+      },
+      "legacyId": "bulk-match-6216",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1117"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1117"
+    ]
+  }
+}

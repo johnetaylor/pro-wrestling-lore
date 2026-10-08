@@ -1,0 +1,165 @@
+{
+  "id": "wwe/raw/2024-02-19",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2024-02-19",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2024-02-19"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Drew McIntyre vs. Cody Rhodes",
+      "result": "Drew McIntyre defeated Cody Rhodes.",
+      "matchType": "Singles match",
+      "duration": 1182,
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "Cody Rhodes"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-02-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "2187",
+          "93614",
+          "100515"
+        ],
+        "sourceEventIds": [
+          "432"
+        ]
+      },
+      "legacyId": "bulk-match-2187",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Chad Gable vs. Ivar",
+      "result": "Chad Gable defeated Ivar.",
+      "matchType": "Singles match",
+      "duration": 505,
+      "participants": [
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ivar",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chad Gable",
+        "Ivar"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-02-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "2190",
+          "93617",
+          "100518"
+        ],
+        "sourceEventIds": [
+          "432"
+        ]
+      },
+      "legacyId": "bulk-match-2190",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Gunther vs. Jey Uso",
+      "result": "Gunther defeated Jey Uso.",
+      "matchType": "Singles match",
+      "duration": 1012,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "gunther",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jey-uso",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Gunther",
+        "Jey Uso"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-02-19"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "2191",
+          "93618",
+          "100519"
+        ],
+        "sourceEventIds": [
+          "432"
+        ]
+      },
+      "legacyId": "bulk-match-2191",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-432"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "432"
+    ]
+  }
+}

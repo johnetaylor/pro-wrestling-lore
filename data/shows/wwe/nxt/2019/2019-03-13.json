@@ -1,0 +1,130 @@
+{
+  "id": "wwe/nxt/2019-03-13",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2019-03-13",
+  "dateBasis": "aired",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwenxt/2019-03-13"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Aleister Black, Ricochet vs. Steve Cutler, Wesley Blake",
+      "result": "Aleister Black, Ricochet defeated Steve Cutler, Wesley Blake.",
+      "matchType": "4-person match",
+      "duration": 865,
+      "participants": [
+        {
+          "person": "aleister-black",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "steve-cutler",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "wesley-blake",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Aleister Black",
+        "Ricochet",
+        "Steve Cutler",
+        "Wesley Blake"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2019-03-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "116733"
+        ],
+        "sourceEventIds": [
+          "17221",
+          "17222"
+        ]
+      },
+      "legacyId": "bulk-match-116733",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 6,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Bianca Belair, Kairi Sane — no contest.",
+      "matchType": "Singles match",
+      "duration": 520,
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "kairi-sane",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Bianca Belair",
+        "Kairi Sane"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2019-03-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "116739"
+        ],
+        "sourceEventIds": [
+          "17221",
+          "17222"
+        ]
+      },
+      "legacyId": "bulk-match-116739",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-17221"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "17221",
+      "17222"
+    ]
+  }
+}

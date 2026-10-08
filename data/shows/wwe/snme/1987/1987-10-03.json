@@ -1,0 +1,193 @@
+{
+  "id": "wwe/snme/1987-10-03",
+  "promotion": "wwe",
+  "series": "wwe/snme",
+  "name": "Saturday Night's Main Event Taping",
+  "date": "1987-10-03",
+  "dateBasis": "aired",
+  "recordedDate": "1987-09-23",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1987/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Hulk Hogan vs. Sika",
+      "result": "Hulk Hogan defeated Sika.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sika",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Hulk Hogan",
+        "Sika"
+      ],
+      "showCategory": "PLE / special",
+      "promotionLabel": "WWF",
+      "dateBasis": "broadcast",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-07",
+        "source": "https://thehistoryofwwe.com/wwf-results-1987/",
+        "scope": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date."
+      },
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1987/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "13213",
+          "193805"
+        ],
+        "sourceEventIds": [
+          "2150"
+        ]
+      },
+      "legacyId": "bulk-match-13213",
+      "legacy": {
+        "show": "Saturday Night’s Main Event",
+        "kind": "title",
+        "hoganReview": {
+          "id": "bulk-match-13213",
+          "source": "https://thehistoryofwwe.com/wwf-results-1987/",
+          "date": "1987-10-03",
+          "reviewed": "2026-10-07",
+          "note": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date.",
+          "show": "Saturday Night’s Main Event",
+          "omitUnreviewedDuration": true
+        },
+        "workbookReference": "HM-0090",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "King Kong Bundy vs. Paul Orndorff",
+      "result": "King Kong Bundy defeated Paul Orndorff.",
+      "matchType": "Singles match",
+      "duration": 600,
+      "participants": [
+        {
+          "person": "king-kong-bundy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "paul-orndorff",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "King Kong Bundy",
+        "Paul Orndorff"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1987/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "13214",
+          "193806"
+        ],
+        "sourceEventIds": [
+          "2150"
+        ]
+      },
+      "legacyId": "bulk-match-13214",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Bret Hart, Jim Neidhart vs. Jim Powers, Paul Roma",
+      "result": "Bret Hart, Jim Neidhart defeated Jim Powers, Paul Roma.",
+      "matchType": "4-person match",
+      "duration": 270,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bret-hart",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jim-neidhart",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jim-powers",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "paul-roma",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bret Hart",
+        "Jim Neidhart",
+        "Jim Powers",
+        "Paul Roma"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1987/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "13215",
+          "193807"
+        ],
+        "sourceEventIds": [
+          "2150"
+        ]
+      },
+      "legacyId": "bulk-match-13215",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-2150"
+  ],
+  "legacy": {
+    "showFamily": "snme",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "2150"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "wwe/raw/2016-10-03",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2016-10-03",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "unlinked",
+    "segments": "unknown",
+    "legacyCardStatus": "Sourced results; segment and appearance coverage may be incomplete."
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2016-10-03"
+  ],
+  "segments": [
+    {
+      "key": "s1",
+      "type": "appearance",
+      "title": "Brian Kendrick vs. T.J. Perkins",
+      "result": "Brian Kendrick defeated T.J. Perkins in a non-title match (submission).",
+      "matchType": "Non-title match",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2016-10-03/article/brian-kendrick-def-wwe-cruiserweight-champion-tj-perkins"
+      ],
+      "legacyId": "raw-backfill-2016-10-03-match-1",
+      "participants": []
+    },
+    {
+      "key": "s2",
+      "type": "appearance",
+      "title": "Braun Strowman vs. Chase Silver",
+      "result": "Braun Strowman defeated Chase Silver.",
+      "matchType": "Match",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2016-10-03/article/braun-strowman-def-chase-silver"
+      ],
+      "legacyId": "raw-backfill-2016-10-03-match-2",
+      "participants": []
+    },
+    {
+      "key": "s3",
+      "type": "appearance",
+      "title": "The New Day vs. Jeri-KO",
+      "result": "The New Day defeated Kevin Owens & Chris Jericho.",
+      "matchType": "Tag team match",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2016-10-03/article/raw-tag-team-champions-the-new-day-def-jeri-ko"
+      ],
+      "legacyId": "raw-backfill-2016-10-03-match-3",
+      "participants": []
+    },
+    {
+      "key": "s4",
+      "type": "appearance",
+      "title": "Sasha Banks vs. Charlotte",
+      "result": "Sasha Banks defeated Charlotte by submission to win the Raw Women's Championship.",
+      "matchType": "Raw Women's Championship",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2016-10-03/article/sasha-banks-def-charlotte-to-become-the-new-raw-women%E2%80%99s-champion"
+      ],
+      "legacyId": "raw-backfill-2016-10-03-match-4",
+      "participants": []
+    }
+  ],
+  "legacyIds": [
+    "raw-backfill-2016-10-03"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "rawBackfill": true
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "wwe/raw/1993-05-31",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1993-05-31",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1993/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Marty Jannetty vs. Bam Bam Bigelow",
+      "result": "Marty Jannetty defeated Bam Bam Bigelow by count-out.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "marty-jannetty",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bam-bam-bigelow",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Marty Jannetty",
+        "Bam Bam Bigelow"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1993/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "19818",
+          "187211"
+        ],
+        "sourceEventIds": [
+          "3122"
+        ]
+      },
+      "legacyId": "bulk-match-19818",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Mr. Hughes vs. Bert Centeno",
+      "result": "Mr. Hughes defeated Bert Centeno.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "mr-hughes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bert-centeno",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mr. Hughes",
+        "Bert Centeno"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1993/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "19820",
+          "187213"
+        ],
+        "sourceEventIds": [
+          "3122"
+        ]
+      },
+      "legacyId": "bulk-match-19820",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-3122"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "3122"
+    ]
+  }
+}

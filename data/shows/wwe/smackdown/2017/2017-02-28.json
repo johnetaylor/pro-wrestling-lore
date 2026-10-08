@@ -1,0 +1,161 @@
+{
+  "id": "wwe/smackdown/2017-02-28",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-02-28",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-02-28"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Becky Lynch vs. Mickie James",
+      "result": "Becky Lynch defeated Mickie James.",
+      "matchType": "Other match",
+      "duration": 848,
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Mickie James"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-02-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76351",
+          "123171"
+        ],
+        "sourceEventIds": [
+          "11835"
+        ]
+      },
+      "legacyId": "bulk-match-76351",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "A.J. Styles vs. Luke Harper",
+      "result": "A.J. Styles defeated Luke Harper.",
+      "matchType": "Singles match",
+      "duration": 717,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "luke-harper",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Luke Harper"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-02-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76352",
+          "123172"
+        ],
+        "sourceEventIds": [
+          "11835"
+        ]
+      },
+      "legacyId": "bulk-match-76352",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Dolph Ziggler vs. Apollo Crews",
+      "result": "Dolph Ziggler defeated Apollo Crews.",
+      "matchType": "Other match",
+      "duration": 535,
+      "participants": [
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "apollo-crews",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dolph Ziggler",
+        "Apollo Crews"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-02-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76354",
+          "123174"
+        ],
+        "sourceEventIds": [
+          "11835"
+        ]
+      },
+      "legacyId": "bulk-match-76354",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11835"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11835"
+    ]
+  }
+}

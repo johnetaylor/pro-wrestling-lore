@@ -1,0 +1,70 @@
+{
+  "id": "mysterio",
+  "name": "Mysterio",
+  "description": "An uncle’s influence, followed by a father and son. Rey Misterio Sr. is Rey’s uncle, not his father.",
+  "branches": [
+    {
+      "id": "mysterio",
+      "name": "The Mysterio family"
+    }
+  ],
+  "members": [
+    {
+      "id": "rey-sr",
+      "name": "Rey Misterio Sr.",
+      "branch": "mysterio",
+      "source": "uncle",
+      "layout": {
+        "x": 16,
+        "y": 24
+      }
+    },
+    {
+      "id": "rey-mysterio",
+      "name": "Rey Mysterio",
+      "person": "rey-mysterio",
+      "branch": "mysterio",
+      "source": "rey",
+      "layout": {
+        "x": 16,
+        "y": 164
+      }
+    },
+    {
+      "id": "dominik-mysterio",
+      "name": "Dominik Mysterio",
+      "person": "dominik-mysterio",
+      "branch": "mysterio",
+      "source": "rey",
+      "layout": {
+        "x": 16,
+        "y": 304
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "rey-sr",
+      "b": "rey-mysterio",
+      "type": "uncle",
+      "label": "Uncle → nephew",
+      "source": "uncle"
+    },
+    {
+      "a": "rey-mysterio",
+      "b": "dominik-mysterio",
+      "type": "parent",
+      "source": "rey"
+    }
+  ],
+  "sources": {
+    "uncle": {
+      "label": "Rey Mysterio on his uncle",
+      "url": "https://www.wrestlinginc.com/news/2015/02/rey-mysterio-gets-new-ink-with-his-uncle-photos-589285/"
+    },
+    "rey": {
+      "label": "WWE: Rey Mysterio",
+      "url": "https://www.wwe.com/superstars/reymysterio"
+    }
+  }
+}

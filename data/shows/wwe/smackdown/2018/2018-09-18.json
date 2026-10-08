@@ -1,0 +1,202 @@
+{
+  "id": "wwe/smackdown/2018-09-18",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-09-18",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-09-18"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Cesaro vs. Kofi Kingston",
+      "result": "Cesaro defeated Kofi Kingston.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cesaro",
+        "Kofi Kingston"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-09-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81473",
+          "117985"
+        ],
+        "sourceEventIds": [
+          "12673"
+        ]
+      },
+      "legacyId": "bulk-match-81473",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Shinsuke Nakamura vs. Rusev",
+      "result": "Shinsuke Nakamura defeated Rusev.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shinsuke Nakamura",
+        "Rusev"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-09-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81474",
+          "117986"
+        ],
+        "sourceEventIds": [
+          "12673"
+        ]
+      },
+      "legacyId": "bulk-match-81474",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "A.J. Styles vs. Andrade \"Cien\" Almas",
+      "result": "A.J. Styles defeated Andrade \"Cien\" Almas.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Andrade \"Cien\" Almas"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-09-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81475",
+          "117987"
+        ],
+        "sourceEventIds": [
+          "12673"
+        ]
+      },
+      "legacyId": "bulk-match-81475",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Asuka vs. Billie Kay",
+      "result": "Asuka defeated Billie Kay.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "asuka",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billie-kay",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Asuka",
+        "Billie Kay"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-09-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81476",
+          "117988"
+        ],
+        "sourceEventIds": [
+          "12673"
+        ]
+      },
+      "legacyId": "bulk-match-81476",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12673"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12673"
+    ]
+  }
+}

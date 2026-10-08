@@ -1,0 +1,217 @@
+{
+  "id": "wwe/raw/2010-12-06",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2010-12-06",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2010/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Brie Bella, Daniel Bryan vs. Maryse, Ted DiBiase Jr.",
+      "result": "Brie Bella, Daniel Bryan defeated Maryse, Ted DiBiase Jr..",
+      "matchType": "4-person match",
+      "duration": 128,
+      "participants": [
+        {
+          "person": "brie-bella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "maryse",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "ted-dibiase-jr",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Brie Bella",
+        "Daniel Bryan",
+        "Maryse",
+        "Ted DiBiase Jr."
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "56346",
+          "147827"
+        ],
+        "sourceEventIds": [
+          "8773"
+        ]
+      },
+      "legacyId": "bulk-match-56346",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Tyson Kidd vs. David Hart Smith",
+      "result": "Tyson Kidd defeated David Hart Smith.",
+      "matchType": "Singles match",
+      "duration": 132,
+      "participants": [
+        {
+          "person": "tyson-kidd",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "david-hart-smith",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tyson Kidd",
+        "David Hart Smith"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "56347",
+          "147828"
+        ],
+        "sourceEventIds": [
+          "8773"
+        ]
+      },
+      "legacyId": "bulk-match-56347",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Natalya vs. Melina",
+      "result": "Natalya defeated Melina.",
+      "matchType": "Singles match",
+      "duration": 145,
+      "participants": [
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "melina",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Natalya",
+        "Melina"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "56349",
+          "147830"
+        ],
+        "sourceEventIds": [
+          "8773"
+        ]
+      },
+      "legacyId": "bulk-match-56349",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Randy Orton vs. Alex Riley",
+      "result": "Randy Orton defeated Alex Riley by disqualification.",
+      "matchType": "Singles match",
+      "duration": 168,
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alex-riley",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Alex Riley"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2010/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "56350",
+          "147831"
+        ],
+        "sourceEventIds": [
+          "8773"
+        ]
+      },
+      "legacyId": "bulk-match-56350",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-8773"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "8773"
+    ]
+  }
+}

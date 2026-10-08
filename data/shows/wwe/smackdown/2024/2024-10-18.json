@@ -1,0 +1,170 @@
+{
+  "id": "wwe/smackdown/2024-10-18",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2024-10-18",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2024-10-18"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Lash Legend vs. Piper Niven",
+      "result": "Lash Legend defeated Piper Niven.",
+      "matchType": "Singles match",
+      "duration": 181,
+      "participants": [
+        {
+          "person": "lash-legend",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "piper-niven",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lash Legend",
+        "Piper Niven"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-10-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95106"
+        ],
+        "sourceEventIds": [
+          "15071"
+        ]
+      },
+      "legacyId": "bulk-match-95106",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Candice LeRae, Nia Jax vs. Bayley, Naomi",
+      "result": "Candice LeRae, Nia Jax defeated Bayley, Naomi.",
+      "matchType": "4-person match",
+      "duration": 453,
+      "participants": [
+        {
+          "person": "candice-lerae",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nia-jax",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Candice LeRae",
+        "Nia Jax",
+        "Bayley",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-10-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95108"
+        ],
+        "sourceEventIds": [
+          "15071"
+        ]
+      },
+      "legacyId": "bulk-match-95108",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 7,
+      "type": "match",
+      "title": "Cody Rhodes vs. Solo Sikoa",
+      "result": "Cody Rhodes defeated Solo Sikoa.",
+      "matchType": "Other match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "solo-sikoa",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Solo Sikoa"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2024-10-18"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95110"
+        ],
+        "sourceEventIds": [
+          "15071"
+        ]
+      },
+      "legacyId": "bulk-match-95110",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-15071"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "15071"
+    ]
+  }
+}

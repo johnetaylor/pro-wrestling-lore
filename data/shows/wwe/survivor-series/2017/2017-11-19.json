@@ -1,0 +1,85 @@
+{
+  "id": "wwe/survivor-series/2017-11-19",
+  "promotion": "wwe",
+  "series": "wwe/survivor-series",
+  "name": "Survivor Series '17",
+  "date": "2017-11-19",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/survivorseries/2017"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Kevin Owens, Sami Zayn vs. Fandango, Tyler Breeze",
+      "result": "Kevin Owens, Sami Zayn defeated Fandango, Tyler Breeze.",
+      "matchType": "Other match",
+      "duration": 510,
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "fandango",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tyler-breeze",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Sami Zayn",
+        "Fandango",
+        "Tyler Breeze"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/survivorseries/2017"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "79116",
+          "120348"
+        ],
+        "sourceEventIds": [
+          "12270"
+        ]
+      },
+      "legacyId": "bulk-match-79116",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12270"
+  ],
+  "legacy": {
+    "showFamily": "survivor-series",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12270"
+    ]
+  }
+}

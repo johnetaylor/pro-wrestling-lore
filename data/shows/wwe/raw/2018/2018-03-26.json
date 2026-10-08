@@ -1,0 +1,129 @@
+{
+  "id": "wwe/raw/2018-03-26",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2018-03-26",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2018-03-26"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Nia Jax vs. Mickie James",
+      "result": "Nia Jax defeated Mickie James.",
+      "matchType": "Singles match",
+      "duration": 425,
+      "participants": [
+        {
+          "person": "nia-jax",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Nia Jax",
+        "Mickie James"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-03-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80063",
+          "119398"
+        ],
+        "sourceEventIds": [
+          "12442"
+        ]
+      },
+      "legacyId": "bulk-match-80063",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Cedric Alexander, Mustafa Ali vs. Drew Gulak, TJP",
+      "result": "Cedric Alexander, Mustafa Ali defeated Drew Gulak, TJP.",
+      "matchType": "4-person match",
+      "duration": 244,
+      "participants": [
+        {
+          "person": "cedric-alexander",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mustafa-ali",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "drew-gulak",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tjp",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cedric Alexander",
+        "Mustafa Ali",
+        "Drew Gulak",
+        "TJP"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2018-03-26"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "80064",
+          "119399"
+        ],
+        "sourceEventIds": [
+          "12442"
+        ]
+      },
+      "legacyId": "bulk-match-80064",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12442"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12442"
+    ]
+  }
+}

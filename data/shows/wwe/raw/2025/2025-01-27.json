@@ -1,0 +1,349 @@
+{
+  "id": "wwe/raw/2025-01-27",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2025-01-27",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "legacyCardStatus": "Card compared with official recap",
+    "legacySegmentStatus": "Recap reviewed; appearance coverage remains partial"
+  },
+  "sources": [
+    "https://www.thesmackdownhotel.com/events-results/wwe/raw-2025",
+    "https://www.wwe.com/shows/raw/2025-01-27"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "War Raiders (Erik & Ivar)",
+      "result": "War Raiders (Erik & Ivar) (c) defeat The Judgment Day (Dominik Mysterio & JD McDonagh) to retain the titles",
+      "context": "Carlito tried to assist Judgment Day; the War Raiders retained.",
+      "matchType": "World Tag Team Championship",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor"
+        },
+        {
+          "person": "jd-mcdonagh",
+          "role": "competitor"
+        },
+        {
+          "person": "erik",
+          "role": "competitor"
+        },
+        {
+          "person": "ivar",
+          "role": "competitor"
+        },
+        {
+          "person": "carlito",
+          "role": "involved"
+        }
+      ],
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/raw/2025-01-27",
+        "evidence": "WWE recap: World Tag Team Championship match",
+        "fields": [
+          "involved",
+          "context"
+        ]
+      },
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/raw-2025",
+        "https://www.wwe.com/shows/raw/2025-01-27"
+      ],
+      "legacyId": "2025-01-27-raw-match-1",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Rey Mysterio vs. Xavier Woods",
+      "result": "Rey Mysterio defeats Xavier Woods",
+      "context": "Televised match. Open the linked show recap for the finish and surrounding story.",
+      "matchType": "Match",
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor"
+        },
+        {
+          "person": "xavier-woods",
+          "role": "competitor"
+        }
+      ],
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/raw/2025-01-27",
+        "scope": "Listed competitors and result; not every field or full broadcast"
+      },
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/raw-2025",
+        "https://www.wwe.com/shows/raw/2025-01-27"
+      ],
+      "legacyId": "2025-01-27-raw-match-2",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Liv Morgan & Raquel Rodriguez vs. Bianca Belair & Naomi",
+      "result": "Liv Morgan & Raquel Rodriguez defeat Bianca Belair & Naomi",
+      "context": "Dominik disrupted Belair's advantage; Morgan pinned Naomi in this non-title match.",
+      "matchType": "Match",
+      "participants": [
+        {
+          "person": "liv-morgan",
+          "role": "competitor"
+        },
+        {
+          "person": "raquel-rodriguez",
+          "role": "competitor"
+        },
+        {
+          "person": "bianca-belair",
+          "role": "competitor"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor"
+        },
+        {
+          "person": "dominik-mysterio",
+          "role": "involved"
+        }
+      ],
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/raw/2025-01-27",
+        "evidence": "WWE recap: women's tag match finish",
+        "fields": [
+          "involved",
+          "context"
+        ]
+      },
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/raw-2025",
+        "https://www.wwe.com/shows/raw/2025-01-27"
+      ],
+      "legacyId": "2025-01-27-raw-match-3",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Drew McIntyre vs. Sami Zayn",
+      "result": "Drew McIntyre defeats Sami Zayn",
+      "context": "Televised match. Open the linked show recap for the finish and surrounding story.",
+      "matchType": "Match",
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor"
+        }
+      ],
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/raw/2025-01-27",
+        "scope": "Listed competitors and result; not every field or full broadcast"
+      },
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/raw-2025",
+        "https://www.wwe.com/shows/raw/2025-01-27"
+      ],
+      "legacyId": "2025-01-27-raw-match-4",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "s1",
+      "type": "promo",
+      "title": "Seth Rollins' address is interrupted by Gunther",
+      "result": "Seth Rollins' address is interrupted by Gunther.",
+      "context": "Selected televised promo, interview or verbal exchange. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor"
+        },
+        {
+          "person": "gunther",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/raw/2025-01-27"
+      ],
+      "legacyId": "2025-01-27-raw-segment-1",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s2",
+      "type": "promo",
+      "title": "Logan Paul announces that he will compete in the Rumble",
+      "result": "Logan Paul announces that he will compete in the Rumble.",
+      "context": "Selected televised promo, interview or verbal exchange. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "logan-paul",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/raw/2025-01-27"
+      ],
+      "legacyId": "2025-01-27-raw-segment-2",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s3",
+      "type": "promo",
+      "title": "Quavo joins Jey Uso as Uso announces his Rumble entry",
+      "result": "Quavo joins Jey Uso as Uso announces his Rumble entry.",
+      "context": "Selected televised promo, interview or verbal exchange. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "jey-uso",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/raw/2025-01-27"
+      ],
+      "legacyId": "2025-01-27-raw-segment-3",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s4",
+      "type": "promo",
+      "title": "Paul Heyman unveils the WWE 2K25 cover featuring Roman Reigns",
+      "result": "Paul Heyman unveils the WWE 2K25 cover featuring Roman Reigns.",
+      "context": "Selected televised promo, interview or verbal exchange. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "paul-heyman",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/raw/2025-01-27"
+      ],
+      "legacyId": "2025-01-27-raw-segment-4",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s5",
+      "type": "promo",
+      "title": "Paul Heyman is confronted by Drew McIntyre",
+      "result": "Paul Heyman is confronted by Drew McIntyre.",
+      "context": "Selected televised promo, interview or verbal exchange. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor"
+        },
+        {
+          "person": "paul-heyman",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/raw/2025-01-27"
+      ],
+      "legacyId": "2025-01-27-raw-segment-5",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s6",
+      "type": "appearance",
+      "title": "Cody Rhodes is accidentally struck by Sami Zayn's kick",
+      "result": "Cody Rhodes is accidentally struck by Sami Zayn's kick.",
+      "context": "Selected televised appearance or physical confrontation. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/raw/2025-01-27"
+      ],
+      "legacyId": "2025-01-27-raw-segment-6",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s7",
+      "type": "promo",
+      "title": "Cody Rhodes hears CM Punk's plans for the Rumble",
+      "result": "Cody Rhodes hears CM Punk's plans for the Rumble.",
+      "context": "Selected televised promo, interview or verbal exchange. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        },
+        {
+          "person": "cm-punk",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/raw/2025-01-27"
+      ],
+      "legacyId": "2025-01-27-raw-segment-7",
+      "legacy": {
+        "kind": "story"
+      }
+    }
+  ],
+  "legacyIds": [
+    "2025-01-27-raw"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "audit": {
+      "batch": "january-2025-recap-audit",
+      "checked": "2026-10-06",
+      "source": "https://www.wwe.com/shows/raw/2025-01-27",
+      "method": "Manual source comparison with deterministic validation; not a full broadcast viewing"
+    }
+  }
+}

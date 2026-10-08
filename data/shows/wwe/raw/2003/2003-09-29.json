@@ -1,0 +1,218 @@
+{
+  "id": "wwe/raw/2003-09-29",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2003-09-29",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2003/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Jim Ross vs. Jonathan Coachman",
+      "result": "Jim Ross defeated Jonathan Coachman.",
+      "matchType": "Other match",
+      "duration": 286,
+      "participants": [
+        {
+          "person": "jim-ross",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jonathan-coachman",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jim Ross",
+        "Jonathan Coachman"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46918",
+          "160088"
+        ],
+        "sourceEventIds": [
+          "6935"
+        ]
+      },
+      "legacyId": "bulk-match-46918",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Kane vs. The Hurricane",
+      "result": "Kane defeated The Hurricane.",
+      "matchType": "Singles match",
+      "duration": 57,
+      "participants": [
+        {
+          "person": "kane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-hurricane",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kane",
+        "The Hurricane"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46919",
+          "160089"
+        ],
+        "sourceEventIds": [
+          "6935"
+        ]
+      },
+      "legacyId": "bulk-match-46919",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Goldberg, Shawn Michaels vs. Randy Orton, Ric Flair",
+      "result": "Goldberg, Shawn Michaels defeated Randy Orton, Ric Flair by disqualification.",
+      "matchType": "4-person match",
+      "duration": 348,
+      "participants": [
+        {
+          "person": "goldberg",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "ric-flair",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Goldberg",
+        "Shawn Michaels",
+        "Randy Orton",
+        "Ric Flair"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46920",
+          "160090"
+        ],
+        "sourceEventIds": [
+          "6935"
+        ]
+      },
+      "legacyId": "bulk-match-46920",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Rob Van Dam vs. Christian",
+      "result": "Rob Van Dam defeated Christian.",
+      "matchType": "Ladder match",
+      "duration": 823,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "rob-van-dam",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "christian",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rob Van Dam",
+        "Christian"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2003/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "46921",
+          "160091"
+        ],
+        "sourceEventIds": [
+          "6935"
+        ]
+      },
+      "legacyId": "bulk-match-46921",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-6935"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "6935"
+    ]
+  }
+}

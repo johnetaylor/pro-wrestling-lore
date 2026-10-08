@@ -1,0 +1,217 @@
+{
+  "id": "wwe/smackdown/2017-01-10",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-01-10",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-01-10"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Natalya, Nikki Bella — no contest.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "nikki-bella",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Natalya",
+        "Nikki Bella"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-01-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "75799",
+          "123770"
+        ],
+        "sourceEventIds": [
+          "11747"
+        ]
+      },
+      "legacyId": "bulk-match-75799",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Kalisto vs. Dolph Ziggler",
+      "result": "Kalisto defeated Dolph Ziggler.",
+      "matchType": "Singles match",
+      "duration": 517,
+      "participants": [
+        {
+          "person": "kalisto",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Kalisto",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-01-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "75800",
+          "123771"
+        ],
+        "sourceEventIds": [
+          "11747"
+        ]
+      },
+      "legacyId": "bulk-match-75800",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Chad Gable, Jason Jordan vs. Bray Wyatt, Randy Orton",
+      "result": "Chad Gable, Jason Jordan defeated Bray Wyatt, Randy Orton.",
+      "matchType": "4-person match",
+      "duration": 936,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jason-jordan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bray-wyatt",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chad Gable",
+        "Jason Jordan",
+        "Bray Wyatt",
+        "Randy Orton"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-01-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "75801",
+          "123772"
+        ],
+        "sourceEventIds": [
+          "11747"
+        ]
+      },
+      "legacyId": "bulk-match-75801",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "John Cena vs. Baron Corbin",
+      "result": "John Cena defeated Baron Corbin.",
+      "matchType": "Other match",
+      "duration": 663,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Baron Corbin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-01-10"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "75803",
+          "123774"
+        ],
+        "sourceEventIds": [
+          "11747"
+        ]
+      },
+      "legacyId": "bulk-match-75803",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11747"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11747"
+    ]
+  }
+}

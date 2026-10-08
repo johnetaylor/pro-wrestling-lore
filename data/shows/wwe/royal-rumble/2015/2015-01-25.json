@@ -1,0 +1,141 @@
+{
+  "id": "wwe/royal-rumble/2015-01-25",
+  "promotion": "wwe",
+  "series": "wwe/royal-rumble",
+  "name": "Royal Rumble '15",
+  "date": "2015-01-25",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/royalrumble/2015"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Konnor, Viktor vs. Billy Gunn, Road Dogg",
+      "result": "Konnor, Viktor defeated Billy Gunn, Road Dogg.",
+      "matchType": "4-person match",
+      "duration": 326,
+      "participants": [
+        {
+          "person": "konnor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "viktor",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "road-dogg",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Konnor",
+        "Viktor",
+        "Billy Gunn",
+        "Road Dogg"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/royalrumble/2015"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "67948",
+          "132564"
+        ],
+        "sourceEventIds": [
+          "10634"
+        ]
+      },
+      "legacyId": "bulk-match-67948",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Brie Bella, Nikki Bella vs. Natalya, Paige",
+      "result": "Brie Bella, Nikki Bella defeated Natalya, Paige.",
+      "matchType": "4-person match",
+      "duration": 483,
+      "participants": [
+        {
+          "person": "brie-bella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "nikki-bella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "paige",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Brie Bella",
+        "Nikki Bella",
+        "Natalya",
+        "Paige"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/royalrumble/2015"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "67950",
+          "132566"
+        ],
+        "sourceEventIds": [
+          "10634"
+        ]
+      },
+      "legacyId": "bulk-match-67950",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10634"
+  ],
+  "legacy": {
+    "showFamily": "royal-rumble",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10634"
+    ]
+  }
+}

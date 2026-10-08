@@ -1,0 +1,206 @@
+{
+  "id": "wwe/survivor-series/2018-11-18",
+  "promotion": "wwe",
+  "series": "wwe/survivor-series",
+  "name": "Survivor Series '18",
+  "date": "2018-11-18",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/survivorseries/2018"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Seth Rollins vs. Shinsuke Nakamura",
+      "result": "Seth Rollins defeated Shinsuke Nakamura.",
+      "matchType": "Singles match",
+      "duration": 1286,
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Seth Rollins",
+        "Shinsuke Nakamura"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/survivorseries/2018"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81892",
+          "117558"
+        ],
+        "sourceEventIds": [
+          "12753"
+        ]
+      },
+      "legacyId": "bulk-match-81892",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Buddy Murphy vs. Mustafa Ali",
+      "result": "Buddy Murphy defeated Mustafa Ali.",
+      "matchType": "Singles match",
+      "duration": 739,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "buddy-murphy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mustafa-ali",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Buddy Murphy",
+        "Mustafa Ali"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/survivorseries/2018"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81894",
+          "117560"
+        ],
+        "sourceEventIds": [
+          "12753"
+        ]
+      },
+      "legacyId": "bulk-match-81894",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 7,
+      "type": "match",
+      "title": "Ronda Rousey vs. Charlotte Flair",
+      "result": "Ronda Rousey defeated Charlotte Flair by disqualification.",
+      "matchType": "Singles match",
+      "duration": 851,
+      "participants": [
+        {
+          "person": "ronda-rousey",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Ronda Rousey",
+        "Charlotte Flair"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/survivorseries/2018"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81896",
+          "117562"
+        ],
+        "sourceEventIds": [
+          "12753"
+        ]
+      },
+      "legacyId": "bulk-match-81896",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 8,
+      "type": "match",
+      "title": "Brock Lesnar vs. Daniel Bryan",
+      "result": "Brock Lesnar defeated Daniel Bryan.",
+      "matchType": "Singles match",
+      "duration": 1123,
+      "participants": [
+        {
+          "person": "brock-lesnar",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Brock Lesnar",
+        "Daniel Bryan"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/survivorseries/2018"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81897",
+          "117563"
+        ],
+        "sourceEventIds": [
+          "12753"
+        ]
+      },
+      "legacyId": "bulk-match-81897",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12753"
+  ],
+  "legacy": {
+    "showFamily": "survivor-series",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12753"
+    ]
+  }
+}

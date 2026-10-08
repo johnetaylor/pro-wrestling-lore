@@ -1,0 +1,73 @@
+{
+  "id": "wwe/wrestlemania/2014-04-06",
+  "promotion": "wwe",
+  "series": "wwe/wrestlemania",
+  "name": "WrestleMania XXX",
+  "date": "2014-04-06",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2014/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Daniel Bryan vs. Triple H",
+      "result": "Daniel Bryan defeated Triple H.",
+      "matchType": "Singles match",
+      "duration": 1557,
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "Triple H"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2014/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "65128",
+          "135854"
+        ],
+        "sourceEventIds": [
+          "10251"
+        ]
+      },
+      "legacyId": "bulk-match-65128",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-10251"
+  ],
+  "legacy": {
+    "showFamily": "wrestlemania",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "10251"
+    ]
+  }
+}

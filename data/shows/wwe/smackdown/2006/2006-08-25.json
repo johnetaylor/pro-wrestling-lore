@@ -1,0 +1,177 @@
+{
+  "id": "wwe/smackdown/2006-08-25",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2006-08-25",
+  "dateBasis": "aired",
+  "recordedDate": "2006-08-22",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwe-results-2006/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Sylvester Terkay vs. Tatanka",
+      "result": "Sylvester Terkay defeated Tatanka.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "sylvester-terkay",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tatanka",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sylvester Terkay",
+        "Tatanka"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50938",
+          "155218"
+        ],
+        "sourceEventIds": [
+          "7703"
+        ]
+      },
+      "legacyId": "bulk-match-50938",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 5,
+      "type": "match",
+      "title": "Vito vs. Sylvan",
+      "result": "Vito defeated Sylvan.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "vito",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sylvan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Vito",
+        "Sylvan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50941",
+          "155221"
+        ],
+        "sourceEventIds": [
+          "7703"
+        ]
+      },
+      "legacyId": "bulk-match-50941",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Batista, Bobby Lashley vs. Finlay, King Booker, William Regal",
+      "result": "Batista, Bobby Lashley defeated Finlay, King Booker, William Regal.",
+      "matchType": "Tag Team match",
+      "participants": [
+        {
+          "person": "batista",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bobby-lashley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "finlay",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "booker-t",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "william-regal",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Batista",
+        "Bobby Lashley",
+        "Finlay",
+        "King Booker",
+        "William Regal"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2006/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "50942",
+          "155222"
+        ],
+        "sourceEventIds": [
+          "7703"
+        ]
+      },
+      "legacyId": "bulk-match-50942",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-7703"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "7703"
+    ]
+  }
+}

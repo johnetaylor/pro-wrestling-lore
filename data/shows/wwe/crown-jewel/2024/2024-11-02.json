@@ -1,0 +1,499 @@
+{
+  "id": "wwe/crown-jewel/2024-11-02",
+  "promotion": "wwe",
+  "series": "wwe/crown-jewel",
+  "name": "Crown Jewel 2024",
+  "date": "2024-11-02",
+  "category": "PLE",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "note": "Hugging Face import · official-results comparison. Unverified extra matches were excluded.",
+    "legacyCardStatus": "Imported card compared with official WWE results",
+    "legacySegmentStatus": "Partial; the match dataset does not contain a promo/appearance archive"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwe-crown-jewel/2024/results"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Jacob Fatu & Solo Sikoa & Tama Tonga vs. Jey Uso, Jimmy Uso, Roman Reigns",
+      "result": "Jacob Fatu & Solo Sikoa & Tama Tonga defeated Jey Uso, Jimmy Uso, Roman Reigns.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Tag Team Match",
+      "participants": [
+        {
+          "person": "jacob-fatu",
+          "role": "competitor"
+        },
+        {
+          "person": "solo-sikoa",
+          "role": "competitor"
+        },
+        {
+          "person": "tama-tonga",
+          "role": "competitor"
+        },
+        {
+          "person": "jey-uso",
+          "role": "competitor"
+        },
+        {
+          "person": "jimmy-uso",
+          "role": "competitor"
+        },
+        {
+          "person": "roman-reigns",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Jacob Fatu",
+        "Solo Sikoa",
+        "Tama Tonga",
+        "Jey Uso",
+        "Jimmy Uso",
+        "Roman Reigns"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wwe-crown-jewel/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wwe-crown-jewel/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15087",
+        "sourceMatchIds": [
+          "95174"
+        ],
+        "rawInputSha256": "4a7f312022ef1dee825d03abdeca7127060f0f7b06850bd95d1b0325898f53e0",
+        "normalizedParticipants": [
+          {
+            "name": "Jacob Fatu",
+            "result": "win"
+          },
+          {
+            "name": "Solo Sikoa",
+            "result": "win"
+          },
+          {
+            "name": "Tama Tonga",
+            "result": "win"
+          },
+          {
+            "name": "Jey Uso",
+            "result": "loss"
+          },
+          {
+            "name": "Jimmy Uso",
+            "result": "loss"
+          },
+          {
+            "name": "Roman Reigns",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/wwe-crown-jewel/2024/results"
+      },
+      "legacyId": "hf-match-95174",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Bianca Belair & Jade Cargill vs. Chelsea Green, IYO SKY, Jakara Jackson, Kairi Sane, Lash Legend, Piper Niven",
+      "result": "Bianca Belair & Jade Cargill defeated Chelsea Green, IYO SKY, Jakara Jackson, Kairi Sane, Lash Legend, Piper Niven.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Fatal 4-Way Tag Team Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor"
+        },
+        {
+          "person": "jade-cargill",
+          "role": "competitor"
+        },
+        {
+          "person": "chelsea-green",
+          "role": "competitor"
+        },
+        {
+          "person": "iyo-sky",
+          "role": "competitor"
+        },
+        {
+          "person": "jakara-jackson",
+          "role": "competitor"
+        },
+        {
+          "person": "kairi-sane",
+          "role": "competitor"
+        },
+        {
+          "person": "lash-legend",
+          "role": "competitor"
+        },
+        {
+          "person": "piper-niven",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Bianca Belair",
+        "Jade Cargill",
+        "Chelsea Green",
+        "IYO SKY",
+        "Jakara Jackson",
+        "Kairi Sane",
+        "Lash Legend",
+        "Piper Niven"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wwe-crown-jewel/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wwe-crown-jewel/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15087",
+        "sourceMatchIds": [
+          "95175"
+        ],
+        "rawInputSha256": "3a81910c54ee48dfb64230fad631ad62c5b0fbb4537f36666bc02f6871c07ef7",
+        "normalizedParticipants": [
+          {
+            "name": "Bianca Belair",
+            "result": "win"
+          },
+          {
+            "name": "Jade Cargill",
+            "result": "win"
+          },
+          {
+            "name": "Chelsea Green",
+            "result": "loss"
+          },
+          {
+            "name": "IYO SKY",
+            "result": "loss"
+          },
+          {
+            "name": "Jakara Jackson",
+            "result": "loss"
+          },
+          {
+            "name": "Kairi Sane",
+            "result": "loss"
+          },
+          {
+            "name": "Lash Legend",
+            "result": "loss"
+          },
+          {
+            "name": "Piper Niven",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/wwe-crown-jewel/2024/results"
+      },
+      "legacyId": "hf-match-95175",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Seth Rollins vs. Bronson Reed",
+      "result": "Seth Rollins defeated Bronson Reed.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "participants": [
+        {
+          "person": "seth-rollins",
+          "role": "competitor"
+        },
+        {
+          "person": "bronson-reed",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Seth Rollins",
+        "Bronson Reed"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wwe-crown-jewel/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wwe-crown-jewel/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15087",
+        "sourceMatchIds": [
+          "95176"
+        ],
+        "rawInputSha256": "208454f803a235aa1e807593b34a4d3178102f084392db4466f6843e159accc4",
+        "normalizedParticipants": [
+          {
+            "name": "Seth Rollins",
+            "result": "win"
+          },
+          {
+            "name": "Bronson Reed",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/wwe-crown-jewel/2024/results"
+      },
+      "legacyId": "hf-match-95176",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Liv Morgan vs. Nia Jax",
+      "result": "Liv Morgan defeated Nia Jax.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "liv-morgan",
+          "role": "competitor"
+        },
+        {
+          "person": "nia-jax",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Liv Morgan",
+        "Nia Jax"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wwe-crown-jewel/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wwe-crown-jewel/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15087",
+        "sourceMatchIds": [
+          "95177"
+        ],
+        "rawInputSha256": "338fc65f9cd133b68b6050e9143f53cf0c8b7e3e51d15989cf6d0651106c4984",
+        "normalizedParticipants": [
+          {
+            "name": "Liv Morgan",
+            "result": "win"
+          },
+          {
+            "name": "Nia Jax",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/wwe-crown-jewel/2024/results"
+      },
+      "legacyId": "hf-match-95177",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m5",
+      "type": "match",
+      "title": "LA Knight vs. Andrade, Carmelo Hayes",
+      "result": "LA Knight defeated Andrade, Carmelo Hayes.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Triple Threat Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "la-knight",
+          "role": "competitor"
+        },
+        {
+          "person": "andrade",
+          "role": "competitor"
+        },
+        {
+          "person": "carmelo-hayes",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "LA Knight",
+        "Andrade",
+        "Carmelo Hayes"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wwe-crown-jewel/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wwe-crown-jewel/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15087",
+        "sourceMatchIds": [
+          "95178"
+        ],
+        "rawInputSha256": "12a0b07a2a1428016fafd4931bf53248f6fe1659d3e12c4124b761657b47ae38",
+        "normalizedParticipants": [
+          {
+            "name": "LA Knight",
+            "result": "win"
+          },
+          {
+            "name": "Andrade",
+            "result": "loss"
+          },
+          {
+            "name": "Carmelo Hayes",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/wwe-crown-jewel/2024/results"
+      },
+      "legacyId": "hf-match-95178",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m6",
+      "type": "match",
+      "title": "Cody Rhodes vs. Gunther",
+      "result": "Cody Rhodes defeated Gunther.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        },
+        {
+          "person": "gunther",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Gunther"
+      ],
+      "showCategory": "PLE",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wwe-crown-jewel/2024/results",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wwe-crown-jewel/2024/results"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15087",
+        "sourceMatchIds": [
+          "95179"
+        ],
+        "rawInputSha256": "5e9d11ee282fde23826ab20463f2d55d8e44b0d6cb563ba74d2142c409351d2b",
+        "normalizedParticipants": [
+          {
+            "name": "Cody Rhodes",
+            "result": "win"
+          },
+          {
+            "name": "Gunther",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/wwe-crown-jewel/2024/results"
+      },
+      "legacyId": "hf-match-95179",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "s1",
+      "type": "appearance",
+      "title": "Orton and Owens brawl before their match",
+      "result": "Kevin Owens and Randy Orton fought before the scheduled match could start. No contested match is added to win/loss totals.",
+      "context": "WWE describes this as a no-contest and states the match never began. Stored as an appearance to distinguish it from a contested match.",
+      "participants": [
+        {
+          "person": "kevin-owens",
+          "role": "competitor"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Kevin Owens",
+        "Randy Orton"
+      ],
+      "verification": {
+        "status": "recap-supported",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/wwe-crown-jewel/2024/results"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/wwe-crown-jewel/2024/results"
+      ],
+      "legacyId": "hf-event-15087-orton-owens-brawl",
+      "legacy": {
+        "kind": "story"
+      }
+    }
+  ],
+  "legacyIds": [
+    "hf-event-15087"
+  ],
+  "legacy": {
+    "showFamily": "crown-jewel",
+    "importBatch": "ringside-2024-ple"
+  }
+}

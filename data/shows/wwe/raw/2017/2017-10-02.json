@@ -1,0 +1,274 @@
+{
+  "id": "wwe/raw/2017-10-02",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2017-10-02",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2017-10-02"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Braun Strowman vs. Seth Rollins",
+      "result": "Braun Strowman defeated Seth Rollins.",
+      "matchType": "Singles match",
+      "duration": 627,
+      "participants": [
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "seth-rollins",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Braun Strowman",
+        "Seth Rollins"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-10-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78728",
+          "120734"
+        ],
+        "sourceEventIds": [
+          "12203"
+        ]
+      },
+      "legacyId": "bulk-match-78728",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Elias vs. Titus O'Neil",
+      "result": "Elias defeated Titus O'Neil.",
+      "matchType": "Singles match",
+      "duration": 180,
+      "participants": [
+        {
+          "person": "elias",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "titus-oneil",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Elias",
+        "Titus O'Neil"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-10-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78729",
+          "120735"
+        ],
+        "sourceEventIds": [
+          "12203"
+        ]
+      },
+      "legacyId": "bulk-match-78729",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Karl Anderson, Luke Gallows vs. Jason Jordan, Matt Hardy",
+      "result": "Karl Anderson, Luke Gallows defeated Jason Jordan, Matt Hardy.",
+      "matchType": "4-person match",
+      "duration": 661,
+      "participants": [
+        {
+          "person": "karl-anderson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "luke-gallows",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jason-jordan",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "matt-hardy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Karl Anderson",
+        "Luke Gallows",
+        "Jason Jordan",
+        "Matt Hardy"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-10-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78731",
+          "120737"
+        ],
+        "sourceEventIds": [
+          "12203"
+        ]
+      },
+      "legacyId": "bulk-match-78731",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Roman Reigns vs. The Miz",
+      "result": "Roman Reigns defeated The Miz by disqualification.",
+      "matchType": "Singles match",
+      "duration": 640,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "The Miz"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-10-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78732",
+          "120738"
+        ],
+        "sourceEventIds": [
+          "12203"
+        ]
+      },
+      "legacyId": "bulk-match-78732",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m5",
+      "order": 6,
+      "type": "match",
+      "title": "Bayley, Sasha Banks vs. Alicia Fox, Emma",
+      "result": "Bayley, Sasha Banks defeated Alicia Fox, Emma.",
+      "matchType": "4-person match",
+      "duration": 654,
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alicia-fox",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "emma",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Sasha Banks",
+        "Alicia Fox",
+        "Emma"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2017-10-02"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78733",
+          "120739"
+        ],
+        "sourceEventIds": [
+          "12203"
+        ]
+      },
+      "legacyId": "bulk-match-78733",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12203"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12203"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "id": "wwe/snme/1992-11-14",
+  "promotion": "wwe",
+  "series": "wwe/snme",
+  "name": "Saturday Night's Main Event Taping",
+  "date": "1992-11-14",
+  "dateBasis": "aired",
+  "recordedDate": "1992-10-27",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1992/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Shawn Michaels vs. The British Bulldog",
+      "result": "Shawn Michaels defeated The British Bulldog.",
+      "matchType": "Singles match",
+      "duration": 610,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "shawn-michaels",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-british-bulldog",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shawn Michaels",
+        "The British Bulldog"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1992/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "18993",
+          "188031"
+        ],
+        "sourceEventIds": [
+          "2984"
+        ]
+      },
+      "legacyId": "bulk-match-18993",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Bret Hart vs. Papa Shango",
+      "result": "Bret Hart defeated Papa Shango.",
+      "matchType": "Singles match",
+      "duration": 428,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bret-hart",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-godfather",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bret Hart",
+        "Papa Shango"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1992/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "18994",
+          "188032"
+        ],
+        "sourceEventIds": [
+          "2984"
+        ]
+      },
+      "legacyId": "bulk-match-18994",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-2984"
+  ],
+  "legacy": {
+    "showFamily": "snme",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "2984"
+    ]
+  }
+}

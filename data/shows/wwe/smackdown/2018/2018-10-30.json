@@ -1,0 +1,214 @@
+{
+  "id": "wwe/smackdown/2018-10-30",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-10-30",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-10-30"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "A.J. Styles vs. Daniel Bryan",
+      "result": "A.J. Styles defeated Daniel Bryan.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Daniel Bryan"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-10-30"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81751",
+          "117694"
+        ],
+        "sourceEventIds": [
+          "12728"
+        ]
+      },
+      "legacyId": "bulk-match-81751",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Big E vs. Cesaro",
+      "result": "Big E defeated Cesaro.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Big E",
+        "Cesaro"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-10-30"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81752",
+          "117695"
+        ],
+        "sourceEventIds": [
+          "12728"
+        ]
+      },
+      "legacyId": "bulk-match-81752",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Shinsuke Nakamura vs. R-Truth",
+      "result": "Shinsuke Nakamura defeated R-Truth.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "shinsuke-nakamura",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "r-truth",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Shinsuke Nakamura",
+        "R-Truth"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-10-30"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81753",
+          "117696"
+        ],
+        "sourceEventIds": [
+          "12728"
+        ]
+      },
+      "legacyId": "bulk-match-81753",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Jeff Hardy, Rey Mysterio vs. Randy Orton, The Miz",
+      "result": "Jeff Hardy, Rey Mysterio defeated Randy Orton, The Miz.",
+      "matchType": "4-person match",
+      "participants": [
+        {
+          "person": "jeff-hardy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Hardy",
+        "Rey Mysterio",
+        "Randy Orton",
+        "The Miz"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-10-30"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81754",
+          "117697"
+        ],
+        "sourceEventIds": [
+          "12728"
+        ]
+      },
+      "legacyId": "bulk-match-81754",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12728"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12728"
+    ]
+  }
+}

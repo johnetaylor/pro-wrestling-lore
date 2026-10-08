@@ -1,0 +1,220 @@
+{
+  "id": "wwe/smackdown/2025-08-01",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2025-08-01",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "legacyCardStatus": "Card indexed",
+    "legacySegmentStatus": "Partial recap coverage · not a full appearance audit"
+  },
+  "sources": [
+    "https://www.thesmackdownhotel.com/events-results/wwe/smackdown-2025",
+    "https://www.wwe.com/shows/smackdown/2025-08-01/results"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Giulia",
+      "result": "Giulia (c) defeats Zelina Vega to retain the title",
+      "context": "WWE Women's United States Championship. Open the linked recap for the finish and surrounding story.",
+      "matchType": "WWE Women's United States Championship",
+      "titleMatch": true,
+      "unlinked": true,
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/smackdown-2025",
+        "https://www.wwe.com/shows/smackdown/2025-08-01/results"
+      ],
+      "legacyId": "2025-08-01-smackdown-match-1",
+      "legacy": {
+        "kind": "title"
+      },
+      "participants": []
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Los Garza (Angel & Berto)",
+      "result": "Los Garza (Angel & Berto) (c) defeat Mr. Iguana & Psycho Clown to retain the titles",
+      "context": "AAA World Tag Team Championship. Open the linked recap for the finish and surrounding story.",
+      "matchType": "AAA World Tag Team Championship",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "psycho-clown",
+          "role": "competitor"
+        },
+        {
+          "person": "mr-iguana",
+          "role": "competitor"
+        },
+        {
+          "person": "angel",
+          "role": "competitor"
+        },
+        {
+          "person": "berto",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/smackdown-2025",
+        "https://www.wwe.com/shows/smackdown/2025-08-01/results"
+      ],
+      "legacyId": "2025-08-01-smackdown-match-2",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Damian Priest vs. Aleister Black",
+      "result": "Damian Priest defeats Aleister Black via DQ",
+      "context": "Televised match. Open the linked show recap for the finish and surrounding story.",
+      "matchType": "Match",
+      "participants": [
+        {
+          "person": "aleister-black",
+          "role": "competitor"
+        },
+        {
+          "person": "damian-priest",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/smackdown-2025",
+        "https://www.wwe.com/shows/smackdown/2025-08-01/results"
+      ],
+      "legacyId": "2025-08-01-smackdown-match-3",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Talla Tonga vs. Jimmy Uso",
+      "result": "Talla Tonga defeats Jimmy Uso",
+      "context": "Televised match. Open the linked show recap for the finish and surrounding story.",
+      "matchType": "Match",
+      "participants": [
+        {
+          "person": "talla-tonga",
+          "role": "competitor"
+        },
+        {
+          "person": "jimmy-uso",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/smackdown-2025",
+        "https://www.wwe.com/shows/smackdown/2025-08-01/results"
+      ],
+      "legacyId": "2025-08-01-smackdown-match-4",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "s1",
+      "type": "promo",
+      "title": "John Cena reconnects with the audience during his final SummerSlam faceoff with Cody Rhodes",
+      "result": "John Cena reconnects with the audience during his final SummerSlam faceoff with Cody Rhodes.",
+      "context": "Selected televised promo, interview or verbal exchange. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        },
+        {
+          "person": "john-cena",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2025-08-01/results"
+      ],
+      "legacyId": "2025-08-01-smackdown-segment-1",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s2",
+      "type": "appearance",
+      "title": "JC Mateo and Tonga Loa are attacked inside the cage by Jacob Fatu and Jimmy Uso",
+      "result": "JC Mateo and Tonga Loa are attacked inside the cage by Jacob Fatu and Jimmy Uso.",
+      "context": "Selected televised appearance or physical confrontation. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "jacob-fatu",
+          "role": "competitor"
+        },
+        {
+          "person": "jimmy-uso",
+          "role": "competitor"
+        },
+        {
+          "person": "tonga-loa",
+          "role": "competitor"
+        },
+        {
+          "person": "jc-mateo",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2025-08-01/results"
+      ],
+      "legacyId": "2025-08-01-smackdown-segment-2",
+      "legacy": {
+        "kind": "story"
+      }
+    },
+    {
+      "key": "s3",
+      "type": "appearance",
+      "title": "Randy Orton and Jelly Roll fight Drew McIntyre and Logan Paul ahead of SummerSlam",
+      "result": "Randy Orton and Jelly Roll fight Drew McIntyre and Logan Paul ahead of SummerSlam.",
+      "context": "Selected televised appearance or physical confrontation. The official episode recap supplies the surrounding story; this is not a complete broadcast appearance audit.",
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor"
+        },
+        {
+          "person": "randy-orton",
+          "role": "competitor"
+        },
+        {
+          "person": "jelly-roll",
+          "role": "competitor"
+        },
+        {
+          "person": "logan-paul",
+          "role": "competitor"
+        }
+      ],
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2025-08-01/results"
+      ],
+      "legacyId": "2025-08-01-smackdown-segment-3",
+      "legacy": {
+        "kind": "story"
+      }
+    }
+  ],
+  "legacyIds": [
+    "2025-08-01-smackdown"
+  ],
+  "legacy": {
+    "showFamily": "smackdown"
+  }
+}

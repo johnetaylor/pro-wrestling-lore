@@ -1,0 +1,210 @@
+{
+  "id": "wwe/smackdown/2023-09-29",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2023-09-29",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2023-09-29"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Jimmy Uso vs. Karl Anderson",
+      "result": "Jimmy Uso defeated Karl Anderson.",
+      "matchType": "Singles match",
+      "duration": 127,
+      "participants": [
+        {
+          "person": "jimmy-uso",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "karl-anderson",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jimmy Uso",
+        "Karl Anderson"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-09-29"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3711",
+          "92573",
+          "102039"
+        ],
+        "sourceEventIds": [
+          "684"
+        ]
+      },
+      "legacyId": "bulk-match-3711",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Austin Theory vs. Cameron Grimes",
+      "result": "Austin Theory defeated Cameron Grimes.",
+      "matchType": "Singles match",
+      "duration": 184,
+      "participants": [
+        {
+          "person": "austin-theory",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "cameron-grimes",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Austin Theory",
+        "Cameron Grimes"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-09-29"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3712",
+          "92574",
+          "102040"
+        ],
+        "sourceEventIds": [
+          "684"
+        ]
+      },
+      "legacyId": "bulk-match-3712",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Rey Mysterio vs. Santos Escobar",
+      "result": "Rey Mysterio defeated Santos Escobar.",
+      "matchType": "Singles match",
+      "duration": 1380,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "santos-escobar",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Santos Escobar"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-09-29"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3713",
+          "92575",
+          "102041"
+        ],
+        "sourceEventIds": [
+          "684"
+        ]
+      },
+      "legacyId": "bulk-match-3713",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Charlotte Flair vs. Bayley",
+      "result": "Charlotte Flair defeated Bayley.",
+      "matchType": "Singles match",
+      "duration": 459,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Bayley"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-09-29"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3714",
+          "92576",
+          "102042"
+        ],
+        "sourceEventIds": [
+          "684"
+        ]
+      },
+      "legacyId": "bulk-match-3714",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-684"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "684"
+    ]
+  }
+}

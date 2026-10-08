@@ -1,0 +1,74 @@
+{
+  "id": "wwe/royal-rumble/1993-01-24",
+  "promotion": "wwe",
+  "series": "wwe/royal-rumble",
+  "name": "Royal Rumble '93",
+  "date": "1993-01-24",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1993/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 5,
+      "type": "match",
+      "title": "Bret Hart vs. Razor Ramon",
+      "result": "Bret Hart defeated Razor Ramon.",
+      "matchType": "Singles match",
+      "duration": 1072,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bret-hart",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "scott-hall",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bret Hart",
+        "Razor Ramon"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1993/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "19316",
+          "187748"
+        ],
+        "sourceEventIds": [
+          "3036"
+        ]
+      },
+      "legacyId": "bulk-match-19316",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-3036"
+  ],
+  "legacy": {
+    "showFamily": "royal-rumble",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "3036"
+    ]
+  }
+}

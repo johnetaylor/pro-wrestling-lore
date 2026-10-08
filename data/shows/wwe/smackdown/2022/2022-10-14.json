@@ -1,0 +1,227 @@
+{
+  "id": "wwe/smackdown/2022-10-14",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2022-10-14",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2022-10-14"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Sami Zayn vs. Kofi Kingston",
+      "result": "Sami Zayn defeated Kofi Kingston.",
+      "matchType": "Singles match",
+      "duration": 890,
+      "participants": [
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kofi-kingston",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sami Zayn",
+        "Kofi Kingston"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-10-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "7272",
+          "90162",
+          "105600"
+        ],
+        "sourceEventIds": [
+          "1285"
+        ]
+      },
+      "legacyId": "bulk-match-7272",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Braun Strowman vs. Brian Thomas, James Maverick",
+      "result": "Braun Strowman defeated Brian Thomas, James Maverick.",
+      "matchType": "Tag Team match",
+      "duration": 117,
+      "participants": [
+        {
+          "person": "braun-strowman",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "brian-thomas",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "james-maverick",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Braun Strowman",
+        "Brian Thomas",
+        "James Maverick"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-10-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "7273",
+          "90163",
+          "105601"
+        ],
+        "sourceEventIds": [
+          "1285"
+        ]
+      },
+      "legacyId": "bulk-match-7273",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "L.A. Knight vs. mån.sôör",
+      "result": "L.A. Knight defeated mån.sôör.",
+      "matchType": "Singles match",
+      "duration": 172,
+      "participants": [
+        {
+          "person": "la-knight",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "man-soor",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "L.A. Knight",
+        "mån.sôör"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-10-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "7274",
+          "90164",
+          "105602"
+        ],
+        "sourceEventIds": [
+          "1285"
+        ]
+      },
+      "legacyId": "bulk-match-7274",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 7,
+      "type": "match",
+      "title": "Rey Mysterio vs. Ricochet, Sheamus, Solo Sikoa",
+      "result": "Rey Mysterio defeated Ricochet, Sheamus, Solo Sikoa.",
+      "matchType": "Other match",
+      "duration": 979,
+      "participants": [
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ricochet",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "solo-sikoa",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rey Mysterio",
+        "Ricochet",
+        "Sheamus",
+        "Solo Sikoa"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2022-10-14"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "7277",
+          "90167",
+          "105605"
+        ],
+        "sourceEventIds": [
+          "1285"
+        ]
+      },
+      "legacyId": "bulk-match-7277",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1285"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1285"
+    ]
+  }
+}

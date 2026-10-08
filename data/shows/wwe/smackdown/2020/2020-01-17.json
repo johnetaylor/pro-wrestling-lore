@@ -1,0 +1,205 @@
+{
+  "id": "wwe/smackdown/2020-01-17",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2020-01-17",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2020-01-17"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "John Morrison vs. Big E",
+      "result": "John Morrison defeated Big E.",
+      "matchType": "Singles match",
+      "duration": 500,
+      "participants": [
+        {
+          "person": "john-morrison",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-e",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "John Morrison",
+        "Big E"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-01-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85040",
+          "114209"
+        ],
+        "sourceEventIds": [
+          "13282"
+        ]
+      },
+      "legacyId": "bulk-match-85040",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Lacey Evans vs. Bayley",
+      "result": "Lacey Evans defeated Bayley.",
+      "matchType": "Singles match",
+      "duration": 685,
+      "participants": [
+        {
+          "person": "lacey-evans",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lacey Evans",
+        "Bayley"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-01-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85042",
+          "114211"
+        ],
+        "sourceEventIds": [
+          "13282"
+        ]
+      },
+      "legacyId": "bulk-match-85042",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Alexa Bliss vs. Sonya Deville",
+      "result": "Alexa Bliss defeated Sonya Deville.",
+      "matchType": "Singles match",
+      "duration": 115,
+      "participants": [
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sonya-deville",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alexa Bliss",
+        "Sonya Deville"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-01-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85043",
+          "114212"
+        ],
+        "sourceEventIds": [
+          "13282"
+        ]
+      },
+      "legacyId": "bulk-match-85043",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Roman Reigns vs. Robert Roode",
+      "result": "Roman Reigns defeated Robert Roode.",
+      "matchType": "Tables match",
+      "duration": 652,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "robert-roode",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Robert Roode"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2020-01-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "85044",
+          "114213"
+        ],
+        "sourceEventIds": [
+          "13282"
+        ]
+      },
+      "legacyId": "bulk-match-85044",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13282"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13282"
+    ]
+  }
+}

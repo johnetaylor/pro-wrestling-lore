@@ -1,0 +1,206 @@
+{
+  "id": "wwe/raw/1997-04-28",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1997-04-28",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1997/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Flash Funk vs. Rockabilly",
+      "result": "Flash Funk defeated Rockabilly.",
+      "matchType": "Singles match",
+      "duration": 282,
+      "participants": [
+        {
+          "person": "flash-funk",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "billy-gunn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Flash Funk",
+        "Rockabilly"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27046",
+          "179995"
+        ],
+        "sourceEventIds": [
+          "4189"
+        ]
+      },
+      "legacyId": "bulk-match-27046",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Owen Hart vs. Rocky Maivia",
+      "result": "Owen Hart defeated Rocky Maivia.",
+      "matchType": "Singles match",
+      "duration": 506,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "owen-hart",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Owen Hart",
+        "Rocky Maivia"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27048",
+          "179997"
+        ],
+        "sourceEventIds": [
+          "4189"
+        ]
+      },
+      "legacyId": "bulk-match-27048",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Goldust vs. Hunter Hearst Helmsley",
+      "result": "Goldust defeated Hunter Hearst Helmsley by count-out.",
+      "matchType": "Singles match",
+      "duration": 469,
+      "participants": [
+        {
+          "person": "dustin-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "triple-h",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Goldust",
+        "Hunter Hearst Helmsley"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27050",
+          "179999"
+        ],
+        "sourceEventIds": [
+          "4189"
+        ]
+      },
+      "legacyId": "bulk-match-27050",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "The Undertaker vs. The British Bulldog",
+      "result": "The Undertaker defeated The British Bulldog by disqualification.",
+      "matchType": "Singles match",
+      "duration": 248,
+      "participants": [
+        {
+          "person": "the-undertaker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-british-bulldog",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "The Undertaker",
+        "The British Bulldog"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1997/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "27051",
+          "180000"
+        ],
+        "sourceEventIds": [
+          "4189"
+        ]
+      },
+      "legacyId": "bulk-match-27051",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4189"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4189"
+    ]
+  }
+}

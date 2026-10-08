@@ -1,0 +1,128 @@
+{
+  "id": "wwe/raw/2024-10-21",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2024-10-21",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2024-10-21"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "IYO SKY, Kairi Sane vs. Liv Morgan, Raquel Rodriguez",
+      "result": "IYO SKY, Kairi Sane defeated Liv Morgan, Raquel Rodriguez by disqualification.",
+      "matchType": "4-person match",
+      "duration": 733,
+      "participants": [
+        {
+          "person": "iyo-sky",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kairi-sane",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "raquel-rodriguez",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "IYO SKY",
+        "Kairi Sane",
+        "Liv Morgan",
+        "Raquel Rodriguez"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-10-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95114"
+        ],
+        "sourceEventIds": [
+          "15073"
+        ]
+      },
+      "legacyId": "bulk-match-95114",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Bron Breakker vs. Jey Uso",
+      "result": "Bron Breakker defeated Jey Uso.",
+      "matchType": "Singles match",
+      "duration": 1175,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "bron-breakker",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jey-uso",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bron Breakker",
+        "Jey Uso"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-10-21"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95116"
+        ],
+        "sourceEventIds": [
+          "15073"
+        ]
+      },
+      "legacyId": "bulk-match-95116",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-15073"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "15073"
+    ]
+  }
+}

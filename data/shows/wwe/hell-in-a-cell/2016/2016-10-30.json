@@ -1,0 +1,130 @@
+{
+  "id": "wwe/hell-in-a-cell/2016-10-30",
+  "promotion": "wwe",
+  "series": "wwe/hell-in-a-cell",
+  "name": "Hell in a Cell '16",
+  "date": "2016-10-30",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/hellinacell/2016"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 4,
+      "type": "match",
+      "title": "Karl Anderson, Luke Gallows vs. Big Cass, Enzo Amore",
+      "result": "Karl Anderson, Luke Gallows defeated Big Cass, Enzo Amore.",
+      "matchType": "4-person match",
+      "duration": 405,
+      "participants": [
+        {
+          "person": "karl-anderson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "luke-gallows",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "big-cass",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "enzo-amore",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Karl Anderson",
+        "Luke Gallows",
+        "Big Cass",
+        "Enzo Amore"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/hellinacell/2016"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "74995",
+          "124680"
+        ],
+        "sourceEventIds": [
+          "11623"
+        ]
+      },
+      "legacyId": "bulk-match-74995",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 8,
+      "type": "match",
+      "title": "Charlotte Flair vs. Sasha Banks",
+      "result": "Charlotte Flair defeated Sasha Banks.",
+      "matchType": "Hell In A Cell match",
+      "duration": 1190,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sasha-banks",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Sasha Banks"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/hellinacell/2016"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "74999",
+          "124684"
+        ],
+        "sourceEventIds": [
+          "11623"
+        ]
+      },
+      "legacyId": "bulk-match-74999",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11623"
+  ],
+  "legacy": {
+    "showFamily": "hell-in-a-cell",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11623"
+    ]
+  }
+}

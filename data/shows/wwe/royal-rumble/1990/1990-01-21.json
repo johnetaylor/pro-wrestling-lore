@@ -1,0 +1,103 @@
+{
+  "id": "wwe/royal-rumble/1990-01-21",
+  "promotion": "wwe",
+  "series": "wwe/royal-rumble",
+  "name": "Royal Rumble '90",
+  "date": "1990-01-21",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1990/",
+    "https://thehistoryofwwe.com/royal-rumble-results/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Brutus Beefcake, The Genius — double disqualification.",
+      "matchType": "Singles match",
+      "duration": 667,
+      "participants": [
+        {
+          "person": "brutus-beefcake",
+          "role": "competitor",
+          "outcome": "dq"
+        },
+        {
+          "person": "the-genius",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Brutus Beefcake",
+        "The Genius"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1990/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "15343",
+          "191675"
+        ],
+        "sourceEventIds": [
+          "2457"
+        ]
+      },
+      "legacyId": "bulk-match-15343",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Hulk Hogan vs. 29 others",
+      "result": "Hogan's side: win by last eliminated mr. perfect.",
+      "context": "First of back-to-back Rumble wins Venue: Orlando Arena, Orlando, FL.",
+      "matchType": "Royal Rumble",
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Hulk Hogan",
+        "29 others"
+      ],
+      "guests": "29 others",
+      "promotionLabel": "WWF",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/royal-rumble-results/"
+      ],
+      "legacyId": "hogan-workbook-hm-0114",
+      "legacy": {
+        "show": "Royal Rumble 1990",
+        "kind": "match"
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-2457"
+  ],
+  "legacy": {
+    "showFamily": "royal-rumble",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "2457"
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "id": "wwe/smackdown/2017-08-15",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-08-15",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-08-15"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Natalya vs. Becky Lynch",
+      "result": "Natalya defeated Becky Lynch.",
+      "matchType": "Other match",
+      "duration": 453,
+      "participants": [
+        {
+          "person": "natalya",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Natalya",
+        "Becky Lynch"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-08-15"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78409",
+          "121061"
+        ],
+        "sourceEventIds": [
+          "12147"
+        ]
+      },
+      "legacyId": "bulk-match-78409",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Singles match",
+      "result": "Chad Gable, Rusev — double count-out.",
+      "matchType": "Singles match",
+      "duration": 72,
+      "participants": [
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "rusev",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Chad Gable",
+        "Rusev"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-08-15"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78410",
+          "121062"
+        ],
+        "sourceEventIds": [
+          "12147"
+        ]
+      },
+      "legacyId": "bulk-match-78410",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "John Cena vs. Jinder Mahal",
+      "result": "John Cena defeated Jinder Mahal by disqualification.",
+      "matchType": "Singles match",
+      "duration": 598,
+      "participants": [
+        {
+          "person": "john-cena",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "John Cena",
+        "Jinder Mahal"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-08-15"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78412",
+          "121064"
+        ],
+        "sourceEventIds": [
+          "12147"
+        ]
+      },
+      "legacyId": "bulk-match-78412",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Jinder Mahal vs. Baron Corbin",
+      "result": "Jinder Mahal defeated Baron Corbin.",
+      "matchType": "Singles match",
+      "duration": 7,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "jinder-mahal",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "baron-corbin",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jinder Mahal",
+        "Baron Corbin"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-08-15"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78413",
+          "121065"
+        ],
+        "sourceEventIds": [
+          "12147"
+        ]
+      },
+      "legacyId": "bulk-match-78413",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12147"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12147"
+    ]
+  }
+}

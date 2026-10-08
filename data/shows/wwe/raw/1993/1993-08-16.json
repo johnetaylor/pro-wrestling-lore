@@ -1,0 +1,158 @@
+{
+  "id": "wwe/raw/1993-08-16",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1993-08-16",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1993/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "The 1-2-3 Kid vs. Ted DiBiase",
+      "result": "The 1-2-3 Kid defeated Ted DiBiase by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "x-pac",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ted-dibiase",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "The 1-2-3 Kid",
+        "Ted DiBiase"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1993/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "20031",
+          "186998"
+        ],
+        "sourceEventIds": [
+          "3161"
+        ]
+      },
+      "legacyId": "bulk-match-20031",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Marty Jannetty vs. Bastion Booger",
+      "result": "Marty Jannetty defeated Bastion Booger.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "marty-jannetty",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bastion-booger",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Marty Jannetty",
+        "Bastion Booger"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1993/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "20033",
+          "187000"
+        ],
+        "sourceEventIds": [
+          "3161"
+        ]
+      },
+      "legacyId": "bulk-match-20033",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Bam Bam Bigelow vs. Rich Myers",
+      "result": "Bam Bam Bigelow defeated Rich Myers.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "bam-bam-bigelow",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "rich-myers",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bam Bam Bigelow",
+        "Rich Myers"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1993/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "20035",
+          "187002"
+        ],
+        "sourceEventIds": [
+          "3161"
+        ]
+      },
+      "legacyId": "bulk-match-20035",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-3161"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "3161"
+    ]
+  }
+}

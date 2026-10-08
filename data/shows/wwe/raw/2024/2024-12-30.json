@@ -1,0 +1,158 @@
+{
+  "id": "wwe/raw/2024-12-30",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2024-12-30",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2024-12-30"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Chad Gable vs. Otis",
+      "result": "Chad Gable defeated Otis.",
+      "matchType": "Singles match",
+      "duration": 560,
+      "participants": [
+        {
+          "person": "chad-gable",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "otis",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Chad Gable",
+        "Otis"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-12-30"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95507"
+        ],
+        "sourceEventIds": [
+          "15156"
+        ]
+      },
+      "legacyId": "bulk-match-95507",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Dakota Kai vs. Zoey Stark",
+      "result": "Dakota Kai defeated Zoey Stark.",
+      "matchType": "Singles match",
+      "duration": 500,
+      "participants": [
+        {
+          "person": "dakota-kai",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "zoey-stark",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dakota Kai",
+        "Zoey Stark"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-12-30"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95508"
+        ],
+        "sourceEventIds": [
+          "15156"
+        ]
+      },
+      "legacyId": "bulk-match-95508",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Lyra Valkyria vs. IYO SKY",
+      "result": "Lyra Valkyria defeated IYO SKY.",
+      "matchType": "Singles match",
+      "duration": 706,
+      "participants": [
+        {
+          "person": "lyra-valkyria",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "iyo-sky",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Lyra Valkyria",
+        "IYO SKY"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2024-12-30"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "95510"
+        ],
+        "sourceEventIds": [
+          "15156"
+        ]
+      },
+      "legacyId": "bulk-match-95510",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-15156"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "15156"
+    ]
+  }
+}

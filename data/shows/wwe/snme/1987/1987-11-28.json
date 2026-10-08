@@ -1,0 +1,221 @@
+{
+  "id": "wwe/snme/1987-11-28",
+  "promotion": "wwe",
+  "series": "wwe/snme",
+  "name": "Saturday Night's Main Event Taping",
+  "date": "1987-11-28",
+  "dateBasis": "aired",
+  "recordedDate": "1987-11-11",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1987/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "George Steele vs. Danny Davis",
+      "result": "George Steele defeated Danny Davis by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "george-steele",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "danny-davis",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "George Steele",
+        "Danny Davis"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1987/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "13304",
+          "193712"
+        ],
+        "sourceEventIds": [
+          "2166"
+        ]
+      },
+      "legacyId": "bulk-match-13304",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Randy Savage vs. Bret Hart",
+      "result": "Randy Savage defeated Bret Hart.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "randy-savage",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bret-hart",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Savage",
+        "Bret Hart"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1987/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "13305",
+          "193713"
+        ],
+        "sourceEventIds": [
+          "2166"
+        ]
+      },
+      "legacyId": "bulk-match-13305",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "King Kong Bundy vs. Hulk Hogan",
+      "result": "King Kong Bundy defeated Hulk Hogan by count-out.",
+      "matchType": "Singles match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "king-kong-bundy",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "King Kong Bundy",
+        "Hulk Hogan"
+      ],
+      "showCategory": "PLE / special",
+      "promotionLabel": "WWF",
+      "dateBasis": "broadcast",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-07",
+        "source": "https://thehistoryofwwe.com/wwf-results-1987/",
+        "scope": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date."
+      },
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1987/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "13306",
+          "193714"
+        ],
+        "sourceEventIds": [
+          "2166"
+        ]
+      },
+      "legacyId": "bulk-match-13306",
+      "legacy": {
+        "show": "Saturday Night’s Main Event",
+        "kind": "title",
+        "hoganReview": {
+          "id": "bulk-match-13306",
+          "source": "https://thehistoryofwwe.com/wwf-results-1987/",
+          "date": "1987-11-28",
+          "reviewed": "2026-10-07",
+          "note": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date.",
+          "show": "Saturday Night’s Main Event",
+          "omitUnreviewedDuration": true
+        },
+        "workbookReference": "HM-0091",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Bam Bam Bigelow vs. Hercules",
+      "result": "Bam Bam Bigelow defeated Hercules.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "bam-bam-bigelow",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "hercules",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bam Bam Bigelow",
+        "Hercules"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1987/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "13307",
+          "193715"
+        ],
+        "sourceEventIds": [
+          "2166"
+        ]
+      },
+      "legacyId": "bulk-match-13307",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-2166"
+  ],
+  "legacy": {
+    "showFamily": "snme",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "2166"
+    ]
+  }
+}

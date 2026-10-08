@@ -1,0 +1,234 @@
+{
+  "id": "wwe/smackdown/2023-10-13",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2023-10-13",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2023-10-13"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Elton Prince, Kit Wilson vs. Butch, Ridge Holland",
+      "result": "Elton Prince, Kit Wilson defeated Butch, Ridge Holland.",
+      "matchType": "4-person match",
+      "duration": 541,
+      "participants": [
+        {
+          "person": "elton-prince",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kit-wilson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "pete-dunne",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "ridge-holland",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Elton Prince",
+        "Kit Wilson",
+        "Butch",
+        "Ridge Holland"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-10-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3589",
+          "92655",
+          "101917"
+        ],
+        "sourceEventIds": [
+          "661"
+        ]
+      },
+      "legacyId": "bulk-match-3589",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Bayley vs. Zelina Vega",
+      "result": "Bayley defeated Zelina Vega.",
+      "matchType": "Singles match",
+      "duration": 160,
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "zelina-vega",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Zelina Vega"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-10-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3590",
+          "92656",
+          "101918"
+        ],
+        "sourceEventIds": [
+          "661"
+        ]
+      },
+      "legacyId": "bulk-match-3590",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Cody Rhodes, Jey Uso vs. Austin Theory, Grayson Waller",
+      "result": "Cody Rhodes, Jey Uso defeated Austin Theory, Grayson Waller.",
+      "matchType": "4-person match",
+      "duration": 564,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "jey-uso",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "austin-theory",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "grayson-waller",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Jey Uso",
+        "Austin Theory",
+        "Grayson Waller"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-10-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3591",
+          "92657",
+          "101919"
+        ],
+        "sourceEventIds": [
+          "661"
+        ]
+      },
+      "legacyId": "bulk-match-3591",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "L.A. Knight vs. Solo Sikoa",
+      "result": "L.A. Knight defeated Solo Sikoa.",
+      "matchType": "Singles match",
+      "duration": 753,
+      "participants": [
+        {
+          "person": "la-knight",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "solo-sikoa",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "L.A. Knight",
+        "Solo Sikoa"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-10-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "3592",
+          "92658",
+          "101920"
+        ],
+        "sourceEventIds": [
+          "661"
+        ]
+      },
+      "legacyId": "bulk-match-3592",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-661"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "661"
+    ]
+  }
+}

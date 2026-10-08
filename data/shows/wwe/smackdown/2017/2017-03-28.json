@@ -1,0 +1,173 @@
+{
+  "id": "wwe/smackdown/2017-03-28",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-03-28",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-03-28"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Other match",
+      "result": "Becky Lynch, Carmella — no contest.",
+      "matchType": "Other match",
+      "duration": 120,
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Carmella"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-03-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76681",
+          "122835"
+        ],
+        "sourceEventIds": [
+          "11885"
+        ]
+      },
+      "legacyId": "bulk-match-76681",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Alexa Bliss, Carmella vs. Becky Lynch, Mickie James",
+      "result": "Alexa Bliss, Carmella defeated Becky Lynch, Mickie James.",
+      "matchType": "Other match",
+      "duration": 580,
+      "participants": [
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "mickie-james",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alexa Bliss",
+        "Carmella",
+        "Becky Lynch",
+        "Mickie James"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-03-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76682",
+          "122836"
+        ],
+        "sourceEventIds": [
+          "11885"
+        ]
+      },
+      "legacyId": "bulk-match-76682",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Bray Wyatt vs. Luke Harper",
+      "result": "Bray Wyatt defeated Luke Harper.",
+      "matchType": "Singles match",
+      "duration": 490,
+      "participants": [
+        {
+          "person": "bray-wyatt",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "luke-harper",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bray Wyatt",
+        "Luke Harper"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-03-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "76684",
+          "122838"
+        ],
+        "sourceEventIds": [
+          "11885"
+        ]
+      },
+      "legacyId": "bulk-match-76684",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-11885"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "11885"
+    ]
+  }
+}

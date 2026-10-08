@@ -1,0 +1,148 @@
+{
+  "id": "wwe/royal-rumble/1991-01-19",
+  "promotion": "wwe",
+  "series": "wwe/royal-rumble",
+  "name": "Royal Rumble '91",
+  "date": "1991-01-19",
+  "dateBasis": "aired",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1991/",
+    "https://thehistoryofwwe.com/royal-rumble-results/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Sergeant Slaughter vs. The Ultimate Warrior",
+      "result": "Sergeant Slaughter defeated The Ultimate Warrior.",
+      "matchType": "Singles match",
+      "duration": 767,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "sgt-slaughter",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-ultimate-warrior",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sergeant Slaughter",
+        "The Ultimate Warrior"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1991/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "16180",
+          "190852"
+        ],
+        "sourceEventIds": [
+          "2591"
+        ]
+      },
+      "legacyId": "bulk-match-16180",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "The Mountie vs. Koko B Ware",
+      "result": "The Mountie defeated Koko B Ware.",
+      "matchType": "Singles match",
+      "duration": 552,
+      "participants": [
+        {
+          "person": "the-mountie",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "koko-b-ware",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "The Mountie",
+        "Koko B Ware"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1991/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "16181",
+          "190853"
+        ],
+        "sourceEventIds": [
+          "2591"
+        ]
+      },
+      "legacyId": "bulk-match-16181",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Hulk Hogan vs. 29 others",
+      "result": "Hogan's side: win by last eliminated earthquake.",
+      "context": "Second consecutive Rumble win Venue: Miami Arena, Miami, FL.",
+      "matchType": "Royal Rumble",
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Hulk Hogan",
+        "29 others"
+      ],
+      "guests": "29 others",
+      "promotionLabel": "WWF",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/royal-rumble-results/"
+      ],
+      "legacyId": "hogan-workbook-hm-0122",
+      "legacy": {
+        "show": "Royal Rumble 1991",
+        "kind": "match"
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-2591"
+  ],
+  "legacy": {
+    "showFamily": "royal-rumble",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "2591"
+    ]
+  }
+}

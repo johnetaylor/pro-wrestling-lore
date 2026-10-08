@@ -1,0 +1,188 @@
+{
+  "id": "wwe/nxt/2020-01-15",
+  "promotion": "wwe",
+  "series": "wwe/nxt",
+  "name": "NXT",
+  "date": "2020-01-15",
+  "dateBasis": "aired",
+  "category": "NXT",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/wwenxt/2020-01-15"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "Matt Riddle, Pete Dunne vs. Flash Morgan Webster, Mark Andrews",
+      "result": "Matt Riddle, Pete Dunne defeated Flash Morgan Webster, Mark Andrews.",
+      "matchType": "4-person match",
+      "duration": 1100,
+      "participants": [
+        {
+          "person": "matt-riddle",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "pete-dunne",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "flash-morgan-webster",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "mark-andrews",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Matt Riddle",
+        "Pete Dunne",
+        "Flash Morgan Webster",
+        "Mark Andrews"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2020-01-15"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "114227"
+        ],
+        "sourceEventIds": [
+          "16805"
+        ]
+      },
+      "legacyId": "bulk-match-114227",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "James Drake, Zack Gibson vs. Alex Shelley, KUSHIDA",
+      "result": "James Drake, Zack Gibson defeated Alex Shelley, KUSHIDA.",
+      "matchType": "4-person match",
+      "duration": 715,
+      "participants": [
+        {
+          "person": "james-drake",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "zack-gibson",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "alex-shelley",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "kushida",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "James Drake",
+        "Zack Gibson",
+        "Alex Shelley",
+        "KUSHIDA"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2020-01-15"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "114228"
+        ],
+        "sourceEventIds": [
+          "16805"
+        ]
+      },
+      "legacyId": "bulk-match-114228",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Isaiah \"Swerve\" Scott vs. Lio Rush, Tyler Breeze",
+      "result": "Isaiah \"Swerve\" Scott defeated Lio Rush, Tyler Breeze.",
+      "matchType": "Other match",
+      "duration": 800,
+      "participants": [
+        {
+          "person": "isaiah-swerve-scott",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "lio-rush",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tyler-breeze",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Isaiah \"Swerve\" Scott",
+        "Lio Rush",
+        "Tyler Breeze"
+      ],
+      "showCategory": "NXT",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/wwenxt/2020-01-15"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "114229"
+        ],
+        "sourceEventIds": [
+          "16805"
+        ]
+      },
+      "legacyId": "bulk-match-114229",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-16805"
+  ],
+  "legacy": {
+    "showFamily": "nxt",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "16805"
+    ]
+  }
+}

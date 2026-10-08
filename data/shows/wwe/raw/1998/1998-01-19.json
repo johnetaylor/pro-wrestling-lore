@@ -1,0 +1,161 @@
+{
+  "id": "wwe/raw/1998-01-19",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "1998-01-19",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1998/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Marc Mero vs. Tom Brandi",
+      "result": "Marc Mero defeated Tom Brandi.",
+      "matchType": "Singles match",
+      "duration": 210,
+      "participants": [
+        {
+          "person": "marc-mero",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "tom-brandi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Marc Mero",
+        "Tom Brandi"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "29204",
+          "177841"
+        ],
+        "sourceEventIds": [
+          "4465"
+        ]
+      },
+      "legacyId": "bulk-match-29204",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Jeff Jarrett vs. Bradshaw",
+      "result": "Jeff Jarrett defeated Bradshaw.",
+      "matchType": "Singles match",
+      "duration": 221,
+      "participants": [
+        {
+          "person": "jeff-jarrett",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "bradshaw",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Jeff Jarrett",
+        "Bradshaw"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "29206",
+          "177843"
+        ],
+        "sourceEventIds": [
+          "4465"
+        ]
+      },
+      "legacyId": "bulk-match-29206",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 6,
+      "type": "match",
+      "title": "Rocky Maivia vs. Ahmed Johnson",
+      "result": "Rocky Maivia defeated Ahmed Johnson.",
+      "matchType": "Singles match",
+      "duration": 163,
+      "participants": [
+        {
+          "person": "the-rock",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ahmed-johnson",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rocky Maivia",
+        "Ahmed Johnson"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1998/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "29208",
+          "177845"
+        ],
+        "sourceEventIds": [
+          "4465"
+        ]
+      },
+      "legacyId": "bulk-match-29208",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-4465"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "4465"
+    ]
+  }
+}

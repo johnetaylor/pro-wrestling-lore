@@ -1,0 +1,230 @@
+{
+  "id": "wwe/smackdown/2018-08-28",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2018-08-28",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2018-08-28"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Cesaro, Sheamus vs. Epico, Karl Anderson, Luke Gallows, Primo",
+      "result": "Cesaro, Sheamus defeated Epico, Karl Anderson, Luke Gallows, Primo.",
+      "matchType": "Tag Team match",
+      "duration": 632,
+      "participants": [
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "epico",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "karl-anderson",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "luke-gallows",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "primo",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cesaro",
+        "Sheamus",
+        "Epico",
+        "Karl Anderson",
+        "Luke Gallows",
+        "Primo"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-08-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81312",
+          "118144"
+        ],
+        "sourceEventIds": [
+          "12646"
+        ]
+      },
+      "legacyId": "bulk-match-81312",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Billie Kay vs. Naomi",
+      "result": "Billie Kay defeated Naomi.",
+      "matchType": "Singles match",
+      "duration": 92,
+      "participants": [
+        {
+          "person": "billie-kay",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Billie Kay",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-08-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81313",
+          "118145"
+        ],
+        "sourceEventIds": [
+          "12646"
+        ]
+      },
+      "legacyId": "bulk-match-81313",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Daniel Bryan vs. Andrade \"Cien\" Almas",
+      "result": "Daniel Bryan defeated Andrade \"Cien\" Almas by disqualification.",
+      "matchType": "Singles match",
+      "duration": 764,
+      "participants": [
+        {
+          "person": "daniel-bryan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Daniel Bryan",
+        "Andrade \"Cien\" Almas"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-08-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81314",
+          "118146"
+        ],
+        "sourceEventIds": [
+          "12646"
+        ]
+      },
+      "legacyId": "bulk-match-81314",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 5,
+      "type": "match",
+      "title": "Charlotte Flair vs. Carmella",
+      "result": "Charlotte Flair defeated Carmella.",
+      "matchType": "Singles match",
+      "duration": 802,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Carmella"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2018-08-28"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "81315",
+          "118147"
+        ],
+        "sourceEventIds": [
+          "12646"
+        ]
+      },
+      "legacyId": "bulk-match-81315",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12646"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12646"
+    ]
+  }
+}

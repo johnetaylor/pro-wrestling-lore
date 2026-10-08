@@ -1,0 +1,202 @@
+{
+  "id": "wwe/smackdown/2019-01-22",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2019-01-22",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2019-01-22"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Mandy Rose vs. Naomi",
+      "result": "Mandy Rose defeated Naomi.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "mandy-rose",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Mandy Rose",
+        "Naomi"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-01-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82304",
+          "117144"
+        ],
+        "sourceEventIds": [
+          "12828"
+        ]
+      },
+      "legacyId": "bulk-match-82304",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Cesaro vs. The Miz",
+      "result": "Cesaro defeated The Miz.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "cesaro",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-miz",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Cesaro",
+        "The Miz"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-01-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82305",
+          "117145"
+        ],
+        "sourceEventIds": [
+          "12828"
+        ]
+      },
+      "legacyId": "bulk-match-82305",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Samoa Joe vs. Mustafa Ali",
+      "result": "Samoa Joe defeated Mustafa Ali.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "samoa-joe",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mustafa-ali",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Samoa Joe",
+        "Mustafa Ali"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-01-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82306",
+          "117146"
+        ],
+        "sourceEventIds": [
+          "12828"
+        ]
+      },
+      "legacyId": "bulk-match-82306",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 4,
+      "type": "match",
+      "title": "Other match",
+      "result": "Andrade, Rey Mysterio — no contest.",
+      "matchType": "Other match",
+      "duration": 1332,
+      "participants": [
+        {
+          "person": "andrade",
+          "role": "competitor",
+          "outcome": "no_contest"
+        },
+        {
+          "person": "rey-mysterio",
+          "role": "competitor",
+          "outcome": "no_contest"
+        }
+      ],
+      "billing": [
+        "Andrade",
+        "Rey Mysterio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-01-22"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "82307",
+          "117147"
+        ],
+        "sourceEventIds": [
+          "12828"
+        ]
+      },
+      "legacyId": "bulk-match-82307",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12828"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12828"
+    ]
+  }
+}

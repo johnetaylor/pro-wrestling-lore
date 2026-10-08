@@ -1,0 +1,159 @@
+{
+  "id": "wwe/smackdown/2019-08-13",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2019-08-13",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2019-08-13"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Charlotte Flair vs. Ember Moon",
+      "result": "Charlotte Flair defeated Ember Moon.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ember-moon",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Charlotte Flair",
+        "Ember Moon"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-08-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83821",
+          "115575"
+        ],
+        "sourceEventIds": [
+          "13090"
+        ]
+      },
+      "legacyId": "bulk-match-83821",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Roman Reigns vs. Buddy Murphy",
+      "result": "Roman Reigns defeated Buddy Murphy.",
+      "matchType": "Singles match",
+      "duration": 872,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "buddy-murphy",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Buddy Murphy"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-08-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83822",
+          "115576"
+        ],
+        "sourceEventIds": [
+          "13090"
+        ]
+      },
+      "legacyId": "bulk-match-83822",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 3,
+      "type": "match",
+      "title": "Samoa Joe vs. Kevin Owens",
+      "result": "Samoa Joe defeated Kevin Owens.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "samoa-joe",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Samoa Joe",
+        "Kevin Owens"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-08-13"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "83823",
+          "115577"
+        ],
+        "sourceEventIds": [
+          "13090"
+        ]
+      },
+      "legacyId": "bulk-match-83823",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13090"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13090"
+    ]
+  }
+}

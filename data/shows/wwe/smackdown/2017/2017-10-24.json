@@ -1,0 +1,176 @@
+{
+  "id": "wwe/smackdown/2017-10-24",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2017-10-24",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2017-10-24"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 3,
+      "type": "match",
+      "title": "A.J. Styles vs. Sunil Singh",
+      "result": "A.J. Styles defeated Sunil Singh.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sunil-singh",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Sunil Singh"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-10-24"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78919",
+          "120547"
+        ],
+        "sourceEventIds": [
+          "12236"
+        ]
+      },
+      "legacyId": "bulk-match-78919",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Becky Lynch vs. Carmella, Charlotte Flair, Naomi, Tamina",
+      "result": "Becky Lynch defeated Carmella, Charlotte Flair, Naomi, Tamina.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "charlotte-flair",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "naomi",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "tamina",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Becky Lynch",
+        "Carmella",
+        "Charlotte Flair",
+        "Naomi",
+        "Tamina"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-10-24"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78920",
+          "120548"
+        ],
+        "sourceEventIds": [
+          "12236"
+        ]
+      },
+      "legacyId": "bulk-match-78920",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Randy Orton vs. Sami Zayn",
+      "result": "Randy Orton defeated Sami Zayn.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "randy-orton",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Randy Orton",
+        "Sami Zayn"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-10-24"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "78921",
+          "120549"
+        ],
+        "sourceEventIds": [
+          "12236"
+        ]
+      },
+      "legacyId": "bulk-match-78921",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-12236"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "12236"
+    ]
+  }
+}

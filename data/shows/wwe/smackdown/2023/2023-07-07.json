@@ -1,0 +1,165 @@
+{
+  "id": "wwe/smackdown/2023-07-07",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2023-07-07",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2023-07-07"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Austin Theory vs. Sheamus",
+      "result": "Austin Theory defeated Sheamus.",
+      "matchType": "Singles match",
+      "duration": 750,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "austin-theory",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "sheamus",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Austin Theory",
+        "Sheamus"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-07-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "4484",
+          "92040",
+          "102812"
+        ],
+        "sourceEventIds": [
+          "821"
+        ]
+      },
+      "legacyId": "bulk-match-4484",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "A.J. Styles vs. Karrion Kross",
+      "result": "A.J. Styles defeated Karrion Kross.",
+      "matchType": "Singles match",
+      "duration": 100,
+      "participants": [
+        {
+          "person": "aj-styles",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "karrion-kross",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "A.J. Styles",
+        "Karrion Kross"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-07-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "4485",
+          "92041",
+          "102813"
+        ],
+        "sourceEventIds": [
+          "821"
+        ]
+      },
+      "legacyId": "bulk-match-4485",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Edge vs. Grayson Waller",
+      "result": "Edge defeated Grayson Waller.",
+      "matchType": "Singles match",
+      "duration": 864,
+      "participants": [
+        {
+          "person": "edge",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "grayson-waller",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Edge",
+        "Grayson Waller"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2023-07-07"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "4486",
+          "92042",
+          "102814"
+        ],
+        "sourceEventIds": [
+          "821"
+        ]
+      },
+      "legacyId": "bulk-match-4486",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-821"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "821"
+    ]
+  }
+}

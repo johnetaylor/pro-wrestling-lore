@@ -1,0 +1,320 @@
+{
+  "id": "wwe/snme/2024-12-14",
+  "promotion": "wwe",
+  "series": "wwe/snme",
+  "name": "Saturday Night’s Main Event",
+  "date": "2024-12-14",
+  "category": "TV special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "reviewed-partial",
+    "note": "Hugging Face import · official-results comparison. Unverified extra matches were excluded.",
+    "legacyCardStatus": "Imported card compared with official WWE results",
+    "legacySegmentStatus": "Partial; the match dataset does not contain a promo/appearance archive"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/snme/2024/article/episode-brief-1-saturday-nights-main-event-2024"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "type": "match",
+      "title": "Drew McIntyre vs. Sami Zayn",
+      "result": "Drew McIntyre defeated Sami Zayn.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "participants": [
+        {
+          "person": "drew-mcintyre",
+          "role": "competitor"
+        },
+        {
+          "person": "sami-zayn",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Drew McIntyre",
+        "Sami Zayn"
+      ],
+      "showCategory": "TV special",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/snme/2024/article/episode-brief-1-saturday-nights-main-event-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/snme/2024/article/episode-brief-1-saturday-nights-main-event-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15136",
+        "sourceMatchIds": [
+          "95400"
+        ],
+        "rawInputSha256": "b2828ef2f60c05d26d6ca13392c01a53bc8a6d021449aef03b8db602d182a6d7",
+        "normalizedParticipants": [
+          {
+            "name": "Drew McIntyre",
+            "result": "win"
+          },
+          {
+            "name": "Sami Zayn",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/snme/2024/article/episode-brief-1-saturday-nights-main-event-2024"
+      },
+      "legacyId": "hf-match-95400",
+      "legacy": {
+        "kind": "match"
+      }
+    },
+    {
+      "key": "m2",
+      "type": "match",
+      "title": "Liv Morgan vs. IYO SKY",
+      "result": "Liv Morgan defeated IYO SKY.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "liv-morgan",
+          "role": "competitor"
+        },
+        {
+          "person": "iyo-sky",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Liv Morgan",
+        "IYO SKY"
+      ],
+      "showCategory": "TV special",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/snme/2024/article/episode-brief-1-saturday-nights-main-event-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/snme/2024/article/episode-brief-1-saturday-nights-main-event-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15136",
+        "sourceMatchIds": [
+          "95401"
+        ],
+        "rawInputSha256": "0343375fc42544bff7167cd47393aa1c609fb654b7c3a5d657e1b425b0d38b74",
+        "normalizedParticipants": [
+          {
+            "name": "Liv Morgan",
+            "result": "win"
+          },
+          {
+            "name": "IYO SKY",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/snme/2024/article/episode-brief-1-saturday-nights-main-event-2024"
+      },
+      "legacyId": "hf-match-95401",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m3",
+      "type": "match",
+      "title": "Gunther vs. Damian Priest, Finn Bálor",
+      "result": "Gunther defeated Damian Priest, Finn Bálor.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Triple Threat Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "gunther",
+          "role": "competitor"
+        },
+        {
+          "person": "damian-priest",
+          "role": "competitor"
+        },
+        {
+          "person": "finn-balor",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Gunther",
+        "Damian Priest",
+        "Finn Bálor"
+      ],
+      "showCategory": "TV special",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/snme/2024/article/episode-brief-1-saturday-nights-main-event-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/snme/2024/article/episode-brief-1-saturday-nights-main-event-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15136",
+        "sourceMatchIds": [
+          "95402"
+        ],
+        "rawInputSha256": "8151bf45d25f062ecb88a835d0a8cc4e6c8c699536ae2c0f89e75144b93fef78",
+        "normalizedParticipants": [
+          {
+            "name": "Gunther",
+            "result": "win"
+          },
+          {
+            "name": "Damian Priest",
+            "result": "loss"
+          },
+          {
+            "name": "Finn Bálor",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/snme/2024/article/episode-brief-1-saturday-nights-main-event-2024"
+      },
+      "legacyId": "hf-match-95402",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m4",
+      "type": "match",
+      "title": "Chelsea Green vs. Michin",
+      "result": "Chelsea Green defeated Michin.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "chelsea-green",
+          "role": "competitor"
+        },
+        {
+          "person": "michin",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Chelsea Green",
+        "Michin"
+      ],
+      "showCategory": "TV special",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/snme/2024/article/episode-brief-1-saturday-nights-main-event-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/snme/2024/article/episode-brief-1-saturday-nights-main-event-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15136",
+        "sourceMatchIds": [
+          "95403"
+        ],
+        "rawInputSha256": "d670cd3375b59371855ec71955ce4ffaacb8a95ca43b5ee1ea1e73a8bf8c9168",
+        "normalizedParticipants": [
+          {
+            "name": "Chelsea Green",
+            "result": "win"
+          },
+          {
+            "name": "Michin",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/snme/2024/article/episode-brief-1-saturday-nights-main-event-2024"
+      },
+      "legacyId": "hf-match-95403",
+      "legacy": {
+        "kind": "title"
+      }
+    },
+    {
+      "key": "m5",
+      "type": "match",
+      "title": "Cody Rhodes vs. Kevin Owens",
+      "result": "Cody Rhodes defeated Kevin Owens.",
+      "context": "Imported from the pinned Ringside Analytics snapshot and compared with WWE’s official event results. Promos and ringside involvement are not comprehensively indexed.",
+      "matchType": "Singles Match",
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "cody-rhodes",
+          "role": "competitor"
+        },
+        {
+          "person": "kevin-owens",
+          "role": "competitor"
+        }
+      ],
+      "billing": [
+        "Cody Rhodes",
+        "Kevin Owens"
+      ],
+      "showCategory": "TV special",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-06",
+        "source": "https://www.wwe.com/shows/snme/2024/article/episode-brief-1-saturday-nights-main-event-2024",
+        "scope": "Listed participants, outcome, title-match status and televised-card inclusion; not full-broadcast appearance coverage"
+      },
+      "sources": [
+        "https://www.wwe.com/shows/snme/2024/article/episode-brief-1-saturday-nights-main-event-2024"
+      ],
+      "provenance": {
+        "dataset": "datamatters24/ringside-analytics",
+        "revision": "61205b6d1c12dee4165c1e3e222720bca292549c",
+        "sourceEventId": "15136",
+        "sourceMatchIds": [
+          "95404"
+        ],
+        "rawInputSha256": "411a542e48b7f965945be1dfe7b75aa00a6737ad3188486f7c05b0611ed6bc2c",
+        "normalizedParticipants": [
+          {
+            "name": "Cody Rhodes",
+            "result": "win"
+          },
+          {
+            "name": "Kevin Owens",
+            "result": "loss"
+          }
+        ],
+        "reviewSource": "https://www.wwe.com/shows/snme/2024/article/episode-brief-1-saturday-nights-main-event-2024"
+      },
+      "legacyId": "hf-match-95404",
+      "legacy": {
+        "kind": "title"
+      }
+    }
+  ],
+  "legacyIds": [
+    "hf-event-15136"
+  ],
+  "legacy": {
+    "showFamily": "snme",
+    "importBatch": "ringside-2024-ple"
+  }
+}

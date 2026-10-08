@@ -1,0 +1,117 @@
+{
+  "id": "wwe/smackdown/2019-12-06",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2019-12-06",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2019-12-06"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Alexa Bliss vs. Mandy Rose",
+      "result": "Alexa Bliss defeated Mandy Rose.",
+      "matchType": "Singles match",
+      "duration": 257,
+      "participants": [
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mandy-rose",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alexa Bliss",
+        "Mandy Rose"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-12-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "84744",
+          "114548"
+        ],
+        "sourceEventIds": [
+          "13233"
+        ]
+      },
+      "legacyId": "bulk-match-84744",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 4,
+      "type": "match",
+      "title": "Roman Reigns vs. Dolph Ziggler",
+      "result": "Roman Reigns defeated Dolph Ziggler.",
+      "matchType": "Singles match",
+      "duration": 1070,
+      "participants": [
+        {
+          "person": "roman-reigns",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dolph-ziggler",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Roman Reigns",
+        "Dolph Ziggler"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2019-12-06"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "84747",
+          "114551"
+        ],
+        "sourceEventIds": [
+          "13233"
+        ]
+      },
+      "legacyId": "bulk-match-84747",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13233"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13233"
+    ]
+  }
+}

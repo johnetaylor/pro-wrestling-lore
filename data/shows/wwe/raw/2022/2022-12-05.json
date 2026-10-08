@@ -1,0 +1,222 @@
+{
+  "id": "wwe/raw/2022-12-05",
+  "promotion": "wwe",
+  "series": "wwe/raw",
+  "name": "Raw",
+  "date": "2022-12-05",
+  "dateBasis": "aired",
+  "category": "Raw",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/raw/2022-12-05"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 2,
+      "type": "match",
+      "title": "Bayley vs. Asuka, Rhea Ripley",
+      "result": "Bayley defeated Asuka, Rhea Ripley.",
+      "matchType": "Triple Threat match",
+      "duration": 921,
+      "participants": [
+        {
+          "person": "bayley",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "asuka",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "rhea-ripley",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bayley",
+        "Asuka",
+        "Rhea Ripley"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2022-12-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6663",
+          "90561",
+          "104991"
+        ],
+        "sourceEventIds": [
+          "1189"
+        ]
+      },
+      "legacyId": "bulk-match-6663",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 3,
+      "type": "match",
+      "title": "Austin Theory vs. Mustafa Ali",
+      "result": "Austin Theory defeated Mustafa Ali by disqualification.",
+      "matchType": "Singles match",
+      "duration": 483,
+      "titleMatch": true,
+      "participants": [
+        {
+          "person": "austin-theory",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "mustafa-ali",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Austin Theory",
+        "Mustafa Ali"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2022-12-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6664",
+          "90562",
+          "104992"
+        ],
+        "sourceEventIds": [
+          "1189"
+        ]
+      },
+      "legacyId": "bulk-match-6664",
+      "legacy": {
+        "kind": "title",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 5,
+      "type": "match",
+      "title": "Dominik Mysterio vs. Akira Tozawa",
+      "result": "Dominik Mysterio defeated Akira Tozawa.",
+      "matchType": "Singles match",
+      "duration": 163,
+      "participants": [
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "akira-tozawa",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Dominik Mysterio",
+        "Akira Tozawa"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2022-12-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6666",
+          "90564",
+          "104994"
+        ],
+        "sourceEventIds": [
+          "1189"
+        ]
+      },
+      "legacyId": "bulk-match-6666",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 6,
+      "type": "match",
+      "title": "Alexa Bliss vs. Becky Lynch, Nikki Cross",
+      "result": "Alexa Bliss defeated Becky Lynch, Nikki Cross.",
+      "matchType": "Triple Threat match",
+      "duration": 988,
+      "participants": [
+        {
+          "person": "alexa-bliss",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "loss"
+        },
+        {
+          "person": "nikki-cross",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Alexa Bliss",
+        "Becky Lynch",
+        "Nikki Cross"
+      ],
+      "showCategory": "Raw",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/raw/2022-12-05"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "6667",
+          "90565",
+          "104995"
+        ],
+        "sourceEventIds": [
+          "1189"
+        ]
+      },
+      "legacyId": "bulk-match-6667",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-1189"
+  ],
+  "legacy": {
+    "showFamily": "raw",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "1189"
+    ]
+  }
+}

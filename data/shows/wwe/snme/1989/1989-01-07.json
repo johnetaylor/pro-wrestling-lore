@@ -1,0 +1,177 @@
+{
+  "id": "wwe/snme/1989-01-07",
+  "promotion": "wwe",
+  "series": "wwe/snme",
+  "name": "Saturday Night's Main Event Taping",
+  "date": "1989-01-07",
+  "dateBasis": "aired",
+  "recordedDate": "1988-12-07",
+  "category": "PLE / special",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://thehistoryofwwe.com/wwf-results-1988/"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 1,
+      "type": "match",
+      "title": "Brutus Beefcake vs. Ron Bass",
+      "result": "Brutus Beefcake defeated Ron Bass.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "brutus-beefcake",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "ron-bass",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Brutus Beefcake",
+        "Ron Bass"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1988/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "14375",
+          "192624"
+        ],
+        "sourceEventIds": [
+          "2317"
+        ]
+      },
+      "legacyId": "bulk-match-14375",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 2,
+      "type": "match",
+      "title": "Hulk Hogan vs. Akeem",
+      "result": "Hulk Hogan defeated Akeem by disqualification.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "hulk-hogan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "one-man-gang",
+          "role": "competitor",
+          "outcome": "dq"
+        }
+      ],
+      "billing": [
+        "Hulk Hogan",
+        "Akeem"
+      ],
+      "showCategory": "PLE / special",
+      "promotionLabel": "WWF",
+      "dateBasis": "broadcast",
+      "verification": {
+        "status": "recap-compared",
+        "checked": "2026-10-07",
+        "source": "https://thehistoryofwwe.com/wwf-results-1988/",
+        "scope": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date."
+      },
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1988/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "14376",
+          "192625"
+        ],
+        "sourceEventIds": [
+          "2317"
+        ]
+      },
+      "legacyId": "bulk-match-14376",
+      "legacy": {
+        "show": "Saturday Night’s Main Event",
+        "kind": "match",
+        "hoganReview": {
+          "id": "bulk-match-14376",
+          "source": "https://thehistoryofwwe.com/wwf-results-1988/",
+          "date": "1989-01-07",
+          "reviewed": "2026-10-07",
+          "note": "Participants, outcome and event date compared with the linked results; televised matches use the broadcast date.",
+          "show": "Saturday Night’s Main Event",
+          "omitUnreviewedDuration": true
+        },
+        "workbookReference": "HM-0101",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 4,
+      "type": "match",
+      "title": "Tito Santana vs. The Red Rooster",
+      "result": "Tito Santana defeated The Red Rooster.",
+      "matchType": "Singles match",
+      "participants": [
+        {
+          "person": "tito-santana",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "the-red-rooster",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Tito Santana",
+        "The Red Rooster"
+      ],
+      "showCategory": "PLE / special",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://thehistoryofwwe.com/wwf-results-1988/"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "14378",
+          "192627"
+        ],
+        "sourceEventIds": [
+          "2317"
+        ]
+      },
+      "legacyId": "bulk-match-14378",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-2317"
+  ],
+  "legacy": {
+    "showFamily": "snme",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "2317"
+    ]
+  }
+}

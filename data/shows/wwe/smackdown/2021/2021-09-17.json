@@ -1,0 +1,216 @@
+{
+  "id": "wwe/smackdown/2021-09-17",
+  "promotion": "wwe",
+  "series": "wwe/smackdown",
+  "name": "SmackDown",
+  "date": "2021-09-17",
+  "dateBasis": "aired",
+  "category": "SmackDown",
+  "coverage": {
+    "card": "indexed",
+    "segments": "unknown",
+    "legacyCardStatus": "Indexed match card"
+  },
+  "sources": [
+    "https://www.wwe.com/shows/smackdown/2021-09-17"
+  ],
+  "segments": [
+    {
+      "key": "m1",
+      "order": 5,
+      "type": "match",
+      "title": "Rick Boogs vs. Robert Roode",
+      "result": "Rick Boogs defeated Robert Roode.",
+      "matchType": "Singles match",
+      "duration": 122,
+      "participants": [
+        {
+          "person": "rick-boogs",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "robert-roode",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Rick Boogs",
+        "Robert Roode"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-09-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87613",
+          "109732"
+        ],
+        "sourceEventIds": [
+          "13777"
+        ]
+      },
+      "legacyId": "bulk-match-87613",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m2",
+      "order": 6,
+      "type": "match",
+      "title": "Liv Morgan, Toni Storm vs. Carmella, Zelina Vega",
+      "result": "Liv Morgan, Toni Storm defeated Carmella, Zelina Vega by count-out.",
+      "matchType": "4-person match",
+      "duration": 130,
+      "participants": [
+        {
+          "person": "liv-morgan",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "toni-storm",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "carmella",
+          "role": "competitor",
+          "outcome": "countout"
+        },
+        {
+          "person": "zelina-vega",
+          "role": "competitor",
+          "outcome": "countout"
+        }
+      ],
+      "billing": [
+        "Liv Morgan",
+        "Toni Storm",
+        "Carmella",
+        "Zelina Vega"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-09-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87614",
+          "109733"
+        ],
+        "sourceEventIds": [
+          "13777"
+        ]
+      },
+      "legacyId": "bulk-match-87614",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m3",
+      "order": 7,
+      "type": "match",
+      "title": "Sami Zayn vs. Dominik Mysterio",
+      "result": "Sami Zayn defeated Dominik Mysterio.",
+      "matchType": "Singles match",
+      "duration": 369,
+      "participants": [
+        {
+          "person": "sami-zayn",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "dominik-mysterio",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Sami Zayn",
+        "Dominik Mysterio"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-09-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87615",
+          "109734"
+        ],
+        "sourceEventIds": [
+          "13777"
+        ]
+      },
+      "legacyId": "bulk-match-87615",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    },
+    {
+      "key": "m4",
+      "order": 9,
+      "type": "match",
+      "title": "Bianca Belair vs. Becky Lynch",
+      "result": "Bianca Belair defeated Becky Lynch.",
+      "matchType": "Other match",
+      "participants": [
+        {
+          "person": "bianca-belair",
+          "role": "competitor",
+          "outcome": "win"
+        },
+        {
+          "person": "becky-lynch",
+          "role": "competitor",
+          "outcome": "loss"
+        }
+      ],
+      "billing": [
+        "Bianca Belair",
+        "Becky Lynch"
+      ],
+      "showCategory": "SmackDown",
+      "dateBasis": "broadcast",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2021-09-17"
+      ],
+      "provenance": {
+        "sourceMatchIds": [
+          "87617",
+          "109736"
+        ],
+        "sourceEventIds": [
+          "13777"
+        ]
+      },
+      "legacyId": "bulk-match-87617",
+      "legacy": {
+        "kind": "match",
+        "bulkArchive": true
+      }
+    }
+  ],
+  "legacyIds": [
+    "bulk-event-13777"
+  ],
+  "legacy": {
+    "showFamily": "smackdown",
+    "bulkArchive": true,
+    "sourceEventIds": [
+      "13777"
+    ]
+  }
+}
