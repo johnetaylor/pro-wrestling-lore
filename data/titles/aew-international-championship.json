@@ -1,11 +1,152 @@
 {
   "id": "aew-international-championship",
   "name": "AEW International Championship",
+  "promotion": "aew",
+  "division": "men",
+  "format": "singles",
+  "established": "2022-06-08",
   "names": [
-    "AEW International Championship"
+    "AEW All-Atlantic Championship",
+    "AEW American Championship (unofficial, under MJF)",
+    "AEW International Championship (name restored after Ospreay's win)"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "AEW All-Atlantic Championship",
+      "from": "2022-06-08",
+      "to": "2023-03-15"
+    },
+    {
+      "name": "AEW International Championship",
+      "from": "2023-03-15",
+      "to": "2024-07-24"
+    },
+    {
+      "name": "AEW American Championship (unofficial, under MJF)",
+      "from": "2024-07-24",
+      "to": "2024-08-25"
+    },
+    {
+      "name": "AEW International Championship (name restored after Ospreay's win)",
+      "from": "2024-08-25"
+    }
+  ],
+  "history": [
+    {
+      "date": "2023-03-15",
+      "kind": "brand",
+      "text": "Renamed from All-Atlantic to International after Cassidy's final All-Atlantic defense.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_International_Championship"
+      ]
+    },
+    {
+      "date": "2023-03-15",
+      "kind": "recognition",
+      "text": "AEW initially treated the renamed title as new, but its history was later amended to show one continuous lineage.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_International_Championship"
+      ]
+    },
+    {
+      "date": "2024-07-24",
+      "kind": "brand",
+      "text": "MJF unofficially renamed it the AEW American Championship and introduced a custom belt.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_International_Championship"
+      ]
+    },
+    {
+      "date": "2024-08-25",
+      "kind": "brand",
+      "text": "Ospreay's win at All In restored the International Championship name.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_International_Championship"
+      ]
+    },
+    {
+      "date": "2025-07-12",
+      "kind": "unified-into",
+      "text": "Okada beat Omega at All In to win the Unified Championship, with both original lineages kept intact.",
+      "related": [
+        "AEW Continental Championship",
+        "AEW Unified Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_International_Championship"
+      ]
+    },
+    {
+      "date": "2025-12-27",
+      "kind": "split",
+      "text": "Moxley's win over Okada in the Continental Classic final ended the unification, and Okada relinquished the Unified Championship.",
+      "related": [
+        "AEW Continental Championship",
+        "AEW Unified Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_International_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_AEW_International_Champions",
+    "https://en.wikipedia.org/wiki/AEW_International_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r2",
+      "holder": "Pac",
+      "people": [
+        "neville"
+      ],
+      "start": "2022-06-26",
+      "end": "2022-10-12",
+      "days": 108,
+      "number": 1,
+      "event": "Forbidden Door",
+      "location": "Chicago, IL",
+      "note": "Won four-way final over Clark Connors, Malakai Black, and Miro as inaugural AEW All-Atlantic Champion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_International_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Orange Cassidy",
+      "people": [
+        "orange-cassidy"
+      ],
+      "start": "2022-10-12",
+      "end": "2023-09-03",
+      "days": 326,
+      "number": 2,
+      "event": "Dynamite",
+      "location": "Toronto, ON, Canada",
+      "note": "Title rebranded as AEW International Championship on March 15, 2023.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_International_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Jon Moxley",
+      "people": [
+        "dean-ambrose"
+      ],
+      "start": "2023-09-03",
+      "end": "2023-09-20",
+      "days": 17,
+      "number": 3,
+      "event": "All Out",
+      "location": "Chicago, IL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_International_Champions"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Rey Fénix",
@@ -14,13 +155,209 @@
       ],
       "start": "2023-09-20",
       "end": "2023-10-10",
+      "days": 20,
+      "number": 4,
+      "event": "Dynamite: Grand Slam",
+      "location": "Flushing, Queens, NY",
+      "note": "Unplanned finish: Moxley was injured and called an audible for Fénix to pin him.",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aew/aew-international-championship"
+        "https://www.thesmackdownhotel.com/title-history/aew/aew-international-championship",
+        "https://en.wikipedia.org/wiki/List_of_AEW_International_Champions"
       ],
       "legacyIds": [
         "profile-reign-rey-fenix-638"
       ]
+    },
+    {
+      "id": "r5",
+      "holder": "Orange Cassidy",
+      "people": [
+        "orange-cassidy"
+      ],
+      "start": "2023-10-10",
+      "end": "2024-03-03",
+      "days": 145,
+      "number": 5,
+      "event": "Dynamite: Title Tuesday",
+      "location": "Independence, MO",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_International_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Roderick Strong",
+      "people": [
+        "roderick-strong"
+      ],
+      "start": "2024-03-03",
+      "end": "2024-05-26",
+      "days": 84,
+      "number": 6,
+      "event": "Revolution",
+      "location": "Greensboro, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_International_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Will Ospreay",
+      "people": [
+        "will-ospreay"
+      ],
+      "start": "2024-05-26",
+      "end": "2024-07-17",
+      "days": 52,
+      "number": 7,
+      "event": "Double or Nothing",
+      "location": "Paradise, NV",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_International_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "MJF",
+      "people": [
+        "mjf"
+      ],
+      "start": "2024-07-17",
+      "end": "2024-08-25",
+      "days": 39,
+      "number": 8,
+      "event": "Dynamite 250",
+      "location": "North Little Rock, AR",
+      "note": "Unofficially rebranded the title as AEW American Championship during reign.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_International_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Will Ospreay",
+      "people": [
+        "will-ospreay"
+      ],
+      "start": "2024-08-25",
+      "end": "2024-10-12",
+      "days": 48,
+      "number": 9,
+      "event": "All In: London",
+      "location": "London, England",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_International_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Konosuke Takeshita",
+      "people": [
+        "konosuke-takeshita"
+      ],
+      "start": "2024-10-12",
+      "end": "2025-03-09",
+      "days": 148,
+      "number": 10,
+      "event": "WrestleDream",
+      "location": "Tacoma, WA",
+      "note": "Three-way match also involving Ricochet.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_International_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Kenny Omega",
+      "people": [
+        "kenny-omega"
+      ],
+      "start": "2025-03-09",
+      "end": "2025-07-12",
+      "days": 125,
+      "number": 11,
+      "event": "Revolution",
+      "location": "Los Angeles, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_International_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Kazuchika Okada",
+      "people": [
+        "kazuchika-okada"
+      ],
+      "start": "2025-07-12",
+      "end": "2026-05-24",
+      "days": 316,
+      "number": 12,
+      "event": "All In: Texas",
+      "location": "Arlington, TX",
+      "note": "Winner Takes All match defending AEW Continental Championship; became inaugural AEW Unified Champion. Unified title inactive after Okada lost Continental title on December 27, 2025.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_International_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Konosuke Takeshita",
+      "people": [
+        "konosuke-takeshita"
+      ],
+      "start": "2026-05-24",
+      "end": "2026-07-08",
+      "days": 45,
+      "number": 13,
+      "event": "Double or Nothing",
+      "location": "Queens, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_International_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Kyle Fletcher",
+      "people": [
+        "kyle-fletcher"
+      ],
+      "start": "2026-07-08",
+      "end": "2026-08-30",
+      "days": 53,
+      "number": 14,
+      "event": "Dynamite: Beach Break",
+      "location": "Clearwater, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_International_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Kazuchika Okada",
+      "people": [
+        "kazuchika-okada"
+      ],
+      "start": "2026-08-30",
+      "days": 1,
+      "number": 15,
+      "event": "All In",
+      "location": "London, England",
+      "note": "Three-way match also involving Konosuke Takeshita.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_International_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

@@ -11,7 +11,7 @@
 | Shows | Every Shows-tab and career show maps to a show | 7,029 | 0 |
 | Shows | Show dates carry over | 7,029 | 0 |
 | Moments | Every career moment keeps its own date | 17,473 | 0 |
-| Careers | Each person appears in exactly the same career moments | 2,264 | 0 |
+| Careers | Each person appears in exactly the same career moments | 2,861 | 0 |
 | Titles | Every reign record maps to a reign with the same start and holders | 902 | 0 |
 | Titles | Curated reign dates carry over exactly | 46 | 0 |
 | Storylines | Every storyline maps | 293 | 0 |

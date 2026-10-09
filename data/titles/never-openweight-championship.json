@@ -1,38 +1,630 @@
 {
   "id": "never-openweight-championship",
   "name": "NEVER Openweight Championship",
+  "promotion": "njpw",
+  "division": "men",
+  "format": "singles",
+  "established": "2012-11-19",
   "names": [
-    "NEVER Openweight Championship"
+    "NEVER Openweight Championship (Japanese: NEVER無差別級王座)"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "NEVER Openweight Championship (Japanese: NEVER無差別級王座)",
+      "from": "2012-10-05"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions",
+    "https://en.wikipedia.org/wiki/NEVER_Openweight_Championship"
+  ],
   "reigns": [
     {
+      "id": "r9",
+      "holder": "Masato Tanaka",
+      "people": [
+        "masato-tanaka"
+      ],
+      "start": "2012-11-19",
+      "end": "2013-09-29",
+      "days": 314,
+      "number": 1,
+      "event": "Shodai NEVER Musabetsu Kyu Oza Kettei Tournament Final",
+      "location": "Tokyo, Japan",
+      "note": "Won a 16-man tournament final over Karl Anderson",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Tetsuya Naito",
+      "people": [
+        "tetsuya-naito"
+      ],
+      "start": "2013-09-29",
+      "end": "2014-02-11",
+      "days": 135,
+      "number": 2,
+      "event": "Destruction",
+      "location": "Kobe, Japan",
+      "note": "Tokyo Dome IWGP challenge certificate also at stake",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Tomohiro Ishii",
+      "people": [
+        "tomohiro-ishii"
+      ],
+      "start": "2014-02-11",
+      "end": "2014-06-29",
+      "days": 138,
+      "number": 3,
+      "event": "The New Beginning in Osaka",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Yujiro Takahashi",
+      "people": [
+        "yujiro-takahashi"
+      ],
+      "start": "2014-06-29",
+      "end": "2014-10-13",
+      "days": 106,
+      "number": 4,
+      "event": "Kizuna Road 2014",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Tomohiro Ishii",
+      "people": [
+        "tomohiro-ishii"
+      ],
+      "start": "2014-10-13",
+      "end": "2015-01-04",
+      "days": 83,
+      "number": 5,
+      "event": "King of Pro-Wrestling",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Togi Makabe",
+      "people": [
+        "togi-makabe"
+      ],
+      "start": "2015-01-04",
+      "end": "2015-02-14",
+      "days": 41,
+      "number": 6,
+      "event": "Wrestle Kingdom 9 in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Tomohiro Ishii",
+      "people": [
+        "tomohiro-ishii"
+      ],
+      "start": "2015-02-14",
+      "end": "2015-04-29",
+      "days": 74,
+      "number": 7,
+      "event": "The New Beginning in Sendai",
+      "location": "Sendai, Japan",
+      "note": "Beat Tomoaki Honma for the vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Togi Makabe",
+      "people": [
+        "togi-makabe"
+      ],
+      "start": "2015-04-29",
+      "end": "2015-10-12",
+      "days": 166,
+      "number": 8,
+      "event": "Wrestling Hinokuni",
+      "location": "Mashiki, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Tomohiro Ishii",
+      "people": [
+        "tomohiro-ishii"
+      ],
+      "start": "2015-10-12",
+      "end": "2016-01-04",
+      "days": 84,
+      "number": 9,
+      "event": "King of Pro-Wrestling",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Katsuyori Shibata",
+      "people": [
+        "katsuyori-shibata"
+      ],
+      "start": "2016-01-04",
+      "end": "2016-05-03",
+      "days": 120,
+      "number": 10,
+      "event": "Wrestle Kingdom 10 in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Yuji Nagata",
+      "people": [
+        "yuji-nagata"
+      ],
+      "start": "2016-05-03",
+      "end": "2016-06-19",
+      "days": 47,
+      "number": 11,
+      "event": "Wrestling Dontaku",
+      "location": "Fukuoka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Katsuyori Shibata",
+      "people": [
+        "katsuyori-shibata"
+      ],
+      "start": "2016-06-19",
+      "end": "2016-11-05",
+      "days": 139,
+      "number": 12,
+      "event": "Dominion 6.19 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r1",
-      "holder": "EVIL",
+      "holder": "Evil",
       "people": [
         "naraku"
       ],
       "start": "2016-11-05",
       "end": "2016-11-15",
+      "days": 10,
+      "number": 13,
+      "event": "Power Struggle",
+      "location": "Osaka, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/never-openweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/never-openweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-naraku-472"
       ]
     },
     {
+      "id": "r21",
+      "holder": "Katsuyori Shibata",
+      "people": [
+        "katsuyori-shibata"
+      ],
+      "start": "2016-11-15",
+      "end": "2017-01-04",
+      "days": 50,
+      "number": 14,
+      "event": "Wrestling World 2016 in Singapore",
+      "location": "Singapore",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Hirooki Goto",
+      "people": [
+        "hirooki-goto"
+      ],
+      "start": "2017-01-04",
+      "end": "2017-04-27",
+      "days": 113,
+      "number": 15,
+      "event": "Wrestle Kingdom 11 in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Minoru Suzuki",
+      "people": [
+        "minoru-suzuki"
+      ],
+      "start": "2017-04-27",
+      "end": "2018-01-04",
+      "days": 252,
+      "number": 16,
+      "event": "Road to Wrestling Dontaku 2017: Aki no Kuni Sengoku Emaki",
+      "location": "Hiroshima, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Hirooki Goto",
+      "people": [
+        "hirooki-goto"
+      ],
+      "start": "2018-01-04",
+      "end": "2018-06-09",
+      "days": 156,
+      "number": 17,
+      "event": "Wrestle Kingdom 12 in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "note": "Hair vs. hair match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Michael Elgin",
+      "people": [
+        "michael-elgin"
+      ],
+      "start": "2018-06-09",
+      "end": "2018-06-17",
+      "days": 8,
+      "number": 18,
+      "event": "Dominion 6.9 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "note": "Three-way match that included Taichi",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Hirooki Goto",
+      "people": [
+        "hirooki-goto"
+      ],
+      "start": "2018-06-17",
+      "end": "2018-09-17",
+      "days": 92,
+      "number": 19,
+      "event": "Kizuna Road 2018",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Taichi",
+      "people": [
+        "taichi"
+      ],
+      "start": "2018-09-17",
+      "end": "2018-11-03",
+      "days": 47,
+      "number": 20,
+      "event": "Destruction in Beppu",
+      "location": "Beppu, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Hirooki Goto",
+      "people": [
+        "hirooki-goto"
+      ],
+      "start": "2018-11-03",
+      "end": "2018-12-09",
+      "days": 36,
+      "number": 21,
+      "event": "Power Struggle",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "Kota Ibushi",
+      "people": [
+        "kota-ibushi"
+      ],
+      "start": "2018-12-09",
+      "end": "2019-01-04",
+      "days": 26,
+      "number": 22,
+      "event": "World Tag League",
+      "location": "Iwate, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Will Ospreay",
+      "people": [
+        "will-ospreay"
+      ],
+      "start": "2019-01-04",
+      "end": "2019-04-06",
+      "days": 92,
+      "number": 23,
+      "event": "Wrestle Kingdom 13 in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "note": "Only junior heavyweight to win the title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "Jeff Cobb",
+      "people": [
+        "jeff-cobb"
+      ],
+      "start": "2019-04-06",
+      "end": "2019-05-03",
+      "days": 27,
+      "number": 24,
+      "event": "G1 Supercard",
+      "location": "New York City, U.S.",
+      "note": "ROH World Television Championship also on the line",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Taichi",
+      "people": [
+        "taichi"
+      ],
+      "start": "2019-05-03",
+      "end": "2019-06-09",
+      "days": 37,
+      "number": 25,
+      "event": "Wrestling Dontaku",
+      "location": "Fukuoka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Tomohiro Ishii",
+      "people": [
+        "tomohiro-ishii"
+      ],
+      "start": "2019-06-09",
+      "end": "2019-08-31",
+      "days": 83,
+      "number": 26,
+      "event": "Dominion 6.9 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Kenta",
+      "people": [
+        "hideo-itami"
+      ],
+      "start": "2019-08-31",
+      "end": "2020-01-05",
+      "days": 127,
+      "number": 27,
+      "event": "Royal Quest",
+      "location": "London, England",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "Hirooki Goto",
+      "people": [
+        "hirooki-goto"
+      ],
+      "start": "2020-01-05",
+      "end": "2020-02-01",
+      "days": 27,
+      "number": 28,
+      "event": "Wrestle Kingdom 14 in Tokyo Dome Night 2",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "Shingo Takagi",
+      "people": [
+        "shingo-takagi"
+      ],
+      "start": "2020-02-01",
+      "end": "2020-08-29",
+      "days": 210,
+      "number": 29,
+      "event": "The New Beginning in Sapporo",
+      "location": "Sapporo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "Minoru Suzuki",
+      "people": [
+        "minoru-suzuki"
+      ],
+      "start": "2020-08-29",
+      "end": "2020-11-07",
+      "days": 70,
+      "number": 30,
+      "event": "Summer Struggle in Jingu",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r38",
+      "holder": "Shingo Takagi",
+      "people": [
+        "shingo-takagi"
+      ],
+      "start": "2020-11-07",
+      "end": "2021-01-30",
+      "days": 84,
+      "number": 31,
+      "event": "Power Struggle",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "Hiroshi Tanahashi",
+      "people": [
+        "hiroshi-tanahashi"
+      ],
+      "start": "2021-01-30",
+      "end": "2021-05-03",
+      "days": 93,
+      "number": 32,
+      "event": "The New Beginning in Nagoya",
+      "location": "Nagoya, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "Jay White",
+      "people": [
+        "jay-white"
+      ],
+      "start": "2021-05-03",
+      "end": "2021-11-13",
+      "days": 194,
+      "number": 33,
+      "event": "Wrestling Dontaku",
+      "location": "Fukuoka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "Tomohiro Ishii",
+      "people": [
+        "tomohiro-ishii"
+      ],
+      "start": "2021-11-13",
+      "end": "2022-01-04",
+      "days": 52,
+      "number": 34,
+      "event": "Battle in the Valley",
+      "location": "San Jose, California, U.S.",
+      "note": "A loss would have barred future challenges",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r2",
-      "holder": "EVIL",
+      "holder": "Evil",
       "people": [
         "naraku"
       ],
       "start": "2022-01-04",
       "end": "2022-05-01",
+      "days": 117,
+      "number": 35,
+      "event": "Wrestle Kingdom 16 Night 1",
+      "location": "Tokyo, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/never-openweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/never-openweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-naraku-462"
@@ -46,13 +638,35 @@
       ],
       "start": "2022-05-01",
       "end": "2022-06-12",
+      "days": 42,
+      "number": 36,
+      "event": "Wrestling Dontaku",
+      "location": "Fukuoka, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/never-openweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/never-openweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-tama-tonga-791"
       ]
+    },
+    {
+      "id": "r42",
+      "holder": "Karl Anderson",
+      "people": [
+        "karl-anderson"
+      ],
+      "start": "2022-06-12",
+      "end": "2023-01-04",
+      "days": 206,
+      "number": 37,
+      "event": "Dominion 6.12 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r4",
@@ -62,13 +676,35 @@
       ],
       "start": "2023-01-04",
       "end": "2023-05-03",
+      "days": 119,
+      "number": 38,
+      "event": "Wrestle Kingdom 17",
+      "location": "Tokyo, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/never-openweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/never-openweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-tama-tonga-790"
       ]
+    },
+    {
+      "id": "r43",
+      "holder": "David Finlay",
+      "people": [
+        "david-finlay"
+      ],
+      "start": "2023-05-03",
+      "end": "2023-10-09",
+      "days": 159,
+      "number": 39,
+      "event": "Wrestling Dontaku",
+      "location": "Fukuoka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r5",
@@ -78,13 +714,35 @@
       ],
       "start": "2023-10-09",
       "end": "2023-10-28",
+      "days": 19,
+      "number": 40,
+      "event": "Destruction in Ryōgoku",
+      "location": "Tokyo, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/never-openweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/never-openweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-tama-tonga-789"
       ]
+    },
+    {
+      "id": "r44",
+      "holder": "Shingo Takagi",
+      "people": [
+        "shingo-takagi"
+      ],
+      "start": "2023-10-28",
+      "end": "2024-01-04",
+      "days": 68,
+      "number": 41,
+      "event": "Fighting Spirit Unleashed",
+      "location": "Las Vegas, Nevada, U.S.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r6",
@@ -94,9 +752,14 @@
       ],
       "start": "2024-01-04",
       "end": "2024-01-20",
+      "days": 16,
+      "number": 42,
+      "event": "Wrestle Kingdom 18",
+      "location": "Tokyo, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/never-openweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/never-openweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-tama-tonga-788"
@@ -104,35 +767,183 @@
     },
     {
       "id": "r7",
-      "holder": "EVIL",
+      "holder": "Evil",
       "people": [
         "naraku"
       ],
       "start": "2024-01-20",
       "end": "2024-04-06",
+      "days": 77,
+      "number": 43,
+      "event": "The New Beginning in Nagoya",
+      "location": "Nagoya, Japan",
+      "note": "Lumberjack match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/never-openweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/never-openweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-naraku-460"
       ]
     },
     {
+      "id": "r45",
+      "holder": "Shingo Takagi",
+      "people": [
+        "shingo-takagi"
+      ],
+      "start": "2024-04-06",
+      "end": "2024-06-16",
+      "days": 71,
+      "number": 44,
+      "event": "Sakura Genesis",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "Henare",
+      "people": [
+        "henare"
+      ],
+      "start": "2024-06-16",
+      "end": "2024-09-29",
+      "days": 105,
+      "number": 45,
+      "event": "New Japan Soul Night 1",
+      "location": "Sapporo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "Shingo Takagi",
+      "people": [
+        "shingo-takagi"
+      ],
+      "start": "2024-09-29",
+      "end": "2025-01-04",
+      "days": 97,
+      "number": 46,
+      "event": "Destruction in Kobe",
+      "location": "Kobe, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "Konosuke Takeshita",
+      "people": [
+        "konosuke-takeshita"
+      ],
+      "start": "2025-01-04",
+      "end": "2025-06-15",
+      "days": 162,
+      "number": 47,
+      "event": "Wrestle Kingdom 19",
+      "location": "Tokyo, Japan",
+      "note": "Winner-takes-all match; AEW International Championship also at stake",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r49",
+      "holder": "Boltin Oleg",
+      "people": [
+        "oleg-boltin"
+      ],
+      "start": "2025-06-15",
+      "end": "2025-10-13",
+      "days": 120,
+      "number": 48,
+      "event": "Dominion 6.15 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r8",
-      "holder": "EVIL",
+      "holder": "Evil",
       "people": [
         "naraku"
       ],
       "start": "2025-10-13",
       "end": "2026-01-04",
+      "days": 83,
+      "number": 49,
+      "event": "King of Pro-Wrestling",
+      "location": "Tokyo, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/never-openweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/never-openweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-naraku-459"
       ]
+    },
+    {
+      "id": "r50",
+      "holder": "Aaron Wolf",
+      "people": [
+        "aaron-wolf"
+      ],
+      "start": "2026-01-04",
+      "end": "2026-02-11",
+      "days": 38,
+      "number": 50,
+      "event": "Wrestle Kingdom 20",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r51",
+      "holder": "Ren Narita",
+      "people": [
+        "ren-narita"
+      ],
+      "start": "2026-02-11",
+      "end": "2026-06-14",
+      "days": 113,
+      "number": 51,
+      "event": "The New Beginning in Osaka",
+      "location": "Osaka, Japan",
+      "dateNote": "The source prints 113 days; its dates give 123.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "Aaron Wolf",
+      "people": [
+        "aaron-wolf"
+      ],
+      "start": "2026-06-14",
+      "days": 9,
+      "number": 52,
+      "event": "Dominion 6.14 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NEVER_Openweight_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

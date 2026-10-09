@@ -1,11 +1,100 @@
 {
   "id": "strong-openweight-championship",
   "name": "Strong Openweight Championship",
-  "names": [
-    "Strong Openweight Championship"
+  "promotion": "njpw",
+  "division": "men",
+  "format": "singles",
+  "established": "2021-04-02",
+  "names": [],
+  "eras": [
+    {
+      "name": "Strong Openweight Championship",
+      "from": "2021-04-02"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "2023",
+      "kind": "unified-into",
+      "text": "Eddie Kingston won the AEW Continental Classic final at Worlds End, holding all three titles and forming the American Triple Crown (Continental Crown). The exact event date is UNKNOWN.",
+      "related": [
+        "AEW Continental Championship",
+        "ROH World Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Strong_Openweight_Championship"
+      ]
+    },
+    {
+      "date": "2024-03-20",
+      "kind": "split",
+      "text": "Kingston lost the AEW Continental Championship to Kazuchika Okada on AEW Dynamite, dissolving the Triple Crown.",
+      "related": [
+        "AEW Continental Championship",
+        "ROH World Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Strong_Openweight_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Strong_Openweight_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r2",
+      "holder": "Tom Lawlor",
+      "people": [
+        "tom-lawlor"
+      ],
+      "start": "2021-04-23",
+      "end": "2022-05-15",
+      "number": 1,
+      "event": "New Japan Cup USA 2021",
+      "location": "Port Hueneme, CA",
+      "note": "Won 16-man tournament final over Brody King; aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Strong_Openweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Fred Rosser",
+      "people": [
+        "darren-young"
+      ],
+      "start": "2022-05-15",
+      "end": "2023-02-18",
+      "days": 279,
+      "number": 2,
+      "event": "Strong: Collision in Philadelphia",
+      "location": "Philadelphia, PA",
+      "note": "Aired on tape delay June 25 2022",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Strong_Openweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Kenta",
+      "people": [
+        "hideo-itami"
+      ],
+      "start": "2023-02-18",
+      "end": "2023-05-03",
+      "days": 74,
+      "number": 3,
+      "event": "Battle in the Valley",
+      "location": "San Jose, CA",
+      "note": "No notes on page",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Strong_Openweight_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Hikuleo",
@@ -14,13 +103,108 @@
       ],
       "start": "2023-05-03",
       "end": "2023-05-21",
+      "days": 18,
+      "number": 4,
+      "event": "Wrestling Dontaku",
+      "location": "Fukuoka, Japan",
+      "note": "No notes on page",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/strong-openweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/strong-openweight-championship",
+        "https://en.wikipedia.org/wiki/Strong_Openweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-talla-tonga-786"
       ]
+    },
+    {
+      "id": "r5",
+      "holder": "Kenta",
+      "people": [
+        "hideo-itami"
+      ],
+      "start": "2023-05-21",
+      "end": "2023-07-05",
+      "days": 45,
+      "number": 5,
+      "event": "Resurgence",
+      "location": "Long Beach, CA",
+      "note": "Title changed hands via countout",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Strong_Openweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Eddie Kingston",
+      "people": [
+        "eddie-kingston"
+      ],
+      "start": "2023-07-05",
+      "end": "2024-05-11",
+      "days": 311,
+      "number": 6,
+      "event": "Independence Day Night 2",
+      "location": "Tokyo, Japan",
+      "note": "Part of Triple Crown until he lost the AEW title in March 2024",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Strong_Openweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Gabe Kidd",
+      "people": [
+        "gabe-kidd"
+      ],
+      "start": "2024-05-11",
+      "end": "2025-04-11",
+      "days": 335,
+      "number": 7,
+      "event": "Resurgence",
+      "location": "Ontario, CA",
+      "note": "No Ropes Last Man Standing match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Strong_Openweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Tomohiro Ishii",
+      "people": [
+        "tomohiro-ishii"
+      ],
+      "start": "2025-04-11",
+      "end": "2026-02-27",
+      "days": 322,
+      "number": 8,
+      "event": "Windy City Riot",
+      "location": "Chicago, IL",
+      "note": "30-minute iron man match won 2-1 in sudden death",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Strong_Openweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Boltin Oleg",
+      "people": [
+        "oleg-boltin"
+      ],
+      "start": "2026-02-27",
+      "days": 209,
+      "number": 9,
+      "event": "The New Beginning USA",
+      "location": "Trenton, NJ",
+      "note": "Current champion; reign ongoing",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Strong_Openweight_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

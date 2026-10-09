@@ -1,26 +1,449 @@
 {
   "id": "roh-world-six-man-tag-team-championship",
   "name": "ROH World Six-Man Tag Team Championship",
+  "promotion": "roh",
+  "division": "men",
+  "format": "trios",
+  "established": "2016-12-02",
   "names": [
-    "ROH World Six-Man Tag Team Championship"
+    "Unified World Trios Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "ROH World Six-Man Tag Team Championship",
+      "from": "2016-12-02",
+      "to": "2024-04-21"
+    },
+    {
+      "name": "Unified World Trios Championship",
+      "from": "2024-04-21"
+    }
+  ],
+  "history": [
+    {
+      "date": "2024-04-21",
+      "kind": "unified-into",
+      "text": "Bullet Club Gold beat The Acclaimed at AEW Dynasty: Zero Hour in a winner-takes-all match, unifying the two titles.",
+      "related": [
+        "AEW World Trios Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ROH_World_Six-Man_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2024-07-10",
+      "kind": "split",
+      "text": "Bullet Club Gold were stripped of the unified titles on July 10, 2024, ending the unification and separating the two titles.",
+      "related": [
+        "AEW World Trios Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ROH_World_Six-Man_Tag_Team_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions",
+    "https://en.wikipedia.org/wiki/ROH_World_Six-Man_Tag_Team_Championship"
+  ],
   "reigns": [
     {
-      "id": "r1",
-      "holder": "Cody & Matt Jackson & Nick Jackson",
+      "id": "r2",
+      "holder": "The Kingdom",
       "people": [
-        "cody-rhodes"
+        "matt-taven",
+        "t-k-oryan",
+        "vinny-marseglia"
+      ],
+      "start": "2016-12-02",
+      "end": "2017-03-11",
+      "days": 99,
+      "number": 1,
+      "event": "Final Battle",
+      "location": "New York City, NY",
+      "note": "Won an eight-team tournament to become inaugural champions",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Bully Ray and The Briscoe Brothers",
+      "people": [
+        "bubba-ray-dudley",
+        "jay-briscoe",
+        "mark-briscoe"
+      ],
+      "start": "2017-03-11",
+      "end": "2017-06-23",
+      "days": 104,
+      "number": 2,
+      "event": "Ring of Honor Wrestling",
+      "location": "Las Vegas, NV",
+      "note": "Silas Young substituted for injured T. K. O'Ryan; aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Dalton Castle and The Boys",
+      "people": [
+        "dalton-castle",
+        "boy-1",
+        "boy-2"
+      ],
+      "start": "2017-06-23",
+      "end": "2017-08-20",
+      "days": 58,
+      "number": 3,
+      "event": "Best in the World",
+      "location": "Lowell, MA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "The Hung Bucks",
+      "people": [
+        "hangman-adam-page",
+        "matt-jackson",
+        "nick-jackson"
+      ],
+      "start": "2017-08-20",
+      "end": "2018-03-09",
+      "days": 201,
+      "number": 4,
+      "event": "War of the Worlds UK",
+      "location": "Edinburgh, Scotland",
+      "note": "Other Bullet Club members defended under Bullet Club Rules",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "SoCal Uncensored",
+      "people": [
+        "christopher-daniels",
+        "frankie-kazarian",
+        "scorpio-sky"
+      ],
+      "start": "2018-03-09",
+      "end": "2018-05-09",
+      "days": 61,
+      "number": 5,
+      "event": "ROH 16th Anniversary Show",
+      "location": "Las Vegas, NV",
+      "note": "Las Vegas Street Fight match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "The Kingdom",
+      "people": [
+        "matt-taven",
+        "t-k-oryan",
+        "vinny-marseglia"
+      ],
+      "start": "2018-05-09",
+      "end": "2018-07-21",
+      "days": 73,
+      "number": 6,
+      "event": "War of the Worlds Tour",
+      "location": "Lowell, MA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r1",
+      "holder": "Bullet Club/The Elite",
+      "people": [
+        "cody-rhodes",
+        "matt-jackson",
+        "nick-jackson"
       ],
       "start": "2018-07-21",
       "end": "2018-11-04",
+      "days": 106,
+      "number": 7,
+      "event": "Ring of Honor Wrestling",
+      "location": "Atlanta, GA",
+      "note": "Cody and The Young Bucks later split from Bullet Club to form The Elite",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-six-man-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-six-man-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-cody-rhodes-121"
       ]
+    },
+    {
+      "id": "r8",
+      "holder": "The Kingdom",
+      "people": [
+        "matt-taven",
+        "t-k-oryan",
+        "vinny-marseglia"
+      ],
+      "start": "2018-11-04",
+      "end": "2019-03-16",
+      "days": 132,
+      "number": 8,
+      "event": "Survival of the Fittest",
+      "location": "Columbus, OH",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Villain Enterprises",
+      "people": [
+        "brody-king",
+        "marty-scurll",
+        "pierre-ouellette"
+      ],
+      "start": "2019-03-16",
+      "end": "2020-01-11",
+      "days": 301,
+      "number": 9,
+      "event": "Ring of Honor Wrestling",
+      "location": "Sunrise Manor, NV",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "MexiSquad",
+      "people": [
+        "bandido",
+        "flamita",
+        "rey-horus"
+      ],
+      "start": "2020-01-11",
+      "end": "2021-02-19",
+      "days": 405,
+      "number": 10,
+      "event": "Saturday Night at Center Stage",
+      "location": "Atlanta, GA",
+      "note": "Flip Gordon wrestled in place of PCO in the match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Shane Taylor Promotions",
+      "people": [
+        "moses",
+        "bishop-kaun",
+        "shane-taylor"
+      ],
+      "start": "2021-02-19",
+      "end": "2021-12-11",
+      "days": 295,
+      "number": 11,
+      "event": "Ring of Honor Wrestling",
+      "location": "Baltimore, MD",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "The Righteous",
+      "people": [
+        "bateman",
+        "dutch",
+        "vincent"
+      ],
+      "start": "2021-12-11",
+      "end": "2022-07-23",
+      "days": 224,
+      "number": 12,
+      "event": "Final Battle",
+      "location": "Baltimore, MD",
+      "note": "Vincent was formerly Vinny Marseglia; O'Shay Edwards filled in for Shane Taylor",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Dalton Castle and The Boys",
+      "people": [
+        "brandon-tate",
+        "brent-tate"
+      ],
+      "start": "2022-07-23",
+      "end": "2022-12-10",
+      "days": 140,
+      "number": 13,
+      "event": "Death Before Dishonor",
+      "location": "Lowell, MA",
+      "note": "Brandon and Brent were formerly Boy 1 and Boy 2",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "The Embassy/Mogul Embassy",
+      "people": [
+        "brian-cage",
+        "bishop-kaun",
+        "toa-liona"
+      ],
+      "start": "2022-12-10",
+      "end": "2023-09-20",
+      "days": 284,
+      "number": 14,
+      "event": "Final Battle",
+      "location": "Arlington, TX",
+      "note": "Renamed Mogul Embassy after Swerve Strickland joined",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "The Elite",
+      "people": [
+        "hangman-adam-page",
+        "matt-jackson",
+        "nick-jackson"
+      ],
+      "start": "2023-09-20",
+      "end": "2023-11-01",
+      "days": 42,
+      "number": 15,
+      "event": "Rampage: Grand Slam",
+      "location": "Flushing, Queens, NY",
+      "note": "AEW event; previously held as The Hung Bucks; aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Mogul Embassy",
+      "people": [
+        "brian-cage",
+        "bishop-kaun",
+        "toa-liona"
+      ],
+      "start": "2023-11-01",
+      "end": "2024-01-17",
+      "days": 77,
+      "number": 16,
+      "event": "Dynamite",
+      "location": "Louisville, KY",
+      "note": "AEW event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Bullet Club Gold/Bang Bang Gang",
+      "people": [
+        "jay-white",
+        "austin-gunn",
+        "colten-gunn"
+      ],
+      "start": "2024-01-17",
+      "end": "2024-07-10",
+      "days": 175,
+      "number": 17,
+      "event": "Dynamite",
+      "location": "North Charleston, SC",
+      "note": "AEW event; unified with AEW World Trios Title at Dynasty; renamed Bang Bang Gang",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Sons of Texas",
+      "people": [
+        "dustin-rhodes",
+        "marshall-von-erich",
+        "ross-von-erich"
+      ],
+      "start": "2024-07-27",
+      "end": "2025-08-28",
+      "days": 398,
+      "number": 18,
+      "event": "Battle of the Belts XI",
+      "location": "Arlington, TX",
+      "note": "AEW event; beat The Undisputed Kingdom for the vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Shane Taylor Promotions",
+      "people": [
+        "shane-taylor",
+        "carlie-bravo",
+        "capt-shawn-dean"
+      ],
+      "start": "2025-08-29",
+      "end": "2026-05-15",
+      "days": 259,
+      "number": 19,
+      "event": "Death Before Dishonor",
+      "location": "Philadelphia, PA",
+      "note": "Beat Sons of Texas for the vacant titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Dalton Castle and The Outrunners",
+      "people": [
+        "truth-magnum",
+        "turbo-floyd"
+      ],
+      "start": "2026-05-15",
+      "days": 26,
+      "number": 20,
+      "event": "Supercard of Honor",
+      "location": "Salisbury, MD",
+      "note": "Open challenge win; current champions",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Six-Man_Tag_Team_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

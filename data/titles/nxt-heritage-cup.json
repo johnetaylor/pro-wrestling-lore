@@ -1,11 +1,238 @@
 {
   "id": "nxt-heritage-cup",
   "name": "NXT Heritage Cup",
+  "promotion": "wwe",
+  "division": "men",
+  "format": "singles",
+  "established": "2020-09-10",
+  "retired": "2025-07-12",
   "names": [
-    "NXT Heritage Cup"
+    "NXT UK Heritage Cup",
+    "NXT UK/NXT Heritage Cup"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "NXT UK Heritage Cup",
+      "from": "2020-09-10",
+      "to": "2023-04-18"
+    },
+    {
+      "name": "NXT Heritage Cup",
+      "from": "2023-04-18"
+    }
+  ],
+  "history": [
+    {
+      "date": "2020-09-10",
+      "kind": "brand",
+      "text": "- | Title created as a secondary NXT UK championship when the brand relaunched after a COVID-19 production hiatus.",
+      "related": [
+        "NXT UK"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
+      ]
+    },
+    {
+      "date": "2022-08",
+      "kind": "brand",
+      "text": "- | WWE announced NXT UK would go on hiatus after Worlds Collide, with the brand to relaunch as NXT Europe at a later date.",
+      "related": [
+        "NXT UK",
+        "NXT Europe"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
+      ]
+    },
+    {
+      "date": "2022-09-04",
+      "kind": "unified-into",
+      "text": "- | Other NXT UK titles were unified into their NXT counterparts at Worlds Collide; the Heritage Cup was the only title not contested there.",
+      "related": [
+        "other NXT UK championships",
+        "NXT championships"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
+      ]
+    },
+    {
+      "date": "2022-08-25",
+      "kind": "recognition",
+      "text": "WWE recognizes Noam Dar's second reign as lasting 292 days due to tape delay, not the 341 days shown on the broadcast timeline.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
+      ]
+    },
+    {
+      "date": "2023-04-04",
+      "kind": "brand",
+      "text": "- | Title was transferred from NXT UK to NXT when Dar appeared with it on NXT.",
+      "related": [
+        "NXT UK",
+        "NXT"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
+      ]
+    },
+    {
+      "date": "2023-04-04",
+      "kind": "reactivated",
+      "text": "- | Title returned after months of inactivity when Dar appeared with it on NXT and said he would defend it whenever he wanted.",
+      "related": [
+        "NXT"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
+      ]
+    },
+    {
+      "date": "2023-04-18",
+      "kind": "recognition",
+      "text": "- | WWE officially renamed the title NXT Heritage Cup.",
+      "related": [
+        "NXT UK Heritage Cup",
+        "NXT Heritage Cup"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
+      ]
+    },
+    {
+      "date": "2025-06-21",
+      "kind": "interim",
+      "text": "Noam Dar vacated the title due to injury, and an interim champion was set to be crowned, with Channing \"Stacks\" Lorenzo winning it on June 24, 2025.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
+      ]
+    },
+    {
+      "date": "2025-07-12",
+      "kind": "deactivated",
+      "text": "Tony D'Angelo stole the Cup and threw it off a bridge during The Great American Bash, after which it was not seen on TV again; WWE.com kept listing it as active.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
+      ]
+    },
+    {
+      "date": "2026-06-03",
+      "kind": "retired",
+      "text": "WWE updated its website to list the title as retired, ending Lorenzo's reign and dating the official retirement to July 12, 2025.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
+  ],
   "reigns": [
+    {
+      "id": "r7",
+      "holder": "A-Kid",
+      "people": [
+        "axiom"
+      ],
+      "start": "2020-11-26",
+      "end": "2021-05-20",
+      "number": 1,
+      "event": "NXT UK",
+      "location": "London, England",
+      "note": "Won tournament final 2–1 over Trent Seven; WWE dates reign from tape delay to 2021-05-20",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-heritage-cup",
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
+      ],
+      "legacyIds": [
+        "profile-reign-axiom-46"
+      ]
+    },
+    {
+      "id": "r8",
+      "holder": "Tyler Bate",
+      "people": [
+        "tyler-bate"
+      ],
+      "start": "2021-05-20",
+      "end": "2021-10-06",
+      "number": 2,
+      "event": "NXT UK",
+      "location": "London, England",
+      "note": "Won 1–0; WWE dates reign from tape delay to 2021-10-28",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-heritage-cup",
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
+      ],
+      "legacyIds": [
+        "profile-reign-bravo-americano-57"
+      ]
+    },
+    {
+      "id": "r9",
+      "holder": "Noam Dar",
+      "people": [
+        "noam-dar"
+      ],
+      "start": "2021-10-28",
+      "end": "2022-06-23",
+      "days": 260,
+      "number": 3,
+      "event": "NXT UK",
+      "location": "London, England",
+      "note": "Won 2–1 after Trent Seven accidentally threw in towel; WWE dates reign from 2021-10-28",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-heritage-cup",
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
+      ],
+      "legacyIds": [
+        "profile-reign-noam-dar-494"
+      ]
+    },
+    {
+      "id": "r10",
+      "holder": "Mark Coffey",
+      "people": [
+        "mark-coffey"
+      ],
+      "start": "2022-06-23",
+      "end": "2022-07-07",
+      "days": 14,
+      "number": 4,
+      "event": "NXT UK",
+      "location": "London, England",
+      "note": "Won 2–1; Sha Samuels banned from ringside; WWE dates reign from 2022-07-14",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Noam Dar",
+      "people": [
+        "noam-dar"
+      ],
+      "start": "2022-08-25",
+      "end": "2023-06-13",
+      "days": 341,
+      "number": 5,
+      "event": "NXT UK",
+      "location": "London, England",
+      "note": "Won 2–1; WWE dates reign from 2022-08-25 tape delay",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-heritage-cup",
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
+      ],
+      "legacyIds": [
+        "profile-reign-noam-dar-493"
+      ]
+    },
     {
       "id": "r1",
       "holder": "Nathan Frazer",
@@ -14,12 +241,40 @@
       ],
       "start": "2023-06-13",
       "end": "2023-08-22",
+      "days": 70,
+      "number": 6,
+      "event": "NXT",
+      "location": "Orlando, FL",
+      "note": "Defeated Oro Mensah 2–1 defending on behalf of injured Noam Dar",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-heritage-cup"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-heritage-cup",
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
       ],
       "legacyIds": [
         "profile-reign-nathan-frazer-475"
+      ]
+    },
+    {
+      "id": "r12",
+      "holder": "Noam Dar",
+      "people": [
+        "noam-dar"
+      ],
+      "start": "2023-08-22",
+      "end": "2024-02-27",
+      "days": 189,
+      "number": 7,
+      "event": "NXT: Heatwave",
+      "location": "Orlando, FL",
+      "note": "Won 2–1",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-heritage-cup",
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
+      ],
+      "legacyIds": [
+        "profile-reign-noam-dar-492"
       ]
     },
     {
@@ -30,9 +285,15 @@
       ],
       "start": "2024-02-27",
       "end": "2024-05-14",
+      "days": 77,
+      "number": 8,
+      "event": "NXT",
+      "location": "Orlando, FL",
+      "note": "Won 2–1; Catch Clause announced; invoked 2024-03-19",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-heritage-cup"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-heritage-cup",
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
       ],
       "legacyIds": [
         "profile-reign-charlie-dempsey-84"
@@ -46,9 +307,15 @@
       ],
       "start": "2024-05-14",
       "end": "2024-08-13",
+      "days": 91,
+      "number": 9,
+      "event": "NXT",
+      "location": "Orlando, FL",
+      "note": "Won 2–1",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-heritage-cup"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-heritage-cup",
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
       ],
       "legacyIds": [
         "profile-reign-tony-d-angelo-835"
@@ -61,10 +328,16 @@
         "charlie-dempsey"
       ],
       "start": "2024-08-13",
-      "end": "2024-12-24",
+      "end": "2024-12-17",
+      "days": 126,
+      "number": 10,
+      "event": "NXT",
+      "location": "Orlando, FL",
+      "note": "Won 2–1; WWE dates reign end to 2024-12-24 tape delay",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-heritage-cup"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-heritage-cup",
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
       ],
       "legacyIds": [
         "profile-reign-charlie-dempsey-83"
@@ -78,12 +351,40 @@
       ],
       "start": "2024-12-24",
       "end": "2025-04-22",
+      "days": 126,
+      "number": 11,
+      "event": "NXT",
+      "location": "Lowell, MA",
+      "note": "Won by disqualification; WWE dates reign from 2024-12-24; confirmed at New Year's Evil 2025-01-07",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-heritage-cup"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-heritage-cup",
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
       ],
       "legacyIds": [
         "profile-reign-lexis-king-418"
+      ]
+    },
+    {
+      "id": "r13",
+      "holder": "Noam Dar",
+      "people": [
+        "noam-dar"
+      ],
+      "start": "2025-04-22",
+      "end": "2025-06-21",
+      "days": 60,
+      "number": 12,
+      "event": "NXT",
+      "location": "Paradise, NV",
+      "note": "Not under British Rounds Rules; rules reinstated after win",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-heritage-cup",
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
+      ],
+      "legacyIds": [
+        "profile-reign-noam-dar-491"
       ]
     },
     {
@@ -94,9 +395,15 @@
       ],
       "start": "2025-06-24",
       "end": "2025-07-12",
+      "days": 18,
+      "number": 13,
+      "event": "NXT",
+      "location": "Orlando, FL",
+      "note": "Defeated Tony D'Angelo 2–1 to win vacant title",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-heritage-cup"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-heritage-cup",
+        "https://en.wikipedia.org/wiki/NXT_Heritage_Cup"
       ],
       "legacyIds": [
         "profile-reign-channing-stacks-lorenzo-80"

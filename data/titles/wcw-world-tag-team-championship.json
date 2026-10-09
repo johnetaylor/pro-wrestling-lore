@@ -1,61 +1,2752 @@
 {
   "id": "wcw-world-tag-team-championship",
-  "name": "WCW World Tag Team",
+  "name": "WCW World Tag Team Championship",
+  "promotion": "wcw",
+  "division": "men",
+  "format": "tag",
+  "established": "1975-01-29",
+  "retired": "2001-11-18",
   "names": [
     "WCW World Tag Team",
-    "WCW World Tag Team Championship"
+    "NWA World Tag Team Championship (Mid-Atlantic)",
+    "WCW/nWo World Tag Team Championship",
+    "WCW Tag Team Championship"
+  ],
+  "eras": [
+    {
+      "name": "NWA World Tag Team Championship (Mid-Atlantic)",
+      "from": "1975",
+      "to": "1991"
+    },
+    {
+      "name": "WCW World Tag Team Championship",
+      "from": "1991",
+      "to": "1998"
+    },
+    {
+      "name": "WCW/nWo World Tag Team Championship",
+      "from": "1998",
+      "to": "2001-03"
+    },
+    {
+      "name": "WCW Tag Team Championship",
+      "from": "2001-03"
+    }
+  ],
+  "history": [
+    {
+      "date": "1991",
+      "kind": "promotion",
+      "text": "Ted Turner bought Jim Crockett Promotions, which became World Championship Wrestling, and the title was renamed.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "1992",
+      "kind": "recognition",
+      "text": "The NWA recognized its own world tag team title for the first time after a tournament won by Terry Gordy and Steve Williams.",
+      "related": [
+        "NWA World Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "1993",
+      "kind": "split",
+      "text": "Both titles were defended together until WCW left the NWA in September 1993.",
+      "related": [
+        "NWA World Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2001-03",
+      "kind": "promotion",
+      "text": "The WWF purchased WCW, and the title became one of two WWF tag team titles, abbreviated to WCW Tag Team Championship.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2001",
+      "kind": "unified-into",
+      "text": "Kane and The Undertaker unified both titles in a steel cage match at SummerSlam, the first time they were unified.",
+      "related": [
+        "WWF Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2001-11-18",
+      "kind": "retired",
+      "text": "At Survivor Series, The Dudley Boyz beat The Hardy Boyz in a steel cage unification match, and the WCW Tag Team Championship was retired.",
+      "related": [
+        "WWF Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2008-01-17",
+      "kind": "recognition",
+      "text": "The NWA withdrew recognition of WCW World Tag Team Champions linked to the NWA World Tag Team Championship, stating their titles were formed in 1995.",
+      "related": [
+        "NWA World Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_World_Tag_Team_Championship"
+      ]
+    }
   ],
   "sources": [
-    "https://www.thesmackdownhotel.com/title-history/wcw/wcw-world-tag-team-championship"
+    "https://www.thesmackdownhotel.com/title-history/wcw/wcw-world-tag-team-championship",
+    "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions",
+    "https://en.wikipedia.org/wiki/WCW_World_Tag_Team_Championship"
   ],
   "reigns": [
     {
-      "id": "r1",
-      "holder": "Rey Mysterio Jr. & Kidman",
+      "id": "r4",
+      "holder": "Minnesota Wrecking Crew",
       "people": [
-        "rey-mysterio"
+        "gene-anderson",
+        "ole-anderson"
+      ],
+      "start": "1975-01-29",
+      "end": "1975-05-15",
+      "days": 106,
+      "number": 1,
+      "location": "Raleigh, North Carolina",
+      "note": "Named champions after a tournament; belts shown on TV the next week",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Paul Jones & Wahoo McDaniel",
+      "people": [
+        "paul-jones",
+        "wahoo-mcdaniel"
+      ],
+      "start": "1975-05-15",
+      "end": "1975-06-11",
+      "days": 27,
+      "number": 2,
+      "event": "House show",
+      "location": "Greensboro, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Minnesota Wrecking Crew",
+      "people": [
+        "gene-anderson",
+        "ole-anderson"
+      ],
+      "start": "1975-06-11",
+      "end": "1976-01-27",
+      "days": 230,
+      "number": 3,
+      "event": "TV Taping at WRAL-TV",
+      "location": "Raleigh, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Rufus R. Jones & Wahoo McDaniel",
+      "people": [
+        "rufus-r-jones",
+        "wahoo-mcdaniel"
+      ],
+      "start": "1976-01-27",
+      "end": "1976-02-03",
+      "days": 7,
+      "number": 4,
+      "event": "House show",
+      "location": "Columbia, South Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Minnesota Wrecking Crew",
+      "people": [
+        "gene-anderson",
+        "ole-anderson"
+      ],
+      "start": "1976-02-03",
+      "end": "1976-05-05",
+      "days": 92,
+      "number": 5,
+      "event": "House show",
+      "location": "Raleigh, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Dino Bravo & Mr. Wrestling",
+      "people": [
+        "dino-bravo",
+        "mr-wrestling"
+      ],
+      "start": "1976-05-05",
+      "end": "1976-06-28",
+      "days": 54,
+      "number": 6,
+      "event": "TV Taping At WRAL-TV",
+      "location": "Raleigh, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Minnesota Wrecking Crew",
+      "people": [
+        "gene-anderson",
+        "ole-anderson"
+      ],
+      "start": "1976-06-28",
+      "end": "1976-12-26",
+      "days": 181,
+      "number": 7,
+      "event": "House show",
+      "location": "Greenville, South Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Ric Flair & Greg Valentine",
+      "people": [
+        "ric-flair",
+        "greg-valentine"
+      ],
+      "start": "1976-12-26",
+      "end": "1977-05-08",
+      "days": 133,
+      "number": 8,
+      "event": "House show",
+      "location": "Greensboro, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Minnesota Wrecking Crew",
+      "people": [
+        "gene-anderson",
+        "ole-anderson"
+      ],
+      "start": "1977-05-08",
+      "end": "1977-09-23",
+      "days": 138,
+      "number": 9,
+      "event": "House show",
+      "location": "Charlotte, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Dusty Rhodes & Dick Slater",
+      "people": [
+        "dusty-rhodes",
+        "dick-slater"
+      ],
+      "start": "1977-09-23",
+      "end": "1977-10-14",
+      "days": 21,
+      "number": 10,
+      "event": "House show",
+      "location": "Atlanta, Georgia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Minnesota Wrecking Crew",
+      "people": [
+        "gene-anderson",
+        "ole-anderson"
+      ],
+      "start": "1977-10-14",
+      "end": "1977-10-30",
+      "days": 16,
+      "number": 11,
+      "event": "House show",
+      "location": "Atlanta, Georgia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Ric Flair & Greg Valentine",
+      "people": [
+        "ric-flair",
+        "greg-valentine"
+      ],
+      "start": "1977-10-30",
+      "end": "1978-03-10",
+      "days": 131,
+      "number": 12,
+      "event": "House show",
+      "location": "Greensboro, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Paul Jones & Ricky Steamboat",
+      "people": [
+        "paul-jones",
+        "ricky-steamboat"
+      ],
+      "start": "1978-04-23",
+      "end": "1978-06-07",
+      "days": 45,
+      "number": 13,
+      "event": "House show",
+      "location": "Greensboro, North Carolina",
+      "note": "Won tournament final over Masked Superstar and Ken Patera",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Baron Von Raschke & Greg Valentine",
+      "people": [
+        "baron-von-raschke",
+        "greg-valentine"
+      ],
+      "start": "1978-06-07",
+      "end": "1978-12-26",
+      "days": 202,
+      "number": 14,
+      "event": "House show",
+      "location": "Raleigh, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Paul Orndorff & Jimmy Snuka",
+      "people": [
+        "paul-orndorff",
+        "jimmy-snuka"
+      ],
+      "start": "1978-12-26",
+      "end": "1979-04-29",
+      "days": 123,
+      "number": 15,
+      "event": "House show",
+      "location": "Richmond, Virginia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Paul Jones & Baron Von Raschke",
+      "people": [
+        "paul-jones",
+        "baron-von-raschke"
+      ],
+      "start": "1979-04-29",
+      "end": "1979-08-08",
+      "days": 101,
+      "number": 16,
+      "event": "House show",
+      "location": "Wilmington, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Ric Flair & Blackjack Mulligan",
+      "people": [
+        "ric-flair",
+        "blackjack-mulligan"
+      ],
+      "start": "1979-08-08",
+      "end": "1979-08-22",
+      "days": 14,
+      "number": 17,
+      "event": "House show",
+      "location": "Raleigh, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Paul Jones & Baron Von Raschke",
+      "people": [
+        "paul-jones",
+        "baron-von-raschke"
+      ],
+      "start": "1979-08-22",
+      "end": "1979-10-24",
+      "days": 63,
+      "number": 18,
+      "event": "House show",
+      "location": "Raleigh, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Ricky Steamboat & Jay Youngblood",
+      "people": [
+        "ricky-steamboat",
+        "jay-youngblood"
+      ],
+      "start": "1979-10-24",
+      "end": "1980-03-29",
+      "days": 157,
+      "number": 19,
+      "event": "House show",
+      "location": "Raleigh, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Ray Stevens & Greg Valentine",
+      "people": [
+        "ray-stevens",
+        "greg-valentine"
+      ],
+      "start": "1980-03-29",
+      "end": "1980-05-10",
+      "days": 42,
+      "number": 20,
+      "event": "House show",
+      "location": "Charlotte, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Ricky Steamboat & Jay Youngblood",
+      "people": [
+        "ricky-steamboat",
+        "jay-youngblood"
+      ],
+      "start": "1980-05-10",
+      "end": "1980-06-22",
+      "days": 43,
+      "number": 21,
+      "event": "House show",
+      "location": "Greensboro, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Ray Stevens & Jimmy Snuka",
+      "people": [
+        "ray-stevens",
+        "jimmy-snuka"
+      ],
+      "start": "1980-06-22",
+      "end": "1980-11-27",
+      "days": 158,
+      "number": 22,
+      "event": "House show",
+      "location": "Greensboro, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Paul Jones & The Masked Superstar",
+      "people": [
+        "paul-jones",
+        "masked-superstar"
+      ],
+      "start": "1980-11-27",
+      "end": "1981-02-22",
+      "days": 87,
+      "number": 23,
+      "event": "House show",
+      "location": "Greensboro, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Ivan Koloff & Ray Stevens",
+      "people": [
+        "ivan-koloff",
+        "ray-stevens"
+      ],
+      "start": "1981-02-22",
+      "end": "1981-03-22",
+      "days": 28,
+      "number": 24,
+      "event": "House show",
+      "location": "Greensboro, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Paul Jones & The Masked Superstar",
+      "people": [
+        "paul-jones",
+        "masked-superstar"
+      ],
+      "start": "1981-03-22",
+      "end": "1981-05-01",
+      "days": 40,
+      "number": 25,
+      "event": "House show",
+      "location": "Greensboro, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "Minnesota Wrecking Crew",
+      "people": [
+        "gene-anderson",
+        "ole-anderson"
+      ],
+      "start": "1981-05-01",
+      "end": "1982-01-23",
+      "days": 267,
+      "number": 26,
+      "event": "House show",
+      "location": "Richmond, Virginia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Ole Anderson & Stan Hansen",
+      "people": [
+        "ole-anderson",
+        "stan-hansen"
+      ],
+      "start": "1982-06-26",
+      "end": "1982-08-22",
+      "days": 57,
+      "number": 27,
+      "event": "House show",
+      "location": "Atlanta, Georgia",
+      "note": "Kayfabe award after finalists split; Ole took belts to another promotion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "Don Kernodle & Sgt. Slaughter",
+      "people": [
+        "don-kernodle",
+        "sgt-slaughter"
+      ],
+      "start": "1982-09-12",
+      "end": "1983-03-12",
+      "days": 181,
+      "number": 28,
+      "event": "House show",
+      "note": "Won in a fictional tournament final; became undisputed after LA version was dropped",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Ricky Steamboat & Jay Youngblood",
+      "people": [
+        "ricky-steamboat",
+        "jay-youngblood"
+      ],
+      "start": "1983-03-12",
+      "end": "1983-06-18",
+      "days": 98,
+      "number": 29,
+      "event": "House show",
+      "location": "Greensboro, North Carolina",
+      "note": "The Final Conflict; loser would never tag together again",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Jack Brisco & Jerry Brisco",
+      "people": [
+        "jack-brisco",
+        "jerry-brisco"
+      ],
+      "start": "1983-06-18",
+      "end": "1983-10-03",
+      "days": 107,
+      "number": 30,
+      "event": "House show",
+      "location": "Greenville, South Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Ricky Steamboat & Jay Youngblood",
+      "people": [
+        "ricky-steamboat",
+        "jay-youngblood"
+      ],
+      "start": "1983-10-03",
+      "end": "1983-10-21",
+      "days": 18,
+      "number": 31,
+      "event": "House show",
+      "location": "Greenville, South Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "Jack Brisco & Jerry Brisco",
+      "people": [
+        "jack-brisco",
+        "jerry-brisco"
+      ],
+      "start": "1983-10-21",
+      "end": "1983-11-24",
+      "days": 34,
+      "number": 32,
+      "event": "House show",
+      "location": "Richmond, Virginia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "Ricky Steamboat & Jay Youngblood",
+      "people": [
+        "ricky-steamboat",
+        "jay-youngblood"
+      ],
+      "start": "1983-11-24",
+      "end": "1983-12-25",
+      "days": 31,
+      "number": 33,
+      "event": "Starrcade",
+      "location": "Greensboro, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "Don Kernodle & Bob Orton Jr.",
+      "people": [
+        "don-kernodle",
+        "bob-orton-jr"
+      ],
+      "start": "1984-01-08",
+      "end": "1984-03-04",
+      "days": 56,
+      "number": 34,
+      "event": "House show",
+      "location": "Charlotte, North Carolina",
+      "note": "Won tournament final over Jimmy Valiant and Dory Funk Jr.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r38",
+      "holder": "Wahoo McDaniel & Mark Youngblood",
+      "people": [
+        "wahoo-mcdaniel",
+        "mark-youngblood"
+      ],
+      "start": "1984-03-04",
+      "end": "1984-04-04",
+      "days": 31,
+      "number": 35,
+      "event": "House show",
+      "location": "Charlotte, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "Jack Brisco & Jerry Brisco",
+      "people": [
+        "jack-brisco",
+        "jerry-brisco"
+      ],
+      "start": "1984-04-04",
+      "end": "1984-05-05",
+      "days": 31,
+      "number": 36,
+      "event": "House show",
+      "location": "Spartanburg, South Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "Wahoo McDaniel & Mark Youngblood",
+      "people": [
+        "wahoo-mcdaniel",
+        "mark-youngblood"
+      ],
+      "start": "1984-05-05",
+      "end": "1984-05-08",
+      "days": 3,
+      "number": 37,
+      "event": "House show",
+      "location": "Greensboro, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "Don Kernodle & Ivan Koloff",
+      "people": [
+        "don-kernodle",
+        "ivan-koloff"
+      ],
+      "start": "1984-05-08",
+      "end": "1984-10-20",
+      "days": 165,
+      "number": 38,
+      "event": "House show",
+      "location": "Raleigh, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Manny Fernandez & Dusty Rhodes",
+      "people": [
+        "manny-fernandez",
+        "dusty-rhodes"
+      ],
+      "start": "1984-10-20",
+      "end": "1985-03-18",
+      "days": 149,
+      "number": 39,
+      "event": "House show",
+      "location": "Raleigh, North Carolina",
+      "note": "Steel cage match; Koloffs attacked Kernodle afterward",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "Russian Team",
+      "people": [
+        "ivan-koloff",
+        "nikita-koloff",
+        "barry-darsow"
+      ],
+      "start": "1985-03-18",
+      "end": "1985-07-09",
+      "days": 113,
+      "number": 40,
+      "event": "House show",
+      "location": "Fayetteville, North Carolina",
+      "note": "Krushchev joined the Koloffs; Freebird Rule allowed three-man defenses",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "Rock 'n' Roll Express",
+      "people": [
+        "robert-gibson",
+        "ricky-morton"
+      ],
+      "start": "1985-07-09",
+      "end": "1985-10-13",
+      "days": 96,
+      "number": 41,
+      "event": "House show",
+      "location": "Shelby, North Carolina",
+      "note": "Beat Ivan Koloff and Krusher Khrushchev",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "Russian Team",
+      "people": [
+        "ivan-koloff",
+        "nikita-koloff"
+      ],
+      "start": "1985-10-13",
+      "end": "1985-11-28",
+      "days": 46,
+      "number": 42,
+      "event": "House show",
+      "location": "Charlotte, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "Rock 'n' Roll Express",
+      "people": [
+        "robert-gibson",
+        "ricky-morton"
+      ],
+      "start": "1985-11-28",
+      "end": "1986-02-02",
+      "days": 66,
+      "number": 43,
+      "event": "Starrcade",
+      "location": "Greensboro, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "The Midnight Express",
+      "people": [
+        "dennis-condrey",
+        "bobby-eaton"
+      ],
+      "start": "1986-02-02",
+      "end": "1986-08-16",
+      "days": 195,
+      "number": 44,
+      "event": "Superstars on the Superstation",
+      "location": "Atlanta, Georgia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "Rock 'n' Roll Express",
+      "people": [
+        "robert-gibson",
+        "ricky-morton"
+      ],
+      "start": "1986-08-16",
+      "end": "1986-12-06",
+      "days": 112,
+      "number": 45,
+      "event": "House show",
+      "location": "Philadelphia, Pennsylvania",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r49",
+      "holder": "Manny Fernandez & Rick Rude",
+      "people": [
+        "manny-fernandez",
+        "rick-rude"
+      ],
+      "start": "1986-12-06",
+      "end": "1987-05-26",
+      "days": 171,
+      "number": 46,
+      "event": "World Championship Wrestling",
+      "location": "Atlanta, Georgia",
+      "note": "Change aired on tape delay that evening",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r50",
+      "holder": "Rock 'n' Roll Express",
+      "people": [
+        "robert-gibson",
+        "ricky-morton"
+      ],
+      "start": "1987-05-26",
+      "end": "1987-09-29",
+      "days": 126,
+      "number": 47,
+      "location": "Spokane, Washington",
+      "note": "Awarded in a phantom match; earlier match with Fernandez and Rude also shown",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r51",
+      "holder": "Arn Anderson & Tully Blanchard",
+      "people": [
+        "arn-anderson",
+        "tully-blanchard"
+      ],
+      "start": "1987-09-29",
+      "end": "1988-03-27",
+      "days": 180,
+      "number": 48,
+      "event": "Pro Wrestling",
+      "location": "Misenheimer, North Carolina",
+      "note": "No DQ match; Morton injured in pre-match attack and Gibson surrendered; tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "Lex Luger & Barry Windham",
+      "people": [
+        "lex-luger",
+        "barry-windham"
+      ],
+      "start": "1988-03-27",
+      "end": "1988-04-20",
+      "days": 24,
+      "number": 49,
+      "event": "Clash of the Champions I",
+      "location": "Greensboro, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r53",
+      "holder": "Arn Anderson & Tully Blanchard",
+      "people": [
+        "arn-anderson",
+        "tully-blanchard"
+      ],
+      "start": "1988-04-20",
+      "end": "1988-09-10",
+      "days": 143,
+      "number": 50,
+      "event": "World Championship Wrestling",
+      "location": "Jacksonville, Florida",
+      "note": "Windham turned on Luger and joined the Horsemen; tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r54",
+      "holder": "The Midnight Express",
+      "people": [
+        "bobby-eaton",
+        "stan-lane"
+      ],
+      "start": "1988-09-10",
+      "end": "1988-10-29",
+      "days": 49,
+      "number": 51,
+      "event": "House show",
+      "location": "Philadelphia, Pennsylvania",
+      "note": "Anderson and Blanchard left for the WWF after this match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r55",
+      "holder": "Road Warriors",
+      "people": [
+        "animal",
+        "hawk"
+      ],
+      "start": "1988-10-29",
+      "end": "1989-04-02",
+      "days": 155,
+      "number": 52,
+      "event": "World Wide Wrestling",
+      "location": "New Orleans, Louisiana",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r56",
+      "holder": "Varsity Club",
+      "people": [
+        "mike-rotunda",
+        "steve-williams"
+      ],
+      "start": "1989-04-02",
+      "end": "1989-05-07",
+      "days": 35,
+      "number": 53,
+      "event": "Clash of the Champions VI: Ragin' Cajun",
+      "location": "New Orleans, Louisiana",
+      "note": "Referee fast-counted Hawk; started Teddy Long's heel turn",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "The Fabulous Freebirds",
+      "people": [
+        "jimmy-garvin",
+        "michael-hayes"
+      ],
+      "start": "1989-06-14",
+      "end": "1989-11-01",
+      "days": 140,
+      "number": 54,
+      "event": "Clash of the Champions VII: Guts and Glory",
+      "location": "Fort Bragg, North Carolina",
+      "note": "Won tournament final over The Midnight Express",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r58",
+      "holder": "The Steiner Brothers",
+      "people": [
+        "rick-steiner",
+        "scott-steiner"
+      ],
+      "start": "1989-11-01",
+      "end": "1990-05-19",
+      "days": 199,
+      "number": 55,
+      "event": "World Championship Wrestling",
+      "location": "Atlanta, Georgia",
+      "note": "Tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r59",
+      "holder": "Doom",
+      "people": [
+        "butch-reed",
+        "ron-simmons"
+      ],
+      "start": "1990-05-19",
+      "end": "1991-02-24",
+      "days": 281,
+      "number": 56,
+      "event": "Capital Combat",
+      "location": "Washington, D.C.",
+      "note": "Title renamed WCW World Tag Team Championship during reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r61",
+      "holder": "The Steiner Brothers",
+      "people": [
+        "rick-steiner",
+        "scott-steiner"
+      ],
+      "start": "1991-02-18",
+      "end": "1991-07-20",
+      "days": 152,
+      "number": 58,
+      "event": "Pro Wrestling",
+      "location": "Montgomery, Alabama",
+      "note": "Tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r60",
+      "holder": "The Fabulous Freebirds",
+      "people": [
+        "michael-hayes",
+        "jimmy-garvin"
+      ],
+      "start": "1991-02-24",
+      "end": "1991-02-24",
+      "number": 57,
+      "event": "WrestleWar",
+      "location": "Phoenix, Arizona",
+      "note": "Lost titles at a TV taping seven days before winning them",
+      "dateNote": "Lost titles at a TV taping seven days before winning them",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r62",
+      "holder": "Enforcers",
+      "people": [
+        "arn-anderson",
+        "larry-zbyszko"
+      ],
+      "start": "1991-09-05",
+      "end": "1991-11-19",
+      "days": 75,
+      "number": 59,
+      "event": "Clash of the Champions XVI: Fall Brawl",
+      "location": "Augusta, Georgia",
+      "note": "Won tournament final over Rick Steiner and Bill Kazmaier",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r63",
+      "holder": "Ricky Steamboat & Dustin Rhodes",
+      "people": [
+        "ricky-steamboat",
+        "dustin-rhodes"
+      ],
+      "start": "1991-11-19",
+      "end": "1992-01-16",
+      "days": 58,
+      "number": 60,
+      "event": "Clash of the Champions XVII",
+      "location": "Savannah, Georgia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r64",
+      "holder": "Arn Anderson & Bobby Eaton",
+      "people": [
+        "arn-anderson",
+        "bobby-eaton"
+      ],
+      "start": "1992-01-16",
+      "end": "1992-05-03",
+      "days": 108,
+      "number": 61,
+      "event": "House show",
+      "location": "Jacksonville, Florida",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r65",
+      "holder": "The Steiner Brothers",
+      "people": [
+        "rick-steiner",
+        "scott-steiner"
+      ],
+      "start": "1992-05-03",
+      "end": "1992-07-05",
+      "days": 63,
+      "number": 62,
+      "event": "House show",
+      "location": "Chicago, Illinois",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r66",
+      "holder": "Miracle Violence Connection",
+      "people": [
+        "steve-williams",
+        "terry-gordy"
+      ],
+      "start": "1992-07-05",
+      "end": "1992-09-21",
+      "days": 78,
+      "number": 63,
+      "event": "House show",
+      "location": "Atlanta, Georgia",
+      "note": "Regarded as unified with NWA title on July 12; defended together until WCW left NWA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r67",
+      "holder": "Barry Windham & Dustin Rhodes",
+      "people": [
+        "barry-windham",
+        "dustin-rhodes"
+      ],
+      "start": "1992-09-21",
+      "end": "1992-11-18",
+      "days": 58,
+      "number": 64,
+      "event": "Saturday Night",
+      "location": "Atlanta, Georgia",
+      "note": "Tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r68",
+      "holder": "Ricky Steamboat & Shane Douglas",
+      "people": [
+        "ricky-steamboat",
+        "shane-douglas"
+      ],
+      "start": "1992-11-18",
+      "end": "1993-03-02",
+      "days": 104,
+      "number": 65,
+      "event": "Clash of the Champions XXI",
+      "location": "Macon, Georgia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r69",
+      "holder": "The Hollywood Blonds",
+      "people": [
+        "stone-cold-steve-austin",
+        "brian-pillman"
+      ],
+      "start": "1993-03-02",
+      "end": "1993-08-18",
+      "days": 169,
+      "number": 66,
+      "event": "WorldWide",
+      "location": "Macon, Georgia",
+      "note": "Tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r70",
+      "holder": "Arn Anderson & Paul Roma",
+      "people": [
+        "arn-anderson",
+        "paul-roma"
+      ],
+      "start": "1993-08-18",
+      "end": "1993-09-19",
+      "days": 32,
+      "number": 67,
+      "event": "Clash of the Champions XXIV",
+      "location": "Daytona Beach, Florida",
+      "note": "Stripped of NWA title after WCW left the NWA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r71",
+      "holder": "The Nasty Boys",
+      "people": [
+        "jerry-sags",
+        "brian-knobbs"
+      ],
+      "start": "1993-09-19",
+      "end": "1993-10-04",
+      "days": 15,
+      "number": 68,
+      "event": "Fall Brawl",
+      "location": "Houston, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r72",
+      "holder": "Marcus Alexander Bagwell & 2 Cold Scorpio",
+      "people": [
+        "buff-bagwell",
+        "2-cold-scorpio"
+      ],
+      "start": "1993-10-04",
+      "end": "1993-10-24",
+      "days": 20,
+      "number": 69,
+      "event": "Saturday Night",
+      "location": "Columbus, Georgia",
+      "note": "Tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r73",
+      "holder": "The Nasty Boys",
+      "people": [
+        "jerry-sags",
+        "brian-knobbs"
+      ],
+      "start": "1993-10-24",
+      "end": "1994-05-22",
+      "days": 210,
+      "number": 70,
+      "event": "Halloween Havoc",
+      "location": "New Orleans, Louisiana",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r74",
+      "holder": "Cactus Jack & Kevin Sullivan",
+      "people": [
+        "mick-foley",
+        "kevin-sullivan"
+      ],
+      "start": "1994-05-22",
+      "end": "1994-07-17",
+      "days": 56,
+      "number": 71,
+      "event": "Slamboree",
+      "location": "Philadelphia, Pennsylvania",
+      "note": "Broad Street Bully match with a special guest referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r75",
+      "holder": "Pretty Wonderful",
+      "people": [
+        "paul-roma",
+        "paul-orndorff"
+      ],
+      "start": "1994-07-17",
+      "end": "1994-09-25",
+      "days": 70,
+      "number": 72,
+      "event": "Bash at the Beach",
+      "location": "Orlando, Florida",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r76",
+      "holder": "Stars and Stripes",
+      "people": [
+        "buff-bagwell",
+        "the-patriot"
+      ],
+      "start": "1994-09-25",
+      "end": "1994-10-23",
+      "days": 28,
+      "number": 73,
+      "event": "Main Event",
+      "location": "Atlanta, Georgia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r77",
+      "holder": "Pretty Wonderful",
+      "people": [
+        "paul-roma",
+        "paul-orndorff"
+      ],
+      "start": "1994-10-23",
+      "end": "1994-11-16",
+      "days": 24,
+      "number": 74,
+      "event": "Halloween Havoc",
+      "location": "Detroit, Michigan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r78",
+      "holder": "Stars and Stripes",
+      "people": [
+        "buff-bagwell",
+        "the-patriot"
+      ],
+      "start": "1994-11-16",
+      "end": "1994-12-08",
+      "days": 22,
+      "number": 75,
+      "event": "Clash of the Champions XXIX",
+      "location": "Jacksonville, Florida",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r79",
+      "holder": "Harlem Heat",
+      "people": [
+        "booker-t",
+        "stevie-ray"
+      ],
+      "start": "1994-12-08",
+      "end": "1995-05-21",
+      "days": 164,
+      "number": 76,
+      "event": "Saturday Night",
+      "location": "Atlanta, Georgia",
+      "note": "Tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r81",
+      "holder": "Harlem Heat",
+      "people": [
+        "booker-t",
+        "stevie-ray"
+      ],
+      "start": "1995-05-03",
+      "end": "1995-06-21",
+      "days": 28,
+      "number": 78,
+      "event": "WorldWide",
+      "location": "Orlando, Florida",
+      "note": "Tape delay; taped before Slamboree; official length given as 33 days",
+      "dateNote": "The promotion's count differs from the dates (49 days by the dates, 28 printed).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r80",
+      "holder": "The Nasty Boys",
+      "people": [
+        "jerry-sags",
+        "brian-knobbs"
+      ],
+      "start": "1995-05-21",
+      "end": "1995-05-21",
+      "number": 77,
+      "event": "Slamboree",
+      "location": "St. Petersburg, Florida",
+      "note": "Negative length due to taping order; explained in next reign",
+      "dateNote": "Negative length due to taping order; explained in next reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r82",
+      "holder": "Dick Slater & Bunkhouse Buck",
+      "people": [
+        "dick-slater",
+        "bunkhouse-buck"
+      ],
+      "start": "1995-06-21",
+      "end": "1995-09-17",
+      "days": 57,
+      "number": 79,
+      "event": "Saturday Night",
+      "location": "Atlanta, Georgia",
+      "note": "Tape delay; taped before Harlem Heat's regained reign aired",
+      "dateNote": "The promotion's count differs from the dates (88 days by the dates, 57 printed).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r83",
+      "holder": "Harlem Heat",
+      "people": [
+        "booker-t",
+        "stevie-ray"
+      ],
+      "start": "1995-09-17",
+      "end": "1995-09-18",
+      "days": 1,
+      "number": 80,
+      "event": "Fall Brawl",
+      "location": "Asheville, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r84",
+      "holder": "American Males",
+      "people": [
+        "buff-bagwell",
+        "scotty-riggs"
+      ],
+      "start": "1995-09-18",
+      "end": "1995-09-27",
+      "days": 9,
+      "number": 81,
+      "event": "Nitro",
+      "location": "Johnson City, Tennessee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r85",
+      "holder": "Harlem Heat",
+      "people": [
+        "booker-t",
+        "stevie-ray"
+      ],
+      "start": "1995-09-27",
+      "end": "1996-01-22",
+      "days": 117,
+      "number": 82,
+      "event": "Saturday Night",
+      "location": "Atlanta, Georgia",
+      "note": "Tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r86",
+      "holder": "Sting & Lex Luger",
+      "people": [
+        "sting",
+        "lex-luger"
+      ],
+      "start": "1996-01-22",
+      "end": "1996-06-24",
+      "days": 154,
+      "number": 83,
+      "event": "Nitro",
+      "location": "Las Vegas, Nevada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r87",
+      "holder": "Harlem Heat",
+      "people": [
+        "booker-t",
+        "stevie-ray"
+      ],
+      "start": "1996-06-24",
+      "end": "1996-07-24",
+      "days": 30,
+      "number": 84,
+      "event": "Nitro",
+      "location": "Charlotte, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r88",
+      "holder": "The Steiner Brothers",
+      "people": [
+        "rick-steiner",
+        "scott-steiner"
+      ],
+      "start": "1996-07-24",
+      "end": "1996-07-27",
+      "days": 3,
+      "number": 85,
+      "event": "House show",
+      "location": "Cincinnati, Ohio",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r89",
+      "holder": "Harlem Heat",
+      "people": [
+        "booker-t",
+        "stevie-ray"
+      ],
+      "start": "1996-07-27",
+      "end": "1996-09-23",
+      "days": 58,
+      "number": 86,
+      "event": "House show",
+      "location": "Dayton, Ohio",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r90",
+      "holder": "The Public Enemy",
+      "people": [
+        "johnny-grunge",
+        "rocco-rock"
+      ],
+      "start": "1996-09-23",
+      "end": "1996-10-01",
+      "days": 8,
+      "number": 87,
+      "event": "Nitro",
+      "location": "Birmingham, Alabama",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r91",
+      "holder": "Harlem Heat",
+      "people": [
+        "booker-t",
+        "stevie-ray"
+      ],
+      "start": "1996-10-01",
+      "end": "1996-10-27",
+      "days": 26,
+      "number": 88,
+      "event": "Saturday Night",
+      "location": "Canton, Ohio",
+      "note": "Tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r92",
+      "holder": "The Outsiders",
+      "people": [
+        "kevin-nash",
+        "scott-hall"
+      ],
+      "start": "1996-10-27",
+      "end": "1997-01-25",
+      "days": 90,
+      "number": 89,
+      "event": "Halloween Havoc",
+      "location": "Las Vegas, Nevada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r93",
+      "holder": "The Steiner Brothers",
+      "people": [
+        "rick-steiner",
+        "scott-steiner"
+      ],
+      "start": "1997-01-25",
+      "end": "1997-01-27",
+      "days": 2,
+      "number": 90,
+      "event": "Souled Out",
+      "location": "Cedar Rapids, Iowa",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r94",
+      "holder": "The Outsiders",
+      "people": [
+        "kevin-nash",
+        "scott-hall"
+      ],
+      "start": "1997-01-27",
+      "end": "1997-02-23",
+      "days": 27,
+      "number": 91,
+      "event": "Nitro",
+      "location": "Las Vegas, Nevada",
+      "note": "Titles restored after an unofficial referee counted the fall",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r95",
+      "holder": "Lex Luger & The Giant",
+      "people": [
+        "lex-luger",
+        "big-show"
+      ],
+      "start": "1997-02-23",
+      "end": "1997-02-24",
+      "days": 1,
+      "number": 92,
+      "event": "SuperBrawl VII",
+      "location": "Daly City, California",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r96",
+      "holder": "The Outsiders",
+      "people": [
+        "kevin-nash",
+        "scott-hall",
+        "x-pac"
+      ],
+      "start": "1997-02-24",
+      "end": "1997-10-13",
+      "days": 231,
+      "number": 93,
+      "event": "Nitro",
+      "location": "Sacramento, California",
+      "note": "Returned after Luger was not cleared; Syxx credited with a separate reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r97",
+      "holder": "The Steiner Brothers",
+      "people": [
+        "rick-steiner",
+        "scott-steiner"
+      ],
+      "start": "1997-10-13",
+      "end": "1998-01-12",
+      "days": 91,
+      "number": 94,
+      "event": "Nitro",
+      "location": "Tampa, Florida",
+      "note": "Beat Scott Hall and Syxx for the titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r98",
+      "holder": "The Outsiders",
+      "people": [
+        "kevin-nash",
+        "scott-hall"
+      ],
+      "start": "1998-01-12",
+      "end": "1998-02-09",
+      "days": 28,
+      "number": 95,
+      "event": "Nitro",
+      "location": "Jacksonville, Florida",
+      "note": "Fourth team reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r99",
+      "holder": "The Steiner Brothers",
+      "people": [
+        "rick-steiner",
+        "scott-steiner"
+      ],
+      "start": "1998-02-09",
+      "end": "1998-02-22",
+      "days": 13,
+      "number": 96,
+      "event": "Nitro",
+      "location": "El Paso, Texas",
+      "note": "Seventh team reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r100",
+      "holder": "The Outsiders",
+      "people": [
+        "kevin-nash",
+        "scott-hall"
+      ],
+      "start": "1998-02-22",
+      "end": "1998-05-17",
+      "days": 84,
+      "number": 97,
+      "event": "SuperBrawl VIII",
+      "location": "Daly City, California",
+      "note": "Scott Hall turned on Rick Steiner and joined the nWo",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r101",
+      "holder": "Sting & The Giant",
+      "people": [
+        "sting",
+        "big-show"
+      ],
+      "start": "1998-05-17",
+      "end": "1998-06-02",
+      "days": 16,
+      "number": 98,
+      "event": "Slamboree",
+      "location": "Worcester, Massachusetts",
+      "note": "Hall hit Nash with a title belt",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r102",
+      "holder": "Sting & Kevin Nash",
+      "people": [
+        "sting",
+        "kevin-nash"
+      ],
+      "start": "1998-06-14",
+      "end": "1998-07-20",
+      "days": 36,
+      "number": 99,
+      "event": "The Great American Bash",
+      "location": "Baltimore, Maryland",
+      "note": "Sting won a match for the titles and chose Nash",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r103",
+      "holder": "Scott Hall & The Giant",
+      "people": [
+        "scott-hall",
+        "big-show"
+      ],
+      "start": "1998-07-20",
+      "end": "1998-10-25",
+      "days": 97,
+      "number": 100,
+      "event": "Nitro",
+      "location": "Salt Lake City, Utah",
+      "note": "Won the titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r104",
+      "holder": "Rick Steiner & Kenny Kaos & Judy Bagwell",
+      "people": [
+        "rick-steiner",
+        "kenny-kaos",
+        "judy-bagwell"
+      ],
+      "start": "1998-10-25",
+      "end": "1999-01-07",
+      "days": 74,
+      "number": 101,
+      "event": "Halloween Havoc",
+      "location": "Las Vegas, Nevada",
+      "note": "Partner changed after Bagwell turned on Steiner",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r105",
+      "holder": "Barry Windham & Curt Hennig",
+      "people": [
+        "barry-windham",
+        "curt-hennig"
+      ],
+      "start": "1999-02-21",
+      "end": "1999-03-14",
+      "days": 21,
+      "number": 102,
+      "event": "SuperBrawl IX",
+      "location": "Oakland, California",
+      "note": "Won a double-elimination tournament",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r106",
+      "holder": "Chris Benoit & Dean Malenko",
+      "people": [
+        "chris-benoit",
+        "dean-malenko"
+      ],
+      "start": "1999-03-14",
+      "end": "1999-03-29",
+      "days": 15,
+      "number": 103,
+      "event": "Uncensored",
+      "location": "Louisville, Kentucky",
+      "note": "Lumberjack match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r1",
+      "holder": "Rey Misterio Jr. & Billy Kidman",
+      "people": [
+        "rey-mysterio",
+        "billy-kidman"
       ],
       "start": "1999-03-29",
       "end": "1999-05-09",
+      "days": 41,
+      "number": 104,
+      "event": "Nitro",
+      "location": "Toronto, Ontario, Canada",
+      "note": "Won the titles",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wcw/wcw-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wcw/wcw-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-677"
       ]
     },
     {
-      "id": "r2",
-      "holder": "Konnan & Rey Mysterio Jr.",
+      "id": "r107",
+      "holder": "Raven & Perry Saturn",
       "people": [
-        "rey-mysterio"
+        "raven",
+        "perry-saturn"
+      ],
+      "start": "1999-05-09",
+      "end": "1999-05-31",
+      "days": 22,
+      "number": 105,
+      "event": "Slamboree",
+      "location": "St. Louis, Missouri",
+      "note": "Won a tag team triangle match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r108",
+      "holder": "Diamond Dallas Page & Bam Bam Bigelow",
+      "people": [
+        "diamond-dallas-page",
+        "bam-bam-bigelow"
+      ],
+      "start": "1999-05-31",
+      "end": "1999-06-07",
+      "days": 7,
+      "number": 106,
+      "event": "Nitro",
+      "location": "Houston, Texas",
+      "note": "Beat Saturn and Chris Kanyon",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r109",
+      "holder": "Chris Benoit & Perry Saturn",
+      "people": [
+        "chris-benoit",
+        "perry-saturn"
+      ],
+      "start": "1999-06-07",
+      "end": "1999-06-13",
+      "days": 6,
+      "number": 107,
+      "event": "Nitro",
+      "location": "Cleveland, Ohio",
+      "note": "Won the titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r110",
+      "holder": "Jersey Triad",
+      "people": [
+        "diamond-dallas-page",
+        "bam-bam-bigelow",
+        "chris-kanyon"
+      ],
+      "start": "1999-06-13",
+      "end": "1999-08-14",
+      "days": 62,
+      "number": 108,
+      "event": "The Great American Bash",
+      "location": "Baltimore, Maryland",
+      "note": "Bigelow also defended under the Freebird Rule",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r111",
+      "holder": "Harlem Heat",
+      "people": [
+        "booker-t",
+        "stevie-ray"
+      ],
+      "start": "1999-08-14",
+      "end": "1999-08-23",
+      "days": 9,
+      "number": 109,
+      "event": "Road Wild",
+      "location": "Sturgis, South Dakota",
+      "note": "Beat Bigelow and Kanyon",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r112",
+      "holder": "The West Texas Rednecks",
+      "people": [
+        "barry-windham",
+        "kendall-windham"
+      ],
+      "start": "1999-08-23",
+      "end": "1999-09-12",
+      "days": 20,
+      "number": 110,
+      "event": "Nitro",
+      "location": "Las Vegas, Nevada",
+      "note": "Won the titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r113",
+      "holder": "Harlem Heat",
+      "people": [
+        "booker-t",
+        "stevie-ray"
+      ],
+      "start": "1999-09-12",
+      "end": "1999-10-18",
+      "days": 36,
+      "number": 111,
+      "event": "Fall Brawl",
+      "location": "Winston-Salem, North Carolina",
+      "note": "Regained the titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r2",
+      "holder": "The Filthy Animals",
+      "people": [
+        "rey-mysterio",
+        "konnan"
       ],
       "start": "1999-10-18",
       "end": "1999-10-24",
+      "days": 6,
+      "number": 112,
+      "event": "Nitro",
+      "location": "Philadelphia, Pennsylvania",
+      "note": "Won the titles",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wcw/wcw-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wcw/wcw-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-675"
       ]
     },
     {
-      "id": "r3",
-      "holder": "Rey Mysterio Jr. & Juventud Guerrera",
+      "id": "r114",
+      "holder": "Harlem Heat",
       "people": [
-        "rey-mysterio"
+        "booker-t",
+        "stevie-ray"
+      ],
+      "start": "1999-10-24",
+      "end": "1999-10-25",
+      "days": 1,
+      "number": 113,
+      "event": "Halloween Havoc",
+      "location": "Las Vegas, Nevada",
+      "note": "Won a triple threat street fight",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r115",
+      "holder": "The Filthy Animals",
+      "people": [
+        "konnan",
+        "billy-kidman"
+      ],
+      "start": "1999-10-25",
+      "end": "1999-11-22",
+      "days": 28,
+      "number": 114,
+      "event": "Nitro",
+      "location": "Phoenix, Arizona",
+      "note": "Won the titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r116",
+      "holder": "Creative Control",
+      "people": [
+        "ron-harris",
+        "don-harris"
+      ],
+      "start": "1999-11-22",
+      "end": "1999-12-07",
+      "days": 15,
+      "number": 115,
+      "event": "Nitro",
+      "location": "Auburn Hills, Michigan",
+      "note": "Won the titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r117",
+      "holder": "Bret Hart & Goldberg",
+      "people": [
+        "bret-hart",
+        "goldberg"
+      ],
+      "start": "1999-12-07",
+      "end": "1999-12-13",
+      "days": 6,
+      "number": 116,
+      "event": "Thunder",
+      "location": "Madison, Wisconsin",
+      "note": "Both men completed the Triple Crown with this win",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r118",
+      "holder": "The Outsiders",
+      "people": [
+        "kevin-nash",
+        "scott-hall"
+      ],
+      "start": "1999-12-13",
+      "end": "1999-12-27",
+      "days": 14,
+      "number": 117,
+      "event": "Nitro",
+      "location": "New Orleans, Louisiana",
+      "note": "Regained the titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r119",
+      "holder": "David Flair & Crowbar",
+      "people": [
+        "david-flair",
+        "crowbar"
+      ],
+      "start": "2000-01-03",
+      "end": "2000-01-18",
+      "days": 15,
+      "number": 118,
+      "event": "Nitro",
+      "location": "Greenville, South Carolina",
+      "note": "Won a tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r120",
+      "holder": "The Mamalukes",
+      "people": [
+        "johnny-stamboli",
+        "big-vito"
+      ],
+      "start": "2000-01-18",
+      "end": "2000-02-12",
+      "days": 25,
+      "number": 119,
+      "event": "Thunder",
+      "location": "Evansville, Indiana",
+      "note": "Won the titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r121",
+      "holder": "Harris Brothers",
+      "people": [
+        "ron-harris",
+        "don-harris"
+      ],
+      "start": "2000-02-12",
+      "end": "2000-02-13",
+      "days": 1,
+      "number": 120,
+      "event": "House show",
+      "location": "Oberhausen, Germany",
+      "note": "Previously held the titles as Creative Control",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r122",
+      "holder": "The Mamalukes",
+      "people": [
+        "johnny-stamboli",
+        "big-vito"
+      ],
+      "start": "2000-02-13",
+      "end": "2000-03-19",
+      "days": 35,
+      "number": 121,
+      "event": "House show",
+      "location": "Leipzig, Germany",
+      "note": "Regained the titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r123",
+      "holder": "The Harris Brothers",
+      "people": [
+        "ron-harris",
+        "don-harris"
+      ],
+      "start": "2000-03-19",
+      "end": "2000-04-10",
+      "days": 22,
+      "number": 122,
+      "event": "Uncensored",
+      "location": "Miami, Florida",
+      "note": "Third team reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r124",
+      "holder": "Shane Douglas & Buff Bagwell",
+      "people": [
+        "shane-douglas",
+        "buff-bagwell"
+      ],
+      "start": "2000-04-16",
+      "end": "2000-05-15",
+      "days": 29,
+      "number": 123,
+      "event": "Spring Stampede",
+      "location": "Chicago, Illinois",
+      "note": "Won a tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r125",
+      "holder": "KroniK",
+      "people": [
+        "brian-adams",
+        "bryan-clark"
+      ],
+      "start": "2000-05-15",
+      "end": "2000-05-30",
+      "days": 15,
+      "number": 124,
+      "event": "Nitro",
+      "location": "Biloxi, Mississippi",
+      "note": "Won the titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r126",
+      "holder": "The Perfect Event",
+      "people": [
+        "shawn-stasiak",
+        "chuck-palumbo"
+      ],
+      "start": "2000-05-30",
+      "end": "2000-07-09",
+      "days": 40,
+      "number": 125,
+      "event": "Thunder",
+      "location": "Nampa, Idaho",
+      "note": "Title change aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r127",
+      "holder": "KroniK",
+      "people": [
+        "brian-adams",
+        "bryan-clark"
+      ],
+      "start": "2000-07-09",
+      "end": "2000-08-13",
+      "days": 35,
+      "number": 126,
+      "event": "Bash at the Beach",
+      "location": "Daytona Beach, Florida",
+      "note": "Second team reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r128",
+      "holder": "Dark Carnival",
+      "people": [
+        "keiji-muto",
+        "vampiro"
+      ],
+      "start": "2000-08-13",
+      "end": "2000-08-14",
+      "days": 1,
+      "number": 127,
+      "event": "New Blood Rising",
+      "location": "Vancouver, British Columbia",
+      "note": "Held the titles for one day",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "The Filthy Animals",
+      "people": [
+        "rey-mysterio",
+        "juventud-guerrera"
       ],
       "start": "2000-08-14",
       "end": "2000-09-18",
+      "days": 35,
+      "number": 128,
+      "event": "Nitro",
+      "location": "Kelowna, British Columbia",
+      "note": "Won the titles",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wcw/wcw-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wcw/wcw-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-674"
       ]
+    },
+    {
+      "id": "r129",
+      "holder": "Sean O'Haire & Mark Jindrak",
+      "people": [
+        "sean-ohaire",
+        "mark-jindrak"
+      ],
+      "start": "2000-09-25",
+      "end": "2000-10-09",
+      "days": 14,
+      "number": 129,
+      "event": "Nitro",
+      "location": "Uniondale, New York",
+      "note": "Won a tag team battle royal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r130",
+      "holder": "The Misfits in Action",
+      "people": [
+        "chavo-guerrero",
+        "lash-leroux"
+      ],
+      "start": "2000-10-09",
+      "end": "2000-10-09",
+      "days": 0,
+      "number": 130,
+      "event": "Thunder",
+      "location": "Sydney, Australia",
+      "note": "Lost the titles the same night",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r131",
+      "holder": "Sean O'Haire & Mark Jindrak",
+      "people": [
+        "sean-ohaire",
+        "mark-jindrak"
+      ],
+      "start": "2000-10-09",
+      "end": "2000-11-16",
+      "days": 38,
+      "number": 131,
+      "event": "Thunder",
+      "location": "Sydney, Australia",
+      "note": "Regained the titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r132",
+      "holder": "Boogie Knights",
+      "people": [
+        "alex-wright",
+        "disco-inferno"
+      ],
+      "start": "2000-11-16",
+      "end": "2000-11-20",
+      "days": 4,
+      "number": 132,
+      "event": "Millennium Final",
+      "location": "Oberhausen, Germany",
+      "note": "WWE recognizes Disco Inferno as champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r133",
+      "holder": "The Perfect Event",
+      "people": [
+        "shawn-stasiak",
+        "chuck-palumbo"
+      ],
+      "start": "2000-11-20",
+      "end": "2000-11-26",
+      "days": 6,
+      "number": 133,
+      "event": "Nitro",
+      "location": "Augusta, Georgia",
+      "note": "Beat Wright and a substitute partner",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r134",
+      "holder": "The Insiders",
+      "people": [
+        "diamond-dallas-page",
+        "kevin-nash"
+      ],
+      "start": "2000-11-26",
+      "end": "2000-12-04",
+      "days": 8,
+      "number": 134,
+      "event": "Mayhem",
+      "location": "Milwaukee, Wisconsin",
+      "note": "Won the titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r135",
+      "holder": "The Perfect Event",
+      "people": [
+        "shawn-stasiak",
+        "chuck-palumbo"
+      ],
+      "start": "2000-12-04",
+      "end": "2000-12-17",
+      "days": 13,
+      "number": 135,
+      "event": "Nitro",
+      "location": "Lincoln, Nebraska",
+      "note": "Awarded the titles after The Insiders vacated",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r136",
+      "holder": "The Insiders",
+      "people": [
+        "diamond-dallas-page",
+        "kevin-nash"
+      ],
+      "start": "2000-12-17",
+      "end": "2001-01-14",
+      "days": 28,
+      "number": 136,
+      "event": "Starrcade",
+      "location": "Washington, D.C.",
+      "note": "Regained the titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r137",
+      "holder": "Natural Born Thrillers",
+      "people": [
+        "chuck-palumbo",
+        "sean-ohaire"
+      ],
+      "start": "2001-01-14",
+      "end": "2001-08-07",
+      "days": 205,
+      "number": 137,
+      "event": "Sin",
+      "location": "Indianapolis, Indiana",
+      "note": "Final reign recognized by WCW before the WWF purchase",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r138",
+      "holder": "Brothers of Destruction",
+      "people": [
+        "kane",
+        "the-undertaker"
+      ],
+      "start": "2001-08-07",
+      "end": "2001-09-25",
+      "days": 49,
+      "number": 138,
+      "event": "SmackDown!",
+      "location": "Los Angeles, California",
+      "note": "WWF reign aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r139",
+      "holder": "Booker T & Test",
+      "people": [
+        "booker-t",
+        "test"
+      ],
+      "start": "2001-09-25",
+      "end": "2001-10-08",
+      "days": 13,
+      "number": 139,
+      "event": "SmackDown!",
+      "location": "Dayton, Ohio",
+      "note": "Booker T's eleventh reign; aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r140",
+      "holder": "The Hardy Boyz",
+      "people": [
+        "jeff-hardy",
+        "matt-hardy"
+      ],
+      "start": "2001-10-08",
+      "end": "2001-10-23",
+      "days": 15,
+      "number": 140,
+      "event": "Raw",
+      "location": "Indianapolis, Indiana",
+      "note": "Won the titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r141",
+      "holder": "Dudley Boyz",
+      "people": [
+        "bubba-ray-dudley",
+        "d-von-dudley"
+      ],
+      "start": "2001-10-23",
+      "end": "2001-11-18",
+      "days": 26,
+      "number": 141,
+      "event": "SmackDown!",
+      "location": "Omaha, Nebraska",
+      "note": "Won the titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

@@ -1,10 +1,31 @@
 {
   "id": "fcw-jack-brisco-15-championship",
   "name": "FCW Jack Brisco 15 Championship",
-  "names": [
-    "FCW Jack Brisco 15 Championship"
+  "promotion": "wwe",
+  "division": "men",
+  "format": "singles",
+  "established": "2011-01-13",
+  "retired": "2012-08-14",
+  "names": [],
+  "eras": [
+    {
+      "name": "FCW Jack Brisco 15 Championship",
+      "from": "2011-01-13"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "2012-08-14",
+      "kind": "deactivated",
+      "text": "Deactivated and retired immediately when Florida Championship Wrestling was disbanded.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Jack_Brisco_15_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/FCW_Jack_Brisco_15_Championship"
+  ],
   "reigns": [
     {
       "id": "r1",
@@ -13,14 +34,73 @@
         "seth-rollins"
       ],
       "start": "2011-02-06",
-      "end": "2011-10-30",
+      "end": "2011-09-22",
+      "days": 252,
+      "number": 1,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "note": "Defeated Hunico in the finals of the 'FCW 15' Jack Brisco Classic Tournament to become the inaugural champion. Aired on tape delay on February 6, 2011.",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/fcw-jack-brisco-15-championship"
+        "https://www.thesmackdownhotel.com/title-history/fcw-jack-brisco-15-championship",
+        "https://en.wikipedia.org/wiki/FCW_Jack_Brisco_15_Championship"
       ],
       "legacyIds": [
         "profile-reign-seth-rollins-749"
       ]
+    },
+    {
+      "id": "r2",
+      "holder": "Damien Sandow",
+      "people": [
+        "damien-sandow"
+      ],
+      "start": "2011-09-22",
+      "end": "2012-01-13",
+      "days": 113,
+      "number": 2,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "note": "Aired on tape delay on October 30, 2011.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Jack_Brisco_15_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Richie Steamboat",
+      "people": [
+        "richie-steamboat"
+      ],
+      "start": "2012-01-13",
+      "end": "2012-06-21",
+      "days": 160,
+      "number": 3,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "note": "Steamboat defeated Damien Sandow, winning the bout two falls to one. Aired on tape delay on January 29, 2012.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Jack_Brisco_15_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Brad Maddox",
+      "people": [
+        "brad-maddox"
+      ],
+      "start": "2012-06-21",
+      "end": "2012-08-14",
+      "days": 54,
+      "number": 4,
+      "event": "Live event",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Jack_Brisco_15_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

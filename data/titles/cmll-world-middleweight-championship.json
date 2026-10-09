@@ -1,11 +1,244 @@
 {
   "id": "cmll-world-middleweight-championship",
   "name": "CMLL World Middleweight Championship",
+  "promotion": "cmll",
+  "division": "men",
+  "format": "singles",
+  "established": "1991-12-18",
   "names": [
-    "CMLL World Middleweight Championship"
+    "NWA World Middleweight Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "NWA World Middleweight Championship",
+      "from": "1952"
+    }
+  ],
+  "history": [
+    {
+      "date": "1952",
+      "kind": "recognition",
+      "text": "EMLL joined the National Wrestling Alliance and the title was renamed for the NWA.",
+      "related": [
+        "NWA World Middleweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Middleweight_Championship"
+      ]
+    },
+    {
+      "date": "1992-07-03",
+      "kind": "interim",
+      "text": "After the champion left for AAA and the title was vacated, a battle royal and final determined El Dandy as the new champion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Middleweight_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions",
+    "https://en.wikipedia.org/wiki/CMLL_World_Middleweight_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r3",
+      "holder": "Blue Panther",
+      "people": [
+        "blue-panther"
+      ],
+      "start": "1991-12-18",
+      "end": "1992-06-19",
+      "days": 190,
+      "number": 1,
+      "event": "Wrestling In Acapulco",
+      "location": "Acapulco, Guerrero",
+      "note": "Won a tournament final over El Satanico to become the inaugural champion",
+      "dateNote": "The source prints 190 days; its dates give 184.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "El Dandy",
+      "people": [
+        "el-dandy"
+      ],
+      "start": "1992-07-03",
+      "end": "1992-09-04",
+      "days": 63,
+      "number": 2,
+      "event": "CMLL on Televisa",
+      "location": "Mexico City, D.F.",
+      "note": "Tournament final win over Negro Casas in a two-of-three falls match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Bestia Salvaje",
+      "people": [
+        "bestia-salvaje"
+      ],
+      "start": "1992-09-04",
+      "end": "1992-12-16",
+      "days": 103,
+      "number": 3,
+      "event": "CMLL on Televisa",
+      "location": "Mexico City, D.F.",
+      "note": "Two-of-three falls match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "El Dandy",
+      "people": [
+        "el-dandy"
+      ],
+      "start": "1992-12-16",
+      "end": "1993-05-12",
+      "days": 147,
+      "number": 4,
+      "event": "Wrestling In Naucalpan",
+      "location": "Naucalpan, Mexico",
+      "note": "Second reign; two-of-three falls match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Emilio Charles Jr.",
+      "people": [
+        "emilio-charles-jr"
+      ],
+      "start": "1993-05-12",
+      "end": "1993-10-05",
+      "days": 146,
+      "number": 5,
+      "event": "Wrestling In Acapulco",
+      "location": "Acapulco, Guerrero",
+      "note": "Two-of-three falls match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "El Dandy",
+      "people": [
+        "el-dandy"
+      ],
+      "start": "1993-10-05",
+      "end": "1994-02-22",
+      "days": 140,
+      "number": 6,
+      "event": "CMLL Martes De Coliseo",
+      "location": "Mexico City, D.F.",
+      "note": "Third reign; two-of-three falls match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Javier Llanes",
+      "people": [
+        "javier-llanes"
+      ],
+      "start": "1994-02-22",
+      "end": "1994-09-11",
+      "days": 201,
+      "number": 7,
+      "event": "CMLL Martes De Coliseo",
+      "location": "Mexico City, D.F.",
+      "note": "Two-of-three falls match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Apolo Dantés",
+      "people": [
+        "apolo-dantes"
+      ],
+      "start": "1994-09-11",
+      "end": "1994-11-27",
+      "days": 77,
+      "number": 8,
+      "event": "CMLL Domingos De Coliseo",
+      "location": "Mexico City, D.F.",
+      "note": "Two-of-three falls match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "El Satanico",
+      "people": [
+        "el-satanico"
+      ],
+      "start": "1994-11-27",
+      "end": "1999-03-07",
+      "days": 1561,
+      "number": 9,
+      "event": "Live event",
+      "location": "Guadalajara, Jalisco",
+      "note": "Live event with no match type listed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Ringo Mendoza",
+      "people": [
+        "ringo-mendoza"
+      ],
+      "start": "1999-03-07",
+      "end": "2001-03-18",
+      "days": 742,
+      "number": 10,
+      "event": "CMLL Domingos De Coliseo",
+      "location": "Mexico City, D.F.",
+      "note": "Two-of-three falls match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Emilio Charles, Jr.",
+      "people": [
+        "emilio-charles-jr"
+      ],
+      "start": "2001-03-18",
+      "end": "2004-04-26",
+      "days": 1135,
+      "number": 11,
+      "event": "CMLL Domingos De Coliseo",
+      "location": "Mexico City, D.F.",
+      "note": "Second reign; two-of-three falls match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Negro Casas",
@@ -14,13 +247,55 @@
       ],
       "start": "2004-04-26",
       "end": "2006-09-17",
+      "days": 874,
+      "number": 12,
+      "event": "CMLL Lunes Arena Puebla",
+      "location": "Puebla de Zaragoza",
+      "note": "Two-of-three falls match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/cmll-world-middleweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/cmll-world-middleweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-negro-casas-485"
       ]
+    },
+    {
+      "id": "r14",
+      "holder": "Averno",
+      "people": [
+        "averno"
+      ],
+      "start": "2006-09-17",
+      "end": "2009-07-21",
+      "days": 1038,
+      "number": 13,
+      "event": "CMLL Domingos De Coliseo",
+      "location": "Mexico City, D.F.",
+      "note": "Two-of-three falls match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "El Hijo del Fantasma",
+      "people": [
+        "santos-escobar"
+      ],
+      "start": "2009-07-21",
+      "end": "2010-02-14",
+      "days": 208,
+      "number": 14,
+      "event": "CMLL Martes Arena Mexico",
+      "location": "Mexico City, D.F.",
+      "note": "Two-of-three falls match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r2",
@@ -30,13 +305,145 @@
       ],
       "start": "2010-02-14",
       "end": "2010-05-03",
+      "days": 78,
+      "number": 15,
+      "event": "CMLL Domingos Arena Mexico",
+      "location": "Mexico City, D.F.",
+      "note": "Second reign; two-of-three falls match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/cmll-world-middleweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/cmll-world-middleweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-negro-casas-480"
       ]
+    },
+    {
+      "id": "r16",
+      "holder": "Jushin Thunder Liger",
+      "people": [
+        "jushin-thunder-liger"
+      ],
+      "start": "2010-05-03",
+      "end": "2011-11-18",
+      "days": 564,
+      "number": 16,
+      "event": "NJPW Wrestling Dontaku",
+      "location": "Fukuoka, Japan",
+      "note": "No match type listed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Dragón Rojo Jr.",
+      "people": [
+        "dragon-rojo-jr"
+      ],
+      "start": "2011-11-18",
+      "end": "2017-03-25",
+      "days": 1954,
+      "number": 17,
+      "event": "CMLL on Televisa",
+      "location": "Mexico City, D.F.",
+      "note": "Two-of-three falls match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Ángel de Oro",
+      "people": [
+        "angel-de-oro"
+      ],
+      "start": "2017-03-25",
+      "end": "2018-01-19",
+      "days": 300,
+      "number": 18,
+      "event": "CMLL Sabados De Coliseo",
+      "location": "Mexico City, D.F.",
+      "note": "Two-of-three falls match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "El Cuatrero",
+      "people": [
+        "el-cuatrero"
+      ],
+      "start": "2018-01-19",
+      "end": "2021-08-11",
+      "days": 1300,
+      "number": 19,
+      "event": "NJPW Presents CMLL Fantastica Mania - Nught 6",
+      "location": "Tokyo, Japan",
+      "note": "No match type listed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Soberano, Jr.",
+      "people": [
+        "soberano-jr"
+      ],
+      "start": "2021-12-10",
+      "end": "2022-04-02",
+      "days": 111,
+      "number": 20,
+      "event": "CMLL Super Viernes",
+      "location": "Mexico City, D.F.",
+      "note": "Won a tournament final over Templato for the vacant title",
+      "dateNote": "The source prints 111 days; its dates give 113.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Dragón Rojo Jr.",
+      "people": [
+        "dragon-rojo-jr"
+      ],
+      "start": "2022-04-02",
+      "end": "2023-05-12",
+      "days": 405,
+      "number": 21,
+      "event": "CMLL Super Viernes",
+      "location": "Mexico City, D.F.",
+      "note": "Second reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Templario",
+      "people": [
+        "templario"
+      ],
+      "start": "2023-05-12",
+      "days": 1041,
+      "number": 22,
+      "event": "CMLL Super Viernes",
+      "location": "Mexico City, D.F.",
+      "note": "Current champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Middleweight_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

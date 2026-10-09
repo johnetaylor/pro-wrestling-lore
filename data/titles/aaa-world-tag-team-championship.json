@@ -1,71 +1,490 @@
 {
   "id": "aaa-world-tag-team-championship",
   "name": "AAA World Tag Team Championship",
+  "promotion": "aaa",
+  "division": "men",
+  "format": "tag",
+  "established": "2007-03-18",
   "names": [
-    "AAA World Tag Team Championship"
+    "AAA Tag Team Championship",
+    "AAA World/AAA Tag Team Championship",
+    "AAA/IWC World Tag Team Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "AAA World Tag Team Championship",
+      "from": "2007"
+    }
+  ],
+  "history": [
+    {
+      "date": "1993",
+      "kind": "promotion",
+      "text": "Billed as co-promoted by the International Wrestling Council (IWC), the name used for AAA shows in the United States.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "1994-11-23",
+      "kind": "deactivated",
+      "text": "Vacated after Art Barr died, and the original 1993 version was abandoned.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2007-03-18",
+      "kind": "replaces",
+      "text": "The modern AAA World Tag Team Championship was created to replace the Mexican National Tag Team Championship.",
+      "related": [
+        "Mexican National Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2013-05-22",
+      "kind": "deactivated",
+      "text": "Title vacated; the article does not state a reason.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2013-06-16",
+      "kind": "reactivated",
+      "text": "Mexican Powers won the vacant title in a five-way elimination match at Triplemanía XXI.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2016-01-22",
+      "kind": "deactivated",
+      "text": "Title vacated after Angélico suffered a leg injury.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2016-01-22",
+      "kind": "reactivated",
+      "text": "Los Hell Brothers won the vacant title in a three-way elimination match at Sin Limite: Guerra De Titanes.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2022-12-28",
+      "kind": "deactivated",
+      "text": "Title vacated after Dragon Lee signed with WWE, the same day Los Hermanos Lee won the titles.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2023-05-20",
+      "kind": "reactivated",
+      "text": "Arez and Komander won the vacant titles in a three-way tag team match.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2025-03-19",
+      "kind": "deactivated",
+      "text": "AAA vacated the titles.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2025-03-22",
+      "kind": "reactivated",
+      "text": "Nueva Generación Dinamita won the vacant titles in a three-way tag team match at Rey de Reyes.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+  ],
   "reigns": [
     {
-      "id": "r1",
-      "holder": "Abyss & Chessman",
+      "id": "r14",
+      "holder": "El Hijo del Santo & Octagón",
       "people": [
-        "chessman"
+        "el-hijo-del-santo",
+        "octagon"
+      ],
+      "start": "1993-11-05",
+      "end": "1994-07-23",
+      "days": 260,
+      "kind": "unrecognized",
+      "event": "AAA",
+      "location": "Tonalá, Jalisco, Mexico",
+      "note": "Won 2-of-3 Falls match over La Pareja del Terror",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "La Pareja del Terror",
+      "people": [
+        "eddie-guerrero",
+        "love-machine"
+      ],
+      "start": "1994-07-23",
+      "end": "1994-11-23",
+      "days": 123,
+      "kind": "unrecognized",
+      "event": "AAA/IWC",
+      "location": "Rosemont, Illinois, U.S.",
+      "note": "Won 2-of-3 Falls match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "The Black Family",
+      "people": [
+        "dark-cuervo",
+        "dark-ozz"
+      ],
+      "start": "2007-03-18",
+      "end": "2007-07-15",
+      "days": 119,
+      "number": 1,
+      "event": "Sin Limite: Rey De Reyes",
+      "location": "Naucalpan, Mexico",
+      "note": "Inaugural champions after four-way final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Mexican Powers",
+      "people": [
+        "crazy-boy",
+        "joe-lider"
+      ],
+      "start": "2007-07-15",
+      "end": "2008-04-27",
+      "days": 287,
+      "number": 2,
+      "event": "Sin Limite: Triplemanía XV",
+      "location": "Naucalpan, Mexico",
+      "note": "Recognized as 294 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "La Familia de Tijuana",
+      "people": [
+        "halloween",
+        "extreme-tiger"
+      ],
+      "start": "2008-04-27",
+      "end": "2008-09-14",
+      "days": 140,
+      "number": 3,
+      "event": "Sin Límite",
+      "location": "Zapopan, Jalisco, Mexico",
+      "note": "Aired May 4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "La Hermandad 187",
+      "people": [
+        "joe-lider",
+        "nicho-el-millonario"
+      ],
+      "start": "2008-09-14",
+      "end": "2010-03-19",
+      "days": 551,
+      "number": 4,
+      "event": "Sin Limite: Verano De Escándalo",
+      "location": "Zapopan, Jalisco, Mexico",
+      "note": "Four-way ladder match; recognized as 567 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "La Legión Extranjera",
+      "people": [
+        "taiji-ishimori",
+        "takeshi-morishima"
+      ],
+      "start": "2010-03-19",
+      "end": "2010-05-23",
+      "days": 65,
+      "number": 5,
+      "event": "Sin Límite",
+      "location": "Mexico City, D.F., Mexico",
+      "note": "Recognized as 48 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Atsushi Aoki & Go Shiozaki",
+      "people": [
+        "atsushi-aoki",
+        "go-shiozaki"
+      ],
+      "start": "2010-05-23",
+      "end": "2010-06-06",
+      "days": 14,
+      "number": 6,
+      "event": "NOAH Navigation with Breeze (Night 2)",
+      "location": "Niigata, Japan",
+      "note": "Recognized as 8 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Los Maniacos",
+      "people": [
+        "silver-king",
+        "ultimo-gladiador"
+      ],
+      "start": "2010-06-06",
+      "end": "2011-03-21",
+      "days": 288,
+      "number": 7,
+      "event": "Triplemanía XVIII",
+      "location": "Mexico City, D.F., Mexico",
+      "note": "Four-way elimination match; recognized as 315 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Extreme Tiger & Jack Evans",
+      "people": [
+        "extreme-tiger",
+        "jack-evans"
+      ],
+      "start": "2011-03-21",
+      "end": "2011-10-09",
+      "days": 202,
+      "number": 8,
+      "event": "Sin Límite",
+      "location": "León, Guanajuato, Mexico",
+      "note": "Recognized as 175 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r1",
+      "holder": "La Legión Extranjera",
+      "people": [
+        "chessman",
+        "abyss"
       ],
       "start": "2011-10-09",
       "end": "2012-10-07",
+      "days": 364,
+      "number": 9,
+      "event": "Héroes Inmortales V",
+      "location": "Monterrey, Nuevo León, Mexico",
+      "note": "Tables; Ladders; and Chairs match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-chessman-90"
       ]
     },
     {
-      "id": "r2",
-      "holder": "Pentagón Jr.",
+      "id": "r24",
+      "holder": "Joe Líder & Vampiro",
       "people": [
-        "penta"
+        "joe-lider",
+        "vampiro"
+      ],
+      "start": "2012-10-07",
+      "end": "2013-05-22",
+      "days": 227,
+      "number": 10,
+      "event": "Heroes Inmortales VI",
+      "location": "San Luis Potosí City, San Luis Potosí, Mexico",
+      "note": "Hardcore match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Mexican Powers",
+      "people": [
+        "crazy-boy",
+        "joe-lider"
+      ],
+      "start": "2013-06-16",
+      "end": "2013-10-18",
+      "days": 124,
+      "number": 11,
+      "event": "Triplemanía XXI",
+      "location": "Mexico City, D.F., Mexico",
+      "note": "Five-way elimination to win vacant title; recognized as 139 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Los Güeros del Cielo",
+      "people": [
+        "angelico",
+        "jack-evans"
+      ],
+      "start": "2013-10-18",
+      "end": "2014-12-07",
+      "days": 415,
+      "number": 12,
+      "event": "Sin Limite: Heroes Inmortales VII",
+      "location": "Puebla, Puebla, Mexico",
+      "note": "Four-way elimination match; recognized as 400 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r2",
+      "holder": "Los Perros del Mal",
+      "people": [
+        "penta",
+        "joe-lider"
       ],
       "start": "2014-12-07",
       "end": "2015-10-04",
+      "days": 301,
+      "number": 13,
+      "event": "Guerra de Titanes",
+      "location": "Zapopan, Jalisco, Mexico",
+      "note": "Three-way match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-penta-525"
       ]
     },
     {
-      "id": "r3",
-      "holder": "Chessman",
+      "id": "r27",
+      "holder": "Los Güeros del Cielo",
       "people": [
-        "chessman"
+        "angelico",
+        "jack-evans"
+      ],
+      "start": "2015-10-04",
+      "end": "2016-01-22",
+      "days": 110,
+      "number": 14,
+      "event": "Héroes Inmortales IX",
+      "location": "San Luis Potosí, San Luis Potosí, Mexico",
+      "note": "Three-way match; recognized as 118 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Los Hell Brothers",
+      "people": [
+        "chessman",
+        "averno"
       ],
       "start": "2016-01-22",
       "end": "2016-07-17",
+      "days": 177,
+      "number": 15,
+      "event": "Sin Limite: Guerra De Titanes",
+      "location": "Zapopan, Jalisco, Mexico",
+      "note": "Three-way elimination to win vacant title; recognized as 189 days",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-chessman-87"
       ]
     },
     {
+      "id": "r28",
+      "holder": "Los Güeros del Cielo",
+      "people": [
+        "angelico",
+        "jack-evans"
+      ],
+      "start": "2016-07-17",
+      "end": "2016-08-28",
+      "days": 42,
+      "number": 16,
+      "event": "Sin Límite",
+      "location": "Oaxaca City, Mexico",
+      "note": "Three-way match; recognized as 22 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r4",
-      "holder": "Drago & Aero Star",
+      "holder": "Aero Star & Drago",
       "people": [
         "aero-star",
         "drago"
       ],
       "start": "2016-08-28",
       "end": "2017-03-31",
+      "days": 215,
+      "number": 17,
+      "event": "Triplemanía XXIV",
+      "location": "Mexico City, D.F., Mexico",
+      "note": "Four-way match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-aero-star-3",
@@ -73,33 +492,85 @@
       ]
     },
     {
+      "id": "r29",
+      "holder": "Dark Family",
+      "people": [
+        "cuervo",
+        "scoria"
+      ],
+      "start": "2017-03-31",
+      "end": "2017-05-26",
+      "days": 56,
+      "number": 18,
+      "event": "AAA",
+      "location": "Ciudad Nezahualcóyotl, Mexico",
+      "note": "Title change",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r5",
       "holder": "El Mesías & Pagano",
       "people": [
-        "el-mesias"
+        "el-mesias",
+        "pagano"
       ],
       "start": "2017-05-26",
       "end": "2017-06-04",
+      "days": 9,
+      "number": 19,
+      "event": "AAA",
+      "location": "Mexico City, Mexico",
+      "note": "Title change",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
       ],
       "legacyIds": [
-        "profile-reign-el-mesias-233"
+        "profile-reign-el-mesias-233",
+        "profile-reign-pagano-510"
       ]
     },
     {
+      "id": "r30",
+      "holder": "Dark Family",
+      "people": [
+        "cuervo",
+        "scoria"
+      ],
+      "start": "2017-06-04",
+      "end": "2017-08-26",
+      "days": 83,
+      "number": 20,
+      "event": "Verano de Escándalo",
+      "location": "Ciudad Juarez, Chihuahua, Mexico",
+      "note": "Four-way tag match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r6",
-      "holder": "Monster Clown & Murder Clown",
+      "holder": "Los Totalmente Traidores",
       "people": [
         "monster-clown",
         "murder-clown"
       ],
       "start": "2017-08-26",
       "end": "2017-12-16",
+      "days": 112,
+      "number": 21,
+      "event": "Triplemanía XXV",
+      "location": "Mexico City, Mexico",
+      "note": "Four-way tag match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-monster-clown-438",
@@ -107,16 +578,42 @@
       ]
     },
     {
-      "id": "r7",
-      "holder": "El Texano Jr.",
+      "id": "r31",
+      "holder": "Dark Family",
       "people": [
-        "el-texano-jr"
+        "cuervo",
+        "scoria"
+      ],
+      "start": "2017-12-16",
+      "end": "2018-03-25",
+      "days": 99,
+      "number": 22,
+      "event": "AAA",
+      "location": "Apizaco, Tlaxcala, Mexico",
+      "note": "Three-way tag match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Los Mercenarios",
+      "people": [
+        "el-texano-jr",
+        "rey-escorpion"
       ],
       "start": "2018-03-25",
       "end": "2019-03-16",
+      "days": 356,
+      "number": 23,
+      "event": "AAA",
+      "location": "Monterrey, Nuevo León, Mexico",
+      "note": "Title change",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-el-texano-jr-243"
@@ -124,16 +621,22 @@
     },
     {
       "id": "r8",
-      "holder": "Rey Fénix & Pentagón Jr.",
+      "holder": "Los Lucha Bros",
       "people": [
         "penta",
         "rey-fenix"
       ],
       "start": "2019-03-16",
       "end": "2019-03-16",
+      "days": 0,
+      "number": 24,
+      "event": "Rey de Reyes",
+      "location": "Puebla, Puebla, Mexico",
+      "note": "Shortest reign in title history",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-penta-516",
@@ -141,17 +644,42 @@
       ]
     },
     {
+      "id": "r32",
+      "holder": "The Young Bucks",
+      "people": [
+        "matt-jackson",
+        "nick-jackson"
+      ],
+      "start": "2019-03-16",
+      "end": "2019-06-16",
+      "days": 92,
+      "number": 25,
+      "event": "Rey de Reyes",
+      "location": "Puebla, Puebla, Mexico",
+      "note": "Title change",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r9",
-      "holder": "Rey Fénix & Pentagón Jr.",
+      "holder": "Los Lucha Bros",
       "people": [
         "penta",
         "rey-fenix"
       ],
       "start": "2019-06-16",
       "end": "2021-10-16",
+      "days": 853,
+      "number": 26,
+      "event": "Verano de Escándalo",
+      "location": "Merida, Yucatan, Mexico",
+      "note": "Longest reign in title history; defended as Rey Fénix and Penta El Zero M",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-penta-515",
@@ -159,33 +687,84 @@
       ]
     },
     {
-      "id": "r10",
-      "holder": "Dragon Lee & Dralístico",
+      "id": "r33",
+      "holder": "FTR",
       "people": [
-        "dragon-lee"
+        "scott-dawson",
+        "dash-wilder"
+      ],
+      "start": "2021-10-16",
+      "end": "2022-12-28",
+      "days": 438,
+      "number": 27,
+      "event": "Dynamite: Saturday Night Dynamite",
+      "location": "Miami, Florida, U.S.",
+      "note": "Won as Las Super Ranas; then revealed as FTR",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Los Hermanos Lee",
+      "people": [
+        "dragon-lee",
+        "dralistico"
       ],
       "start": "2022-12-28",
       "end": "2022-12-28",
+      "days": 0,
+      "number": 28,
+      "event": "Noche de Campeones",
+      "location": "Acapulco, Guerrero, Mexico",
+      "note": "Dragon Lee later signed with WWE",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-dragon-lee-185"
       ]
     },
     {
+      "id": "r34",
+      "holder": "Arez & Komander",
+      "people": [
+        "arez",
+        "komander"
+      ],
+      "start": "2023-05-20",
+      "end": "2023-11-19",
+      "days": 183,
+      "number": 29,
+      "event": "AAA",
+      "location": "Morelia, Michoacán, Mexico",
+      "note": "Three-way match to win vacant titles; recognized as 189 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r11",
-      "holder": "Sansón & Forastero",
+      "holder": "Nueva Generación Dinamita",
       "people": [
         "forastero",
         "sanson"
       ],
       "start": "2023-11-19",
       "end": "2024-06-11",
+      "days": 205,
+      "number": 30,
+      "event": "Guerra de Titanes",
+      "location": "Ciudad Juárez, Chihuahua, Mexico",
+      "note": "Recognized as 199 days",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-forastero-294",
@@ -196,34 +775,156 @@
       "id": "r12",
       "holder": "Negro Casas & Psycho Clown",
       "people": [
-        "negro-casas"
+        "negro-casas",
+        "psycho-clown"
       ],
       "start": "2024-06-11",
       "end": "2024-08-17",
+      "days": 67,
+      "number": 31,
+      "event": "Origenes",
+      "location": "Ciudad Juárez, Chihuahua, Mexico",
+      "note": "Title change",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
       ],
       "legacyIds": [
-        "profile-reign-negro-casas-476"
+        "profile-reign-negro-casas-476",
+        "profile-reign-psycho-clown-541"
       ]
     },
     {
+      "id": "r35",
+      "holder": "Team India",
+      "people": [
+        "jinder-mahal",
+        "satnam-singh"
+      ],
+      "start": "2024-08-17",
+      "end": "2025-03-19",
+      "days": 214,
+      "number": 32,
+      "event": "Triplemanía XXXII: Mexico City",
+      "location": "Mexico City, Mexico",
+      "note": "Three-way tag match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r13",
-      "holder": "Sansón & Forastero",
+      "holder": "Nueva Generación Dinamita",
       "people": [
         "forastero",
         "sanson"
       ],
       "start": "2025-03-22",
       "end": "2025-06-15",
+      "days": 85,
+      "number": 33,
+      "event": "Rey de Reyes",
+      "location": "Mexico City, Mexico",
+      "note": "Three-way match to win vacant titles",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-forastero-293",
         "profile-reign-sanson-723"
+      ]
+    },
+    {
+      "id": "r36",
+      "holder": "Los Garza",
+      "people": [
+        "angel",
+        "berto"
+      ],
+      "start": "2025-06-15",
+      "end": "2025-08-16",
+      "days": 62,
+      "number": 34,
+      "event": "Triplemanía Regia III",
+      "location": "Monterrey, Nuevo Leon, Mexico",
+      "note": "Four-way tag match",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": [
+        "profile-reign-angel-31",
+        "profile-reign-berto-51"
+      ]
+    },
+    {
+      "id": "r37",
+      "holder": "Pagano & Psycho Clown",
+      "people": [
+        "pagano",
+        "psycho-clown"
+      ],
+      "start": "2025-08-16",
+      "end": "2026-05-30",
+      "days": 287,
+      "number": 35,
+      "event": "Triplemanía XXXIII",
+      "location": "Azcapotzalco, Mexico City, Mexico",
+      "note": "Street fight",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": [
+        "profile-reign-pagano-509",
+        "profile-reign-psycho-clown-539"
+      ]
+    },
+    {
+      "id": "r38",
+      "holder": "War Raiders",
+      "people": [
+        "erik",
+        "ivar"
+      ],
+      "start": "2026-05-30",
+      "end": "2026-09-13",
+      "days": 105,
+      "number": 35,
+      "event": "Noche de Los Grandes",
+      "location": "Monterrey, Nuevo León, Mexico",
+      "note": "Current champions",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship"
+      ],
+      "legacyIds": [
+        "profile-reign-erik-252",
+        "profile-reign-ivar-313"
+      ]
+    },
+    {
+      "id": "r39",
+      "holder": "El Hijo de Dr. Wagner Jr. & Galeno",
+      "people": [
+        "el-hijo-de-dr-wagner-jr",
+        "galeno"
+      ],
+      "start": "2026-09-13",
+      "dateNote": "Listed as ongoing in the profile source; shown through the archive date.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-tag-team-championship"
+      ],
+      "legacyIds": [
+        "profile-reign-el-hijo-de-dr-wagner-jr-218",
+        "profile-reign-galeno-299"
       ]
     }
   ]

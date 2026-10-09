@@ -1,11 +1,124 @@
 {
   "id": "fcw-florida-heavyweight-championship",
   "name": "FCW Florida Heavyweight Championship",
-  "names": [
-    "FCW Florida Heavyweight Championship"
+  "promotion": "wwe",
+  "division": "men",
+  "format": "singles",
+  "established": "2008-02-15",
+  "retired": "2012-08-14",
+  "names": [],
+  "eras": [
+    {
+      "name": "FCW Florida Heavyweight Championship",
+      "from": "2008-02-15"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "2008-03-22",
+      "kind": "absorbed",
+      "text": "Hager beat Heath Miller to unify the two titles and retire the FCW Southern Heavyweight Championship.",
+      "related": [
+        "FCW Southern Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2012-08-14",
+      "kind": "retired",
+      "text": "Title retired when FCW closed down.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2012-08",
+      "kind": "replaced-by",
+      "text": "The NXT Championship replaced this title as the new farm territory championship when FCW closed.",
+      "related": [
+        "NXT Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r3",
+      "holder": "Jake Hager",
+      "people": [
+        "jake-hager"
+      ],
+      "start": "2008-02-15",
+      "end": "2008-09-18",
+      "days": 216,
+      "number": 1,
+      "event": "Live event",
+      "location": "Tampa, FL",
+      "note": "Won 23-man battle royal over Ted DiBiase Jr.; unified with FCW Southern Heavyweight Title 2008-03-22",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Sheamus O'Shaunessy",
+      "people": [
+        "sheamus"
+      ],
+      "start": "2008-09-18",
+      "end": "2008-12-11",
+      "days": 84,
+      "number": 2,
+      "event": "Live event",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Eric Escobar",
+      "people": [
+        "eric-escobar"
+      ],
+      "start": "2008-12-11",
+      "end": "2009-02-26",
+      "days": 77,
+      "number": 3,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "note": "Fatal Four-Way Match also including Drew McIntyre and Joe Hennig",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Joe Hennig",
+      "people": [
+        "joe-hennig"
+      ],
+      "start": "2009-02-26",
+      "end": "2009-03-19",
+      "days": 21,
+      "number": 4,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Drew McIntyre",
@@ -14,13 +127,213 @@
       ],
       "start": "2009-03-19",
       "end": "2009-06-11",
+      "days": 84,
+      "number": 5,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "note": "Defeated Eric Escobar to win the vacant championship",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/fcw-florida-heavyweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/fcw-florida-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-drew-mcintyre-209"
       ]
+    },
+    {
+      "id": "r7",
+      "holder": "Tyler Reks",
+      "people": [
+        "tyler-reks"
+      ],
+      "start": "2009-06-11",
+      "end": "2009-08-13",
+      "days": 63,
+      "number": 6,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Heath Miller",
+      "people": [
+        "heath-slater"
+      ],
+      "start": "2009-08-13",
+      "end": "2009-09-24",
+      "days": 42,
+      "number": 7,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Justin Angel",
+      "people": [
+        "justin-gabriel"
+      ],
+      "start": "2009-09-24",
+      "end": "2010-03-18",
+      "days": 175,
+      "number": 8,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "note": "Two out of three falls match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Alex Riley",
+      "people": [
+        "alex-riley"
+      ],
+      "start": "2010-03-18",
+      "end": "2010-07-22",
+      "days": 126,
+      "number": 9,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "note": "Three-way match, also involving Wade Barrett",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Mason Ryan",
+      "people": [
+        "mason-ryan"
+      ],
+      "start": "2010-07-22",
+      "end": "2011-02-03",
+      "days": 196,
+      "number": 10,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "note": "Three-way match, also involving Johnny Curtis",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Bo Rotundo",
+      "people": [
+        "uncle-howdy"
+      ],
+      "start": "2011-02-03",
+      "end": "2011-02-03",
+      "days": 0,
+      "number": 11,
+      "event": "March of Champions",
+      "location": "Tampa, FL",
+      "note": "Norman Smiley was special guest referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Lucky Cannon",
+      "people": [
+        "lucky-cannon"
+      ],
+      "start": "2011-02-03",
+      "end": "2011-05-19",
+      "days": 105,
+      "number": 12,
+      "event": "March of Champions",
+      "location": "Tampa, FL",
+      "note": "Brett DiBiase was special guest referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Bo Rotundo",
+      "people": [
+        "uncle-howdy"
+      ],
+      "start": "2011-05-19",
+      "end": "2011-09-01",
+      "days": 105,
+      "number": 13,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "note": "Brett DiBiase was special guest referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Leo Kruger",
+      "people": [
+        "leo-kruger"
+      ],
+      "start": "2011-09-01",
+      "end": "2012-02-02",
+      "days": 154,
+      "number": 14,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "note": "Fatal-four-way match, also involving Damien Sandow, Dean Ambrose and Husky Harris",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Mike Dalton",
+      "people": [
+        "mike-dalton"
+      ],
+      "start": "2012-02-02",
+      "end": "2012-02-23",
+      "days": 21,
+      "number": 15,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Leo Kruger",
+      "people": [
+        "leo-kruger"
+      ],
+      "start": "2012-02-23",
+      "end": "2012-02-23",
+      "days": 0,
+      "number": 16,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r2",
@@ -30,13 +343,86 @@
       ],
       "start": "2012-02-23",
       "end": "2012-05-31",
+      "days": 98,
+      "number": 17,
+      "event": "FCW",
+      "location": "Tampa, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/fcw-florida-heavyweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/fcw-florida-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-seth-rollins-747"
       ]
+    },
+    {
+      "id": "r18",
+      "holder": "Rick Victor",
+      "people": [
+        "viktor"
+      ],
+      "start": "2012-05-31",
+      "end": "2012-05-31",
+      "days": 0,
+      "number": 18,
+      "event": "Live event",
+      "location": "Crystal River, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Bo Dallas",
+      "people": [
+        "uncle-howdy"
+      ],
+      "start": "2012-05-31",
+      "end": "2012-07-13",
+      "days": 43,
+      "number": 19,
+      "event": "Live event",
+      "location": "Crystal River, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Rick Victor",
+      "people": [
+        "viktor"
+      ],
+      "start": "2012-07-13",
+      "end": "2012-07-20",
+      "days": 7,
+      "number": 20,
+      "event": "Live event",
+      "location": "Punta Gorda, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Richie Steamboat",
+      "people": [
+        "richie-steamboat"
+      ],
+      "start": "2012-07-20",
+      "end": "2012-08-14",
+      "days": 25,
+      "number": 21,
+      "event": "Live event",
+      "location": "St. Augustine, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Heavyweight_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

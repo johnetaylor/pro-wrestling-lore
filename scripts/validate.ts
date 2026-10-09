@@ -89,9 +89,23 @@ for (const file of listFiles(join(dir, 'titles'))) {
     if (ids.has(r.id)) fail(`${t.id}: duplicate reign id ${r.id}`);
     ids.add(r.id);
     if (!isDate(r.start)) fail(`${t.id}#${r.id}: bad start`);
-    if (r.end && (!isDate(r.end) || r.end < r.start)) fail(`${t.id}#${r.id}: bad or reversed end`);
+    // Partial dates ("1960-07") compare on the part they share with the other date.
+    const shared = r.end ? Math.min(r.end.length, r.start.length) : 0;
+    if (r.end && (!isDate(r.end) || r.end.slice(0, shared) < r.start.slice(0, shared))) fail(`${t.id}#${r.id}: bad or reversed end`);
     for (const p of r.people) if (!people.has(p)) fail(`${t.id}#${r.id}: unknown person ${p}`);
+    if (!r.people.length && !r.unlinked?.length) fail(`${t.id}#${r.id}: no holder`);
+    if (r.kind && !['interim', 'unrecognized'].includes(r.kind)) fail(`${t.id}#${r.id}: unknown kind ${r.kind}`);
+    if (r.number !== undefined && !(Number.isInteger(r.number) && r.number > 0)) fail(`${t.id}#${r.id}: bad reign number`);
     if (!r.sources.length) warn(`${t.id}#${r.id}: no sources`);
+  }
+  if (t.promotion && !promotionIds.has(t.promotion)) fail(`${t.id}: unknown promotion ${t.promotion}`);
+  if (t.division && !['men', 'women', 'mixed'].includes(t.division)) fail(`${t.id}: unknown division ${t.division}`);
+  if (t.format && !['singles', 'tag', 'trios'].includes(t.format)) fail(`${t.id}: unknown format ${t.format}`);
+  for (const d of [t.established, t.retired]) if (d && !isDate(d)) fail(`${t.id}: bad established or retired date`);
+  for (const e of t.eras ?? []) if (!e.name || !isDate(e.from) || (e.to && !isDate(e.to))) fail(`${t.id}: bad era ${e.name}`);
+  for (const e of t.history ?? []) {
+    if (!isDate(e.date)) fail(`${t.id}: history event with a bad date`);
+    if (!e.sources?.length) fail(`${t.id}: history event ${e.date} has no source`);
   }
   titles.set(t.id, t);
 }

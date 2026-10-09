@@ -1,12 +1,123 @@
 {
   "id": "wwe-universal-championship",
   "name": "Universal Championship",
+  "promotion": "wwe",
+  "division": "men",
+  "format": "singles",
+  "established": "2016-07-25",
+  "retired": "2024-04-07",
   "names": [
-    "Universal Championship",
-    "WWE Universal Championship"
+    "WWE Universal Championship",
+    "Undisputed WWE Universal Championship",
+    "Undisputed WWE Championship (used for the continuing WWE Championship lineage after the Universal Championship was retired)"
+  ],
+  "eras": [
+    {
+      "name": "WWE Universal Championship",
+      "from": "2016-07-25",
+      "to": "2022-04-03"
+    },
+    {
+      "name": "Undisputed WWE Universal Championship",
+      "from": "2022-04-03",
+      "to": "2024-04-07"
+    }
+  ],
+  "history": [
+    {
+      "date": "2016-07-19",
+      "kind": "split",
+      "text": "The 2016 draft reintroduced the brand split and made the WWE Championship exclusive to SmackDown.",
+      "related": [
+        "WWE Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
+      ]
+    },
+    {
+      "date": "2019-10-31",
+      "kind": "brand",
+      "text": "Bray Wyatt won the title at Crown Jewel, moving it to SmackDown.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
+      ]
+    },
+    {
+      "date": "2019-11-01",
+      "kind": "brand",
+      "text": "Brock Lesnar quit SmackDown, taking the WWE Championship to Raw.",
+      "related": [
+        "WWE Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
+      ]
+    },
+    {
+      "date": "2022-04-03",
+      "kind": "unified-into",
+      "text": "Roman Reigns beat Brock Lesnar at WrestleMania 38 Night 2 to become Undisputed champion, though both lineages stayed separate despite being billed as a unification.",
+      "related": [
+        "WWE Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
+      ]
+    },
+    {
+      "date": "2023-04-28",
+      "kind": "brand",
+      "text": "Reigns was drafted to SmackDown, making the undisputed titles SmackDown-exclusive, and a new World Heavyweight Championship was assigned to Raw.",
+      "related": [
+        "World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
+      ]
+    },
+    {
+      "date": "2023-06-02",
+      "kind": "replaced-by",
+      "text": "A new single Undisputed WWE Universal Championship belt was presented to Reigns on SmackDown.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
+      ]
+    },
+    {
+      "date": "2024-04-07",
+      "kind": "deactivated",
+      "text": "The Universal Championship was decommissioned after Reigns lost to Cody Rhodes at WrestleMania XL Night 2, while the WWE Championship lineage continued.",
+      "related": [
+        "WWE Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
+      ]
+    },
+    {
+      "date": "2025-04-21",
+      "kind": "retired",
+      "text": "The title history was amended to remove Rhodes and retire the Universal Championship with Reigns as final champion, following Rhodes's loss to John Cena at WrestleMania 41.",
+      "related": [
+        "WWE Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
+      ]
+    },
+    {
+      "date": "2025-04-21",
+      "kind": "recognition",
+      "text": "Rhodes was initially listed as the final champion, but WWE later removed him from the title history and recognized Reigns instead.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
+      ]
+    }
   ],
   "sources": [
-    "https://www.wwe.com/titlehistory/universal-championship"
+    "https://www.wwe.com/titlehistory/universal-championship",
+    "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
   ],
   "reigns": [
     {
@@ -17,9 +128,15 @@
       ],
       "start": "2016-08-21",
       "end": "2016-08-22",
+      "days": 0,
+      "number": 1,
+      "event": "SummerSlam",
+      "location": "Brooklyn, NY",
+      "note": "Inaugural champion; pinfall and submission-only match; vacated next day",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-universal-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-universal-championship",
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
       ],
       "legacyIds": [
         "profile-reign-finn-balor-277"
@@ -33,13 +150,53 @@
       ],
       "start": "2016-08-29",
       "end": "2017-03-05",
+      "days": 188,
+      "number": 2,
+      "event": "Raw",
+      "location": "Houston, TX",
+      "note": "Won a fatal four-way elimination match for the vacant title",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-universal-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-universal-championship",
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
       ],
       "legacyIds": [
         "profile-reign-kevin-owens-376"
       ]
+    },
+    {
+      "id": "r7",
+      "holder": "Goldberg",
+      "people": [
+        "goldberg"
+      ],
+      "start": "2017-03-05",
+      "end": "2017-04-02",
+      "days": 28,
+      "number": 3,
+      "event": "Fastlane",
+      "location": "Milwaukee, WI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Brock Lesnar",
+      "people": [
+        "brock-lesnar"
+      ],
+      "start": "2017-04-02",
+      "end": "2018-08-19",
+      "days": 504,
+      "number": 4,
+      "event": "WrestleMania 33",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r3",
@@ -49,13 +206,36 @@
       ],
       "start": "2018-08-19",
       "end": "2018-10-22",
+      "days": 64,
+      "number": 5,
+      "event": "SummerSlam",
+      "location": "Brooklyn, NY",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-universal-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-universal-championship",
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
       ],
       "legacyIds": [
         "profile-reign-roman-reigns-693"
       ]
+    },
+    {
+      "id": "r9",
+      "holder": "Brock Lesnar",
+      "people": [
+        "brock-lesnar"
+      ],
+      "start": "2018-11-02",
+      "end": "2019-04-07",
+      "days": 156,
+      "number": 6,
+      "event": "Crown Jewel",
+      "location": "Riyadh, Saudi Arabia",
+      "note": "Originally a triple threat; became a singles match for the vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r4",
@@ -65,13 +245,36 @@
       ],
       "start": "2019-04-07",
       "end": "2019-07-14",
+      "days": 98,
+      "number": 7,
+      "event": "WrestleMania 35",
+      "location": "East Rutherford, NJ",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-universal-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-universal-championship",
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
       ],
       "legacyIds": [
         "profile-reign-seth-rollins-736"
       ]
+    },
+    {
+      "id": "r10",
+      "holder": "Brock Lesnar",
+      "people": [
+        "brock-lesnar"
+      ],
+      "start": "2019-07-14",
+      "end": "2019-08-11",
+      "days": 28,
+      "number": 8,
+      "event": "Extreme Rules",
+      "location": "Philadelphia, PA",
+      "note": "Lesnar's Money in the Bank cash-in match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r5",
@@ -81,13 +284,89 @@
       ],
       "start": "2019-08-11",
       "end": "2019-10-31",
+      "days": 81,
+      "number": 9,
+      "event": "SummerSlam",
+      "location": "Toronto, ON, Canada",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-universal-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-universal-championship",
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
       ],
       "legacyIds": [
         "profile-reign-seth-rollins-735"
       ]
+    },
+    {
+      "id": "r11",
+      "holder": "\"The Fiend\" Bray Wyatt",
+      "people": [
+        "bray-wyatt"
+      ],
+      "start": "2019-10-31",
+      "days": 119,
+      "number": 10,
+      "event": "Crown Jewel",
+      "location": "Riyadh, Saudi Arabia",
+      "note": "Falls Count Anywhere match with no stoppage; title moved to SmackDown",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Goldberg",
+      "people": [
+        "goldberg"
+      ],
+      "start": "2020-02-27",
+      "end": "2020-03-25",
+      "days": 27,
+      "number": 11,
+      "event": "Super ShowDown",
+      "location": "Riyadh, Saudi Arabia",
+      "note": "WWE recognizes reign ending 2020-04-04 when the match aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Braun Strowman",
+      "people": [
+        "braun-strowman"
+      ],
+      "start": "2020-03-25",
+      "end": "2020-08-23",
+      "days": 150,
+      "number": 12,
+      "event": "WrestleMania 36 Part 1",
+      "location": "Orlando, FL",
+      "note": "Taped March 25 or 26; WWE recognizes start as 2020-04-04 (tape delay)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "\"The Fiend\" Bray Wyatt",
+      "people": [
+        "bray-wyatt"
+      ],
+      "start": "2020-08-23",
+      "end": "2020-08-30",
+      "days": 7,
+      "number": 13,
+      "event": "SummerSlam",
+      "location": "Orlando, FL",
+      "note": "Falls Count Anywhere match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r6",
@@ -97,13 +376,37 @@
       ],
       "start": "2020-08-30",
       "end": "2024-04-07",
+      "days": 1316,
+      "number": 14,
+      "event": "Payback",
+      "location": "Orlando, FL",
+      "note": "No Holds Barred triple threat; Reigns pinned Strowman; later unified with WWE Championship",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-universal-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-universal-championship",
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
       ],
       "legacyIds": [
         "profile-reign-roman-reigns-692"
       ]
+    },
+    {
+      "id": "r15",
+      "holder": "Cody Rhodes",
+      "people": [
+        "cody-rhodes"
+      ],
+      "start": "2024-04-07",
+      "end": "2025-04-20",
+      "days": 378,
+      "kind": "unrecognized",
+      "event": "WrestleMania XL Night 2",
+      "location": "Philadelphia, PA",
+      "note": "Bloodline Rules match; later removed from official history in 2025",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Universal_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

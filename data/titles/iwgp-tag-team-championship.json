@@ -1,71 +1,1503 @@
 {
   "id": "iwgp-tag-team-championship",
   "name": "IWGP Tag Team Championship",
-  "names": [
-    "IWGP Tag Team Championship"
+  "promotion": "njpw",
+  "division": "men",
+  "format": "tag",
+  "established": "1985-12-12",
+  "names": [],
+  "eras": [
+    {
+      "name": "IWGP Tag Team Championship",
+      "from": "1985-12-12"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "2005",
+      "kind": "promotion",
+      "text": "Contested in Mexico's CMLL promotion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2006-07-02",
+      "kind": "interim",
+      "text": "Interim tag title created after Tenzan and Chono showed signs of inactivity; Koshinaka and Makabe became the first interim champions.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2006-07-17",
+      "kind": "interim",
+      "text": "Manabu Nakanishi and Takao Omori defeated Koshinaka and Makabe to become interim champions.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2006-09-20",
+      "kind": "recognition",
+      "text": "NJPW president Simon Kelly Inoki stripped Tenzan and Chono after they ceased teaming.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2006-09-28",
+      "kind": "recognition",
+      "text": "NJPW recognized Nakanishi and Omori as IWGP Tag Team Champions.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2009-07-21",
+      "kind": "recognition",
+      "text": "The British Invasion beat Team 3D at a TNA taping; NJPW did not sanction or recognize the title change.",
+      "related": [
+        "Team 3D"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2009-08-10",
+      "kind": "recognition",
+      "text": "NJPW recognized The British Invasion (Brutus Magnus and Doug Williams) as the current champions, making the reign official.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Tag_Team_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions",
+    "https://en.wikipedia.org/wiki/IWGP_Tag_Team_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r15",
+      "holder": "Kengo Kimura & Tatsumi Fujinami",
+      "people": [
+        "kengo-kimura",
+        "tatsumi-fujinami"
+      ],
+      "start": "1985-12-12",
+      "end": "1986-08-05",
+      "days": 236,
+      "number": 1,
+      "event": "IWGP Tag Team League",
+      "location": "Sendai, Japan",
+      "note": "Won tournament final over Inoki and Sakaguchi",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Akira Maeda & Osamu Kido",
+      "people": [
+        "akira-maeda",
+        "osamu-kido"
+      ],
+      "start": "1986-08-05",
+      "end": "1986-09-23",
+      "days": 49,
+      "number": 2,
+      "event": "Burning Spirit in Summer",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Kengo Kimura & Tatsumi Fujinami",
+      "people": [
+        "kengo-kimura",
+        "tatsumi-fujinami"
+      ],
+      "start": "1986-09-23",
+      "end": "1987-02-05",
+      "days": 135,
+      "number": 3,
+      "event": "Challenge Spirit 1986",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Keiji Muto & Shiro Koshinaka",
+      "people": [
+        "keiji-muto",
+        "shiro-koshinaka"
+      ],
+      "start": "1987-03-20",
+      "end": "1987-03-26",
+      "days": 6,
+      "number": 4,
+      "event": "Spring Flare Up 1987",
+      "location": "Tokyo, Japan",
+      "note": "Won tournament final to take vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Akira Maeda & Nobuhiko Takada",
+      "people": [
+        "akira-maeda",
+        "nobuhiko-takada"
+      ],
+      "start": "1987-03-26",
+      "end": "1987-09-01",
+      "days": 159,
+      "number": 5,
+      "event": "Inoki Toukon Live II",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Kazuo Yamazaki & Yoshiaki Fujiwara",
+      "people": [
+        "kazuo-yamazaki",
+        "yoshiaki-fujiwara"
+      ],
+      "start": "1987-09-01",
+      "end": "1988-01-18",
+      "days": 139,
+      "number": 6,
+      "event": "Sengoku Battle Series 1987",
+      "location": "Fukuoka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Kengo Kimura & Tatsumi Fujinami",
+      "people": [
+        "kengo-kimura",
+        "tatsumi-fujinami"
+      ],
+      "start": "1988-01-18",
+      "end": "1988-06-10",
+      "days": 144,
+      "number": 7,
+      "event": "New Year Golden Series 1988",
+      "location": "Takuyama, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Masa Saito & Riki Choshu",
+      "people": [
+        "masa-saito",
+        "riki-choshu"
+      ],
+      "start": "1988-06-10",
+      "end": "1989-03-16",
+      "days": 279,
+      "number": 8,
+      "event": "IWGP Champion Series 1988",
+      "location": "Hiroshima, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "George Takano & Super Strong Machine",
+      "people": [
+        "george-takano",
+        "super-strong-machine"
+      ],
+      "start": "1989-03-16",
+      "end": "1989-07-13",
+      "days": 119,
+      "number": 9,
+      "event": "Big Fight Series",
+      "location": "Yokohama, Japan",
+      "note": "Won by countout",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Riki Choshu & Takayuki Iizuka",
+      "people": [
+        "riki-choshu",
+        "takayuki-iizuka"
+      ],
+      "start": "1989-07-13",
+      "end": "1989-09-20",
+      "days": 69,
+      "number": 10,
+      "event": "Super Fight Series",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Masa Saito & Shinya Hashimoto",
+      "people": [
+        "masa-saito",
+        "shinya-hashimoto"
+      ],
+      "start": "1989-09-20",
+      "end": "1990-04-27",
+      "days": 219,
+      "number": 11,
+      "event": "Bloody Fight Series 1989: Super Power Battle in Osaka",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Keiji Muto & Masahiro Chono",
+      "people": [
+        "keiji-muto",
+        "masahiro-chono"
+      ],
+      "start": "1990-04-27",
+      "end": "1990-11-01",
+      "days": 188,
+      "number": 12,
+      "event": "Shintou Station Bay NK",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Hiroshi Hase & Kensuke Sasaki",
+      "people": [
+        "hiroshi-hase",
+        "kensuke-sasaki"
+      ],
+      "start": "1990-11-01",
+      "end": "1990-12-26",
+      "days": 55,
+      "number": 13,
+      "event": "Dream Tour 1990",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Hiro Saito & Super Strong Machine",
+      "people": [
+        "hiro-saito",
+        "super-strong-machine"
+      ],
+      "start": "1990-12-26",
+      "end": "1991-03-06",
+      "days": 70,
+      "number": 14,
+      "event": "King of Kings",
+      "location": "Hamamatsu, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "Hiroshi Hase & Kensuke Sasaki",
+      "people": [
+        "hiroshi-hase",
+        "kensuke-sasaki"
+      ],
+      "start": "1991-03-06",
+      "end": "1991-03-21",
+      "days": 15,
+      "number": 15,
+      "event": "Big Fight Series 1991",
+      "location": "Nagasaki, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "The Steiner Brothers",
+      "people": [
+        "rick-steiner",
+        "scott-steiner"
+      ],
+      "start": "1991-03-21",
+      "end": "1991-11-05",
+      "days": 229,
+      "number": 16,
+      "event": "Starrcade 1991 in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "note": "WCW tag title also on the line",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "Hiroshi Hase & Keiji Muto",
+      "people": [
+        "hiroshi-hase",
+        "keiji-muto"
+      ],
+      "start": "1991-11-05",
+      "end": "1992-03-01",
+      "days": 117,
+      "number": 17,
+      "event": "Tokyo 3Days Battle",
+      "location": "Tokyo, Japan",
+      "note": "Scott Norton replaced injured Scott Steiner",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Big, Bad, and Dangerous",
+      "people": [
+        "vader",
+        "bam-bam-bigelow"
+      ],
+      "start": "1992-03-01",
+      "end": "1992-06-26",
+      "days": 117,
+      "number": 18,
+      "event": "Big Fight Series 1992: New Japan Pro-Wrestling 20th Anniversary Show",
+      "location": "Yokohama, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "The Steiner Brothers",
+      "people": [
+        "rick-steiner",
+        "scott-steiner"
+      ],
+      "start": "1992-06-26",
+      "end": "1992-11-22",
+      "days": 149,
+      "number": 19,
+      "event": "Masters of Wrestling",
+      "location": "Tokyo, Japan",
+      "note": "WCW tag title also on the line",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Scott Norton & Tony Halme",
+      "people": [
+        "scott-norton",
+        "tony-halme"
+      ],
+      "start": "1992-11-22",
+      "end": "1992-12-14",
+      "days": 22,
+      "number": 20,
+      "event": "Wrestling Scramble 1992: Battle Zone Space I",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "The Hell Raisers",
+      "people": [
+        "road-warrior-hawk",
+        "kensuke-sasaki"
+      ],
+      "start": "1992-12-14",
+      "end": "1993-08-05",
+      "days": 234,
+      "number": 21,
+      "event": "Battle Final 1992",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "The Jurassic Powers",
+      "people": [
+        "hercules",
+        "scott-norton"
+      ],
+      "start": "1993-08-05",
+      "end": "1994-01-04",
+      "days": 152,
+      "number": 22,
+      "event": "G1 Climax 1993",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "The Hell Raisers",
+      "people": [
+        "road-warrior-hawk",
+        "kensuke-sasaki"
+      ],
+      "start": "1994-01-04",
+      "end": "1994-11-25",
+      "days": 325,
+      "number": 23,
+      "event": "Battlefield",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r38",
+      "holder": "Hiroshi Hase & Keiji Muto",
+      "people": [
+        "hiroshi-hase",
+        "keiji-muto"
+      ],
+      "start": "1994-11-25",
+      "end": "1995-05-06",
+      "days": 162,
+      "number": 24,
+      "event": "Battle Final 1994",
+      "location": "Iwate, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "Cho-Ten",
+      "people": [
+        "hiroyoshi-tenzan",
+        "masahiro-chono"
+      ],
+      "start": "1995-06-12",
+      "end": "1995-07-07",
+      "days": 25,
+      "number": 25,
+      "event": "Fighting Spirit Legend",
+      "location": "Osaka, Japan",
+      "note": "Won vacant title over Hirata and Hashimoto",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "Junji Hirata & Shinya Hashimoto",
+      "people": [
+        "junji-hirata",
+        "shinya-hashimoto"
+      ],
+      "start": "1995-07-13",
+      "end": "1996-06-12",
+      "days": 335,
+      "number": 26,
+      "event": "Best of the Super Jr. II",
+      "location": "Sapporo, Japan",
+      "note": "Won vacant title over Enos and Norton",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "Kazuo Yamazaki & Takashi Iizuka",
+      "people": [
+        "kazuo-yamazaki",
+        "takashi-iizuka"
+      ],
+      "start": "1996-06-12",
+      "end": "1996-07-16",
+      "days": 34,
+      "number": 27,
+      "event": "Best of the Super Jr. III",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Cho-Ten",
+      "people": [
+        "hiroyoshi-tenzan",
+        "masahiro-chono"
+      ],
+      "start": "1996-07-16",
+      "end": "1997-01-04",
+      "days": 172,
+      "number": 28,
+      "event": "Summer Struggle 1996",
+      "location": "Sapporo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "Kengo Kimura & Tatsumi Fujinami",
+      "people": [
+        "kengo-kimura",
+        "tatsumi-fujinami"
+      ],
+      "start": "1997-01-04",
+      "end": "1997-04-12",
+      "days": 98,
+      "number": 29,
+      "event": "Wrestling World 1997",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "Kensuke Sasaki & Riki Choshu",
+      "people": [
+        "kensuke-sasaki",
+        "riki-choshu"
+      ],
+      "start": "1997-04-12",
+      "end": "1997-05-03",
+      "days": 21,
+      "number": 30,
+      "event": "Battle Formation",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "The Bull Powers",
+      "people": [
+        "manabu-nakanishi",
+        "satoshi-kojima"
+      ],
+      "start": "1997-05-03",
+      "end": "1997-08-10",
+      "days": 99,
+      "number": 31,
+      "event": "Strong Style Evolution",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "Kazuo Yamazaki & Kensuke Sasaki",
+      "people": [
+        "kazuo-yamazaki",
+        "kensuke-sasaki"
+      ],
+      "start": "1997-08-10",
+      "end": "1997-10-19",
+      "days": 70,
+      "number": 32,
+      "event": "The Four Heaven in Nagoya Dome",
+      "location": "Nagoya, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "Keiji Muto & Masahiro Chono",
+      "people": [
+        "keiji-muto",
+        "masahiro-chono"
+      ],
+      "start": "1997-10-19",
+      "end": "1998-05-07",
+      "days": 200,
+      "number": 33,
+      "event": "nWo Typhoon 1997",
+      "location": "Kobe, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "Cho-Ten",
+      "people": [
+        "hiroyoshi-tenzan",
+        "masahiro-chono"
+      ],
+      "start": "1998-06-05",
+      "end": "1998-07-15",
+      "days": 40,
+      "number": 34,
+      "event": "Best of the Super Juniors V",
+      "location": "Tokyo, Japan",
+      "note": "Won tournament final over Tenryu and Koshinaka",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r49",
+      "holder": "Genichiro Tenryu & Shiro Koshinaka",
+      "people": [
+        "genichiro-tenryu",
+        "shiro-koshinaka"
+      ],
+      "start": "1998-07-15",
+      "end": "1999-01-04",
+      "days": 173,
+      "number": 35,
+      "event": "Summer Struggle 1998",
+      "location": "Sapporo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r50",
+      "holder": "Tencozy",
+      "people": [
+        "hiroyoshi-tenzan",
+        "satoshi-kojima"
+      ],
+      "start": "1999-01-04",
+      "end": "1999-03-22",
+      "days": 77,
+      "number": 36,
+      "event": "Wrestling World 1999",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r51",
+      "holder": "Kensuke Sasaki & Shiro Koshinaka",
+      "people": [
+        "kensuke-sasaki",
+        "shiro-koshinaka"
+      ],
+      "start": "1999-03-22",
+      "end": "1999-06-27",
+      "days": 97,
+      "number": 37,
+      "event": "Hyper Battle 1999",
+      "location": "Amagasaki, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "The Mad Dogs",
+      "people": [
+        "michiyoshi-ohara",
+        "tatsutoshi-goto"
+      ],
+      "start": "1999-06-27",
+      "end": "1999-08-28",
+      "days": 62,
+      "number": 38,
+      "event": "Summer Struggle 1999",
+      "location": "Shizuoka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r53",
+      "holder": "Manabu Nakanishi & Yuji Nagata",
+      "people": [
+        "manabu-nakanishi",
+        "yuji-nagata"
+      ],
+      "start": "1999-08-28",
+      "end": "2000-07-20",
+      "days": 327,
+      "number": 39,
+      "event": "Jingu Climax",
+      "location": "Shizuoka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r54",
+      "holder": "Tencozy",
+      "people": [
+        "hiroyoshi-tenzan",
+        "satoshi-kojima"
+      ],
+      "start": "2000-07-20",
+      "end": "2001-09-23",
+      "days": 430,
+      "number": 40,
+      "event": "Summer Struggle 2000",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r55",
+      "holder": "Osamu Nishimura & Tatsumi Fujinami",
+      "people": [
+        "osamu-nishimura",
+        "tatsumi-fujinami"
+      ],
+      "start": "2001-09-23",
+      "end": "2001-10-28",
+      "days": 35,
+      "number": 41,
+      "event": "G1 World 2001",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r56",
+      "holder": "BATT",
+      "people": [
+        "keiji-muto",
+        "taiyo-kea"
+      ],
+      "start": "2001-10-28",
+      "end": "2002-02-02",
+      "days": 97,
+      "number": 42,
+      "event": "Survival 2001: Fighting Destination in Fukuoka",
+      "location": "Fukuoka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "Cho-Ten",
+      "people": [
+        "hiroyoshi-tenzan",
+        "masahiro-chono"
+      ],
+      "start": "2002-03-24",
+      "end": "2003-06-13",
+      "days": 446,
+      "number": 43,
+      "event": "Hyper Battle 2002",
+      "location": "Hyōgo, Japan",
+      "note": "Won tournament final over Nakanishi and Nagata",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r58",
+      "holder": "Hiroshi Tanahashi & Yutaka Yoshie",
+      "people": [
+        "hiroshi-tanahashi",
+        "yutaka-yoshie"
+      ],
+      "start": "2003-06-13",
+      "end": "2003-12-14",
+      "days": 184,
+      "number": 44,
+      "event": "Crush",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r59",
+      "holder": "Hiroyoshi Tenzan & Osamu Nishimura",
+      "people": [
+        "hiroyoshi-tenzan",
+        "osamu-nishimura"
+      ],
+      "start": "2003-12-14",
+      "end": "2004-02-01",
+      "days": 49,
+      "number": 45,
+      "event": "Battle Final 2003",
+      "location": "Nagoya, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r60",
+      "holder": "Minoru Suzuki & Yoshihiro Takayama",
+      "people": [
+        "minoru-suzuki",
+        "yoshihiro-takayama"
+      ],
+      "start": "2004-02-01",
+      "end": "2004-11-21",
+      "days": 294,
+      "number": 46,
+      "event": "Fighting Spirit 2004",
+      "location": "Sapporo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Hiroshi Tanahashi & Shinsuke Nakamura",
       "people": [
-        "shinsuke-nakamura"
+        "shinsuke-nakamura",
+        "hiroshi-tanahashi"
       ],
       "start": "2004-12-11",
       "end": "2005-10-30",
+      "days": 323,
+      "number": 47,
+      "event": "Battle Final 2004",
+      "location": "Osaka, Japan",
+      "note": "Won vacant title over Sasaki and Suzuki",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-shinsuke-nakamura-779"
       ]
     },
     {
-      "id": "r2",
-      "holder": "Tama Tonga & Tanga Loa",
+      "id": "r61",
+      "holder": "Cho-Ten",
       "people": [
-        "tama-tonga"
+        "hiroyoshi-tenzan",
+        "masahiro-chono"
+      ],
+      "start": "2005-10-30",
+      "end": "2006-09-20",
+      "days": 325,
+      "number": 48,
+      "event": "Toukon Series 2005",
+      "location": "Kobe, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r62",
+      "holder": "Shiro Koshinaka & Togi Makabe",
+      "people": [
+        "shiro-koshinaka",
+        "togi-makabe"
+      ],
+      "start": "2006-07-02",
+      "end": "2006-07-17",
+      "days": 15,
+      "kind": "interim",
+      "event": "Circuit 2006 Turbulence",
+      "location": "Tokyo, Japan",
+      "note": "Interim title created after Tenzan and Chono inactivity",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r63",
+      "holder": "Wild Child",
+      "people": [
+        "manabu-nakanishi",
+        "takao-omori"
+      ],
+      "start": "2006-07-17",
+      "end": "2006-09-28",
+      "days": 73,
+      "kind": "interim",
+      "event": "Circuit 2006 Turbulence",
+      "location": "Sapporo, Japan",
+      "note": "Interim title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r64",
+      "holder": "Wild Child",
+      "people": [
+        "manabu-nakanishi",
+        "takao-omori"
+      ],
+      "start": "2006-09-28",
+      "end": "2007-03-11",
+      "days": 164,
+      "number": 49,
+      "event": "Circuit 2006 Final: Next Progress",
+      "location": "Sapporo, Japan",
+      "note": "Promoted to undisputed champions",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r65",
+      "holder": "RISE",
+      "people": [
+        "tensai",
+        "tyson-tomko"
+      ],
+      "start": "2007-03-11",
+      "end": "2008-02-17",
+      "days": 343,
+      "number": 50,
+      "event": "New Japan Pro-Wrestling 35th Anniversary Tour Circuit 2007 New Japan Evolution: New Japan Cup 2007",
+      "location": "Nagoya, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r66",
+      "holder": "The Most Violent Players",
+      "people": [
+        "togi-makabe",
+        "toru-yano"
+      ],
+      "start": "2008-02-17",
+      "end": "2009-01-04",
+      "days": 322,
+      "number": 51,
+      "event": "Circuit 2008 New Japan Ism",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r67",
+      "holder": "Team 3D",
+      "people": [
+        "d-von-dudley",
+        "bubba-ray-dudley"
+      ],
+      "start": "2009-01-04",
+      "end": "2009-07-21",
+      "days": 198,
+      "number": 52,
+      "event": "Wrestle Kingdom III in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r68",
+      "holder": "The British Invasion",
+      "people": [
+        "nick-aldis",
+        "doug-williams"
+      ],
+      "start": "2009-07-21",
+      "end": "2009-10-18",
+      "days": 89,
+      "number": 53,
+      "event": "TNA Impact!",
+      "location": "Orlando, Florida",
+      "note": "Tables match on TNA Impact; not initially recognized by NJPW",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r69",
+      "holder": "Team 3D",
+      "people": [
+        "d-von-dudley",
+        "bubba-ray-dudley"
+      ],
+      "start": "2009-10-18",
+      "end": "2010-01-04",
+      "days": 78,
+      "number": 54,
+      "event": "Bound for Glory",
+      "location": "Irvine, California, U.S.",
+      "note": "Four-way match at TNA Bound for Glory",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r70",
+      "holder": "No Limit",
+      "people": [
+        "tetsuya-naito",
+        "yujiro-takahashi"
+      ],
+      "start": "2010-01-04",
+      "end": "2010-05-03",
+      "days": 119,
+      "number": 55,
+      "event": "Wrestle Kingdom IV in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "note": "Three-way hardcore match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r71",
+      "holder": "Seigigun",
+      "people": [
+        "wataru-inoue",
+        "yuji-nagata"
+      ],
+      "start": "2010-05-03",
+      "end": "2010-06-19",
+      "days": 47,
+      "number": 56,
+      "event": "Wrestling Dontaku 2010",
+      "location": "Fukuoka, Japan",
+      "note": "Three-way match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r72",
+      "holder": "Bad Intentions",
+      "people": [
+        "tensai",
+        "karl-anderson"
+      ],
+      "start": "2010-06-19",
+      "end": "2012-01-04",
+      "days": 564,
+      "number": 57,
+      "event": "Dominion 6.19",
+      "location": "Osaka, Japan",
+      "note": "Three-way elimination match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r73",
+      "holder": "Tencozy",
+      "people": [
+        "hiroyoshi-tenzan",
+        "satoshi-kojima"
+      ],
+      "start": "2012-01-04",
+      "end": "2012-05-03",
+      "days": 120,
+      "number": 58,
+      "event": "Wrestle Kingdom VI in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r74",
+      "holder": "Chaos",
+      "people": [
+        "takashi-iizuka",
+        "toru-yano"
+      ],
+      "start": "2012-05-03",
+      "end": "2012-06-20",
+      "days": 48,
+      "number": 59,
+      "event": "Wrestling Dontaku 2012",
+      "location": "Fukuoka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r75",
+      "holder": "Tencozy",
+      "people": [
+        "hiroyoshi-tenzan",
+        "satoshi-kojima"
+      ],
+      "start": "2012-07-22",
+      "end": "2012-10-08",
+      "days": 78,
+      "number": 60,
+      "event": "Kizuna Road",
+      "location": "Yamagata, Japan",
+      "note": "Won vacant title over Chaos",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r76",
+      "holder": "Killer Elite Squad",
+      "people": [
+        "d-h-smith",
+        "vance-archer"
+      ],
+      "start": "2012-10-08",
+      "end": "2013-05-03",
+      "days": 207,
+      "number": 61,
+      "event": "King of Pro-Wrestling",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r77",
+      "holder": "Tencozy",
+      "people": [
+        "hiroyoshi-tenzan",
+        "satoshi-kojima"
+      ],
+      "start": "2013-05-03",
+      "end": "2013-11-09",
+      "days": 190,
+      "number": 62,
+      "event": "Wrestling Dontaku 2013",
+      "location": "Fukuoka, Japan",
+      "note": "Four-way match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r78",
+      "holder": "Killer Elite Squad",
+      "people": [
+        "d-h-smith",
+        "vance-archer"
+      ],
+      "start": "2013-11-09",
+      "end": "2014-01-04",
+      "days": 56,
+      "number": 63,
+      "event": "Power Struggle",
+      "location": "Osaka, Japan",
+      "note": "Second fall of two-fall tornado match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r79",
+      "holder": "Bullet Club",
+      "people": [
+        "karl-anderson",
+        "doc-gallows"
+      ],
+      "start": "2014-01-04",
+      "end": "2015-01-04",
+      "days": 365,
+      "number": 64,
+      "event": "Wrestle Kingdom 8 in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r80",
+      "holder": "Meiyu Tag",
+      "people": [
+        "hirooki-goto",
+        "katsuyori-shibata"
+      ],
+      "start": "2015-01-04",
+      "end": "2015-02-11",
+      "days": 38,
+      "number": 65,
+      "event": "Wrestle Kingdom 9 in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r81",
+      "holder": "Bullet Club",
+      "people": [
+        "karl-anderson",
+        "doc-gallows"
+      ],
+      "start": "2015-02-11",
+      "end": "2015-04-05",
+      "days": 53,
+      "number": 66,
+      "event": "The New Beginning in Osaka",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r82",
+      "holder": "The Kingdom",
+      "people": [
+        "matt-taven",
+        "mike-kanellis"
+      ],
+      "start": "2015-04-05",
+      "end": "2015-07-05",
+      "days": 91,
+      "number": 67,
+      "event": "Invasion Attack 2015",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r83",
+      "holder": "Bullet Club",
+      "people": [
+        "karl-anderson",
+        "doc-gallows"
+      ],
+      "start": "2015-07-05",
+      "end": "2016-01-04",
+      "days": 183,
+      "number": 68,
+      "event": "Dominion 7.5 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r84",
+      "holder": "Great Bash Heel",
+      "people": [
+        "togi-makabe",
+        "tomoaki-honma"
+      ],
+      "start": "2016-01-04",
+      "end": "2016-04-10",
+      "days": 97,
+      "number": 69,
+      "event": "Wrestle Kingdom 10 in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r2",
+      "holder": "Guerrillas of Destiny",
+      "people": [
+        "tama-tonga",
+        "tonga-loa"
       ],
       "start": "2016-04-10",
       "end": "2016-06-19",
+      "days": 70,
+      "number": 70,
+      "event": "Invasion Attack 2016",
+      "location": "Tokyo, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-tama-tonga-802"
       ]
     },
     {
-      "id": "r3",
-      "holder": "Tama Tonga & Tanga Loa",
+      "id": "r85",
+      "holder": "The Briscoe Brothers",
       "people": [
-        "tama-tonga"
+        "jay-briscoe",
+        "mark-briscoe"
+      ],
+      "start": "2016-06-19",
+      "end": "2016-10-10",
+      "days": 113,
+      "number": 71,
+      "event": "Dominion 6.19 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Guerrillas of Destiny",
+      "people": [
+        "tama-tonga",
+        "tonga-loa"
       ],
       "start": "2016-10-10",
       "end": "2017-01-04",
+      "days": 86,
+      "number": 72,
+      "event": "King of Pro-Wrestling",
+      "location": "Tokyo, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-tama-tonga-801"
       ]
     },
     {
+      "id": "r86",
+      "holder": "Chaos",
+      "people": [
+        "tomohiro-ishii",
+        "toru-yano"
+      ],
+      "start": "2017-01-04",
+      "end": "2017-03-06",
+      "days": 61,
+      "number": 73,
+      "event": "Wrestle Kingdom 11 in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "note": "Three-way match with G.B.H.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r87",
+      "holder": "Tencozy",
+      "people": [
+        "hiroyoshi-tenzan",
+        "satoshi-kojima"
+      ],
+      "start": "2017-03-06",
+      "end": "2017-04-09",
+      "days": 34,
+      "number": 74,
+      "event": "Hataage Kinenbi",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r4",
-      "holder": "Raymond Rowe & Hanson",
+      "holder": "War Machine",
       "people": [
         "erik",
         "ivar"
       ],
       "start": "2017-04-09",
       "end": "2017-06-11",
+      "days": 63,
+      "number": 75,
+      "event": "Sakura Genesis 2017",
+      "location": "Tokyo, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-erik-258",
@@ -74,15 +1506,21 @@
     },
     {
       "id": "r5",
-      "holder": "Tama Tonga & Tanga Loa",
+      "holder": "Guerrillas of Destiny",
       "people": [
-        "tama-tonga"
+        "tama-tonga",
+        "tonga-loa"
       ],
       "start": "2017-06-11",
       "end": "2017-07-01",
+      "days": 20,
+      "number": 76,
+      "event": "Dominion 6.11 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-tama-tonga-800"
@@ -90,16 +1528,22 @@
     },
     {
       "id": "r6",
-      "holder": "Raymond Rowe & Hanson",
+      "holder": "War Machine",
       "people": [
         "erik",
         "ivar"
       ],
       "start": "2017-07-01",
       "end": "2017-09-24",
+      "days": 85,
+      "number": 77,
+      "event": "G1 Special in USA",
+      "location": "Long Beach, California, U.S.",
+      "note": "No disqualification match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-erik-257",
@@ -107,32 +1551,81 @@
       ]
     },
     {
-      "id": "r7",
-      "holder": "EVIL & SANADA",
+      "id": "r88",
+      "holder": "Killer Elite Squad",
       "people": [
-        "naraku"
+        "d-h-smith",
+        "vance-archer"
+      ],
+      "start": "2017-09-24",
+      "end": "2018-01-04",
+      "days": 102,
+      "number": 78,
+      "event": "Destruction in Kobe",
+      "location": "Kobe, Japan",
+      "note": "Three-way tornado match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Los Ingobernables de Japón",
+      "people": [
+        "naraku",
+        "sanada"
       ],
       "start": "2018-01-04",
       "end": "2018-06-09",
+      "days": 156,
+      "number": 79,
+      "event": "Wrestle Kingdom 12 in Tokyo Dome",
+      "location": "Tokyo, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-naraku-468"
       ]
     },
     {
-      "id": "r8",
-      "holder": "Tama Tonga & Tanga Loa",
+      "id": "r89",
+      "holder": "The Young Bucks",
       "people": [
-        "tama-tonga"
+        "matt-jackson",
+        "nick-jackson"
+      ],
+      "start": "2018-06-09",
+      "end": "2018-09-30",
+      "days": 113,
+      "number": 80,
+      "event": "Dominion 6.9 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Guerrillas of Destiny",
+      "people": [
+        "tama-tonga",
+        "tonga-loa"
       ],
       "start": "2018-09-30",
       "end": "2019-01-04",
+      "days": 96,
+      "number": 81,
+      "event": "Fighting Spirit Unleashed",
+      "location": "Long Beach, California, U.S.",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-tama-tonga-796"
@@ -140,15 +1633,22 @@
     },
     {
       "id": "r9",
-      "holder": "EVIL & SANADA",
+      "holder": "Los Ingobernables de Japón",
       "people": [
-        "naraku"
+        "naraku",
+        "sanada"
       ],
       "start": "2019-01-04",
       "end": "2019-02-23",
+      "days": 50,
+      "number": 82,
+      "event": "Wrestle Kingdom 13 in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "note": "Three-way match with Young Bucks",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-naraku-467"
@@ -156,83 +1656,571 @@
     },
     {
       "id": "r10",
-      "holder": "Tama Tonga & Tanga Loa",
+      "holder": "Guerrillas of Destiny",
       "people": [
-        "tama-tonga"
+        "tama-tonga",
+        "tonga-loa"
       ],
       "start": "2019-02-23",
       "end": "2020-01-04",
+      "days": 315,
+      "number": 83,
+      "event": "Honor Rising: Japan 2019 (Night 2)",
+      "location": "Tokyo, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-tama-tonga-795"
       ]
     },
     {
-      "id": "r11",
-      "holder": "Tama Tonga & Tanga Loa",
+      "id": "r90",
+      "holder": "FinJuice",
       "people": [
-        "tama-tonga"
+        "david-finlay",
+        "c-j-parker"
+      ],
+      "start": "2020-01-04",
+      "end": "2020-02-01",
+      "days": 28,
+      "number": 84,
+      "event": "Wrestle Kingdom 14 in Tokyo Dome Night 1",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Guerrillas of Destiny",
+      "people": [
+        "tama-tonga",
+        "tonga-loa"
       ],
       "start": "2020-02-01",
       "end": "2020-02-21",
+      "days": 20,
+      "number": 85,
+      "event": "The New Beginning USA",
+      "location": "Atlanta, Georgia, U.S.",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-tama-tonga-793"
       ]
     },
     {
-      "id": "r12",
-      "holder": "Tama Tonga & Tanga Loa",
+      "id": "r91",
+      "holder": "Golden☆Ace",
       "people": [
-        "tama-tonga"
+        "hiroshi-tanahashi",
+        "kota-ibushi"
+      ],
+      "start": "2020-02-21",
+      "end": "2020-07-12",
+      "days": 142,
+      "number": 86,
+      "event": "New Japan Road",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r92",
+      "holder": "Dangerous Tekkers",
+      "people": [
+        "taichi",
+        "zack-sabre-jr"
+      ],
+      "start": "2020-07-12",
+      "end": "2021-01-04",
+      "days": 176,
+      "number": 87,
+      "event": "Dominion in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Guerrillas of Destiny",
+      "people": [
+        "tama-tonga",
+        "tonga-loa"
       ],
       "start": "2021-01-04",
       "end": "2021-06-01",
+      "days": 148,
+      "number": 88,
+      "event": "Wrestle Kingdom 15 in Tokyo Dome Night 1",
+      "location": "Tokyo, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-tama-tonga-792"
       ]
     },
     {
-      "id": "r13",
-      "holder": "Hikuleo & El Phantasmo",
+      "id": "r93",
+      "holder": "Dangerous Tekkers",
       "people": [
-        "talla-tonga"
+        "taichi",
+        "zack-sabre-jr"
+      ],
+      "start": "2021-06-01",
+      "end": "2021-07-11",
+      "days": 40,
+      "number": 89,
+      "event": "Road to Dominion",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r94",
+      "holder": "Los Ingobernables de Japón",
+      "people": [
+        "tetsuya-naito",
+        "sanada"
+      ],
+      "start": "2021-07-11",
+      "end": "2021-07-25",
+      "days": 14,
+      "number": 90,
+      "event": "Summer Struggle in Sapporo Night 2",
+      "location": "Sapporo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r95",
+      "holder": "Dangerous Tekkers",
+      "people": [
+        "taichi",
+        "zack-sabre-jr"
+      ],
+      "start": "2021-07-25",
+      "end": "2022-01-04",
+      "days": 163,
+      "number": 91,
+      "event": "Wrestle Grand Slam in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r96",
+      "holder": "Bishamon",
+      "people": [
+        "hirooki-goto",
+        "yoshi-hashi"
+      ],
+      "start": "2022-01-04",
+      "end": "2022-04-09",
+      "days": 95,
+      "number": 92,
+      "event": "Wrestle Kingdom 16 Night 1",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r97",
+      "holder": "United Empire",
+      "people": [
+        "great-o-khan",
+        "jeff-cobb"
+      ],
+      "start": "2022-04-09",
+      "end": "2022-05-01",
+      "days": 22,
+      "number": 93,
+      "event": "Hyper Battle '22",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r98",
+      "holder": "General's Jewel",
+      "people": [
+        "bad-luck-fale",
+        "chase-owens"
+      ],
+      "start": "2022-05-01",
+      "end": "2022-06-12",
+      "days": 42,
+      "number": 94,
+      "event": "Wrestling Dontaku",
+      "location": "Fukuoka, Japan",
+      "note": "Three-way match that also included Bishamon",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r99",
+      "holder": "United Empire",
+      "people": [
+        "great-o-khan",
+        "jeff-cobb"
+      ],
+      "start": "2022-06-12",
+      "end": "2022-06-26",
+      "days": 14,
+      "number": 95,
+      "event": "Dominion 6.12 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r100",
+      "holder": "FTR",
+      "people": [
+        "scott-dawson",
+        "dash-wilder"
+      ],
+      "start": "2022-06-26",
+      "end": "2023-01-04",
+      "days": 192,
+      "number": 96,
+      "event": "Forbidden Door",
+      "location": "Chicago, Illinois, U.S.",
+      "note": "Winner-take-all three-way; ROH title also at stake",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r101",
+      "holder": "Bishamon",
+      "people": [
+        "hirooki-goto",
+        "yoshi-hashi"
+      ],
+      "start": "2023-01-04",
+      "end": "2023-04-08",
+      "days": 94,
+      "number": 97,
+      "event": "Wrestle Kingdom 17",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r102",
+      "holder": "Aussie Open",
+      "people": [
+        "mark-davis",
+        "kyle-fletcher"
+      ],
+      "start": "2023-04-08",
+      "end": "2023-05-21",
+      "days": 43,
+      "number": 98,
+      "event": "Sakura Genesis",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r103",
+      "holder": "Bishamon",
+      "people": [
+        "hirooki-goto",
+        "yoshi-hashi"
+      ],
+      "start": "2023-06-04",
+      "end": "2024-01-04",
+      "days": 214,
+      "number": 99,
+      "event": "Dominion 6.4 in Osaka-jo Hall",
+      "location": "Tokyo, Japan",
+      "note": "Won vacant titles in a three-way match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Guerrillas of Destiny",
+      "people": [
+        "talla-tonga",
+        "el-phantasmo"
       ],
       "start": "2024-01-04",
       "end": "2024-02-11",
+      "days": 38,
+      "number": 100,
+      "event": "Wrestle Kingdom 18",
+      "location": "Tokyo, Japan",
+      "note": "Winner-takes-all; Strong Openweight title also at stake",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-talla-tonga-784"
       ]
     },
     {
-      "id": "r14",
-      "holder": "Tetsuya Naito & Hiromu Takahashi",
+      "id": "r104",
+      "holder": "Bullet Club",
       "people": [
-        "kyoki"
+        "chase-owens",
+        "hideo-itami"
+      ],
+      "start": "2024-02-11",
+      "end": "2024-04-06",
+      "days": 55,
+      "number": 101,
+      "event": "The New Beginning in Osaka",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r105",
+      "holder": "Bishamon",
+      "people": [
+        "hirooki-goto",
+        "yoshi-hashi"
+      ],
+      "start": "2024-04-06",
+      "end": "2024-05-04",
+      "days": 28,
+      "number": 102,
+      "event": "Sakura Genesis",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r106",
+      "holder": "Bullet Club",
+      "people": [
+        "chase-owens",
+        "hideo-itami"
+      ],
+      "start": "2024-05-04",
+      "end": "2024-06-09",
+      "days": 36,
+      "number": 103,
+      "event": "Wrestling Dontaku Night 2",
+      "location": "Fukuoka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r107",
+      "holder": "TMDK",
+      "people": [
+        "nick-miller",
+        "shane-thorne"
+      ],
+      "start": "2024-06-09",
+      "end": "2024-11-04",
+      "days": 148,
+      "number": 104,
+      "event": "Dominion 6.9 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "note": "Four-way tornado elimination; Strong title also at stake",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r108",
+      "holder": "United Empire",
+      "people": [
+        "great-o-khan",
+        "henare"
+      ],
+      "start": "2024-11-04",
+      "end": "2024-12-09",
+      "days": 35,
+      "number": 105,
+      "event": "Power Struggle",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r109",
+      "holder": "The Young Bucks",
+      "people": [
+        "matt-jackson",
+        "nick-jackson"
+      ],
+      "start": "2025-01-05",
+      "end": "2025-02-11",
+      "days": 37,
+      "number": 106,
+      "event": "Wrestle Dynasty",
+      "location": "Tokyo, Japan",
+      "note": "Three-way win for vacant titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Los Ingobernables de Japon",
+      "people": [
+        "kyoki",
+        "tetsuya-naito"
       ],
       "start": "2025-02-11",
       "end": "2025-04-05",
+      "days": 53,
+      "number": 107,
+      "event": "The New Beginning in Osaka",
+      "location": "Osaka, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-kyoki-395"
       ]
+    },
+    {
+      "id": "r110",
+      "holder": "United Empire",
+      "people": [
+        "jeff-cobb",
+        "callum-newman"
+      ],
+      "start": "2025-04-05",
+      "end": "2025-04-14",
+      "days": 9,
+      "number": 108,
+      "event": "Sakura Genesis",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r111",
+      "holder": "United Empire",
+      "people": [
+        "callum-newman",
+        "great-o-khan"
+      ],
+      "start": "2025-04-26",
+      "end": "2025-06-15",
+      "days": 50,
+      "number": 109,
+      "event": "Wrestling Redzone in Hiroshima",
+      "location": "Hiroshima, Japan",
+      "note": "Won vacant titles over Bishamon",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r112",
+      "holder": "Taichi & Tomohiro Ishii",
+      "people": [
+        "taichi",
+        "tomohiro-ishii"
+      ],
+      "start": "2025-06-15",
+      "end": "2025-09-28",
+      "days": 105,
+      "number": 110,
+      "event": "Dominion 6.15 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r113",
+      "holder": "Knock Out Brothers",
+      "people": [
+        "yuto-ice",
+        "oskar"
+      ],
+      "start": "2025-09-28",
+      "end": "2026-06-14",
+      "days": 259,
+      "number": 111,
+      "event": "Destruction in Kobe",
+      "location": "Kobe, Japan",
+      "note": "Won while in Bullet Club; later moved to Unbound Co.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r114",
+      "holder": "United Empire",
+      "people": [
+        "great-o-khan",
+        "henare"
+      ],
+      "start": "2026-06-14",
+      "days": 73,
+      "number": 112,
+      "event": "Dominion 6.14 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "note": "Current reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Tag_Team_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

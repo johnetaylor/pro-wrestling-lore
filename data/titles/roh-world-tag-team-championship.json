@@ -1,38 +1,509 @@
 {
   "id": "roh-world-tag-team-championship",
   "name": "ROH World Tag Team Championship",
+  "promotion": "roh",
+  "division": "men",
+  "format": "tag",
+  "established": "2002-09-21",
   "names": [
-    "ROH World Tag Team Championship"
+    "ROH Tag Team Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "ROH Tag Team Championship",
+      "from": "2002-09-21",
+      "to": "2006-07-09"
+    },
+    {
+      "name": "ROH World Tag Team Championship",
+      "from": "2006-07-09"
+    }
+  ],
+  "history": [
+    {
+      "date": "2006-07-09",
+      "kind": "recognition",
+      "text": "Austin Aries and Roderick Strong beat Naruki Doi and Masato Yoshino in Japan, and the title became the ROH World Tag Team Championship.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/ROH_World_Tag_Team_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions",
+    "https://en.wikipedia.org/wiki/ROH_World_Tag_Team_Championship"
+  ],
   "reigns": [
     {
-      "id": "r1",
-      "holder": "Jimmy Jacobs & Tyler Black",
+      "id": "r9",
+      "holder": "The Prophecy",
       "people": [
-        "seth-rollins"
+        "christopher-daniels",
+        "donovan-morgan"
+      ],
+      "start": "2002-09-21",
+      "end": "2003-03-15",
+      "days": 175,
+      "number": 1,
+      "event": "Unscripted",
+      "location": "Philadelphia, PA",
+      "note": "Won the inaugural tournament final over Bryan Danielson and Michael Modest",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "A.J. Styles & Amazing Red",
+      "people": [
+        "aj-styles",
+        "amazing-red"
+      ],
+      "start": "2003-03-15",
+      "end": "2003-08-20",
+      "days": 158,
+      "number": 2,
+      "event": "Expect the Unexpected",
+      "location": "Cambridge, MA",
+      "note": "Beat Christopher Daniels and Xavier who filled in for Donovan Morgan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "The Backseat Boyz",
+      "people": [
+        "johnny-kashmere",
+        "trent-acid"
+      ],
+      "start": "2003-09-20",
+      "end": "2003-10-16",
+      "days": 26,
+      "number": 3,
+      "event": "Glory by Honor II",
+      "location": "Philadelphia, PA",
+      "note": "Won the vacant title in a gauntlet match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Special K",
+      "people": [
+        "dixie",
+        "izzy"
+      ],
+      "start": "2003-10-16",
+      "end": "2003-11-01",
+      "days": 16,
+      "number": 4,
+      "event": "Tradition Continues",
+      "location": "Glen Burnie, MD",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "The Briscoe Brothers",
+      "people": [
+        "jay-briscoe",
+        "mark-briscoe"
+      ],
+      "start": "2003-11-01",
+      "end": "2004-04-24",
+      "days": 175,
+      "number": 5,
+      "event": "Main Event Spectacles",
+      "location": "Elizabeth, NJ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Second City Saints",
+      "people": [
+        "cm-punk",
+        "colt-cabana"
+      ],
+      "start": "2004-04-24",
+      "end": "2004-05-15",
+      "days": 21,
+      "number": 6,
+      "event": "Reborn: Stage Two",
+      "location": "Chicago Ridge, IL",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": [
+        "profile-reign-cm-punk-113"
+      ]
+    },
+    {
+      "id": "r15",
+      "holder": "The Prophecy",
+      "people": [
+        "b-j-whitmer",
+        "dan-maff"
+      ],
+      "start": "2004-05-15",
+      "end": "2004-05-15",
+      "days": 0,
+      "number": 7,
+      "event": "Round Robin Challenge III",
+      "location": "Lexington, MA",
+      "note": "Held the title for less than a day",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "The Briscoe Brothers",
+      "people": [
+        "jay-briscoe",
+        "mark-briscoe"
+      ],
+      "start": "2004-05-15",
+      "end": "2004-05-15",
+      "days": 0,
+      "number": 8,
+      "event": "Round Robin Challenge III",
+      "location": "Lexington, MA",
+      "note": "Held the title for less than a day",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Second City Saints",
+      "people": [
+        "cm-punk",
+        "colt-cabana"
+      ],
+      "start": "2004-05-15",
+      "end": "2004-08-07",
+      "days": 84,
+      "number": 9,
+      "event": "Round Robin Challenge III",
+      "location": "Lexington, MA",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": [
+        "profile-reign-cm-punk-112"
+      ]
+    },
+    {
+      "id": "r18",
+      "holder": "The Rottweilers",
+      "people": [
+        "ricky-reyes",
+        "rocky-romero"
+      ],
+      "start": "2004-08-07",
+      "end": "2005-02-19",
+      "days": 196,
+      "number": 10,
+      "event": "Testing the Limit",
+      "location": "Philadelphia, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "B. J. Whitmer & Dan Maff",
+      "people": [
+        "b-j-whitmer",
+        "dan-maff"
+      ],
+      "start": "2005-02-19",
+      "end": "2005-03-28",
+      "days": 37,
+      "number": 11,
+      "event": "Third Anniversary Celebration: Part 1",
+      "location": "Elizabeth, NJ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "B. J. Whitmer & Jimmy Jacobs",
+      "people": [
+        "b-j-whitmer",
+        "jimmy-jacobs"
+      ],
+      "start": "2005-04-02",
+      "end": "2005-07-09",
+      "days": 98,
+      "number": 12,
+      "event": "Best of American Super Juniors Tournament",
+      "location": "Asbury Park, NJ",
+      "note": "Won the vacant title over Jay Lethal and Samoa Joe",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Carnage Crew",
+      "people": [
+        "h-c-loc",
+        "tony-devito"
+      ],
+      "start": "2005-07-09",
+      "end": "2005-07-23",
+      "days": 14,
+      "number": 13,
+      "event": "Escape from New York",
+      "location": "New York City, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "B. J. Whitmer & Jimmy Jacobs",
+      "people": [
+        "b-j-whitmer",
+        "jimmy-jacobs"
+      ],
+      "start": "2005-07-23",
+      "end": "2005-10-01",
+      "days": 70,
+      "number": 14,
+      "event": "The Homecoming",
+      "location": "Philadelphia, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Sal Rinauro & Tony Mamaluke",
+      "people": [
+        "sal-rinauro",
+        "tony-mamaluke"
+      ],
+      "start": "2005-10-01",
+      "end": "2005-12-17",
+      "days": 77,
+      "number": 15,
+      "event": "Joe vs. Kobashi",
+      "location": "New York City, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Generation Next",
+      "people": [
+        "austin-aries",
+        "roderick-strong"
+      ],
+      "start": "2005-12-17",
+      "end": "2006-09-16",
+      "days": 273,
+      "number": 16,
+      "event": "Final Battle",
+      "location": "Edison, NJ",
+      "note": "Renamed in 2006 after a win in Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Kings of Wrestling",
+      "people": [
+        "kassius-ohno",
+        "cesaro"
+      ],
+      "start": "2006-09-16",
+      "end": "2006-11-25",
+      "days": 70,
+      "number": 17,
+      "event": "Glory by Honor V: Night 2",
+      "location": "New York City, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Christopher Daniels & Matt Sydal",
+      "people": [
+        "christopher-daniels",
+        "evan-bourne"
+      ],
+      "start": "2006-11-25",
+      "end": "2007-02-24",
+      "days": 91,
+      "number": 18,
+      "event": "Dethroned",
+      "location": "Edison, NJ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "The Briscoe Brothers",
+      "people": [
+        "jay-briscoe",
+        "mark-briscoe"
+      ],
+      "start": "2007-02-24",
+      "end": "2007-03-03",
+      "days": 7,
+      "number": 19,
+      "event": "Fifth Year Festival: Chicago",
+      "location": "Chicago, IL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Naruki Doi & Shingo",
+      "people": [
+        "naruki-doi",
+        "shingo-takagi"
+      ],
+      "start": "2007-03-03",
+      "end": "2007-03-30",
+      "days": 27,
+      "number": 20,
+      "event": "Fifth Year Festival: Liverpool",
+      "location": "Liverpool, England",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "The Briscoe Brothers",
+      "people": [
+        "jay-briscoe",
+        "mark-briscoe"
+      ],
+      "start": "2007-03-30",
+      "end": "2007-12-30",
+      "days": 275,
+      "number": 21,
+      "event": "All-Star Extravaganza III",
+      "location": "Detroit, MI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r1",
+      "holder": "The Age of the Fall",
+      "people": [
+        "seth-rollins",
+        "jimmy-jacobs"
       ],
       "start": "2007-12-30",
       "end": "2008-01-26",
+      "days": 27,
+      "number": 22,
+      "event": "Final Battle",
+      "location": "New York City, NY",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-seth-rollins-753"
       ]
     },
     {
-      "id": "r2",
-      "holder": "Jimmy Jacobs & Tyler Black",
+      "id": "r30",
+      "holder": "No Remorse Corps",
       "people": [
-        "seth-rollins"
+        "davey-richards",
+        "rocky-romero"
+      ],
+      "start": "2008-01-26",
+      "end": "2008-04-12",
+      "days": 77,
+      "number": 23,
+      "event": "Without Remorse",
+      "location": "Chicago Ridge, IL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "The Briscoe Brothers",
+      "people": [
+        "jay-briscoe",
+        "mark-briscoe"
+      ],
+      "start": "2008-04-12",
+      "end": "2008-05-11",
+      "days": 29,
+      "number": 24,
+      "event": "Injustice",
+      "location": "Edison, NJ",
+      "note": "Austin Aries filled in for the injured Mark Briscoe for the only defense",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r2",
+      "holder": "The Age of the Fall",
+      "people": [
+        "seth-rollins",
+        "jimmy-jacobs"
       ],
       "start": "2008-06-06",
       "end": "2008-09-19",
+      "days": 105,
+      "number": 25,
+      "event": "Up for Grabs",
+      "location": "Hartford, CT",
+      "note": "Won a one-night tournament final over El Generico and Kevin Steen",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-seth-rollins-752"
@@ -40,16 +511,21 @@
     },
     {
       "id": "r3",
-      "holder": "Kevin Steen & El Generico",
+      "holder": "El Generico & Kevin Steen",
       "people": [
         "kevin-owens",
         "sami-zayn"
       ],
       "start": "2008-09-19",
-      "end": "2009-05-30",
+      "end": "2009-04-10",
+      "days": 203,
+      "number": 26,
+      "event": "Driven",
+      "location": "Boston, MA",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-kevin-owens-384",
@@ -57,17 +533,334 @@
       ]
     },
     {
+      "id": "r32",
+      "holder": "The American Wolves",
+      "people": [
+        "davey-richards",
+        "eddie-edwards"
+      ],
+      "start": "2009-04-10",
+      "end": "2009-12-19",
+      "days": 253,
+      "number": 27,
+      "event": "Ring of Honor Wrestling",
+      "location": "Philadelphia, PA",
+      "note": "Tables are Legal match; aired on tape delay May 30, 2009",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "The Briscoe Brothers",
+      "people": [
+        "jay-briscoe",
+        "mark-briscoe"
+      ],
+      "start": "2009-12-19",
+      "end": "2010-04-03",
+      "days": 105,
+      "number": 28,
+      "event": "Final Battle",
+      "location": "Manhattan, New York City, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Kings of Wrestling",
+      "people": [
+        "kassius-ohno",
+        "cesaro"
+      ],
+      "start": "2010-04-03",
+      "end": "2011-04-01",
+      "days": 363,
+      "number": 29,
+      "event": "The Big Bang!",
+      "location": "Charlotte, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "Wrestling's Greatest Tag Team",
+      "people": [
+        "charlie-haas",
+        "shelton-benjamin"
+      ],
+      "start": "2011-04-01",
+      "end": "2011-12-23",
+      "days": 266,
+      "number": 30,
+      "event": "Honor Takes Center Stage: Chapter 1",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "The Briscoe Brothers",
+      "people": [
+        "jay-briscoe",
+        "mark-briscoe"
+      ],
+      "start": "2011-12-23",
+      "end": "2012-05-12",
+      "days": 141,
+      "number": 31,
+      "event": "Final Battle",
+      "location": "Manhattan, New York City, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "Wrestling's Greatest Tag Team",
+      "people": [
+        "charlie-haas",
+        "shelton-benjamin"
+      ],
+      "start": "2012-05-12",
+      "end": "2012-06-24",
+      "days": 43,
+      "number": 32,
+      "event": "Border Wars",
+      "location": "Toronto, ON",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r38",
+      "holder": "The All Night Express",
+      "people": [
+        "kenny-king",
+        "rhett-titus"
+      ],
+      "start": "2012-06-24",
+      "end": "2012-07-10",
+      "days": 16,
+      "number": 33,
+      "event": "Best in the World 2012: Hostage Crisis",
+      "location": "New York City, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "S.C.U.M.",
+      "people": [
+        "jimmy-jacobs",
+        "steve-corino"
+      ],
+      "start": "2012-09-15",
+      "end": "2012-12-16",
+      "days": 92,
+      "number": 34,
+      "event": "Death Before Dishonor X: State of Emergency",
+      "location": "Chicago Ridge, IL",
+      "note": "Won a tournament final over Charlie Haas and Rhett Titus",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "The Briscoe Brothers",
+      "people": [
+        "jay-briscoe",
+        "mark-briscoe"
+      ],
+      "start": "2012-12-16",
+      "end": "2013-03-02",
+      "days": 76,
+      "number": 35,
+      "event": "Final Battle 2012: Doomsday",
+      "location": "New York City, NY",
+      "note": "Three-way match also involving Caprice Coleman and Cedric Alexander",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "reDRagon",
+      "people": [
+        "bobby-fish",
+        "kyle-oreilly"
+      ],
+      "start": "2013-03-02",
+      "end": "2013-07-27",
+      "days": 147,
+      "number": 36,
+      "event": "ROH 11th Anniversary Show",
+      "location": "Chicago Ridge, IL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Forever Hooligans",
+      "people": [
+        "alex-koslov",
+        "rocky-romero"
+      ],
+      "start": "2013-07-27",
+      "end": "2013-08-03",
+      "days": 7,
+      "number": 37,
+      "event": "Ring of Honor Wrestling",
+      "location": "Providence, RI",
+      "note": "Aired on tape delay August 3, 2013",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "The American Wolves",
+      "people": [
+        "davey-richards",
+        "eddie-edwards"
+      ],
+      "start": "2013-08-03",
+      "end": "2013-08-17",
+      "days": 14,
+      "number": 38,
+      "event": "All-Star Extravaganza V",
+      "location": "Toronto, ON",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "reDRagon",
+      "people": [
+        "bobby-fish",
+        "kyle-oreilly"
+      ],
+      "start": "2013-08-17",
+      "end": "2014-03-08",
+      "days": 203,
+      "number": 39,
+      "event": "Manhattan Mayhem V",
+      "location": "New York City, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "The Young Bucks",
+      "people": [
+        "matt-jackson",
+        "nick-jackson"
+      ],
+      "start": "2014-03-08",
+      "end": "2014-05-17",
+      "days": 70,
+      "number": 40,
+      "event": "Raising the Bar: Night 2",
+      "location": "Chicago Ridge, IL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "reDRagon",
+      "people": [
+        "bobby-fish",
+        "kyle-oreilly"
+      ],
+      "start": "2014-05-17",
+      "end": "2015-04-04",
+      "days": 322,
+      "number": 41,
+      "event": "War of the Worlds",
+      "location": "New York City, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "The Addiction",
+      "people": [
+        "christopher-daniels",
+        "frankie-kazarian"
+      ],
+      "start": "2015-04-04",
+      "end": "2015-09-18",
+      "days": 167,
+      "number": 42,
+      "event": "Ring of Honor Wrestling",
+      "location": "San Antonio, TX",
+      "note": "Aired on tape delay April 25, 2015",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "The Kingdom",
+      "people": [
+        "matt-taven",
+        "mike-kanellis"
+      ],
+      "start": "2015-09-18",
+      "end": "2015-12-18",
+      "days": 91,
+      "number": 43,
+      "event": "All Star Extravaganza VII",
+      "location": "San Antonio, TX",
+      "note": "Three-way match also involving The Young Bucks",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r4",
-      "holder": "Hanson & Raymond Rowe",
+      "holder": "War Machine",
       "people": [
         "erik",
         "ivar"
       ],
       "start": "2015-12-18",
       "end": "2016-05-09",
+      "days": 143,
+      "number": 44,
+      "event": "Final Battle",
+      "location": "Philadelphia, PA",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-erik-259",
@@ -75,20 +868,230 @@
       ]
     },
     {
-      "id": "r5",
-      "holder": "Tama Tonga & Tanga Loa",
+      "id": "r49",
+      "holder": "The Addiction",
       "people": [
-        "tama-tonga"
+        "christopher-daniels",
+        "frankie-kazarian"
+      ],
+      "start": "2016-05-09",
+      "end": "2016-09-30",
+      "days": 144,
+      "number": 45,
+      "event": "War of the Worlds",
+      "location": "Dearborn, MI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r50",
+      "holder": "The Young Bucks",
+      "people": [
+        "matt-jackson",
+        "nick-jackson"
+      ],
+      "start": "2016-09-30",
+      "end": "2017-03-04",
+      "days": 155,
+      "number": 46,
+      "event": "All Star Extravaganza VIII",
+      "location": "Lowell, MA",
+      "note": "Three-way ladder war also involving The Motor City Machine Guns",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r51",
+      "holder": "The Broken Hardys",
+      "people": [
+        "jeff-hardy",
+        "matt-hardy"
+      ],
+      "start": "2017-03-04",
+      "end": "2017-04-01",
+      "days": 28,
+      "number": 47,
+      "event": "Manhattan Mayhem VI",
+      "location": "New York City, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "The Young Bucks",
+      "people": [
+        "matt-jackson",
+        "nick-jackson"
+      ],
+      "start": "2017-04-01",
+      "end": "2017-09-22",
+      "days": 174,
+      "number": 48,
+      "event": "Supercard of Honor XI",
+      "location": "Lakeland, FL",
+      "note": "Ladder match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r53",
+      "holder": "The Motor City Machine Guns",
+      "people": [
+        "alex-shelley",
+        "chris-sabin"
+      ],
+      "start": "2017-09-22",
+      "end": "2018-03-09",
+      "days": 168,
+      "number": 49,
+      "event": "Death Before Dishonor XV",
+      "location": "Sunrise Manor, NV",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r54",
+      "holder": "The Briscoe Brothers",
+      "people": [
+        "jay-briscoe",
+        "mark-briscoe"
+      ],
+      "start": "2018-03-09",
+      "end": "2018-10-14",
+      "days": 219,
+      "number": 50,
+      "event": "ROH 16th Anniversary Show",
+      "location": "Sunrise Manor, NV",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r55",
+      "holder": "SoCal Uncensored",
+      "people": [
+        "frankie-kazarian",
+        "scorpio-sky"
+      ],
+      "start": "2018-10-14",
+      "end": "2018-12-14",
+      "days": 61,
+      "number": 51,
+      "event": "Glory By Honor XVI: Philadelphia",
+      "location": "Philadelphia, PA",
+      "note": "Three-way match also involving The Young Bucks; aired on tape delay November 16, 2018",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r56",
+      "holder": "The Briscoe Brothers",
+      "people": [
+        "jay-briscoe",
+        "mark-briscoe"
+      ],
+      "start": "2018-12-14",
+      "end": "2019-03-15",
+      "days": 91,
+      "number": 52,
+      "event": "Final Battle",
+      "location": "New York City, NY",
+      "note": "Ladder War IX also involving The Young Bucks",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "Villain Enterprises",
+      "people": [
+        "brody-king",
+        "pierre-ouellette"
+      ],
+      "start": "2019-03-15",
+      "end": "2019-04-06",
+      "days": 22,
+      "number": 53,
+      "event": "ROH 17th Anniversary Show",
+      "location": "Sunrise Manor, NV",
+      "note": "Las Vegas Street Fight",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Guerrillas of Destiny",
+      "people": [
+        "tama-tonga",
+        "tonga-loa"
       ],
       "start": "2019-04-06",
       "end": "2019-07-20",
+      "days": 105,
+      "number": 54,
+      "event": "G1 Supercard",
+      "location": "New York City, NY",
+      "note": "Winner-takes-all four-way also featuring the Briscoes and Los Ingobernables de Japón; IWGP Tag titles also at stake",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-tama-tonga-794"
       ]
+    },
+    {
+      "id": "r58",
+      "holder": "The Briscoe Brothers",
+      "people": [
+        "jay-briscoe",
+        "mark-briscoe"
+      ],
+      "start": "2019-07-20",
+      "end": "2019-12-13",
+      "days": 146,
+      "number": 55,
+      "event": "Manhattan Mayhem",
+      "location": "New York City, NY",
+      "note": "New York City Street Fight",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r59",
+      "holder": "The Foundation",
+      "people": [
+        "jay-lethal",
+        "jonathan-gresham"
+      ],
+      "start": "2019-12-13",
+      "number": 56,
+      "event": "Final Battle",
+      "location": "Baltimore, MD",
+      "note": "Exact date the title was lost is uncertain",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r6",
@@ -107,6 +1110,42 @@
       ]
     },
     {
+      "id": "r60",
+      "holder": "The Foundation",
+      "people": [
+        "rhett-titus",
+        "tracy-williams"
+      ],
+      "start": "2021-03-26",
+      "end": "2021-07-11",
+      "days": 107,
+      "number": 58,
+      "event": "ROH 19th Anniversary Show",
+      "location": "Baltimore, MD",
+      "note": "Beat Bestia del Ring and Kenny King; Bestia filled in for the injured Dragon Lee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r61",
+      "holder": "Violence Unlimited",
+      "people": [
+        "chris-dickinson",
+        "homicide"
+      ],
+      "start": "2021-07-11",
+      "number": 59,
+      "event": "Best in the World",
+      "location": "Baltimore, MD",
+      "note": "Fight Without Honor win over Gresham and Titus; Gresham filled in for injured Tracy Williams; loss date uncertain",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r7",
       "holder": "Dragon Lee & Kenny King",
       "people": [
@@ -123,22 +1162,235 @@
       ]
     },
     {
+      "id": "r62",
+      "holder": "The OGK",
+      "people": [
+        "matt-taven",
+        "mike-kanellis"
+      ],
+      "start": "2021-11-14",
+      "end": "2021-12-11",
+      "days": 27,
+      "number": 61,
+      "event": "Honor for All",
+      "location": "Baltimore, MD",
+      "note": "Previously known as The Kingdom",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r63",
+      "holder": "The Briscoe Brothers",
+      "people": [
+        "jay-briscoe",
+        "mark-briscoe"
+      ],
+      "start": "2021-12-11",
+      "end": "2022-04-01",
+      "days": 111,
+      "number": 62,
+      "event": "Final Battle",
+      "location": "Baltimore, MD",
+      "note": "Tony Khan bought ROH during this reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r64",
+      "holder": "FTR",
+      "people": [
+        "dash-wilder",
+        "scott-dawson"
+      ],
+      "start": "2022-04-01",
+      "end": "2022-12-10",
+      "days": 253,
+      "number": 63,
+      "event": "Supercard of Honor XV",
+      "location": "Garland, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r65",
+      "holder": "The Briscoes",
+      "people": [
+        "jay-briscoe",
+        "mark-briscoe"
+      ],
+      "start": "2022-12-10",
+      "end": "2023-03-31",
+      "days": 111,
+      "number": 64,
+      "event": "Final Battle",
+      "location": "Arlington, TX",
+      "note": "Double Dog Collar match; Jay Briscoe died January 17 2023 from car crash injuries",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r8",
-      "holder": "Penta El Zero Miedo & Rey Fénix",
+      "holder": "The Lucha Brothers",
       "people": [
         "penta",
         "rey-fenix"
       ],
       "start": "2023-03-31",
       "end": "2023-07-21",
+      "days": 112,
+      "number": 65,
+      "event": "Supercard of Honor",
+      "location": "Los Angeles, CA",
+      "note": "Won the vacant title in a Reach for the Sky ladder match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-penta-512",
         "profile-reign-rey-fenix-639"
       ]
+    },
+    {
+      "id": "r66",
+      "holder": "Aussie Open",
+      "people": [
+        "kyle-fletcher",
+        "mark-davis"
+      ],
+      "start": "2023-07-21",
+      "end": "2023-08-27",
+      "days": 37,
+      "number": 66,
+      "event": "Death Before Dishonor",
+      "location": "Trenton, NJ",
+      "note": "Four-way match also involving The Kingdom and Best Friends",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r67",
+      "holder": "Better Than You Bay Bay",
+      "people": [
+        "adam-cole",
+        "mjf"
+      ],
+      "start": "2023-08-27",
+      "end": "2023-12-27",
+      "days": 123,
+      "number": 67,
+      "event": "All In",
+      "location": "London, England",
+      "note": "AEW event; Samoa Joe filled in for the injured Cole",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r68",
+      "holder": "The Undisputed Kingdom",
+      "people": [
+        "matt-taven",
+        "mike-kanellis"
+      ],
+      "start": "2023-12-27",
+      "end": "2024-08-17",
+      "days": 234,
+      "number": 68,
+      "event": "Dynamite: New Year's Smash",
+      "location": "Orlando, FL",
+      "note": "AEW event; originally won as masked men and later unmasked",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r69",
+      "holder": "The Sons of Texas",
+      "people": [
+        "dustin-rhodes",
+        "sammy-guevara"
+      ],
+      "start": "2024-08-17",
+      "end": "2025-08-28",
+      "days": 376,
+      "number": 69,
+      "event": "Collision",
+      "location": "Arlington, TX",
+      "note": "AEW event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r70",
+      "holder": "La Facción Ingobernable",
+      "people": [
+        "rush",
+        "sammy-guevara"
+      ],
+      "start": "2025-08-29",
+      "end": "2025-11-28",
+      "days": 91,
+      "number": 70,
+      "event": "Death Before Dishonor",
+      "location": "Philadelphia, PA",
+      "note": "Beat The Outrunners for the vacant titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r71",
+      "holder": "La Facción Ingobernable",
+      "people": [
+        "sammy-guevara",
+        "the-beast-mortos"
+      ],
+      "start": "2025-12-05",
+      "end": "2026-06-26",
+      "days": 203,
+      "number": 71,
+      "event": "Final Battle",
+      "location": "Columbus, OH",
+      "note": "Beat Tommy Billington and Adam Priest for the vacant titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r72",
+      "holder": "El Sky Team",
+      "people": [
+        "mascara-dorada",
+        "mistico-ii"
+      ],
+      "start": "2026-06-26",
+      "days": 4,
+      "number": 72,
+      "event": "CMLL Super Viernes",
+      "location": "Mexico City, Mexico",
+      "note": "CMLL event; beat La Facción Ingobernable for their first reign as a team",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

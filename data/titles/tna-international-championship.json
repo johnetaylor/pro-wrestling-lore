@@ -1,11 +1,97 @@
 {
   "id": "tna-international-championship",
   "name": "TNA International Championship",
-  "names": [
-    "TNA International Championship"
+  "promotion": "tna",
+  "division": "men",
+  "format": "singles",
+  "established": "2025-03-29",
+  "names": [],
+  "eras": [
+    {
+      "name": "TNA International Championship",
+      "from": "2025-03-29"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "2025-03-29",
+      "kind": "retired",
+      "text": "The TNA Digital Media Championship was stripped from Steph De Lander and retired.",
+      "related": [
+        "TNA Digital Media Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_International_Championship"
+      ]
+    },
+    {
+      "date": "2025-03-29",
+      "kind": "replaces",
+      "text": "The TNA International Championship took the place of the retired TNA Digital Media Championship.",
+      "related": [
+        "TNA Digital Media Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_International_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/TNA_International_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r2",
+      "holder": "Steve Maclin",
+      "people": [
+        "steve-cutler"
+      ],
+      "start": "2025-04-17",
+      "end": "2025-09-26",
+      "days": 162,
+      "number": 1,
+      "event": "Unbreakable",
+      "location": "Paradise, NV",
+      "note": "Defeated Eric Young and A. J. Francis in a tournament final to become the inaugural champion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_International_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Frankie Kazarian",
+      "people": [
+        "frankie-kazarian"
+      ],
+      "start": "2025-09-26",
+      "end": "2025-10-12",
+      "days": 16,
+      "number": 2,
+      "event": "Victory Road",
+      "location": "Edmonton, AB",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_International_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Steve Maclin",
+      "people": [
+        "steve-cutler"
+      ],
+      "start": "2025-10-12",
+      "end": "2025-12-05",
+      "days": 54,
+      "number": 3,
+      "event": "Bound for Glory",
+      "location": "Lowell, MA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_International_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Channing \"Stacks\" Lorenzo",
@@ -14,13 +100,87 @@
       ],
       "start": "2025-12-05",
       "end": "2026-02-13",
+      "days": 70,
+      "number": 4,
+      "event": "Final Resolution",
+      "location": "El Paso, TX",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/tna/tna-international-championship"
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-international-championship",
+        "https://en.wikipedia.org/wiki/TNA_International_Championship"
       ],
       "legacyIds": [
         "profile-reign-channing-stacks-lorenzo-79"
       ]
+    },
+    {
+      "id": "r5",
+      "holder": "Trey Miguel",
+      "people": [
+        "trey-miguel"
+      ],
+      "start": "2026-02-13",
+      "end": "2026-04-11",
+      "days": 57,
+      "number": 5,
+      "event": "No Surrender",
+      "location": "Nashville, TN",
+      "note": "This was Miguel's Feast or Fired cash-in match.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_International_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Mustafa Ali",
+      "people": [
+        "mustafa-ali"
+      ],
+      "start": "2026-04-11",
+      "end": "2026-07-30",
+      "days": 110,
+      "number": 6,
+      "event": "Rebellion",
+      "location": "Cleveland, OH.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_International_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Jason Hotch",
+      "people": [
+        "jason-hotch"
+      ],
+      "start": "2026-07-30",
+      "end": "2026-08-23",
+      "days": 24,
+      "number": 7,
+      "event": "Thursday Night Impact!",
+      "location": "Philadelphia, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_International_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Mustafa Ali",
+      "people": [
+        "mustafa-ali"
+      ],
+      "start": "2026-08-23",
+      "days": 5,
+      "number": 8,
+      "event": "Lockdown",
+      "location": "Chicago, IL",
+      "note": "This was a Steel Cage match.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_International_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

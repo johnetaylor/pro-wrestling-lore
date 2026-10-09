@@ -1,11 +1,158 @@
 {
   "id": "wcw-wwe-cruiserweight-championship",
-  "name": "WCW/WWE Cruiserweight Championship",
+  "name": "Cruiserweight Championship (1996–2007)",
+  "promotion": "wwe",
+  "division": "men",
+  "format": "singles",
+  "established": "1996-03-20",
+  "retired": "2007-09-28",
   "names": [
-    "WCW/WWE Cruiserweight Championship"
+    "WCW/WWE Cruiserweight Championship",
+    "WCW Cruiserweight Championship",
+    "WWF Cruiserweight Championship",
+    "WWE Cruiserweight Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "WCW Cruiserweight Championship",
+      "from": "1996-03-20",
+      "to": "2001-11"
+    },
+    {
+      "name": "WWF Cruiserweight Championship",
+      "from": "2001-11",
+      "to": "2002-05"
+    },
+    {
+      "name": "WWE Cruiserweight Championship",
+      "from": "2002-05"
+    }
+  ],
+  "history": [
+    {
+      "date": "1991-10-27",
+      "kind": "recognition",
+      "text": "Created as the WCW Light Heavyweight Championship; Brian Pillman won the tournament final",
+      "related": [
+        "WCW Light Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Cruiserweight_Championship_(1996%E2%80%932007)"
+      ]
+    },
+    {
+      "date": "1992-09-02",
+      "kind": "deactivated",
+      "text": "Brad Armstrong relinquished the title due to injury, and it became inactive",
+      "related": [
+        "WCW Light Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Cruiserweight_Championship_(1996%E2%80%932007)"
+      ]
+    },
+    {
+      "date": "1996-03-20",
+      "kind": "recognition",
+      "text": "WCW treated the two titles as distinct; WWE later considered them one lineage",
+      "related": [
+        "WCW Light Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Cruiserweight_Championship_(1996%E2%80%932007)"
+      ]
+    },
+    {
+      "date": "2001-03",
+      "kind": "promotion",
+      "text": "WWF purchased WCW",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Cruiserweight_Championship_(1996%E2%80%932007)"
+      ]
+    },
+    {
+      "date": "2001-11",
+      "kind": "replaces",
+      "text": "Renamed the WWF Cruiserweight Championship after Survivor Series, replacing the WWF Light Heavyweight Championship",
+      "related": [
+        "WWF Light Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Cruiserweight_Championship_(1996%E2%80%932007)"
+      ]
+    },
+    {
+      "date": "2002-03-25",
+      "kind": "brand",
+      "text": "Became exclusive to the SmackDown! brand after the brand split",
+      "related": [
+        "SmackDown!"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Cruiserweight_Championship_(1996%E2%80%932007)"
+      ]
+    },
+    {
+      "date": "2007-09-28",
+      "kind": "retired",
+      "text": "Vacated after Hornswoggle was stripped of the title by Vickie Guerrero; WWE lists the retirement year as 2007",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Cruiserweight_Championship_(1996%E2%80%932007)"
+      ]
+    },
+    {
+      "date": "2016",
+      "kind": "recognition",
+      "text": "A separate WWE Cruiserweight Championship was created; it did not carry this title's lineage",
+      "related": [
+        "NXT Cruiserweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Cruiserweight_Championship_(1996%E2%80%932007)"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)",
+    "https://en.wikipedia.org/wiki/WWE_Cruiserweight_Championship_(1996%E2%80%932007)"
+  ],
   "reigns": [
+    {
+      "id": "r9",
+      "holder": "Shinjiro Otani",
+      "people": [
+        "shinjiro-otani"
+      ],
+      "start": "1996-03-20",
+      "end": "1996-05-02",
+      "days": 43,
+      "number": 1,
+      "event": "Hyper Battle 1996",
+      "location": "Nagoya, Japan",
+      "note": "Won tournament final over Wild Pegasus; New Japan event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Dean Malenko",
+      "people": [
+        "dean-malenko"
+      ],
+      "start": "1996-05-02",
+      "end": "1996-07-08",
+      "days": 67,
+      "number": 2,
+      "event": "WorldWide",
+      "location": "Lake Buena Vista, FL",
+      "note": "Aired May 18 on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Rey Mysterio Jr.",
@@ -14,13 +161,159 @@
       ],
       "start": "1996-07-08",
       "end": "1996-10-27",
+      "days": 111,
+      "number": 3,
+      "event": "Monday Nitro",
+      "location": "Lake Buena Vista, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wcw-wwe-cruiserweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wcw-wwe-cruiserweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-682"
       ]
+    },
+    {
+      "id": "r11",
+      "holder": "Dean Malenko",
+      "people": [
+        "dean-malenko"
+      ],
+      "start": "1996-10-27",
+      "end": "1996-12-29",
+      "days": 63,
+      "number": 4,
+      "event": "Halloween Havoc",
+      "location": "Paradise, NV",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Último Dragón",
+      "people": [
+        "ultimo-dragon"
+      ],
+      "start": "1996-12-29",
+      "end": "1997-01-21",
+      "days": 23,
+      "number": 5,
+      "event": "Starrcade",
+      "location": "Nashville, TN",
+      "note": "Also for Dragon's J-Crown",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Dean Malenko",
+      "people": [
+        "dean-malenko"
+      ],
+      "start": "1997-01-21",
+      "end": "1997-02-23",
+      "days": 33,
+      "number": 6,
+      "event": "Clash of the Champions XXXIV",
+      "location": "Milwaukee, WI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Syxx",
+      "people": [
+        "x-pac"
+      ],
+      "start": "1997-02-23",
+      "end": "1997-06-28",
+      "days": 125,
+      "number": 7,
+      "event": "SuperBrawl VII",
+      "location": "Daly City, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "1997-06-28",
+      "end": "1997-07-28",
+      "days": 30,
+      "number": 8,
+      "event": "Saturday Nitro",
+      "location": "Inglewood, CA",
+      "note": "Internet-broadcast house show match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Alex Wright",
+      "people": [
+        "alex-wright"
+      ],
+      "start": "1997-07-28",
+      "end": "1997-08-12",
+      "days": 15,
+      "number": 9,
+      "event": "Monday Nitro",
+      "location": "Charleston, WV",
+      "note": "WWE counts end as Aug 16, 1997 (tape delay)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "1997-08-12",
+      "end": "1997-09-14",
+      "days": 29,
+      "number": 10,
+      "event": "Saturday Night",
+      "location": "Colorado Springs, CO",
+      "note": "WWE counts start as Aug 16, 1997 (tape delay)",
+      "dateNote": "The promotion's count differs from the dates (33 days by the dates, 29 printed).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Eddie Guerrero",
+      "people": [
+        "eddie-guerrero"
+      ],
+      "start": "1997-09-14",
+      "end": "1997-10-26",
+      "days": 42,
+      "number": 11,
+      "event": "Fall Brawl",
+      "location": "Winston-Salem, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r2",
@@ -30,13 +323,70 @@
       ],
       "start": "1997-10-26",
       "end": "1997-11-10",
+      "days": 15,
+      "number": 12,
+      "event": "Halloween Havoc",
+      "location": "Paradise, NV",
+      "note": "Mask vs. Title match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wcw-wwe-cruiserweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wcw-wwe-cruiserweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-680"
       ]
+    },
+    {
+      "id": "r19",
+      "holder": "Eddie Guerrero",
+      "people": [
+        "eddie-guerrero"
+      ],
+      "start": "1997-11-10",
+      "end": "1997-12-29",
+      "days": 49,
+      "number": 13,
+      "event": "Monday Nitro",
+      "location": "Memphis, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Último Dragón",
+      "people": [
+        "ultimo-dragon"
+      ],
+      "start": "1997-12-29",
+      "end": "1998-01-08",
+      "days": 10,
+      "number": 14,
+      "event": "Monday Nitro",
+      "location": "Baltimore, MD",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Juventud Guerrera",
+      "people": [
+        "juventud-guerrera"
+      ],
+      "start": "1998-01-08",
+      "end": "1998-01-15",
+      "days": 7,
+      "number": 15,
+      "event": "Thunder",
+      "location": "Daytona Beach, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r3",
@@ -46,13 +396,140 @@
       ],
       "start": "1998-01-15",
       "end": "1998-01-24",
+      "days": 9,
+      "number": 16,
+      "event": "Thunder",
+      "location": "Lakeland, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wcw-wwe-cruiserweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wcw-wwe-cruiserweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-679"
       ]
+    },
+    {
+      "id": "r22",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "1998-01-24",
+      "end": "1998-05-17",
+      "days": 113,
+      "number": 17,
+      "event": "Souled Out",
+      "location": "Dayton, OH",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Dean Malenko",
+      "people": [
+        "dean-malenko"
+      ],
+      "start": "1998-05-17",
+      "end": "1998-06-11",
+      "days": 25,
+      "number": 18,
+      "event": "Slamboree",
+      "location": "Worcester, MA",
+      "note": "Won battle royal masked as Ciclope for title shot",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "1998-06-14",
+      "end": "1998-08-08",
+      "days": 55,
+      "number": 19,
+      "event": "The Great American Bash",
+      "location": "Baltimore, MD",
+      "note": "Won by DQ; lost to Mysterio Jul 12 via Malenko interference; regained next night; WWE counts 56 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Juventud Guerrera",
+      "people": [
+        "juventud-guerrera"
+      ],
+      "start": "1998-08-08",
+      "end": "1998-09-14",
+      "days": 37,
+      "number": 20,
+      "event": "Road Wild",
+      "location": "Sturgis, SD",
+      "note": "Malenko was special guest referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Billy Kidman",
+      "people": [
+        "billy-kidman"
+      ],
+      "start": "1998-09-14",
+      "end": "1998-11-16",
+      "days": 63,
+      "number": 21,
+      "event": "Monday Nitro",
+      "location": "Greenville, SC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Juventud Guerrera",
+      "people": [
+        "juventud-guerrera"
+      ],
+      "start": "1998-11-16",
+      "end": "1998-11-22",
+      "days": 6,
+      "number": 22,
+      "event": "Monday Nitro",
+      "location": "Wichita, KS",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Billy Kidman",
+      "people": [
+        "billy-kidman"
+      ],
+      "start": "1998-11-22",
+      "end": "1999-03-15",
+      "days": 113,
+      "number": 23,
+      "event": "World War 3",
+      "location": "Auburn Hills, MI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r4",
@@ -62,13 +539,36 @@
       ],
       "start": "1999-03-15",
       "end": "1999-04-19",
+      "days": 35,
+      "number": 24,
+      "event": "Monday Nitro",
+      "location": "Cincinnati, OH",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wcw-wwe-cruiserweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wcw-wwe-cruiserweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-678"
       ]
+    },
+    {
+      "id": "r29",
+      "holder": "Psychosis",
+      "people": [
+        "psicosis"
+      ],
+      "start": "1999-04-19",
+      "end": "1999-04-26",
+      "days": 7,
+      "number": 25,
+      "event": "Monday Nitro",
+      "location": "Gainesville, FL",
+      "note": "Four-way match with Blitzkrieg and Juventud Guerrera",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r5",
@@ -78,13 +578,513 @@
       ],
       "start": "1999-04-26",
       "end": "1999-08-19",
+      "days": 115,
+      "number": 26,
+      "event": "Monday Nitro",
+      "location": "Fargo, ND",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wcw-wwe-cruiserweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wcw-wwe-cruiserweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-676"
       ]
+    },
+    {
+      "id": "r30",
+      "holder": "Lenny Lane",
+      "people": [
+        "lenny-lane"
+      ],
+      "start": "1999-08-19",
+      "end": "1999-10-04",
+      "days": 46,
+      "number": 27,
+      "event": "Thunder",
+      "location": "Lubbock, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "Psychosis",
+      "people": [
+        "psicosis"
+      ],
+      "start": "1999-10-04",
+      "end": "1999-10-04",
+      "days": 0,
+      "number": 28,
+      "event": "Monday Nitro",
+      "location": "Kansas City, MO",
+      "note": "Awarded title after West Hollywood Blonde angle dropped",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Disco Inferno",
+      "people": [
+        "disco-inferno"
+      ],
+      "start": "1999-10-04",
+      "end": "1999-11-21",
+      "days": 48,
+      "number": 29,
+      "event": "Monday Nitro",
+      "location": "Kansas City, MO",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Evan Karagias",
+      "people": [
+        "evan-karagias"
+      ],
+      "start": "1999-11-21",
+      "end": "1999-12-19",
+      "days": 28,
+      "number": 30,
+      "event": "Mayhem",
+      "location": "Toronto, ON, Canada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Madusa",
+      "people": [
+        "alundra-blayze"
+      ],
+      "start": "1999-12-19",
+      "end": "2000-01-16",
+      "days": 28,
+      "number": 31,
+      "event": "Starrcade",
+      "location": "Washington, D.C.",
+      "note": "First female Cruiserweight Champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "Oklahoma",
+      "people": [
+        "oklahoma"
+      ],
+      "start": "2000-01-16",
+      "end": "2000-01-18",
+      "days": 2,
+      "number": 32,
+      "event": "Souled Out",
+      "location": "Cincinnati, OH",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "The Artist",
+      "people": [
+        "prince-iaukea"
+      ],
+      "start": "2000-02-20",
+      "end": "2000-03-30",
+      "days": 39,
+      "number": 33,
+      "event": "SuperBrawl 2000",
+      "location": "Daly City, CA",
+      "note": "Won tournament final over Lash LeRoux for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "Billy Kidman",
+      "people": [
+        "billy-kidman"
+      ],
+      "start": "2000-03-30",
+      "end": "2000-03-31",
+      "days": 1,
+      "number": 34,
+      "event": "House show",
+      "location": "Baltimore, MD",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r38",
+      "holder": "The Artist",
+      "people": [
+        "prince-iaukea"
+      ],
+      "start": "2000-03-31",
+      "end": "2000-04-10",
+      "days": 10,
+      "number": 35,
+      "event": "House show",
+      "location": "Pittsburgh, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "Chris Candido",
+      "people": [
+        "chris-candido"
+      ],
+      "start": "2000-04-16",
+      "end": "2000-05-15",
+      "days": 29,
+      "number": 36,
+      "event": "Spring Stampede",
+      "location": "Chicago, IL",
+      "note": "Won six-way match for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "Crowbar and Daffney",
+      "people": [
+        "crowbar",
+        "daffney"
+      ],
+      "start": "2000-05-15",
+      "end": "2000-05-22",
+      "days": 7,
+      "number": 37,
+      "event": "Monday Nitro",
+      "location": "Biloxi, MS",
+      "note": "Mixed tag win over Candido and Sytch; became co-champions",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "Daffney",
+      "people": [
+        "daffney"
+      ],
+      "start": "2000-05-22",
+      "end": "2000-06-06",
+      "days": 15,
+      "number": 38,
+      "event": "Monday Nitro",
+      "location": "Grand Rapids, MI",
+      "note": "Beat Crowbar for undisputed title; second female champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Lieutenant Loco",
+      "people": [
+        "chavo-guerrero"
+      ],
+      "start": "2000-06-06",
+      "end": "2000-07-31",
+      "days": 55,
+      "number": 39,
+      "event": "Thunder",
+      "location": "Knoxville, TN",
+      "note": "Three-way match with Disqo; aired Jun 7 on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "Lance Storm",
+      "people": [
+        "lance-storm"
+      ],
+      "start": "2000-07-31",
+      "end": "2000-08-14",
+      "days": 14,
+      "number": 40,
+      "event": "Monday Nitro",
+      "location": "Cincinnati, OH",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "Elix Skipper",
+      "people": [
+        "elix-skipper"
+      ],
+      "start": "2000-08-14",
+      "end": "2000-10-02",
+      "days": 49,
+      "number": 41,
+      "event": "Monday Nitro",
+      "location": "Kelowna, BC, Canada",
+      "note": "Awarded by Lance Storm as the \"101 KG and Under Championship\"",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "Mike Sanders",
+      "people": [
+        "mike-sanders"
+      ],
+      "start": "2000-10-02",
+      "end": "2000-12-04",
+      "days": 63,
+      "number": 42,
+      "event": "Monday Nitro",
+      "location": "Daly City, CA",
+      "note": "Sanders and Kevin Nash beat Skipper in handicap powerbomb",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "Chavo Guerrero Jr.",
+      "people": [
+        "chavo-guerrero"
+      ],
+      "start": "2000-12-04",
+      "end": "2001-03-18",
+      "days": 104,
+      "number": 43,
+      "event": "Thunder",
+      "location": "Lincoln, NE",
+      "note": "Formerly Lieutenant Loco; aired Dec 6 on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "Shane Helms",
+      "people": [
+        "the-hurricane"
+      ],
+      "start": "2001-03-18",
+      "end": "2001-07-03",
+      "days": 107,
+      "number": 44,
+      "event": "Greed",
+      "location": "Jacksonville, FL",
+      "note": "WCW bought by WWF later that month; WWE counts end Jul 5, 2001",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "Billy Kidman",
+      "people": [
+        "billy-kidman"
+      ],
+      "start": "2001-07-03",
+      "end": "2001-07-30",
+      "days": 27,
+      "number": 45,
+      "event": "SmackDown!",
+      "location": "Tacoma, WA",
+      "note": "First WWF title change; WWE counts start Jul 5, 2001",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r49",
+      "holder": "X-Pac",
+      "people": [
+        "x-pac"
+      ],
+      "start": "2001-07-30",
+      "end": "2001-10-09",
+      "days": 71,
+      "number": 46,
+      "event": "Raw is War",
+      "location": "Philadelphia, PA",
+      "note": "Formerly Syxx; WWF Light Heavyweight title also on line; WWE counts end Oct 11, 2001",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r50",
+      "holder": "Billy Kidman",
+      "people": [
+        "billy-kidman"
+      ],
+      "start": "2001-10-09",
+      "end": "2001-10-22",
+      "days": 13,
+      "number": 47,
+      "event": "SmackDown!",
+      "location": "Moline, IL",
+      "note": "WWE counts start Oct 11, 2001",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r51",
+      "holder": "Tajiri",
+      "people": [
+        "tajiri"
+      ],
+      "start": "2001-10-22",
+      "end": "2002-04-02",
+      "days": 162,
+      "number": 48,
+      "event": "Raw",
+      "location": "Kansas City, MO",
+      "note": "Became WWF Cruiserweight Nov 18; exclusive to SmackDown Mar 25, 2002",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "Billy Kidman",
+      "people": [
+        "billy-kidman"
+      ],
+      "start": "2002-04-02",
+      "end": "2002-04-21",
+      "days": 19,
+      "number": 49,
+      "event": "SmackDown!",
+      "location": "Rochester, NY",
+      "note": "WWE counts start Apr 4, 2002 (tape delay)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r53",
+      "holder": "Tajiri",
+      "people": [
+        "tajiri"
+      ],
+      "start": "2002-04-21",
+      "end": "2002-05-14",
+      "days": 23,
+      "number": 50,
+      "event": "Backlash",
+      "location": "Kansas City, MO",
+      "note": "Became WWE Cruiserweight May 5 when WWF became WWE",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r54",
+      "holder": "The Hurricane",
+      "people": [
+        "the-hurricane"
+      ],
+      "start": "2002-05-14",
+      "end": "2002-06-23",
+      "days": 40,
+      "number": 51,
+      "event": "SmackDown!",
+      "location": "Montreal, QC, Canada",
+      "note": "Formerly Shane Helms; triple threat with Kidman; WWE counts start May 16",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r55",
+      "holder": "Jamie Noble",
+      "people": [
+        "jamie-noble"
+      ],
+      "start": "2002-06-23",
+      "end": "2002-11-17",
+      "days": 147,
+      "number": 52,
+      "event": "King of the Ring",
+      "location": "Columbus, OH",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r56",
+      "holder": "Billy Kidman",
+      "people": [
+        "billy-kidman"
+      ],
+      "start": "2002-11-17",
+      "end": "2003-02-23",
+      "days": 98,
+      "number": 53,
+      "event": "Survivor Series",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "Matt Hardy",
+      "people": [
+        "matt-hardy"
+      ],
+      "start": "2003-02-23",
+      "end": "2003-06-03",
+      "days": 100,
+      "number": 54,
+      "event": "No Way Out",
+      "location": "Montreal, QC, Canada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r6",
@@ -93,14 +1093,38 @@
         "rey-mysterio"
       ],
       "start": "2003-06-05",
-      "end": "2003-09-25",
+      "end": "2003-09-23",
+      "days": 112,
+      "number": 55,
+      "event": "SmackDown!",
+      "location": "Anaheim, CA",
+      "note": "Formerly Rey Mysterio Jr.; aired Jun 5 on tape delay",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wcw-wwe-cruiserweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wcw-wwe-cruiserweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-670"
       ]
+    },
+    {
+      "id": "r58",
+      "holder": "Tajiri",
+      "people": [
+        "tajiri"
+      ],
+      "start": "2003-09-23",
+      "end": "2003-12-30",
+      "days": 98,
+      "number": 56,
+      "event": "SmackDown!",
+      "location": "Philadelphia, PA",
+      "note": "WWE counts start Sep 25, 2003 (tape delay)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r7",
@@ -110,13 +1134,91 @@
       ],
       "start": "2004-01-01",
       "end": "2004-02-15",
+      "days": 47,
+      "number": 57,
+      "event": "SmackDown!",
+      "location": "Laredo, TX",
+      "note": "WWE counts start Jan 1, 2004 (tape delay)",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wcw-wwe-cruiserweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wcw-wwe-cruiserweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-669"
       ]
+    },
+    {
+      "id": "r59",
+      "holder": "Chavo Guerrero",
+      "people": [
+        "chavo-guerrero"
+      ],
+      "start": "2004-02-15",
+      "end": "2004-05-04",
+      "days": 79,
+      "number": 58,
+      "event": "No Way Out",
+      "location": "Daly City, CA",
+      "note": "Formerly Chavo Guerrero Jr.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r60",
+      "holder": "Jacqueline",
+      "people": [
+        "jacqueline"
+      ],
+      "start": "2004-05-04",
+      "end": "2004-05-16",
+      "days": 12,
+      "number": 59,
+      "event": "SmackDown!",
+      "location": "Tucson, AZ",
+      "note": "Answered open challenge; third female champion; WWE counts start May 6, 2004",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r61",
+      "holder": "Chavo Guerrero",
+      "people": [
+        "chavo-guerrero"
+      ],
+      "start": "2004-05-16",
+      "end": "2004-05-18",
+      "days": 2,
+      "number": 60,
+      "event": "Judgment Day",
+      "location": "Los Angeles, CA",
+      "note": "Won with one hand tied; father untied it during match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r62",
+      "holder": "Chavo Classic",
+      "people": [
+        "chavo-classic"
+      ],
+      "start": "2004-05-18",
+      "end": "2004-06-15",
+      "days": 28,
+      "number": 61,
+      "event": "SmackDown!",
+      "location": "Paradise, NV",
+      "note": "Triple threat with Spike Dudley; aired May 20 on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r8",
@@ -125,14 +1227,233 @@
         "rey-mysterio"
       ],
       "start": "2004-06-17",
-      "end": "2004-07-29",
+      "end": "2004-07-27",
+      "days": 42,
+      "number": 62,
+      "event": "SmackDown!",
+      "location": "Rosemont, IL",
+      "note": "Aired Jun 17 on tape delay",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wcw-wwe-cruiserweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wcw-wwe-cruiserweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-668"
       ]
+    },
+    {
+      "id": "r63",
+      "holder": "Spike Dudley",
+      "people": [
+        "spike-dudley"
+      ],
+      "start": "2004-07-27",
+      "end": "2004-12-12",
+      "days": 138,
+      "number": 63,
+      "event": "SmackDown!",
+      "location": "Cincinnati, OH",
+      "note": "WWE counts start Jul 29, 2004 (tape delay)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r64",
+      "holder": "Funaki",
+      "people": [
+        "sho-funaki"
+      ],
+      "start": "2004-12-12",
+      "end": "2005-02-20",
+      "days": 70,
+      "number": 64,
+      "event": "Armageddon",
+      "location": "Duluth, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r65",
+      "holder": "Chavo Guerrero",
+      "people": [
+        "chavo-guerrero"
+      ],
+      "start": "2005-02-20",
+      "end": "2005-03-29",
+      "days": 37,
+      "number": 65,
+      "event": "No Way Out",
+      "location": "Pittsburgh, PA",
+      "note": "Six-man open; last eliminated Paul London",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r66",
+      "holder": "Paul London",
+      "people": [
+        "paul-london"
+      ],
+      "start": "2005-03-29",
+      "end": "2005-08-02",
+      "days": 126,
+      "number": 66,
+      "event": "SmackDown!",
+      "location": "Houston, TX",
+      "note": "Eight-man battle royal; aired Mar 31 on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r67",
+      "holder": "Nunzio",
+      "people": [
+        "nunzio"
+      ],
+      "start": "2005-08-02",
+      "end": "2005-10-09",
+      "days": 68,
+      "number": 67,
+      "event": "Velocity",
+      "location": "Bridgeport, CT",
+      "note": "WWE counts start Aug 6, 2005 (tape delay)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r68",
+      "holder": "Juventud",
+      "people": [
+        "juventud"
+      ],
+      "start": "2005-10-09",
+      "end": "2005-11-15",
+      "days": 37,
+      "number": 68,
+      "event": "No Mercy",
+      "location": "Houston, TX",
+      "note": "Formerly Juventud Guerrera",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r69",
+      "holder": "Nunzio",
+      "people": [
+        "nunzio"
+      ],
+      "start": "2005-11-15",
+      "end": "2005-11-22",
+      "days": 7,
+      "number": 69,
+      "event": "House show",
+      "location": "Rome, Italy",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r70",
+      "holder": "Juventud",
+      "people": [
+        "juventud"
+      ],
+      "start": "2005-11-22",
+      "end": "2005-12-18",
+      "days": 26,
+      "number": 70,
+      "event": "SmackDown!",
+      "location": "Sheffield, England",
+      "note": "WWE counts start Nov 25, 2005 (tape delay)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r71",
+      "holder": "Kid Kash",
+      "people": [
+        "kid-kash"
+      ],
+      "start": "2005-12-18",
+      "end": "2006-01-29",
+      "days": 42,
+      "number": 71,
+      "event": "Armageddon",
+      "location": "Providence, RI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r72",
+      "holder": "Gregory Helms",
+      "people": [
+        "the-hurricane"
+      ],
+      "start": "2006-01-29",
+      "end": "2007-02-18",
+      "days": 385,
+      "number": 72,
+      "event": "Royal Rumble",
+      "location": "Miami, FL",
+      "note": "Formerly The Hurricane; six-man open; moved from Raw to SmackDown!",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r73",
+      "holder": "Chavo Guerrero",
+      "people": [
+        "chavo-guerrero"
+      ],
+      "start": "2007-02-18",
+      "end": "2007-07-22",
+      "days": 154,
+      "number": 73,
+      "event": "No Way Out",
+      "location": "Los Angeles, CA",
+      "note": "Eight-man open; last eliminated Jimmy Wang Yang",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r74",
+      "holder": "Hornswoggle",
+      "people": [
+        "hornswoggle"
+      ],
+      "start": "2007-07-22",
+      "end": "2007-09-25",
+      "days": 65,
+      "number": 74,
+      "event": "The Great American Bash",
+      "location": "San Jose, CA",
+      "note": "Six-man open; pinned Jamie Noble; WWE counts end Sep 28, 2007",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "legacyIds": []
     }
   ]
 }

@@ -1,11 +1,204 @@
 {
   "id": "million-dollar-championship",
   "name": "Million Dollar Championship",
-  "names": [
-    "Million Dollar Championship"
+  "promotion": "wwe",
+  "division": "men",
+  "format": "singles",
+  "established": "1989-02-15",
+  "retired": "2021-08-23",
+  "names": [],
+  "eras": [
+    {
+      "name": "Million Dollar Championship",
+      "from": "1989-02-15"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "1992-02-07",
+      "kind": "deactivated",
+      "text": "DiBiase abandoned the title after winning the WWF Tag Team Championship with Irwin R. Schyster.",
+      "related": [
+        "WWF Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Million_Dollar_Championship"
+      ]
+    },
+    {
+      "date": "1995-12-18",
+      "kind": "reactivated",
+      "text": "DiBiase awarded the title to The Ringmaster, who soon became Stone Cold Steve Austin.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Million_Dollar_Championship"
+      ]
+    },
+    {
+      "date": "1996-05-28",
+      "kind": "deactivated",
+      "text": "Austin abandoned the title after DiBiase left the WWF.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Million_Dollar_Championship"
+      ]
+    },
+    {
+      "date": "2002-05",
+      "kind": "promotion",
+      "text": "The WWF was renamed World Wrestling Entertainment (WWE).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Million_Dollar_Championship"
+      ]
+    },
+    {
+      "date": "2010-04-05",
+      "kind": "reactivated",
+      "text": "The title was revived on Raw for Ted DiBiase Jr., and WWE confirmed the reactivation.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Million_Dollar_Championship"
+      ]
+    },
+    {
+      "date": "2010-11-15",
+      "kind": "deactivated",
+      "text": "DiBiase Jr. rejected the belt when his father offered it back, so the title was deactivated.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Million_Dollar_Championship"
+      ]
+    },
+    {
+      "date": "2021-06-08",
+      "kind": "reactivated",
+      "text": "Ted DiBiase reintroduced the title on NXT for a storyline with Cameron Grimes and LA Knight.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Million_Dollar_Championship"
+      ]
+    },
+    {
+      "date": "2021-06-08",
+      "kind": "brand",
+      "text": "The title moved to the NXT brand for its third revival.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Million_Dollar_Championship"
+      ]
+    },
+    {
+      "date": "2021-06-13",
+      "kind": "recognition",
+      "text": "WWE added an official title history, recognizing the title as an official championship.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Million_Dollar_Championship"
+      ]
+    },
+    {
+      "date": "2021-08-23",
+      "kind": "retired",
+      "text": "Grimes gave the title back to DiBiase, who kept it and gave Grimes a replica, deactivating the title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Million_Dollar_Championship"
+      ]
+    },
+    {
+      "date": "2021-09",
+      "kind": "recognition",
+      "text": "WWE quietly removed the title from WWE.com and listed Grimes as a former champion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Million_Dollar_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Million_Dollar_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r2",
+      "holder": "Ted DiBiase",
+      "people": [
+        "ted-dibiase"
+      ],
+      "start": "1989-02-15",
+      "end": "1991-08-26",
+      "days": 922,
+      "number": 1,
+      "event": "Superstars of Wrestling",
+      "location": "Binghamton, NY",
+      "note": "Unveiled belt on The Brother Love Show; aired on tape delay March 4, 1989",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Million_Dollar_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Virgil",
+      "people": [
+        "virgil"
+      ],
+      "start": "1991-08-26",
+      "end": "1991-11-11",
+      "days": 77,
+      "number": 2,
+      "event": "SummerSlam",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Million_Dollar_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Ted DiBiase",
+      "people": [
+        "ted-dibiase"
+      ],
+      "start": "1991-11-11",
+      "end": "1992-02-07",
+      "days": 88,
+      "number": 3,
+      "event": "Survivor Series Showdown",
+      "location": "Utica, NY",
+      "note": "Aired on tape delay November 24, 1991",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Million_Dollar_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "The Ringmaster/Stone Cold Steve Austin",
+      "people": [
+        "stone-cold-steve-austin"
+      ],
+      "start": "1995-12-18",
+      "end": "1996-05-28",
+      "days": 162,
+      "number": 4,
+      "event": "Raw",
+      "location": "Newark, DE",
+      "note": "Awarded by DiBiase on The Brother Love Show; aired on tape delay January 8, 1996",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Million_Dollar_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Ted DiBiase Jr.",
+      "people": [
+        "ted-dibiase-jr"
+      ],
+      "start": "2010-04-05",
+      "end": "2010-11-15",
+      "days": 224,
+      "number": 5,
+      "event": "Raw",
+      "location": "Moline, IL",
+      "note": "Awarded by his father; WWE billed him as Ted DiBiase",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Million_Dollar_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "LA Knight",
@@ -14,13 +207,37 @@
       ],
       "start": "2021-06-13",
       "end": "2021-08-22",
+      "days": 70,
+      "number": 6,
+      "event": "TakeOver: In Your House",
+      "location": "Orlando, FL",
+      "note": "Won ladder match over Cameron Grimes; became officially recognized by WWE",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/million-dollar-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/million-dollar-championship",
+        "https://en.wikipedia.org/wiki/Million_Dollar_Championship"
       ],
       "legacyIds": [
         "profile-reign-la-knight-404"
       ]
+    },
+    {
+      "id": "r7",
+      "holder": "Cameron Grimes",
+      "people": [
+        "cameron-grimes"
+      ],
+      "start": "2021-08-22",
+      "end": "2021-08-23",
+      "days": 1,
+      "number": 7,
+      "event": "TakeOver 36",
+      "location": "Orlando, FL",
+      "note": "If Grimes had lost, DiBiase would have become LA Knight's butler",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Million_Dollar_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

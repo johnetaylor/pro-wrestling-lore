@@ -1,71 +1,393 @@
 {
   "id": "nxt-tag-team-championship",
   "name": "NXT Tag Team Championship",
-  "names": [
-    "NXT Tag Team Championship"
+  "promotion": "wwe",
+  "division": "men",
+  "format": "tag",
+  "established": "2013-01-23",
+  "names": [],
+  "eras": [
+    {
+      "name": "NXT Tag Team Championship",
+      "from": "2013-01-23"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "2013",
+      "kind": "recognition",
+      "text": "Bo Dallas teamed with Neville in a first-defense loss to The Wyatt Family, and Dallas was not recognized as champion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2019-09",
+      "kind": "brand",
+      "text": "NXT was promoted as WWE's third brand after its move to the USA Network.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2021-09",
+      "kind": "brand",
+      "text": "NXT returned to its original role as WWE's developmental brand.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2022-09-04",
+      "kind": "unified-into",
+      "text": "At Worlds Collide, the NXT UK title was merged into this title in a fatal four-way won by Pretty Deadly.",
+      "related": [
+        "NXT UK Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Tag_Team_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions",
+    "https://en.wikipedia.org/wiki/NXT_Tag_Team_Championship"
+  ],
   "reigns": [
     {
-      "id": "r1",
-      "holder": "Chad Gable & Jason Jordan",
+      "id": "r23",
+      "holder": "British Ambition",
       "people": [
-        "chad-gable"
+        "neville",
+        "oliver-grey"
+      ],
+      "start": "2013-01-31",
+      "end": "2013-05-02",
+      "days": 91,
+      "number": 1,
+      "event": "NXT",
+      "location": "Winter Park, FL",
+      "note": "Inaugural champions; Bo Dallas filled in for injured Grey but was not recognized",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "The Wyatt Family",
+      "people": [
+        "luke-harper",
+        "erick-rowan"
+      ],
+      "start": "2013-05-02",
+      "end": "2013-06-20",
+      "days": 49,
+      "number": 2,
+      "event": "NXT",
+      "location": "Winter Park, FL",
+      "note": "Bo Dallas filled in for injured Oliver Grey",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Adrian Neville & Corey Graves",
+      "people": [
+        "neville",
+        "corey-graves"
+      ],
+      "start": "2013-06-20",
+      "end": "2013-09-12",
+      "days": 84,
+      "number": 3,
+      "event": "NXT",
+      "location": "Winter Park, FL",
+      "note": "WWE recognizes reign from July 17 to October 2 2013",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "The Ascension",
+      "people": [
+        "konnor",
+        "viktor"
+      ],
+      "start": "2013-09-12",
+      "end": "2014-09-11",
+      "days": 364,
+      "number": 4,
+      "event": "NXT",
+      "location": "Winter Park, FL",
+      "note": "Ring names shortened to Konnor and Viktor; WWE recognizes 343 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Lucha Dragons",
+      "people": [
+        "kalisto",
+        "sin-cara"
+      ],
+      "start": "2014-09-11",
+      "end": "2015-01-15",
+      "days": 126,
+      "number": 5,
+      "event": "TakeOver: Fatal 4-Way",
+      "location": "Winter Park, FL",
+      "note": "WWE recognizes reign ending January 28 2015",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Buddy Murphy & Wesley Blake",
+      "people": [
+        "buddy-murphy",
+        "wesley-blake"
+      ],
+      "start": "2015-01-15",
+      "end": "2015-08-22",
+      "days": 219,
+      "number": 6,
+      "event": "NXT",
+      "location": "Winter Park, FL",
+      "note": "Ring names shortened to Murphy and Blake; WWE recognizes 205 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "The Vaudevillains",
+      "people": [
+        "aiden-english",
+        "simon-gotch"
+      ],
+      "start": "2015-08-22",
+      "end": "2015-10-22",
+      "days": 61,
+      "number": 7,
+      "event": "TakeOver: Brooklyn",
+      "location": "Brooklyn, NY",
+      "note": "WWE recognizes reign ending November 11 2015",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Dash and Dawson/The Revival",
+      "people": [
+        "dash-wilder",
+        "scott-dawson"
+      ],
+      "start": "2015-10-22",
+      "end": "2016-04-01",
+      "days": 162,
+      "number": 8,
+      "event": "NXT",
+      "location": "Winter Park, FL",
+      "note": "Renamed The Revival during reign; WWE recognizes 142 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r1",
+      "holder": "American Alpha",
+      "people": [
+        "chad-gable",
+        "jason-jordan"
       ],
       "start": "2016-04-01",
       "end": "2016-06-08",
+      "days": 68,
+      "number": 9,
+      "event": "TakeOver: Dallas",
+      "location": "Dallas, TX",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-chad-gable-78"
       ]
     },
     {
-      "id": "r2",
-      "holder": "Johnny Gargano & Tommaso Ciampa",
+      "id": "r31",
+      "holder": "The Revival",
       "people": [
-        "johnny-gargano"
+        "dash-wilder",
+        "scott-dawson"
+      ],
+      "start": "2016-06-08",
+      "end": "2016-11-19",
+      "days": 164,
+      "number": 10,
+      "event": "TakeOver: The End",
+      "location": "Winter Park, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r2",
+      "holder": "#DIY",
+      "people": [
+        "johnny-gargano",
+        "tommaso-ciampa"
       ],
       "start": "2016-11-19",
       "end": "2017-01-28",
+      "days": 70,
+      "number": 11,
+      "event": "TakeOver: Toronto",
+      "location": "Toronto, ON, Canada",
+      "note": "Two out of three falls match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-johnny-gargano-363"
       ]
     },
     {
-      "id": "r3",
-      "holder": "Tyler Bate & Trent Seven",
+      "id": "r32",
+      "holder": "Authors of Pain",
       "people": [
-        "tyler-bate"
+        "akam",
+        "rezar"
+      ],
+      "start": "2017-01-28",
+      "end": "2017-08-19",
+      "days": 203,
+      "number": 12,
+      "event": "TakeOver: San Antonio",
+      "location": "San Antonio, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Sanity",
+      "people": [
+        "eric-young",
+        "alexander-wolfe"
+      ],
+      "start": "2017-08-19",
+      "end": "2017-11-29",
+      "days": 102,
+      "number": 13,
+      "event": "TakeOver: Brooklyn III",
+      "location": "Brooklyn, NY",
+      "note": "Killian Dain started as partner but Young replaced him; Dain not recognized; WWE recognizes end December 20 2017",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "The Undisputed Era",
+      "people": [
+        "kyle-oreilly",
+        "bobby-fish",
+        "adam-cole",
+        "roderick-strong"
+      ],
+      "start": "2017-11-29",
+      "end": "2018-06-19",
+      "days": 180,
+      "number": 14,
+      "event": "NXT",
+      "location": "Winter Park, FL",
+      "note": "Fish and O'Reilly won; Cole then Strong replaced Fish under Freebird Rule; WWE recognizes one 180-day reign",
+      "dateNote": "The promotion's count differs from the dates (202 days by the dates, 180 (107/4/69) printed).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Moustache Mountain",
+      "people": [
+        "tyler-bate",
+        "trent-seven"
       ],
       "start": "2018-06-19",
-      "end": "2018-07-11",
+      "end": "2018-06-21",
+      "days": 2,
+      "number": 15,
+      "event": "United Kingdom Championship Tournament",
+      "location": "London, England",
+      "note": "WWE recognizes 22 days",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-bravo-americano-58"
       ]
     },
     {
+      "id": "r35",
+      "holder": "The Undisputed Era",
+      "people": [
+        "kyle-oreilly",
+        "roderick-strong"
+      ],
+      "start": "2018-06-21",
+      "end": "2019-01-26",
+      "days": 219,
+      "number": 16,
+      "event": "NXT",
+      "location": "Winter Park, FL",
+      "note": "Won by submission when Tyler Bate threw in the towel",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r4",
-      "holder": "Hanson & Rowe",
+      "holder": "War Raiders/The Viking Experience/The Viking Raiders",
       "people": [
         "erik",
         "ivar"
       ],
       "start": "2019-01-26",
-      "end": "2019-05-15",
+      "end": "2019-05-01",
+      "days": 95,
+      "number": 17,
+      "event": "TakeOver: Phoenix",
+      "location": "Phoenix, AZ",
+      "note": "Renamed during 2019 Superstar Shake-up; relinquished May 1 2019 taping; WWE recognizes 109 days",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-erik-256",
@@ -74,16 +396,22 @@
     },
     {
       "id": "r5",
-      "holder": "Montez Ford & Angelo Dawkins",
+      "holder": "The Street Profits",
       "people": [
         "angelo-dawkins",
         "montez-ford"
       ],
       "start": "2019-06-01",
-      "end": "2019-08-28",
+      "end": "2019-08-15",
+      "days": 75,
+      "number": 18,
+      "event": "TakeOver: XXV",
+      "location": "Bridgeport, CT",
+      "note": "Fatal four-way tag ladder match for vacant title; WWE recognizes 88 days",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-angelo-dawkins-38",
@@ -91,16 +419,41 @@
       ]
     },
     {
-      "id": "r6",
-      "holder": "Matt Riddle & Pete Dunne",
+      "id": "r36",
+      "holder": "The Undisputed Era",
       "people": [
-        "pete-dunne"
+        "bobby-fish",
+        "kyle-oreilly"
+      ],
+      "start": "2019-08-15",
+      "end": "2020-02-16",
+      "days": 185,
+      "number": 19,
+      "event": "NXT",
+      "location": "Winter Park, FL",
+      "note": "WWE recognizes start August 28 2019 (172 days)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "The BroserWeights",
+      "people": [
+        "pete-dunne",
+        "matt-riddle"
       ],
       "start": "2020-02-16",
       "end": "2020-05-13",
+      "days": 87,
+      "number": 20,
+      "event": "TakeOver: Portland",
+      "location": "Portland, OR",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-rayo-americano-632"
@@ -108,47 +461,142 @@
     },
     {
       "id": "r7",
-      "holder": "Fabian Aichner & Marcel Barthel",
+      "holder": "Imperium",
       "people": [
-        "ludwig-kaiser"
+        "ludwig-kaiser",
+        "giovanni-vinci"
       ],
       "start": "2020-05-13",
       "end": "2020-08-26",
+      "days": 105,
+      "number": 21,
+      "event": "NXT",
+      "location": "Winter Park, FL",
+      "note": "Defeated Riddle and Timothy Thatcher; Thatcher substituted for Dunne due to COVID-19 travel restrictions",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-el-grande-americano-217"
       ]
     },
     {
-      "id": "r8",
-      "holder": "Fabian Aichner & Marcel Barthel",
+      "id": "r37",
+      "holder": "Breezango",
       "people": [
-        "ludwig-kaiser"
+        "tyler-breeze",
+        "fandango"
+      ],
+      "start": "2020-08-26",
+      "end": "2020-10-21",
+      "days": 56,
+      "number": 22,
+      "event": "NXT",
+      "location": "Winter Park, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r38",
+      "holder": "Oney Lorcan & Danny Burch",
+      "people": [
+        "oney-lorcan",
+        "danny-burch"
+      ],
+      "start": "2020-10-21",
+      "end": "2021-03-23",
+      "days": 153,
+      "number": 23,
+      "event": "NXT",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "MSK",
+      "people": [
+        "wes-lee",
+        "nash-carter"
+      ],
+      "start": "2021-04-07",
+      "end": "2021-10-26",
+      "days": 202,
+      "number": 24,
+      "event": "TakeOver: Stand & Deliver Night 1",
+      "location": "Orlando, FL",
+      "note": "Triple threat for vacant titles with Grizzled Young Veterans and Legado Del Fantasma",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Imperium",
+      "people": [
+        "ludwig-kaiser",
+        "giovanni-vinci"
       ],
       "start": "2021-10-26",
       "end": "2022-04-02",
+      "days": 158,
+      "number": 25,
+      "event": "NXT 2.0: Halloween Havoc",
+      "location": "Orlando, FL",
+      "note": "Lumber Jack-O'-Lantern match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-el-grande-americano-216"
       ]
     },
     {
-      "id": "r9",
-      "holder": "Elton Prince & Kit Wilson",
+      "id": "r40",
+      "holder": "MSK",
       "people": [
-        "kit-wilson"
+        "wes-lee",
+        "nash-carter"
+      ],
+      "start": "2022-04-02",
+      "end": "2022-04-08",
+      "days": 6,
+      "number": 26,
+      "event": "Stand & Deliver",
+      "location": "Dallas, TX",
+      "note": "Triple threat also involving Creed Brothers",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Pretty Deadly",
+      "people": [
+        "kit-wilson",
+        "elton-prince"
       ],
       "start": "2022-04-12",
       "end": "2022-06-04",
+      "days": 53,
+      "number": 27,
+      "event": "NXT 2.0",
+      "location": "Orlando, FL",
+      "note": "Gauntlet match for vacant titles",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-kit-wilson-389"
@@ -156,16 +604,22 @@
     },
     {
       "id": "r10",
-      "holder": "Brutus Creed & Julius Creed",
+      "holder": "Creed Brothers",
       "people": [
         "brutus-creed",
         "julius-creed"
       ],
       "start": "2022-06-04",
       "end": "2022-09-04",
+      "days": 92,
+      "number": 28,
+      "event": "In Your House",
+      "location": "Orlando, FL",
+      "note": "Losers would have to leave Diamond Mine",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-brutus-creed-69",
@@ -174,32 +628,81 @@
     },
     {
       "id": "r11",
-      "holder": "Elton Prince & Kit Wilson",
+      "holder": "Pretty Deadly",
       "people": [
-        "kit-wilson"
+        "kit-wilson",
+        "elton-prince"
       ],
       "start": "2022-09-04",
       "end": "2022-12-10",
+      "days": 97,
+      "number": 29,
+      "event": "Worlds Collide",
+      "location": "Orlando, FL",
+      "note": "Fatal four-way unified NXT UK Tag Team Championship; NXT UK title retired",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-kit-wilson-388"
       ]
     },
     {
+      "id": "r41",
+      "holder": "The New Day",
+      "people": [
+        "kofi-kingston",
+        "xavier-woods"
+      ],
+      "start": "2022-12-10",
+      "end": "2023-02-04",
+      "days": 56,
+      "number": 30,
+      "event": "Deadline",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Gallus",
+      "people": [
+        "mark-coffey",
+        "wolfgang"
+      ],
+      "start": "2023-02-04",
+      "end": "2023-07-30",
+      "days": 176,
+      "number": 31,
+      "event": "Vengeance Day",
+      "location": "Charlotte, NC",
+      "note": "Fatal four-way also involving Pretty Deadly and Chase University",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r12",
-      "holder": "Tony D'Angelo & Channing \"Stacks\" Lorenzo",
+      "holder": "Tony D'Angelo and Channing \"Stacks\" Lorenzo",
       "people": [
         "channing-stacks-lorenzo",
         "tony-d-angelo"
       ],
       "start": "2023-07-30",
       "end": "2023-10-24",
+      "days": 86,
+      "number": 32,
+      "event": "The Great American Bash",
+      "location": "Cedar Park, TX",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-channing-stacks-lorenzo-82",
@@ -207,17 +710,40 @@
       ]
     },
     {
+      "id": "r43",
+      "holder": "Chase University",
+      "people": [
+        "andre-chase",
+        "duke-hudson"
+      ],
+      "start": "2023-10-24",
+      "end": "2023-11-14",
+      "days": 21,
+      "number": 33,
+      "event": "NXT: Halloween Havoc Week 1",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r13",
-      "holder": "Tony D'Angelo & Channing \"Stacks\" Lorenzo",
+      "holder": "Tony D'Angelo and Channing \"Stacks\" Lorenzo",
       "people": [
         "channing-stacks-lorenzo",
         "tony-d-angelo"
       ],
       "start": "2023-11-14",
       "end": "2024-02-13",
+      "days": 91,
+      "number": 34,
+      "event": "NXT",
+      "location": "Orlando, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-channing-stacks-lorenzo-81",
@@ -226,16 +752,21 @@
     },
     {
       "id": "r14",
-      "holder": "Baron Corbin & Bron Breakker",
+      "holder": "Bron Breakker & Baron Corbin",
       "people": [
         "baron-corbin",
         "bron-breakker"
       ],
       "start": "2024-02-13",
       "end": "2024-04-09",
+      "days": 56,
+      "number": 35,
+      "event": "NXT",
+      "location": "Orlando, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-baron-corbin-48",
@@ -251,14 +782,37 @@
       ],
       "start": "2024-04-09",
       "end": "2024-08-13",
+      "days": 126,
+      "number": 36,
+      "event": "NXT",
+      "location": "Orlando, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-axiom-45",
         "profile-reign-nathan-frazer-474"
       ]
+    },
+    {
+      "id": "r44",
+      "holder": "Chase University",
+      "people": [
+        "andre-chase",
+        "ridge-holland"
+      ],
+      "start": "2024-08-13",
+      "end": "2024-09-01",
+      "days": 19,
+      "number": 37,
+      "event": "NXT",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r16",
@@ -269,9 +823,14 @@
       ],
       "start": "2024-09-01",
       "end": "2025-04-19",
+      "days": 230,
+      "number": 38,
+      "event": "No Mercy",
+      "location": "Denver, CO",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-axiom-44",
@@ -280,16 +839,21 @@
     },
     {
       "id": "r17",
-      "holder": "Hank Walker & Tank Ledger",
+      "holder": "Hank and Tank",
       "people": [
         "hank-walker",
         "tank-ledger"
       ],
       "start": "2025-04-19",
       "end": "2025-08-24",
+      "days": 127,
+      "number": 39,
+      "event": "Stand & Deliver",
+      "location": "Paradise, NV",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-hank-walker-311",
@@ -298,16 +862,21 @@
     },
     {
       "id": "r18",
-      "holder": "Osiris Griffin & Dion Lennox",
+      "holder": "DarkState",
       "people": [
         "dion-lennox",
         "osiris-griffin"
       ],
       "start": "2025-08-24",
       "end": "2025-10-07",
+      "days": 44,
+      "number": 40,
+      "event": "Heatwave",
+      "location": "Lowell, MA",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-dion-lennox-166",
@@ -315,8 +884,27 @@
       ]
     },
     {
+      "id": "r45",
+      "holder": "The Hardy Boyz",
+      "people": [
+        "matt-hardy",
+        "jeff-hardy"
+      ],
+      "start": "2025-10-07",
+      "end": "2025-10-25",
+      "days": 18,
+      "number": 41,
+      "event": "NXT vs. TNA Showdown",
+      "location": "Orlando, FL",
+      "note": "Winners Take All match; defended TNA World Tag Team Championship",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r19",
-      "holder": "Osiris Griffin & Dion Lennox & Saquon Shugars",
+      "holder": "DarkState",
       "people": [
         "dion-lennox",
         "osiris-griffin",
@@ -324,9 +912,15 @@
       ],
       "start": "2025-10-25",
       "end": "2026-02-24",
+      "days": 122,
+      "number": 42,
+      "event": "Halloween Havoc",
+      "location": "Prescott Valley, AZ",
+      "note": "Broken Rules match; Lennox relinquished his half to Shugars on 2025-12-02",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-dion-lennox-165",
@@ -336,16 +930,21 @@
     },
     {
       "id": "r20",
-      "holder": "Brad Baylor & Ricky Smokes",
+      "holder": "The Vanity Project",
       "people": [
         "brad-baylor",
         "ricky-smokes"
       ],
       "start": "2026-02-24",
       "end": "2026-08-04",
+      "days": 161,
+      "number": 43,
+      "event": "NXT",
+      "location": "Orlando, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-brad-baylor-54",
@@ -361,9 +960,14 @@
       ],
       "start": "2026-08-04",
       "end": "2026-08-30",
+      "days": 26,
+      "number": 44,
+      "event": "NXT",
+      "location": "Orlando, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-myles-borne-455",
@@ -372,15 +976,21 @@
     },
     {
       "id": "r22",
-      "holder": "Brad Baylor & Ricky Smokes",
+      "holder": "The Vanity Project",
       "people": [
         "brad-baylor",
         "ricky-smokes"
       ],
       "start": "2026-08-30",
+      "days": 24,
+      "number": 45,
+      "event": "Heatwave",
+      "location": "Edinburg, TX",
+      "note": "Current champions",
       "dateNote": "Listed as ongoing in the profile source; shown through the archive date.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-brad-baylor-53",

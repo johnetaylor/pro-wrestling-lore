@@ -1,11 +1,494 @@
 {
   "id": "tna-king-of-the-mountain-championship",
   "name": "TNA King of the Mountain Championship",
+  "promotion": "tna",
+  "division": "men",
+  "format": "singles",
+  "established": "2008-10-23",
+  "retired": "2016-08-12",
   "names": [
-    "TNA King of the Mountain Championship"
+    "TNA Legends Championship",
+    "TNA Global Championship",
+    "TNA Television Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "TNA Legends Championship",
+      "from": "2008-10-23",
+      "to": "2009-10-29"
+    },
+    {
+      "name": "TNA Global Championship",
+      "from": "2009-10-29",
+      "to": "2010-07-29"
+    },
+    {
+      "name": "TNA Television Championship",
+      "from": "2010-07-29",
+      "to": "2015-06-25"
+    },
+    {
+      "name": "TNA King of the Mountain Championship",
+      "from": "2015-06-25"
+    }
+  ],
+  "history": [
+    {
+      "date": "2009-03-19",
+      "kind": "recognition",
+      "text": "Declared an official TNA-sanctioned title after AJ Styles legally beat Booker T for it under their signed contract.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_Television_Championship"
+      ]
+    },
+    {
+      "date": "2014-07-03",
+      "kind": "deactivated",
+      "text": "Kurt Angle, as TNA Executive Director, declared the title inactive.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_Television_Championship"
+      ]
+    },
+    {
+      "date": "2015-06-25",
+      "kind": "reactivated",
+      "text": "Revived under the King of the Mountain Championship name, with a winner to be decided by a King of the Mountain match at Slammiversary.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_Television_Championship"
+      ]
+    },
+    {
+      "date": "2015-07-09",
+      "kind": "promotion",
+      "text": "Appeared in Global Force Wrestling when Eric Young attacked Jeff Jarrett and stole the belt at a live event.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_Television_Championship"
+      ]
+    },
+    {
+      "date": "2016-08-12",
+      "kind": "unified-into",
+      "text": "Bobby Lashley beat James Storm with his X Division and World Heavyweight titles on the line, unifying this title with his World Title and retiring it.",
+      "related": [
+        "X Division Championship",
+        "World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_Television_Championship"
+      ]
+    },
+    {
+      "date": "2016-08-18",
+      "kind": "retired",
+      "text": "Announced at an Impact Wrestling taping that the title was vacated, deactivated and retired.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_Television_Championship"
+      ]
+    },
+    {
+      "date": "2016-08-18",
+      "kind": "replaced-by",
+      "text": "Announced alongside the retirement of this title as the new Impact Grand Championship.",
+      "related": [
+        "Impact Grand Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_Television_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions",
+    "https://en.wikipedia.org/wiki/TNA_Television_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r2",
+      "holder": "Booker T",
+      "people": [
+        "booker-t"
+      ],
+      "start": "2008-10-23",
+      "end": "2009-03-15",
+      "days": 143,
+      "number": 1,
+      "event": "TNA Impact",
+      "location": "Las Vegas, NV",
+      "note": "Declared himself first champion after unveiling belt; unsanctioned by TNA in storyline",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "A.J. Styles",
+      "people": [
+        "aj-styles"
+      ],
+      "start": "2009-03-15",
+      "end": "2009-07-19",
+      "days": 126,
+      "number": 2,
+      "event": "Destination X",
+      "location": "Orlando, FL",
+      "note": "Credited as first TNA Grand Slam Champion; title became officially sanctioned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Kevin Nash",
+      "people": [
+        "kevin-nash"
+      ],
+      "start": "2009-07-19",
+      "end": "2009-07-22",
+      "days": 3,
+      "number": 3,
+      "event": "Victory Road",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Mick Foley",
+      "people": [
+        "mick-foley"
+      ],
+      "start": "2009-07-22",
+      "end": "2009-08-16",
+      "days": 25,
+      "number": 4,
+      "event": "TNA Impact",
+      "location": "Orlando, FL",
+      "note": "Won tag team match by pinning Nash; aired on tape delay July 30, 2009",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Kevin Nash",
+      "people": [
+        "kevin-nash"
+      ],
+      "start": "2009-08-16",
+      "end": "2009-10-18",
+      "days": 63,
+      "number": 5,
+      "event": "Hard Justice",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Eric Young",
+      "people": [
+        "eric-young"
+      ],
+      "start": "2009-10-18",
+      "end": "2010-01-27",
+      "days": 101,
+      "number": 6,
+      "event": "Bound for Glory",
+      "location": "Irvine, California",
+      "note": "Renamed title TNA Global Championship on October 29, 2009",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Rob Terry",
+      "people": [
+        "rob-terry"
+      ],
+      "start": "2010-01-27",
+      "end": "2010-07-13",
+      "days": 167,
+      "number": 7,
+      "event": "Live event",
+      "location": "Cardiff, Wales",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "A.J. Styles",
+      "people": [
+        "aj-styles"
+      ],
+      "start": "2010-07-13",
+      "end": "2010-12-05",
+      "days": 145,
+      "number": 8,
+      "event": "TNA Impact",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay July 22, 2010; renamed title TNA Television Championship July 29, 2010",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Douglas Williams",
+      "people": [
+        "doug-williams"
+      ],
+      "start": "2010-12-05",
+      "end": "2011-01-09",
+      "days": 35,
+      "number": 9,
+      "event": "Final Resolution",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Abyss",
+      "people": [
+        "abyss"
+      ],
+      "start": "2011-01-09",
+      "end": "2011-03-14",
+      "days": 64,
+      "number": 10,
+      "event": "Genesis",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Gunner",
+      "people": [
+        "gunner"
+      ],
+      "start": "2011-03-14",
+      "end": "2011-05-17",
+      "days": 64,
+      "number": 11,
+      "event": "TNA Impact",
+      "location": "Orlando, FL",
+      "note": "Won vacant title in three-way match over Murphy and Rob Terry; aired on tape delay March 17, 2011",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Eric Young",
+      "people": [
+        "eric-young"
+      ],
+      "start": "2011-05-17",
+      "end": "2011-11-13",
+      "days": 180,
+      "number": 12,
+      "event": "Impact Wrestling",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay May 26, 2011",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Robbie E",
+      "people": [
+        "robbie-e"
+      ],
+      "start": "2011-11-13",
+      "end": "2012-03-18",
+      "days": 126,
+      "number": 13,
+      "event": "Turning Point",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Devon",
+      "people": [
+        "d-von-dudley"
+      ],
+      "start": "2012-03-18",
+      "end": "2012-09-26",
+      "days": 192,
+      "number": 14,
+      "event": "Victory Road",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Samoa Joe",
+      "people": [
+        "samoa-joe"
+      ],
+      "start": "2012-09-27",
+      "end": "2012-12-06",
+      "days": 70,
+      "number": 15,
+      "event": "Impact Wrestling",
+      "location": "Orlando, FL",
+      "note": "Defeated Mr. Anderson to win vacant championship",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Devon",
+      "people": [
+        "d-von-dudley"
+      ],
+      "start": "2012-12-06",
+      "end": "2013-06-02",
+      "days": 178,
+      "number": 16,
+      "event": "Impact Wrestling",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Abyss",
+      "people": [
+        "abyss"
+      ],
+      "start": "2013-06-02",
+      "end": "2014-07-03",
+      "days": 396,
+      "number": 17,
+      "event": "Slammiversary XI",
+      "location": "Boston, MA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Jeff Jarrett",
+      "people": [
+        "jeff-jarrett"
+      ],
+      "start": "2015-06-28",
+      "end": "2015-07-27",
+      "days": 29,
+      "number": 18,
+      "event": "Slammiversary",
+      "location": "Orlando, FL",
+      "note": "Reactivated June 25, 2015 and renamed TNA King of the Mountain Championship; won King of the Mountain match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "PJ Black",
+      "people": [
+        "pj-black"
+      ],
+      "start": "2015-07-27",
+      "end": "2015-07-28",
+      "days": 1,
+      "number": 19,
+      "event": "Impact Wrestling",
+      "location": "Orlando, FL",
+      "note": "Won vacant title in King of the Mountain match; aired on tape delay August 12, 2015",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Bobby Roode",
+      "people": [
+        "bobby-roode"
+      ],
+      "start": "2015-07-28",
+      "end": "2016-01-06",
+      "days": 162,
+      "number": 20,
+      "event": "Impact Wrestling",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay September 2, 2015",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Eric Young",
+      "people": [
+        "eric-young"
+      ],
+      "start": "2016-01-06",
+      "end": "2016-03-19",
+      "days": 73,
+      "number": 21,
+      "event": "Impact Wrestling",
+      "location": "Bethlehem, PA",
+      "note": "Only wrestler to win title under all four incarnations; aired on tape delay January 12, 2016",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Bram",
+      "people": [
+        "bram"
+      ],
+      "start": "2016-03-19",
+      "end": "2016-04-23",
+      "days": 35,
+      "number": 22,
+      "event": "Impact Wrestling: Sacrifice",
+      "location": "Orlando, FL",
+      "note": "Falls Count Anywhere match; aired on tape delay April 26, 2016",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Eli Drake",
@@ -13,14 +496,56 @@
         "la-knight"
       ],
       "start": "2016-05-31",
-      "end": "2016-08-04",
+      "end": "2016-07-14",
+      "days": 82,
+      "number": 23,
+      "event": "Impact Wrestling",
+      "location": "Orlando, FL",
+      "note": "Invoked Feast or Fired contract after Bram was attacked by Lashley; aired on tape delay May 31, 2016",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/tna/tna-legends-global-television-king-of-the-mountain-championship"
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-legends-global-television-king-of-the-mountain-championship",
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
       ],
       "legacyIds": [
         "profile-reign-la-knight-408"
       ]
+    },
+    {
+      "id": "r24",
+      "holder": "James Storm",
+      "people": [
+        "james-storm"
+      ],
+      "start": "2016-07-14",
+      "end": "2016-08-11",
+      "days": 28,
+      "number": 24,
+      "event": "Impact Wrestling",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay August 4, 2016",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Lashley",
+      "people": [
+        "bobby-lashley"
+      ],
+      "start": "2016-08-11",
+      "end": "2016-08-12",
+      "days": 1,
+      "number": 25,
+      "event": "Impact Wrestling",
+      "location": "Orlando, FL",
+      "note": "Winner Takes All match, also for TNA World Heavyweight and X Division Championships",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

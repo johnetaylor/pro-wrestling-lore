@@ -1,14 +1,332 @@
 {
   "id": "wcw-world-heavyweight-championship",
   "name": "WCW World Heavyweight Championship",
+  "promotion": "wcw",
+  "division": "men",
+  "format": "singles",
+  "established": "1991-01-11",
+  "retired": "2001-12-09",
   "names": [
     "WCW World Championship",
-    "WCW World Heavyweight Championship"
+    "WCW Championship",
+    "World Championship",
+    "Undisputed WWF Championship"
+  ],
+  "eras": [
+    {
+      "name": "WCW World Heavyweight Championship",
+      "from": "1991-01-11",
+      "to": "2001-06-24"
+    },
+    {
+      "name": "WCW Championship",
+      "from": "2001-06-24",
+      "to": "2001-11-19"
+    },
+    {
+      "name": "World Championship",
+      "from": "2001-11-19",
+      "to": "2001-12-09"
+    }
+  ],
+  "history": [
+    {
+      "date": "1991-01-11",
+      "kind": "recognition",
+      "text": "WCW claimed the NWA World Heavyweight Championship lineage for its new title.",
+      "related": [
+        "NWA World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1991-07-01",
+      "kind": "deactivated",
+      "text": "The title was vacated after Flair's WCW contract was terminated in a dispute with Jim Herd.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1991-07-14",
+      "kind": "interim",
+      "text": "A Dusty Rhodes belt with a gold plate stood in for the missing new belt until Lex Luger won the vacant title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1992",
+      "kind": "reactivated",
+      "text": "The Big Gold Belt was used for the revived NWA title, a co-promotion between WCW and New Japan Pro-Wrestling.",
+      "related": [
+        "NWA World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1993-09",
+      "kind": "promotion",
+      "text": "WCW left the NWA, keeping the Big Gold Belt.",
+      "related": [
+        "NWA World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1993-09",
+      "kind": "split",
+      "text": "After leaving the NWA, the Big Gold Belt was renamed the WCW International World Heavyweight Championship, separate from the WCW title.",
+      "related": [
+        "WCW International World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1994-06",
+      "kind": "unified-into",
+      "text": "Flair beat Sting and unified the WCW and International titles, retiring the International title and keeping the Big Gold Belt.",
+      "related": [
+        "WCW International World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1994-06",
+      "kind": "replaced-by",
+      "text": "The mid-1991 to mid-1994 belt design was dropped in favor of the Big Gold Belt.",
+      "related": [
+        "WCW World Heavyweight Championship belt (mid-1991 to mid-1994 design)"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2001-03",
+      "kind": "promotion",
+      "text": "The WWF bought WCW's assets, and the title became one of two world titles in the WWF.",
+      "related": [
+        "WWF Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2001-12-09",
+      "kind": "unified-into",
+      "text": "Chris Jericho beat The Rock and Stone Cold Steve Austin at Vengeance, unifying the World and WWF titles into the Undisputed WWF Championship.",
+      "related": [
+        "WWF Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2001-12-09",
+      "kind": "retired",
+      "text": "The title was retired upon unification with the WWF Championship at Vengeance.",
+      "related": [
+        "WWF Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_World_Heavyweight_Championship"
+      ]
+    }
   ],
   "sources": [
-    "https://www.wwe.com/titlehistory/wcw-world-championship"
+    "https://www.wwe.com/titlehistory/wcw-world-championship",
+    "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions",
+    "https://en.wikipedia.org/wiki/WCW_World_Heavyweight_Championship"
   ],
   "reigns": [
+    {
+      "id": "r7",
+      "holder": "Ric Flair",
+      "people": [
+        "ric-flair"
+      ],
+      "start": "1991-01-11",
+      "end": "1991-07-01",
+      "days": 171,
+      "number": 1,
+      "event": "House show",
+      "location": "East Rutherford, New Jersey",
+      "note": "Won NWA title from Sting; WWE counts it as an NWA reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Lex Luger",
+      "people": [
+        "lex-luger"
+      ],
+      "start": "1991-07-14",
+      "end": "1992-02-29",
+      "days": 230,
+      "number": 2,
+      "event": "The Great American Bash",
+      "location": "Baltimore, Maryland",
+      "note": "Won vacant title in steel cage match vs. Barry Windham",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Sting",
+      "people": [
+        "sting"
+      ],
+      "start": "1992-02-29",
+      "end": "1992-07-12",
+      "days": 134,
+      "number": 3,
+      "event": "SuperBrawl II",
+      "location": "Milwaukee, Wisconsin",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Big Van Vader",
+      "people": [
+        "vader"
+      ],
+      "start": "1992-07-12",
+      "end": "1992-08-02",
+      "days": 21,
+      "number": 4,
+      "event": "The Great American Bash",
+      "location": "Albany, Georgia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Ron Simmons",
+      "people": [
+        "ron-simmons"
+      ],
+      "start": "1992-08-02",
+      "end": "1992-12-30",
+      "days": 150,
+      "number": 5,
+      "event": "Main Event",
+      "location": "Baltimore, Maryland",
+      "note": "Won raffle for title shot; WWE recognizes him as first African-American world champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Big Van Vader",
+      "people": [
+        "vader"
+      ],
+      "start": "1992-12-30",
+      "end": "1993-03-11",
+      "days": 71,
+      "number": 6,
+      "event": "House show",
+      "location": "Baltimore, Maryland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Sting",
+      "people": [
+        "sting"
+      ],
+      "start": "1993-03-11",
+      "end": "1993-03-17",
+      "days": 6,
+      "number": 7,
+      "event": "House show",
+      "location": "London, England",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Big Van Vader",
+      "people": [
+        "vader"
+      ],
+      "start": "1993-03-17",
+      "days": 285,
+      "number": 8,
+      "event": "House show",
+      "location": "Dublin, Ireland",
+      "note": "Reign spanned WCW's 1993 split from the NWA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Ric Flair",
+      "people": [
+        "ric-flair"
+      ],
+      "start": "1993-12-27",
+      "end": "1994-04-17",
+      "days": 111,
+      "number": 9,
+      "event": "Starrcade: 10th Anniversary",
+      "location": "Charlotte, North Carolina",
+      "note": "Title vs. career match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Ric Flair",
+      "people": [
+        "ric-flair"
+      ],
+      "start": "1994-04-21",
+      "end": "1994-07-17",
+      "days": 87,
+      "number": 10,
+      "event": "Saturday Night",
+      "location": "Atlanta, Georgia",
+      "note": "Beat Ricky Steamboat in rematch; unified with WCW International title in June 1994",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Hulk Hogan",
@@ -17,93 +335,959 @@
       ],
       "start": "1994-07-17",
       "end": "1995-10-29",
+      "days": 469,
+      "number": 11,
+      "event": "Bash at the Beach",
+      "location": "Orlando, Florida",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.wwe.com/titlehistory/wcw-world-championship"
+        "https://www.wwe.com/titlehistory/wcw-world-championship",
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-archive-person-hulkhogan-848"
       ]
     },
     {
+      "id": "r17",
+      "holder": "The Giant",
+      "people": [
+        "big-show"
+      ],
+      "start": "1995-10-29",
+      "end": "1995-11-06",
+      "days": 8,
+      "number": 12,
+      "event": "Halloween Havoc",
+      "location": "Detroit, Michigan",
+      "note": "Won by disqualification after Jimmy Hart interference and Dungeon of Doom attacks",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Randy Savage",
+      "people": [
+        "randy-savage"
+      ],
+      "start": "1995-11-26",
+      "end": "1995-12-27",
+      "days": 31,
+      "number": 13,
+      "event": "World War 3",
+      "location": "Norfolk, Virginia",
+      "note": "First World War 3 match; last eliminated One Man Gang",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Ric Flair",
+      "people": [
+        "ric-flair"
+      ],
+      "start": "1995-12-27",
+      "end": "1996-01-22",
+      "days": 26,
+      "number": 14,
+      "event": "Starrcade: World Cup of Wrestling",
+      "location": "Nashville, Tennessee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Randy Savage",
+      "people": [
+        "randy-savage"
+      ],
+      "start": "1996-01-22",
+      "end": "1996-02-11",
+      "days": 20,
+      "number": 15,
+      "event": "Nitro",
+      "location": "Las Vegas, Nevada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Ric Flair",
+      "people": [
+        "ric-flair"
+      ],
+      "start": "1996-02-11",
+      "end": "1996-04-22",
+      "days": 71,
+      "number": 16,
+      "event": "SuperBrawl VI",
+      "location": "St. Petersburg, Florida",
+      "note": "Steel cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "The Giant",
+      "people": [
+        "big-show"
+      ],
+      "start": "1996-04-22",
+      "end": "1996-08-10",
+      "days": 110,
+      "number": 17,
+      "event": "Nitro",
+      "location": "Albany, Georgia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r2",
-      "holder": "Hulk Hogan",
+      "holder": "\"Hollywood\" Hulk Hogan",
       "people": [
         "hulk-hogan"
       ],
       "start": "1996-08-10",
       "end": "1997-08-04",
+      "days": 359,
+      "number": 18,
+      "event": "Hog Wild",
+      "location": "Sturgis, South Dakota",
+      "note": "First reign as Hulk Hogan; often announced as nWo/WCW title",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.wwe.com/titlehistory/wcw-world-championship"
+        "https://www.wwe.com/titlehistory/wcw-world-championship",
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-archive-person-hulkhogan-849"
       ]
     },
     {
+      "id": "r23",
+      "holder": "Lex Luger",
+      "people": [
+        "lex-luger"
+      ],
+      "start": "1997-08-04",
+      "end": "1997-08-09",
+      "days": 5,
+      "number": 19,
+      "event": "Nitro",
+      "location": "Auburn Hills, Michigan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r3",
-      "holder": "Hulk Hogan",
+      "holder": "Hollywood Hogan",
       "people": [
         "hulk-hogan"
       ],
       "start": "1997-08-09",
       "end": "1997-12-28",
+      "days": 141,
+      "number": 20,
+      "event": "Road Wild",
+      "location": "Sturgis, South Dakota",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.wwe.com/titlehistory/wcw-world-championship"
+        "https://www.wwe.com/titlehistory/wcw-world-championship",
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-archive-person-hulkhogan-850"
       ]
     },
     {
+      "id": "r24",
+      "holder": "Sting",
+      "people": [
+        "sting"
+      ],
+      "start": "1997-12-28",
+      "end": "1998-01-08",
+      "days": 11,
+      "number": 21,
+      "event": "Starrcade",
+      "location": "Washington, D.C.",
+      "note": "Won by submission after guest referee Bret Hart restarted disputed match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Sting",
+      "people": [
+        "sting"
+      ],
+      "start": "1998-02-22",
+      "end": "1998-04-19",
+      "days": 56,
+      "number": 22,
+      "event": "SuperBrawl VIII",
+      "location": "Daly City, California",
+      "note": "Beat Hollywood Hogan in rematch for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Randy Savage",
+      "people": [
+        "randy-savage"
+      ],
+      "start": "1998-04-19",
+      "end": "1998-04-20",
+      "days": 1,
+      "number": 23,
+      "event": "Spring Stampede",
+      "location": "Denver, Colorado",
+      "note": "No disqualification match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r4",
-      "holder": "Hulk Hogan",
+      "holder": "Hollywood Hogan",
       "people": [
         "hulk-hogan"
       ],
       "start": "1998-04-20",
       "end": "1998-07-06",
+      "days": 77,
+      "number": 24,
+      "event": "Nitro",
+      "location": "Colorado Springs, Colorado",
+      "note": "No disqualification match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.wwe.com/titlehistory/wcw-world-championship"
+        "https://www.wwe.com/titlehistory/wcw-world-championship",
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-archive-person-hulkhogan-851"
       ]
     },
     {
+      "id": "r27",
+      "holder": "Goldberg",
+      "people": [
+        "goldberg"
+      ],
+      "start": "1998-07-06",
+      "end": "1998-12-27",
+      "days": 174,
+      "number": 25,
+      "event": "Nitro",
+      "location": "Atlanta, Georgia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Kevin Nash",
+      "people": [
+        "kevin-nash"
+      ],
+      "start": "1998-12-27",
+      "end": "1999-01-04",
+      "days": 8,
+      "number": 26,
+      "event": "Starrcade",
+      "location": "Washington, D.C.",
+      "note": "No disqualification match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r5",
-      "holder": "Hulk Hogan",
+      "holder": "Hollywood Hogan",
       "people": [
         "hulk-hogan"
       ],
       "start": "1999-01-04",
       "end": "1999-03-14",
+      "days": 69,
+      "number": 27,
+      "event": "Nitro",
+      "location": "Atlanta, Georgia",
+      "note": "Nash laid down in match later dubbed the Fingerpoke of Doom",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.wwe.com/titlehistory/wcw-world-championship"
+        "https://www.wwe.com/titlehistory/wcw-world-championship",
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-archive-person-hulkhogan-852"
       ]
     },
     {
+      "id": "r29",
+      "holder": "Ric Flair",
+      "people": [
+        "ric-flair"
+      ],
+      "start": "1999-03-14",
+      "end": "1999-04-11",
+      "days": 28,
+      "number": 28,
+      "event": "Uncensored",
+      "location": "Louisville, Kentucky",
+      "note": "First Blood barbed wire steel cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Diamond Dallas Page",
+      "people": [
+        "diamond-dallas-page"
+      ],
+      "start": "1999-04-11",
+      "end": "1999-04-26",
+      "days": 15,
+      "number": 29,
+      "event": "Spring Stampede",
+      "location": "Tacoma, Washington",
+      "note": "Four corners match; Randy Savage special guest referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "Sting",
+      "people": [
+        "sting"
+      ],
+      "start": "1999-04-26",
+      "end": "1999-04-26",
+      "days": 0,
+      "number": 30,
+      "event": "Nitro",
+      "location": "Fargo, North Dakota",
+      "note": "Reign began and ended on the same night",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Diamond Dallas Page",
+      "people": [
+        "diamond-dallas-page"
+      ],
+      "start": "1999-04-26",
+      "end": "1999-05-09",
+      "days": 13,
+      "number": 31,
+      "event": "Nitro",
+      "location": "Fargo, North Dakota",
+      "note": "Four corners match; WWE recognizes 14 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Kevin Nash",
+      "people": [
+        "kevin-nash"
+      ],
+      "start": "1999-05-09",
+      "end": "1999-07-11",
+      "days": 63,
+      "number": 32,
+      "event": "Slamboree",
+      "location": "St. Louis, Missouri",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Randy Savage",
+      "people": [
+        "randy-savage"
+      ],
+      "start": "1999-07-11",
+      "end": "1999-07-12",
+      "days": 1,
+      "number": 33,
+      "event": "Bash at the Beach",
+      "location": "Fort Lauderdale, Florida",
+      "note": "Tag team match; Savage pinned Nash",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r6",
-      "holder": "Hulk Hogan",
+      "holder": "Hollywood Hogan",
       "people": [
         "hulk-hogan"
       ],
       "start": "1999-07-12",
       "end": "1999-09-12",
+      "days": 62,
+      "number": 34,
+      "event": "Nitro",
+      "location": "Jacksonville, Florida",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.wwe.com/titlehistory/wcw-world-championship"
+        "https://www.wwe.com/titlehistory/wcw-world-championship",
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-archive-person-hulkhogan-853"
       ]
+    },
+    {
+      "id": "r35",
+      "holder": "Sting",
+      "people": [
+        "sting"
+      ],
+      "start": "1999-09-12",
+      "end": "1999-10-25",
+      "days": 43,
+      "number": 35,
+      "event": "Fall Brawl",
+      "location": "Winston-Salem, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "Bret Hart",
+      "people": [
+        "bret-hart"
+      ],
+      "start": "1999-11-21",
+      "end": "1999-12-20",
+      "days": 29,
+      "number": 36,
+      "event": "Mayhem",
+      "location": "Toronto, Ontario",
+      "note": "Beat Chris Benoit in tournament final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "Bret Hart",
+      "people": [
+        "bret-hart"
+      ],
+      "start": "1999-12-20",
+      "end": "2000-01-16",
+      "days": 27,
+      "number": 37,
+      "event": "Nitro",
+      "location": "Baltimore, Maryland",
+      "note": "Beat Goldberg in rematch for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r38",
+      "holder": "Chris Benoit",
+      "people": [
+        "chris-benoit"
+      ],
+      "start": "2000-01-16",
+      "end": "2000-01-17",
+      "days": 1,
+      "number": 38,
+      "event": "Souled Out",
+      "location": "Cincinnati, Ohio",
+      "note": "Beat Sid Vicious for vacant title; left for WWF next day; WCW withdrew recognition",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "Sid Vicious",
+      "people": [
+        "sid-justice"
+      ],
+      "start": "2000-01-24",
+      "end": "2000-01-26",
+      "days": 1,
+      "number": 39,
+      "event": "Nitro",
+      "location": "Los Angeles, California",
+      "note": "Won right to face Nash, then won vacant title; WWE counts 2 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "Kevin Nash",
+      "people": [
+        "kevin-nash"
+      ],
+      "start": "2000-01-26",
+      "end": "2000-01-26",
+      "days": 0,
+      "kind": "unrecognized",
+      "event": "Thunder",
+      "location": "Las Vegas, Nevada",
+      "note": "Self-awarded as commissioner; not recognized by WCW or WWE",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "Sid Vicious",
+      "people": [
+        "sid-justice"
+      ],
+      "start": "2000-01-26",
+      "end": "2000-04-10",
+      "days": 76,
+      "number": 40,
+      "event": "Thunder",
+      "location": "Las Vegas, Nevada",
+      "note": "Triangle steel cage match; WWE counts 75 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Jeff Jarrett",
+      "people": [
+        "jeff-jarrett"
+      ],
+      "start": "2000-04-16",
+      "end": "2000-04-24",
+      "days": 8,
+      "number": 41,
+      "event": "Spring Stampede",
+      "location": "Chicago, Illinois",
+      "note": "Beat Diamond Dallas Page in tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "Diamond Dallas Page",
+      "people": [
+        "diamond-dallas-page"
+      ],
+      "start": "2000-04-24",
+      "end": "2000-04-26",
+      "days": 1,
+      "number": 42,
+      "event": "Nitro",
+      "location": "Rochester, New York",
+      "note": "Steel cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "David Arquette",
+      "people": [
+        "david-arquette"
+      ],
+      "start": "2000-04-26",
+      "end": "2000-05-07",
+      "days": 12,
+      "number": 43,
+      "event": "Thunder",
+      "location": "Syracuse, New York",
+      "note": "Tag match; Arquette pinned Eric Bischoff",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "Jeff Jarrett",
+      "people": [
+        "jeff-jarrett"
+      ],
+      "start": "2000-05-07",
+      "end": "2000-05-15",
+      "days": 8,
+      "number": 44,
+      "event": "Slamboree",
+      "location": "Kansas City, Missouri",
+      "note": "Triple cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "Ric Flair",
+      "people": [
+        "ric-flair"
+      ],
+      "start": "2000-05-15",
+      "end": "2000-05-22",
+      "days": 7,
+      "number": 45,
+      "event": "Nitro",
+      "location": "Biloxi, Mississippi",
+      "note": "Listed as sixth reign on WWE.com; match description says seventh",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "Jeff Jarrett",
+      "people": [
+        "jeff-jarrett"
+      ],
+      "start": "2000-05-22",
+      "end": "2000-05-24",
+      "days": 1,
+      "number": 46,
+      "event": "Nitro",
+      "location": "Grand Rapids, Michigan",
+      "note": "Awarded title; Nash stole belt; Jarrett won no holds barred match; WWE counts 2 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "Kevin Nash",
+      "people": [
+        "kevin-nash"
+      ],
+      "start": "2000-05-24",
+      "end": "2000-05-29",
+      "days": 6,
+      "number": 47,
+      "event": "Thunder",
+      "location": "Saginaw, Michigan",
+      "note": "Triangle match with Scott Steiner",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r49",
+      "holder": "Ric Flair",
+      "people": [
+        "ric-flair"
+      ],
+      "start": "2000-05-29",
+      "end": "2000-05-29",
+      "days": 0,
+      "number": 48,
+      "event": "Nitro",
+      "location": "Salt Lake City, Utah",
+      "note": "Nash gave title to Flair",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r50",
+      "holder": "Jeff Jarrett",
+      "people": [
+        "jeff-jarrett"
+      ],
+      "start": "2000-05-29",
+      "end": "2000-07-09",
+      "days": 41,
+      "number": 49,
+      "event": "Nitro",
+      "location": "Salt Lake City, Utah",
+      "note": "David Flair special guest referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r51",
+      "holder": "Booker T",
+      "people": [
+        "booker-t"
+      ],
+      "start": "2000-07-09",
+      "end": "2000-08-28",
+      "days": 50,
+      "number": 50,
+      "event": "Bash at the Beach",
+      "location": "Daytona Beach, Florida",
+      "note": "Chaotic night involving Hogan, Jarrett and Russo; Booker won impromptu match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "Kevin Nash",
+      "people": [
+        "kevin-nash"
+      ],
+      "start": "2000-08-28",
+      "end": "2000-09-17",
+      "days": 20,
+      "number": 51,
+      "event": "Nitro",
+      "location": "Las Cruces, New Mexico",
+      "note": "Jeff Jarrett special guest referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r53",
+      "holder": "Booker T",
+      "people": [
+        "booker-t"
+      ],
+      "start": "2000-09-17",
+      "end": "2000-09-25",
+      "days": 8,
+      "number": 52,
+      "event": "Fall Brawl",
+      "location": "Buffalo, New York",
+      "note": "Caged Heat match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r54",
+      "holder": "Vince Russo",
+      "people": [
+        "vince-russo"
+      ],
+      "start": "2000-09-25",
+      "end": "2000-10-02",
+      "days": 7,
+      "number": 53,
+      "event": "Nitro",
+      "location": "Uniondale, New York",
+      "note": "Steel cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r55",
+      "holder": "Booker T",
+      "people": [
+        "booker-t"
+      ],
+      "start": "2000-10-02",
+      "end": "2000-11-26",
+      "days": 55,
+      "number": 54,
+      "event": "Nitro",
+      "location": "Daly City, California",
+      "note": "Beat Jeff Jarrett in San Francisco 49ers match for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r56",
+      "holder": "Scott Steiner",
+      "people": [
+        "scott-steiner"
+      ],
+      "start": "2000-11-26",
+      "end": "2001-03-26",
+      "days": 120,
+      "number": 55,
+      "event": "Mayhem",
+      "location": "Milwaukee, Wisconsin",
+      "note": "Straitjacket steel cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "Booker T",
+      "people": [
+        "booker-t"
+      ],
+      "start": "2001-03-26",
+      "days": 120,
+      "number": 56,
+      "event": "Nitro",
+      "location": "Panama City Beach, Florida",
+      "note": "Winner-take-all with US title; final Nitro episode; WCW bought by WWF",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r58",
+      "holder": "Kurt Angle",
+      "people": [
+        "kurt-angle"
+      ],
+      "start": "2001-07-24",
+      "end": "2001-07-30",
+      "days": 6,
+      "number": 57,
+      "event": "SmackDown!",
+      "location": "Pittsburgh, Pennsylvania",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r59",
+      "holder": "Booker T",
+      "people": [
+        "booker-t"
+      ],
+      "start": "2001-07-30",
+      "end": "2001-08-19",
+      "days": 20,
+      "number": 58,
+      "event": "Raw Is War",
+      "location": "Philadelphia, Pennsylvania",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r60",
+      "holder": "The Rock",
+      "people": [
+        "the-rock"
+      ],
+      "start": "2001-08-19",
+      "end": "2001-10-21",
+      "days": 63,
+      "number": 59,
+      "event": "SummerSlam",
+      "location": "San Jose, California",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r61",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "2001-10-21",
+      "end": "2001-11-05",
+      "days": 15,
+      "number": 60,
+      "event": "No Mercy",
+      "location": "St. Louis, Missouri",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r62",
+      "holder": "The Rock",
+      "people": [
+        "the-rock"
+      ],
+      "start": "2001-11-05",
+      "end": "2001-12-09",
+      "days": 34,
+      "number": 61,
+      "event": "Raw",
+      "location": "Uniondale, New York",
+      "note": "Called the World Championship from November 19, 2001, after The Alliance ended",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r63",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "2001-12-09",
+      "end": "2001-12-09",
+      "days": 0,
+      "number": 62,
+      "event": "Vengeance",
+      "location": "San Diego, California",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WCW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

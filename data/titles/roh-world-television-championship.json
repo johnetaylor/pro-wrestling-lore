@@ -1,11 +1,58 @@
 {
   "id": "roh-world-television-championship",
   "name": "ROH World Television Championship",
-  "names": [
-    "ROH World Television Championship"
+  "promotion": "roh",
+  "division": "men",
+  "format": "singles",
+  "established": "2010-01-20",
+  "names": [],
+  "eras": [
+    {
+      "name": "ROH World Television Championship",
+      "from": "2010"
+    }
   ],
-  "sources": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions",
+    "https://en.wikipedia.org/wiki/ROH_World_Television_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r5",
+      "holder": "Eddie Edwards",
+      "people": [
+        "eddie-edwards"
+      ],
+      "start": "2010-03-05",
+      "end": "2010-12-10",
+      "days": 280,
+      "number": 1,
+      "event": "Ring of Honor Wrestling",
+      "location": "Philadelphia, PA",
+      "note": "Won inaugural eight-man tournament final over Davey Richards; aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Christopher Daniels",
+      "people": [
+        "christopher-daniels"
+      ],
+      "start": "2010-12-10",
+      "end": "2011-06-26",
+      "days": 198,
+      "number": 2,
+      "event": "Ring of Honor Wrestling",
+      "location": "Louisville, KY",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "El Generico",
@@ -13,14 +60,298 @@
         "sami-zayn"
       ],
       "start": "2011-06-26",
-      "end": "2011-10-01",
+      "end": "2011-08-13",
+      "days": 48,
+      "number": 3,
+      "event": "Best in the World",
+      "location": "New York, NY",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-television-championship"
+        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-television-championship",
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
       ],
       "legacyIds": [
         "profile-reign-sami-zayn-715"
       ]
+    },
+    {
+      "id": "r7",
+      "holder": "Jay Lethal",
+      "people": [
+        "jay-lethal"
+      ],
+      "start": "2011-08-13",
+      "end": "2012-03-31",
+      "days": 231,
+      "number": 4,
+      "event": "Ring of Honor Wrestling",
+      "location": "Chicago Ridge, IL",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Roderick Strong",
+      "people": [
+        "roderick-strong"
+      ],
+      "start": "2012-03-31",
+      "end": "2012-06-29",
+      "days": 90,
+      "number": 5,
+      "event": "Showdown in the Sun: Day #2",
+      "location": "Fort Lauderdale, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Adam Cole",
+      "people": [
+        "adam-cole"
+      ],
+      "start": "2012-06-29",
+      "end": "2013-03-02",
+      "days": 246,
+      "number": 6,
+      "event": "Ring of Honor Wrestling",
+      "location": "Baltimore, MD",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Matt Taven",
+      "people": [
+        "matt-taven"
+      ],
+      "start": "2013-03-02",
+      "end": "2013-12-14",
+      "days": 287,
+      "number": 7,
+      "event": "11th Anniversary Show",
+      "location": "Chicago Ridge, IL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Tommaso Ciampa",
+      "people": [
+        "tommaso-ciampa"
+      ],
+      "start": "2013-12-14",
+      "end": "2014-04-04",
+      "days": 111,
+      "number": 8,
+      "event": "Final Battle",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Jay Lethal",
+      "people": [
+        "jay-lethal"
+      ],
+      "start": "2014-04-04",
+      "end": "2015-10-23",
+      "days": 567,
+      "number": 9,
+      "event": "Supercard of Honor VIII",
+      "location": "Westwego, LA",
+      "note": "Two out of three falls match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Roderick Strong",
+      "people": [
+        "roderick-strong"
+      ],
+      "start": "2015-10-23",
+      "end": "2016-02-19",
+      "days": 119,
+      "number": 10,
+      "event": "Glory By Honor XIV",
+      "location": "Kalamazoo, MI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Tomohiro Ishii",
+      "people": [
+        "tomohiro-ishii"
+      ],
+      "start": "2016-02-19",
+      "end": "2016-05-08",
+      "days": 79,
+      "number": 11,
+      "event": "Honor Rising: Japan 2016",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Bobby Fish",
+      "people": [
+        "bobby-fish"
+      ],
+      "start": "2016-05-08",
+      "end": "2016-11-18",
+      "days": 194,
+      "number": 12,
+      "event": "Global Wars",
+      "location": "Chicago Ridge, IL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Will Ospreay",
+      "people": [
+        "will-ospreay"
+      ],
+      "start": "2016-11-18",
+      "end": "2016-11-20",
+      "days": 2,
+      "number": 13,
+      "event": "Reach for the Sky: Night 1",
+      "location": "Liverpool, England",
+      "note": "Shortest reign on the list",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Marty Scurll",
+      "people": [
+        "marty-scurll"
+      ],
+      "start": "2016-11-20",
+      "end": "2017-05-14",
+      "days": 175,
+      "number": 14,
+      "event": "Reach for the Sky: Night 3",
+      "location": "London, England",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Kushida",
+      "people": [
+        "kushida"
+      ],
+      "start": "2017-05-14",
+      "end": "2017-09-22",
+      "days": 131,
+      "number": 15,
+      "event": "War of the Worlds",
+      "location": "Philadelphia, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Kenny King",
+      "people": [
+        "kenny-king"
+      ],
+      "start": "2017-09-22",
+      "end": "2017-12-15",
+      "days": 84,
+      "number": 16,
+      "event": "Death Before Dishonor XV",
+      "location": "Sunrise Manor, NV",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Silas Young",
+      "people": [
+        "silas-young"
+      ],
+      "start": "2017-12-15",
+      "end": "2018-02-10",
+      "days": 57,
+      "number": 17,
+      "event": "Final Battle",
+      "location": "New York, NY",
+      "note": "Four-way elimination match also including Punishment Martinez and Shane Taylor",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Kenny King",
+      "people": [
+        "kenny-king"
+      ],
+      "start": "2018-02-10",
+      "end": "2018-04-07",
+      "days": 56,
+      "number": 18,
+      "event": "Ring of Honor Wrestling",
+      "location": "Atlanta, GA",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Silas Young",
+      "people": [
+        "silas-young"
+      ],
+      "start": "2018-04-07",
+      "end": "2018-06-16",
+      "days": 70,
+      "number": 19,
+      "event": "Supercard of Honor XII",
+      "location": "New Orleans, LA",
+      "note": "Last Man Standing match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r2",
@@ -29,14 +360,56 @@
         "damian-priest"
       ],
       "start": "2018-06-16",
-      "end": "2018-10-18",
+      "end": "2018-09-29",
+      "days": 105,
+      "number": 20,
+      "event": "State of the Art Day 2",
+      "location": "Dallas, TX",
+      "note": "Proving Ground Six-Man Mayhem Instant Reward match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-television-championship"
+        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-television-championship",
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
       ],
       "legacyIds": [
         "profile-reign-damian-priest-162"
       ]
+    },
+    {
+      "id": "r23",
+      "holder": "Jeff Cobb",
+      "people": [
+        "jeff-cobb"
+      ],
+      "start": "2018-09-29",
+      "end": "2019-05-09",
+      "days": 222,
+      "number": 21,
+      "event": "Ring of Honor Wrestling",
+      "location": "Paradise, NV",
+      "note": "Aired on tape delay; recognized days differ (202)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Shane Taylor",
+      "people": [
+        "shane-taylor"
+      ],
+      "start": "2019-05-09",
+      "end": "2019-12-13",
+      "days": 218,
+      "number": 22,
+      "event": "War of The Worlds Day 2",
+      "location": "Toronto, Ontario, Canada",
+      "note": "Four Corner Survival match with Brody King and Hirooki Goto",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r3",
@@ -46,13 +419,35 @@
       ],
       "start": "2019-12-13",
       "end": "2021-03-26",
+      "days": 469,
+      "number": 23,
+      "event": "Final Battle",
+      "location": "Baltimore, MD",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-television-championship"
+        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-television-championship",
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
       ],
       "legacyIds": [
         "profile-reign-dragon-lee-189"
       ]
+    },
+    {
+      "id": "r25",
+      "holder": "Tony Deppen",
+      "people": [
+        "tony-deppen"
+      ],
+      "start": "2021-04-30",
+      "end": "2021-07-11",
+      "days": 72,
+      "number": 25,
+      "event": "Ring of Honor Wrestling",
+      "location": "Baltimore, MD",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r4",
@@ -62,13 +457,232 @@
       ],
       "start": "2021-07-11",
       "end": "2021-11-21",
+      "days": 133,
+      "number": 26,
+      "event": "Best in the World",
+      "location": "Baltimore, MD",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-television-championship"
+        "https://www.thesmackdownhotel.com/title-history/roh/roh-world-television-championship",
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
       ],
       "legacyIds": [
         "profile-reign-dragon-lee-187"
       ]
+    },
+    {
+      "id": "r26",
+      "holder": "Dalton Castle",
+      "people": [
+        "dalton-castle"
+      ],
+      "start": "2021-11-21",
+      "end": "2021-12-11",
+      "days": 20,
+      "number": 27,
+      "event": "Ring of Honor Wrestling",
+      "location": "Baltimore, MD",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Rhett Titus",
+      "people": [
+        "rhett-titus"
+      ],
+      "start": "2021-12-11",
+      "end": "2022-04-01",
+      "days": 111,
+      "number": 28,
+      "event": "Final Battle",
+      "location": "Baltimore, MD",
+      "note": "Four Corner Survival match with Joe Hendry and Silas Young; Tony Khan bought ROH during reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Minoru Suzuki",
+      "people": [
+        "minoru-suzuki"
+      ],
+      "start": "2022-04-01",
+      "end": "2022-04-13",
+      "days": 12,
+      "number": 29,
+      "event": "Supercard of Honor XV",
+      "location": "Garland, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "Samoa Joe",
+      "people": [
+        "samoa-joe"
+      ],
+      "start": "2022-04-13",
+      "end": "2023-11-08",
+      "days": 574,
+      "number": 30,
+      "event": "Dynamite",
+      "location": "New Orleans, LA",
+      "note": "AEW event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Kyle Fletcher",
+      "people": [
+        "kyle-fletcher"
+      ],
+      "start": "2023-12-15",
+      "end": "2024-06-28",
+      "days": 196,
+      "number": 31,
+      "event": "Final Battle",
+      "location": "Garland, TX",
+      "note": "Won vacant title in a Survival of the Fittest",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "Atlantis Jr.",
+      "people": [
+        "atlantis-jr"
+      ],
+      "start": "2024-06-28",
+      "end": "2024-10-12",
+      "days": 106,
+      "number": 32,
+      "event": "Super Viernes",
+      "location": "Mexico City, Mexico",
+      "note": "CMLL event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Brian Cage",
+      "people": [
+        "brian-cage"
+      ],
+      "start": "2024-10-12",
+      "end": "2024-12-20",
+      "days": 69,
+      "number": 33,
+      "event": "WrestleDream Zero Hour",
+      "location": "Tacoma, WA",
+      "note": "AEW event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Komander",
+      "people": [
+        "komander"
+      ],
+      "start": "2024-12-20",
+      "end": "2025-04-17",
+      "days": 118,
+      "number": 34,
+      "event": "Final Battle",
+      "location": "New York, NY",
+      "note": "Survival of the Fittest also involving Willie Mack, Mark Davis, AR Fox and Blake Christian",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Nick Wayne",
+      "people": [
+        "nick-wayne"
+      ],
+      "start": "2025-04-17",
+      "end": "2026-05-09",
+      "days": 387,
+      "number": 35,
+      "event": "Collision: Spring BreakThru",
+      "location": "Boston, MA",
+      "note": "AEW event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "AR Fox",
+      "people": [
+        "ar-fox"
+      ],
+      "start": "2026-05-09",
+      "end": "2026-06-11",
+      "days": 33,
+      "number": 36,
+      "event": "Supercard Showdown",
+      "location": "Palm Beach Gardens, Florida",
+      "note": "Aired on tape delay as a special Ring of Honor Wrestling episode",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "Lio Rush",
+      "people": [
+        "lio-rush"
+      ],
+      "start": "2026-06-11",
+      "end": "2026-08-21",
+      "days": 106,
+      "number": 37,
+      "event": "Global Wars Cincinnati",
+      "location": "Cincinnati, Ohio",
+      "note": "Three-way match also involving Action Andretti; aired on tape delay",
+      "dateNote": "The promotion's count differs from the dates (71 days by the dates, 106 printed).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "Action Andretti",
+      "people": [
+        "action-andretti"
+      ],
+      "start": "2026-08-21",
+      "days": 35,
+      "number": 38,
+      "event": "Death Before Dishonor",
+      "location": "Philadelphia, Pennsylvania",
+      "note": "Fight Without Honor match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ROH_World_Television_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

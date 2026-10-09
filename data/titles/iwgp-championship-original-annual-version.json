@@ -1,10 +1,56 @@
 {
   "id": "iwgp-championship-original-annual-version",
-  "name": "IWGP Championship · original annual version",
+  "name": "IWGP Heavyweight Championship (1983–1987)",
+  "promotion": "njpw",
+  "division": "men",
+  "format": "singles",
+  "established": "1983-06-02",
+  "retired": "1987-05-11",
   "names": [
-    "IWGP Championship · original annual version"
+    "IWGP Championship · original annual version",
+    "IWGP Heavyweight Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "IWGP Heavyweight Championship",
+      "from": "1983-06-02"
+    }
+  ],
+  "history": [
+    {
+      "date": "1987-05-11",
+      "kind": "deactivated",
+      "text": "The title was deactivated and replaced by a new IWGP Heavyweight Championship awarded to the 1987 IWGP League winner.",
+      "related": [
+        "IWGP Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship_(original_version)"
+      ]
+    },
+    {
+      "date": "1987-05-11",
+      "kind": "replaced-by",
+      "text": "The 1987–2021 IWGP Heavyweight Championship replaced this title and does not acknowledge its champions.",
+      "related": [
+        "IWGP Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship_(original_version)"
+      ]
+    },
+    {
+      "date": "1987-05-11",
+      "kind": "retired",
+      "text": "The title's retirement date is listed as May 11, 1987.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship_(original_version)"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship_(original_version)"
+  ],
   "reigns": [
     {
       "id": "r1",
@@ -14,13 +60,55 @@
       ],
       "start": "1983-06-02",
       "end": "1984-06-14",
+      "days": 378,
+      "number": 1,
+      "event": "IWGP League 1983",
+      "location": "Tokyo, Japan",
+      "note": "Beat Inoki by knockout in the 1983 final to become first champion",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.wrestling-titles.com/japan/newjapan/iwgp.html"
+        "https://www.wrestling-titles.com/japan/newjapan/iwgp.html",
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship_(original_version)"
       ],
       "legacyIds": [
         "profile-reign-archive-person-hulkhogan-855"
       ]
+    },
+    {
+      "id": "r2",
+      "holder": "Antonio Inoki",
+      "people": [
+        "antonio-inoki"
+      ],
+      "start": "1984-06-14",
+      "end": "1986-05-16",
+      "days": 701,
+      "number": 2,
+      "event": "IWGP League 1984",
+      "location": "Tokyo, Japan",
+      "note": "Title changed hands via countout",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship_(original_version)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Antonio Inoki",
+      "people": [
+        "antonio-inoki"
+      ],
+      "start": "1986-06-19",
+      "end": "1987-05-11",
+      "days": 326,
+      "number": 3,
+      "event": "IWGP League 1986",
+      "location": "Tokyo, Japan",
+      "note": "Beat Dick Murdoch in the 1986 final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship_(original_version)"
+      ],
+      "legacyIds": []
     }
   ]
 }

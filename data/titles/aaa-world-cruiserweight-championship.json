@@ -1,11 +1,282 @@
 {
   "id": "aaa-world-cruiserweight-championship",
   "name": "AAA World Cruiserweight Championship",
+  "promotion": "aaa",
+  "division": "men",
+  "format": "singles",
+  "established": "2009-05-21",
   "names": [
-    "AAA World Cruiserweight Championship"
+    "AAA Cruiserweight Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "AAA Cruiserweight Championship",
+      "from": "2009-05-21",
+      "to": "2014-08-17"
+    },
+    {
+      "name": "AAA World Cruiserweight Championship",
+      "from": "2014-08-17"
+    }
+  ],
+  "history": [
+    {
+      "date": "2014-08-17",
+      "kind": "unified-into",
+      "text": "El Hijo del Fantasma won a ten-way match at Triplemanía XXII, unifying the two titles and renaming this one.",
+      "related": [
+        "AAA Fusión Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
+      ]
+    },
+    {
+      "date": "2014-08-17",
+      "kind": "deactivated",
+      "text": "The AAA Fusión Championship was deactivated when it was unified into this title.",
+      "related": [
+        "AAA Fusión Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
+      ]
+    },
+    {
+      "date": "2021-02-10",
+      "kind": "recognition",
+      "text": "Lio Rush beat Laredo Kid in a title vs. title match, but AAA did not recognize Rush as champion.",
+      "related": [
+        "MLW World Middleweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r5",
+      "holder": "Alex Koslov",
+      "people": [
+        "alex-koslov"
+      ],
+      "start": "2009-05-21",
+      "end": "2009-06-13",
+      "days": 23,
+      "number": 1,
+      "event": "Sin Limite",
+      "location": "Aguascalientes City, Aguascalientes, Mexico",
+      "note": "Won tournament final as inaugural champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Xtreme Tiger",
+      "people": [
+        "extreme-tiger"
+      ],
+      "start": "2009-06-13",
+      "end": "2009-08-21",
+      "days": 69,
+      "number": 2,
+      "event": "Triplemanía XVII",
+      "location": "Mexico City, Mexico",
+      "note": "Won four-way hardcore elimination match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Alex Koslov",
+      "people": [
+        "alex-koslov"
+      ],
+      "start": "2009-08-21",
+      "end": "2009-08-30",
+      "days": 9,
+      "number": 3,
+      "event": "Verano de Escándalo",
+      "location": "Ciudad Madero, Tamaulipas, Mexico",
+      "note": "Won five-way elimination match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Xtreme Tiger",
+      "people": [
+        "extreme-tiger"
+      ],
+      "start": "2009-09-26",
+      "end": "2010-06-06",
+      "days": 253,
+      "number": 4,
+      "event": "Héroes Inmortales III",
+      "location": "Monterrey, Nuevo León, Mexico",
+      "note": "Won vacant title in four-way match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Jack Evans",
+      "people": [
+        "jack-evans"
+      ],
+      "start": "2010-06-06",
+      "end": "2012-05-19",
+      "days": 713,
+      "number": 5,
+      "event": "Triplemanía XVIII",
+      "location": "Mexico City, Mexico",
+      "note": "Won four-way elimination match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Juventud Guerrera",
+      "people": [
+        "juventud-guerrera"
+      ],
+      "start": "2012-05-19",
+      "end": "2012-12-02",
+      "days": 197,
+      "number": 6,
+      "event": "Noche de Campeones",
+      "location": "Chilpancingo, Guerrero, Mexico",
+      "note": "Won four-way extreme match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Daga",
+      "people": [
+        "daga"
+      ],
+      "start": "2012-12-19",
+      "end": "2014-08-17",
+      "days": 623,
+      "number": 7,
+      "event": "Guerra de Titanes",
+      "location": "Zapopan, Jalisco, Mexico",
+      "note": "Won six-way ladder match",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-cruiserweight-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
+      ],
+      "legacyIds": [
+        "profile-reign-daga-153"
+      ]
+    },
+    {
+      "id": "r12",
+      "holder": "El Hijo del Fantasma",
+      "people": [
+        "santos-escobar"
+      ],
+      "start": "2014-08-17",
+      "end": "2017-03-19",
+      "days": 945,
+      "number": 8,
+      "event": "Triplemanía XXII",
+      "location": "Mexico City, Mexico",
+      "note": "Won ten-way match and unified both titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Johnny Mundo",
+      "people": [
+        "john-morrison"
+      ],
+      "start": "2017-03-19",
+      "end": "2017-10-01",
+      "days": 196,
+      "number": 9,
+      "event": "Rey de Reyes",
+      "location": "Monterrey, Nuevo León, Mexico",
+      "note": "Won winner-takes-all triple threat match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Lanzeloth",
+      "people": [
+        "lanzeloth"
+      ],
+      "start": "2017-10-01",
+      "end": "2018-01-26",
+      "days": 117,
+      "number": 10,
+      "event": "Héroes Inmortales XI",
+      "location": "San Luis Potosí City, San Luis Potosí, Mexico",
+      "note": "Won ten-way match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Australian Suicide",
+      "people": [
+        "australian-suicide"
+      ],
+      "start": "2018-01-26",
+      "end": "2018-08-25",
+      "days": 211,
+      "number": 11,
+      "event": "Guerra de Titanes",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Sammy Guevara",
+      "people": [
+        "sammy-guevara"
+      ],
+      "start": "2018-08-25",
+      "end": "2019-02-16",
+      "days": 175,
+      "number": 12,
+      "event": "Triplemanía XXVI",
+      "location": "Mexico City, Mexico",
+      "note": "Won four-way match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Laredo Kid",
@@ -13,30 +284,95 @@
         "laredo-kid"
       ],
       "start": "2019-02-16",
-      "end": "2021-02-10",
+      "end": "2022-06-18",
+      "days": 1218,
+      "number": 13,
+      "event": "AAA",
+      "location": "Morelia, Michoacán, Mexico",
+      "note": "No notes listed; longest reign",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-world-cruiserweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-cruiserweight-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-laredo-kid-414"
       ]
     },
     {
+      "id": "r17",
+      "holder": "Lio Rush",
+      "people": [
+        "lio-rush"
+      ],
+      "start": "2021-02-10",
+      "end": "2022-06-18",
+      "kind": "unrecognized",
+      "event": "MLW Fusion",
+      "location": "Orlando, Florida, U.S.",
+      "note": "Won unification match; AAA did not recognize reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r2",
-      "holder": "Rey Fénix",
+      "holder": "Fénix",
       "people": [
         "rey-fenix"
       ],
       "start": "2022-06-18",
       "end": "2023-07-17",
+      "days": 394,
+      "number": 14,
+      "event": "Triplemanía XXX: Tijuana",
+      "location": "Tijuana, Mexico",
+      "note": "Won winner-takes-all match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-world-cruiserweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-cruiserweight-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-rey-fenix-642"
       ]
+    },
+    {
+      "id": "r18",
+      "holder": "Komander",
+      "people": [
+        "komander"
+      ],
+      "start": "2023-09-23",
+      "end": "2024-08-17",
+      "days": 329,
+      "number": 15,
+      "event": "Luchando Por Mexico",
+      "location": "Mexico City, Mexico",
+      "note": "Won four-way match for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Matt Riddle",
+      "people": [
+        "matt-riddle"
+      ],
+      "start": "2024-08-17",
+      "end": "2024-12-07",
+      "days": 112,
+      "number": 16,
+      "event": "Triplemanía XXXII: Mexico City",
+      "location": "Aguascalientes, Mexico",
+      "note": "Won three-way match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r3",
@@ -46,9 +382,15 @@
       ],
       "start": "2024-12-07",
       "end": "2026-05-30",
+      "days": 539,
+      "number": 17,
+      "event": "Cierre De La Gira Origenes",
+      "location": "Mexico City, Mexico",
+      "note": "Regained title",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-world-cruiserweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-cruiserweight-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-laredo-kid-411"
@@ -56,14 +398,20 @@
     },
     {
       "id": "r4",
-      "holder": "Rey Fenix",
+      "holder": "Rey Fénix",
       "people": [
         "rey-fenix"
       ],
       "start": "2026-05-30",
+      "days": 108,
+      "number": 18,
+      "event": "Noche de Los Grandes",
+      "location": "Monterrey, Nuevo León, Mexico",
+      "note": "Current champion; reign ongoing",
       "dateNote": "Listed as ongoing in the profile source; shown through the archive date.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-world-cruiserweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-cruiserweight-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Cruiserweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-rey-fenix-637"

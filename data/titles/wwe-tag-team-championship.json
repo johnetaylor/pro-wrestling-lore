@@ -1,28 +1,123 @@
 {
   "id": "wwe-tag-team-championship",
   "name": "WWE Tag Team Championship",
+  "short": "WWE TAG",
+  "promotion": "wwe",
+  "division": "men",
+  "format": "tag",
+  "established": "2016-08-23",
+  "featured": true,
   "names": [
-    "WWE Tag Team Championship",
     "WWE Tag Team · 2016 lineage",
     "WWE SmackDown/WWE Tag Team Championship",
-    "WWE SmackDown Tag Team Championship"
+    "WWE SmackDown Tag Team Championship",
+    "SmackDown Tag Team Championship",
+    "Undisputed WWE Tag Team Championship"
+  ],
+  "eras": [
+    {
+      "name": "SmackDown Tag Team Championship",
+      "from": "2016-08-23",
+      "to": "2022-05"
+    },
+    {
+      "name": "Undisputed WWE Tag Team Championship",
+      "from": "2022-05",
+      "to": "2024-04-19"
+    },
+    {
+      "name": "WWE Tag Team Championship",
+      "from": "2024-04-19"
+    }
+  ],
+  "history": [
+    {
+      "date": "2016-08-23",
+      "kind": "replaces",
+      "text": "Introduced for SmackDown as a second tag title after the previous WWE Tag Team Championship became Raw-exclusive in the 2016 draft.",
+      "related": [
+        "WWE Tag Team Championship (renamed Raw Tag Team Championship)"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2022-05-20",
+      "kind": "unified-into",
+      "text": "The Usos beat RK-Bro in a Winners Take All match, billed as unification, though both titles stayed independently active.",
+      "related": [
+        "Raw Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2024-04-06",
+      "kind": "split",
+      "text": "A Six-Pack Tag Team Ladder match at WrestleMania XL Night 1 split the Undisputed titles, with A-Town Down Under winning this one.",
+      "related": [
+        "Raw Tag Team Championship (World Tag Team Championship)"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2020",
+      "kind": "recognition",
+      "text": "Big E was recognized as champion under the Freebird Rule for the first six reigns but not the seventh, after he was split from the team in the 2020 draft.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Tag_Team_Championship"
+      ]
+    }
   ],
   "sources": [
     "https://www.wwe.com/classics/titlehistory/wwe-tag-team-championship",
-    "https://www.wwe.com/shows/backlash/2016/heath-slater-rhyno-vs-usos-smackdown-tag-team-championship-results"
+    "https://www.wwe.com/shows/backlash/2016/heath-slater-rhyno-vs-usos-smackdown-tag-team-championship-results",
+    "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions",
+    "https://en.wikipedia.org/wiki/WWE_Tag_Team_Championship"
   ],
   "reigns": [
     {
-      "id": "r1",
-      "holder": "Bray Wyatt & Luke Harper & Randy Orton",
+      "id": "r26",
+      "holder": "Heath Slater & Rhyno",
       "people": [
-        "randy-orton"
+        "heath-slater",
+        "rhyno"
+      ],
+      "start": "2016-09-11",
+      "end": "2016-12-04",
+      "days": 84,
+      "number": 1,
+      "event": "Backlash",
+      "location": "Richmond, VA",
+      "note": "Won eight-team tournament final over The Usos; inaugural champions",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r1",
+      "holder": "The Wyatt Family",
+      "people": [
+        "randy-orton",
+        "bray-wyatt",
+        "luke-harper"
       ],
       "start": "2016-12-04",
       "end": "2016-12-27",
+      "days": 23,
+      "number": 2,
+      "event": "TLC: Tables, Ladders & Chairs",
+      "location": "Dallas, TX",
+      "note": "Wyatt and Orton won; Harper also recognized under Freebird Rule",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-randy-orton-616"
@@ -30,15 +125,22 @@
     },
     {
       "id": "r2",
-      "holder": "Chad Gable & Jason Jordan",
+      "holder": "American Alpha",
       "people": [
-        "chad-gable"
+        "chad-gable",
+        "jason-jordan"
       ],
       "start": "2016-12-27",
       "end": "2017-03-21",
+      "days": 84,
+      "number": 3,
+      "event": "SmackDown",
+      "location": "Rosemont, IL",
+      "note": "Fatal four-way elimination match; Harper and Orton last pinned",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-chad-gable-77"
@@ -46,16 +148,21 @@
     },
     {
       "id": "r3",
-      "holder": "Jey Uso & Jimmy Uso",
+      "holder": "The Usos",
       "people": [
         "jey-uso",
         "jimmy-uso"
       ],
       "start": "2017-03-21",
       "end": "2017-07-23",
+      "days": 124,
+      "number": 4,
+      "event": "SmackDown",
+      "location": "Uncasville, CT",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-jey-uso-337",
@@ -63,17 +170,43 @@
       ]
     },
     {
+      "id": "r27",
+      "holder": "The New Day",
+      "people": [
+        "big-e",
+        "kofi-kingston",
+        "xavier-woods"
+      ],
+      "start": "2017-07-23",
+      "end": "2017-08-20",
+      "days": 28,
+      "number": 5,
+      "event": "Battleground",
+      "location": "Philadelphia, PA",
+      "note": "Kingston and Woods won; Big E also recognized under Freebird Rule",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r4",
-      "holder": "Jey Uso & Jimmy Uso",
+      "holder": "The Usos",
       "people": [
         "jey-uso",
         "jimmy-uso"
       ],
       "start": "2017-08-20",
       "end": "2017-09-12",
+      "days": 23,
+      "number": 6,
+      "event": "SummerSlam Kickoff",
+      "location": "Brooklyn, NY",
+      "note": "Big E and Xavier Woods represented The New Day",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-jey-uso-336",
@@ -81,17 +214,43 @@
       ]
     },
     {
+      "id": "r28",
+      "holder": "The New Day",
+      "people": [
+        "big-e",
+        "kofi-kingston",
+        "xavier-woods"
+      ],
+      "start": "2017-09-12",
+      "end": "2017-10-08",
+      "days": 26,
+      "number": 7,
+      "event": "SmackDown",
+      "location": "Las Vegas, NV",
+      "note": "Sin City Street Fight; Woods also recognized under Freebird Rule",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r5",
-      "holder": "Jey Uso & Jimmy Uso",
+      "holder": "The Usos",
       "people": [
         "jey-uso",
         "jimmy-uso"
       ],
       "start": "2017-10-08",
       "end": "2018-04-08",
+      "days": 182,
+      "number": 8,
+      "event": "Hell in a Cell",
+      "location": "Detroit, MI",
+      "note": "Hell in a Cell match; Big E and Xavier Woods represented The New Day",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-jey-uso-335",
@@ -99,16 +258,80 @@
       ]
     },
     {
+      "id": "r29",
+      "holder": "The Bludgeon Brothers",
+      "people": [
+        "luke-harper",
+        "erick-rowan"
+      ],
+      "start": "2018-04-08",
+      "end": "2018-08-21",
+      "days": 135,
+      "number": 9,
+      "event": "WrestleMania 34",
+      "location": "New Orleans, LA",
+      "note": "Triple threat tag match with The New Day; Bludgeons pinned Big E and Kingston",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "The New Day",
+      "people": [
+        "big-e",
+        "kofi-kingston",
+        "xavier-woods"
+      ],
+      "start": "2018-08-21",
+      "end": "2018-10-16",
+      "days": 56,
+      "number": 10,
+      "event": "SmackDown",
+      "location": "Brooklyn, NY",
+      "note": "No Disqualification match; Kingston and Woods won; Big E also recognized under Freebird Rule",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "The Bar",
+      "people": [
+        "cesaro",
+        "sheamus"
+      ],
+      "start": "2018-10-16",
+      "end": "2019-01-27",
+      "days": 103,
+      "number": 11,
+      "event": "SmackDown 1000",
+      "location": "Washington, D.C.",
+      "note": "Big E and Xavier Woods represented The New Day",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r6",
       "holder": "The Miz & Shane McMahon",
       "people": [
-        "the-miz"
+        "the-miz",
+        "shane-mcmahon"
       ],
       "start": "2019-01-27",
       "end": "2019-02-17",
+      "days": 21,
+      "number": 12,
+      "event": "Royal Rumble",
+      "location": "Phoenix, AZ",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-the-miz-814"
@@ -116,16 +339,21 @@
     },
     {
       "id": "r7",
-      "holder": "Jey Uso & Jimmy Uso",
+      "holder": "The Usos",
       "people": [
         "jey-uso",
         "jimmy-uso"
       ],
       "start": "2019-02-17",
       "end": "2019-04-09",
+      "days": 51,
+      "number": 13,
+      "event": "Elimination Chamber",
+      "location": "Houston, TX",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-jey-uso-334",
@@ -133,54 +361,227 @@
       ]
     },
     {
+      "id": "r32",
+      "holder": "The Hardy Boyz",
+      "people": [
+        "jeff-hardy",
+        "matt-hardy"
+      ],
+      "start": "2019-04-09",
+      "end": "2019-04-30",
+      "days": 21,
+      "number": 14,
+      "event": "SmackDown",
+      "location": "Brooklyn, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Daniel Bryan & Rowan",
+      "people": [
+        "daniel-bryan",
+        "erick-rowan"
+      ],
+      "start": "2019-05-07",
+      "end": "2019-07-14",
+      "days": 68,
+      "number": 15,
+      "event": "SmackDown",
+      "location": "Louisville, KY",
+      "note": "Defeated The Usos to win vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "The New Day",
+      "people": [
+        "big-e",
+        "kofi-kingston",
+        "xavier-woods"
+      ],
+      "start": "2019-07-14",
+      "end": "2019-09-15",
+      "days": 63,
+      "number": 16,
+      "event": "Extreme Rules",
+      "location": "Philadelphia, PA",
+      "note": "Triple threat tag match with Heavy Machinery; Big E and Woods won; Kingston credited later under Freebird Rule",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "The Revival",
+      "people": [
+        "dash-wilder",
+        "scott-dawson"
+      ],
+      "start": "2019-09-15",
+      "end": "2019-11-08",
+      "days": 54,
+      "number": 17,
+      "event": "Clash of Champions",
+      "location": "Charlotte, NC",
+      "note": "Big E and Xavier Woods represented The New Day",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "The New Day",
+      "people": [
+        "big-e",
+        "kofi-kingston",
+        "xavier-woods"
+      ],
+      "start": "2019-11-08",
+      "end": "2020-02-27",
+      "days": 111,
+      "number": 18,
+      "event": "SmackDown",
+      "location": "Manchester, England",
+      "note": "Big E and Kingston won; Woods inactive due to injury; credited later under Freebird Rule",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r8",
       "holder": "The Miz & John Morrison",
       "people": [
-        "the-miz"
+        "the-miz",
+        "john-morrison"
       ],
       "start": "2020-02-27",
       "end": "2020-04-17",
+      "days": 50,
+      "number": 19,
+      "event": "Super ShowDown",
+      "location": "Riyadh, Saudi Arabia",
+      "note": "Big E and Kofi Kingston represented The New Day",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-the-miz-813"
       ]
     },
     {
+      "id": "r37",
+      "holder": "The New Day",
+      "people": [
+        "big-e",
+        "kofi-kingston",
+        "xavier-woods"
+      ],
+      "start": "2020-04-17",
+      "end": "2020-07-19",
+      "days": 93,
+      "number": 20,
+      "event": "SmackDown",
+      "location": "Orlando, FL",
+      "note": "Triple threat match; Big E pinned The Miz; Woods credited under Freebird Rule",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r9",
       "holder": "Shinsuke Nakamura & Cesaro",
       "people": [
-        "shinsuke-nakamura"
+        "shinsuke-nakamura",
+        "cesaro"
       ],
       "start": "2020-07-19",
       "end": "2020-10-09",
+      "days": 82,
+      "number": 21,
+      "event": "The Horror Show at Extreme Rules",
+      "location": "Orlando, FL",
+      "note": "Tables match; Big E and Kofi Kingston represented The New Day",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-shinsuke-nakamura-764"
       ]
     },
     {
+      "id": "r38",
+      "holder": "The New Day",
+      "people": [
+        "kofi-kingston",
+        "xavier-woods"
+      ],
+      "start": "2020-10-09",
+      "end": "2020-10-12",
+      "days": 3,
+      "number": 22,
+      "event": "SmackDown",
+      "location": "Orlando, FL",
+      "note": "Kingston and Woods won; drafted to Raw right after splitting from Big E",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r10",
-      "holder": "Angelo Dawkins & Montez Ford",
+      "holder": "The Street Profits",
       "people": [
         "angelo-dawkins",
         "montez-ford"
       ],
       "start": "2020-10-12",
       "end": "2021-01-08",
+      "days": 88,
+      "number": 23,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Titles exchanged with The New Day under 2020 WWE Draft",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-angelo-dawkins-36",
         "profile-reign-montez-ford-444"
       ]
+    },
+    {
+      "id": "r39",
+      "holder": "Dolph Ziggler & Robert Roode",
+      "people": [
+        "dolph-ziggler",
+        "robert-roode"
+      ],
+      "start": "2021-01-08",
+      "end": "2021-05-16",
+      "days": 128,
+      "number": 24,
+      "event": "SmackDown",
+      "location": "St. Petersburg, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r11",
@@ -191,9 +592,14 @@
       ],
       "start": "2021-05-16",
       "end": "2021-07-18",
+      "days": 63,
+      "number": 25,
+      "event": "WrestleMania Backlash",
+      "location": "Tampa, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-dominik-mysterio-177",
@@ -202,16 +608,22 @@
     },
     {
       "id": "r12",
-      "holder": "Jey Uso & Jimmy Uso",
+      "holder": "The Usos",
       "people": [
         "jey-uso",
         "jimmy-uso"
       ],
       "start": "2021-07-18",
       "end": "2023-04-01",
+      "days": 622,
+      "number": 26,
+      "event": "Money in the Bank Kickoff",
+      "location": "Fort Worth, TX",
+      "note": "Winners Take All match; Usos became Undisputed champions May 20 2022; WWE lists reign ending April 2 2023 incorrectly",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-jey-uso-333",
@@ -227,9 +639,15 @@
       ],
       "start": "2023-04-01",
       "end": "2023-09-02",
+      "days": 154,
+      "number": 27,
+      "event": "WrestleMania 39 Night 1",
+      "location": "Inglewood, CA",
+      "note": "Also for The Usos' Raw Tag Team Championship",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-kevin-owens-372",
@@ -238,16 +656,22 @@
     },
     {
       "id": "r14",
-      "holder": "Finn Bálor & Damian Priest",
+      "holder": "The Judgment Day",
       "people": [
         "damian-priest",
         "finn-balor"
       ],
       "start": "2023-09-02",
       "end": "2023-10-07",
+      "days": 35,
+      "number": 28,
+      "event": "Payback",
+      "location": "Pittsburgh, PA",
+      "note": "Steel City Street Fight; also for Owens and Zayn's Raw title",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-damian-priest-158",
@@ -263,9 +687,15 @@
       ],
       "start": "2023-10-07",
       "end": "2023-10-16",
+      "days": 9,
+      "number": 29,
+      "event": "Fastlane",
+      "location": "Indianapolis, IN",
+      "note": "Also for The Judgment Day's Raw Tag Team Championship",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-cody-rhodes-115",
@@ -274,16 +704,22 @@
     },
     {
       "id": "r16",
-      "holder": "Finn Bálor & Damian Priest",
+      "holder": "The Judgment Day",
       "people": [
         "damian-priest",
         "finn-balor"
       ],
       "start": "2023-10-16",
       "end": "2024-04-06",
+      "days": 173,
+      "number": 30,
+      "event": "Raw",
+      "location": "Oklahoma City, OK",
+      "note": "Also for Cody Rhodes and Jey Uso's Raw Tag Team Championship",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-damian-priest-156",
@@ -292,16 +728,22 @@
     },
     {
       "id": "r17",
-      "holder": "Austin Theory & Grayson Waller",
+      "holder": "A-Town Down Under",
       "people": [
         "austin-theory",
         "grayson-waller"
       ],
       "start": "2024-04-06",
       "end": "2024-07-05",
+      "days": 90,
+      "number": 31,
+      "event": "WrestleMania XL Night 1",
+      "location": "Philadelphia, PA",
+      "note": "Six-pack ladder match for SmackDown and Raw titles; SmackDown title renamed WWE Tag Team Championship",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-austin-theory-40",
@@ -310,15 +752,21 @@
     },
     {
       "id": "r18",
-      "holder": "Tommaso Ciampa & Johnny Gargano",
+      "holder": "#DIY",
       "people": [
-        "johnny-gargano"
+        "johnny-gargano",
+        "tommaso-ciampa"
       ],
       "start": "2024-07-05",
       "end": "2024-08-02",
+      "days": 28,
+      "number": 32,
+      "event": "SmackDown",
+      "location": "Toronto, ON, Canada",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-johnny-gargano-358"
@@ -326,21 +774,46 @@
     },
     {
       "id": "r19",
-      "holder": "Tama Tonga & Jacob Fatu & Tonga Loa",
+      "holder": "The Bloodline",
       "people": [
         "jacob-fatu",
-        "tama-tonga"
+        "tama-tonga",
+        "tonga-loa"
       ],
       "start": "2024-08-02",
       "end": "2024-10-25",
+      "days": 84,
+      "number": 33,
+      "event": "SmackDown",
+      "location": "Cleveland, OH",
+      "note": "Fatu relinquished half to Tonga Loa August 23 2024; WWE recognizes single reign",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-jacob-fatu-322",
         "profile-reign-tama-tonga-787"
       ]
+    },
+    {
+      "id": "r40",
+      "holder": "Motor City Machine Guns",
+      "people": [
+        "alex-shelley",
+        "chris-sabin"
+      ],
+      "start": "2024-10-25",
+      "end": "2024-12-06",
+      "days": 42,
+      "number": 34,
+      "event": "SmackDown",
+      "location": "Brooklyn, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r20",
@@ -351,9 +824,14 @@
       ],
       "start": "2024-12-06",
       "end": "2025-03-14",
+      "days": 98,
+      "number": 35,
+      "event": "SmackDown",
+      "location": "Minneapolis, MN",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/classics/titlehistory/wwe-tag-team-championship"
+        "https://www.wwe.com/classics/titlehistory/wwe-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "2025-wwe-tag-team-2024-12-06-tommaso-ciampa"
@@ -368,10 +846,15 @@
       ],
       "start": "2025-03-14",
       "end": "2025-07-11",
+      "days": 119,
+      "number": 36,
+      "event": "SmackDown",
+      "location": "Barcelona, Spain",
       "curated": true,
       "sources": [
         "https://www.wwe.com/classics/titlehistory/wwe-tag-team-championship",
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "2025-wwe-tag-team-2025-03-14-angelo-dawkins",
@@ -388,10 +871,15 @@
       ],
       "start": "2025-07-11",
       "end": "2026-01-23",
+      "days": 196,
+      "number": 37,
+      "event": "SmackDown",
+      "location": "Nashville, TN",
       "note": "Dexter Lumis and Joe Gacy held the titles for The Wyatt Sicks.",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/classics/titlehistory/wwe-tag-team-championship"
+        "https://www.wwe.com/classics/titlehistory/wwe-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "wwe-tag-team-1"
@@ -407,13 +895,18 @@
       ],
       "start": "2026-01-23",
       "end": "2026-03-20",
+      "days": 56,
+      "number": 38,
+      "event": "SmackDown",
+      "location": "Montreal, QC, Canada",
       "note": "Sikoa and Tama won the titles. Sikoa handed the belts to his faction on January 30, with Talla carrying a belt. The championship history records a single MFT team reign; the bars mark association with that reign, not separate title changes.",
       "memberStarts": {
         "talla-tonga": "2026-01-30"
       },
       "curated": true,
       "sources": [
-        "https://solowrestling.com/us/new/147051-wwe-smackdown-january-30-2026-coverage-and-results"
+        "https://solowrestling.com/us/new/147051-wwe-smackdown-january-30-2026-coverage-and-results",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "wwe-tag-team-2"
@@ -428,10 +921,16 @@
       ],
       "start": "2026-03-20",
       "end": "2026-08-14",
+      "days": 147,
+      "number": 39,
+      "event": "SmackDown",
+      "location": "Raleigh, NC",
+      "note": "JC Mateo defended the title on behalf of Solo Sikoa",
       "curated": true,
       "sources": [
         "https://www.wwe.com/classics/titlehistory/wwe-tag-team-championship",
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-smackdown-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "wwe-tag-team-3",
@@ -446,15 +945,19 @@
         "talla-tonga"
       ],
       "start": "2026-08-14",
+      "days": 15,
+      "number": 40,
+      "event": "SmackDown",
+      "location": "Boston, MA",
+      "note": "Triple threat tag match also featuring The War Raiders (Erik and Ivar)",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/classics/titlehistory/wwe-tag-team-championship"
+        "https://www.wwe.com/classics/titlehistory/wwe-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Tag_Team_Champions"
       ],
       "legacyIds": [
         "wwe-tag-team-4"
       ]
     }
-  ],
-  "short": "WWE TAG",
-  "featured": true
+  ]
 }

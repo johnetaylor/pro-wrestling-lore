@@ -1,11 +1,1271 @@
 {
   "id": "tna-world-championship",
   "name": "TNA World Championship",
+  "promotion": "tna",
+  "division": "men",
+  "format": "singles",
+  "established": "2007-05-13",
   "names": [
-    "TNA World Championship"
+    "Impact World Championship",
+    "TNA World Heavyweight Championship",
+    "TNA World Heavyweight Championship (2007–2017)",
+    "Unified GFW World Heavyweight Championship",
+    "GFW Global Championship",
+    "Impact Global Championship",
+    "Impact Wrestling World Heavyweight Championship",
+    "Impact World Championship (2018–2024)",
+    "Impact Unified World Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "TNA World Heavyweight Championship",
+      "from": "2007-05-13",
+      "to": "2017"
+    },
+    {
+      "name": "Unified GFW World Heavyweight Championship",
+      "from": "2017",
+      "to": "2017"
+    },
+    {
+      "name": "GFW Global Championship",
+      "from": "2017",
+      "to": "2017"
+    },
+    {
+      "name": "Impact Global Championship",
+      "from": "2017",
+      "to": "2017-03"
+    },
+    {
+      "name": "Impact Wrestling World Heavyweight Championship",
+      "from": "2017-03",
+      "to": "2018-02-01"
+    },
+    {
+      "name": "Impact World Championship",
+      "from": "2018-02-01",
+      "to": "2021-03-13"
+    },
+    {
+      "name": "Impact Unified World Championship",
+      "from": "2021-03-13",
+      "to": "2024-01"
+    },
+    {
+      "name": "TNA World Championship",
+      "from": "2024-01"
+    }
+  ],
+  "history": [
+    {
+      "date": "2007-05-13",
+      "kind": "replaces",
+      "text": "TNA's NWA-controlled title ended when the NWA agreement expired, and TNA created its own world title.",
+      "related": [
+        "NWA World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_World_Championship"
+      ]
+    },
+    {
+      "date": "2017",
+      "kind": "unified-into",
+      "text": "Unified with the GFW Global Championship at Slammiversary XV into the Unified GFW World Heavyweight Championship.",
+      "related": [
+        "GFW Global Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_World_Championship"
+      ]
+    },
+    {
+      "date": "2017",
+      "kind": "brand",
+      "text": "After Destination X, the title took the GFW Global Championship name and kept the former TNA lineage.",
+      "related": [
+        "GFW Global Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_World_Championship"
+      ]
+    },
+    {
+      "date": "2017-10-23",
+      "kind": "brand",
+      "text": "The GFW name was dropped and the title became the Impact Global Championship (the article also gives September 2017 for this change).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_World_Championship"
+      ]
+    },
+    {
+      "date": "2018-02-01",
+      "kind": "brand",
+      "text": "The title was renamed the Impact World Championship on Impact!.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_World_Championship"
+      ]
+    },
+    {
+      "date": "2018-06-04",
+      "kind": "absorbed",
+      "text": "Unified with the Impact Grand Championship, which was then officially retired.",
+      "related": [
+        "Impact Grand Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_World_Championship"
+      ]
+    },
+    {
+      "date": "2020-04",
+      "kind": "split",
+      "text": "Moose declared himself champion of a separate TNA World Heavyweight title, which Impact did not initially recognize.",
+      "related": [
+        "TNA World Heavyweight Championship (2020–2021)"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_World_Championship"
+      ]
+    },
+    {
+      "date": "2021-02-23",
+      "kind": "recognition",
+      "text": "Impact executive vice president Scott D'Amore officially sanctioned Moose's title.",
+      "related": [
+        "TNA World Heavyweight Championship (2020–2021)"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_World_Championship"
+      ]
+    },
+    {
+      "date": "2021-03-13",
+      "kind": "absorbed",
+      "text": "Rich Swann defeated Moose at Sacrifice to unify the titles, and the TNA title was deactivated.",
+      "related": [
+        "TNA World Heavyweight Championship (2020–2021)"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_World_Championship"
+      ]
+    },
+    {
+      "date": "2021-03-13",
+      "kind": "deactivated",
+      "text": "The TNA title was deactivated after the unification, and the unified title was briefly called the Impact Unified World Championship.",
+      "related": [
+        "TNA World Heavyweight Championship (2020–2021)"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_World_Championship"
+      ]
+    },
+    {
+      "date": "2021-08",
+      "kind": "retired",
+      "text": "The TNA belt was retired again after Christian Cage won the title.",
+      "related": [
+        "TNA World Heavyweight Championship (2020–2021)"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_World_Championship"
+      ]
+    },
+    {
+      "date": "2024-01",
+      "kind": "brand",
+      "text": "The company reverted to the TNA name, and the title became the TNA World Championship with a new belt.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_World_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions",
+    "https://en.wikipedia.org/wiki/TNA_World_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r5",
+      "holder": "Kurt Angle",
+      "people": [
+        "kurt-angle"
+      ],
+      "start": "2007-05-13",
+      "end": "2007-05-14",
+      "days": 1,
+      "number": 1,
+      "event": "Sacrifice",
+      "location": "Orlando, FL",
+      "note": "Defeated Christian Cage and Sting in a three-way match; inaugural TNA World Heavyweight Champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Kurt Angle",
+      "people": [
+        "kurt-angle"
+      ],
+      "start": "2007-06-17",
+      "end": "2007-10-14",
+      "days": 119,
+      "number": 2,
+      "event": "Slammiversary",
+      "location": "Nashville, TN",
+      "note": "King of the Mountain match; first reign and vacancy not recognized, so this starts the lineage",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Sting",
+      "people": [
+        "sting"
+      ],
+      "start": "2007-10-14",
+      "end": "2007-10-16",
+      "days": 2,
+      "number": 3,
+      "event": "Bound for Glory",
+      "location": "Duluth, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Kurt Angle",
+      "people": [
+        "kurt-angle"
+      ],
+      "start": "2007-10-16",
+      "end": "2008-04-13",
+      "days": 180,
+      "number": 4,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay October 25",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Samoa Joe",
+      "people": [
+        "samoa-joe"
+      ],
+      "start": "2008-04-13",
+      "end": "2008-10-12",
+      "days": 182,
+      "number": 5,
+      "event": "Lockdown",
+      "location": "Lowell, MA",
+      "note": "Six Sides of Steel Title vs. Career match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Sting",
+      "people": [
+        "sting"
+      ],
+      "start": "2008-10-12",
+      "end": "2009-04-19",
+      "days": 189,
+      "number": 6,
+      "event": "Bound for Glory IV",
+      "location": "Hoffman Estates, IL",
+      "note": "No countout match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Mick Foley",
+      "people": [
+        "mick-foley"
+      ],
+      "start": "2009-04-19",
+      "end": "2009-06-21",
+      "days": 63,
+      "number": 7,
+      "event": "Lockdown",
+      "location": "Philadelphia, PA",
+      "note": "Six Sides of Steel match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Kurt Angle",
+      "people": [
+        "kurt-angle"
+      ],
+      "start": "2009-06-21",
+      "end": "2009-09-20",
+      "days": 91,
+      "number": 8,
+      "event": "Slammiversary",
+      "location": "Auburn Hills, MI",
+      "note": "King of the Mountain match with A.J. Styles, Jeff Jarrett and Samoa Joe",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "A.J. Styles",
+      "people": [
+        "aj-styles"
+      ],
+      "start": "2009-09-20",
+      "end": "2010-04-19",
+      "days": 211,
+      "number": 9,
+      "event": "No Surrender",
+      "location": "Orlando, FL",
+      "note": "Five-way match also featuring Hernandez, Matt Morgan and Sting",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Rob Van Dam",
+      "people": [
+        "rob-van-dam"
+      ],
+      "start": "2010-04-19",
+      "end": "2010-08-10",
+      "days": 113,
+      "number": 10,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Jeff Hardy",
+      "people": [
+        "jeff-hardy"
+      ],
+      "start": "2010-10-10",
+      "end": "2011-01-09",
+      "days": 91,
+      "number": 11,
+      "event": "Bound for Glory",
+      "location": "Daytona Beach, FL",
+      "note": "Won vacant title in three-way tournament final over Kurt Angle and Mr. Anderson",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Mr. Anderson",
+      "people": [
+        "mr-kennedy"
+      ],
+      "start": "2011-01-09",
+      "end": "2011-02-13",
+      "days": 35,
+      "number": 12,
+      "event": "Genesis",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Jeff Hardy",
+      "people": [
+        "jeff-hardy"
+      ],
+      "start": "2011-02-13",
+      "end": "2011-02-24",
+      "days": 11,
+      "number": 13,
+      "event": "Against All Odds",
+      "location": "Orlando, FL",
+      "note": "Ladder match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Sting",
+      "people": [
+        "sting"
+      ],
+      "start": "2011-02-24",
+      "end": "2011-06-12",
+      "days": 108,
+      "number": 14,
+      "event": "Impact!",
+      "location": "Fayetteville, NC",
+      "note": "Aired on tape delay March 3; TNA announced rebrand as Impact Wrestling on May 3 tapings",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Mr. Anderson",
+      "people": [
+        "mr-kennedy"
+      ],
+      "start": "2011-06-12",
+      "end": "2011-07-11",
+      "days": 29,
+      "number": 15,
+      "event": "Slammiversary IX",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Sting",
+      "people": [
+        "sting"
+      ],
+      "start": "2011-07-11",
+      "end": "2011-08-07",
+      "days": 27,
+      "number": 16,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay July 14",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Kurt Angle",
+      "people": [
+        "kurt-angle"
+      ],
+      "start": "2011-08-07",
+      "end": "2011-10-18",
+      "days": 72,
+      "number": 17,
+      "event": "Hardcore Justice",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "James Storm",
+      "people": [
+        "james-storm"
+      ],
+      "start": "2011-10-18",
+      "end": "2011-10-26",
+      "days": 8,
+      "number": 18,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay October 20",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Bobby Roode",
+      "people": [
+        "bobby-roode"
+      ],
+      "start": "2011-10-26",
+      "end": "2012-07-08",
+      "days": 256,
+      "number": 19,
+      "event": "Impact!",
+      "location": "Macon, GA",
+      "note": "Aired on tape delay November 3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Austin Aries",
+      "people": [
+        "austin-aries"
+      ],
+      "start": "2012-07-08",
+      "end": "2012-10-14",
+      "days": 98,
+      "number": 20,
+      "event": "Destination X",
+      "location": "Orlando, FL",
+      "note": "Aries vacated the X Division Championship to invoke Option C",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Jeff Hardy",
+      "people": [
+        "jeff-hardy"
+      ],
+      "start": "2012-10-14",
+      "end": "2013-03-10",
+      "days": 147,
+      "number": 21,
+      "event": "Bound for Glory",
+      "location": "Phoenix, AZ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Bully Ray",
+      "people": [
+        "bubba-ray-dudley"
+      ],
+      "start": "2013-03-10",
+      "end": "2013-07-18",
+      "days": 130,
+      "number": 22,
+      "event": "Lockdown",
+      "location": "San Antonio, TX",
+      "note": "Steel cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Chris Sabin",
+      "people": [
+        "chris-sabin"
+      ],
+      "start": "2013-07-18",
+      "end": "2013-08-15",
+      "days": 28,
+      "number": 23,
+      "event": "Impact: Destination X",
+      "location": "Louisville, KY",
+      "note": "Sabin vacated the X Division Championship to invoke Option C",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Bully Ray",
+      "people": [
+        "bubba-ray-dudley"
+      ],
+      "start": "2013-08-15",
+      "end": "2013-10-20",
+      "days": 66,
+      "number": 24,
+      "event": "Impact: Hardcore Justice",
+      "location": "Norfolk, VA",
+      "note": "Steel cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "A.J. Styles",
+      "people": [
+        "aj-styles"
+      ],
+      "start": "2013-10-20",
+      "end": "2013-10-29",
+      "days": 9,
+      "number": 25,
+      "event": "Bound for Glory",
+      "location": "San Diego, CA",
+      "note": "No disqualification match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Magnus",
+      "people": [
+        "nick-aldis"
+      ],
+      "start": "2013-12-03",
+      "end": "2014-04-10",
+      "days": 128,
+      "number": 26,
+      "event": "Impact: Final Resolution",
+      "location": "Orlando, FL",
+      "note": "Won vacant title in Dixieland tournament final over Jeff Hardy; undisputed after beating A.J. Styles January 9, 2014",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "Eric Young",
+      "people": [
+        "eric-young"
+      ],
+      "start": "2014-04-10",
+      "end": "2014-06-19",
+      "days": 70,
+      "number": 27,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Had Magnus been counted out or disqualified, he would have lost the title; interference would have meant firing",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Lashley",
+      "people": [
+        "bobby-lashley"
+      ],
+      "start": "2014-06-19",
+      "end": "2014-09-18",
+      "days": 91,
+      "number": 28,
+      "event": "Impact!",
+      "location": "Bethlehem, PA",
+      "note": "Interference by anyone besides MVP or Kenny King would have meant firing",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Bobby Roode",
+      "people": [
+        "bobby-roode"
+      ],
+      "start": "2014-09-18",
+      "end": "2015-01-07",
+      "days": 111,
+      "number": 29,
+      "event": "Impact!",
+      "location": "Bethlehem, PA",
+      "note": "Kurt Angle special guest referee; aired on tape delay October 29",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Lashley",
+      "people": [
+        "bobby-lashley"
+      ],
+      "start": "2015-01-07",
+      "end": "2015-01-31",
+      "days": 24,
+      "number": 30,
+      "event": "Impact!",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "Kurt Angle",
+      "people": [
+        "kurt-angle"
+      ],
+      "start": "2015-01-31",
+      "end": "2015-06-25",
+      "days": 145,
+      "number": 31,
+      "event": "Impact!",
+      "location": "London, England",
+      "note": "Aired on tape delay March 20",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "Ethan Carter III",
+      "people": [
+        "ec3"
+      ],
+      "start": "2015-06-25",
+      "end": "2015-10-04",
+      "days": 101,
+      "number": 32,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay July 1",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "Matt Hardy",
+      "people": [
+        "matt-hardy"
+      ],
+      "start": "2015-10-04",
+      "end": "2015-10-06",
+      "days": 2,
+      "number": 33,
+      "event": "Bound for Glory",
+      "location": "Concord, NC",
+      "note": "Three-way match also featuring Drew Galloway; Jeff Hardy special guest referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r38",
+      "holder": "Ethan Carter III",
+      "people": [
+        "ec3"
+      ],
+      "start": "2016-01-05",
+      "end": "2016-01-08",
+      "days": 3,
+      "number": 34,
+      "event": "Impact!",
+      "location": "Bethlehem, PA",
+      "note": "Won vacant title in TNA World Title Series final over Matt Hardy",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "Matt Hardy",
+      "people": [
+        "matt-hardy"
+      ],
+      "start": "2016-01-08",
+      "end": "2016-03-15",
+      "days": 67,
+      "number": 35,
+      "event": "Impact!",
+      "location": "Bethlehem, PA",
+      "note": "Last man standing match; would have left TNA if he lost; aired on tape delay January 19",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "Drew Galloway",
+      "people": [
+        "drew-mcintyre"
+      ],
+      "start": "2016-03-15",
+      "end": "2016-06-12",
+      "days": 89,
+      "number": 36,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Galloway's Feast or Fired world title opportunity",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-championship",
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": [
+        "profile-reign-drew-mcintyre-202"
+      ]
+    },
+    {
+      "id": "r41",
+      "holder": "Lashley",
+      "people": [
+        "bobby-lashley"
+      ],
+      "start": "2016-06-12",
+      "end": "2016-10-03",
+      "days": 113,
+      "number": 37,
+      "event": "Slammiversary",
+      "location": "Orlando, FL",
+      "note": "Knockout or tapout only match; later won X Division and King of the Mountain titles, then retired KOTM and vacated X Division",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Eddie Edwards",
+      "people": [
+        "eddie-edwards"
+      ],
+      "start": "2016-10-03",
+      "end": "2017-01-08",
+      "days": 97,
+      "number": 38,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay October 6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "Lashley",
+      "people": [
+        "bobby-lashley"
+      ],
+      "start": "2017-01-08",
+      "end": "2017-07-02",
+      "days": 175,
+      "number": 39,
+      "event": "Impact: Genesis",
+      "location": "Orlando, FL",
+      "note": "30-minute Iron Man match; aired on tape delay January 26; renamed Impact Wrestling World Heavyweight Championship March 2",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "Alberto El Patrón",
+      "people": [
+        "alberto-del-rio"
+      ],
+      "start": "2017-07-02",
+      "end": "2017-08-14",
+      "days": 43,
+      "number": 40,
+      "event": "Slammiversary XV",
+      "location": "Orlando, FL",
+      "note": "Unification match with original GFW Global Championship; renamed Unified GFW World Heavyweight Championship",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "Eli Drake",
+      "people": [
+        "la-knight"
+      ],
+      "start": "2017-08-17",
+      "end": "2018-01-10",
+      "days": 146,
+      "number": 41,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "20-man Gauntlet for the Gold match; renamed GFW Global Championship, then Impact Global Championship August 24 (aired September 18)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "Austin Aries",
+      "people": [
+        "austin-aries"
+      ],
+      "start": "2018-01-10",
+      "end": "2018-04-22",
+      "days": 102,
+      "number": 42,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay February 1; title later became Impact World Championship",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "Pentagón Jr.",
+      "people": [
+        "penta"
+      ],
+      "start": "2018-04-22",
+      "end": "2018-04-24",
+      "days": 2,
+      "number": 43,
+      "event": "Redemption",
+      "location": "Orlando, FL",
+      "note": "Three-way match also featuring Fénix",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-championship",
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": [
+        "profile-reign-penta-520"
+      ]
+    },
+    {
+      "id": "r48",
+      "holder": "Austin Aries",
+      "people": [
+        "austin-aries"
+      ],
+      "start": "2018-04-24",
+      "end": "2018-10-14",
+      "days": 173,
+      "number": 44,
+      "event": "Impact! Under Pressure",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay May 31; unified with Impact Grand Championship",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r49",
+      "holder": "Johnny Impact",
+      "people": [
+        "john-morrison"
+      ],
+      "start": "2018-10-14",
+      "end": "2019-04-28",
+      "days": 196,
+      "number": 45,
+      "event": "Bound for Glory",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r50",
+      "holder": "Brian Cage",
+      "people": [
+        "brian-cage"
+      ],
+      "start": "2019-04-28",
+      "end": "2019-10-25",
+      "days": 180,
+      "number": 46,
+      "event": "Rebellion",
+      "location": "Toronto, Ontario, Canada",
+      "note": "Lance Storm special guest referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r51",
+      "holder": "Sami Callihan",
+      "people": [
+        "sami-callihan"
+      ],
+      "start": "2019-10-25",
+      "end": "2020-01-12",
+      "days": 79,
+      "number": 47,
+      "event": "Impact!",
+      "location": "Windsor, ON",
+      "note": "Steel cage match; aired on tape delay October 29",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "Tessa Blanchard",
+      "people": [
+        "tessa-blanchard"
+      ],
+      "start": "2020-01-12",
+      "end": "2020-06-25",
+      "days": 165,
+      "number": 48,
+      "event": "Hard to Kill",
+      "location": "Dallas, TX",
+      "note": "First woman to hold the championship",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r53",
+      "holder": "Eddie Edwards",
+      "people": [
+        "eddie-edwards"
+      ],
+      "start": "2020-07-18",
+      "end": "2020-08-15",
+      "days": 28,
+      "number": 49,
+      "event": "Slammiversary",
+      "location": "Nashville, TN",
+      "note": "Five-way elimination match with Ace Austin, Trey, Rich Swann and Eric Young",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r54",
+      "holder": "Eric Young",
+      "people": [
+        "eric-young"
+      ],
+      "start": "2020-08-15",
+      "end": "2020-10-24",
+      "days": 70,
+      "number": 50,
+      "event": "Impact!",
+      "location": "Nashville, TN",
+      "note": "Aired on tape delay September 1",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r55",
+      "holder": "Rich Swann",
+      "people": [
+        "rich-swann"
+      ],
+      "start": "2020-10-24",
+      "end": "2021-04-25",
+      "days": 183,
+      "number": 51,
+      "event": "Bound for Glory",
+      "location": "Nashville, TN",
+      "note": "Unified with TNA World Heavyweight Championship on March 13, 2021 by defeating Moose at Sacrifice",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r56",
+      "holder": "Kenny Omega",
+      "people": [
+        "kenny-omega"
+      ],
+      "start": "2021-04-25",
+      "end": "2021-08-13",
+      "days": 110,
+      "number": 52,
+      "event": "Rebellion",
+      "location": "Nashville, TN",
+      "note": "Winner Takes All match also for Omega's AEW World Championship",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "Christian Cage",
+      "people": [
+        "christian"
+      ],
+      "start": "2021-08-13",
+      "end": "2021-10-23",
+      "days": 71,
+      "number": 53,
+      "event": "Rampage",
+      "location": "Pittsburgh, PA",
+      "note": "All Elite Wrestling event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r58",
+      "holder": "Josh Alexander",
+      "people": [
+        "josh-alexander"
+      ],
+      "start": "2021-10-23",
+      "end": "2021-10-23",
+      "days": 0,
+      "number": 54,
+      "event": "Bound for Glory",
+      "location": "Sunrise Manor, NV",
+      "note": "Vacated X Division Championship to invoke Option C",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r59",
+      "holder": "Moose",
+      "people": [
+        "moose"
+      ],
+      "start": "2021-10-23",
+      "end": "2022-04-23",
+      "days": 182,
+      "number": 55,
+      "event": "Bound for Glory",
+      "location": "Sunrise Manor, NV",
+      "note": "Moose's Call Your Shot Gauntlet title opportunity",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r60",
+      "holder": "Josh Alexander",
+      "people": [
+        "josh-alexander"
+      ],
+      "start": "2022-04-23",
+      "end": "2023-03-24",
+      "days": 335,
+      "number": 56,
+      "event": "Rebellion",
+      "location": "Poughkeepsie, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r61",
+      "holder": "Steve Maclin",
+      "people": [
+        "steve-cutler"
+      ],
+      "start": "2023-04-16",
+      "end": "2023-06-09",
+      "days": 54,
+      "number": 57,
+      "event": "Rebellion",
+      "location": "Toronto, Ontario, Canada",
+      "note": "Defeated Kushida to win the vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r62",
+      "holder": "Alex Shelley",
+      "people": [
+        "alex-shelley"
+      ],
+      "start": "2023-06-09",
+      "end": "2024-01-13",
+      "days": 218,
+      "number": 58,
+      "event": "Against All Odds",
+      "location": "Columbus, OH",
+      "note": "The company reverted to Total Nonstop Action Wrestling",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r63",
+      "holder": "Moose",
+      "people": [
+        "moose"
+      ],
+      "start": "2024-01-13",
+      "end": "2024-07-20",
+      "days": 189,
+      "number": 59,
+      "event": "Hard To Kill",
+      "location": "Paradise, NV",
+      "note": "Moose's Feast or Fired world title opportunity",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r64",
+      "holder": "Nic Nemeth",
+      "people": [
+        "dolph-ziggler"
+      ],
+      "start": "2024-07-20",
+      "end": "2025-01-19",
+      "days": 183,
+      "number": 60,
+      "event": "Slammiversary",
+      "location": "Montreal, Quebec, Canada",
+      "note": "Six-way elimination match also featuring Josh Alexander, Steve Maclin, Joe Hendry and Frankie Kazarian",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Joe Hendry",
@@ -14,9 +1274,14 @@
       ],
       "start": "2025-01-19",
       "end": "2025-05-25",
+      "days": 126,
+      "number": 61,
+      "event": "Genesis",
+      "location": "Garland, TX",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-championship"
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-championship",
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
       ],
       "legacyIds": [
         "profile-reign-joe-hendry-355"
@@ -30,9 +1295,15 @@
       ],
       "start": "2025-05-25",
       "end": "2025-10-12",
+      "days": 140,
+      "number": 62,
+      "event": "NXT Battleground",
+      "location": "Tampa, FL",
+      "note": "WWE NXT event",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-championship"
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-championship",
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
       ],
       "legacyIds": [
         "profile-reign-trick-williams-838"
@@ -46,13 +1317,36 @@
       ],
       "start": "2025-10-12",
       "end": "2025-11-13",
+      "days": 32,
+      "number": 63,
+      "event": "Bound for Glory",
+      "location": "Lowell, MA",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-championship"
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-championship",
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
       ],
       "legacyIds": [
         "profile-reign-cruz-montana-137"
       ]
+    },
+    {
+      "id": "r65",
+      "holder": "Frankie Kazarian",
+      "people": [
+        "frankie-kazarian"
+      ],
+      "start": "2025-11-13",
+      "end": "2026-01-15",
+      "days": 63,
+      "number": 64,
+      "event": "Impact!",
+      "location": "Winter Park, FL",
+      "note": "Kazarian's Call Your Shot Gauntlet title opportunity",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r4",
@@ -62,13 +1356,35 @@
       ],
       "start": "2026-01-15",
       "end": "2026-06-28",
+      "days": 164,
+      "number": 65,
+      "event": "TNA Impact! premiere on AMC",
+      "location": "Garland, TX",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-championship"
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-championship",
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
       ],
       "legacyIds": [
         "profile-reign-cruz-montana-136"
       ]
+    },
+    {
+      "id": "r66",
+      "holder": "Nic Nemeth",
+      "people": [
+        "dolph-ziggler"
+      ],
+      "start": "2026-06-28",
+      "days": 66,
+      "number": 66,
+      "event": "Slammiversary",
+      "location": "Boston, MA",
+      "note": "Nemeth's Call Your Shot title opportunity",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

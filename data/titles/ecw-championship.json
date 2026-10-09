@@ -1,11 +1,866 @@
 {
   "id": "ecw-championship",
   "name": "ECW Championship",
+  "promotion": "ecw",
+  "division": "men",
+  "format": "singles",
+  "established": "1992-04-25",
+  "retired": "2010-02-16",
   "names": [
-    "ECW Championship"
+    "ECW Heavyweight Championship",
+    "NWA-ECW Heavyweight Championship",
+    "ECW World Heavyweight Championship",
+    "ECW World Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "ECW Heavyweight Championship",
+      "from": "1992",
+      "to": "1993"
+    },
+    {
+      "name": "NWA-ECW Heavyweight Championship",
+      "from": "1993",
+      "to": "1994"
+    },
+    {
+      "name": "ECW World Heavyweight Championship",
+      "from": "1994",
+      "to": "2006-07"
+    },
+    {
+      "name": "ECW World Championship",
+      "from": "2006-07",
+      "to": "2007-07"
+    },
+    {
+      "name": "ECW Championship",
+      "from": "2007-07"
+    }
+  ],
+  "history": [
+    {
+      "date": "1994-08-27",
+      "kind": "split",
+      "text": "Shane Douglas won the NWA title, relinquished it, and proclaimed himself ECW World Heavyweight Champion, with ECW leaving the NWA.",
+      "related": [
+        "NWA World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ECW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1994-08-27",
+      "kind": "recognition",
+      "text": "WWE considers Shane Douglas, not Jimmy Snuka, the inaugural world heavyweight champion, dating from this reign.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/ECW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1999-03-21",
+      "kind": "unified-into",
+      "text": "Taz defeated Sabu at ECW Living Dangerously, effectively unifying the FTW Heavyweight Championship with the ECW title.",
+      "related": [
+        "FTW Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ECW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2000-04-13",
+      "kind": "interim",
+      "text": "Taz, on a one-night WWF loan, beat Mike Awesome to reclaim the title for ECW after Awesome signed with WCW.",
+      "related": [
+        "WCW",
+        "WWF"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ECW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2001-04-11",
+      "kind": "deactivated",
+      "text": "The title was deactivated when ECW ceased all operations.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/ECW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2003-01-28",
+      "kind": "promotion",
+      "text": "WWE purchased ECW's assets, having renamed the WWF to WWE in 2002.",
+      "related": [
+        "WWE"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ECW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2006-06-13",
+      "kind": "reactivated",
+      "text": "The title was revived as the ECW brand's world title and awarded to Rob Van Dam, who had won the WWE Championship at One Night Stand.",
+      "related": [
+        "WWE Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ECW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2007-06-11",
+      "kind": "interim",
+      "text": "After Bobby Lashley vacated the title in the draft, a tournament was held to crown a new champion, won by Johnny Nitro at Vengeance: Night of Champions.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/ECW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2008-01-22",
+      "kind": "brand",
+      "text": "The title moved to the SmackDown brand when Chavo Guerrero won it from CM Punk.",
+      "related": [
+        "SmackDown"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ECW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2008-06-23",
+      "kind": "brand",
+      "text": "The title was drafted to Raw as its sole world title, after Kane was drafted there.",
+      "related": [
+        "Raw"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ECW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2008-06-29",
+      "kind": "brand",
+      "text": "The title returned to ECW when Mark Henry beat Kane and Big Show in a triple threat match at Night of Champions.",
+      "related": [
+        "ECW"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ECW_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2010-02-16",
+      "kind": "retired",
+      "text": "The title was retired after the final ECW episode, when Ezekiel Jackson beat Christian to become the final champion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/ECW_World_Heavyweight_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions",
+    "https://en.wikipedia.org/wiki/ECW_World_Heavyweight_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r2",
+      "holder": "Jimmy Snuka",
+      "people": [
+        "jimmy-snuka"
+      ],
+      "start": "1992-04-25",
+      "end": "1992-04-26",
+      "days": 1,
+      "number": 1,
+      "event": "Live event",
+      "location": "Mount Tabor, PA",
+      "note": "Won tournament final over Salvatore Bellomo; inaugural champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Johnny Hotbody",
+      "people": [
+        "johnny-hotbody"
+      ],
+      "start": "1992-04-26",
+      "end": "1992-07-14",
+      "days": 79,
+      "number": 2,
+      "event": "Live event",
+      "location": "Philadelphia, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Jimmy Snuka",
+      "people": [
+        "jimmy-snuka"
+      ],
+      "start": "1992-07-14",
+      "end": "1992-09-30",
+      "days": 78,
+      "number": 3,
+      "event": "Live event",
+      "location": "Philadelphia, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Don Muraco",
+      "people": [
+        "don-muraco"
+      ],
+      "start": "1992-09-30",
+      "end": "1992-11-16",
+      "days": 47,
+      "number": 4,
+      "event": "Live event",
+      "location": "Philadelphia, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "The Sandman",
+      "people": [
+        "the-sandman"
+      ],
+      "start": "1992-11-16",
+      "end": "1993-04-03",
+      "days": 138,
+      "number": 5,
+      "event": "Live event",
+      "location": "Philadelphia, PA",
+      "note": "Not in WWE.com history; implied by his five-time champion description",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Don Muraco",
+      "people": [
+        "don-muraco"
+      ],
+      "start": "1993-04-03",
+      "end": "1993-08-08",
+      "days": 127,
+      "number": 6,
+      "event": "Hardcore TV",
+      "location": "Radnor, PA",
+      "note": "Aired June 1 1993 via tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Tito Santana",
+      "people": [
+        "tito-santana"
+      ],
+      "start": "1993-08-08",
+      "end": "1993-09-09",
+      "days": 32,
+      "number": 7,
+      "event": "Hardcore TV",
+      "location": "Philadelphia, PA",
+      "note": "Aired August 24 1993 via tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Shane Douglas",
+      "people": [
+        "shane-douglas"
+      ],
+      "start": "1993-09-09",
+      "end": "1993-10-02",
+      "days": 23,
+      "number": 8,
+      "event": "Hardcore TV",
+      "location": "Roanoke, VA",
+      "note": "Santana forfeited belt and left ECW; aired September 14 1993 via tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Sabu",
+      "people": [
+        "sabu"
+      ],
+      "start": "1993-10-02",
+      "end": "1993-12-26",
+      "days": 85,
+      "number": 9,
+      "event": "NWA Bloodfest",
+      "location": "Philadelphia, PA",
+      "note": "Change aired on November 2 1993 Hardcore TV via tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Terry Funk",
+      "people": [
+        "terry-funk"
+      ],
+      "start": "1993-12-26",
+      "end": "1994-03-26",
+      "days": 90,
+      "number": 10,
+      "event": "Holiday Hell",
+      "location": "Philadelphia, PA",
+      "note": "Change aired on December 28 1993 Hardcore TV via tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Shane Douglas",
+      "people": [
+        "shane-douglas"
+      ],
+      "start": "1994-03-26",
+      "end": "1995-04-15",
+      "days": 385,
+      "number": 11,
+      "event": "Ultimate Jeopardy",
+      "location": "Devon, PA",
+      "note": "Renamed ECW World Heavyweight title August 27 1994; WWE recognizes from that date (230 days recognized)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "The Sandman",
+      "people": [
+        "the-sandman"
+      ],
+      "start": "1995-04-15",
+      "end": "1995-10-28",
+      "days": 196,
+      "number": 12,
+      "event": "Hostile City Showdown",
+      "location": "Philadelphia, PA",
+      "note": "Aired April 18 1995 via tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Mikey Whipwreck",
+      "people": [
+        "mikey-whipwreck"
+      ],
+      "start": "1995-10-28",
+      "end": "1995-12-09",
+      "days": 42,
+      "number": 13,
+      "event": "Hardcore TV",
+      "location": "Philadelphia, PA",
+      "note": "Ladder match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "The Sandman",
+      "people": [
+        "the-sandman"
+      ],
+      "start": "1995-12-09",
+      "end": "1996-01-27",
+      "days": 49,
+      "number": 14,
+      "event": "December to Dismember",
+      "location": "Philadelphia, PA",
+      "note": "Three-way dance also involving Steve Austin",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "1996-01-27",
+      "end": "1996-10-05",
+      "days": 252,
+      "number": 15,
+      "event": "Hardcore TV",
+      "location": "Philadelphia, PA",
+      "note": "Aired January 30 1996 via tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "The Sandman",
+      "people": [
+        "the-sandman"
+      ],
+      "start": "1996-10-05",
+      "end": "1996-12-07",
+      "days": 63,
+      "number": 16,
+      "event": "Ultimate Jeopardy",
+      "location": "Philadelphia, PA",
+      "note": "Won pinfall after Raven failed to show for the event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "1996-12-07",
+      "end": "1997-04-13",
+      "days": 127,
+      "number": 17,
+      "event": "Holiday Hell",
+      "location": "Philadelphia, PA",
+      "note": "Barbed wire match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Terry Funk",
+      "people": [
+        "terry-funk"
+      ],
+      "start": "1997-04-13",
+      "end": "1997-08-09",
+      "days": 118,
+      "number": 18,
+      "event": "Barely Legal",
+      "location": "Philadelphia, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Sabu",
+      "people": [
+        "sabu"
+      ],
+      "start": "1997-08-09",
+      "end": "1997-08-17",
+      "days": 8,
+      "number": 19,
+      "event": "Born to be Wired",
+      "location": "Philadelphia, PA",
+      "note": "Barbed wire match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Shane Douglas",
+      "people": [
+        "shane-douglas"
+      ],
+      "start": "1997-08-17",
+      "end": "1997-10-16",
+      "days": 60,
+      "number": 20,
+      "event": "Hardcore Heaven",
+      "location": "Fort Lauderdale, FL",
+      "note": "Three-way dance also involving Terry Funk",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Bam Bam Bigelow",
+      "people": [
+        "bam-bam-bigelow"
+      ],
+      "start": "1997-10-16",
+      "end": "1997-11-30",
+      "days": 45,
+      "number": 21,
+      "event": "Hardcore TV",
+      "location": "New York, NY",
+      "note": "Aired October 20 1997 via tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Shane Douglas",
+      "people": [
+        "shane-douglas"
+      ],
+      "start": "1997-11-30",
+      "end": "1999-01-10",
+      "days": 406,
+      "number": 22,
+      "event": "November to Remember",
+      "location": "Monaca, PA",
+      "note": "Longest reign in title history",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Taz",
+      "people": [
+        "taz"
+      ],
+      "start": "1999-01-10",
+      "end": "1999-09-19",
+      "days": 252,
+      "number": 23,
+      "event": "Guilty as Charged",
+      "location": "Kissimmee, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Mike Awesome",
+      "people": [
+        "mike-awesome"
+      ],
+      "start": "1999-09-19",
+      "end": "1999-12-17",
+      "days": 89,
+      "number": 24,
+      "event": "Anarchy Rulz",
+      "location": "Villa Park, IL",
+      "note": "Three-way dance also involving Masato Tanaka",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Masato Tanaka",
+      "people": [
+        "masato-tanaka"
+      ],
+      "start": "1999-12-17",
+      "end": "1999-12-23",
+      "days": 6,
+      "number": 25,
+      "event": "ECW on TNN",
+      "location": "Nashville, TN",
+      "note": "Aired December 24 1999 via tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Mike Awesome",
+      "people": [
+        "mike-awesome"
+      ],
+      "start": "1999-12-23",
+      "end": "2000-04-13",
+      "days": 112,
+      "number": 26,
+      "event": "ECW on TNN",
+      "location": "White Plains, NY",
+      "note": "Aired December 31 1999 via tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Taz",
+      "people": [
+        "taz"
+      ],
+      "start": "2000-04-13",
+      "end": "2000-04-22",
+      "days": 9,
+      "number": 27,
+      "event": "ECW on TNN",
+      "location": "Indianapolis, IN",
+      "note": "Returned to ECW after Awesome signed with WCW while still champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "Tommy Dreamer",
+      "people": [
+        "tommy-dreamer"
+      ],
+      "start": "2000-04-22",
+      "end": "2000-04-22",
+      "days": 0,
+      "number": 28,
+      "event": "CyberSlam",
+      "location": "Philadelphia, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Justin Credible",
+      "people": [
+        "aldo-montoya"
+      ],
+      "start": "2000-04-22",
+      "end": "2000-10-01",
+      "days": 162,
+      "number": 29,
+      "event": "CyberSlam",
+      "location": "Philadelphia, PA",
+      "note": "Challenged Dreamer after the match and won",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "Jerry Lynn",
+      "people": [
+        "jerry-lynn"
+      ],
+      "start": "2000-10-01",
+      "end": "2000-11-05",
+      "days": 35,
+      "number": 30,
+      "event": "Anarchy Rulz",
+      "location": "Saint Paul, MN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Steve Corino",
+      "people": [
+        "steve-corino"
+      ],
+      "start": "2000-11-05",
+      "end": "2001-01-07",
+      "days": 63,
+      "number": 31,
+      "event": "November to Remember",
+      "location": "Villa Park, IL",
+      "note": "Double Jeopardy match also involving Justin Credible and The Sandman",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "The Sandman",
+      "people": [
+        "the-sandman"
+      ],
+      "start": "2001-01-07",
+      "end": "2001-01-07",
+      "days": 0,
+      "number": 32,
+      "event": "Guilty as Charged",
+      "location": "New York, NY",
+      "note": "Tables, Ladders, Chairs, and Canes match also involving Justin Credible",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Rhino",
+      "people": [
+        "rhyno"
+      ],
+      "start": "2001-01-07",
+      "end": "2001-04-11",
+      "days": 94,
+      "number": 33,
+      "event": "Guilty as Charged",
+      "location": "New York, NY",
+      "note": "Challenged Sandman after the match and won",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "Rob Van Dam",
+      "people": [
+        "rob-van-dam"
+      ],
+      "start": "2006-06-13",
+      "end": "2006-07-04",
+      "days": 21,
+      "number": 34,
+      "event": "ECW",
+      "location": "Trenton, NJ",
+      "note": "Revived for ECW brand; awarded by Paul Heyman after WWE Championship win",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "Big Show",
+      "people": [
+        "big-show"
+      ],
+      "start": "2006-07-04",
+      "end": "2006-12-03",
+      "days": 152,
+      "number": 35,
+      "event": "ECW",
+      "location": "Philadelphia, PA",
+      "note": "Extreme Rules match; referred to as ECW World Championship",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "Bobby Lashley",
+      "people": [
+        "bobby-lashley"
+      ],
+      "start": "2006-12-03",
+      "end": "2007-04-29",
+      "days": 147,
+      "number": 36,
+      "event": "December to Dismember",
+      "location": "Augusta, GA",
+      "note": "Extreme Elimination Chamber match also involving CM Punk, Bob Holly, Rob Van Dam, and Test",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r38",
+      "holder": "Mr. McMahon",
+      "people": [
+        "vince-mcmahon"
+      ],
+      "start": "2007-04-29",
+      "end": "2007-06-03",
+      "days": 35,
+      "number": 37,
+      "event": "Backlash",
+      "location": "Atlanta, GA",
+      "note": "Handicap match with McMahon's teammates Shane McMahon and Umaga",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "Bobby Lashley",
+      "people": [
+        "bobby-lashley"
+      ],
+      "start": "2007-06-03",
+      "end": "2007-06-11",
+      "days": 8,
+      "number": 38,
+      "event": "One Night Stand",
+      "location": "Jacksonville, FL",
+      "note": "Street fight",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "Johnny Nitro/John Morrison",
+      "people": [
+        "john-morrison"
+      ],
+      "start": "2007-06-24",
+      "end": "2007-09-01",
+      "days": 69,
+      "number": 39,
+      "event": "Vengeance: Night of Champions",
+      "location": "Houston, TX",
+      "note": "Substituted for Chris Benoit; beat CM Punk for vacant title; name changed to John Morrison mid-reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "CM Punk",
@@ -14,13 +869,179 @@
       ],
       "start": "2007-09-04",
       "end": "2008-01-22",
+      "days": 143,
+      "number": 40,
+      "event": "ECW",
+      "location": "Cincinnati, OH",
+      "note": "Last chance match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/ecw/ecw-world-heavyweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/ecw/ecw-world-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-cm-punk-107"
       ]
+    },
+    {
+      "id": "r41",
+      "holder": "Chavo Guerrero",
+      "people": [
+        "chavo-guerrero"
+      ],
+      "start": "2008-01-22",
+      "end": "2008-03-30",
+      "days": 68,
+      "number": 41,
+      "event": "ECW",
+      "location": "Charlottesville, VA",
+      "note": "No disqualification match; title shared between SmackDown and ECW",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Kane",
+      "people": [
+        "kane"
+      ],
+      "start": "2008-03-30",
+      "end": "2008-06-29",
+      "days": 91,
+      "number": 42,
+      "event": "WrestleMania XXIV",
+      "location": "Orlando, FL",
+      "note": "Title exclusive to SmackDown; only wrestler to hold one title across all three brands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "Mark Henry",
+      "people": [
+        "mark-henry"
+      ],
+      "start": "2008-06-29",
+      "end": "2008-09-07",
+      "days": 70,
+      "number": 43,
+      "event": "Night of Champions",
+      "location": "Dallas, TX",
+      "note": "Triple threat match also involving Big Show",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "Matt Hardy",
+      "people": [
+        "matt-hardy"
+      ],
+      "start": "2008-09-07",
+      "end": "2009-01-12",
+      "days": 127,
+      "number": 44,
+      "event": "Unforgiven",
+      "location": "Cleveland, OH",
+      "note": "Scramble match also involving Chavo Guerrero, Dave Finlay, and The Miz",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "Jack Swagger",
+      "people": [
+        "jack-swagger"
+      ],
+      "start": "2009-01-12",
+      "end": "2009-04-26",
+      "days": 104,
+      "number": 45,
+      "event": "ECW",
+      "location": "Sioux City, IA",
+      "note": "Aired January 13 2009 via tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "Christian",
+      "people": [
+        "christian"
+      ],
+      "start": "2009-04-26",
+      "end": "2009-06-07",
+      "days": 42,
+      "number": 46,
+      "event": "Backlash",
+      "location": "Providence, RI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "Tommy Dreamer",
+      "people": [
+        "tommy-dreamer"
+      ],
+      "start": "2009-06-07",
+      "end": "2009-07-26",
+      "days": 49,
+      "number": 47,
+      "event": "Extreme Rules",
+      "location": "New Orleans, LA",
+      "note": "Triple threat hardcore match; only wrestler to win title in both original ECW and WWE revival",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "Christian",
+      "people": [
+        "christian"
+      ],
+      "start": "2009-07-26",
+      "end": "2010-02-16",
+      "days": 205,
+      "number": 48,
+      "event": "Night of Champions",
+      "location": "Philadelphia, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r49",
+      "holder": "Ezekiel Jackson",
+      "people": [
+        "ezekiel-jackson"
+      ],
+      "start": "2010-02-16",
+      "end": "2010-02-16",
+      "days": 0,
+      "number": 49,
+      "event": "ECW",
+      "location": "Kansas City, MO",
+      "note": "Extreme Rules match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_ECW_World_Heavyweight_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

@@ -1,11 +1,160 @@
 {
   "id": "ftw-championship",
   "name": "FTW Championship",
+  "promotion": "aew",
+  "division": "men",
+  "format": "singles",
+  "established": "1998-05-14",
+  "retired": "2024-09-25",
   "names": [
-    "FTW Championship"
+    "FTW Heavyweight Championship",
+    "\"For The World\" (Chris Jericho's rechristening of the FTW abbreviation)"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "FTW Heavyweight Championship",
+      "from": "1998-05-14",
+      "to": "2020-07-02"
+    },
+    {
+      "name": "FTW Championship",
+      "from": "2020-07-02",
+      "to": "2024-04-21"
+    },
+    {
+      "name": "\"For The World\" (Chris Jericho's rechristening of the FTW abbreviation)",
+      "from": "2024-04-21"
+    }
+  ],
+  "history": [
+    {
+      "date": "1998-05-14",
+      "kind": "recognition",
+      "text": "Billed as \"unrecognized\" by ECW, presented as an outlaw title not sanctioned in-storyline.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FTW_Championship"
+      ]
+    },
+    {
+      "date": "1999-03-21",
+      "kind": "unified-into",
+      "text": "Taz beat Sabu in a title vs. title match and unified the FTW title into the ECW World Heavyweight Championship, retiring the FTW title.",
+      "related": [
+        "ECW World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/FTW_Championship"
+      ]
+    },
+    {
+      "date": "2001",
+      "kind": "promotion",
+      "text": "The title was not included in the intellectual property sold to WWE in the ECW sale, so Taz kept its rights.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FTW_Championship"
+      ]
+    },
+    {
+      "date": "2020-07-02",
+      "kind": "reactivated",
+      "text": "Taz revived the title as the FTW Championship in AEW and awarded it to Brian Cage when Jon Moxley's match was postponed.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FTW_Championship"
+      ]
+    },
+    {
+      "date": "2020-07-02",
+      "kind": "recognition",
+      "text": "The FTW Championship was not an officially sanctioned AEW championship, mirroring its status in ECW.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FTW_Championship"
+      ]
+    },
+    {
+      "date": "2024-09-25",
+      "kind": "retired",
+      "text": "After a successful defense against Roderick Strong, Hook retired the title and returned it to Taz.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FTW_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/FTW_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r2",
+      "holder": "Taz",
+      "people": [
+        "taz"
+      ],
+      "start": "1998-05-14",
+      "end": "1998-12-19",
+      "days": 219,
+      "number": 1,
+      "event": "It Ain't Seinfeld",
+      "location": "Queens, NY",
+      "note": "Taz introduced the FTW Heavyweight Championship during a storyline.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FTW_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Sabu",
+      "people": [
+        "sabu"
+      ],
+      "start": "1998-12-19",
+      "end": "1999-03-21",
+      "days": 92,
+      "number": 2,
+      "event": "Hardcore TV",
+      "location": "Philadelphia, PA",
+      "note": "Triple threat match also involving Justin Credible. Aired on tape delay December 23, 1998.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FTW_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Taz",
+      "people": [
+        "taz"
+      ],
+      "start": "1999-03-21",
+      "end": "1999-03-21",
+      "days": 0,
+      "number": 3,
+      "event": "Living Dangerously",
+      "location": "Asbury Park, NJ",
+      "note": "Extreme Death match also for Taz's ECW World Heavyweight Championship.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FTW_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Brian Cage",
+      "people": [
+        "brian-cage"
+      ],
+      "start": "2020-07-02",
+      "end": "2021-07-14",
+      "days": 377,
+      "number": 4,
+      "event": "Dynamite: Fyter Fest Night 2",
+      "location": "Jacksonville, FL",
+      "note": "Taz reintroduced the title as the FTW Championship and awarded it to Cage. Aired on tape delay July 8, 2020.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FTW_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Ricky Starks",
@@ -14,13 +163,106 @@
       ],
       "start": "2021-07-14",
       "end": "2022-07-27",
+      "days": 378,
+      "number": 5,
+      "event": "Dynamite: Fyter Fest Night 1",
+      "location": "Cedar Park, TX",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/ecw/ftw-championship"
+        "https://www.thesmackdownhotel.com/title-history/ecw/ftw-championship",
+        "https://en.wikipedia.org/wiki/FTW_Championship"
       ],
       "legacyIds": [
         "profile-reign-ricky-saints-687"
       ]
+    },
+    {
+      "id": "r6",
+      "holder": "Hook",
+      "people": [
+        "hook"
+      ],
+      "start": "2022-07-27",
+      "end": "2023-07-19",
+      "days": 357,
+      "number": 6,
+      "event": "Dynamite: Fight for the Fallen",
+      "location": "Worcester, MA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FTW_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Jack Perry",
+      "people": [
+        "jack-perry"
+      ],
+      "start": "2023-07-19",
+      "end": "2023-08-27",
+      "days": 39,
+      "number": 7,
+      "event": "Dynamite: Blood & Guts",
+      "location": "Boston, MA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FTW_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Hook",
+      "people": [
+        "hook"
+      ],
+      "start": "2023-08-27",
+      "end": "2024-04-21",
+      "days": 238,
+      "number": 8,
+      "event": "All In: Zero Hour",
+      "location": "London, England",
+      "note": "FTW Rules match.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FTW_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "2024-04-21",
+      "end": "2024-08-25",
+      "days": 126,
+      "number": 9,
+      "event": "Dynasty",
+      "location": "St. Louis, MO",
+      "note": "FTW Rules match.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FTW_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Hook",
+      "people": [
+        "hook"
+      ],
+      "start": "2024-08-25",
+      "end": "2024-09-25",
+      "days": 31,
+      "number": 10,
+      "event": "All In",
+      "location": "London, England",
+      "note": "FTW Rules Last Chance match. A loss would have barred future challenges while Jericho was champion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FTW_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

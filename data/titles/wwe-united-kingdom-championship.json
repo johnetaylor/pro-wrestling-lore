@@ -1,11 +1,111 @@
 {
   "id": "wwe-united-kingdom-championship",
-  "name": "WWE United Kingdom Championship",
+  "name": "NXT United Kingdom Championship",
+  "promotion": "wwe",
+  "division": "men",
+  "format": "singles",
+  "established": "2016-12-15",
+  "retired": "2022-09-04",
   "names": [
-    "WWE United Kingdom Championship"
+    "WWE United Kingdom Championship",
+    "WWE/NXT United Kingdom Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "WWE United Kingdom Championship",
+      "from": "2016-12-15",
+      "to": "2020-01-17"
+    },
+    {
+      "name": "NXT United Kingdom Championship",
+      "from": "2020-01-17"
+    }
+  ],
+  "history": [
+    {
+      "date": "2018-06",
+      "kind": "brand",
+      "text": "NXT UK was formally established as the brand for WWE's UK division, and the title became its top championship.",
+      "related": [
+        "NXT UK"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_United_Kingdom_Championship"
+      ]
+    },
+    {
+      "date": "2022-08",
+      "kind": "deactivated",
+      "text": "WWE announced the NXT UK brand would go on hiatus and later relaunch as NXT Europe.",
+      "related": [
+        "NXT UK"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_United_Kingdom_Championship"
+      ]
+    },
+    {
+      "date": "2022-09-04",
+      "kind": "unified-into",
+      "text": "Bron Breakker defeated Tyler Bate at Worlds Collide, unifying the NXT United Kingdom Championship into the NXT Championship.",
+      "related": [
+        "NXT Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_United_Kingdom_Championship"
+      ]
+    },
+    {
+      "date": "2022-09-04",
+      "kind": "retired",
+      "text": "The NXT United Kingdom Championship was retired at Worlds Collide, with Bate recognized as the final champion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_United_Kingdom_Championship"
+      ]
+    },
+    {
+      "date": "2022-09-01",
+      "kind": "recognition",
+      "text": "WWE recognizes Bate's second reign as beginning on 1 September 2022, not the 7 July 2022 date it was won.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_United_Kingdom_Championship"
+      ]
+    },
+    {
+      "date": "2022-08-04",
+      "kind": "recognition",
+      "text": "WWE recognizes Ilja Dragunov's reign as ending on 4 August 2022, not the 7 July 2022 date he relinquished the title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_United_Kingdom_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/NXT_United_Kingdom_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r3",
+      "holder": "Tyler Bate",
+      "people": [
+        "tyler-bate"
+      ],
+      "start": "2017-01-15",
+      "end": "2017-05-20",
+      "days": 125,
+      "number": 1,
+      "event": "United Kingdom Championship Tournament",
+      "location": "Blackpool, England",
+      "note": "Won inaugural tournament final over Pete Dunne; later defended on NXT and indie shows",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-nxt-united-kingdom-championship",
+        "https://en.wikipedia.org/wiki/NXT_United_Kingdom_Championship"
+      ],
+      "legacyIds": [
+        "profile-reign-bravo-americano-61"
+      ]
+    },
     {
       "id": "r1",
       "holder": "Pete Dunne",
@@ -14,9 +114,15 @@
       ],
       "start": "2017-05-20",
       "end": "2019-04-05",
+      "days": 685,
+      "number": 2,
+      "event": "TakeOver: Chicago",
+      "location": "Rosemont, Illinois, U.S.",
+      "note": "Title became NXT UK's top title in 2018; still defended on NXT and indie shows",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-nxt-united-kingdom-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-nxt-united-kingdom-championship",
+        "https://en.wikipedia.org/wiki/NXT_United_Kingdom_Championship"
       ],
       "legacyIds": [
         "profile-reign-rayo-americano-633"
@@ -24,18 +130,64 @@
     },
     {
       "id": "r2",
-      "holder": "WALTER",
+      "holder": "Walter",
       "people": [
         "gunther"
       ],
       "start": "2019-04-05",
       "end": "2021-08-22",
+      "days": 870,
+      "number": 3,
+      "event": "TakeOver: New York",
+      "location": "Brooklyn, New York, U.S.",
+      "note": "Renamed NXT United Kingdom Championship in January 2020",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-nxt-united-kingdom-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-nxt-united-kingdom-championship",
+        "https://en.wikipedia.org/wiki/NXT_United_Kingdom_Championship"
       ],
       "legacyIds": [
         "profile-reign-gunther-305"
+      ]
+    },
+    {
+      "id": "r4",
+      "holder": "Ilja Dragunov",
+      "people": [
+        "ilja-dragunov"
+      ],
+      "start": "2021-08-22",
+      "end": "2022-07-07",
+      "days": 319,
+      "number": 4,
+      "event": "TakeOver 36",
+      "location": "Orlando, Florida, U.S.",
+      "note": "WWE counts reign as ending 4 August 2022 due to tape delay (346 days recognized)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_United_Kingdom_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Tyler Bate",
+      "people": [
+        "tyler-bate"
+      ],
+      "start": "2022-09-01",
+      "end": "2022-09-04",
+      "days": 59,
+      "number": 5,
+      "event": "NXT UK",
+      "location": "London, England",
+      "note": "Won vacant title in tournament final over Trent Seven; WWE counts 3 days from 1 September 2022",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-nxt-united-kingdom-championship",
+        "https://en.wikipedia.org/wiki/NXT_United_Kingdom_Championship"
+      ],
+      "legacyIds": [
+        "profile-reign-bravo-americano-55"
       ]
     }
   ]

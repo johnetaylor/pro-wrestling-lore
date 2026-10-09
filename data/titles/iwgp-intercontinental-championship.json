@@ -1,11 +1,147 @@
 {
   "id": "iwgp-intercontinental-championship",
   "name": "IWGP Intercontinental Championship",
+  "promotion": "njpw",
+  "division": "men",
+  "format": "singles",
+  "established": "2011-01-05",
+  "retired": "2026-01-06",
   "names": [
-    "IWGP Intercontinental Championship"
+    "IWGP World Heavyweight Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "IWGP Intercontinental Championship",
+      "from": "2011-01-05",
+      "to": "2021-03-04"
+    },
+    {
+      "name": "IWGP World Heavyweight Championship",
+      "from": "2021-03-04"
+    }
+  ],
+  "history": [
+    {
+      "date": "2021-03-04",
+      "kind": "unified-into",
+      "text": "Merged with the Heavyweight title into the IWGP World Heavyweight Championship, then physically retired.",
+      "related": [
+        "IWGP Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2021-03-04",
+      "kind": "deactivated",
+      "text": "Remained functionally inactive from 2021 until January 2026.",
+      "related": [
+        "IWGP World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2026-01-06",
+      "kind": "split",
+      "text": "The World Heavyweight title was divided back into separate Heavyweight and Intercontinental titles.",
+      "related": [
+        "IWGP Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2026-01-06",
+      "kind": "reactivated",
+      "text": "The Heavyweight title was revived, with World Heavyweight reigns merged back into its history.",
+      "related": [
+        "IWGP Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2026-01-06",
+      "kind": "retired",
+      "text": "The Intercontinental Championship was retired at a post-Wrestle Kingdom 20 press conference.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2026-01-06",
+      "kind": "recognition",
+      "text": "Former World Heavyweight champions were credited as Intercontinental champions, with their reigns added to this title's history.",
+      "related": [
+        "IWGP Heavyweight Championship",
+        "IWGP World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r7",
+      "holder": "MVP",
+      "people": [
+        "montel-vontavious-porter"
+      ],
+      "start": "2011-05-15",
+      "end": "2011-10-10",
+      "days": 148,
+      "number": 1,
+      "event": "Invasion Tour 2011: Attack on East Coast",
+      "location": "Philadelphia, Pennsylvania, U.S.",
+      "note": "Won eight-man tournament final; first champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Masato Tanaka",
+      "people": [
+        "masato-tanaka"
+      ],
+      "start": "2011-10-10",
+      "end": "2012-02-12",
+      "days": 125,
+      "number": 2,
+      "event": "Destruction '11",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Hirooki Goto",
+      "people": [
+        "hirooki-goto"
+      ],
+      "start": "2012-02-12",
+      "end": "2012-07-22",
+      "days": 161,
+      "number": 3,
+      "event": "The New Beginning",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Shinsuke Nakamura",
@@ -14,13 +150,36 @@
       ],
       "start": "2012-07-22",
       "end": "2013-05-31",
+      "days": 313,
+      "number": 4,
+      "event": "Kizuna Road",
+      "location": "Yamagata, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
       ],
       "legacyIds": [
         "profile-reign-shinsuke-nakamura-774"
       ]
+    },
+    {
+      "id": "r10",
+      "holder": "La Sombra",
+      "people": [
+        "andrade"
+      ],
+      "start": "2013-05-31",
+      "end": "2013-07-20",
+      "days": 50,
+      "number": 5,
+      "event": "Super Viernes",
+      "location": "Mexico City, Mexico",
+      "note": "Two out of three falls match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r2",
@@ -30,13 +189,35 @@
       ],
       "start": "2013-07-20",
       "end": "2014-01-04",
+      "days": 168,
+      "number": 6,
+      "event": "Kizuna Road",
+      "location": "Akita, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
       ],
       "legacyIds": [
         "profile-reign-shinsuke-nakamura-773"
       ]
+    },
+    {
+      "id": "r11",
+      "holder": "Hiroshi Tanahashi",
+      "people": [
+        "hiroshi-tanahashi"
+      ],
+      "start": "2014-01-04",
+      "end": "2014-04-06",
+      "days": 92,
+      "number": 7,
+      "event": "Wrestle Kingdom 8 in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r3",
@@ -46,13 +227,35 @@
       ],
       "start": "2014-04-06",
       "end": "2014-06-21",
+      "days": 76,
+      "number": 8,
+      "event": "Invasion Attack",
+      "location": "Tokyo, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
       ],
       "legacyIds": [
         "profile-reign-shinsuke-nakamura-772"
       ]
+    },
+    {
+      "id": "r12",
+      "holder": "Bad Luck Fale",
+      "people": [
+        "bad-luck-fale"
+      ],
+      "start": "2014-06-21",
+      "end": "2014-09-21",
+      "days": 92,
+      "number": 9,
+      "event": "Dominion 6.21",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r4",
@@ -62,13 +265,35 @@
       ],
       "start": "2014-09-21",
       "end": "2015-05-03",
+      "days": 224,
+      "number": 10,
+      "event": "Destruction in Kobe",
+      "location": "Kobe, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
       ],
       "legacyIds": [
         "profile-reign-shinsuke-nakamura-771"
       ]
+    },
+    {
+      "id": "r13",
+      "holder": "Hirooki Goto",
+      "people": [
+        "hirooki-goto"
+      ],
+      "start": "2015-05-03",
+      "end": "2015-09-27",
+      "days": 147,
+      "number": 11,
+      "event": "Wrestling Dontaku",
+      "location": "Fukuoka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r5",
@@ -78,29 +303,284 @@
       ],
       "start": "2015-09-27",
       "end": "2016-01-25",
+      "days": 120,
+      "number": 12,
+      "event": "Destruction in Kobe",
+      "location": "Kobe, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
       ],
       "legacyIds": [
         "profile-reign-shinsuke-nakamura-770"
       ]
     },
     {
+      "id": "r14",
+      "holder": "Kenny Omega",
+      "people": [
+        "kenny-omega"
+      ],
+      "start": "2016-02-14",
+      "end": "2016-06-19",
+      "days": 126,
+      "number": 13,
+      "event": "The New Beginning in Niigata",
+      "location": "Nagaoka, Japan",
+      "note": "Won vacant title from Tanahashi",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Michael Elgin",
+      "people": [
+        "michael-elgin"
+      ],
+      "start": "2016-06-19",
+      "end": "2016-09-25",
+      "days": 98,
+      "number": 14,
+      "event": "Dominion 6.19 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "note": "Ladder match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Tetsuya Naito",
+      "people": [
+        "tetsuya-naito"
+      ],
+      "start": "2016-09-25",
+      "end": "2017-06-11",
+      "days": 259,
+      "number": 15,
+      "event": "Destruction in Kobe",
+      "location": "Kobe, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Hiroshi Tanahashi",
+      "people": [
+        "hiroshi-tanahashi"
+      ],
+      "start": "2017-06-11",
+      "end": "2018-01-27",
+      "days": 230,
+      "number": 16,
+      "event": "Dominion 6.11 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Minoru Suzuki",
+      "people": [
+        "minoru-suzuki"
+      ],
+      "start": "2018-01-27",
+      "end": "2018-04-29",
+      "days": 92,
+      "number": 17,
+      "event": "The New Beginning in Sapporo",
+      "location": "Sapporo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Tetsuya Naito",
+      "people": [
+        "tetsuya-naito"
+      ],
+      "start": "2018-04-29",
+      "end": "2018-06-09",
+      "days": 41,
+      "number": 18,
+      "event": "Wrestling Hinokuni",
+      "location": "Kumamoto, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "2018-06-09",
+      "end": "2019-01-04",
+      "days": 209,
+      "number": 19,
+      "event": "Dominion 6.9 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Tetsuya Naito",
+      "people": [
+        "tetsuya-naito"
+      ],
+      "start": "2019-01-04",
+      "end": "2019-04-06",
+      "days": 92,
+      "number": 20,
+      "event": "Wrestle Kingdom 13 in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "note": "No disqualification match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Kota Ibushi",
+      "people": [
+        "kota-ibushi"
+      ],
+      "start": "2019-04-06",
+      "end": "2019-06-09",
+      "days": 64,
+      "number": 21,
+      "event": "G1 Supercard",
+      "location": "New York City, U.S.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Tetsuya Naito",
+      "people": [
+        "tetsuya-naito"
+      ],
+      "start": "2019-06-09",
+      "end": "2019-09-22",
+      "days": 105,
+      "number": 22,
+      "event": "Dominion 6.9 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Jay White",
+      "people": [
+        "jay-white"
+      ],
+      "start": "2019-09-22",
+      "end": "2020-01-04",
+      "days": 104,
+      "number": 23,
+      "event": "Destruction in Kobe",
+      "location": "Kobe, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Tetsuya Naito",
+      "people": [
+        "tetsuya-naito"
+      ],
+      "start": "2020-01-04",
+      "end": "2020-07-12",
+      "days": 190,
+      "number": 24,
+      "event": "Wrestle Kingdom 14 in Tokyo Dome Night 1",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r6",
-      "holder": "EVIL",
+      "holder": "Evil",
       "people": [
         "naraku"
       ],
       "start": "2020-07-12",
       "end": "2020-08-29",
+      "days": 48,
+      "number": 25,
+      "event": "Dominion in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "note": "Also for Naito's Heavyweight title",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
       ],
       "legacyIds": [
         "profile-reign-naraku-465"
       ]
+    },
+    {
+      "id": "r26",
+      "holder": "Tetsuya Naito",
+      "people": [
+        "tetsuya-naito"
+      ],
+      "start": "2020-08-29",
+      "end": "2021-01-04",
+      "days": 128,
+      "number": 26,
+      "event": "Summer Struggle in Jingu",
+      "location": "Tokyo, Japan",
+      "note": "Also for Evil's Heavyweight title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Kota Ibushi",
+      "people": [
+        "kota-ibushi"
+      ],
+      "start": "2021-01-04",
+      "end": "2021-03-04",
+      "days": 90,
+      "number": 27,
+      "event": "Wrestle Kingdom 15 in Tokyo Dome Night 1",
+      "location": "Tokyo, Japan",
+      "note": "Also for Naito's Heavyweight title",
+      "dateNote": "The source counts 90 days, into the first month of the unified IWGP World Heavyweight Championship; this title ended when it was unified on March 4, 2021.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Intercontinental_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

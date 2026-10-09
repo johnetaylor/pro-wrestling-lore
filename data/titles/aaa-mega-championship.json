@@ -1,10 +1,132 @@
 {
   "id": "aaa-mega-championship",
   "name": "AAA Mega Championship",
+  "promotion": "aaa",
+  "division": "men",
+  "format": "singles",
+  "established": "2007-09-16",
   "names": [
-    "AAA Mega Championship"
+    "AAA World Heavyweight Championship",
+    "Mexican Heavyweight Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "AAA World Heavyweight Championship",
+      "from": "2007",
+      "to": "2011"
+    },
+    {
+      "name": "Mexican Heavyweight Championship",
+      "from": "2011"
+    }
+  ],
+  "history": [
+    {
+      "date": "2007-09-16",
+      "kind": "unified-into",
+      "text": "Four titles were combined into this one through the 2007 tournament, with El Mesías winning the final.",
+      "related": [
+        "IWC World Heavyweight Championship",
+        "GPCW SUPER-X Monster Championship",
+        "Mexican National Heavyweight Championship",
+        "UWA World Light Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ]
+    },
+    {
+      "date": "2008-10-24",
+      "kind": "deactivated",
+      "text": "The title was vacated after Cibernético left AAA when Konnan took over the promotion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ]
+    },
+    {
+      "date": "2008-12-06",
+      "kind": "reactivated",
+      "text": "El Mesías beat El Zorro in a ladder match to win the vacant title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ]
+    },
+    {
+      "date": "2011",
+      "kind": "brand",
+      "text": "Jeff Jarrett used the belt in TNA under the Mexican Heavyweight Championship name, with a plate covering the AAA logo.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ]
+    },
+    {
+      "date": "2015-03",
+      "kind": "promotion",
+      "text": "The title was defended on Lucha Underground through AAA's joint ownership of that promotion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ]
+    },
+    {
+      "date": "2015-11-09",
+      "kind": "deactivated",
+      "text": "The title was vacated after El Patrón Alberto left AAA for WWE.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ]
+    },
+    {
+      "date": "2016-03-23",
+      "kind": "reactivated",
+      "text": "Texano Jr. beat El Mesías to win the vacant title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ]
+    },
+    {
+      "date": "2021-11-22",
+      "kind": "deactivated",
+      "text": "The title was vacated after Kenny Omega's injuries prevented him from defending it.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ]
+    },
+    {
+      "date": "2021-12-04",
+      "kind": "reactivated",
+      "text": "El Hijo del Vikingo won a five-way match to claim the vacant title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ]
+    },
+    {
+      "date": "2024-03-16",
+      "kind": "deactivated",
+      "text": "The title was vacated after El Hijo del Vikingo was injured.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ]
+    },
+    {
+      "date": "2024-04-27",
+      "kind": "reactivated",
+      "text": "Nic Nemeth beat Alberto El Patrón to win the vacant title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "kind": "brand",
+      "text": "The title was defended on WWE Raw for the first time, with Dominik Mysterio retaining against El Grande Americano.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+  ],
   "reigns": [
     {
       "id": "r1",
@@ -13,14 +135,38 @@
         "el-mesias"
       ],
       "start": "2007-10-07",
-      "end": "2008-03-30",
+      "end": "2008-03-16",
+      "days": 182,
+      "number": 1,
+      "event": "Verano de Escándalo",
+      "location": "Guadalajara, Jalisco, Mexico",
+      "note": "Won tournament final; inaugural champion",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-mega-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-mega-championship",
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
       ],
       "legacyIds": [
         "profile-reign-el-mesias-239"
       ]
+    },
+    {
+      "id": "r12",
+      "holder": "Cibernético",
+      "people": [
+        "cibernetico"
+      ],
+      "start": "2008-03-16",
+      "end": "2008-10-24",
+      "days": 222,
+      "number": 2,
+      "event": "Rey de Reyes",
+      "location": "Monterrey, Nuevo León, Mexico",
+      "note": "Won title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r2",
@@ -30,13 +176,37 @@
       ],
       "start": "2008-12-21",
       "end": "2009-06-13",
+      "days": 189,
+      "number": 3,
+      "event": "Guerra de Titanes",
+      "location": "Orizaba, Veracruz, Mexico",
+      "note": "Won vacant title in ladder match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-mega-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-mega-championship",
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
       ],
       "legacyIds": [
         "profile-reign-el-mesias-238"
       ]
+    },
+    {
+      "id": "r13",
+      "holder": "Dr. Wagner Jr.",
+      "people": [
+        "dr-wagner-jr"
+      ],
+      "start": "2009-06-13",
+      "end": "2009-12-11",
+      "days": 181,
+      "number": 4,
+      "event": "Triplemanía XVII",
+      "location": "Mexico City, Mexico",
+      "note": "Won title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r3",
@@ -45,14 +215,92 @@
         "el-mesias"
       ],
       "start": "2009-12-27",
-      "end": "2010-03-21",
+      "end": "2010-03-12",
+      "days": 91,
+      "number": 5,
+      "event": "Guerra de Titanes",
+      "location": "Ciudad Madero, Tamaulipas, Mexico",
+      "note": "Won title",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-mega-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-mega-championship",
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
       ],
       "legacyIds": [
         "profile-reign-el-mesias-237"
       ]
+    },
+    {
+      "id": "r14",
+      "holder": "Electroshock",
+      "people": [
+        "electroshock"
+      ],
+      "start": "2010-03-12",
+      "end": "2010-06-06",
+      "days": 86,
+      "number": 6,
+      "event": "Rey de Reyes",
+      "location": "Querétaro City, Querétaro, Mexico",
+      "note": "Three-way match also featured Mr. Anderson",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Dr. Wagner Jr.",
+      "people": [
+        "dr-wagner-jr"
+      ],
+      "start": "2010-06-06",
+      "end": "2010-12-05",
+      "days": 182,
+      "number": 7,
+      "event": "Triplemania XVIII",
+      "location": "Mexico City, Mexico",
+      "note": "Won title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "El Zorro",
+      "people": [
+        "el-zorro"
+      ],
+      "start": "2010-12-05",
+      "end": "2011-06-18",
+      "days": 195,
+      "number": 8,
+      "event": "Guerra de Titanes",
+      "location": "Zapopan, Jalisco, Mexico",
+      "note": "Won title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Jeff Jarrett",
+      "people": [
+        "jeff-jarrett"
+      ],
+      "start": "2011-06-18",
+      "end": "2012-03-18",
+      "days": 274,
+      "number": 9,
+      "event": "Triplemanía XIX",
+      "location": "Mexico City, Mexico",
+      "note": "Called title the Mexican Heavyweight Championship in TNA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r4",
@@ -61,10 +309,16 @@
         "el-mesias"
       ],
       "start": "2012-04-01",
-      "end": "2012-12-15",
+      "end": "2012-12-02",
+      "days": 259,
+      "number": 10,
+      "event": "Rey de Reyes",
+      "location": "Zapopan, Jalisco, Mexico",
+      "note": "Won title; record fourth reign",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-mega-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-mega-championship",
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
       ],
       "legacyIds": [
         "profile-reign-el-mesias-235"
@@ -78,13 +332,37 @@
       ],
       "start": "2012-12-15",
       "end": "2014-12-07",
+      "days": 735,
+      "number": 11,
+      "event": "Guerra de Titanes",
+      "location": "Zapopan, Jalisco, Mexico",
+      "note": "Won title",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-mega-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-mega-championship",
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
       ],
       "legacyIds": [
         "profile-reign-el-texano-jr-245"
       ]
+    },
+    {
+      "id": "r18",
+      "holder": "El Patrón Alberto",
+      "people": [
+        "alberto-del-rio"
+      ],
+      "start": "2014-12-07",
+      "end": "2015-11-09",
+      "days": 337,
+      "number": 12,
+      "event": "Guerra de Titanes",
+      "location": "Zapopan, Jalisco, Mexico",
+      "note": "Won title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r6",
@@ -94,29 +372,113 @@
       ],
       "start": "2016-03-23",
       "end": "2017-03-19",
+      "days": 361,
+      "number": 13,
+      "event": "Rey de Reyes",
+      "location": "San Luis Potosí City, San Luis Potosí, Mexico",
+      "note": "Won vacant title from El Mesías",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-mega-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-mega-championship",
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
       ],
       "legacyIds": [
         "profile-reign-el-texano-jr-244"
       ]
     },
     {
+      "id": "r19",
+      "holder": "Johnny Mundo",
+      "people": [
+        "john-morrison"
+      ],
+      "start": "2017-03-19",
+      "end": "2018-01-26",
+      "days": 313,
+      "number": 14,
+      "event": "Rey de Reyes",
+      "location": "Monterrey, Nuevo León, Mexico",
+      "note": "Winner-takes-all three-way match for three titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Rey Wagner",
+      "people": [
+        "rey-wagner"
+      ],
+      "start": "2018-01-26",
+      "end": "2018-06-03",
+      "days": 128,
+      "number": 15,
+      "event": "Guerra de Titanes",
+      "location": "Mexico City, Mexico",
+      "note": "Vampiro was special guest referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Jeff Jarrett",
+      "people": [
+        "jeff-jarrett"
+      ],
+      "start": "2018-06-03",
+      "end": "2018-08-25",
+      "days": 83,
+      "number": 16,
+      "event": "Verano de Escándalo",
+      "location": "Monterrey, Nuevo León, Mexico",
+      "note": "Three-way match also featured Rey Mysterio Jr.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r7",
-      "holder": "Rey Fénix",
+      "holder": "Fénix",
       "people": [
         "rey-fenix"
       ],
       "start": "2018-08-25",
       "end": "2019-10-19",
+      "days": 420,
+      "number": 17,
+      "event": "Triplemanía XXVI",
+      "location": "Mexico City, Mexico",
+      "note": "Four-way match also featured Brian Cage and Rich Swann",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-mega-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-mega-championship",
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
       ],
       "legacyIds": [
         "profile-reign-rey-fenix-647"
       ]
+    },
+    {
+      "id": "r22",
+      "holder": "Kenny Omega",
+      "people": [
+        "kenny-omega"
+      ],
+      "start": "2019-10-19",
+      "end": "2021-11-22",
+      "days": 765,
+      "number": 18,
+      "event": "Héroes Inmortales XIII",
+      "location": "Orizaba, Veracruz, Mexico",
+      "note": "Won title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r8",
@@ -126,13 +488,55 @@
       ],
       "start": "2021-12-04",
       "end": "2024-03-16",
+      "days": 833,
+      "number": 19,
+      "event": "Triplemanía Regia II",
+      "location": "Monterrey, Mexico",
+      "note": "Five-way match won vacant title",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-mega-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-mega-championship",
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
       ],
       "legacyIds": [
         "profile-reign-el-hijo-del-vikingo-227"
       ]
+    },
+    {
+      "id": "r23",
+      "holder": "Nic Nemeth",
+      "people": [
+        "dolph-ziggler"
+      ],
+      "start": "2024-04-27",
+      "end": "2024-08-17",
+      "days": 112,
+      "number": 20,
+      "event": "Triplemania XXXII: Monterrey",
+      "location": "Monterrey, Mexico",
+      "note": "Won vacant title from Alberto El Patrón",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Alberto El Patrón",
+      "people": [
+        "alberto-del-rio"
+      ],
+      "start": "2024-08-17",
+      "end": "2025-05-31",
+      "days": 287,
+      "number": 21,
+      "event": "Triplemania XXXII: Mexico City",
+      "location": "Azcapotzalco, Mexico City, Mexico",
+      "note": "Won title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r9",
@@ -142,9 +546,15 @@
       ],
       "start": "2025-05-31",
       "end": "2025-09-12",
+      "days": 104,
+      "number": 22,
+      "event": "Alianzas",
+      "location": "Mexico City, Mexico",
+      "note": "Won title",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-mega-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-mega-championship",
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
       ],
       "legacyIds": [
         "profile-reign-el-hijo-del-vikingo-225"
@@ -158,9 +568,15 @@
       ],
       "start": "2025-09-12",
       "end": "2026-09-13",
+      "days": 364,
+      "number": 23,
+      "event": "Worlds Collide: Las Vegas",
+      "location": "Paradise, Nevada, U.S.",
+      "note": "Current champion; reign ongoing",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-mega-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-mega-championship",
+        "https://en.wikipedia.org/wiki/AAA_Mega_Championship"
       ],
       "legacyIds": [
         "profile-reign-dominik-mysterio-174"

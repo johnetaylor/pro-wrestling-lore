@@ -1,11 +1,423 @@
 {
   "id": "nwf-heavyweight-championship",
   "name": "NWF Heavyweight Championship",
+  "promotion": "njpw",
+  "division": "men",
+  "format": "singles",
+  "established": "1970",
   "names": [
-    "NWF Heavyweight Championship"
+    "NWF World Heavyweight Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "NWF World Heavyweight Championship",
+      "from": "1970",
+      "to": "1976"
+    },
+    {
+      "name": "NWF Heavyweight Championship",
+      "from": "1976"
+    }
+  ],
+  "history": [
+    {
+      "date": "1976-08-07",
+      "kind": "recognition",
+      "text": "The NWA ordered the title no longer be called a world title at its annual meeting.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1981-04-23",
+      "kind": "retired",
+      "text": "Inoki retired the title right after winning it back from Stan Hansen, so he could enter the 1983 IWGP League.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2002-08",
+      "kind": "reactivated",
+      "text": "The title was revived as part of an NJPW storyline and rivaled the IWGP Heavyweight Championship.",
+      "related": [
+        "IWGP Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2004-01-04",
+      "kind": "unified-into",
+      "text": "Shinsuke Nakamura unified the NWF title with the IWGP Heavyweight Championship.",
+      "related": [
+        "IWGP Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2004-01-05",
+      "kind": "retired",
+      "text": "Nakamura vacated the NWF title and retired the belt for a second time.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r2",
+      "holder": "Johnny Powers",
+      "people": [
+        "johnny-powers"
+      ],
+      "start": "1970-04",
+      "end": "1971-10-23",
+      "number": 1,
+      "event": "Live event",
+      "location": "Los Angeles, CA",
+      "note": "Won inaugural title from Freddie Blassie; date is no-later-than",
+      "dateNote": "The source gives the month only.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Waldo Von Erich",
+      "people": [
+        "waldo-von-erich"
+      ],
+      "start": "1971-10-23",
+      "end": "1971-11-07",
+      "days": 15,
+      "number": 2,
+      "event": "Live event",
+      "location": "Akron, OH",
+      "note": "Title held up after match with Dominic DeNucci",
+      "dateNote": "The title was held up after a match with Dominic DeNucci; the source counts 15 days, to November 7, 1971. He won the rematch on November 13.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Waldo Von Erich",
+      "people": [
+        "waldo-von-erich"
+      ],
+      "start": "1971-11-13",
+      "end": "1971-12-02",
+      "days": 19,
+      "number": 3,
+      "event": "live event",
+      "location": "Akron, OH",
+      "note": "Won rematch against Dominic DeNucci",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Dominic DeNucci",
+      "people": [
+        "dominic-denucci"
+      ],
+      "start": "1971-12-02",
+      "end": "1971-12-30",
+      "days": 28,
+      "number": 4,
+      "event": "Live event",
+      "location": "Cleveland, OH",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Waldo Von Erich",
+      "people": [
+        "waldo-von-erich"
+      ],
+      "start": "1971-12-30",
+      "end": "1972-06-09",
+      "days": 162,
+      "number": 5,
+      "event": "Live event",
+      "location": "Cleveland, OH",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Ernie Ladd",
+      "people": [
+        "ernie-ladd"
+      ],
+      "start": "1972-06-09",
+      "end": "1972-06-24",
+      "days": 15,
+      "number": 6,
+      "event": "Live event",
+      "location": "Cleveland, OH",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Abdullah the Butcher",
+      "people": [
+        "abdullah-the-butcher"
+      ],
+      "start": "1972-06-24",
+      "end": "1972-09",
+      "number": 7,
+      "event": "Live event",
+      "location": "Akron, OH",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Victor Rivera",
+      "people": [
+        "victor-rivera"
+      ],
+      "start": "1972-09",
+      "end": "1972-10",
+      "number": 8,
+      "event": "Live event",
+      "note": "Date is no-later-than",
+      "dateNote": "The source gives the month only.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Abdullah the Butcher",
+      "people": [
+        "abdullah-the-butcher"
+      ],
+      "start": "1972-10",
+      "end": "1972-10-19",
+      "number": 9,
+      "event": "Live event",
+      "note": "Date is no-later-than",
+      "dateNote": "The source gives the month only.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Johnny Valentine",
+      "people": [
+        "johnny-valentine"
+      ],
+      "start": "1972-10-19",
+      "end": "1972-12-07",
+      "days": 49,
+      "number": 10,
+      "event": "Live event",
+      "location": "Cleveland, OH",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Jacques Rougeau",
+      "people": [
+        "jacques-rougeau"
+      ],
+      "start": "1973-01-24",
+      "end": "1973-08",
+      "number": 11,
+      "event": "Live event",
+      "location": "Buffalo, NY",
+      "note": "Won tournament final for vacant title over Waldo Von Erich",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Johnny Valentine",
+      "people": [
+        "johnny-valentine"
+      ],
+      "start": "1973-08",
+      "end": "1973-10",
+      "number": 12,
+      "event": "Live event",
+      "note": "Date is no-later-than",
+      "dateNote": "The source gives the month only.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Johnny Powers",
+      "people": [
+        "johnny-powers"
+      ],
+      "start": "1973-10",
+      "end": "1973-12-10",
+      "number": 13,
+      "event": "Live event",
+      "note": "Took title to Japan for NJPW tour; date is no-later-than",
+      "dateNote": "The source gives the month only.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Antonio Inoki",
+      "people": [
+        "antonio-inoki"
+      ],
+      "start": "1973-12-10",
+      "end": "1975-02-12",
+      "days": 429,
+      "number": 14,
+      "event": "World Title Challenge Series",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Tiger Jeet Singh",
+      "people": [
+        "tiger-jeet-singh"
+      ],
+      "start": "1975-03-13",
+      "end": "1975-06-26",
+      "days": 105,
+      "number": 15,
+      "event": "Big Fight Series",
+      "location": "Hiroshima, Japan",
+      "note": "Won vacant title from Antonio Inoki",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Antonio Inoki",
+      "people": [
+        "antonio-inoki"
+      ],
+      "start": "1975-06-26",
+      "end": "1980-02-08",
+      "days": 1688,
+      "number": 16,
+      "event": "Golden Fight Series",
+      "location": "Tokyo, Japan",
+      "note": "NWA ordered title no longer called a world title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Stan Hansen",
+      "people": [
+        "stan-hansen"
+      ],
+      "start": "1980-02-08",
+      "end": "1980-04-03",
+      "days": 55,
+      "number": 17,
+      "event": "New Year Golden Series",
+      "location": "Tokyo, Japan",
+      "note": "Title changed via countout",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Antonio Inoki",
+      "people": [
+        "antonio-inoki"
+      ],
+      "start": "1980-04-03",
+      "end": "1981-04-17",
+      "days": 379,
+      "number": 18,
+      "event": "Big Fight Series",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Antonio Inoki",
+      "people": [
+        "antonio-inoki"
+      ],
+      "start": "1981-04-23",
+      "end": "1981-04-23",
+      "number": 19,
+      "event": "Big Fight Series II",
+      "location": "Tokyo, Japan",
+      "note": "Won vacant title from Stan Hansen",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Yoshihiro Takayama",
+      "people": [
+        "yoshihiro-takayama"
+      ],
+      "start": "2003-01-04",
+      "end": "2004-01-04",
+      "days": 365,
+      "number": 1,
+      "event": "Wrestling World 2003",
+      "location": "Tokyo, Japan",
+      "note": "Won revived title tournament over Tsuyoshi Kosaka; 7 defenses",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Shinsuke Nakamura",
@@ -14,9 +426,15 @@
       ],
       "start": "2004-01-04",
       "end": "2004-01-05",
+      "days": 1,
+      "number": 2,
+      "event": "Wrestling World 2004",
+      "location": "Tokyo, Japan",
+      "note": "Unified NWF title with IWGP Heavyweight Championship; 0 defenses",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/nwf-heavyweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/nwf-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-shinsuke-nakamura-780"

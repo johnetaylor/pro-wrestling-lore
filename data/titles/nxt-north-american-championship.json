@@ -1,11 +1,101 @@
 {
   "id": "nxt-north-american-championship",
   "name": "NXT North American Championship",
-  "names": [
-    "NXT North American Championship"
+  "promotion": "wwe",
+  "division": "men",
+  "format": "singles",
+  "established": "2018-03-07",
+  "names": [],
+  "eras": [
+    {
+      "name": "NXT North American Championship",
+      "from": "2018-03-07"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "2019-09",
+      "kind": "brand",
+      "text": "NXT moved to USA Network and was promoted as WWE's third brand, making this a third secondary title.",
+      "related": [
+        "WWE Intercontinental Championship",
+        "WWE United States Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_North_American_Championship"
+      ]
+    },
+    {
+      "date": "2021-09",
+      "kind": "brand",
+      "text": "NXT reverted to being WWE's developmental brand.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_North_American_Championship"
+      ]
+    },
+    {
+      "date": "2022-01-04",
+      "kind": "unified-into",
+      "text": "The Cruiserweight Championship was unified into this title when Carmelo Hayes defeated Roderick Strong at New Year's Evil.",
+      "related": [
+        "NXT Cruiserweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_North_American_Championship"
+      ]
+    },
+    {
+      "date": "2022-01-04",
+      "kind": "retired",
+      "text": "The Cruiserweight Championship was retired, with Hayes continuing as North American Champion.",
+      "related": [
+        "NXT Cruiserweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_North_American_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions",
+    "https://en.wikipedia.org/wiki/NXT_North_American_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r20",
+      "holder": "Adam Cole",
+      "people": [
+        "adam-cole"
+      ],
+      "start": "2018-04-07",
+      "end": "2018-08-18",
+      "days": 133,
+      "number": 1,
+      "event": "TakeOver: New Orleans",
+      "location": "New Orleans, LA",
+      "note": "Won six-man ladder match; inaugural champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Ricochet",
+      "people": [
+        "ricochet"
+      ],
+      "start": "2018-08-18",
+      "end": "2019-01-26",
+      "days": 161,
+      "number": 2,
+      "event": "TakeOver: Brooklyn 4",
+      "location": "Brooklyn, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Johnny Gargano",
@@ -13,14 +103,73 @@
         "johnny-gargano"
       ],
       "start": "2019-01-26",
-      "end": "2019-02-20",
+      "end": "2019-01-30",
+      "days": 4,
+      "number": 3,
+      "event": "TakeOver: Phoenix",
+      "location": "Phoenix, AZ",
+      "note": "Tape-delayed end date recognized by WWE",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
       ],
       "legacyIds": [
         "profile-reign-johnny-gargano-362"
       ]
+    },
+    {
+      "id": "r22",
+      "holder": "Velveteen Dream",
+      "people": [
+        "velveteen-dream"
+      ],
+      "start": "2019-01-30",
+      "end": "2019-09-18",
+      "days": 231,
+      "number": 4,
+      "event": "NXT",
+      "location": "Winter Park, FL",
+      "note": "Two endings taped; recognized date differs",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Roderick Strong",
+      "people": [
+        "roderick-strong"
+      ],
+      "start": "2019-09-18",
+      "end": "2020-01-22",
+      "days": 126,
+      "number": 5,
+      "event": "NXT",
+      "location": "Winter Park, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Keith Lee",
+      "people": [
+        "keith-lee"
+      ],
+      "start": "2020-01-22",
+      "end": "2020-07-15",
+      "days": 175,
+      "number": 6,
+      "event": "NXT",
+      "location": "Winter Park, FL",
+      "note": "Tape-delayed end date recognized by WWE",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r2",
@@ -30,9 +179,15 @@
       ],
       "start": "2020-08-22",
       "end": "2020-10-28",
+      "days": 67,
+      "number": 7,
+      "event": "TakeOver XXX",
+      "location": "Winter Park, FL",
+      "note": "Five-man ladder match for vacant title",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
       ],
       "legacyIds": [
         "profile-reign-damian-priest-161"
@@ -46,13 +201,36 @@
       ],
       "start": "2020-10-28",
       "end": "2020-11-11",
+      "days": 14,
+      "number": 8,
+      "event": "NXT: Halloween Havoc",
+      "location": "Orlando, FL",
+      "note": "Devil's Playground match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
       ],
       "legacyIds": [
         "profile-reign-johnny-gargano-360"
       ]
+    },
+    {
+      "id": "r25",
+      "holder": "Leon Ruff",
+      "people": [
+        "leon-ruff"
+      ],
+      "start": "2020-11-11",
+      "end": "2020-12-06",
+      "days": 25,
+      "number": 9,
+      "event": "NXT",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r4",
@@ -62,9 +240,15 @@
       ],
       "start": "2020-12-06",
       "end": "2021-05-18",
+      "days": 163,
+      "number": 10,
+      "event": "TakeOver: WarGames",
+      "location": "Orlando, FL",
+      "note": "Triple threat match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
       ],
       "legacyIds": [
         "profile-reign-johnny-gargano-359"
@@ -78,13 +262,36 @@
       ],
       "start": "2021-05-18",
       "end": "2021-06-29",
+      "days": 42,
+      "number": 11,
+      "event": "NXT",
+      "location": "Orlando, FL",
+      "note": "Steel cage match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
       ],
       "legacyIds": [
         "profile-reign-bronson-reed-67"
       ]
+    },
+    {
+      "id": "r26",
+      "holder": "Isaiah \"Swerve\" Scott",
+      "people": [
+        "isaiah-swerve-scott"
+      ],
+      "start": "2021-06-29",
+      "end": "2021-10-12",
+      "days": 105,
+      "number": 12,
+      "event": "NXT",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r6",
@@ -94,13 +301,37 @@
       ],
       "start": "2021-10-12",
       "end": "2022-04-02",
+      "days": 172,
+      "number": 13,
+      "event": "NXT",
+      "location": "Orlando, FL",
+      "note": "Breakout Tournament cash-in match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
       ],
       "legacyIds": [
         "profile-reign-carmelo-hayes-73"
       ]
+    },
+    {
+      "id": "r27",
+      "holder": "Cameron Grimes",
+      "people": [
+        "cameron-grimes"
+      ],
+      "start": "2022-04-02",
+      "end": "2022-06-04",
+      "days": 63,
+      "number": 14,
+      "event": "Stand & Deliver",
+      "location": "Dallas, TX",
+      "note": "Five-man ladder match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r7",
@@ -110,9 +341,14 @@
       ],
       "start": "2022-06-04",
       "end": "2022-09-13",
+      "days": 101,
+      "number": 15,
+      "event": "In Your House",
+      "location": "Orlando, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
       ],
       "legacyIds": [
         "profile-reign-carmelo-hayes-71"
@@ -126,13 +362,37 @@
       ],
       "start": "2022-09-13",
       "end": "2022-09-20",
+      "days": 7,
+      "number": 16,
+      "event": "NXT 2.0: One Year Anniversary Show",
+      "location": "Orlando, FL",
+      "note": "Replaced injured Wes Lee",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
       ],
       "legacyIds": [
         "profile-reign-solo-sikoa-782"
       ]
+    },
+    {
+      "id": "r28",
+      "holder": "Wes Lee",
+      "people": [
+        "wes-lee"
+      ],
+      "start": "2022-10-22",
+      "end": "2023-07-18",
+      "days": 269,
+      "number": 17,
+      "event": "Halloween Havoc",
+      "location": "Orlando, FL",
+      "note": "Five-man ladder match for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r9",
@@ -142,9 +402,14 @@
       ],
       "start": "2023-07-18",
       "end": "2023-09-30",
+      "days": 74,
+      "number": 18,
+      "event": "NXT",
+      "location": "Orlando, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
       ],
       "legacyIds": [
         "profile-reign-dominik-mysterio-176"
@@ -158,9 +423,15 @@
       ],
       "start": "2023-09-30",
       "end": "2023-10-03",
+      "days": 3,
+      "number": 19,
+      "event": "No Mercy",
+      "location": "Bakersfield, CA",
+      "note": "Dragon Lee was special guest referee",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
       ],
       "legacyIds": [
         "profile-reign-trick-williams-841"
@@ -174,9 +445,14 @@
       ],
       "start": "2023-10-03",
       "end": "2023-12-09",
+      "days": 67,
+      "number": 20,
+      "event": "NXT",
+      "location": "Orlando, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
       ],
       "legacyIds": [
         "profile-reign-dominik-mysterio-175"
@@ -190,9 +466,14 @@
       ],
       "start": "2023-12-09",
       "end": "2024-01-09",
+      "days": 31,
+      "number": 21,
+      "event": "Deadline",
+      "location": "Bridgeport, CT",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
       ],
       "legacyIds": [
         "profile-reign-dragon-lee-184"
@@ -206,9 +487,15 @@
       ],
       "start": "2024-01-09",
       "end": "2024-10-08",
+      "days": 273,
+      "number": 22,
+      "event": "NXT",
+      "location": "Orlando, FL",
+      "note": "Breakout Tournament cash-in match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
       ],
       "legacyIds": [
         "profile-reign-oba-femi-500"
@@ -222,9 +509,14 @@
       ],
       "start": "2024-10-08",
       "end": "2025-03-04",
+      "days": 147,
+      "number": 23,
+      "event": "NXT",
+      "location": "Chesterfield, MO",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
       ],
       "legacyIds": [
         "profile-reign-tony-d-angelo-834"
@@ -238,9 +530,14 @@
       ],
       "start": "2025-03-04",
       "end": "2025-04-01",
+      "days": 28,
+      "number": 24,
+      "event": "NXT",
+      "location": "Orlando, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
       ],
       "legacyIds": [
         "profile-reign-shawn-spears-754"
@@ -254,9 +551,14 @@
       ],
       "start": "2025-04-01",
       "end": "2025-05-27",
+      "days": 56,
+      "number": 25,
+      "event": "NXT",
+      "location": "Orlando, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
       ],
       "legacyIds": [
         "profile-reign-ricky-saints-685"
@@ -270,9 +572,14 @@
       ],
       "start": "2025-05-27",
       "end": "2026-02-24",
+      "days": 273,
+      "number": 26,
+      "event": "NXT",
+      "location": "Orlando, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
       ],
       "legacyIds": [
         "profile-reign-ethan-page-261"
@@ -286,9 +593,14 @@
       ],
       "start": "2026-02-24",
       "end": "2026-08-30",
+      "days": 187,
+      "number": 27,
+      "event": "NXT",
+      "location": "Orlando, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
       ],
       "legacyIds": [
         "profile-reign-myles-borne-456"
@@ -301,9 +613,15 @@
         "jackson-drake"
       ],
       "start": "2026-08-30",
+      "days": 1,
+      "number": 28,
+      "event": "Heatwave",
+      "location": "Edinburg, TX",
+      "note": "Youngest NXT North American Champion",
       "dateNote": "Listed as ongoing in the profile source; shown through the archive date.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-north-american-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_North_American_Champions"
       ],
       "legacyIds": [
         "profile-reign-jackson-drake-320"

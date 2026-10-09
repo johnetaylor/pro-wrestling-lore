@@ -1,26 +1,1562 @@
 {
   "id": "tna-world-tag-team-championship",
   "name": "TNA World Tag Team Championship",
+  "promotion": "tna",
+  "division": "men",
+  "format": "tag",
+  "established": "2007-05-17",
   "names": [
-    "TNA World Tag Team Championship"
+    "Impact World Tag Team Championship",
+    "Impact Wrestling/Impact World Tag Team Championship",
+    "Impact Wrestling World Tag Team Championship",
+    "Unified GFW World Tag Team Championship",
+    "GFW World Tag Team Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "TNA World Tag Team Championship",
+      "from": "2007-05-17",
+      "to": "2017"
+    },
+    {
+      "name": "Impact Wrestling World Tag Team Championship",
+      "from": "2017",
+      "to": "2017"
+    },
+    {
+      "name": "Unified GFW World Tag Team Championship",
+      "from": "2017",
+      "to": "2017"
+    },
+    {
+      "name": "GFW World Tag Team Championship",
+      "from": "2017",
+      "to": "2017"
+    },
+    {
+      "name": "Impact World Tag Team Championship",
+      "from": "2017",
+      "to": "2024-01-13"
+    },
+    {
+      "name": "TNA World Tag Team Championship",
+      "from": "2024-01-13"
+    }
+  ],
+  "history": [
+    {
+      "date": "2007-05-13",
+      "kind": "split",
+      "text": "The NWA ended its five-year agreement with TNA, which had given TNA control of the NWA tag title, and Team 3D was stripped of it.",
+      "related": [
+        "NWA World Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2017",
+      "kind": "brand",
+      "text": "At Destination X, a recolored version of the GFW tag belts was revealed as the new championship design.",
+      "related": [
+        "GFW World Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2024-01-13",
+      "kind": "brand",
+      "text": "At Hard to Kill, the new belts debuted as part of Impact Wrestling's rebrand back to TNA Wrestling.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2024-01-13",
+      "kind": "replaced-by",
+      "text": "New belts were introduced and used for the first time, replacing the Impact-era championship.",
+      "related": [
+        "Impact World Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_World_Tag_Team_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions",
+    "https://en.wikipedia.org/wiki/TNA_World_Tag_Team_Championship"
+  ],
   "reigns": [
     {
-      "id": "r1",
-      "holder": "Ron Killings",
+      "id": "r2",
+      "holder": "Team 3D",
       "people": [
-        "r-truth"
+        "d-von-dudley",
+        "bubba-ray-dudley"
+      ],
+      "start": "2007-05-17",
+      "end": "2007-07-15",
+      "days": 59,
+      "number": 1,
+      "event": "TNA Today",
+      "location": "Orlando, FL",
+      "note": "Stripped of NWA title May 13; awarded TNA title by Cornette and Borash",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Samoa Joe",
+      "people": [
+        "samoa-joe"
+      ],
+      "start": "2007-07-15",
+      "end": "2007-08-12",
+      "days": 28,
+      "number": 2,
+      "event": "Victory Road",
+      "location": "Orlando, FL",
+      "note": "Joe pinned Brother Ray; decided to hold the title alone",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Kurt Angle",
+      "people": [
+        "kurt-angle"
+      ],
+      "start": "2007-08-12",
+      "end": "2007-08-27",
+      "days": 15,
+      "number": 3,
+      "event": "Hard Justice",
+      "location": "Orlando, FL",
+      "note": "Winner Takes All match; Joe's and Angle's titles at stake",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Kurt Angle & Sting",
+      "people": [
+        "kurt-angle",
+        "sting"
+      ],
+      "start": "2007-08-27",
+      "end": "2007-09-09",
+      "days": 13,
+      "number": 4,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Sting won four-way match to become Angle's partner; tape delay Aug 30",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r1",
+      "holder": "Team Pacman",
+      "people": [
+        "r-truth",
+        "adam-jones"
       ],
       "start": "2007-09-09",
       "end": "2007-10-14",
+      "days": 35,
+      "number": 5,
+      "event": "No Surrender",
+      "location": "Orlando, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-602"
       ]
+    },
+    {
+      "id": "r6",
+      "holder": "Christian's Coalition",
+      "people": [
+        "aj-styles",
+        "tyson-tomko"
+      ],
+      "start": "2007-10-14",
+      "end": "2008-04-15",
+      "days": 184,
+      "number": 6,
+      "event": "Bound for Glory",
+      "location": "Duluth, GA",
+      "note": "Defeated Ron Killings and Consequences Creed, who defended for Adam Jones",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Kaz & Eric Young/Super Eric",
+      "people": [
+        "frankie-kazarian",
+        "eric-young"
+      ],
+      "start": "2008-04-15",
+      "end": "2008-04-15",
+      "days": 0,
+      "number": 7,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Three-way match also featured The Latin American Xchange",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "The Latin American Xchange",
+      "people": [
+        "hernandez",
+        "homicide"
+      ],
+      "start": "2008-05-11",
+      "end": "2008-08-10",
+      "days": 91,
+      "number": 8,
+      "event": "Sacrifice",
+      "location": "Orlando, FL",
+      "note": "Defeated Team 3D in Deuces Wild tournament final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Beer Money, Inc.",
+      "people": [
+        "james-storm",
+        "bobby-roode"
+      ],
+      "start": "2008-08-10",
+      "end": "2008-12-16",
+      "days": 128,
+      "number": 9,
+      "event": "Hard Justice",
+      "location": "Trenton, NJ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Jay Lethal & Consequences Creed",
+      "people": [
+        "jay-lethal",
+        "xavier-woods"
+      ],
+      "start": "2008-12-16",
+      "end": "2009-01-11",
+      "days": 26,
+      "number": 10,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Lethal's Feast or Fired opportunity; tape delay Jan 8",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Beer Money, Inc.",
+      "people": [
+        "james-storm",
+        "bobby-roode"
+      ],
+      "start": "2009-01-11",
+      "end": "2009-04-19",
+      "days": 98,
+      "number": 11,
+      "event": "Genesis",
+      "location": "Charlotte, NC",
+      "note": "Three-way match also featured Abyss and Matt Morgan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Team 3D",
+      "people": [
+        "d-von-dudley",
+        "bubba-ray-dudley"
+      ],
+      "start": "2009-04-19",
+      "end": "2009-06-21",
+      "days": 63,
+      "number": 12,
+      "event": "Lockdown",
+      "location": "Philadelphia, PA",
+      "note": "Philadelphia Street Fight; IWGP Tag Team Championship also at stake",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Beer Money, Inc.",
+      "people": [
+        "james-storm",
+        "bobby-roode"
+      ],
+      "start": "2009-06-21",
+      "end": "2009-07-19",
+      "days": 28,
+      "number": 13,
+      "event": "Slammiversary",
+      "location": "Auburn Hills, MI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Main Event Mafia",
+      "people": [
+        "booker-t",
+        "scott-steiner"
+      ],
+      "start": "2009-07-19",
+      "end": "2009-10-18",
+      "days": 91,
+      "number": 14,
+      "event": "Victory Road",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "The British Invasion",
+      "people": [
+        "nick-aldis",
+        "doug-williams"
+      ],
+      "start": "2009-10-18",
+      "end": "2010-01-17",
+      "days": 91,
+      "number": 15,
+      "event": "Bound for Glory",
+      "location": "Irvine, CA",
+      "note": "Four-way Full Metal Mayhem; IWGP Tag Team Championship also at stake",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Hernandez & Matt Morgan",
+      "people": [
+        "hernandez",
+        "matt-morgan"
+      ],
+      "start": "2010-01-17",
+      "end": "2010-05-04",
+      "days": 107,
+      "number": 16,
+      "event": "Genesis",
+      "location": "Orlando, FL",
+      "note": "Morgan declared himself sole champion after injuring Hernandez in kayfabe",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "The Band",
+      "people": [
+        "eric-young",
+        "kevin-nash",
+        "scott-hall"
+      ],
+      "start": "2010-05-04",
+      "end": "2010-06-14",
+      "days": 41,
+      "number": 17,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Nash's Feast or Fired opportunity; Nash and Hall won; Freebird Rule",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Motor City Machine Guns",
+      "people": [
+        "alex-shelley",
+        "chris-sabin"
+      ],
+      "start": "2010-07-11",
+      "end": "2011-01-09",
+      "days": 182,
+      "number": 18,
+      "event": "Victory Road",
+      "location": "Orlando, FL",
+      "note": "Defeated Beer Money, Inc. to win the vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Beer Money, Inc.",
+      "people": [
+        "james-storm",
+        "bobby-roode"
+      ],
+      "start": "2011-01-09",
+      "end": "2011-08-09",
+      "days": 212,
+      "number": 19,
+      "event": "Genesis",
+      "location": "Orlando, FL",
+      "note": "Robert Roode switched ring name to Bobby Roode in May 2011",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Mexican America",
+      "people": [
+        "anarquia",
+        "hernandez"
+      ],
+      "start": "2011-08-09",
+      "end": "2011-11-14",
+      "days": 97,
+      "number": 20,
+      "event": "Impact",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay Aug 18",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Crimson & Matt Morgan",
+      "people": [
+        "crimson",
+        "matt-morgan"
+      ],
+      "start": "2011-11-14",
+      "end": "2012-02-12",
+      "days": 90,
+      "number": 21,
+      "event": "Impact",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay Nov 17",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Magnus & Samoa Joe",
+      "people": [
+        "nick-aldis",
+        "samoa-joe"
+      ],
+      "start": "2012-02-12",
+      "end": "2012-05-13",
+      "days": 91,
+      "number": 22,
+      "event": "Against All Odds",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Christopher Daniels & Kazarian",
+      "people": [
+        "christopher-daniels",
+        "frankie-kazarian"
+      ],
+      "start": "2012-05-13",
+      "end": "2012-06-10",
+      "days": 28,
+      "number": 23,
+      "event": "Sacrifice",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "A.J. Styles & Kurt Angle",
+      "people": [
+        "aj-styles",
+        "kurt-angle"
+      ],
+      "start": "2012-06-10",
+      "end": "2012-06-28",
+      "days": 18,
+      "number": 24,
+      "event": "Slammiversary X",
+      "location": "Arlington, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Christopher Daniels & Kazarian",
+      "people": [
+        "christopher-daniels",
+        "frankie-kazarian"
+      ],
+      "start": "2012-06-28",
+      "end": "2012-10-14",
+      "days": 108,
+      "number": 25,
+      "event": "Impact",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Chavo Guerrero Jr. & Hernandez",
+      "people": [
+        "chavo-guerrero",
+        "hernandez"
+      ],
+      "start": "2012-10-14",
+      "end": "2013-01-25",
+      "days": 103,
+      "number": 26,
+      "event": "Bound for Glory",
+      "location": "Phoenix, AZ",
+      "note": "Three-way tag match also featured A.J. Styles and Kurt Angle",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Bobby Roode & Austin Aries",
+      "people": [
+        "bobby-roode",
+        "austin-aries"
+      ],
+      "start": "2013-01-25",
+      "end": "2013-04-11",
+      "days": 76,
+      "number": 27,
+      "event": "Impact",
+      "location": "Manchester, England",
+      "note": "Aired on tape delay Feb 7",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Chavo Guerrero Jr. & Hernandez",
+      "people": [
+        "chavo-guerrero",
+        "hernandez"
+      ],
+      "start": "2013-04-11",
+      "end": "2013-06-02",
+      "days": 52,
+      "number": 28,
+      "event": "Impact",
+      "location": "Corpus Christi, TX",
+      "note": "2-out-of-3 falls match; loser would have vowed never to team again",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "Gunner & James Storm",
+      "people": [
+        "gunner",
+        "james-storm"
+      ],
+      "start": "2013-06-02",
+      "end": "2013-10-20",
+      "days": 140,
+      "number": 29,
+      "event": "Slammiversary XI",
+      "location": "Boston, MA",
+      "note": "Four-way elimination match also featured Aries/Roode and Bad Influence",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "The BroMans",
+      "people": [
+        "robbie-e",
+        "jessie-godderz"
+      ],
+      "start": "2013-10-20",
+      "end": "2014-02-23",
+      "days": 126,
+      "number": 30,
+      "event": "Bound for Glory",
+      "location": "San Diego, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "Wolves",
+      "people": [
+        "davey-richards",
+        "eddie-edwards"
+      ],
+      "start": "2014-02-23",
+      "end": "2014-03-02",
+      "days": 7,
+      "number": 31,
+      "event": "House show",
+      "location": "Morgantown, WV",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "The BroMans",
+      "people": [
+        "robbie-e",
+        "jessie-godderz"
+      ],
+      "start": "2014-03-02",
+      "end": "2014-04-27",
+      "days": 56,
+      "number": 32,
+      "event": "Kaisen: Outbreak",
+      "location": "Tokyo, Japan",
+      "note": "Three-way tag match also featured Team 246",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Wolves",
+      "people": [
+        "davey-richards",
+        "eddie-edwards"
+      ],
+      "start": "2014-04-27",
+      "end": "2014-09-19",
+      "days": 145,
+      "number": 33,
+      "event": "Sacrifice",
+      "location": "Orlando, FL",
+      "note": "2-on-3 handicap No Disqualification match; DJZ as third BroMans member",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "The Revolution",
+      "people": [
+        "abyss",
+        "james-storm"
+      ],
+      "start": "2014-09-19",
+      "end": "2015-01-30",
+      "days": 133,
+      "number": 34,
+      "event": "Impact",
+      "location": "Bethlehem, PA",
+      "note": "Storm's Feast or Fired opportunity; aired on tape delay Nov 12",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "Wolves",
+      "people": [
+        "davey-richards",
+        "eddie-edwards"
+      ],
+      "start": "2015-01-30",
+      "end": "2015-03-13",
+      "days": 42,
+      "number": 35,
+      "event": "Impact",
+      "location": "Manchester, England",
+      "note": "Aired on tape delay Mar 6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "The Hardys",
+      "people": [
+        "jeff-hardy",
+        "matt-hardy"
+      ],
+      "start": "2015-03-16",
+      "end": "2015-05-08",
+      "days": 53,
+      "number": 36,
+      "event": "Impact",
+      "location": "Orlando, FL",
+      "note": "Ultimate X match won vacant title; aired on tape delay Apr 17",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "Wolves",
+      "people": [
+        "davey-richards",
+        "eddie-edwards"
+      ],
+      "start": "2015-06-25",
+      "end": "2015-07-28",
+      "days": 33,
+      "number": 37,
+      "event": "Impact",
+      "location": "Orlando, FL",
+      "note": "30-minute Iron Man match won vacant title; aired on tape delay Jul 1",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r38",
+      "holder": "Brian Myers & Trevor Lee",
+      "people": [
+        "curt-hawkins",
+        "trevor-lee"
+      ],
+      "start": "2015-07-28",
+      "end": "2015-07-29",
+      "days": 1,
+      "number": 38,
+      "event": "Impact",
+      "location": "Orlando, FL",
+      "note": "Magnus's Feast or Fired opportunity invoked by Jeff and Karen Jarrett",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "Wolves",
+      "people": [
+        "davey-richards",
+        "eddie-edwards"
+      ],
+      "start": "2015-07-29",
+      "end": "2016-01-31",
+      "days": 186,
+      "number": 39,
+      "event": "Impact",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay Sept 9",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "Beer Money, Inc.",
+      "people": [
+        "bobby-roode",
+        "james-storm"
+      ],
+      "start": "2016-01-31",
+      "end": "2016-03-19",
+      "days": 48,
+      "number": 40,
+      "event": "Impact",
+      "location": "Birmingham, England",
+      "note": "Storm's Feast or Fired opportunity; aired on tape delay Mar 8",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "Decay",
+      "people": [
+        "abyss",
+        "crazzy-steve"
+      ],
+      "start": "2016-03-19",
+      "end": "2016-10-02",
+      "days": 197,
+      "number": 41,
+      "event": "Impact! Sacrifice",
+      "location": "Orlando, FL",
+      "note": "Valley of Shadows match; aired on tape delay Apr 26",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "The Broken Hardys",
+      "people": [
+        "matt-hardy",
+        "jeff-hardy"
+      ],
+      "start": "2016-10-02",
+      "end": "2017-03-03",
+      "days": 152,
+      "number": 42,
+      "event": "Bound for Glory",
+      "location": "Orlando, FL",
+      "note": "The Great War; team previously known as The Hardys",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "The Latin American Xchange",
+      "people": [
+        "mike-santana",
+        "ortiz"
+      ],
+      "start": "2017-03-30",
+      "end": "2017-08-20",
+      "days": 169,
+      "number": 43,
+      "event": "Impact",
+      "location": "Orlando, FL",
+      "note": "Four-way match; later unified with GFW World Tag Team Championship",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": [
+        "profile-reign-cruz-montana-142"
+      ]
+    },
+    {
+      "id": "r44",
+      "holder": "Ohio Versus Everything",
+      "people": [
+        "dave-crist",
+        "jake-crist"
+      ],
+      "start": "2017-08-20",
+      "end": "2017-11-09",
+      "days": 81,
+      "number": 44,
+      "event": "Impact! Victory Road",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay Sept 28; later renamed Impact World Tag Team Championship",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "The Latin American Xchange",
+      "people": [
+        "mike-santana",
+        "ortiz"
+      ],
+      "start": "2018-01-04",
+      "end": "2018-04-22",
+      "days": 164,
+      "number": 45,
+      "event": "Impact!",
+      "location": "Ottawa, Ontario, Canada",
+      "note": "Aired on tape delay Jan 4",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": [
+        "profile-reign-cruz-montana-140"
+      ]
+    },
+    {
+      "id": "r46",
+      "holder": "Eli Drake & Scott Steiner",
+      "people": [
+        "la-knight",
+        "scott-steiner"
+      ],
+      "start": "2018-04-22",
+      "end": "2018-04-24",
+      "days": 2,
+      "number": 46,
+      "event": "Redemption",
+      "location": "Orlando, FL",
+      "note": "Drake's Feast or Fired opportunity",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": [
+        "profile-reign-la-knight-406"
+      ]
+    },
+    {
+      "id": "r47",
+      "holder": "Z&E",
+      "people": [
+        "joaquin-wilde",
+        "andrew-everett"
+      ],
+      "start": "2018-05-17",
+      "end": "2018-06-21",
+      "days": 2,
+      "number": 47,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay May 17",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": [
+        "profile-reign-joaquin-wilde-351"
+      ]
+    },
+    {
+      "id": "r48",
+      "holder": "The Latin American Xchange",
+      "people": [
+        "mike-santana",
+        "ortiz"
+      ],
+      "start": "2018-06-21",
+      "end": "2019-01-12",
+      "days": 261,
+      "number": 48,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay Jun 21",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": [
+        "profile-reign-cruz-montana-139"
+      ]
+    },
+    {
+      "id": "r49",
+      "holder": "The Lucha Bros.",
+      "people": [
+        "penta",
+        "rey-fenix"
+      ],
+      "start": "2019-02-08",
+      "end": "2019-04-28",
+      "days": 106,
+      "number": 49,
+      "event": "Impact!",
+      "location": "Mexico City, Mexico",
+      "note": "Aired on tape delay Feb 8",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": [
+        "profile-reign-penta-517",
+        "profile-reign-rey-fenix-646"
+      ]
+    },
+    {
+      "id": "r50",
+      "holder": "The Latin American Xchange",
+      "people": [
+        "mike-santana",
+        "ortiz"
+      ],
+      "start": "2019-04-28",
+      "end": "2019-07-05",
+      "days": 68,
+      "number": 50,
+      "event": "Rebellion",
+      "location": "Toronto, Ontario, Canada",
+      "note": "Full Metal Mayhem match",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": [
+        "profile-reign-cruz-montana-138"
+      ]
+    },
+    {
+      "id": "r51",
+      "holder": "The North",
+      "people": [
+        "ethan-page",
+        "josh-alexander"
+      ],
+      "start": "2019-07-05",
+      "end": "2020-07-19",
+      "days": 380,
+      "number": 51,
+      "event": "Bash at the Brewery",
+      "location": "San Antonio, TX",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": [
+        "profile-reign-ethan-page-264"
+      ]
+    },
+    {
+      "id": "r52",
+      "holder": "Motor City Machine Guns",
+      "people": [
+        "alex-shelley",
+        "chris-sabin"
+      ],
+      "start": "2020-07-19",
+      "end": "2020-10-24",
+      "days": 97,
+      "number": 52,
+      "event": "Impact!",
+      "location": "Nashville, TN",
+      "note": "Aired on tape delay Jul 21",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r53",
+      "holder": "The North",
+      "people": [
+        "ethan-page",
+        "josh-alexander"
+      ],
+      "start": "2020-10-24",
+      "end": "2020-11-14",
+      "days": 21,
+      "number": 53,
+      "event": "Bound for Glory",
+      "location": "Nashville, TN",
+      "note": "Four-way tag match also featured Ace Austin/Madman Fulton and The Good Brothers",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": [
+        "profile-reign-ethan-page-263"
+      ]
+    },
+    {
+      "id": "r54",
+      "holder": "The Good Brothers",
+      "people": [
+        "doc-gallows",
+        "karl-anderson"
+      ],
+      "start": "2020-11-14",
+      "end": "2021-03-13",
+      "days": 119,
+      "number": 54,
+      "event": "Turning Point",
+      "location": "Nashville, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r55",
+      "holder": "FinJuice",
+      "people": [
+        "david-finlay",
+        "c-j-parker"
+      ],
+      "start": "2021-03-13",
+      "end": "2021-05-17",
+      "days": 65,
+      "number": 55,
+      "event": "Sacrifice",
+      "location": "Nashville, TN",
+      "note": "Date from tape-delayed special; actual match date unknown",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r56",
+      "holder": "Violent By Design",
+      "people": [
+        "eric-young",
+        "rhyno",
+        "joe-doering",
+        "deaner"
+      ],
+      "start": "2021-05-17",
+      "end": "2021-07-17",
+      "days": 61,
+      "number": 56,
+      "event": "Impact!",
+      "location": "Nashville, TN",
+      "note": "Rhino's Call Your Shot opportunity; Rhino and Doering won; Young and Deaner via Freebird Rule",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "The Good Brothers",
+      "people": [
+        "doc-gallows",
+        "karl-anderson"
+      ],
+      "start": "2021-07-17",
+      "end": "2022-03-05",
+      "days": 231,
+      "number": 57,
+      "event": "Slammiversary",
+      "location": "Nashville, TN",
+      "note": "Four-way match also featured Rich Swann/Willie Mack and Fallah Bahh/No Way",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r58",
+      "holder": "Violent By Design",
+      "people": [
+        "eric-young",
+        "joe-doering",
+        "deaner"
+      ],
+      "start": "2022-03-05",
+      "end": "2022-05-07",
+      "days": 63,
+      "number": 58,
+      "event": "Sacrifice",
+      "location": "Louisville, KY",
+      "note": "Doering and Young won; Deaner recognized via Freebird Rule",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r59",
+      "holder": "The Briscoes",
+      "people": [
+        "jay-briscoe",
+        "mark-briscoe"
+      ],
+      "start": "2022-05-07",
+      "end": "2022-06-19",
+      "days": 43,
+      "number": 59,
+      "event": "Under Siege",
+      "location": "Newport, KY",
+      "note": "Eric Young and Deaner represented Violent By Design",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r60",
+      "holder": "The Good Brothers",
+      "people": [
+        "doc-gallows",
+        "karl-anderson"
+      ],
+      "start": "2022-06-19",
+      "end": "2022-08-26",
+      "days": 68,
+      "number": 60,
+      "event": "Slammiversary",
+      "location": "Nashville, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r61",
+      "holder": "The Kingdom",
+      "people": [
+        "mike-kanellis",
+        "matt-taven"
+      ],
+      "start": "2022-08-26",
+      "end": "2022-10-08",
+      "days": 43,
+      "number": 61,
+      "event": "Impact!",
+      "location": "Dallas, TX",
+      "note": "Aired on tape delay Sept 1",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r62",
+      "holder": "Heath & Rhino",
+      "people": [
+        "heath-slater",
+        "rhyno"
+      ],
+      "start": "2022-10-08",
+      "end": "2022-12-09",
+      "days": 62,
+      "number": 62,
+      "event": "Impact!",
+      "location": "Albany, NY",
+      "note": "Aired on tape delay Oct 20",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r63",
+      "holder": "Motor City Machine Guns",
+      "people": [
+        "alex-shelley",
+        "chris-sabin"
+      ],
+      "start": "2022-12-09",
+      "end": "2023-02-25",
+      "days": 78,
+      "number": 63,
+      "event": "Impact!",
+      "location": "Pembroke Pines, FL",
+      "note": "Aired on tape delay Dec 15",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r64",
+      "holder": "ABC",
+      "people": [
+        "ace-austin",
+        "chris-bey"
+      ],
+      "start": "2023-02-25",
+      "end": "2023-07-15",
+      "days": 140,
+      "number": 64,
+      "event": "Impact!",
+      "location": "Sunrise Manor, NV",
+      "note": "Aired on tape delay Mar 2",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r65",
+      "holder": "Subculture",
+      "people": [
+        "mark-andrews",
+        "flash-morgan-webster"
+      ],
+      "start": "2023-07-15",
+      "end": "2023-08-27",
+      "days": 43,
+      "number": 65,
+      "event": "Slammiversary",
+      "location": "Windsor, Ontario, Canada",
+      "note": "Four-way match also featured Rich Swann/Sami Callihan and Brian Myers/Moose",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r66",
+      "holder": "The Rascalz",
+      "people": [
+        "trey-miguel",
+        "zachary-wentz"
+      ],
+      "start": "2023-08-27",
+      "end": "2023-10-21",
+      "days": 55,
+      "number": 66,
+      "event": "Emergence",
+      "location": "Toronto, Ontario, Canada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r67",
+      "holder": "ABC",
+      "people": [
+        "ace-austin",
+        "chris-bey"
+      ],
+      "start": "2023-10-21",
+      "end": "2024-03-08",
+      "days": 139,
+      "number": 67,
+      "event": "Bound for Glory",
+      "location": "Cicero, IL",
+      "note": "Bey's Feast or Fired opportunity; company later reverted to TNA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r68",
+      "holder": "The System",
+      "people": [
+        "curt-hawkins",
+        "eddie-edwards"
+      ],
+      "start": "2024-03-08",
+      "end": "2024-07-20",
+      "days": 134,
+      "number": 68,
+      "event": "Sacrifice",
+      "location": "Windsor, Ontario, Canada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r69",
+      "holder": "ABC",
+      "people": [
+        "ace-austin",
+        "chris-bey"
+      ],
+      "start": "2024-07-20",
+      "end": "2024-09-13",
+      "days": 55,
+      "number": 69,
+      "event": "Slammiversary",
+      "location": "Montreal, Quebec, Canada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r70",
+      "holder": "The System",
+      "people": [
+        "curt-hawkins",
+        "eddie-edwards"
+      ],
+      "start": "2024-09-13",
+      "end": "2024-10-26",
+      "days": 43,
+      "number": 70,
+      "event": "Victory Road",
+      "location": "San Antonio, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r71",
+      "holder": "The Hardys",
+      "people": [
+        "matt-hardy",
+        "jeff-hardy"
+      ],
+      "start": "2024-10-26",
+      "end": "2025-04-27",
+      "days": 183,
+      "number": 71,
+      "event": "Bound for Glory",
+      "location": "Detroit, MI",
+      "note": "Three-way Full Metal Mayhem match also featured ABC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r72",
+      "holder": "The Nemeths",
+      "people": [
+        "dolph-ziggler",
+        "ryan-nemeth"
+      ],
+      "start": "2025-04-27",
+      "end": "2025-07-20",
+      "days": 84,
+      "number": 72,
+      "event": "Rebellion",
+      "location": "Los Angeles, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r73",
+      "holder": "The Hardys",
+      "people": [
+        "matt-hardy",
+        "jeff-hardy"
+      ],
+      "start": "2025-07-20",
+      "end": "2026-04-11",
+      "days": 265,
+      "number": 73,
+      "event": "Slammiversary",
+      "location": "Elmont, NY",
+      "note": "Four-way ladder match also featured The Rascalz and Fir$t Cla$$",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r74",
+      "holder": "The System",
+      "people": [
+        "curt-hawkins",
+        "bear-bronson"
+      ],
+      "start": "2026-04-11",
+      "end": "2026-06-28",
+      "days": 78,
+      "number": 74,
+      "event": "Rebellion",
+      "location": "Cleveland, OH",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r75",
+      "holder": "The Broken Hardys",
+      "people": [
+        "matt-hardy",
+        "jeff-hardy"
+      ],
+      "start": "2026-06-28",
+      "end": "2026-08-23",
+      "days": 56,
+      "number": 75,
+      "event": "Slammiversary",
+      "location": "Boston, MA",
+      "note": "Four-way ladder match also featured The Righteous and The Great Hands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r76",
+      "holder": "The Nemeths",
+      "people": [
+        "dolph-ziggler",
+        "ryan-nemeth"
+      ],
+      "start": "2026-08-23",
+      "days": 13,
+      "number": 76,
+      "event": "Lockdown",
+      "location": "Chicago, IL",
+      "note": "Steel Cage tornado tag team match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

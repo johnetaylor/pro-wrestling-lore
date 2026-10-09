@@ -1,15 +1,2425 @@
 {
   "id": "united-states-championship",
   "name": "United States Championship",
+  "short": "US",
+  "promotion": "wwe",
+  "division": "men",
+  "format": "singles",
+  "established": "1974-12-31",
+  "featured": true,
   "names": [
-    "United States Championship",
-    "WWE United States Championship"
+    "WWE United States Championship",
+    "NWA United States Heavyweight Championship (Mid-Atlantic)",
+    "NWA United States Heavyweight Championship (Undisputed)",
+    "WCW United States Heavyweight Championship",
+    "WCW United States Championship"
+  ],
+  "eras": [
+    {
+      "name": "NWA United States Heavyweight Championship (Mid-Atlantic)",
+      "from": "1974-12-31",
+      "to": "1981-01"
+    },
+    {
+      "name": "NWA United States Heavyweight Championship (Undisputed)",
+      "from": "1981-01",
+      "to": "1991-01"
+    },
+    {
+      "name": "WCW United States Heavyweight Championship",
+      "from": "1991-01",
+      "to": "2001"
+    },
+    {
+      "name": "WCW United States Championship",
+      "from": "2001",
+      "to": "2003-07"
+    },
+    {
+      "name": "WWE United States Championship",
+      "from": "2003-07"
+    }
+  ],
+  "history": [
+    {
+      "date": "1981-01",
+      "kind": "recognition",
+      "text": "Big Time Wrestling closed, leaving the Mid-Atlantic version as the only United States Championship.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "1986",
+      "kind": "recognition",
+      "text": "Crockett gained control of the NWA World Heavyweight Championship, and the United States title became secondary.",
+      "related": [
+        "NWA World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "1988-11",
+      "kind": "promotion",
+      "text": "Ted Turner bought the company and renamed it World Championship Wrestling; the title stayed secondary to the World Championship.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "1991-01",
+      "kind": "recognition",
+      "text": "The title was renamed as WCW began pulling away from the NWA.",
+      "related": [
+        "NWA"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "2001-03",
+      "kind": "promotion",
+      "text": "After WWF bought WCW, the WCW United States Championship was used in WWF programming.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "2001",
+      "kind": "unified-into",
+      "text": "Unified at Survivor Series when Edge beat Test to become Intercontinental Champion.",
+      "related": [
+        "WWF Intercontinental Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "2001",
+      "kind": "deactivated",
+      "text": "The title was deactivated following its unification with the Intercontinental Championship.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "2003-07",
+      "kind": "reactivated",
+      "text": "Reactivated as the WWE United States Championship, a secondary SmackDown title; Eddie Guerrero won the first tournament at Vengeance.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "2003-07-27",
+      "kind": "brand",
+      "text": "Reactivated as SmackDown!'s secondary title, the counterpart to Raw's Intercontinental Championship.",
+      "related": [
+        "SmackDown!"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "2008-06-23",
+      "kind": "brand",
+      "text": "Champion Matt Hardy was drafted to ECW in the 2008 WWE Draft.",
+      "related": [
+        "ECW"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "2008-07-20",
+      "kind": "brand",
+      "text": "Shelton Benjamin beat Matt Hardy, returning the title to SmackDown.",
+      "related": [
+        "SmackDown"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "2009-04-13",
+      "kind": "brand",
+      "text": "Champion Montel Vontavious Porter was drafted to Raw in the 2009 WWE Draft.",
+      "related": [
+        "Raw"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "2011-04-26",
+      "kind": "brand",
+      "text": "Champion Sheamus was drafted to SmackDown in the 2011 WWE Draft.",
+      "related": [
+        "SmackDown"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "2011-05-01",
+      "kind": "brand",
+      "text": "Kofi Kingston beat Sheamus, moving the title back to Raw.",
+      "related": [
+        "Raw"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "2011-08-29",
+      "kind": "brand",
+      "text": "The first brand extension ended, and the title could be defended on both Raw and SmackDown.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "2015",
+      "kind": "recognition",
+      "text": "The title became officially recognized as a component of the re-established Grand Slam Championship.",
+      "related": [
+        "Grand Slam Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "2016-07-19",
+      "kind": "brand",
+      "text": "The brand extension was reintroduced, and champion Rusev was drafted to Raw.",
+      "related": [
+        "Raw"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "2017-04-11",
+      "kind": "brand",
+      "text": "Champion Kevin Owens moved to SmackDown in the 2017 Superstar Shake-up.",
+      "related": [
+        "SmackDown"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "2017-12-26",
+      "kind": "interim",
+      "text": "Dolph Ziggler vacated the title, and a tournament was held to crown a new champion, won by Jinder Mahal.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "2018-04-16",
+      "kind": "brand",
+      "text": "Champion Jinder Mahal was drafted to Raw on night one of the 2018 Superstar Shake-up.",
+      "related": [
+        "Raw"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "2018-04-17",
+      "kind": "brand",
+      "text": "Jeff Hardy beat Mahal and was drafted to SmackDown, returning the title there.",
+      "related": [
+        "SmackDown"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "2019-04-22",
+      "kind": "brand",
+      "text": "Champion Samoa Joe was drafted to Raw in the 2019 Superstar Shake-up.",
+      "related": [
+        "Raw"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    },
+    {
+      "date": "2023-05-08",
+      "kind": "brand",
+      "text": "Champion Austin Theory was drafted to SmackDown in the 2023 WWE Draft.",
+      "related": [
+        "SmackDown"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
+      ]
+    }
   ],
   "sources": [
     "https://www.wwe.com/titlehistory/united-states-championship",
-    "https://www.wwe.com/classics/classic-lists/us-title-history"
+    "https://www.wwe.com/classics/classic-lists/us-title-history",
+    "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions",
+    "https://en.wikipedia.org/wiki/WWE_United_States_Championship"
   ],
   "reigns": [
+    {
+      "id": "r39",
+      "holder": "Harley Race",
+      "people": [
+        "harley-race"
+      ],
+      "start": "1975-01-01",
+      "end": "1975-07-03",
+      "days": 183,
+      "number": 1,
+      "event": "House show",
+      "location": "Tallahassee, FL",
+      "note": "Won tournament final; inaugural champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "Johnny Valentine",
+      "people": [
+        "johnny-valentine"
+      ],
+      "start": "1975-07-03",
+      "end": "1975-10-04",
+      "days": 93,
+      "number": 2,
+      "event": "House show",
+      "location": "Greensboro, NC",
+      "note": "WWE days recognized: 92",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "Terry Funk",
+      "people": [
+        "terry-funk"
+      ],
+      "start": "1975-11-09",
+      "end": "1975-11-27",
+      "days": 18,
+      "number": 3,
+      "event": "House show",
+      "location": "Greensboro, NC",
+      "note": "Won tournament final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Paul Jones",
+      "people": [
+        "paul-jones"
+      ],
+      "start": "1975-11-27",
+      "end": "1976-03-13",
+      "days": 107,
+      "number": 4,
+      "event": "House show",
+      "location": "Greensboro, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "Blackjack Mulligan",
+      "people": [
+        "blackjack-mulligan"
+      ],
+      "start": "1976-03-13",
+      "end": "1976-10-16",
+      "days": 217,
+      "number": 5,
+      "event": "House show",
+      "location": "Greensboro, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "Paul Jones",
+      "people": [
+        "paul-jones"
+      ],
+      "start": "1976-10-16",
+      "end": "1976-11-28",
+      "days": 43,
+      "number": 6,
+      "event": "House show",
+      "location": "Greensboro, NC",
+      "note": "WWE says reign ended 1976-11-28",
+      "dateNote": "The source counts this reign to 1976-11-28, past the next change it lists.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "Blackjack Mulligan",
+      "people": [
+        "blackjack-mulligan"
+      ],
+      "start": "1976-11-28",
+      "end": "1976-12-09",
+      "days": 11,
+      "kind": "unrecognized",
+      "event": "House show",
+      "location": "Charlotte, NC",
+      "note": "Unrecognized by WWE",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "Paul Jones",
+      "people": [
+        "paul-jones"
+      ],
+      "start": "1976-12-09",
+      "end": "1976-12-15",
+      "days": 6,
+      "kind": "unrecognized",
+      "event": "House show",
+      "location": "Winston-Salem, NC",
+      "note": "Unrecognized by WWE",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "Blackjack Mulligan",
+      "people": [
+        "blackjack-mulligan"
+      ],
+      "start": "1976-12-15",
+      "end": "1977-07-07",
+      "days": 204,
+      "number": 7,
+      "event": "House show",
+      "location": "Raleigh, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "Bobo Brazil",
+      "people": [
+        "bobo-brazil"
+      ],
+      "start": "1977-07-07",
+      "end": "1977-07-29",
+      "days": 22,
+      "number": 8,
+      "event": "House show",
+      "location": "Norfolk, VA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r49",
+      "holder": "Ric Flair",
+      "people": [
+        "ric-flair"
+      ],
+      "start": "1977-07-29",
+      "end": "1977-10-21",
+      "days": 84,
+      "number": 9,
+      "event": "House show",
+      "location": "Richmond, VA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r50",
+      "holder": "Ricky Steamboat",
+      "people": [
+        "ricky-steamboat"
+      ],
+      "start": "1977-10-21",
+      "end": "1978-01-01",
+      "days": 72,
+      "number": 10,
+      "event": "House show",
+      "location": "Charleston, SC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r51",
+      "holder": "Blackjack Mulligan",
+      "people": [
+        "blackjack-mulligan"
+      ],
+      "start": "1978-01-01",
+      "end": "1978-03-19",
+      "days": 77,
+      "number": 11,
+      "event": "House show",
+      "location": "Greensboro, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "Mr. Wrestling",
+      "people": [
+        "mr-wrestling"
+      ],
+      "start": "1978-03-19",
+      "end": "1978-04-09",
+      "days": 21,
+      "number": 12,
+      "event": "House show",
+      "location": "Greensboro, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r53",
+      "holder": "Ric Flair",
+      "people": [
+        "ric-flair"
+      ],
+      "start": "1978-04-09",
+      "end": "1978-12-17",
+      "days": 253,
+      "number": 13,
+      "event": "House show",
+      "location": "Charlotte, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r54",
+      "holder": "Ricky Steamboat",
+      "people": [
+        "ricky-steamboat"
+      ],
+      "start": "1978-12-17",
+      "end": "1979-04-01",
+      "days": 105,
+      "number": 14,
+      "event": "House show",
+      "location": "Toronto, ON, Canada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r55",
+      "holder": "Ric Flair",
+      "people": [
+        "ric-flair"
+      ],
+      "start": "1979-04-01",
+      "end": "1979-08-12",
+      "days": 133,
+      "number": 15,
+      "event": "House show",
+      "location": "Greensboro, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r56",
+      "holder": "Jimmy Snuka",
+      "people": [
+        "jimmy-snuka"
+      ],
+      "start": "1979-09-01",
+      "end": "1980-04-19",
+      "days": 231,
+      "number": 16,
+      "event": "House show",
+      "location": "Charlotte, NC",
+      "note": "Won tournament final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "Ric Flair",
+      "people": [
+        "ric-flair"
+      ],
+      "start": "1980-04-19",
+      "end": "1980-07-26",
+      "days": 98,
+      "number": 17,
+      "event": "House show",
+      "location": "Greensboro, NC",
+      "note": "WWE dates reign start 1980-04-20",
+      "dateNote": "The source counts this reign to 1980-07-26, past the next change it lists.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r58",
+      "holder": "Greg Valentine",
+      "people": [
+        "greg-valentine"
+      ],
+      "start": "1980-07-26",
+      "end": "1980-11-24",
+      "days": 121,
+      "kind": "unrecognized",
+      "event": "House show",
+      "location": "Charlotte, NC",
+      "note": "Unrecognized by WWE",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r59",
+      "holder": "Ric Flair",
+      "people": [
+        "ric-flair"
+      ],
+      "start": "1980-11-24",
+      "end": "1981-01-27",
+      "days": 64,
+      "kind": "unrecognized",
+      "event": "House show",
+      "location": "Greenville, SC",
+      "note": "Unrecognized by WWE",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r60",
+      "holder": "Roddy Piper",
+      "people": [
+        "roddy-piper"
+      ],
+      "start": "1981-01-27",
+      "end": "1981-08-08",
+      "days": 193,
+      "number": 18,
+      "event": "House show",
+      "location": "Raleigh, NC",
+      "note": "Title became undisputed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r61",
+      "holder": "Wahoo McDaniel",
+      "people": [
+        "wahoo-mcdaniel"
+      ],
+      "start": "1981-08-08",
+      "end": "1981-09-08",
+      "days": 31,
+      "number": 19,
+      "event": "House show",
+      "location": "Greensboro, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r62",
+      "holder": "Sgt. Slaughter",
+      "people": [
+        "sgt-slaughter"
+      ],
+      "start": "1981-10-04",
+      "end": "1982-05-21",
+      "days": 229,
+      "number": 20,
+      "event": "House show",
+      "location": "Charlotte, NC",
+      "note": "Won tournament final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r63",
+      "holder": "Wahoo McDaniel",
+      "people": [
+        "wahoo-mcdaniel"
+      ],
+      "start": "1982-05-21",
+      "end": "1982-06-07",
+      "days": 17,
+      "number": 21,
+      "event": "House show",
+      "location": "Richmond, VA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r64",
+      "holder": "Sgt. Slaughter",
+      "people": [
+        "sgt-slaughter"
+      ],
+      "start": "1982-06-07",
+      "end": "1982-08-22",
+      "days": 76,
+      "number": 22,
+      "event": "House show",
+      "location": "Greenville, SC",
+      "note": "Awarded title after McDaniel was injured pre-match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r65",
+      "holder": "Wahoo McDaniel",
+      "people": [
+        "wahoo-mcdaniel"
+      ],
+      "start": "1982-08-22",
+      "end": "1982-11-04",
+      "days": 74,
+      "number": 23,
+      "event": "House show",
+      "location": "Charlotte, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r66",
+      "holder": "Greg Valentine",
+      "people": [
+        "greg-valentine"
+      ],
+      "start": "1982-11-04",
+      "end": "1983-04-16",
+      "days": 163,
+      "number": 24,
+      "event": "House show",
+      "location": "Norfolk, VA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r67",
+      "holder": "Roddy Piper",
+      "people": [
+        "roddy-piper"
+      ],
+      "start": "1983-04-16",
+      "end": "1983-05-01",
+      "days": 14,
+      "number": 25,
+      "event": "House show",
+      "location": "Greensboro, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r68",
+      "holder": "Greg Valentine",
+      "people": [
+        "greg-valentine"
+      ],
+      "start": "1983-05-01",
+      "end": "1983-12-14",
+      "days": 228,
+      "number": 26,
+      "event": "House show",
+      "location": "Greensboro, NC",
+      "note": "Won when Piper's cut stopped the match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r69",
+      "holder": "Dick Slater",
+      "people": [
+        "dick-slater"
+      ],
+      "start": "1983-12-14",
+      "end": "1984-04-21",
+      "days": 129,
+      "number": 27,
+      "event": "House show",
+      "location": "Shelby, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r70",
+      "holder": "Ricky Steamboat",
+      "people": [
+        "ricky-steamboat"
+      ],
+      "start": "1984-04-21",
+      "end": "1984-06-24",
+      "days": 64,
+      "number": 28,
+      "event": "House show",
+      "location": "Greensboro, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r71",
+      "holder": "Wahoo McDaniel",
+      "people": [
+        "wahoo-mcdaniel"
+      ],
+      "start": "1984-06-24",
+      "end": "1984-07-01",
+      "days": 7,
+      "number": 29,
+      "event": "House show",
+      "location": "Greensboro, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r72",
+      "holder": "Wahoo McDaniel",
+      "people": [
+        "wahoo-mcdaniel"
+      ],
+      "start": "1984-10-07",
+      "end": "1985-03-23",
+      "days": 167,
+      "number": 30,
+      "event": "House show",
+      "location": "Charlotte, NC",
+      "note": "Won tournament final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r73",
+      "holder": "Magnum T. A.",
+      "people": [
+        "magnum-t-a"
+      ],
+      "start": "1985-03-23",
+      "end": "1985-07-21",
+      "days": 120,
+      "number": 31,
+      "event": "World Wide Wrestling",
+      "location": "Charlotte, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r74",
+      "holder": "Tully Blanchard",
+      "people": [
+        "tully-blanchard"
+      ],
+      "start": "1985-07-21",
+      "end": "1985-11-28",
+      "days": 130,
+      "number": 32,
+      "event": "House show",
+      "location": "Charlotte, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r75",
+      "holder": "Magnum T. A.",
+      "people": [
+        "magnum-t-a"
+      ],
+      "start": "1985-11-28",
+      "end": "1986-05-29",
+      "days": 182,
+      "number": 33,
+      "event": "Starrcade",
+      "location": "Greensboro, NC",
+      "note": "Steel cage I quit match; WWE lists stripped 1986-05-01",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r76",
+      "holder": "Nikita Koloff",
+      "people": [
+        "nikita-koloff"
+      ],
+      "start": "1986-08-17",
+      "end": "1987-07-11",
+      "days": 328,
+      "number": 34,
+      "event": "House show",
+      "location": "Charlotte, NC",
+      "note": "Won best-of-seven series for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r77",
+      "holder": "Lex Luger",
+      "people": [
+        "lex-luger"
+      ],
+      "start": "1987-07-11",
+      "end": "1987-11-26",
+      "days": 138,
+      "number": 35,
+      "event": "Great American Bash",
+      "location": "Greensboro, NC",
+      "note": "Steel cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r78",
+      "holder": "Dusty Rhodes",
+      "people": [
+        "dusty-rhodes"
+      ],
+      "start": "1987-11-26",
+      "end": "1988-04-09",
+      "days": 141,
+      "number": 36,
+      "event": "Starrcade",
+      "location": "Chicago, IL",
+      "note": "Steel cage match",
+      "dateNote": "The source prints 141 days; its dates give 135.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r79",
+      "holder": "Barry Windham",
+      "people": [
+        "barry-windham"
+      ],
+      "start": "1988-05-13",
+      "end": "1989-02-20",
+      "days": 283,
+      "number": 37,
+      "event": "House show",
+      "location": "Houston, TX",
+      "note": "Won tournament final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r80",
+      "holder": "Lex Luger",
+      "people": [
+        "lex-luger"
+      ],
+      "start": "1989-02-20",
+      "end": "1989-05-07",
+      "days": 76,
+      "number": 38,
+      "event": "Chi-Town Rumble",
+      "location": "Chicago, IL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r81",
+      "holder": "Michael Hayes",
+      "people": [
+        "michael-hayes"
+      ],
+      "start": "1989-05-07",
+      "end": "1989-05-22",
+      "days": 15,
+      "number": 39,
+      "event": "WrestleWar",
+      "location": "Nashville, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r82",
+      "holder": "Lex Luger",
+      "people": [
+        "lex-luger"
+      ],
+      "start": "1989-05-22",
+      "end": "1990-10-27",
+      "days": 523,
+      "number": 40,
+      "event": "House show",
+      "location": "Bluefield, WV",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r83",
+      "holder": "Stan Hansen",
+      "people": [
+        "stan-hansen"
+      ],
+      "start": "1990-10-27",
+      "end": "1990-12-16",
+      "days": 50,
+      "number": 41,
+      "event": "Halloween Havoc",
+      "location": "Chicago, IL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r84",
+      "holder": "Lex Luger",
+      "people": [
+        "lex-luger"
+      ],
+      "start": "1990-12-16",
+      "end": "1991-07-14",
+      "days": 210,
+      "number": 42,
+      "event": "Starrcade",
+      "location": "St. Louis, MO",
+      "note": "Texas Bullrope match; title later renamed WCW",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r85",
+      "holder": "Sting",
+      "people": [
+        "sting"
+      ],
+      "start": "1991-08-25",
+      "end": "1991-11-19",
+      "days": 86,
+      "number": 43,
+      "event": "House show",
+      "location": "Atlanta, GA",
+      "note": "Won tournament final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r86",
+      "holder": "Rick Rude",
+      "people": [
+        "rick-rude"
+      ],
+      "start": "1991-11-19",
+      "end": "1992-12-01",
+      "days": 378,
+      "number": 44,
+      "event": "Clash of the Champions XVII",
+      "location": "Savannah, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r87",
+      "holder": "Dustin Rhodes",
+      "people": [
+        "dustin-rhodes"
+      ],
+      "start": "1993-01-11",
+      "end": "1993-05-29",
+      "days": 138,
+      "number": 45,
+      "event": "Saturday Night",
+      "location": "Atlanta, GA",
+      "note": "WWE lists 109 days; aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r88",
+      "holder": "Dustin Rhodes",
+      "people": [
+        "dustin-rhodes"
+      ],
+      "start": "1993-08-30",
+      "end": "1993-12-27",
+      "days": 119,
+      "number": 46,
+      "event": "Saturday Night",
+      "location": "Atlanta, GA",
+      "note": "Won rematch for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r89",
+      "holder": "Steve Austin",
+      "people": [
+        "stone-cold-steve-austin"
+      ],
+      "start": "1993-12-27",
+      "end": "1994-08-24",
+      "days": 240,
+      "number": 47,
+      "event": "Starrcade '93: 10th Anniversary",
+      "location": "Charlotte, NC",
+      "note": "Two of three falls match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r90",
+      "holder": "Ricky Steamboat",
+      "people": [
+        "ricky-steamboat"
+      ],
+      "start": "1994-08-24",
+      "end": "1994-09-18",
+      "days": 25,
+      "number": 48,
+      "event": "Clash of the Champions XXVIII",
+      "location": "Cedar Rapids, IA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r91",
+      "holder": "Steve Austin",
+      "people": [
+        "stone-cold-steve-austin"
+      ],
+      "start": "1994-09-18",
+      "end": "1994-09-18",
+      "days": 0,
+      "number": 49,
+      "event": "Fall Brawl 1994: War Games",
+      "location": "Roanoke, VA",
+      "note": "Awarded after Steamboat was injured",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r92",
+      "holder": "Jim Duggan",
+      "people": [
+        "jim-duggan"
+      ],
+      "start": "1994-09-18",
+      "end": "1994-12-27",
+      "days": 100,
+      "number": 50,
+      "event": "Fall Brawl 1994: War Games",
+      "location": "Roanoke, VA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r93",
+      "holder": "Vader",
+      "people": [
+        "vader"
+      ],
+      "start": "1994-12-27",
+      "end": "1995-03-25",
+      "days": 88,
+      "number": 51,
+      "event": "Starrcade",
+      "location": "Nashville, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r94",
+      "holder": "Sting",
+      "people": [
+        "sting"
+      ],
+      "start": "1995-06-18",
+      "end": "1995-11-13",
+      "days": 148,
+      "number": 52,
+      "event": "The Great American Bash",
+      "location": "Dayton, OH",
+      "note": "Won tournament final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r95",
+      "holder": "Kensuke Sasaki",
+      "people": [
+        "kensuke-sasaki"
+      ],
+      "start": "1995-11-13",
+      "end": "1995-12-27",
+      "days": 44,
+      "number": 53,
+      "event": "WCW World in Japan",
+      "location": "Tokyo, Japan",
+      "note": "Won at New Japan event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r96",
+      "holder": "One Man Gang",
+      "people": [
+        "one-man-gang"
+      ],
+      "start": "1995-12-27",
+      "end": "1996-01-29",
+      "days": 33,
+      "number": 54,
+      "event": "Starrcade: World Cup of Wrestling",
+      "location": "Nashville, TN",
+      "note": "Dark match win not recognized by WCW or WWE",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r97",
+      "holder": "Konnan",
+      "people": [
+        "konnan"
+      ],
+      "start": "1996-01-29",
+      "end": "1996-07-07",
+      "days": 160,
+      "number": 55,
+      "event": "Main Event",
+      "location": "Canton, OH",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r98",
+      "holder": "Ric Flair",
+      "people": [
+        "ric-flair"
+      ],
+      "start": "1996-07-07",
+      "end": "1996-11-25",
+      "days": 141,
+      "number": 56,
+      "event": "Bash at the Beach",
+      "location": "Daytona Beach, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r99",
+      "holder": "Eddie Guerrero",
+      "people": [
+        "eddie-guerrero"
+      ],
+      "start": "1996-12-29",
+      "end": "1997-03-16",
+      "days": 77,
+      "number": 57,
+      "event": "Starrcade",
+      "location": "Nashville, TN",
+      "note": "Won tournament final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r100",
+      "holder": "Dean Malenko",
+      "people": [
+        "dean-malenko"
+      ],
+      "start": "1997-03-16",
+      "end": "1997-06-09",
+      "days": 85,
+      "number": 58,
+      "event": "Uncensored",
+      "location": "North Charleston, SC",
+      "note": "No disqualification match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r101",
+      "holder": "Jeff Jarrett",
+      "people": [
+        "jeff-jarrett"
+      ],
+      "start": "1997-06-09",
+      "end": "1997-08-21",
+      "days": 73,
+      "number": 59,
+      "event": "Nitro",
+      "location": "Boston, MA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r102",
+      "holder": "Steve McMichael",
+      "people": [
+        "steve-mcmichael"
+      ],
+      "start": "1997-08-21",
+      "end": "1997-09-15",
+      "days": 25,
+      "number": 60,
+      "event": "Clash of the Champions XXXV",
+      "location": "Nashville, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r103",
+      "holder": "Curt Hennig",
+      "people": [
+        "curt-hennig"
+      ],
+      "start": "1997-09-15",
+      "end": "1997-12-28",
+      "days": 104,
+      "number": 61,
+      "event": "Nitro",
+      "location": "Charlotte, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r104",
+      "holder": "Diamond Dallas Page",
+      "people": [
+        "diamond-dallas-page"
+      ],
+      "start": "1997-12-28",
+      "end": "1998-04-19",
+      "days": 112,
+      "number": 62,
+      "event": "Starrcade",
+      "location": "Washington, D.C.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r105",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "1998-04-19",
+      "end": "1998-04-20",
+      "days": 1,
+      "number": 63,
+      "event": "Spring Stampede",
+      "location": "Denver, CO",
+      "note": "Raven's Rules match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r106",
+      "holder": "Goldberg",
+      "people": [
+        "goldberg"
+      ],
+      "start": "1998-04-20",
+      "end": "1998-07-06",
+      "days": 77,
+      "number": 64,
+      "event": "Nitro",
+      "location": "Colorado Springs, CO",
+      "note": "Raven's Rules match; WWE lists 90 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r107",
+      "holder": "Bret Hart",
+      "people": [
+        "bret-hart"
+      ],
+      "start": "1998-07-20",
+      "end": "1998-08-10",
+      "days": 21,
+      "number": 65,
+      "event": "Nitro",
+      "location": "Salt Lake City, UT",
+      "note": "Won vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r108",
+      "holder": "Lex Luger",
+      "people": [
+        "lex-luger"
+      ],
+      "start": "1998-08-10",
+      "end": "1998-08-13",
+      "days": 3,
+      "number": 66,
+      "event": "Nitro",
+      "location": "Rapid City, SD",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r109",
+      "holder": "Bret Hart",
+      "people": [
+        "bret-hart"
+      ],
+      "start": "1998-08-13",
+      "end": "1998-10-26",
+      "days": 74,
+      "number": 67,
+      "event": "Thunder",
+      "location": "Fargo, ND",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r110",
+      "holder": "Diamond Dallas Page",
+      "people": [
+        "diamond-dallas-page"
+      ],
+      "start": "1998-10-26",
+      "end": "1998-11-30",
+      "days": 35,
+      "number": 68,
+      "event": "Nitro",
+      "location": "Phoenix, AZ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r111",
+      "holder": "Bret Hart",
+      "people": [
+        "bret-hart"
+      ],
+      "start": "1998-11-30",
+      "end": "1999-02-08",
+      "days": 70,
+      "number": 69,
+      "event": "Nitro",
+      "location": "Chattanooga, TN",
+      "note": "No disqualification match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r112",
+      "holder": "Roddy Piper",
+      "people": [
+        "roddy-piper"
+      ],
+      "start": "1999-02-08",
+      "end": "1999-02-21",
+      "days": 13,
+      "number": 70,
+      "event": "Nitro",
+      "location": "Buffalo, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r113",
+      "holder": "Scott Hall",
+      "people": [
+        "scott-hall"
+      ],
+      "start": "1999-02-21",
+      "end": "1999-03-18",
+      "days": 25,
+      "number": 71,
+      "event": "SuperBrawl IX",
+      "location": "Oakland, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r114",
+      "holder": "Scott Steiner",
+      "people": [
+        "scott-steiner"
+      ],
+      "start": "1999-04-11",
+      "end": "1999-07-05",
+      "days": 85,
+      "number": 72,
+      "event": "Spring Stampede",
+      "location": "Tacoma, WA",
+      "note": "Won tournament final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r115",
+      "holder": "David Flair",
+      "people": [
+        "david-flair"
+      ],
+      "start": "1999-07-05",
+      "end": "1999-08-09",
+      "days": 35,
+      "number": 73,
+      "event": "Nitro",
+      "location": "Atlanta, GA",
+      "note": "Awarded by his father Ric Flair",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r116",
+      "holder": "Chris Benoit",
+      "people": [
+        "chris-benoit"
+      ],
+      "start": "1999-08-09",
+      "end": "1999-09-12",
+      "days": 34,
+      "number": 74,
+      "event": "Nitro",
+      "location": "Boise, ID",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r117",
+      "holder": "Sid Vicious",
+      "people": [
+        "sid-justice"
+      ],
+      "start": "1999-09-12",
+      "end": "1999-10-24",
+      "days": 42,
+      "number": 75,
+      "event": "Fall Brawl",
+      "location": "Winston-Salem, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r118",
+      "holder": "Goldberg",
+      "people": [
+        "goldberg"
+      ],
+      "start": "1999-10-24",
+      "end": "1999-10-25",
+      "days": 1,
+      "number": 76,
+      "event": "Halloween Havoc",
+      "location": "Paradise, NV",
+      "note": "Won when Vicious' bleeding stopped the match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r119",
+      "holder": "Bret Hart",
+      "people": [
+        "bret-hart"
+      ],
+      "start": "1999-10-25",
+      "end": "1999-11-08",
+      "days": 14,
+      "number": 77,
+      "event": "Nitro",
+      "location": "Phoenix, AZ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r120",
+      "holder": "Scott Hall",
+      "people": [
+        "scott-hall"
+      ],
+      "start": "1999-11-08",
+      "end": "1999-12-19",
+      "days": 41,
+      "number": 78,
+      "event": "Nitro",
+      "location": "Indianapolis, IN",
+      "note": "Four-way ladder match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r121",
+      "holder": "Chris Benoit",
+      "people": [
+        "chris-benoit"
+      ],
+      "start": "1999-12-19",
+      "end": "1999-12-20",
+      "days": 1,
+      "number": 79,
+      "event": "Starrcade",
+      "location": "Washington, D.C.",
+      "note": "Awarded when Hall injured his knee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r122",
+      "holder": "Jeff Jarrett",
+      "people": [
+        "jeff-jarrett"
+      ],
+      "start": "1999-12-20",
+      "end": "2000-01-16",
+      "days": 27,
+      "number": 80,
+      "event": "Nitro",
+      "location": "Baltimore, MD",
+      "note": "Ladder match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r123",
+      "holder": "Jeff Jarrett",
+      "people": [
+        "jeff-jarrett"
+      ],
+      "start": "2000-01-17",
+      "end": "2000-04-16",
+      "days": 84,
+      "number": 81,
+      "event": "Nitro",
+      "location": "Columbus, OH",
+      "note": "Awarded by WCW Commissioner Kevin Nash",
+      "dateNote": "The source prints 84 days; its dates give 90.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r124",
+      "holder": "Scott Steiner",
+      "people": [
+        "scott-steiner"
+      ],
+      "start": "2000-04-16",
+      "end": "2000-07-09",
+      "days": 84,
+      "number": 82,
+      "event": "Spring Stampede",
+      "location": "Chicago, IL",
+      "note": "Won tournament final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r125",
+      "holder": "Lance Storm",
+      "people": [
+        "lance-storm"
+      ],
+      "start": "2000-07-18",
+      "end": "2000-09-22",
+      "days": 66,
+      "number": 83,
+      "event": "Nitro",
+      "location": "Auburn Hills, MI",
+      "note": "Won tournament; unofficially renamed Canadian title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r126",
+      "holder": "Terry Funk",
+      "people": [
+        "terry-funk"
+      ],
+      "start": "2000-09-22",
+      "end": "2000-09-23",
+      "days": 1,
+      "number": 84,
+      "event": "House show",
+      "location": "Amarillo, TX",
+      "note": "Not recognized by WCW; recognized by WWE",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r127",
+      "holder": "Lance Storm",
+      "people": [
+        "lance-storm"
+      ],
+      "start": "2000-09-23",
+      "end": "2000-10-29",
+      "days": 36,
+      "number": 85,
+      "event": "House show",
+      "location": "Lubbock, TX",
+      "note": "Not recognized by WCW; recognized by WWE",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r128",
+      "holder": "Gen. Rection",
+      "people": [
+        "hugh-morrus"
+      ],
+      "start": "2000-10-29",
+      "end": "2000-11-10",
+      "days": 12,
+      "number": 86,
+      "event": "Halloween Havoc",
+      "location": "Paradise, NV",
+      "note": "Handicap match win",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r129",
+      "holder": "Lance Storm",
+      "people": [
+        "lance-storm"
+      ],
+      "start": "2000-11-10",
+      "end": "2000-11-26",
+      "days": 16,
+      "number": 87,
+      "event": "Nitro",
+      "location": "London, England",
+      "note": "WWE dates reign from Nov 13 2000",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r130",
+      "holder": "Gen. Rection",
+      "people": [
+        "hugh-morrus"
+      ],
+      "start": "2000-11-26",
+      "end": "2001-01-14",
+      "days": 49,
+      "number": 88,
+      "event": "Mayhem",
+      "location": "Milwaukee, WI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r131",
+      "holder": "Shane Douglas",
+      "people": [
+        "shane-douglas"
+      ],
+      "start": "2001-01-14",
+      "end": "2001-02-05",
+      "days": 22,
+      "number": 89,
+      "event": "Sin",
+      "location": "Indianapolis, IN",
+      "note": "First Blood Chain match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r132",
+      "holder": "Rick Steiner",
+      "people": [
+        "rick-steiner"
+      ],
+      "start": "2001-02-05",
+      "end": "2001-03-18",
+      "days": 41,
+      "number": 90,
+      "event": "Nitro",
+      "location": "Tupelo, MS",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r133",
+      "holder": "Booker T",
+      "people": [
+        "booker-t"
+      ],
+      "start": "2001-03-18",
+      "end": "2001-07-24",
+      "days": 128,
+      "number": 91,
+      "event": "Greed",
+      "location": "Jacksonville, FL",
+      "note": "Title bought by WWF; renamed WCW US Championship",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r134",
+      "holder": "Chris Kanyon",
+      "people": [
+        "chris-kanyon"
+      ],
+      "start": "2001-07-24",
+      "end": "2001-09-10",
+      "days": 48,
+      "number": 92,
+      "event": "SmackDown!",
+      "location": "Pittsburgh, PA",
+      "note": "Given title by Booker T; WWE dates from July 26 2001",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r135",
+      "holder": "Tajiri",
+      "people": [
+        "tajiri"
+      ],
+      "start": "2001-09-10",
+      "end": "2001-09-23",
+      "days": 13,
+      "number": 93,
+      "event": "Raw",
+      "location": "San Antonio, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r136",
+      "holder": "Rhyno",
+      "people": [
+        "rhyno"
+      ],
+      "start": "2001-09-23",
+      "end": "2001-10-22",
+      "days": 29,
+      "number": 94,
+      "event": "Unforgiven",
+      "location": "Pittsburgh, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r137",
+      "holder": "Kurt Angle",
+      "people": [
+        "kurt-angle"
+      ],
+      "start": "2001-10-22",
+      "end": "2001-11-12",
+      "days": 21,
+      "number": 95,
+      "event": "Raw",
+      "location": "Kansas City, MO",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r138",
+      "holder": "Edge",
+      "people": [
+        "edge"
+      ],
+      "start": "2001-11-12",
+      "end": "2001-11-18",
+      "days": 6,
+      "number": 96,
+      "event": "Raw",
+      "location": "Boston, MA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r139",
+      "holder": "Eddie Guerrero",
+      "people": [
+        "eddie-guerrero"
+      ],
+      "start": "2003-07-27",
+      "end": "2003-10-19",
+      "days": 84,
+      "number": 97,
+      "event": "Vengeance",
+      "location": "Denver, CO",
+      "note": "Title reactivated as WWE US Championship",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r140",
+      "holder": "Big Show",
+      "people": [
+        "big-show"
+      ],
+      "start": "2003-10-19",
+      "end": "2004-03-14",
+      "days": 147,
+      "number": 98,
+      "event": "No Mercy",
+      "location": "Baltimore, MD",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r141",
+      "holder": "John Cena",
+      "people": [
+        "john-cena"
+      ],
+      "start": "2004-03-14",
+      "end": "2004-07-06",
+      "days": 114,
+      "number": 99,
+      "event": "WrestleMania XX",
+      "location": "New York, NY",
+      "note": "Official history lists 136 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r142",
+      "holder": "Booker T",
+      "people": [
+        "booker-t"
+      ],
+      "start": "2004-07-27",
+      "end": "2004-10-03",
+      "days": 68,
+      "number": 100,
+      "event": "SmackDown!",
+      "location": "Cincinnati, OH",
+      "note": "Eight-way elimination match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r143",
+      "holder": "John Cena",
+      "people": [
+        "john-cena"
+      ],
+      "start": "2004-10-03",
+      "end": "2004-10-05",
+      "days": 3,
+      "number": 101,
+      "event": "No Mercy",
+      "location": "East Rutherford, NJ",
+      "note": "Fifth match of best-of-five series",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r144",
+      "holder": "Carlito Caribbean Cool",
+      "people": [
+        "carlito"
+      ],
+      "start": "2004-10-05",
+      "end": "2004-11-16",
+      "days": 42,
+      "number": 102,
+      "event": "SmackDown!",
+      "location": "Boston, MA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r145",
+      "holder": "John Cena",
+      "people": [
+        "john-cena"
+      ],
+      "start": "2004-11-16",
+      "end": "2005-03-01",
+      "days": 105,
+      "number": 103,
+      "event": "SmackDown!",
+      "location": "Dayton, OH",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r146",
+      "holder": "Orlando Jordan",
+      "people": [
+        "orlando-jordan"
+      ],
+      "start": "2005-03-01",
+      "end": "2005-08-21",
+      "days": 173,
+      "number": 104,
+      "event": "SmackDown!",
+      "location": "Albany, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r147",
+      "holder": "Chris Benoit",
+      "people": [
+        "chris-benoit"
+      ],
+      "start": "2005-08-21",
+      "end": "2005-10-18",
+      "days": 58,
+      "number": 105,
+      "event": "SummerSlam",
+      "location": "Washington, D.C.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r148",
+      "holder": "Booker T",
+      "people": [
+        "booker-t"
+      ],
+      "start": "2005-10-18",
+      "end": "2005-11-22",
+      "days": 35,
+      "number": 106,
+      "event": "SmackDown!",
+      "location": "Reno, NV",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r149",
+      "holder": "Booker T",
+      "people": [
+        "booker-t"
+      ],
+      "start": "2006-01-10",
+      "end": "2006-02-19",
+      "days": 40,
+      "number": 107,
+      "event": "SmackDown!",
+      "location": "Philadelphia, PA",
+      "note": "Best of seven series; Orton substituted for part",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r150",
+      "holder": "Chris Benoit",
+      "people": [
+        "chris-benoit"
+      ],
+      "start": "2006-02-19",
+      "end": "2006-04-02",
+      "days": 42,
+      "number": 108,
+      "event": "No Way Out",
+      "location": "Baltimore, MD",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r151",
+      "holder": "John \"Bradshaw\" Layfield",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2006-04-02",
+      "end": "2006-05-23",
+      "days": 51,
+      "number": 109,
+      "event": "WrestleMania 22",
+      "location": "Rosemont, IL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r152",
+      "holder": "Bobby Lashley",
+      "people": [
+        "bobby-lashley"
+      ],
+      "start": "2006-05-23",
+      "end": "2006-07-11",
+      "days": 49,
+      "number": 110,
+      "event": "SmackDown!",
+      "location": "Bakersfield, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r153",
+      "holder": "Finlay",
+      "people": [
+        "finlay"
+      ],
+      "start": "2006-07-11",
+      "end": "2006-08-29",
+      "days": 49,
+      "number": 111,
+      "event": "SmackDown!",
+      "location": "Minneapolis, MN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r154",
+      "holder": "Mr. Kennedy",
+      "people": [
+        "mr-kennedy"
+      ],
+      "start": "2006-08-29",
+      "end": "2006-10-10",
+      "days": 42,
+      "number": 112,
+      "event": "SmackDown!",
+      "location": "Reading, PA",
+      "note": "Triple threat match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r155",
+      "holder": "Chris Benoit",
+      "people": [
+        "chris-benoit"
+      ],
+      "start": "2006-10-10",
+      "end": "2007-05-20",
+      "days": 222,
+      "number": 113,
+      "event": "SmackDown!",
+      "location": "Jacksonville, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r156",
+      "holder": "Montel Vontavious Porter",
+      "people": [
+        "montel-vontavious-porter"
+      ],
+      "start": "2007-05-20",
+      "end": "2008-04-27",
+      "days": 343,
+      "number": 114,
+      "event": "Judgment Day",
+      "location": "St. Louis, MO",
+      "note": "Two out of three falls match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r157",
+      "holder": "Matt Hardy",
+      "people": [
+        "matt-hardy"
+      ],
+      "start": "2008-04-27",
+      "end": "2008-07-20",
+      "days": 84,
+      "number": 115,
+      "event": "Backlash",
+      "location": "Baltimore, MD",
+      "note": "Became ECW exclusive after draft",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r158",
+      "holder": "Shelton Benjamin",
+      "people": [
+        "shelton-benjamin"
+      ],
+      "start": "2008-07-20",
+      "end": "2009-03-17",
+      "days": 240,
+      "number": 116,
+      "event": "The Great American Bash",
+      "location": "Uniondale, NY",
+      "note": "Returned to SmackDown",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r159",
+      "holder": "Montel Vontavious Porter",
+      "people": [
+        "montel-vontavious-porter"
+      ],
+      "start": "2009-03-17",
+      "end": "2009-06-01",
+      "days": 76,
+      "number": 117,
+      "event": "SmackDown",
+      "location": "Corpus Christi, TX",
+      "note": "Became Raw exclusive after draft",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r160",
+      "holder": "Kofi Kingston",
+      "people": [
+        "kofi-kingston"
+      ],
+      "start": "2009-06-01",
+      "end": "2009-10-05",
+      "days": 126,
+      "number": 118,
+      "event": "Raw",
+      "location": "Birmingham, AL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "The Miz",
@@ -18,13 +2428,36 @@
       ],
       "start": "2009-10-05",
       "end": "2010-05-17",
+      "days": 224,
+      "number": 119,
+      "event": "Raw",
+      "location": "Wilkes-Barre, PA",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-the-miz-829"
       ]
+    },
+    {
+      "id": "r161",
+      "holder": "Bret Hart",
+      "people": [
+        "bret-hart"
+      ],
+      "start": "2010-05-17",
+      "end": "2010-05-24",
+      "days": 7,
+      "number": 120,
+      "event": "Raw",
+      "location": "Toronto, ON, Canada",
+      "note": "No disqualification or countout match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r2",
@@ -34,9 +2467,15 @@
       ],
       "start": "2010-05-24",
       "end": "2010-06-14",
+      "days": 21,
+      "number": 121,
+      "event": "Raw",
+      "location": "Toledo, OH",
+      "note": "Won vacant title from The Miz",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-601"
@@ -50,13 +2489,90 @@
       ],
       "start": "2010-06-14",
       "end": "2010-09-19",
+      "days": 97,
+      "number": 122,
+      "event": "Raw",
+      "location": "Charlotte, NC",
+      "note": "Fatal four-way match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-the-miz-826"
       ]
+    },
+    {
+      "id": "r162",
+      "holder": "Daniel Bryan",
+      "people": [
+        "daniel-bryan"
+      ],
+      "start": "2010-09-19",
+      "end": "2011-03-14",
+      "days": 176,
+      "number": 123,
+      "event": "Night of Champions",
+      "location": "Rosemont, IL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r163",
+      "holder": "Sheamus",
+      "people": [
+        "sheamus"
+      ],
+      "start": "2011-03-14",
+      "end": "2011-05-01",
+      "days": 48,
+      "number": 124,
+      "event": "Raw",
+      "location": "St. Louis, MO",
+      "note": "Became SmackDown exclusive after draft",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r164",
+      "holder": "Kofi Kingston",
+      "people": [
+        "kofi-kingston"
+      ],
+      "start": "2011-05-01",
+      "end": "2011-06-19",
+      "days": 49,
+      "number": 125,
+      "event": "Extreme Rules",
+      "location": "Tampa, FL",
+      "note": "Tables match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r165",
+      "holder": "Dolph Ziggler",
+      "people": [
+        "dolph-ziggler"
+      ],
+      "start": "2011-06-19",
+      "end": "2011-12-18",
+      "days": 182,
+      "number": 126,
+      "event": "Capitol Punishment",
+      "location": "Washington, D.C.",
+      "note": "Brand extension ended later",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r4",
@@ -66,13 +2582,122 @@
       ],
       "start": "2011-12-18",
       "end": "2012-01-16",
+      "days": 29,
+      "number": 127,
+      "event": "TLC: Tables, Ladders & Chairs",
+      "location": "Baltimore, MD",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-matt-cardona-431"
       ]
+    },
+    {
+      "id": "r166",
+      "holder": "Jack Swagger",
+      "people": [
+        "jack-swagger"
+      ],
+      "start": "2012-01-16",
+      "end": "2012-03-05",
+      "days": 49,
+      "number": 128,
+      "event": "Raw",
+      "location": "Anaheim, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r167",
+      "holder": "Santino Marella",
+      "people": [
+        "santino-marella"
+      ],
+      "start": "2012-03-05",
+      "end": "2012-08-19",
+      "days": 167,
+      "number": 129,
+      "event": "Raw",
+      "location": "Boston, MA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r168",
+      "holder": "Antonio Cesaro",
+      "people": [
+        "cesaro"
+      ],
+      "start": "2012-08-19",
+      "end": "2013-04-15",
+      "days": 239,
+      "number": 130,
+      "event": "SummerSlam Pre-Show",
+      "location": "Los Angeles, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r169",
+      "holder": "Kofi Kingston",
+      "people": [
+        "kofi-kingston"
+      ],
+      "start": "2013-04-15",
+      "end": "2013-05-19",
+      "days": 34,
+      "number": 131,
+      "event": "Raw",
+      "location": "Greenville, SC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r170",
+      "holder": "Dean Ambrose",
+      "people": [
+        "dean-ambrose"
+      ],
+      "start": "2013-05-19",
+      "end": "2014-05-05",
+      "days": 351,
+      "number": 132,
+      "event": "Extreme Rules",
+      "location": "St. Louis, MO",
+      "note": "Longest reign under WWE banner",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r171",
+      "holder": "Sheamus",
+      "people": [
+        "sheamus"
+      ],
+      "start": "2014-05-05",
+      "end": "2014-11-03",
+      "days": 182,
+      "number": 133,
+      "event": "Raw",
+      "location": "Albany, NY",
+      "note": "Won 20-man battle royal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r5",
@@ -82,13 +2707,35 @@
       ],
       "start": "2014-11-03",
       "end": "2015-03-29",
+      "days": 146,
+      "number": 134,
+      "event": "Raw Backstage Pass",
+      "location": "Buffalo, NY",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-rusev-706"
       ]
+    },
+    {
+      "id": "r172",
+      "holder": "John Cena",
+      "people": [
+        "john-cena"
+      ],
+      "start": "2015-03-29",
+      "end": "2015-08-23",
+      "days": 147,
+      "number": 135,
+      "event": "WrestleMania 31",
+      "location": "Santa Clara, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r6",
@@ -98,13 +2745,106 @@
       ],
       "start": "2015-08-23",
       "end": "2015-09-20",
+      "days": 28,
+      "number": 136,
+      "event": "SummerSlam",
+      "location": "Brooklyn, NY",
+      "note": "Winner takes all match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-seth-rollins-743"
       ]
+    },
+    {
+      "id": "r173",
+      "holder": "John Cena",
+      "people": [
+        "john-cena"
+      ],
+      "start": "2015-09-20",
+      "end": "2015-10-25",
+      "days": 35,
+      "number": 137,
+      "event": "Night of Champions",
+      "location": "Houston, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r174",
+      "holder": "Alberto Del Rio",
+      "people": [
+        "alberto-del-rio"
+      ],
+      "start": "2015-10-25",
+      "end": "2016-01-11",
+      "days": 78,
+      "number": 138,
+      "event": "Hell in a Cell",
+      "location": "Los Angeles, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r175",
+      "holder": "Kalisto",
+      "people": [
+        "kalisto"
+      ],
+      "start": "2016-01-11",
+      "end": "2016-01-12",
+      "days": 1,
+      "number": 139,
+      "event": "Raw",
+      "location": "New Orleans, LA",
+      "note": "WWE ends reign January 14 2016",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r176",
+      "holder": "Alberto Del Rio",
+      "people": [
+        "alberto-del-rio"
+      ],
+      "start": "2016-01-12",
+      "end": "2016-01-24",
+      "days": 12,
+      "number": 140,
+      "event": "SmackDown",
+      "location": "Lafayette, LA",
+      "note": "WWE dates from January 14 2016",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r177",
+      "holder": "Kalisto",
+      "people": [
+        "kalisto"
+      ],
+      "start": "2016-01-24",
+      "end": "2016-05-22",
+      "days": 119,
+      "number": 141,
+      "event": "Royal Rumble",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r7",
@@ -114,9 +2854,15 @@
       ],
       "start": "2016-05-22",
       "end": "2016-09-25",
+      "days": 126,
+      "number": 142,
+      "event": "Extreme Rules",
+      "location": "Newark, NJ",
+      "note": "Became Raw exclusive after draft",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-rusev-705"
@@ -130,13 +2876,36 @@
       ],
       "start": "2016-09-25",
       "end": "2017-01-09",
+      "days": 106,
+      "number": 143,
+      "event": "Clash of Champions",
+      "location": "Indianapolis, IN",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-roman-reigns-695"
       ]
+    },
+    {
+      "id": "r178",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "2017-01-09",
+      "end": "2017-04-02",
+      "days": 83,
+      "number": 144,
+      "event": "Raw",
+      "location": "New Orleans, LA",
+      "note": "2-on-1 handicap match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r9",
@@ -146,13 +2915,37 @@
       ],
       "start": "2017-04-02",
       "end": "2017-04-30",
+      "days": 28,
+      "number": 145,
+      "event": "WrestleMania 33",
+      "location": "Orlando, FL",
+      "note": "Became SmackDown exclusive after shake-up",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-kevin-owens-375"
       ]
+    },
+    {
+      "id": "r179",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "2017-04-30",
+      "end": "2017-05-02",
+      "days": 2,
+      "number": 146,
+      "event": "Payback",
+      "location": "San Jose, CA",
+      "note": "Transferred to SmackDown",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r10",
@@ -162,13 +2955,35 @@
       ],
       "start": "2017-05-02",
       "end": "2017-07-07",
+      "days": 66,
+      "number": 147,
+      "event": "SmackDown",
+      "location": "Fresno, CA",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-kevin-owens-374"
       ]
+    },
+    {
+      "id": "r180",
+      "holder": "AJ Styles",
+      "people": [
+        "aj-styles"
+      ],
+      "start": "2017-07-07",
+      "end": "2017-07-23",
+      "days": 16,
+      "number": 148,
+      "event": "WWE Live",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r11",
@@ -178,13 +2993,36 @@
       ],
       "start": "2017-07-23",
       "end": "2017-07-25",
+      "days": 2,
+      "number": 149,
+      "event": "Battleground",
+      "location": "Philadelphia, PA",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-kevin-owens-373"
       ]
+    },
+    {
+      "id": "r181",
+      "holder": "AJ Styles",
+      "people": [
+        "aj-styles"
+      ],
+      "start": "2017-07-25",
+      "end": "2017-10-08",
+      "days": 75,
+      "number": 150,
+      "event": "SmackDown",
+      "location": "Richmond, VA",
+      "note": "Triple threat match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r12",
@@ -194,13 +3032,55 @@
       ],
       "start": "2017-10-08",
       "end": "2017-12-17",
+      "days": 70,
+      "number": 151,
+      "event": "Hell in a Cell",
+      "location": "Detroit, MI",
+      "note": "Triple threat match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-baron-corbin-49"
       ]
+    },
+    {
+      "id": "r182",
+      "holder": "Dolph Ziggler",
+      "people": [
+        "dolph-ziggler"
+      ],
+      "start": "2017-12-17",
+      "end": "2017-12-26",
+      "days": 9,
+      "number": 152,
+      "event": "Clash of Champions",
+      "location": "Boston, MA",
+      "note": "Triple threat match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r183",
+      "holder": "Bobby Roode",
+      "people": [
+        "bobby-roode"
+      ],
+      "start": "2018-01-16",
+      "end": "2018-03-11",
+      "days": 54,
+      "number": 153,
+      "event": "SmackDown",
+      "location": "Laredo, TX",
+      "note": "Won tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r13",
@@ -210,13 +3090,54 @@
       ],
       "start": "2018-03-11",
       "end": "2018-04-08",
+      "days": 28,
+      "number": 154,
+      "event": "Fastlane",
+      "location": "Columbus, OH",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-randy-orton-614"
       ]
+    },
+    {
+      "id": "r184",
+      "holder": "Jinder Mahal",
+      "people": [
+        "jinder-mahal"
+      ],
+      "start": "2018-04-08",
+      "end": "2018-04-16",
+      "days": 8,
+      "number": 155,
+      "event": "WrestleMania 34",
+      "location": "New Orleans, LA",
+      "note": "Fatal four-way match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r185",
+      "holder": "Jeff Hardy",
+      "people": [
+        "jeff-hardy"
+      ],
+      "start": "2018-04-16",
+      "end": "2018-07-15",
+      "days": 90,
+      "number": 156,
+      "event": "Raw",
+      "location": "Hartford, CT",
+      "note": "Returned to SmackDown in shake-up",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r14",
@@ -225,10 +3146,16 @@
         "shinsuke-nakamura"
       ],
       "start": "2018-07-15",
-      "end": "2018-12-25",
+      "end": "2018-12-18",
+      "days": 156,
+      "number": 157,
+      "event": "Extreme Rules",
+      "location": "Pittsburgh, PA",
+      "note": "WWE dates end December 25 2018",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-shinsuke-nakamura-767"
@@ -242,9 +3169,14 @@
       ],
       "start": "2018-12-25",
       "end": "2019-01-27",
+      "days": 40,
+      "number": 158,
+      "event": "SmackDown",
+      "location": "Fresno, CA",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-rusev-704"
@@ -258,9 +3190,14 @@
       ],
       "start": "2019-01-27",
       "end": "2019-01-29",
+      "days": 2,
+      "number": 159,
+      "event": "Royal Rumble Kickoff",
+      "location": "Phoenix, AZ",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-shinsuke-nakamura-766"
@@ -274,13 +3211,36 @@
       ],
       "start": "2019-01-29",
       "end": "2019-03-05",
+      "days": 35,
+      "number": 160,
+      "event": "SmackDown",
+      "location": "Phoenix, AZ",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-599"
       ]
+    },
+    {
+      "id": "r186",
+      "holder": "Samoa Joe",
+      "people": [
+        "samoa-joe"
+      ],
+      "start": "2019-03-05",
+      "end": "2019-05-19",
+      "days": 75,
+      "number": 161,
+      "event": "SmackDown",
+      "location": "Wilkes-Barre, PA",
+      "note": "Fatal four-way match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r18",
@@ -290,13 +3250,70 @@
       ],
       "start": "2019-05-19",
       "end": "2019-06-03",
+      "days": 15,
+      "number": 162,
+      "event": "Money in the Bank",
+      "location": "Hartford, CT",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-658"
       ]
+    },
+    {
+      "id": "r187",
+      "holder": "Samoa Joe",
+      "people": [
+        "samoa-joe"
+      ],
+      "start": "2019-06-03",
+      "end": "2019-06-23",
+      "days": 20,
+      "number": 163,
+      "event": "Raw",
+      "location": "Austin, TX",
+      "note": "Mysterio relinquished title due to injury",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r188",
+      "holder": "Ricochet",
+      "people": [
+        "ricochet"
+      ],
+      "start": "2019-06-23",
+      "end": "2019-07-14",
+      "days": 21,
+      "number": 164,
+      "event": "Stomping Grounds",
+      "location": "Tacoma, WA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r189",
+      "holder": "AJ Styles",
+      "people": [
+        "aj-styles"
+      ],
+      "start": "2019-07-14",
+      "end": "2019-11-25",
+      "days": 134,
+      "number": 165,
+      "event": "Extreme Rules",
+      "location": "Philadelphia, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r19",
@@ -306,13 +3323,104 @@
       ],
       "start": "2019-11-25",
       "end": "2019-12-26",
+      "days": 31,
+      "number": 166,
+      "event": "Raw",
+      "location": "Rosemont, IL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-657"
       ]
+    },
+    {
+      "id": "r190",
+      "holder": "Andrade",
+      "people": [
+        "andrade"
+      ],
+      "start": "2019-12-26",
+      "end": "2020-05-25",
+      "days": 151,
+      "number": 167,
+      "event": "WWE Live",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r191",
+      "holder": "Apollo Crews",
+      "people": [
+        "apollo-crews"
+      ],
+      "start": "2020-05-25",
+      "end": "2020-08-30",
+      "days": 97,
+      "number": 168,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r192",
+      "holder": "Bobby Lashley",
+      "people": [
+        "bobby-lashley"
+      ],
+      "start": "2020-08-30",
+      "end": "2021-02-21",
+      "days": 175,
+      "number": 169,
+      "event": "Payback",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r193",
+      "holder": "Riddle",
+      "people": [
+        "riddle"
+      ],
+      "start": "2021-02-21",
+      "end": "2021-04-11",
+      "days": 49,
+      "number": 170,
+      "event": "Elimination Chamber",
+      "location": "St. Petersburg, FL",
+      "note": "Triple threat match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r194",
+      "holder": "Sheamus",
+      "people": [
+        "sheamus"
+      ],
+      "start": "2021-04-11",
+      "end": "2021-08-21",
+      "days": 132,
+      "number": 171,
+      "event": "WrestleMania 37 Night 2",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r20",
@@ -322,9 +3430,14 @@
       ],
       "start": "2021-08-21",
       "end": "2022-02-28",
+      "days": 191,
+      "number": 172,
+      "event": "SummerSlam",
+      "location": "Paradise, NV",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-damian-priest-160"
@@ -338,9 +3451,14 @@
       ],
       "start": "2022-02-28",
       "end": "2022-04-18",
+      "days": 49,
+      "number": 173,
+      "event": "Raw",
+      "location": "Columbus, OH",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-finn-balor-273"
@@ -354,13 +3472,36 @@
       ],
       "start": "2022-04-18",
       "end": "2022-07-02",
+      "days": 75,
+      "number": 174,
+      "event": "Raw",
+      "location": "Buffalo, NY",
+      "note": "Later known as Austin Theory",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-austin-theory-42"
       ]
+    },
+    {
+      "id": "r195",
+      "holder": "Bobby Lashley",
+      "people": [
+        "bobby-lashley"
+      ],
+      "start": "2022-07-02",
+      "end": "2022-10-10",
+      "days": 100,
+      "number": 175,
+      "event": "Money in the Bank",
+      "location": "Paradise, NV",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r23",
@@ -370,9 +3511,14 @@
       ],
       "start": "2022-10-10",
       "end": "2022-11-26",
+      "days": 47,
+      "number": 176,
+      "event": "Raw",
+      "location": "Brooklyn, NY",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-seth-rollins-732"
@@ -386,9 +3532,15 @@
       ],
       "start": "2022-11-26",
       "end": "2023-08-11",
+      "days": 258,
+      "number": 177,
+      "event": "Survivor Series: WarGames",
+      "location": "Boston, MA",
+      "note": "Triple threat match; became SmackDown exclusive",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-austin-theory-41"
@@ -402,9 +3554,15 @@
       ],
       "start": "2023-08-11",
       "end": "2023-11-04",
+      "days": 85,
+      "number": 178,
+      "event": "SmackDown",
+      "location": "Calgary, AB, Canada",
+      "note": "Took Escobar's spot after Theory interfered",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-655"
@@ -418,9 +3576,14 @@
       ],
       "start": "2023-11-04",
       "end": "2024-08-03",
+      "days": 273,
+      "number": 179,
+      "event": "Crown Jewel",
+      "location": "Riyadh, Saudi Arabia",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-logan-paul-422"
@@ -434,9 +3597,14 @@
       ],
       "start": "2024-08-03",
       "end": "2024-11-30",
+      "days": 119,
+      "number": 180,
+      "event": "SummerSlam",
+      "location": "Cleveland, OH",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "profile-reign-la-knight-403"
@@ -450,9 +3618,14 @@
       ],
       "start": "2024-11-30",
       "end": "2025-03-07",
+      "days": 97,
+      "number": 181,
+      "event": "Survivor Series: WarGames",
+      "location": "Vancouver, BC, Canada",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/united-states-championship"
+        "https://www.wwe.com/titlehistory/united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "2025-united-states-2024-11-30-shinsuke-nakamura"
@@ -466,9 +3639,14 @@
       ],
       "start": "2025-03-07",
       "end": "2025-04-19",
+      "days": 43,
+      "number": 182,
+      "event": "SmackDown",
+      "location": "Philadelphia, PA",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/united-states-championship"
+        "https://www.wwe.com/titlehistory/united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "2025-united-states-2025-03-07-la-knight"
@@ -482,9 +3660,14 @@
       ],
       "start": "2025-04-19",
       "end": "2025-06-28",
+      "days": 70,
+      "number": 183,
+      "event": "WrestleMania 41 Night 1",
+      "location": "Paradise, NV",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/united-states-championship"
+        "https://www.wwe.com/titlehistory/united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "2025-united-states-2025-04-19-jacob-fatu"
@@ -498,9 +3681,14 @@
       ],
       "start": "2025-06-28",
       "end": "2025-08-29",
+      "days": 62,
+      "number": 184,
+      "event": "Night of Champions",
+      "location": "Riyadh, Saudi Arabia",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/united-states-championship"
+        "https://www.wwe.com/titlehistory/united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "2025-united-states-2025-06-28-solo-sikoa"
@@ -514,9 +3702,14 @@
       ],
       "start": "2025-08-29",
       "end": "2025-10-17",
+      "days": 49,
+      "number": 185,
+      "event": "SmackDown",
+      "location": "Décines-Charpieu, France",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/united-states-championship"
+        "https://www.wwe.com/titlehistory/united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "2025-united-states-2025-08-29-sami-zayn"
@@ -530,9 +3723,15 @@
       ],
       "start": "2025-10-17",
       "end": "2025-12-26",
+      "days": 63,
+      "number": 186,
+      "event": "SmackDown",
+      "location": "San Jose, CA",
+      "note": "Open challenge; WWE ends reign 2025-12-26 on tape delay",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/united-states-championship"
+        "https://www.wwe.com/titlehistory/united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "2025-united-states-2025-10-17-ilja-dragunov"
@@ -546,9 +3745,15 @@
       ],
       "start": "2025-12-26",
       "end": "2026-03-27",
+      "days": 98,
+      "number": 187,
+      "event": "SmackDown",
+      "location": "Grand Rapids, MI",
+      "note": "Open challenge; WWE starts reign 2025-12-26 on tape delay",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/united-states-championship"
+        "https://www.wwe.com/titlehistory/united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "united-states-1"
@@ -562,9 +3767,15 @@
       ],
       "start": "2026-03-27",
       "end": "2026-04-19",
+      "days": 23,
+      "number": 188,
+      "event": "SmackDown",
+      "location": "Pittsburgh, PA",
+      "note": "Open challenge",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/united-states-championship"
+        "https://www.wwe.com/titlehistory/united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "united-states-2"
@@ -578,9 +3789,14 @@
       ],
       "start": "2026-04-19",
       "end": "2026-08-02",
+      "days": 105,
+      "number": 189,
+      "event": "WrestleMania 42 Night 2",
+      "location": "Paradise, NV",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/united-states-championship"
+        "https://www.wwe.com/titlehistory/united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "united-states-3"
@@ -594,9 +3810,15 @@
       ],
       "start": "2026-08-02",
       "end": "2026-09-06",
+      "days": 27,
+      "number": 190,
+      "event": "SummerSlam Night 2",
+      "location": "Minneapolis, MN",
+      "note": "Current champion",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/united-states-championship"
+        "https://www.wwe.com/titlehistory/united-states-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_United_States_Champions"
       ],
       "legacyIds": [
         "united-states-4"
@@ -617,7 +3839,5 @@
         "united-states-5"
       ]
     }
-  ],
-  "short": "US",
-  "featured": true
+  ]
 }

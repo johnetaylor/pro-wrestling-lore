@@ -1,23 +1,115 @@
 {
   "id": "aew-world-tag-team-championship",
   "name": "AEW World Tag Team Championship",
-  "names": [
-    "AEW World Tag Team Championship"
+  "promotion": "aew",
+  "division": "men",
+  "format": "tag",
+  "established": "2019-10-30",
+  "names": [],
+  "eras": [
+    {
+      "name": "AEW World Tag Team Championship",
+      "from": "2019-10-30"
+    }
   ],
-  "sources": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions",
+    "https://en.wikipedia.org/wiki/AEW_World_Tag_Team_Championship"
+  ],
   "reigns": [
     {
+      "id": "r3",
+      "holder": "SoCal Uncensored",
+      "people": [
+        "frankie-kazarian",
+        "scorpio-sky"
+      ],
+      "start": "2019-10-30",
+      "end": "2020-01-21",
+      "days": 83,
+      "number": 1,
+      "event": "Dynamite",
+      "location": "Charleston, WV",
+      "note": "Won a tournament final over The Lucha Brothers to become the inaugural champions.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Adam Page & Kenny Omega",
+      "people": [
+        "hangman-adam-page",
+        "kenny-omega"
+      ],
+      "start": "2020-01-21",
+      "end": "2020-09-05",
+      "days": 228,
+      "number": 2,
+      "event": "Dynamite: Chris Jericho's Rock 'N' Wrestling Rager at Sea",
+      "location": "Nassau, Bahamas",
+      "note": "Taped aboard Norwegian Pearl; aired on the January 22 episode of Dynamite.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "FTR",
+      "people": [
+        "dash-wilder",
+        "scott-dawson"
+      ],
+      "start": "2020-09-05",
+      "end": "2020-11-07",
+      "days": 63,
+      "number": 3,
+      "event": "All Out",
+      "location": "Jacksonville, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "The Young Bucks",
+      "people": [
+        "matt-jackson",
+        "nick-jackson"
+      ],
+      "start": "2020-11-07",
+      "end": "2021-09-05",
+      "days": 302,
+      "number": 4,
+      "event": "Full Gear",
+      "location": "Jacksonville, FL",
+      "note": "Last Chance match; FTR's manager Tully Blanchard was barred from ringside.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r1",
-      "holder": "Penta El Zero Miedo & Rey Fénix",
+      "holder": "The Lucha Brothers",
       "people": [
         "penta",
         "rey-fenix"
       ],
       "start": "2021-09-05",
       "end": "2022-01-05",
+      "days": 122,
+      "number": 5,
+      "event": "All Out",
+      "location": "Hoffman Estates, IL",
+      "note": "Steel Cage match.",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aew/aew-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/aew/aew-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-penta-514",
@@ -25,22 +117,287 @@
       ]
     },
     {
+      "id": "r7",
+      "holder": "Jurassic Express",
+      "people": [
+        "jack-perry",
+        "judas-devlin"
+      ],
+      "start": "2022-01-05",
+      "end": "2022-06-15",
+      "days": 161,
+      "number": 6,
+      "event": "Dynamite",
+      "location": "Newark, NJ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "The Young Bucks",
+      "people": [
+        "matt-jackson",
+        "nick-jackson"
+      ],
+      "start": "2022-06-15",
+      "end": "2022-07-13",
+      "days": 28,
+      "number": 7,
+      "event": "Dynamite: Road Rager",
+      "location": "St. Louis, MO",
+      "note": "Ladder match.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Swerve in Our Glory",
+      "people": [
+        "isaiah-swerve-scott",
+        "keith-lee"
+      ],
+      "start": "2022-07-13",
+      "end": "2022-09-21",
+      "days": 70,
+      "number": 8,
+      "event": "Dynamite: Fyter Fest Night 1",
+      "location": "Savannah, GA",
+      "note": "Three-way tag match also involving Team Taz, who were pinned.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "The Acclaimed",
+      "people": [
+        "anthony-bowens",
+        "max-caster"
+      ],
+      "start": "2022-09-21",
+      "end": "2023-02-08",
+      "days": 140,
+      "number": 9,
+      "event": "Dynamite: Grand Slam",
+      "location": "Flushing, Queens, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "The Gunns",
+      "people": [
+        "austin-gunn",
+        "colten-gunn"
+      ],
+      "start": "2023-02-08",
+      "end": "2023-04-05",
+      "days": 56,
+      "number": 10,
+      "event": "Dynamite: Championship Fight Night",
+      "location": "El Paso, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "FTR",
+      "people": [
+        "dash-wilder",
+        "scott-dawson"
+      ],
+      "start": "2023-04-05",
+      "end": "2023-10-07",
+      "days": 185,
+      "number": 11,
+      "event": "Dynamite",
+      "location": "Elmont, NY",
+      "note": "Title vs. Career match.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r2",
-      "holder": "Ricky Starks & Big Bill",
+      "holder": "Big Bill & Ricky Starks",
       "people": [
         "big-cass",
         "ricky-saints"
       ],
       "start": "2023-10-07",
       "end": "2024-02-07",
+      "days": 123,
+      "number": 12,
+      "event": "Collision",
+      "location": "Salt Lake City, UT",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aew/aew-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/aew/aew-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-big-cass-52",
         "profile-reign-ricky-saints-686"
       ]
+    },
+    {
+      "id": "r13",
+      "holder": "Darby Allin & Sting",
+      "people": [
+        "darby-allin",
+        "sting"
+      ],
+      "start": "2024-02-07",
+      "end": "2024-03-03",
+      "days": 25,
+      "number": 13,
+      "event": "Dynamite",
+      "location": "Phoenix, AZ",
+      "note": "Tornado tag team match.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "The Young Bucks",
+      "people": [
+        "matt-jackson",
+        "nick-jackson"
+      ],
+      "start": "2024-04-21",
+      "end": "2024-10-30",
+      "days": 192,
+      "number": 14,
+      "event": "Dynasty",
+      "location": "St. Louis, MO",
+      "note": "Ladder match tournament final for the vacant title, won over FTR.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Private Party",
+      "people": [
+        "isiah-kassidy",
+        "marq-quen"
+      ],
+      "start": "2024-10-30",
+      "end": "2025-01-22",
+      "days": 84,
+      "number": 15,
+      "event": "Fright Night Dynamite",
+      "location": "Cleveland, OH",
+      "note": "Would have disbanded as a team had they lost.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "The Hurt Syndicate",
+      "people": [
+        "bobby-lashley",
+        "shelton-benjamin"
+      ],
+      "start": "2025-01-22",
+      "end": "2025-08-24",
+      "days": 214,
+      "number": 16,
+      "event": "Dynamite",
+      "location": "Knoxville, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Brodido",
+      "people": [
+        "brody-king",
+        "bandido"
+      ],
+      "start": "2025-08-24",
+      "end": "2025-11-22",
+      "days": 90,
+      "number": 17,
+      "event": "Forbidden Door",
+      "location": "London, England",
+      "note": "Three-way tag match also involving FTR.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "FTR",
+      "people": [
+        "dash-wilder",
+        "scott-dawson"
+      ],
+      "start": "2025-11-22",
+      "end": "2026-05-24",
+      "days": 183,
+      "number": 18,
+      "event": "Full Gear",
+      "location": "Newark, NJ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Cage and Cope",
+      "people": [
+        "christian",
+        "edge"
+      ],
+      "start": "2026-05-24",
+      "end": "2026-09-26",
+      "days": 125,
+      "number": 19,
+      "event": "Double or Nothing",
+      "location": "Queens, NY",
+      "note": "New York Street Fight \"I Quit\" match; would have disbanded had they lost.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "The Young Bucks",
+      "people": [
+        "matt-jackson",
+        "nick-jackson"
+      ],
+      "start": "2026-09-26",
+      "days": 1,
+      "number": 20,
+      "event": "All Out",
+      "location": "Hoffman Estates, IL",
+      "note": "Three-way ladder match also involving FTR.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

@@ -1,11 +1,353 @@
 {
   "id": "nxt-cruiserweight-championship",
   "name": "NXT Cruiserweight Championship",
+  "promotion": "wwe",
+  "division": "men",
+  "format": "singles",
+  "established": "2016-09-14",
+  "retired": "2022-01-04",
   "names": [
-    "NXT Cruiserweight Championship"
+    "WWE Cruiserweight Championship",
+    "Unified NXT North American Championship",
+    "NXT North American Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "WWE Cruiserweight Championship",
+      "from": "2016-09-14",
+      "to": "2019-10-09"
+    },
+    {
+      "name": "NXT Cruiserweight Championship",
+      "from": "2019-10-09",
+      "to": "2022"
+    },
+    {
+      "name": "Unified NXT North American Championship",
+      "from": "2022",
+      "to": "2022"
+    },
+    {
+      "name": "NXT North American Championship",
+      "from": "2022"
+    }
+  ],
+  "history": [
+    {
+      "date": "2018-04-09",
+      "kind": "brand",
+      "text": "Became exclusive to the 205 Live brand after that brand was established following WrestleMania 34.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Cruiserweight_Championship"
+      ]
+    },
+    {
+      "date": "2019-10-09",
+      "kind": "brand",
+      "text": "Renamed NXT Cruiserweight Championship when 205 Live merged into NXT; shared between NXT and 205 Live.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Cruiserweight_Championship"
+      ]
+    },
+    {
+      "date": "2020-01-25",
+      "kind": "brand",
+      "text": "Contendership extended to NXT UK after Jordan Devlin won the title at Worlds Collide.",
+      "related": [
+        "NXT UK"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Cruiserweight_Championship"
+      ]
+    },
+    {
+      "date": "2020-04-15",
+      "kind": "interim",
+      "text": "An interim title tournament was held in the U.S. during COVID-19 travel restrictions; Santos Escobar won it.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Cruiserweight_Championship"
+      ]
+    },
+    {
+      "date": "2021-04-08",
+      "kind": "recognition",
+      "text": "Santos Escobar beat Jordan Devlin in a ladder match to become the undisputed champion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Cruiserweight_Championship"
+      ]
+    },
+    {
+      "date": "2022-01-04",
+      "kind": "unified-into",
+      "text": "Unified into the NXT North American Championship; Carmelo Hayes beat Roderick Strong to unify the titles.",
+      "related": [
+        "NXT North American Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Cruiserweight_Championship"
+      ]
+    },
+    {
+      "date": "2022-01-04",
+      "kind": "retired",
+      "text": "Title officially retired upon unification, with Carmelo Hayes recognized as the final champion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Cruiserweight_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions",
+    "https://en.wikipedia.org/wiki/NXT_Cruiserweight_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r4",
+      "holder": "T. J. Perkins",
+      "people": [
+        "t-j-perkins"
+      ],
+      "start": "2016-09-14",
+      "end": "2016-10-30",
+      "days": 46,
+      "number": 1,
+      "event": "Cruiserweight Classic Finale",
+      "location": "Winter Park, FL",
+      "note": "Won the Cruiserweight Classic tournament final; title was awarded to the winner",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "The Brian Kendrick",
+      "people": [
+        "brian-kendrick"
+      ],
+      "start": "2016-10-30",
+      "end": "2016-11-29",
+      "days": 30,
+      "number": 2,
+      "event": "Hell in a Cell",
+      "location": "Boston, MA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Rich Swann",
+      "people": [
+        "rich-swann"
+      ],
+      "start": "2016-11-29",
+      "end": "2017-01-29",
+      "days": 61,
+      "number": 3,
+      "event": "205 Live",
+      "location": "Columbia, SC",
+      "note": "Won on the first episode of 205 Live",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Neville",
+      "people": [
+        "neville"
+      ],
+      "start": "2017-01-29",
+      "end": "2017-08-14",
+      "days": 197,
+      "number": 4,
+      "event": "Royal Rumble",
+      "location": "San Antonio, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Akira Tozawa",
+      "people": [
+        "akira-tozawa"
+      ],
+      "start": "2017-08-14",
+      "end": "2017-08-20",
+      "days": 6,
+      "number": 5,
+      "event": "Raw",
+      "location": "Boston, MA",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-nxt-cruiserweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions"
+      ],
+      "legacyIds": [
+        "profile-reign-akira-tozawa-22"
+      ]
+    },
+    {
+      "id": "r9",
+      "holder": "Neville",
+      "people": [
+        "neville"
+      ],
+      "start": "2017-08-20",
+      "end": "2017-09-24",
+      "days": 35,
+      "number": 6,
+      "event": "SummerSlam Kickoff",
+      "location": "Brooklyn, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Enzo Amore",
+      "people": [
+        "enzo-amore"
+      ],
+      "start": "2017-09-24",
+      "end": "2017-10-09",
+      "days": 15,
+      "number": 7,
+      "event": "No Mercy",
+      "location": "Los Angeles, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Kalisto",
+      "people": [
+        "kalisto"
+      ],
+      "start": "2017-10-09",
+      "end": "2017-10-22",
+      "days": 13,
+      "number": 8,
+      "event": "Raw",
+      "location": "Indianapolis, IN",
+      "note": "Lumberjack match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Enzo Amore",
+      "people": [
+        "enzo-amore"
+      ],
+      "start": "2017-10-22",
+      "end": "2018-01-23",
+      "days": 93,
+      "number": 9,
+      "event": "TLC: Tables, Ladders & Chairs",
+      "location": "Minneapolis, MN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Cedric Alexander",
+      "people": [
+        "cedric-alexander"
+      ],
+      "start": "2018-04-08",
+      "end": "2018-10-06",
+      "days": 181,
+      "number": 10,
+      "event": "WrestleMania 34 Kickoff",
+      "location": "New Orleans, LA",
+      "note": "Won a tournament final over Mustafa Ali to fill the vacancy; title became 205 Live exclusive",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Buddy Murphy",
+      "people": [
+        "buddy-murphy"
+      ],
+      "start": "2018-10-06",
+      "end": "2019-04-07",
+      "days": 183,
+      "number": 11,
+      "event": "Super Show-Down",
+      "location": "Melbourne, Australia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Tony Nese",
+      "people": [
+        "tony-nese"
+      ],
+      "start": "2019-04-07",
+      "end": "2019-06-23",
+      "days": 77,
+      "number": 12,
+      "event": "WrestleMania 35 Kickoff",
+      "location": "East Rutherford, NJ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Drew Gulak",
+      "people": [
+        "drew-gulak"
+      ],
+      "start": "2019-06-23",
+      "end": "2019-10-09",
+      "days": 108,
+      "number": 13,
+      "event": "Stomping Grounds Kickoff",
+      "location": "Tacoma, WA",
+      "note": "Triple threat match; title renamed NXT Cruiserweight in October 2019",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Lio Rush",
+      "people": [
+        "lio-rush"
+      ],
+      "start": "2019-10-09",
+      "end": "2019-12-11",
+      "days": 63,
+      "number": 14,
+      "event": "NXT",
+      "location": "Winter Park, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Angel Garza",
@@ -14,9 +356,14 @@
       ],
       "start": "2019-12-11",
       "end": "2020-01-25",
+      "days": 45,
+      "number": 15,
+      "event": "NXT",
+      "location": "Winter Park, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-nxt-cruiserweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-nxt-cruiserweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-angel-33"
@@ -29,14 +376,72 @@
         "jd-mcdonagh"
       ],
       "start": "2020-01-25",
-      "end": "2020-06-03",
+      "end": "2021-04-08",
+      "days": 439,
+      "number": 16,
+      "event": "Worlds Collide",
+      "location": "Houston, TX",
+      "note": "Fatal four-way; title extended to NXT UK; reign ended with unification loss to Santos Escobar in April 2021",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-nxt-cruiserweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-nxt-cruiserweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-jd-mcdonagh-326"
       ]
+    },
+    {
+      "id": "r18",
+      "holder": "El Hijo del Fantasma/Santos Escobar",
+      "people": [
+        "santos-escobar"
+      ],
+      "start": "2020-05-27",
+      "end": "2021-04-13",
+      "days": 321,
+      "number": 17,
+      "event": "NXT",
+      "location": "Winter Park, FL",
+      "note": "Interim champion during COVID-19 travel ban; unified title with Devlin in April 2021",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Kushida",
+      "people": [
+        "kushida"
+      ],
+      "start": "2021-04-13",
+      "end": "2021-09-21",
+      "days": 161,
+      "number": 18,
+      "event": "NXT",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Roderick Strong",
+      "people": [
+        "roderick-strong"
+      ],
+      "start": "2021-09-21",
+      "end": "2022-01-04",
+      "days": 105,
+      "number": 19,
+      "event": "NXT 2.0",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r3",
@@ -46,9 +451,15 @@
       ],
       "start": "2022-01-04",
       "end": "2022-01-04",
+      "days": 0,
+      "number": 20,
+      "event": "NXT 2.0: New Year's Evil",
+      "location": "Orlando, FL",
+      "note": "Unification match with NXT North American Championship; WWE's official history lists an incorrect end date",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-nxt-cruiserweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-nxt-cruiserweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Cruiserweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-carmelo-hayes-72"

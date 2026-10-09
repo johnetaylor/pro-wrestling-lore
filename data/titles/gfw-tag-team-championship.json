@@ -1,22 +1,80 @@
 {
   "id": "gfw-tag-team-championship",
   "name": "GFW Tag Team Championship",
-  "names": [
-    "GFW Tag Team Championship"
+  "promotion": "tna",
+  "division": "men",
+  "format": "tag",
+  "established": "2015-10-23",
+  "retired": "2017-07-02",
+  "names": [],
+  "eras": [
+    {
+      "name": "GFW Tag Team Championship",
+      "from": "2015-10-23"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "2017-04-23",
+      "kind": "promotion",
+      "text": "The vacant titles were won by The Latin American Xchange in a tournament final at an Impact Wrestling event in Orlando, Florida.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Global_Force_Wrestling"
+      ]
+    },
+    {
+      "date": "2017-07-02",
+      "kind": "unified-into",
+      "text": "The titles were unified at Slammiversary XV in Orlando after The Latin American Xchange defended both championships.",
+      "related": [
+        "Impact World Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Global_Force_Wrestling"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Global_Force_Wrestling"
+  ],
   "reigns": [
     {
-      "id": "r1",
-      "holder": "Santana & Ortiz",
+      "id": "r2",
+      "holder": "The Bollywood Boyz",
       "people": [
-        "mike-santana"
+        "gurv-sihra",
+        "harv-sihra"
+      ],
+      "start": "2015-10-23",
+      "end": "2016-12-02",
+      "days": 406,
+      "number": 1,
+      "event": "GFW Amped",
+      "location": "Las Vegas, Nevada",
+      "note": "Beat Reno Scum for inaugural titles; aired 2015-12-08",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Global_Force_Wrestling"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r1",
+      "holder": "The Latin American Xchange",
+      "people": [
+        "mike-santana",
+        "ortiz"
       ],
       "start": "2017-04-23",
       "end": "2017-07-02",
+      "days": 70,
+      "number": 2,
+      "event": "Impact Wrestling",
+      "location": "Orlando, Florida",
+      "note": "Won vacant titles in tournament final over Veterans of War",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/gfw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/gfw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/Global_Force_Wrestling"
       ],
       "legacyIds": [
         "profile-reign-cruz-montana-141"

@@ -1,11 +1,76 @@
 {
   "id": "aaa-latin-american-championship",
   "name": "AAA Latin American Championship",
+  "promotion": "aaa",
+  "division": "men",
+  "format": "singles",
+  "established": "2011-06-18",
   "names": [
-    "AAA Latin American Championship"
+    "AAA Latin American Championship (Spanish: Campeonato Latinoamericano AAA)"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "AAA Latin American Championship (Spanish: Campeonato Latinoamericano AAA)",
+      "from": "2011-06-18"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/AAA_Latin_American_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r12",
+      "holder": "Dr. Wagner Jr.",
+      "people": [
+        "dr-wagner-jr"
+      ],
+      "start": "2011-06-18",
+      "end": "2011-12-16",
+      "days": 181,
+      "number": 1,
+      "event": "Triplemanía XIX",
+      "location": "Mexico City, Mexico",
+      "note": "Beat Rob Van Dam to become the first champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Latin_American_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "L.A. Park",
+      "people": [
+        "l-a-park"
+      ],
+      "start": "2011-12-16",
+      "end": "2013-04-23",
+      "days": 494,
+      "number": 2,
+      "event": "Guerra de Titanes",
+      "location": "Puebla, Puebla, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Latin_American_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Blue Demon Jr.",
+      "people": [
+        "blue-demon-jr"
+      ],
+      "start": "2013-06-16",
+      "end": "2014-03-16",
+      "days": 273,
+      "number": 3,
+      "event": "Triplemanía XXI",
+      "location": "Mexico City, Mexico",
+      "note": "Beat El Mesías to win the vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Latin_American_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Chessman",
@@ -14,9 +79,15 @@
       ],
       "start": "2014-04-16",
       "end": "2015-08-31",
+      "days": 533,
+      "number": 4,
+      "event": "Rey de Reyes",
+      "location": "Monterrey, Nuevo León, Mexico",
+      "note": "Beat Villano IV to win the vacant title",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship",
+        "https://en.wikipedia.org/wiki/AAA_Latin_American_Championship"
       ],
       "legacyIds": [
         "profile-reign-chessman-89"
@@ -30,9 +101,15 @@
       ],
       "start": "2015-08-31",
       "end": "2016-07-03",
+      "days": 307,
+      "number": 5,
+      "event": "Sin Límite",
+      "location": "Tehuacán, Puebla, Mexico",
+      "note": "Aired September 5",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship",
+        "https://en.wikipedia.org/wiki/AAA_Latin_American_Championship"
       ],
       "legacyIds": [
         "profile-reign-psycho-clown-542"
@@ -40,19 +117,60 @@
     },
     {
       "id": "r3",
-      "holder": "Pentagón Dark",
+      "holder": "Pentagón Jr.",
       "people": [
         "penta"
       ],
       "start": "2016-07-03",
       "end": "2016-08-28",
+      "days": 56,
+      "number": 6,
+      "event": "Sin Limite",
+      "location": "Ecatepec de Morelos, Mexico",
+      "note": "Aired July 9",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship",
+        "https://en.wikipedia.org/wiki/AAA_Latin_American_Championship"
       ],
       "legacyIds": [
         "profile-reign-penta-524"
       ]
+    },
+    {
+      "id": "r15",
+      "holder": "Johnny Mundo",
+      "people": [
+        "john-morrison"
+      ],
+      "start": "2016-08-28",
+      "end": "2017-10-01",
+      "days": 399,
+      "number": 7,
+      "event": "Triplemanía XXIV",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Latin_American_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "El Hijo del Fantasma",
+      "people": [
+        "santos-escobar"
+      ],
+      "start": "2017-10-01",
+      "end": "2018-12-02",
+      "days": 427,
+      "number": 8,
+      "event": "Héroes Inmortales XI",
+      "location": "San Luis Potosí City, San Luis Potosí, Mexico",
+      "note": "Won a 14-man Copa Antonio Peña battle royal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Latin_American_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r4",
@@ -62,9 +180,14 @@
       ],
       "start": "2018-12-02",
       "end": "2019-10-19",
+      "days": 321,
+      "number": 9,
+      "event": "Guerra de Titanes",
+      "location": "Aguascalientes City, Aguascalientes, Mexico",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship",
+        "https://en.wikipedia.org/wiki/AAA_Latin_American_Championship"
       ],
       "legacyIds": [
         "profile-reign-drago-178"
@@ -78,29 +201,76 @@
       ],
       "start": "2019-10-19",
       "end": "2021-04-24",
+      "days": 553,
+      "number": 10,
+      "event": "Héroes Inmortales XIII",
+      "location": "Orizaba, Veracruz, Mexico",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship",
+        "https://en.wikipedia.org/wiki/AAA_Latin_American_Championship"
       ],
       "legacyIds": [
         "profile-reign-daga-151"
       ]
     },
     {
+      "id": "r17",
+      "holder": "Taurus",
+      "people": [
+        "taurus"
+      ],
+      "start": "2021-05-01",
+      "end": "2022-06-18",
+      "days": 413,
+      "number": 11,
+      "event": "Rey de Reyes",
+      "location": "San Pedro Cholula, Puebla, Mexico",
+      "note": "Won a three-way to take the vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Latin_American_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r6",
-      "holder": "Rey Fénix",
+      "holder": "Fénix",
       "people": [
         "rey-fenix"
       ],
       "start": "2022-06-18",
       "end": "2023-07-17",
+      "days": 394,
+      "number": 12,
+      "event": "Triplemanía XXX",
+      "location": "Tijuana, Mexico",
+      "note": "Five-way winner-takes-all match that also included a cruiserweight title",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship",
+        "https://en.wikipedia.org/wiki/AAA_Latin_American_Championship"
       ],
       "legacyIds": [
         "profile-reign-rey-fenix-641"
       ]
+    },
+    {
+      "id": "r18",
+      "holder": "Q.T. Marshall",
+      "people": [
+        "q-t-marshall"
+      ],
+      "start": "2023-08-12",
+      "end": "2023-11-19",
+      "days": 99,
+      "number": 13,
+      "event": "Triplemanía XXXI",
+      "location": "Azcapotzalco, Mexico City, Mexico",
+      "note": "Won a four-way to take the vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Latin_American_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r7",
@@ -110,9 +280,14 @@
       ],
       "start": "2023-11-19",
       "end": "2024-11-10",
+      "days": 357,
+      "number": 14,
+      "event": "Guerra de Titanes",
+      "location": "Ciudad Juárez, Chihuahua, Mexico",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship",
+        "https://en.wikipedia.org/wiki/AAA_Latin_American_Championship"
       ],
       "legacyIds": [
         "profile-reign-octagon-jr-501"
@@ -120,15 +295,20 @@
     },
     {
       "id": "r8",
-      "holder": "El Mesías",
+      "holder": "El Mesias",
       "people": [
         "el-mesias"
       ],
       "start": "2024-11-10",
       "end": "2025-08-16",
+      "days": 279,
+      "number": 15,
+      "event": "Guerra de Titanes",
+      "location": "Ciudad Juárez, Chihuahua, Mexico",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship",
+        "https://en.wikipedia.org/wiki/AAA_Latin_American_Championship"
       ],
       "legacyIds": [
         "profile-reign-el-mesias-231"
@@ -142,9 +322,14 @@
       ],
       "start": "2025-08-16",
       "end": "2026-05-30",
+      "days": 287,
+      "number": 16,
+      "event": "Triplemanía XXXIII",
+      "location": "Azcapotzalco, Mexico City, Mexico",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship",
+        "https://en.wikipedia.org/wiki/AAA_Latin_American_Championship"
       ],
       "legacyIds": [
         "profile-reign-el-hijo-de-dr-wagner-jr-219"
@@ -158,9 +343,14 @@
       ],
       "start": "2026-05-30",
       "end": "2026-07-11",
+      "days": 42,
+      "number": 17,
+      "event": "Noche de Los Grandes",
+      "location": "Monterrey, Nuevo León, Mexico",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship",
+        "https://en.wikipedia.org/wiki/AAA_Latin_American_Championship"
       ],
       "legacyIds": [
         "profile-reign-el-hijo-del-vikingo-224"
@@ -173,9 +363,15 @@
         "la-parka"
       ],
       "start": "2026-08-30",
+      "days": 1,
+      "number": 18,
+      "event": "Ola de Calor",
+      "location": "Edinburg, Texas, U.S.",
+      "note": "Won the fatal four-way final to take the vacant title",
       "dateNote": "Listed as ongoing in the profile source; shown through the archive date.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-latin-american-championship",
+        "https://en.wikipedia.org/wiki/AAA_Latin_American_Championship"
       ],
       "legacyIds": [
         "profile-reign-la-parka-409"

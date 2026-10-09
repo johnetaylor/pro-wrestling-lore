@@ -1,11 +1,76 @@
 {
   "id": "iwgp-u-30-openweight-championship",
   "name": "IWGP U-30 Openweight Championship",
+  "promotion": "njpw",
+  "division": "men",
+  "format": "singles",
+  "established": "2003-04-23",
+  "retired": "2006-06-07",
   "names": [
-    "IWGP U-30 Openweight Championship"
+    "U-30 Openweight Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "U-30 Openweight Championship",
+      "from": "2003-04-23",
+      "to": "2004-11"
+    },
+    {
+      "name": "IWGP U-30 Openweight Championship",
+      "from": "2004-11"
+    }
+  ],
+  "history": [
+    {
+      "date": "2004-11",
+      "kind": "recognition",
+      "text": "Became officially recognized as an IWGP title.",
+      "related": [
+        "IWGP"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_U-30_Openweight_Championship"
+      ]
+    },
+    {
+      "date": "2006-06-07",
+      "kind": "deactivated",
+      "text": "Tanahashi vacated the title to focus on the IWGP Heavyweight Championship; it was soon deactivated.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_U-30_Openweight_Championship"
+      ]
+    },
+    {
+      "date": "2006-06-07",
+      "kind": "retired",
+      "text": "Title retired on the same date Tanahashi vacated it.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_U-30_Openweight_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/IWGP_U-30_Openweight_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r2",
+      "holder": "Hiroshi Tanahashi",
+      "people": [
+        "hiroshi-tanahashi"
+      ],
+      "start": "2003-04-23",
+      "end": "2005-01-04",
+      "days": 622,
+      "number": 1,
+      "event": "Strong Energy 2003",
+      "location": "Hiroshima, Japan",
+      "note": "Won G2 U-30 Climax final over Shinya Makabe at age 26",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_U-30_Openweight_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Shinsuke Nakamura",
@@ -14,13 +79,37 @@
       ],
       "start": "2005-01-04",
       "end": "2005-05-01",
+      "days": 117,
+      "number": 2,
+      "event": "Toukon Festival: Wrestling World 2005",
+      "location": "Tokyo, Japan",
+      "note": "Beat Tanahashi in Tokyo Dome main event at age 24",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-u-30-openweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-u-30-openweight-championship",
+        "https://en.wikipedia.org/wiki/IWGP_U-30_Openweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-shinsuke-nakamura-778"
       ]
+    },
+    {
+      "id": "r3",
+      "holder": "Hiroshi Tanahashi",
+      "people": [
+        "hiroshi-tanahashi"
+      ],
+      "start": "2005-06-18",
+      "end": "2006-06-07",
+      "days": 354,
+      "number": 3,
+      "event": "Best of the Super Jr. XII",
+      "location": "Kyoto, Japan",
+      "note": "Won six-man round-robin final over Toru Yano at age 28",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_U-30_Openweight_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

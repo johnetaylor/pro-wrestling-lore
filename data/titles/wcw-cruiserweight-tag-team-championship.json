@@ -1,22 +1,76 @@
 {
   "id": "wcw-cruiserweight-tag-team-championship",
   "name": "WCW Cruiserweight Tag Team Championship",
-  "names": [
-    "WCW Cruiserweight Tag Team Championship"
+  "promotion": "wcw",
+  "division": "men",
+  "format": "tag",
+  "established": "2001-03-18",
+  "retired": "2001-03-26",
+  "names": [],
+  "eras": [
+    {
+      "name": "WCW Cruiserweight Tag Team Championship",
+      "from": "2001-02"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "2001-03-26",
+      "kind": "promotion",
+      "text": "WCW's assets were sold to the World Wrestling Federation, which bought the company.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_Cruiserweight_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2001-03-26",
+      "kind": "retired",
+      "text": "The title was retired and abandoned when WCW was sold to the WWF.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_Cruiserweight_Tag_Team_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/WCW_Cruiserweight_Tag_Team_Championship"
+  ],
   "reigns": [
     {
-      "id": "r1",
-      "holder": "Billy Kidman & Rey Mysterio Jr.",
+      "id": "r2",
+      "holder": "Elix Skipper & Kid Romeo",
       "people": [
-        "rey-mysterio"
+        "elix-skipper",
+        "kid-romeo"
+      ],
+      "start": "2001-03-18",
+      "end": "2001-03-26",
+      "days": 8,
+      "number": 1,
+      "event": "Greed",
+      "location": "Jacksonville, FL",
+      "note": "Romeo and Skipper defeated The Filthy Animals (Billy Kidman and Rey Mysterio Jr.) in tournament final to become the inaugural champions.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_Cruiserweight_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r1",
+      "holder": "The Filthy Animals",
+      "people": [
+        "rey-mysterio",
+        "billy-kidman"
       ],
       "start": "2001-03-26",
       "end": "2001-03-26",
+      "days": 0,
+      "number": 2,
+      "event": "WCW Monday Nitro",
+      "location": "Panama City Beach, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wcw/wcw-cruiserweight-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wcw/wcw-cruiserweight-tag-team-championship",
+        "https://en.wikipedia.org/wiki/WCW_Cruiserweight_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-673"

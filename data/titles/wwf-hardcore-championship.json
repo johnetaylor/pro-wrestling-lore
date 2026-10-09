@@ -1,14 +1,1038 @@
 {
   "id": "wwf-hardcore-championship",
   "name": "Hardcore Championship",
+  "promotion": "wwe",
+  "division": "mixed",
+  "format": "singles",
+  "established": "1998-11-02",
+  "retired": "2002-08-26",
   "names": [
-    "Hardcore Championship",
-    "WWF Hardcore Championship"
+    "WWF Hardcore Championship",
+    "WWE Hardcore Championship",
+    "Undisputed WWE Intercontinental Championship",
+    "Texas Hardcore Championship (briefly, under Bradshaw)"
+  ],
+  "eras": [
+    {
+      "name": "WWF Hardcore Championship",
+      "from": "1998-11-02",
+      "to": "2002"
+    },
+    {
+      "name": "WWE Hardcore Championship",
+      "from": "2002",
+      "to": "2002"
+    },
+    {
+      "name": "Undisputed WWE Intercontinental Championship",
+      "from": "2002",
+      "to": "2002-06"
+    },
+    {
+      "name": "Texas Hardcore Championship (briefly, under Bradshaw)",
+      "from": "2002-06"
+    }
+  ],
+  "history": [
+    {
+      "date": "2002-08-26",
+      "kind": "unified-into",
+      "text": "Rob Van Dam beat Tommy Dreamer in a unification match, merging the Hardcore title into the Intercontinental Championship.",
+      "related": [
+        "WWE Intercontinental Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Hardcore_Championship"
+      ]
+    },
+    {
+      "date": "2002-08-26",
+      "kind": "retired",
+      "text": "The title ended with its unification, and Van Dam was its final champion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Hardcore_Championship"
+      ]
+    },
+    {
+      "date": "2003-06-23",
+      "kind": "recognition",
+      "text": "Stone Cold Steve Austin gave Mick Foley the belt for his hardcore contributions, but not the championship itself.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Hardcore_Championship"
+      ]
+    },
+    {
+      "date": "2006-05-22",
+      "kind": "recognition",
+      "text": "Edge and Foley declared themselves co-holders during an ECW-alumni storyline.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Hardcore_Championship"
+      ]
+    },
+    {
+      "date": "2006-05-22",
+      "kind": "deactivated",
+      "text": "The title was not defended afterward and soon quietly disappeared.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Hardcore_Championship"
+      ]
+    },
+    {
+      "date": "2024-11",
+      "kind": "reactivated",
+      "text": "Triple H handed Travis Scott a new belt at a concert and declared him the new WWE Hardcore Champion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Hardcore_Championship"
+      ]
+    }
   ],
   "sources": [
-    "https://www.wwe.com/titlehistory/hardcore-championship"
+    "https://www.wwe.com/titlehistory/hardcore-championship",
+    "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions",
+    "https://en.wikipedia.org/wiki/WWE_Hardcore_Championship"
   ],
   "reigns": [
+    {
+      "id": "r3",
+      "holder": "Mankind",
+      "people": [
+        "mick-foley"
+      ],
+      "start": "1998-11-02",
+      "end": "1998-11-30",
+      "days": 28,
+      "number": 1,
+      "event": "Raw is War",
+      "location": "Houston, Texas",
+      "note": "WWF Chairman Vince McMahon awarded Mankind the title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Big Boss Man",
+      "people": [
+        "big-boss-man"
+      ],
+      "start": "1998-11-30",
+      "end": "1998-12-15",
+      "days": 15,
+      "number": 2,
+      "event": "Raw is War",
+      "location": "Baltimore, Maryland",
+      "note": "Ladder match.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Road Dogg",
+      "people": [
+        "road-dogg"
+      ],
+      "start": "1998-12-15",
+      "end": "1999-02-14",
+      "days": 61,
+      "number": 3,
+      "event": "Raw is War",
+      "location": "Spokane, Washington",
+      "note": "Aired on tape delay on December 21, 1998. WWE.com lists this reign as 302 days.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Bob Holly",
+      "people": [
+        "bob-holly"
+      ],
+      "start": "1999-02-14",
+      "end": "1999-03-15",
+      "days": 29,
+      "number": 4,
+      "event": "St. Valentine's Day Massacre: In Your House",
+      "location": "Memphis, Tennessee",
+      "note": "Defeated Al Snow to win the vacant championship.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Billy Gunn",
+      "people": [
+        "billy-gunn"
+      ],
+      "start": "1999-03-15",
+      "end": "1999-03-28",
+      "days": 13,
+      "number": 5,
+      "event": "Raw is War",
+      "location": "San Jose, California",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Hardcore Holly",
+      "people": [
+        "bob-holly"
+      ],
+      "start": "1999-03-28",
+      "end": "1999-04-25",
+      "days": 28,
+      "number": 6,
+      "event": "WrestleMania XV",
+      "location": "Philadelphia, Pennsylvania",
+      "note": "Triple threat match also involving Al Snow.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Al Snow",
+      "people": [
+        "al-snow"
+      ],
+      "start": "1999-04-25",
+      "end": "1999-07-25",
+      "days": 91,
+      "number": 7,
+      "event": "Backlash",
+      "location": "Providence, Rhode Island",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Big Boss Man",
+      "people": [
+        "big-boss-man"
+      ],
+      "start": "1999-07-25",
+      "end": "1999-08-22",
+      "days": 28,
+      "number": 8,
+      "event": "Fully Loaded",
+      "location": "Buffalo, New York",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Al Snow",
+      "people": [
+        "al-snow"
+      ],
+      "start": "1999-08-22",
+      "end": "1999-08-24",
+      "days": 2,
+      "number": 9,
+      "event": "SummerSlam",
+      "location": "Minneapolis, Minnesota",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Big Boss Man",
+      "people": [
+        "big-boss-man"
+      ],
+      "start": "1999-08-24",
+      "end": "1999-09-07",
+      "days": 14,
+      "number": 10,
+      "event": "SmackDown!",
+      "location": "Kansas City, Missouri",
+      "note": "Aired on tape delay on August 26, 1999.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "The British Bulldog",
+      "people": [
+        "the-british-bulldog"
+      ],
+      "start": "1999-09-07",
+      "end": "1999-09-07",
+      "days": 0,
+      "number": 11,
+      "event": "SmackDown!",
+      "location": "Albany, New York",
+      "note": "Aired on tape delay on September 9, 1999.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Al Snow",
+      "people": [
+        "al-snow"
+      ],
+      "start": "1999-09-07",
+      "end": "1999-10-12",
+      "days": 35,
+      "number": 12,
+      "event": "SmackDown!",
+      "location": "Albany, New York",
+      "note": "Awarded the title by The British Bulldog. Aired on tape delay on September 9, 1999.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Big Boss Man",
+      "people": [
+        "big-boss-man"
+      ],
+      "start": "1999-10-12",
+      "end": "2000-01-17",
+      "days": 97,
+      "number": 13,
+      "event": "SmackDown!",
+      "location": "Birmingham, Alabama",
+      "note": "Triple threat match also involving Big Show. Aired on tape delay on October 14, 1999.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Test",
+      "people": [
+        "test"
+      ],
+      "start": "2000-01-17",
+      "end": "2000-02-22",
+      "days": 36,
+      "number": 14,
+      "event": "Raw is War",
+      "location": "New Haven, Connecticut",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2000-02-22",
+      "end": "2000-03-13",
+      "days": 20,
+      "number": 15,
+      "event": "SmackDown!",
+      "location": "Nashville, Tennessee",
+      "note": "24/7 rule applied: winnable any time and anywhere with a referee present. Aired on tape delay on February 24, 2000.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Pete Gas",
+      "people": [
+        "pete-gas"
+      ],
+      "start": "2000-03-13",
+      "end": "2000-03-13",
+      "days": 0,
+      "number": 16,
+      "event": "Raw is War",
+      "location": "Newark, New Jersey",
+      "note": "Won in Newark Airport. First title change under the 24/7 rule.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2000-03-13",
+      "end": "2000-04-02",
+      "days": 20,
+      "number": 17,
+      "event": "Raw is War",
+      "location": "Newark, New Jersey",
+      "note": "Won in Newark Airport.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Tazz",
+      "people": [
+        "tazz"
+      ],
+      "start": "2000-04-02",
+      "end": "2000-04-02",
+      "days": 0,
+      "number": 18,
+      "event": "WrestleMania 2000",
+      "location": "Anaheim, California",
+      "note": "Won during 13 man Hardcore Battle Royal.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Viscera",
+      "people": [
+        "viscera"
+      ],
+      "start": "2000-04-02",
+      "end": "2000-04-02",
+      "days": 0,
+      "number": 19,
+      "event": "WrestleMania 2000",
+      "location": "Anaheim, California",
+      "note": "Won during 13 man Hardcore Battle Royal.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Funaki",
+      "people": [
+        "sho-funaki"
+      ],
+      "start": "2000-04-02",
+      "end": "2000-04-02",
+      "days": 0,
+      "number": 20,
+      "event": "WrestleMania 2000",
+      "location": "Anaheim, California",
+      "note": "Won during 13 man Hardcore Battle Royal.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Rodney",
+      "people": [
+        "rodney"
+      ],
+      "start": "2000-04-02",
+      "end": "2000-04-02",
+      "days": 0,
+      "number": 21,
+      "event": "WrestleMania 2000",
+      "location": "Anaheim, California",
+      "note": "Won during 13 man Hardcore Battle Royal.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Joey Abs",
+      "people": [
+        "joey-abs"
+      ],
+      "start": "2000-04-02",
+      "end": "2000-04-02",
+      "days": 0,
+      "number": 22,
+      "event": "WrestleMania 2000",
+      "location": "Anaheim, California",
+      "note": "Won during 13 man Hardcore Battle Royal.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Thrasher",
+      "people": [
+        "thrasher"
+      ],
+      "start": "2000-04-02",
+      "end": "2000-04-02",
+      "days": 0,
+      "number": 23,
+      "event": "WrestleMania 2000",
+      "location": "Anaheim, California",
+      "note": "Won during 13 man Hardcore Battle Royal.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Pete Gas",
+      "people": [
+        "pete-gas"
+      ],
+      "start": "2000-04-02",
+      "end": "2000-04-02",
+      "days": 0,
+      "number": 24,
+      "event": "WrestleMania 2000",
+      "location": "Anaheim, California",
+      "note": "Won during 13 man Hardcore Battle Royal.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Tazz",
+      "people": [
+        "tazz"
+      ],
+      "start": "2000-04-02",
+      "end": "2000-04-02",
+      "days": 0,
+      "number": 25,
+      "event": "WrestleMania 2000",
+      "location": "Anaheim, California",
+      "note": "Won during 13 man Hardcore Battle Royal.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2000-04-02",
+      "end": "2000-04-02",
+      "days": 0,
+      "number": 26,
+      "event": "WrestleMania 2000",
+      "location": "Anaheim, California",
+      "note": "Won during 13 man Hardcore Battle Royal.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "Hardcore Holly",
+      "people": [
+        "bob-holly"
+      ],
+      "start": "2000-04-02",
+      "end": "2000-04-03",
+      "days": 1,
+      "number": 27,
+      "event": "WrestleMania 2000",
+      "location": "Anaheim, California",
+      "note": "Won during 13 man Hardcore Battle Royal.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2000-04-03",
+      "end": "2000-04-11",
+      "days": 8,
+      "number": 28,
+      "event": "Raw is War",
+      "location": "Los Angeles, California",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "Perry Saturn",
+      "people": [
+        "perry-saturn"
+      ],
+      "start": "2000-04-11",
+      "end": "2000-04-11",
+      "days": 0,
+      "number": 29,
+      "event": "SmackDown!",
+      "location": "Tampa, Florida",
+      "note": "Aired on tape delay on April 13, 2000.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Tazz",
+      "people": [
+        "tazz"
+      ],
+      "start": "2000-04-11",
+      "end": "2000-04-11",
+      "days": 0,
+      "number": 30,
+      "event": "SmackDown!",
+      "location": "Tampa, Florida",
+      "note": "Aired on tape delay on April 13, 2000.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2000-04-11",
+      "end": "2000-04-24",
+      "days": 13,
+      "number": 31,
+      "event": "SmackDown!",
+      "location": "Tampa, Florida",
+      "note": "Aired on tape delay on April 13, 2000.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Matt Hardy",
+      "people": [
+        "matt-hardy"
+      ],
+      "start": "2000-04-24",
+      "end": "2000-04-25",
+      "days": 1,
+      "number": 32,
+      "event": "Raw is War",
+      "location": "Raleigh, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2000-04-25",
+      "end": "2000-05-06",
+      "days": 11,
+      "number": 33,
+      "event": "SmackDown!",
+      "location": "Charlotte, North Carolina",
+      "note": "Pinned Matt Hardy during a title defense against Jeff Hardy. Aired on tape delay on April 27, 2000.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "The British Bulldog",
+      "people": [
+        "the-british-bulldog"
+      ],
+      "start": "2000-05-06",
+      "end": "2000-05-09",
+      "days": 3,
+      "number": 34,
+      "event": "Insurrextion",
+      "location": "London, England",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2000-05-09",
+      "end": "2000-05-15",
+      "days": 6,
+      "number": 35,
+      "event": "SmackDown!",
+      "location": "New Haven, Connecticut",
+      "note": "Pinned The British Bulldog during a title defense against Hardcore Holly. Aired on May 11, 2000.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r38",
+      "holder": "Godfather's Ho",
+      "people": [],
+      "start": "2000-05-15",
+      "end": "2000-05-15",
+      "days": 0,
+      "number": 36,
+      "event": "Raw is War",
+      "location": "Cleveland, Ohio",
+      "note": "Pinned Crash Holly during a title defense against The Godfather; reign lasted 15 seconds.",
+      "unlinked": [
+        "Godfather's Ho"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2000-05-15",
+      "end": "2000-05-16",
+      "days": 1,
+      "number": 37,
+      "event": "Raw is War",
+      "location": "Cleveland, Ohio",
+      "note": "Pinned Godfather's Ho in the same match to regain the title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "Gerald Brisco",
+      "people": [
+        "gerald-brisco"
+      ],
+      "start": "2000-05-16",
+      "end": "2000-06-12",
+      "days": 27,
+      "number": 38,
+      "event": "SmackDown!",
+      "location": "Detroit, Michigan",
+      "note": "Pinned a sleeping Crash Holly backstage. Aired on May 18, 2000.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2000-06-12",
+      "end": "2000-06-19",
+      "days": 7,
+      "number": 39,
+      "event": "Raw is War",
+      "location": "St. Louis, Missouri",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Gerald Brisco",
+      "people": [
+        "gerald-brisco"
+      ],
+      "start": "2000-06-19",
+      "end": "2000-06-19",
+      "days": 0,
+      "number": 40,
+      "event": "Raw is War",
+      "location": "Nashville, Tennessee",
+      "note": "Pinned Crash Holly during a title defense against Hardcore Holly.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "Pat Patterson",
+      "people": [
+        "pat-patterson"
+      ],
+      "start": "2000-06-19",
+      "end": "2000-06-25",
+      "days": 6,
+      "number": 41,
+      "event": "Raw is War",
+      "location": "Nashville, Tennessee",
+      "note": "Pinned Gerald Brisco in the backstage area.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2000-06-25",
+      "end": "2000-06-27",
+      "days": 2,
+      "number": 42,
+      "event": "King of the Ring",
+      "location": "Boston, Massachusetts",
+      "note": "Pinned Pat Patterson during a title defense against Gerald Brisco in a Hardcore Evening Gown match.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "Steve Blackman",
+      "people": [
+        "steve-blackman"
+      ],
+      "start": "2000-06-27",
+      "end": "2000-07-02",
+      "days": 5,
+      "number": 43,
+      "event": "SmackDown!",
+      "location": "Hartford, Connecticut",
+      "note": "Pinned Crash Holly during a title defense against Al Snow. Aired on tape delay on June 29, 2000.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2000-07-02",
+      "end": "2000-07-02",
+      "days": 0,
+      "number": 44,
+      "event": "House show",
+      "location": "Tampa, Florida",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "Steve Blackman",
+      "people": [
+        "steve-blackman"
+      ],
+      "start": "2000-07-02",
+      "end": "2000-08-21",
+      "days": 50,
+      "number": 45,
+      "event": "House show",
+      "location": "Tampa, Florida",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "Shane McMahon",
+      "people": [
+        "shane-mcmahon"
+      ],
+      "start": "2000-08-21",
+      "end": "2000-08-27",
+      "days": 6,
+      "number": 46,
+      "event": "Raw is War",
+      "location": "Lafayette, Louisiana",
+      "note": "Pinned Blackman during a title defense against Test. Commissioner Mick Foley suspended the 24/7 rule August 24-27.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r49",
+      "holder": "Steve Blackman",
+      "people": [
+        "steve-blackman"
+      ],
+      "start": "2000-08-27",
+      "end": "2000-09-24",
+      "days": 28,
+      "number": 47,
+      "event": "SummerSlam",
+      "location": "Raleigh, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r50",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2000-09-24",
+      "end": "2000-09-24",
+      "days": 0,
+      "number": 48,
+      "event": "Unforgiven",
+      "location": "Philadelphia, Pennsylvania",
+      "note": "Won during 6 man hardcore battle royal.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r51",
+      "holder": "Perry Saturn",
+      "people": [
+        "perry-saturn"
+      ],
+      "start": "2000-09-24",
+      "end": "2000-09-24",
+      "days": 0,
+      "number": 49,
+      "event": "Unforgiven",
+      "location": "Philadelphia, Pennsylvania",
+      "note": "Won during 6 man Hardcore Battle Royal.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "Steve Blackman",
+      "people": [
+        "steve-blackman"
+      ],
+      "start": "2000-09-24",
+      "end": "2000-12-22",
+      "days": 89,
+      "number": 50,
+      "event": "Unforgiven",
+      "location": "Philadelphia, Pennsylvania",
+      "note": "Won during 6 man Hardcore Battle Royal.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r53",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2000-12-22",
+      "end": "2001-01-22",
+      "days": 31,
+      "number": 51,
+      "event": "Raw is War",
+      "location": "Chattanooga, Tennessee",
+      "note": "Won in a triple threat hardcore match also involving Hardcore Holly. Aired on tape delay on December 25, 2000.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r54",
+      "holder": "Al Snow",
+      "people": [
+        "al-snow"
+      ],
+      "start": "2001-01-22",
+      "end": "2001-01-22",
+      "days": 0,
+      "number": 52,
+      "event": "Raw is War",
+      "location": "Lafayette, Louisiana",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r55",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2001-01-22",
+      "end": "2001-02-03",
+      "days": 12,
+      "number": 53,
+      "event": "Raw is War",
+      "location": "Lafayette, Louisiana",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "K-Kwik",
@@ -17,13 +1041,52 @@
       ],
       "start": "2001-02-03",
       "end": "2001-02-03",
+      "days": 0,
+      "number": 54,
+      "event": "House show",
+      "location": "Greensboro, North Carolina",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwf-hardcore-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwf-hardcore-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-608"
       ]
+    },
+    {
+      "id": "r56",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2001-02-03",
+      "end": "2001-02-03",
+      "days": 0,
+      "number": 55,
+      "event": "House show",
+      "location": "Greensboro, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2001-02-03",
+      "end": "2001-02-04",
+      "days": 1,
+      "number": 56,
+      "event": "House show",
+      "location": "Greensboro, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r2",
@@ -33,13 +1096,2987 @@
       ],
       "start": "2001-02-04",
       "end": "2001-02-04",
+      "days": 0,
+      "number": 57,
+      "event": "House show",
+      "location": "Columbia, North Carolina",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwf-hardcore-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwf-hardcore-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-607"
       ]
+    },
+    {
+      "id": "r58",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2001-02-04",
+      "end": "2001-02-04",
+      "days": 0,
+      "number": 58,
+      "event": "House show",
+      "location": "Columbia, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r59",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2001-02-04",
+      "end": "2001-02-06",
+      "days": 2,
+      "number": 59,
+      "event": "House show",
+      "location": "Columbia, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r60",
+      "holder": "Hardcore Holly",
+      "people": [
+        "bob-holly"
+      ],
+      "start": "2001-02-06",
+      "end": "2001-02-06",
+      "days": 0,
+      "number": 60,
+      "event": "SmackDown!",
+      "location": "North Charleston, South Carolina",
+      "note": "Aired on tape delay on February 8, 2001.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r61",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2001-02-06",
+      "end": "2001-02-10",
+      "days": 4,
+      "number": 61,
+      "event": "SmackDown!",
+      "location": "North Charleston, South Carolina",
+      "note": "Aired on tape delay on February 8, 2001.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r62",
+      "holder": "Hardcore Holly",
+      "people": [
+        "bob-holly"
+      ],
+      "start": "2001-02-10",
+      "end": "2001-02-10",
+      "days": 0,
+      "number": 62,
+      "event": "House show",
+      "location": "Saint Paul, Minnesota",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r63",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2001-02-10",
+      "end": "2001-02-11",
+      "days": 1,
+      "number": 63,
+      "event": "House show",
+      "location": "Saint Paul, Minnesota",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r64",
+      "holder": "Hardcore Holly",
+      "people": [
+        "bob-holly"
+      ],
+      "start": "2001-02-11",
+      "end": "2001-02-11",
+      "days": 0,
+      "number": 64,
+      "event": "House show",
+      "location": "Boston, Massachusetts",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r65",
+      "holder": "Al Snow",
+      "people": [
+        "al-snow"
+      ],
+      "start": "2001-02-11",
+      "end": "2001-02-11",
+      "days": 0,
+      "number": 65,
+      "event": "House show",
+      "location": "Boston, Massachusetts",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r66",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2001-02-11",
+      "end": "2001-02-17",
+      "days": 6,
+      "number": 66,
+      "event": "House show",
+      "location": "Boston, Massachusetts",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r67",
+      "holder": "Steve Blackman",
+      "people": [
+        "steve-blackman"
+      ],
+      "start": "2001-02-17",
+      "end": "2001-02-17",
+      "days": 0,
+      "number": 67,
+      "event": "House show",
+      "location": "Cedar Falls, Iowa",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r68",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2001-02-17",
+      "end": "2001-02-18",
+      "days": 1,
+      "number": 68,
+      "event": "House show",
+      "location": "Cedar Falls, Iowa",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r69",
+      "holder": "Steve Blackman",
+      "people": [
+        "steve-blackman"
+      ],
+      "start": "2001-02-18",
+      "end": "2001-02-18",
+      "days": 0,
+      "number": 69,
+      "event": "House show",
+      "location": "Cape Girardeau, Missouri",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r70",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2001-02-18",
+      "end": "2001-02-25",
+      "days": 7,
+      "number": 70,
+      "event": "House show",
+      "location": "Cape Girardeau, Missouri",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r71",
+      "holder": "Billy Gunn",
+      "people": [
+        "billy-gunn"
+      ],
+      "start": "2001-02-25",
+      "end": "2001-02-25",
+      "days": 0,
+      "number": 71,
+      "event": "No Way Out",
+      "location": "Paradise, Nevada",
+      "note": "Pinned Raven during a title defense against The Big Show.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r72",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2001-02-25",
+      "end": "2001-02-25",
+      "days": 0,
+      "number": 72,
+      "event": "No Way Out",
+      "location": "Paradise, Nevada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r73",
+      "holder": "Big Show",
+      "people": [
+        "big-show"
+      ],
+      "start": "2001-02-25",
+      "end": "2001-03-19",
+      "days": 22,
+      "number": 73,
+      "event": "No Way Out",
+      "location": "Paradise, Nevada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r74",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2001-03-19",
+      "end": "2001-04-01",
+      "days": 13,
+      "number": 74,
+      "event": "Raw is War",
+      "location": "Albany, New York",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r75",
+      "holder": "Kane",
+      "people": [
+        "kane"
+      ],
+      "start": "2001-04-01",
+      "end": "2001-04-17",
+      "days": 16,
+      "number": 75,
+      "event": "WrestleMania X-Seven",
+      "location": "Houston, Texas",
+      "note": "Triple threat hardcore match also involving The Big Show.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r76",
+      "holder": "Rhyno",
+      "people": [
+        "rhyno"
+      ],
+      "start": "2001-04-17",
+      "end": "2001-05-21",
+      "days": 34,
+      "number": 76,
+      "event": "SmackDown!",
+      "location": "Nashville, Tennessee",
+      "note": "Aired on tape delay on April 19, 2001.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r77",
+      "holder": "Big Show",
+      "people": [
+        "big-show"
+      ],
+      "start": "2001-05-21",
+      "end": "2001-05-28",
+      "days": 7,
+      "number": 77,
+      "event": "Raw is War",
+      "location": "San Jose, California",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r78",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "2001-05-28",
+      "end": "2001-05-28",
+      "days": 0,
+      "number": 78,
+      "event": "Raw is War",
+      "location": "Calgary, Alberta",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r79",
+      "holder": "Rhyno",
+      "people": [
+        "rhyno"
+      ],
+      "start": "2001-05-28",
+      "end": "2001-06-12",
+      "days": 15,
+      "number": 79,
+      "event": "Raw is War",
+      "location": "Calgary, Alberta",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r80",
+      "holder": "Test",
+      "people": [
+        "test"
+      ],
+      "start": "2001-06-12",
+      "end": "2001-06-25",
+      "days": 13,
+      "number": 80,
+      "event": "SmackDown!",
+      "location": "Baltimore, Maryland",
+      "note": "Aired on tape delay on June 14, 2001.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r81",
+      "holder": "Rhyno",
+      "people": [
+        "rhyno"
+      ],
+      "start": "2001-06-25",
+      "end": "2001-06-25",
+      "days": 0,
+      "number": 81,
+      "event": "Raw is War",
+      "location": "New York, New York",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r82",
+      "holder": "Mike Awesome",
+      "people": [
+        "mike-awesome"
+      ],
+      "start": "2001-06-25",
+      "end": "2001-07-10",
+      "days": 15,
+      "number": 82,
+      "event": "Raw is War",
+      "location": "New York, New York",
+      "note": "Pinned Rhyno in the backstage area.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r83",
+      "holder": "Jeff Hardy",
+      "people": [
+        "jeff-hardy"
+      ],
+      "start": "2001-07-10",
+      "end": "2001-07-22",
+      "days": 12,
+      "number": 83,
+      "event": "SmackDown!",
+      "location": "Birmingham, Alabama",
+      "note": "Aired on tape delay on July 12, 2001.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r84",
+      "holder": "Rob Van Dam",
+      "people": [
+        "rob-van-dam"
+      ],
+      "start": "2001-07-22",
+      "end": "2001-08-13",
+      "days": 22,
+      "number": 84,
+      "event": "Invasion",
+      "location": "Cleveland, Ohio",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r85",
+      "holder": "Jeff Hardy",
+      "people": [
+        "jeff-hardy"
+      ],
+      "start": "2001-08-13",
+      "end": "2001-08-19",
+      "days": 6,
+      "number": 85,
+      "event": "Raw is War",
+      "location": "Chicago, Illinois",
+      "note": "Pinned Rob Van Dam during a title defense against Kurt Angle.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r86",
+      "holder": "Rob Van Dam",
+      "people": [
+        "rob-van-dam"
+      ],
+      "start": "2001-08-19",
+      "end": "2001-09-10",
+      "days": 22,
+      "number": 86,
+      "event": "SummerSlam",
+      "location": "San Jose, California",
+      "note": "Ladder match.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r87",
+      "holder": "Kurt Angle",
+      "people": [
+        "kurt-angle"
+      ],
+      "start": "2001-09-10",
+      "end": "2001-09-10",
+      "days": 0,
+      "number": 87,
+      "event": "Raw is War",
+      "location": "San Antonio, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r88",
+      "holder": "Rob Van Dam",
+      "people": [
+        "rob-van-dam"
+      ],
+      "start": "2001-09-10",
+      "end": "2001-12-09",
+      "days": 90,
+      "number": 88,
+      "event": "Raw is War",
+      "location": "San Antonio, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r89",
+      "holder": "The Undertaker",
+      "people": [
+        "the-undertaker"
+      ],
+      "start": "2001-12-09",
+      "end": "2002-02-05",
+      "days": 58,
+      "number": 89,
+      "event": "Vengeance",
+      "location": "San Diego, California",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r90",
+      "holder": "Maven",
+      "people": [
+        "maven"
+      ],
+      "start": "2002-02-05",
+      "end": "2002-02-26",
+      "days": 21,
+      "number": 90,
+      "event": "SmackDown!",
+      "location": "Los Angeles, California",
+      "note": "Aired on tape delay on February 7, 2002.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r91",
+      "holder": "Goldust",
+      "people": [
+        "dustin-rhodes"
+      ],
+      "start": "2002-02-26",
+      "end": "2002-03-11",
+      "days": 13,
+      "number": 91,
+      "event": "SmackDown!",
+      "location": "Boston, Massachusetts",
+      "note": "Pinned Maven in the backstage area. Aired on tape delay on February 28, 2002.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r92",
+      "holder": "Al Snow",
+      "people": [
+        "al-snow"
+      ],
+      "start": "2002-03-11",
+      "end": "2002-03-12",
+      "days": 1,
+      "number": 92,
+      "event": "Raw",
+      "location": "Detroit, Michigan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r93",
+      "holder": "Maven",
+      "people": [
+        "maven"
+      ],
+      "start": "2002-03-12",
+      "end": "2002-03-17",
+      "days": 5,
+      "number": 93,
+      "event": "SmackDown!",
+      "location": "Cleveland, Ohio",
+      "note": "Aired on tape delay on March 14, 2002.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r94",
+      "holder": "Spike Dudley",
+      "people": [
+        "spike-dudley"
+      ],
+      "start": "2002-03-17",
+      "end": "2002-03-17",
+      "days": 0,
+      "number": 94,
+      "event": "WrestleMania X8",
+      "location": "Toronto, Ontario",
+      "note": "Pinned Maven during a title defense against Goldust.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r95",
+      "holder": "The Hurricane",
+      "people": [
+        "the-hurricane"
+      ],
+      "start": "2002-03-17",
+      "end": "2002-03-17",
+      "days": 0,
+      "number": 95,
+      "event": "WrestleMania X8",
+      "location": "Toronto, Ontario",
+      "note": "Took place backstage.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r96",
+      "holder": "Mighty Molly",
+      "people": [
+        "molly-holly"
+      ],
+      "start": "2002-03-17",
+      "end": "2002-03-17",
+      "days": 0,
+      "number": 96,
+      "event": "WrestleMania X8",
+      "location": "Toronto, Ontario",
+      "note": "Took place backstage.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r97",
+      "holder": "Christian",
+      "people": [
+        "christian"
+      ],
+      "start": "2002-03-17",
+      "end": "2002-03-17",
+      "days": 0,
+      "number": 97,
+      "event": "WrestleMania X8",
+      "location": "Toronto, Ontario",
+      "note": "Took place backstage.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r98",
+      "holder": "Maven",
+      "people": [
+        "maven"
+      ],
+      "start": "2002-03-17",
+      "end": "2002-03-26",
+      "days": 9,
+      "number": 98,
+      "event": "WrestleMania X8",
+      "location": "Toronto, Ontario",
+      "note": "Took place backstage. Title became SmackDown!-exclusive when Maven was drafted on the March 25, 2002 Raw.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r99",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2002-03-26",
+      "end": "2002-04-01",
+      "days": 6,
+      "number": 99,
+      "event": "SmackDown!",
+      "location": "Philadelphia, Pennsylvania",
+      "note": "Raven was on the Raw brand, making the title Raw-exclusive after the Brand Extension. Aired on tape delay on March 28, 2002.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r100",
+      "holder": "Bubba Ray Dudley",
+      "people": [
+        "bubba-ray-dudley"
+      ],
+      "start": "2002-04-01",
+      "end": "2002-04-07",
+      "days": 6,
+      "number": 100,
+      "event": "Raw",
+      "location": "Albany, New York",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r101",
+      "holder": "William Regal",
+      "people": [
+        "william-regal"
+      ],
+      "start": "2002-04-07",
+      "end": "2002-04-07",
+      "days": 0,
+      "number": 101,
+      "event": "House show",
+      "location": "Denver, Colorado",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r102",
+      "holder": "Goldust",
+      "people": [
+        "dustin-rhodes"
+      ],
+      "start": "2002-04-07",
+      "end": "2002-04-07",
+      "days": 0,
+      "number": 102,
+      "event": "House show",
+      "location": "Denver, Colorado",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r103",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2002-04-07",
+      "end": "2002-04-07",
+      "days": 0,
+      "number": 103,
+      "event": "House show",
+      "location": "Denver, Colorado",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r104",
+      "holder": "Bubba Ray Dudley",
+      "people": [
+        "bubba-ray-dudley"
+      ],
+      "start": "2002-04-07",
+      "end": "2002-04-13",
+      "days": 6,
+      "number": 104,
+      "event": "House show",
+      "location": "Denver, Colorado",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r105",
+      "holder": "William Regal",
+      "people": [
+        "william-regal"
+      ],
+      "start": "2002-04-13",
+      "end": "2002-04-13",
+      "days": 0,
+      "number": 105,
+      "event": "House show",
+      "location": "Odessa, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r106",
+      "holder": "Spike Dudley",
+      "people": [
+        "spike-dudley"
+      ],
+      "start": "2002-04-13",
+      "end": "2002-04-13",
+      "days": 0,
+      "number": 106,
+      "event": "House show",
+      "location": "Odessa, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r107",
+      "holder": "Goldust",
+      "people": [
+        "dustin-rhodes"
+      ],
+      "start": "2002-04-13",
+      "end": "2002-04-13",
+      "days": 0,
+      "number": 107,
+      "event": "House show",
+      "location": "Odessa, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r108",
+      "holder": "Bubba Ray Dudley",
+      "people": [
+        "bubba-ray-dudley"
+      ],
+      "start": "2002-04-13",
+      "end": "2002-04-14",
+      "days": 1,
+      "number": 108,
+      "event": "House show",
+      "location": "Odessa, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r109",
+      "holder": "William Regal",
+      "people": [
+        "william-regal"
+      ],
+      "start": "2002-04-14",
+      "end": "2002-04-14",
+      "days": 0,
+      "number": 109,
+      "event": "House show",
+      "location": "Abilene, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r110",
+      "holder": "Spike Dudley",
+      "people": [
+        "spike-dudley"
+      ],
+      "start": "2002-04-14",
+      "end": "2002-04-14",
+      "days": 0,
+      "number": 110,
+      "event": "House show",
+      "location": "Abilene, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r111",
+      "holder": "Goldust",
+      "people": [
+        "dustin-rhodes"
+      ],
+      "start": "2002-04-14",
+      "end": "2002-04-14",
+      "days": 0,
+      "number": 111,
+      "event": "House show",
+      "location": "Abilene, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r112",
+      "holder": "Bubba Ray Dudley",
+      "people": [
+        "bubba-ray-dudley"
+      ],
+      "start": "2002-04-14",
+      "end": "2002-04-15",
+      "days": 1,
+      "number": 112,
+      "event": "House show",
+      "location": "Abilene, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r113",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2002-04-15",
+      "end": "2002-04-15",
+      "days": 0,
+      "number": 113,
+      "event": "Raw",
+      "location": "College Station, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r114",
+      "holder": "Tommy Dreamer",
+      "people": [
+        "tommy-dreamer"
+      ],
+      "start": "2002-04-15",
+      "end": "2002-04-15",
+      "days": 0,
+      "number": 114,
+      "event": "Raw",
+      "location": "College Station, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r115",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-04-15",
+      "end": "2002-04-15",
+      "days": 0,
+      "number": 115,
+      "event": "Raw",
+      "location": "College Station, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r116",
+      "holder": "Bubba Ray Dudley",
+      "people": [
+        "bubba-ray-dudley"
+      ],
+      "start": "2002-04-15",
+      "end": "2002-04-19",
+      "days": 4,
+      "number": 116,
+      "event": "Raw",
+      "location": "College Station, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r117",
+      "holder": "Goldust",
+      "people": [
+        "dustin-rhodes"
+      ],
+      "start": "2002-04-19",
+      "end": "2002-04-19",
+      "days": 0,
+      "number": 117,
+      "event": "House show",
+      "location": "Uniondale, New York",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r118",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2002-04-19",
+      "end": "2002-04-19",
+      "days": 0,
+      "number": 118,
+      "event": "House show",
+      "location": "Uniondale, New York",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r119",
+      "holder": "Bubba Ray Dudley",
+      "people": [
+        "bubba-ray-dudley"
+      ],
+      "start": "2002-04-19",
+      "end": "2002-04-20",
+      "days": 1,
+      "number": 119,
+      "event": "House show",
+      "location": "Uniondale, New York",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r120",
+      "holder": "Goldust",
+      "people": [
+        "dustin-rhodes"
+      ],
+      "start": "2002-04-20",
+      "end": "2002-04-20",
+      "days": 0,
+      "number": 120,
+      "event": "House show",
+      "location": "Des Moines, Iowa",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r121",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2002-04-20",
+      "end": "2002-04-20",
+      "days": 0,
+      "number": 121,
+      "event": "House show",
+      "location": "Des Moines, Iowa",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r122",
+      "holder": "Bubba Ray Dudley",
+      "people": [
+        "bubba-ray-dudley"
+      ],
+      "start": "2002-04-20",
+      "end": "2002-04-29",
+      "days": 9,
+      "number": 122,
+      "event": "House show",
+      "location": "Des Moines, Iowa",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r123",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-04-29",
+      "end": "2002-05-01",
+      "days": 2,
+      "number": 123,
+      "event": "Raw",
+      "location": "Buffalo, New York",
+      "note": "Pinned Bubba Ray Dudley during a title defense against Jazz.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r124",
+      "holder": "Tommy Dreamer",
+      "people": [
+        "tommy-dreamer"
+      ],
+      "start": "2002-05-01",
+      "end": "2002-05-01",
+      "days": 0,
+      "number": 124,
+      "event": "House show",
+      "location": "Cologne, Germany",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r125",
+      "holder": "Goldust",
+      "people": [
+        "dustin-rhodes"
+      ],
+      "start": "2002-05-01",
+      "end": "2002-05-01",
+      "days": 0,
+      "number": 125,
+      "event": "House show",
+      "location": "Cologne, Germany",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r126",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-05-01",
+      "end": "2002-05-02",
+      "days": 1,
+      "number": 126,
+      "event": "House show",
+      "location": "Cologne, Germany",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r127",
+      "holder": "Shawn Stasiak",
+      "people": [
+        "shawn-stasiak"
+      ],
+      "start": "2002-05-02",
+      "end": "2002-05-02",
+      "days": 0,
+      "number": 127,
+      "event": "House show",
+      "location": "Glasgow, Scotland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r128",
+      "holder": "Justin Credible",
+      "people": [
+        "aldo-montoya"
+      ],
+      "start": "2002-05-02",
+      "end": "2002-05-02",
+      "days": 0,
+      "number": 128,
+      "event": "House show",
+      "location": "Glasgow, Scotland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r129",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2002-05-02",
+      "end": "2002-05-02",
+      "days": 0,
+      "number": 129,
+      "event": "House show",
+      "location": "Glasgow, Scotland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r130",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-05-02",
+      "end": "2002-05-02",
+      "days": 0,
+      "number": 130,
+      "event": "House show",
+      "location": "Glasgow, Scotland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r131",
+      "holder": "Shawn Stasiak",
+      "people": [
+        "shawn-stasiak"
+      ],
+      "start": "2002-05-02",
+      "end": "2002-05-02",
+      "days": 0,
+      "number": 131,
+      "event": "House show",
+      "location": "Glasgow, Scotland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r132",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-05-02",
+      "end": "2002-05-03",
+      "days": 1,
+      "number": 132,
+      "event": "House show",
+      "location": "Glasgow, Scotland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r133",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2002-05-03",
+      "end": "2002-05-03",
+      "days": 0,
+      "number": 133,
+      "event": "House show",
+      "location": "Birmingham, England",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r134",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-05-03",
+      "end": "2002-05-04",
+      "days": 1,
+      "number": 134,
+      "event": "House show",
+      "location": "Birmingham, England",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r135",
+      "holder": "Booker T",
+      "people": [
+        "booker-t"
+      ],
+      "start": "2002-05-04",
+      "end": "2002-05-04",
+      "days": 0,
+      "number": 135,
+      "event": "Insurrextion",
+      "location": "London, England",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r136",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2002-05-04",
+      "end": "2002-05-04",
+      "days": 0,
+      "number": 136,
+      "event": "Insurrextion",
+      "location": "London, England",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r137",
+      "holder": "Booker T",
+      "people": [
+        "booker-t"
+      ],
+      "start": "2002-05-04",
+      "end": "2002-05-04",
+      "days": 0,
+      "number": 137,
+      "event": "Insurrextion",
+      "location": "London, England",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r138",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-05-04",
+      "end": "2002-05-06",
+      "days": 2,
+      "number": 138,
+      "event": "Insurrextion",
+      "location": "London, England",
+      "note": "Title renamed WWE Hardcore Championship on May 5, 2002 after the WWF became World Wrestling Entertainment.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r139",
+      "holder": "Bubba Ray Dudley",
+      "people": [
+        "bubba-ray-dudley"
+      ],
+      "start": "2002-05-06",
+      "end": "2002-05-06",
+      "days": 0,
+      "number": 139,
+      "event": "Raw",
+      "location": "Hartford, Connecticut",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r140",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2002-05-06",
+      "end": "2002-05-06",
+      "days": 0,
+      "number": 140,
+      "event": "Raw",
+      "location": "Hartford, Connecticut",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r141",
+      "holder": "Justin Credible",
+      "people": [
+        "aldo-montoya"
+      ],
+      "start": "2002-05-06",
+      "end": "2002-05-06",
+      "days": 0,
+      "number": 141,
+      "event": "Raw",
+      "location": "Hartford, Connecticut",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r142",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2002-05-06",
+      "end": "2002-05-06",
+      "days": 0,
+      "number": 142,
+      "event": "Raw",
+      "location": "Hartford, Connecticut",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r143",
+      "holder": "Trish Stratus",
+      "people": [
+        "trish-stratus"
+      ],
+      "start": "2002-05-06",
+      "end": "2002-05-06",
+      "days": 0,
+      "number": 143,
+      "event": "Raw",
+      "location": "Hartford, Connecticut",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r144",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-05-06",
+      "end": "2002-05-25",
+      "days": 19,
+      "number": 144,
+      "event": "Raw",
+      "location": "Hartford, Connecticut",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r145",
+      "holder": "Tommy Dreamer",
+      "people": [
+        "tommy-dreamer"
+      ],
+      "start": "2002-05-25",
+      "end": "2002-05-25",
+      "days": 0,
+      "number": 145,
+      "event": "House show",
+      "location": "Winnipeg, Manitoba",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r146",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2002-05-25",
+      "end": "2002-05-25",
+      "days": 0,
+      "number": 146,
+      "event": "House show",
+      "location": "Winnipeg, Manitoba",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r147",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-05-25",
+      "end": "2002-05-26",
+      "days": 1,
+      "number": 147,
+      "event": "House show",
+      "location": "Winnipeg, Manitoba",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r148",
+      "holder": "Tommy Dreamer",
+      "people": [
+        "tommy-dreamer"
+      ],
+      "start": "2002-05-26",
+      "end": "2002-05-26",
+      "days": 0,
+      "number": 148,
+      "event": "House show",
+      "location": "Red Deer, Alberta",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r149",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2002-05-26",
+      "end": "2002-05-26",
+      "days": 0,
+      "number": 149,
+      "event": "House show",
+      "location": "Red Deer, Alberta",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r150",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-05-26",
+      "end": "2002-05-27",
+      "days": 1,
+      "number": 150,
+      "event": "House show",
+      "location": "Red Deer, Alberta",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r151",
+      "holder": "Terri",
+      "people": [
+        "terri"
+      ],
+      "start": "2002-05-27",
+      "end": "2002-05-27",
+      "days": 0,
+      "number": 151,
+      "event": "Raw",
+      "location": "Edmonton, Alberta",
+      "note": "Pinned Richards during an interview.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r152",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-05-27",
+      "end": "2002-06-02",
+      "days": 6,
+      "number": 152,
+      "event": "Raw",
+      "location": "Edmonton, Alberta",
+      "note": "Immediately pinned Terri to regain the championship.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r153",
+      "holder": "Tommy Dreamer",
+      "people": [
+        "tommy-dreamer"
+      ],
+      "start": "2002-06-02",
+      "end": "2002-06-02",
+      "days": 0,
+      "number": 153,
+      "event": "House show",
+      "location": "New Orleans, Louisiana",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r154",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2002-06-02",
+      "end": "2002-06-02",
+      "days": 0,
+      "number": 154,
+      "event": "House show",
+      "location": "New Orleans, Louisiana",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r155",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-06-02",
+      "end": "2002-06-03",
+      "days": 1,
+      "number": 155,
+      "event": "House show",
+      "location": "New Orleans, Louisiana",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r156",
+      "holder": "Bradshaw",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2002-06-03",
+      "end": "2002-06-22",
+      "days": 19,
+      "number": 156,
+      "event": "Raw",
+      "location": "Dallas, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r157",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2002-06-22",
+      "end": "2002-06-22",
+      "days": 0,
+      "number": 157,
+      "event": "House show",
+      "location": "Cincinnati, Ohio",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r158",
+      "holder": "Spike Dudley",
+      "people": [
+        "spike-dudley"
+      ],
+      "start": "2002-06-22",
+      "end": "2002-06-22",
+      "days": 0,
+      "number": 158,
+      "event": "House show",
+      "location": "Cincinnati, Ohio",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r159",
+      "holder": "Shawn Stasiak",
+      "people": [
+        "shawn-stasiak"
+      ],
+      "start": "2002-06-22",
+      "end": "2002-06-22",
+      "days": 0,
+      "number": 159,
+      "event": "House show",
+      "location": "Cincinnati, Ohio",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r160",
+      "holder": "Bradshaw",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2002-06-22",
+      "end": "2002-06-28",
+      "days": 6,
+      "number": 160,
+      "event": "House show",
+      "location": "Cincinnati, Ohio",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r161",
+      "holder": "Shawn Stasiak",
+      "people": [
+        "shawn-stasiak"
+      ],
+      "start": "2002-06-28",
+      "end": "2002-06-28",
+      "days": 0,
+      "number": 161,
+      "event": "House show",
+      "location": "Washington, D.C.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r162",
+      "holder": "Spike Dudley",
+      "people": [
+        "spike-dudley"
+      ],
+      "start": "2002-06-28",
+      "end": "2002-06-28",
+      "days": 0,
+      "number": 162,
+      "event": "House show",
+      "location": "Washington, D.C.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r163",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-06-28",
+      "end": "2002-06-28",
+      "days": 0,
+      "number": 163,
+      "event": "House show",
+      "location": "Washington, D.C.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r164",
+      "holder": "Bradshaw",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2002-06-28",
+      "end": "2002-06-29",
+      "days": 1,
+      "number": 164,
+      "event": "House show",
+      "location": "Washington, D.C.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r165",
+      "holder": "Shawn Stasiak",
+      "people": [
+        "shawn-stasiak"
+      ],
+      "start": "2002-06-29",
+      "end": "2002-06-29",
+      "days": 0,
+      "number": 165,
+      "event": "House show",
+      "location": "New York, New York",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r166",
+      "holder": "Spike Dudley",
+      "people": [
+        "spike-dudley"
+      ],
+      "start": "2002-06-29",
+      "end": "2002-06-29",
+      "days": 0,
+      "number": 166,
+      "event": "House show",
+      "location": "New York, New York",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r167",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-06-29",
+      "end": "2002-06-29",
+      "days": 0,
+      "number": 167,
+      "event": "House show",
+      "location": "New York, New York",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r168",
+      "holder": "Bradshaw",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2002-06-29",
+      "end": "2002-06-30",
+      "days": 1,
+      "number": 168,
+      "event": "House show",
+      "location": "New York, New York",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r169",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2002-06-30",
+      "end": "2002-06-30",
+      "days": 0,
+      "number": 169,
+      "event": "House show",
+      "location": "Uncasville, Connecticut",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r170",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2002-06-30",
+      "end": "2002-06-30",
+      "days": 0,
+      "number": 170,
+      "event": "House show",
+      "location": "Uncasville, Connecticut",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r171",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-06-30",
+      "end": "2002-06-30",
+      "days": 0,
+      "number": 171,
+      "event": "House show",
+      "location": "Uncasville, Connecticut",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r172",
+      "holder": "Bradshaw",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2002-06-30",
+      "end": "2002-07-06",
+      "days": 6,
+      "number": 172,
+      "event": "House show",
+      "location": "Uncasville, Connecticut",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r173",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-07-06",
+      "end": "2002-07-06",
+      "days": 0,
+      "number": 173,
+      "event": "House show",
+      "location": "Frederick, Maryland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r174",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2002-07-06",
+      "end": "2002-07-06",
+      "days": 0,
+      "number": 174,
+      "event": "House show",
+      "location": "Frederick, Maryland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r175",
+      "holder": "Christopher Nowinski",
+      "people": [
+        "christopher-nowinski"
+      ],
+      "start": "2002-07-06",
+      "end": "2002-07-06",
+      "days": 0,
+      "number": 175,
+      "event": "House show",
+      "location": "Frederick, Maryland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r176",
+      "holder": "Bradshaw",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2002-07-06",
+      "end": "2002-07-07",
+      "days": 1,
+      "number": 176,
+      "event": "House show",
+      "location": "Frederick, Maryland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r177",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-07-07",
+      "end": "2002-07-07",
+      "days": 0,
+      "number": 177,
+      "event": "House show",
+      "location": "Wildwood, New Jersey",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r178",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2002-07-07",
+      "end": "2002-07-07",
+      "days": 0,
+      "number": 178,
+      "event": "House show",
+      "location": "Wildwood, New Jersey",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r179",
+      "holder": "Christopher Nowinski",
+      "people": [
+        "christopher-nowinski"
+      ],
+      "start": "2002-07-07",
+      "end": "2002-07-07",
+      "days": 0,
+      "number": 179,
+      "event": "House show",
+      "location": "Wildwood, New Jersey",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r180",
+      "holder": "Bradshaw",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2002-07-07",
+      "end": "2002-07-12",
+      "days": 5,
+      "number": 180,
+      "event": "House show",
+      "location": "Wildwood, New Jersey",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r181",
+      "holder": "Justin Credible",
+      "people": [
+        "aldo-montoya"
+      ],
+      "start": "2002-07-12",
+      "end": "2002-07-12",
+      "days": 0,
+      "number": 181,
+      "event": "House show",
+      "location": "Lakeland, Florida",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r182",
+      "holder": "Spike Dudley",
+      "people": [
+        "spike-dudley"
+      ],
+      "start": "2002-07-12",
+      "end": "2002-07-12",
+      "days": 0,
+      "number": 182,
+      "event": "House show",
+      "location": "Lakeland, Florida",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r183",
+      "holder": "Big Show",
+      "people": [
+        "big-show"
+      ],
+      "start": "2002-07-12",
+      "end": "2002-07-12",
+      "days": 0,
+      "number": 183,
+      "event": "House show",
+      "location": "Lakeland, Florida",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r184",
+      "holder": "Bradshaw",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2002-07-12",
+      "end": "2002-07-13",
+      "days": 1,
+      "number": 184,
+      "event": "House show",
+      "location": "Lakeland, Florida",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r185",
+      "holder": "Justin Credible",
+      "people": [
+        "aldo-montoya"
+      ],
+      "start": "2002-07-13",
+      "end": "2002-07-13",
+      "days": 0,
+      "number": 185,
+      "event": "House show",
+      "location": "Daytona Beach, Florida",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r186",
+      "holder": "Shawn Stasiak",
+      "people": [
+        "shawn-stasiak"
+      ],
+      "start": "2002-07-13",
+      "end": "2002-07-13",
+      "days": 0,
+      "number": 186,
+      "event": "House show",
+      "location": "Daytona Beach, Florida",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r187",
+      "holder": "Bradshaw",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2002-07-13",
+      "end": "2002-07-14",
+      "days": 1,
+      "number": 187,
+      "event": "House show",
+      "location": "Daytona Beach, Florida",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r188",
+      "holder": "Justin Credible",
+      "people": [
+        "aldo-montoya"
+      ],
+      "start": "2002-07-14",
+      "end": "2002-07-14",
+      "days": 0,
+      "number": 188,
+      "event": "House show",
+      "location": "Bethlehem, Pennsylvania",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r189",
+      "holder": "Shawn Stasiak",
+      "people": [
+        "shawn-stasiak"
+      ],
+      "start": "2002-07-14",
+      "end": "2002-07-14",
+      "days": 0,
+      "number": 189,
+      "event": "House show",
+      "location": "Bethlehem, Pennsylvania",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r190",
+      "holder": "Bradshaw",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2002-07-14",
+      "end": "2002-07-15",
+      "days": 1,
+      "number": 190,
+      "event": "House show",
+      "location": "Bethlehem, Pennsylvania",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r191",
+      "holder": "Johnny Stamboli",
+      "people": [
+        "johnny-stamboli"
+      ],
+      "start": "2002-07-15",
+      "end": "2002-07-15",
+      "days": 0,
+      "number": 191,
+      "event": "Raw",
+      "location": "East Rutherford, New Jersey",
+      "note": "Pinned Bradshaw during a title defense against Christopher Nowinski.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r192",
+      "holder": "Bradshaw",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2002-07-15",
+      "end": "2002-07-26",
+      "days": 11,
+      "number": 192,
+      "event": "Raw",
+      "location": "East Rutherford, New Jersey",
+      "note": "Pinned Johnny Stamboli backstage; belt renamed WWE Texas Hardcore Championship for his reign.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r193",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2002-07-26",
+      "end": "2002-07-26",
+      "days": 0,
+      "number": 193,
+      "event": "House show",
+      "location": "Houston, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r194",
+      "holder": "Justin Credible",
+      "people": [
+        "aldo-montoya"
+      ],
+      "start": "2002-07-26",
+      "end": "2002-07-26",
+      "days": 0,
+      "number": 194,
+      "event": "House show",
+      "location": "Houston, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r195",
+      "holder": "Shawn Stasiak",
+      "people": [
+        "shawn-stasiak"
+      ],
+      "start": "2002-07-26",
+      "end": "2002-07-26",
+      "days": 0,
+      "number": 195,
+      "event": "House show",
+      "location": "Houston, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r196",
+      "holder": "Bradshaw",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2002-07-26",
+      "end": "2002-07-27",
+      "days": 1,
+      "number": 196,
+      "event": "House show",
+      "location": "Houston, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r197",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2002-07-27",
+      "end": "2002-07-27",
+      "days": 0,
+      "number": 197,
+      "event": "House show",
+      "location": "San Antonio, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r198",
+      "holder": "Justin Credible",
+      "people": [
+        "aldo-montoya"
+      ],
+      "start": "2002-07-27",
+      "end": "2002-07-27",
+      "days": 0,
+      "number": 198,
+      "event": "House show",
+      "location": "San Antonio, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r199",
+      "holder": "Shawn Stasiak",
+      "people": [
+        "shawn-stasiak"
+      ],
+      "start": "2002-07-27",
+      "end": "2002-07-27",
+      "days": 0,
+      "number": 199,
+      "event": "House show",
+      "location": "San Antonio, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r200",
+      "holder": "Bradshaw",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2002-07-27",
+      "end": "2002-07-28",
+      "days": 1,
+      "number": 200,
+      "event": "House show",
+      "location": "San Antonio, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r201",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2002-07-28",
+      "end": "2002-07-28",
+      "days": 0,
+      "number": 201,
+      "event": "House show",
+      "location": "Columbia, South Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r202",
+      "holder": "Justin Credible",
+      "people": [
+        "aldo-montoya"
+      ],
+      "start": "2002-07-28",
+      "end": "2002-07-28",
+      "days": 0,
+      "number": 202,
+      "event": "House show",
+      "location": "Columbia, South Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r203",
+      "holder": "Shawn Stasiak",
+      "people": [
+        "shawn-stasiak"
+      ],
+      "start": "2002-07-28",
+      "end": "2002-07-28",
+      "days": 0,
+      "number": 203,
+      "event": "House show",
+      "location": "Columbia, South Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r204",
+      "holder": "Bradshaw",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2002-07-28",
+      "end": "2002-07-29",
+      "days": 1,
+      "number": 204,
+      "event": "House show",
+      "location": "Columbia, South Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r205",
+      "holder": "Jeff Hardy",
+      "people": [
+        "jeff-hardy"
+      ],
+      "start": "2002-07-29",
+      "end": "2002-07-29",
+      "days": 0,
+      "number": 205,
+      "event": "Raw",
+      "location": "Greensboro, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r206",
+      "holder": "Johnny Stamboli",
+      "people": [
+        "johnny-stamboli"
+      ],
+      "start": "2002-07-29",
+      "end": "2002-07-29",
+      "days": 0,
+      "number": 206,
+      "event": "Raw",
+      "location": "Greensboro, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r207",
+      "holder": "Tommy Dreamer",
+      "people": [
+        "tommy-dreamer"
+      ],
+      "start": "2002-07-29",
+      "end": "2002-08-03",
+      "days": 5,
+      "number": 207,
+      "event": "Raw",
+      "location": "Greensboro, North Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r208",
+      "holder": "Bradshaw",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2002-08-03",
+      "end": "2002-08-03",
+      "days": 0,
+      "number": 208,
+      "event": "House show",
+      "location": "Miami, Florida",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r209",
+      "holder": "Tommy Dreamer",
+      "people": [
+        "tommy-dreamer"
+      ],
+      "start": "2002-08-03",
+      "end": "2002-08-04",
+      "days": 1,
+      "number": 209,
+      "event": "House show",
+      "location": "Miami, Florida",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r210",
+      "holder": "Bradshaw",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2002-08-04",
+      "end": "2002-08-04",
+      "days": 0,
+      "number": 210,
+      "event": "House show",
+      "location": "Pittsburgh, Pennsylvania",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r211",
+      "holder": "Tommy Dreamer",
+      "people": [
+        "tommy-dreamer"
+      ],
+      "start": "2002-08-04",
+      "end": "2002-08-09",
+      "days": 5,
+      "number": 211,
+      "event": "House show",
+      "location": "Pittsburgh, Pennsylvania",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r212",
+      "holder": "Shawn Stasiak",
+      "people": [
+        "shawn-stasiak"
+      ],
+      "start": "2002-08-09",
+      "end": "2002-08-09",
+      "days": 0,
+      "number": 212,
+      "event": "House show",
+      "location": "Kelowna, British Columbia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r213",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-08-09",
+      "end": "2002-08-09",
+      "days": 0,
+      "number": 213,
+      "event": "House show",
+      "location": "Kelowna, British Columbia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r214",
+      "holder": "Tommy Dreamer",
+      "people": [
+        "tommy-dreamer"
+      ],
+      "start": "2002-08-09",
+      "end": "2002-08-10",
+      "days": 1,
+      "number": 214,
+      "event": "House show",
+      "location": "Kelowna, British Columbia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r215",
+      "holder": "Shawn Stasiak",
+      "people": [
+        "shawn-stasiak"
+      ],
+      "start": "2002-08-10",
+      "end": "2002-08-10",
+      "days": 0,
+      "number": 215,
+      "event": "House show",
+      "location": "Kamloops, British Columbia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r216",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-08-10",
+      "end": "2002-08-10",
+      "days": 0,
+      "number": 216,
+      "event": "House show",
+      "location": "Kamloops, British Columbia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r217",
+      "holder": "Tommy Dreamer",
+      "people": [
+        "tommy-dreamer"
+      ],
+      "start": "2002-08-10",
+      "end": "2002-08-11",
+      "days": 1,
+      "number": 217,
+      "event": "House show",
+      "location": "Kamloops, British Columbia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r218",
+      "holder": "Shawn Stasiak",
+      "people": [
+        "shawn-stasiak"
+      ],
+      "start": "2002-08-11",
+      "end": "2002-08-11",
+      "days": 0,
+      "number": 218,
+      "event": "House show",
+      "location": "Vancouver, British Columbia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r219",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-08-11",
+      "end": "2002-08-11",
+      "days": 0,
+      "number": 219,
+      "event": "House show",
+      "location": "Vancouver, British Columbia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r220",
+      "holder": "Tommy Dreamer",
+      "people": [
+        "tommy-dreamer"
+      ],
+      "start": "2002-08-11",
+      "end": "2002-08-17",
+      "days": 6,
+      "number": 220,
+      "event": "House show",
+      "location": "Vancouver, British Columbia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r221",
+      "holder": "Raven",
+      "people": [
+        "raven"
+      ],
+      "start": "2002-08-17",
+      "end": "2002-08-17",
+      "days": 0,
+      "number": 221,
+      "event": "House show",
+      "location": "Terre Haute, Indiana",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r222",
+      "holder": "Shawn Stasiak",
+      "people": [
+        "shawn-stasiak"
+      ],
+      "start": "2002-08-17",
+      "end": "2002-08-17",
+      "days": 0,
+      "number": 222,
+      "event": "House show",
+      "location": "Terre Haute, Indiana",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r223",
+      "holder": "Tommy Dreamer",
+      "people": [
+        "tommy-dreamer"
+      ],
+      "start": "2002-08-17",
+      "end": "2002-08-18",
+      "days": 1,
+      "number": 223,
+      "event": "House show",
+      "location": "Terre Haute, Indiana",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r224",
+      "holder": "Shawn Stasiak",
+      "people": [
+        "shawn-stasiak"
+      ],
+      "start": "2002-08-18",
+      "end": "2002-08-18",
+      "days": 0,
+      "number": 224,
+      "event": "House show",
+      "location": "Evansville, Indiana",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r225",
+      "holder": "Steven Richards",
+      "people": [
+        "steven-richards"
+      ],
+      "start": "2002-08-18",
+      "end": "2002-08-18",
+      "days": 0,
+      "number": 225,
+      "event": "House show",
+      "location": "Evansville, Indiana",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r226",
+      "holder": "Tommy Dreamer",
+      "people": [
+        "tommy-dreamer"
+      ],
+      "start": "2002-08-18",
+      "end": "2002-08-19",
+      "days": 1,
+      "number": 226,
+      "event": "House show",
+      "location": "Evansville, Indiana",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r227",
+      "holder": "Bradshaw",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2002-08-19",
+      "end": "2002-08-19",
+      "days": 0,
+      "number": 227,
+      "event": "Raw",
+      "location": "Norfolk, Virginia",
+      "note": "Won during hardcore battle royal.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r228",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2002-08-19",
+      "end": "2002-08-19",
+      "days": 0,
+      "number": 228,
+      "event": "Raw",
+      "location": "Norfolk, Virginia",
+      "note": "Won during hardcore battle royal.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r229",
+      "holder": "Tommy Dreamer",
+      "people": [
+        "tommy-dreamer"
+      ],
+      "start": "2002-08-19",
+      "end": "2002-08-26",
+      "days": 7,
+      "number": 229,
+      "event": "Raw",
+      "location": "Norfolk, Virginia",
+      "note": "Won during hardcore battle royal. The 24/7 rule was deactivated on August 19, 2002.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r230",
+      "holder": "Rob Van Dam",
+      "people": [
+        "rob-van-dam"
+      ],
+      "start": "2002-08-26",
+      "end": "2002-08-26",
+      "days": 0,
+      "number": 230,
+      "event": "Raw",
+      "location": "New York, New York",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Hardcore_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

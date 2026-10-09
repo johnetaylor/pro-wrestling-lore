@@ -1,94 +1,648 @@
 {
   "id": "world-tag-team-championship",
   "name": "World Tag Team Championship",
+  "short": "WORLD TAG",
+  "promotion": "wwe",
+  "division": "men",
+  "format": "tag",
+  "established": "2002-10-03",
+  "featured": true,
   "names": [
-    "World Tag Team Championship",
     "World Tag Team · 2002 lineage",
     "WWE Raw/World Tag Team Championship",
     "WWE Raw Tag Team Championship",
     "WWE/WWE Raw Tag Team Championship",
     "WWE/WWE Raw/World Tag Team Championship",
-    "WWE Tag Team Championship"
+    "WWE Tag Team Championship",
+    "Unified WWE Tag Team Championship",
+    "Raw Tag Team Championship",
+    "Undisputed WWE Tag Team Championship"
+  ],
+  "eras": [
+    {
+      "name": "WWE Tag Team Championship",
+      "from": "2002-10-03",
+      "to": "2009-04-05"
+    },
+    {
+      "name": "Unified WWE Tag Team Championship",
+      "from": "2009-04-05",
+      "to": "2016-08"
+    },
+    {
+      "name": "Raw Tag Team Championship",
+      "from": "2016-08",
+      "to": "2022-05"
+    },
+    {
+      "name": "Undisputed WWE Tag Team Championship",
+      "from": "2022-05",
+      "to": "2024-04-15"
+    },
+    {
+      "name": "World Tag Team Championship",
+      "from": "2024-04-15"
+    }
+  ],
+  "history": [
+    {
+      "date": "2007-11-13",
+      "kind": "brand",
+      "text": "Moved to ECW after John Morrison and The Miz won the title; a talent exchange allowed teams from either brand to challenge.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/World_Tag_Team_Championship_(WWE)"
+      ]
+    },
+    {
+      "date": "2008-07-20",
+      "kind": "brand",
+      "text": "Returned to SmackDown after Curt Hawkins and Zack Ryder defeated Morrison and The Miz.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/World_Tag_Team_Championship_(WWE)"
+      ]
+    },
+    {
+      "date": "2009-04-05",
+      "kind": "unified-into",
+      "text": "The Colóns beat Morrison and The Miz at WrestleMania 25, unifying the two titles, which stayed independently active.",
+      "related": [
+        "World Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/World_Tag_Team_Championship_(WWE)"
+      ]
+    },
+    {
+      "date": "2010-08-16",
+      "kind": "absorbed",
+      "text": "The original title was decommissioned, leaving this title as WWE's sole tag team championship.",
+      "related": [
+        "World Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/World_Tag_Team_Championship_(WWE)"
+      ]
+    },
+    {
+      "date": "2016-07-19",
+      "kind": "brand",
+      "text": "The brand split was reintroduced and The New Day were drafted to Raw, making the title Raw-exclusive.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/World_Tag_Team_Championship_(WWE)"
+      ]
+    },
+    {
+      "date": "2016-08-23",
+      "kind": "split",
+      "text": "SmackDown created its own tag team title as the counterpart after the brand split.",
+      "related": [
+        "SmackDown Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/World_Tag_Team_Championship_(WWE)"
+      ]
+    },
+    {
+      "date": "2019-09",
+      "kind": "recognition",
+      "text": "NXT became a third major brand, making its tag title the third major men's tag title in WWE.",
+      "related": [
+        "NXT Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/World_Tag_Team_Championship_(WWE)"
+      ]
+    },
+    {
+      "date": "2021-09",
+      "kind": "recognition",
+      "text": "NXT reverted to a developmental brand, reversing the recognition of its tag title as a major title.",
+      "related": [
+        "NXT Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/World_Tag_Team_Championship_(WWE)"
+      ]
+    },
+    {
+      "date": "2022-05-20",
+      "kind": "recognition",
+      "text": "The Usos beat RK-Bro in a Winners Take All match and were recognized as Undisputed champions, though both titles stayed active.",
+      "related": [
+        "SmackDown Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/World_Tag_Team_Championship_(WWE)"
+      ]
+    },
+    {
+      "date": "2024-04-06",
+      "kind": "split",
+      "text": "At WrestleMania XL Night 1, the titles were split after Judgment Day lost a six-pack tag ladder match.",
+      "related": [
+        "SmackDown Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/World_Tag_Team_Championship_(WWE)"
+      ]
+    }
   ],
   "sources": [
-    "https://www.wwe.com/titlehistory/raw-tag-team-championship"
+    "https://www.wwe.com/titlehistory/raw-tag-team-championship",
+    "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)",
+    "https://en.wikipedia.org/wiki/World_Tag_Team_Championship_(WWE)"
   ],
   "reigns": [
+    {
+      "id": "r46",
+      "holder": "Chris Benoit & Kurt Angle",
+      "people": [
+        "chris-benoit",
+        "kurt-angle"
+      ],
+      "start": "2002-10-20",
+      "end": "2002-11-05",
+      "days": 16,
+      "number": 1,
+      "event": "No Mercy",
+      "location": "North Little Rock, AR",
+      "note": "Tournament final; inaugural champions",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Edge & Rey Mysterio",
       "people": [
-        "rey-mysterio"
+        "rey-mysterio",
+        "edge"
       ],
       "start": "2002-11-07",
       "end": "2002-11-17",
+      "days": 12,
+      "number": 2,
+      "event": "SmackDown!",
+      "location": "Manchester, NH",
+      "note": "Two-out-of-three falls match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-671"
       ]
     },
     {
+      "id": "r47",
+      "holder": "Los Guerreros",
+      "people": [
+        "chavo-guerrero",
+        "eddie-guerrero"
+      ],
+      "start": "2002-11-17",
+      "end": "2003-02-04",
+      "days": 79,
+      "number": 3,
+      "event": "Survivor Series",
+      "location": "New York, NY",
+      "note": "Triple threat tag elimination match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "Team Angle",
+      "people": [
+        "charlie-haas",
+        "shelton-benjamin"
+      ],
+      "start": "2003-02-04",
+      "end": "2003-05-18",
+      "days": 103,
+      "number": 4,
+      "event": "SmackDown!",
+      "location": "Philadelphia, PA",
+      "note": "Known as Team Angle",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r49",
+      "holder": "Eddie Guerrero & Tajiri",
+      "people": [
+        "eddie-guerrero",
+        "tajiri"
+      ],
+      "start": "2003-05-18",
+      "end": "2003-07-01",
+      "days": 44,
+      "number": 5,
+      "event": "Judgment Day",
+      "location": "Charlotte, NC",
+      "note": "Ladder match; Tajiri replaced injured Chavo",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r50",
+      "holder": "The World's Greatest Tag Team",
+      "people": [
+        "charlie-haas",
+        "shelton-benjamin"
+      ],
+      "start": "2003-07-01",
+      "end": "2003-09-16",
+      "days": 77,
+      "number": 6,
+      "event": "SmackDown!",
+      "location": "Rochester, NY",
+      "note": "Renamed from Team Angle",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r51",
+      "holder": "Los Guerreros",
+      "people": [
+        "chavo-guerrero",
+        "eddie-guerrero"
+      ],
+      "start": "2003-09-16",
+      "end": "2003-10-21",
+      "days": 35,
+      "number": 7,
+      "event": "SmackDown!",
+      "location": "Raleigh, NC",
+      "note": "Second reign for the team",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "Basham Brothers",
+      "people": [
+        "danny-basham",
+        "doug-basham"
+      ],
+      "start": "2003-10-21",
+      "end": "2004-02-03",
+      "days": 105,
+      "number": 8,
+      "event": "SmackDown!",
+      "location": "Albany, NY",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r53",
+      "holder": "Too Cool",
+      "people": [
+        "rikishi",
+        "scotty-2-hotty"
+      ],
+      "start": "2004-02-03",
+      "end": "2004-04-20",
+      "days": 77,
+      "number": 9,
+      "event": "SmackDown!",
+      "location": "Cleveland, OH",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r54",
+      "holder": "Charlie Haas & Rico",
+      "people": [
+        "charlie-haas",
+        "rico"
+      ],
+      "start": "2004-04-20",
+      "end": "2004-06-15",
+      "days": 56,
+      "number": 10,
+      "event": "SmackDown!",
+      "location": "Kelowna, BC, Canada",
+      "note": "First reign as this team",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r55",
+      "holder": "Dudley Boyz",
+      "people": [
+        "bubba-ray-dudley",
+        "d-von-dudley"
+      ],
+      "start": "2004-06-15",
+      "end": "2004-07-06",
+      "days": 21,
+      "number": 11,
+      "event": "SmackDown!",
+      "location": "Rosemont, IL",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r56",
+      "holder": "Billy Kidman & Paul London",
+      "people": [
+        "billy-kidman",
+        "paul-london"
+      ],
+      "start": "2004-07-06",
+      "end": "2004-09-07",
+      "days": 63,
+      "number": 12,
+      "event": "SmackDown!",
+      "location": "Winnipeg, MB, Canada",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "Kenzo Suzuki & René Duprée",
+      "people": [
+        "kenzo-suzuki",
+        "rene-dupree"
+      ],
+      "start": "2004-09-07",
+      "end": "2004-12-07",
+      "days": 91,
+      "number": 13,
+      "event": "SmackDown!",
+      "location": "Tulsa, OK",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r2",
       "holder": "Rey Mysterio & Rob Van Dam",
       "people": [
-        "rey-mysterio"
+        "rey-mysterio",
+        "rob-van-dam"
       ],
       "start": "2004-12-09",
-      "end": "2005-01-13",
+      "end": "2005-01-11",
+      "days": 35,
+      "number": 14,
+      "event": "SmackDown!",
+      "location": "Greenville, SC",
+      "note": "First reign as this team",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-667"
       ]
     },
     {
+      "id": "r58",
+      "holder": "Basham Brothers",
+      "people": [
+        "danny-basham",
+        "doug-basham"
+      ],
+      "start": "2005-01-11",
+      "end": "2005-02-20",
+      "days": 40,
+      "number": 15,
+      "event": "SmackDown!",
+      "location": "Tampa, FL",
+      "note": "Fatal four-way elimination match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r3",
       "holder": "Eddie Guerrero & Rey Mysterio",
       "people": [
-        "rey-mysterio"
+        "rey-mysterio",
+        "eddie-guerrero"
       ],
       "start": "2005-02-20",
-      "end": "2005-04-21",
+      "end": "2005-04-19",
+      "days": 57,
+      "number": 16,
+      "event": "No Way Out",
+      "location": "Pittsburgh, PA",
+      "note": "First reign as this team",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-666"
       ]
     },
     {
+      "id": "r59",
+      "holder": "MNM",
+      "people": [
+        "joey-mercury",
+        "john-morrison"
+      ],
+      "start": "2005-04-19",
+      "end": "2005-07-24",
+      "days": 96,
+      "number": 17,
+      "event": "SmackDown!",
+      "location": "New York, NY",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r60",
+      "holder": "Legion of Doom",
+      "people": [
+        "animal",
+        "heidenreich"
+      ],
+      "start": "2005-07-24",
+      "end": "2005-10-25",
+      "days": 93,
+      "number": 18,
+      "event": "The Great American Bash",
+      "location": "Buffalo, NY",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r61",
+      "holder": "MNM",
+      "people": [
+        "joey-mercury",
+        "john-morrison"
+      ],
+      "start": "2005-10-25",
+      "end": "2005-12-13",
+      "days": 49,
+      "number": 19,
+      "event": "SmackDown!",
+      "location": "Daly City, CA",
+      "note": "Fatal four-way tag match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r4",
       "holder": "Batista & Rey Mysterio",
       "people": [
-        "rey-mysterio"
+        "rey-mysterio",
+        "batista"
       ],
       "start": "2005-12-16",
-      "end": "2005-12-30",
+      "end": "2005-12-27",
+      "days": 14,
+      "number": 20,
+      "event": "SmackDown!",
+      "location": "Springfield, MA",
+      "note": "First reign as this team",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-665"
       ]
     },
     {
+      "id": "r62",
+      "holder": "MNM",
+      "people": [
+        "joey-mercury",
+        "john-morrison"
+      ],
+      "start": "2005-12-27",
+      "end": "2006-05-21",
+      "days": 145,
+      "number": 21,
+      "event": "SmackDown!",
+      "location": "Uncasville, CT",
+      "note": "Third reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r63",
+      "holder": "Paul London & Brian Kendrick",
+      "people": [
+        "paul-london",
+        "brian-kendrick"
+      ],
+      "start": "2006-05-21",
+      "end": "2007-04-17",
+      "days": 331,
+      "number": 22,
+      "event": "Judgment Day",
+      "location": "Phoenix, AZ",
+      "note": "Longest single reign for this pairing",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r64",
+      "holder": "Deuce 'n Domino",
+      "people": [
+        "deuce",
+        "domino"
+      ],
+      "start": "2007-04-17",
+      "end": "2007-08-28",
+      "days": 133,
+      "number": 23,
+      "event": "SmackDown!",
+      "location": "Milan Italy",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r65",
+      "holder": "Matt Hardy & Montel Vontavious Porter",
+      "people": [
+        "matt-hardy",
+        "montel-vontavious-porter"
+      ],
+      "start": "2007-08-28",
+      "end": "2007-11-13",
+      "days": 77,
+      "number": 24,
+      "event": "SmackDown!",
+      "location": "Albany, NY",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r5",
       "holder": "John Morrison & The Miz",
       "people": [
-        "the-miz"
+        "the-miz",
+        "john-morrison"
       ],
       "start": "2007-11-16",
       "end": "2008-07-20",
+      "days": 250,
+      "number": 25,
+      "event": "SmackDown!",
+      "location": "Wichita, KS",
+      "note": "Title shared with ECW brand; Morrison formerly Johnny Nitro",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-the-miz-831"
@@ -98,33 +652,142 @@
       "id": "r6",
       "holder": "Curt Hawkins & Zack Ryder",
       "people": [
-        "matt-cardona"
+        "matt-cardona",
+        "curt-hawkins"
       ],
       "start": "2008-07-20",
-      "end": "2008-09-26",
+      "end": "2008-09-21",
+      "days": 63,
+      "number": 26,
+      "event": "The Great American Bash",
+      "location": "Uniondale, NY",
+      "note": "Fatal four-way tag match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-matt-cardona-432"
       ]
     },
     {
-      "id": "r7",
-      "holder": "Big Show & The Miz",
+      "id": "r66",
+      "holder": "The Colóns",
       "people": [
-        "the-miz"
+        "carlito",
+        "primo"
+      ],
+      "start": "2008-09-21",
+      "end": "2009-06-28",
+      "days": 280,
+      "number": 27,
+      "event": "SmackDown",
+      "location": "Columbus, OH",
+      "note": "Later unified with World Tag Team title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r67",
+      "holder": "Chris Jericho & Edge",
+      "people": [
+        "chris-jericho",
+        "edge"
+      ],
+      "start": "2009-06-28",
+      "end": "2009-07-26",
+      "days": 28,
+      "number": 28,
+      "event": "The Bash",
+      "location": "Sacramento, CA",
+      "note": "Triple threat tag match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r68",
+      "holder": "Jeri-Show",
+      "people": [
+        "big-show",
+        "chris-jericho"
+      ],
+      "start": "2009-07-26",
+      "end": "2009-12-13",
+      "days": 140,
+      "number": 29,
+      "event": "Night of Champions",
+      "location": "Philadelphia, PA",
+      "note": "Edge vacated his half; Jericho chose new partner",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r69",
+      "holder": "D-Generation X",
+      "people": [
+        "shawn-michaels",
+        "triple-h"
+      ],
+      "start": "2009-12-13",
+      "end": "2010-02-08",
+      "days": 57,
+      "number": 30,
+      "event": "TLC: Tables, Ladders & Chairs",
+      "location": "San Antonio, TX",
+      "note": "Tables ladders and chairs match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "ShoMiz",
+      "people": [
+        "the-miz",
+        "big-show"
       ],
       "start": "2010-02-08",
       "end": "2010-04-26",
+      "days": 77,
+      "number": 31,
+      "event": "Raw",
+      "location": "Lafayette, LA",
+      "note": "Triple threat elimination match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-the-miz-827"
       ]
+    },
+    {
+      "id": "r70",
+      "holder": "The Hart Dynasty",
+      "people": [
+        "david-hart-smith",
+        "tyson-kidd"
+      ],
+      "start": "2010-04-26",
+      "end": "2010-09-19",
+      "days": 146,
+      "number": 32,
+      "event": "Raw",
+      "location": "Richmond, VA",
+      "note": "Original title deactivated during reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r8",
@@ -135,9 +798,15 @@
       ],
       "start": "2010-09-19",
       "end": "2010-10-24",
+      "days": 35,
+      "number": 33,
+      "event": "Night of Champions",
+      "location": "Rosemont, IL",
+      "note": "Tag Team Turmoil match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-cody-rhodes-128",
@@ -145,49 +814,259 @@
       ]
     },
     {
+      "id": "r71",
+      "holder": "The Nexus",
+      "people": [
+        "david-otunga",
+        "john-cena"
+      ],
+      "start": "2010-10-24",
+      "end": "2010-10-25",
+      "days": 1,
+      "number": 34,
+      "event": "Bragging Rights",
+      "location": "Minneapolis, MN",
+      "note": "<1, Brief reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r72",
+      "holder": "The Nexus",
+      "people": [
+        "heath-slater",
+        "justin-gabriel"
+      ],
+      "start": "2010-10-25",
+      "end": "2010-12-06",
+      "days": 42,
+      "number": 35,
+      "event": "Raw",
+      "location": "Green Bay, WI",
+      "note": "Otunga threw match to keep title in Nexus",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r73",
+      "holder": "Santino Marella & Vladimir Kozlov",
+      "people": [
+        "santino-marella",
+        "vladimir-kozlov"
+      ],
+      "start": "2010-12-06",
+      "end": "2011-02-20",
+      "days": 76,
+      "number": 36,
+      "event": "Raw",
+      "location": "Louisville, KY",
+      "note": "Fatal four-way elimination match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r74",
+      "holder": "The Corre",
+      "people": [
+        "heath-slater",
+        "justin-gabriel"
+      ],
+      "start": "2011-02-20",
+      "end": "2011-02-21",
+      "days": 1,
+      "number": 37,
+      "event": "Elimination Chamber",
+      "location": "Oakland, CA",
+      "note": "<1, Very brief reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r9",
       "holder": "John Cena & The Miz",
       "people": [
-        "the-miz"
+        "the-miz",
+        "john-cena"
       ],
       "start": "2011-02-21",
       "end": "2011-02-21",
+      "days": 0,
+      "number": 38,
+      "event": "Raw",
+      "location": "Fresno, CA",
+      "note": "<1, Very brief reign",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-the-miz-824"
       ]
     },
     {
+      "id": "r75",
+      "holder": "The Corre",
+      "people": [
+        "heath-slater",
+        "justin-gabriel"
+      ],
+      "start": "2011-02-21",
+      "end": "2011-04-19",
+      "days": 57,
+      "number": 39,
+      "event": "Raw",
+      "location": "Fresno, CA",
+      "note": "Third reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r76",
+      "holder": "Big Show & Kane",
+      "people": [
+        "big-show",
+        "kane"
+      ],
+      "start": "2011-04-19",
+      "end": "2011-05-23",
+      "days": 34,
+      "number": 40,
+      "event": "SmackDown",
+      "location": "London, England",
+      "note": "First reign as this team",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r77",
+      "holder": "The New Nexus",
+      "people": [
+        "david-otunga",
+        "curtis-axel"
+      ],
+      "start": "2011-05-23",
+      "end": "2011-08-22",
+      "days": 91,
+      "number": 41,
+      "event": "Raw",
+      "location": "Portland, OR",
+      "note": "Nexus disbanded during reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r78",
+      "holder": "Air Boom",
+      "people": [
+        "evan-bourne",
+        "kofi-kingston"
+      ],
+      "start": "2011-08-22",
+      "end": "2012-01-15",
+      "days": 146,
+      "number": 42,
+      "event": "Raw",
+      "location": "Edmonton, AB, Canada",
+      "note": "Brand extension ended during reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r79",
+      "holder": "Primo & Epico",
+      "people": [
+        "primo",
+        "epico"
+      ],
+      "start": "2012-01-15",
+      "end": "2012-04-30",
+      "days": 106,
+      "number": 43,
+      "event": "House show",
+      "location": "Oakland, CA",
+      "note": "Unbranded title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r10",
       "holder": "Kofi Kingston & R-Truth",
       "people": [
-        "r-truth"
+        "r-truth",
+        "kofi-kingston"
       ],
       "start": "2012-04-30",
       "end": "2012-09-16",
+      "days": 139,
+      "number": 44,
+      "event": "Raw",
+      "location": "Dayton, OH",
+      "note": "First reign as this team",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-r-truth-600"
       ]
     },
     {
+      "id": "r80",
+      "holder": "Team Hell No",
+      "people": [
+        "daniel-bryan",
+        "kane"
+      ],
+      "start": "2012-09-16",
+      "end": "2013-05-19",
+      "days": 245,
+      "number": 45,
+      "event": "Night of Champions",
+      "location": "Boston, MA",
+      "note": "First reign as this team",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r11",
-      "holder": "Roman Reigns & Seth Rollins",
+      "holder": "The Shield",
       "people": [
         "roman-reigns",
         "seth-rollins"
       ],
       "start": "2013-05-19",
       "end": "2013-10-14",
+      "days": 148,
+      "number": 46,
+      "event": "Extreme Rules",
+      "location": "St. Louis, MO",
+      "note": "Tornado tag team match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-roman-reigns-699",
@@ -198,30 +1077,62 @@
       "id": "r12",
       "holder": "Cody Rhodes & Goldust",
       "people": [
-        "cody-rhodes"
+        "cody-rhodes",
+        "dustin-rhodes"
       ],
       "start": "2013-10-14",
       "end": "2014-01-26",
+      "days": 104,
+      "number": 47,
+      "event": "Raw",
+      "location": "St. Louis, MO",
+      "note": "No disqualification match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-cody-rhodes-125"
       ]
     },
     {
+      "id": "r81",
+      "holder": "The New Age Outlaws",
+      "people": [
+        "billy-gunn",
+        "road-dogg"
+      ],
+      "start": "2014-01-26",
+      "end": "2014-03-03",
+      "days": 36,
+      "number": 48,
+      "event": "Royal Rumble Kickoff",
+      "location": "Pittsburgh, PA",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r13",
-      "holder": "Jey Uso & Jimmy Uso",
+      "holder": "The Usos",
       "people": [
         "jey-uso",
         "jimmy-uso"
       ],
       "start": "2014-03-03",
       "end": "2014-09-21",
+      "days": 202,
+      "number": 49,
+      "event": "Raw",
+      "location": "Rosemont, IL",
+      "note": "First reign",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-jey-uso-339",
@@ -232,13 +1143,20 @@
       "id": "r14",
       "holder": "Goldust & Stardust",
       "people": [
-        "cody-rhodes"
+        "cody-rhodes",
+        "dustin-rhodes"
       ],
       "start": "2014-09-21",
       "end": "2014-11-23",
+      "days": 63,
+      "number": 50,
+      "event": "Night of Champions",
+      "location": "Nashville, TN",
+      "note": "Stardust was formerly Cody Rhodes",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-cody-rhodes-124"
@@ -246,15 +1164,22 @@
     },
     {
       "id": "r15",
-      "holder": "The Miz & Damien Mizdow",
+      "holder": "Damien Mizdow & The Miz",
       "people": [
-        "the-miz"
+        "the-miz",
+        "damien-mizdow"
       ],
       "start": "2014-11-23",
       "end": "2014-12-29",
+      "days": 36,
+      "number": 51,
+      "event": "Survivor Series",
+      "location": "St. Louis, MO",
+      "note": "Fatal four-way tag match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-the-miz-819"
@@ -262,16 +1187,22 @@
     },
     {
       "id": "r16",
-      "holder": "Jey Uso & Jimmy Uso",
+      "holder": "The Usos",
       "people": [
         "jey-uso",
         "jimmy-uso"
       ],
       "start": "2014-12-29",
       "end": "2015-02-22",
+      "days": 55,
+      "number": 52,
+      "event": "Raw",
+      "location": "Washington, D.C.",
+      "note": "Second reign",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-jey-uso-338",
@@ -279,48 +1210,318 @@
       ]
     },
     {
+      "id": "r82",
+      "holder": "Cesaro & Tyson Kidd",
+      "people": [
+        "cesaro",
+        "tyson-kidd"
+      ],
+      "start": "2015-02-22",
+      "end": "2015-04-26",
+      "days": 63,
+      "number": 53,
+      "event": "Fastlane",
+      "location": "Memphis, TN",
+      "note": "First reign as this team",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r83",
+      "holder": "The New Day",
+      "people": [
+        "big-e",
+        "kofi-kingston",
+        "xavier-woods"
+      ],
+      "start": "2015-04-26",
+      "end": "2015-06-14",
+      "days": 49,
+      "number": 54,
+      "event": "Extreme Rules",
+      "location": "Rosemont, IL",
+      "note": "Woods recognized under Freebird Rule",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r84",
+      "holder": "The Prime Time Players",
+      "people": [
+        "darren-young",
+        "titus-oneil"
+      ],
+      "start": "2015-06-14",
+      "end": "2015-08-23",
+      "days": 70,
+      "number": 55,
+      "event": "Money in the Bank",
+      "location": "Columbus, OH",
+      "note": "Big E and Woods represented New Day",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r85",
+      "holder": "The New Day",
+      "people": [
+        "big-e",
+        "kofi-kingston",
+        "xavier-woods"
+      ],
+      "start": "2015-08-23",
+      "end": "2016-12-18",
+      "days": 483,
+      "number": 56,
+      "event": "SummerSlam",
+      "location": "Brooklyn, NY",
+      "note": "Fatal four-way; Woods recognized under Freebird Rule",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r86",
+      "holder": "Cesaro & Sheamus",
+      "people": [
+        "cesaro",
+        "sheamus"
+      ],
+      "start": "2016-12-18",
+      "end": "2017-01-29",
+      "days": 42,
+      "number": 57,
+      "event": "Roadblock: End of the Line",
+      "location": "Pittsburgh, PA",
+      "note": "Title renamed Raw Tag Team",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r87",
+      "holder": "Luke Gallows & Karl Anderson",
+      "people": [
+        "luke-gallows",
+        "karl-anderson"
+      ],
+      "start": "2017-01-29",
+      "end": "2017-04-02",
+      "days": 63,
+      "number": 58,
+      "event": "Royal Rumble Kickoff",
+      "location": "San Antonio, TX",
+      "note": "Two referees assigned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r88",
+      "holder": "The Hardy Boyz",
+      "people": [
+        "jeff-hardy",
+        "matt-hardy"
+      ],
+      "start": "2017-04-02",
+      "end": "2017-06-04",
+      "days": 63,
+      "number": 59,
+      "event": "WrestleMania 33",
+      "location": "Orlando, FL",
+      "note": "Fatal four-way ladder match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r89",
+      "holder": "Cesaro & Sheamus",
+      "people": [
+        "cesaro",
+        "sheamus"
+      ],
+      "start": "2017-06-04",
+      "end": "2017-08-20",
+      "days": 77,
+      "number": 60,
+      "event": "Extreme Rules",
+      "location": "Baltimore, MD",
+      "note": "Steel cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r17",
       "holder": "Dean Ambrose & Seth Rollins",
       "people": [
-        "seth-rollins"
+        "seth-rollins",
+        "dean-ambrose"
       ],
       "start": "2017-08-20",
       "end": "2017-11-06",
+      "days": 78,
+      "number": 61,
+      "event": "SummerSlam",
+      "location": "Brooklyn, NY",
+      "note": "First reign as this team",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-seth-rollins-741"
       ]
     },
     {
-      "id": "r18",
-      "holder": "Seth Rollins & Jason Jordan",
+      "id": "r90",
+      "holder": "Cesaro & Sheamus",
       "people": [
-        "seth-rollins"
+        "cesaro",
+        "sheamus"
+      ],
+      "start": "2017-11-06",
+      "end": "2017-12-25",
+      "days": 49,
+      "number": 62,
+      "event": "Raw",
+      "location": "Manchester, England",
+      "note": "Third reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Jason Jordan & Seth Rollins",
+      "people": [
+        "seth-rollins",
+        "jason-jordan"
       ],
       "start": "2017-12-25",
       "end": "2018-01-28",
+      "days": 34,
+      "number": 63,
+      "event": "Raw",
+      "location": "Rosemont, IL",
+      "note": "First reign as this team",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-seth-rollins-740"
       ]
     },
     {
+      "id": "r91",
+      "holder": "Cesaro & Sheamus",
+      "people": [
+        "cesaro",
+        "sheamus"
+      ],
+      "start": "2018-01-28",
+      "end": "2018-04-08",
+      "days": 70,
+      "number": 64,
+      "event": "Royal Rumble",
+      "location": "Philadelphia, PA",
+      "note": "Fourth reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r92",
+      "holder": "Braun Strowman & Nicholas",
+      "people": [
+        "braun-strowman",
+        "nicholas"
+      ],
+      "start": "2018-04-08",
+      "end": "2018-04-09",
+      "days": 1,
+      "number": 65,
+      "event": "WrestleMania 34",
+      "location": "New Orleans, LA",
+      "note": "<1, Nicholas was a 10-year-old audience pick",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r93",
+      "holder": "Bray Wyatt & Matt Hardy",
+      "people": [
+        "bray-wyatt",
+        "matt-hardy"
+      ],
+      "start": "2018-04-27",
+      "end": "2018-07-15",
+      "days": 79,
+      "number": 66,
+      "event": "Greatest Royal Rumble",
+      "location": "Jeddah, Saudi Arabia",
+      "note": "Won vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r94",
+      "holder": "The B-Team",
+      "people": [
+        "uncle-howdy",
+        "curtis-axel"
+      ],
+      "start": "2018-07-15",
+      "end": "2018-09-03",
+      "days": 50,
+      "number": 67,
+      "event": "Extreme Rules",
+      "location": "Pittsburgh, PA",
+      "note": "Axel formerly Michael McGillicutty",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r19",
       "holder": "Dolph Ziggler & Drew McIntyre",
       "people": [
-        "drew-mcintyre"
+        "drew-mcintyre",
+        "dolph-ziggler"
       ],
       "start": "2018-09-03",
       "end": "2018-10-22",
+      "days": 49,
+      "number": 68,
+      "event": "Raw",
+      "location": "Columbus, OH",
+      "note": "First reign as this team",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-drew-mcintyre-198"
@@ -330,78 +1531,207 @@
       "id": "r20",
       "holder": "Dean Ambrose & Seth Rollins",
       "people": [
-        "seth-rollins"
+        "seth-rollins",
+        "dean-ambrose"
       ],
       "start": "2018-10-22",
       "end": "2018-11-05",
+      "days": 14,
+      "number": 69,
+      "event": "Raw",
+      "location": "Providence, RI",
+      "note": "Ambrose turned on Rollins after winning",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-seth-rollins-737"
       ]
     },
     {
+      "id": "r95",
+      "holder": "AOP",
+      "people": [
+        "akam",
+        "rezar"
+      ],
+      "start": "2018-11-05",
+      "end": "2018-12-10",
+      "days": 35,
+      "number": 70,
+      "event": "Raw",
+      "location": "Manchester, England",
+      "note": "Won 2-on-1 handicap match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r21",
       "holder": "Bobby Roode & Chad Gable",
       "people": [
-        "chad-gable"
+        "chad-gable",
+        "bobby-roode"
       ],
       "start": "2018-12-10",
       "end": "2019-02-11",
+      "days": 63,
+      "number": 71,
+      "event": "Raw",
+      "location": "San Diego, CA",
+      "note": "Handicap match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-chad-gable-76"
       ]
     },
     {
+      "id": "r96",
+      "holder": "The Revival",
+      "people": [
+        "dash-wilder",
+        "scott-dawson"
+      ],
+      "start": "2019-02-11",
+      "end": "2019-04-07",
+      "days": 55,
+      "number": 72,
+      "event": "Raw",
+      "location": "Grand Rapids, MI",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r22",
       "holder": "Curt Hawkins & Zack Ryder",
       "people": [
-        "matt-cardona"
+        "matt-cardona",
+        "curt-hawkins"
       ],
       "start": "2019-04-07",
       "end": "2019-06-10",
+      "days": 64,
+      "number": 73,
+      "event": "WrestleMania 35 Kickoff",
+      "location": "East Rutherford, NJ",
+      "note": "Second reign",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-matt-cardona-429"
       ]
     },
     {
+      "id": "r97",
+      "holder": "The Revival",
+      "people": [
+        "dash-wilder",
+        "scott-dawson"
+      ],
+      "start": "2019-06-10",
+      "end": "2019-07-29",
+      "days": 49,
+      "number": 74,
+      "event": "Raw",
+      "location": "San Jose, CA",
+      "note": "Triple threat tag match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r98",
+      "holder": "The O.C.",
+      "people": [
+        "luke-gallows",
+        "karl-anderson"
+      ],
+      "start": "2019-07-29",
+      "end": "2019-08-19",
+      "days": 21,
+      "number": 75,
+      "event": "Raw",
+      "location": "North Little Rock, AR",
+      "note": "Triple threat tag match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r23",
       "holder": "Braun Strowman & Seth Rollins",
       "people": [
-        "seth-rollins"
+        "seth-rollins",
+        "braun-strowman"
       ],
       "start": "2019-08-19",
       "end": "2019-09-15",
+      "days": 27,
+      "number": 76,
+      "event": "Raw",
+      "location": "St. Paul, MN",
+      "note": "Second reign for Strowman",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-seth-rollins-734"
       ]
     },
     {
+      "id": "r99",
+      "holder": "Dolph Ziggler & Robert Roode",
+      "people": [
+        "dolph-ziggler",
+        "robert-roode"
+      ],
+      "start": "2019-09-15",
+      "end": "2019-10-14",
+      "days": 29,
+      "number": 77,
+      "event": "Clash of Champions",
+      "location": "Charlotte, NC",
+      "note": "Roode formerly Bobby Roode",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r24",
-      "holder": "Erik & Ivar",
+      "holder": "The Viking Raiders",
       "people": [
         "erik",
         "ivar"
       ],
       "start": "2019-10-14",
       "end": "2020-01-20",
+      "days": 98,
+      "number": 78,
+      "event": "Raw",
+      "location": "Denver, CO",
+      "note": "First reign",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-erik-255",
@@ -410,15 +1740,22 @@
     },
     {
       "id": "r25",
-      "holder": "Seth Rollins & Murphy",
+      "holder": "Buddy Murphy & Seth Rollins",
       "people": [
-        "seth-rollins"
+        "seth-rollins",
+        "buddy-murphy"
       ],
       "start": "2020-01-20",
       "end": "2020-03-02",
+      "days": 42,
+      "number": 79,
+      "event": "Raw",
+      "location": "Wichita, KS",
+      "note": "Murphy's name shortened later",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-seth-rollins-733"
@@ -426,16 +1763,22 @@
     },
     {
       "id": "r26",
-      "holder": "Angelo Dawkins & Montez Ford",
+      "holder": "The Street Profits",
       "people": [
         "angelo-dawkins",
         "montez-ford"
       ],
       "start": "2020-03-02",
       "end": "2020-10-12",
+      "days": 224,
+      "number": 80,
+      "event": "Raw",
+      "location": "Brooklyn, NY",
+      "note": "Last Chance match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-angelo-dawkins-37",
@@ -443,16 +1786,80 @@
       ]
     },
     {
+      "id": "r100",
+      "holder": "The New Day",
+      "people": [
+        "kofi-kingston",
+        "xavier-woods"
+      ],
+      "start": "2020-10-12",
+      "end": "2020-12-20",
+      "days": 69,
+      "number": 81,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Titles traded in 2020 draft",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r101",
+      "holder": "The Hurt Business",
+      "people": [
+        "cedric-alexander",
+        "shelton-benjamin"
+      ],
+      "start": "2020-12-20",
+      "end": "2021-03-15",
+      "days": 85,
+      "number": 82,
+      "event": "TLC: Tables, Ladders & Chairs",
+      "location": "St. Petersburg, FL",
+      "note": "Tables ladders and chairs match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r102",
+      "holder": "The New Day",
+      "people": [
+        "kofi-kingston",
+        "xavier-woods"
+      ],
+      "start": "2021-03-15",
+      "end": "2021-04-10",
+      "days": 26,
+      "number": 83,
+      "event": "Raw",
+      "location": "St. Petersburg, FL",
+      "note": "Fourth reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r27",
       "holder": "AJ Styles & Omos",
       "people": [
-        "omos"
+        "omos",
+        "aj-styles"
       ],
       "start": "2021-04-10",
       "end": "2021-08-21",
+      "days": 133,
+      "number": 84,
+      "event": "WrestleMania 37 Night 1",
+      "location": "Tampa, FL",
+      "note": "First reign",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-omos-505"
@@ -460,15 +1867,22 @@
     },
     {
       "id": "r28",
-      "holder": "Randy Orton & Riddle",
+      "holder": "RK-Bro",
       "people": [
-        "randy-orton"
+        "randy-orton",
+        "riddle"
       ],
       "start": "2021-08-21",
       "end": "2022-01-10",
+      "days": 142,
+      "number": 85,
+      "event": "SummerSlam",
+      "location": "Paradise, NV",
+      "note": "First reign",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-randy-orton-612"
@@ -476,16 +1890,22 @@
     },
     {
       "id": "r29",
-      "holder": "Chad Gable & Otis",
+      "holder": "Alpha Academy",
       "people": [
         "chad-gable",
         "otis"
       ],
       "start": "2022-01-10",
       "end": "2022-03-07",
+      "days": 56,
+      "number": 86,
+      "event": "Raw",
+      "location": "Philadelphia, PA",
+      "note": "First reign as this team",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-chad-gable-75",
@@ -494,15 +1914,22 @@
     },
     {
       "id": "r30",
-      "holder": "Randy Orton & Riddle",
+      "holder": "RK-Bro",
       "people": [
-        "randy-orton"
+        "randy-orton",
+        "riddle"
       ],
       "start": "2022-03-07",
       "end": "2022-05-20",
+      "days": 74,
+      "number": 87,
+      "event": "Raw",
+      "location": "Cleveland, OH",
+      "note": "Triple threat tag match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-randy-orton-611"
@@ -510,16 +1937,22 @@
     },
     {
       "id": "r31",
-      "holder": "Jey Uso & Jimmy Uso",
+      "holder": "The Usos",
       "people": [
         "jey-uso",
         "jimmy-uso"
       ],
       "start": "2022-05-20",
       "end": "2023-04-01",
+      "days": 316,
+      "number": 88,
+      "event": "SmackDown",
+      "location": "Grand Rapids, MI",
+      "note": "Winners take all match; became undisputed champions",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-jey-uso-332",
@@ -535,9 +1968,15 @@
       ],
       "start": "2023-04-01",
       "end": "2023-09-02",
+      "days": 154,
+      "number": 89,
+      "event": "WrestleMania 39 Night 1",
+      "location": "Inglewood, CA",
+      "note": "First reign",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-kevin-owens-371",
@@ -546,16 +1985,22 @@
     },
     {
       "id": "r33",
-      "holder": "Finn Bálor & Damian Priest",
+      "holder": "The Judgment Day",
       "people": [
         "damian-priest",
         "finn-balor"
       ],
       "start": "2023-09-02",
       "end": "2023-10-07",
+      "days": 35,
+      "number": 90,
+      "event": "Payback",
+      "location": "Pittsburgh, PA",
+      "note": "Steel City Street Fight",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-damian-priest-159",
@@ -571,9 +2016,15 @@
       ],
       "start": "2023-10-07",
       "end": "2023-10-16",
+      "days": 9,
+      "number": 91,
+      "event": "Fastlane",
+      "location": "Indianapolis, IN",
+      "note": "Also for SmackDown title",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-cody-rhodes-114",
@@ -582,16 +2033,22 @@
     },
     {
       "id": "r35",
-      "holder": "Finn Bálor & Damian Priest",
+      "holder": "The Judgment Day",
       "people": [
         "damian-priest",
         "finn-balor"
       ],
       "start": "2023-10-16",
       "end": "2024-04-06",
+      "days": 173,
+      "number": 92,
+      "event": "Raw",
+      "location": "Oklahoma City, OK",
+      "note": "Second reign",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-damian-priest-157",
@@ -600,16 +2057,22 @@
     },
     {
       "id": "r36",
-      "holder": "The Miz & R-Truth",
+      "holder": "Awesome Truth",
       "people": [
         "r-truth",
         "the-miz"
       ],
       "start": "2024-04-06",
       "end": "2024-06-24",
+      "days": 79,
+      "number": 93,
+      "event": "WrestleMania XL Night 1",
+      "location": "Philadelphia, PA",
+      "note": "Six-pack tag ladder match; title renamed World",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-r-truth-546",
@@ -618,16 +2081,22 @@
     },
     {
       "id": "r37",
-      "holder": "Finn Bálor & JD McDonagh",
+      "holder": "The Judgment Day",
       "people": [
         "finn-balor",
         "jd-mcdonagh"
       ],
       "start": "2024-06-24",
       "end": "2024-12-16",
+      "days": 175,
+      "number": 94,
+      "event": "Raw",
+      "location": "Indianapolis, IN",
+      "note": "First reign as this team",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-finn-balor-268",
@@ -643,10 +2112,16 @@
       ],
       "start": "2024-12-16",
       "end": "2025-04-19",
+      "days": 124,
+      "number": 95,
+      "event": "Raw",
+      "location": "Boston, MA",
+      "note": "Formerly Viking Raiders",
       "curated": true,
       "sources": [
         "https://www.wwe.com/titlehistory/raw-tag-team-championship",
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "2025-world-tag-team-2024-12-16-erik",
@@ -663,9 +2138,15 @@
       ],
       "start": "2025-04-19",
       "end": "2025-06-30",
+      "days": 72,
+      "number": 96,
+      "event": "WrestleMania 41 Night 1",
+      "location": "Paradise, NV",
+      "note": "Fifth reign",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/raw-tag-team-championship"
+        "https://www.wwe.com/titlehistory/raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "2025-world-tag-team-2025-04-19-kofi-kingston"
@@ -680,10 +2161,16 @@
       ],
       "start": "2025-06-30",
       "end": "2025-10-20",
+      "days": 112,
+      "number": 97,
+      "event": "Raw",
+      "location": "Pittsburgh, PA",
+      "note": "Second reign as this team",
       "curated": true,
       "sources": [
         "https://www.wwe.com/titlehistory/raw-tag-team-championship",
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "2025-world-tag-team-2025-06-30-finn-balor",
@@ -699,9 +2186,15 @@
       ],
       "start": "2025-10-20",
       "end": "2025-12-29",
+      "days": 70,
+      "number": 98,
+      "event": "Raw",
+      "location": "Sacramento, CA",
+      "note": "First reign as this team",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/raw-tag-team-championship"
+        "https://www.wwe.com/titlehistory/raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "2025-world-tag-team-2025-10-20-aj-styles"
@@ -716,10 +2209,16 @@
       ],
       "start": "2025-12-29",
       "end": "2026-03-30",
+      "days": 91,
+      "number": 99,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Fourth reign",
       "curated": true,
       "sources": [
         "https://www.wwe.com/titlehistory/raw-tag-team-championship",
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "world-tag-team-1",
@@ -737,13 +2236,18 @@
       ],
       "start": "2026-03-30",
       "end": "2026-06-22",
+      "days": 84,
+      "number": 100,
+      "event": "Raw",
+      "location": "New York, NY",
       "note": "Paul and Theory won the titles. On May 25, Breakker joined Theory under the Freebird Rule after Paul’s injury. This is one continuous team reign.",
       "memberStarts": {
         "bron-breakker": "2026-05-25"
       },
       "curated": true,
       "sources": [
-        "https://www.fightful.com/wrestling-news/the-vision-to-freebird-wwe-world-tag-team-titles-with-logan-paul-injured"
+        "https://www.fightful.com/wrestling-news/the-vision-to-freebird-wwe-world-tag-team-titles-with-logan-paul-injured",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "world-tag-team-2"
@@ -758,10 +2262,16 @@
       ],
       "start": "2026-06-22",
       "end": "2026-07-06",
+      "days": 14,
+      "number": 101,
+      "event": "Raw",
+      "location": "London, England",
+      "note": "Former SmackDown members; transferred to Raw after winning",
       "curated": true,
       "sources": [
         "https://www.wwe.com/titlehistory/raw-tag-team-championship",
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "world-tag-team-3",
@@ -777,15 +2287,19 @@
         "austin-theory"
       ],
       "start": "2026-07-06",
+      "days": 80,
+      "number": 102,
+      "event": "Raw",
+      "location": "Rosemont, IL",
+      "note": "Current reign; no notes given",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/raw-tag-team-championship"
+        "https://www.wwe.com/titlehistory/raw-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_World_Tag_Team_Champions_(WWE)"
       ],
       "legacyIds": [
         "world-tag-team-4"
       ]
     }
-  ],
-  "short": "WORLD TAG",
-  "featured": true
+  ]
 }

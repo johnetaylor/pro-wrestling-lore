@@ -1,18 +1,488 @@
 {
   "id": "wwe-championship",
   "name": "WWE Championship",
+  "short": "WWE",
+  "promotion": "wwe",
+  "division": "men",
+  "format": "singles",
+  "established": "1963-04-25",
+  "featured": true,
   "names": [
     "Undisputed WWE Championship",
-    "WWE Championship",
     "WWE World Heavyweight/WWE Championship",
     "WWE World Heavyweight Championship",
-    "WWF / WWE Championship"
+    "WWF / WWE Championship",
+    "WWWF World Heavyweight Championship",
+    "WWWF Heavyweight Championship",
+    "WWF Heavyweight Championship",
+    "WWF World Heavyweight Championship",
+    "WWF Championship",
+    "Undisputed WWF Championship",
+    "WWE Undisputed Championship",
+    "WWE World Championship",
+    "Undisputed WWE Universal Championship"
+  ],
+  "eras": [
+    {
+      "name": "WWWF World Heavyweight Championship",
+      "from": "1963-04-25",
+      "to": "1971"
+    },
+    {
+      "name": "WWWF Heavyweight Championship",
+      "from": "1971",
+      "to": "1979"
+    },
+    {
+      "name": "WWF Heavyweight Championship",
+      "from": "1979",
+      "to": "1983"
+    },
+    {
+      "name": "WWF World Heavyweight Championship",
+      "from": "1983",
+      "to": "1989"
+    },
+    {
+      "name": "WWF Championship",
+      "from": "1989",
+      "to": "2001-12"
+    },
+    {
+      "name": "Undisputed WWF Championship",
+      "from": "2001-12",
+      "to": "2002"
+    },
+    {
+      "name": "Undisputed WWE Championship",
+      "from": "2002",
+      "to": "2002"
+    },
+    {
+      "name": "WWE Undisputed Championship",
+      "from": "2002",
+      "to": "2002-09"
+    },
+    {
+      "name": "WWE Championship",
+      "from": "2002-09",
+      "to": "2013-12"
+    },
+    {
+      "name": "WWE World Heavyweight Championship",
+      "from": "2013-12",
+      "to": "2016-07"
+    },
+    {
+      "name": "WWE World Championship",
+      "from": "2016-07",
+      "to": "2016-12"
+    },
+    {
+      "name": "WWE Championship",
+      "from": "2016-12",
+      "to": "2022-04"
+    },
+    {
+      "name": "Undisputed WWE Universal Championship",
+      "from": "2022-04",
+      "to": "2024-04"
+    },
+    {
+      "name": "Undisputed WWE Championship",
+      "from": "2024-04"
+    }
+  ],
+  "history": [
+    {
+      "date": "1971",
+      "kind": "recognition",
+      "text": "Lost world title recognition when the WWWF rejoined the NWA and was treated as a regional title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Championship"
+      ]
+    },
+    {
+      "date": "1983",
+      "kind": "recognition",
+      "text": "Regained world championship status after the WWF conclusively left the NWA.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Championship"
+      ]
+    },
+    {
+      "date": "2001-03",
+      "kind": "promotion",
+      "text": "WWF bought WCW, acquiring its championship.",
+      "related": [
+        "WCW Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Championship"
+      ]
+    },
+    {
+      "date": "2001-12",
+      "kind": "absorbed",
+      "text": "Unified at Vengeance; the WWF title kept its lineage and the WCW title was retired.",
+      "related": [
+        "WCW Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Championship"
+      ]
+    },
+    {
+      "date": "2002-08-26",
+      "kind": "split",
+      "text": "Brand split: title made exclusive to SmackDown while a separate world title was created for Raw.",
+      "related": [
+        "World Heavyweight Championship (2002–2013)"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Championship"
+      ]
+    },
+    {
+      "date": "2002-09",
+      "kind": "brand",
+      "text": "Dropped the \"undisputed\" name and became exclusive to SmackDown.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Championship"
+      ]
+    },
+    {
+      "date": "2006-06-11",
+      "kind": "brand",
+      "text": "Briefly became an ECW brand title after Rob Van Dam won it at ECW One Night Stand.",
+      "related": [
+        "ECW Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Championship"
+      ]
+    },
+    {
+      "date": "2006-06-11",
+      "kind": "reactivated",
+      "text": "Reactivated and awarded to Van Dam, who held both titles.",
+      "related": [
+        "ECW World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Championship"
+      ]
+    },
+    {
+      "date": "2010",
+      "kind": "deactivated",
+      "text": "ECW brand disbanded, deactivating the ECW Championship.",
+      "related": [
+        "ECW Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Championship"
+      ]
+    },
+    {
+      "date": "2011-07-17",
+      "kind": "interim",
+      "text": "Rey Mysterio won the vacated title, then lost it to John Cena the same night.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Championship"
+      ]
+    },
+    {
+      "date": "2011-08-29",
+      "kind": "split",
+      "text": "First brand split ended; the title could appear on both Raw and SmackDown.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Championship"
+      ]
+    },
+    {
+      "date": "2013-12-15",
+      "kind": "unified-into",
+      "text": "Orton beat Cena at TLC, unifying the titles; the World Heavyweight Championship was retired.",
+      "related": [
+        "World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Championship"
+      ]
+    },
+    {
+      "date": "2016-07-19",
+      "kind": "split",
+      "text": "Brand split reintroduced; the title was moved to SmackDown in the 2016 WWE Draft.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Championship"
+      ]
+    },
+    {
+      "date": "2016-07-25",
+      "kind": "split",
+      "text": "Universal Championship created for Raw, leaving the WWE title exclusive to SmackDown.",
+      "related": [
+        "WWE Universal Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Championship"
+      ]
+    },
+    {
+      "date": "2019-11-01",
+      "kind": "brand",
+      "text": "Champion Brock Lesnar quit SmackDown and moved the title to Raw.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Championship"
+      ]
+    },
+    {
+      "date": "2022-04-03",
+      "kind": "unified-into",
+      "text": "Roman Reigns beat Lesnar at WrestleMania 38 to hold both titles, defended jointly as the Undisputed WWE Universal Championship.",
+      "related": [
+        "WWE Universal Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Championship"
+      ]
+    },
+    {
+      "date": "2023-04-28",
+      "kind": "brand",
+      "text": "Reigns drafted to SmackDown, making the title exclusive to SmackDown.",
+      "related": [
+        "WWE Universal Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Championship"
+      ]
+    },
+    {
+      "date": "2024-04",
+      "kind": "deactivated",
+      "text": "Universal Championship deactivated; the WWE title continued as the Undisputed WWE Championship.",
+      "related": [
+        "WWE Universal Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Championship"
+      ]
+    },
+    {
+      "date": "2025-04",
+      "kind": "retired",
+      "text": "Universal Championship lineage retired after WrestleMania 41, with Reigns as its final champion.",
+      "related": [
+        "WWE Universal Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Championship"
+      ]
+    }
   ],
   "sources": [
     "https://www.wwe.com/titlehistory/wwe-championship",
-    "https://www.wwe.com/article/wwe-championship-60-year-anniversary"
+    "https://www.wwe.com/article/wwe-championship-60-year-anniversary",
+    "https://en.wikipedia.org/wiki/List_of_WWE_Champions",
+    "https://en.wikipedia.org/wiki/WWE_Championship"
   ],
   "reigns": [
+    {
+      "id": "r37",
+      "holder": "Buddy Rogers",
+      "people": [
+        "buddy-rogers"
+      ],
+      "start": "1963-04-01",
+      "end": "1963-05-17",
+      "days": 46,
+      "number": 1,
+      "event": "Heavyweight Wrestling",
+      "location": "Washington, D.C.",
+      "note": "NWA champion since 1961; WWE recognizes reign from 1963-04-25",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r38",
+      "holder": "Bruno Sammartino",
+      "people": [
+        "bruno-sammartino"
+      ],
+      "start": "1963-05-17",
+      "end": "1971-01-18",
+      "days": 2803,
+      "number": 2,
+      "event": "House show",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "Ivan Koloff",
+      "people": [
+        "ivan-koloff"
+      ],
+      "start": "1971-01-18",
+      "end": "1971-02-08",
+      "days": 21,
+      "number": 3,
+      "event": "House show",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "Pedro Morales",
+      "people": [
+        "pedro-morales"
+      ],
+      "start": "1971-02-08",
+      "end": "1973-12-01",
+      "days": 1027,
+      "number": 4,
+      "event": "House show",
+      "location": "New York, NY",
+      "note": "Renamed WWWF Heavyweight Championship on NWA rejoin",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "Stan Stasiak",
+      "people": [
+        "stan-stasiak"
+      ],
+      "start": "1973-12-01",
+      "end": "1973-12-10",
+      "days": 9,
+      "number": 5,
+      "event": "House show",
+      "location": "Philadelphia, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Bruno Sammartino",
+      "people": [
+        "bruno-sammartino"
+      ],
+      "start": "1973-12-10",
+      "end": "1977-04-30",
+      "days": 1237,
+      "number": 6,
+      "event": "House show",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "\"Superstar\" Billy Graham",
+      "people": [
+        "superstar-billy-graham"
+      ],
+      "start": "1977-04-30",
+      "end": "1978-02-20",
+      "days": 296,
+      "number": 7,
+      "event": "House show",
+      "location": "Baltimore, MD",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "Bob Backlund",
+      "people": [
+        "bob-backlund"
+      ],
+      "start": "1978-02-20",
+      "end": "1979-11-30",
+      "days": 648,
+      "number": 8,
+      "event": "WWF on MSG Network",
+      "location": "New York, NY",
+      "note": "Renamed WWF March 1979",
+      "dateNote": "The source counts this reign to 1979-11-30, past the next change it lists.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "Antonio Inoki",
+      "people": [
+        "antonio-inoki"
+      ],
+      "start": "1979-11-30",
+      "end": "1979-12-06",
+      "days": 6,
+      "kind": "unrecognized",
+      "event": "Toukon Series",
+      "location": "Tokushima, Japan",
+      "note": "WWE does not recognize title change from finish",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "Bob Backlund",
+      "people": [
+        "bob-backlund"
+      ],
+      "start": "1979-12-17",
+      "end": "1983-12-26",
+      "days": 1470,
+      "kind": "unrecognized",
+      "event": "WWF on MSG Network",
+      "location": "New York, NY",
+      "note": "Fills vacancy; WWE recognizes uninterrupted period",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "The Iron Sheik",
+      "people": [
+        "the-iron-sheik"
+      ],
+      "start": "1983-12-26",
+      "end": "1984-01-23",
+      "days": 28,
+      "number": 9,
+      "event": "WWF on MSG Network",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Hulk Hogan",
@@ -21,13 +491,73 @@
       ],
       "start": "1984-01-23",
       "end": "1988-02-05",
+      "days": 1474,
+      "number": 10,
+      "event": "WWF on MSG Network",
+      "location": "New York, NY",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.wwe.com/titlehistory/wwe-championship"
+        "https://www.wwe.com/titlehistory/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-archive-person-hulkhogan-842"
       ]
+    },
+    {
+      "id": "r49",
+      "holder": "Ted DiBiase",
+      "people": [
+        "ted-dibiase"
+      ],
+      "start": "1988-02-05",
+      "end": "1988-02-13",
+      "days": 8,
+      "kind": "unrecognized",
+      "event": "The Main Event I",
+      "location": "Indianapolis, IN",
+      "note": "Not recognized; president declared title vacant",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "André the Giant",
+      "people": [
+        "andre-the-giant"
+      ],
+      "start": "1988-02-05",
+      "end": "1988-02-05",
+      "days": 0,
+      "number": 11,
+      "event": "The Main Event I",
+      "location": "Indianapolis, IN",
+      "note": "Defeated Hogan; referee bribed by DiBiase",
+      "dateNote": "The source counts this reign to 1988-02-05, past the next change it lists.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r50",
+      "holder": "Randy Savage",
+      "people": [
+        "randy-savage"
+      ],
+      "start": "1988-03-27",
+      "end": "1989-04-02",
+      "days": 371,
+      "number": 12,
+      "event": "WrestleMania IV",
+      "location": "Atlantic City, NJ",
+      "note": "Won tournament final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r2",
@@ -37,13 +567,54 @@
       ],
       "start": "1989-04-02",
       "end": "1990-04-01",
+      "days": 364,
+      "number": 13,
+      "event": "WrestleMania V",
+      "location": "Atlantic City, NJ",
+      "note": "Renamed WWF Championship May 1989",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.wwe.com/titlehistory/wwe-championship"
+        "https://www.wwe.com/titlehistory/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-archive-person-hulkhogan-843"
       ]
+    },
+    {
+      "id": "r51",
+      "holder": "Ultimate Warrior",
+      "people": [
+        "the-ultimate-warrior"
+      ],
+      "start": "1990-04-01",
+      "end": "1991-01-19",
+      "days": 293,
+      "number": 14,
+      "event": "WrestleMania VI",
+      "location": "Toronto, ON, Canada",
+      "note": "Title vs. title match with Intercontinental Championship",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "Sgt. Slaughter",
+      "people": [
+        "sgt-slaughter"
+      ],
+      "start": "1991-01-19",
+      "end": "1991-03-24",
+      "days": 64,
+      "number": 15,
+      "event": "Royal Rumble",
+      "location": "Miami, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r3",
@@ -53,13 +624,35 @@
       ],
       "start": "1991-03-24",
       "end": "1991-11-27",
+      "days": 248,
+      "number": 16,
+      "event": "WrestleMania VII",
+      "location": "Los Angeles, CA",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.wwe.com/titlehistory/wwe-championship"
+        "https://www.wwe.com/titlehistory/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-archive-person-hulkhogan-844"
       ]
+    },
+    {
+      "id": "r53",
+      "holder": "The Undertaker",
+      "people": [
+        "the-undertaker"
+      ],
+      "start": "1991-11-27",
+      "end": "1991-12-03",
+      "days": 6,
+      "number": 17,
+      "event": "Survivor Series",
+      "location": "Detroit, MI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r4",
@@ -69,13 +662,105 @@
       ],
       "start": "1991-12-03",
       "end": "1991-12-04",
+      "days": 1,
+      "number": 18,
+      "event": "This Tuesday in Texas",
+      "location": "San Antonio, TX",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.wwe.com/titlehistory/wwe-championship"
+        "https://www.wwe.com/titlehistory/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-archive-person-hulkhogan-845"
       ]
+    },
+    {
+      "id": "r54",
+      "holder": "Ric Flair",
+      "people": [
+        "ric-flair"
+      ],
+      "start": "1992-01-19",
+      "end": "1992-04-05",
+      "days": 77,
+      "number": 19,
+      "event": "Royal Rumble",
+      "location": "Albany, NY",
+      "note": "Won 30-man Royal Rumble for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r55",
+      "holder": "Randy Savage",
+      "people": [
+        "randy-savage"
+      ],
+      "start": "1992-04-05",
+      "end": "1992-09-01",
+      "days": 149,
+      "number": 20,
+      "event": "WrestleMania VIII",
+      "location": "Indianapolis, IN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r56",
+      "holder": "Ric Flair",
+      "people": [
+        "ric-flair"
+      ],
+      "start": "1992-09-01",
+      "end": "1992-10-12",
+      "days": 41,
+      "number": 21,
+      "event": "Prime Time Wrestling",
+      "location": "Hershey, PA",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "Bret Hart",
+      "people": [
+        "bret-hart"
+      ],
+      "start": "1992-10-12",
+      "end": "1993-04-04",
+      "days": 174,
+      "number": 22,
+      "event": "House show",
+      "location": "Saskatoon, SK, Canada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r58",
+      "holder": "Yokozuna",
+      "people": [
+        "yokozuna"
+      ],
+      "start": "1993-04-04",
+      "end": "1993-04-04",
+      "days": 0,
+      "number": 23,
+      "event": "WrestleMania IX",
+      "location": "Paradise, NV",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r5",
@@ -85,29 +770,1032 @@
       ],
       "start": "1993-04-04",
       "end": "1993-06-13",
+      "days": 70,
+      "number": 24,
+      "event": "WrestleMania IX",
+      "location": "Paradise, NV",
+      "note": "Defeated Yokozuna immediately after he won",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.wwe.com/titlehistory/wwe-championship"
+        "https://www.wwe.com/titlehistory/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-archive-person-hulkhogan-846"
       ]
     },
     {
+      "id": "r59",
+      "holder": "Yokozuna",
+      "people": [
+        "yokozuna"
+      ],
+      "start": "1993-06-13",
+      "end": "1994-03-20",
+      "days": 280,
+      "number": 25,
+      "event": "King of the Ring",
+      "location": "Dayton, OH",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r60",
+      "holder": "Bret Hart",
+      "people": [
+        "bret-hart"
+      ],
+      "start": "1994-03-20",
+      "end": "1994-11-23",
+      "days": 248,
+      "number": 26,
+      "event": "WrestleMania X",
+      "location": "New York, NY",
+      "note": "Roddy Piper guest referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r61",
+      "holder": "Bob Backlund",
+      "people": [
+        "bob-backlund"
+      ],
+      "start": "1994-11-23",
+      "end": "1994-11-26",
+      "days": 3,
+      "number": 27,
+      "event": "Survivor Series",
+      "location": "San Antonio, TX",
+      "note": "Throw in the Towel match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r62",
+      "holder": "Diesel",
+      "people": [
+        "kevin-nash"
+      ],
+      "start": "1994-11-26",
+      "end": "1995-11-19",
+      "days": 358,
+      "number": 28,
+      "event": "House show",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r63",
+      "holder": "Bret Hart",
+      "people": [
+        "bret-hart"
+      ],
+      "start": "1995-11-19",
+      "end": "1996-03-31",
+      "days": 133,
+      "number": 29,
+      "event": "Survivor Series",
+      "location": "Landover, MD",
+      "note": "No disqualification match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r64",
+      "holder": "Shawn Michaels",
+      "people": [
+        "shawn-michaels"
+      ],
+      "start": "1996-03-31",
+      "end": "1996-11-17",
+      "days": 231,
+      "number": 30,
+      "event": "WrestleMania XII",
+      "location": "Anaheim, CA",
+      "note": "60-minute Iron Man match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r65",
+      "holder": "Sycho Sid",
+      "people": [
+        "sycho-sid"
+      ],
+      "start": "1996-11-17",
+      "end": "1997-01-19",
+      "days": 63,
+      "number": 31,
+      "event": "Survivor Series",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r66",
+      "holder": "Shawn Michaels",
+      "people": [
+        "shawn-michaels"
+      ],
+      "start": "1997-01-19",
+      "end": "1997-02-13",
+      "days": 25,
+      "number": 32,
+      "event": "Royal Rumble",
+      "location": "San Antonio, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r67",
+      "holder": "Bret Hart",
+      "people": [
+        "bret-hart"
+      ],
+      "start": "1997-02-16",
+      "end": "1997-02-17",
+      "days": 1,
+      "number": 33,
+      "event": "In Your House 13: Final Four",
+      "location": "Chattanooga, TN",
+      "note": "Four corners match for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r68",
+      "holder": "Sycho Sid",
+      "people": [
+        "sycho-sid"
+      ],
+      "start": "1997-02-17",
+      "end": "1997-03-23",
+      "days": 34,
+      "number": 34,
+      "event": "Raw",
+      "location": "Nashville, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r69",
+      "holder": "The Undertaker",
+      "people": [
+        "the-undertaker"
+      ],
+      "start": "1997-03-23",
+      "end": "1997-08-03",
+      "days": 133,
+      "number": 35,
+      "event": "WrestleMania 13",
+      "location": "Rosemont, IL",
+      "note": "No disqualification match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r70",
+      "holder": "Bret Hart",
+      "people": [
+        "bret-hart"
+      ],
+      "start": "1997-08-03",
+      "end": "1997-11-09",
+      "days": 98,
+      "number": 36,
+      "event": "SummerSlam",
+      "location": "East Rutherford, NJ",
+      "note": "Shawn Michaels guest referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r71",
+      "holder": "Shawn Michaels",
+      "people": [
+        "shawn-michaels"
+      ],
+      "start": "1997-11-09",
+      "end": "1998-03-29",
+      "days": 140,
+      "number": 37,
+      "event": "Survivor Series",
+      "location": "Montreal, QC, Canada",
+      "note": "Montreal Screwjob",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r72",
+      "holder": "\"Stone Cold\" Steve Austin",
+      "people": [
+        "stone-cold-steve-austin"
+      ],
+      "start": "1998-03-29",
+      "end": "1998-06-28",
+      "days": 91,
+      "number": 38,
+      "event": "WrestleMania XIV",
+      "location": "Boston, MA",
+      "note": "Mike Tyson special outside enforcer",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r73",
+      "holder": "Kane",
+      "people": [
+        "kane"
+      ],
+      "start": "1998-06-28",
+      "end": "1998-06-29",
+      "days": 1,
+      "number": 39,
+      "event": "King of the Ring",
+      "location": "Pittsburgh, PA",
+      "note": "First Blood match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r74",
+      "holder": "\"Stone Cold\" Steve Austin",
+      "people": [
+        "stone-cold-steve-austin"
+      ],
+      "start": "1998-06-29",
+      "end": "1998-09-27",
+      "days": 90,
+      "number": 40,
+      "event": "Raw",
+      "location": "Cleveland, OH",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r75",
+      "holder": "The Rock",
+      "people": [
+        "the-rock"
+      ],
+      "start": "1998-11-15",
+      "end": "1998-12-29",
+      "days": 44,
+      "number": 41,
+      "event": "Survivor Series",
+      "location": "St. Louis, MO",
+      "note": "Won Deadly Game tournament; WWE recognizes end 1999-01-04",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r76",
+      "holder": "Mankind",
+      "people": [
+        "mick-foley"
+      ],
+      "start": "1998-12-29",
+      "end": "1999-01-24",
+      "days": 26,
+      "number": 42,
+      "event": "Raw",
+      "location": "Worcester, MA",
+      "note": "No disqualification match; WWE recognizes start 1999-01-04",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r77",
+      "holder": "The Rock",
+      "people": [
+        "the-rock"
+      ],
+      "start": "1999-01-24",
+      "end": "1999-01-26",
+      "days": 2,
+      "number": 43,
+      "event": "Royal Rumble",
+      "location": "Anaheim, CA",
+      "note": "I Quit match; WWE recognizes end 1999-01-31",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r78",
+      "holder": "Mankind",
+      "people": [
+        "mick-foley"
+      ],
+      "start": "1999-01-26",
+      "end": "1999-02-15",
+      "days": 20,
+      "number": 44,
+      "event": "Halftime Heat",
+      "location": "Tucson, AZ",
+      "note": "Empty arena match; WWE recognizes start 1999-01-31",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r79",
+      "holder": "The Rock",
+      "people": [
+        "the-rock"
+      ],
+      "start": "1999-02-15",
+      "end": "1999-03-28",
+      "days": 41,
+      "number": 45,
+      "event": "Raw",
+      "location": "Birmingham, AL",
+      "note": "Ladder match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r80",
+      "holder": "\"Stone Cold\" Steve Austin",
+      "people": [
+        "stone-cold-steve-austin"
+      ],
+      "start": "1999-03-28",
+      "end": "1999-05-23",
+      "days": 56,
+      "number": 46,
+      "event": "WrestleMania XV",
+      "location": "Philadelphia, PA",
+      "note": "No disqualification; Mankind guest referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r81",
+      "holder": "The Undertaker",
+      "people": [
+        "the-undertaker"
+      ],
+      "start": "1999-05-23",
+      "end": "1999-06-28",
+      "days": 36,
+      "number": 47,
+      "event": "Over the Edge",
+      "location": "Kansas City, MO",
+      "note": "Both McMahons guest referees",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r82",
+      "holder": "\"Stone Cold\" Steve Austin",
+      "people": [
+        "stone-cold-steve-austin"
+      ],
+      "start": "1999-06-28",
+      "end": "1999-08-22",
+      "days": 55,
+      "number": 48,
+      "event": "Raw",
+      "location": "Charlotte, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r83",
+      "holder": "Mankind",
+      "people": [
+        "mick-foley"
+      ],
+      "start": "1999-08-22",
+      "end": "1999-08-23",
+      "days": 1,
+      "number": 49,
+      "event": "SummerSlam",
+      "location": "Minneapolis, MN",
+      "note": "Triple threat; Jesse Ventura guest referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r84",
+      "holder": "Triple H",
+      "people": [
+        "triple-h"
+      ],
+      "start": "1999-08-23",
+      "end": "1999-09-14",
+      "days": 22,
+      "number": 50,
+      "event": "Raw",
+      "location": "Ames, IA",
+      "note": "WWE recognizes end 1999-09-16",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r85",
+      "holder": "Vince McMahon",
+      "people": [
+        "vince-mcmahon"
+      ],
+      "start": "1999-09-14",
+      "end": "1999-09-20",
+      "days": 6,
+      "number": 51,
+      "event": "SmackDown!",
+      "location": "Paradise, NV",
+      "note": "WWE recognizes start 1999-09-16",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r86",
+      "holder": "Triple H",
+      "people": [
+        "triple-h"
+      ],
+      "start": "1999-09-26",
+      "end": "1999-11-14",
+      "days": 49,
+      "number": 52,
+      "event": "Unforgiven",
+      "location": "Charlotte, NC",
+      "note": "Six-man elimination match for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r87",
+      "holder": "Big Show",
+      "people": [
+        "big-show"
+      ],
+      "start": "1999-11-14",
+      "end": "2000-01-03",
+      "days": 50,
+      "number": 53,
+      "event": "Survivor Series",
+      "location": "Detroit, MI",
+      "note": "Triple threat match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r88",
+      "holder": "Triple H",
+      "people": [
+        "triple-h"
+      ],
+      "start": "2000-01-03",
+      "end": "2000-04-30",
+      "days": 118,
+      "number": 54,
+      "event": "Raw",
+      "location": "Miami, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r89",
+      "holder": "The Rock",
+      "people": [
+        "the-rock"
+      ],
+      "start": "2000-04-30",
+      "end": "2000-05-21",
+      "days": 21,
+      "number": 55,
+      "event": "Backlash",
+      "location": "Washington, D.C.",
+      "note": "Shane McMahon guest referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r90",
+      "holder": "Triple H",
+      "people": [
+        "triple-h"
+      ],
+      "start": "2000-05-21",
+      "end": "2000-06-25",
+      "days": 35,
+      "number": 56,
+      "event": "Judgment Day",
+      "location": "Louisville, KY",
+      "note": "60-minute Iron Man match won 6–5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r91",
+      "holder": "The Rock",
+      "people": [
+        "the-rock"
+      ],
+      "start": "2000-06-25",
+      "end": "2000-10-22",
+      "days": 119,
+      "number": 57,
+      "event": "King of the Ring",
+      "location": "Boston, MA",
+      "note": "Six-man tag team match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r92",
+      "holder": "Kurt Angle",
+      "people": [
+        "kurt-angle"
+      ],
+      "start": "2000-10-22",
+      "end": "2001-02-25",
+      "days": 126,
+      "number": 58,
+      "event": "No Mercy",
+      "location": "Albany, NY",
+      "note": "No disqualification match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r93",
+      "holder": "The Rock",
+      "people": [
+        "the-rock"
+      ],
+      "start": "2001-02-25",
+      "end": "2001-04-01",
+      "days": 35,
+      "number": 59,
+      "event": "No Way Out",
+      "location": "Paradise, NV",
+      "note": "WCW title concurrently active in WWF",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r94",
+      "holder": "\"Stone Cold\" Steve Austin",
+      "people": [
+        "stone-cold-steve-austin"
+      ],
+      "start": "2001-04-01",
+      "end": "2001-09-23",
+      "days": 175,
+      "number": 60,
+      "event": "WrestleMania X-Seven",
+      "location": "Houston, TX",
+      "note": "No disqualification match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r95",
+      "holder": "Kurt Angle",
+      "people": [
+        "kurt-angle"
+      ],
+      "start": "2001-09-23",
+      "end": "2001-10-08",
+      "days": 15,
+      "number": 61,
+      "event": "Unforgiven",
+      "location": "Pittsburgh, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r96",
+      "holder": "\"Stone Cold\" Steve Austin",
+      "people": [
+        "stone-cold-steve-austin"
+      ],
+      "start": "2001-10-08",
+      "end": "2001-12-09",
+      "days": 62,
+      "number": 62,
+      "event": "Raw",
+      "location": "Indianapolis, IN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r97",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "2001-12-09",
+      "end": "2002-03-17",
+      "days": 98,
+      "number": 63,
+      "event": "Vengeance",
+      "location": "San Diego, CA",
+      "note": "Unified with WCW title; became Undisputed WWF Championship",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r98",
+      "holder": "Triple H",
+      "people": [
+        "triple-h"
+      ],
+      "start": "2002-03-17",
+      "end": "2002-04-21",
+      "days": 35,
+      "number": 64,
+      "event": "WrestleMania X8",
+      "location": "Toronto, ON, Canada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r6",
-      "holder": "Hulk Hogan",
+      "holder": "Hollywood Hulk Hogan",
       "people": [
         "hulk-hogan"
       ],
       "start": "2002-04-21",
       "end": "2002-05-19",
+      "days": 28,
+      "number": 65,
+      "event": "Backlash",
+      "location": "Kansas City, MO",
+      "note": "Renamed Undisputed WWE Championship after WWF became WWE",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.wwe.com/titlehistory/wwe-championship"
+        "https://www.wwe.com/titlehistory/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-archive-person-hulkhogan-847"
       ]
+    },
+    {
+      "id": "r99",
+      "holder": "The Undertaker",
+      "people": [
+        "the-undertaker"
+      ],
+      "start": "2002-05-19",
+      "end": "2002-07-21",
+      "days": 63,
+      "number": 66,
+      "event": "Judgment Day",
+      "location": "Nashville, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r100",
+      "holder": "The Rock",
+      "people": [
+        "the-rock"
+      ],
+      "start": "2002-07-21",
+      "end": "2002-08-25",
+      "days": 35,
+      "number": 67,
+      "event": "Vengeance",
+      "location": "Detroit, MI",
+      "note": "Triple threat match with Kurt Angle",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r101",
+      "holder": "Brock Lesnar",
+      "people": [
+        "brock-lesnar"
+      ],
+      "start": "2002-08-25",
+      "end": "2002-11-17",
+      "days": 84,
+      "number": 68,
+      "event": "SummerSlam",
+      "location": "Uniondale, NY",
+      "note": "Became SmackDown-exclusive; renamed WWE Championship 2002-09-02",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r102",
+      "holder": "Big Show",
+      "people": [
+        "big-show"
+      ],
+      "start": "2002-11-17",
+      "end": "2002-12-15",
+      "days": 28,
+      "number": 69,
+      "event": "Survivor Series",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r103",
+      "holder": "Kurt Angle",
+      "people": [
+        "kurt-angle"
+      ],
+      "start": "2002-12-15",
+      "end": "2003-03-30",
+      "days": 105,
+      "number": 70,
+      "event": "Armageddon",
+      "location": "Sunrise, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r104",
+      "holder": "Brock Lesnar",
+      "people": [
+        "brock-lesnar"
+      ],
+      "start": "2003-03-30",
+      "end": "2003-07-27",
+      "days": 119,
+      "number": 71,
+      "event": "WrestleMania XIX",
+      "location": "Seattle, WA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r105",
+      "holder": "Kurt Angle",
+      "people": [
+        "kurt-angle"
+      ],
+      "start": "2003-07-27",
+      "end": "2003-09-16",
+      "days": 51,
+      "number": 72,
+      "event": "Vengeance",
+      "location": "Denver, CO",
+      "note": "Triple threat match with Big Show",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r106",
+      "holder": "Brock Lesnar",
+      "people": [
+        "brock-lesnar"
+      ],
+      "start": "2003-09-16",
+      "end": "2004-02-15",
+      "days": 152,
+      "number": 73,
+      "event": "SmackDown!",
+      "location": "Raleigh, NC",
+      "note": "60-minute Iron Man match won 5–4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r107",
+      "holder": "Eddie Guerrero",
+      "people": [
+        "eddie-guerrero"
+      ],
+      "start": "2004-02-15",
+      "end": "2004-06-27",
+      "days": 133,
+      "number": 74,
+      "event": "No Way Out",
+      "location": "Daly City, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r108",
+      "holder": "John \"Bradshaw\" Layfield",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2004-06-27",
+      "end": "2005-04-03",
+      "days": 280,
+      "number": 75,
+      "event": "The Great American Bash",
+      "location": "Norfolk, VA",
+      "note": "Texas bullrope match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r109",
+      "holder": "John Cena",
+      "people": [
+        "john-cena"
+      ],
+      "start": "2005-04-03",
+      "end": "2006-01-08",
+      "days": 280,
+      "number": 76,
+      "event": "WrestleMania 21",
+      "location": "Los Angeles, CA",
+      "note": "Became Raw-exclusive after 2005 draft",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r110",
+      "holder": "Edge",
+      "people": [
+        "edge"
+      ],
+      "start": "2006-01-08",
+      "end": "2006-01-29",
+      "days": 21,
+      "number": 77,
+      "event": "New Year's Revolution",
+      "location": "Albany, NY",
+      "note": "Money in the Bank cash-in",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r111",
+      "holder": "John Cena",
+      "people": [
+        "john-cena"
+      ],
+      "start": "2006-01-29",
+      "end": "2006-06-11",
+      "days": 133,
+      "number": 78,
+      "event": "Royal Rumble",
+      "location": "Miami, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r112",
+      "holder": "Rob Van Dam",
+      "people": [
+        "rob-van-dam"
+      ],
+      "start": "2006-06-11",
+      "end": "2006-07-03",
+      "days": 22,
+      "number": 79,
+      "event": "ECW One Night Stand",
+      "location": "New York, NY",
+      "note": "Money in the Bank cash-in; Extreme Rules match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r113",
+      "holder": "Edge",
+      "people": [
+        "edge"
+      ],
+      "start": "2006-07-03",
+      "end": "2006-09-17",
+      "days": 76,
+      "number": 80,
+      "event": "Raw",
+      "location": "Philadelphia, PA",
+      "note": "Triple threat match with Cena",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r114",
+      "holder": "John Cena",
+      "people": [
+        "john-cena"
+      ],
+      "start": "2006-09-17",
+      "end": "2007-10-02",
+      "days": 380,
+      "number": 81,
+      "event": "Unforgiven",
+      "location": "Toronto, ON, Canada",
+      "note": "Tables, Ladders and Chairs match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r7",
@@ -116,14 +1804,146 @@
         "randy-orton"
       ],
       "start": "2007-10-07",
-      "end": "2008-04-27",
+      "end": "2007-10-07",
+      "days": 0,
+      "number": 82,
+      "event": "No Mercy",
+      "location": "Rosemont, IL",
+      "note": "Immediately defended vs. Triple H",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-randy-orton-626"
       ]
+    },
+    {
+      "id": "r115",
+      "holder": "Triple H",
+      "people": [
+        "triple-h"
+      ],
+      "start": "2007-10-07",
+      "end": "2007-10-07",
+      "days": 0,
+      "number": 83,
+      "event": "No Mercy",
+      "location": "Rosemont, IL",
+      "note": "Defended same night vs. Umaga and Orton",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r116",
+      "holder": "Randy Orton",
+      "people": [
+        "randy-orton"
+      ],
+      "start": "2007-10-07",
+      "end": "2008-04-27",
+      "days": 203,
+      "number": 84,
+      "event": "No Mercy",
+      "location": "Rosemont, IL",
+      "note": "Last Man Standing match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r117",
+      "holder": "Triple H",
+      "people": [
+        "triple-h"
+      ],
+      "start": "2008-04-27",
+      "end": "2008-11-23",
+      "days": 210,
+      "number": 85,
+      "event": "Backlash",
+      "location": "Baltimore, MD",
+      "note": "Four-way elimination; became SmackDown-exclusive",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r118",
+      "holder": "Edge",
+      "people": [
+        "edge"
+      ],
+      "start": "2008-11-23",
+      "end": "2008-12-14",
+      "days": 21,
+      "number": 86,
+      "event": "Survivor Series",
+      "location": "Boston, MA",
+      "note": "Triple threat with Kozlov; Hardy replaced",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r119",
+      "holder": "Jeff Hardy",
+      "people": [
+        "jeff-hardy"
+      ],
+      "start": "2008-12-14",
+      "end": "2009-01-25",
+      "days": 42,
+      "number": 87,
+      "event": "Armageddon",
+      "location": "Buffalo, NY",
+      "note": "Triple threat with Triple H",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r120",
+      "holder": "Edge",
+      "people": [
+        "edge"
+      ],
+      "start": "2009-01-25",
+      "end": "2009-02-15",
+      "days": 21,
+      "number": 88,
+      "event": "Royal Rumble",
+      "location": "Detroit, MI",
+      "note": "No disqualification match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r121",
+      "holder": "Triple H",
+      "people": [
+        "triple-h"
+      ],
+      "start": "2009-02-15",
+      "end": "2009-04-26",
+      "days": 70,
+      "number": 89,
+      "event": "No Way Out",
+      "location": "Seattle, WA",
+      "note": "Elimination Chamber; became Raw-exclusive",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r8",
@@ -133,13 +1953,37 @@
       ],
       "start": "2009-04-26",
       "end": "2009-06-07",
+      "days": 42,
+      "number": 90,
+      "event": "Backlash",
+      "location": "Providence, RI",
+      "note": "Six-man tag team match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-randy-orton-625"
       ]
+    },
+    {
+      "id": "r122",
+      "holder": "Batista",
+      "people": [
+        "batista"
+      ],
+      "start": "2009-06-07",
+      "end": "2009-06-09",
+      "days": 2,
+      "number": 91,
+      "event": "Extreme Rules",
+      "location": "New Orleans, LA",
+      "note": "Steel cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r9",
@@ -149,13 +1993,37 @@
       ],
       "start": "2009-06-15",
       "end": "2009-09-13",
+      "days": 90,
+      "number": 92,
+      "event": "Raw",
+      "location": "Charlotte, NC",
+      "note": "Fatal four-way for vacant title",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-randy-orton-624"
       ]
+    },
+    {
+      "id": "r123",
+      "holder": "John Cena",
+      "people": [
+        "john-cena"
+      ],
+      "start": "2009-09-13",
+      "end": "2009-10-04",
+      "days": 21,
+      "number": 93,
+      "event": "Breaking Point",
+      "location": "Montreal, QC, Canada",
+      "note": "I Quit match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r10",
@@ -165,13 +2033,125 @@
       ],
       "start": "2009-10-04",
       "end": "2009-10-25",
+      "days": 21,
+      "number": 94,
+      "event": "Hell in a Cell",
+      "location": "Newark, NJ",
+      "note": "Hell in a Cell match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-randy-orton-623"
       ]
+    },
+    {
+      "id": "r124",
+      "holder": "John Cena",
+      "people": [
+        "john-cena"
+      ],
+      "start": "2009-10-25",
+      "end": "2009-12-13",
+      "days": 49,
+      "number": 95,
+      "event": "Bragging Rights",
+      "location": "Pittsburgh, PA",
+      "note": "Anything Goes Iron Man match won 6–5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r125",
+      "holder": "Sheamus",
+      "people": [
+        "sheamus"
+      ],
+      "start": "2009-12-13",
+      "end": "2010-02-21",
+      "days": 70,
+      "number": 96,
+      "event": "TLC: Tables",
+      "location": "Ladders & Chairs, San Antonio, TX",
+      "note": "Tables match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r126",
+      "holder": "John Cena",
+      "people": [
+        "john-cena"
+      ],
+      "start": "2010-02-21",
+      "end": "2010-02-21",
+      "days": 0,
+      "number": 97,
+      "event": "Elimination Chamber",
+      "location": "St. Louis, MO",
+      "note": "Eliminated Triple H",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r127",
+      "holder": "Batista",
+      "people": [
+        "batista"
+      ],
+      "start": "2010-02-21",
+      "end": "2010-03-28",
+      "days": 35,
+      "number": 98,
+      "event": "Elimination Chamber",
+      "location": "St. Louis, MO",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r128",
+      "holder": "John Cena",
+      "people": [
+        "john-cena"
+      ],
+      "start": "2010-03-28",
+      "end": "2010-06-20",
+      "days": 84,
+      "number": 99,
+      "event": "WrestleMania XXVI",
+      "location": "Glendale, AZ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r129",
+      "holder": "Sheamus",
+      "people": [
+        "sheamus"
+      ],
+      "start": "2010-06-20",
+      "end": "2010-09-19",
+      "days": 91,
+      "number": 100,
+      "event": "Fatal 4-Way",
+      "location": "Uniondale, NY",
+      "note": "Fatal four-way with Edge and Orton",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r11",
@@ -181,9 +2161,15 @@
       ],
       "start": "2010-09-19",
       "end": "2010-11-22",
+      "days": 64,
+      "number": 101,
+      "event": "Night of Champions",
+      "location": "Rosemont, IL",
+      "note": "Six-pack elimination challenge",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-randy-orton-622"
@@ -197,13 +2183,37 @@
       ],
       "start": "2010-11-22",
       "end": "2011-05-01",
+      "days": 160,
+      "number": 102,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Money in the Bank cash-in",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-the-miz-825"
       ]
+    },
+    {
+      "id": "r130",
+      "holder": "John Cena",
+      "people": [
+        "john-cena"
+      ],
+      "start": "2011-05-01",
+      "end": "2011-07-17",
+      "days": 77,
+      "number": 103,
+      "event": "Extreme Rules",
+      "location": "Tampa, FL",
+      "note": "Triple threat steel cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r13",
@@ -213,9 +2223,15 @@
       ],
       "start": "2011-07-17",
       "end": "2011-08-14",
+      "days": 28,
+      "number": 104,
+      "event": "Money in the Bank",
+      "location": "Rosemont, IL",
+      "note": "Left WWE; reign deemed continuous after return",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-cm-punk-101"
@@ -229,13 +2245,107 @@
       ],
       "start": "2011-07-25",
       "end": "2011-07-25",
+      "days": 0,
+      "number": 105,
+      "event": "Raw",
+      "location": "Hampton, VA",
+      "note": "Tournament final; Punk also recognized champion",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-660"
       ]
+    },
+    {
+      "id": "r131",
+      "holder": "John Cena",
+      "people": [
+        "john-cena"
+      ],
+      "start": "2011-07-25",
+      "end": "2011-08-14",
+      "days": 20,
+      "number": 106,
+      "event": "Raw",
+      "location": "Hampton, VA",
+      "note": "Title match granted; Punk also recognized champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r132",
+      "holder": "CM Punk",
+      "people": [
+        "cm-punk"
+      ],
+      "start": "2011-08-14",
+      "end": "2011-08-14",
+      "kind": "unrecognized",
+      "event": "SummerSlam",
+      "location": "Los Angeles, CA",
+      "note": "Beat Cena for undisputed title; continuation of first reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r133",
+      "holder": "Alberto Del Rio",
+      "people": [
+        "alberto-del-rio"
+      ],
+      "start": "2011-08-14",
+      "end": "2011-09-18",
+      "days": 35,
+      "number": 107,
+      "event": "SummerSlam",
+      "location": "Los Angeles, CA",
+      "note": "Money in the Bank cash-in",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r134",
+      "holder": "John Cena",
+      "people": [
+        "john-cena"
+      ],
+      "start": "2011-09-18",
+      "end": "2011-10-02",
+      "days": 14,
+      "number": 108,
+      "event": "Night of Champions",
+      "location": "Buffalo, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r135",
+      "holder": "Alberto Del Rio",
+      "people": [
+        "alberto-del-rio"
+      ],
+      "start": "2011-10-02",
+      "end": "2011-11-20",
+      "days": 49,
+      "number": 109,
+      "event": "Hell in a Cell",
+      "location": "New Orleans, LA",
+      "note": "Triple threat Hell in a Cell match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r15",
@@ -245,13 +2355,71 @@
       ],
       "start": "2011-11-20",
       "end": "2013-01-27",
+      "days": 434,
+      "number": 110,
+      "event": "Survivor Series",
+      "location": "New York, NY",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-cm-punk-100"
       ]
+    },
+    {
+      "id": "r136",
+      "holder": "The Rock",
+      "people": [
+        "the-rock"
+      ],
+      "start": "2013-01-27",
+      "end": "2013-04-07",
+      "days": 70,
+      "number": 111,
+      "event": "Royal Rumble",
+      "location": "Phoenix, AZ",
+      "note": "Restarted after Shield interference",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r137",
+      "holder": "John Cena",
+      "people": [
+        "john-cena"
+      ],
+      "start": "2013-04-07",
+      "end": "2013-08-18",
+      "days": 133,
+      "number": 112,
+      "event": "WrestleMania 29",
+      "location": "East Rutherford, NJ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r138",
+      "holder": "Daniel Bryan",
+      "people": [
+        "daniel-bryan"
+      ],
+      "start": "2013-08-18",
+      "end": "2013-08-18",
+      "days": 0,
+      "number": 113,
+      "event": "SummerSlam",
+      "location": "Los Angeles, CA",
+      "note": "Triple H guest referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r16",
@@ -261,13 +2429,36 @@
       ],
       "start": "2013-08-18",
       "end": "2013-09-15",
+      "days": 28,
+      "number": 114,
+      "event": "SummerSlam",
+      "location": "Los Angeles, CA",
+      "note": "Money in the Bank cash-in",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-randy-orton-619"
       ]
+    },
+    {
+      "id": "r139",
+      "holder": "Daniel Bryan",
+      "people": [
+        "daniel-bryan"
+      ],
+      "start": "2013-09-15",
+      "end": "2013-09-16",
+      "days": 1,
+      "number": 115,
+      "event": "Night of Champions",
+      "location": "Detroit, MI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r17",
@@ -277,13 +2468,72 @@
       ],
       "start": "2013-10-27",
       "end": "2014-04-06",
+      "days": 161,
+      "number": 116,
+      "event": "Hell in a Cell",
+      "location": "Miami, FL",
+      "note": "Won vacant title; World Heavyweight title unified 2013-12-15",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-randy-orton-618"
       ]
+    },
+    {
+      "id": "r140",
+      "holder": "Daniel Bryan",
+      "people": [
+        "daniel-bryan"
+      ],
+      "start": "2014-04-06",
+      "end": "2014-06-09",
+      "days": 64,
+      "number": 117,
+      "event": "WrestleMania XXX",
+      "location": "New Orleans, LA",
+      "note": "Triple threat match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r141",
+      "holder": "John Cena",
+      "people": [
+        "john-cena"
+      ],
+      "start": "2014-06-29",
+      "end": "2014-08-17",
+      "days": 49,
+      "number": 118,
+      "event": "Money in the Bank",
+      "location": "Boston, MA",
+      "note": "Eight-man ladder match for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r142",
+      "holder": "Brock Lesnar",
+      "people": [
+        "brock-lesnar"
+      ],
+      "start": "2014-08-17",
+      "end": "2015-03-29",
+      "days": 224,
+      "number": 119,
+      "event": "SummerSlam",
+      "location": "Los Angeles, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r18",
@@ -293,9 +2543,15 @@
       ],
       "start": "2015-03-29",
       "end": "2015-11-05",
+      "days": 221,
+      "number": 120,
+      "event": "WrestleMania 31",
+      "location": "Santa Clara, CA",
+      "note": "Money in the Bank cash-in",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-seth-rollins-744"
@@ -309,13 +2565,37 @@
       ],
       "start": "2015-11-22",
       "end": "2015-11-22",
+      "days": 0,
+      "number": 121,
+      "event": "Survivor Series",
+      "location": "Atlanta, GA",
+      "note": "Tournament final for vacant title",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-roman-reigns-698"
       ]
+    },
+    {
+      "id": "r143",
+      "holder": "Sheamus",
+      "people": [
+        "sheamus"
+      ],
+      "start": "2015-11-22",
+      "end": "2015-12-14",
+      "days": 22,
+      "number": 122,
+      "event": "Survivor Series",
+      "location": "Atlanta, GA",
+      "note": "Money in the Bank cash-in",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r20",
@@ -325,13 +2605,37 @@
       ],
       "start": "2015-12-14",
       "end": "2016-01-24",
+      "days": 41,
+      "number": 123,
+      "event": "Raw",
+      "location": "Philadelphia, PA",
+      "note": "Title vs. career match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-roman-reigns-697"
       ]
+    },
+    {
+      "id": "r144",
+      "holder": "Triple H",
+      "people": [
+        "triple-h"
+      ],
+      "start": "2016-01-24",
+      "end": "2016-04-03",
+      "days": 70,
+      "number": 124,
+      "event": "Royal Rumble",
+      "location": "Orlando, FL",
+      "note": "30-man Royal Rumble match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r21",
@@ -341,9 +2645,14 @@
       ],
       "start": "2016-04-03",
       "end": "2016-06-19",
+      "days": 77,
+      "number": 125,
+      "event": "WrestleMania 32",
+      "location": "Arlington, TX",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-roman-reigns-696"
@@ -357,13 +2666,89 @@
       ],
       "start": "2016-06-19",
       "end": "2016-06-19",
+      "days": 0,
+      "number": 126,
+      "event": "Money in the Bank",
+      "location": "Paradise, NV",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-seth-rollins-742"
       ]
+    },
+    {
+      "id": "r145",
+      "holder": "Dean Ambrose",
+      "people": [
+        "dean-ambrose"
+      ],
+      "start": "2016-06-19",
+      "end": "2016-09-11",
+      "days": 84,
+      "number": 127,
+      "event": "Money in the Bank",
+      "location": "Paradise, NV",
+      "note": "Cash-in; title renamed WWE Championship",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r146",
+      "holder": "AJ Styles",
+      "people": [
+        "aj-styles"
+      ],
+      "start": "2016-09-11",
+      "end": "2017-01-29",
+      "days": 140,
+      "number": 128,
+      "event": "Backlash",
+      "location": "Richmond, VA",
+      "note": "Renamed WWE Championship December 2016",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r147",
+      "holder": "John Cena",
+      "people": [
+        "john-cena"
+      ],
+      "start": "2017-01-29",
+      "end": "2017-02-12",
+      "days": 14,
+      "number": 129,
+      "event": "Royal Rumble",
+      "location": "San Antonio, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r148",
+      "holder": "Bray Wyatt",
+      "people": [
+        "bray-wyatt"
+      ],
+      "start": "2017-02-12",
+      "end": "2017-04-02",
+      "days": 49,
+      "number": 130,
+      "event": "Elimination Chamber",
+      "location": "Phoenix, AZ",
+      "note": "Elimination Chamber match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r23",
@@ -373,13 +2758,104 @@
       ],
       "start": "2017-04-02",
       "end": "2017-05-21",
+      "days": 49,
+      "number": 131,
+      "event": "WrestleMania 33",
+      "location": "Orlando, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-randy-orton-615"
       ]
+    },
+    {
+      "id": "r149",
+      "holder": "Jinder Mahal",
+      "people": [
+        "jinder-mahal"
+      ],
+      "start": "2017-05-21",
+      "end": "2017-11-07",
+      "days": 170,
+      "number": 132,
+      "event": "Backlash",
+      "location": "Rosemont, IL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r150",
+      "holder": "AJ Styles",
+      "people": [
+        "aj-styles"
+      ],
+      "start": "2017-11-07",
+      "end": "2018-11-13",
+      "days": 371,
+      "number": 133,
+      "event": "SmackDown",
+      "location": "Manchester, England",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r151",
+      "holder": "Daniel Bryan",
+      "people": [
+        "daniel-bryan"
+      ],
+      "start": "2018-11-13",
+      "end": "2019-04-07",
+      "days": 145,
+      "number": 134,
+      "event": "SmackDown",
+      "location": "St. Louis, MO",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r152",
+      "holder": "Kofi Kingston",
+      "people": [
+        "kofi-kingston"
+      ],
+      "start": "2019-04-07",
+      "end": "2019-10-04",
+      "days": 180,
+      "number": 135,
+      "event": "WrestleMania 35",
+      "location": "East Rutherford, NJ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r153",
+      "holder": "Brock Lesnar",
+      "people": [
+        "brock-lesnar"
+      ],
+      "start": "2019-10-04",
+      "end": "2020-03-25",
+      "days": 173,
+      "number": 136,
+      "event": "SmackDown's 20th Anniversary",
+      "location": "Los Angeles, CA",
+      "note": "Moved to Raw with title November 1, 2019",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r24",
@@ -389,9 +2865,15 @@
       ],
       "start": "2020-04-05",
       "end": "2020-10-25",
+      "days": 214,
+      "number": 137,
+      "event": "WrestleMania 36 Part 2",
+      "location": "Orlando, FL",
+      "note": "Taped March 25; WWE recognizes start 2020-04-05",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-drew-mcintyre-197"
@@ -405,9 +2887,15 @@
       ],
       "start": "2020-10-25",
       "end": "2020-11-16",
+      "days": 22,
+      "number": 138,
+      "event": "Hell in a Cell",
+      "location": "Orlando, FL",
+      "note": "Hell in a Cell match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-randy-orton-613"
@@ -421,9 +2909,15 @@
       ],
       "start": "2020-11-16",
       "end": "2021-02-21",
+      "days": 97,
+      "number": 139,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "No disqualification; no countout",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-drew-mcintyre-196"
@@ -437,13 +2931,108 @@
       ],
       "start": "2021-02-21",
       "end": "2021-03-01",
+      "days": 8,
+      "number": 140,
+      "event": "Elimination Chamber",
+      "location": "St. Petersburg, FL",
+      "note": "Money in the Bank cash-in",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-the-miz-812"
       ]
+    },
+    {
+      "id": "r154",
+      "holder": "Bobby Lashley",
+      "people": [
+        "bobby-lashley"
+      ],
+      "start": "2021-03-01",
+      "end": "2021-09-13",
+      "days": 196,
+      "number": 141,
+      "event": "Raw",
+      "location": "St. Petersburg, FL",
+      "note": "Lumberjack match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r155",
+      "holder": "Big E",
+      "people": [
+        "big-e"
+      ],
+      "start": "2021-09-13",
+      "end": "2022-01-01",
+      "days": 110,
+      "number": 142,
+      "event": "Raw",
+      "location": "Boston, MA",
+      "note": "Money in the Bank cash-in",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r156",
+      "holder": "Brock Lesnar",
+      "people": [
+        "brock-lesnar"
+      ],
+      "start": "2022-01-01",
+      "end": "2022-01-29",
+      "days": 28,
+      "number": 143,
+      "event": "Day 1",
+      "location": "Atlanta, GA",
+      "note": "Fatal five-way match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r157",
+      "holder": "Bobby Lashley",
+      "people": [
+        "bobby-lashley"
+      ],
+      "start": "2022-01-29",
+      "end": "2022-02-19",
+      "days": 21,
+      "number": 144,
+      "event": "Royal Rumble",
+      "location": "St. Louis, MO",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r158",
+      "holder": "Brock Lesnar",
+      "people": [
+        "brock-lesnar"
+      ],
+      "start": "2022-02-19",
+      "end": "2022-04-03",
+      "days": 43,
+      "number": 145,
+      "event": "Elimination Chamber",
+      "location": "Jeddah, Saudi Arabia",
+      "note": "Elimination Chamber match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r28",
@@ -453,9 +3042,15 @@
       ],
       "start": "2022-04-03",
       "end": "2024-04-07",
+      "days": 735,
+      "number": 146,
+      "event": "WrestleMania 38 Night 2",
+      "location": "Arlington, TX",
+      "note": "Winner Takes All vs. Universal Championship",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "profile-reign-roman-reigns-691"
@@ -469,10 +3064,15 @@
       ],
       "start": "2024-04-07",
       "end": "2025-04-20",
+      "days": 378,
+      "number": 147,
+      "event": "WrestleMania XL Night 2",
+      "location": "Philadelphia, PA",
       "note": "Ended at WrestleMania on April 20. WWE’s history table lists April 21 for the outgoing reign; the incoming reign and event result use April 20.",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/wwe-championship"
+        "https://www.wwe.com/titlehistory/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "2025-undisputed-wwe-2024-04-07-cody-rhodes"
@@ -486,9 +3086,14 @@
       ],
       "start": "2025-04-20",
       "end": "2025-08-03",
+      "days": 105,
+      "number": 148,
+      "event": "WrestleMania 41 Night 2",
+      "location": "Paradise, NV",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/wwe-championship"
+        "https://www.wwe.com/titlehistory/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "2025-undisputed-wwe-2025-04-20-john-cena"
@@ -502,9 +3107,15 @@
       ],
       "start": "2025-08-03",
       "end": "2026-01-09",
+      "days": 159,
+      "number": 149,
+      "event": "SummerSlam Night 2",
+      "location": "East Rutherford, NJ",
+      "note": "Street Fight",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/wwe-championship"
+        "https://www.wwe.com/titlehistory/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "undisputed-wwe-1"
@@ -518,10 +3129,16 @@
       ],
       "start": "2026-01-09",
       "end": "2026-03-06",
+      "days": 56,
+      "number": 150,
+      "event": "SmackDown",
+      "location": "Berlin, Germany",
+      "note": "Three Stages of Hell match",
       "curated": true,
       "sources": [
         "https://www.wwe.com/titlehistory/wwe-championship",
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "undisputed-wwe-2",
@@ -536,9 +3153,14 @@
       ],
       "start": "2026-03-06",
       "end": "2026-06-27",
+      "days": 113,
+      "number": 151,
+      "event": "SmackDown",
+      "location": "Portland, OR",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/wwe-championship"
+        "https://www.wwe.com/titlehistory/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "undisputed-wwe-3"
@@ -552,9 +3174,15 @@
       ],
       "start": "2026-06-27",
       "end": "2026-07-06",
+      "days": 9,
+      "number": 152,
+      "event": "Night of Champions",
+      "location": "Riyadh, Saudi Arabia",
+      "note": "Triple threat match with Gunther",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/wwe-championship"
+        "https://www.wwe.com/titlehistory/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "undisputed-wwe-4"
@@ -568,10 +3196,16 @@
       ],
       "start": "2026-07-06",
       "end": "2026-09-11",
+      "days": 58,
+      "number": 153,
+      "event": "Raw",
+      "location": "Rosemont, IL",
+      "note": "Transferred to SmackDown after win",
       "curated": true,
       "sources": [
         "https://www.wwe.com/titlehistory/wwe-championship",
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Champions"
       ],
       "legacyIds": [
         "undisputed-wwe-5",
@@ -593,7 +3227,5 @@
         "undisputed-wwe-6"
       ]
     }
-  ],
-  "short": "WWE",
-  "featured": true
+  ]
 }

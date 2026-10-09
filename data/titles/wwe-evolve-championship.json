@@ -1,10 +1,69 @@
 {
   "id": "wwe-evolve-championship",
   "name": "WWE Evolve Championship",
+  "promotion": "wwe",
+  "division": "men",
+  "format": "singles",
+  "established": "2025",
   "names": [
-    "WWE Evolve Championship"
+    "WWE Evolve Men's Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "WWE Evolve Championship",
+      "from": "2025",
+      "to": "2026"
+    },
+    {
+      "name": "WWE Evolve Men's Championship",
+      "from": "2026"
+    }
+  ],
+  "history": [
+    {
+      "date": "2020-07",
+      "kind": "promotion",
+      "text": "WWE acquired the independent Evolve promotion; the title shares a similar name but has no lineage with the original Evolve Championship.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Evolve_Men%27s_Championship"
+      ]
+    },
+    {
+      "date": "2025-03",
+      "kind": "brand",
+      "text": "WWE launched the Evolve developmental brand, a relaunch of the former promotion, on which the title is defended exclusively.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Evolve_Men%27s_Championship"
+      ]
+    },
+    {
+      "date": "2025-06-04",
+      "kind": "recognition",
+      "text": "WWE recognizes Jackson Drake's first reign as starting June 4, 2025, the tape-delayed air date, rather than the April 25 taping.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Evolve_Men%27s_Championship"
+      ]
+    },
+    {
+      "date": "2026-03-18",
+      "kind": "recognition",
+      "text": "WWE recognizes Aaron Rourke's reign as starting March 18, 2026, the tape-delayed air date, rather than the February 20 taping.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Evolve_Men%27s_Championship"
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "kind": "recognition",
+      "text": "WWE recognizes Harlem Lewis's reign as starting July 15, 2026, the tape-delayed air date, rather than the June 19 taping.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Evolve_Men%27s_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/WWE_Evolve_Men%27s_Championship"
+  ],
   "reigns": [
     {
       "id": "r1",
@@ -13,14 +72,38 @@
         "jackson-drake"
       ],
       "start": "2025-06-04",
-      "end": "2026-03-18",
+      "end": "2026-02-20",
+      "days": 301,
+      "number": 1,
+      "event": "Evolve",
+      "location": "Orlando, Florida",
+      "note": "Won fatal four-way over Carver, Enofé and Legacy; WWE recognizes reign as June 4 to March 18 (287 days)",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-evolve-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-evolve-championship",
+        "https://en.wikipedia.org/wiki/WWE_Evolve_Men%27s_Championship"
       ],
       "legacyIds": [
         "profile-reign-jackson-drake-321"
       ]
+    },
+    {
+      "id": "r3",
+      "holder": "Aaron Rourke",
+      "people": [
+        "aaron-rourke"
+      ],
+      "start": "2026-02-20",
+      "end": "2026-06-19",
+      "days": 119,
+      "number": 2,
+      "event": "Evolve",
+      "location": "Orlando, Florida",
+      "note": "WWE recognizes reign from March 18 (tape delay); Drake held title on NXT until March 17",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Evolve_Men%27s_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r2",
@@ -29,9 +112,15 @@
         "harlem-lewis"
       ],
       "start": "2026-07-15",
+      "days": 57,
+      "number": 3,
+      "event": "Evolve",
+      "location": "Orlando, Florida",
+      "note": "WWE recognizes reign from July 15 (tape delay); 31+ days recognized",
       "dateNote": "Listed as ongoing in the profile source; shown through the archive date.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-evolve-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-evolve-championship",
+        "https://en.wikipedia.org/wiki/WWE_Evolve_Men%27s_Championship"
       ],
       "legacyIds": [
         "profile-reign-harlem-lewis-312"

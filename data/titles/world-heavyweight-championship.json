@@ -1,12 +1,67 @@
 {
   "id": "world-heavyweight-championship",
   "name": "World Heavyweight Championship",
+  "short": "WHC",
+  "promotion": "wwe",
+  "division": "men",
+  "format": "singles",
+  "established": "2023-04-24",
+  "featured": true,
   "names": [
-    "World Heavyweight Championship",
     "World Heavyweight · 2023 lineage"
   ],
+  "eras": [
+    {
+      "name": "World Heavyweight Championship",
+      "from": "2023-04-24"
+    }
+  ],
+  "history": [
+    {
+      "date": "2023-04-24",
+      "kind": "split",
+      "text": "Triple H announced the Undisputed WWE Universal Championship would become exclusive to one brand and a new World Heavyweight Championship would go to the other.",
+      "related": [
+        "Undisputed WWE Universal Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/World_Heavyweight_Championship_(WWE)"
+      ]
+    },
+    {
+      "date": "2023-04-24",
+      "kind": "recognition",
+      "text": "The article says the title has no direct lineage with the 2002–2013 title, despite the shared name and a belt design that pays homage to the Big Gold Belt.",
+      "related": [
+        "WWE's previous World Heavyweight Championship (2002–2013)"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/World_Heavyweight_Championship_(WWE)"
+      ]
+    },
+    {
+      "date": "2023-04-28",
+      "kind": "brand",
+      "text": "Roman Reigns was drafted to SmackDown, making the World Heavyweight Championship exclusive to Raw.",
+      "related": [
+        "Undisputed WWE Universal Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/World_Heavyweight_Championship_(WWE)"
+      ]
+    },
+    {
+      "date": "2023-09",
+      "kind": "promotion",
+      "text": "The article notes WWE was founded and owned by the McMahon family until September 2023.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/World_Heavyweight_Championship_(WWE)"
+      ]
+    }
+  ],
   "sources": [
-    "https://www.wwe.com/classics/titlehistory/world-heavyweight-championship"
+    "https://www.wwe.com/classics/titlehistory/world-heavyweight-championship",
+    "https://en.wikipedia.org/wiki/World_Heavyweight_Championship_(WWE)"
   ],
   "reigns": [
     {
@@ -17,28 +72,18 @@
       ],
       "start": "2023-05-27",
       "end": "2024-04-07",
+      "days": 316,
+      "number": 1,
+      "event": "Night of Champions",
+      "location": "Jeddah, Saudi Arabia",
+      "note": "Title established; Rollins beat AJ Styles in tournament final",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/world-heavyweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/world-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/World_Heavyweight_Championship_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-seth-rollins-731"
-      ]
-    },
-    {
-      "id": "r2",
-      "holder": "Damian Priest",
-      "people": [
-        "damian-priest"
-      ],
-      "start": "2024-04-07",
-      "end": "2024-08-03",
-      "dateNote": "End date follows the duration recorded in the profile source.",
-      "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/world-heavyweight-championship"
-      ],
-      "legacyIds": [
-        "profile-reign-damian-priest-155"
       ]
     },
     {
@@ -49,12 +94,39 @@
       ],
       "start": "2024-04-07",
       "end": "2024-04-07",
+      "days": 0,
+      "number": 2,
+      "event": "WrestleMania XL Night 2",
+      "location": "Philadelphia, PA",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/world-heavyweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/world-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/World_Heavyweight_Championship_(WWE)"
       ],
       "legacyIds": [
         "profile-reign-drew-mcintyre-195"
+      ]
+    },
+    {
+      "id": "r2",
+      "holder": "Damian Priest",
+      "people": [
+        "damian-priest"
+      ],
+      "start": "2024-04-07",
+      "end": "2024-08-03",
+      "days": 118,
+      "number": 3,
+      "event": "WrestleMania XL Night 2",
+      "location": "Philadelphia, PA",
+      "note": "Money in the Bank cash-in match",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/wwe/world-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/World_Heavyweight_Championship_(WWE)"
+      ],
+      "legacyIds": [
+        "profile-reign-damian-priest-155"
       ]
     },
     {
@@ -65,9 +137,14 @@
       ],
       "start": "2024-08-03",
       "end": "2025-04-19",
+      "days": 259,
+      "number": 4,
+      "event": "SummerSlam",
+      "location": "Cleveland, OH",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/classics/titlehistory/world-heavyweight-championship"
+        "https://www.wwe.com/classics/titlehistory/world-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/World_Heavyweight_Championship_(WWE)"
       ],
       "legacyIds": [
         "2025-world-heavyweight-2024-08-03-gunther"
@@ -81,9 +158,14 @@
       ],
       "start": "2025-04-19",
       "end": "2025-06-09",
+      "days": 51,
+      "number": 5,
+      "event": "WrestleMania 41 Night 1",
+      "location": "Paradise, NV",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/classics/titlehistory/world-heavyweight-championship"
+        "https://www.wwe.com/classics/titlehistory/world-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/World_Heavyweight_Championship_(WWE)"
       ],
       "legacyIds": [
         "2025-world-heavyweight-2025-04-19-jey-uso"
@@ -97,9 +179,14 @@
       ],
       "start": "2025-06-09",
       "end": "2025-08-02",
+      "days": 54,
+      "number": 6,
+      "event": "Raw",
+      "location": "Phoenix, AZ",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/classics/titlehistory/world-heavyweight-championship"
+        "https://www.wwe.com/classics/titlehistory/world-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/World_Heavyweight_Championship_(WWE)"
       ],
       "legacyIds": [
         "2025-world-heavyweight-2025-06-09-gunther"
@@ -113,10 +200,15 @@
       ],
       "start": "2025-08-02",
       "end": "2025-08-02",
+      "days": 0,
+      "number": 7,
+      "event": "SummerSlam Night 1",
+      "location": "East Rutherford, NJ",
       "note": "Won the title from Gunther, then lost to Seth Rollins’ Money in the Bank cash-in on the same night.",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/classics/titlehistory/world-heavyweight-championship"
+        "https://www.wwe.com/classics/titlehistory/world-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/World_Heavyweight_Championship_(WWE)"
       ],
       "legacyIds": [
         "2025-world-heavyweight-2025-08-02-cm-punk"
@@ -130,10 +222,15 @@
       ],
       "start": "2025-08-02",
       "end": "2025-10-20",
+      "days": 79,
+      "number": 8,
+      "event": "SummerSlam Night 1",
+      "location": "East Rutherford, NJ",
       "note": "Vacated on October 20; the title remained vacant until CM Punk won it on November 1.",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/classics/titlehistory/world-heavyweight-championship"
+        "https://www.wwe.com/classics/titlehistory/world-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/World_Heavyweight_Championship_(WWE)"
       ],
       "legacyIds": [
         "2025-world-heavyweight-2025-08-02-seth-rollins"
@@ -147,9 +244,15 @@
       ],
       "start": "2025-11-01",
       "end": "2026-04-19",
+      "days": 169,
+      "number": 9,
+      "event": "Saturday Night's Main Event XLI",
+      "location": "Salt Lake City, UT",
+      "note": "Defeated Jey Uso to win vacant title",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/classics/titlehistory/world-heavyweight-championship"
+        "https://www.wwe.com/classics/titlehistory/world-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/World_Heavyweight_Championship_(WWE)"
       ],
       "legacyIds": [
         "world-heavyweight-1"
@@ -162,15 +265,19 @@
         "roman-reigns"
       ],
       "start": "2026-04-19",
+      "days": 67,
+      "number": 10,
+      "event": "WrestleMania 42 Night 2",
+      "location": "Paradise, NV",
+      "note": "Won as SmackDown member; moved to Raw after win",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/classics/titlehistory/world-heavyweight-championship"
+        "https://www.wwe.com/classics/titlehistory/world-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/World_Heavyweight_Championship_(WWE)"
       ],
       "legacyIds": [
         "world-heavyweight-2"
       ]
     }
-  ],
-  "short": "WHC",
-  "featured": true
+  ]
 }

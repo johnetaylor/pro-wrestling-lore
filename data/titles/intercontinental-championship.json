@@ -1,15 +1,1963 @@
 {
   "id": "intercontinental-championship",
   "name": "Intercontinental Championship",
+  "short": "IC",
+  "promotion": "wwe",
+  "division": "men",
+  "format": "singles",
+  "established": "1979-09-01",
+  "featured": true,
   "names": [
-    "Intercontinental Championship",
-    "WWE Intercontinental Championship"
+    "WWE Intercontinental Championship",
+    "WWF Intercontinental Heavyweight Championship",
+    "WWF Intercontinental Championship"
+  ],
+  "eras": [
+    {
+      "name": "WWF Intercontinental Heavyweight Championship",
+      "from": "1979-09-01",
+      "to": "1988"
+    },
+    {
+      "name": "WWF Intercontinental Championship",
+      "from": "1988",
+      "to": "2002"
+    },
+    {
+      "name": "WWE Intercontinental Championship",
+      "from": "2002"
+    }
+  ],
+  "history": [
+    {
+      "date": "1990-04-01",
+      "kind": "interim",
+      "text": "Vacated after Ultimate Warrior won the WWF Championship at WrestleMania VI; a tournament later crowned Mr. Perfect.",
+      "related": [
+        "WWF Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2001-11",
+      "kind": "absorbed",
+      "text": "Unified into the Intercontinental Championship at Survivor Series 2001, leaving the US title inactive.",
+      "related": [
+        "WCW United States Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2002-03-25",
+      "kind": "brand",
+      "text": "Following the first brand split, the title became exclusive to Raw.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2002-05",
+      "kind": "promotion",
+      "text": "The WWF was renamed WWE.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2002-07-22",
+      "kind": "absorbed",
+      "text": "Unified with the European Championship in a ladder match won by Rob Van Dam.",
+      "related": [
+        "WWE European Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2002-07-30",
+      "kind": "brand",
+      "text": "Moved to SmackDown!.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2002-08-25",
+      "kind": "brand",
+      "text": "Returned to Raw after Rob Van Dam defeated Chris Benoit.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2002-08-26",
+      "kind": "absorbed",
+      "text": "Hardcore Championship unified into the Intercontinental Championship.",
+      "related": [
+        "WWE Hardcore Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2002-10-20",
+      "kind": "unified-into",
+      "text": "Triple H defeated Kane at No Mercy, unifying the two titles.",
+      "related": [
+        "World Heavyweight Championship (2002–2013 version)"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2002-10-20",
+      "kind": "deactivated",
+      "text": "The Intercontinental Championship was deactivated after the unification.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2003-05-05",
+      "kind": "reactivated",
+      "text": "Reactivated on Raw by co-general manager Stone Cold Steve Austin; Christian won the battle royal to claim it.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2009-04-13",
+      "kind": "brand",
+      "text": "Rey Mysterio was drafted to SmackDown, moving the title there.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2010-05-07",
+      "kind": "recognition",
+      "text": "WWE did not recognize Kofi Kingston's tournament win; Drew McIntyre was still recognized as champion until Over the Limit.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2011-08-29",
+      "kind": "brand",
+      "text": "The brand split was discontinued and the champion could appear on both brands.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2016-07-19",
+      "kind": "brand",
+      "text": "The brand split was reintroduced and the title moved to SmackDown in the 2016 draft.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2017-04-10",
+      "kind": "brand",
+      "text": "Dean Ambrose moved the title to Raw in the 2017 Superstar Shake-up.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2019-04-16",
+      "kind": "brand",
+      "text": "Finn Bálor moved the title to SmackDown in the 2019 Superstar Shake-up.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2019-09",
+      "kind": "recognition",
+      "text": "Recognized as a third secondary title when NXT moved to USA Network.",
+      "related": [
+        "NXT North American Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2020-05-12",
+      "kind": "interim",
+      "text": "Vacated after Sami Zayn refrained from competing during the COVID-19 pandemic; a tournament followed on SmackDown.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2021-09",
+      "kind": "recognition",
+      "text": "Recognition reversed when NXT returned to being WWE's developmental brand.",
+      "related": [
+        "NXT North American Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    },
+    {
+      "date": "2023-05-08",
+      "kind": "brand",
+      "text": "Gunther was drafted to Raw, moving the title back to Raw.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
+      ]
+    }
   ],
   "sources": [
     "https://www.wwe.com/titlehistory/intercontinental-championship",
-    "https://www.wwe.com/article/intercontinental-championship-40th-anniversary-week-schedule"
+    "https://www.wwe.com/article/intercontinental-championship-40th-anniversary-week-schedule",
+    "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions",
+    "https://en.wikipedia.org/wiki/WWE_Intercontinental_Championship"
   ],
   "reigns": [
+    {
+      "id": "r39",
+      "holder": "Pat Patterson",
+      "people": [
+        "pat-patterson"
+      ],
+      "start": "1979-09-01",
+      "end": "1980-04-21",
+      "days": 233,
+      "number": 1,
+      "location": "Rio de Janeiro, Brazil",
+      "note": "Won South American tournament and unified titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "Ken Patera",
+      "people": [
+        "ken-patera"
+      ],
+      "start": "1980-04-21",
+      "end": "1980-12-08",
+      "days": 231,
+      "number": 2,
+      "event": "WWF on MSG Network",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "Pedro Morales",
+      "people": [
+        "pedro-morales"
+      ],
+      "start": "1980-12-08",
+      "end": "1981-06-20",
+      "days": 194,
+      "number": 3,
+      "event": "WWF",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Don Muraco",
+      "people": [
+        "don-muraco"
+      ],
+      "start": "1981-06-20",
+      "end": "1981-11-23",
+      "days": 156,
+      "number": 4,
+      "event": "WWF on PRISM Network",
+      "location": "Philadelphia, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "Pedro Morales",
+      "people": [
+        "pedro-morales"
+      ],
+      "start": "1981-11-23",
+      "end": "1983-01-22",
+      "days": 425,
+      "number": 5,
+      "event": "WWF on MSG Network",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "Don Muraco",
+      "people": [
+        "don-muraco"
+      ],
+      "start": "1983-01-22",
+      "end": "1984-02-11",
+      "days": 385,
+      "number": 6,
+      "event": "WWF on MSG Network",
+      "location": "New York, NY",
+      "note": "WWF left the NWA during this reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "Tito Santana",
+      "people": [
+        "tito-santana"
+      ],
+      "start": "1984-02-11",
+      "end": "1984-09-24",
+      "days": 226,
+      "number": 7,
+      "event": "WWF",
+      "location": "Boston, MA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "Greg Valentine",
+      "people": [
+        "greg-valentine"
+      ],
+      "start": "1984-09-24",
+      "end": "1985-07-06",
+      "days": 285,
+      "number": 8,
+      "event": "Maple Leaf Wrestling",
+      "location": "London, ON, Canada",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "Tito Santana",
+      "people": [
+        "tito-santana"
+      ],
+      "start": "1985-07-06",
+      "end": "1986-02-08",
+      "days": 217,
+      "number": 9,
+      "event": "House show",
+      "location": "Baltimore, MD",
+      "note": "Steel cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "Randy Savage",
+      "people": [
+        "randy-savage"
+      ],
+      "start": "1986-02-08",
+      "end": "1987-03-29",
+      "days": 414,
+      "number": 10,
+      "event": "WWF on NESN",
+      "location": "Boston, MA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r49",
+      "holder": "Ricky Steamboat",
+      "people": [
+        "ricky-steamboat"
+      ],
+      "start": "1987-03-29",
+      "end": "1987-06-02",
+      "days": 65,
+      "number": 11,
+      "event": "WrestleMania III",
+      "location": "Pontiac, MI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r50",
+      "holder": "The Honky Tonk Man",
+      "people": [
+        "honky-tonk-man"
+      ],
+      "start": "1987-06-02",
+      "end": "1988-08-29",
+      "days": 454,
+      "number": 12,
+      "event": "Superstars of Wrestling",
+      "location": "Buffalo, NY",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r51",
+      "holder": "Ultimate Warrior",
+      "people": [
+        "the-ultimate-warrior"
+      ],
+      "start": "1988-08-29",
+      "end": "1989-04-02",
+      "days": 216,
+      "number": 13,
+      "event": "SummerSlam",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "Rick Rude",
+      "people": [
+        "rick-rude"
+      ],
+      "start": "1989-04-02",
+      "end": "1989-08-28",
+      "days": 148,
+      "number": 14,
+      "event": "WrestleMania V",
+      "location": "Atlantic City, NJ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r53",
+      "holder": "Ultimate Warrior",
+      "people": [
+        "the-ultimate-warrior"
+      ],
+      "start": "1989-08-28",
+      "end": "1990-04-03",
+      "days": 218,
+      "number": 15,
+      "event": "SummerSlam",
+      "location": "East Rutherford, NJ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r54",
+      "holder": "Mr. Perfect",
+      "people": [
+        "curt-hennig"
+      ],
+      "start": "1990-04-23",
+      "end": "1990-08-27",
+      "days": 126,
+      "number": 16,
+      "event": "Superstars of Wrestling",
+      "location": "Austin, TX",
+      "note": "Won tournament final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r55",
+      "holder": "The Texas Tornado",
+      "people": [
+        "the-texas-tornado"
+      ],
+      "start": "1990-08-27",
+      "end": "1990-11-19",
+      "days": 84,
+      "number": 17,
+      "event": "SummerSlam",
+      "location": "Philadelphia, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r56",
+      "holder": "Mr. Perfect",
+      "people": [
+        "curt-hennig"
+      ],
+      "start": "1990-11-19",
+      "end": "1991-08-26",
+      "days": 280,
+      "number": 18,
+      "event": "Superstars of Wrestling",
+      "location": "Rochester, NY",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "Bret Hart",
+      "people": [
+        "bret-hart"
+      ],
+      "start": "1991-08-26",
+      "end": "1992-01-17",
+      "days": 144,
+      "number": 19,
+      "event": "SummerSlam",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r58",
+      "holder": "The Mountie",
+      "people": [
+        "the-mountie"
+      ],
+      "start": "1992-01-17",
+      "end": "1992-01-19",
+      "days": 2,
+      "number": 20,
+      "event": "House show",
+      "location": "Springfield, MA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r59",
+      "holder": "Roddy Piper",
+      "people": [
+        "roddy-piper"
+      ],
+      "start": "1992-01-19",
+      "end": "1992-04-05",
+      "days": 77,
+      "number": 21,
+      "event": "Royal Rumble",
+      "location": "Albany, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r60",
+      "holder": "Bret Hart",
+      "people": [
+        "bret-hart"
+      ],
+      "start": "1992-04-05",
+      "end": "1992-08-29",
+      "days": 146,
+      "number": 22,
+      "event": "WrestleMania VIII",
+      "location": "Indianapolis, IN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r61",
+      "holder": "The British Bulldog",
+      "people": [
+        "the-british-bulldog"
+      ],
+      "start": "1992-08-29",
+      "end": "1992-10-27",
+      "days": 59,
+      "number": 23,
+      "event": "SummerSlam",
+      "location": "London, England",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r62",
+      "holder": "Shawn Michaels",
+      "people": [
+        "shawn-michaels"
+      ],
+      "start": "1992-10-27",
+      "end": "1993-05-17",
+      "days": 202,
+      "number": 24,
+      "event": "Saturday Night's Main Event XXXI",
+      "location": "Terre Haute, IN",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r63",
+      "holder": "Marty Jannetty",
+      "people": [
+        "marty-jannetty"
+      ],
+      "start": "1993-05-17",
+      "end": "1993-06-06",
+      "days": 20,
+      "number": 25,
+      "event": "Raw",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r64",
+      "holder": "Shawn Michaels",
+      "people": [
+        "shawn-michaels"
+      ],
+      "start": "1993-06-06",
+      "end": "1993-09-27",
+      "days": 113,
+      "number": 26,
+      "event": "House show",
+      "location": "Albany, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r65",
+      "holder": "Razor Ramon",
+      "people": [
+        "scott-hall"
+      ],
+      "start": "1993-09-27",
+      "end": "1994-04-13",
+      "days": 198,
+      "number": 27,
+      "event": "Raw",
+      "location": "New Haven, CT",
+      "note": "Won battle royal final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r66",
+      "holder": "Diesel",
+      "people": [
+        "kevin-nash"
+      ],
+      "start": "1994-04-13",
+      "end": "1994-08-29",
+      "days": 138,
+      "number": 28,
+      "event": "Superstars",
+      "location": "Rochester, NY",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r67",
+      "holder": "Razor Ramon",
+      "people": [
+        "scott-hall"
+      ],
+      "start": "1994-08-29",
+      "end": "1995-01-22",
+      "days": 146,
+      "number": 29,
+      "event": "SummerSlam",
+      "location": "Chicago, IL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r68",
+      "holder": "Jeff Jarrett",
+      "people": [
+        "jeff-jarrett"
+      ],
+      "start": "1995-01-22",
+      "end": "1995-04-26",
+      "days": 94,
+      "number": 30,
+      "event": "Royal Rumble",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r69",
+      "holder": "Jeff Jarrett",
+      "people": [
+        "jeff-jarrett"
+      ],
+      "start": "1995-04-26",
+      "end": "1995-05-19",
+      "days": 23,
+      "number": 31,
+      "event": "Action Zone",
+      "location": "Moline, IL",
+      "note": "Won rematch for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r70",
+      "holder": "Razor Ramon",
+      "people": [
+        "scott-hall"
+      ],
+      "start": "1995-05-19",
+      "end": "1995-05-21",
+      "days": 2,
+      "number": 32,
+      "event": "House show",
+      "location": "Montreal QC, Canada",
+      "note": "Ladder match; WWE ends reign 1995-05-22",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r71",
+      "holder": "Jeff Jarrett",
+      "people": [
+        "jeff-jarrett"
+      ],
+      "start": "1995-05-21",
+      "end": "1995-07-23",
+      "days": 63,
+      "number": 33,
+      "event": "House show",
+      "location": "Trois-Rivières, QC, Canada",
+      "note": "WWE dates reign from 1995-05-22",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r72",
+      "holder": "Shawn Michaels",
+      "people": [
+        "shawn-michaels"
+      ],
+      "start": "1995-07-23",
+      "end": "1995-10-22",
+      "days": 91,
+      "number": 34,
+      "event": "In Your House 2: The Lumberjacks",
+      "location": "Nashville, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r73",
+      "holder": "Dean Douglas",
+      "people": [
+        "shane-douglas"
+      ],
+      "start": "1995-10-22",
+      "end": "1995-10-22",
+      "days": 0,
+      "number": 35,
+      "event": "In Your House 4: Great White North",
+      "location": "Winnipeg, MB, Canada",
+      "note": "Won by forfeit",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r74",
+      "holder": "Razor Ramon",
+      "people": [
+        "scott-hall"
+      ],
+      "start": "1995-10-22",
+      "end": "1996-01-21",
+      "days": 91,
+      "number": 36,
+      "event": "In Your House 4: Great White North",
+      "location": "Winnipeg, MB, Canada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r75",
+      "holder": "Goldust",
+      "people": [
+        "dustin-rhodes"
+      ],
+      "start": "1996-01-21",
+      "end": "1996-04-01",
+      "days": 71,
+      "number": 37,
+      "event": "Royal Rumble",
+      "location": "Fresno, CA",
+      "note": "WWE ends reign 1996-03-25",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r76",
+      "holder": "Goldust",
+      "people": [
+        "dustin-rhodes"
+      ],
+      "start": "1996-04-01",
+      "end": "1996-06-23",
+      "days": 83,
+      "number": 38,
+      "event": "Raw",
+      "location": "San Bernardino, CA",
+      "note": "Won rematch for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r77",
+      "holder": "Ahmed Johnson",
+      "people": [
+        "ahmed-johnson"
+      ],
+      "start": "1996-06-23",
+      "end": "1996-08-12",
+      "days": 50,
+      "number": 39,
+      "event": "King of the Ring",
+      "location": "Milwaukee, WI",
+      "note": "WWE ends reign 1996-08-19",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r78",
+      "holder": "Marc Mero",
+      "people": [
+        "marc-mero"
+      ],
+      "start": "1996-09-23",
+      "end": "1996-10-21",
+      "days": 28,
+      "number": 40,
+      "event": "Raw",
+      "location": "Hershey, PA",
+      "note": "Won tournament final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r79",
+      "holder": "Hunter Hearst Helmsley",
+      "people": [
+        "triple-h"
+      ],
+      "start": "1996-10-21",
+      "end": "1997-02-13",
+      "days": 115,
+      "number": 41,
+      "event": "Raw",
+      "location": "Fort Wayne, IN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r80",
+      "holder": "Rocky Maivia",
+      "people": [
+        "the-rock"
+      ],
+      "start": "1997-02-13",
+      "end": "1997-04-28",
+      "days": 74,
+      "number": 42,
+      "event": "Raw",
+      "location": "Lowell, MA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r81",
+      "holder": "Owen Hart",
+      "people": [
+        "owen-hart"
+      ],
+      "start": "1997-04-28",
+      "end": "1997-08-03",
+      "days": 97,
+      "number": 43,
+      "event": "Raw",
+      "location": "Omaha, NE",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r82",
+      "holder": "\"Stone Cold\" Steve Austin",
+      "people": [
+        "stone-cold-steve-austin"
+      ],
+      "start": "1997-08-03",
+      "end": "1997-09-08",
+      "days": 36,
+      "number": 44,
+      "event": "SummerSlam",
+      "location": "East Rutherford, NJ",
+      "note": "WWE wrongly lists 63 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r83",
+      "holder": "Owen Hart",
+      "people": [
+        "owen-hart"
+      ],
+      "start": "1997-10-05",
+      "end": "1997-11-09",
+      "days": 35,
+      "number": 45,
+      "event": "Badd Blood: In Your House",
+      "location": "St. Louis, MO",
+      "note": "Won tournament final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r84",
+      "holder": "\"Stone Cold\" Steve Austin",
+      "people": [
+        "stone-cold-steve-austin"
+      ],
+      "start": "1997-11-09",
+      "end": "1997-12-08",
+      "days": 29,
+      "number": 46,
+      "event": "Survivor Series",
+      "location": "Montreal, QC, Canada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r85",
+      "holder": "The Rock",
+      "people": [
+        "the-rock"
+      ],
+      "start": "1997-12-08",
+      "end": "1998-08-30",
+      "days": 265,
+      "number": 47,
+      "event": "Raw",
+      "location": "Portland, ME",
+      "note": "Austin handed him the belt",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r86",
+      "holder": "Triple H",
+      "people": [
+        "triple-h"
+      ],
+      "start": "1998-08-30",
+      "end": "1998-10-09",
+      "days": 40,
+      "number": 48,
+      "event": "SummerSlam",
+      "location": "New York, NY",
+      "note": "Ladder match; WWE wrongly lists 43 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r87",
+      "holder": "Ken Shamrock",
+      "people": [
+        "ken-shamrock"
+      ],
+      "start": "1998-10-12",
+      "end": "1999-02-14",
+      "days": 125,
+      "number": 49,
+      "event": "Raw",
+      "location": "Uniondale, NY",
+      "note": "Won tournament final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r88",
+      "holder": "Val Venis",
+      "people": [
+        "val-venis"
+      ],
+      "start": "1999-02-14",
+      "end": "1999-03-15",
+      "days": 29,
+      "number": 50,
+      "event": "St. Valentine's Day Massacre: In Your House",
+      "location": "Memphis, TN",
+      "note": "Billy Gunn was guest referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r89",
+      "holder": "Road Dogg",
+      "people": [
+        "road-dogg"
+      ],
+      "start": "1999-03-15",
+      "end": "1999-03-29",
+      "days": 14,
+      "number": 51,
+      "event": "Raw",
+      "location": "San Jose, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r90",
+      "holder": "Goldust",
+      "people": [
+        "dustin-rhodes"
+      ],
+      "start": "1999-03-29",
+      "end": "1999-04-12",
+      "days": 14,
+      "number": 52,
+      "event": "Raw",
+      "location": "East Rutherford, NJ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r91",
+      "holder": "The Godfather",
+      "people": [
+        "the-godfather"
+      ],
+      "start": "1999-04-12",
+      "end": "1999-05-25",
+      "days": 43,
+      "number": 53,
+      "event": "Raw",
+      "location": "Detroit, MI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r92",
+      "holder": "Jeff Jarrett",
+      "people": [
+        "jeff-jarrett"
+      ],
+      "start": "1999-05-25",
+      "end": "1999-07-24",
+      "days": 60,
+      "number": 54,
+      "event": "Raw",
+      "location": "Moline, IL",
+      "note": "WWE dates reign from 1999-05-31",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r93",
+      "holder": "Edge",
+      "people": [
+        "edge"
+      ],
+      "start": "1999-07-24",
+      "end": "1999-07-25",
+      "days": 1,
+      "number": 55,
+      "event": "House show",
+      "location": "Toronto, ON, Canada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r94",
+      "holder": "Jeff Jarrett",
+      "people": [
+        "jeff-jarrett"
+      ],
+      "start": "1999-07-25",
+      "end": "1999-07-27",
+      "days": 2,
+      "number": 56,
+      "event": "Fully Loaded",
+      "location": "Buffalo, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r95",
+      "holder": "D'Lo Brown",
+      "people": [
+        "d-lo-brown"
+      ],
+      "start": "1999-07-27",
+      "end": "1999-08-22",
+      "days": 26,
+      "number": 57,
+      "event": "Raw",
+      "location": "Columbus, OH",
+      "note": "Winner takes all match; also won European title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r96",
+      "holder": "Jeff Jarrett",
+      "people": [
+        "jeff-jarrett"
+      ],
+      "start": "1999-08-22",
+      "end": "1999-10-17",
+      "days": 56,
+      "number": 58,
+      "event": "SummerSlam",
+      "location": "Minneapolis, MN",
+      "note": "Also won European title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r97",
+      "holder": "Chyna",
+      "people": [
+        "chyna"
+      ],
+      "start": "1999-10-17",
+      "end": "1999-12-12",
+      "days": 56,
+      "number": 59,
+      "event": "No Mercy",
+      "location": "Cleveland, OH",
+      "note": "Good Housekeeping match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r98",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "1999-12-12",
+      "end": "2000-01-03",
+      "days": 22,
+      "number": 60,
+      "event": "Armageddon",
+      "location": "Sunrise, FL",
+      "dateNote": "The source counts this reign to 2000-01-03, past the next change it lists.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r99",
+      "holder": "Chris Jericho and Chyna",
+      "people": [
+        "chris-jericho",
+        "chyna"
+      ],
+      "start": "2000-01-03",
+      "end": "2000-01-23",
+      "days": 20,
+      "kind": "unrecognized",
+      "event": "Raw",
+      "location": "Miami, FL",
+      "note": "Co-champions after double pinfall; not recognized by WWE",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r100",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "2000-01-23",
+      "end": "2000-02-27",
+      "days": 35,
+      "number": 61,
+      "event": "Royal Rumble",
+      "location": "New York, NY",
+      "note": "Won triple threat to become undisputed champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r101",
+      "holder": "Kurt Angle",
+      "people": [
+        "kurt-angle"
+      ],
+      "start": "2000-02-27",
+      "end": "2000-04-02",
+      "days": 35,
+      "number": 62,
+      "event": "No Way Out",
+      "location": "Hartford, CT",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r102",
+      "holder": "Chris Benoit",
+      "people": [
+        "chris-benoit"
+      ],
+      "start": "2000-04-02",
+      "end": "2000-05-02",
+      "days": 30,
+      "number": 63,
+      "event": "WrestleMania 2000",
+      "location": "Anaheim, CA",
+      "note": "Two-fall triple threat; WWE dates are inconsistent",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r103",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "2000-05-02",
+      "end": "2000-05-08",
+      "days": 6,
+      "number": 64,
+      "event": "SmackDown!",
+      "location": "Richmond, VA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r104",
+      "holder": "Chris Benoit",
+      "people": [
+        "chris-benoit"
+      ],
+      "start": "2000-05-08",
+      "end": "2000-06-20",
+      "days": 43,
+      "number": 65,
+      "event": "Raw",
+      "location": "Uniondale, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r105",
+      "holder": "Rikishi",
+      "people": [
+        "rikishi"
+      ],
+      "start": "2000-06-20",
+      "end": "2000-07-04",
+      "days": 14,
+      "number": 66,
+      "event": "SmackDown!",
+      "location": "Memphis, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r106",
+      "holder": "Val Venis",
+      "people": [
+        "val-venis"
+      ],
+      "start": "2000-07-04",
+      "end": "2000-08-27",
+      "days": 54,
+      "number": 67,
+      "event": "SmackDown!",
+      "location": "Sunrise, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r107",
+      "holder": "Chyna",
+      "people": [
+        "chyna"
+      ],
+      "start": "2000-08-27",
+      "end": "2000-09-04",
+      "days": 8,
+      "number": 68,
+      "event": "SummerSlam",
+      "location": "Raleigh, NC",
+      "note": "Mixed tag team match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r108",
+      "holder": "Eddie Guerrero",
+      "people": [
+        "eddie-guerrero"
+      ],
+      "start": "2000-09-04",
+      "end": "2000-11-21",
+      "days": 78,
+      "number": 69,
+      "event": "Raw",
+      "location": "Lexington, KY",
+      "note": "Triple threat match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r109",
+      "holder": "Billy Gunn",
+      "people": [
+        "billy-gunn"
+      ],
+      "start": "2000-11-21",
+      "end": "2000-12-10",
+      "days": 19,
+      "number": 70,
+      "event": "SmackDown!",
+      "location": "Sunrise, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r110",
+      "holder": "Chris Benoit",
+      "people": [
+        "chris-benoit"
+      ],
+      "start": "2000-12-10",
+      "end": "2001-01-21",
+      "days": 42,
+      "number": 71,
+      "event": "Armageddon",
+      "location": "Birmingham, AL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r111",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "2001-01-21",
+      "end": "2001-04-03",
+      "days": 72,
+      "number": 72,
+      "event": "Royal Rumble",
+      "location": "New Orleans, LA",
+      "note": "Ladder match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r112",
+      "holder": "Triple H",
+      "people": [
+        "triple-h"
+      ],
+      "start": "2001-04-03",
+      "end": "2001-04-10",
+      "days": 7,
+      "number": 73,
+      "event": "SmackDown!",
+      "location": "Oklahoma City, OK",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r113",
+      "holder": "Jeff Hardy",
+      "people": [
+        "jeff-hardy"
+      ],
+      "start": "2001-04-10",
+      "end": "2001-04-16",
+      "days": 6,
+      "number": 74,
+      "event": "SmackDown!",
+      "location": "Philadelphia, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r114",
+      "holder": "Triple H",
+      "people": [
+        "triple-h"
+      ],
+      "start": "2001-04-16",
+      "end": "2001-05-20",
+      "days": 34,
+      "number": 75,
+      "event": "Raw",
+      "location": "Knoxville, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r115",
+      "holder": "Kane",
+      "people": [
+        "kane"
+      ],
+      "start": "2001-05-20",
+      "end": "2001-06-26",
+      "days": 37,
+      "number": 76,
+      "event": "Judgment Day",
+      "location": "Sacramento, CA",
+      "note": "Chain match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r116",
+      "holder": "Albert",
+      "people": [
+        "tensai"
+      ],
+      "start": "2001-06-26",
+      "end": "2001-07-23",
+      "days": 27,
+      "number": 77,
+      "event": "SmackDown!",
+      "location": "New York, NY",
+      "note": "No disqualification match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r117",
+      "holder": "Lance Storm",
+      "people": [
+        "lance-storm"
+      ],
+      "start": "2001-07-23",
+      "end": "2001-08-19",
+      "days": 27,
+      "number": 78,
+      "event": "Raw",
+      "location": "Buffalo, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r118",
+      "holder": "Edge",
+      "people": [
+        "edge"
+      ],
+      "start": "2001-08-19",
+      "end": "2001-09-23",
+      "days": 35,
+      "number": 79,
+      "event": "SummerSlam",
+      "location": "San Jose, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r119",
+      "holder": "Christian",
+      "people": [
+        "christian"
+      ],
+      "start": "2001-09-23",
+      "end": "2001-10-21",
+      "days": 28,
+      "number": 80,
+      "event": "Unforgiven",
+      "location": "Pittsburgh, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r120",
+      "holder": "Edge",
+      "people": [
+        "edge"
+      ],
+      "start": "2001-10-21",
+      "end": "2001-11-05",
+      "days": 15,
+      "number": 81,
+      "event": "No Mercy",
+      "location": "St. Louis, MO",
+      "note": "Ladder match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r121",
+      "holder": "Test",
+      "people": [
+        "test"
+      ],
+      "start": "2001-11-05",
+      "end": "2001-11-18",
+      "days": 13,
+      "number": 82,
+      "event": "Raw",
+      "location": "Uniondale, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r122",
+      "holder": "Edge",
+      "people": [
+        "edge"
+      ],
+      "start": "2001-11-18",
+      "end": "2002-01-20",
+      "days": 63,
+      "number": 83,
+      "event": "Survivor Series",
+      "location": "Greensboro, NC",
+      "note": "Unified with the US title; US title deactivated",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r123",
+      "holder": "William Regal",
+      "people": [
+        "william-regal"
+      ],
+      "start": "2002-01-20",
+      "end": "2002-03-17",
+      "days": 56,
+      "number": 84,
+      "event": "Royal Rumble",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r124",
+      "holder": "Rob Van Dam",
+      "people": [
+        "rob-van-dam"
+      ],
+      "start": "2002-03-17",
+      "end": "2002-04-21",
+      "days": 35,
+      "number": 85,
+      "event": "WrestleMania X8",
+      "location": "Toronto, ON, Canada",
+      "note": "Title became Raw-exclusive after brand extension",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r125",
+      "holder": "Eddie Guerrero",
+      "people": [
+        "eddie-guerrero"
+      ],
+      "start": "2002-04-21",
+      "end": "2002-05-27",
+      "days": 36,
+      "number": 86,
+      "event": "Backlash",
+      "location": "Kansas City, MO",
+      "note": "Title renamed WWE Intercontinental Championship later",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r126",
+      "holder": "Rob Van Dam",
+      "people": [
+        "rob-van-dam"
+      ],
+      "start": "2002-05-27",
+      "end": "2002-07-29",
+      "days": 63,
+      "number": 87,
+      "event": "Raw",
+      "location": "Edmonton, AB, Canada",
+      "note": "Ladder match; European title unified in July 2002",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r127",
+      "holder": "Chris Benoit",
+      "people": [
+        "chris-benoit"
+      ],
+      "start": "2002-07-29",
+      "end": "2002-08-25",
+      "days": 27,
+      "number": 88,
+      "event": "Raw",
+      "location": "Greensboro, NC",
+      "note": "Title moved to SmackDown when Benoit switched brands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r128",
+      "holder": "Rob Van Dam",
+      "people": [
+        "rob-van-dam"
+      ],
+      "start": "2002-08-25",
+      "end": "2002-09-16",
+      "days": 22,
+      "number": 89,
+      "event": "SummerSlam",
+      "location": "Uniondale, NY",
+      "note": "Hardcore title unified the next night",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r129",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "2002-09-16",
+      "end": "2002-09-30",
+      "days": 14,
+      "number": 90,
+      "event": "Raw",
+      "location": "Denver, CO",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r130",
+      "holder": "Kane",
+      "people": [
+        "kane"
+      ],
+      "start": "2002-09-30",
+      "end": "2002-10-20",
+      "days": 20,
+      "number": 91,
+      "event": "Raw",
+      "location": "Houston, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r131",
+      "holder": "Triple H",
+      "people": [
+        "triple-h"
+      ],
+      "start": "2002-10-20",
+      "end": "2002-10-20",
+      "days": 0,
+      "number": 92,
+      "event": "No Mercy",
+      "location": "North Little Rock, AR",
+      "note": "Unification match with World Heavyweight Championship",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r132",
+      "holder": "Christian",
+      "people": [
+        "christian"
+      ],
+      "start": "2003-05-18",
+      "end": "2003-07-07",
+      "days": 50,
+      "number": 93,
+      "event": "Judgment Day",
+      "location": "Charlotte, NC",
+      "note": "Title revived by Stone Cold Steve Austin and Christian won it in a battle royal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r133",
+      "holder": "Booker T",
+      "people": [
+        "booker-t"
+      ],
+      "start": "2003-07-07",
+      "end": "2003-08-10",
+      "days": 34,
+      "number": 94,
+      "event": "Raw",
+      "location": "Montreal, QC, Canada",
+      "note": "US title was reactivated for SmackDown that month",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r134",
+      "holder": "Christian",
+      "people": [
+        "christian"
+      ],
+      "start": "2003-08-10",
+      "end": "2003-09-29",
+      "days": 50,
+      "number": 95,
+      "event": "House show",
+      "location": "Des Moines, IA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r135",
+      "holder": "Rob Van Dam",
+      "people": [
+        "rob-van-dam"
+      ],
+      "start": "2003-09-29",
+      "end": "2003-10-27",
+      "days": 28,
+      "number": 96,
+      "event": "Raw",
+      "location": "Rosemont, IL",
+      "note": "Ladder match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r136",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "2003-10-27",
+      "end": "2003-10-27",
+      "days": 0,
+      "number": 97,
+      "event": "Raw",
+      "location": "Fayetteville, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r137",
+      "holder": "Rob Van Dam",
+      "people": [
+        "rob-van-dam"
+      ],
+      "start": "2003-10-27",
+      "end": "2003-12-14",
+      "days": 48,
+      "number": 98,
+      "event": "Raw",
+      "location": "Fayetteville, NC",
+      "note": "Steel cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Randy Orton",
@@ -18,13 +1966,371 @@
       ],
       "start": "2003-12-14",
       "end": "2004-07-11",
+      "days": 210,
+      "number": 99,
+      "event": "Armageddon",
+      "location": "Orlando, FL",
+      "note": "Mick Foley was guest referee",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-randy-orton-629"
       ]
+    },
+    {
+      "id": "r138",
+      "holder": "Edge",
+      "people": [
+        "edge"
+      ],
+      "start": "2004-07-11",
+      "end": "2004-09-06",
+      "days": 57,
+      "number": 100,
+      "event": "Vengeance",
+      "location": "Hartford, CT",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r139",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "2004-09-12",
+      "end": "2004-10-19",
+      "days": 37,
+      "number": 101,
+      "event": "Unforgiven",
+      "location": "Portland, OR",
+      "note": "Won a ladder match for the vacant title over Christian",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r140",
+      "holder": "Shelton Benjamin",
+      "people": [
+        "shelton-benjamin"
+      ],
+      "start": "2004-10-19",
+      "end": "2005-06-20",
+      "days": 244,
+      "number": 102,
+      "event": "Taboo Tuesday",
+      "location": "Milwaukee, WI",
+      "note": "Fans voted for the challenger",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r141",
+      "holder": "Carlito",
+      "people": [
+        "carlito"
+      ],
+      "start": "2005-06-20",
+      "end": "2005-09-18",
+      "days": 90,
+      "number": 103,
+      "event": "Raw",
+      "location": "Phoenix, AZ",
+      "note": "Page incorrectly lists an end date",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r142",
+      "holder": "Ric Flair",
+      "people": [
+        "ric-flair"
+      ],
+      "start": "2005-09-18",
+      "end": "2006-02-20",
+      "days": 155,
+      "number": 104,
+      "event": "Unforgiven",
+      "location": "Oklahoma City, OK",
+      "note": "Page incorrectly lists the start date",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r143",
+      "holder": "Shelton Benjamin",
+      "people": [
+        "shelton-benjamin"
+      ],
+      "start": "2006-02-20",
+      "end": "2006-04-30",
+      "days": 69,
+      "number": 105,
+      "event": "Raw",
+      "location": "Trenton, NJ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r144",
+      "holder": "Rob Van Dam",
+      "people": [
+        "rob-van-dam"
+      ],
+      "start": "2006-04-30",
+      "end": "2006-05-15",
+      "days": 15,
+      "number": 106,
+      "event": "Backlash",
+      "location": "Lexington, KY",
+      "note": "Winner takes all match with Money in the Bank contract on the line",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r145",
+      "holder": "Shelton Benjamin",
+      "people": [
+        "shelton-benjamin"
+      ],
+      "start": "2006-05-15",
+      "end": "2006-06-25",
+      "days": 41,
+      "number": 107,
+      "event": "Raw",
+      "location": "Lubbock, TX",
+      "note": "Handicap Texas tornado match; Benjamin pinned Van Dam",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r146",
+      "holder": "Johnny Nitro",
+      "people": [
+        "john-morrison"
+      ],
+      "start": "2006-06-25",
+      "end": "2006-10-02",
+      "days": 99,
+      "number": 108,
+      "event": "Vengeance",
+      "location": "Charlotte, NC",
+      "note": "Triple threat match with Carlito",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r147",
+      "holder": "Jeff Hardy",
+      "people": [
+        "jeff-hardy"
+      ],
+      "start": "2006-10-02",
+      "end": "2006-11-06",
+      "days": 35,
+      "number": 109,
+      "event": "Raw",
+      "location": "Topeka, KS",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r148",
+      "holder": "Johnny Nitro",
+      "people": [
+        "john-morrison"
+      ],
+      "start": "2006-11-06",
+      "end": "2006-11-13",
+      "days": 7,
+      "number": 110,
+      "event": "Raw",
+      "location": "Columbus, OH",
+      "note": "No disqualification match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r149",
+      "holder": "Jeff Hardy",
+      "people": [
+        "jeff-hardy"
+      ],
+      "start": "2006-11-13",
+      "end": "2007-02-19",
+      "days": 98,
+      "number": 111,
+      "event": "Raw",
+      "location": "Manchester, England",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r150",
+      "holder": "Umaga",
+      "people": [
+        "umaga"
+      ],
+      "start": "2007-02-19",
+      "end": "2007-04-16",
+      "days": 56,
+      "number": 112,
+      "event": "Raw",
+      "location": "Bakersfield, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r151",
+      "holder": "Santino Marella",
+      "people": [
+        "santino-marella"
+      ],
+      "start": "2007-04-16",
+      "end": "2007-07-02",
+      "days": 77,
+      "number": 113,
+      "event": "Raw",
+      "location": "Milan, Italy",
+      "note": "No Holds Barred match; Marella was picked from the crowd",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r152",
+      "holder": "Umaga",
+      "people": [
+        "umaga"
+      ],
+      "start": "2007-07-02",
+      "end": "2007-09-02",
+      "days": 62,
+      "number": 114,
+      "event": "Raw",
+      "location": "Dallas, TX",
+      "note": "Page lists end date from a tape-delayed episode",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r153",
+      "holder": "Jeff Hardy",
+      "people": [
+        "jeff-hardy"
+      ],
+      "start": "2007-09-02",
+      "end": "2008-03-10",
+      "days": 190,
+      "number": 115,
+      "event": "Raw",
+      "location": "Columbus, OH",
+      "note": "Page lists start date from a tape-delayed episode",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r154",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "2008-03-10",
+      "end": "2008-06-29",
+      "days": 111,
+      "number": 116,
+      "event": "Raw",
+      "location": "Milwaukee, WI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r155",
+      "holder": "Kofi Kingston",
+      "people": [
+        "kofi-kingston"
+      ],
+      "start": "2008-06-29",
+      "end": "2008-08-17",
+      "days": 49,
+      "number": 117,
+      "event": "Night of Champions",
+      "location": "Dallas, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r156",
+      "holder": "Santino Marella",
+      "people": [
+        "santino-marella"
+      ],
+      "start": "2008-08-17",
+      "end": "2008-11-10",
+      "days": 85,
+      "number": 118,
+      "event": "SummerSlam",
+      "location": "Indianapolis, IN",
+      "note": "Winners take all mixed tag match; Marella won Kingston's title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r157",
+      "holder": "William Regal",
+      "people": [
+        "william-regal"
+      ],
+      "start": "2008-11-10",
+      "end": "2009-01-19",
+      "days": 70,
+      "number": 119,
+      "event": "Raw",
+      "location": "Manchester, England",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r2",
@@ -34,13 +2340,36 @@
       ],
       "start": "2009-01-19",
       "end": "2009-03-09",
+      "days": 49,
+      "number": 120,
+      "event": "Raw",
+      "location": "Rosemont, IL",
+      "note": "No disqualification match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-cm-punk-104"
       ]
+    },
+    {
+      "id": "r158",
+      "holder": "John \"Bradshaw\" Layfield",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2009-03-09",
+      "end": "2009-04-05",
+      "days": 27,
+      "number": 121,
+      "event": "Raw",
+      "location": "Jacksonville, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r3",
@@ -50,13 +2379,37 @@
       ],
       "start": "2009-04-05",
       "end": "2009-06-07",
+      "days": 63,
+      "number": 122,
+      "event": "WrestleMania 25",
+      "location": "Houston, TX",
+      "note": "Title became SmackDown exclusive after the 2009 draft",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-663"
       ]
+    },
+    {
+      "id": "r159",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "2009-06-07",
+      "end": "2009-06-28",
+      "days": 21,
+      "number": 123,
+      "event": "Extreme Rules",
+      "location": "New Orleans, LA",
+      "note": "No Holds Barred match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r4",
@@ -65,14 +2418,38 @@
         "rey-mysterio"
       ],
       "start": "2009-06-28",
-      "end": "2009-09-04",
+      "end": "2009-09-01",
+      "days": 65,
+      "number": 124,
+      "event": "The Bash",
+      "location": "Sacramento, CA",
+      "note": "Mask vs title match; page lists end date from a tape-delayed episode",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-662"
       ]
+    },
+    {
+      "id": "r160",
+      "holder": "John Morrison",
+      "people": [
+        "john-morrison"
+      ],
+      "start": "2009-09-01",
+      "end": "2009-12-13",
+      "days": 103,
+      "number": 125,
+      "event": "SmackDown",
+      "location": "Cleveland, OH",
+      "note": "Formerly known as Johnny Nitro",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r5",
@@ -82,13 +2459,108 @@
       ],
       "start": "2009-12-13",
       "end": "2010-05-23",
+      "days": 161,
+      "number": 126,
+      "event": "TLC: Tables, Ladders & Chairs",
+      "location": "San Antonio, TX",
+      "note": "Suspended and title vacated in 2010; Vince McMahon reversed the decision",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-drew-mcintyre-208"
       ]
+    },
+    {
+      "id": "r161",
+      "holder": "Kofi Kingston",
+      "people": [
+        "kofi-kingston"
+      ],
+      "start": "2010-05-23",
+      "end": "2010-07-28",
+      "days": 66,
+      "number": 127,
+      "event": "Over the Limit",
+      "location": "Detroit, MI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r162",
+      "holder": "Dolph Ziggler",
+      "people": [
+        "dolph-ziggler"
+      ],
+      "start": "2010-07-28",
+      "end": "2011-01-04",
+      "days": 160,
+      "number": 128,
+      "event": "SmackDown",
+      "location": "Laredo, TX",
+      "note": "Dates listed from tape-delayed episodes",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r163",
+      "holder": "Kofi Kingston",
+      "people": [
+        "kofi-kingston"
+      ],
+      "start": "2011-01-04",
+      "end": "2011-03-22",
+      "days": 77,
+      "number": 129,
+      "event": "SmackDown",
+      "location": "Tucson, AZ",
+      "note": "Dates listed from tape-delayed episodes",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r164",
+      "holder": "Wade Barrett",
+      "people": [
+        "wade-barrett"
+      ],
+      "start": "2011-03-22",
+      "end": "2011-06-19",
+      "days": 89,
+      "number": 130,
+      "event": "SmackDown",
+      "location": "Columbus, OH",
+      "note": "Start date listed from a tape-delayed episode",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r165",
+      "holder": "Ezekiel Jackson",
+      "people": [
+        "ezekiel-jackson"
+      ],
+      "start": "2011-06-19",
+      "end": "2011-08-09",
+      "days": 51,
+      "number": 131,
+      "event": "Capitol Punishment",
+      "location": "Washington, D.C.",
+      "note": "End date listed from a tape-delayed episode",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r6",
@@ -98,13 +2570,36 @@
       ],
       "start": "2011-08-12",
       "end": "2012-04-01",
+      "days": 236,
+      "number": 132,
+      "event": "SmackDown",
+      "location": "Sacramento, CA",
+      "note": "Brand extension ended in August 2011",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-cody-rhodes-127"
       ]
+    },
+    {
+      "id": "r166",
+      "holder": "Big Show",
+      "people": [
+        "big-show"
+      ],
+      "start": "2012-04-01",
+      "end": "2012-04-29",
+      "days": 28,
+      "number": 133,
+      "event": "WrestleMania XXVIII",
+      "location": "Miami Gardens, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r7",
@@ -114,13 +2609,36 @@
       ],
       "start": "2012-04-29",
       "end": "2012-05-20",
+      "days": 21,
+      "number": 134,
+      "event": "Extreme Rules",
+      "location": "Rosemont, IL",
+      "note": "Tables match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-cody-rhodes-126"
       ]
+    },
+    {
+      "id": "r167",
+      "holder": "Christian",
+      "people": [
+        "christian"
+      ],
+      "start": "2012-05-20",
+      "end": "2012-07-23",
+      "days": 64,
+      "number": 135,
+      "event": "Over the Limit",
+      "location": "Raleigh, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r8",
@@ -129,14 +2647,55 @@
         "the-miz"
       ],
       "start": "2012-07-23",
-      "end": "2012-10-17",
+      "end": "2012-10-16",
+      "days": 85,
+      "number": 136,
+      "event": "Raw 1000",
+      "location": "St. Louis, MO",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-the-miz-823"
       ]
+    },
+    {
+      "id": "r168",
+      "holder": "Kofi Kingston",
+      "people": [
+        "kofi-kingston"
+      ],
+      "start": "2012-10-16",
+      "end": "2012-12-29",
+      "days": 74,
+      "number": 137,
+      "event": "Main Event",
+      "location": "Memphis, TN",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r169",
+      "holder": "Wade Barrett",
+      "people": [
+        "wade-barrett"
+      ],
+      "start": "2012-12-29",
+      "end": "2013-04-07",
+      "days": 99,
+      "number": 138,
+      "event": "Raw",
+      "location": "Washington, D.C.",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r9",
@@ -146,13 +2705,89 @@
       ],
       "start": "2013-04-07",
       "end": "2013-04-08",
+      "days": 1,
+      "number": 139,
+      "event": "WrestleMania 29 Pre-Show",
+      "location": "East Rutherford, NJ",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-the-miz-822"
       ]
+    },
+    {
+      "id": "r170",
+      "holder": "Wade Barrett",
+      "people": [
+        "wade-barrett"
+      ],
+      "start": "2013-04-08",
+      "end": "2013-06-16",
+      "days": 69,
+      "number": 140,
+      "event": "Raw",
+      "location": "East Rutherford, NJ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r171",
+      "holder": "Curtis Axel",
+      "people": [
+        "curtis-axel"
+      ],
+      "start": "2013-06-16",
+      "end": "2013-11-18",
+      "days": 155,
+      "number": 141,
+      "event": "Payback",
+      "location": "Rosemont, IL",
+      "note": "Triple threat match with The Miz",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r172",
+      "holder": "Big E Langston",
+      "people": [
+        "big-e-langston"
+      ],
+      "start": "2013-11-18",
+      "end": "2014-05-04",
+      "days": 167,
+      "number": 142,
+      "event": "Raw",
+      "location": "Nashville, TN",
+      "note": "Ring name later shortened to Big E",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r173",
+      "holder": "Bad News Barrett",
+      "people": [
+        "wade-barrett"
+      ],
+      "start": "2014-05-04",
+      "end": "2014-06-30",
+      "days": 57,
+      "number": 143,
+      "event": "Extreme Rules",
+      "location": "East Rutherford, NJ",
+      "note": "Formerly known as Wade Barrett",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r10",
@@ -162,13 +2797,36 @@
       ],
       "start": "2014-07-20",
       "end": "2014-08-17",
+      "days": 28,
+      "number": 144,
+      "event": "Battleground",
+      "location": "Tampa, FL",
+      "note": "19-man battle royal to win the vacant title",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-the-miz-821"
       ]
+    },
+    {
+      "id": "r174",
+      "holder": "Dolph Ziggler",
+      "people": [
+        "dolph-ziggler"
+      ],
+      "start": "2014-08-17",
+      "end": "2014-09-21",
+      "days": 35,
+      "number": 145,
+      "event": "SummerSlam",
+      "location": "Los Angeles, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r11",
@@ -178,13 +2836,124 @@
       ],
       "start": "2014-09-21",
       "end": "2014-09-22",
+      "days": 1,
+      "number": 146,
+      "event": "Night of Champions",
+      "location": "Nashville, TN",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-the-miz-820"
       ]
+    },
+    {
+      "id": "r175",
+      "holder": "Dolph Ziggler",
+      "people": [
+        "dolph-ziggler"
+      ],
+      "start": "2014-09-22",
+      "end": "2014-11-17",
+      "days": 56,
+      "number": 147,
+      "event": "Raw",
+      "location": "Memphis, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r176",
+      "holder": "Luke Harper",
+      "people": [
+        "luke-harper"
+      ],
+      "start": "2014-11-17",
+      "end": "2014-12-14",
+      "days": 27,
+      "number": 148,
+      "event": "Raw",
+      "location": "Roanoke, VA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r177",
+      "holder": "Dolph Ziggler",
+      "people": [
+        "dolph-ziggler"
+      ],
+      "start": "2014-12-14",
+      "end": "2015-01-05",
+      "days": 22,
+      "number": 149,
+      "event": "TLC: Tables, Ladders & Chairs",
+      "location": "Cleveland, OH",
+      "note": "Ladder match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r178",
+      "holder": "Bad News Barrett",
+      "people": [
+        "wade-barrett"
+      ],
+      "start": "2015-01-05",
+      "end": "2015-03-29",
+      "days": 83,
+      "number": 150,
+      "event": "Raw",
+      "location": "Corpus Christi, TX",
+      "note": "Kane changed the original match to two-out-of-three falls",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r179",
+      "holder": "Daniel Bryan",
+      "people": [
+        "daniel-bryan"
+      ],
+      "start": "2015-03-29",
+      "end": "2015-05-11",
+      "days": 43,
+      "number": 151,
+      "event": "WrestleMania 31",
+      "location": "Santa Clara, CA",
+      "note": "Seven-way ladder match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r180",
+      "holder": "Ryback",
+      "people": [
+        "ryback"
+      ],
+      "start": "2015-05-31",
+      "end": "2015-09-20",
+      "days": 112,
+      "number": 152,
+      "event": "Elimination Chamber",
+      "location": "Corpus Christi, TX",
+      "note": "Elimination Chamber match for the vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r12",
@@ -194,13 +2963,35 @@
       ],
       "start": "2015-09-20",
       "end": "2015-12-13",
+      "days": 84,
+      "number": 153,
+      "event": "Night of Champions",
+      "location": "Houston, TX",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-kevin-owens-378"
       ]
+    },
+    {
+      "id": "r181",
+      "holder": "Dean Ambrose",
+      "people": [
+        "dean-ambrose"
+      ],
+      "start": "2015-12-13",
+      "end": "2016-02-15",
+      "days": 64,
+      "number": 154,
+      "event": "TLC: Tables, Ladders & Chairs",
+      "location": "Boston, MA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r13",
@@ -210,9 +3001,15 @@
       ],
       "start": "2016-02-15",
       "end": "2016-04-03",
+      "days": 48,
+      "number": 155,
+      "event": "Raw",
+      "location": "Anaheim, CA",
+      "note": "Fatal five-way match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-kevin-owens-377"
@@ -226,9 +3023,15 @@
       ],
       "start": "2016-04-03",
       "end": "2016-04-04",
+      "days": 1,
+      "number": 156,
+      "event": "WrestleMania 32",
+      "location": "Arlington, TX",
+      "note": "Seven-way ladder match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-matt-cardona-430"
@@ -242,13 +3045,37 @@
       ],
       "start": "2016-04-04",
       "end": "2016-10-09",
+      "days": 188,
+      "number": 157,
+      "event": "Raw",
+      "location": "Dallas, TX",
+      "note": "Title became SmackDown exclusive after the 2016 draft",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-the-miz-818"
       ]
+    },
+    {
+      "id": "r182",
+      "holder": "Dolph Ziggler",
+      "people": [
+        "dolph-ziggler"
+      ],
+      "start": "2016-10-09",
+      "end": "2016-11-15",
+      "days": 37,
+      "number": 158,
+      "event": "No Mercy",
+      "location": "Sacramento, CA",
+      "note": "Title vs career match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r16",
@@ -258,13 +3085,36 @@
       ],
       "start": "2016-11-15",
       "end": "2017-01-03",
+      "days": 49,
+      "number": 159,
+      "event": "SmackDown",
+      "location": "Wilkes-Barre, PA",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-the-miz-817"
       ]
+    },
+    {
+      "id": "r183",
+      "holder": "Dean Ambrose",
+      "people": [
+        "dean-ambrose"
+      ],
+      "start": "2017-01-03",
+      "end": "2017-06-04",
+      "days": 152,
+      "number": 160,
+      "event": "SmackDown",
+      "location": "Jacksonville, FL",
+      "note": "Title became Raw exclusive after the 2017 shake-up",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r17",
@@ -274,9 +3124,15 @@
       ],
       "start": "2017-06-04",
       "end": "2017-11-20",
+      "days": 169,
+      "number": 161,
+      "event": "Extreme Rules",
+      "location": "Baltimore, MD",
+      "note": "Ambrose would have lost the title if disqualified",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-the-miz-816"
@@ -290,9 +3146,14 @@
       ],
       "start": "2017-11-20",
       "end": "2018-01-22",
+      "days": 63,
+      "number": 162,
+      "event": "Raw",
+      "location": "Houston, TX",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-roman-reigns-694"
@@ -306,9 +3167,14 @@
       ],
       "start": "2018-01-22",
       "end": "2018-04-08",
+      "days": 76,
+      "number": 163,
+      "event": "Raw 25 Years",
+      "location": "Brooklyn, NY",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-the-miz-815"
@@ -322,13 +3188,36 @@
       ],
       "start": "2018-04-08",
       "end": "2018-06-18",
+      "days": 71,
+      "number": 164,
+      "event": "WrestleMania 34",
+      "location": "New Orleans, LA",
+      "note": "Triple threat match with Finn Balor",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-seth-rollins-739"
       ]
+    },
+    {
+      "id": "r184",
+      "holder": "Dolph Ziggler",
+      "people": [
+        "dolph-ziggler"
+      ],
+      "start": "2018-06-18",
+      "end": "2018-08-19",
+      "days": 62,
+      "number": 165,
+      "event": "Raw",
+      "location": "Grand Rapids, MI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r21",
@@ -338,41 +3227,110 @@
       ],
       "start": "2018-08-19",
       "end": "2018-12-16",
+      "days": 119,
+      "number": 166,
+      "event": "SummerSlam",
+      "location": "Brooklyn, NY",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-seth-rollins-738"
       ]
     },
     {
+      "id": "r185",
+      "holder": "Dean Ambrose",
+      "people": [
+        "dean-ambrose"
+      ],
+      "start": "2018-12-16",
+      "end": "2019-01-14",
+      "days": 29,
+      "number": 167,
+      "event": "TLC: Tables, Ladders & Chairs",
+      "location": "San Jose, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r186",
+      "holder": "Bobby Lashley",
+      "people": [
+        "bobby-lashley"
+      ],
+      "start": "2019-01-14",
+      "end": "2019-02-17",
+      "days": 34,
+      "number": 168,
+      "event": "Raw",
+      "location": "Memphis, TN",
+      "note": "Triple threat match with Seth Rollins",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r22",
-      "holder": "Finn Bálor",
+      "holder": "Finn Balor",
       "people": [
         "finn-balor"
       ],
       "start": "2019-02-17",
       "end": "2019-03-11",
+      "days": 22,
+      "number": 169,
+      "event": "Elimination Chamber",
+      "location": "Houston, TX",
+      "note": "Two-on-one handicap match; Balor pinned Lio Rush",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-finn-balor-276"
       ]
     },
     {
+      "id": "r187",
+      "holder": "Bobby Lashley",
+      "people": [
+        "bobby-lashley"
+      ],
+      "start": "2019-03-11",
+      "end": "2019-04-07",
+      "days": 27,
+      "number": 170,
+      "event": "Raw",
+      "location": "Pittsburgh, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r23",
-      "holder": "Finn Bálor",
+      "holder": "Finn Balor",
       "people": [
         "finn-balor"
       ],
       "start": "2019-04-07",
       "end": "2019-07-14",
+      "days": 98,
+      "number": 171,
+      "event": "WrestleMania 35",
+      "location": "East Rutherford, NJ",
+      "note": "Title became SmackDown exclusive after the 2019 shake-up",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-finn-balor-275"
@@ -386,13 +3344,35 @@
       ],
       "start": "2019-07-14",
       "end": "2020-01-31",
+      "days": 201,
+      "number": 172,
+      "event": "Extreme Rules Kickoff",
+      "location": "Philadelphia, PA",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-shinsuke-nakamura-765"
       ]
+    },
+    {
+      "id": "r188",
+      "holder": "Braun Strowman",
+      "people": [
+        "braun-strowman"
+      ],
+      "start": "2020-01-31",
+      "end": "2020-03-08",
+      "days": 37,
+      "number": 173,
+      "event": "SmackDown",
+      "location": "Tulsa, OK",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r25",
@@ -402,13 +3382,55 @@
       ],
       "start": "2020-03-08",
       "end": "2020-05-12",
+      "days": 65,
+      "number": 174,
+      "event": "Elimination Chamber",
+      "location": "Philadelphia, PA",
+      "note": "Three-on-one handicap match; Zayn pinned Strowman",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-sami-zayn-712"
       ]
+    },
+    {
+      "id": "r189",
+      "holder": "AJ Styles",
+      "people": [
+        "aj-styles"
+      ],
+      "start": "2020-06-08",
+      "end": "2020-08-21",
+      "days": 74,
+      "number": 175,
+      "event": "SmackDown",
+      "location": "Orlando, FL",
+      "note": "Tournament final win for the vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r190",
+      "holder": "Jeff Hardy",
+      "people": [
+        "jeff-hardy"
+      ],
+      "start": "2020-08-21",
+      "end": "2020-09-27",
+      "days": 37,
+      "number": 176,
+      "event": "SmackDown",
+      "location": "Orlando, FL",
+      "note": "Zayn returned claiming to be the true champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r26",
@@ -417,26 +3439,74 @@
         "sami-zayn"
       ],
       "start": "2020-09-27",
-      "end": "2020-12-25",
+      "end": "2020-12-22",
+      "days": 86,
+      "number": 177,
+      "event": "Clash of Champions",
+      "location": "Orlando, FL",
+      "note": "Triple threat ladder match with AJ Styles",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-sami-zayn-711"
       ]
     },
     {
+      "id": "r191",
+      "holder": "Big E",
+      "people": [
+        "big-e"
+      ],
+      "start": "2020-12-22",
+      "end": "2021-04-11",
+      "days": 110,
+      "number": 178,
+      "event": "SmackDown",
+      "location": "St. Petersburg, FL",
+      "note": "Lumberjack match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r192",
+      "holder": "Apollo Crews",
+      "people": [
+        "apollo-crews"
+      ],
+      "start": "2021-04-11",
+      "end": "2021-08-13",
+      "days": 124,
+      "number": 179,
+      "event": "WrestleMania 37 Night 2",
+      "location": "Tampa, FL",
+      "note": "Nigerian Drum Fight",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r27",
-      "holder": "Shinsuke Nakamura",
+      "holder": "King Nakamura",
       "people": [
         "shinsuke-nakamura"
       ],
       "start": "2021-08-13",
-      "end": "2022-02-18",
+      "end": "2022-02-11",
+      "days": 182,
+      "number": 180,
+      "event": "SmackDown",
+      "location": "Tulsa, OK",
+      "note": "Name reverted to Shinsuke Nakamura in October 2021",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-shinsuke-nakamura-763"
@@ -450,13 +3520,35 @@
       ],
       "start": "2022-02-18",
       "end": "2022-03-04",
+      "days": 21,
+      "number": 181,
+      "event": "SmackDown",
+      "location": "New Orleans, LA",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-sami-zayn-710"
       ]
+    },
+    {
+      "id": "r193",
+      "holder": "Ricochet",
+      "people": [
+        "ricochet"
+      ],
+      "start": "2022-03-04",
+      "end": "2022-06-10",
+      "days": 98,
+      "number": 182,
+      "event": "SmackDown",
+      "location": "Miami, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r29",
@@ -466,9 +3558,15 @@
       ],
       "start": "2022-06-10",
       "end": "2024-04-06",
+      "days": 666,
+      "number": 183,
+      "event": "SmackDown",
+      "location": "Baton Rouge, LA",
+      "note": "Title became Raw exclusive after the 2023 draft",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-gunther-303"
@@ -482,9 +3580,14 @@
       ],
       "start": "2024-04-06",
       "end": "2024-08-03",
+      "days": 119,
+      "number": 184,
+      "event": "WrestleMania XL Night 1",
+      "location": "Philadelphia, PA",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-sami-zayn-707"
@@ -498,9 +3601,14 @@
       ],
       "start": "2024-08-03",
       "end": "2024-09-23",
+      "days": 51,
+      "number": 185,
+      "event": "SummerSlam",
+      "location": "Cleveland, OH",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-bron-breakker-63"
@@ -514,9 +3622,14 @@
       ],
       "start": "2024-09-23",
       "end": "2024-10-21",
+      "days": 28,
+      "number": 186,
+      "event": "Raw",
+      "location": "Ontario, CA",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "profile-reign-jey-uso-329"
@@ -530,9 +3643,14 @@
       ],
       "start": "2024-10-21",
       "end": "2025-04-20",
+      "days": 181,
+      "number": 187,
+      "event": "Raw",
+      "location": "Philadelphia, PA",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/intercontinental-championship"
+        "https://www.wwe.com/titlehistory/intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "2025-intercontinental-2024-10-21-bron-breakker"
@@ -546,9 +3664,15 @@
       ],
       "start": "2025-04-20",
       "end": "2025-11-10",
+      "days": 204,
+      "number": 188,
+      "event": "WrestleMania 41 Night 2",
+      "location": "Paradise, NV",
+      "note": "Fatal four-way; he pinned Finn Bálor",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/intercontinental-championship"
+        "https://www.wwe.com/titlehistory/intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "2025-intercontinental-2025-04-20-dominik-mysterio"
@@ -562,9 +3686,15 @@
       ],
       "start": "2025-11-10",
       "end": "2025-11-29",
+      "days": 19,
+      "number": 189,
+      "event": "Raw",
+      "location": "Boston, MA",
+      "note": "WWE recognizes 18 days",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/intercontinental-championship"
+        "https://www.wwe.com/titlehistory/intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "2025-intercontinental-2025-11-10-john-cena"
@@ -578,9 +3708,15 @@
       ],
       "start": "2025-11-29",
       "end": "2026-03-02",
+      "days": 93,
+      "number": 190,
+      "event": "Survivor Series: WarGames",
+      "location": "San Diego, CA",
+      "note": "No notes on page",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/intercontinental-championship"
+        "https://www.wwe.com/titlehistory/intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "intercontinental-1"
@@ -594,9 +3730,15 @@
       ],
       "start": "2026-03-02",
       "end": "2026-08-02",
+      "days": 153,
+      "number": 191,
+      "event": "Raw",
+      "location": "Indianapolis, IN",
+      "note": "No notes on page",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/intercontinental-championship"
+        "https://www.wwe.com/titlehistory/intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "intercontinental-2"
@@ -609,15 +3751,19 @@
         "chad-gable"
       ],
       "start": "2026-08-02",
+      "days": 46,
+      "number": 192,
+      "event": "SummerSlam Night 2",
+      "location": "Minneapolis, MN",
+      "note": "Current champion; won by defeating Penta",
       "curated": true,
       "sources": [
-        "https://www.wwe.com/titlehistory/intercontinental-championship"
+        "https://www.wwe.com/titlehistory/intercontinental-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Intercontinental_Champions"
       ],
       "legacyIds": [
         "intercontinental-3"
       ]
     }
-  ],
-  "short": "IC",
-  "featured": true
+  ]
 }

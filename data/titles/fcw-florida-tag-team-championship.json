@@ -1,71 +1,377 @@
 {
   "id": "fcw-florida-tag-team-championship",
   "name": "FCW Florida Tag Team Championship",
-  "names": [
-    "FCW Florida Tag Team Championship"
+  "promotion": "wwe",
+  "division": "men",
+  "format": "tag",
+  "established": "2008-02-23",
+  "retired": "2012-08-14",
+  "names": [],
+  "eras": [
+    {
+      "name": "FCW Florida Tag Team Championship",
+      "from": "2008-02-23"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "2012-08-14",
+      "kind": "deactivated",
+      "text": "Titles deactivated when FCW closed down.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2012-08-14",
+      "kind": "retired",
+      "text": "The title was retired when FCW closed and the NXT brand was created.",
+      "related": [
+        "NXT Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2013",
+      "kind": "replaced-by",
+      "text": "The NXT Tag Team Championship replaced this title in early 2013.",
+      "related": [
+        "NXT Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+  ],
   "reigns": [
     {
-      "id": "r1",
-      "holder": "Drew McIntyre & Stu Sanders",
+      "id": "r7",
+      "holder": "The Puerto Rican Nightmares",
       "people": [
-        "drew-mcintyre"
+        "primo",
+        "eric-perez"
+      ],
+      "start": "2008-02-23",
+      "end": "2008-03-23",
+      "days": 29,
+      "number": 1,
+      "event": "Live event",
+      "location": "Port Richey, FL",
+      "note": "Defeated Steven Lewington and Heath Miller in one-night tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Brad Allen & Nic Nemeth",
+      "people": [
+        "brad-allen",
+        "dolph-ziggler"
+      ],
+      "start": "2008-03-23",
+      "end": "2008-04-15",
+      "days": 23,
+      "number": 2,
+      "event": "Live event",
+      "location": "Port Richey, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "The Puerto Rican Nightmares",
+      "people": [
+        "primo",
+        "eric-perez"
+      ],
+      "start": "2008-04-15",
+      "end": "2008-05-06",
+      "days": 22,
+      "number": 3,
+      "event": "Live event",
+      "location": "Port Richey, FL",
+      "note": "Won titles by disqualification; titles could change hands on DQ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r1",
+      "holder": "The Empire",
+      "people": [
+        "drew-mcintyre",
+        "stu-sanders"
       ],
       "start": "2008-05-06",
       "end": "2008-07-12",
+      "days": 66,
+      "number": 4,
+      "event": "Live event",
+      "location": "Port Richey, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/fcw-florida-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/fcw-florida-tag-team-championship",
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-drew-mcintyre-211"
       ]
     },
     {
-      "id": "r2",
-      "holder": "Drew McIntyre & Stu Sanders",
+      "id": "r10",
+      "holder": "Gabe Tuft & Joe Hennig",
       "people": [
-        "drew-mcintyre"
+        "tyler-reks",
+        "joe-hennig"
+      ],
+      "start": "2008-07-12",
+      "end": "2008-07-15",
+      "days": 3,
+      "number": 5,
+      "event": "Live event",
+      "location": "Port Richey, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r2",
+      "holder": "The Empire",
+      "people": [
+        "drew-mcintyre",
+        "stu-sanders"
       ],
       "start": "2008-07-15",
       "end": "2008-07-17",
+      "days": 2,
+      "number": 6,
+      "event": "Live event",
+      "location": "Port Richey, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/fcw-florida-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/fcw-florida-tag-team-championship",
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-drew-mcintyre-210"
       ]
     },
     {
-      "id": "r3",
-      "holder": "Shawn Spears & Nick Nemeth",
+      "id": "r11",
+      "holder": "The Puerto Rican Nightmares",
       "people": [
-        "shawn-spears"
+        "primo",
+        "eric-perez"
+      ],
+      "start": "2008-07-17",
+      "end": "2008-08-16",
+      "days": 30,
+      "number": 7,
+      "event": "Live event",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Gavin Spears & Nic Nemeth",
+      "people": [
+        "shawn-spears",
+        "dolph-ziggler"
       ],
       "start": "2008-08-16",
       "end": "2008-09-11",
+      "days": 26,
+      "number": 8,
+      "event": "Live event",
+      "location": "New Port Richey, FL",
+      "note": "Three-way match also involving Scotty Goldman and Kafu",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/fcw-florida-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/fcw-florida-tag-team-championship",
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-shawn-spears-756"
       ]
     },
     {
+      "id": "r12",
+      "holder": "Heath Miller/Sebastian Slater & Joe Hennig",
+      "people": [
+        "heath-slater",
+        "joe-hennig"
+      ],
+      "start": "2008-09-11",
+      "end": "2008-10-30",
+      "days": 49,
+      "number": 9,
+      "event": "Live event",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Next Generation Hart Foundation",
+      "people": [
+        "d-h-smith",
+        "tyson-kidd"
+      ],
+      "start": "2008-10-30",
+      "end": "2008-12-11",
+      "days": 42,
+      "number": 10,
+      "event": "Live event",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Johnny Curtis & Tyler Reks",
+      "people": [
+        "johnny-curtis",
+        "tyler-reks"
+      ],
+      "start": "2008-12-11",
+      "end": "2009-04-30",
+      "days": 140,
+      "number": 11,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "The Dude Busters",
+      "people": [
+        "caylen-croft",
+        "trent-barreta"
+      ],
+      "start": "2009-04-30",
+      "end": "2009-07-23",
+      "days": 84,
+      "number": 12,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Justin Gabriel & Kris Logan",
+      "people": [
+        "justin-gabriel",
+        "kris-logan"
+      ],
+      "start": "2009-07-23",
+      "end": "2009-07-23",
+      "days": 0,
+      "number": 13,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "The Rotundos",
+      "people": [
+        "uncle-howdy",
+        "bray-wyatt"
+      ],
+      "start": "2009-07-23",
+      "end": "2009-11-19",
+      "days": 119,
+      "number": 14,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "The Dude Busters",
+      "people": [
+        "caylen-croft",
+        "trent-barreta",
+        "curt-hawkins"
+      ],
+      "start": "2009-11-19",
+      "end": "2010-01-14",
+      "days": 56,
+      "number": 15,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "note": "Hawkins and Croft won titles; defended under Freebird Rule",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "The Fortunate Sons",
+      "people": [
+        "joe-hennig",
+        "brett-dibiase"
+      ],
+      "start": "2010-01-14",
+      "end": "2010-03-13",
+      "days": 58,
+      "number": 16,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "note": "Defeated Caylen Croft and Trent Barreta",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r4",
-      "holder": "Jimmy Uso & Jules Uso",
+      "holder": "The Usos",
       "people": [
         "jey-uso",
         "jimmy-uso"
       ],
       "start": "2010-03-13",
       "end": "2010-06-03",
+      "days": 82,
+      "number": 17,
+      "event": "Live event",
+      "location": "Crystal River, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/fcw-florida-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/fcw-florida-tag-team-championship",
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-jey-uso-340",
@@ -73,36 +379,286 @@
       ]
     },
     {
+      "id": "r20",
+      "holder": "Los Aviadores",
+      "people": [
+        "epico",
+        "hunico"
+      ],
+      "start": "2010-06-03",
+      "end": "2010-07-15",
+      "days": 42,
+      "number": 18,
+      "event": "Live event",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Kaval & Michael McGillicutty",
+      "people": [
+        "kaval",
+        "curtis-axel"
+      ],
+      "start": "2010-07-15",
+      "end": "2010-07-16",
+      "days": 1,
+      "number": 19,
+      "event": "Live event",
+      "location": "Tampa, FL",
+      "note": "Legitimate unplanned finish; Los Aviadores were supposed to retain",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Los Aviadores",
+      "people": [
+        "epico",
+        "hunico"
+      ],
+      "start": "2010-07-16",
+      "end": "2010-08-12",
+      "days": 28,
+      "number": 20,
+      "event": "Live event",
+      "location": "Sebring, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Derrick Bateman & Johnny Curtis",
+      "people": [
+        "derrick-bateman",
+        "johnny-curtis"
+      ],
+      "start": "2010-08-12",
+      "end": "2010-11-04",
+      "days": 84,
+      "number": 21,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "note": "Three-way match also involving Brodus Clay and Donny Marlow",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Wes Brisco & Xavier Woods",
+      "people": [
+        "wes-brisco",
+        "xavier-woods"
+      ],
+      "start": "2010-11-04",
+      "end": "2010-12-01",
+      "days": 27,
+      "number": 22,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Damien Sandow & Titus O'Neil",
+      "people": [
+        "damien-sandow",
+        "titus-oneil"
+      ],
+      "start": "2010-12-03",
+      "end": "2011-03-25",
+      "days": 112,
+      "number": 23,
+      "event": "Live event",
+      "location": "Plant City, FL",
+      "note": "Defeated Mason Ryan and Xavier Woods to win vacant titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r5",
       "holder": "Richie Steamboat & Seth Rollins",
       "people": [
-        "seth-rollins"
+        "seth-rollins",
+        "richie-steamboat"
       ],
       "start": "2011-03-25",
       "end": "2011-05-12",
+      "days": 48,
+      "number": 24,
+      "event": "Live event",
+      "location": "Miami, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/fcw-florida-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/fcw-florida-tag-team-championship",
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-seth-rollins-748"
       ]
     },
     {
+      "id": "r26",
+      "holder": "Big E Langston & Calvin Raines",
+      "people": [
+        "big-e-langston",
+        "calvin-raines"
+      ],
+      "start": "2011-05-12",
+      "end": "2011-07-21",
+      "days": 70,
+      "number": 25,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "CJ Parker & Donnie Marlow",
+      "people": [
+        "c-j-parker",
+        "donnie-marlow"
+      ],
+      "start": "2011-07-21",
+      "end": "2011-11-03",
+      "days": 105,
+      "number": 26,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Brad Maddox & Briley Pierce",
+      "people": [
+        "brad-maddox",
+        "briley-pierce"
+      ],
+      "start": "2011-11-03",
+      "end": "2012-02-02",
+      "days": 91,
+      "number": 27,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "The Rotundos",
+      "people": [
+        "uncle-howdy",
+        "bray-wyatt"
+      ],
+      "start": "2012-02-02",
+      "end": "2012-03-15",
+      "days": 42,
+      "number": 28,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "note": "Defeated Brad Maddox and Eli Cottonwood to win vacant titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Corey Graves & Jake Carter",
+      "people": [
+        "corey-graves",
+        "jake-carter"
+      ],
+      "start": "2012-03-15",
+      "end": "2012-06-15",
+      "days": 93,
+      "number": 29,
+      "event": "FCW",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r6",
       "holder": "Leakee & Mike Dalton",
       "people": [
-        "roman-reigns"
+        "roman-reigns",
+        "mike-dalton"
       ],
       "start": "2012-06-15",
       "end": "2012-07-13",
+      "days": 28,
+      "number": 30,
+      "event": "Live event",
+      "location": "Palatka, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/fcw-florida-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/fcw-florida-tag-team-championship",
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-roman-reigns-700"
       ]
+    },
+    {
+      "id": "r31",
+      "holder": "CJ Parker & Jason Jordan",
+      "people": [
+        "c-j-parker",
+        "jason-jordan"
+      ],
+      "start": "2012-07-13",
+      "end": "2012-07-28",
+      "days": 15,
+      "number": 31,
+      "event": "Live event",
+      "location": "Punta Gorda, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Brad Maddox & Rick Victor",
+      "people": [
+        "brad-maddox",
+        "viktor"
+      ],
+      "start": "2012-07-28",
+      "end": "2012-08-14",
+      "days": 17,
+      "number": 32,
+      "event": "Live event",
+      "location": "Melbourne, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/FCW_Florida_Tag_Team_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

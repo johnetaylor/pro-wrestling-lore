@@ -1,10 +1,71 @@
 {
   "id": "aew-tnt-championship",
   "name": "AEW TNT Championship",
-  "names": [
-    "AEW TNT Championship"
+  "promotion": "aew",
+  "division": "men",
+  "format": "singles",
+  "established": "2020-03-30",
+  "names": [],
+  "eras": [
+    {
+      "name": "AEW TNT Championship",
+      "from": "2020-03-30"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "2020-12-30",
+      "kind": "retired",
+      "text": "The red-strap belt design was retired in honor of Mr. Brodie Lee, though the article says the championship itself was not retired.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_TNT_Championship"
+      ]
+    },
+    {
+      "date": "2020-12-30",
+      "kind": "recognition",
+      "text": "Brodie Lee Jr. was honored as \"TNT Champion for life\" by Tony Khan.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_TNT_Championship"
+      ]
+    },
+    {
+      "date": "2021-01-06",
+      "kind": "replaced-by",
+      "text": "Darby Allin unveiled a new black-strap version of the belt, replacing the retired red-strap design.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_TNT_Championship"
+      ]
+    },
+    {
+      "date": "2022-01-08",
+      "kind": "interim",
+      "text": "Sammy Guevara beat Dustin Rhodes to become interim champion after Cody Rhodes withdrew from the scheduled title match due to a COVID-19 quarantine.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_TNT_Championship"
+      ]
+    },
+    {
+      "date": "2022-01-26",
+      "kind": "interim",
+      "text": "Guevara beat Cody Rhodes in a ladder match to become the undisputed champion, ending the interim status.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_TNT_Championship"
+      ]
+    },
+    {
+      "date": "2022-01",
+      "kind": "brand",
+      "text": "Dynamite moved to TBS while Rampage stayed on TNT; the title was defended on quarterly TNT Battle of the Belts specials.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_TNT_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions",
+    "https://en.wikipedia.org/wiki/AEW_TNT_Championship"
+  ],
   "reigns": [
     {
       "id": "r1",
@@ -13,14 +74,38 @@
         "cody-rhodes"
       ],
       "start": "2020-05-23",
-      "end": "2020-08-22",
+      "end": "2020-08-13",
+      "days": 82,
+      "number": 1,
+      "event": "Double or Nothing",
+      "location": "Jacksonville, FL",
+      "note": "Won eight-man tournament final; AEW counts reign ending 2020-08-22 (tape delay)",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aew/aew-tnt-championship"
+        "https://www.thesmackdownhotel.com/title-history/aew/aew-tnt-championship",
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
       ],
       "legacyIds": [
         "profile-reign-cody-rhodes-118"
       ]
+    },
+    {
+      "id": "r6",
+      "holder": "Mr. Brodie Lee",
+      "people": [
+        "luke-harper"
+      ],
+      "start": "2020-08-13",
+      "end": "2020-10-07",
+      "days": 55,
+      "number": 2,
+      "event": "Dynamite",
+      "location": "Jacksonville, FL",
+      "note": "AEW recognizes reign starting 2020-08-22 (tape delay)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r2",
@@ -30,13 +115,36 @@
       ],
       "start": "2020-10-07",
       "end": "2020-11-07",
+      "days": 31,
+      "number": 3,
+      "event": "Dynamite: Chris Jericho's 30th Anniversary Celebration",
+      "location": "Jacksonville, FL",
+      "note": "Dog Collar match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aew/aew-tnt-championship"
+        "https://www.thesmackdownhotel.com/title-history/aew/aew-tnt-championship",
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
       ],
       "legacyIds": [
         "profile-reign-cody-rhodes-117"
       ]
+    },
+    {
+      "id": "r7",
+      "holder": "Darby Allin",
+      "people": [
+        "darby-allin"
+      ],
+      "start": "2020-11-07",
+      "end": "2021-05-12",
+      "days": 186,
+      "number": 4,
+      "event": "Full Gear",
+      "location": "Jacksonville, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r3",
@@ -46,13 +154,36 @@
       ],
       "start": "2021-05-12",
       "end": "2021-09-29",
+      "days": 140,
+      "number": 5,
+      "event": "Dynamite",
+      "location": "Jacksonville, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aew/aew-tnt-championship"
+        "https://www.thesmackdownhotel.com/title-history/aew/aew-tnt-championship",
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
       ],
       "legacyIds": [
         "profile-reign-rusev-703"
       ]
+    },
+    {
+      "id": "r8",
+      "holder": "Sammy Guevara",
+      "people": [
+        "sammy-guevara"
+      ],
+      "start": "2021-09-29",
+      "end": "2021-12-22",
+      "days": 84,
+      "number": 6,
+      "event": "Dynamite",
+      "location": "Rochester, NY",
+      "note": "AEW recognizes reign ending 2021-12-25 (tape delay)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r4",
@@ -62,13 +193,197 @@
       ],
       "start": "2021-12-25",
       "end": "2022-01-26",
+      "days": 35,
+      "number": 7,
+      "event": "Rampage: Holiday Bash",
+      "location": "Greensboro, NC",
+      "note": "Previously known as Cody; AEW recognizes 2021-12-25 to 2022-01-26",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aew/aew-tnt-championship"
+        "https://www.thesmackdownhotel.com/title-history/aew/aew-tnt-championship",
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
       ],
       "legacyIds": [
         "profile-reign-cody-rhodes-116"
       ]
+    },
+    {
+      "id": "r9",
+      "holder": "Sammy Guevara (Interim)",
+      "people": [
+        "sammy-guevara"
+      ],
+      "start": "2022-01-08",
+      "end": "2022-01-26",
+      "days": 18,
+      "kind": "interim",
+      "event": "Battle of the Belts I",
+      "location": "Charlotte, NC",
+      "note": "Interim title; Rhodes pulled from scheduled defense due to COVID-19 issues",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Sammy Guevara",
+      "people": [
+        "sammy-guevara"
+      ],
+      "start": "2022-01-26",
+      "end": "2022-03-09",
+      "days": 42,
+      "number": 8,
+      "event": "Dynamite: Beach Break",
+      "location": "Cleveland, OH",
+      "note": "Ladder match defeating lineal champion Rhodes",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Scorpio Sky",
+      "people": [
+        "scorpio-sky"
+      ],
+      "start": "2022-03-09",
+      "end": "2022-04-15",
+      "days": 37,
+      "number": 9,
+      "event": "Dynamite",
+      "location": "Estero, FL",
+      "note": "AEW recognizes reign ending 2022-04-16 (tape delay)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Sammy Guevara",
+      "people": [
+        "sammy-guevara"
+      ],
+      "start": "2022-04-15",
+      "end": "2022-04-27",
+      "days": 12,
+      "number": 10,
+      "event": "Battle of the Belts II",
+      "location": "Garland, TX",
+      "note": "AEW recognizes reign starting 2022-04-16",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Scorpio Sky",
+      "people": [
+        "scorpio-sky"
+      ],
+      "start": "2022-04-27",
+      "end": "2022-07-06",
+      "days": 70,
+      "number": 11,
+      "event": "Dynamite",
+      "location": "Philadelphia, PA",
+      "note": "Ladder match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Wardlow",
+      "people": [
+        "wardlow"
+      ],
+      "start": "2022-07-06",
+      "end": "2022-11-19",
+      "days": 136,
+      "number": 12,
+      "event": "Dynamite",
+      "location": "Rochester, NY",
+      "note": "Street Fight",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Samoa Joe",
+      "people": [
+        "samoa-joe"
+      ],
+      "start": "2022-11-19",
+      "end": "2023-01-04",
+      "days": 46,
+      "number": 13,
+      "event": "Full Gear",
+      "location": "Newark, NJ",
+      "note": "Three-way match; Powerhouse Hobbs also involved and submitted",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Darby Allin",
+      "people": [
+        "darby-allin"
+      ],
+      "start": "2023-01-04",
+      "end": "2023-02-01",
+      "days": 28,
+      "number": 14,
+      "event": "Dynamite",
+      "location": "Seattle, WA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Samoa Joe",
+      "people": [
+        "samoa-joe"
+      ],
+      "start": "2023-02-01",
+      "end": "2023-03-05",
+      "days": 32,
+      "number": 15,
+      "event": "Dynamite",
+      "location": "Dayton, OH",
+      "note": "No Holds Barred match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Wardlow",
+      "people": [
+        "wardlow"
+      ],
+      "start": "2023-03-05",
+      "end": "2023-03-08",
+      "days": 3,
+      "number": 16,
+      "event": "Revolution",
+      "location": "San Francisco, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r5",
@@ -78,13 +393,300 @@
       ],
       "start": "2023-03-08",
       "end": "2023-04-19",
+      "days": 42,
+      "number": 17,
+      "event": "Dynamite",
+      "location": "Sacramento, CA",
+      "note": "Falls Count Anywhere match; Hobbs won by technical knockout",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aew/aew-tnt-championship"
+        "https://www.thesmackdownhotel.com/title-history/aew/aew-tnt-championship",
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
       ],
       "legacyIds": [
         "profile-reign-royce-keys-702"
       ]
+    },
+    {
+      "id": "r19",
+      "holder": "Wardlow",
+      "people": [
+        "wardlow"
+      ],
+      "start": "2023-04-19",
+      "end": "2023-06-17",
+      "days": 59,
+      "number": 18,
+      "event": "Dynamite",
+      "location": "Pittsburgh, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Luchasaurus",
+      "people": [
+        "judas-devlin"
+      ],
+      "start": "2023-06-17",
+      "end": "2023-09-23",
+      "days": 98,
+      "number": 19,
+      "event": "Collision",
+      "location": "Chicago, IL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Christian Cage",
+      "people": [
+        "christian"
+      ],
+      "start": "2023-09-23",
+      "end": "2023-12-30",
+      "days": 98,
+      "number": 20,
+      "event": "Collision",
+      "location": "Grand Rapids, MI",
+      "note": "Three-way match; Darby Allin also involved",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Adam Copeland",
+      "people": [
+        "edge"
+      ],
+      "start": "2023-12-30",
+      "end": "2023-12-30",
+      "days": 0,
+      "number": 21,
+      "event": "Worlds End",
+      "location": "Uniondale, NY",
+      "note": "No disqualification match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Christian Cage",
+      "people": [
+        "christian"
+      ],
+      "start": "2023-12-30",
+      "end": "2024-03-20",
+      "days": 81,
+      "number": 22,
+      "event": "Worlds End",
+      "location": "Uniondale, NY",
+      "note": "Immediate rematch invoked via Killswitch's earned title shot",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Adam Copeland",
+      "people": [
+        "edge"
+      ],
+      "start": "2024-03-20",
+      "end": "2024-05-29",
+      "days": 70,
+      "number": 23,
+      "event": "Dynamite/Rampage",
+      "location": "Toronto, ON, Canada",
+      "note": "I Quit match; started on Dynamite, concluded on Rampage",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Jack Perry",
+      "people": [
+        "jack-perry"
+      ],
+      "start": "2024-06-30",
+      "end": "2024-11-23",
+      "days": 146,
+      "number": 24,
+      "event": "Forbidden Door",
+      "location": "Elmont, NY",
+      "note": "Six-man ladder match to win vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Daniel Garcia",
+      "people": [
+        "daniel-garcia"
+      ],
+      "start": "2024-11-23",
+      "end": "2025-04-06",
+      "days": 134,
+      "number": 25,
+      "event": "Full Gear",
+      "location": "Newark, NJ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Adam Cole",
+      "people": [
+        "adam-cole"
+      ],
+      "start": "2025-04-06",
+      "end": "2025-07-12",
+      "days": 97,
+      "number": 26,
+      "event": "Dynasty",
+      "location": "Philadelphia, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Dustin Rhodes",
+      "people": [
+        "dustin-rhodes"
+      ],
+      "start": "2025-07-12",
+      "end": "2025-07-31",
+      "days": 19,
+      "number": 27,
+      "event": "All In: Texas",
+      "location": "Arlington, TX",
+      "note": "Four-way match for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "Kyle Fletcher",
+      "people": [
+        "kyle-fletcher"
+      ],
+      "start": "2025-07-31",
+      "end": "2025-11-22",
+      "days": 114,
+      "number": 28,
+      "event": "Collision",
+      "location": "Chicago, IL",
+      "note": "Chicago Street Fight",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Mark Briscoe",
+      "people": [
+        "mark-briscoe"
+      ],
+      "start": "2025-11-22",
+      "end": "2026-01-31",
+      "days": 70,
+      "number": 29,
+      "event": "Full Gear",
+      "location": "Newark, NJ",
+      "note": "No disqualification match; loser would have joined The Don Callis Family",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "Tommaso Ciampa",
+      "people": [
+        "tommaso-ciampa"
+      ],
+      "start": "2026-01-31",
+      "end": "2026-02-11",
+      "days": 11,
+      "number": 30,
+      "event": "Collision",
+      "location": "Arlington, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Kyle Fletcher",
+      "people": [
+        "kyle-fletcher"
+      ],
+      "start": "2026-02-11",
+      "end": "2026-04-08",
+      "days": 56,
+      "number": 31,
+      "event": "Dynamite",
+      "location": "Ontario, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Kevin Knight",
+      "people": [
+        "kevin-knight"
+      ],
+      "start": "2026-04-12",
+      "end": "2026-08-30",
+      "days": 141,
+      "number": 32,
+      "event": "Dynasty",
+      "location": "Vancouver, BC, Canada",
+      "note": "Pinned Daniel Garcia in 10-man Casino Gauntlet for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Darby Allin",
+      "people": [
+        "darby-allin"
+      ],
+      "start": "2026-08-30",
+      "days": 1,
+      "number": 33,
+      "event": "All In",
+      "location": "London, England",
+      "note": "Falls Count Anywhere match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_TNT_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

@@ -117,7 +117,8 @@ export interface Person {
   id: string;
   name: string;
   gender?: 'male' | 'female';
-  genderBasis?: 'legacy-placeholder' | 'source';
+  /** How the gender was set: v69's placeholder, a source, or the division of a title held. */
+  genderBasis?: 'legacy-placeholder' | 'source' | 'division';
   ringNames: RingName[];
   debut?: DatedFact;
   careerEnd?: DatedFact;
@@ -227,12 +228,22 @@ export interface Show {
 
 export interface Reign {
   id: string;
+  /** The holder as the source prints it (a team's name for teams). */
   holder: string;
   people: string[];
+  /** Printed holder names not linked to a person: unnamed (a masked team), or two candidates left for review. */
+  unlinked?: string[];
   start: IsoDate;
   end?: IsoDate;
+  /** Days held as the source prints it; can differ from the dates (see dateNote). */
   days?: number;
   ongoing?: boolean;
+  /** The source's overall reign number; absent for interim and unrecognized reigns. */
+  number?: number;
+  /** Absent for a lineal reign. Interim and unrecognized reigns run beside the lineal one. */
+  kind?: 'interim' | 'unrecognized';
+  event?: string;
+  location?: string;
   note?: string;
   dateNote?: string;
   memberStarts?: Record<string, IsoDate>;
@@ -241,11 +252,48 @@ export interface Reign {
   legacyIds: string[];
 }
 
+/** A name the title carried, from one date to the next name's. */
+export interface TitleEra {
+  name: string;
+  from: IsoDate;
+  to?: IsoDate;
+}
+
+/** Something that changed the title itself: a unification, split, retirement, brand or owner change. */
+export interface TitleEvent {
+  date: IsoDate;
+  kind:
+    | 'unified-into'
+    | 'absorbed'
+    | 'split'
+    | 'deactivated'
+    | 'reactivated'
+    | 'retired'
+    | 'brand'
+    | 'promotion'
+    | 'interim'
+    | 'recognition'
+    | 'replaced-by'
+    | 'replaces';
+  text: string;
+  /** Other titles involved, as the source names them. */
+  related?: string[];
+  sources: Url[];
+}
+
 export interface Title {
   id: string;
   name: string;
   short?: string;
-  names?: string[]; // every spelling seen in v69 data
+  names?: string[]; // every other name the title has had or been written as
+  /** The promotion that holds (or last held) the title; absent for titles only seen in careers. */
+  promotion?: string;
+  division?: 'men' | 'women' | 'mixed';
+  format?: 'singles' | 'tag' | 'trios';
+  established?: IsoDate;
+  retired?: IsoDate;
+  eras?: TitleEra[];
+  history?: TitleEvent[];
   featured?: boolean;
   sources: Url[];
   reigns: Reign[];

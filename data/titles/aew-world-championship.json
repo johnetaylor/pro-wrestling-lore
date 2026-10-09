@@ -1,11 +1,199 @@
 {
   "id": "aew-world-championship",
   "name": "AEW World Championship",
+  "promotion": "aew",
+  "division": "men",
+  "format": "singles",
+  "established": "2019-05-25",
   "names": [
-    "AEW World Championship"
+    "Real World Championship (unofficial, not recognized by AEW; CM Punk's name for the belt he held)"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "AEW World Championship",
+      "from": "2019-05-25",
+      "to": "2023-07"
+    },
+    {
+      "name": "Real World Championship (unofficial, not recognized by AEW; CM Punk's name for the belt he held)",
+      "from": "2023-07"
+    }
+  ],
+  "history": [
+    {
+      "date": "2021-04-25",
+      "kind": "promotion",
+      "text": "Kenny Omega defended the AEW title outside AEW, beating Impact World Champion Rich Swann in a Winner Takes All match at Impact's Rebellion.",
+      "related": [
+        "Impact World Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_World_Championship"
+      ]
+    },
+    {
+      "date": "2022-06-26",
+      "kind": "interim",
+      "text": "Jon Moxley beat Hiroshi Tanahashi at Forbidden Door to become interim champion while CM Punk was injured.",
+      "related": [
+        "Interim AEW World Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_World_Championship"
+      ]
+    },
+    {
+      "date": "2022-08-24",
+      "kind": "unified-into",
+      "text": "Moxley beat Punk on Dynamite to unify the interim and undisputed titles.",
+      "related": [
+        "Interim AEW World Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_World_Championship"
+      ]
+    },
+    {
+      "date": "2022-09-07",
+      "kind": "deactivated",
+      "text": "The title was vacated after Punk's backstage altercation with The Elite, and a tournament was announced to crown a new champion.",
+      "related": [
+        "AEW World Trios Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_World_Championship"
+      ]
+    },
+    {
+      "date": "2022-09-21",
+      "kind": "reactivated",
+      "text": "Moxley beat Bryan Danielson in the Grand Slam tournament final to win the vacant title for a record third time.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_World_Championship"
+      ]
+    },
+    {
+      "date": "2023-07",
+      "kind": "recognition",
+      "text": "Punk unveiled the belt he had won at All Out 2022, claimed the \"real\" title, and defended it on AEW programming, though AEW did not officially recognize it.",
+      "related": [
+        "Real World Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_World_Championship"
+      ]
+    },
+    {
+      "date": "2023-09-02",
+      "kind": "deactivated",
+      "text": "The Real World Championship was dropped after Punk's contract was terminated following the August 27 All In backstage incident.",
+      "related": [
+        "Real World Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_World_Championship"
+      ]
+    },
+    {
+      "date": "2026-01-16",
+      "kind": "promotion",
+      "text": "MJF defended the title on the independent circuit for the first time, retaining over Alec Price at Limitless Rumble.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_World_Championship"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "kind": "replaced-by",
+      "text": "Kenny Omega defeated MJF in a Last Chance match at Dynamite: Beach Break to win the title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_World_Championship"
+      ]
+    },
+    {
+      "date": "2026-08",
+      "kind": "recognition",
+      "text": "MJF returned at Grand Slam Mexico with his custom Triple B belt, calling himself the \"one true champion,\" which AEW has not officially recognized.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AEW_World_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions",
+    "https://en.wikipedia.org/wiki/AEW_World_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r3",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "2019-08-31",
+      "end": "2020-02-29",
+      "days": 182,
+      "number": 1,
+      "event": "All Out",
+      "location": "Hoffman Estates, IL",
+      "note": "Defeated \"Hangman\" Adam Page to become the inaugural champion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Jon Moxley",
+      "people": [
+        "dean-ambrose"
+      ],
+      "start": "2020-02-29",
+      "end": "2020-12-02",
+      "days": 277,
+      "number": 2,
+      "event": "Revolution",
+      "location": "Chicago, IL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Kenny Omega",
+      "people": [
+        "kenny-omega"
+      ],
+      "start": "2020-12-02",
+      "end": "2021-11-13",
+      "days": 346,
+      "number": 3,
+      "event": "Dynamite: Winter Is Coming",
+      "location": "Jacksonville, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "\"Hangman\" Adam Page",
+      "people": [
+        "hangman-adam-page"
+      ],
+      "start": "2021-11-13",
+      "end": "2022-05-29",
+      "days": 197,
+      "number": 4,
+      "event": "Full Gear",
+      "location": "Minneapolis, MN",
+      "note": "Page's Casino Poker Chip cash-in match.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "CM Punk",
@@ -14,13 +202,54 @@
       ],
       "start": "2022-05-29",
       "end": "2022-08-24",
+      "days": 87,
+      "number": 5,
+      "event": "Double or Nothing",
+      "location": "Paradise, NV",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aew/aew-world-championship"
+        "https://www.thesmackdownhotel.com/title-history/aew/aew-world-championship",
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
       ],
       "legacyIds": [
         "profile-reign-cm-punk-99"
       ]
+    },
+    {
+      "id": "r7",
+      "holder": "Jon Moxley (Interim)",
+      "people": [
+        "dean-ambrose"
+      ],
+      "start": "2022-06-26",
+      "end": "2022-08-24",
+      "days": 59,
+      "kind": "interim",
+      "event": "Forbidden Door",
+      "location": "Chicago, IL",
+      "note": "Punk pulled from title defense with foot injury; Moxley won tournament final over Hiroshi Tanahashi.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Jon Moxley",
+      "people": [
+        "dean-ambrose"
+      ],
+      "start": "2022-08-24",
+      "end": "2022-09-04",
+      "days": 11,
+      "number": 6,
+      "event": "Dynamite",
+      "location": "Cleveland, OH",
+      "note": "Defeated lineal champion Punk for undisputed title; AEW counts this as start of second reign.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r2",
@@ -30,13 +259,246 @@
       ],
       "start": "2022-09-04",
       "end": "2022-09-07",
+      "days": 3,
+      "number": 7,
+      "event": "All Out",
+      "location": "Hoffman Estates, IL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aew/aew-world-championship"
+        "https://www.thesmackdownhotel.com/title-history/aew/aew-world-championship",
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
       ],
       "legacyIds": [
         "profile-reign-cm-punk-98"
       ]
+    },
+    {
+      "id": "r9",
+      "holder": "Jon Moxley",
+      "people": [
+        "dean-ambrose"
+      ],
+      "start": "2022-09-21",
+      "end": "2022-11-19",
+      "days": 59,
+      "number": 8,
+      "event": "Dynamite: Grand Slam",
+      "location": "Flushing, Queens, NY",
+      "note": "Defeated Bryan Danielson in tournament final for vacant title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "MJF",
+      "people": [
+        "mjf"
+      ],
+      "start": "2022-11-19",
+      "end": "2023-12-30",
+      "days": 406,
+      "number": 9,
+      "event": "Full Gear",
+      "location": "Newark, NJ",
+      "note": "MJF's Casino Poker Chip cash-in match.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Samoa Joe",
+      "people": [
+        "samoa-joe"
+      ],
+      "start": "2023-12-30",
+      "end": "2024-04-21",
+      "days": 113,
+      "number": 10,
+      "event": "Worlds End",
+      "location": "Uniondale, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Swerve Strickland",
+      "people": [
+        "isaiah-swerve-scott"
+      ],
+      "start": "2024-04-21",
+      "end": "2024-08-25",
+      "days": 126,
+      "number": 11,
+      "event": "Dynasty",
+      "location": "St. Louis, MO",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Bryan Danielson",
+      "people": [
+        "daniel-bryan"
+      ],
+      "start": "2024-08-25",
+      "end": "2024-10-12",
+      "days": 48,
+      "number": 12,
+      "event": "All In",
+      "location": "London, England",
+      "note": "Title vs. Career match.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Jon Moxley",
+      "people": [
+        "dean-ambrose"
+      ],
+      "start": "2024-10-12",
+      "end": "2025-07-12",
+      "days": 273,
+      "number": 13,
+      "event": "WrestleDream",
+      "location": "Tacoma, WA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "\"Hangman\" Adam Page",
+      "people": [
+        "hangman-adam-page"
+      ],
+      "start": "2025-07-12",
+      "end": "2025-11-22",
+      "days": 133,
+      "number": 14,
+      "event": "All In",
+      "location": "Arlington, TX",
+      "note": "Texas Deathmatch.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Samoa Joe",
+      "people": [
+        "samoa-joe"
+      ],
+      "start": "2025-11-22",
+      "end": "2025-12-27",
+      "days": 35,
+      "number": 15,
+      "event": "Full Gear",
+      "location": "Newark, NJ",
+      "note": "Steel Cage match.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "MJF",
+      "people": [
+        "mjf"
+      ],
+      "start": "2025-12-27",
+      "end": "2026-04-15",
+      "days": 109,
+      "number": 16,
+      "event": "Worlds End",
+      "location": "Hoffman Estates, IL",
+      "note": "Four-way match with Strickland and Page; MJF's Casino Gauntlet guaranteed title match.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Darby Allin",
+      "people": [
+        "darby-allin"
+      ],
+      "start": "2026-04-15",
+      "end": "2026-05-24",
+      "days": 39,
+      "number": 17,
+      "event": "Dynamite: Spring BreakThru",
+      "location": "Everett, WA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "MJF",
+      "people": [
+        "mjf"
+      ],
+      "start": "2026-05-24",
+      "end": "2026-07-08",
+      "days": 45,
+      "number": 18,
+      "event": "Double or Nothing",
+      "location": "Queens, NY",
+      "note": "Title vs. Hair match.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Kenny Omega",
+      "people": [
+        "kenny-omega"
+      ],
+      "start": "2026-07-08",
+      "end": "2026-08-30",
+      "days": 53,
+      "number": 19,
+      "event": "Dynamite: Beach Break",
+      "location": "Clearwater, FL",
+      "note": "Last Chance match.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Will Ospreay",
+      "people": [
+        "will-ospreay"
+      ],
+      "start": "2026-08-30",
+      "days": 1,
+      "number": 20,
+      "event": "All In",
+      "location": "London, England",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AEW_World_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

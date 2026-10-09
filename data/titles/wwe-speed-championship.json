@@ -1,11 +1,122 @@
 {
   "id": "wwe-speed-championship",
   "name": "WWE Speed Championship",
-  "names": [
-    "WWE Speed Championship"
+  "promotion": "wwe",
+  "division": "men",
+  "format": "singles",
+  "established": "2024-03-27",
+  "retired": "2026-09-01",
+  "names": [],
+  "eras": [
+    {
+      "name": "WWE Speed Championship",
+      "from": "2024-03-27"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "2025-06-30",
+      "kind": "replaced-by",
+      "text": "Ludwig Kaiser took over the El Grande Americano character from Chad Gable after Gable was injured.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Speed_Championship"
+      ]
+    },
+    {
+      "date": "2025-08-24",
+      "kind": "brand",
+      "text": "Title moved to the NXT brand after Speed ended, staying open to challengers from Raw, SmackDown, Evolve, WWE ID, TNA and AAA.",
+      "related": [
+        "WWE Women's Speed Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Speed_Championship"
+      ]
+    },
+    {
+      "date": "2026-02-24",
+      "kind": "interim",
+      "text": "LeFleur won the title in a triple threat match after the tournament final between LeFleur and Knight ended in a draw.",
+      "related": [
+        "Eli Knight",
+        "Jasper Troy"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Speed_Championship"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "kind": "unified-into",
+      "text": "The women's Speed title was unified with the NXT Women's North American title at Heatwave.",
+      "related": [
+        "WWE Women's Speed Championship",
+        "NXT Women's North American Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Speed_Championship"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "kind": "retired",
+      "text": "Lexis King relinquished the title on NXT and General Manager Robert Stone retired it.",
+      "related": [
+        "WWE Women's Speed Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Speed_Championship"
+      ]
+    },
+    {
+      "date": "2024-05-03",
+      "kind": "recognition",
+      "text": "WWE counts reigns from tape-delayed air dates, so Ricochet's reign is recognized from May 3, 2024, and Americano's reign as 188 days.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Speed_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/WWE_Speed_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r5",
+      "holder": "Ricochet",
+      "people": [
+        "ricochet"
+      ],
+      "start": "2024-04-26",
+      "end": "2024-06-07",
+      "days": 42,
+      "number": 1,
+      "event": "Speed",
+      "location": "Cincinnati, OH",
+      "note": "Won tournament final over Johnny Gargano; WWE recognizes reign as May 3 to June 14, 2024 (tape delay)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Speed_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Andrade",
+      "people": [
+        "andrade"
+      ],
+      "start": "2024-06-07",
+      "end": "2024-11-15",
+      "days": 161,
+      "number": 2,
+      "event": "Speed",
+      "location": "Louisville, KY",
+      "note": "WWE recognizes 159 days (tape delay)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Speed_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Dragon Lee",
@@ -13,10 +124,16 @@
         "dragon-lee"
       ],
       "start": "2024-11-20",
-      "end": "2025-05-07",
+      "end": "2025-05-05",
+      "days": 171,
+      "number": 3,
+      "event": "Speed",
+      "location": "Milwaukee, WI",
+      "note": "WWE recognizes 167 days (tape delay)",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-speed-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-speed-championship",
+        "https://en.wikipedia.org/wiki/WWE_Speed_Championship"
       ],
       "legacyIds": [
         "profile-reign-dragon-lee-183"
@@ -24,21 +141,44 @@
     },
     {
       "id": "r2",
-      "holder": "Chad Gable & El Grande Americano",
+      "holder": "El Grande Americano (Chad Gable/Ludwig Kaiser)",
       "people": [
         "chad-gable",
         "ludwig-kaiser"
       ],
       "start": "2025-05-07",
       "end": "2025-11-11",
+      "days": 190,
+      "number": 4,
+      "event": "Speed",
+      "location": "Omaha, NE",
+      "note": "WWE recognizes 188 days; Gable held the character until Ludwig Kaiser took over June 30, 2025",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-speed-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-speed-championship",
+        "https://en.wikipedia.org/wiki/WWE_Speed_Championship"
       ],
       "legacyIds": [
         "profile-reign-chad-gable-74",
         "profile-reign-el-grande-americano-215"
       ]
+    },
+    {
+      "id": "r7",
+      "holder": "Jasper Troy",
+      "people": [
+        "jasper-troy"
+      ],
+      "start": "2025-11-11",
+      "end": "2026-02-24",
+      "days": 105,
+      "number": 5,
+      "event": "NXT",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_Speed_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r3",
@@ -48,9 +188,15 @@
       ],
       "start": "2026-02-24",
       "end": "2026-03-31",
+      "days": 35,
+      "number": 6,
+      "event": "NXT",
+      "location": "Orlando, FL",
+      "note": "Triple threat with seven-minute limit also involving Eli Knight; WWE recognizes 34 days",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-speed-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-speed-championship",
+        "https://en.wikipedia.org/wiki/WWE_Speed_Championship"
       ],
       "legacyIds": [
         "profile-reign-elio-lefleur-251"
@@ -64,9 +210,15 @@
       ],
       "start": "2026-04-21",
       "end": "2026-09-01",
+      "days": 133,
+      "number": 7,
+      "event": "NXT: Revenge Week 2",
+      "location": "Orlando, FL",
+      "note": "Defeated EK Prosper in tournament final to win vacant title",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-speed-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-speed-championship",
+        "https://en.wikipedia.org/wiki/WWE_Speed_Championship"
       ],
       "legacyIds": [
         "profile-reign-lexis-king-417"

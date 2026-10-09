@@ -1,11 +1,235 @@
 {
   "id": "wcw-international-world-heavyweight-championship",
-  "name": "WCW International World",
+  "name": "WCW International World Heavyweight Championship",
+  "promotion": "wcw",
+  "division": "men",
+  "format": "singles",
+  "established": "1993-07-18",
+  "retired": "1994-06-23",
   "names": [
-    "WCW International World"
+    "WCW International World",
+    "Big Gold Belt",
+    "WCW World Title"
+  ],
+  "eras": [
+    {
+      "name": "Big Gold Belt",
+      "from": "1993-09-15",
+      "to": "1993-09-19"
+    },
+    {
+      "name": "WCW International World Heavyweight Championship",
+      "from": "1993-09-19",
+      "to": "1994-06-23"
+    }
+  ],
+  "history": [
+    {
+      "date": "1993-09-15",
+      "kind": "recognition",
+      "text": "The NWA withdrew recognition when WCW left the organization, and Flair remained recognized as World Heavyweight Champion by WCW.",
+      "related": [
+        "NWA World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_International_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1993-09-15",
+      "kind": "promotion",
+      "text": "WCW kept the physical belt after leaving the NWA, and the title was later presented as a title of the fictitious WCW International.",
+      "related": [
+        "NWA World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_International_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1994-05-22",
+      "kind": "recognition",
+      "text": "WCW voided Rude's May 1, 1994 win at Slamboree, but WWE still recognizes that reign.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_International_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1994-05-22",
+      "kind": "interim",
+      "text": "The title was vacated at Slamboree, and Sting won a bout for the vacant championship later that night.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_International_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1994-06-23",
+      "kind": "unified-into",
+      "text": "Flair defeated Sting at Clash of the Champions XXVII, unifying the two titles, and the belt was renamed the WCW World Title.",
+      "related": [
+        "WCW World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_International_World_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1994-06-23",
+      "kind": "retired",
+      "text": "The WCW International World Heavyweight Championship ended when it was unified with the WCW World Heavyweight Championship.",
+      "related": [
+        "WCW World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_International_World_Heavyweight_Championship"
+      ]
+    }
   ],
   "sources": [
-    "https://www.wrestling-titles.com/wcw/wcw-in-h.html"
+    "https://www.wrestling-titles.com/wcw/wcw-in-h.html",
+    "https://en.wikipedia.org/wiki/WCW_International_World_Heavyweight_Championship"
   ],
-  "reigns": []
+  "reigns": [
+    {
+      "id": "r1",
+      "holder": "Ric Flair",
+      "people": [
+        "ric-flair"
+      ],
+      "start": "1993-07-18",
+      "end": "1993-09-19",
+      "days": 63,
+      "number": 1,
+      "event": "Beach Blast 1993",
+      "location": "Biloxi, Mississippi",
+      "note": "Beat Barry Windham for NWA title; NWA recognition withdrawn Sept 15, 1993; WWE counts it as an NWA reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_International_World_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r2",
+      "holder": "Rick Rude",
+      "people": [
+        "rick-rude"
+      ],
+      "start": "1993-09-19",
+      "end": "1994-03-16",
+      "days": 178,
+      "number": 2,
+      "event": "Fall Brawl 1993",
+      "location": "Houston, Texas",
+      "note": "Recognized as WCW International champion after WCW left NWA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_International_World_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Hiroshi Hase",
+      "people": [
+        "hiroshi-hase"
+      ],
+      "start": "1994-03-16",
+      "end": "1994-03-24",
+      "days": 8,
+      "number": 3,
+      "event": "House show",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_International_World_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Rick Rude",
+      "people": [
+        "rick-rude"
+      ],
+      "start": "1994-03-24",
+      "end": "1994-04-17",
+      "days": 24,
+      "number": 4,
+      "event": "House show",
+      "location": "Kyoto, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_International_World_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Sting",
+      "people": [
+        "sting"
+      ],
+      "start": "1994-04-17",
+      "end": "1994-05-01",
+      "days": 14,
+      "number": 5,
+      "event": "Spring Stampede 1994",
+      "location": "Rosemont, Illinois",
+      "dateNote": "The source counts this reign to 1994-05-01, past the next change it lists.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_International_World_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Rick Rude",
+      "people": [
+        "rick-rude"
+      ],
+      "start": "1994-05-01",
+      "end": "1994-05-22",
+      "days": 21,
+      "kind": "unrecognized",
+      "event": "Wrestling Dontaku 1994",
+      "location": "Fukuoka, Japan",
+      "note": "Later reversed for using belt as weapon; unrecognized by WCW, recognized by WWE",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_International_World_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Sting",
+      "people": [
+        "sting"
+      ],
+      "start": "1994-05-22",
+      "end": "1994-06-23",
+      "days": 32,
+      "number": 6,
+      "event": "Slamboree 1994",
+      "location": "Philadelphia, Pennsylvania",
+      "note": "Defeated Big Van Vader, who replaced Rude for the held-up title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_International_World_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Ric Flair",
+      "people": [
+        "ric-flair"
+      ],
+      "start": "1994-06-23",
+      "end": "1994-06-23",
+      "days": 0,
+      "number": 7,
+      "event": "Clash of the Champions XXVII",
+      "location": "North Charleston, South Carolina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WCW_International_World_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    }
+  ]
 }

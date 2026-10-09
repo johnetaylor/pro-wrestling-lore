@@ -1,106 +1,1555 @@
 {
   "id": "iwgp-junior-heavyweight-tag-team-championship",
   "name": "IWGP Junior Heavyweight Tag Team Championship",
-  "names": [
-    "IWGP Junior Heavyweight Tag Team Championship"
+  "promotion": "njpw",
+  "division": "men",
+  "format": "tag",
+  "established": "1998-08-08",
+  "names": [],
+  "eras": [
+    {
+      "name": "IWGP Junior Heavyweight Tag Team Championship",
+      "from": "1998-08-08"
+    }
   ],
-  "sources": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions",
+    "https://en.wikipedia.org/wiki/IWGP_Junior_Heavyweight_Tag_Team_Championship"
+  ],
   "reigns": [
     {
-      "id": "r1",
-      "holder": "Prince Devitt & Minoru",
+      "id": "r7",
+      "holder": "Shinjiro Otani & Tatsuhito Takaiwa",
       "people": [
-        "finn-balor"
+        "shinjiro-otani",
+        "tatsuhito-takaiwa"
+      ],
+      "start": "1998-08-08",
+      "end": "1999-01-04",
+      "days": 149,
+      "number": 1,
+      "event": "Rising the Next Generations in Osaka Dome",
+      "location": "Osaka, Japan",
+      "note": "Won a tournament final to become the first champions",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Dr. Wagner Jr. & Kendo Kashin",
+      "people": [
+        "dr-wagner-jr",
+        "kendo-kashin"
+      ],
+      "start": "1999-01-04",
+      "end": "1999-04-10",
+      "days": 96,
+      "number": 2,
+      "event": "Wrestling World",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "The Great Sasuke & Jushin Thunder Liger",
+      "people": [
+        "the-great-sasuke",
+        "jushin-thunder-liger"
+      ],
+      "start": "1999-04-10",
+      "end": "1999-07-13",
+      "days": 94,
+      "number": 3,
+      "event": "Strong Style Symphony",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Shinjiro Otani & Tatsuhito Takaiwa",
+      "people": [
+        "shinjiro-otani",
+        "tatsuhito-takaiwa"
+      ],
+      "start": "1999-07-13",
+      "end": "2000-06-25",
+      "days": 348,
+      "number": 4,
+      "event": "Summer Struggle 1999",
+      "location": "Morioka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Koji Kanemoto & Minoru Tanaka",
+      "people": [
+        "koji-kanemoto",
+        "minoru-tanaka"
+      ],
+      "start": "2000-06-25",
+      "end": "2001-03-06",
+      "days": 254,
+      "number": 5,
+      "event": "Summer Struggle 2000",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "El Samurai & Jushin Thunder Liger",
+      "people": [
+        "el-samurai",
+        "jushin-thunder-liger"
+      ],
+      "start": "2001-03-06",
+      "end": "2001-07-20",
+      "days": 136,
+      "number": 6,
+      "event": "Hyper Battle 2001",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Gedo & Jado",
+      "people": [
+        "gedo",
+        "jado"
+      ],
+      "start": "2001-07-20",
+      "end": "2002-05-02",
+      "days": 286,
+      "number": 7,
+      "event": "Dome Quake",
+      "location": "Sapporo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Jushin Thunder Liger & Minoru Tanaka",
+      "people": [
+        "jushin-thunder-liger",
+        "minoru-tanaka"
+      ],
+      "start": "2002-05-02",
+      "end": "2002-08-29",
+      "days": 119,
+      "number": 8,
+      "event": "Toukon Memorial Day",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Tsuyoshi Kikuchi & Yoshinobu Kanemaru",
+      "people": [
+        "tsuyoshi-kikuchi",
+        "yoshinobu-kanemaru"
+      ],
+      "start": "2002-08-29",
+      "end": "2003-01-26",
+      "days": 150,
+      "number": 9,
+      "event": "Cross Road",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Jushin Thunder Liger & Koji Kanemoto",
+      "people": [
+        "jushin-thunder-liger",
+        "koji-kanemoto"
+      ],
+      "start": "2003-01-26",
+      "end": "2003-11-04",
+      "days": 282,
+      "number": 10,
+      "event": "The First Navigation 2003",
+      "location": "Kobe, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Gedo & Jado",
+      "people": [
+        "gedo",
+        "jado"
+      ],
+      "start": "2003-11-29",
+      "end": "2004-03-12",
+      "days": 104,
+      "number": 11,
+      "event": "Battle Final 2003",
+      "location": "Miyagi, Japan",
+      "note": "Won the vacant title over Goto and Taguchi",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "American Dragon & Curry Man",
+      "people": [
+        "daniel-bryan",
+        "christopher-daniels"
+      ],
+      "start": "2004-03-12",
+      "end": "2004-06-05",
+      "days": 85,
+      "number": 12,
+      "event": "Hyper Battle 2004",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Gedo & Jado",
+      "people": [
+        "gedo",
+        "jado"
+      ],
+      "start": "2004-06-05",
+      "end": "2005-03-04",
+      "days": 272,
+      "number": 13,
+      "event": "Best of the Super Jr. XI",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Koji Kanemoto & Wataru Inoue",
+      "people": [
+        "koji-kanemoto",
+        "wataru-inoue"
+      ],
+      "start": "2005-03-04",
+      "end": "2005-05-14",
+      "days": 71,
+      "number": 14,
+      "event": "Big Fight Series 2005",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Hirooki Goto & Minoru",
+      "people": [
+        "hirooki-goto",
+        "minoru-tanaka"
+      ],
+      "start": "2005-05-14",
+      "end": "2006-02-19",
+      "days": 281,
+      "number": 15,
+      "event": "Nexess VI",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "El Samurai & Ryusuke Taguchi",
+      "people": [
+        "el-samurai",
+        "ryusuke-taguchi"
+      ],
+      "start": "2006-02-19",
+      "end": "2006-07-08",
+      "days": 139,
+      "number": 16,
+      "event": "Circuit2006 Acceleration",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Gedo & Jado",
+      "people": [
+        "gedo",
+        "jado"
+      ],
+      "start": "2006-07-08",
+      "end": "2007-05-02",
+      "days": 298,
+      "number": 17,
+      "event": "Circuit2006 Turbulence",
+      "location": "Shizuoka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Dick Togo & Taka Michinoku",
+      "people": [
+        "dick-togo",
+        "taka-michinoku"
+      ],
+      "start": "2007-05-02",
+      "end": "2008-01-27",
+      "days": 270,
+      "number": 18,
+      "event": "New Japan Pro-Wrestling 35th Anniversary Tour Brave New World: Hall2Days",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r1",
+      "holder": "Prince Prince",
+      "people": [
+        "finn-balor",
+        "minoru-tanaka"
       ],
       "start": "2008-01-27",
       "end": "2008-02-17",
+      "days": 21,
+      "number": 19,
+      "event": "Circuit2008 New Japan Ism",
+      "location": "Tokyo, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-junior-heavyweight-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-junior-heavyweight-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-finn-balor-290"
       ]
     },
     {
-      "id": "r2",
-      "holder": "Prince Devitt & Minoru",
+      "id": "r25",
+      "holder": "Legend",
       "people": [
-        "finn-balor"
+        "akira",
+        "jushin-thunder-liger"
+      ],
+      "start": "2008-02-17",
+      "end": "2008-07-21",
+      "days": 155,
+      "number": 20,
+      "event": "Circuit2008 New Japan Ism",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r2",
+      "holder": "Prince Prince",
+      "people": [
+        "finn-balor",
+        "minoru-tanaka"
       ],
       "start": "2008-07-21",
       "end": "2008-10-13",
+      "days": 84,
+      "number": 21,
+      "event": "Circuit2008 New Japan Soul: Novello Sparks",
+      "location": "Sapporo, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-junior-heavyweight-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-junior-heavyweight-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-finn-balor-289"
       ]
     },
     {
-      "id": "r3",
-      "holder": "Prince Devitt & Ryusuke Taguchi",
+      "id": "r26",
+      "holder": "No Limit",
       "people": [
-        "finn-balor"
+        "tetsuya-naito",
+        "yujiro-takahashi"
+      ],
+      "start": "2008-10-13",
+      "end": "2009-01-04",
+      "days": 83,
+      "number": 22,
+      "event": "Destruction '08",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "The Motor City Machine Guns",
+      "people": [
+        "alex-shelley",
+        "chris-sabin"
+      ],
+      "start": "2009-01-04",
+      "end": "2009-07-05",
+      "days": 182,
+      "number": 23,
+      "event": "Wrestle Kingdom III in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "note": "Defended twice in TNA under a cross-promotion agreement",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Apollo 55",
+      "people": [
+        "finn-balor",
+        "ryusuke-taguchi"
       ],
       "start": "2009-07-05",
       "end": "2010-04-21",
+      "days": 290,
+      "number": 24,
+      "event": "Circuit2009 New Japan Soul",
+      "location": "Tokyo, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-junior-heavyweight-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-junior-heavyweight-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-finn-balor-288"
       ]
     },
     {
-      "id": "r4",
-      "holder": "Prince Devitt & Ryusuke Taguchi",
+      "id": "r28",
+      "holder": "El Samurai & Koji Kanemoto",
       "people": [
-        "finn-balor"
+        "el-samurai",
+        "koji-kanemoto"
+      ],
+      "start": "2010-05-08",
+      "end": "2010-07-19",
+      "days": 72,
+      "number": 25,
+      "event": "Super J Tag Tournament 1st",
+      "location": "Tokyo, Japan",
+      "note": "Won the vacant title in an eight-team tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Apollo 55",
+      "people": [
+        "finn-balor",
+        "ryusuke-taguchi"
       ],
       "start": "2010-07-19",
       "end": "2010-10-11",
+      "days": 84,
+      "number": 26,
+      "event": "Circuit2010 New Japan Soul",
+      "location": "Sapporo, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-junior-heavyweight-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-junior-heavyweight-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-finn-balor-286"
       ]
     },
     {
-      "id": "r5",
-      "holder": "Prince Devitt & Ryusuke Taguchi",
+      "id": "r29",
+      "holder": "Golden☆Lovers",
       "people": [
-        "finn-balor"
+        "kenny-omega",
+        "kota-ibushi"
+      ],
+      "start": "2010-10-11",
+      "end": "2011-01-23",
+      "days": 104,
+      "number": 27,
+      "event": "Destruction '10",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Apollo 55",
+      "people": [
+        "finn-balor",
+        "ryusuke-taguchi"
       ],
       "start": "2011-01-23",
       "end": "2011-10-10",
+      "days": 260,
+      "number": 28,
+      "event": "Fantastica Mania 2011",
+      "location": "Tokyo, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-junior-heavyweight-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-junior-heavyweight-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-finn-balor-285"
       ]
     },
     {
-      "id": "r6",
-      "holder": "Prince Devitt & Ryusuke Taguchi",
+      "id": "r30",
+      "holder": "No Remorse Corps",
       "people": [
-        "finn-balor"
+        "davey-richards",
+        "rocky-romero"
+      ],
+      "start": "2011-10-10",
+      "end": "2012-01-04",
+      "days": 86,
+      "number": 29,
+      "event": "Destruction '11",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Apollo 55",
+      "people": [
+        "finn-balor",
+        "ryusuke-taguchi"
       ],
       "start": "2012-01-04",
       "end": "2012-02-12",
+      "days": 39,
+      "number": 30,
+      "event": "Wrestle Kingdom VI in Tokyo Dome",
+      "location": "Tokyo, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-junior-heavyweight-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-junior-heavyweight-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-finn-balor-283"
       ]
+    },
+    {
+      "id": "r31",
+      "holder": "No Remorse Corps",
+      "people": [
+        "davey-richards",
+        "rocky-romero"
+      ],
+      "start": "2012-02-12",
+      "end": "2012-05-02",
+      "days": 80,
+      "number": 31,
+      "event": "The New Beginning",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Jushin Thunder Liger & Tiger Mask",
+      "people": [
+        "jushin-thunder-liger",
+        "tiger-mask-iv"
+      ],
+      "start": "2012-06-16",
+      "end": "2012-07-22",
+      "days": 36,
+      "number": 32,
+      "event": "Dominion 6.16",
+      "location": "Osaka, Japan",
+      "note": "Won the vacant title over Suzuki-gun",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Forever Hooligans",
+      "people": [
+        "alex-koslov",
+        "rocky-romero"
+      ],
+      "start": "2012-07-22",
+      "end": "2012-11-11",
+      "days": 112,
+      "number": 33,
+      "event": "Kizuna Road",
+      "location": "Yamagata, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Time Splitters",
+      "people": [
+        "alex-shelley",
+        "kushida"
+      ],
+      "start": "2012-11-11",
+      "end": "2013-05-03",
+      "days": 173,
+      "number": 34,
+      "event": "Power Struggle",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "Forever Hooligans",
+      "people": [
+        "alex-koslov",
+        "rocky-romero"
+      ],
+      "start": "2013-05-03",
+      "end": "2013-10-14",
+      "days": 164,
+      "number": 35,
+      "event": "Wrestling Dontaku 2013",
+      "location": "Fukuoka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "Suzuki-gun",
+      "people": [
+        "taichi",
+        "taka-michinoku"
+      ],
+      "start": "2013-10-14",
+      "end": "2013-11-09",
+      "days": 26,
+      "number": 36,
+      "event": "King of Pro-Wrestling",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "The Young Bucks",
+      "people": [
+        "matt-jackson",
+        "nick-jackson"
+      ],
+      "start": "2013-11-09",
+      "end": "2014-06-21",
+      "days": 224,
+      "number": 37,
+      "event": "Power Struggle",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r38",
+      "holder": "Time Splitters",
+      "people": [
+        "alex-shelley",
+        "kushida"
+      ],
+      "start": "2014-06-21",
+      "end": "2014-11-08",
+      "days": 140,
+      "number": 38,
+      "event": "Dominion 6.21",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "reDRagon",
+      "people": [
+        "bobby-fish",
+        "kyle-oreilly"
+      ],
+      "start": "2014-11-08",
+      "end": "2015-02-11",
+      "days": 95,
+      "number": 39,
+      "event": "Power Struggle",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "The Young Bucks",
+      "people": [
+        "matt-jackson",
+        "nick-jackson"
+      ],
+      "start": "2015-02-11",
+      "end": "2015-04-05",
+      "days": 53,
+      "number": 40,
+      "event": "The New Beginning in Osaka",
+      "location": "Osaka, Japan",
+      "note": "Three-way match also involving Time Splitters",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "Roppongi Vice",
+      "people": [
+        "beretta",
+        "rocky-romero"
+      ],
+      "start": "2015-04-05",
+      "end": "2015-05-03",
+      "days": 28,
+      "number": 41,
+      "event": "Invasion Attack 2015",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "The Young Bucks",
+      "people": [
+        "matt-jackson",
+        "nick-jackson"
+      ],
+      "start": "2015-05-03",
+      "end": "2015-08-16",
+      "days": 105,
+      "number": 42,
+      "event": "Wrestling Dontaku 2015",
+      "location": "Fukuoka, Japan",
+      "note": "Three-way match also involving reDRagon",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "reDRagon",
+      "people": [
+        "bobby-fish",
+        "kyle-oreilly"
+      ],
+      "start": "2015-08-16",
+      "end": "2016-01-04",
+      "days": 141,
+      "number": 43,
+      "event": "G1 Climax 25",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "The Young Bucks",
+      "people": [
+        "matt-jackson",
+        "nick-jackson"
+      ],
+      "start": "2016-01-04",
+      "end": "2016-02-11",
+      "days": 38,
+      "number": 44,
+      "event": "Wrestle Kingdom 10 in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "note": "Four-way match with reDRagon and Roppongi Vice",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "Matt Sydal & Ricochet",
+      "people": [
+        "evan-bourne",
+        "ricochet"
+      ],
+      "start": "2016-02-11",
+      "end": "2016-04-10",
+      "days": 59,
+      "number": 45,
+      "event": "The New Beginning in Osaka",
+      "location": "Osaka, Japan",
+      "note": "Three-way match also involving reDRagon",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "Roppongi Vice",
+      "people": [
+        "beretta",
+        "rocky-romero"
+      ],
+      "start": "2016-04-10",
+      "end": "2016-05-03",
+      "days": 23,
+      "number": 46,
+      "event": "Invasion Attack 2016",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "Matt Sydal & Ricochet",
+      "people": [
+        "evan-bourne",
+        "ricochet"
+      ],
+      "start": "2016-05-03",
+      "end": "2016-06-19",
+      "days": 47,
+      "number": 47,
+      "event": "Wrestling Dontaku 2016",
+      "location": "Fukuoka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "The Young Bucks",
+      "people": [
+        "matt-jackson",
+        "nick-jackson"
+      ],
+      "start": "2016-06-19",
+      "end": "2017-01-04",
+      "days": 199,
+      "number": 48,
+      "event": "Dominion 6.19 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "note": "Four-way elimination match with reDRagon and Roppongi Vice",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r49",
+      "holder": "Roppongi Vice",
+      "people": [
+        "beretta",
+        "rocky-romero"
+      ],
+      "start": "2017-01-04",
+      "end": "2017-03-06",
+      "days": 61,
+      "number": 49,
+      "event": "Wrestle Kingdom 11 in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r50",
+      "holder": "Suzuki-gun",
+      "people": [
+        "taichi",
+        "yoshinobu-kanemaru"
+      ],
+      "start": "2017-03-06",
+      "end": "2017-04-27",
+      "days": 52,
+      "number": 50,
+      "event": "Hataage Kinenbi",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r51",
+      "holder": "Roppongi Vice",
+      "people": [
+        "beretta",
+        "rocky-romero"
+      ],
+      "start": "2017-04-27",
+      "end": "2017-06-11",
+      "days": 45,
+      "number": 51,
+      "event": "Road to Wrestling Dontaku 2017: Aki no Kuni Sengoku Emaki",
+      "location": "Hiroshima, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "The Young Bucks",
+      "people": [
+        "matt-jackson",
+        "nick-jackson"
+      ],
+      "start": "2017-06-11",
+      "end": "2017-08-13",
+      "days": 63,
+      "number": 52,
+      "event": "Dominion 6.11 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r53",
+      "holder": "Funky Future",
+      "people": [
+        "ricochet",
+        "ryusuke-taguchi"
+      ],
+      "start": "2017-08-13",
+      "end": "2017-10-09",
+      "days": 57,
+      "number": 53,
+      "event": "G1 Climax 27",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r54",
+      "holder": "Roppongi 3K",
+      "people": [
+        "sho",
+        "yoh"
+      ],
+      "start": "2017-10-09",
+      "end": "2018-01-04",
+      "days": 87,
+      "number": 54,
+      "event": "King of Pro-Wrestling",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r55",
+      "holder": "The Young Bucks",
+      "people": [
+        "matt-jackson",
+        "nick-jackson"
+      ],
+      "start": "2018-01-04",
+      "end": "2018-01-28",
+      "days": 24,
+      "number": 55,
+      "event": "Wrestle Kingdom 12 in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r56",
+      "holder": "Roppongi 3K",
+      "people": [
+        "sho",
+        "yoh"
+      ],
+      "start": "2018-01-28",
+      "end": "2018-03-06",
+      "days": 37,
+      "number": 56,
+      "event": "The New Beginning in Sapporo",
+      "location": "Sapporo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "Suzuki-gun",
+      "people": [
+        "el-desperado",
+        "yoshinobu-kanemaru"
+      ],
+      "start": "2018-03-06",
+      "end": "2019-01-04",
+      "days": 304,
+      "number": 57,
+      "event": "Anniversary Show",
+      "location": "Tokyo, Japan",
+      "note": "Three-way match also involving Los Ingobernables de Japón",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r58",
+      "holder": "Los Ingobernables de Japón",
+      "people": [
+        "bushi",
+        "shingo-takagi"
+      ],
+      "start": "2019-01-04",
+      "end": "2019-03-06",
+      "days": 61,
+      "number": 58,
+      "event": "Wrestle Kingdom 13 in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "note": "Three-way match also involving Roppongi 3K",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r59",
+      "holder": "Roppongi 3K",
+      "people": [
+        "sho",
+        "yoh"
+      ],
+      "start": "2019-03-06",
+      "end": "2019-06-16",
+      "days": 102,
+      "number": 59,
+      "event": "Anniversary Show",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r60",
+      "holder": "Bullet Club",
+      "people": [
+        "el-phantasmo",
+        "taiji-ishimori"
+      ],
+      "start": "2019-06-16",
+      "end": "2020-01-05",
+      "days": 203,
+      "number": 60,
+      "event": "Kizuna Road",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r61",
+      "holder": "Roppongi 3K",
+      "people": [
+        "sho",
+        "yoh"
+      ],
+      "start": "2020-01-05",
+      "end": "2020-08-31",
+      "days": 239,
+      "number": 61,
+      "event": "Wrestle Kingdom 14 in Tokyo Dome Night 2",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r62",
+      "holder": "Suzuki-gun",
+      "people": [
+        "el-desperado",
+        "yoshinobu-kanemaru"
+      ],
+      "start": "2020-09-11",
+      "end": "2021-01-23",
+      "days": 134,
+      "number": 62,
+      "event": "New Japan Road",
+      "location": "Tokyo, Japan",
+      "note": "Won the vacant title in a tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r63",
+      "holder": "Bullet Club",
+      "people": [
+        "el-phantasmo",
+        "taiji-ishimori"
+      ],
+      "start": "2021-01-23",
+      "end": "2021-02-25",
+      "days": 33,
+      "number": 63,
+      "event": "Road to The New Beginning",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r64",
+      "holder": "Suzuki-gun",
+      "people": [
+        "el-desperado",
+        "yoshinobu-kanemaru"
+      ],
+      "start": "2021-02-25",
+      "end": "2021-04-04",
+      "days": 38,
+      "number": 64,
+      "event": "Road to Castle Attack",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r65",
+      "holder": "Roppongi 3K",
+      "people": [
+        "sho",
+        "yoh"
+      ],
+      "start": "2021-04-04",
+      "end": "2021-06-23",
+      "days": 80,
+      "number": 65,
+      "event": "Sakura Genesis",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r66",
+      "holder": "Bullet Club's Cutest Tag Team",
+      "people": [
+        "el-phantasmo",
+        "taiji-ishimori"
+      ],
+      "start": "2021-06-23",
+      "end": "2021-09-05",
+      "days": 74,
+      "number": 66,
+      "event": "Kizuna Road",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r67",
+      "holder": "Suzuki-gun",
+      "people": [
+        "el-desperado",
+        "yoshinobu-kanemaru"
+      ],
+      "start": "2021-09-05",
+      "end": "2021-10-26",
+      "days": 51,
+      "number": 67,
+      "event": "Wrestle Grand Slam in MetLife Dome",
+      "location": "Tokorozawa, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r68",
+      "holder": "Flying Tiger",
+      "people": [
+        "robbie-eagles",
+        "tiger-mask-iv"
+      ],
+      "start": "2021-10-26",
+      "end": "2022-02-19",
+      "days": 116,
+      "number": 68,
+      "event": "Road To Power Struggle",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r69",
+      "holder": "Six or Nine",
+      "people": [
+        "ryusuke-taguchi",
+        "master-wato"
+      ],
+      "start": "2022-02-19",
+      "end": "2022-06-20",
+      "days": 121,
+      "number": 69,
+      "event": "New Years Golden Series",
+      "location": "Sapporo, Japan",
+      "note": "Four-way tag match with Bullet Club's Cutest Tag Team and Suzuki-gun",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r70",
+      "holder": "Catch 2/2",
+      "people": [
+        "tjp",
+        "francesco-akira"
+      ],
+      "start": "2022-06-20",
+      "end": "2023-04-27",
+      "days": 311,
+      "number": 70,
+      "event": "New Japan Road 2022",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r71",
+      "holder": "Intergalactic Jet Setters",
+      "people": [
+        "kushida",
+        "kevin-knight"
+      ],
+      "start": "2023-04-27",
+      "end": "2023-06-04",
+      "days": 38,
+      "number": 71,
+      "event": "Road To Wrestling Dontaku 2023",
+      "location": "Hiroshima, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r72",
+      "holder": "Catch 2/2",
+      "people": [
+        "tjp",
+        "francesco-akira"
+      ],
+      "start": "2023-06-04",
+      "end": "2023-07-04",
+      "days": 30,
+      "number": 72,
+      "event": "Dominion 6.4 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r73",
+      "holder": "Bullet Club War Dogs",
+      "people": [
+        "drilla-moloney",
+        "clark-connors"
+      ],
+      "start": "2023-07-04",
+      "end": "2024-01-04",
+      "days": 184,
+      "number": 73,
+      "event": "Independence Day Night 1",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r74",
+      "holder": "Catch 2/2",
+      "people": [
+        "tjp",
+        "francesco-akira"
+      ],
+      "start": "2024-01-04",
+      "end": "2024-02-04",
+      "days": 31,
+      "number": 74,
+      "event": "Wrestle Kingdom 18",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r75",
+      "holder": "Bullet Club War Dogs",
+      "people": [
+        "drilla-moloney",
+        "clark-connors"
+      ],
+      "start": "2024-02-04",
+      "end": "2024-10-14",
+      "days": 253,
+      "number": 75,
+      "event": "Road to the New Beginning 2024",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r76",
+      "holder": "Intergalactic Jet Setters",
+      "people": [
+        "kushida",
+        "kevin-knight"
+      ],
+      "start": "2024-10-14",
+      "end": "2025-01-04",
+      "days": 82,
+      "number": 76,
+      "event": "King of Pro-Wrestling",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r77",
+      "holder": "Ichiban Sweet Boys",
+      "people": [
+        "robbie-eagles",
+        "kosei-fujita"
+      ],
+      "start": "2025-01-04",
+      "end": "2025-04-29",
+      "days": 115,
+      "number": 77,
+      "event": "Wrestle Kingdom 19",
+      "location": "Tokyo, Japan",
+      "note": "Four-way ladder match with Catch 2/2 and Bullet Club War Dogs",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r78",
+      "holder": "Master Wato & Yoh",
+      "people": [
+        "master-wato",
+        "yoh"
+      ],
+      "start": "2025-04-29",
+      "end": "2025-06-15",
+      "days": 47,
+      "number": 78,
+      "event": "Wrestling Hizen no Kuni",
+      "location": "Saga, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r79",
+      "holder": "House of Torture",
+      "people": [
+        "douki",
+        "sho"
+      ],
+      "start": "2025-06-15",
+      "end": "2026-01-05",
+      "days": 204,
+      "number": 79,
+      "event": "Dominion 6.15 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r80",
+      "holder": "Ichiban Sweet Boys",
+      "people": [
+        "robbie-eagles",
+        "kosei-fujita"
+      ],
+      "start": "2026-01-05",
+      "end": "2026-03-06",
+      "days": 60,
+      "number": 80,
+      "event": "New Year Dash",
+      "location": "Tokyo, Japan",
+      "note": "Four-way tag match also involving El Desperado and Kuukai and Bullet Club",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r81",
+      "holder": "Unbound Co.",
+      "people": [
+        "taiji-ishimori",
+        "robbie-x"
+      ],
+      "start": "2026-03-06",
+      "end": "2026-04-25",
+      "days": 50,
+      "number": 81,
+      "event": "NJPW 54th Anniversary Show",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r82",
+      "holder": "Ichiban Sweet Boys",
+      "people": [
+        "robbie-eagles",
+        "kosei-fujita"
+      ],
+      "start": "2026-04-25",
+      "end": "2026-05-04",
+      "days": 9,
+      "number": 82,
+      "event": "NJPW Wrestling Redzone In Hiroshima 2026",
+      "location": "Hiroshima, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r83",
+      "holder": "El Desperado & Místico",
+      "people": [
+        "el-desperado",
+        "mistico-ii"
+      ],
+      "start": "2026-05-04",
+      "days": 139,
+      "number": 83,
+      "event": "Wrestling Dontaku Night 2",
+      "location": "Fukuoka, Japan",
+      "note": "Won on night 2 of Wrestling Dontaku; reign ongoing",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_IWGP_Junior_Heavyweight_Tag_Team_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

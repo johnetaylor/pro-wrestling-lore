@@ -28,7 +28,8 @@ All site data lives in `data/` as JSON, one file per record, so every change is 
 
 - One ID per human. A character played by more than one person (El Grande Americano) is a **ring name**, not a person.
 - `ringNames` lists every name with documented `from`/`to` boundaries where known. `billed.first` / `billed.last` record the first and last show where that person alone was billed under the name; this is evidence, not a boundary.
-- `gender` carries `genderBasis: legacy-placeholder` until confirmed from a source.
+- `gender` carries `genderBasis: legacy-placeholder` until confirmed from a source, or `division` when it comes from the division of a title the person held.
+- A past champion the archive had no record of becomes a person when a title history is imported, with the printed name as a ring name. A name that isn't exactly one person's goes to review instead of being matched on a near miss.
 - `externalTotals` are career totals from another database (CAGEMATCH), never computed from our records. Our own totals are always labeled as indexed records.
 - A ring name with `note: "Billed under this name in indexed matches."` was added from billing evidence: billed at least twice, nobody else's name, and not a team name on that card.
 - `curated` holds the full career standard (Hulk Hogan and Cody Rhodes so far): `promotionPeriods`, `relationships` (feuds, factions, teams), `signatureMatches` (with segment references) and `profile` (intro, career in brief, trainers, signature moves, managers and guest cornermen, profile links). `legacyHtml` keeps the v69 explorer text for reference only; pages use the structured fields.
@@ -45,6 +46,16 @@ All site data lives in `data/` as JSON, one file per record, so every change is 
 - A storyline is a promotion's story told through dated chapters. `start` is the first researched milestone and `end` the last; a storyline without `end` is still going and is drawn through the archive date. Neither is a definitive start or end of the feud.
 - A chapter's `kind` is `match`, `title` (a championship match) or `story` (a promo, angle or appearance). `segment` links it to the archived match or segment when there is one; `showCategory` records a source's pay-per-view label.
 - `source` is the storyline's overall reference, when it has one; every chapter carries its own `sources`.
+
+## Championships
+
+- A title record is one lineage: every recognized reign from the first champion on, under all the names the title has carried. `eras` lists those names with the date each began; `names` keeps every other name it has been written as.
+- `promotion`, `division` (`men`, `women`, `mixed`) and `format` (`singles`, `tag`, `trios`) describe the title; `established` and `retired` bound it. A title retired and later revived has no `retired`.
+- `history` holds dated events in the title's own story (unifications, splits, brand and owner changes, deactivations and revivals), each with its source. How titles connect to each other is drawn from `data/title-lineages.json`.
+- A reign's `holder` is the champion as the source prints it, a team's name for teams; `people` links the holders who are people in the archive, and `unlinked` keeps printed names that aren't (an unnamed masked team, or a name with two candidates waiting for review).
+- `number` is the source's overall reign number. `kind` marks an `interim` or `unrecognized` reign, which runs beside the lineal one and doesn't end it. `days` is the length the source prints; when it disagrees with the dates by more than a day, `dateNote` says so and why.
+- A reign ends where the next change of the same lineage begins (a new champion, a vacancy, a retirement or a unification), or where the source's own count of days says it did.
+- Reigns are title changes the promotion recognizes, wherever they happened, house shows and other promotions' events included. The match behind a change is archived only if it aired.
 
 ## Sources
 

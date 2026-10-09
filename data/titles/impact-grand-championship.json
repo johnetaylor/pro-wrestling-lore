@@ -1,11 +1,112 @@
 {
   "id": "impact-grand-championship",
   "name": "Impact Grand Championship",
-  "names": [
-    "Impact Grand Championship"
+  "promotion": "tna",
+  "division": "men",
+  "format": "singles",
+  "established": "2016-10-02",
+  "retired": "2018-06-04",
+  "names": [],
+  "eras": [
+    {
+      "name": "Impact Grand Championship",
+      "from": "2016-08-13"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "2016-08-13",
+      "kind": "replaces",
+      "text": "Introduced in place of the King of the Mountain Championship, which was deactivated and retired at the same time.",
+      "related": [
+        "TNA King of the Mountain Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Impact_Grand_Championship"
+      ]
+    },
+    {
+      "date": "2017-07-05",
+      "kind": "promotion",
+      "text": "The reign table lists the title under GFW for the reign starting July 5, 2017, with no explanation given.",
+      "related": [
+        "Global Force Wrestling (GFW)"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Impact_Grand_Championship"
+      ]
+    },
+    {
+      "date": "2018-06-04",
+      "kind": "unified-into",
+      "text": "Austin Aries announced at the Slammiversary XVI press conference that the title would be merged with the Impact World Championship. The article's details box names the TNA World Championship instead.",
+      "related": [
+        "Impact World Championship",
+        "TNA World Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Impact_Grand_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Impact_Grand_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r2",
+      "holder": "Aron Rex",
+      "people": [
+        "damien-sandow"
+      ],
+      "start": "2016-10-02",
+      "end": "2016-10-09",
+      "days": 7,
+      "number": 1,
+      "event": "Bound for Glory",
+      "location": "Orlando, FL",
+      "note": "Won tournament final by split decision over Eddie Edwards, who replaced the injured Drew Galloway",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Impact_Grand_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Moose",
+      "people": [
+        "moose"
+      ],
+      "start": "2016-10-09",
+      "end": "2017-01-07",
+      "days": 90,
+      "number": 2,
+      "event": "Impact Wrestling",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay on December 1, 2016",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Impact_Grand_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Moose",
+      "people": [
+        "moose"
+      ],
+      "start": "2017-01-12",
+      "end": "2017-07-05",
+      "days": 174,
+      "number": 4,
+      "event": "Impact Wrestling",
+      "location": "Orlando, FL",
+      "note": "Won by split decision. Aired on tape delay on March 2, 2017",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Impact_Grand_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Drew Galloway",
@@ -14,13 +115,91 @@
       ],
       "start": "2017-01-19",
       "end": "2017-03-02",
+      "days": 5,
+      "number": 3,
+      "event": "Impact Wrestling",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay on January 19, 2017",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/tna/impact-grand-championship"
+        "https://www.thesmackdownhotel.com/title-history/tna/impact-grand-championship",
+        "https://en.wikipedia.org/wiki/Impact_Grand_Championship"
       ],
       "legacyIds": [
         "profile-reign-drew-mcintyre-200"
       ]
+    },
+    {
+      "id": "r5",
+      "holder": "Ethan Carter III",
+      "people": [
+        "ec3"
+      ],
+      "start": "2017-07-05",
+      "end": "2017-11-10",
+      "days": 128,
+      "number": 5,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Won by split decision. Aired on tape delay on August 3, 2017",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Impact_Grand_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Matt Sydal",
+      "people": [
+        "evan-bourne"
+      ],
+      "start": "2017-11-10",
+      "end": "2018-01-13",
+      "days": 64,
+      "number": 6,
+      "event": "Impact!",
+      "location": "Ottawa, ON",
+      "note": "Aired on tape delay on January 25, 2018",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Impact_Grand_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Josh Mathews",
+      "people": [
+        "josh-mathews"
+      ],
+      "start": "2018-01-13",
+      "end": "2018-01-14",
+      "days": 1,
+      "number": 7,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Gifted the title by Matt Sydal. Aired on tape delay March 15, 2018",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Impact_Grand_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Austin Aries",
+      "people": [
+        "austin-aries"
+      ],
+      "start": "2018-01-14",
+      "end": "2018-06-04",
+      "days": 141,
+      "number": 8,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Won Winner Takes All match over Matt Sydal, with Impact World Heavyweight Championship also at stake. Aired on tape delay March 29, 2018",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Impact_Grand_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

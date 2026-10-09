@@ -1,11 +1,725 @@
 {
   "id": "wwe-european-championship",
   "name": "European Championship",
+  "promotion": "wwe",
+  "division": "men",
+  "format": "singles",
+  "established": "1997-02-26",
+  "retired": "2002-07-22",
   "names": [
-    "European Championship"
+    "WWF European Championship",
+    "WWE European Championship"
+  ],
+  "eras": [
+    {
+      "name": "WWF European Championship",
+      "from": "1997-02-26",
+      "to": "2002-05"
+    },
+    {
+      "name": "WWE European Championship",
+      "from": "2002-05"
+    }
+  ],
+  "history": [
+    {
+      "date": "1999-04",
+      "kind": "deactivated",
+      "text": "Shane McMahon retired the title as an \"undefeated champion,\" creating a brief hiatus.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_European_Championship"
+      ]
+    },
+    {
+      "date": "1999-06",
+      "kind": "reactivated",
+      "text": "The title returned two months later and was given to Mideon.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_European_Championship"
+      ]
+    },
+    {
+      "date": "2002-07-22",
+      "kind": "unified-into",
+      "text": "Rob Van Dam beat Jeff Hardy in a ladder match on Raw to unify the European title into the Intercontinental title.",
+      "related": [
+        "WWE Intercontinental Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_European_Championship"
+      ]
+    },
+    {
+      "date": "2002-07-22",
+      "kind": "retired",
+      "text": "The European Championship was retired on the same Raw episode as the unification.",
+      "related": [
+        "WWE Intercontinental Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_European_Championship"
+      ]
+    }
   ],
   "sources": [
-    "https://www.wwe.com/titlehistory/european-championship"
+    "https://www.wwe.com/titlehistory/european-championship",
+    "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions",
+    "https://en.wikipedia.org/wiki/WWE_European_Championship"
   ],
-  "reigns": []
+  "reigns": [
+    {
+      "id": "r1",
+      "holder": "The British Bulldog",
+      "people": [
+        "the-british-bulldog"
+      ],
+      "start": "1997-02-26",
+      "end": "1997-09-20",
+      "days": 206,
+      "number": 1,
+      "event": "Raw",
+      "location": "Berlin, Germany",
+      "note": "Defeated Owen Hart in a tournament final to become the first champion. Aired on tape delay March 3, 1997.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r2",
+      "holder": "Shawn Michaels",
+      "people": [
+        "shawn-michaels"
+      ],
+      "start": "1997-09-20",
+      "end": "1997-12-11",
+      "days": 82,
+      "number": 2,
+      "event": "One Night Only",
+      "location": "Birmingham, England",
+      "note": "WWE recognizes reign as ending December 22, 1997.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Triple H",
+      "people": [
+        "triple-h"
+      ],
+      "start": "1997-12-11",
+      "end": "1998-01-20",
+      "days": 40,
+      "number": 3,
+      "event": "Raw",
+      "location": "Lowell, MA",
+      "note": "WWE recognizes reign as beginning December 22, 1997.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Owen Hart",
+      "people": [
+        "owen-hart"
+      ],
+      "start": "1998-01-20",
+      "end": "1998-03-16",
+      "days": 55,
+      "number": 4,
+      "event": "Raw",
+      "location": "Davis, CA",
+      "note": "Defeated Goldust dressed as Triple H. WWE recognizes reign as beginning January 22.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Triple H",
+      "people": [
+        "triple-h"
+      ],
+      "start": "1998-03-16",
+      "end": "1998-07-14",
+      "days": 120,
+      "number": 5,
+      "event": "Raw",
+      "location": "Phoenix, AZ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "D'Lo Brown",
+      "people": [
+        "d-lo-brown"
+      ],
+      "start": "1998-07-14",
+      "end": "1998-09-15",
+      "days": 63,
+      "number": 6,
+      "event": "Raw",
+      "location": "Binghamton, NY",
+      "note": "WWE recognizes reign as beginning July 20, 1998.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "X-Pac",
+      "people": [
+        "x-pac"
+      ],
+      "start": "1998-09-15",
+      "end": "1998-09-29",
+      "days": 14,
+      "number": 7,
+      "event": "Raw",
+      "location": "Sacramento, CA",
+      "note": "WWE recognizes reign as September 21 to October 5, 1998.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "D'Lo Brown",
+      "people": [
+        "d-lo-brown"
+      ],
+      "start": "1998-09-29",
+      "end": "1998-10-18",
+      "days": 19,
+      "number": 8,
+      "event": "Raw",
+      "location": "East Lansing, MI",
+      "note": "WWE recognizes reign as beginning October 5, 1998.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "X-Pac",
+      "people": [
+        "x-pac"
+      ],
+      "start": "1998-10-18",
+      "end": "1999-02-15",
+      "days": 120,
+      "number": 9,
+      "event": "Judgment Day: In Your House",
+      "location": "Rosemont, IL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Shane McMahon",
+      "people": [
+        "shane-mcmahon"
+      ],
+      "start": "1999-02-15",
+      "end": "1999-03-30",
+      "days": 43,
+      "number": 10,
+      "event": "Raw",
+      "location": "Birmingham, AL",
+      "note": "Tag team match win over X-Pac. WWE recognizes reign as ending April 4, 1999.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Mideon",
+      "people": [
+        "mideon"
+      ],
+      "start": "1999-06-21",
+      "end": "1999-07-25",
+      "days": 34,
+      "number": 11,
+      "event": "Raw",
+      "location": "Memphis, TN",
+      "note": "Shane McMahon awarded the title after Mideon found it in his travel bag.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "D'Lo Brown",
+      "people": [
+        "d-lo-brown"
+      ],
+      "start": "1999-07-25",
+      "end": "1999-08-22",
+      "days": 28,
+      "number": 12,
+      "event": "Fully Loaded",
+      "location": "Buffalo, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Jeff Jarrett",
+      "people": [
+        "jeff-jarrett"
+      ],
+      "start": "1999-08-22",
+      "end": "1999-08-23",
+      "days": 1,
+      "number": 13,
+      "event": "SummerSlam",
+      "location": "Minneapolis, MN",
+      "note": "Also for D'Lo Brown's Intercontinental Championship.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Mark Henry",
+      "people": [
+        "mark-henry"
+      ],
+      "start": "1999-08-23",
+      "end": "1999-09-26",
+      "days": 34,
+      "number": 14,
+      "event": "Raw",
+      "location": "Ames, IA",
+      "note": "Jarrett gave the title to Henry for assisting against D'Lo Brown at SummerSlam.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "D'Lo Brown",
+      "people": [
+        "d-lo-brown"
+      ],
+      "start": "1999-09-26",
+      "end": "1999-10-26",
+      "days": 30,
+      "number": 15,
+      "event": "Unforgiven",
+      "location": "Charlotte, NC",
+      "note": "WWE recognizes reign as ending October 28, 1999.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "The British Bulldog",
+      "people": [
+        "the-british-bulldog"
+      ],
+      "start": "1999-10-26",
+      "end": "1999-12-12",
+      "days": 47,
+      "number": 16,
+      "event": "SmackDown!",
+      "location": "Springfield, MA",
+      "note": "WWE recognizes reign as beginning October 28, 1999.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Val Venis",
+      "people": [
+        "val-venis"
+      ],
+      "start": "1999-12-12",
+      "end": "2000-02-08",
+      "days": 58,
+      "number": 17,
+      "event": "Armageddon",
+      "location": "Sunrise, FL",
+      "note": "Triple threat match also involving D'Lo Brown. WWE recognizes reign as ending February 10, 2000.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Kurt Angle",
+      "people": [
+        "kurt-angle"
+      ],
+      "start": "2000-02-08",
+      "end": "2000-04-02",
+      "days": 54,
+      "number": 18,
+      "event": "SmackDown!",
+      "location": "Austin, TX",
+      "note": "WWE recognizes reign as beginning February 10, 2000.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Chris Jericho",
+      "people": [
+        "chris-jericho"
+      ],
+      "start": "2000-04-02",
+      "end": "2000-04-03",
+      "days": 1,
+      "number": 19,
+      "event": "WrestleMania 2000",
+      "location": "Anaheim, CA",
+      "note": "Won second fall of two-fall triple threat match by pinning Chris Benoit.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Eddie Guerrero",
+      "people": [
+        "eddie-guerrero"
+      ],
+      "start": "2000-04-03",
+      "end": "2000-07-23",
+      "days": 111,
+      "number": 20,
+      "event": "Raw",
+      "location": "Los Angeles, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Perry Saturn",
+      "people": [
+        "perry-saturn"
+      ],
+      "start": "2000-07-23",
+      "end": "2000-08-29",
+      "days": 37,
+      "number": 21,
+      "event": "Fully Loaded",
+      "location": "Dallas, TX",
+      "note": "WWE recognizes reign as ending August 31, 2000.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Al Snow",
+      "people": [
+        "al-snow"
+      ],
+      "start": "2000-08-29",
+      "end": "2000-10-16",
+      "days": 48,
+      "number": 22,
+      "event": "SmackDown!",
+      "location": "Fayetteville, NC",
+      "note": "WWE recognizes reign as beginning August 31.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "William Regal",
+      "people": [
+        "william-regal"
+      ],
+      "start": "2000-10-16",
+      "end": "2000-12-02",
+      "days": 47,
+      "number": 23,
+      "event": "Raw",
+      "location": "Detroit, MI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Crash Holly",
+      "people": [
+        "crash-holly"
+      ],
+      "start": "2000-12-02",
+      "end": "2000-12-04",
+      "days": 2,
+      "number": 24,
+      "event": "Rebellion",
+      "location": "Sheffield, England",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "William Regal",
+      "people": [
+        "william-regal"
+      ],
+      "start": "2000-12-04",
+      "end": "2001-01-22",
+      "days": 49,
+      "number": 25,
+      "event": "Raw",
+      "location": "East Rutherford, NJ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Test",
+      "people": [
+        "test"
+      ],
+      "start": "2001-01-22",
+      "end": "2001-04-01",
+      "days": 69,
+      "number": 26,
+      "event": "Raw",
+      "location": "Lafayette, LA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Eddie Guerrero",
+      "people": [
+        "eddie-guerrero"
+      ],
+      "start": "2001-04-01",
+      "end": "2001-04-24",
+      "days": 23,
+      "number": 27,
+      "event": "WrestleMania X-Seven",
+      "location": "Houston, TX",
+      "note": "WWE recognizes reign as ending April 26, 2001.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Matt Hardy",
+      "people": [
+        "matt-hardy"
+      ],
+      "start": "2001-04-24",
+      "end": "2001-08-27",
+      "days": 125,
+      "number": 28,
+      "event": "SmackDown!",
+      "location": "Denver, CO",
+      "note": "WWE recognizes reign as beginning April 26, 2001.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "The Hurricane",
+      "people": [
+        "the-hurricane"
+      ],
+      "start": "2001-08-27",
+      "end": "2001-10-22",
+      "days": 56,
+      "number": 29,
+      "event": "Raw",
+      "location": "Grand Rapids, MI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Bradshaw",
+      "people": [
+        "bradshaw"
+      ],
+      "start": "2001-10-22",
+      "end": "2001-10-30",
+      "days": 8,
+      "number": 30,
+      "event": "Raw",
+      "location": "Kansas City, MO",
+      "note": "WWE recognizes reign as ending November 1, 2001.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "Christian",
+      "people": [
+        "christian"
+      ],
+      "start": "2001-10-30",
+      "end": "2002-01-29",
+      "days": 91,
+      "number": 31,
+      "event": "SmackDown!",
+      "location": "Cincinnati, OH",
+      "note": "WWE recognizes reign as beginning November 1, 2001.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Diamond Dallas Page",
+      "people": [
+        "diamond-dallas-page"
+      ],
+      "start": "2002-01-29",
+      "days": 49,
+      "number": 32,
+      "event": "SmackDown!",
+      "location": "Norfolk, VA",
+      "note": "WWE recognizes reign as beginning January 31, 2002.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "William Regal",
+      "people": [
+        "william-regal"
+      ],
+      "start": "2002-03-19",
+      "days": 20,
+      "number": 33,
+      "event": "SmackDown!",
+      "location": "Ottawa, ON, Canada",
+      "note": "Recognized from March 21, 2002. Became exclusive to Raw after March 26, 2002 draft.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Spike Dudley",
+      "people": [
+        "spike-dudley"
+      ],
+      "start": "2002-04-08",
+      "end": "2002-05-06",
+      "days": 28,
+      "number": 34,
+      "event": "Raw",
+      "location": "Phoenix, AZ",
+      "note": "Title renamed WWE European Championship on May 5, 2002.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "William Regal",
+      "people": [
+        "william-regal"
+      ],
+      "start": "2002-05-06",
+      "end": "2002-07-08",
+      "days": 63,
+      "number": 35,
+      "event": "Raw",
+      "location": "Hartford, CT",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "Jeff Hardy",
+      "people": [
+        "jeff-hardy"
+      ],
+      "start": "2002-07-08",
+      "end": "2002-07-22",
+      "days": 14,
+      "number": 36,
+      "event": "Raw",
+      "location": "Philadelphia, PA",
+      "note": "WWE's official history incorrectly lists reign as ending July 21.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "Rob Van Dam",
+      "people": [
+        "rob-van-dam"
+      ],
+      "start": "2002-07-22",
+      "end": "2002-07-22",
+      "days": 0,
+      "number": 37,
+      "event": "Raw",
+      "location": "Grand Rapids, MI",
+      "note": "Unification ladder match; also defended Intercontinental Championship. Not on WWE's official history.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_European_Champions"
+      ],
+      "legacyIds": []
+    }
+  ]
 }

@@ -1,11 +1,739 @@
 {
   "id": "iwgp-heavyweight-championship",
   "name": "IWGP Heavyweight Championship",
+  "promotion": "njpw",
+  "division": "men",
+  "format": "singles",
+  "established": "1987-06-12",
   "names": [
-    "IWGP Heavyweight Championship"
+    "IWGP Heavyweight Championship (original version)",
+    "IWGP World Heavyweight Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "IWGP Heavyweight Championship",
+      "from": "1987-06-12",
+      "to": "2021-03-04"
+    },
+    {
+      "name": "IWGP World Heavyweight Championship",
+      "from": "2021-03-04",
+      "to": "2026-01-06"
+    },
+    {
+      "name": "IWGP Heavyweight Championship",
+      "from": "2026-01-06"
+    }
+  ],
+  "history": [
+    {
+      "date": "1987",
+      "kind": "deactivated",
+      "text": "The original version was deactivated in 1987, and Inoki was recognized as the first champion of the new version.",
+      "related": [
+        "IWGP Heavyweight Championship (original version)"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1987-06-12",
+      "kind": "replaces",
+      "text": "The new version was introduced as the prize of the 1987 IWGP League tournament.",
+      "related": [
+        "IWGP Heavyweight Championship (original version)"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2004-01-04",
+      "kind": "absorbed",
+      "text": "The NWF title was unified into the IWGP title when Shinsuke Nakamura defeated Yoshihiro Takayama at Wrestling World 2004.",
+      "related": [
+        "NWF Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2007",
+      "kind": "recognition",
+      "text": "TNA recognized Kurt Angle as \"IWGP Heavyweight Champion,\" while NJPW called him the \"IWGP 3rd Belt Champion\" after he won the IGF title.",
+      "related": [
+        "IWGP Heavyweight Championship (IGF)"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2008-02-17",
+      "kind": "absorbed",
+      "text": "Shinsuke Nakamura defeated Kurt Angle to unify the NJPW and IGF versions of the title.",
+      "related": [
+        "IWGP Heavyweight Championship (IGF)"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2012",
+      "kind": "promotion",
+      "text": "Bushiroad bought NJPW, and Gedo became head booker, marking a change in the title's booking direction.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2020-01-05",
+      "kind": "recognition",
+      "text": "Tetsuya Naito became the first double champion, holding both titles, which were defended together but kept separate histories.",
+      "related": [
+        "IWGP Intercontinental Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2021-03-04",
+      "kind": "unified-into",
+      "text": "The Heavyweight and Intercontinental titles were unified to form the IWGP World Heavyweight Championship.",
+      "related": [
+        "IWGP Intercontinental Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2021-03-04",
+      "kind": "deactivated",
+      "text": "NJPW considered both the Heavyweight and Intercontinental titles deactivated while the World title was active.",
+      "related": [
+        "IWGP Heavyweight Championship",
+        "IWGP Intercontinental Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2022-01-04",
+      "kind": "replaced-by",
+      "text": "After winning the World title at Wrestle Kingdom 16, Kazuchika Okada chose to be recognized as World champion rather than revive the Heavyweight title.",
+      "related": [
+        "IWGP World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2026-01-06",
+      "kind": "retired",
+      "text": "Yota Tsuji officially retired the World title, declaring himself Heavyweight champion and merging the two lineages.",
+      "related": [
+        "IWGP World Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2026-01-06",
+      "kind": "reactivated",
+      "text": "The Heavyweight title was revived with its lineage combined with the World and Intercontinental title histories, and Tsuji was recognized as the 87th champion.",
+      "related": [
+        "IWGP World Heavyweight Championship",
+        "IWGP Intercontinental Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r5",
+      "holder": "Antonio Inoki",
+      "people": [
+        "antonio-inoki"
+      ],
+      "start": "1987-06-12",
+      "end": "1988-05-02",
+      "days": 325,
+      "number": 1,
+      "event": "IWGP Champion Series 1987",
+      "location": "Tokyo Japan",
+      "note": "Won tournament final over Masa Saito",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Tatsumi Fujinami",
+      "people": [
+        "tatsumi-fujinami"
+      ],
+      "start": "1988-05-08",
+      "end": "1988-05-27",
+      "days": 19,
+      "number": 2,
+      "event": "Super Fight Series 1988",
+      "location": "Tokyo, Japan",
+      "note": "Won vacant title from Big Van Vader",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Tatsumi Fujinami",
+      "people": [
+        "tatsumi-fujinami"
+      ],
+      "start": "1988-06-24",
+      "end": "1989-04-05",
+      "days": 285,
+      "number": 3,
+      "event": "IWGP Champion Series 1988",
+      "location": "Osaka, Japan",
+      "note": "Won vacant title from Riki Choshu",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Big Van Vader",
+      "people": [
+        "vader"
+      ],
+      "start": "1989-04-24",
+      "end": "1989-05-25",
+      "days": 31,
+      "number": 4,
+      "event": "Battle Satellite in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "note": "Won tournament final over Shinya Hashimoto",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Salman Hashimikov",
+      "people": [
+        "salman-hashimikov"
+      ],
+      "start": "1989-05-25",
+      "end": "1989-07-12",
+      "days": 48,
+      "number": 5,
+      "event": "Battle Satellite 1989 in Osaka Dome",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Riki Choshu",
+      "people": [
+        "riki-choshu"
+      ],
+      "start": "1989-07-12",
+      "end": "1989-08-10",
+      "days": 29,
+      "number": 6,
+      "event": "Summer Fight Series 1989",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Big Van Vader",
+      "people": [
+        "vader"
+      ],
+      "start": "1989-08-10",
+      "end": "1990-08-19",
+      "days": 374,
+      "number": 7,
+      "event": "Fighting Satellite of 1989",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Riki Choshu",
+      "people": [
+        "riki-choshu"
+      ],
+      "start": "1990-08-19",
+      "end": "1990-12-26",
+      "days": 129,
+      "number": 8,
+      "event": "Summer Night Fever II",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Tatsumi Fujinami",
+      "people": [
+        "tatsumi-fujinami"
+      ],
+      "start": "1990-12-26",
+      "end": "1991-01-17",
+      "days": 22,
+      "number": 9,
+      "event": "King of Kings",
+      "location": "Hamamatsu, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Big Van Vader",
+      "people": [
+        "vader"
+      ],
+      "start": "1991-01-17",
+      "end": "1991-03-04",
+      "days": 46,
+      "number": 10,
+      "event": "New Year Dash 1991",
+      "location": "Yokohama, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Tatsumi Fujinami",
+      "people": [
+        "tatsumi-fujinami"
+      ],
+      "start": "1991-03-04",
+      "end": "1992-01-04",
+      "days": 306,
+      "number": 11,
+      "event": "Big Fight Series 1991",
+      "location": "Hiroshima, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Riki Choshu",
+      "people": [
+        "riki-choshu"
+      ],
+      "start": "1992-01-04",
+      "end": "1992-08-16",
+      "days": 225,
+      "number": 12,
+      "event": "Super Warriors in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "note": "Also for his Greatest 18 title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "The Great Muta",
+      "people": [
+        "keiji-muto"
+      ],
+      "start": "1992-08-16",
+      "end": "1993-09-20",
+      "days": 400,
+      "number": 13,
+      "event": "G1 Climax Special 1992",
+      "location": "Fukuoka, Japan",
+      "note": "Also for Choshu's Greatest 18 title which later retired",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Shinya Hashimoto",
+      "people": [
+        "shinya-hashimoto"
+      ],
+      "start": "1993-09-20",
+      "end": "1994-04-04",
+      "days": 196,
+      "number": 14,
+      "event": "G1 Climax Special 1993",
+      "location": "Nagoya, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Tatsumi Fujinami",
+      "people": [
+        "tatsumi-fujinami"
+      ],
+      "start": "1994-04-04",
+      "end": "1994-05-01",
+      "days": 27,
+      "number": 15,
+      "event": "Battle Line Kyushu",
+      "location": "Hiroshima, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Shinya Hashimoto",
+      "people": [
+        "shinya-hashimoto"
+      ],
+      "start": "1994-05-01",
+      "end": "1995-05-03",
+      "days": 367,
+      "number": 16,
+      "event": "Wrestling Dontaku 1994",
+      "location": "Fukuoka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Keiji Muto",
+      "people": [
+        "keiji-muto"
+      ],
+      "start": "1995-05-03",
+      "end": "1996-01-04",
+      "days": 246,
+      "number": 17,
+      "event": "Wrestling Dontaku 1995",
+      "location": "Fukuoka, Japan",
+      "note": "Muto previously held the title as The Great Muta",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Nobuhiko Takada",
+      "people": [
+        "nobuhiko-takada"
+      ],
+      "start": "1996-01-04",
+      "end": "1996-04-29",
+      "days": 116,
+      "number": 18,
+      "event": "Wrestling World 1996",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Shinya Hashimoto",
+      "people": [
+        "shinya-hashimoto"
+      ],
+      "start": "1996-04-29",
+      "end": "1997-08-31",
+      "days": 489,
+      "number": 19,
+      "event": "Battle Formation",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Kensuke Sasaki",
+      "people": [
+        "kensuke-sasaki"
+      ],
+      "start": "1997-08-31",
+      "end": "1998-04-04",
+      "days": 216,
+      "number": 20,
+      "event": "Final Power Hall in Yokohama",
+      "location": "Yokohama, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Tatsumi Fujinami",
+      "people": [
+        "tatsumi-fujinami"
+      ],
+      "start": "1998-04-04",
+      "end": "1998-08-08",
+      "days": 126,
+      "number": 21,
+      "event": "Antonio Inoki Retirement Show",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Masahiro Chono",
+      "people": [
+        "masahiro-chono"
+      ],
+      "start": "1998-08-08",
+      "end": "1998-09-21",
+      "days": 44,
+      "number": 22,
+      "event": "Rising the Next Generation in Osaka Dome",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Scott Norton",
+      "people": [
+        "scott-norton"
+      ],
+      "start": "1998-09-23",
+      "end": "1999-01-04",
+      "days": 103,
+      "number": 23,
+      "event": "Big Wednesday",
+      "location": "Yokohama, Japan",
+      "note": "Won vacant title over Yuji Nagata",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Keiji Muto",
+      "people": [
+        "keiji-muto"
+      ],
+      "start": "1999-01-04",
+      "end": "1999-12-10",
+      "days": 340,
+      "number": 24,
+      "event": "Wrestling World 1999",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "Genichiro Tenryu",
+      "people": [
+        "genichiro-tenryu"
+      ],
+      "start": "1999-12-10",
+      "end": "2000-01-04",
+      "days": 25,
+      "number": 25,
+      "event": "Battle Final 1999",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Kensuke Sasaki",
+      "people": [
+        "kensuke-sasaki"
+      ],
+      "start": "2000-01-04",
+      "end": "2000-10-09",
+      "days": 279,
+      "number": 26,
+      "event": "Wrestling World 2000",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "Kensuke Sasaki",
+      "people": [
+        "kensuke-sasaki"
+      ],
+      "start": "2001-01-04",
+      "end": "2001-03-17",
+      "days": 72,
+      "number": 27,
+      "event": "Wrestling World 2001",
+      "location": "Tokyo, Japan",
+      "note": "Won vacant title in tournament final over Toshiaki Kawada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Scott Norton",
+      "people": [
+        "scott-norton"
+      ],
+      "start": "2001-03-17",
+      "end": "2001-04-09",
+      "days": 23,
+      "number": 28,
+      "event": "Hyper Battle 2001",
+      "location": "Nagoya, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Kazuyuki Fujita",
+      "people": [
+        "kazuyuki-fujita"
+      ],
+      "start": "2001-04-09",
+      "end": "2002-01-04",
+      "days": 270,
+      "number": 29,
+      "event": "Strong Style 2001",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Tadao Yasuda",
+      "people": [
+        "tadao-yasuda"
+      ],
+      "start": "2002-02-16",
+      "end": "2002-04-05",
+      "days": 48,
+      "number": 30,
+      "event": "Fighting Spirit 2002",
+      "location": "Tokyo, Japan",
+      "note": "Won vacant title in tournament final over Yuji Nagata",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "Yuji Nagata",
+      "people": [
+        "yuji-nagata"
+      ],
+      "start": "2002-04-05",
+      "end": "2003-05-02",
+      "days": 392,
+      "number": 31,
+      "event": "Toukon Special",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "Yoshihiro Takayama",
+      "people": [
+        "yoshihiro-takayama"
+      ],
+      "start": "2003-05-02",
+      "end": "2003-11-03",
+      "days": 185,
+      "number": 32,
+      "event": "Ultimate Crush",
+      "location": "Tokyo, Japan",
+      "note": "Also for his NWF Heavyweight title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "Hiroyoshi Tenzan",
+      "people": [
+        "hiroyoshi-tenzan"
+      ],
+      "start": "2003-11-03",
+      "end": "2003-12-09",
+      "days": 36,
+      "number": 33,
+      "event": "Yokohama Dead Out",
+      "location": "Yokohama, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Shinsuke Nakamura",
@@ -14,13 +742,245 @@
       ],
       "start": "2003-12-09",
       "end": "2004-02-05",
+      "days": 58,
+      "number": 34,
+      "event": "Battle Final 2003",
+      "location": "Osaka, Japan",
+      "note": "Later unified with NWF title in January 2004",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-heavyweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-shinsuke-nakamura-781"
       ]
+    },
+    {
+      "id": "r38",
+      "holder": "Hiroyoshi Tenzan",
+      "people": [
+        "hiroyoshi-tenzan"
+      ],
+      "start": "2004-02-15",
+      "end": "2004-03-12",
+      "days": 26,
+      "number": 35,
+      "event": "Fighting Spirit 2004",
+      "location": "Tokyo, Japan",
+      "note": "Won vacant title in tournament final over Genichiro Tenryu",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "Kensuke Sasaki",
+      "people": [
+        "kensuke-sasaki"
+      ],
+      "start": "2004-03-12",
+      "end": "2004-03-28",
+      "days": 16,
+      "number": 36,
+      "event": "Hyper Battle 2004",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "Bob Sapp",
+      "people": [
+        "bob-sapp"
+      ],
+      "start": "2004-03-28",
+      "end": "2004-06-02",
+      "days": 66,
+      "number": 37,
+      "event": "King of Sports",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "Kazuyuki Fujita",
+      "people": [
+        "kazuyuki-fujita"
+      ],
+      "start": "2004-06-05",
+      "end": "2004-10-09",
+      "days": 126,
+      "number": 38,
+      "event": "The Crush II",
+      "location": "Osaka, Japan",
+      "note": "Won vacant title over Hiroshi Tanahashi",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Kensuke Sasaki",
+      "people": [
+        "kensuke-sasaki"
+      ],
+      "start": "2004-10-09",
+      "end": "2004-12-12",
+      "days": 64,
+      "number": 39,
+      "event": "Pro-Wrestlers Be Strongest",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "Hiroyoshi Tenzan",
+      "people": [
+        "hiroyoshi-tenzan"
+      ],
+      "start": "2004-12-12",
+      "end": "2005-02-20",
+      "days": 70,
+      "number": 40,
+      "event": "Battle Final 2004",
+      "location": "Nagoya, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "Satoshi Kojima",
+      "people": [
+        "satoshi-kojima"
+      ],
+      "start": "2005-02-20",
+      "end": "2005-05-14",
+      "days": 83,
+      "number": 41,
+      "event": "New Year Gold Series",
+      "location": "Tokyo, Japan",
+      "note": "Also for his Triple Crown Heavyweight title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "Hiroyoshi Tenzan",
+      "people": [
+        "hiroyoshi-tenzan"
+      ],
+      "start": "2005-05-14",
+      "end": "2005-07-18",
+      "days": 65,
+      "number": 42,
+      "event": "Nexess VI",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "Kazuyuki Fujita",
+      "people": [
+        "kazuyuki-fujita"
+      ],
+      "start": "2005-07-18",
+      "end": "2005-10-08",
+      "days": 82,
+      "number": 43,
+      "event": "Summer Fight Series 2005",
+      "location": "Sapporo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "Brock Lesnar",
+      "people": [
+        "brock-lesnar"
+      ],
+      "start": "2005-10-08",
+      "end": "2006-07-15",
+      "days": 280,
+      "number": 44,
+      "event": "Toukon Souzou New Chapter",
+      "location": "Tokyo, Japan",
+      "note": "Three-way match also involving Masahiro Chono",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "Hiroshi Tanahashi",
+      "people": [
+        "hiroshi-tanahashi"
+      ],
+      "start": "2006-07-17",
+      "end": "2007-04-13",
+      "days": 270,
+      "number": 45,
+      "event": "Circuit2006 Turbulence",
+      "location": "Sapporo, Japan",
+      "note": "Won tournament final over Giant Bernard",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r49",
+      "holder": "Yuji Nagata",
+      "people": [
+        "yuji-nagata"
+      ],
+      "start": "2007-04-13",
+      "end": "2007-10-08",
+      "days": 178,
+      "number": 46,
+      "event": "Circuit2007 New Japan Brave tour",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r50",
+      "holder": "Hiroshi Tanahashi",
+      "people": [
+        "hiroshi-tanahashi"
+      ],
+      "start": "2007-10-08",
+      "end": "2008-01-04",
+      "days": 88,
+      "number": 47,
+      "event": "Explosion '07",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r2",
@@ -30,13 +990,87 @@
       ],
       "start": "2008-01-04",
       "end": "2008-04-27",
+      "days": 114,
+      "number": 48,
+      "event": "Wrestle Kingdom II in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "note": "Unified NJPW and IGF versions by beating Kurt Angle in February 2008",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-heavyweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-shinsuke-nakamura-777"
       ]
+    },
+    {
+      "id": "r51",
+      "holder": "Keiji Muto",
+      "people": [
+        "keiji-muto"
+      ],
+      "start": "2008-04-27",
+      "end": "2009-01-04",
+      "days": 252,
+      "number": 49,
+      "event": "Circuit2008 New Japan Brave tour",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "Hiroshi Tanahashi",
+      "people": [
+        "hiroshi-tanahashi"
+      ],
+      "start": "2009-01-04",
+      "end": "2009-05-06",
+      "days": 122,
+      "number": 50,
+      "event": "Wrestle Kingdom III in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r53",
+      "holder": "Manabu Nakanishi",
+      "people": [
+        "manabu-nakanishi"
+      ],
+      "start": "2009-05-06",
+      "end": "2009-06-20",
+      "days": 45,
+      "number": 51,
+      "event": "Dissidence",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r54",
+      "holder": "Hiroshi Tanahashi",
+      "people": [
+        "hiroshi-tanahashi"
+      ],
+      "start": "2009-06-20",
+      "end": "2009-08-17",
+      "days": 58,
+      "number": 52,
+      "event": "Dominion 6.20",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r3",
@@ -46,29 +1080,643 @@
       ],
       "start": "2009-09-27",
       "end": "2010-05-03",
+      "days": 218,
+      "number": 53,
+      "event": "Circuit2009 New Japan Generation tour",
+      "location": "Kobe, Japan",
+      "note": "Won vacant title over Togi Makabe",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-heavyweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-shinsuke-nakamura-775"
       ]
     },
     {
+      "id": "r55",
+      "holder": "Togi Makabe",
+      "people": [
+        "togi-makabe"
+      ],
+      "start": "2010-05-03",
+      "end": "2010-10-11",
+      "days": 161,
+      "number": 54,
+      "event": "Wrestling Dontaku 2010",
+      "location": "Fukuoka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r56",
+      "holder": "Satoshi Kojima",
+      "people": [
+        "satoshi-kojima"
+      ],
+      "start": "2010-10-11",
+      "end": "2011-01-04",
+      "days": 85,
+      "number": 55,
+      "event": "Destruction '10",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "Hiroshi Tanahashi",
+      "people": [
+        "hiroshi-tanahashi"
+      ],
+      "start": "2011-01-04",
+      "end": "2012-02-12",
+      "days": 404,
+      "number": 56,
+      "event": "Wrestle Kingdom V in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r58",
+      "holder": "Kazuchika Okada",
+      "people": [
+        "kazuchika-okada"
+      ],
+      "start": "2012-02-12",
+      "end": "2012-06-16",
+      "days": 125,
+      "number": 57,
+      "event": "The New Beginning",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r59",
+      "holder": "Hiroshi Tanahashi",
+      "people": [
+        "hiroshi-tanahashi"
+      ],
+      "start": "2012-06-16",
+      "end": "2013-04-07",
+      "days": 295,
+      "number": 58,
+      "event": "Dominion 6.16",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r60",
+      "holder": "Kazuchika Okada",
+      "people": [
+        "kazuchika-okada"
+      ],
+      "start": "2013-04-07",
+      "end": "2014-05-03",
+      "days": 391,
+      "number": 59,
+      "event": "Invasion Attack",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r61",
+      "holder": "AJ Styles",
+      "people": [
+        "aj-styles"
+      ],
+      "start": "2014-05-03",
+      "end": "2014-10-13",
+      "days": 163,
+      "number": 60,
+      "event": "Wrestling Dontaku 2014",
+      "location": "Fukuoka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r62",
+      "holder": "Hiroshi Tanahashi",
+      "people": [
+        "hiroshi-tanahashi"
+      ],
+      "start": "2014-10-13",
+      "end": "2015-02-11",
+      "days": 121,
+      "number": 61,
+      "event": "King of Pro-Wrestling",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r63",
+      "holder": "AJ Styles",
+      "people": [
+        "aj-styles"
+      ],
+      "start": "2015-02-11",
+      "end": "2015-07-05",
+      "days": 144,
+      "number": 62,
+      "event": "The New Beginning in Osaka",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r64",
+      "holder": "Kazuchika Okada",
+      "people": [
+        "kazuchika-okada"
+      ],
+      "start": "2015-07-05",
+      "end": "2016-04-10",
+      "days": 280,
+      "number": 63,
+      "event": "Dominion 7.5 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r65",
+      "holder": "Tetsuya Naito",
+      "people": [
+        "tetsuya-naito"
+      ],
+      "start": "2016-04-10",
+      "end": "2016-06-19",
+      "days": 70,
+      "number": 64,
+      "event": "Invasion Attack 2016",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r66",
+      "holder": "Kazuchika Okada",
+      "people": [
+        "kazuchika-okada"
+      ],
+      "start": "2016-06-19",
+      "end": "2018-06-09",
+      "days": 720,
+      "number": 65,
+      "event": "Dominion 6.19 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "note": "Longest reign in title history with 12 defenses",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r67",
+      "holder": "Kenny Omega",
+      "people": [
+        "kenny-omega"
+      ],
+      "start": "2018-06-09",
+      "end": "2019-01-04",
+      "days": 209,
+      "number": 66,
+      "event": "Dominion 6.9 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "note": "Won 2-1 in a no-time-limit two-out-of-three falls match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r68",
+      "holder": "Hiroshi Tanahashi",
+      "people": [
+        "hiroshi-tanahashi"
+      ],
+      "start": "2019-01-04",
+      "end": "2019-02-11",
+      "days": 38,
+      "number": 67,
+      "event": "Wrestle Kingdom 13 in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r69",
+      "holder": "Jay White",
+      "people": [
+        "jay-white"
+      ],
+      "start": "2019-02-11",
+      "end": "2019-04-06",
+      "days": 54,
+      "number": 68,
+      "event": "The New Beginning in Osaka",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r70",
+      "holder": "Kazuchika Okada",
+      "people": [
+        "kazuchika-okada"
+      ],
+      "start": "2019-04-06",
+      "end": "2020-01-05",
+      "days": 274,
+      "number": 69,
+      "event": "G1 Supercard",
+      "location": "New York City, U.S.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r71",
+      "holder": "Tetsuya Naito",
+      "people": [
+        "tetsuya-naito"
+      ],
+      "start": "2020-01-05",
+      "end": "2020-07-12",
+      "days": 189,
+      "number": 70,
+      "event": "Wrestle Kingdom 14 in Tokyo Dome Night 2",
+      "location": "Tokyo, Japan",
+      "note": "Also for his Intercontinental title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r4",
-      "holder": "EVIL",
+      "holder": "Evil",
       "people": [
         "naraku"
       ],
       "start": "2020-07-12",
       "end": "2020-08-29",
+      "days": 48,
+      "number": 71,
+      "event": "Dominion in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "note": "Also for Naito's Intercontinental title",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-heavyweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-naraku-464"
       ]
+    },
+    {
+      "id": "r72",
+      "holder": "Tetsuya Naito",
+      "people": [
+        "tetsuya-naito"
+      ],
+      "start": "2020-08-29",
+      "end": "2021-01-04",
+      "days": 128,
+      "number": 72,
+      "event": "Summer Struggle in Jingu",
+      "location": "Tokyo, Japan",
+      "note": "Also for Evil's Intercontinental title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r73",
+      "holder": "Kota Ibushi",
+      "people": [
+        "kota-ibushi"
+      ],
+      "start": "2021-01-04",
+      "end": "2021-04-04",
+      "days": 90,
+      "number": 73,
+      "event": "Wrestle Kingdom 15 in Tokyo Dome Night 1",
+      "location": "Tokyo, Japan",
+      "note": "Also for Naito's Intercontinental title; later unified into World title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r74",
+      "holder": "Will Ospreay",
+      "people": [
+        "will-ospreay"
+      ],
+      "start": "2021-04-04",
+      "end": "2021-05-20",
+      "days": 46,
+      "number": 74,
+      "event": "Sakura Genesis",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r75",
+      "holder": "Shingo Takagi",
+      "people": [
+        "shingo-takagi"
+      ],
+      "start": "2021-06-07",
+      "end": "2022-01-04",
+      "days": 211,
+      "number": 75,
+      "event": "Dominion 6.6 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "note": "Won vacant title over Kazuchika Okada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r76",
+      "holder": "Kazuchika Okada",
+      "people": [
+        "kazuchika-okada"
+      ],
+      "start": "2022-01-04",
+      "end": "2022-06-12",
+      "days": 159,
+      "number": 76,
+      "event": "Wrestle Kingdom 16 Night 1",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r77",
+      "holder": "Jay White",
+      "people": [
+        "jay-white"
+      ],
+      "start": "2022-06-12",
+      "end": "2023-01-04",
+      "days": 206,
+      "number": 77,
+      "event": "Dominion 6.12 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r78",
+      "holder": "Kazuchika Okada",
+      "people": [
+        "kazuchika-okada"
+      ],
+      "start": "2023-01-04",
+      "end": "2023-04-08",
+      "days": 94,
+      "number": 78,
+      "event": "Wrestle Kingdom 17",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r79",
+      "holder": "Sanada",
+      "people": [
+        "sanada"
+      ],
+      "start": "2023-04-08",
+      "end": "2024-01-04",
+      "days": 271,
+      "number": 79,
+      "event": "Sakura Genesis",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r80",
+      "holder": "Tetsuya Naito",
+      "people": [
+        "tetsuya-naito"
+      ],
+      "start": "2024-01-04",
+      "end": "2024-04-12",
+      "days": 99,
+      "number": 80,
+      "event": "Wrestle Kingdom 18",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r81",
+      "holder": "Jon Moxley",
+      "people": [
+        "dean-ambrose"
+      ],
+      "start": "2024-04-12",
+      "end": "2024-06-30",
+      "days": 79,
+      "number": 81,
+      "event": "Windy City Riot",
+      "location": "Chicago, Illinois, U.S.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r82",
+      "holder": "Tetsuya Naito",
+      "people": [
+        "tetsuya-naito"
+      ],
+      "start": "2024-06-30",
+      "end": "2024-10-14",
+      "days": 106,
+      "number": 82,
+      "event": "AEW x NJPW: Forbidden Door",
+      "location": "Elmont, New York, U.S.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r83",
+      "holder": "Zack Sabre Jr.",
+      "people": [
+        "zack-sabre-jr"
+      ],
+      "start": "2024-10-14",
+      "end": "2025-02-11",
+      "days": 120,
+      "number": 83,
+      "event": "King of Pro-Wrestling",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r84",
+      "holder": "Hirooki Goto",
+      "people": [
+        "hirooki-goto"
+      ],
+      "start": "2025-02-11",
+      "end": "2025-06-29",
+      "days": 138,
+      "number": 84,
+      "event": "The New Beginning in Osaka",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r85",
+      "holder": "Zack Sabre Jr.",
+      "people": [
+        "zack-sabre-jr"
+      ],
+      "start": "2025-06-29",
+      "end": "2025-10-13",
+      "days": 106,
+      "number": 85,
+      "event": "Tanahashi Jam",
+      "location": "Nagoya, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r86",
+      "holder": "Konosuke Takeshita",
+      "people": [
+        "konosuke-takeshita"
+      ],
+      "start": "2025-10-13",
+      "end": "2026-01-04",
+      "days": 83,
+      "number": 86,
+      "event": "King of Pro-Wrestling",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r87",
+      "holder": "Yota Tsuji",
+      "people": [
+        "yota-tsuji"
+      ],
+      "start": "2026-01-04",
+      "end": "2026-04-04",
+      "days": 90,
+      "number": 87,
+      "event": "Wrestle Kingdom 20",
+      "location": "Tokyo, Japan",
+      "note": "Winner-takes-all match; Tsuji later revived the Heavyweight title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r88",
+      "holder": "Callum Newman",
+      "people": [
+        "callum-newman"
+      ],
+      "start": "2026-04-04",
+      "end": "2026-06-14",
+      "days": 71,
+      "number": 88,
+      "event": "Sakura Genesis",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r89",
+      "holder": "Yota Tsuji",
+      "people": [
+        "yota-tsuji"
+      ],
+      "start": "2026-06-14",
+      "days": 73,
+      "number": 89,
+      "event": "Dominion 6.14 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "note": "Second reign; beat Callum Newman; reign ongoing",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_Heavyweight_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

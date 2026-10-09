@@ -1,11 +1,105 @@
 {
   "id": "wwf-north-american-heavyweight-championship",
-  "name": "WWF North American",
+  "name": "WWF North American Heavyweight Championship",
+  "promotion": "wwe",
+  "division": "men",
+  "format": "singles",
+  "established": "1979-02-13",
+  "retired": "1981-04-23",
   "names": [
-    "WWF North American"
+    "WWF North American",
+    "WWWF North American Heavyweight Championship"
+  ],
+  "eras": [
+    {
+      "name": "WWWF North American Heavyweight Championship",
+      "from": "1979-02-13",
+      "to": "1979-03-30"
+    },
+    {
+      "name": "WWF North American Heavyweight Championship",
+      "from": "1979-03-30"
+    }
+  ],
+  "history": [
+    {
+      "date": "1979-11-08",
+      "kind": "promotion",
+      "text": "Seiji Sakaguchi was awarded the title after defeating Patterson at an NJPW house show in Otaru, Japan.",
+      "related": [
+        "New Japan Pro-Wrestling"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWF_North_American_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1981-04-23",
+      "kind": "deactivated",
+      "text": "The WWF abandoned the title, deactivating it.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWF_North_American_Heavyweight_Championship"
+      ]
+    }
   ],
   "sources": [
-    "https://www.thesmackdownhotel.com/title-history/wwe/wwf-north-american-heavyweight-championship"
+    "https://www.thesmackdownhotel.com/title-history/wwe/wwf-north-american-heavyweight-championship",
+    "https://en.wikipedia.org/wiki/WWF_North_American_Heavyweight_Championship"
   ],
-  "reigns": []
+  "reigns": [
+    {
+      "id": "r1",
+      "holder": "Ted DiBiase",
+      "people": [
+        "ted-dibiase"
+      ],
+      "start": "1979-02-13",
+      "end": "1979-06-19",
+      "days": 126,
+      "number": 1,
+      "event": "Championship Wrestling tapings",
+      "location": "Allentown, PA",
+      "note": "Awarded when he signed with the WWWF; title renamed WWF the following month",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWF_North_American_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r2",
+      "holder": "Pat Patterson",
+      "people": [
+        "pat-patterson"
+      ],
+      "start": "1979-06-19",
+      "end": "1979-11-08",
+      "days": 158,
+      "number": 2,
+      "event": "Championship Wrestling tapings",
+      "location": "Allentown, PA",
+      "dateNote": "The source prints 158 days; its dates give 142.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWF_North_American_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Seiji Sakaguchi",
+      "people": [
+        "seiji-sakaguchi"
+      ],
+      "start": "1979-11-08",
+      "end": "1981-04-23",
+      "days": 532,
+      "number": 3,
+      "event": "House show",
+      "location": "Otaru, Japan",
+      "note": "New Japan Pro-Wrestling event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWF_North_American_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    }
+  ]
 }

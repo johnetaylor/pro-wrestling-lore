@@ -1,10 +1,74 @@
 {
   "id": "nxt-championship",
   "name": "NXT Championship",
-  "names": [
-    "NXT Championship"
+  "promotion": "wwe",
+  "division": "men",
+  "format": "singles",
+  "established": "2012-07-01",
+  "names": [],
+  "eras": [
+    {
+      "name": "NXT Championship",
+      "from": "2012-07-01"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "2017",
+      "kind": "recognition",
+      "text": "Drew McIntyre's win was described in the official title history as a world championship.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Championship"
+      ]
+    },
+    {
+      "date": "2019-09",
+      "kind": "brand",
+      "text": "NXT became WWE's third brand when the NXT program moved to the USA Network.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Championship"
+      ]
+    },
+    {
+      "date": "2021",
+      "kind": "recognition",
+      "text": "Revealed as an option for the men's Royal Rumble winner to challenge for at WrestleMania 37, alongside the WWE and Universal titles.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Championship"
+      ]
+    },
+    {
+      "date": "2021-09",
+      "kind": "recognition",
+      "text": "Dropped the world championship designation when NXT returned to its original role as a developmental brand.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Championship"
+      ]
+    },
+    {
+      "date": "2022-09-04",
+      "kind": "unified-into",
+      "text": "Bron Breakker beat Tyler Bate at Worlds Collide, unifying the NXT UK Championship into the NXT Championship.",
+      "related": [
+        "NXT United Kingdom Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Championship"
+      ]
+    },
+    {
+      "date": "2024-10-01",
+      "kind": "brand",
+      "text": "NXT moved to The CW, and the championship belt was updated to match the new show logo.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_NXT_Champions",
+    "https://en.wikipedia.org/wiki/NXT_Championship"
+  ],
   "reigns": [
     {
       "id": "r1",
@@ -13,14 +77,74 @@
         "seth-rollins"
       ],
       "start": "2012-08-29",
-      "end": "2013-01-09",
+      "end": "2012-12-06",
+      "days": 133,
+      "number": 1,
+      "event": "NXT",
+      "location": "Winter Park, FL",
+      "note": "Inaugural champion via eight-man tournament final; WWE dates reign from 2012-08-29",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
       ],
       "legacyIds": [
         "profile-reign-seth-rollins-746"
       ]
+    },
+    {
+      "id": "r22",
+      "holder": "Big E Langston",
+      "people": [
+        "big-e-langston"
+      ],
+      "start": "2012-12-06",
+      "end": "2013-05-23",
+      "days": 168,
+      "number": 2,
+      "event": "NXT",
+      "location": "Winter Park, FL",
+      "note": "No-DQ match; WWE recognizes 153 days from 2013-01-09",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Bo Dallas",
+      "people": [
+        "uncle-howdy"
+      ],
+      "start": "2013-05-23",
+      "end": "2014-02-27",
+      "days": 280,
+      "number": 3,
+      "event": "NXT",
+      "location": "Winter Park, FL",
+      "note": "WWE recognizes 260 days from 2013-06-12",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Adrian Neville",
+      "people": [
+        "neville"
+      ],
+      "start": "2014-02-27",
+      "end": "2014-12-11",
+      "days": 287,
+      "number": 4,
+      "event": "Arrival",
+      "location": "Winter Park, FL",
+      "note": "Ladder match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r2",
@@ -30,9 +154,15 @@
       ],
       "start": "2014-12-11",
       "end": "2015-02-11",
+      "days": 62,
+      "number": 5,
+      "event": "TakeOver: R Evolution",
+      "location": "Winter Park, FL",
+      "note": "Title vs. career match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
       ],
       "legacyIds": [
         "profile-reign-sami-zayn-713"
@@ -46,9 +176,15 @@
       ],
       "start": "2015-02-11",
       "end": "2015-07-04",
+      "days": 143,
+      "number": 6,
+      "event": "TakeOver: Rival",
+      "location": "Winter Park, FL",
+      "note": "Won after referee stopped Zayn; WWE recognizes 142 days",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
       ],
       "legacyIds": [
         "profile-reign-kevin-owens-379"
@@ -62,13 +198,35 @@
       ],
       "start": "2015-07-04",
       "end": "2016-04-21",
+      "days": 292,
+      "number": 7,
+      "event": "The Beast in the East",
+      "location": "Tokyo, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
       ],
       "legacyIds": [
         "profile-reign-finn-balor-278"
       ]
+    },
+    {
+      "id": "r25",
+      "holder": "Samoa Joe",
+      "people": [
+        "samoa-joe"
+      ],
+      "start": "2016-04-21",
+      "end": "2016-08-20",
+      "days": 121,
+      "number": 8,
+      "event": "NXT Live",
+      "location": "Lowell, MA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r5",
@@ -78,13 +236,36 @@
       ],
       "start": "2016-08-20",
       "end": "2016-11-19",
+      "days": 91,
+      "number": 9,
+      "event": "TakeOver: Brooklyn II",
+      "location": "Brooklyn, NY",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
       ],
       "legacyIds": [
         "profile-reign-shinsuke-nakamura-769"
       ]
+    },
+    {
+      "id": "r26",
+      "holder": "Samoa Joe",
+      "people": [
+        "samoa-joe"
+      ],
+      "start": "2016-11-19",
+      "end": "2016-12-03",
+      "days": 14,
+      "number": 10,
+      "event": "TakeOver: Toronto",
+      "location": "Toronto, ON, Canada",
+      "note": "WWE recognizes 13 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r6",
@@ -94,13 +275,36 @@
       ],
       "start": "2016-12-03",
       "end": "2017-01-28",
+      "days": 56,
+      "number": 11,
+      "event": "NXT",
+      "location": "Osaka, Japan",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
       ],
       "legacyIds": [
         "profile-reign-shinsuke-nakamura-768"
       ]
+    },
+    {
+      "id": "r27",
+      "holder": "Bobby Roode",
+      "people": [
+        "bobby-roode"
+      ],
+      "start": "2017-01-28",
+      "end": "2017-08-19",
+      "days": 203,
+      "number": 12,
+      "event": "TakeOver: San Antonio",
+      "location": "San Antonio, TX",
+      "note": "WWE recognizes 202 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r7",
@@ -110,13 +314,72 @@
       ],
       "start": "2017-08-19",
       "end": "2017-11-18",
+      "days": 91,
+      "number": 13,
+      "event": "TakeOver: Brooklyn III",
+      "location": "Brooklyn, NY",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
       ],
       "legacyIds": [
         "profile-reign-drew-mcintyre-199"
       ]
+    },
+    {
+      "id": "r28",
+      "holder": "Andrade \"Cien\" Almas",
+      "people": [
+        "andrade"
+      ],
+      "start": "2017-11-18",
+      "end": "2018-04-07",
+      "days": 140,
+      "number": 14,
+      "event": "TakeOver: WarGames",
+      "location": "Houston, TX",
+      "note": "WWE recognizes 139 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "Aleister Black",
+      "people": [
+        "aleister-black"
+      ],
+      "start": "2018-04-07",
+      "end": "2018-07-18",
+      "days": 102,
+      "number": 15,
+      "event": "TakeOver: New Orleans",
+      "location": "New Orleans, LA",
+      "note": "WWE recognizes 108 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Tommaso Ciampa",
+      "people": [
+        "tommaso-ciampa"
+      ],
+      "start": "2018-07-18",
+      "end": "2019-03-13",
+      "days": 238,
+      "number": 16,
+      "event": "NXT",
+      "location": "Winter Park, FL",
+      "note": "WWE recognizes reign as 2018-07-25 to 2019-03-20 due to tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r8",
@@ -126,13 +389,73 @@
       ],
       "start": "2019-04-05",
       "end": "2019-06-01",
+      "days": 57,
+      "number": 17,
+      "event": "TakeOver: New York",
+      "location": "Brooklyn, NY",
+      "note": "Won vacant title in two-of-three falls match over Adam Cole; WWE recognizes 56 days",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
       ],
       "legacyIds": [
         "profile-reign-johnny-gargano-361"
       ]
+    },
+    {
+      "id": "r31",
+      "holder": "Adam Cole",
+      "people": [
+        "adam-cole"
+      ],
+      "start": "2019-06-01",
+      "end": "2020-07-01",
+      "days": 396,
+      "number": 18,
+      "event": "TakeOver: XXV",
+      "location": "Bridgeport, CT",
+      "note": "WWE recognizes 403 days; ended 2020-07-08 on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Keith Lee",
+      "people": [
+        "keith-lee"
+      ],
+      "start": "2020-07-01",
+      "end": "2020-08-22",
+      "days": 52,
+      "number": 19,
+      "event": "NXT: The Great American Bash Night 2",
+      "location": "Winter Park, FL",
+      "note": "Winner-takes-all match that also defended NXT North American Title; WWE recognizes 44 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Karrion Kross",
+      "people": [
+        "karrion-kross"
+      ],
+      "start": "2020-08-22",
+      "end": "2020-08-26",
+      "days": 4,
+      "number": 20,
+      "event": "TakeOver XXX",
+      "location": "Winter Park, FL",
+      "note": "WWE recognizes 3 days; relinquished after shoulder injury",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r9",
@@ -142,13 +465,72 @@
       ],
       "start": "2020-09-08",
       "end": "2021-04-08",
+      "days": 212,
+      "number": 21,
+      "event": "NXT: Super Tuesday II",
+      "location": "Winter Park, FL",
+      "note": "Won vacant title after iron man match with Cole ended in a tie",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
       ],
       "legacyIds": [
         "profile-reign-finn-balor-274"
       ]
+    },
+    {
+      "id": "r34",
+      "holder": "Karrion Kross",
+      "people": [
+        "karrion-kross"
+      ],
+      "start": "2021-04-08",
+      "end": "2021-08-22",
+      "days": 136,
+      "number": 22,
+      "event": "TakeOver: Stand & Deliver Night 2",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "Samoa Joe",
+      "people": [
+        "samoa-joe"
+      ],
+      "start": "2021-08-22",
+      "end": "2021-09-12",
+      "days": 21,
+      "number": 23,
+      "event": "TakeOver 36",
+      "location": "Orlando, FL",
+      "note": "WWE recognizes 20 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "Tommaso Ciampa",
+      "people": [
+        "tommaso-ciampa"
+      ],
+      "start": "2021-09-14",
+      "end": "2022-01-04",
+      "days": 112,
+      "number": 24,
+      "event": "NXT 2.0",
+      "location": "Orlando, FL",
+      "note": "Fatal four-way for vacant title; WWE recognizes 111 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r10",
@@ -158,13 +540,36 @@
       ],
       "start": "2022-01-04",
       "end": "2022-03-08",
+      "days": 63,
+      "number": 25,
+      "event": "NXT 2.0: New Year's Evil",
+      "location": "Orlando, FL",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
       ],
       "legacyIds": [
         "profile-reign-bron-breakker-66"
       ]
+    },
+    {
+      "id": "r37",
+      "holder": "Dolph Ziggler",
+      "people": [
+        "dolph-ziggler"
+      ],
+      "start": "2022-03-08",
+      "end": "2022-04-04",
+      "days": 27,
+      "number": 26,
+      "event": "NXT 2.0: Roadblock",
+      "location": "Orlando, FL",
+      "note": "Triple threat match; pinned Ciampa; WWE recognizes 26 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r11",
@@ -174,9 +579,15 @@
       ],
       "start": "2022-04-04",
       "end": "2023-04-01",
+      "days": 362,
+      "number": 27,
+      "event": "Raw",
+      "location": "Dallas, TX",
+      "note": "Unified NXT UK Championship by beating Tyler Bate; WWE recognizes 361 days",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
       ],
       "legacyIds": [
         "profile-reign-bron-breakker-65"
@@ -190,13 +601,36 @@
       ],
       "start": "2023-04-01",
       "end": "2023-09-30",
+      "days": 182,
+      "number": 28,
+      "event": "Stand & Deliver",
+      "location": "Los Angeles, CA",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
       ],
       "legacyIds": [
         "profile-reign-carmelo-hayes-70"
       ]
+    },
+    {
+      "id": "r38",
+      "holder": "Ilja Dragunov",
+      "people": [
+        "ilja-dragunov"
+      ],
+      "start": "2023-09-30",
+      "end": "2024-04-23",
+      "days": 206,
+      "number": 29,
+      "event": "No Mercy",
+      "location": "Bakersfield, CA",
+      "note": "WWE recognizes 205 days",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r13",
@@ -206,9 +640,15 @@
       ],
       "start": "2024-04-23",
       "end": "2024-07-07",
+      "days": 75,
+      "number": 30,
+      "event": "NXT: Spring Breakin' Night 1",
+      "location": "Orlando, FL",
+      "note": "Loss would have forced him to leave NXT; WWE recognizes 74 days",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
       ],
       "legacyIds": [
         "profile-reign-trick-williams-840"
@@ -222,9 +662,15 @@
       ],
       "start": "2024-07-07",
       "end": "2024-10-01",
+      "days": 86,
+      "number": 31,
+      "event": "Heatwave",
+      "location": "Toronto, ON, Canada",
+      "note": "Fatal four-way; pinned Shawn Spears and Je'Von Evans",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
       ],
       "legacyIds": [
         "profile-reign-ethan-page-262"
@@ -238,9 +684,15 @@
       ],
       "start": "2024-10-01",
       "end": "2025-01-07",
+      "days": 98,
+      "number": 32,
+      "event": "NXT's debut on The CW",
+      "location": "Rosemont, IL",
+      "note": "CM Punk was special guest referee",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
       ],
       "legacyIds": [
         "profile-reign-trick-williams-839"
@@ -254,9 +706,15 @@
       ],
       "start": "2025-01-07",
       "end": "2025-09-27",
+      "days": 263,
+      "number": 33,
+      "event": "NXT: New Year's Evil",
+      "location": "Los Angeles, CA",
+      "note": "Triple threat match with Eddy Thorpe; WWE recognizes 262 days",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
       ],
       "legacyIds": [
         "profile-reign-oba-femi-499"
@@ -270,9 +728,15 @@
       ],
       "start": "2025-09-27",
       "end": "2025-12-06",
+      "days": 70,
+      "number": 34,
+      "event": "No Mercy",
+      "location": "Fort Lauderdale, FL",
+      "note": "WWE recognizes 69 days",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
       ],
       "legacyIds": [
         "profile-reign-ricky-saints-684"
@@ -286,9 +750,14 @@
       ],
       "start": "2025-12-06",
       "end": "2026-01-06",
+      "days": 31,
+      "number": 35,
+      "event": "Deadline",
+      "location": "San Antonio, TX",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
       ],
       "legacyIds": [
         "profile-reign-oba-femi-498"
@@ -302,9 +771,15 @@
       ],
       "start": "2026-02-03",
       "end": "2026-04-04",
+      "days": 60,
+      "number": 36,
+      "event": "NXT",
+      "location": "Orlando, FL",
+      "note": "Seven-man ladder match for vacant title; WWE recognizes 59 days",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
       ],
       "legacyIds": [
         "profile-reign-joe-hendry-354"
@@ -318,9 +793,15 @@
       ],
       "start": "2026-04-04",
       "end": "2026-08-30",
+      "days": 87,
+      "number": 37,
+      "event": "Stand & Deliver",
+      "location": "Chesterfield, MO",
+      "note": "Fatal four-way with Ethan Page and Ricky Saints",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-championship",
+        "https://en.wikipedia.org/wiki/List_of_NXT_Champions"
       ],
       "legacyIds": [
         "profile-reign-tony-d-angelo-833"

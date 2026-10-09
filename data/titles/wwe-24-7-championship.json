@@ -1,11 +1,87 @@
 {
   "id": "wwe-24-7-championship",
-  "name": "WWE 24/7 Championship",
+  "name": "24/7 Championship",
+  "promotion": "wwe",
+  "division": "mixed",
+  "format": "singles",
+  "established": "2019-05-20",
+  "retired": "2022-11-09",
   "names": [
     "WWE 24/7 Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "WWE 24/7 Championship",
+      "from": "2019-05-20"
+    }
+  ],
+  "history": [
+    {
+      "date": "2019-10",
+      "kind": "brand",
+      "text": "After the 2019 WWE Draft, the title mostly appeared on Raw, though it could still be defended on all brands.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_24/7_Championship"
+      ]
+    },
+    {
+      "date": "2022-11-09",
+      "kind": "deactivated",
+      "text": "WWE removed the title from its active titles page on WWE.com, two days after Nikki Cross discarded it backstage.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_24/7_Championship"
+      ]
+    },
+    {
+      "date": "2022-11-09",
+      "kind": "retired",
+      "text": "The title was retired with Nikki Cross as its final holder.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WWE_24/7_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions",
+    "https://en.wikipedia.org/wiki/WWE_24/7_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r72",
+      "holder": "Titus O'Neil",
+      "people": [
+        "titus-oneil"
+      ],
+      "start": "2019-05-20",
+      "end": "2019-05-20",
+      "days": 0,
+      "number": 1,
+      "event": "Raw",
+      "location": "Albany, NY",
+      "note": "Inaugural champion after a multi-wrestler scramble",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r73",
+      "holder": "Robert Roode",
+      "people": [
+        "robert-roode"
+      ],
+      "start": "2019-05-20",
+      "end": "2019-05-20",
+      "days": 0,
+      "number": 2,
+      "event": "Raw",
+      "location": "Albany, NY",
+      "note": "Won on the entrance ramp",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "R-Truth",
@@ -14,13 +90,37 @@
       ],
       "start": "2019-05-20",
       "end": "2019-05-28",
+      "days": 8,
+      "number": 3,
+      "event": "Raw",
+      "location": "Albany, NY",
+      "note": "Won in the parking lot",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-598"
       ]
+    },
+    {
+      "id": "r74",
+      "holder": "Elias",
+      "people": [
+        "elias"
+      ],
+      "start": "2019-05-28",
+      "end": "2019-05-28",
+      "days": 0,
+      "number": 4,
+      "event": "SmackDown",
+      "location": "Tulsa, OK",
+      "note": "Won while the 24/7 rule was temporarily suspended",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r2",
@@ -30,13 +130,35 @@
       ],
       "start": "2019-05-28",
       "end": "2019-06-02",
+      "days": 5,
+      "number": 5,
+      "event": "SmackDown",
+      "location": "Tulsa, OK",
+      "note": "Won in the ring after the suspension was lifted",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-597"
       ]
+    },
+    {
+      "id": "r75",
+      "holder": "Jinder Mahal",
+      "people": [
+        "jinder-mahal"
+      ],
+      "start": "2019-06-02",
+      "end": "2019-06-02",
+      "days": 0,
+      "number": 6,
+      "note": "Golf course title change shown on WWE channels",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r3",
@@ -46,13 +168,35 @@
       ],
       "start": "2019-06-02",
       "end": "2019-06-04",
+      "days": 2,
+      "number": 7,
+      "note": "Golf course title change shown on WWE channels",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-596"
       ]
+    },
+    {
+      "id": "r76",
+      "holder": "Elias",
+      "people": [
+        "elias"
+      ],
+      "start": "2019-06-04",
+      "end": "2019-06-04",
+      "days": 0,
+      "number": 8,
+      "event": "SmackDown",
+      "location": "Laredo, TX",
+      "note": "Lumberjack match with the rule suspended",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r4",
@@ -62,13 +206,36 @@
       ],
       "start": "2019-06-04",
       "end": "2019-06-06",
+      "days": 2,
+      "number": 9,
+      "event": "SmackDown",
+      "location": "Laredo, TX",
+      "note": "Won under the ring",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-595"
       ]
+    },
+    {
+      "id": "r77",
+      "holder": "Jinder Mahal",
+      "people": [
+        "jinder-mahal"
+      ],
+      "start": "2019-06-06",
+      "end": "2019-06-06",
+      "days": 0,
+      "number": 10,
+      "location": "Frankfurt, Germany",
+      "note": "Won on the tarmac during an airport stopover",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r5",
@@ -78,13 +245,36 @@
       ],
       "start": "2019-06-06",
       "end": "2019-06-18",
+      "days": 12,
+      "number": 11,
+      "location": "39,000 feet above the Red Sea",
+      "note": "Pinned a sleeping Mahal during a flight",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-594"
       ]
+    },
+    {
+      "id": "r78",
+      "holder": "Drake Maverick",
+      "people": [
+        "drake-maverick"
+      ],
+      "start": "2019-06-18",
+      "end": "2019-06-20",
+      "days": 2,
+      "number": 12,
+      "event": "SmackDown",
+      "location": "Ontario, CA",
+      "note": "Won in the parking lot while disguised",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r6",
@@ -94,13 +284,36 @@
       ],
       "start": "2019-06-21",
       "end": "2019-06-24",
+      "days": 4,
+      "number": 13,
+      "location": "Orlando, FL",
+      "note": "Pinned during Maverick's wedding exit",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-593"
       ]
+    },
+    {
+      "id": "r79",
+      "holder": "Heath Slater",
+      "people": [
+        "heath-slater"
+      ],
+      "start": "2019-06-24",
+      "end": "2019-06-24",
+      "days": 0,
+      "number": 14,
+      "event": "Raw",
+      "location": "Everett, WA",
+      "note": "Won in the ring after an interrupted match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r7",
@@ -109,14 +322,92 @@
         "r-truth"
       ],
       "start": "2019-06-24",
-      "end": "2019-07-01",
+      "end": "2019-06-24",
+      "days": 0,
+      "number": 15,
+      "event": "Raw",
+      "location": "Everett, WA",
+      "note": "Brief reign during the same night's chaos",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-592"
       ]
+    },
+    {
+      "id": "r80",
+      "holder": "Cedric Alexander",
+      "people": [
+        "cedric-alexander"
+      ],
+      "start": "2019-06-24",
+      "end": "2019-06-24",
+      "days": 0,
+      "number": 16,
+      "event": "Raw",
+      "location": "Everett, WA",
+      "note": "Brief reign during the same night's chaos",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r81",
+      "holder": "EC3",
+      "people": [
+        "ec3"
+      ],
+      "start": "2019-06-24",
+      "end": "2019-06-24",
+      "days": 0,
+      "number": 17,
+      "event": "Raw",
+      "location": "Everett, WA",
+      "note": "Won at ringside",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r82",
+      "holder": "R-Truth",
+      "people": [
+        "r-truth"
+      ],
+      "start": "2019-06-24",
+      "end": "2019-07-01",
+      "days": 7,
+      "number": 18,
+      "event": "Raw",
+      "location": "Everett, WA",
+      "note": "Won on the ramp after EC3 was distracted",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r83",
+      "holder": "Drake Maverick",
+      "people": [
+        "drake-maverick"
+      ],
+      "start": "2019-07-01",
+      "end": "2019-07-15",
+      "days": 14,
+      "number": 19,
+      "event": "Raw",
+      "location": "Dallas, TX",
+      "note": "Won backstage",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r8",
@@ -126,13 +417,163 @@
       ],
       "start": "2019-07-15",
       "end": "2019-07-22",
+      "days": 7,
+      "number": 20,
+      "event": "Raw",
+      "location": "Uniondale, NY",
+      "note": "Bribed a referee to enter Maverick's hotel room",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-591"
       ]
+    },
+    {
+      "id": "r84",
+      "holder": "Drake Maverick",
+      "people": [
+        "drake-maverick"
+      ],
+      "start": "2019-07-22",
+      "end": "2019-07-22",
+      "days": 0,
+      "number": 21,
+      "event": "Raw Reunion",
+      "location": "Tampa, FL",
+      "note": "Won backstage",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r85",
+      "holder": "Pat Patterson",
+      "people": [
+        "pat-patterson"
+      ],
+      "start": "2019-07-22",
+      "end": "2019-07-22",
+      "days": 0,
+      "number": 22,
+      "event": "Raw Reunion",
+      "location": "Tampa, FL",
+      "note": "Won in the locker room",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r86",
+      "holder": "Gerald Brisco",
+      "people": [
+        "gerald-brisco"
+      ],
+      "start": "2019-07-22",
+      "end": "2019-07-22",
+      "days": 0,
+      "number": 23,
+      "event": "Raw Reunion",
+      "location": "Tampa, FL",
+      "note": "Off-screen backstage win",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r87",
+      "holder": "Kelly Kelly",
+      "people": [
+        "kelly-kelly"
+      ],
+      "start": "2019-07-22",
+      "end": "2019-07-22",
+      "days": 0,
+      "number": 24,
+      "event": "Raw Reunion",
+      "location": "Tampa, FL",
+      "note": "Won backstage",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r88",
+      "holder": "Candice Michelle",
+      "people": [
+        "candice-michelle"
+      ],
+      "start": "2019-07-22",
+      "end": "2019-07-22",
+      "days": 0,
+      "number": 25,
+      "event": "Raw Reunion",
+      "location": "Tampa, FL",
+      "note": "Won backstage with Melina as special referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r89",
+      "holder": "Alundra Blayze",
+      "people": [
+        "alundra-blayze"
+      ],
+      "start": "2019-07-22",
+      "end": "2019-07-22",
+      "days": 0,
+      "number": 26,
+      "event": "Raw Reunion",
+      "location": "Tampa, FL",
+      "note": "Won by submission backstage",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r90",
+      "holder": "The Million Dollar Man",
+      "people": [
+        "ted-dibiase"
+      ],
+      "start": "2019-07-22",
+      "end": "2019-07-22",
+      "days": 0,
+      "number": 27,
+      "event": "Raw Reunion",
+      "location": "Tampa, FL",
+      "note": "Bought the title from Blayze",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r91",
+      "holder": "Drake Maverick",
+      "people": [
+        "drake-maverick"
+      ],
+      "start": "2019-07-22",
+      "end": "2019-07-22",
+      "days": 0,
+      "number": 28,
+      "event": "Raw Reunion",
+      "location": "Tampa, FL",
+      "note": "Won in a limousine in the parking lot",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r9",
@@ -142,13 +583,72 @@
       ],
       "start": "2019-07-22",
       "end": "2019-07-29",
+      "days": 7,
+      "number": 29,
+      "event": "Raw Reunion",
+      "location": "Tampa, FL",
+      "note": "Won in the parking lot as Maverick fled",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-590"
       ]
+    },
+    {
+      "id": "r92",
+      "holder": "Mike Kanellis",
+      "people": [
+        "mike-kanellis"
+      ],
+      "start": "2019-07-29",
+      "end": "2019-07-29",
+      "days": 0,
+      "number": 30,
+      "event": "Raw",
+      "location": "Little Rock, AR",
+      "note": "Won in the ring during a dogpile",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r93",
+      "holder": "Maria Kanellis",
+      "people": [
+        "maria-kanellis"
+      ],
+      "start": "2019-07-29",
+      "end": "2019-08-05",
+      "days": 7,
+      "number": 31,
+      "event": "Raw",
+      "location": "Little Rock, AR",
+      "note": "Made her husband lie down for the pin",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r94",
+      "holder": "Mike Kanellis",
+      "people": [
+        "mike-kanellis"
+      ],
+      "start": "2019-08-05",
+      "end": "2019-08-05",
+      "days": 0,
+      "number": 32,
+      "location": "Pittsburgh, PA",
+      "note": "Hugged wife during an OB-GYN visit",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r10",
@@ -158,13 +658,37 @@
       ],
       "start": "2019-08-05",
       "end": "2019-08-12",
+      "days": 7,
+      "number": 33,
+      "location": "Pittsburgh, PA",
+      "note": "Won in the OB-GYN waiting room while disguised",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-589"
       ]
+    },
+    {
+      "id": "r95",
+      "holder": "The Revival",
+      "people": [
+        "scott-dawson",
+        "dash-wilder"
+      ],
+      "start": "2019-08-12",
+      "end": "2019-08-12",
+      "days": 0,
+      "number": 34,
+      "event": "Raw",
+      "location": "Toronto, ON, Canada",
+      "note": "Co-champions after a simultaneous pin",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r11",
@@ -174,13 +698,71 @@
       ],
       "start": "2019-08-12",
       "end": "2019-08-12",
+      "days": 0,
+      "number": 35,
+      "event": "Raw",
+      "location": "Toronto, ON, Canada",
+      "note": "Won in the ring after Carmella's interference",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-588"
       ]
+    },
+    {
+      "id": "r96",
+      "holder": "Elias",
+      "people": [
+        "elias"
+      ],
+      "start": "2019-08-12",
+      "end": "2019-08-23",
+      "days": 11,
+      "number": 36,
+      "event": "Raw",
+      "location": "Toronto, ON, Canada",
+      "note": "Won backstage",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r97",
+      "holder": "Rob Stone",
+      "people": [
+        "rob-stone"
+      ],
+      "start": "2019-08-23",
+      "end": "2019-08-23",
+      "days": 0,
+      "number": 38,
+      "location": "Los Angeles, CA",
+      "note": "Won on the Fox College Football set",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r98",
+      "holder": "Elias",
+      "people": [
+        "elias"
+      ],
+      "start": "2019-08-23",
+      "end": "2019-08-27",
+      "days": 4,
+      "number": 39,
+      "location": "Los Angeles, CA",
+      "note": "Won on the Fox College Football set",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r12",
@@ -190,13 +772,71 @@
       ],
       "start": "2019-08-24",
       "end": "2019-08-24",
+      "days": 0,
+      "number": 37,
+      "event": "Fox Sports Founders Day",
+      "location": "Los Angeles, CA",
+      "note": "Won on stage during a musical performance",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-587"
       ]
+    },
+    {
+      "id": "r99",
+      "holder": "Drake Maverick",
+      "people": [
+        "drake-maverick"
+      ],
+      "start": "2019-08-27",
+      "end": "2019-09-03",
+      "days": 7,
+      "number": 40,
+      "event": "SmackDown",
+      "location": "Baton Rouge, LA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r100",
+      "holder": "Bo Dallas",
+      "people": [
+        "uncle-howdy"
+      ],
+      "start": "2019-09-03",
+      "end": "2019-09-03",
+      "days": 0,
+      "number": 41,
+      "event": "SmackDown",
+      "location": "Norfolk, VA",
+      "note": "Won backstage",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r101",
+      "holder": "Drake Maverick",
+      "people": [
+        "drake-maverick"
+      ],
+      "start": "2019-09-03",
+      "end": "2019-09-03",
+      "days": 0,
+      "number": 42,
+      "event": "SmackDown",
+      "location": "Norfolk, VA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r13",
@@ -206,13 +846,37 @@
       ],
       "start": "2019-09-03",
       "end": "2019-09-09",
+      "days": 6,
+      "number": 43,
+      "event": "SmackDown",
+      "location": "Norfolk, VA",
+      "note": "Won on the ramp while in King of the Ring attire",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-586"
       ]
+    },
+    {
+      "id": "r102",
+      "holder": "Enes Kanter",
+      "people": [
+        "enes-kanter"
+      ],
+      "start": "2019-09-09",
+      "end": "2019-09-09",
+      "days": 0,
+      "number": 44,
+      "event": "Main Event",
+      "location": "New York, NY",
+      "note": "Cross-promotion with a Boston Celtics broadcaster",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r14",
@@ -222,13 +886,36 @@
       ],
       "start": "2019-09-09",
       "end": "2019-09-16",
+      "days": 7,
+      "number": 45,
+      "event": "Main Event",
+      "location": "New York, NY",
+      "note": "Won in the ring during the taping",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-585"
       ]
+    },
+    {
+      "id": "r103",
+      "holder": "Mayor Glenn Jacobs",
+      "people": [
+        "kane"
+      ],
+      "start": "2019-09-16",
+      "end": "2019-09-16",
+      "days": 0,
+      "number": 46,
+      "location": "Knoxville, TN",
+      "note": "Won under a goal post during a city tour",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r15",
@@ -238,13 +925,35 @@
       ],
       "start": "2019-09-16",
       "end": "2019-09-20",
+      "days": 4,
+      "number": 47,
+      "location": "Knoxville, TN",
+      "note": "Won in the valet parking area",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-584"
       ]
+    },
+    {
+      "id": "r104",
+      "holder": "EC3",
+      "people": [
+        "ec3"
+      ],
+      "start": "2019-09-20",
+      "end": "2019-09-20",
+      "days": 0,
+      "number": 48,
+      "event": "WWE Live",
+      "location": "Quezon City, Philippines",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r16",
@@ -254,13 +963,35 @@
       ],
       "start": "2019-09-20",
       "end": "2019-09-21",
+      "days": 1,
+      "number": 49,
+      "event": "WWE Live",
+      "location": "Quezon City, Philippines",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-583"
       ]
+    },
+    {
+      "id": "r105",
+      "holder": "EC3",
+      "people": [
+        "ec3"
+      ],
+      "start": "2019-09-21",
+      "end": "2019-09-21",
+      "days": 0,
+      "number": 50,
+      "event": "WWE Live",
+      "location": "Shanghai, China",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r17",
@@ -270,13 +1001,36 @@
       ],
       "start": "2019-09-21",
       "end": "2019-09-22",
+      "days": 1,
+      "number": 51,
+      "event": "WWE Live",
+      "location": "Shanghai, China",
+      "note": "Chad Gable was special guest referee",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-582"
       ]
+    },
+    {
+      "id": "r106",
+      "holder": "EC3",
+      "people": [
+        "ec3"
+      ],
+      "start": "2019-09-22",
+      "end": "2019-09-22",
+      "days": 0,
+      "number": 52,
+      "event": "WWE Live",
+      "location": "Honolulu, HI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r18",
@@ -286,13 +1040,90 @@
       ],
       "start": "2019-09-22",
       "end": "2019-09-23",
+      "days": 1,
+      "number": 53,
+      "event": "WWE Live",
+      "location": "Honolulu, HI",
+      "note": "Chad Gable was special guest referee",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-581"
       ]
+    },
+    {
+      "id": "r107",
+      "holder": "Carmella",
+      "people": [
+        "carmella"
+      ],
+      "start": "2019-09-23",
+      "end": "2019-10-04",
+      "days": 11,
+      "number": 54,
+      "event": "Raw",
+      "location": "San Francisco, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r108",
+      "holder": "Marshmello",
+      "people": [
+        "marshmello"
+      ],
+      "start": "2019-10-04",
+      "end": "2019-10-04",
+      "days": 0,
+      "number": 55,
+      "event": "SmackDown's 20th Anniversary",
+      "location": "Los Angeles, CA",
+      "note": "Fell onto Carmella backstage",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r109",
+      "holder": "Carmella",
+      "people": [
+        "carmella"
+      ],
+      "start": "2019-10-04",
+      "end": "2019-10-06",
+      "days": 2,
+      "number": 56,
+      "event": "SmackDown's 20th Anniversary",
+      "location": "Los Angeles, CA",
+      "note": "Won in the parking lot",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r110",
+      "holder": "Tamina",
+      "people": [
+        "tamina"
+      ],
+      "start": "2019-10-06",
+      "end": "2019-10-06",
+      "days": 0,
+      "number": 57,
+      "event": "Hell in a Cell",
+      "location": "Sacramento, CA",
+      "note": "Won backstage",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r19",
@@ -302,13 +1133,37 @@
       ],
       "start": "2019-10-06",
       "end": "2019-10-21",
+      "days": 15,
+      "number": 58,
+      "event": "Hell in a Cell",
+      "location": "Sacramento, CA",
+      "note": "Won by the commentary tables",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-580"
       ]
+    },
+    {
+      "id": "r111",
+      "holder": "Sunil Singh",
+      "people": [
+        "sunil-singh"
+      ],
+      "start": "2019-10-21",
+      "end": "2019-10-31",
+      "days": 10,
+      "number": 59,
+      "event": "Raw",
+      "location": "Cleveland, OH",
+      "note": "Won backstage",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r20",
@@ -318,13 +1173,37 @@
       ],
       "start": "2019-10-31",
       "end": "2019-10-31",
+      "days": 0,
+      "number": 60,
+      "event": "Crown Jewel Kickoff",
+      "location": "Riyadh, Saudi Arabia",
+      "note": "Won after a battle royal where the rule was suspended",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-579"
       ]
+    },
+    {
+      "id": "r112",
+      "holder": "Samir Singh",
+      "people": [
+        "samir-singh"
+      ],
+      "start": "2019-10-31",
+      "end": "2019-11-18",
+      "days": 18,
+      "number": 61,
+      "event": "Crown Jewel",
+      "location": "Riyadh, Saudi Arabia",
+      "note": "Won backstage",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r21",
@@ -334,13 +1213,36 @@
       ],
       "start": "2019-11-18",
       "end": "2019-11-19",
+      "days": 1,
+      "number": 62,
+      "event": "Raw",
+      "location": "Boston, MA",
+      "note": "Won in a medical room while disguised as a doctor",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-578"
       ]
+    },
+    {
+      "id": "r113",
+      "holder": "Michael Giaccio",
+      "people": [
+        "michael-giaccio"
+      ],
+      "start": "2019-11-19",
+      "end": "2019-11-19",
+      "days": 0,
+      "number": 63,
+      "location": "Stamford, CT",
+      "note": "Won at a WWE employee town hall",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r22",
@@ -350,13 +1252,36 @@
       ],
       "start": "2019-11-19",
       "end": "2019-12-02",
+      "days": 13,
+      "number": 64,
+      "location": "Stamford, CT",
+      "note": "Won during a Talent Relations meeting",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-577"
       ]
+    },
+    {
+      "id": "r114",
+      "holder": "Kyle Busch",
+      "people": [
+        "kyle-busch"
+      ],
+      "start": "2019-12-02",
+      "end": "2019-12-02",
+      "days": 0,
+      "number": 65,
+      "event": "Raw",
+      "location": "Nashville, TN",
+      "note": "NASCAR cross-promotion with Michael Waltrip as referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r23",
@@ -366,9 +1291,15 @@
       ],
       "start": "2019-12-02",
       "end": "2019-12-22",
+      "days": 20,
+      "number": 66,
+      "event": "Raw",
+      "location": "Nashville, TN",
+      "note": "Won backstage",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-576"
@@ -382,13 +1313,35 @@
       ],
       "start": "2019-12-22",
       "end": "2019-12-22",
+      "days": 0,
+      "number": 67,
+      "location": "New York, NY",
+      "note": "Won at the Rockefeller Center tree",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-akira-tozawa-21"
       ]
+    },
+    {
+      "id": "r115",
+      "holder": "Santa Claus",
+      "people": [
+        "santa-claus"
+      ],
+      "start": "2019-12-22",
+      "end": "2019-12-22",
+      "days": 0,
+      "number": 68,
+      "location": "New York, NY",
+      "note": "Played by Bear Bronson at Columbus Circle",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r25",
@@ -398,13 +1351,53 @@
       ],
       "start": "2019-12-22",
       "end": "2019-12-26",
+      "days": 4,
+      "number": 69,
+      "location": "New York, NY",
+      "note": "Won in front of Lincoln Center",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-575"
       ]
+    },
+    {
+      "id": "r116",
+      "holder": "Samir Singh",
+      "people": [
+        "samir-singh"
+      ],
+      "start": "2019-12-26",
+      "end": "2019-12-26",
+      "days": 0,
+      "number": 70,
+      "event": "WWE Live",
+      "location": "New York, NY",
+      "note": "Handicap match also involving Sunil Singh",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r117",
+      "holder": "Sunil Singh",
+      "people": [
+        "sunil-singh"
+      ],
+      "start": "2019-12-26",
+      "end": "2019-12-26",
+      "days": 0,
+      "number": 71,
+      "event": "WWE Live",
+      "location": "New York, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r26",
@@ -414,13 +1407,70 @@
       ],
       "start": "2019-12-26",
       "end": "2019-12-27",
+      "days": 1,
+      "number": 72,
+      "event": "WWE Live",
+      "location": "New York, NY",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-574"
       ]
+    },
+    {
+      "id": "r118",
+      "holder": "Samir Singh",
+      "people": [
+        "samir-singh"
+      ],
+      "start": "2019-12-27",
+      "end": "2019-12-27",
+      "days": 0,
+      "number": 73,
+      "event": "WWE Live",
+      "location": "Pittsburgh, PA",
+      "note": "Handicap match also involving Sunil Singh",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r119",
+      "holder": "Mike Rome",
+      "people": [
+        "mike-rome"
+      ],
+      "start": "2019-12-27",
+      "end": "2019-12-27",
+      "days": 0,
+      "number": 74,
+      "event": "WWE Live",
+      "location": "Pittsburgh, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r120",
+      "holder": "Sunil Singh",
+      "people": [
+        "sunil-singh"
+      ],
+      "start": "2019-12-27",
+      "end": "2019-12-27",
+      "days": 0,
+      "number": 75,
+      "event": "WWE Live",
+      "location": "Pittsburgh, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r27",
@@ -430,13 +1480,36 @@
       ],
       "start": "2019-12-27",
       "end": "2019-12-28",
+      "days": 1,
+      "number": 76,
+      "event": "WWE Live",
+      "location": "Pittsburgh, PA",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-573"
       ]
+    },
+    {
+      "id": "r121",
+      "holder": "Samir Singh",
+      "people": [
+        "samir-singh"
+      ],
+      "start": "2019-12-28",
+      "end": "2019-12-28",
+      "days": 0,
+      "number": 77,
+      "event": "WWE Live",
+      "location": "Baltimore, MD",
+      "note": "Handicap match also involving Sunil Singh",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r28",
@@ -446,13 +1519,54 @@
       ],
       "start": "2019-12-28",
       "end": "2019-12-29",
+      "days": 1,
+      "number": 78,
+      "event": "WWE Live",
+      "location": "Baltimore, MD",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-572"
       ]
+    },
+    {
+      "id": "r122",
+      "holder": "Samir Singh",
+      "people": [
+        "samir-singh"
+      ],
+      "start": "2019-12-29",
+      "end": "2019-12-29",
+      "days": 0,
+      "number": 79,
+      "event": "WWE Live",
+      "location": "Hershey, PA",
+      "note": "WWE.com reversed the Samir and Sunil wins on this date",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r123",
+      "holder": "Sunil Singh",
+      "people": [
+        "sunil-singh"
+      ],
+      "start": "2019-12-29",
+      "end": "2019-12-29",
+      "days": 0,
+      "number": 80,
+      "event": "WWE Live",
+      "location": "Hershey, PA",
+      "note": "WWE.com reversed the Sunil and Samir wins on this date",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r29",
@@ -462,13 +1576,36 @@
       ],
       "start": "2019-12-29",
       "end": "2019-12-31",
+      "days": 2,
+      "number": 81,
+      "event": "WWE Live",
+      "location": "Hershey, PA",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-571"
       ]
+    },
+    {
+      "id": "r124",
+      "holder": "Mojo Rawley",
+      "people": [
+        "mojo-rawley"
+      ],
+      "start": "2019-12-31",
+      "end": "2019-12-31",
+      "days": 0,
+      "number": 82,
+      "event": "Fox's New Year's Eve with Steve Harvey",
+      "location": "New York, NY",
+      "note": "Won in Times Square with Maria Menounos as referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r30",
@@ -478,13 +1615,37 @@
       ],
       "start": "2019-12-31",
       "end": "2020-01-13",
+      "days": 13,
+      "number": 83,
+      "event": "Fox's New Year's Eve with Steve Harvey",
+      "location": "New York, NY",
+      "note": "Won in Times Square",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-570"
       ]
+    },
+    {
+      "id": "r125",
+      "holder": "Mojo Rawley",
+      "people": [
+        "mojo-rawley"
+      ],
+      "start": "2020-01-13",
+      "end": "2020-01-17",
+      "days": 4,
+      "number": 84,
+      "event": "Raw",
+      "location": "Lexington, KY",
+      "note": "Won on the entrance ramp",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r31",
@@ -494,13 +1655,35 @@
       ],
       "start": "2020-01-17",
       "end": "2020-01-17",
+      "days": 0,
+      "number": 85,
+      "event": "WWE Live",
+      "location": "Lafayette, LA",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-569"
       ]
+    },
+    {
+      "id": "r126",
+      "holder": "Mojo Rawley",
+      "people": [
+        "mojo-rawley"
+      ],
+      "start": "2020-01-17",
+      "end": "2020-01-18",
+      "days": 1,
+      "number": 86,
+      "event": "WWE Live",
+      "location": "Lafayette, LA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r32",
@@ -510,13 +1693,35 @@
       ],
       "start": "2020-01-18",
       "end": "2020-01-18",
+      "days": 0,
+      "number": 87,
+      "event": "WWE Live",
+      "location": "Jackson, MS",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-568"
       ]
+    },
+    {
+      "id": "r127",
+      "holder": "Mojo Rawley",
+      "people": [
+        "mojo-rawley"
+      ],
+      "start": "2020-01-18",
+      "end": "2020-01-19",
+      "days": 1,
+      "number": 88,
+      "event": "WWE Live",
+      "location": "Jackson, MS",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r33",
@@ -526,13 +1731,35 @@
       ],
       "start": "2020-01-19",
       "end": "2020-01-19",
+      "days": 0,
+      "number": 89,
+      "event": "WWE Live",
+      "location": "Topeka, KS",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-567"
       ]
+    },
+    {
+      "id": "r128",
+      "holder": "Mojo Rawley",
+      "people": [
+        "mojo-rawley"
+      ],
+      "start": "2020-01-19",
+      "end": "2020-01-27",
+      "days": 8,
+      "number": 90,
+      "event": "WWE Live",
+      "location": "Topeka, KS",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r34",
@@ -542,13 +1769,52 @@
       ],
       "start": "2020-01-27",
       "end": "2020-01-27",
+      "days": 0,
+      "number": 91,
+      "event": "Raw",
+      "location": "San Antonio, TX",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-566"
       ]
+    },
+    {
+      "id": "r129",
+      "holder": "Mojo Rawley",
+      "people": [
+        "mojo-rawley"
+      ],
+      "start": "2020-01-27",
+      "end": "2020-02-10",
+      "days": 14,
+      "number": 92,
+      "event": "Raw",
+      "location": "San Antonio, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r130",
+      "holder": "Riddick Moss",
+      "people": [
+        "riddick-moss"
+      ],
+      "start": "2020-02-10",
+      "end": "2020-03-22",
+      "days": 41,
+      "number": 93,
+      "event": "Raw",
+      "location": "Ontario, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r35",
@@ -557,14 +1823,57 @@
         "r-truth"
       ],
       "start": "2020-03-22",
-      "end": "2020-04-04",
+      "end": "2020-03-25",
+      "days": 4,
+      "number": 94,
+      "location": "Orlando, FL",
+      "note": "Won on a sidewalk; WWE recognizes the reign ending April 4",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-565"
       ]
+    },
+    {
+      "id": "r131",
+      "holder": "Mojo Rawley",
+      "people": [
+        "mojo-rawley"
+      ],
+      "start": "2020-03-25",
+      "end": "2020-03-25",
+      "days": 0,
+      "number": 95,
+      "event": "WrestleMania 36 Part 1",
+      "location": "Orlando, FL",
+      "note": "Won in the host's viewing area; taping day unknown",
+      "dateNote": "The source gives the date as 2020-03-25 or 26.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r132",
+      "holder": "Rob Gronkowski",
+      "people": [
+        "rob-gronkowski"
+      ],
+      "start": "2020-03-25",
+      "end": "2020-06-01",
+      "days": 68,
+      "number": 96,
+      "event": "WrestleMania 36 Part 2",
+      "location": "Orlando, FL",
+      "note": "Won in the host's viewing area; Gronkowski was host",
+      "dateNote": "The source gives the date as 2020-03-25 or 26.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r36",
@@ -573,10 +1882,15 @@
         "r-truth"
       ],
       "start": "2020-06-01",
-      "end": "2020-06-22",
+      "end": "2020-06-17",
+      "days": 16,
+      "number": 97,
+      "location": "Foxborough, MA",
+      "note": "Won in Gronkowski's backyard",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-564"
@@ -589,10 +1903,16 @@
         "akira-tozawa"
       ],
       "start": "2020-06-22",
-      "end": "2020-06-29",
+      "end": "2020-06-27",
+      "days": 10,
+      "number": 98,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Pinned Truth after Lashley attacked him",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-akira-tozawa-20"
@@ -606,13 +1926,37 @@
       ],
       "start": "2020-06-29",
       "end": "2020-07-20",
+      "days": 23,
+      "number": 99,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Singles match with the rule suspended",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-563"
       ]
+    },
+    {
+      "id": "r133",
+      "holder": "Shelton Benjamin",
+      "people": [
+        "shelton-benjamin"
+      ],
+      "start": "2020-07-20",
+      "end": "2020-08-03",
+      "days": 14,
+      "number": 100,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Won backstage",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r39",
@@ -621,10 +1965,16 @@
         "akira-tozawa"
       ],
       "start": "2020-08-03",
-      "end": "2020-08-10",
+      "end": "2020-08-03",
+      "days": 0,
+      "number": 101,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Triple threat; rule suspended; Tozawa pinned Truth",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-akira-tozawa-19"
@@ -637,14 +1987,74 @@
         "r-truth"
       ],
       "start": "2020-08-10",
-      "end": "2020-08-17",
+      "end": "2020-08-13",
+      "days": 10,
+      "number": 102,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Entrance ramp",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-562"
       ]
+    },
+    {
+      "id": "r134",
+      "holder": "Shelton Benjamin",
+      "people": [
+        "shelton-benjamin"
+      ],
+      "start": "2020-08-13",
+      "end": "2020-08-13",
+      "days": 0,
+      "number": 103,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "At ringside; recognized date Aug 17",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r135",
+      "holder": "Cedric Alexander",
+      "people": [
+        "cedric-alexander"
+      ],
+      "start": "2020-08-13",
+      "end": "2020-08-13",
+      "days": 0,
+      "number": 104,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "At ringside; recognized date Aug 17",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r136",
+      "holder": "Shelton Benjamin",
+      "people": [
+        "shelton-benjamin"
+      ],
+      "start": "2020-08-13",
+      "end": "2020-08-24",
+      "days": 11,
+      "number": 105,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Recognized as starting Aug 17",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r41",
@@ -654,9 +2064,15 @@
       ],
       "start": "2020-08-24",
       "end": "2020-08-31",
+      "days": 7,
+      "number": 106,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Fatal four-way; rule suspended; pinned Truth",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-akira-tozawa-18"
@@ -670,13 +2086,36 @@
       ],
       "start": "2020-08-31",
       "end": "2020-09-27",
+      "days": 27,
+      "number": 107,
+      "location": "Orlando, FL",
+      "note": "Parking garage; referee disguised as attendant",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-561"
       ]
+    },
+    {
+      "id": "r137",
+      "holder": "Drew Gulak",
+      "people": [
+        "drew-gulak"
+      ],
+      "start": "2020-09-27",
+      "end": "2020-09-27",
+      "days": 0,
+      "number": 108,
+      "event": "Clash of Champions",
+      "location": "Orlando, FL",
+      "note": "Backstage",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r43",
@@ -686,9 +2125,15 @@
       ],
       "start": "2020-09-27",
       "end": "2020-09-28",
+      "days": 1,
+      "number": 109,
+      "event": "Clash of Champions",
+      "location": "Orlando, FL",
+      "note": "Backstage interview area",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-560"
@@ -702,13 +2147,37 @@
       ],
       "start": "2020-09-28",
       "end": "2020-09-28",
+      "days": 0,
+      "number": 110,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Backstage",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-akira-tozawa-17"
       ]
+    },
+    {
+      "id": "r138",
+      "holder": "Drew Gulak",
+      "people": [
+        "drew-gulak"
+      ],
+      "start": "2020-09-28",
+      "end": "2020-09-28",
+      "days": 0,
+      "number": 111,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Backstage",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r45",
@@ -718,13 +2187,37 @@
       ],
       "start": "2020-09-28",
       "end": "2020-10-05",
+      "days": 7,
+      "number": 112,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Backstage",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-559"
       ]
+    },
+    {
+      "id": "r139",
+      "holder": "Drew Gulak",
+      "people": [
+        "drew-gulak"
+      ],
+      "start": "2020-10-05",
+      "end": "2020-10-05",
+      "days": 0,
+      "number": 113,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Backstage",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r46",
@@ -734,12 +2227,58 @@
       ],
       "start": "2020-10-05",
       "end": "2020-11-02",
+      "days": 28,
+      "number": 114,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Inside a dumpster backstage",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-558"
+      ]
+    },
+    {
+      "id": "r140",
+      "holder": "Drew Gulak",
+      "people": [
+        "drew-gulak"
+      ],
+      "start": "2020-11-02",
+      "end": "2020-11-09",
+      "days": 7,
+      "number": 115,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Lashley attacked Gulak and left him on Truth",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r50",
+      "holder": "R-Truth",
+      "people": [
+        "r-truth"
+      ],
+      "start": "2020-11-09",
+      "end": "2020-11-09",
+      "days": 0,
+      "number": 116,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Backstage",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": [
+        "profile-reign-r-truth-557"
       ]
     },
     {
@@ -750,9 +2289,15 @@
       ],
       "start": "2020-11-09",
       "end": "2020-11-09",
+      "days": 0,
+      "number": 117,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Seven-way; rule suspended",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-akira-tozawa-16"
@@ -766,13 +2311,109 @@
       ],
       "start": "2020-11-09",
       "end": "2020-11-09",
+      "days": 0,
+      "number": 118,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Seven-way",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-erik-254"
       ]
+    },
+    {
+      "id": "r141",
+      "holder": "Drew Gulak",
+      "people": [
+        "drew-gulak"
+      ],
+      "start": "2020-11-09",
+      "end": "2020-11-09",
+      "days": 0,
+      "number": 119,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Seven-way; at ringside",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r142",
+      "holder": "Tucker",
+      "people": [
+        "tucker"
+      ],
+      "start": "2020-11-09",
+      "end": "2020-11-09",
+      "days": 0,
+      "number": 120,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Seven-way",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r143",
+      "holder": "Drew Gulak",
+      "people": [
+        "drew-gulak"
+      ],
+      "start": "2020-11-09",
+      "end": "2020-11-09",
+      "days": 0,
+      "number": 121,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Seven-way",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r144",
+      "holder": "Tucker",
+      "people": [
+        "tucker"
+      ],
+      "start": "2020-11-09",
+      "end": "2020-11-09",
+      "days": 0,
+      "number": 122,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Seven-way",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r145",
+      "holder": "Gran Metalik",
+      "people": [
+        "gran-metalik"
+      ],
+      "start": "2020-11-09",
+      "end": "2020-11-09",
+      "days": 0,
+      "number": 123,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Seven-way",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r49",
@@ -782,29 +2423,55 @@
       ],
       "start": "2020-11-09",
       "end": "2020-11-09",
+      "days": 0,
+      "number": 124,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Seven-way",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-lince-dorado-421"
       ]
     },
     {
-      "id": "r50",
+      "id": "r146",
       "holder": "R-Truth",
       "people": [
         "r-truth"
       ],
       "start": "2020-11-09",
       "end": "2020-11-22",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 13,
+      "number": 125,
+      "event": "Raw",
+      "location": "Orlando, FL",
+      "note": "Seven-way",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
-      "legacyIds": [
-        "profile-reign-r-truth-557"
-      ]
+      "legacyIds": []
+    },
+    {
+      "id": "r147",
+      "holder": "The Gobbledy Gooker",
+      "people": [
+        "the-gobbledy-gooker"
+      ],
+      "start": "2020-11-22",
+      "end": "2020-11-22",
+      "days": 0,
+      "number": 126,
+      "event": "Survivor Series Kickoff",
+      "location": "Orlando, FL",
+      "note": "Portrayed by Drew Gulak; WWE does not credit Gulak",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r51",
@@ -814,9 +2481,15 @@
       ],
       "start": "2020-11-22",
       "end": "2020-11-22",
+      "days": 0,
+      "number": 127,
+      "event": "Survivor Series",
+      "location": "Orlando, FL",
+      "note": "Backstage",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-akira-tozawa-15"
@@ -830,9 +2503,15 @@
       ],
       "start": "2020-11-22",
       "end": "2020-12-31",
+      "days": 39,
+      "number": 128,
+      "event": "Survivor Series",
+      "location": "Orlando, FL",
+      "note": "Backstage",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-556"
@@ -846,9 +2525,14 @@
       ],
       "start": "2020-12-31",
       "end": "2021-01-04",
+      "days": 4,
+      "number": 129,
+      "event": "TikTok's New Year's Eve Party",
+      "note": "Undisclosed party streamed live on TikTok",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-angel-32"
@@ -862,13 +2546,37 @@
       ],
       "start": "2021-01-04",
       "end": "2021-01-31",
+      "days": 27,
+      "number": 130,
+      "event": "Raw Legends Night",
+      "location": "St. Petersburg, FL",
+      "note": "Backstage after Garza was scared by Boogeyman",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-555"
       ]
+    },
+    {
+      "id": "r148",
+      "holder": "Alicia Fox",
+      "people": [
+        "alicia-fox"
+      ],
+      "start": "2021-01-31",
+      "end": "2021-01-31",
+      "days": 0,
+      "number": 131,
+      "event": "Royal Rumble",
+      "location": "St. Petersburg, FL",
+      "note": "During women's Royal Rumble match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r55",
@@ -878,13 +2586,37 @@
       ],
       "start": "2021-01-31",
       "end": "2021-01-31",
+      "days": 0,
+      "number": 132,
+      "event": "Royal Rumble",
+      "location": "St. Petersburg, FL",
+      "note": "Ringside after Fox was eliminated",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-554"
       ]
+    },
+    {
+      "id": "r149",
+      "holder": "Peter Rosenberg",
+      "people": [
+        "peter-rosenberg"
+      ],
+      "start": "2021-01-31",
+      "end": "2021-02-01",
+      "days": 1,
+      "number": 133,
+      "event": "Royal Rumble",
+      "location": "St. Petersburg, FL",
+      "note": "By the panelist table",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r56",
@@ -894,13 +2626,37 @@
       ],
       "start": "2021-02-01",
       "end": "2021-02-06",
+      "days": 5,
+      "number": 134,
+      "event": "The Michael Kay Show",
+      "location": "St. Petersburg, FL",
+      "note": "Pinned Rosenberg in hotel room during live remote",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-553"
       ]
+    },
+    {
+      "id": "r150",
+      "holder": "Doug Flutie",
+      "people": [
+        "doug-flutie"
+      ],
+      "start": "2021-02-06",
+      "end": "2021-02-06",
+      "days": 0,
+      "number": 135,
+      "event": "2021 Celebrity Flag Football Game",
+      "location": "Clearwater, FL",
+      "note": "Halftime at Clearwater Beach",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r57",
@@ -910,9 +2666,15 @@
       ],
       "start": "2021-02-06",
       "end": "2021-02-15",
+      "days": 9,
+      "number": 136,
+      "event": "2021 Celebrity Flag Football Game",
+      "location": "Clearwater, FL",
+      "note": "At Clearwater Beach during game",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-552"
@@ -926,13 +2688,37 @@
       ],
       "start": "2021-02-15",
       "end": "2021-02-15",
+      "days": 0,
+      "number": 137,
+      "event": "Raw",
+      "location": "St. Petersburg, FL",
+      "note": "Backstage",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-akira-tozawa-14"
       ]
+    },
+    {
+      "id": "r151",
+      "holder": "Bad Bunny",
+      "people": [
+        "bad-bunny"
+      ],
+      "start": "2021-02-15",
+      "end": "2021-03-15",
+      "days": 28,
+      "number": 138,
+      "event": "Raw",
+      "location": "St. Petersburg, FL",
+      "note": "Backstage",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r59",
@@ -942,13 +2728,37 @@
       ],
       "start": "2021-03-15",
       "end": "2021-03-21",
+      "days": 6,
+      "number": 139,
+      "event": "Raw",
+      "location": "St. Petersburg, FL",
+      "note": "Bad Bunny gave up title for Austin memorabilia",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-551"
       ]
+    },
+    {
+      "id": "r152",
+      "holder": "Joseph Average",
+      "people": [
+        "joseph-average"
+      ],
+      "start": "2021-03-21",
+      "end": "2021-03-21",
+      "days": 0,
+      "number": 140,
+      "event": "Fastlane",
+      "location": "St. Petersburg, FL",
+      "note": "Backstage during Old Spice ad",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r60",
@@ -958,9 +2768,15 @@
       ],
       "start": "2021-03-21",
       "end": "2021-04-19",
+      "days": 29,
+      "number": 141,
+      "event": "Fastlane",
+      "location": "St. Petersburg, FL",
+      "note": "WWE lists end date incorrectly",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-550"
@@ -974,13 +2790,35 @@
       ],
       "start": "2021-04-19",
       "end": "2021-04-19",
+      "days": 0,
+      "kind": "unrecognized",
+      "location": "St. Petersburg, FL",
+      "note": "Unrecognized; air date used; actual date unknown",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-akira-tozawa-13"
       ]
+    },
+    {
+      "id": "r153",
+      "holder": "Joseph Average",
+      "people": [
+        "joseph-average"
+      ],
+      "start": "2021-04-19",
+      "end": "2021-04-19",
+      "days": 0,
+      "kind": "unrecognized",
+      "location": "St. Petersburg, FL",
+      "note": "Unrecognized; air date used; actual date unknown",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r62",
@@ -990,9 +2828,14 @@
       ],
       "start": "2021-04-19",
       "end": "2021-05-17",
+      "days": 28,
+      "kind": "unrecognized",
+      "location": "St. Petersburg, FL",
+      "note": "Unrecognized; air date used; actual date unknown",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-549"
@@ -1006,12 +2849,55 @@
       ],
       "start": "2021-05-17",
       "end": "2021-06-28",
+      "days": 42,
+      "event": "Raw",
+      "location": "Tampa, FL",
+      "note": "Stairwell backstage; official numbering error",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-akira-tozawa-12"
+      ]
+    },
+    {
+      "id": "r154",
+      "holder": "Drew Gulak",
+      "people": [
+        "drew-gulak"
+      ],
+      "start": "2021-06-28",
+      "end": "2021-06-28",
+      "days": 0,
+      "event": "Raw",
+      "location": "Tampa, FL",
+      "note": "Ringside after Tozawa eliminated from battle royal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r65",
+      "holder": "R-Truth",
+      "people": [
+        "r-truth"
+      ],
+      "start": "2021-06-28",
+      "end": "2021-06-28",
+      "days": 0,
+      "event": "Raw",
+      "location": "Tampa, FL",
+      "note": "Ringside after Gulak eliminated from battle royal",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": [
+        "profile-reign-r-truth-548"
       ]
     },
     {
@@ -1022,29 +2908,53 @@
       ],
       "start": "2021-06-28",
       "end": "2021-07-19",
+      "days": 21,
+      "event": "Raw",
+      "location": "Tampa, FL",
+      "note": "Ringside after Truth eliminated from battle royal",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-akira-tozawa-11"
       ]
     },
     {
-      "id": "r65",
-      "holder": "R-Truth",
+      "id": "r155",
+      "holder": "Reginald/Reggie",
       "people": [
-        "r-truth"
+        "reginald",
+        "reggie"
       ],
-      "start": "2021-06-28",
-      "end": "2021-06-28",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "start": "2021-07-19",
+      "end": "2021-11-08",
+      "days": 112,
+      "event": "Raw",
+      "location": "Dallas, TX",
+      "note": "Ring name shortened July 30, 2021",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
-      "legacyIds": [
-        "profile-reign-r-truth-548"
-      ]
+      "legacyIds": []
+    },
+    {
+      "id": "r156",
+      "holder": "Drake Maverick",
+      "people": [
+        "drake-maverick"
+      ],
+      "start": "2021-11-08",
+      "end": "2021-11-08",
+      "days": 0,
+      "event": "Raw",
+      "location": "Louisville, KY",
+      "note": "Louisville Raw",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r66",
@@ -1054,13 +2964,188 @@
       ],
       "start": "2021-11-08",
       "end": "2021-11-08",
+      "days": 0,
+      "event": "Raw",
+      "location": "Louisville, KY",
+      "note": "Louisville Raw",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-akira-tozawa-10"
       ]
+    },
+    {
+      "id": "r157",
+      "holder": "Corey Graves",
+      "people": [
+        "corey-graves"
+      ],
+      "start": "2021-11-08",
+      "end": "2021-11-08",
+      "days": 0,
+      "event": "Raw",
+      "location": "Louisville, KY",
+      "note": "Ringside",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r158",
+      "holder": "Byron Saxton",
+      "people": [
+        "byron-saxton"
+      ],
+      "start": "2021-11-08",
+      "end": "2021-11-08",
+      "days": 0,
+      "event": "Raw",
+      "location": "Louisville, KY",
+      "note": "Ringside",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r159",
+      "holder": "Drake Maverick",
+      "people": [
+        "drake-maverick"
+      ],
+      "start": "2021-11-08",
+      "end": "2021-11-08",
+      "days": 0,
+      "event": "Raw",
+      "location": "Louisville, KY",
+      "note": "Ringside",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r160",
+      "holder": "Reggie",
+      "people": [
+        "reggie"
+      ],
+      "start": "2021-11-08",
+      "end": "2021-11-22",
+      "days": 14,
+      "event": "Raw",
+      "location": "Louisville, KY",
+      "note": "Louisville Raw",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r161",
+      "holder": "Cedric Alexander",
+      "people": [
+        "cedric-alexander"
+      ],
+      "start": "2021-11-22",
+      "end": "2021-11-22",
+      "days": 0,
+      "event": "Raw",
+      "location": "Brooklyn, NY",
+      "note": "Brooklyn Raw",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r162",
+      "holder": "Dana Brooke",
+      "people": [
+        "dana-brooke"
+      ],
+      "start": "2021-11-22",
+      "end": "2022-02-14",
+      "days": 84,
+      "event": "Raw",
+      "location": "Brooklyn, NY",
+      "note": "Brooklyn Raw",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r163",
+      "holder": "Reggie",
+      "people": [
+        "reggie"
+      ],
+      "start": "2022-02-14",
+      "end": "2022-02-21",
+      "days": 7,
+      "event": "Raw",
+      "location": "Indianapolis, IN",
+      "note": "Took place in a restaurant",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r164",
+      "holder": "Dana Brooke",
+      "people": [
+        "dana-brooke"
+      ],
+      "start": "2022-02-21",
+      "end": "2022-04-18",
+      "days": 56,
+      "event": "Raw",
+      "location": "Columbia, SC",
+      "note": "Columbia Raw",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r165",
+      "holder": "Reggie",
+      "people": [
+        "reggie"
+      ],
+      "start": "2022-04-18",
+      "end": "2022-04-18",
+      "days": 0,
+      "event": "Raw",
+      "location": "Buffalo, NY",
+      "note": "In-ring wedding ceremony",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r166",
+      "holder": "Tamina",
+      "people": [
+        "tamina"
+      ],
+      "start": "2022-04-18",
+      "end": "2022-04-18",
+      "days": 0,
+      "event": "Raw",
+      "location": "Buffalo, NY",
+      "note": "In-ring wedding ceremony",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r67",
@@ -1070,13 +3155,86 @@
       ],
       "start": "2022-04-18",
       "end": "2022-04-18",
+      "days": 0,
+      "event": "Raw",
+      "location": "Buffalo, NY",
+      "note": "In-ring wedding ceremony",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-akira-tozawa-9"
       ]
+    },
+    {
+      "id": "r167",
+      "holder": "Dana Brooke",
+      "people": [
+        "dana-brooke"
+      ],
+      "start": "2022-04-18",
+      "end": "2022-05-02",
+      "days": 14,
+      "event": "Raw",
+      "location": "Buffalo, NY",
+      "note": "In-ring wedding ceremony",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r168",
+      "holder": "Nikki A.S.H.",
+      "people": [
+        "nikki-cross"
+      ],
+      "start": "2022-05-02",
+      "end": "2022-05-02",
+      "days": 0,
+      "event": "Raw",
+      "location": "Greensboro, NC",
+      "note": "Backstage",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r169",
+      "holder": "Dana Brooke",
+      "people": [
+        "dana-brooke"
+      ],
+      "start": "2022-05-02",
+      "end": "2022-05-30",
+      "days": 28,
+      "event": "Raw",
+      "location": "Greensboro, NC",
+      "note": "Singles match; rule suspended",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r170",
+      "holder": "Tamina",
+      "people": [
+        "tamina"
+      ],
+      "start": "2022-05-30",
+      "end": "2022-05-30",
+      "days": 0,
+      "event": "Raw",
+      "location": "Des Moines, IA",
+      "note": "During MizTV",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r68",
@@ -1086,13 +3244,86 @@
       ],
       "start": "2022-05-30",
       "end": "2022-06-06",
+      "days": 7,
+      "event": "Raw",
+      "location": "Des Moines, IA",
+      "note": "During MizTV",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-akira-tozawa-8"
       ]
+    },
+    {
+      "id": "r171",
+      "holder": "Dana Brooke",
+      "people": [
+        "dana-brooke"
+      ],
+      "start": "2022-06-06",
+      "end": "2022-06-20",
+      "days": 14,
+      "event": "Raw",
+      "location": "Green Bay, WI",
+      "note": "During match vs Becky Lynch; recognized end June 23",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r172",
+      "holder": "Doudrop",
+      "people": [
+        "piper-niven"
+      ],
+      "start": "2022-06-20",
+      "end": "2022-06-20",
+      "days": 0,
+      "event": "Main Event",
+      "location": "Lincoln, NE",
+      "note": "Aired on tape delay June 23",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r173",
+      "holder": "Nikki A.S.H.",
+      "people": [
+        "nikki-cross"
+      ],
+      "start": "2022-06-20",
+      "end": "2022-06-20",
+      "days": 0,
+      "event": "Main Event",
+      "location": "Lincoln, NE",
+      "note": "Ringside; aired on tape delay June 23",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r174",
+      "holder": "Dana Brooke",
+      "people": [
+        "dana-brooke"
+      ],
+      "start": "2022-06-20",
+      "end": "2022-07-09",
+      "days": 19,
+      "event": "Main Event",
+      "location": "Lincoln, NE",
+      "note": "Recognized start June 23",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r69",
@@ -1102,9 +3333,14 @@
       ],
       "start": "2022-06-23",
       "end": "2022-06-23",
+      "days": 0,
+      "event": "Main Event",
+      "location": "Lincoln, NE",
+      "note": "Aired on tape delay June 23",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-akira-tozawa-7"
@@ -1118,13 +3354,86 @@
       ],
       "start": "2022-06-23",
       "end": "2022-06-23",
+      "days": 0,
+      "event": "Main Event",
+      "location": "Lincoln, NE",
+      "note": "Aired on tape delay June 23",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-547"
       ]
+    },
+    {
+      "id": "r175",
+      "holder": "Carmella",
+      "people": [
+        "carmella"
+      ],
+      "start": "2022-07-09",
+      "end": "2022-07-09",
+      "days": 0,
+      "event": "WWE Live",
+      "location": "Bossier City, LA",
+      "note": "Live event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r176",
+      "holder": "Dana Brooke",
+      "people": [
+        "dana-brooke"
+      ],
+      "start": "2022-07-09",
+      "end": "2022-07-10",
+      "days": 1,
+      "event": "WWE Live",
+      "location": "Bossier City, LA",
+      "note": "Live event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r177",
+      "holder": "Carmella",
+      "people": [
+        "carmella"
+      ],
+      "start": "2022-07-10",
+      "end": "2022-07-10",
+      "days": 0,
+      "event": "WWE Live",
+      "location": "Waco, TX",
+      "note": "Live event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r178",
+      "holder": "Dana Brooke",
+      "people": [
+        "dana-brooke"
+      ],
+      "start": "2022-07-10",
+      "end": "2022-07-18",
+      "days": 8,
+      "event": "WWE Live",
+      "location": "Waco, TX",
+      "note": "Live event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r71",
@@ -1134,13 +3443,473 @@
       ],
       "start": "2022-07-18",
       "end": "2022-07-18",
+      "days": 0,
+      "event": "Raw",
+      "location": "Tampa, FL",
+      "note": "Ringside during six-woman tag match",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/wwe-24-7-championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
       ],
       "legacyIds": [
         "profile-reign-akira-tozawa-6"
       ]
+    },
+    {
+      "id": "r179",
+      "holder": "Nikki A.S.H.",
+      "people": [
+        "nikki-cross"
+      ],
+      "start": "2022-07-18",
+      "end": "2022-07-18",
+      "days": 0,
+      "event": "Raw",
+      "location": "Tampa, FL",
+      "note": "During six-woman tag match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r180",
+      "holder": "Alexa Bliss",
+      "people": [
+        "alexa-bliss"
+      ],
+      "start": "2022-07-18",
+      "end": "2022-07-18",
+      "days": 0,
+      "event": "Raw",
+      "location": "Tampa, FL",
+      "note": "During six-woman tag match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r181",
+      "holder": "Doudrop",
+      "people": [
+        "piper-niven"
+      ],
+      "start": "2022-07-18",
+      "end": "2022-07-18",
+      "days": 0,
+      "event": "Raw",
+      "location": "Tampa, FL",
+      "note": "During six-woman tag match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r182",
+      "holder": "Tamina",
+      "people": [
+        "tamina"
+      ],
+      "start": "2022-07-18",
+      "end": "2022-07-18",
+      "days": 0,
+      "event": "Raw",
+      "location": "Tampa, FL",
+      "note": "During six-woman tag match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r183",
+      "holder": "Dana Brooke",
+      "people": [
+        "dana-brooke"
+      ],
+      "start": "2022-07-18",
+      "end": "2022-08-20",
+      "days": 33,
+      "event": "Raw",
+      "location": "Tampa, FL",
+      "note": "During six-woman tag match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r184",
+      "holder": "Nikki A.S.H.",
+      "people": [
+        "nikki-cross"
+      ],
+      "start": "2022-08-20",
+      "end": "2022-08-20",
+      "days": 0,
+      "event": "WWE Live",
+      "location": "Kingston, ON, Canada",
+      "note": "Live event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r185",
+      "holder": "Tamina",
+      "people": [
+        "tamina"
+      ],
+      "start": "2022-08-20",
+      "end": "2022-08-20",
+      "days": 0,
+      "event": "WWE Live",
+      "location": "Kingston, ON, Canada",
+      "note": "Live event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r186",
+      "holder": "Dana Brooke",
+      "people": [
+        "dana-brooke"
+      ],
+      "start": "2022-08-20",
+      "end": "2022-08-21",
+      "days": 1,
+      "event": "WWE Live",
+      "location": "Kingston, ON, Canada",
+      "note": "Live event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r187",
+      "holder": "Nikki A.S.H.",
+      "people": [
+        "nikki-cross"
+      ],
+      "start": "2022-08-21",
+      "end": "2022-08-21",
+      "days": 0,
+      "event": "WWE Live",
+      "location": "London, ON, Canada",
+      "note": "Live event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r188",
+      "holder": "Shawn Bennett",
+      "people": [
+        "shawn-bennett"
+      ],
+      "start": "2022-08-21",
+      "end": "2022-08-21",
+      "days": 0,
+      "event": "WWE Live",
+      "location": "London, ON, Canada",
+      "note": "Referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r189",
+      "holder": "Tamina",
+      "people": [
+        "tamina"
+      ],
+      "start": "2022-08-21",
+      "end": "2022-08-21",
+      "days": 0,
+      "event": "WWE Live",
+      "location": "London, ON, Canada",
+      "note": "Live event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r190",
+      "holder": "Dana Brooke",
+      "people": [
+        "dana-brooke"
+      ],
+      "start": "2022-08-21",
+      "end": "2022-09-10",
+      "days": 20,
+      "event": "WWE Live",
+      "location": "London, ON, Canada",
+      "note": "Live event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r191",
+      "holder": "Nikki A.S.H.",
+      "people": [
+        "nikki-cross"
+      ],
+      "start": "2022-09-10",
+      "end": "2022-09-10",
+      "days": 0,
+      "event": "WWE Live",
+      "location": "Colorado Springs, CO",
+      "note": "Live event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r192",
+      "holder": "Eddie Orengo",
+      "people": [
+        "eddie-orengo"
+      ],
+      "start": "2022-09-10",
+      "end": "2022-09-10",
+      "days": 0,
+      "event": "WWE Live",
+      "location": "Colorado Springs, CO",
+      "note": "Referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r193",
+      "holder": "Tamina",
+      "people": [
+        "tamina"
+      ],
+      "start": "2022-09-10",
+      "end": "2022-09-10",
+      "days": 0,
+      "event": "WWE Live",
+      "location": "Colorado Springs, CO",
+      "note": "Live event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r194",
+      "holder": "Dana Brooke",
+      "people": [
+        "dana-brooke"
+      ],
+      "start": "2022-09-10",
+      "end": "2022-09-24",
+      "days": 14,
+      "event": "WWE Live",
+      "location": "Colorado Springs, CO",
+      "note": "Live event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r195",
+      "holder": "Nikki A.S.H.",
+      "people": [
+        "nikki-cross"
+      ],
+      "start": "2022-09-24",
+      "end": "2022-09-24",
+      "days": 0,
+      "event": "WWE Live",
+      "location": "Vancouver, BC, Canada",
+      "note": "Live event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r196",
+      "holder": "Daphanie LaShaunn",
+      "people": [
+        "daphanie-lashaunn"
+      ],
+      "start": "2022-09-24",
+      "end": "2022-09-24",
+      "days": 0,
+      "event": "WWE Live",
+      "location": "Vancouver, BC, Canada",
+      "note": "Referee",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r197",
+      "holder": "Nikki A.S.H.",
+      "people": [
+        "nikki-cross"
+      ],
+      "start": "2022-09-24",
+      "end": "2022-09-24",
+      "days": 0,
+      "event": "WWE Live",
+      "location": "Vancouver, BC, Canada",
+      "note": "Live event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r198",
+      "holder": "Dana Brooke",
+      "people": [
+        "dana-brooke"
+      ],
+      "start": "2022-09-24",
+      "end": "2022-10-29",
+      "days": 35,
+      "event": "WWE Live",
+      "location": "Vancouver, BC, Canada",
+      "note": "Live event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r199",
+      "holder": "Nikki Cross",
+      "people": [
+        "nikki-cross"
+      ],
+      "start": "2022-10-29",
+      "end": "2022-10-29",
+      "days": 0,
+      "event": "WWE Live",
+      "location": "Monterrey, NL, Mexico",
+      "note": "Previously known as Nikki A.S.H.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r200",
+      "holder": "Tamina",
+      "people": [
+        "tamina"
+      ],
+      "start": "2022-10-29",
+      "end": "2022-10-29",
+      "days": 0,
+      "event": "WWE Live",
+      "location": "Monterrey, NL, Mexico",
+      "note": "Live event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r201",
+      "holder": "Dana Brooke",
+      "people": [
+        "dana-brooke"
+      ],
+      "start": "2022-10-29",
+      "end": "2022-10-30",
+      "days": 1,
+      "event": "WWE Live",
+      "location": "Monterrey, NL, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r202",
+      "holder": "Nikki Cross",
+      "people": [
+        "nikki-cross"
+      ],
+      "start": "2022-10-30",
+      "end": "2022-10-30",
+      "days": 0,
+      "event": "WWE Live",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r203",
+      "holder": "Tamina",
+      "people": [
+        "tamina"
+      ],
+      "start": "2022-10-30",
+      "end": "2022-10-30",
+      "days": 0,
+      "event": "WWE Live",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r204",
+      "holder": "Dana Brooke",
+      "people": [
+        "dana-brooke"
+      ],
+      "start": "2022-10-30",
+      "end": "2022-11-07",
+      "days": 8,
+      "event": "WWE Live",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r205",
+      "holder": "Nikki Cross",
+      "people": [
+        "nikki-cross"
+      ],
+      "start": "2022-11-07",
+      "end": "2022-11-07",
+      "days": 0,
+      "event": "Raw",
+      "location": "Wilkes-Barre, PA",
+      "dateNote": "Cross threw the belt in the trash on Raw the night she won it; the title was deactivated on November 9, 2022.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

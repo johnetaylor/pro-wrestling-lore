@@ -1,11 +1,93 @@
 {
   "id": "gfw-global-championship",
   "name": "GFW Global Championship",
-  "names": [
-    "GFW Global Championship"
+  "promotion": "tna",
+  "division": "men",
+  "format": "singles",
+  "established": "2015-10-23",
+  "names": [],
+  "eras": [
+    {
+      "name": "GFW Global Championship",
+      "from": "2015-10-23"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "2017-04-22",
+      "kind": "promotion",
+      "text": "Alberto El Patrón won the title at an Impact Wrestling taping in Orlando, after the promotion had merged with Impact.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Global_Force_Wrestling"
+      ]
+    },
+    {
+      "date": "2017-06-28",
+      "kind": "promotion",
+      "text": "Anthem Sports & Entertainment agreed to acquire the GFW rights, but the deal was never completed and Jeff Jarrett kept ownership.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Global_Force_Wrestling"
+      ]
+    },
+    {
+      "date": "2017-07-02",
+      "kind": "unified-into",
+      "text": "El Patrón beat Lashley at Slammiversary XV in Orlando, combining the GFW Global Championship with the Impact World Championship.",
+      "related": [
+        "Impact World Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Global_Force_Wrestling"
+      ]
+    },
+    {
+      "date": "2017-08-14",
+      "kind": "retired",
+      "text": "The summary table lists this as the retirement date, while the title details give July 2, 2017.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Global_Force_Wrestling"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Global_Force_Wrestling"
+  ],
   "reigns": [
+    {
+      "id": "r2",
+      "holder": "Nick Aldis",
+      "people": [
+        "nick-aldis"
+      ],
+      "start": "2015-10-23",
+      "end": "2017-04-22",
+      "days": 547,
+      "number": 1,
+      "event": "GFW Amped",
+      "location": "Las Vegas, Nevada",
+      "note": "Beat Bobby Roode for inaugural title; later went by Magnus",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Global_Force_Wrestling"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Alberto El Patrón",
+      "people": [
+        "alberto-del-rio"
+      ],
+      "start": "2017-04-22",
+      "end": "2017-07-02",
+      "days": 71,
+      "number": 2,
+      "event": "Impact Wrestling",
+      "location": "Orlando, Florida",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Global_Force_Wrestling"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Eli Drake",

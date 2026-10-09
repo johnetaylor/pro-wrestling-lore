@@ -1,11 +1,211 @@
 {
   "id": "tna-digital-media-championship",
   "name": "TNA Digital Media Championship",
+  "promotion": "tna",
+  "division": "mixed",
+  "format": "singles",
+  "established": "2021-09-30",
   "names": [
-    "TNA Digital Media Championship"
+    "Impact Digital Media Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "Impact Digital Media Championship",
+      "from": "2021-09-30",
+      "to": "2024-01-14"
+    },
+    {
+      "name": "TNA Digital Media Championship",
+      "from": "2024-01-14"
+    }
+  ],
+  "history": [
+    {
+      "date": "2024-06",
+      "kind": "recognition",
+      "text": "A.J. Francis bought the retired Canadian title and declared himself champion, holding both belts until January 2025. The table dates his win to May 19, 2024.",
+      "related": [
+        "Canadian International Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_Digital_Media_Championship"
+      ]
+    },
+    {
+      "date": "2025-03-29",
+      "kind": "retired",
+      "text": "Santino Marella stripped Steph De Lander of the title and retired it during TNA iMPACT! tapings.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_Digital_Media_Championship"
+      ]
+    },
+    {
+      "date": "2025-03-29",
+      "kind": "replaced-by",
+      "text": "The retired Digital Media Championship was replaced by the TNA International Championship.",
+      "related": [
+        "TNA International Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_Digital_Media_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/TNA_Digital_Media_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r2",
+      "holder": "Jordynne Grace",
+      "people": [
+        "jordynne-grace"
+      ],
+      "start": "2021-10-23",
+      "end": "2022-01-21",
+      "days": 90,
+      "number": 1,
+      "event": "Bound for Glory Pre-show",
+      "location": "Sunrise Manor, NV",
+      "note": "Won intergender six-way tournament final to become inaugural champion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_Digital_Media_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Matt Cardona",
+      "people": [
+        "matt-cardona"
+      ],
+      "start": "2022-02-03",
+      "end": "2022-05-28",
+      "days": 127,
+      "number": 2,
+      "event": "Impact!",
+      "location": "Pembroke Pines, FL",
+      "note": "Aired on tape delay on February 3, 2022.",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-digital-media-championship",
+        "https://en.wikipedia.org/wiki/TNA_Digital_Media_Championship"
+      ],
+      "legacyIds": [
+        "profile-reign-matt-cardona-427"
+      ]
+    },
+    {
+      "id": "r4",
+      "holder": "Rich Swann",
+      "people": [
+        "rich-swann"
+      ],
+      "start": "2022-05-28",
+      "end": "2022-07-01",
+      "days": 34,
+      "number": 3,
+      "event": "Wrestling Revolver's Vegas Vacation",
+      "location": "Las Vegas, NV",
+      "note": "Event promoted by The Wrestling Revolver.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_Digital_Media_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Brian Myers",
+      "people": [
+        "curt-hawkins"
+      ],
+      "start": "2022-07-01",
+      "end": "2022-10-22",
+      "days": 113,
+      "number": 4,
+      "event": "Against All Odds Pre-show",
+      "location": "Atlanta, GA",
+      "note": "Dot Combat match.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_Digital_Media_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Joe Hendry",
+      "people": [
+        "joe-hendry"
+      ],
+      "start": "2022-11-10",
+      "end": "2023-07-15",
+      "days": 266,
+      "number": 5,
+      "event": "Impact!",
+      "location": "Sunrise Manor, NV",
+      "note": "Aired on tape delay on November 10, 2022.",
+      "dateNote": "End date follows the duration recorded in the profile source.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-digital-media-championship",
+        "https://en.wikipedia.org/wiki/TNA_Digital_Media_Championship"
+      ],
+      "legacyIds": [
+        "profile-reign-joe-hendry-356"
+      ]
+    },
+    {
+      "id": "r7",
+      "holder": "Kenny King",
+      "people": [
+        "kenny-king"
+      ],
+      "start": "2023-07-15",
+      "end": "2023-09-08",
+      "days": 55,
+      "number": 6,
+      "event": "Slammiversary Pre-show",
+      "location": "Windsor, ON, Canada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_Digital_Media_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Tommy Dreamer",
+      "people": [
+        "tommy-dreamer"
+      ],
+      "start": "2023-09-08",
+      "end": "2024-01-13",
+      "days": 127,
+      "number": 7,
+      "event": "Victory Road",
+      "location": "White Plains, NY",
+      "note": "Title vs. Career match; promotion reverted to TNA during reign.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_Digital_Media_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Crazzy Steve",
+      "people": [
+        "crazzy-steve"
+      ],
+      "start": "2024-01-13",
+      "end": "2024-04-20",
+      "days": 98,
+      "number": 8,
+      "event": "Hard To Kill",
+      "location": "Paradise, NV",
+      "note": "No Disqualification match.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_Digital_Media_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Laredo Kid",
@@ -13,14 +213,73 @@
         "laredo-kid"
       ],
       "start": "2024-04-20",
-      "end": "2024-06-06",
+      "end": "2024-05-19",
+      "days": 29,
+      "number": 9,
+      "event": "Rebellion Pre-show",
+      "location": "Paradise, NV",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/tna/tna-digital-media-championship"
+        "https://www.thesmackdownhotel.com/title-history/tna/tna-digital-media-championship",
+        "https://en.wikipedia.org/wiki/TNA_Digital_Media_Championship"
       ],
       "legacyIds": [
         "profile-reign-laredo-kid-412"
       ]
+    },
+    {
+      "id": "r10",
+      "holder": "A. J. Francis",
+      "people": [
+        "aj-francis"
+      ],
+      "start": "2024-05-19",
+      "end": "2024-07-20",
+      "days": 62,
+      "number": 10,
+      "event": "Impact! 20th Anniversary Show",
+      "location": "Newport, KY",
+      "note": "Aired on tape delay on June 6, 2024.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_Digital_Media_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "PCO",
+      "people": [
+        "pierre-ouellette"
+      ],
+      "start": "2024-07-20",
+      "end": "2025-01-23",
+      "days": 187,
+      "number": 11,
+      "event": "Slammiversary",
+      "location": "Montreal, QC, Canada",
+      "note": "Montreal Street Fight; also for Francis' Canadian International Heavyweight Championship.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_Digital_Media_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Steph De Lander",
+      "people": [
+        "steph-de-lander"
+      ],
+      "start": "2025-01-23",
+      "end": "2025-03-29",
+      "days": 65,
+      "number": 12,
+      "event": "Impact!",
+      "location": "San Antonio, TX",
+      "note": "PCO's contract expired; title awarded in storyline divorce settlement.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/TNA_Digital_Media_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

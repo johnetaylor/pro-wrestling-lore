@@ -1,22 +1,164 @@
 {
   "id": "nxt-uk-tag-team-championship",
   "name": "NXT UK Tag Team Championship",
-  "names": [
-    "NXT UK Tag Team Championship"
+  "promotion": "wwe",
+  "division": "men",
+  "format": "tag",
+  "established": "2018-06-18",
+  "retired": "2022-09-04",
+  "names": [],
+  "eras": [
+    {
+      "name": "NXT UK Tag Team Championship",
+      "from": "2018-06-18"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "2018",
+      "kind": "brand",
+      "text": "NXT UK was formally established in mid-2018 as a UK-based sister brand of NXT.",
+      "related": [
+        "NXT UK"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_UK_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2019-10-17",
+      "kind": "recognition",
+      "text": "WWE recognizes reigns by tape-delayed air dates, giving Gallus 497 days and Webster/Andrews 47 days, unlike actual lengths.",
+      "related": [
+        "Gallus (Mark Coffey and Wolfgang)",
+        "Flash Morgan Webster and Mark Andrews"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_UK_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2022-06-23",
+      "kind": "recognition",
+      "text": "WWE recognizes this reign as 20 days due to tape delay, though it actually lasted 62 days.",
+      "related": [
+        "Ashton Smith and Oliver Carter"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_UK_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2022-08",
+      "kind": "deactivated",
+      "text": "WWE announced the NXT UK brand would go on hiatus and later relaunch as NXT Europe.",
+      "related": [
+        "NXT UK brand"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_UK_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2022-09-04",
+      "kind": "unified-into",
+      "text": "Unified at Worlds Collide in a fatal four-way elimination match won by Pretty Deadly, who became unified champions.",
+      "related": [
+        "NXT Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_UK_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2022-09-04",
+      "kind": "retired",
+      "text": "Retired at Worlds Collide, with Brooks Jensen and Josh Briggs recognized as the final champions.",
+      "related": [
+        "NXT Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_UK_Tag_Team_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/NXT_UK_Tag_Team_Championship"
+  ],
   "reigns": [
     {
-      "id": "r1",
-      "holder": "Lewis Howley & Sam Stoker",
+      "id": "r4",
+      "holder": "Grizzled Young Veterans",
       "people": [
-        "kit-wilson"
+        "james-drake",
+        "zack-gibson"
+      ],
+      "start": "2019-01-12",
+      "end": "2019-08-31",
+      "days": 231,
+      "number": 1,
+      "event": "TakeOver: Blackpool",
+      "location": "Blackpool England",
+      "note": "Defeated Moustache Mountain in four-team tournament final; inaugural champions",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_UK_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Flash Morgan Webster & Mark Andrews",
+      "people": [
+        "flash-morgan-webster",
+        "mark-andrews"
+      ],
+      "start": "2019-08-31",
+      "end": "2019-10-04",
+      "days": 34,
+      "number": 2,
+      "event": "TakeOver: Cardiff",
+      "location": "Cardiff, Wales",
+      "note": "Triple threat with Gallus; WWE recognizes reign ending 17 October 2019 (tape delay)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_UK_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Gallus",
+      "people": [
+        "mark-coffey",
+        "wolfgang"
+      ],
+      "start": "2019-10-04",
+      "end": "2021-02-25",
+      "number": 3,
+      "event": "NXT UK",
+      "location": "Brentwood England",
+      "note": "WWE recognizes reign 17 October 2019 to 25 February 2021 (497 days); actual loss date unknown",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_UK_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r1",
+      "holder": "Pretty Deadly",
+      "people": [
+        "kit-wilson",
+        "elton-prince"
       ],
       "start": "2021-02-25",
       "end": "2021-12-09",
+      "number": 4,
+      "event": "NXT UK",
+      "location": "London England",
+      "note": "Air date; WWE recognizes reign from 25 February 2021 (287 days); actual match date unknown",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-uk-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-uk-tag-team-championship",
+        "https://en.wikipedia.org/wiki/NXT_UK_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-kit-wilson-390"
@@ -24,19 +166,44 @@
     },
     {
       "id": "r2",
-      "holder": "Trent Seven & Tyler Bate",
+      "holder": "Moustache Mountain",
       "people": [
-        "tyler-bate"
+        "tyler-bate",
+        "trent-seven"
       ],
       "start": "2021-12-09",
-      "end": "2022-06-02",
+      "end": "2022-04-21",
+      "number": 5,
+      "event": "NXT UK",
+      "location": "London England",
+      "note": "Air date; WWE recognizes reign from 9 December 2021 (174 days)",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-uk-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-uk-tag-team-championship",
+        "https://en.wikipedia.org/wiki/NXT_UK_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-bravo-americano-56"
       ]
+    },
+    {
+      "id": "r7",
+      "holder": "Ashton Smith & Oliver Carter",
+      "people": [
+        "ashton-smith",
+        "oliver-carter"
+      ],
+      "start": "2022-04-21",
+      "end": "2022-06-22",
+      "days": 62,
+      "number": 6,
+      "event": "NXT UK",
+      "location": "London England",
+      "note": "Triple threat with Die Familie; WWE recognizes reign 2 June to 23 June 2022 (20 days) due to tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NXT_UK_Tag_Team_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r3",
@@ -47,9 +214,15 @@
       ],
       "start": "2022-06-23",
       "end": "2022-09-04",
+      "days": 74,
+      "number": 7,
+      "event": "NXT UK",
+      "location": "London England",
+      "note": "Fatal four-way with Die Familie, Dave Mastiff and Jack Starz, and Mark Andrews and Wild Boar for vacant titles",
       "dateNote": "End date follows the duration recorded in the profile source.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-uk-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/wwe/nxt-uk-tag-team-championship",
+        "https://en.wikipedia.org/wiki/NXT_UK_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-brooks-jensen-68",

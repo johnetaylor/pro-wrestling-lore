@@ -13,8 +13,9 @@ export function promotionNameAt(promotion: string, date: string, fallback: strin
   return fallback;
 }
 
-/** The promotion a championship belongs to, from its id; undefined for promotions we don't track. */
+/** The promotion a championship belongs to: its record's, else read from its id; undefined for promotions we don't track. */
 export function titlePromotion(title: Title): string | undefined {
+  if (title.promotion) return title.promotion;
   const id = title.id;
   if (/^(wwe|wwf|nxt)-|^(intercontinental|united-states|million-dollar)-|^world-(heavyweight|tag-team)-championship/.test(id)) return 'wwe';
   if (/^(iwgp|strong|never)-/.test(id)) return 'njpw';
@@ -23,11 +24,15 @@ export function titlePromotion(title: Title): string | undefined {
   return ['aaa', 'aew', 'cmll', 'ecw', 'roh', 'wcw'].includes(prefix) ? prefix : undefined;
 }
 
-/** A WWE title as it was named on a date: the WWE Championship in 1984 was the WWF Championship. */
+/** A title as it was named on a date: from its eras when traced (the WWE Championship in 1984 was
+ * the WWF World Heavyweight Championship), else, and for a short name passed in, the WWWF → WWF →
+ * WWE rule for WWE titles. */
 export function titleNameAt(title: Title, date: string, name = title.name): string {
+  const era = name === title.name ? title.eras?.filter((e) => e.from.slice(0, Math.min(e.from.length, date.length)) <= date.slice(0, Math.min(e.from.length, date.length))).at(-1) : undefined;
+  if (era) return era.name;
   if (titlePromotion(title) !== 'wwe') return name;
-  const era = promotionNameAt('wwe', date, 'WWE');
-  return era === 'WWE' ? name : name.replace(/^WWE\b/, era);
+  const brand = promotionNameAt('wwe', date, 'WWE');
+  return brand === 'WWE' ? name : name.replace(/^WWE\b/, brand);
 }
 
 export function promoColor(promotion: string): string {
