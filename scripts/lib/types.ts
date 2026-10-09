@@ -117,8 +117,9 @@ export interface Person {
   id: string;
   name: string;
   gender?: 'male' | 'female';
-  /** How the gender was set: v69's placeholder, a source, or the division of a title held. */
-  genderBasis?: 'legacy-placeholder' | 'source' | 'division';
+  /** How the gender was set: v69's placeholder (unconfirmed), a source, the division of a title
+   * held, or a reviewer's decision from the person's own records where those disagree. */
+  genderBasis?: 'legacy-placeholder' | 'source' | 'division' | 'reviewed';
   ringNames: RingName[];
   debut?: DatedFact;
   careerEnd?: DatedFact;

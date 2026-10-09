@@ -28,7 +28,7 @@ All site data lives in `data/` as JSON, one file per record, so every change is 
 
 - One ID per human. A character played by more than one person (El Grande Americano) is a **ring name**, not a person.
 - `ringNames` lists every name with documented `from`/`to` boundaries where known. `billed.first` / `billed.last` record the first and last show where that person alone was billed under the name; this is evidence, not a boundary.
-- `gender` carries `genderBasis: legacy-placeholder` until confirmed from a source, or `division` when it comes from the division of a title the person held.
+- `gender` carries a `genderBasis`: `legacy-placeholder` (v69's portrait placeholder, unconfirmed), `source`, `division` (the division of a title the person held agrees with it, or sets it for a champion the archive had no record of) or `reviewed` (a reviewer's decision where the person's own records contradict the placeholder, such as a woman v69 marked male, or where no title tells it). A title in the other division never changes a gender by itself: men have held women's titles and women men's.
 - A past champion the archive had no record of becomes a person when a title history is imported, with the printed name as a ring name. A name that isn't exactly one person's goes to review instead of being matched on a near miss.
 - `externalTotals` are career totals from another database (CAGEMATCH), never computed from our records. Our own totals are always labeled as indexed records.
 - A ring name with `note: "Billed under this name in indexed matches."` was added from billing evidence: billed at least twice, nobody else's name, and not a team name on that card.
