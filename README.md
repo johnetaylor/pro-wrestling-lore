@@ -45,7 +45,7 @@ The site is the explorer, in six sections:
 - **Careers:** every wrestler's career on one timeline, with a scrub bar to zoom and move through time, plus a sortable Statistics table.
 - **Storylines:** each promotion's storylines on the same kind of timeline.
 - **Shows:** each series as a grid of years and months, with every card.
-- **Championships:** every title's reigns on a timeline, and the trees of how the main WWE belts connect.
+- **Championships:** every title's history, traced from its first champion for the promotions covered: how it connects to the titles it absorbed, replaced or became, the names it carried, every champion in a table, and its reigns on a timeline.
 - **Calendar:** the year week by week.
 - **Dynasties:** wrestling family trees.
 
@@ -57,4 +57,4 @@ Every address is also a static page. `/wrestlers/hulk-hogan/` opens the timeline
 
 The design keeps the v69 navy and cyan and the wordmark, sets everything in Barlow (Barlow Condensed for names and headings), and uses color only for meaning: gold for championships and pay-per-views, violet for promos and appearances, and one color per promotion. Fonts are self-hosted, so pages make no third-party requests.
 
-Raw sources, staging data and the legacy export live in a private research repository.
+Raw sources, staging data and the legacy export live in a private research repository, along with the importer that reads championship histories into `data/titles/`.

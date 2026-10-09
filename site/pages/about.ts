@@ -99,6 +99,11 @@ export function coveragePage(site: SiteData, buildDate: string): { meta: PageMet
   const titles = [...site.titles.values()].filter((t) => t.reigns.length);
   const reigns = titles.reduce((a, t) => a + t.reigns.length, 0);
   const trees = Object.keys(site.lineages?.trees ?? {}).length;
+  const traced = titles.filter((t) => t.established);
+  const tracedReigns = traced.reduce((a, t) => a + t.reigns.length, 0);
+  const tracedPromotions = LANE_ORDER.filter((p) => traced.some((t) => t.promotion === p)).map(promoName);
+  const titleLinks = (site.lineages?.links ?? []).length;
+  const champions = new Set(traced.flatMap((t) => t.reigns.flatMap((r) => r.people))).size;
   const storylines = [...site.storylines.values()];
   const chapters = storylines.reduce((a, s) => a + s.chapters.length, 0);
   const storyPromotions = LANE_ORDER.filter((p) => storylines.some((s) => s.promotion === p)).map(promoName);
@@ -169,8 +174,9 @@ ${profiled.length ? html`<p>Full career profiles, with trainers, signature moves
 </section>
 <section class="section" aria-labelledby="titles-h">
 <h2 id="titles-h">Championships</h2>
-<p>${plural(titles.length, 'championship')} ${titles.length === 1 ? 'has' : 'have'} ${plural(reigns, 'indexed reign')}.${trees ? ` WWE's main titles also have ${plural(trees, 'title-history tree')} showing how belts split, merged and were renamed.` : ''}</p>
-<p>Reign lengths are elapsed calendar days, so a promotion's official count can differ by a day or two. A reign still going runs through ${formatDate(buildDate)}. Some histories start partway through; each title's page lists the reigns indexed so far.</p>
+<p>${plural(titles.length, 'championship')} ${titles.length === 1 ? 'has' : 'have'} ${plural(reigns, 'indexed reign')}. ${plural(traced.length, 'title')} from ${sentenceList(tracedPromotions)} ${traced.length === 1 ? 'is' : 'are'} traced reign by reign from the first champion, ${num(tracedReigns)} reigns held by ${plural(champions, 'wrestler')}, with the names each title carried and ${plural(titleLinks, 'dated link')} to the titles it absorbed, replaced or became. The rest come from wrestlers' careers and list only the reigns indexed so far.</p>
+<p>A traced history is read from the title's champions list on Wikipedia and checked: a reign whose printed length disagrees with its dates by more than a day is held back unless a note explains it, such as a tape delay or the promotion's own count. Reigns are the title changes a promotion recognizes, wherever they happened, house shows included; the match behind a change is in the archive only if it aired. Champions the archive had no record of were added as wrestlers.</p>
+<p>Days are as the source counts them where it gives a count, otherwise elapsed calendar days. A reign still going runs through ${formatDate(buildDate)}.${trees ? ` The main WWE titles also keep ${plural(trees, 'hand-drawn title-history tree')} from the original site.` : ''}</p>
 </section>
 <section class="section" aria-labelledby="stories-h">
 <h2 id="stories-h">Storylines</h2>

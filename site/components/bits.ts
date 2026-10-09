@@ -28,7 +28,8 @@ export function titlePromotion(title: Title): string | undefined {
  * the WWF World Heavyweight Championship), else, and for a short name passed in, the WWWF → WWF →
  * WWE rule for WWE titles. */
 export function titleNameAt(title: Title, date: string, name = title.name): string {
-  const era = name === title.name ? title.eras?.filter((e) => e.from.slice(0, Math.min(e.from.length, date.length)) <= date.slice(0, Math.min(e.from.length, date.length))).at(-1) : undefined;
+  // Before its first era's date (a reign the source dates earlier) the title had its first name.
+  const era = name === title.name ? title.eras?.filter((e) => e.from.slice(0, Math.min(e.from.length, date.length)) <= date.slice(0, Math.min(e.from.length, date.length))).at(-1) ?? title.eras?.[0] : undefined;
   if (era) return era.name;
   if (titlePromotion(title) !== 'wwe') return name;
   const brand = promotionNameAt('wwe', date, 'WWE');

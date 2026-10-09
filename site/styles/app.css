@@ -2046,6 +2046,117 @@
   cursor: pointer;
 }
 
+/* Title history: the directory's kinds, the milestones and the table of every champion. */
+.title-sub {
+  margin: var(--s4) 0 var(--s2);
+  font: 600 var(--step-0)/1.2 var(--font-body);
+  color: var(--text-2);
+}
+.title-link .title-kind {
+  font-style: normal;
+  color: var(--text);
+}
+.lineage-card.self {
+  background: #1a2b3c;
+  border-color: #5b7389;
+}
+.title-story,
+.title-reigns,
+.title-sources {
+  margin-top: var(--s6);
+}
+.title-story h2,
+.title-reigns h2,
+.title-sources h2 {
+  font-size: var(--step-3);
+}
+.milestones {
+  margin: var(--s3) 0 0;
+  padding: 0;
+  list-style: none;
+  max-width: 62rem;
+}
+.milestones li {
+  display: grid;
+  grid-template-columns: 9.5rem minmax(0, 1fr);
+  gap: var(--s3);
+  padding: 10px 0;
+  border-top: 1px solid var(--rule);
+}
+.milestone-date {
+  font-size: 0.85rem;
+  color: var(--text-2);
+  font-variant-numeric: tabular-nums;
+}
+.milestones strong {
+  display: block;
+  font-weight: 600;
+}
+.milestones p {
+  margin-top: 2px;
+  color: var(--text-2);
+  max-width: 68ch;
+}
+.milestones .source-links {
+  margin-top: 4px;
+}
+.text-link {
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid rgba(233, 191, 107, 0.35);
+  cursor: pointer;
+}
+.text-link:hover,
+.text-link:focus-visible {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+}
+.section-intro {
+  margin-top: 4px;
+  max-width: 70ch;
+  color: var(--text-2);
+}
+.reign-table {
+  margin-top: var(--s3);
+}
+.reign-table td {
+  vertical-align: top;
+}
+.reign-table td:nth-child(4) {
+  color: var(--text-2);
+  font-size: 0.85rem;
+}
+.reign-table tr.active td {
+  background: var(--lit-bg);
+}
+.reign-table tr.kind-interim td,
+.reign-table tr.kind-unrecognized td {
+  color: var(--text-2);
+}
+.reign-kind {
+  font-size: 0.72rem;
+  color: var(--text-2);
+}
+.reign-span.interim,
+.reign-span.unrecognized {
+  background: transparent;
+  border: 1px dashed var(--gold);
+}
+@media (max-width: 640px) {
+  .milestones li {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2px;
+  }
+  .reign-table th:nth-child(4),
+  .reign-table td:nth-child(4) {
+    display: none;
+  }
+}
+
 /* ---------- Dynasties ---------- */
 .family-list .title-link:hover {
   border-color: var(--accent);

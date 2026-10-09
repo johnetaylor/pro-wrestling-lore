@@ -111,6 +111,16 @@ for (const file of listFiles(join(dir, 'titles'))) {
 }
 const lineages = readJson<any>(join(dir, 'title-lineages.json'));
 for (const [lid, lt] of Object.entries<any>(lineages.titles ?? {})) if (!titles.has(lt.title)) warn(`lineage ${lid}: no title record ${lt.title}`);
+// Links between titles name titles that exist, and say where they come from.
+const linkIds = new Set<string>();
+for (const l of lineages.links ?? []) {
+  if (linkIds.has(l.id)) fail(`title link ${l.id}: duplicate id`);
+  linkIds.add(l.id);
+  if (!isDate(l.date)) fail(`title link ${l.id}: bad date`);
+  if (!['merge', 'succeed', 'shared'].includes(l.kind)) fail(`title link ${l.id}: unknown kind ${l.kind}`);
+  for (const t of [...(l.from ?? []), l.to]) if (!titles.has(t)) fail(`title link ${l.id}: no title ${t}`);
+  if (!l.sources?.length) fail(`title link ${l.id}: no source`);
+}
 // Title-history trees point at lineage titles and events that exist.
 const lineageEvents = new Set((lineages.events ?? []).map((e: any) => e.id));
 const treeNodes = (n: any): any[] => [n, ...(n.parents ?? []).flatMap(treeNodes)];

@@ -9,7 +9,7 @@ import { displayTitle, showLabel, titleNameAt, titlePromotion } from './componen
 import { coverageNote, runningOrder } from './pages/show.ts';
 import { promotionIdFor } from './components/careerStrip.ts';
 import { isBoilerplate } from './pages/person.ts';
-import type { CoreBundle, DetailBundle, KindCode, ProfileBundle, ShowDetailBundle, StorylineBundle, TitleBundle } from './app/model.ts';
+import type { CoreBundle, DetailBundle, KindCode, ProfileBundle, ReignFacts, ShowDetailBundle, StorylineBundle, TitleBundle } from './app/model.ts';
 
 const OUTCOME: Record<string, string> = { win: 'w', loss: 'l', dq: 'q', countout: 'c', no_contest: 'n', 'no-contest': 'n', draw: 'd' };
 
@@ -99,7 +99,8 @@ export function writeAppData(site: SiteData, outDir: string, asOf: string): { di
     promotions: promotions.map((p) => [p.id, p.name, p.fullName ?? p.name]),
     people: people.map((p) => {
       const aliases = p.ringNames.map((r) => r.name).filter((n) => n !== p.name);
-      const flags = (p.legacyFlags?.archiveOnly ? 0 : 1) | (p.curated ? 2 : 0);
+      // The roster is v69's: champions added from title histories show only where their reigns are.
+      const flags = (p.legacyIds.length && !p.legacyFlags?.archiveOnly ? 1 : 0) | (p.curated ? 2 : 0);
       const brands = p.rosters?.find((r) => r.asOf === 'archive')?.brands ?? [];
       return [p.id, p.name, aliases.join('|'), flags, brands.join('|')];
     }),
@@ -202,9 +203,28 @@ export function writeAppData(site: SiteData, outDir: string, asOf: string): { di
 
   // Championships: what the core bundle doesn't carry, and the title-history trees.
   const titleBundle: TitleBundle = {
-    v: 1,
-    titles: Object.fromEntries(titles.map((t) => [t.id, [titlePromotion(t) ?? '', t.featured ? 1 : 0, t.sources, (t.names ?? []).filter((n) => n !== t.name)]])),
-    lineage: site.lineages,
+    v: 2,
+    titles: Object.fromEntries(
+      titles.map((t) => [
+        t.id,
+        {
+          promotion: titlePromotion(t) ?? '',
+          featured: !!t.featured,
+          sources: t.sources,
+          names: (t.names ?? []).filter((n) => n !== t.name),
+          ...(t.division ? { division: t.division } : {}),
+          ...(t.format ? { format: t.format } : {}),
+          ...(t.established ? { established: t.established } : {}),
+          ...(t.retired ? { retired: t.retired } : {}),
+          eras: t.eras ?? [],
+          history: (t.history ?? []).map((e) => ({ date: e.date, kind: e.kind, text: e.text, sources: e.sources })),
+          reigns: Object.fromEntries(
+            t.reigns.map((r) => [r.id, [r.number ?? 0, r.kind ?? '', r.event ?? '', r.location ?? '', r.days ?? -1, r.note ?? '', r.dateNote ?? '', r.unlinked ?? []] as ReignFacts]),
+          ),
+        },
+      ]),
+    ),
+    lineage: { links: [], ...site.lineages },
   };
 
   // Content-addressed folder: a build with different data gets a new path, so files can cache forever.

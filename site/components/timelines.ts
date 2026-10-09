@@ -24,9 +24,12 @@ function yearTicks(t0: number, t1: number, x: (ms: number) => number, top: numbe
 
 /** Every reign of one title as a bar on a single line; gaps are reigns not yet in the archive. */
 export function reignStrip(title: Title, today: string): Raw | null {
-  if (!title.reigns.length) return null;
+  // Lineal reigns only: interim and unrecognized ones run beside them and are listed below.
+  const reigns = title.reigns.filter((r) => !r.kind);
+  if (!reigns.length) return null;
   const now = t(today);
-  const spans = title.reigns.map((r) => ({ r, start: t(r.start), end: r.end ? t(r.end) : now }));
+  const traced = !!title.established;
+  const spans = reigns.map((r) => ({ r, start: t(r.start), end: r.end ? t(r.end) : title.retired ? t(title.retired) : now }));
   let t0 = Math.min(...spans.map((s) => s.start));
   let t1 = Math.max(...spans.map((s) => s.end));
   const pad = Math.max((t1 - t0) * 0.01, 15 * 86400000);
@@ -45,8 +48,8 @@ export function reignStrip(title: Title, today: string): Raw | null {
     })
     .join('');
   const height = top + 34;
-  const svg = `<svg viewBox="0 0 ${W} ${height}" role="img" aria-label="${escapeHtml(`${title.reigns.length} reigns of the ${title.name} in the archive`)}">${yearTicks(t0, t1, x, top, height - 2)}${bars}</svg>`;
-  return html`<figure class="strip">${raw(svg)}<figcaption>Each bar is one reign; select a bar to jump to it below. Gaps are reigns not yet in the archive, not vacancies.</figcaption></figure>`;
+  const svg = `<svg viewBox="0 0 ${W} ${height}" role="img" aria-label="${escapeHtml(`${reigns.length} reigns of the ${title.name}`)}">${yearTicks(t0, t1, x, top, height - 2)}${bars}</svg>`;
+  return html`<figure class="strip">${raw(svg)}<figcaption>Each bar is one reign; select a bar to jump to it below. ${traced ? 'Gaps are vacancies and the times the title was inactive.' : 'Gaps are reigns not yet in the archive, not vacancies.'}</figcaption></figure>`;
 }
 
 const LANE_ORDER = ['awa', 'wwe', 'wcw', 'ecw', 'tna', 'aew', 'roh', 'njpw', 'aaa', 'cmll', 'stardom', 'indy'];

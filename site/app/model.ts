@@ -67,11 +67,46 @@ export interface LineageNode {
   parents?: LineageNode[];
 }
 
-/** Championship facts beyond the core bundle: promotion, featured, sources, other names; and the lineage diagrams. */
+/** Per reign, beyond the core bundle: the source's reign number (0 = none), kind ('' lineal,
+ * 'interim', 'unrecognized'), event, location, printed days (-1 = none), note, date note, and
+ * printed holder names not linked to a person. */
+export type ReignFacts = [number: number, kind: '' | 'interim' | 'unrecognized', event: string, location: string, days: number, note: string, dateNote: string, unlinked: string[]];
+
+/** What the Championships view knows about a title beyond the core bundle. */
+export interface TitleFacts {
+  promotion: string;
+  featured: boolean;
+  sources: string[];
+  /** Other names the title has had or been written as. */
+  names: string[];
+  division?: 'men' | 'women' | 'mixed';
+  format?: 'singles' | 'tag' | 'trios';
+  established?: string;
+  retired?: string;
+  eras: { name: string; from: string; to?: string }[];
+  history: { date: string; kind: string; text: string; sources: string[] }[];
+  reigns: Record<string, ReignFacts>;
+}
+
+/** A dated connection between titles: one unified into another (merge), replaced by a new one
+ * (succeed), or held together with it for a time (shared). */
+export interface TitleLink {
+  id: string;
+  date: string;
+  kind: 'merge' | 'succeed' | 'shared';
+  from: string[];
+  to: string;
+  label: string;
+  text: string;
+  sources: string[];
+}
+
+/** Championship facts beyond the core bundle, and the lineage diagrams. */
 export interface TitleBundle {
-  v: 1;
-  titles: Record<string, [promotion: string, featured: 0 | 1, sources: string[], names: string[]]>;
+  v: 2;
+  titles: Record<string, TitleFacts>;
   lineage: {
+    links: TitleLink[];
     asOf: string;
     coverage: string;
     titles: Record<string, { id: string; name: string; start: string; end?: string; first?: string; source?: string; note?: string; names?: string; title: string; precision?: string; originLabel?: string }>;
