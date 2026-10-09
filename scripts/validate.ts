@@ -98,6 +98,13 @@ for (const file of listFiles(join(dir, 'titles'))) {
     if (r.number !== undefined && !(Number.isInteger(r.number) && r.number > 0)) fail(`${t.id}#${r.id}: bad reign number`);
     if (!r.sources.length) warn(`${t.id}#${r.id}: no sources`);
   }
+  // A traced title has one lineage: only its newest lineal reign may still be going.
+  if (t.established) {
+    const lineal = t.reigns.filter((r) => !r.kind);
+    const newest = lineal.reduce<string>((a, r) => (r.start > a ? r.start : a), '');
+    for (const r of lineal) if (!r.end && r.start !== newest) fail(`${t.id}#${r.id}: no end, but a later reign began ${newest}`);
+    if (t.retired) for (const r of lineal) if (!r.end) fail(`${t.id}#${r.id}: still going on a retired title`);
+  }
   if (t.promotion && !promotionIds.has(t.promotion)) fail(`${t.id}: unknown promotion ${t.promotion}`);
   if (t.division && !['men', 'women', 'mixed'].includes(t.division)) fail(`${t.id}: unknown division ${t.division}`);
   if (t.format && !['singles', 'tag', 'trios'].includes(t.format)) fail(`${t.id}: unknown format ${t.format}`);

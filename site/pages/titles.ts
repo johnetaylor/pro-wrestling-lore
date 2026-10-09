@@ -34,8 +34,14 @@ export function titleKindLabel(t: Title): string {
   return format ? format[0].toUpperCase() + format.slice(1) : '';
 }
 
-/** Whether the title has its champions now: not retired, and a lineal reign still going. */
-const isActive = (t: Title) => !t.retired && t.reigns.some((r) => !r.end && !r.kind);
+/** The champions now: the lineal reign still going, or an interim one while there's none. */
+function currentReigns(t: Title): TitleReign[] {
+  if (t.retired) return [];
+  const open = t.reigns.filter((r) => !r.end);
+  const lineal = open.filter((r) => !r.kind);
+  return lineal.length ? lineal : open.filter((r) => r.kind === 'interim');
+}
+const isActive = (t: Title) => currentReigns(t).length > 0;
 
 function holderLinks(r: TitleReign, site: SiteData): Raw {
   const unlinked = r.unlinked ?? [];
@@ -66,7 +72,7 @@ export function titlePage(title: Title, site: SiteData, buildDate: string): { me
   const reigns = [...title.reigns];
   const lineal = reigns.filter((r) => !r.kind);
   const traced = !!title.established;
-  const current = isActive(title) ? lineal.filter((r) => !r.end) : [];
+  const current = currentReigns(title);
   const otherNames = (title.names ?? []).filter((n) => n !== title.name);
   const first = lineal[0] ?? reigns[0];
   const kind = titleKindLabel(title);
@@ -159,7 +165,7 @@ export function titlesIndex(site: SiteData, buildDate: string): { meta: PageMeta
   const total = listed.reduce((a, t) => a + t.reigns.length, 0);
   const traced = listed.filter((t) => t.established).length;
   const row = (t: Title) => {
-    const cur = isActive(t) ? t.reigns.filter((r) => !r.end && !r.kind) : [];
+    const cur = currentReigns(t);
     const last = t.retired ?? t.reigns.map((r) => r.end ?? buildDate).sort().at(-1);
     const span = t.reigns.length ? yearSpan(t.established ?? t.reigns[0].start, isActive(t) ? buildDate : last) : '';
     const kind = titleKindLabel(t);

@@ -68,7 +68,13 @@ export function createTitlesView(ctx: AppContext, bundle: TitleBundle): AppView 
   const promotionOf = (t: TitleRef) => facts(t.id)?.promotion ?? '';
   const promoName = (p: string) => (p ? model.promotions.get(p)?.name ?? p.toUpperCase() : '');
   const lineal = (r: Reign) => !reignFacts(r)?.[1];
-  const current = (t: TitleRef) => (facts(t.id)?.retired ? [] : (reignsOf.get(t) ?? []).filter((r) => !r.end && lineal(r)));
+  /** The champions now: the lineal reign still going, or an interim one while there's none. */
+  const current = (t: TitleRef) => {
+    if (facts(t.id)?.retired) return [];
+    const open = (reignsOf.get(t) ?? []).filter((r) => !r.end);
+    const lin = open.filter(lineal);
+    return lin.length ? lin : open.filter((r) => reignFacts(r)?.[1] === 'interim');
+  };
   /** The lineage view whose tree ends in this title. */
   const treeFor = (t: TitleRef) => Object.entries(L.views).find(([vid, v]) => v.title === t.id && L.trees[vid])?.[0] ?? null;
   const linksOf = (id: string) => L.links.filter((l) => l.to === id || l.from.includes(id));
