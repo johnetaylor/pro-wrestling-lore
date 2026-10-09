@@ -222,16 +222,28 @@ export function createCareers(o: CareersOptions) {
   const rendered = new Map<number, HTMLElement>();
   const railY = (r: Row) => Math.max(0, r.reignTracks - 1) * REIGN_TRACK + RAIL;
 
+  /** How notable a moment is: a pay-per-view match, then a title match, a match, a segment. */
+  const rank = (m: Moment) => (m.kind <= 1 && m.show.ple ? 4 : m.kind === 1 ? 3 : m.kind === 0 ? 2 : 1);
+
   /** The mark a merged group shows: its most common kind of moment, and on a tie the more
-   * notable one (a pay-per-view match, then a title match, a match, a segment). */
+   * notable one. */
   function representative(ms: Moment[]): Moment {
     if (ms.length === 1) return ms[0];
-    const rank = (m: Moment) => (m.kind <= 1 && m.show.ple ? 4 : m.kind === 1 ? 3 : m.kind === 0 ? 2 : 1);
     const counts = [0, 0, 0, 0, 0];
     for (const m of ms) counts[rank(m)]++;
     let best = 1;
     for (let k = 2; k <= 4; k++) if (counts[k] >= counts[best]) best = k;
     return ms.find((m) => rank(m) === best)!;
+  }
+
+  /** The moment a click on a merged mark opens: of the kind the mark shows, the one nearest the
+   * pointer's date, and on a tie one the wrestler competed in. v69 opened the mark under the
+   * pointer the same way, so a click always brings a match's wrestlers together. */
+  function momentAt(ms: Moment[], day: number, p: number): Moment {
+    const shown = rank(ms.find((m) => m === state.selected) ?? representative(ms));
+    const pool = ms.filter((m) => rank(m) === shown);
+    const score = (m: Moment) => Math.abs(m.day - day) + (m.people.includes(p) ? 0 : 0.5);
+    return pool.reduce((best, m) => (score(m) < score(best) ? m : best));
   }
 
   function nodesHtml(r: Row): string {
@@ -841,7 +853,10 @@ export function createCareers(o: CareersOptions) {
       quietMark = markKey(node);
       const ms = node.dataset.ms!.split(',').map((i) => model.moments[Number(i)]);
       const p = Number(node.dataset.p);
+      // A pointer opens the moment under it; the keyboard, which has no position, gets the
+      // list of everything merged into the mark.
       if (ms.length === 1) select(ms[0], p);
+      else if (e.detail > 0) select(momentAt(ms, dayAt(e.clientX - lanes.getBoundingClientRect().left), p), p);
       else {
         remember();
         state.choice = { person: p, moments: ms };
