@@ -97,7 +97,7 @@ ${body}
     <p>Updated ${formatDate(ctx.buildDate)}. Set in Barlow, under the SIL Open Font License.</p>
   </div>
 </footer>
-${scripts.map((s) => html`<script src="/assets/${ctx.assets.js[s]}" defer></script>`)}
+${scripts.map((s) => (s === 'app' ? html`<script src="/assets/${ctx.assets.js[s]}" defer onerror="document.documentElement.classList.remove('js')"></script>` : html`<script src="/assets/${ctx.assets.js[s]}" defer></script>`))}
 </body>
 </html>
 `;

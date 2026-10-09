@@ -3,7 +3,7 @@
 // says what was wrong, what changed and where the right answer comes from.
 
 export interface Correction {
-  kind: 'show-date' | 'identity-split' | 'profile-field';
+  kind: 'show-date' | 'identity-split' | 'profile-field' | 'rating';
   target: string;
   change: string;
   reason: string;
@@ -48,6 +48,16 @@ const PROFILE_FIELDS: { person: string; fields: Record<string, unknown>; change:
     change: 'debut 2026-01-08 → 2022-04-02',
     reason: 'v69 listed a 2026 debut, but the archive itself has his matches from 2023; his in-ring debut was the WrestleMania 38 tag match on April 2, 2022.',
     sources: ['https://www.sescoops.com/?p=249166'],
+  },
+];
+
+/** Ratings v69 attached to the wrong match. The rating is removed from that match only. */
+const MISPLACED_RATINGS: { match: string; reason: string; sources: string[] }[] = [
+  {
+    match: '2026-06-19-smackdown-match-2',
+    reason:
+      "v69 gave the 70-second Gunther vs. Cody Rhodes DQ the ratings of the 11-minute Cody Rhodes vs. Gunther title match earlier that night: the same CAGEMATCH score and vote count (6.19 from 124 votes) and the same Observer stars. They belong to the title match, which keeps them.",
+    sources: ['https://www.cagematch.net/?id=1&nr=448747'],
   },
 ];
 
@@ -99,6 +109,13 @@ export function applyCorrections(d: any): Correction[] {
     if (profile?.aliases) profile.aliases = profile.aliases.filter((a: string) => !split.aliases.includes(a) || a === profile.name);
     for (const fam of d.dynasties ?? []) for (const node of fam.nodes ?? []) if (node.id === split.to && !node.careerId) node.careerId = split.to;
     applied.push({ kind: 'identity-split', target: `${split.from} → ${split.to}`, change: `${n} records before ${split.before} moved to ${split.name}`, reason: split.reason, sources: split.sources });
+  }
+
+  for (const fix of MISPLACED_RATINGS) {
+    const ratings = d.matchRatings?.matches;
+    if (!ratings?.[fix.match]) continue;
+    delete ratings[fix.match];
+    applied.push({ kind: 'rating', target: fix.match, change: 'rating removed', reason: fix.reason, sources: fix.sources });
   }
 
   for (const fix of PROFILE_FIELDS) {

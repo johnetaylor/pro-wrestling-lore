@@ -90,5 +90,5 @@ export function archiveChart(site: SiteData): Raw {
   });
   const height = top + lanes.length * LANE + 4;
   const svg = `<svg viewBox="0 0 ${W} ${height}" role="img" aria-label="Indexed shows per month by promotion, ${first.slice(0, 4)} to ${last.slice(0, 4)}">${yearTicks(t0, t1, x, top, height - 4)}${body}</svg>`;
-  return html`<figure class="strip">${raw(svg)}<figcaption>Indexed shows per month for each promotion. Taller bars are busier months; empty stretches are history still to be added.</figcaption></figure>`;
+  return html`<figure class="strip"><div class="strip__scroll">${raw(svg)}</div><figcaption>Indexed shows per month for each promotion. Taller bars are busier months; empty stretches are history still to be added.</figcaption></figure>`;
 }

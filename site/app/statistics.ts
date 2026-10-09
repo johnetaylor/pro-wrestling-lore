@@ -86,7 +86,15 @@ export function createStatistics(o: StatisticsOptions) {
     const promotion = controls.promotion.value || 'all';
     const division = controls.division.value || 'all';
     const promotionName = promotion === 'all' ? '' : model.promotions.get(promotion)?.name ?? promotion;
-    controls.records.disabled = promotion !== 'all';
+    // One promotion means indexed records; the record type someone chose comes back after.
+    if (promotion !== 'all' && !controls.records.disabled) {
+      controls.records.dataset.chosen = controls.records.value;
+      controls.records.value = 'archive';
+      controls.records.disabled = true;
+    } else if (promotion === 'all' && controls.records.disabled) {
+      controls.records.disabled = false;
+      controls.records.value = controls.records.dataset.chosen ?? 'available';
+    }
     const set = promotion === 'all' ? (controls.records.value as RecordSet) : 'archive';
     const indexed = indexedFor(promotion);
     const minimum = Number(controls.minimum.value) || 0;
@@ -125,7 +133,11 @@ export function createStatistics(o: StatisticsOptions) {
     const arrow = (key: SortKey) => (sort.key === key ? (sort.dir === 'asc' ? '▲' : '▼') : '↕');
     root.innerHTML = `<header class="stats-head"><div><h2>${head.title}</h2><p role="status">${num(rows.length)} of ${num(base.length)} ${who} with records${minimum ? `, at least ${num(minimum)} matches` : ''}</p></div><span class="stats-scope">${head.scope}</span></header>
 <p class="stats-note" id="stats-note">${head.note}</p>
-<div class="stats-scroll" role="region" tabindex="0" aria-label="Match records, sortable">
+${
+  rows.length
+    ? ''
+    : `<p class="stats-empty">No ${who} match these filters. Try another name, promotion or division, or a lower minimum.</p>`
+}<div class="stats-scroll" role="region" tabindex="0" aria-label="Match records, sortable"${rows.length ? '' : ' hidden'}>
 <table class="stats-table" aria-describedby="stats-note"><caption class="visually-hidden">Match records. Select a column heading to sort, or a wrestler to open their career on the timeline.</caption>
 <thead><tr>${columns
       .map(([key, label]) => `<th scope="col" aria-sort="${sort.key === key ? (sort.dir === 'asc' ? 'ascending' : 'descending') : 'none'}"${key === 'name' ? '' : ' class="num"'}><button type="button" data-sort="${key}">${label}<span aria-hidden="true">${arrow(key)}</span></button></th>`)
@@ -140,7 +152,7 @@ export function createStatistics(o: StatisticsOptions) {
                   .join('')}<td class="type">${type(r.rec)}</td></tr>`,
             )
             .join('')
-        : `<tr><td colspan="${columns.length + 1}" class="stats-empty">No wrestlers match these filters. Try another name or a lower minimum.</td></tr>`
+        : ''
     }</tbody></table></div>
 <p class="stats-note">Percentages use total recorded matches, so they may not add up to exactly 100. Use the minimum to leave out very small samples.</p>`;
   }

@@ -48,6 +48,38 @@ html:not(.js):not(.app-failed) .app {
 .app-tools[hidden] {
   display: none;
 }
+/* Careers carries the most filters: set widths keep them on one row from 1280px wide. Below
+   that they wrap, and the tools scroll away rather than cover the lanes. */
+[data-section='careers'] .filters .f-search {
+  flex: 1 1 150px;
+  min-width: 0;
+}
+[data-section='careers'] .filters .f-search input {
+  width: 100%;
+}
+[data-section='careers'] .filters [data-control='promotion'] {
+  width: 134px;
+}
+[data-section='careers'] .filters [data-control='division'] {
+  width: 122px;
+}
+[data-section='careers'] .filters [data-control='kind'] {
+  width: 146px;
+}
+[data-section='careers'] .filters [data-control='month'] {
+  width: 136px;
+}
+[data-section='careers'] .filters input[type='date'] {
+  width: 134px;
+}
+[data-section='careers'] .mode-switch button {
+  padding: 0 var(--s3);
+}
+@media (max-width: 1279px) {
+  [data-section='careers'] .app-tools {
+    position: static;
+  }
+}
 /* Tools whose controls all carry a caption line up by their tops, so a second row of filters
    doesn't pull the view switch down with it. */
 .app-tools--labeled {
@@ -1409,9 +1441,12 @@ html:not(.js):not(.app-failed) .app {
   color: var(--text-3);
 }
 .stats-empty {
-  padding: var(--s6) !important;
-  text-align: center !important;
+  margin: var(--s4) 0;
+  padding: var(--s6) var(--s4);
+  text-align: center;
   color: var(--text-2);
+  border: 1px solid var(--rule);
+  border-radius: var(--r2);
 }
 .stats-table tbody tr:hover {
   background: #0f1820;
@@ -2691,7 +2726,9 @@ html:not(.js):not(.app-failed) .app {
   .filters .f-search {
     grid-column: 1 / -1;
   }
-  .filters input[type='date'] {
+  .filters input[type='date'],
+  [data-section='careers'] .filters select,
+  [data-section='careers'] .filters input {
     width: 100%;
   }
   .mode-field,

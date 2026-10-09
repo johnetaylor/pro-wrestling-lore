@@ -275,10 +275,8 @@ export function personPage(person: Person, site: SiteData, buildDate: string): {
   const body = html`<article class="person">
 <header class="page-head">
 ${breadcrumbs([{ name: 'Wrestlers', url: '/wrestlers/' }, { name: person.name }])}
-<div class="person-title">${avatar(person.name, mainPromotion(site, person.id), 'large')}<div>
-<h1>${person.name}</h1>
+<div class="person-title">${avatar(person.name, mainPromotion(site, person.id), 'large')}<h1>${person.name}</h1></div>
 ${names.length ? html`<p class="aka">Also billed as ${sentenceList(names)}.</p>` : ''}
-</div></div>
 ${lede ? html`<p class="lede">${lede}</p>` : ''}
 <p class="facts">${facts}</p>
 </header>

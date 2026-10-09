@@ -189,7 +189,7 @@ export function careerPanel(
   model: Model,
   person: number,
   prof: ProfileBundle | null,
-  opts: { rival: string | null; momentsInRange: Moment[]; storylines: { id: string; title: string }[]; topRated: { m: Moment; score: number }[] },
+  opts: { rival: string | null; momentsInRange: Moment[]; storylines: { id: string; title: string }[]; topRated: { m: Moment; score: number }[]; promotion?: string },
 ): string {
   const p = model.people[person];
   const span = careerSpan(model, person);
@@ -250,7 +250,7 @@ ${opts.topRated.length ? `<h3>Highest-rated matches</h3><div class="event-list">
         .map(({ m, score }) => `<button type="button" class="event-card" data-moment="${m.i}" data-anchor="${person}"><span>${esc(fmtDate(m.date))}, ${esc(m.show.label)}</span><strong>${esc(m.title)}</strong><span class="rating-mini"><b>PWL ${score}</b></span></button>`)
         .join('')}</div><p class="hint">By PWL rating, the mean of published ratings on a 0 to 100 scale. <a href="/shows/top-rated/">All top-rated matches</a></p>` : ''}
 <h3>On the timeline</h3>
-<p class="hint">${recent.length ? `${plural(recent.length, 'moment')} in the selected dates. ${recent.length > 60 ? 'The latest 60 are listed; every one is on the timeline.' : ''}` : 'Nothing indexed in the selected dates. Gaps are missing records, not time away.'}</p>
+<p class="hint">${recent.length ? `${plural(recent.length, opts.promotion ? `${esc(opts.promotion)} moment` : 'moment')} in the selected dates. ${recent.length > 60 ? 'The latest 60 are listed; every one is on the timeline.' : ''}` : opts.promotion ? `Nothing from ${esc(opts.promotion)} is indexed in the selected dates.` : 'Nothing indexed in the selected dates. Gaps are missing records, not time away.'}</p>
 <div class="event-list">${recent.slice(0, 60).map((m) => eventCard(m)).join('')}</div>
 ${opts.storylines.length ? `<h3>Follow the storyline</h3><div class="event-list">${opts.storylines.map((s) => `<button type="button" class="story-link" data-storyline="${esc(s.id)}">${esc(s.title)}</button>`).join('')}</div>` : ''}
 ${prof?.sources.length ? `<h3>Sources</h3>${sourceLinks(prof.sources)}` : ''}`;

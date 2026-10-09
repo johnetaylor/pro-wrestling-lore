@@ -125,6 +125,32 @@ export function createCareers(o: CareersOptions) {
   /** A person in the chosen division. Someone with no recorded gender is in neither. */
   const divisionOk = (p: Person) => state.division === 'all' || p.gender === (state.division === 'women' ? 'f' : 'm');
   const promotionName = () => (state.promotion === 'all' ? '' : model.promotions.get(state.promotion)?.name ?? state.promotion);
+  /** Whether the chosen promotion has a moment or a title reign between two days. */
+  function promotionHasRecords(from: number, to: number): boolean {
+    if (state.promotion === 'all') return true;
+    for (let i = lowerBound(model.moments, from); i < model.moments.length && model.moments[i].day <= to; i++) if (model.moments[i].show.promotion === state.promotion) return true;
+    return model.reigns.some((r) => r.title.promotion === state.promotion && dayNum(r.start) <= to && dayNum(r.end || model.asOf) >= from);
+  }
+  /** When the dates hold nothing from the chosen promotion, moves them to span its records. */
+  function fitPromotion() {
+    if (state.promotion === 'all' || state.focus || state.selected || promotionHasRecords(state.from, state.to)) return;
+    let first = Infinity;
+    let last = -Infinity;
+    for (const m of model.moments)
+      if (m.show.promotion === state.promotion) {
+        first = Math.min(first, m.day);
+        last = Math.max(last, m.day);
+      }
+    for (const r of model.reigns)
+      if (r.title.promotion === state.promotion) {
+        first = Math.min(first, dayNum(r.start));
+        last = Math.max(last, dayNum(r.end || model.asOf));
+      }
+    if (!Number.isFinite(first)) return;
+    const pad = Math.max(60, Math.round((last - first) * 0.03));
+    state.from = Math.max(dayNum('1900-01-01'), first - pad);
+    state.to = Math.min(asOf, last + pad);
+  }
   const lowerBound = (list: Moment[], day: number) => {
     let lo = 0;
     let hi = list.length;
@@ -531,11 +557,11 @@ export function createCareers(o: CareersOptions) {
     }
     const f = state.focus!;
     const id = model.people[f.person].id;
-    fill(careerPanel(model, f.person, state.profile?.id === id ? state.profile : null, { rival: state.rival?.name ?? null, momentsInRange: momentsInRange(f.person), storylines: [], topRated: [] }));
+    fill(careerPanel(model, f.person, state.profile?.id === id ? state.profile : null, { rival: state.rival?.name ?? null, momentsInRange: momentsInRange(f.person), storylines: [], topRated: [], promotion: promotionName() }));
     const [prof, stories, rated] = await Promise.all([loadProfile(id).catch(() => null), relatedStorylines(), ratedFor(f.person)]);
     if (token !== panelToken) return;
     state.profile = prof;
-    fill(careerPanel(model, f.person, prof, { rival: state.rival?.name ?? null, momentsInRange: momentsInRange(f.person), storylines: stories, topRated: rated.slice(0, 5) }));
+    fill(careerPanel(model, f.person, prof, { rival: state.rival?.name ?? null, momentsInRange: momentsInRange(f.person), storylines: stories, topRated: rated.slice(0, 5), promotion: promotionName() }));
   }
 
   /** Positions the panel under its row and opens a gap in the lanes for it. */
@@ -572,13 +598,15 @@ export function createCareers(o: CareersOptions) {
       sub.textContent = `${fmtDate(state.selected.date, true)}, ${state.selected.show.label}`;
     } else if (state.focus) {
       title.textContent = model.people[state.focus.person].name;
-      sub.textContent = state.rival
-        ? `${plural(state.rival.matches.size, 'indexed match', 'indexed matches')} against ${state.rival.name}`
-        : state.focus.year
-          ? `${state.focus.year}. Indexed moments only; earlier coverage is partial.`
-          : state.focus.span.debut
-            ? 'Whole career. Select a year to zoom in.'
-            : 'Debut not yet verified, so the span starts at the first indexed record.';
+      const only = state.promotion === 'all' ? '' : ` ${promotionName()} marks and reigns only.`;
+      sub.textContent =
+        (state.rival
+          ? `${plural(state.rival.matches.size, 'indexed match', 'indexed matches')} against ${state.rival.name}.`
+          : state.focus.year
+            ? `${state.focus.year}. Indexed moments only; earlier coverage is partial.`
+            : state.focus.span.debut
+              ? 'Whole career. Select a year to zoom in.'
+              : 'Debut not yet verified, so the span starts at the first indexed record.') + only;
     } else {
       title.textContent = state.choice ? model.people[state.choice.person].name : 'Every career on one timeline';
       const who = state.division === 'women' ? 'Women' : state.division === 'men' ? 'Men' : 'Everyone';
@@ -781,6 +809,7 @@ export function createCareers(o: CareersOptions) {
       state.from = prev.from;
       state.to = prev.to;
     }
+    fitPromotion();
     refresh();
     if (prev) window.scrollTo({ top: prev.scroll, behavior: 'auto' });
   }
@@ -1027,6 +1056,12 @@ export function createCareers(o: CareersOptions) {
   controls.promotion.addEventListener('change', () => {
     state.promotion = controls.promotion.value;
     state.choice = null;
+    // A selected moment from another promotion would vanish from its own lanes: let it go.
+    if (state.selected && !promotionOk(state.selected)) {
+      state.selected = null;
+      state.anchor = null;
+    }
+    fitPromotion();
     refresh();
   });
   controls.division.addEventListener('change', () => {
@@ -1138,6 +1173,7 @@ export function createCareers(o: CareersOptions) {
         state.to = Math.min(asOf, state.from + span);
       }
     }
+    if (!s.from && !s.to) fitPromotion();
     // Coming back to the plain A to Z view restores the default dates.
     if (state.focus || state.selected) state.previous = { from: defaultFrom, to: defaultTo, scroll: 0 };
     refresh();
@@ -1161,6 +1197,13 @@ export function createCareers(o: CareersOptions) {
     },
     getState,
     apply,
+    /** Sets the promotion and division without other changes (the shared filters changed while
+     * Statistics was showing). */
+    setFilters: (promotion?: string, division?: string) => {
+      state.promotion = promotion && model.promotions.has(promotion) ? promotion : 'all';
+      state.division = division === 'men' || division === 'women' ? division : 'all';
+      refresh();
+    },
     /** What the page is about right now, for the document title. */
     subject: () => (state.focus ? model.people[state.focus.person].name : state.selected ? `${state.selected.title}, ${state.selected.show.label}` : null),
     hidePreview,

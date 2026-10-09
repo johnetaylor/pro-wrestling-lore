@@ -49,6 +49,7 @@ export function createShowsView(ctx: AppContext): AppView {
   };
   // Ratings arrive in a small file of their own; the picker offers the list once they're in.
   let rated: Rated[] | null = null;
+  let ratingsFailed = false;
   const ratingsReady = loadRatings()
     .then((b) => {
       rated = b.rated.flatMap(([id, score, eligible, sources]) => {
@@ -57,6 +58,7 @@ export function createShowsView(ctx: AppContext): AppView {
       });
     })
     .catch(() => {
+      ratingsFailed = true;
       rated = [];
     });
   const ratedIn = (promotion: string) => (rated ?? []).filter((r) => r.m.show.promotion === promotion);
@@ -116,10 +118,8 @@ export function createShowsView(ctx: AppContext): AppView {
     const shown = all.filter((r) => (state.topYear === 'all' || r.m.date.startsWith(state.topYear)) && (state.topKind === 'all' || (state.topKind === 'ple') === r.m.show.ple));
     const rank = (r: Rated) => 1 + shown.filter((x) => x.score > r.score).length;
     const rows = shown
-      .map((r, i) => {
-        const n = rank(r);
-        const tie = i > 0 && shown[i - 1].score === r.score;
-        return `<tr><td class="rank">${tie ? `<span class="visually-hidden">${n}</span>` : n}</td>
+      .map((r) => {
+        return `<tr><td class="rank">${rank(r)}</td>
 <td class="top-pwl"><strong>${r.score}</strong><span class="pwl-bar" aria-hidden="true"><i style="width:${r.score}%"></i></span></td>
 <td class="top-match"><button type="button" class="text-button" data-moment="${esc(r.m.id)}">${esc(r.m.title)}</button></td>
 <td class="top-show"><button type="button" class="text-button" data-show="${esc(r.m.show.id)}">${esc(r.m.show.name)}</button><small>${esc(fmtDate(r.m.date))}</small></td>
@@ -226,10 +226,14 @@ ${prev || next ? `<nav class="panel-pager" aria-label="Other ${esc(sh.series?.na
     const p = promotions.find((x) => x.id === state.promotion) ?? promotions[0];
     for (const b of tabs.querySelectorAll<HTMLElement>('[data-promotion]')) b.setAttribute('aria-pressed', String(b.dataset.promotion === p.id));
     const list = seriesOf(p.id);
-    if (state.top && rated && !ratedIn(p.id).length) state.top = false;
+    if (state.top && rated && !ratingsFailed && !ratedIn(p.id).length) state.top = false;
     if (state.top) {
       root.style.setProperty('--series', 'var(--accent)');
-      root.innerHTML = rated ? topHtml(p, list) : '<p class="hint">Loading the ratings…</p>';
+      root.innerHTML = ratingsFailed
+        ? '<div class="lanes-empty"><h2>The ratings didn’t load</h2><p>Check your connection, then reload the page.</p></div>'
+        : rated
+          ? topHtml(p, list)
+          : '<p class="hint">Loading the ratings…</p>';
       return;
     }
     const head = `<div class="explorer-head"><div><h1 class="view-title">${esc(p.name)} shows</h1><p class="view-subtitle">Choose a show or event, then a date for its card.</p></div></div>`;
@@ -385,7 +389,7 @@ ${gridHtml(s, shows, years)}`;
       if (!root.childElementCount) render();
     },
     hide: () => {},
-    apply: async (p: Params) => {
+    apply: (p: Params) => {
       if (p.top) {
         state.show = null;
         state.series = null;
@@ -394,8 +398,10 @@ ${gridHtml(s, shows, years)}`;
         state.topYear = p.year && /^\d{4}$/.test(p.year) ? p.year : 'all';
         state.topKind = p.kind === 'weekly' || p.kind === 'ple' ? p.kind : 'all';
         render();
-        await ratingsReady;
-        if (state.top) render();
+        // The list fills in when the ratings arrive; the rest of the page doesn't wait for them.
+        void ratingsReady.then(() => {
+          if (state.top) render();
+        });
         return;
       }
       state.top = false;

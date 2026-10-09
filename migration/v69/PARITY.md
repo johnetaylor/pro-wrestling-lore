@@ -18,7 +18,7 @@
 | Storylines | Every chapter maps with its date and title | 703 | 0 |
 | Storylines | Archived chapters point at their segments | 75 | 0 |
 | Families | Every family keeps its members and links | 25 | 0 |
-| Ratings | Every rated match carries its rating sources | 380 | 0 |
+| Ratings | Every rated match carries its rating sources | 379 | 0 |
 | Calendar | Major events and weekly shows carry over | 2 | 0 |
 | Titles | Lineage titles, events and views carry over | 3 | 0 |
 | People | Cody and Hogan keep their curated career content | 2 | 0 |

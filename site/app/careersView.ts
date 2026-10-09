@@ -172,6 +172,8 @@ export function createCareersView(ctx: AppContext): AppView {
         const next: Mode = p.mode === 'statistics' ? 'statistics' : 'timeline';
         promotionSelect.value = p.promotion && promotionIds.includes(p.promotion) ? p.promotion : 'all';
         divisionSelect.value = p.division === 'men' || p.division === 'women' ? p.division : 'all';
+        // The timeline keeps the filters too, so switching views later shows the same ones.
+        if (next === 'statistics') careers.setFilters(filters().promotion, filters().division);
         if (next !== mode) setMode(next);
         else if (next === 'statistics') statistics.render();
         if (next === 'timeline') careers.apply({ person: p.person, moment: p.moment, year: p.year, from: p.from, to: p.to, promotion: filters().promotion, division: filters().division });
