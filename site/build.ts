@@ -18,7 +18,7 @@ import type { Raw } from './lib/html.ts';
 import { homePage } from './pages/home.ts';
 import { personPage } from './pages/person.ts';
 import { showPage } from './pages/show.ts';
-import { promotionPage, seriesPages, showsIndex, LANE_ORDER } from './pages/shows.ts';
+import { promotionPage, seriesPages, showsIndex, topRatedPage, LANE_ORDER } from './pages/shows.ts';
 import { titlePage, titlesIndex, titlePromotion } from './pages/titles.ts';
 import { wrestlersIndex } from './pages/wrestlers.ts';
 import { familiesIndex, familyPage, notFoundPage, searchPage, storylinePage, storylinesIndex } from './pages/misc.ts';
@@ -203,6 +203,7 @@ for (const p of site.people.values()) {
   write(explorer(personPage(p, site, buildDate)), 'wrestlers');
 }
 write(explorer(showsIndex(site)), 'shows');
+write(explorer(topRatedPage(site)), 'shows');
 for (const p of LANE_ORDER) if (site.promotions.has(p) && [...site.series.values()].some((s) => s.promotion === p && site.showsBySeries.get(s.id)?.length)) write(explorer(promotionPage(p, site)), 'shows');
 for (const s of site.series.values()) if (site.showsBySeries.get(s.id)?.length) for (const r of seriesPages(s, site)) write(explorer(r), 'shows');
 for (const s of site.shows.values()) write(explorer(showPage(s, site)), 'shows');

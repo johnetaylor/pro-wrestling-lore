@@ -5,6 +5,7 @@ import { escapeHtml, html, raw, type Raw } from '../lib/html.ts';
 import { GENERIC_TYPES, displayMatchType, formatDate, formatDuration } from '../lib/format.ts';
 import type { SiteData } from '../lib/load.ts';
 import { personUrl, showUrl } from '../lib/urls.ts';
+import { initials } from '../app/model.ts';
 
 /** The name a promotion went by on a date (WWWF → WWF → WWE). */
 export function promotionNameAt(promotion: string, date: string, fallback: string): string {
@@ -38,6 +39,11 @@ export function titleNameAt(title: Title, date: string, name = title.name): stri
 
 export function promoColor(promotion: string): string {
   return `var(--p-${promotion}, var(--text-3))`;
+}
+
+/** A person's initials tile, where a photo will go once a free-licensed one exists. */
+export function avatar(name: string, promotion: string | undefined, size: 'small' | 'large' = 'small'): Raw {
+  return html`<span class="avatar${size === 'large' ? ' avatar--large' : ''}" style="--c:${promoColor(promotion ?? 'other')}" aria-hidden="true">${initials(name)}</span>`;
 }
 
 export function promoTag(promotion: string, label: string): Raw {

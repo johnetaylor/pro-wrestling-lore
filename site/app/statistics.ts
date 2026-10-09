@@ -3,7 +3,7 @@
 // cover different sets of matches, and every row says which one it uses.
 import { announce, esc, num } from './dom.ts';
 import { normalize, type Model } from './model.ts';
-import { indexedRecord } from './panels.ts';
+import { avatarHtml, indexedRecord } from './panels.ts';
 
 export type RecordSet = 'available' | 'career' | 'archive';
 type SortKey = 'name' | 'matches' | 'wins' | 'losses' | 'draws' | 'winPct' | 'lossPct' | 'drawPct';
@@ -22,7 +22,7 @@ interface Rec {
 export interface StatisticsOptions {
   model: Model;
   root: HTMLElement;
-  controls: { search: HTMLInputElement; records: HTMLSelectElement; minimum: HTMLSelectElement; format: HTMLSelectElement };
+  controls: { search: HTMLInputElement; records: HTMLSelectElement; minimum: HTMLSelectElement; format: HTMLSelectElement; promotion: HTMLSelectElement; division: HTMLSelectElement };
   openPerson(id: string): void;
 }
 
@@ -48,19 +48,30 @@ export function createStatistics(o: StatisticsOptions) {
   const { model, root, controls } = o;
   const sort = { key: 'matches' as SortKey, dir: 'desc' as 'asc' | 'desc' };
 
-  // Both record sets, worked out once.
-  const indexed = new Map<number, Rec>();
+  // Career totals once; indexed records for all promotions, and for each one when first asked.
   const career = new Map<number, Rec>();
   for (const p of model.people) {
-    const r = indexedRecord(model, p.i);
-    if (r.matches) {
-      const dated = model.byPerson[p.i].filter((m) => m.kind <= 1 && m.people.includes(p.i) && m.outcomes[m.people.indexOf(p.i)] && m.outcomes[m.people.indexOf(p.i)] !== '-');
-      indexed.set(p.i, { ...r, basis: 'archive', first: dated[0]?.date, last: dated.at(-1)?.date });
-    }
     const t = model.totals.get(p.i);
     if (t?.matches) career.set(p.i, { ...t, basis: 'career', source: t.source });
   }
-  const recordFor = (p: number, set: RecordSet): Rec | undefined => (set === 'archive' ? indexed.get(p) : set === 'career' ? career.get(p) : career.get(p) ?? indexed.get(p));
+  const indexedBy = new Map<string, Map<number, Rec>>();
+  const indexedFor = (promotion: string): Map<number, Rec> => {
+    const made = indexedBy.get(promotion);
+    if (made) return made;
+    const out = new Map<number, Rec>();
+    const only = promotion === 'all' ? undefined : promotion;
+    for (const p of model.people) {
+      const r = indexedRecord(model, p.i, only);
+      if (!r.matches) continue;
+      const dated = model.byPerson[p.i].filter((m) => m.kind <= 1 && (!only || m.show.promotion === only) && m.people.includes(p.i) && m.outcomes[m.people.indexOf(p.i)] && m.outcomes[m.people.indexOf(p.i)] !== '-');
+      out.set(p.i, { ...r, basis: 'archive', first: dated[0]?.date, last: dated.at(-1)?.date });
+    }
+    indexedBy.set(promotion, out);
+    return out;
+  };
+  // Career totals cover every promotion, so one promotion's view uses its indexed broadcasts.
+  const recordFor = (p: number, set: RecordSet, indexed: Map<number, Rec>): Rec | undefined =>
+    set === 'archive' ? indexed.get(p) : set === 'career' ? career.get(p) : career.get(p) ?? indexed.get(p);
 
   const value = (p: number, rec: Rec, key: SortKey): number | string => {
     if (key === 'name') return model.people[p].sort;
@@ -72,13 +83,19 @@ export function createStatistics(o: StatisticsOptions) {
   };
 
   function render() {
-    const set = controls.records.value as RecordSet;
+    const promotion = controls.promotion.value || 'all';
+    const division = controls.division.value || 'all';
+    const promotionName = promotion === 'all' ? '' : model.promotions.get(promotion)?.name ?? promotion;
+    controls.records.disabled = promotion !== 'all';
+    const set = promotion === 'all' ? (controls.records.value as RecordSet) : 'archive';
+    const indexed = indexedFor(promotion);
     const minimum = Number(controls.minimum.value) || 0;
     const percent = controls.format.value === 'percentages';
     const search = normalize(controls.search.value);
-    const base = model.people.filter((p) => recordFor(p.i, set) && (!search || p.search.includes(search)));
+    const gender = division === 'women' ? 'f' : division === 'men' ? 'm' : '';
+    const base = model.people.filter((p) => recordFor(p.i, set, indexed) && (!gender || p.gender === gender) && (!search || p.search.includes(search)));
     const rows = base
-      .map((p) => ({ p: p.i, rec: recordFor(p.i, set)! }))
+      .map((p) => ({ p: p.i, rec: recordFor(p.i, set, indexed)! }))
       .filter((r) => r.rec.matches >= minimum)
       .sort((a, b) => {
         const x = value(a.p, a.rec, sort.key);
@@ -97,9 +114,16 @@ export function createStatistics(o: StatisticsOptions) {
       rec.basis === 'career'
         ? `${rec.source ? `<a href="${esc(rec.source)}" rel="noopener" target="_blank">Career total</a>` : 'Career total'}`
         : `Indexed broadcasts<small>${esc(rec.first ?? '')}${rec.last && rec.last !== rec.first ? ` to ${esc(rec.last)}` : ''}</small>`;
-    const head = HEADINGS[set];
+    const head = promotionName
+      ? {
+          title: `Indexed ${esc(promotionName)} records`,
+          scope: 'This archive',
+          note: `Televised ${esc(promotionName)} matches in this archive with a recorded result. Career totals cover every promotion, so they aren't used for one. A partial record, not a career total. Draws include no contests.`,
+        }
+      : HEADINGS[set];
+    const who = division === 'women' ? 'women' : division === 'men' ? 'men' : 'wrestlers';
     const arrow = (key: SortKey) => (sort.key === key ? (sort.dir === 'asc' ? '▲' : '▼') : '↕');
-    root.innerHTML = `<header class="stats-head"><div><h2>${head.title}</h2><p role="status">${num(rows.length)} of ${num(base.length)} wrestlers with records${minimum ? `, at least ${num(minimum)} matches` : ''}</p></div><span class="stats-scope">${head.scope}</span></header>
+    root.innerHTML = `<header class="stats-head"><div><h2>${head.title}</h2><p role="status">${num(rows.length)} of ${num(base.length)} ${who} with records${minimum ? `, at least ${num(minimum)} matches` : ''}</p></div><span class="stats-scope">${head.scope}</span></header>
 <p class="stats-note" id="stats-note">${head.note}</p>
 <div class="stats-scroll" role="region" tabindex="0" aria-label="Match records, sortable">
 <table class="stats-table" aria-describedby="stats-note"><caption class="visually-hidden">Match records. Select a column heading to sort, or a wrestler to open their career on the timeline.</caption>
@@ -112,7 +136,7 @@ export function createStatistics(o: StatisticsOptions) {
             .map(
               (r) =>
                 `<tr>${columns
-                  .map(([key]) => (key === 'name' ? `<th scope="row"><button type="button" class="stats-person" data-person-id="${esc(model.people[r.p].id)}">${esc(model.people[r.p].name)}</button></th>` : `<td class="num${key === 'winPct' ? ' win' : ''}">${cell(r, key)}</td>`))
+                  .map(([key]) => (key === 'name' ? `<th scope="row"><button type="button" class="stats-person" data-person-id="${esc(model.people[r.p].id)}">${avatarHtml(model.people[r.p])}<span>${esc(model.people[r.p].name)}</span></button></th>` : `<td class="num${key === 'winPct' ? ' win' : ''}">${cell(r, key)}</td>`))
                   .join('')}<td class="type">${type(r.rec)}</td></tr>`,
             )
             .join('')

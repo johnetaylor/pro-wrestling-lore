@@ -1,9 +1,9 @@
 // Shows: every series a promotion has run, as a grid of years and months with a chip for each
 // show. Select a date to read that show's card below its year, as on v69.
 import { announce, esc, fmtDate, num, plural, reducedMotion } from './dom.ts';
-import { loadDetails, loadShowDetails } from './data.ts';
-import type { DetailRow, Model, Moment, SeriesRef, ShowDetailRow, ShowRef } from './model.ts';
-import { matchTypeLine, ratingMini, usefulContext } from './panels.ts';
+import { loadDetails, loadRatings, loadShowDetails } from './data.ts';
+import type { DetailRow, Model, Moment, RatingsBundle, SeriesRef, ShowDetailRow, ShowRef } from './model.ts';
+import { matchTypeLine, PROVIDER, ratingMini, ratingText, usefulContext } from './panels.ts';
 import { promotionTabs } from './ui.ts';
 import { query, section, type AppContext, type AppView, type Params } from './views.ts';
 
@@ -21,6 +21,15 @@ const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', '
 const WEEKDAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 const KIND: Record<string, string> = { weekly: 'Weekly television', ple: 'Pay-per-view and premium live event', special: 'Television special', event: 'Event', arena: 'Arena card' };
 
+/** A match with a PWL rating. */
+interface Rated {
+  m: Moment;
+  score: number;
+  eligible: number;
+  sources: RatingsBundle['rated'][number][3];
+}
+type TopKind = 'all' | 'weekly' | 'ple';
+
 export function createShowsView(ctx: AppContext): AppView {
   const { model } = ctx;
   const asOfYear = Number(model.asOf.slice(0, 4));
@@ -33,7 +42,24 @@ export function createShowsView(ctx: AppContext): AppView {
     series: null as SeriesRef | null,
     year: 'all',
     show: null as ShowRef | null,
+    /** The top-rated list instead of a series' grid, with its year and show filters. */
+    top: false,
+    topYear: 'all',
+    topKind: 'all' as TopKind,
   };
+  // Ratings arrive in a small file of their own; the picker offers the list once they're in.
+  let rated: Rated[] | null = null;
+  const ratingsReady = loadRatings()
+    .then((b) => {
+      rated = b.rated.flatMap(([id, score, eligible, sources]) => {
+        const m = model.momentById.get(id);
+        return m ? [{ m, score, eligible, sources }] : [];
+      });
+    })
+    .catch(() => {
+      rated = [];
+    });
+  const ratedIn = (promotion: string) => (rated ?? []).filter((r) => r.m.show.promotion === promotion);
   const showDetails = new Map<string, ShowDetailRow>();
   const details = new Map<string, DetailRow>();
 
@@ -64,15 +90,51 @@ export function createShowsView(ctx: AppContext): AppView {
   const weekday = (iso: string) => WEEKDAYS[new Date(`${iso}T12:00:00Z`).getUTCDay()];
 
   // ---------- Markup ----------
-  function pickerHtml(list: SeriesRef[], current: SeriesRef): string {
+  function pickerHtml(list: SeriesRef[], current: SeriesRef | null): string {
     const primary = list.slice(0, PRIMARY);
-    if (!primary.includes(current)) primary.push(current);
+    if (current && !primary.includes(current)) primary.push(current);
     const more = list.filter((s) => !primary.includes(s));
     const button = (s: SeriesRef) =>
       `<button type="button" data-series="${esc(s.id)}" aria-pressed="${s === current}" style="--c:${s.color || 'var(--accent)'}">${esc(s.name)}</button>`;
-    return `<nav class="series-picker" aria-label="Shows and events"><p class="picker-label">Shows and events</p><div class="series-tabs">${primary.map(button).join('')}</div>${
-      more.length ? `<details class="series-more"${more.includes(current) ? ' open' : ''}><summary>More shows and events (${more.length})</summary><div class="series-tabs">${more.map(button).join('')}</div></details>` : ''
+    const top = ratedIn(state.promotion).length
+      ? `<span class="picker-rule" aria-hidden="true"></span><button type="button" class="top-button" data-top aria-pressed="${state.top}">Top-rated matches</button>`
+      : '';
+    return `<nav class="series-picker" aria-label="Shows and events"><p class="picker-label">Shows and events</p><div class="series-tabs">${primary.map(button).join('')}${top}</div>${
+      more.length ? `<details class="series-more"${current && more.includes(current) ? ' open' : ''}><summary>More shows and events (${more.length})</summary><div class="series-tabs">${more.map(button).join('')}</div></details>` : ''
     }</nav>`;
+  }
+
+  /** Each provider's published rating, as the provider gives it. */
+  const sourcesText = (sources: Rated['sources']) =>
+    sources.map(([p, v, u, votes]) => `${PROVIDER[p] ?? p} ${ratingText(v, u)}${p === 'cagematch' && votes ? ` (${num(votes)} ${votes === 1 ? 'vote' : 'votes'}${votes < 5 ? ', too few to count' : ''})` : ''}`).join('; ');
+
+  /** The promotion's PWL-rated matches, highest first, with ties sharing a rank. */
+  function topHtml(p: { id: string; name: string }, list: SeriesRef[]): string {
+    const all = ratedIn(p.id);
+    const years = [...new Set(all.map((r) => r.m.date.slice(0, 4)))].sort().reverse();
+    if (state.topYear !== 'all' && !years.includes(state.topYear)) state.topYear = 'all';
+    const shown = all.filter((r) => (state.topYear === 'all' || r.m.date.startsWith(state.topYear)) && (state.topKind === 'all' || (state.topKind === 'ple') === r.m.show.ple));
+    const rank = (r: Rated) => 1 + shown.filter((x) => x.score > r.score).length;
+    const rows = shown
+      .map((r, i) => {
+        const n = rank(r);
+        const tie = i > 0 && shown[i - 1].score === r.score;
+        return `<tr><td class="rank">${tie ? `<span class="visually-hidden">${n}</span>` : n}</td>
+<td class="top-pwl"><strong>${r.score}</strong><span class="pwl-bar" aria-hidden="true"><i style="width:${r.score}%"></i></span></td>
+<td class="top-match"><button type="button" class="text-button" data-moment="${esc(r.m.id)}">${esc(r.m.title)}</button></td>
+<td class="top-show"><button type="button" class="text-button" data-show="${esc(r.m.show.id)}">${esc(r.m.show.name)}</button><small>${esc(fmtDate(r.m.date))}</small></td>
+<td class="top-sources">${esc(sourcesText(r.sources))}</td></tr>`;
+      })
+      .join('');
+    return `<div class="explorer-head"><div><h1 class="view-title">Top-rated ${esc(p.name)} matches</h1><p class="view-subtitle">Every ${esc(p.name)} match in the archive with a PWL rating, highest first. A PWL rating is the mean of published ratings on a 0 to 100 scale. <a href="/about/#ratings-h">How it works</a></p></div></div>
+${pickerHtml(list, null)}
+<div class="filters series-filters"><label>Year<select data-control="top-year"><option value="all">All years</option>${years.map((y) => `<option value="${y}"${y === state.topYear ? ' selected' : ''}>${y}</option>`).join('')}</select></label><label>Shows<select data-control="top-kind"><option value="all">All shows</option><option value="weekly"${state.topKind === 'weekly' ? ' selected' : ''}>Weekly television</option><option value="ple"${state.topKind === 'ple' ? ' selected' : ''}>Pay-per-views and specials</option></select></label></div>
+<p class="range-hint">${plural(shown.length, 'rated match', 'rated matches')}. Select a match to bring its wrestlers together in Careers, or a show for its card.</p>
+${
+  shown.length
+    ? `<div class="table-wrap top-wrap"><table class="top-table"><caption class="visually-hidden">Top-rated ${esc(p.name)} matches, highest PWL rating first</caption><thead><tr><th scope="col" class="rank">Rank</th><th scope="col">PWL</th><th scope="col">Match</th><th scope="col">Show</th><th scope="col">Published ratings</th></tr></thead><tbody>${rows}</tbody></table></div>`
+    : '<div class="lanes-empty"><h2>No rated matches here</h2><p>Try another year or all shows.</p></div>'
+}`;
   }
 
   /** A short suffix for a show that shares its date or event with another: night 1 and 2, the pre-show. */
@@ -164,6 +226,12 @@ ${prev || next ? `<nav class="panel-pager" aria-label="Other ${esc(sh.series?.na
     const p = promotions.find((x) => x.id === state.promotion) ?? promotions[0];
     for (const b of tabs.querySelectorAll<HTMLElement>('[data-promotion]')) b.setAttribute('aria-pressed', String(b.dataset.promotion === p.id));
     const list = seriesOf(p.id);
+    if (state.top && rated && !ratedIn(p.id).length) state.top = false;
+    if (state.top) {
+      root.style.setProperty('--series', 'var(--accent)');
+      root.innerHTML = rated ? topHtml(p, list) : '<p class="hint">Loading the ratings…</p>';
+      return;
+    }
     const head = `<div class="explorer-head"><div><h1 class="view-title">${esc(p.name)} shows</h1><p class="view-subtitle">Choose a show or event, then a date for its card.</p></div></div>`;
     if (!list.length) {
       root.innerHTML = `${head}<div class="lanes-empty"><h2>No ${esc(p.name)} shows indexed yet</h2><p>Dated shows and their cards appear here as they are added.</p></div>`;
@@ -185,6 +253,7 @@ ${gridHtml(s, shows, years)}`;
 
   async function openShow(sh: ShowRef, scroll = true) {
     state.show = sh;
+    state.top = false;
     if (sh.series) {
       state.series = sh.series;
       state.promotion = sh.series.promotion;
@@ -221,6 +290,12 @@ ${gridHtml(s, shows, years)}`;
     });
   }
 
+  // The picker offers the top-rated list once the ratings are in.
+  void ratingsReady.then(() => {
+    const picker = root.querySelector('.series-picker');
+    if (picker && !state.top && state.series) picker.outerHTML = pickerHtml(seriesOf(state.promotion), state.series);
+  });
+
   // ---------- Events ----------
   tabs.addEventListener('click', (e) => {
     const b = (e.target as Element).closest<HTMLElement>('[data-promotion]');
@@ -229,6 +304,7 @@ ${gridHtml(s, shows, years)}`;
     state.series = null;
     state.show = null;
     state.year = 'all';
+    state.topYear = 'all';
     render();
     ctx.changed();
   });
@@ -239,8 +315,18 @@ ${gridHtml(s, shows, years)}`;
       state.series = model.seriesById.get(series.dataset.series!) ?? state.series;
       state.show = null;
       state.year = 'all';
+      state.top = false;
       render();
       ctx.changed();
+      return;
+    }
+    if (t.closest('[data-top]')) {
+      if (state.top) return;
+      state.top = true;
+      state.show = null;
+      render();
+      ctx.changed();
+      announce(`Top-rated ${model.promotions.get(state.promotion)?.name ?? ''} matches`);
       return;
     }
     const chip = t.closest<HTMLElement>('[data-show]');
@@ -268,6 +354,15 @@ ${gridHtml(s, shows, years)}`;
     if (moment) return ctx.go(`/${query({ moment: moment.dataset.moment })}`);
   });
   root.addEventListener('change', (e) => {
+    const top = (e.target as Element).closest<HTMLSelectElement>('[data-control="top-year"], [data-control="top-kind"]');
+    if (top) {
+      if (top.dataset.control === 'top-year') state.topYear = top.value;
+      else state.topKind = top.value as TopKind;
+      render();
+      ctx.changed();
+      root.querySelector<HTMLElement>(`[data-control="${top.dataset.control}"]`)?.focus();
+      return;
+    }
     const select = (e.target as Element).closest<HTMLSelectElement>('[data-control="show-year"]');
     if (!select) return;
     state.year = select.value;
@@ -290,7 +385,20 @@ ${gridHtml(s, shows, years)}`;
       if (!root.childElementCount) render();
     },
     hide: () => {},
-    apply: (p: Params) => {
+    apply: async (p: Params) => {
+      if (p.top) {
+        state.show = null;
+        state.series = null;
+        state.top = true;
+        state.promotion = promotions.some((x) => x.id === p.promotion) ? p.promotion! : promotions[0].id;
+        state.topYear = p.year && /^\d{4}$/.test(p.year) ? p.year : 'all';
+        state.topKind = p.kind === 'weekly' || p.kind === 'ple' ? p.kind : 'all';
+        render();
+        await ratingsReady;
+        if (state.top) render();
+        return;
+      }
+      state.top = false;
       const sh = p.show ? model.showById.get(p.show) : undefined;
       if (sh) {
         state.year = 'all';
@@ -313,6 +421,7 @@ ${gridHtml(s, shows, years)}`;
       render();
     },
     address: () => {
+      if (state.top) return `/shows/top-rated/${query({ promotion: state.promotion === promotions[0].id ? undefined : state.promotion, year: state.topYear === 'all' ? undefined : state.topYear, kind: state.topKind === 'all' ? undefined : state.topKind })}`;
       if (state.show) return `/shows/${state.show.id}/`;
       if (state.series) {
         const isDefault = state.series === seriesOf(state.promotion)[0];
@@ -321,6 +430,13 @@ ${gridHtml(s, shows, years)}`;
       }
       return state.promotion === promotions[0].id ? '/shows/' : `/shows/${state.promotion}/`;
     },
-    subject: () => (state.show ? `${state.show.name}, ${fmtDate(state.show.date)}` : state.series ? `${state.series.name} shows` : `${model.promotions.get(state.promotion)?.name ?? ''} shows`),
+    subject: () =>
+      state.top
+        ? `Top-rated ${model.promotions.get(state.promotion)?.name ?? ''} matches`
+        : state.show
+          ? `${state.show.name}, ${fmtDate(state.show.date)}`
+          : state.series
+            ? `${state.series.name} shows`
+            : `${model.promotions.get(state.promotion)?.name ?? ''} shows`,
   };
 }

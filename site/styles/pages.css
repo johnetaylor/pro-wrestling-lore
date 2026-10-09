@@ -677,3 +677,30 @@ table.reigns tr.kind-unrecognized td {
     display: none;
   }
 }
+
+/* A wrestler's name with their initials tile, where a photo will go. */
+.person-title {
+  display: flex;
+  align-items: center;
+  gap: var(--s4);
+}
+.person-title h1 {
+  margin: 0;
+}
+.person-title .aka {
+  margin: var(--s1) 0 0;
+}
+@media (max-width: 640px) {
+  .person-title .avatar--large {
+    width: 48px;
+    height: 58px;
+    font-size: 1.2rem;
+  }
+}
+
+/* A PWL rating in a table of rated matches. */
+.pwl-figure {
+  font: 700 1.1rem/1 var(--font-display);
+  color: var(--gold);
+  font-variant-numeric: tabular-nums;
+}

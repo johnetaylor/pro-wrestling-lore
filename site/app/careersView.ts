@@ -8,13 +8,22 @@ import { query, section, type AppContext, type AppView, type Params } from './vi
 
 type Mode = 'timeline' | 'statistics';
 
-const TOOLS = `<div class="app-tools">
-<div class="mode-switch" role="group" aria-label="Show careers as">
+/** Promotions in the order the explorer lists them; the rest follow by name. */
+export const PROMOTION_ORDER = ['wwe', 'aew', 'tna', 'njpw', 'aaa', 'roh', 'cmll', 'stardom', 'wcw', 'ecw', 'nwa', 'awa', 'indy'];
+
+const TOOLS = `<div class="app-tools app-tools--labeled">
+<div class="mode-field"><span class="mode-caption" aria-hidden="true">View</span><div class="mode-switch" role="group" aria-label="Show careers as">
 <button type="button" data-mode="timeline" aria-pressed="true">Timeline</button>
 <button type="button" data-mode="statistics" aria-pressed="false">Statistics</button>
-</div>
+</div></div>
 <div class="filters">
 <label class="f-search">Find a wrestler<input type="search" data-control="search" placeholder="Name, e.g. Randy Orton" autocomplete="off" spellcheck="false"></label>
+<label>Promotion<select data-control="promotion"><option value="all">All promotions</option></select></label>
+<label>Division<select data-control="division">
+<option value="all">All divisions</option>
+<option value="men">Men</option>
+<option value="women">Women</option>
+</select></label>
 <label data-for="timeline">Moments<select data-control="kind">
 <option value="all">All moments</option>
 <option value="match">Matches</option>
@@ -52,6 +61,22 @@ export function createCareersView(ctx: AppContext): AppView {
   const { model } = ctx;
   const el = section('careers', TOOLS);
   const control = <T extends HTMLElement>(name: string) => el.querySelector<T>(`[data-control="${name}"]`)!;
+  // Promotions with televised moments or championships in the archive.
+  const promotionSelect = control<HTMLSelectElement>('promotion');
+  const present = new Set([...model.shows.filter((s) => s.moments.length).map((s) => s.promotion), ...model.titles.map((t) => t.promotion)]);
+  const promotionIds = [...model.promotions.keys()]
+    .filter((id) => present.has(id))
+    .sort((a, b) => {
+      const ai = PROMOTION_ORDER.indexOf(a);
+      const bi = PROMOTION_ORDER.indexOf(b);
+      return (ai < 0 ? 99 : ai) - (bi < 0 ? 99 : bi) || model.promotions.get(a)!.name.localeCompare(model.promotions.get(b)!.name);
+    });
+  promotionSelect.insertAdjacentHTML('beforeend', promotionIds.map((id) => `<option value="${id}">${model.promotions.get(id)!.name}</option>`).join(''));
+  const divisionSelect = control<HTMLSelectElement>('division');
+  const filters = () => ({
+    promotion: promotionSelect.value === 'all' ? undefined : promotionSelect.value,
+    division: divisionSelect.value === 'all' ? undefined : divisionSelect.value,
+  });
   const timelineRoot = el.querySelector<HTMLElement>('[data-root="careers"]')!;
   const statsRoot = el.querySelector<HTMLElement>('[data-root="statistics"]')!;
   let mode: Mode = 'timeline';
@@ -80,7 +105,7 @@ export function createCareersView(ctx: AppContext): AppView {
   const careers = createCareers({
     model,
     root: timelineRoot,
-    controls: { search: control('search'), kind: control('kind'), from: control('from'), to: control('to'), month: control('month') },
+    controls: { search: control('search'), kind: control('kind'), from: control('from'), to: control('to'), month: control('month'), promotion: promotionSelect, division: divisionSelect },
     stickyHeight: ctx.stickyHeight,
     storylinesFor: async (kind, key) => {
       const ix = await stories();
@@ -98,8 +123,8 @@ export function createCareersView(ctx: AppContext): AppView {
   const statistics = createStatistics({
     model,
     root: statsRoot,
-    controls: { search: control('search'), records: control('records'), minimum: control('minimum'), format: control('format') },
-    openPerson: (id) => ctx.go(`/wrestlers/${id}/`),
+    controls: { search: control('search'), records: control('records'), minimum: control('minimum'), format: control('format'), promotion: promotionSelect, division: divisionSelect },
+    openPerson: (id) => ctx.go(`/wrestlers/${id}/${query(filters())}`),
   });
   let statsTimer = 0;
   control<HTMLInputElement>('search').addEventListener('input', () => {
@@ -107,6 +132,14 @@ export function createCareersView(ctx: AppContext): AppView {
     clearTimeout(statsTimer);
     statsTimer = window.setTimeout(() => statistics.render(), 120);
   });
+  // The timeline follows the filters itself; Statistics redraws, and the address keeps them.
+  for (const select of [promotionSelect, divisionSelect])
+    select.addEventListener('change', () => {
+      if (mode === 'statistics') {
+        statistics.render();
+        ctx.changed();
+      }
+    });
 
   function setMode(next: Mode) {
     mode = next;
@@ -137,16 +170,19 @@ export function createCareersView(ctx: AppContext): AppView {
       quiet = true;
       try {
         const next: Mode = p.mode === 'statistics' ? 'statistics' : 'timeline';
+        promotionSelect.value = p.promotion && promotionIds.includes(p.promotion) ? p.promotion : 'all';
+        divisionSelect.value = p.division === 'men' || p.division === 'women' ? p.division : 'all';
         if (next !== mode) setMode(next);
-        if (next === 'timeline') careers.apply({ person: p.person, moment: p.moment, year: p.year, from: p.from, to: p.to });
+        else if (next === 'statistics') statistics.render();
+        if (next === 'timeline') careers.apply({ person: p.person, moment: p.moment, year: p.year, from: p.from, to: p.to, promotion: filters().promotion, division: filters().division });
       } finally {
         quiet = false;
       }
     },
     address: () => {
-      if (mode === 'statistics') return '/?view=statistics';
+      if (mode === 'statistics') return `/${query({ view: 'statistics', ...filters() })}`;
       const s = careers.getState();
-      return `${s.person ? `/wrestlers/${s.person}/` : '/'}${query({ moment: s.moment, year: s.year, from: s.from, to: s.to })}`;
+      return `${s.person ? `/wrestlers/${s.person}/` : '/'}${query({ moment: s.moment, year: s.year, from: s.from, to: s.to, promotion: s.promotion, division: s.division })}`;
     },
     subject: () => (mode === 'statistics' ? 'Career statistics' : careers.subject()),
   };

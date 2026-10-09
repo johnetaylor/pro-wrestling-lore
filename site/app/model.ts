@@ -17,15 +17,17 @@ export interface CoreBundle {
   asOf: string; // the archive's "today"
   first: string; // earliest date anything is drawn
   promotions: [id: string, name: string, fullName: string][];
-  /** flags: 1 = on the curated roster, 2 = has a full career profile (curated content) */
-  people: [id: string, name: string, aliases: string, flags: number, brands: string][];
+  /** flags: 1 = on the curated roster, 2 = has a full career profile (curated content), 4 = woman,
+   * 8 = man; promotion is the index of the promotion most of their records are in, or -1 */
+  people: [id: string, name: string, aliases: string, flags: number, brands: string, promotion: number][];
   /** shows series: id, promotion, name, kind (weekly, ple, special, event, arena), first year, color, note, source */
   series: [id: string, promotion: number, name: string, kind: string, start: number, color: string, note: string, source: string][];
   /** flags: 1 = pay-per-view or special, 2 = dated by taping; series is an index into series, or -1 */
   shows: [id: string, label: string, date: string, promotion: number, flags: number, series: number, name: string][];
   /** competitors and involved are people indexes; outcomes line up with competitors */
   moments: [show: number, key: string, kind: KindCode, title: string, competitors: number[], involved: number[], outcomes: string][];
-  titles: [id: string, name: string, short: string][];
+  /** promotion is an index into promotions, or -1 for a title of a promotion we don't track */
+  titles: [id: string, name: string, short: string, promotion: number][];
   /** end '' = current; starts holds per-member start dates when members joined late; name is the
    * title's name in the reign's era ('' when it is the current name), e.g. WWF Championship */
   reigns: [title: number, id: string, people: number[], start: string, end: string, holder: string, starts: Record<number, string> | 0, name: string][];
@@ -53,6 +55,14 @@ export type DetailBundle = Record<string, DetailRow>;
 /** Per-year show details: taping date, coverage note, where to watch, notes, sources, and whether the card is numbered. */
 export type ShowDetailRow = [recorded: string, coverage: string, watch: string, watchLabel: string, notes: string[], sources: string[], numbered: 0 | 1];
 export type ShowDetailBundle = Record<string, ShowDetailRow>;
+
+/** Every match with a PWL rating, highest first: the moment, its score (0 to 100), how many
+ * providers counted, and each provider's published value. */
+export interface RatingsBundle {
+  v: 1;
+  method: string;
+  rated: [moment: string, score: number, eligible: number, sources: [provider: string, value: number, unit: string, votes: number][]][];
+}
 
 export interface LineageNode {
   id: string;
@@ -232,6 +242,10 @@ export interface Person {
   aliases: string[];
   roster: boolean;
   curated: boolean;
+  /** 'f' or 'm' when recorded, else ''. */
+  gender: '' | 'f' | 'm';
+  /** The promotion most of their records are in, or ''. */
+  promotion: string;
   brands: string[];
   search: string; // normalized name and aliases
   sort: string;
@@ -297,6 +311,8 @@ export interface TitleRef {
   id: string;
   name: string;
   short: string;
+  /** The title's promotion, or '' for one we don't track. */
+  promotion: string;
 }
 
 export interface Period {
@@ -355,6 +371,26 @@ export function normalize(text: string): string {
     .trim();
 }
 
+/** Up to two letters for a name where there is no photo: the first and last words' initials, after
+ * nicknames in quotes or brackets, a leading article and a generational suffix are set aside
+ * ("Hangman" Adam Page is AP, The Undertaker U, Rey Mysterio Jr. RM). A one-word name in capitals
+ * keeps up to three (MJF, ODB). */
+export function initials(name: string): string {
+  const words = name
+    .replace(/["“”][^"“”]*["“”]|\([^)]*\)|\[[^\]]*\]/g, ' ')
+    .split(/\s+/)
+    .map((w) => w.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, ''))
+    .filter(Boolean);
+  while (words.length > 1 && /^(the|el|la|los|las|le|les|der|die|mr|dr|lord|sir)$/i.test(words[0])) words.shift();
+  while (words.length > 1 && /^(jr|sr|ii|iii|iv|v)$/i.test(words.at(-1)!)) words.pop();
+  if (!words.length) return '?';
+  if (words.length === 1) {
+    const w = words[0];
+    return /^[\p{Lu}\p{N}]{2,3}$/u.test(w) ? w : w.charAt(0).toUpperCase();
+  }
+  return (words[0].charAt(0) + words.at(-1)!.charAt(0)).toUpperCase();
+}
+
 /** "The Rock" sorts under R; accents are ignored. */
 export function sortKey(name: string): string {
   return normalize(name).replace(/^(the|el|la) /, '');
@@ -362,11 +398,23 @@ export function sortKey(name: string): string {
 
 export function decode(b: CoreBundle): Model {
   const promotions = new Map(b.promotions.map(([id, name, fullName]) => [id, { id, name, fullName }]));
-  const people: Person[] = b.people.map(([id, name, aliases, flags, brands], i) => {
-    const list = aliases ? aliases.split('|') : [];
-    return { i, id, name, aliases: list, roster: !!(flags & 1), curated: !!(flags & 2), brands: brands ? brands.split('|') : [], search: normalize([name, ...list].join(' ')), sort: sortKey(name) };
-  });
   const promoIds = b.promotions.map((p) => p[0]);
+  const people: Person[] = b.people.map(([id, name, aliases, flags, brands, promotion], i) => {
+    const list = aliases ? aliases.split('|') : [];
+    return {
+      i,
+      id,
+      name,
+      aliases: list,
+      roster: !!(flags & 1),
+      curated: !!(flags & 2),
+      gender: flags & 4 ? 'f' : flags & 8 ? 'm' : '',
+      promotion: promoIds[promotion] ?? '',
+      brands: brands ? brands.split('|') : [],
+      search: normalize([name, ...list].join(' ')),
+      sort: sortKey(name),
+    };
+  });
   const series: SeriesRef[] = b.series.map(([id, promotion, name, kind, start, color, note, source], i) => ({ i, id, promotion: promoIds[promotion], name, kind, start, color, note, source }));
   const shows: ShowRef[] = b.shows.map(([id, label, date, promotion, flags, s, name], i) => ({
     i,
@@ -397,7 +445,7 @@ export function decode(b: CoreBundle): Model {
     return m;
   });
   for (const list of byPerson) list.sort((a, b) => a.day - b.day || a.i - b.i);
-  const titles: TitleRef[] = b.titles.map(([id, name, short], i) => ({ i, id, name, short }));
+  const titles: TitleRef[] = b.titles.map(([id, name, short, promotion], i) => ({ i, id, name, short, promotion: promoIds[promotion] ?? '' }));
   const reignsByPerson: Reign[][] = people.map(() => []);
   const reigns: Reign[] = b.reigns.map(([t, id, ps, start, end, holder, starts, name]) => {
     const title = titles[t];

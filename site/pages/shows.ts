@@ -1,10 +1,10 @@
 // Show indexes: all promotions, one promotion, one series, one series year.
-import type { Series, Show } from '../../scripts/lib/types.ts';
+import type { Segment, Series, Show } from '../../scripts/lib/types.ts';
 import { escapeHtml, html, raw, type Raw } from '../lib/html.ts';
-import { formatDate, num, plural, yearSpan } from '../lib/format.ts';
+import { formatDate, num, plural, ratingView, yearSpan } from '../lib/format.ts';
 import type { SiteData } from '../lib/load.ts';
-import { promotionUrl, seriesUrl, showUrl } from '../lib/urls.ts';
-import { breadcrumbs, promotionNameAt, promoColor } from '../components/bits.ts';
+import { promotionUrl, segmentUrl, seriesUrl, showUrl } from '../lib/urls.ts';
+import { breadcrumbs, displayTitle, promotionNameAt, promoColor, showLabel } from '../components/bits.ts';
 import { archiveChart } from '../components/timelines.ts';
 import type { PageMeta } from '../components/layout.ts';
 
@@ -175,12 +175,73 @@ ${byKind.map(([k, l]) => html`<section class="section" aria-labelledby="k-${k}">
   };
 }
 
+/** Every match with a PWL rating, highest first; newest first among equals. */
+export function ratedMatches(site: SiteData): { show: Show; seg: Segment; score: number; eligible: number }[] {
+  const out: { show: Show; seg: Segment; score: number; eligible: number }[] = [];
+  for (const show of site.shows.values())
+    for (const seg of show.segments) {
+      const view = seg.rating ? ratingView(seg, site.ratings) : null;
+      if (view?.score != null) out.push({ show, seg, score: view.score, eligible: view.eligible });
+    }
+  return out.sort((a, b) => b.score - a.score || b.show.date.localeCompare(a.show.date));
+}
+
+export const TOP_RATED_URL = '/shows/top-rated/';
+
+/** Each wrestler's rated matches, highest first, worked out once per build. */
+const ratedIndex = new WeakMap<SiteData, Map<string, ReturnType<typeof ratedMatches>>>();
+export function ratedFor(site: SiteData, personId: string): ReturnType<typeof ratedMatches> {
+  let index = ratedIndex.get(site);
+  if (!index) {
+    index = new Map();
+    for (const r of ratedMatches(site))
+      for (const p of r.seg.participants) if (p.role === 'competitor') (index.get(p.person) ?? index.set(p.person, []).get(p.person)!).push(r);
+    ratedIndex.set(site, index);
+  }
+  return index.get(personId) ?? [];
+}
+
+export function topRatedPage(site: SiteData): { meta: PageMeta; body: Raw } {
+  const list = ratedMatches(site);
+  const promos = [...new Set(list.map((r) => r.show.promotion))].map((p) => site.promotions.get(p)?.name ?? p);
+  const years = list.map((r) => r.show.date).sort();
+  let rank = 0;
+  const rows = list.map((r, i) => {
+    if (!i || list[i - 1].score !== r.score) rank = i + 1;
+    return html`<tr><td class="num">${rank}</td><td class="num"><strong class="pwl-figure">${r.score}</strong></td><td><a href="${segmentUrl(`${r.show.id}#${r.seg.key}`)}">${displayTitle(r.seg, site.people)}</a></td><td><a href="${showUrl(r.show)}">${showLabel(r.show, site)}</a></td><td class="date"><time datetime="${r.show.date}">${formatDate(r.show.date, { short: true })}</time></td></tr>`;
+  });
+  const body = html`<header class="page-head">
+${breadcrumbs([{ name: 'Shows', url: '/shows/' }, { name: 'Top-rated matches' }])}
+<h1>Top-rated matches</h1>
+<p class="lede">${plural(list.length, 'match', 'matches')} in the archive ${list.length === 1 ? 'has' : 'have'} a PWL rating${promos.length ? `, all from ${promos.join(' and ')}` : ''}${years.length ? `, ${yearSpan(years[0], years.at(-1))}` : ''}. Highest first.</p>
+<p>A PWL rating is the mean of at least two published ratings, from CAGEMATCH's audience and from critics, on a 0 to 100 scale. <a href="/about/#ratings-h">How the PWL rating works</a>.</p>
+</header>
+${list.length ? html`<div class="table-wrap"><table class="data"><caption class="visually-hidden">Matches with a PWL rating, highest first</caption>
+<thead><tr><th scope="col" class="num">Rank</th><th scope="col" class="num">PWL</th><th scope="col">Match</th><th scope="col">Show</th><th scope="col">Date</th></tr></thead>
+<tbody>${rows}</tbody></table></div>` : html`<p>No match has enough published ratings for a PWL rating yet.</p>`}`;
+  return {
+    meta: {
+      title: 'Top-rated matches by PWL rating',
+      description: `The ${plural(list.length, 'televised match', 'televised matches')} with a PWL rating, highest first: the mean of CAGEMATCH and critics' ratings on a 0 to 100 scale.`,
+      path: TOP_RATED_URL,
+      nav: 'shows',
+      breadcrumbs: [
+        { name: 'Shows', url: '/shows/' },
+        { name: 'Top-rated matches', url: TOP_RATED_URL },
+      ],
+    },
+    body,
+  };
+}
+
 export function showsIndex(site: SiteData): { meta: PageMeta; body: Raw } {
   const promos = LANE_ORDER.filter((p) => site.promotions.has(p));
+  const rated = ratedMatches(site).length;
   const body = html`<header class="page-head">
 ${breadcrumbs([{ name: 'Shows' }])}
 <h1>Shows</h1>
 <p class="lede">${plural(site.shows.size, 'televised show')} with ${num(site.segmentCount)} matches and segments, by promotion.</p>
+${rated ? html`<p><a href="${TOP_RATED_URL}">Top-rated matches</a>: the ${plural(rated, 'match', 'matches')} with a PWL rating, highest first.</p>` : ''}
 </header>
 ${archiveChart(site)}
 <div class="columns columns--wide">${promos.map((p) => {

@@ -5,9 +5,10 @@ import { html, type Raw } from '../lib/html.ts';
 import { daysBetween, formatDate, num, outcomeClass, outcomeLabel, plural, ratingView, sentenceList, year, yearSpan } from '../lib/format.ts';
 import type { Appearance, SiteData } from '../lib/load.ts';
 import { personUrl, segmentUrl, showUrl, storylineUrl, familyUrl, titleUrl } from '../lib/urls.ts';
-import { breadcrumbs, dateCell, linkNames, nameLink, promoColor, segmentMeta, showLabel, sourcesList, titleNameAt } from '../components/bits.ts';
-import { careerStrip, promotionBands } from '../components/careerStrip.ts';
+import { avatar, breadcrumbs, dateCell, displayTitle, linkNames, nameLink, promoColor, segmentMeta, showLabel, sourcesList, titleNameAt } from '../components/bits.ts';
+import { careerStrip, mainPromotion, promotionBands } from '../components/careerStrip.ts';
 import type { PageMeta } from '../components/layout.ts';
+import { ratedFor, TOP_RATED_URL } from './shows.ts';
 
 export interface PersonStats {
   matches: Appearance[];
@@ -187,6 +188,21 @@ function signatureSection(person: Person, site: SiteData): Raw | '' {
 </section>`;
 }
 
+/** Their matches with a PWL rating, highest first. */
+function ratedSection(person: Person, site: SiteData): Raw | '' {
+  const list = ratedFor(site, person.id);
+  if (!list.length) return '';
+  const shown = list.slice(0, 10);
+  return html`<section class="section" id="rated" aria-labelledby="rated-h">
+<h2 id="rated-h">Top-rated matches</h2>
+<p class="section-note">${list.length > shown.length ? `The ${shown.length} highest of ${plural(list.length, 'match', 'matches')}` : plural(list.length, 'match', 'matches')} with a PWL rating, the mean of published ratings on a 0 to 100 scale. <a href="${TOP_RATED_URL}">All top-rated matches</a></p>
+<div class="table-wrap"><table class="data">
+<thead><tr><th scope="col" class="num">PWL</th><th scope="col">Match</th><th scope="col">Show</th><th scope="col">Date</th></tr></thead>
+<tbody>${shown.map((r) => html`<tr><td class="num"><strong class="pwl-figure">${r.score}</strong></td><td><a href="${segmentUrl(`${r.show.id}#${r.seg.key}`)}">${displayTitle(r.seg, site.people)}</a></td><td><a href="${showUrl(r.show)}">${showLabel(r.show, site)}</a></td><td class="date"><time datetime="${r.show.date}">${formatDate(r.show.date, { short: true })}</time></td></tr>`)}</tbody>
+</table></div>
+</section>`;
+}
+
 function relationshipsSection(person: Person, site: SiteData): Raw | '' {
   const rel = person.curated?.relationships;
   if (!rel) return '';
@@ -233,6 +249,7 @@ export function personPage(person: Person, site: SiteData, buildDate: string): {
   const sections: [string, string, Raw | ''][] = [
     ['career', 'Career', profileSection(person, site)],
     ['signature', 'Signature matches', signatureSection(person, site)],
+    ['rated', 'Top-rated matches', ratedSection(person, site)],
     ['promotions', 'Promotions', promotionsSection(person, site, stats, buildDate)],
     ['championships', 'Championships', championshipsSection(person, site, buildDate)],
     [
@@ -258,8 +275,10 @@ export function personPage(person: Person, site: SiteData, buildDate: string): {
   const body = html`<article class="person">
 <header class="page-head">
 ${breadcrumbs([{ name: 'Wrestlers', url: '/wrestlers/' }, { name: person.name }])}
+<div class="person-title">${avatar(person.name, mainPromotion(site, person.id), 'large')}<div>
 <h1>${person.name}</h1>
 ${names.length ? html`<p class="aka">Also billed as ${sentenceList(names)}.</p>` : ''}
+</div></div>
 ${lede ? html`<p class="lede">${lede}</p>` : ''}
 <p class="facts">${facts}</p>
 </header>

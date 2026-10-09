@@ -8,6 +8,10 @@
 .js .app-fallback {
   display: none;
 }
+/* Without scripts the static page is the page: no loading message above it. */
+html:not(.js):not(.app-failed) .app {
+  display: none;
+}
 .app {
   --label-w: 220px;
   --tools-h: 0px;
@@ -43,6 +47,18 @@
 }
 .app-tools[hidden] {
   display: none;
+}
+/* Tools whose controls all carry a caption line up by their tops, so a second row of filters
+   doesn't pull the view switch down with it. */
+.app-tools--labeled {
+  align-items: flex-start;
+}
+.mode-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.8rem;
+  color: var(--text-2);
 }
 /* The tools stay in view only where they fit on one row and leave room for the lanes. */
 @media (min-width: 1180px) and (min-height: 720px) {
@@ -101,7 +117,7 @@
   display: none;
 }
 .filters .f-search {
-  flex: 1 1 220px;
+  flex: 1 1 180px;
 }
 .filters input,
 .filters select,
@@ -117,7 +133,7 @@
   border-radius: var(--r2);
 }
 .filters input[type='date'] {
-  width: 152px;
+  width: 140px;
   color-scheme: dark;
 }
 .filters input:focus,
@@ -459,6 +475,18 @@
 .lane.focused::before {
   background: var(--lit-label);
 }
+.profile-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--s4);
+  margin-top: var(--s2);
+}
+.profile-heading > div {
+  min-width: 0;
+}
+.profile-heading h2 {
+  margin-top: 0 !important;
+}
 .lane-label {
   position: absolute;
   left: 0;
@@ -468,8 +496,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: var(--s2);
-  padding: 0 12px 0 16px;
+  gap: 10px;
+  padding: 0 12px 0 14px;
   font: inherit;
   color: var(--text);
   text-align: left;
@@ -478,10 +506,21 @@
   cursor: pointer;
 }
 .person-name {
+  flex: 1 1 auto;
+  min-width: 0;
   font-size: 0.9rem;
   font-weight: 500;
   line-height: 1.25;
   overflow-wrap: anywhere;
+}
+.lane.compact .person-name {
+  font-size: 0.85rem;
+  color: var(--text-2);
+}
+.lane.compact .avatar {
+  width: 26px;
+  height: 30px;
+  font-size: 0.72rem;
 }
 .lane-label:hover .person-name,
 .lane.related .person-name,
@@ -1336,6 +1375,9 @@
   color: var(--accent);
 }
 .stats-person {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   padding: 0;
   font: inherit;
   font-weight: 500;
@@ -1344,6 +1386,11 @@
   background: none;
   border: 0;
   cursor: pointer;
+}
+.stats-person .avatar {
+  width: 26px;
+  height: 30px;
+  font-size: 0.72rem;
 }
 .stats-person:hover {
   color: var(--accent);
@@ -2245,9 +2292,9 @@
   width: 156px;
   height: 80px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10px;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
   font: inherit;
   color: var(--text);
   text-align: left;
@@ -2255,6 +2302,16 @@
   border: 1px solid #416070;
   border-radius: 7px;
   cursor: pointer;
+}
+.family-node .avatar {
+  width: 26px;
+  height: 32px;
+  font-size: 0.72rem;
+}
+.family-node-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
 }
 .family-node strong {
   font-size: 0.85rem;
@@ -2574,6 +2631,14 @@
   .app {
     --label-w: 124px;
   }
+  .lane-label .avatar {
+    display: none;
+  }
+  .avatar--large {
+    width: 52px;
+    height: 62px;
+    font-size: 1.3rem;
+  }
   .show-grid-head,
   .show-year-row {
     grid-template-columns: 56px repeat(12, minmax(0, 1fr));
@@ -2629,6 +2694,7 @@
   .filters input[type='date'] {
     width: 100%;
   }
+  .mode-field,
   .mode-switch {
     flex: 1 1 100%;
   }
@@ -2676,5 +2742,168 @@
   .node::before,
   .node svg {
     transition: none;
+  }
+}
+
+/* A storyline's key people, with their initials, as v69 showed its cast. */
+.cast {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 6px;
+}
+.cast-person {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  padding: 4px 8px 4px 4px;
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--text);
+  text-align: left;
+  background: var(--card-bg);
+  border: 1px solid var(--card-line);
+  border-radius: var(--r2);
+  cursor: pointer;
+}
+.cast-person:hover {
+  border-color: var(--accent);
+}
+.cast-person .avatar {
+  width: 24px;
+  height: 28px;
+  font-size: 0.7rem;
+}
+.cast-person span:last-child {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  line-height: 1.2;
+}
+
+/* ---------- Top-rated matches (Shows) ---------- */
+.picker-rule {
+  align-self: stretch;
+  width: 1px;
+  margin: 4px 6px;
+  background: var(--rule-strong);
+}
+.series-tabs .top-button {
+  --c: var(--gold);
+}
+.top-wrap {
+  margin-top: var(--s3);
+}
+.top-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.top-table th {
+  padding: 10px 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-2);
+  text-align: left;
+  border-bottom: 1px solid var(--rule-strong);
+}
+.top-table td {
+  padding: 10px 12px;
+  vertical-align: top;
+  border-bottom: 1px solid var(--rule);
+}
+.top-table .rank {
+  width: 4em;
+  text-align: right;
+  color: var(--text-2);
+  font-variant-numeric: tabular-nums;
+}
+.top-table td.top-pwl {
+  width: 8.5em;
+  white-space: nowrap;
+}
+.top-table td.top-pwl strong {
+  display: inline-block;
+  width: 1.9em;
+  font: 700 1.25rem/1 var(--font-display);
+  color: var(--gold);
+  font-variant-numeric: tabular-nums;
+}
+.pwl-bar {
+  display: inline-block;
+  width: 4.5em;
+  height: 6px;
+  vertical-align: middle;
+  background: var(--ink-2);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.pwl-bar i {
+  display: block;
+  height: 100%;
+  background: color-mix(in srgb, var(--gold) 75%, transparent);
+}
+.top-table .text-button {
+  font-size: inherit;
+  text-align: left;
+}
+.top-match .text-button {
+  font-weight: 500;
+  color: var(--text);
+  text-decoration: none;
+}
+.top-match .text-button:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+.top-show .text-button {
+  color: var(--text-2);
+}
+.top-table td.top-show {
+  min-width: 13em;
+}
+.top-show small {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.8rem;
+  color: var(--text-3);
+}
+.top-sources {
+  max-width: 30ch;
+  font-size: 0.8rem;
+  color: var(--text-2);
+}
+@media (max-width: 760px) {
+  .picker-rule {
+    display: none;
+  }
+  .top-table thead {
+    display: none;
+  }
+  .top-table,
+  .top-table tbody,
+  .top-table tr,
+  .top-table td {
+    display: block;
+  }
+  .top-table tr {
+    position: relative;
+    padding: 10px 0 12px 3.2em;
+    border-bottom: 1px solid var(--rule);
+  }
+  .top-table td {
+    padding: 2px 0;
+    border: 0;
+  }
+  .top-table td.rank {
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 2.4em;
+  }
+  .top-table td.top-pwl {
+    width: auto;
+  }
+  .top-sources {
+    max-width: none;
   }
 }

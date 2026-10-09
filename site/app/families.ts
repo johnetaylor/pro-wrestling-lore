@@ -1,7 +1,8 @@
 // Dynasties: wrestling family trees, branch by branch, with each person's relationships and
 // sources, and a way into the careers of those who wrestled.
 import { announce, esc, plural, reducedMotion } from './dom.ts';
-import type { FamilyBundle } from './model.ts';
+import { initials, type FamilyBundle } from './model.ts';
+import { avatarHtml } from './panels.ts';
 import { fitDiagram, ZOOM } from './ui.ts';
 import { section, query, type AppContext, type AppView, type Params } from './views.ts';
 
@@ -130,7 +131,8 @@ ${branches
       .map((n) => {
         const p = career(n);
         const sameBranch = !!sel && (b.id ? sel.branch === b.id : true);
-        return `<button type="button" class="family-node${n === sel ? ' active' : ''}${sameBranch && n !== sel && !related.has(n.id) ? ' subdued' : ''}${p ? ' wrestled' : ''}" style="left:${n.layout!.x}px;top:${n.layout!.y}px" data-member="${esc(n.id)}" aria-pressed="${n === sel}"><strong>${esc(n.name)}</strong><small>${p ? 'Career on the timeline' : 'Family connections'}</small></button>`;
+        const tile = p ? avatarHtml(p) : `<span class="avatar" aria-hidden="true">${esc(initials(n.name))}</span>`;
+        return `<button type="button" class="family-node${n === sel ? ' active' : ''}${sameBranch && n !== sel && !related.has(n.id) ? ' subdued' : ''}${p ? ' wrestled' : ''}" style="left:${n.layout!.x}px;top:${n.layout!.y}px" data-member="${esc(n.id)}" aria-pressed="${n === sel}">${tile}<span class="family-node-text"><strong>${esc(n.name)}</strong><small>${p ? 'On the timeline' : 'Family connections'}</small></span></button>`;
       })
       .join('');
     const open = sel && (b.id ? sel.branch === b.id : true);

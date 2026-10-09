@@ -537,7 +537,7 @@ export function createStorylines(o: StorylinesOptions) {
     }
     const moment = t.closest<HTMLElement>('[data-open-moment]');
     if (moment) return o.openMoment(moment.dataset.openMoment!);
-    const chip = t.closest<HTMLElement>('.chip[data-person]');
+    const chip = t.closest<HTMLElement>('.chip[data-person], .cast-person[data-person]');
     if (chip) return o.openPerson(model.people[Number(chip.dataset.person)].id);
     if (t.closest('[data-recap]') && state.selected) {
       const s = state.selected.story;

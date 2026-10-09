@@ -2,15 +2,17 @@
 // through time, moments you can select to bring everyone in them together, and a career
 // explorer for any wrestler.
 import { announce, esc, fmtDate, fmtMonth, frameThrottle, num, plural, reducedMotion } from './dom.ts';
-import { loadDetails, loadProfile } from './data.ts';
-import { dayNum, isoDay, memberStart, normalize, type DetailRow, type Model, type Moment, type Period, type ProfileBundle, type Reign } from './model.ts';
+import { loadDetails, loadProfile, loadRatings } from './data.ts';
+import { dayNum, isoDay, memberStart, normalize, type DetailRow, type Model, type Moment, type Period, type Person, type ProfileBundle, type Reign } from './model.ts';
 import { createNavigator, type Navigator } from './navigator.ts';
-import { careerPanel, careerSpan, choicePanel, momentPanel, periodDialog, previewList, type CareerSpan } from './panels.ts';
+import { avatarHtml, careerPanel, careerSpan, choicePanel, momentPanel, periodDialog, previewList, type CareerSpan } from './panels.ts';
 import { BELT, STAR } from './ui.ts';
 
 export type KindFilter = 'all' | 'match' | 'title' | 'story' | 'promo' | 'appearance';
+export type DivisionFilter = 'all' | 'men' | 'women';
 
 const ROW = 92; // base lane height
+const COMPACT = 52; // a lane with title reigns and nothing else in the dates
 const RAIL = 62; // rail position inside a lane, below its reign tracks
 const REIGN_TRACK = 22;
 const BRACKET_TRACK = 32;
@@ -20,7 +22,7 @@ const CLUSTER_PX = 14; // marks closer than this merge into one, with a count
 export interface CareersOptions {
   model: Model;
   root: HTMLElement;
-  controls: { search: HTMLInputElement; kind: HTMLSelectElement; from: HTMLInputElement; to: HTMLInputElement; month: HTMLSelectElement };
+  controls: { search: HTMLInputElement; kind: HTMLSelectElement; from: HTMLInputElement; to: HTMLInputElement; month: HTMLSelectElement; promotion: HTMLSelectElement; division: HTMLSelectElement };
   /** Height of the sticky bar above the axis, so selections scroll into view below it. */
   stickyHeight(): number;
   storylinesFor(kind: 'moment' | 'person', key: string): Promise<{ id: string; title: string }[]>;
@@ -32,17 +34,22 @@ export interface CareersOptions {
   changed?(): void;
 }
 
-/** What the URL records: the focused wrestler, a selected moment, a career year and the dates. */
+/** What the URL records: the focused wrestler, a selected moment, a career year, the dates and
+ * the promotion and division filters. */
 export interface CareersState {
   person?: string;
   moment?: string;
   year?: string;
   from?: string;
   to?: string;
+  promotion?: string;
+  division?: string;
 }
 
 interface Row {
   p: number;
+  /** Title reigns and nothing else in the dates: a short lane with no rail. */
+  compact: boolean;
   moments: Moment[];
   reignTracks: number;
   brackets: { period: Period; track: number; left: number; width: number; line: number; span: number }[];
@@ -67,6 +74,8 @@ export function createCareers(o: CareersOptions) {
     from: dayNum(`${Number(model.asOf.slice(0, 4)) - 2}-01-01`),
     to: asOf,
     kind: 'all' as KindFilter,
+    promotion: 'all',
+    division: 'all' as DivisionFilter,
     search: '',
     selected: null as Moment | null,
     anchor: null as number | null,
@@ -111,6 +120,11 @@ export function createCareers(o: CareersOptions) {
     (state.kind === 'story' && m.kind >= 2) ||
     (state.kind === 'promo' && m.kind === 2) ||
     (state.kind === 'appearance' && m.kind === 3);
+  const promotionOk = (m: Moment) => state.promotion === 'all' || m.show.promotion === state.promotion;
+  const momentOk = (m: Moment) => kindOk(m) && promotionOk(m);
+  /** A person in the chosen division. Someone with no recorded gender is in neither. */
+  const divisionOk = (p: Person) => state.division === 'all' || p.gender === (state.division === 'women' ? 'f' : 'm');
+  const promotionName = () => (state.promotion === 'all' ? '' : model.promotions.get(state.promotion)?.name ?? state.promotion);
   const lowerBound = (list: Moment[], day: number) => {
     let lo = 0;
     let hi = list.length;
@@ -124,9 +138,10 @@ export function createCareers(o: CareersOptions) {
   const momentsInRange = (p: number) => {
     const list = model.byPerson[p];
     const slice = list.slice(lowerBound(list, state.from), lowerBound(list, state.to + 1));
-    return state.kind === 'all' ? slice : slice.filter(kindOk);
+    return state.kind === 'all' && state.promotion === 'all' ? slice : slice.filter(momentOk);
   };
-  const reignsInRange = (p: number) => model.reignsByPerson[p].filter((r) => dayNum(memberStart(r, p)) <= state.to && dayNum(r.end || model.asOf) >= state.from);
+  const reignsInRange = (p: number) =>
+    model.reignsByPerson[p].filter((r) => (state.promotion === 'all' || r.title.promotion === state.promotion) && dayNum(memberStart(r, p)) <= state.to && dayNum(r.end || model.asOf) >= state.from);
 
   let rows: Row[] = [];
   let panelAfter = -1; // index of the row the detail panel opens below
@@ -139,6 +154,7 @@ export function createCareers(o: CareersOptions) {
     const tracks: [number, number][][] = [];
     const out: Row['brackets'] = [];
     for (const period of periods) {
+      if (state.promotion !== 'all' && period.promotion !== state.promotion) continue;
       const s = dayNum(period.start);
       const e = dayNum(period.end || model.asOf);
       if (s > state.to || e < state.from) continue;
@@ -170,12 +186,21 @@ export function createCareers(o: CareersOptions) {
     const focusP = state.focus?.person;
     const list: Row[] = [];
     for (const person of model.people) {
+      // The people in a selected moment and the focused wrestler stay, whatever the filters.
+      const pinned = sel.includes(person.i) || focusP === person.i;
+      if (!pinned && !divisionOk(person)) continue;
       const moments = momentsInRange(person.i);
-      // Everyone with a moment or a reign in the dates, and the current roster as far back as
-      // their careers go, so a gap in the records shows as an empty lane rather than no lane.
-      const keep = search ? person.search.includes(search) : moments.length > 0 || (person.roster && careerStart[person.i] <= state.to) || reignsInRange(person.i).length > 0;
-      if (!keep && !sel.includes(person.i) && focusP !== person.i) continue;
       const reigns = reignsInRange(person.i);
+      // Everyone with a moment or a reign in the dates, and (across all promotions) the current
+      // roster as far back as their careers go, so a gap in the records shows as an empty lane
+      // rather than no lane.
+      const keep = search
+        ? person.search.includes(search)
+        : moments.length > 0 || reigns.length > 0 || (state.promotion === 'all' && person.roster && careerStart[person.i] <= state.to);
+      if (!keep && !pinned) continue;
+      // A champion the archive has no televised moments for in these dates gets a short lane:
+      // their reigns, without an empty rail.
+      const compact = !moments.length && reigns.length > 0 && !person.roster && !pinned;
       const ends: number[] = [];
       for (const r of reigns.sort((a, b) => memberStart(a, person.i).localeCompare(memberStart(b, person.i)))) {
         const start = dayNum(memberStart(r, person.i));
@@ -183,10 +208,10 @@ export function createCareers(o: CareersOptions) {
         if (t < 0) t = ends.length;
         ends[t] = dayNum(r.end || model.asOf);
       }
-      const { brackets, tracks } = bracketsFor(person.i);
+      const { brackets, tracks } = compact ? { brackets: [], tracks: 0 } : bracketsFor(person.i);
       const reignTracks = ends.length;
-      const height = ROW + Math.max(0, reignTracks - 1) * REIGN_TRACK + (tracks ? 26 + tracks * BRACKET_TRACK : 0);
-      list.push({ p: person.i, moments, reignTracks, brackets, bracketTracks: tracks, height, top: 0 });
+      const height = compact ? COMPACT + Math.max(0, reignTracks - 1) * REIGN_TRACK : ROW + Math.max(0, reignTracks - 1) * REIGN_TRACK + (tracks ? 26 + tracks * BRACKET_TRACK : 0);
+      list.push({ p: person.i, compact, moments, reignTracks, brackets, bracketTracks: tracks, height, top: 0 });
     }
     list.sort((a, b) => model.people[a.p].sort.localeCompare(model.people[b.p].sort));
     // A selected moment brings its participants together where its anchor sits alphabetically.
@@ -249,7 +274,7 @@ export function createCareers(o: CareersOptions) {
   }
 
   function nodesHtml(r: Row): string {
-    if (!r.moments.length) return `<span class="no-moments" style="left:${geometry.left}px;top:${railY(r) - 9}px">No indexed moments in these dates</span>`;
+    if (!r.moments.length) return `<span class="no-moments" style="left:${geometry.left}px;top:${railY(r) - 9}px">No indexed ${state.promotion === 'all' ? '' : `${esc(promotionName())} `}moments in these dates</span>`;
     const clusters: { x: number; ms: Moment[] }[] = [];
     for (const m of r.moments) {
       const x = xPos(m.day);
@@ -332,12 +357,15 @@ export function createCareers(o: CareersOptions) {
   function laneClass(r: Row): string {
     const sel = participants();
     const muted = (sel.length && !sel.includes(r.p)) || (state.focus && state.focus.person !== r.p) || (state.choice && state.choice.person !== r.p);
-    return ['lane', muted ? 'muted' : '', sel.includes(r.p) ? 'related' : '', state.focus?.person === r.p || state.choice?.person === r.p ? 'focused' : ''].filter(Boolean).join(' ');
+    return ['lane', r.compact ? 'compact' : '', muted ? 'muted' : '', sel.includes(r.p) ? 'related' : '', state.focus?.person === r.p || state.choice?.person === r.p ? 'focused' : ''].filter(Boolean).join(' ');
   }
 
   function laneHtml(r: Row): string {
     const person = model.people[r.p];
-    return `<button type="button" class="lane-label" style="height:${Math.min(r.height, railY(r) + 30)}px" data-person="${r.p}" aria-label="${esc(`${person.name}, ${plural(r.moments.length, 'moment')}. Open the career`)}" aria-pressed="${state.focus?.person === r.p}"><span class="person-name">${esc(person.name)}</span><span class="tally">${num(r.moments.length)}</span></button>
+    const what = r.compact ? plural(reignsInRange(r.p).length, 'title reign') : plural(r.moments.length, 'moment');
+    const label = `<button type="button" class="lane-label" style="height:${r.compact ? r.height : Math.min(r.height, railY(r) + 30)}px" data-person="${r.p}" aria-label="${esc(`${person.name}, ${what}. Open the career`)}" aria-pressed="${state.focus?.person === r.p}">${avatarHtml(person)}<span class="person-name">${esc(person.name)}</span>${r.compact ? '' : `<span class="tally">${num(r.moments.length)}</span>`}</button>`;
+    if (r.compact) return `${label}${reignsHtml(r)}`;
+    return `${label}
 <div class="rail" style="top:${railY(r)}px"></div>${spanHtml(r)}${reignsHtml(r)}${nodesHtml(r)}${bracketsHtml(r)}`;
   }
 
@@ -458,6 +486,22 @@ export function createCareers(o: CareersOptions) {
     return out.sort((a, b) => Math.abs(a.day - m.day) - Math.abs(b.day - m.day)).slice(0, 3);
   }
 
+  // Each wrestler's PWL-rated matches, highest first, from the ratings file when first needed.
+  let ratedIndex: Promise<Map<number, { m: Moment; score: number }[]>> | null = null;
+  const ratedFor = async (p: number) => {
+    ratedIndex ??= loadRatings()
+      .then((b) => {
+        const out = new Map<number, { m: Moment; score: number }[]>();
+        for (const [id, score] of b.rated) {
+          const m = model.momentById.get(id);
+          if (m) for (const x of m.people) (out.get(x) ?? out.set(x, []).get(x)!).push({ m, score });
+        }
+        return out;
+      })
+      .catch(() => new Map());
+    return (await ratedIndex).get(p) ?? [];
+  };
+
   let panelToken = 0;
   async function renderPanel() {
     const token = ++panelToken;
@@ -487,11 +531,11 @@ export function createCareers(o: CareersOptions) {
     }
     const f = state.focus!;
     const id = model.people[f.person].id;
-    fill(careerPanel(model, f.person, state.profile?.id === id ? state.profile : null, { rival: state.rival?.name ?? null, momentsInRange: momentsInRange(f.person), storylines: [] }));
-    const [prof, stories] = await Promise.all([loadProfile(id).catch(() => null), relatedStorylines()]);
+    fill(careerPanel(model, f.person, state.profile?.id === id ? state.profile : null, { rival: state.rival?.name ?? null, momentsInRange: momentsInRange(f.person), storylines: [], topRated: [] }));
+    const [prof, stories, rated] = await Promise.all([loadProfile(id).catch(() => null), relatedStorylines(), ratedFor(f.person)]);
     if (token !== panelToken) return;
     state.profile = prof;
-    fill(careerPanel(model, f.person, prof, { rival: state.rival?.name ?? null, momentsInRange: momentsInRange(f.person), storylines: stories }));
+    fill(careerPanel(model, f.person, prof, { rival: state.rival?.name ?? null, momentsInRange: momentsInRange(f.person), storylines: stories, topRated: rated.slice(0, 5) }));
   }
 
   /** Positions the panel under its row and opens a gap in the lanes for it. */
@@ -537,9 +581,11 @@ export function createCareers(o: CareersOptions) {
             : 'Debut not yet verified, so the span starts at the first indexed record.';
     } else {
       title.textContent = state.choice ? model.people[state.choice.person].name : 'Every career on one timeline';
+      const who = state.division === 'women' ? 'Women' : state.division === 'men' ? 'Men' : 'Everyone';
+      const where = state.promotion === 'all' ? '' : ` in ${promotionName()}`;
       sub.textContent = state.search
-        ? `Wrestlers matching “${state.search}”.`
-        : 'Everyone with a televised moment in the selected dates, A to Z. Select a name to open a career, or a mark to open the moment.';
+        ? `${state.division === 'all' ? 'Wrestlers' : who} matching “${state.search}”.${where ? ` Marks and reigns${where} only.` : ''}`
+        : `${who} with a televised moment or a title reign${where} in the selected dates, A to Z. Select a name to open a career, or a mark to open the moment.`;
     }
     q('.restore').hidden = !(state.selected || state.focus || state.choice);
     const yearLabel = q('.career-year');
@@ -568,6 +614,8 @@ export function createCareers(o: CareersOptions) {
       state.from === archiveFirst && state.to === asOf ? 'all' : from.endsWith('-01') && (isoDay(state.to) === monthEnd || (state.to === asOf && monthEnd > model.asOf)) ? from.slice(0, 7) : 'custom';
     if (!controls.month.value) controls.month.value = 'custom';
     controls.kind.value = state.kind;
+    controls.promotion.value = state.promotion;
+    controls.division.value = state.division;
   }
 
   // ---------- Navigator ----------
@@ -588,8 +636,9 @@ export function createCareers(o: CareersOptions) {
       const bins = new Array(240).fill(0);
       const people = state.focus ? [state.focus.person] : null;
       const list = people ? model.byPerson[people[0]] : model.moments;
+      const inDivision = (m: Moment) => people || state.division === 'all' || m.people.some((p) => divisionOk(model.people[p])) || m.involved.some((p) => divisionOk(model.people[p]));
       for (const m of list) {
-        if (m.day < first || m.day > last || !kindOk(m)) continue;
+        if (m.day < first || m.day > last || !momentOk(m) || !inDivision(m)) continue;
         bins[Math.min(239, Math.floor(((m.day - first) / Math.max(1, last - first)) * 240))]++;
       }
       return bins;
@@ -673,6 +722,7 @@ export function createCareers(o: CareersOptions) {
       state.to = Math.min(asOf, state.from + span);
     }
     if (state.kind !== 'all' && !kindOk(m)) state.kind = 'all';
+    if (!promotionOk(m)) state.promotion = 'all';
     refresh();
     scrollToRow(sel.map((p) => rows.find((r) => r.p === p)).filter((r): r is Row => !!r).sort((a, b) => a.top - b.top)[0]?.p);
     announce(`${m.title}. ${m.show.label}, ${fmtDate(m.date, true)}.`);
@@ -915,6 +965,8 @@ export function createCareers(o: CareersOptions) {
       controls.search.value = '';
       state.search = '';
       state.kind = 'all';
+      state.promotion = 'all';
+      state.division = 'all';
       refresh();
     }
   });
@@ -970,6 +1022,16 @@ export function createCareers(o: CareersOptions) {
   });
   controls.kind.addEventListener('change', () => {
     state.kind = controls.kind.value as KindFilter;
+    refresh();
+  });
+  controls.promotion.addEventListener('change', () => {
+    state.promotion = controls.promotion.value;
+    state.choice = null;
+    refresh();
+  });
+  controls.division.addEventListener('change', () => {
+    state.division = controls.division.value as DivisionFilter;
+    state.choice = null;
     refresh();
   });
   const fromInputs = () => {
@@ -1033,6 +1095,8 @@ export function createCareers(o: CareersOptions) {
       out.from = isoDay(state.from);
       out.to = isoDay(state.to);
     }
+    if (state.promotion !== 'all') out.promotion = state.promotion;
+    if (state.division !== 'all') out.division = state.division;
     return out;
   }
 
@@ -1045,6 +1109,8 @@ export function createCareers(o: CareersOptions) {
     state.previous = null;
     state.from = defaultFrom;
     state.to = defaultTo;
+    state.promotion = s.promotion && model.promotions.has(s.promotion) ? s.promotion : 'all';
+    state.division = s.division === 'men' || s.division === 'women' ? s.division : 'all';
     const person = s.person ? model.byId.get(s.person) : undefined;
     if (person) {
       const span = careerSpan(model, person.i);
@@ -1061,6 +1127,7 @@ export function createCareers(o: CareersOptions) {
     }
     const m = s.moment ? model.momentById.get(s.moment) : undefined;
     if (m) {
+      if (!promotionOk(m)) state.promotion = 'all';
       const sel = [...new Set([...m.people, ...m.involved])];
       state.anchor = person && sel.includes(person.i) ? person.i : sel[0];
       state.focus = null;

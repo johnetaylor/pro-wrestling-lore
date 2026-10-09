@@ -89,6 +89,9 @@ export function coveragePage(site: SiteData, buildDate: string): { meta: PageMet
 
   // People.
   const people = [...site.people.values()];
+  const confirmed = people.filter((p) => p.gender && (p.genderBasis === 'division' || p.genderBasis === 'reviewed' || p.genderBasis === 'source')).length;
+  const unconfirmed = people.filter((p) => p.gender && p.genderBasis === 'legacy-placeholder').length;
+  const ungendered = people.filter((p) => !p.gender).length;
   const withTotals = people.filter((p) => p.externalTotals).length;
   const profiled = people.filter((p) => p.curated).sort((a, b) => a.name.localeCompare(b.name));
   const ringNameOwners = new Map<string, Set<string>>();
@@ -170,6 +173,7 @@ ${breadcrumbs([{ name: 'Coverage and sources' }])}
 <h2 id="people-h">Wrestlers</h2>
 <p>${plural(people.length, 'person', 'people')}, one record each. A ring name belongs to the person who used it, for the dates they used it${shared ? `; a character played by more than one person, such as ${shared}, is a ring name rather than a person` : ''}.</p>
 <p>${plural(withTotals, 'wrestler')} also show career totals from CAGEMATCH. Those totals cover a whole career, untelevised matches included, and are never mixed with this archive's counts.</p>
+<p>The division filter in Careers uses each person's recorded gender. ${num(confirmed)} are confirmed by the division of a title they held or by review; ${num(unconfirmed)} still carry the original site's unconfirmed value${ungendered ? `, and ${plural(ungendered, 'person has', 'people have')} none, so they appear only under all divisions` : ''}.</p>
 ${profiled.length ? html`<p>Full career profiles, with trainers, signature moves, rivals and promotion runs, exist for ${raw(sentenceList(profiled.map((p) => html`<a href="${personUrl(p.id)}">${p.name}</a>`.value)))} so far.</p>` : ''}
 </section>
 <section class="section" aria-labelledby="titles-h">
@@ -192,7 +196,7 @@ ${profiled.length ? html`<p>Full career profiles, with trainers, signature moves
 </section>
 <section class="section" aria-labelledby="ratings-h">
 <h2 id="ratings-h">Match ratings</h2>
-<p>${plural(rated, 'match has', 'matches have')} a published rating, and ${num(scored)} of them have enough for a PWL rating.</p>
+<p>${plural(rated, 'match has', 'matches have')} a published rating, and ${num(scored)} of them have enough for a PWL rating.${scored ? html` The <a href="/shows/top-rated/">top-rated matches</a> list them, highest first.` : ''}</p>
 <h3>How the PWL rating works</h3>
 <p>${method}</p>
 <ul class="rules">${providers.map(providerLine)}</ul>

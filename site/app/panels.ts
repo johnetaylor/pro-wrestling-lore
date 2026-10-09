@@ -1,7 +1,7 @@
 // Markup for the explorer's panels and popovers. Pure string builders over the model, so the
 // same functions can render on the server later.
 import { esc, fmtDate, num, plural } from './dom.ts';
-import { DAY, dayNum, memberStart, type DetailRow, type Model, type Moment, type Period, type ProfileBundle, type Reign, type StorylineBundle } from './model.ts';
+import { DAY, dayNum, initials, memberStart, type DetailRow, type Model, type Moment, type Period, type Person, type ProfileBundle, type Reign, type StorylineBundle } from './model.ts';
 
 export type Story = StorylineBundle['storylines'][number];
 export type Chapter = Story['chapters'][number];
@@ -14,7 +14,7 @@ export const personUrl = (id: string) => `/wrestlers/${id}/`;
 
 // ---------- Ratings (PWL v1, as data/ratings.json describes it) ----------
 
-const PROVIDER: Record<string, string> = { cagematch: 'CAGEMATCH', observer: 'Wrestling Observer', '411mania': '411Mania' };
+export const PROVIDER: Record<string, string> = { cagematch: 'CAGEMATCH', observer: 'Wrestling Observer', '411mania': '411Mania' };
 
 export function ratingScore(rows: DetailRow[5]): number | null {
   const eligible = new Map<string, number>();
@@ -26,7 +26,7 @@ export function ratingScore(rows: DetailRow[5]): number | null {
   return v.length >= 2 ? Math.round(v.reduce((a, b) => a + b, 0) / v.length) : null;
 }
 
-const ratingText = (value: number, unit: string) => (unit === 'stars' ? `${value} ${value === 1 ? 'star' : 'stars'}` : `${value.toFixed(2)} out of 10`);
+export const ratingText = (value: number, unit: string) => (unit === 'stars' ? `${value} ${value === 1 ? 'star' : 'stars'}` : `${value.toFixed(2)} out of 10`);
 
 export function ratingMini(detail: DetailRow | undefined): string {
   if (!detail?.[5].length) return '';
@@ -64,6 +64,10 @@ export function matchTypeLine(kind: number, matchType: string, duration: string)
   const label = kind === 1 && !/title|championship/i.test(stipulation) ? 'Title match' : kind === 2 ? 'Promo' : kind === 3 ? 'Appearance' : '';
   return [label, stipulation, duration].filter(Boolean).join(', ');
 }
+
+/** Initials where a photo will go, tinted by the promotion most of the person's records are in. */
+export const avatarHtml = (person: Person, size: 'small' | 'large' = 'small') =>
+  `<span class="avatar${size === 'large' ? ' avatar--large' : ''}" style="--c:var(--p-${person.promotion || 'other'}, var(--p-other))" aria-hidden="true">${esc(initials(person.name))}</span>`;
 
 export const chips = (model: Model, ids: number[]) => ids.map((i) => `<button type="button" class="chip" data-person="${i}">${esc(model.people[i].name)}</button>`).join('');
 
@@ -148,13 +152,14 @@ export function careerSpan(model: Model, person: number): CareerSpan {
   };
 }
 
-export function indexedRecord(model: Model, person: number): { matches: number; wins: number; losses: number; draws: number } {
+/** A wrestler's record in the archive's televised matches, in one promotion when one is given. */
+export function indexedRecord(model: Model, person: number, promotion?: string): { matches: number; wins: number; losses: number; draws: number } {
   let matches = 0;
   let wins = 0;
   let losses = 0;
   let draws = 0;
   for (const m of model.byPerson[person]) {
-    if (m.kind > 1) continue;
+    if (m.kind > 1 || (promotion && m.show.promotion !== promotion)) continue;
     const at = m.people.indexOf(person);
     if (at < 0) continue;
     const o = m.outcomes[at];
@@ -180,7 +185,12 @@ function statTable(title: string, s: { matches?: number; wins?: number; losses?:
 
 export const periodDates = (p: Period, asOf: string) => (p.start === p.end ? fmtDate(p.start) : `${fmtDate(p.start)} to ${p.end ? fmtDate(p.end) : `present (through ${fmtDate(asOf)})`}`);
 
-export function careerPanel(model: Model, person: number, prof: ProfileBundle | null, opts: { rival: string | null; momentsInRange: Moment[]; storylines: { id: string; title: string }[] }): string {
+export function careerPanel(
+  model: Model,
+  person: number,
+  prof: ProfileBundle | null,
+  opts: { rival: string | null; momentsInRange: Moment[]; storylines: { id: string; title: string }[]; topRated: { m: Moment; score: number }[] },
+): string {
   const p = model.people[person];
   const span = careerSpan(model, person);
   const reigns = model.reignsByPerson[person];
@@ -204,9 +214,11 @@ export function careerPanel(model: Model, person: number, prof: ProfileBundle | 
   const recent = [...opts.momentsInRange].sort((a, b) => b.day - a.day);
   return `<div class="panel-top"><span class="panel-kind">Career explorer</span>${close('Close the career explorer')}</div>
 ${opts.rival ? `<section class="rival-focus"><strong>Against ${esc(opts.rival)}</strong><p>Matches against this opponent stay bright; the rest of the career is faded.</p><button type="button" class="text-button" data-clear-rival>Show every match again</button></section>` : ''}
+<div class="profile-heading">${avatarHtml(p, 'large')}<div>
 <h2><a href="${personUrl(p.id)}">${esc(p.name)}</a></h2>
 ${other.length ? `<p class="aka">Also billed as ${esc(other.map((r) => r.name).join(', '))}</p>` : ''}
 <p class="panel-span">${esc(span.startLabel)}. ${esc(span.endLabel)}.</p>
+</div></div>
 ${prof?.intro ? `<p class="context">${esc(prof.intro)}</p>` : ''}
 ${prof?.inBrief ? `<h3>Career in brief</h3>${prof.inBrief.split('\n\n').map((x) => `<p class="context">${esc(x)}</p>`).join('')}` : ''}
 ${promos.length ? `<h3>Promotions</h3><div class="chips">${promos.map((n) => (periods.length ? `<button type="button" class="chip" data-period-name="${esc(n)}" data-person="${person}">${esc(n)}</button>` : `<span class="chip static">${esc(n)}</span>`)).join('')}</div>${periods.length ? '<p class="hint">Select a promotion for its dates and sources.</p>' : '<p class="hint">Promotions with televised matches in this archive.</p>'}` : ''}
@@ -234,6 +246,9 @@ ${prof?.signatureMatches?.length ? `<h3>Signature matches</h3><div class="event-
           return m ? `<button type="button" class="event-card signature" data-moment="${m.i}" data-anchor="${person}"><span>${esc(fmtDate(s.date))}, ${esc(s.show.replace(/ · /g, ', '))}</span><strong>${esc(s.title)}</strong><em>${esc(s.why)}</em></button>` : '';
         })
         .join('')}</div>` : ''}
+${opts.topRated.length ? `<h3>Highest-rated matches</h3><div class="event-list">${opts.topRated
+        .map(({ m, score }) => `<button type="button" class="event-card" data-moment="${m.i}" data-anchor="${person}"><span>${esc(fmtDate(m.date))}, ${esc(m.show.label)}</span><strong>${esc(m.title)}</strong><span class="rating-mini"><b>PWL ${score}</b></span></button>`)
+        .join('')}</div><p class="hint">By PWL rating, the mean of published ratings on a 0 to 100 scale. <a href="/shows/top-rated/">All top-rated matches</a></p>` : ''}
 <h3>On the timeline</h3>
 <p class="hint">${recent.length ? `${plural(recent.length, 'moment')} in the selected dates. ${recent.length > 60 ? 'The latest 60 are listed; every one is on the timeline.' : ''}` : 'Nothing indexed in the selected dates. Gaps are missing records, not time away.'}</p>
 <div class="event-list">${recent.slice(0, 60).map((m) => eventCard(m)).join('')}</div>
@@ -265,7 +280,11 @@ export const CHAPTER_KIND: Record<string, string> = { title: 'Title match', matc
 export const storyDates = (s: Story, asOf: string) => `${fmtDate(s.start, true)} to ${s.end ? fmtDate(s.end, true) : `the present, through ${fmtDate(asOf, true)}`}`;
 
 export function recapPanel(model: Model, promo: StoryPromotion, s: Story): string {
-  const cast = s.people.length ? `<div class="chips">${chips(model, s.people)}</div>` : s.cast.length ? `<p>${esc(s.cast.join(', '))}</p>` : '';
+  const cast = s.people.length
+    ? `<div class="cast">${s.people.map((i) => `<button type="button" class="cast-person" data-person="${i}">${avatarHtml(model.people[i])}<span>${esc(model.people[i].name)}</span></button>`).join('')}</div>`
+    : s.cast.length
+      ? `<p>${esc(s.cast.join(', '))}</p>`
+      : '';
   return `<div class="panel-top"><span class="panel-kind">Storyline recap</span>${close('Close the storyline recap')}</div>
 <p class="panel-date">${esc(promo.name)}, ${esc(storyDates(s, model.asOf))}</p>
 <h2>${esc(s.title)}</h2>

@@ -17,11 +17,12 @@ const SITE = 'Pro Wrestling Lore';
 
 /** The app's addresses: which view each path opens, and with what. */
 const ROUTES: [ViewName, RegExp, (m: RegExpExecArray, q: (k: string) => string | undefined) => Params][] = [
-  ['careers', /^\/$/, (_, q) => ({ mode: q('view'), moment: q('moment'), from: q('from'), to: q('to') })],
-  ['careers', /^\/wrestlers\/([a-z0-9-]+)\/$/, (m, q) => ({ person: m[1], moment: q('moment'), year: q('year'), from: q('from'), to: q('to') })],
+  ['careers', /^\/$/, (_, q) => ({ mode: q('view'), moment: q('moment'), from: q('from'), to: q('to'), promotion: q('promotion'), division: q('division') })],
+  ['careers', /^\/wrestlers\/([a-z0-9-]+)\/$/, (m, q) => ({ person: m[1], moment: q('moment'), year: q('year'), from: q('from'), to: q('to'), promotion: q('promotion'), division: q('division') })],
   ['storylines', /^\/storylines\/$/, (_, q) => ({ promotion: q('promotion'), period: q('period') })],
   ['storylines', /^\/storylines\/([a-z0-9-]+)\/$/, (m, q) => ({ story: m[1], chapter: q('chapter') })],
   ['shows', /^\/shows\/$/, () => ({})],
+  ['shows', /^\/shows\/top-rated\/$/, (_, q) => ({ top: '1', promotion: q('promotion'), year: q('year'), kind: q('kind') })],
   ['shows', /^\/shows\/([a-z0-9-]+)\/$/, (m) => ({ promotion: m[1] })],
   ['shows', /^\/shows\/([a-z0-9-]+\/[a-z0-9-]+)\/$/, (m, q) => ({ series: m[1], year: q('year') })],
   ['shows', /^\/shows\/([a-z0-9-]+\/[a-z0-9-]+)\/(\d{4})\/$/, (m) => ({ series: m[1], year: m[2] })],
@@ -51,8 +52,9 @@ if (root) {
       status.hidden = false;
       status.textContent = 'The explorer didn’t load. Check your connection, then reload the page.';
     }
-    // Show the static version of the page instead.
+    // Show the static version of the page instead, under the message.
     document.documentElement.classList.remove('js');
+    document.documentElement.classList.add('app-failed');
   });
 }
 

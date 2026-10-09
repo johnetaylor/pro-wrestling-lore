@@ -521,3 +521,27 @@ table.data tbody tr:hover td {
     text-align: left;
   }
 }
+
+/* Initials where a photo will go: v69 drew a portrait in the same places. The tint is the
+   promotion most of the person's records are in. */
+.avatar {
+  --c: var(--p-other);
+  flex: 0 0 auto;
+  display: inline-grid;
+  place-items: center;
+  width: 30px;
+  height: 36px;
+  border-radius: var(--r2);
+  background: color-mix(in srgb, var(--c) 15%, var(--ink-1));
+  border: 1px solid color-mix(in srgb, var(--c) 40%, transparent);
+  color: color-mix(in srgb, var(--c) 70%, var(--text));
+  font: 600 0.8rem/1 var(--font-display);
+  letter-spacing: 0.04em;
+  user-select: none;
+}
+.avatar--large {
+  width: 64px;
+  height: 76px;
+  font-size: 1.6rem;
+  border-radius: 8px;
+}

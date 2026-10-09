@@ -4,12 +4,12 @@ import { join } from 'node:path';
 import type { Show, Storyline } from '../scripts/lib/types.ts';
 import { nameKey, sha256 } from '../scripts/lib/util.ts';
 import type { SiteData } from './lib/load.ts';
-import { isPle } from './lib/format.ts';
+import { isPle, ratingView } from './lib/format.ts';
 import { displayTitle, showLabel, titleNameAt, titlePromotion } from './components/bits.ts';
 import { coverageNote, runningOrder } from './pages/show.ts';
-import { promotionIdFor } from './components/careerStrip.ts';
+import { mainPromotion, promotionIdFor } from './components/careerStrip.ts';
 import { isBoilerplate } from './pages/person.ts';
-import type { CoreBundle, DetailBundle, KindCode, ProfileBundle, ReignFacts, ShowDetailBundle, StorylineBundle, TitleBundle } from './app/model.ts';
+import type { CoreBundle, DetailBundle, KindCode, ProfileBundle, RatingsBundle, ReignFacts, ShowDetailBundle, StorylineBundle, TitleBundle } from './app/model.ts';
 
 const OUTCOME: Record<string, string> = { win: 'w', loss: 'l', dq: 'q', countout: 'c', no_contest: 'n', 'no-contest': 'n', draw: 'd' };
 
@@ -88,6 +88,17 @@ export function writeAppData(site: SiteData, outDir: string, asOf: string): { di
     }
   }
 
+  // Matches with a PWL rating, highest first; newest first among equals.
+  const rated: RatingsBundle['rated'] = [];
+  for (const show of [...shows].reverse())
+    for (const seg of show.segments) {
+      const view = seg.rating ? ratingView(seg, site.ratings) : null;
+      if (view?.score == null) continue;
+      rated.push([`${show.id}#${seg.key}`, view.score, view.eligible, seg.rating!.sources.map((r) => [r.provider, r.value, r.unit, r.votes ?? 0])]);
+    }
+  rated.sort((a, b) => b[1] - a[1]);
+  const ratings: RatingsBundle = { v: 1, method: String(site.ratings.methodVersion ?? 'PWL'), rated };
+
   const firstDates = [shows[0]?.date ?? asOf, ...titles.flatMap((t) => t.reigns.map((r) => r.start))];
   for (const p of people) for (const per of p.curated?.promotionPeriods ?? []) if (per.start) firstDates.push(per.start);
   const first = firstDates.sort()[0];
@@ -100,9 +111,10 @@ export function writeAppData(site: SiteData, outDir: string, asOf: string): { di
     people: people.map((p) => {
       const aliases = p.ringNames.map((r) => r.name).filter((n) => n !== p.name);
       // The roster is v69's: champions added from title histories show only where their reigns are.
-      const flags = (p.legacyIds.length && !p.legacyFlags?.archiveOnly ? 1 : 0) | (p.curated ? 2 : 0);
+      const flags = (p.legacyIds.length && !p.legacyFlags?.archiveOnly ? 1 : 0) | (p.curated ? 2 : 0) | (p.gender === 'female' ? 4 : p.gender === 'male' ? 8 : 0);
       const brands = p.rosters?.find((r) => r.asOf === 'archive')?.brands ?? [];
-      return [p.id, p.name, aliases.join('|'), flags, brands.join('|')];
+      const main = mainPromotion(site, p.id);
+      return [p.id, p.name, aliases.join('|'), flags, brands.join('|'), main ? promoIndex.get(main) ?? -1 : -1];
     }),
     series: seriesList.map((x) => [x.id, promoIndex.get(x.promotion) ?? 0, x.name, x.kind, x.start ?? 0, x.color ?? '', x.note ?? '', x.sources?.[0] ?? '']),
     shows: shows.map((s) => {
@@ -110,7 +122,10 @@ export function writeAppData(site: SiteData, outDir: string, asOf: string): { di
       return [s.id, showLabel(s, site), s.date, promoIndex.get(s.promotion) ?? 0, (isPle(s, kind) ? 1 : 0) | (s.dateBasis === 'recorded' ? 2 : 0), seriesIndex.get(s.series) ?? -1, s.name];
     }),
     moments,
-    titles: titles.map((t) => [t.id, t.name, t.short ?? t.name.replace(/ Championship.*$/, '')]),
+    titles: titles.map((t) => {
+      const promotion = titlePromotion(t);
+      return [t.id, t.name, t.short ?? t.name.replace(/ Championship.*$/, ''), promotion ? promoIndex.get(promotion) ?? -1 : -1];
+    }),
     reigns: titles.flatMap((t) =>
       t.reigns.map((r) => {
         const starts: Record<number, string> = {};
@@ -233,6 +248,7 @@ export function writeAppData(site: SiteData, outDir: string, asOf: string): { di
     ['storylines.json', JSON.stringify(storylines)],
     ['profiles.json', JSON.stringify(profiles)],
     ['titles.json', JSON.stringify(titleBundle)],
+    ['ratings.json', JSON.stringify(ratings)],
     ['families.json', JSON.stringify({ v: 1, families: [...site.families.values()].sort((a, b) => a.name.localeCompare(b.name)) })],
     ['calendar.json', JSON.stringify({ v: 1, ...site.calendar })],
     ...[...details].map(([year, rows]) => [`details/${year}.json`, JSON.stringify(rows)] as [string, string]),

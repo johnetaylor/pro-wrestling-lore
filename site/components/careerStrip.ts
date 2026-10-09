@@ -6,7 +6,7 @@ import { escapeHtml, html, raw, type Raw } from '../lib/html.ts';
 import { formatDate, isPle } from '../lib/format.ts';
 import type { Appearance, SiteData } from '../lib/load.ts';
 import { titleUrl } from '../lib/urls.ts';
-import { promotionNameAt, showLabel, titleNameAt } from './bits.ts';
+import { promotionNameAt, showLabel, titleNameAt, titlePromotion } from './bits.ts';
 
 const W = 1200;
 const LEFT = 84;
@@ -33,6 +33,21 @@ export function promotionIdFor(name: string, promotions: Map<string, Promotion>)
     if (parts.some((x) => names.includes(x))) return p.id;
   }
   return undefined;
+}
+
+/** The promotion most of a person's records are in: televised moments first, then title reigns,
+ * then curated promotion runs. Undefined when none says. */
+export function mainPromotion(site: SiteData, id: string): string | undefined {
+  const count = new Map<string, number>();
+  const add = (promotion: string | undefined) => {
+    if (promotion && site.promotions.has(promotion)) count.set(promotion, (count.get(promotion) ?? 0) + 1);
+  };
+  for (const a of site.appearances.get(id) ?? []) add(a.show.promotion);
+  if (!count.size) for (const { title } of site.reignsByPerson.get(id) ?? []) add(titlePromotion(title));
+  if (!count.size) for (const per of site.people.get(id)?.curated?.promotionPeriods ?? []) add(promotionIdFor(per.name, site.promotions));
+  let best: string | undefined;
+  for (const [promotion, n] of count) if (!best || n > count.get(best)!) best = promotion;
+  return best;
 }
 
 /** Runs in each promotion: curated periods when we have them, otherwise derived from appearances. */

@@ -42,19 +42,19 @@ SITE_URL=https://example.org npm run build -- --production   # canonical URLs, s
 
 The site is the explorer, in six sections:
 
-- **Careers:** every wrestler's career on one timeline, with a scrub bar to zoom and move through time, plus a sortable Statistics table.
+- **Careers:** every wrestler's career on one timeline, with a scrub bar to zoom and move through time, plus a sortable Statistics table. Both filter by promotion and division.
 - **Storylines:** each promotion's storylines on the same kind of timeline.
-- **Shows:** each series as a grid of years and months, with every card.
+- **Shows:** each series as a grid of years and months, with every card, and each promotion's top-rated matches by PWL rating.
 - **Championships:** every title's history, traced from its first champion for the promotions covered: how it connects to the titles it absorbed, replaced or became, the names it carried, every champion in a table, and its reigns on a timeline.
 - **Calendar:** the year week by week.
 - **Dynasties:** wrestling family trees.
 
 It runs in the browser from compact data bundles the build writes to `dist/data/<version>/`: `core.json` for the timelines, then match and show details by year, profiles, storylines, championships, families and the calendar, each loaded when first needed. The code is in `site/app/`, one module per view; `site/bundle.ts` joins it into one script.
 
-Every address is also a static page. `/wrestlers/hulk-hogan/` opens the timeline focused on Hogan, `/shows/wwe/wrestlemania/1987-03-29/` opens that card, `/titles/wwe-championship/` that title's history. Each page carries the full static record too, for readers without scripts and for search engines. Explorer states have addresses (`?year=1998`, `?moment=…`, `?reign=r12`), so the back button and shared links work. Search runs in the browser from a small index built with the site.
+Every address is also a static page. `/wrestlers/hulk-hogan/` opens the timeline focused on Hogan, `/shows/wwe/wrestlemania/1987-03-29/` opens that card, `/titles/wwe-championship/` that title's history. Each page carries the full static record too, for readers without scripts and for search engines. Explorer states have addresses (`?year=1998`, `?moment=…`, `?reign=r12`, `?promotion=wcw&division=women`), so the back button and shared links work. Search runs in the browser from a small index built with the site.
 
 `/about/` is Coverage and sources, v69's scope panel as a page: what counts, shows by promotion, how complete the cards are, how the PWL rating works and the most-cited sources. Its figures are counted from `data/` at build time, so they can't go stale.
 
-The design keeps the v69 navy and cyan and the wordmark, sets everything in Barlow (Barlow Condensed for names and headings), and uses color only for meaning: gold for championships and pay-per-views, violet for promos and appearances, and one color per promotion. Fonts are self-hosted, so pages make no third-party requests.
+The design keeps the v69 navy and cyan and the wordmark, sets everything in Barlow (Barlow Condensed for names and headings), and uses color only for meaning: gold for championships, pay-per-views and ratings, violet for promos and appearances, and one color per promotion. Where v69 showed a portrait, a wrestler gets their initials, tinted by the promotion most of their records are in, until a free-licensed photo exists. Fonts are self-hosted, so pages make no third-party requests.
 
 Raw sources, staging data and the legacy export live in a private research repository, along with the importer that reads championship histories into `data/titles/`.
