@@ -99,7 +99,7 @@ export function createShowsView(ctx: AppContext): AppView {
     const button = (s: SeriesRef) =>
       `<button type="button" data-series="${esc(s.id)}" aria-pressed="${s === current}" style="--c:${s.color || 'var(--accent)'}">${esc(s.name)}</button>`;
     const top = ratedIn(state.promotion).length
-      ? `<span class="picker-rule" aria-hidden="true"></span><button type="button" class="top-button" data-top aria-pressed="${state.top}">Top-rated matches</button>`
+      ? `<span class="picker-rule" aria-hidden="true"></span><button type="button" class="top-button" data-top-rated aria-pressed="${state.top}">Top-rated matches</button>`
       : '';
     return `<nav class="series-picker" aria-label="Shows and events"><p class="picker-label">Shows and events</p><div class="series-tabs">${primary.map(button).join('')}${top}</div>${
       more.length ? `<details class="series-more"${current && more.includes(current) ? ' open' : ''}><summary>More shows and events (${more.length})</summary><div class="series-tabs">${more.map(button).join('')}</div></details>` : ''
@@ -324,7 +324,7 @@ ${gridHtml(s, shows, years)}`;
       ctx.changed();
       return;
     }
-    if (t.closest('[data-top]')) {
+    if (t.closest('[data-top-rated]')) {
       if (state.top) return;
       state.top = true;
       state.show = null;
