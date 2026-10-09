@@ -243,14 +243,6 @@ ${prof?.sources.length ? `<h3>Sources</h3>${sourceLinks(prof.sources)}` : ''}`;
 
 // ---------- Dialogs ----------
 
-export function reignDialog(r: Reign, person: number | null, asOf: string): string {
-  const start = person === null ? r.start : memberStart(r, person);
-  const days = Math.round((Date.parse(r.end || asOf) - Date.parse(start)) / DAY);
-  return `<p class="panel-kind">Title reign</p><h2 id="dialog-title">${esc(r.name)}</h2><p>${esc(r.holder)}</p>
-<dl class="dl-facts"><dt>Won</dt><dd>${esc(fmtDate(start, true))}</dd><dt>${r.end ? 'Lost' : 'Through'}</dt><dd>${esc(fmtDate(r.end || asOf, true))}${r.end ? '' : ', still champion'}</dd><dt>Length</dt><dd>${days < 1 ? 'Under a day' : plural(days, 'day')}</dd></dl>
-<p><a href="/titles/${esc(r.title.id)}/?reign=${esc(r.id)}">Every ${esc(r.title.name)} reign</a></p>`;
-}
-
 export function periodDialog(model: Model, list: Period[]): string {
   const person = model.people[list[0].person];
   return `<p class="panel-kind">Promotion run, ${esc(person.name)}</p><h2 id="dialog-title">${esc(list.length === 1 ? list[0].fullName : list[0].name)}</h2>${list

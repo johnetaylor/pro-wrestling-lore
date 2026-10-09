@@ -89,6 +89,7 @@ export function createCareersView(ctx: AppContext): AppView {
       return p ? ix.byPerson.get(p.i) ?? [] : [];
     },
     openStoryline: (id) => ctx.go(`/storylines/${id}/`),
+    openReign: (title, reign) => ctx.go(`/titles/${title}/${query({ reign })}`),
     dialog: ctx.dialog,
     changed: () => {
       if (!quiet) ctx.changed();

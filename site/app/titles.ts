@@ -324,6 +324,20 @@ ${state.mode === 'history' && vid ? treeHtml(vid) : reignsHtml(t)}`;
     }
   }
 
+  /** The dates a reign is shown in when it is opened from elsewhere: the reign with room either
+   * side, so the champions before and after it are in view. */
+  function reignWindow(r: Reign): [number, number] {
+    const [lo, hi] = titleDomain();
+    const start = dayNum(r.start);
+    const end = reignEnd(r);
+    const pad = Math.min(730, Math.max(182, Math.round((end - start) * 0.5)));
+    let a = start - pad;
+    let b = end + pad;
+    if (b > hi) [a, b] = [Math.max(lo, a - (b - hi)), hi];
+    if (a < lo) [a, b] = [lo, Math.min(hi, b + (lo - a))];
+    return [a, b];
+  }
+
   function setTitle(t: TitleRef | null, mode?: Mode) {
     state.title = t;
     state.reign = null;
@@ -423,11 +437,10 @@ ${state.mode === 'history' && vid ? treeHtml(vid) : reignsHtml(t)}`;
       const t = p.title ? titleById.get(p.title) ?? null : null;
       setTitle(t, p.mode === 'reigns' || p.reign ? 'reigns' : p.mode === 'history' ? 'history' : undefined);
       if (t && p.reign) state.reign = reignsOf.get(t)?.find((r) => r.id === p.reign) ?? null;
-      if (t && p.from && p.to) {
-        const a = dayNum(p.from);
-        const b = dayNum(p.to);
-        if (Number.isFinite(a) && Number.isFinite(b) && a < b) [state.from, state.to] = [a, b];
-      }
+      const a = p.from ? dayNum(p.from) : NaN;
+      const b = p.to ? dayNum(p.to) : NaN;
+      if (t && Number.isFinite(a) && Number.isFinite(b) && a < b) [state.from, state.to] = [a, b];
+      else if (state.reign) [state.from, state.to] = reignWindow(state.reign);
       render();
       if (state.reign) scrollTo('.reign-row.active');
     },

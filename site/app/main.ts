@@ -94,10 +94,7 @@ async function boot(root: HTMLElement) {
     changed: () => {
       if (!applying) writeUrl();
     },
-    go: (address) => {
-      if (dialog.open) dialog.close();
-      void open(new URL(address, location.origin), true);
-    },
+    go: (address) => void open(new URL(address, location.origin), true),
   };
   const measureTools = frameThrottle(() => root.style.setProperty('--tools-h', `${ctx.stickyHeight()}px`));
   window.addEventListener('resize', measureTools);
@@ -183,6 +180,8 @@ async function boot(root: HTMLElement) {
   async function open(url: URL, push: boolean): Promise<boolean> {
     const r = parse(url);
     if (!r) return false;
+    // A link inside a dialog leads somewhere else: the dialog closes with the move.
+    if (dialog.open) dialog.close();
     if (push && routing) {
       const address = url.pathname + url.search;
       if (address !== current) history.pushState(null, '', address);

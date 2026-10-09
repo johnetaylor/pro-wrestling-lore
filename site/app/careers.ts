@@ -5,7 +5,7 @@ import { announce, esc, fmtDate, fmtMonth, frameThrottle, num, plural, reducedMo
 import { loadDetails, loadProfile } from './data.ts';
 import { dayNum, isoDay, memberStart, normalize, type DetailRow, type Model, type Moment, type Period, type ProfileBundle, type Reign } from './model.ts';
 import { createNavigator, type Navigator } from './navigator.ts';
-import { careerPanel, careerSpan, choicePanel, momentPanel, periodDialog, previewList, reignDialog, type CareerSpan } from './panels.ts';
+import { careerPanel, careerSpan, choicePanel, momentPanel, periodDialog, previewList, type CareerSpan } from './panels.ts';
 import { BELT, STAR } from './ui.ts';
 
 export type KindFilter = 'all' | 'match' | 'title' | 'story' | 'promo' | 'appearance';
@@ -25,6 +25,8 @@ export interface CareersOptions {
   stickyHeight(): number;
   storylinesFor(kind: 'moment' | 'person', key: string): Promise<{ id: string; title: string }[]>;
   openStoryline(id: string): void;
+  /** Opens a title reign in Championships. */
+  openReign(title: string, reign: string): void;
   dialog(html: string): void;
   /** Called after each settled change, so the page can keep its URL in step. */
   changed?(): void;
@@ -299,7 +301,7 @@ export function createCareers(o: CareersOptions) {
         const right = xPos(Math.min(end, state.to));
         const span = Math.max(3, right - left);
         const label = `${reign.name}: ${fmtDate(memberStart(reign, r.p))} to ${reign.end ? fmtDate(reign.end) : 'present'}`;
-        return `<button type="button" class="reign${reign.end ? '' : ' ongoing'}${start < state.from ? ' clipped' : ''}" style="left:${left.toFixed(1)}px;width:${Math.max(span, 26).toFixed(1)}px;top:${6 + t * REIGN_TRACK}px;--span:${span.toFixed(1)}px" data-reign="${esc(reign.title.id)}#${esc(reign.id)}" data-p="${r.p}" aria-label="${esc(label)}. Open the reign">${BELT}<span>${esc(reignLabel(reign, span))}</span></button>`;
+        return `<button type="button" class="reign${reign.end ? '' : ' ongoing'}${start < state.from ? ' clipped' : ''}" style="left:${left.toFixed(1)}px;width:${Math.max(span, 26).toFixed(1)}px;top:${6 + t * REIGN_TRACK}px;--span:${span.toFixed(1)}px" data-reign="${esc(reign.title.id)}#${esc(reign.id)}" data-p="${r.p}" aria-label="${esc(label)}. Open it in Championships">${BELT}<span>${esc(reignLabel(reign, span))}</span></button>`;
       })
       .join('');
   }
@@ -868,12 +870,12 @@ export function createCareers(o: CareersOptions) {
     }
     const label = t.closest<HTMLElement>('.lane-label');
     if (label) return focusPerson(Number(label.dataset.person));
+    // A reign, on a lane or in the career panel, opens in Championships at the time it was held.
     const reign = t.closest<HTMLElement>('[data-reign]');
     if (reign) {
+      hidePreview();
       const [titleId, reignId] = reign.dataset.reign!.split('#');
-      const r = model.reigns.find((x) => x.title.id === titleId && x.id === reignId);
-      const holder = reign.dataset.p ?? reign.dataset.person;
-      if (r) o.dialog(reignDialog(r as Reign, holder ? Number(holder) : null, model.asOf));
+      if (titleId && reignId) o.openReign(titleId, reignId);
       return;
     }
     const bracket = t.closest<HTMLElement>('.bracket');
