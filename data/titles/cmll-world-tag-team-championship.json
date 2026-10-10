@@ -1,102 +1,699 @@
 {
   "id": "cmll-world-tag-team-championship",
   "name": "CMLL World Tag Team Championship",
-  "names": [
-    "CMLL World Tag Team Championship"
+  "promotion": "cmll",
+  "division": "men",
+  "format": "tag",
+  "established": "1993-03-03",
+  "names": [],
+  "eras": [
+    {
+      "name": "CMLL World Tag Team Championship",
+      "from": "1993-03-03"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "1993-03",
+      "kind": "replaces",
+      "text": "Created to replace the Mexican National Tag Team Championship after its champions left CMLL for AAA.",
+      "related": [
+        "Mexican National Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "1994-11",
+      "kind": "deactivated",
+      "text": "Vacated when El Canek left CMLL; a tournament later crowned new champions.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "1996-10-25",
+      "kind": "deactivated",
+      "text": "Los Headhunters were disqualified after the match and the title was declared vacant.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "1997-08",
+      "kind": "deactivated",
+      "text": "Vacated when Silver King left CMLL for WCW.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "1997-08-29",
+      "kind": "reactivated",
+      "text": "Dr. Wagner Jr. and Emilio Charles Jr. won a tournament to fill the vacancy.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "1998-10",
+      "kind": "deactivated",
+      "text": "Vacated when Mr. Niebla was injured.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "1998-11-13",
+      "kind": "reactivated",
+      "text": "Bestia Salvaje and Scorpio Jr. won a tournament to fill the vacancy.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "1999-02-05",
+      "kind": "interim",
+      "text": "Casas and Hijo del Santo won by disqualification, then vacated the title, which was held up until a rematch.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2000-06-16",
+      "kind": "deactivated",
+      "text": "Vacated after El Hijo del Santo stopped working for CMLL.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2000-08-04",
+      "kind": "reactivated",
+      "text": "Rey Bucanero and Último Guerrero were declared champions after a tournament.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2013-09-18",
+      "kind": "reactivated",
+      "text": "Vacated when Rey Bucanero was injured, and La Máscara and Rush were awarded the title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2018-02-07",
+      "kind": "deactivated",
+      "text": "Negro Casas and Shocker were stripped of the title for lack of championship defenses.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Tag_Team_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions",
+    "https://en.wikipedia.org/wiki/CMLL_World_Tag_Team_Championship"
+  ],
   "reigns": [
     {
-      "id": "r1",
-      "holder": "Negro Casas",
+      "id": "r11",
+      "holder": "El Canek & Dr. Wagner Jr.",
       "people": [
-        "negro-casas"
+        "el-canek",
+        "dr-wagner-jr"
+      ],
+      "start": "1993-03-03",
+      "end": "1994-11-02",
+      "number": 1,
+      "event": "CMLL on Televisa",
+      "location": "Mexico City, D.F.",
+      "note": "Won 16-team tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Los Cowboys",
+      "people": [
+        "silver-king",
+        "el-texano"
+      ],
+      "start": "1994-12-15",
+      "end": "1995-06-30",
+      "days": 197,
+      "number": 2,
+      "event": "Juicio Final",
+      "location": "Mexico City, D.F.",
+      "note": "Won 32-team tournament",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Los Headhunters",
+      "people": [
+        "headhunter-a",
+        "headhunter-b"
+      ],
+      "start": "1995-06-30",
+      "end": "1995-11-03",
+      "days": 126,
+      "number": 3,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Atlantis & Rayo de Jalisco Jr.",
+      "people": [
+        "atlantis",
+        "rayo-de-jalisco-jr"
+      ],
+      "start": "1995-11-03",
+      "end": "1996-08-06",
+      "days": 277,
+      "number": 4,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "La Nueva Ola Blanca",
+      "people": [
+        "gran-markus-jr",
+        "el-hijo-del-gladiador"
+      ],
+      "start": "1996-08-06",
+      "end": "1996-09-18",
+      "days": 43,
+      "number": 5,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Atlantis & Lizmark",
+      "people": [
+        "atlantis",
+        "lizmark"
+      ],
+      "start": "1996-09-18",
+      "end": "1997-01-05",
+      "number": 6,
+      "event": "Live event",
+      "location": "Acapulco, Guerrero",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Silver King (2) and Dr. Wagner Jr.",
+      "people": [
+        "silver-king",
+        "dr-wagner-jr"
+      ],
+      "start": "1997-02-02",
+      "end": "1997-08-27",
+      "number": 7,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
+      "note": "Won eight-team tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Emilio Charles Jr. and Dr. Wagner Jr.",
+      "people": [
+        "emilio-charles-jr",
+        "dr-wagner-jr"
+      ],
+      "start": "1997-08-29",
+      "end": "1998-01-23",
+      "days": 147,
+      "number": 8,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
+      "note": "Won eight-team tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Mr. Niebla & Shocker",
+      "people": [
+        "mr-niebla",
+        "shocker"
+      ],
+      "start": "1998-01-23",
+      "end": "1998-09-23",
+      "number": 9,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Bestia Salvaje & Scorpio Jr.",
+      "people": [
+        "bestia-salvaje",
+        "scorpio-jr"
+      ],
+      "start": "1998-11-13",
+      "end": "1999-02-05",
+      "days": 84,
+      "number": 10,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
+      "note": "Won eight-team tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r1",
+      "holder": "Negro Casas & El Hijo del Santo",
+      "people": [
+        "negro-casas",
+        "el-hijo-del-santo"
       ],
       "start": "1999-02-05",
       "end": "1999-02-26",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 21,
+      "number": 11,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
+      "note": "Won by DQ and refused title; decision match held",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/cmll-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/cmll-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-negro-casas-488"
       ]
     },
     {
-      "id": "r2",
-      "holder": "Negro Casas",
+      "id": "r21",
+      "holder": "Bestia Salvaje & Scorpio Jr.",
       "people": [
-        "negro-casas"
+        "bestia-salvaje",
+        "scorpio-jr"
+      ],
+      "start": "1999-02-26",
+      "end": "1999-04-02",
+      "days": 35,
+      "number": 12,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
+      "note": "Won decision match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r2",
+      "holder": "Negro Casas & El Hijo del Santo",
+      "people": [
+        "negro-casas",
+        "el-hijo-del-santo"
       ],
       "start": "1999-04-02",
       "end": "2000-06-16",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "number": 13,
+      "event": "live event",
+      "location": "Mexico City, D.F.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/cmll-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/cmll-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-negro-casas-487"
       ]
     },
     {
-      "id": "r3",
-      "holder": "Negro Casas",
+      "id": "r22",
+      "holder": "Los Guerreros del Infierno",
       "people": [
-        "negro-casas"
+        "rey-bucanero",
+        "ultimo-guerrero"
+      ],
+      "start": "2000-08-04",
+      "end": "2001-11-02",
+      "days": 455,
+      "number": 14,
+      "event": "Entre Torre Infernal",
+      "location": "Mexico City, D.F.",
+      "note": "Won 16-team tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Negro Casas & El Hijo del Santo",
+      "people": [
+        "negro-casas",
+        "el-hijo-del-santo"
       ],
       "start": "2001-11-02",
       "end": "2002-05-31",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 210,
+      "number": 15,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/cmll-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/cmll-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-negro-casas-486"
       ]
     },
     {
-      "id": "r4",
-      "holder": "Místico & Negro Casas",
+      "id": "r23",
+      "holder": "Los Guerreros del Infierno",
       "people": [
-        "negro-casas"
+        "rey-bucanero",
+        "ultimo-guerrero"
+      ],
+      "start": "2002-05-31",
+      "end": "2004-01-23",
+      "days": 602,
+      "number": 16,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "La Parka and Shocker",
+      "people": [
+        "l-a-park",
+        "shocker"
+      ],
+      "start": "2004-01-23",
+      "end": "2004-03-19",
+      "days": 56,
+      "number": 17,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Los Guerreros del Infierno",
+      "people": [
+        "rey-bucanero",
+        "ultimo-guerrero"
+      ],
+      "start": "2004-03-19",
+      "end": "2004-07-25",
+      "days": 128,
+      "number": 18,
+      "event": "Homenaje a Dos Leyendas (2004)",
+      "location": "Mexico City, D.F.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Atlantis & Blue Panther",
+      "people": [
+        "atlantis",
+        "blue-panther"
+      ],
+      "start": "2004-07-25",
+      "end": "2005-04-02",
+      "days": 251,
+      "number": 19,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Averno & Mephisto",
+      "people": [
+        "averno",
+        "mephisto"
+      ],
+      "start": "2005-04-02",
+      "end": "2006-04-14",
+      "days": 377,
+      "number": 20,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Negro Casas & Místico",
+      "people": [
+        "negro-casas",
+        "sin-cara"
       ],
       "start": "2006-04-14",
       "end": "2007-07-13",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 455,
+      "number": 21,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/cmll-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/cmll-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-negro-casas-484"
       ]
     },
     {
-      "id": "r5",
-      "holder": "Místico & Negro Casas",
+      "id": "r28",
+      "holder": "Último Guerrero (4) and Dr. Wagner Jr.",
       "people": [
-        "negro-casas"
+        "ultimo-guerrero",
+        "dr-wagner-jr"
+      ],
+      "start": "2007-07-13",
+      "end": "2007-07-20",
+      "days": 7,
+      "number": 22,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Negro Casas (5) and Místico",
+      "people": [
+        "negro-casas",
+        "sin-cara"
       ],
       "start": "2007-07-20",
       "end": "2007-11-02",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 105,
+      "number": 23,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/cmll-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/cmll-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-negro-casas-483"
       ]
     },
     {
-      "id": "r6",
-      "holder": "Diamante Azul",
+      "id": "r29",
+      "holder": "Atlantis & Último Guerrero",
       "people": [
-        "dmt-azul"
+        "atlantis",
+        "ultimo-guerrero"
+      ],
+      "start": "2007-11-02",
+      "end": "2008-02-01",
+      "days": 91,
+      "number": 24,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Averno & Mephisto",
+      "people": [
+        "averno",
+        "mephisto"
+      ],
+      "start": "2008-02-01",
+      "end": "2008-03-10",
+      "days": 38,
+      "number": 25,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
+      "note": "Won 16-team tournament for title match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "Héctor Garza and Místico",
+      "people": [
+        "hector-garza",
+        "sin-cara"
+      ],
+      "start": "2008-03-10",
+      "end": "2008-04-18",
+      "days": 39,
+      "number": 26,
+      "event": "Live event",
+      "location": "Puebla, Puebla",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Héctor Garza (2) and Místico",
+      "people": [
+        "hector-garza",
+        "sin-cara"
+      ],
+      "start": "2008-05-23",
+      "end": "2008-12-07",
+      "days": 198,
+      "number": 27,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
+      "note": "Defeated Averno and Mephisto in rematch",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Los Hijos del Averno",
+      "people": [
+        "averno",
+        "mephisto"
+      ],
+      "start": "2008-12-07",
+      "end": "2009-01-16",
+      "days": 40,
+      "number": 28,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Mr. Águila & Héctor Garza",
+      "people": [
+        "essa-rios",
+        "hector-garza"
+      ],
+      "start": "2010-07-16",
+      "end": "2010-11-02",
+      "days": 109,
+      "number": 30,
+      "event": "Super Viernes",
+      "location": "Mexico City, D.F.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "Dragón Rojo Jr. & Último Guerrero",
+      "people": [
+        "dragon-rojo-jr",
+        "ultimo-guerrero"
+      ],
+      "start": "2010-11-02",
+      "end": "2012-08-03",
+      "days": 640,
+      "number": 31,
+      "event": "Live event",
+      "location": "Mexico City, D.F.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Atlantis & Diamante Azul",
+      "people": [
+        "dmt-azul",
+        "atlantis"
       ],
       "start": "2012-08-03",
       "end": "2012-11-13",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 102,
+      "number": 32,
+      "event": "Super Viernes",
+      "location": "Mexico City, D.F.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/cmll-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/cmll-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-dmt-azul-172"
@@ -104,67 +701,235 @@
     },
     {
       "id": "r7",
-      "holder": "Tama Tonga",
+      "holder": "Bullet Club Latinoamerica",
       "people": [
-        "tama-tonga"
+        "tama-tonga",
+        "el-terrible"
       ],
       "start": "2012-11-13",
       "end": "2013-07-05",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 234,
+      "number": 33,
+      "event": "CMLL Domingo",
+      "location": "Mexico City, D.F.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/cmll-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/cmll-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-tama-tonga-806"
       ]
     },
     {
-      "id": "r8",
-      "holder": "Tama Tonga",
+      "id": "r36",
+      "holder": "Hiroshi Tanahashi & Jushin Thunder Liger",
       "people": [
-        "tama-tonga"
+        "hiroshi-tanahashi",
+        "jushin-thunder-liger"
+      ],
+      "start": "2013-07-05",
+      "end": "2013-09-14",
+      "days": 71,
+      "number": 34,
+      "event": "Kizuna Road 2013",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Rey Bucanero & Tama Tonga",
+      "people": [
+        "tama-tonga",
+        "rey-bucanero"
       ],
       "start": "2013-09-14",
       "end": "2013-10-18",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 34,
+      "number": 35,
+      "event": "Road to Destruction",
+      "location": "Tokyo, Japan",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/cmll-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/cmll-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-tama-tonga-805"
       ]
     },
     {
-      "id": "r9",
-      "holder": "Negro Casas",
+      "id": "r37",
+      "holder": "Los Ingobernables",
       "people": [
-        "negro-casas"
+        "la-mascara",
+        "rush"
+      ],
+      "start": "2013-10-18",
+      "end": "2014-06-13",
+      "days": 238,
+      "number": 36,
+      "event": "CMLL Super Viernes",
+      "location": "Mexico City, D.F.",
+      "note": "Awarded title after Bucanero was injured; had won 16-team tournament",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Negro Casas (6) and Shocker",
+      "people": [
+        "negro-casas",
+        "shocker"
       ],
       "start": "2014-06-13",
       "end": "2018-02-07",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 1335,
+      "number": 37,
+      "event": "CMLL Super Viernes",
+      "location": "Mexico City, D.F.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/cmll-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/cmll-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-negro-casas-477"
       ]
     },
     {
-      "id": "r10",
-      "holder": "Diamante Azul",
+      "id": "r38",
+      "holder": "Valiente and Volador Jr.",
       "people": [
-        "dmt-azul"
+        "valiente",
+        "volador-jr"
+      ],
+      "start": "2018-03-16",
+      "end": "2018-07-13",
+      "days": 119,
+      "number": 38,
+      "event": "Homenaje a Dos Leyendas (2018)",
+      "location": "Mexico City, D.F.",
+      "note": "Won tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "Rush & El Terrible",
+      "people": [
+        "rush",
+        "el-terrible"
+      ],
+      "start": "2018-07-13",
+      "end": "2018-11-18",
+      "days": 128,
+      "number": 39,
+      "event": "Atlantis 35th Anniversary show",
+      "location": "Mexico City, D.F.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Diamante Azul (2) and Valiente",
+      "people": [
+        "dmt-azul",
+        "valiente"
       ],
       "start": "2018-11-18",
       "end": "2019-05-31",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 194,
+      "number": 40,
+      "event": "Domingo Arena Mexico",
+      "location": "Mexico City, D.F.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/cmll-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/cmll-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-dmt-azul-169"
       ]
+    },
+    {
+      "id": "r40",
+      "holder": "Los Guerreros Laguneros",
+      "people": [
+        "euforia",
+        "gran-guerrero"
+      ],
+      "start": "2019-05-31",
+      "end": "2019-11-01",
+      "days": 154,
+      "number": 41,
+      "event": "Juicio Final",
+      "location": "Mexico City, D.F.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "Carístico & Místico",
+      "people": [
+        "sin-cara",
+        "mistico-ii"
+      ],
+      "start": "2019-11-01",
+      "end": "2021-08-24",
+      "days": 662,
+      "number": 42,
+      "event": "Día de Muertos",
+      "location": "Mexico City, D.F.",
+      "note": "Early reigns of Carístico were under the Místico name",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Titán and Volador Jr.",
+      "people": [
+        "titan",
+        "volador-jr"
+      ],
+      "start": "2021-09-24",
+      "end": "2022-01-23",
+      "days": 121,
+      "number": 43,
+      "event": "Aniversario 88",
+      "location": "Mexico City, D.F.",
+      "note": "Won vacant titles over Gemelo Diablo I and II",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "Los Nuevos Ingobernables",
+      "people": [
+        "angel-de-oro",
+        "niebla-roja"
+      ],
+      "start": "2022-01-23",
+      "days": 1551,
+      "number": 44,
+      "event": "CMLL Domingos Arena Mexico",
+      "location": "Mexico City, D.F.",
+      "note": "Two-of-three falls match; current champions",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

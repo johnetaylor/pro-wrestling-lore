@@ -290,7 +290,7 @@ export interface Title {
   /** The promotion that holds (or last held) the title; absent for titles only seen in careers. */
   promotion?: string;
   division?: 'men' | 'women' | 'mixed';
-  format?: 'singles' | 'tag' | 'trios';
+  format?: 'singles' | 'tag' | 'trios' | 'quartet';
   established?: IsoDate;
   retired?: IsoDate;
   eras?: TitleEra[];

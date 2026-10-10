@@ -1,11 +1,1017 @@
 {
   "id": "mexican-national-middleweight-championship",
   "name": "Mexican National Middleweight Championship",
-  "names": [
-    "Mexican National Middleweight Championship"
+  "promotion": "cmll",
+  "division": "men",
+  "format": "singles",
+  "established": "1933",
+  "names": [],
+  "history": [
+    {
+      "date": "1992",
+      "kind": "promotion",
+      "text": "Control passed from EMLL to Asistencia Asesoría y Administración (AAA).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ]
+    },
+    {
+      "date": "2008-12-08",
+      "kind": "deactivated",
+      "text": "AAA stopped promoting the title and focused on its AAA-branded championships.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ]
+    },
+    {
+      "date": "2021-09-24",
+      "kind": "reactivated",
+      "text": "Consejo Mundial de Lucha Libre reactivated the title, and Templario beat Dragón Rojo Jr. for the vacant title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ]
+    }
   ],
-  "sources": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r5",
+      "holder": "Octavio Gaona",
+      "people": [
+        "octavio-gaona"
+      ],
+      "start": "1938",
+      "end": "1939-02-09",
+      "number": 4,
+      "event": "Live event",
+      "note": "Date given as a range",
+      "dateNote": "The source gives the date as 1938/1939.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Octavio Gaona",
+      "people": [
+        "octavio-gaona"
+      ],
+      "start": "1938-02-06",
+      "end": "1938-09-02",
+      "days": 208,
+      "number": 2,
+      "event": "Live event",
+      "location": "Mexico City",
+      "note": "Defeated Black Guzmán in a tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Firpo Segura",
+      "people": [
+        "firpo-segura"
+      ],
+      "start": "1938-09-02",
+      "end": "1938",
+      "number": 3,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Tarzán López",
+      "people": [
+        "tarzan-lopez"
+      ],
+      "start": "1939-02-09",
+      "end": "1941-05-12",
+      "days": 823,
+      "number": 5,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Black Guzmán",
+      "people": [
+        "black-guzman"
+      ],
+      "start": "1941-05-12",
+      "end": "1941-12-16",
+      "days": 218,
+      "number": 6,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Murciélago Velázquez",
+      "people": [
+        "murcielago-velazquez"
+      ],
+      "start": "1942-05-24",
+      "end": "1943-03-19",
+      "days": 299,
+      "number": 7,
+      "event": "Live event",
+      "location": "Mexico City",
+      "note": "Defeated Octavio Gaona",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "El Santo",
+      "people": [
+        "el-santo"
+      ],
+      "start": "1943-03-19",
+      "end": "1943-06-11",
+      "days": 84,
+      "number": 8,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Bobby Bonales",
+      "people": [
+        "bobby-bonales"
+      ],
+      "start": "1943-06-11",
+      "end": "1943-10-08",
+      "days": 119,
+      "number": 9,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "El Santo",
+      "people": [
+        "el-santo"
+      ],
+      "start": "1943-10-08",
+      "end": "1944-04-01",
+      "days": 176,
+      "number": 10,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Tarzán López",
+      "people": [
+        "tarzan-lopez"
+      ],
+      "start": "1944-04-01",
+      "end": "1944-04-08",
+      "days": 7,
+      "number": 11,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "El Santo",
+      "people": [
+        "el-santo"
+      ],
+      "start": "1944-05-31",
+      "end": "1945-06-01",
+      "days": 366,
+      "number": 12,
+      "event": "Live event",
+      "location": "Mexico City",
+      "note": "Defeated Tuffy Truesdale for the vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Bobby Bonales",
+      "people": [
+        "bobby-bonales"
+      ],
+      "start": "1945-06-01",
+      "end": "1945-09-25",
+      "days": 116,
+      "number": 13,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Gory Guerrero",
+      "people": [
+        "gory-guerrero"
+      ],
+      "start": "1945-09-25",
+      "end": "1946-02-23",
+      "days": 151,
+      "number": 14,
+      "event": "EMLL 12th Anniversary Show",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Tarzán López",
+      "people": [
+        "tarzan-lopez"
+      ],
+      "start": "1946-04-12",
+      "end": "1949-05-28",
+      "days": 1142,
+      "number": 15,
+      "event": "Live event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "El Santo",
+      "people": [
+        "el-santo"
+      ],
+      "start": "1956-09-14",
+      "end": "1963-04-11",
+      "days": 2400,
+      "number": 16,
+      "event": "Live event",
+      "location": "Mexico City",
+      "note": "Defeated El Gladiador in a tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Karloff Lagarde",
+      "people": [
+        "karloff-lagarde"
+      ],
+      "start": "1963-04-11",
+      "end": "1963-06-28",
+      "days": 78,
+      "number": 17,
+      "event": "Live event",
+      "location": "Pachuca",
+      "note": "Won a tournament for the vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "El Santo",
+      "people": [
+        "el-santo"
+      ],
+      "start": "1963-06-28",
+      "end": "1967-06-20",
+      "days": 1453,
+      "number": 18,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "René Guajardo",
+      "people": [
+        "rene-guajardo"
+      ],
+      "start": "1967-06-20",
+      "end": "1967-07-29",
+      "days": 39,
+      "number": 19,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Karloff Lagarde",
+      "people": [
+        "karloff-lagarde"
+      ],
+      "start": "1967-12-15",
+      "end": "1968-02-25",
+      "days": 72,
+      "number": 20,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Humberto Gárza",
+      "people": [
+        "humberto-garza"
+      ],
+      "start": "1968-02-25",
+      "end": "1968-10-20",
+      "days": 238,
+      "number": 21,
+      "event": "Live event",
+      "location": "Monterrey, Nuevo León",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Alberto Muñoz",
+      "people": [
+        "alberto-munoz"
+      ],
+      "start": "1968-10-20",
+      "end": "1969-11-20",
+      "days": 396,
+      "number": 22,
+      "event": "Live event",
+      "location": "Guadalajara, Jalisco",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Rene Guajardo",
+      "people": [
+        "rene-guajardo"
+      ],
+      "start": "1969-11-20",
+      "end": "1970-05-13",
+      "days": 174,
+      "number": 23,
+      "event": "Live event",
+      "location": "Aguascalientes, Aguascalientes",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Humberto Gárza",
+      "people": [
+        "humberto-garza"
+      ],
+      "start": "1970-05-13",
+      "end": "1971-04-06",
+      "days": 328,
+      "number": 24,
+      "event": "Live event",
+      "location": "Monterrey, Nuevo León",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Ciclón Veloz Jr.",
+      "people": [
+        "ciclon-veloz-jr"
+      ],
+      "start": "1971-04-06",
+      "end": "1973-12-14",
+      "days": 983,
+      "number": 25,
+      "event": "Live event",
+      "location": "Monterrey, Nuevo León",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Adorable Rubí",
+      "people": [
+        "adorable-rubi"
+      ],
+      "start": "1973-12-14",
+      "end": "1974-06-28",
+      "days": 196,
+      "number": 26,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Aníbal",
+      "people": [
+        "anibal"
+      ],
+      "start": "1974-06-28",
+      "end": "1974-09-20",
+      "days": 84,
+      "number": 27,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "Ringo Mendoza",
+      "people": [
+        "ringo-mendoza"
+      ],
+      "start": "1974-11-29",
+      "end": "1977-02-18",
+      "days": 812,
+      "number": 28,
+      "event": "Live event",
+      "location": "Mexico City",
+      "note": "Won a tournament for the vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Perro Aguayo",
+      "people": [
+        "perro-aguayo"
+      ],
+      "start": "1977-02-18",
+      "end": "1977-03-11",
+      "days": 21,
+      "number": 29,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "José Luis Mendieta",
+      "people": [
+        "jose-luis-mendieta"
+      ],
+      "start": "1977-04-15",
+      "end": "1977-11-19",
+      "days": 218,
+      "number": 30,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Sangre Chicana",
+      "people": [
+        "sangre-chicana"
+      ],
+      "start": "1977-11-19",
+      "end": "1979-03",
+      "days": 467,
+      "number": 31,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Cachorro Mendoza",
+      "people": [
+        "cachorro-mendoza"
+      ],
+      "start": "1979-06-08",
+      "end": "1979-10-19",
+      "days": 133,
+      "number": 32,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "El Satánico",
+      "people": [
+        "el-satanico"
+      ],
+      "start": "1979-10-19",
+      "end": "1980-06-06",
+      "days": 231,
+      "number": 33,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "Ringo Mendoza",
+      "people": [
+        "ringo-mendoza"
+      ],
+      "start": "1980-06-06",
+      "end": "1980-12-05",
+      "days": 182,
+      "number": 34,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "El Faraón",
+      "people": [
+        "el-faraon"
+      ],
+      "start": "1980-12-05",
+      "end": "1981-04",
+      "days": 117,
+      "number": 35,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "El Solar",
+      "people": [
+        "el-solar"
+      ],
+      "start": "1981-05-29",
+      "end": "1981-10-23",
+      "days": 147,
+      "number": 36,
+      "event": "Live event",
+      "location": "Mexico City",
+      "note": "Defeated Cachorro Mendoza",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r38",
+      "holder": "El Satánico",
+      "people": [
+        "el-satanico"
+      ],
+      "start": "1981-10-23",
+      "end": "1982-02-19",
+      "days": 119,
+      "number": 37,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "Lizmark",
+      "people": [
+        "lizmark"
+      ],
+      "start": "1982-02-19",
+      "end": "1983-03-03",
+      "days": 377,
+      "number": 38,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "Espectro Jr. (II)",
+      "people": [
+        "espectro-jr-ii"
+      ],
+      "start": "1983-03-03",
+      "end": "1983-05-28",
+      "days": 86,
+      "number": 39,
+      "event": "Live event",
+      "location": "Cuernavaca, Morelos",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "Lizmark",
+      "people": [
+        "lizmark"
+      ],
+      "start": "1983-05-28",
+      "end": "1983-06-03",
+      "days": 6,
+      "number": 40,
+      "event": "Live event",
+      "location": "Puebla, Puebla",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Ultraman",
+      "people": [
+        "ultraman"
+      ],
+      "start": "1983-08-12",
+      "end": "1984-03-04",
+      "days": 205,
+      "number": 41,
+      "event": "Live event",
+      "location": "Mexico City",
+      "note": "Defeated Águila Solitaria in a tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "Jerry Estrada",
+      "people": [
+        "jerry-estrada"
+      ],
+      "start": "1984-03-04",
+      "end": "1984-11-30",
+      "days": 271,
+      "number": 42,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "Atlantis",
+      "people": [
+        "atlantis"
+      ],
+      "start": "1984-11-30",
+      "end": "1986-03-02",
+      "days": 457,
+      "number": 43,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "El Talismán",
+      "people": [
+        "el-talisman"
+      ],
+      "start": "1986-03-02",
+      "end": "1986-11-30",
+      "days": 273,
+      "number": 44,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "Mogur",
+      "people": [
+        "mogur"
+      ],
+      "start": "1986-11-30",
+      "end": "1988-01-31",
+      "days": 427,
+      "number": 45,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "El Satánico",
+      "people": [
+        "el-satanico"
+      ],
+      "start": "1988-01-31",
+      "end": "1988-09-03",
+      "days": 216,
+      "number": 46,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "Javier Cruz",
+      "people": [
+        "javier-cruz"
+      ],
+      "start": "1990-07-26",
+      "end": "1990-08-30",
+      "days": 35,
+      "number": 48,
+      "event": "Live event",
+      "location": "Cuernavaca, Morelos",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r49",
+      "holder": "Emilio Charles Jr.",
+      "people": [
+        "emilio-charles-jr"
+      ],
+      "start": "1990-08-30",
+      "end": "1990-11-20",
+      "days": 82,
+      "number": 49,
+      "event": "Live event",
+      "location": "Cuernavaca, Morelos",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r50",
+      "holder": "Octagón",
+      "people": [
+        "octagon"
+      ],
+      "start": "1990-11-20",
+      "end": "1992-07-24",
+      "days": 612,
+      "number": 50,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r51",
+      "holder": "Octagón",
+      "people": [
+        "octagon"
+      ],
+      "start": "1994-04-30",
+      "end": "1994-05-27",
+      "days": 27,
+      "number": 52,
+      "event": "AAA Show",
+      "location": "Veracruz, Veracruz",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "Blue Panther",
+      "people": [
+        "blue-panther"
+      ],
+      "start": "1994-05-27",
+      "end": "1996-01-26",
+      "days": 609,
+      "number": 53,
+      "event": "AAA Show",
+      "location": "Tijuana, Baja California",
+      "note": "Awarded by default after Octagón was injured",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r53",
+      "holder": "El Hijo del Santo",
+      "people": [
+        "el-hijo-del-santo"
+      ],
+      "start": "1996-01-26",
+      "end": "1996-09-15",
+      "days": 233,
+      "number": 54,
+      "event": "AAA Show",
+      "location": "Tijuana, Baja California",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r54",
+      "holder": "Octagón",
+      "people": [
+        "octagon"
+      ],
+      "start": "1997-01-29",
+      "end": "1997-03-28",
+      "days": 58,
+      "number": 56,
+      "event": "AAA Show",
+      "location": "Naucalpan, State of Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r55",
+      "holder": "Pentagón (II)",
+      "people": [
+        "pentagon-ii"
+      ],
+      "start": "1997-03-28",
+      "end": "1998-05-19",
+      "days": 417,
+      "number": 57,
+      "event": "AAA Show",
+      "location": "Nezahualcóyotl, State of Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r56",
+      "holder": "Abismo Negro",
+      "people": [
+        "abismo-negro"
+      ],
+      "start": "1998-05-19",
+      "end": "1999-01-27",
+      "days": 253,
+      "number": 58,
+      "event": "AAA Show",
+      "location": "Tlalnepantla de Baz",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "Espectro Jr. (II)",
+      "people": [
+        "espectro-jr-ii"
+      ],
+      "start": "1999-01-27",
+      "end": "1999-06-17",
+      "days": 141,
+      "number": 59,
+      "event": "AAA Show",
+      "location": "Ecatepec de Morelos, State of Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r58",
+      "holder": "Máscara Sagrada Jr.",
+      "people": [
+        "mascara-sagrada-jr"
+      ],
+      "start": "1999-06-17",
+      "end": "1999-07-08",
+      "days": 21,
+      "number": 60,
+      "event": "AAA Show",
+      "location": "Toluca, State of Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r59",
+      "holder": "Espectro Jr. (II)",
+      "people": [
+        "espectro-jr-ii"
+      ],
+      "start": "1999-07-08",
+      "end": "2001-04-27",
+      "days": 659,
+      "number": 61,
+      "event": "AAA Show",
+      "location": "Toluca, State of Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Pimpinela Escarlata",
@@ -14,9 +1020,13 @@
       ],
       "start": "2001-04-27",
       "end": "2002-08-13",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 473,
+      "number": 62,
+      "event": "AAA Show",
+      "location": "Querétaro, Querétaro",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/mexican-national-middleweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/mexican-national-middleweight-championship",
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-pimpinela-escarlata-529"
@@ -24,19 +1034,111 @@
     },
     {
       "id": "r2",
-      "holder": "Psicosis",
+      "holder": "Psicosis II",
       "people": [
         "psicosis-ii"
       ],
       "start": "2002-08-13",
       "end": "2005-08-03",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 1086,
+      "number": 63,
+      "event": "AAA Show",
+      "location": "Huamantla, Tlaxcala",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/mexican-national-middleweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/mexican-national-middleweight-championship",
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-psicosis-535"
       ]
+    },
+    {
+      "id": "r60",
+      "holder": "Zumbido",
+      "people": [
+        "zumbido"
+      ],
+      "start": "2006-01-29",
+      "end": "2006-07-15",
+      "days": 167,
+      "number": 64,
+      "event": "AAA Show",
+      "location": "Salamanca, Guanajuato",
+      "note": "Won a tournament final over Histeria",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r61",
+      "holder": "Octagón",
+      "people": [
+        "octagon"
+      ],
+      "start": "2006-07-15",
+      "end": "2008-12-08",
+      "days": 877,
+      "number": 65,
+      "event": "AAA Show",
+      "location": "Torreón, Coahuila",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r62",
+      "holder": "Templario",
+      "people": [
+        "templario"
+      ],
+      "start": "2021-09-24",
+      "end": "2023-05-17",
+      "days": 600,
+      "number": 66,
+      "event": "Aniversario 88",
+      "location": "Mexico City",
+      "note": "Reactivated by CMLL; won the vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r63",
+      "holder": "Guerrero Maya Jr.",
+      "people": [
+        "guerrero-maya-jr"
+      ],
+      "start": "2023-06-02",
+      "end": "2026-09-25",
+      "days": 1211,
+      "number": 67,
+      "event": "Super Viernes",
+      "location": "Mexico City",
+      "note": "Defeated Rugido for the vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r64",
+      "holder": "Rey Pegasus",
+      "people": [
+        "rey-pegasus"
+      ],
+      "start": "2026-09-25",
+      "days": 1,
+      "number": 67,
+      "event": "Noche de Campeones",
+      "location": "Mexico City",
+      "note": "Current champion; defeated Guerrero Maya Jr.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Middleweight_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

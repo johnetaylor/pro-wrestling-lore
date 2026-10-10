@@ -1,44 +1,811 @@
 {
   "id": "cmll-world-trios-championship",
   "name": "CMLL World Trios Championship",
+  "promotion": "cmll",
+  "division": "men",
+  "format": "trios",
+  "established": "1991-11-22",
   "names": [
-    "CMLL World Trios Championship"
+    "CMLL World Trios Championship (Spanish: Campeonato Mundial de Trios)"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "CMLL World Trios Championship (Spanish: Campeonato Mundial de Trios)",
+      "from": "1991"
+    }
+  ],
+  "history": [
+    {
+      "date": "1993",
+      "kind": "promotion",
+      "text": "The reigning Mexican National Trios Champions left CMLL in 1993 and took that title with them, leaving the CMLL World Trios Championship as the division's only title until 2001.",
+      "related": [
+        "Mexican National Trios Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Trios_Championship"
+      ]
+    },
+    {
+      "date": "1997-03-21",
+      "kind": "deactivated",
+      "text": "Vacated after Héctor Garza left for AAA; a one-night, eight-team tournament crowned Rey Bucanero, Emilio Charles Jr. and El Satánico.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Trios_Championship"
+      ]
+    },
+    {
+      "date": "1998-10",
+      "kind": "deactivated",
+      "text": "Vacated after Mr. Niebla was injured; an eight-team tournament (December 4–12, 1998) followed and was won by Black Warrior, Blue Panther and Dr. Wagner Jr.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Trios_Championship"
+      ]
+    },
+    {
+      "date": "2002-02",
+      "kind": "deactivated",
+      "text": "Black Warrior's team vacated the title in February 2002; Blue Panther and Dr. Wagner Jr. later reigned with Fuerza Guerrera replacing Black Warrior.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Trios_Championship"
+      ]
+    },
+    {
+      "date": "2006",
+      "kind": "deactivated",
+      "text": "Vacated after about 20 months without a defense; Los Guerreros de Atlantida won the title on September 29, 2006.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Trios_Championship"
+      ]
+    },
+    {
+      "date": "2008-05",
+      "kind": "deactivated",
+      "text": "Vacated after Los Perros del Mal removed Héctor Garza; an eight-team tournament began May 30, with the finals on June 13, 2008.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Trios_Championship"
+      ]
+    },
+    {
+      "date": "2013-05",
+      "kind": "deactivated",
+      "text": "El Bufete del Amor vacated after Marco Corleone suffered a knee injury; an eight-team tournament (June 9–16, 2013) was won by Los Estetas del Aire.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Trios_Championship"
+      ]
+    },
+    {
+      "date": "2015",
+      "kind": "reactivated",
+      "text": "CMLL's Guadalajara branch revived the Occidente Trios Championship for shows in Jalisco, which the article considers tertiary to the world and national titles.",
+      "related": [
+        "Occidente Trios Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Trios_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions",
+    "https://en.wikipedia.org/wiki/CMLL_World_Trios_Championship"
+  ],
   "reigns": [
     {
-      "id": "r1",
-      "holder": "Negro Casas",
+      "id": "r3",
+      "holder": "Los Infernales",
       "people": [
-        "negro-casas"
+        "ms-1",
+        "pirata-morgan",
+        "el-satanico"
+      ],
+      "start": "1991-11-22",
+      "end": "1992-03-22",
+      "days": 121,
+      "number": 1,
+      "event": "Super Viernes",
+      "location": "Mexico City, Distrito Federal",
+      "note": "Won 16-team tournament final over Los Brazos",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Los Intocables",
+      "people": [
+        "jaque-mate",
+        "masakre",
+        "pierroth"
+      ],
+      "start": "1992-03-22",
+      "end": "1992-09-20",
+      "days": 182,
+      "number": 2,
+      "event": "Live event",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Los Infernales",
+      "people": [
+        "ms-1",
+        "pirata-morgan",
+        "el-satanico"
+      ],
+      "start": "1992-09-20",
+      "end": "1993-04-06",
+      "days": 198,
+      "number": 3,
+      "event": "Live event",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Los Brazos",
+      "people": [
+        "el-brazo",
+        "brazo-de-oro",
+        "brazo-de-plata"
+      ],
+      "start": "1993-04-06",
+      "end": "1994-04-22",
+      "days": 381,
+      "number": 4,
+      "event": "Live event",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "La Nueva Ola Blanca",
+      "people": [
+        "gran-markus-jr",
+        "el-hijo-del-gladiador",
+        "dr-wagner-jr"
+      ],
+      "start": "1994-04-22",
+      "end": "1995-03-31",
+      "days": 343,
+      "number": 5,
+      "event": "Super Viernes",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Los Chacales",
+      "people": [
+        "bestia-salvaje",
+        "emilio-charles-jr",
+        "sangre-chicana"
+      ],
+      "start": "1995-03-31",
+      "end": "1996-03-22",
+      "days": 357,
+      "number": 6,
+      "event": "Super Viernes",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Dos Caras & La Fiera & Héctor Garza",
+      "people": [
+        "dos-caras",
+        "la-fiera",
+        "hector-garza"
+      ],
+      "start": "1996-03-22",
+      "end": "1997",
+      "number": 7,
+      "event": "Homenaje a Salvador Lutteroth",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Emilio Charles Jr. & Rey Bucanero & El Satánico",
+      "people": [
+        "emilio-charles-jr",
+        "rey-bucanero",
+        "el-satanico"
+      ],
+      "start": "1997-03-21",
+      "end": "1997-04-29",
+      "days": 39,
+      "number": 8,
+      "event": "Homenaje a Salvador Lutteroth",
+      "location": "Mexico City, Distrito Federal",
+      "note": "Won one-night eight-team tournament for vacant titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "La Ola Azul",
+      "people": [
+        "atlantis",
+        "lizmark",
+        "mr-niebla"
+      ],
+      "start": "1997-04-29",
+      "end": "1998-10",
+      "number": 9,
+      "event": "Live event",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Black Warrior & Blue Panther & Dr. Wagner Jr.",
+      "people": [
+        "black-warrior",
+        "blue-panther",
+        "dr-wagner-jr"
+      ],
+      "start": "1998-12-18",
+      "end": "2002-02",
+      "number": 10,
+      "event": "Super Viernes",
+      "location": "Mexico City, Distrito Federal",
+      "note": "Won eight-team tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Blue Panther & Fuerza Guerrera & Dr. Wagner Jr.",
+      "people": [
+        "blue-panther",
+        "fuerza-guerrera",
+        "dr-wagner-jr"
+      ],
+      "start": "2002-03-17",
+      "end": "2002-06-16",
+      "days": 91,
+      "number": 11,
+      "event": "Homenaje a Dos Leyendas",
+      "location": "Mexico City, Distrito Federal",
+      "note": "Won vacant titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Black Tiger III & Universo 2000 & Dr. Wagner Jr.",
+      "people": [
+        "silver-king",
+        "universo-2000",
+        "dr-wagner-jr"
+      ],
+      "start": "2003-03-21",
+      "end": "2004-07-09",
+      "days": 476,
+      "number": 13,
+      "event": "Homenaje a Dos Leyendas",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Black Warrior & El Canek & Rayo de Jalisco Jr.",
+      "people": [
+        "black-warrior",
+        "el-canek",
+        "rayo-de-jalisco-jr"
+      ],
+      "start": "2004-07-09",
+      "end": "2004-11-19",
+      "days": 133,
+      "number": 14,
+      "event": "Super Viernes",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "La Furia del Norte",
+      "people": [
+        "hector-garza",
+        "tarzan-boy",
+        "el-terrible"
+      ],
+      "start": "2004-11-19",
+      "end": "2006-09-16",
+      "days": 666,
+      "number": 15,
+      "event": "Live event",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Los Guerreros de la Atlantida",
+      "people": [
+        "atlantis",
+        "tarzan-boy",
+        "ultimo-guerrero"
+      ],
+      "start": "2006-09-29",
+      "end": "2007-02-16",
+      "days": 140,
+      "number": 16,
+      "event": "CMLL 73rd Anniversary Show",
+      "location": "Mexico City, Distrito Federal",
+      "note": "Won vacant titles over three rivals",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Los Perros del Mal",
+      "people": [
+        "perro-aguayo-jr",
+        "essa-rios",
+        "hector-garza"
+      ],
+      "start": "2007-02-16",
+      "end": "2008-05-24",
+      "days": 463,
+      "number": 17,
+      "event": "Super Viernes",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Los Ángeles Rebeldes",
+      "people": [
+        "hector-garza",
+        "santos-escobar",
+        "la-mascara"
+      ],
+      "start": "2008-06-13",
+      "end": "2008-08-05",
+      "days": 53,
+      "number": 18,
+      "event": "Infierno en el Ring",
+      "location": "Mexico City, Distrito Federal",
+      "note": "Won eight-team tournament for vacant titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r1",
+      "holder": "Los Guerreros Negros",
+      "people": [
+        "negro-casas",
+        "atlantis",
+        "ultimo-guerrero"
       ],
       "start": "2008-08-05",
       "end": "2009-01-18",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 166,
+      "number": 19,
+      "event": "Super Viernes",
+      "location": "Mexico City, Distrito Federal",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/cmll-world-trios-championship"
+        "https://www.thesmackdownhotel.com/title-history/cmll-world-trios-championship",
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
       ],
       "legacyIds": [
         "profile-reign-negro-casas-482"
       ]
     },
     {
+      "id": "r20",
+      "holder": "Los Ángeles Rebeldes",
+      "people": [
+        "hector-garza",
+        "santos-escobar",
+        "la-mascara"
+      ],
+      "start": "2009-01-18",
+      "end": "2010-05-07",
+      "days": 474,
+      "number": 20,
+      "event": "Live event",
+      "location": "Guadalajara, Jalisco",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "La Ola Amarilla",
+      "people": [
+        "okumura",
+        "hiroshi-tanahashi",
+        "taichi"
+      ],
+      "start": "2010-05-07",
+      "end": "2010-05-21",
+      "days": 14,
+      "number": 21,
+      "event": "Super Viernes",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "La Generación Dorada",
+      "people": [
+        "gran-metalik",
+        "andrade",
+        "la-mascara"
+      ],
+      "start": "2010-05-21",
+      "end": "2011-07-15",
+      "days": 420,
+      "number": 22,
+      "event": "Super Viernes",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Los Hijos del Averno",
+      "people": [
+        "averno",
+        "ephesto",
+        "mephisto"
+      ],
+      "start": "2011-07-15",
+      "end": "2012-02-19",
+      "days": 219,
+      "number": 23,
+      "event": "Super Viernes",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "El Bufete del Amor",
+      "people": [
+        "marco-corleone",
+        "maximo",
+        "rush"
+      ],
+      "start": "2012-02-19",
+      "end": "2013-05-09",
+      "days": 445,
+      "number": 24,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Los Estetas del Aire",
+      "people": [
+        "gran-metalik",
+        "mistico-ii",
+        "valiente"
+      ],
+      "start": "2013-06-16",
+      "end": "2014-03-28",
+      "days": 285,
+      "number": 25,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "note": "Won eight-team tournament for vacant titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Los Guerreros Laguneros",
+      "people": [
+        "euforia",
+        "niebla-roja",
+        "ultimo-guerrero"
+      ],
+      "start": "2014-03-28",
+      "end": "2015-02-13",
+      "days": 322,
+      "number": 26,
+      "event": "Super Viernes",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Sky Team",
+      "people": [
+        "mistico-ii",
+        "valiente",
+        "volador-jr"
+      ],
+      "start": "2015-02-13",
+      "end": "2018-07-01",
+      "days": 1234,
+      "number": 27,
+      "event": "Super Viernes",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Los Guerreros Laguneros",
+      "people": [
+        "euforia",
+        "gran-guerrero",
+        "ultimo-guerrero"
+      ],
+      "start": "2018-07-01",
+      "end": "2018-09-14",
+      "days": 75,
+      "number": 28,
+      "event": "Domingos Arena México",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "The Cl4n",
+      "people": [
+        "ciber-the-main-man",
+        "the-chris",
+        "sharlie-rockstar"
+      ],
+      "start": "2018-09-14",
+      "end": "2018-09-28",
+      "days": 14,
+      "number": 29,
+      "event": "CMLL 85th Anniversary Show",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Los Guerreros Laguneros",
+      "people": [
+        "euforia",
+        "gran-guerrero",
+        "ultimo-guerrero"
+      ],
+      "start": "2018-09-28",
+      "end": "2021-03-26",
+      "days": 910,
+      "number": 30,
+      "event": "Super Viernes",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r2",
-      "holder": "Forastero & Sansón",
+      "holder": "Nueva Generación Dinamita",
       "people": [
         "forastero",
-        "sanson"
+        "sanson",
+        "el-cuatrero"
       ],
       "start": "2021-03-26",
-      "end": "2021-08-11",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "end": "2022-03-18",
+      "number": 31,
+      "event": "CMLL La Vopa Jr. VIP",
+      "location": "Mexico City, Mexico",
+      "note": "Exact length uncertain",
+      "dateNote": "The source gives no date for the change that ended this reign; it ended by 2022-03-18.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/cmll-world-trios-championship"
+        "https://www.thesmackdownhotel.com/title-history/cmll-world-trios-championship",
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
       ],
       "legacyIds": [
         "profile-reign-forastero-296",
         "profile-reign-sanson-726"
       ]
+    },
+    {
+      "id": "r31",
+      "holder": "Los Malditos",
+      "people": [
+        "el-sagrado",
+        "gemelo-diablo-i",
+        "gemelo-diablo-ii"
+      ],
+      "start": "2022-03-18",
+      "end": "2022-09-03",
+      "days": 169,
+      "number": 32,
+      "event": "Homenaje a Dos Leyendas",
+      "location": "Mexico City, Mexico",
+      "note": "Won vacant titles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Los Infernales",
+      "people": [
+        "euforia",
+        "hechicero",
+        "mephisto"
+      ],
+      "start": "2022-09-03",
+      "end": "2023-06-02",
+      "days": 272,
+      "number": 33,
+      "event": "Noche de Campeones",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Atlantis Jr. ; Star Jr. ; Volador Jr.",
+      "people": [
+        "atlantis-jr",
+        "star-jr",
+        "volador-jr"
+      ],
+      "start": "2023-06-02",
+      "end": "2024-02-05",
+      "days": 248,
+      "number": 34,
+      "event": "Super Viernes",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Los Bárbaros",
+      "people": [
+        "dragon-rojo-jr",
+        "barbaro-cavernario",
+        "el-terrible"
+      ],
+      "start": "2024-02-05",
+      "end": "2024-07-16",
+      "days": 162,
+      "number": 35,
+      "event": "CMLL Lunes Arena Puebla",
+      "location": "Puebla, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "Máscara Dorada & Star Jr. & Neón",
+      "people": [
+        "mascara-dorada",
+        "star-jr",
+        "neon"
+      ],
+      "start": "2024-07-16",
+      "end": "2024-09-27",
+      "days": 73,
+      "number": 36,
+      "event": "CMLL Martes De Arena Mexico",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "Los Infernales",
+      "people": [
+        "euforia",
+        "averno",
+        "mephisto"
+      ],
+      "start": "2024-09-27",
+      "end": "2025-05-16",
+      "days": 231,
+      "number": 37,
+      "event": "Noche de Campeones",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "El Sky Team",
+      "people": [
+        "mascara-dorada",
+        "mistico-ii",
+        "neon"
+      ],
+      "start": "2025-05-16",
+      "days": 405,
+      "number": 38,
+      "event": "Viernes Espectacular",
+      "location": "Mexico City, Mexico",
+      "note": "Current champions",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Trios_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

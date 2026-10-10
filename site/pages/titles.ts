@@ -28,7 +28,7 @@ function reignDays(r: TitleReign, buildDate: string): number {
 
 /** "Women's tag team", "Trios", "" for men's singles. */
 export function titleKindLabel(t: Title): string {
-  const format = t.format === 'tag' ? 'tag team' : t.format === 'trios' ? 'trios' : '';
+  const format = t.format === 'tag' ? 'tag team' : t.format === 'trios' ? 'trios' : t.format === 'quartet' ? 'team of four' : '';
   if (t.division === 'women') return `Women’s${format ? ` ${format}` : ''}`;
   if (t.division === 'mixed') return format ? `Mixed ${format}` : 'Open to anyone';
   return format ? format[0].toUpperCase() + format.slice(1) : '';

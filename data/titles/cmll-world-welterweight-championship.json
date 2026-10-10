@@ -1,11 +1,439 @@
 {
   "id": "cmll-world-welterweight-championship",
   "name": "CMLL World Welterweight Championship",
-  "names": [
-    "CMLL World Welterweight Championship"
+  "promotion": "cmll",
+  "division": "men",
+  "format": "singles",
+  "established": "1992-02-15",
+  "names": [],
+  "eras": [
+    {
+      "name": "CMLL World Welterweight Championship",
+      "from": "1992-02-15"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "1996-05-07",
+      "kind": "recognition",
+      "text": "CMLL did not recognize La Pantera's loss to Super Delfin in Japan and declared the title vacant; a 16-man tournament crowned Máscara Mágica.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "2014-11-19",
+      "kind": "deactivated",
+      "text": "Místico said he was not ready to return to the ring, and the title was declared vacant.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "2014-12-26",
+      "kind": "replaced-by",
+      "text": "A 10-man torneo cibernetico was held to determine the next champion; Máscara Dorada won the title a week later.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "2015",
+      "kind": "recognition",
+      "text": "Máscara Dorada took the title to New Japan Pro-Wrestling and lost it to Bushi there; CMLL officially acknowledged the change.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "2019-12-01",
+      "kind": "replaced-by",
+      "text": "After CMLL fired Dragon Lee, a tournament began to crown a new champion; Titán defeated Soberano Jr. on December 8, 2019.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Welterweight_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions",
+    "https://en.wikipedia.org/wiki/CMLL_World_Welterweight_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r3",
+      "holder": "Fuerza Guerrera",
+      "people": [
+        "fuerza-guerrera"
+      ],
+      "start": "1992-02-15",
+      "end": "1992-03-08",
+      "days": 22,
+      "number": 1,
+      "event": "Sabados Arena Puebla",
+      "location": "Puebla, Puebla",
+      "note": "Won four-man tournament final over El Khalifa",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "América",
+      "people": [
+        "america"
+      ],
+      "start": "1992-03-08",
+      "end": "1992-07-17",
+      "days": 131,
+      "number": 2,
+      "event": "Domingos de Coliseo",
+      "location": "Mexico City, Distrito Federal",
+      "note": "Later held title as Pantera and Pantera II",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "El Felino",
+      "people": [
+        "el-felino"
+      ],
+      "start": "1992-07-17",
+      "end": "1993-05-21",
+      "days": 308,
+      "number": 3,
+      "event": "Live event",
+      "location": "Cuernavaca, Morelos",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Ciclón Ramírez",
+      "people": [
+        "ciclon-ramirez"
+      ],
+      "start": "1993-05-21",
+      "end": "1994-03-30",
+      "days": 313,
+      "number": 4,
+      "event": "Live event",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "El Felino",
+      "people": [
+        "el-felino"
+      ],
+      "start": "1994-03-30",
+      "end": "1994-06-21",
+      "days": 83,
+      "number": 5,
+      "event": "Live event",
+      "location": "Acapulco, Guerrero",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "El Pantera",
+      "people": [
+        "el-pantera"
+      ],
+      "start": "1994-06-21",
+      "end": "1996-03-15",
+      "days": 633,
+      "number": 6,
+      "event": "Live event",
+      "location": "Cuernavaca, Morelos",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Máscara Mágica",
+      "people": [
+        "mascara-magica"
+      ],
+      "start": "1996-05-21",
+      "end": "1996-08-02",
+      "days": 73,
+      "number": 7,
+      "event": "Martes de Coliseo",
+      "location": "Mexico City, Distrito Federal",
+      "note": "Won 16-man tournament final over El Felino",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Guerrero de la Muerte",
+      "people": [
+        "guerrero-de-la-muerte"
+      ],
+      "start": "1996-08-02",
+      "end": "1998-01",
+      "number": 8,
+      "event": "Live event",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Máscara Mágica",
+      "people": [
+        "mascara-magica"
+      ],
+      "start": "1998-01",
+      "end": "1998-02-06",
+      "number": 9,
+      "event": "Live event",
+      "dateNote": "The source gives the month only.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Karloff Lagarde Jr.",
+      "people": [
+        "karloff-lagarde-jr"
+      ],
+      "start": "1998-02-06",
+      "end": "1998-09-15",
+      "days": 221,
+      "number": 10,
+      "event": "Live event",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Olímpico",
+      "people": [
+        "olimpico"
+      ],
+      "start": "1998-09-15",
+      "end": "1998-10-23",
+      "days": 38,
+      "number": 11,
+      "event": "Martes de Coliseo",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Halcón Negro",
+      "people": [
+        "halcon-negro"
+      ],
+      "start": "1998-10-23",
+      "end": "1998-12-13",
+      "days": 51,
+      "number": 12,
+      "event": "CMLL Super Viernes",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Olímpico",
+      "people": [
+        "olimpico"
+      ],
+      "start": "1998-12-13",
+      "end": "1999-02-27",
+      "days": 76,
+      "number": 13,
+      "event": "Live event",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Super Delfin",
+      "people": [
+        "super-delfin"
+      ],
+      "start": "1999-02-27",
+      "end": "1999-08-10",
+      "days": 164,
+      "number": 14,
+      "event": "Live event",
+      "location": "Nagoya, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Arkangel de la Muerte",
+      "people": [
+        "arkangel-de-la-muerte"
+      ],
+      "start": "1999-08-10",
+      "end": "2001-01",
+      "number": 15,
+      "event": "Live event",
+      "location": "Kawasaki, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Nosawa",
+      "people": [
+        "nosawa"
+      ],
+      "start": "2001-01",
+      "end": "2001-03-02",
+      "number": 16,
+      "event": "Live event",
+      "location": "Acapulco, Guerrero",
+      "dateNote": "The source gives the month only.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Pantera II",
+      "people": [
+        "pantera-ii"
+      ],
+      "start": "2001-03-02",
+      "end": "2001-04-02",
+      "days": 31,
+      "number": 17,
+      "event": "Live event",
+      "location": "Acapulco, Guerrero",
+      "note": "Won by forfeit as Nosawa was injured",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Nosawa",
+      "people": [
+        "nosawa"
+      ],
+      "start": "2001-04-02",
+      "end": "2001-09-21",
+      "days": 172,
+      "number": 18,
+      "event": "Lunes Arena Puebla",
+      "location": "Puebla, Puebla",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "El Felino",
+      "people": [
+        "el-felino"
+      ],
+      "start": "2001-09-21",
+      "end": "2003-11-25",
+      "days": 795,
+      "number": 19,
+      "event": "CMLL Super Viernes",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "El Satánico",
+      "people": [
+        "el-satanico"
+      ],
+      "start": "2003-11-25",
+      "end": "2004-02-24",
+      "days": 91,
+      "number": 20,
+      "event": "Martes de Coliso",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Mephisto",
+      "people": [
+        "mephisto"
+      ],
+      "start": "2004-02-24",
+      "end": "2007-04-10",
+      "days": 1141,
+      "number": 21,
+      "event": "Martes de Coliseo",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Místico",
+      "people": [
+        "sin-cara"
+      ],
+      "start": "2007-04-10",
+      "end": "2009-03-20",
+      "days": 710,
+      "number": 22,
+      "event": "Guadalajara Martes",
+      "location": "Guadalajara, Jalisco",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Negro Casas",
@@ -14,13 +442,175 @@
       ],
       "start": "2009-03-20",
       "end": "2010-09-07",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 536,
+      "number": 23,
+      "event": "Homenaje a Dos Leyendas",
+      "location": "Mexico City, Mexico",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/cmll-world-welterweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/cmll-world-welterweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-negro-casas-481"
       ]
+    },
+    {
+      "id": "r25",
+      "holder": "Máscara Dorada",
+      "people": [
+        "gran-metalik"
+      ],
+      "start": "2010-09-07",
+      "end": "2011-01-22",
+      "days": 137,
+      "number": 24,
+      "event": "CMLL Martes Arena Mexico",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Ryusuke Taguchi",
+      "people": [
+        "ryusuke-taguchi"
+      ],
+      "start": "2011-01-22",
+      "end": "2011-06-18",
+      "days": 147,
+      "number": 25,
+      "event": "Fantastica Mania 2011",
+      "location": "Bunkyo, Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Máscara Dorada",
+      "people": [
+        "gran-metalik"
+      ],
+      "start": "2011-06-18",
+      "end": "2012-11-11",
+      "days": 512,
+      "number": 26,
+      "event": "Dominion 6.18",
+      "location": "Osaka, Japan",
+      "note": "One-fall match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Pólvora",
+      "people": [
+        "polvora"
+      ],
+      "start": "2012-11-11",
+      "end": "2014-02-16",
+      "days": 462,
+      "number": 27,
+      "event": "Domingos Arena Mexico",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "Místico (II)",
+      "people": [
+        "mistico-ii"
+      ],
+      "start": "2014-02-16",
+      "end": "2014-11-19",
+      "days": 276,
+      "number": 28,
+      "event": "Domingos Arena Mexico",
+      "location": "Mexico City, Mexico",
+      "note": "Not the same Místico as the 2007 champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Máscara Dorada",
+      "people": [
+        "gran-metalik"
+      ],
+      "start": "2015-01-02",
+      "end": "2015-12-19",
+      "days": 351,
+      "number": 29,
+      "event": "CMLL Super Viernes",
+      "location": "Mexico City, Mexico",
+      "note": "Won tournament final over Negro Casas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "Bushi",
+      "people": [
+        "bushi"
+      ],
+      "start": "2015-12-19",
+      "end": "2016-01-22",
+      "days": 34,
+      "number": 30,
+      "event": "Road to Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "note": "One-fall match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Máscara Dorada",
+      "people": [
+        "gran-metalik"
+      ],
+      "start": "2016-01-22",
+      "end": "2016-05-04",
+      "days": 103,
+      "number": 31,
+      "event": "Fantastica Mania 2016",
+      "location": "Tokyo, Japan",
+      "note": "One-fall match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Mephisto",
+      "people": [
+        "mephisto"
+      ],
+      "start": "2016-05-04",
+      "end": "2019-03-19",
+      "days": 1049,
+      "number": 32,
+      "event": "CMLL Martes Arena Mexico",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r2",
@@ -30,13 +620,34 @@
       ],
       "start": "2019-03-19",
       "end": "2019-09-28",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 193,
+      "number": 33,
+      "event": "CMLL Arena Mexico",
+      "location": "Mexico City, Distrito Federal",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/cmll-world-welterweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/cmll-world-welterweight-championship",
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
       ],
       "legacyIds": [
         "profile-reign-dragon-lee-191"
       ]
+    },
+    {
+      "id": "r34",
+      "holder": "Titán",
+      "people": [
+        "titan"
+      ],
+      "start": "2019-12-08",
+      "days": 2261,
+      "number": 34,
+      "event": "CMLL Arena Mexico",
+      "location": "Mexico City, Distrito Federal",
+      "note": "Won vacant title in tournament final over Soberano Jr.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_CMLL_World_Welterweight_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

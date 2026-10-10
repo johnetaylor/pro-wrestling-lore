@@ -107,7 +107,7 @@ for (const file of listFiles(join(dir, 'titles'))) {
   }
   if (t.promotion && !promotionIds.has(t.promotion)) fail(`${t.id}: unknown promotion ${t.promotion}`);
   if (t.division && !['men', 'women', 'mixed'].includes(t.division)) fail(`${t.id}: unknown division ${t.division}`);
-  if (t.format && !['singles', 'tag', 'trios'].includes(t.format)) fail(`${t.id}: unknown format ${t.format}`);
+  if (t.format && !['singles', 'tag', 'trios', 'quartet'].includes(t.format)) fail(`${t.id}: unknown format ${t.format}`);
   for (const d of [t.established, t.retired]) if (d && !isDate(d)) fail(`${t.id}: bad established or retired date`);
   for (const e of t.eras ?? []) if (!e.name || !isDate(e.from) || (e.to && !isDate(e.to))) fail(`${t.id}: bad era ${e.name}`);
   for (const e of t.history ?? []) {

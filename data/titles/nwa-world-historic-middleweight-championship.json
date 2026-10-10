@@ -1,11 +1,160 @@
 {
   "id": "nwa-world-historic-middleweight-championship",
   "name": "NWA World Historic Middleweight Championship",
-  "names": [
-    "NWA World Historic Middleweight Championship"
+  "promotion": "cmll",
+  "division": "men",
+  "format": "singles",
+  "established": "2010-08-12",
+  "names": [],
+  "eras": [
+    {
+      "name": "NWA World Historic Middleweight Championship",
+      "from": "2010-08-12"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "1939-02-19",
+      "kind": "replaces",
+      "text": "Octavio Gaona beat Kallio, creating EMLL's main middleweight championship.",
+      "related": [
+        "NWA World Middleweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Middleweight_Championship"
+      ]
+    },
+    {
+      "date": "1952",
+      "kind": "brand",
+      "text": "EMLL joined the NWA and the title was rebranded as the NWA World Middleweight Championship.",
+      "related": [
+        "NWA World Middleweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Middleweight_Championship"
+      ]
+    },
+    {
+      "date": "1989",
+      "kind": "recognition",
+      "text": "EMLL left the NWA but kept promoting the NWA-branded middleweight title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Middleweight_Championship"
+      ]
+    },
+    {
+      "date": "1991",
+      "kind": "promotion",
+      "text": "EMLL was renamed CMLL, which began introducing CMLL-branded titles, including a separate middleweight title.",
+      "related": [
+        "CMLL World Middleweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Middleweight_Championship"
+      ]
+    },
+    {
+      "date": "1994-11-08",
+      "kind": "brand",
+      "text": "Último Dragón won the title, and it was promoted primarily in Japan for the next 10 years.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Middleweight_Championship"
+      ]
+    },
+    {
+      "date": "2004-09-03",
+      "kind": "promotion",
+      "text": "Averno won the vacant title, bringing it back under CMLL control.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Middleweight_Championship"
+      ]
+    },
+    {
+      "date": "2010-08-12",
+      "kind": "replaces",
+      "text": "CMLL replaced the NWA World Middleweight Championship with the CMLL World Historic Middleweight Championship.",
+      "related": [
+        "NWA World Middleweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Middleweight_Championship"
+      ]
+    },
+    {
+      "date": "2024-10-31",
+      "kind": "deactivated",
+      "text": "Místico vacated the title to move up to the light heavyweight division, leaving it without a champion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Middleweight_Championship"
+      ]
+    },
+    {
+      "date": "2024-11-15",
+      "kind": "reactivated",
+      "text": "Flip Gordon won the vacant title by defeating Villano III Jr. at CMLL Viernes Espectacular.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Middleweight_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/NWA_World_Historic_Middleweight_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r2",
+      "holder": "Averno",
+      "people": [
+        "averno"
+      ],
+      "start": "2010-08-12",
+      "end": "2011-11-22",
+      "days": 467,
+      "number": 1,
+      "event": "Press conference at Arena México",
+      "location": "Mexico City, Distrito Federal",
+      "note": "Final CMLL-recognized NWA champion; named first Historic champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "La Máscara",
+      "people": [
+        "la-mascara"
+      ],
+      "start": "2011-11-22",
+      "end": "2012-02-14",
+      "days": 84,
+      "number": 2,
+      "event": "Live event",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Volador Jr.",
+      "people": [
+        "volador-jr"
+      ],
+      "start": "2012-02-14",
+      "end": "2012-03-30",
+      "days": 45,
+      "number": 3,
+      "event": "CMLL Guadalajara Martes",
+      "location": "Guadalajara, Jalisco",
+      "note": "Shortest reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Prince Devitt",
@@ -14,13 +163,104 @@
       ],
       "start": "2012-03-30",
       "end": "2012-09-28",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 182,
+      "number": 4,
+      "event": "CMLL Super Viernes",
+      "location": "Mexico City, Distrito Federal",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/nwa-world-historic-middleweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/nwa-world-historic-middleweight-championship",
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Middleweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-finn-balor-282"
       ]
+    },
+    {
+      "id": "r5",
+      "holder": "Dragón Rojo Jr.",
+      "people": [
+        "dragon-rojo-jr"
+      ],
+      "start": "2012-09-28",
+      "end": "2013-01-20",
+      "days": 114,
+      "number": 5,
+      "event": "CMLL Super Viernes",
+      "location": "Mexico City, Distrito Federal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "La Sombra",
+      "people": [
+        "andrade"
+      ],
+      "start": "2013-01-20",
+      "end": "2015-08-31",
+      "days": 953,
+      "number": 6,
+      "event": "Fantastica Mania 2013",
+      "location": "Bunkyo, Tokyo",
+      "note": "First title change outside Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Último Guerrero",
+      "people": [
+        "ultimo-guerrero"
+      ],
+      "start": "2015-08-31",
+      "end": "2018-08-21",
+      "days": 1086,
+      "number": 7,
+      "event": "Lunes Clasicos",
+      "location": "Puebla, Puebla",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Carístico/Místico",
+      "people": [
+        "sin-cara"
+      ],
+      "start": "2018-08-21",
+      "end": "2024-10-31",
+      "days": 2263,
+      "number": 8,
+      "event": "Nuevos Valores",
+      "location": "Guadalajara, Jalisco",
+      "note": "Reverted to Místico ring name in 2021",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Middleweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Flip Gordon",
+      "people": [
+        "flip-gordon"
+      ],
+      "start": "2024-11-15",
+      "days": 550,
+      "number": 9,
+      "event": "CMLL Viernes Especatular",
+      "location": "Mexico City, Mexico",
+      "note": "Won the vacant title from Villano III Jr.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Middleweight_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

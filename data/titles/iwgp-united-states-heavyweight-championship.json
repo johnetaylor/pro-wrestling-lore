@@ -1,11 +1,141 @@
 {
   "id": "iwgp-united-states-heavyweight-championship",
   "name": "IWGP United States Heavyweight Championship",
+  "promotion": "njpw",
+  "division": "men",
+  "format": "singles",
+  "established": "2017-05-12",
+  "retired": "2023-12-11",
   "names": [
-    "IWGP United States Heavyweight Championship"
+    "IWGP United States Championship",
+    "IWGP United Kingdom Heavyweight Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "IWGP United States Championship",
+      "from": "2017-05-12",
+      "to": "2017-05-13"
+    },
+    {
+      "name": "IWGP United States Heavyweight Championship",
+      "from": "2017-05-13",
+      "to": "2023-08-12"
+    },
+    {
+      "name": "IWGP United Kingdom Heavyweight Championship",
+      "from": "2023-08-12"
+    }
+  ],
+  "history": [
+    {
+      "date": "2017-11",
+      "kind": "recognition",
+      "text": "Omega said the title had passed the IWGP Intercontinental Championship as NJPW's No. 2 title, but the promotion ranked it second tier, alongside the NEVER Openweight Championship.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2023-08-12",
+      "kind": "brand",
+      "text": "Ospreay rebranded the title during his second reign with a Union Jack-based custom belt, though NJPW continued listing it under the U.S. name.",
+      "related": [
+        "IWGP United Kingdom Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2023-11-06",
+      "kind": "replaces",
+      "text": "NJPW chairman Naoki Sugabayashi announced at a press conference that a new championship would replace the U.S./U.K. title.",
+      "related": [
+        "IWGP Global Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2023-12-11",
+      "kind": "deactivated",
+      "text": "The title was deactivated and retired on this date.",
+      "related": [
+        "IWGP Global Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2023-12-11",
+      "kind": "replaced-by",
+      "text": "The IWGP Global Heavyweight Championship took its place on this date.",
+      "related": [
+        "IWGP Global Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r2",
+      "holder": "Kenny Omega",
+      "people": [
+        "kenny-omega"
+      ],
+      "start": "2017-07-02",
+      "end": "2018-01-28",
+      "days": 210,
+      "number": 1,
+      "event": "G1 Special in USA Night 2",
+      "location": "Long Beach, California, U.S.",
+      "note": "Won eight-man tournament final over Tomohiro Ishii to become inaugural champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Jay White",
+      "people": [
+        "jay-white"
+      ],
+      "start": "2018-01-28",
+      "end": "2018-07-07",
+      "days": 160,
+      "number": 2,
+      "event": "The New Beginning in Sapporo",
+      "location": "Sapporo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Juice Robinson",
+      "people": [
+        "c-j-parker"
+      ],
+      "start": "2018-07-07",
+      "end": "2018-09-30",
+      "days": 85,
+      "number": 3,
+      "event": "G1 Special in San Francisco",
+      "location": "Daly City, California, U.S.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Cody",
@@ -14,13 +144,263 @@
       ],
       "start": "2018-09-30",
       "end": "2019-01-04",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 96,
+      "number": 4,
+      "event": "Fighting Spirit Unleashed",
+      "location": "Long Beach, California, U.S.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-united-states-heavyweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/njpw/iwgp-united-states-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-cody-rhodes-119"
       ]
+    },
+    {
+      "id": "r5",
+      "holder": "Juice Robinson",
+      "people": [
+        "c-j-parker"
+      ],
+      "start": "2019-01-04",
+      "end": "2019-06-05",
+      "days": 152,
+      "number": 5,
+      "event": "Wrestle Kingdom 13 in Tokyo Dome",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Jon Moxley",
+      "people": [
+        "dean-ambrose"
+      ],
+      "start": "2019-06-05",
+      "end": "2019-10-14",
+      "days": 130,
+      "number": 6,
+      "event": "Best of the Super Juniors 26 Final",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Lance Archer",
+      "people": [
+        "lance-archer"
+      ],
+      "start": "2019-10-14",
+      "end": "2020-01-04",
+      "days": 82,
+      "number": 7,
+      "event": "King of Pro-Wrestling",
+      "location": "Tokyo, Japan",
+      "note": "Won vacant title from Juice Robinson in a no disqualification match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Jon Moxley",
+      "people": [
+        "dean-ambrose"
+      ],
+      "start": "2020-01-04",
+      "end": "2021-07-21",
+      "days": 564,
+      "number": 8,
+      "event": "Wrestle Kingdom 14 Night 1",
+      "location": "Tokyo, Japan",
+      "note": "Texas Death Match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Lance Archer",
+      "people": [
+        "lance-archer"
+      ],
+      "start": "2021-07-21",
+      "end": "2021-08-14",
+      "days": 24,
+      "number": 9,
+      "event": "AEW Fyter Fest Night 2",
+      "location": "Garland, Texas, U.S.",
+      "note": "Texas Death Match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Hiroshi Tanahashi",
+      "people": [
+        "hiroshi-tanahashi"
+      ],
+      "start": "2021-08-14",
+      "end": "2021-11-06",
+      "days": 84,
+      "number": 10,
+      "event": "Resurgence",
+      "location": "Los Angeles, California, U.S.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Kenta",
+      "people": [
+        "hideo-itami"
+      ],
+      "start": "2021-11-06",
+      "end": "2022-01-05",
+      "days": 60,
+      "number": 11,
+      "event": "Power Struggle",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Hiroshi Tanahashi",
+      "people": [
+        "hiroshi-tanahashi"
+      ],
+      "start": "2022-01-05",
+      "end": "2022-02-19",
+      "days": 45,
+      "number": 12,
+      "event": "Wrestle Kingdom 16 Night 2",
+      "location": "Tokyo, Japan",
+      "note": "No disqualification match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Sanada",
+      "people": [
+        "sanada"
+      ],
+      "start": "2022-02-19",
+      "end": "2022-04-09",
+      "days": 49,
+      "number": 13,
+      "event": "New Years Golden Series",
+      "location": "Sapporo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Hiroshi Tanahashi",
+      "people": [
+        "hiroshi-tanahashi"
+      ],
+      "start": "2022-05-01",
+      "end": "2022-05-14",
+      "days": 13,
+      "number": 14,
+      "event": "Wrestling Dontaku",
+      "location": "Fukuoka, Japan",
+      "note": "Beat Tomohiro Ishii for the vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Juice Robinson",
+      "people": [
+        "c-j-parker"
+      ],
+      "start": "2022-05-14",
+      "end": "2022-06-11",
+      "days": 28,
+      "number": 15,
+      "event": "Capital Collision",
+      "location": "Washington, D.C., U.S.",
+      "note": "Fatal four-way match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Will Ospreay",
+      "people": [
+        "will-ospreay"
+      ],
+      "start": "2022-06-12",
+      "end": "2023-01-04",
+      "days": 206,
+      "number": 16,
+      "event": "Dominion 6.12 in Osaka-jo Hall",
+      "location": "Osaka, Japan",
+      "note": "Beat Sanada for the vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Kenny Omega",
+      "people": [
+        "kenny-omega"
+      ],
+      "start": "2023-01-04",
+      "end": "2023-06-25",
+      "days": 172,
+      "number": 17,
+      "event": "Wrestle Kingdom 17",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Will Ospreay",
+      "people": [
+        "will-ospreay"
+      ],
+      "start": "2023-06-25",
+      "end": "2023-12-11",
+      "days": 169,
+      "number": 18,
+      "event": "AEW x NJPW: Forbidden Door",
+      "location": "Toronto, ON, Canada",
+      "note": "Renamed the title the IWGP United Kingdom Heavyweight Championship during this reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/IWGP_United_States_Heavyweight_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

@@ -1,11 +1,128 @@
 {
   "id": "cmll-occidente-heavyweight-championship",
-  "name": "CMLL Occidente Heavyweight Championship",
+  "name": "Occidente Heavyweight Championship",
+  "promotion": "cmll",
+  "division": "men",
+  "format": "singles",
+  "established": "1954-06-20",
   "names": [
     "CMLL Occidente Heavyweight Championship"
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "2008-06",
+      "kind": "deactivated",
+      "text": "Title was officially declared vacant after being inactive since 2005, when Sheriff began working as Cien Caras Jr.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Occidente_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2012-07-20",
+      "kind": "reactivated",
+      "text": "Diamante defeated Misterioso Jr. in a tournament final after a 10-man torneo cibernetico, becoming the first champion in seven years.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Occidente_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2019-10-20",
+      "kind": "replaced-by",
+      "text": "Star Black vacated the title due to an injury, and Exterminador won it the same day.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Occidente_Heavyweight_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Occidente_Heavyweight_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r2",
+      "holder": "El Bulldog",
+      "people": [
+        "el-bulldog"
+      ],
+      "start": "1954-06-20",
+      "end": "1954-12-19",
+      "days": 182,
+      "number": 3,
+      "event": "CMLL Guadalajara Domingos",
+      "location": "Guadalajara, Jalisco, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Occidente_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Lotario",
+      "people": [
+        "lotario"
+      ],
+      "start": "1954-12-19",
+      "end": "1955-08-07",
+      "days": 231,
+      "number": 4,
+      "location": "Guadalajara, Jalisco, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Occidente_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Sheriff",
+      "people": [
+        "sheriff"
+      ],
+      "start": "2004-05-09",
+      "end": "2008-07",
+      "number": 7,
+      "event": "Live event",
+      "location": "Guadalajara, Jalisco, Mexico",
+      "note": "Beat Leon Blanco for the title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Occidente_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Diamante",
+      "people": [
+        "diamante"
+      ],
+      "start": "2012-07-20",
+      "end": "2012-09-18",
+      "days": 60,
+      "number": 8,
+      "event": "CMLL Guadalajara Viernes",
+      "location": "Guadalajara, Jalisco, Mexico",
+      "note": "Won tournament final over Misterioso II",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Occidente_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Olímpico",
+      "people": [
+        "olimpico"
+      ],
+      "start": "2012-09-18",
+      "end": "2014-02-02",
+      "days": 502,
+      "number": 9,
+      "event": "CMLL Guadalajara TV",
+      "location": "Guadalajara, Jalisco, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Occidente_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Diamante Azul",
@@ -21,6 +138,57 @@
       "legacyIds": [
         "profile-reign-dmt-azul-171"
       ]
+    },
+    {
+      "id": "r7",
+      "holder": "Diamante Azul",
+      "people": [
+        "dmt-azul"
+      ],
+      "start": "2014-02-02",
+      "end": "2018-03-13",
+      "days": 1500,
+      "number": 10,
+      "event": "CMLL Guadalajara Domingos",
+      "location": "Guadalajara, Jalisco, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Occidente_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Furia Roja",
+      "people": [
+        "furia-roja"
+      ],
+      "start": "2018-03-13",
+      "end": "2018-10-28",
+      "days": 229,
+      "number": 11,
+      "event": "CMLL Guadalajara Domingos",
+      "location": "Guadalajara, Jalisco, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Occidente_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Bestia Negra",
+      "people": [
+        "bestia-negra"
+      ],
+      "start": "2022-03-01",
+      "days": 1546,
+      "number": 14,
+      "event": "CMLL Guadalajara Domingos",
+      "location": "Guadalajara, Jalisco, Mexico",
+      "note": "Table lists 2022; infobox and text say 2023",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Occidente_Heavyweight_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

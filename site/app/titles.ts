@@ -46,7 +46,7 @@ interface Tree {
 /** "Women's tag team", "Trios", "" for men's singles. */
 export function titleKind(f: TitleFacts | undefined): string {
   if (!f?.division && !f?.format) return '';
-  const format = f.format === 'tag' ? 'tag team' : f.format === 'trios' ? 'trios' : '';
+  const format = f.format === 'tag' ? 'tag team' : f.format === 'trios' ? 'trios' : f.format === 'quartet' ? 'team of four' : '';
   if (f.division === 'women') return `Women’s${format ? ` ${format}` : ''}`;
   if (f.division === 'mixed') return format ? `Mixed ${format}` : 'Open to anyone';
   return format ? format[0].toUpperCase() + format.slice(1) : '';

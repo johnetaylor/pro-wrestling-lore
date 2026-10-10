@@ -1,11 +1,139 @@
 {
   "id": "nwa-world-historic-welterweight-championship",
   "name": "NWA World Historic Welterweight Championship",
-  "names": [
-    "NWA World Historic Welterweight Championship"
+  "promotion": "cmll",
+  "division": "men",
+  "format": "singles",
+  "established": "2010-08-12",
+  "names": [],
+  "eras": [
+    {
+      "name": "NWA World Historic Welterweight Championship",
+      "from": "2010-08-12"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "1952",
+      "kind": "recognition",
+      "text": "EMLL joined the NWA and the championship received the \"NWA\" prefix.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "1992",
+      "kind": "promotion",
+      "text": "EMLL was renamed Consejo Mundial de Lucha Libre (CMLL) as a separate entity after leaving the NWA.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "1992-05",
+      "kind": "deactivated",
+      "text": "Misterioso left CMLL and the NWA World Welterweight Championship was vacated; CMLL did not promote it for about three years.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "1995",
+      "kind": "reactivated",
+      "text": "CMLL brought back the NWA World Welterweight Championship in the winter of 1995, with Negro Casas winning it.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "1996-08",
+      "kind": "unified-into",
+      "text": "Negro Casas lost the championship in a tournament creating the J-Crown, which unified eight championships as one.",
+      "related": [
+        "J-Crown"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "1996",
+      "kind": "brand",
+      "text": "From 1996 through 2007 the championship was promoted in Japan.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "2007-11-27",
+      "kind": "promotion",
+      "text": "La Sombra defeated Hajime Ohara to bring the championship back to CMLL.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "2010",
+      "kind": "recognition",
+      "text": "NWA Mexico asked CMLL to stop using NWA-branded titles because CMLL was no longer part of the NWA; CMLL did not respond directly.",
+      "related": [
+        "NWA World Welterweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "2010-08-12",
+      "kind": "replaces",
+      "text": "CMLL debuted the new belt, renamed the title NWA World Historic Welterweight Championship, and named Mephisto the first champion.",
+      "related": [
+        "NWA World Welterweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r2",
+      "holder": "Mephisto",
+      "people": [
+        "mephisto"
+      ],
+      "start": "2010-08-12",
+      "end": "2011-03-13",
+      "days": 213,
+      "number": 1,
+      "event": "Press conference at Arena México",
+      "location": "Mexico City",
+      "note": "Final CMLL-recognized NWA champion; named first Historic champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "La Sombra",
+      "people": [
+        "andrade"
+      ],
+      "start": "2011-03-13",
+      "end": "2012-02-13",
+      "days": 337,
+      "number": 2,
+      "event": "Domingo Familiar",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Negro Casas",
@@ -14,13 +142,153 @@
       ],
       "start": "2012-02-13",
       "end": "2013-06-02",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 475,
+      "number": 3,
+      "event": "Live event",
+      "location": "Puebla, Puebla",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/nwa-world-historic-welterweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/nwa-world-historic-welterweight-championship",
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-negro-casas-479"
       ]
+    },
+    {
+      "id": "r4",
+      "holder": "Máscara Dorada",
+      "people": [
+        "gran-metalik"
+      ],
+      "start": "2013-06-02",
+      "end": "2013-11-19",
+      "days": 170,
+      "number": 4,
+      "event": "Sin Salida",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Volador Jr.",
+      "people": [
+        "volador-jr"
+      ],
+      "start": "2013-11-19",
+      "end": "2014-06-06",
+      "days": 199,
+      "number": 5,
+      "event": "Martes Popular",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "La Sombra",
+      "people": [
+        "andrade"
+      ],
+      "start": "2014-06-06",
+      "end": "2014-08-01",
+      "days": 56,
+      "number": 6,
+      "event": "Super Viernes",
+      "location": "Mexico City",
+      "note": "Also held his Historic Middleweight title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Volador Jr.",
+      "people": [
+        "volador-jr"
+      ],
+      "start": "2014-08-01",
+      "end": "2018-03-30",
+      "days": 1337,
+      "number": 7,
+      "event": "El Juicio Final",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Matt Taven",
+      "people": [
+        "matt-taven"
+      ],
+      "start": "2018-03-30",
+      "end": "2018-08-03",
+      "days": 126,
+      "number": 8,
+      "event": "Super Viernes",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Volador Jr.",
+      "people": [
+        "volador-jr"
+      ],
+      "start": "2018-08-03",
+      "end": "2023-01-20",
+      "days": 1631,
+      "number": 9,
+      "event": "Negro Casas 40th Anniversary Show",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Rocky Romero",
+      "people": [
+        "rocky-romero"
+      ],
+      "start": "2023-01-20",
+      "end": "2023-12-15",
+      "days": 328,
+      "number": 10,
+      "event": "Super Viernes",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Máscara Dorada 2.0",
+      "people": [
+        "mascara-dorada"
+      ],
+      "start": "2023-12-15",
+      "days": 892,
+      "number": 11,
+      "event": "Super Viernes",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Welterweight_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

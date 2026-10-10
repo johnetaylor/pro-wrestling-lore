@@ -1,11 +1,1701 @@
 {
   "id": "nwa-national-heavyweight-championship",
   "name": "NWA National Heavyweight Championship",
+  "promotion": "nwa",
+  "division": "men",
+  "format": "singles",
+  "established": "1980-01-12",
   "names": [
-    "NWA National Heavyweight Championship"
+    "NWA National Championship"
+  ],
+  "eras": [
+    {
+      "name": "NWA National Heavyweight Championship",
+      "from": "1980-01-12",
+      "to": "2018-10-21"
+    },
+    {
+      "name": "NWA National Championship",
+      "from": "2018-10-21",
+      "to": "2022"
+    },
+    {
+      "name": "NWA National Heavyweight Championship",
+      "from": "2022"
+    }
+  ],
+  "history": [
+    {
+      "date": "1984-07",
+      "kind": "recognition",
+      "text": "After GCW was bought by the WWF in July 1984, The Spoiler joined the WWF, which briefly recognized the title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1984-07",
+      "kind": "promotion",
+      "text": "Championship Wrestling from Georgia, founded by Ole Anderson, launched with NWA affiliation, and the title was awarded to Ted DiBiase.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1985",
+      "kind": "promotion",
+      "text": "Jim Crockett Promotions bought Championship Wrestling from Georgia and began recognizing its championships.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1986-09-28",
+      "kind": "unified-into",
+      "text": "Nikita Koloff beat Wahoo McDaniel in a unification match, and the National title was then deactivated.",
+      "related": [
+        "NWA United States Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1986-09-28",
+      "kind": "deactivated",
+      "text": "The title was deactivated after being unified with the NWA United States Heavyweight Championship.",
+      "related": [
+        "NWA United States Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1997-05",
+      "kind": "reactivated",
+      "text": "The title was reactivated and promoted by various NWA-affiliated independent promotions.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2017-10",
+      "kind": "promotion",
+      "text": "Billy Corgan's Lightning One, Inc. bought the NWA's properties, ending affiliation agreements and leading to the title being vacated.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2018-10-21",
+      "kind": "reactivated",
+      "text": "The title was renamed the NWA National Championship and reactivated, with an eight-man tournament at the NWA 70th Anniversary Show won by Willie Mack.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ]
+    }
   ],
   "sources": [
-    "https://www.wrestling-titles.com/nwa/others/nat-h.html"
+    "https://www.wrestling-titles.com/nwa/others/nat-h.html",
+    "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
   ],
-  "reigns": []
+  "reigns": [
+    {
+      "id": "r1",
+      "holder": "Austin Idol",
+      "people": [
+        "austin-idol"
+      ],
+      "start": "1980-01-12",
+      "end": "1980-08-20",
+      "days": 221,
+      "number": 1,
+      "location": "Atlanta, GA",
+      "note": "Inaugural champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r2",
+      "holder": "The Mongolian Stomper",
+      "people": [
+        "the-mongolian-stomper"
+      ],
+      "start": "1980-12-12",
+      "end": "1981-03-29",
+      "days": 107,
+      "number": 3,
+      "event": "Live event",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Steve Olsonoski",
+      "people": [
+        "steve-olsonoski"
+      ],
+      "start": "1981-03-29",
+      "end": "1981-08-15",
+      "days": 139,
+      "number": 4,
+      "event": "Live event",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "The Masked Superstar",
+      "people": [
+        "ax"
+      ],
+      "start": "1981-08-15",
+      "end": "1981-09-28",
+      "days": 44,
+      "number": 5,
+      "event": "Live event",
+      "location": "Columbus, GA",
+      "note": "Unified with NWA Georgia title on Sept 19 1981",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Tommy Rich",
+      "people": [
+        "tommy-rich"
+      ],
+      "start": "1981-09-28",
+      "end": "1981-11-25",
+      "days": 58,
+      "number": 6,
+      "event": "Live event",
+      "location": "Augusta, GA",
+      "note": "Mask vs hair steel cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "The Masked Superstar",
+      "people": [
+        "ax"
+      ],
+      "start": "1981-11-25",
+      "end": "1982-01-17",
+      "days": 53,
+      "number": 7,
+      "event": "Live event",
+      "location": "Atlanta, GA",
+      "note": "Texas death match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Tommy Rich",
+      "people": [
+        "tommy-rich"
+      ],
+      "start": "1982-01-17",
+      "end": "1982-03-15",
+      "days": 57,
+      "number": 8,
+      "event": "Live event",
+      "location": "Atlanta, GA",
+      "note": "Steel cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Ron Bass",
+      "people": [
+        "ron-bass"
+      ],
+      "start": "1982-03-15",
+      "end": "1982-04-19",
+      "days": 35,
+      "number": 9,
+      "event": "Live event",
+      "location": "Augusta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Tommy Rich",
+      "people": [
+        "tommy-rich"
+      ],
+      "start": "1982-04-19",
+      "end": "1982-05-02",
+      "days": 13,
+      "number": 10,
+      "event": "Live event",
+      "location": "Augusta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Buzz Sawyer",
+      "people": [
+        "buzz-sawyer"
+      ],
+      "start": "1982-05-02",
+      "end": "1982-06-20",
+      "days": 49,
+      "number": 11,
+      "event": "Live event",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Paul Orndorff",
+      "people": [
+        "paul-orndorff"
+      ],
+      "start": "1982-06-20",
+      "end": "1982-07-30",
+      "days": 40,
+      "number": 12,
+      "event": "Live event",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "The Super Destroyer",
+      "people": [
+        "the-super-destroyer"
+      ],
+      "start": "1982-08-29",
+      "end": "1982-10-03",
+      "days": 35,
+      "number": 13,
+      "event": "Live event",
+      "location": "Atlanta, GA",
+      "note": "Won 11-man tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Paul Orndorff",
+      "people": [
+        "paul-orndorff"
+      ],
+      "start": "1982-10-03",
+      "end": "1982-10-17",
+      "days": 14,
+      "number": 14,
+      "event": "Live event",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "The Masked Superstar",
+      "people": [
+        "ax"
+      ],
+      "start": "1982-10-17",
+      "end": "1982-11-07",
+      "days": 21,
+      "number": 15,
+      "event": "Live event",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Paul Orndorff",
+      "people": [
+        "paul-orndorff"
+      ],
+      "start": "1982-11-07",
+      "end": "1983-03-20",
+      "days": 133,
+      "number": 16,
+      "event": "Live event",
+      "location": "Atlanta, GA",
+      "note": "No DQ match; some records show a Killer Karl Kox reign inside this span",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Killer Tim Brooks",
+      "people": [
+        "killer-tim-brooks"
+      ],
+      "start": "1983-03-20",
+      "end": "1983-03-20",
+      "days": 0,
+      "number": 17,
+      "event": "Live event",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Larry Zbyszko",
+      "people": [
+        "larry-zbyszko"
+      ],
+      "start": "1983-03-20",
+      "end": "1983-04-30",
+      "days": 41,
+      "number": 18,
+      "event": "Live event",
+      "location": "Atlanta, GA",
+      "note": "Bought title from Killer Tim Brooks for 25000 dollars",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Larry Zbyszko",
+      "people": [
+        "larry-zbyszko"
+      ],
+      "start": "1983-06-05",
+      "end": "1983-06-19",
+      "days": 14,
+      "number": 19,
+      "event": "Live event",
+      "location": "Atlanta, GA",
+      "note": "Won 12-man tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Mr. Wrestling II",
+      "people": [
+        "mr-wrestling-ii"
+      ],
+      "start": "1983-06-19",
+      "end": "1983-07-17",
+      "days": 28,
+      "number": 20,
+      "event": "Live event",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Larry Zbyszko",
+      "people": [
+        "larry-zbyszko"
+      ],
+      "start": "1983-07-17",
+      "end": "1983-09-25",
+      "days": 70,
+      "number": 21,
+      "event": "Live event",
+      "location": "Huntington, WV",
+      "note": "No time limit no DQ match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Brett Sawyer",
+      "people": [
+        "brett-sawyer"
+      ],
+      "start": "1983-09-25",
+      "end": "1983-11-18",
+      "days": 54,
+      "number": 22,
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Ted DiBiase",
+      "people": [
+        "ted-dibiase"
+      ],
+      "start": "1983-11-18",
+      "end": "1984-02-18",
+      "days": 92,
+      "number": 23,
+      "location": "Cleveland, OH",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Brad Armstrong",
+      "people": [
+        "brad-armstrong"
+      ],
+      "start": "1984-02-18",
+      "end": "1984-04-12",
+      "days": 54,
+      "number": 24,
+      "event": "World Championship Wrestling",
+      "location": "Atlanta, GA",
+      "note": "Won while masked as Mr. R",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "The Spoiler",
+      "people": [
+        "the-spoiler"
+      ],
+      "start": "1984-04-12",
+      "end": "1984-05-04",
+      "days": 22,
+      "number": 25,
+      "event": "Live event",
+      "location": "Wheeling, WV",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Brad Armstrong",
+      "people": [
+        "brad-armstrong"
+      ],
+      "start": "1984-05-04",
+      "end": "1984-07-01",
+      "days": 58,
+      "number": 26,
+      "event": "Live event",
+      "location": "Marietta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "The Spoiler",
+      "people": [
+        "the-spoiler"
+      ],
+      "start": "1984-07-01",
+      "end": "1984-07-14",
+      "days": 13,
+      "number": 27,
+      "event": "Live event",
+      "location": "Atlanta, GA",
+      "note": "Joined WWF during reign; defended on WWF Georgia events",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Ted DiBiase",
+      "people": [
+        "ted-dibiase"
+      ],
+      "start": "1984-07-14",
+      "end": "1984-10-11",
+      "days": 89,
+      "number": 28,
+      "location": "Macon, GA",
+      "note": "Phantom match after The Spoiler left for WWF",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Ron Garvin",
+      "people": [
+        "ronnie-garvin"
+      ],
+      "start": "1984-10-11",
+      "end": "1985-06-01",
+      "days": 233,
+      "number": 29,
+      "event": "GCW Night of Champions",
+      "location": "Baltimore, MD",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "Black Bart",
+      "people": [
+        "black-bart"
+      ],
+      "start": "1985-06-01",
+      "end": "1985-09-22",
+      "days": 113,
+      "number": 30,
+      "event": "NWA World Championship Wrestling",
+      "location": "Atlanta, GA",
+      "note": "Loser leaves town stipulation",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Terry Taylor",
+      "people": [
+        "terry-taylor"
+      ],
+      "start": "1985-09-22",
+      "end": "1985-11-28",
+      "days": 67,
+      "number": 31,
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "Buddy Landel",
+      "people": [
+        "buddy-landel"
+      ],
+      "start": "1985-11-28",
+      "end": "1985-12-19",
+      "days": 21,
+      "number": 32,
+      "event": "Starrcade",
+      "location": "Greensboro, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Dusty Rhodes",
+      "people": [
+        "dusty-rhodes"
+      ],
+      "start": "1985-12-19",
+      "end": "1986-03-04",
+      "days": 75,
+      "number": 33,
+      "location": "Albuquerque, NM",
+      "note": "Awarded in phantom match after Landel was fired",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Tully Blanchard",
+      "people": [
+        "tully-blanchard"
+      ],
+      "start": "1986-03-04",
+      "end": "1986-08-28",
+      "days": 177,
+      "number": 34,
+      "event": "MACW TV Taping",
+      "location": "Spartanburg, SC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Wahoo McDaniel",
+      "people": [
+        "wahoo-mcdaniel"
+      ],
+      "start": "1986-08-28",
+      "end": "1986-09-28",
+      "days": 31,
+      "number": 35,
+      "event": "Live event",
+      "location": "Los Angeles, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "Nikita Koloff",
+      "people": [
+        "nikita-koloff"
+      ],
+      "start": "1986-09-28",
+      "end": "1986-09-28",
+      "days": 0,
+      "number": 36,
+      "event": "Live event",
+      "location": "Atlanta, GA",
+      "note": "Unification match also defended US title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "Big Slam",
+      "people": [
+        "big-slam"
+      ],
+      "start": "1997-05-17",
+      "end": "1997-07-18",
+      "days": 62,
+      "number": 37,
+      "note": "Awarded after NWA reactivated title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "Doug Gilbert",
+      "people": [
+        "doug-gilbert"
+      ],
+      "start": "1998-03-27",
+      "end": "1998-08-22",
+      "days": 148,
+      "number": 39,
+      "event": "Live event",
+      "location": "Mount Holly, NJ",
+      "note": "Won three-way match for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r38",
+      "holder": "Stevie Richards",
+      "people": [
+        "stevie-richards"
+      ],
+      "start": "1998-08-22",
+      "end": "1998-10-24",
+      "days": 63,
+      "number": 40,
+      "event": "Live event",
+      "location": "Mount Holly, NJ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "Doug Gilbert",
+      "people": [
+        "doug-gilbert"
+      ],
+      "start": "1998-10-24",
+      "end": "2000-01-15",
+      "days": 448,
+      "number": 41,
+      "event": "NWA 50th Anniversary Show",
+      "location": "Cherry Hill, NJ",
+      "note": "Eight-man tag team steel cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "Stone Mountain",
+      "people": [
+        "stone-mountain"
+      ],
+      "start": "2000-09-13",
+      "end": "2000-11-04",
+      "days": 52,
+      "number": 44,
+      "location": "Athens, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "Terry Knight",
+      "people": [
+        "terry-knight"
+      ],
+      "start": "2000-11-04",
+      "end": "2001-01-12",
+      "days": 69,
+      "number": 45,
+      "location": "Cornelia, GA",
+      "note": "Unified with NWA Wildside US title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Don Brodie",
+      "people": [
+        "don-brodie"
+      ],
+      "start": "2001-01-12",
+      "end": "2001-08-10",
+      "days": 210,
+      "number": 46,
+      "location": "Greenville, MS",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "Kevin Northcutt",
+      "people": [
+        "kevin-northcutt"
+      ],
+      "start": "2001-08-22",
+      "end": "2001-10-13",
+      "days": 52,
+      "number": 47,
+      "note": "Awarded the title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "Hotstuff Hernandez",
+      "people": [
+        "hotstuff-hernandez"
+      ],
+      "start": "2001-10-13",
+      "end": "2003-01-11",
+      "days": 455,
+      "number": 48,
+      "event": "NWA 53rd Anniversary Show",
+      "location": "St. Petersburg, FL",
+      "note": "Disputed Hashimoto match in Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "Ricky Murdock",
+      "people": [
+        "ricky-murdock"
+      ],
+      "start": "2003-01-11",
+      "end": "2004-10-15",
+      "days": 643,
+      "number": 49,
+      "location": "Greenville, MS",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "Spyder",
+      "people": [
+        "spyder"
+      ],
+      "start": "2004-10-15",
+      "end": "2005-10-08",
+      "days": 358,
+      "number": 50,
+      "event": "NWA 56th Anniversary Show night 1",
+      "location": "Winnipeg, Manitoba, Canada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "Ricky Murdock",
+      "people": [
+        "ricky-murdock"
+      ],
+      "start": "2005-10-08",
+      "end": "2006-03-31",
+      "days": 174,
+      "number": 51,
+      "event": "NWA 57th Anniversary Show",
+      "location": "Nashville, TN",
+      "note": "Three-way match for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "Big Bully Douglas",
+      "people": [
+        "big-bully-douglas"
+      ],
+      "start": "2006-04-01",
+      "end": "2006-09-30",
+      "days": 182,
+      "number": 52,
+      "location": "Columbia, TN",
+      "note": "Won rematch for held up title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r49",
+      "holder": "Kory Williams",
+      "people": [
+        "kory-williams"
+      ],
+      "start": "2006-09-30",
+      "end": "2007-05-05",
+      "days": 217,
+      "number": 53,
+      "location": "Lebanon, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r50",
+      "holder": "Joey Nelson",
+      "people": [
+        "joey-nelson"
+      ],
+      "start": "2007-05-05",
+      "end": "2007-10-12",
+      "days": 160,
+      "number": 54,
+      "location": "Salyersville, KY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r51",
+      "holder": "Pepper Parks",
+      "people": [
+        "pepper-parks"
+      ],
+      "start": "2007-10-20",
+      "end": "2008-04-18",
+      "days": 181,
+      "number": 55,
+      "event": "Live event",
+      "location": "Lebanon, TN",
+      "note": "Won vacant title over Kory Williams",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "Crusher Hansen",
+      "people": [
+        "crusher-hansen"
+      ],
+      "start": "2008-04-18",
+      "end": "2008-12-13",
+      "days": 239,
+      "number": 56,
+      "event": "PWX Crossfire",
+      "location": "McKeesport, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r53",
+      "holder": "Brandon K",
+      "people": [
+        "brandon-k"
+      ],
+      "start": "2008-12-13",
+      "end": "2008-12-17",
+      "days": 4,
+      "number": 57,
+      "location": "McKeesport, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r54",
+      "holder": "Crusher Hansen",
+      "people": [
+        "crusher-hansen"
+      ],
+      "start": "2008-12-17",
+      "end": "2009-01-17",
+      "days": 31,
+      "number": 58,
+      "location": "McKeesport, PA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r55",
+      "holder": "Phil Shatter",
+      "people": [
+        "phil-shatter"
+      ],
+      "start": "2009-01-17",
+      "end": "2011-02-19",
+      "days": 763,
+      "number": 59,
+      "event": "PWX Genesis 2",
+      "location": "McKeesport, PA",
+      "note": "Three-way elimination match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r56",
+      "holder": "Chance Prophet",
+      "people": [
+        "chance-prophet"
+      ],
+      "start": "2011-02-19",
+      "end": "2012-03-29",
+      "days": 404,
+      "number": 60,
+      "location": "Franklinville, NJ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "Kahagas",
+      "people": [
+        "kahagas"
+      ],
+      "start": "2012-03-29",
+      "end": "2012-11-14",
+      "days": 230,
+      "number": 61,
+      "event": "NWA Ring Warriors Battle of the Belts",
+      "location": "Miami, FL",
+      "note": "Four corners weapons match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r58",
+      "holder": "Damien Wayne",
+      "people": [
+        "damien-wayne"
+      ],
+      "start": "2013-01-05",
+      "end": "2013-06-14",
+      "days": 160,
+      "number": 62,
+      "event": "NWA Edge",
+      "location": "Nashville, NC",
+      "note": "Three-way dance for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r59",
+      "holder": "Vordell Walker",
+      "people": [
+        "vordell-walker"
+      ],
+      "start": "2013-06-14",
+      "end": "2013-08-02",
+      "days": 49,
+      "number": 63,
+      "event": "NWA SAW Gathering of the Champions",
+      "location": "Millersville, TN",
+      "note": "Steel cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r60",
+      "holder": "Damien Wayne",
+      "people": [
+        "damien-wayne"
+      ],
+      "start": "2013-08-02",
+      "end": "2013-09-14",
+      "days": 43,
+      "number": 64,
+      "event": "Live event",
+      "location": "Millersville, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r61",
+      "holder": "Phil Monahan",
+      "people": [
+        "phil-monahan"
+      ],
+      "start": "2013-09-14",
+      "end": "2014-03-01",
+      "days": 168,
+      "number": 65,
+      "event": "Live event",
+      "location": "Toledo, OH",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r62",
+      "holder": "Lou Marconi",
+      "people": [
+        "lou-marconi"
+      ],
+      "start": "2014-03-01",
+      "end": "2014-03-22",
+      "days": 21,
+      "number": 66,
+      "location": "Williamston, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r63",
+      "holder": "Phil Monahan",
+      "people": [
+        "phil-monahan"
+      ],
+      "start": "2014-03-22",
+      "end": "2014-03-23",
+      "days": 1,
+      "number": 67,
+      "event": "WrestleRama 13",
+      "location": "Hillsdale, MI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r64",
+      "holder": "Lou Marconi",
+      "people": [
+        "lou-marconi"
+      ],
+      "start": "2014-03-23",
+      "end": "2014-04-05",
+      "days": 13,
+      "number": 68,
+      "event": "Live event",
+      "location": "Oregon, OH",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r65",
+      "holder": "Phil Monahan",
+      "people": [
+        "phil-monahan"
+      ],
+      "start": "2014-04-05",
+      "end": "2014-07-12",
+      "days": 98,
+      "number": 69,
+      "location": "Carolina Beach, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r66",
+      "holder": "Lou Marconi",
+      "people": [
+        "lou-marconi"
+      ],
+      "start": "2014-07-12",
+      "end": "2015-02-06",
+      "days": 209,
+      "number": 70,
+      "event": "NWA Smoky Mountain Steel Cage Showdown",
+      "location": "Carolina Beach, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r67",
+      "holder": "Jax Dane",
+      "people": [
+        "jax-dane"
+      ],
+      "start": "2015-02-06",
+      "end": "2015-05-28",
+      "days": 111,
+      "number": 71,
+      "event": "Live event",
+      "location": "Millersville, TN",
+      "note": "Held alongside North American title for a time",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r68",
+      "holder": "Arrick Andrews",
+      "people": [
+        "arrick-andrews"
+      ],
+      "start": "2015-07-11",
+      "end": "2016-01-02",
+      "days": 175,
+      "number": 72,
+      "event": "Live event",
+      "location": "Cookeville, TN",
+      "note": "Won eight-man tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r69",
+      "holder": "John Saxon",
+      "people": [
+        "john-saxon"
+      ],
+      "start": "2016-01-09",
+      "end": "2016-01-30",
+      "days": 21,
+      "number": 73,
+      "location": "Dyersburg, TN",
+      "note": "Won battle royal for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r70",
+      "holder": "Greg Anthony",
+      "people": [
+        "greg-anthony"
+      ],
+      "start": "2016-01-30",
+      "end": "2016-07-02",
+      "days": 154,
+      "number": 74,
+      "location": "Dyersburg, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r71",
+      "holder": "Mustang Mike",
+      "people": [
+        "mustang-mike"
+      ],
+      "start": "2016-07-02",
+      "end": "2016-07-09",
+      "days": 7,
+      "number": 75,
+      "location": "Morgan City, LA",
+      "note": "Steel cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r72",
+      "holder": "Greg Anthony",
+      "people": [
+        "greg-anthony"
+      ],
+      "start": "2016-07-09",
+      "end": "2016-09-17",
+      "days": 70,
+      "number": 76,
+      "location": "Dyersburg, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r73",
+      "holder": "Jake Logan",
+      "people": [
+        "jake-logan"
+      ],
+      "start": "2016-09-17",
+      "end": "2016-10-29",
+      "days": 42,
+      "number": 77,
+      "location": "Amarillo, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r74",
+      "holder": "Greg Anthony",
+      "people": [
+        "greg-anthony"
+      ],
+      "start": "2016-10-29",
+      "end": "2016-11-19",
+      "days": 21,
+      "number": 78,
+      "event": "Live event",
+      "location": "Dyersburg, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r75",
+      "holder": "Damien Wayne",
+      "people": [
+        "damien-wayne"
+      ],
+      "start": "2016-11-19",
+      "end": "2017-02-03",
+      "days": 76,
+      "number": 79,
+      "location": "Gallatin, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r76",
+      "holder": "Kahagas",
+      "people": [
+        "kahagas"
+      ],
+      "start": "2017-02-03",
+      "end": "2017-09-30",
+      "days": 239,
+      "number": 80,
+      "location": "Franklin, KY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r77",
+      "holder": "Willie Mack",
+      "people": [
+        "willie-mack"
+      ],
+      "start": "2018-10-21",
+      "end": "2019-04-27",
+      "days": 188,
+      "number": 81,
+      "event": "NWA 70th Anniversary Show",
+      "location": "Nashville, TN",
+      "note": "Won vacant title over Sam Shaw",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r78",
+      "holder": "Colt Cabana",
+      "people": [
+        "colt-cabana"
+      ],
+      "start": "2019-04-27",
+      "end": "2019-06-29",
+      "days": 63,
+      "number": 82,
+      "event": "Crockett Cup 2019",
+      "location": "Concord, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r79",
+      "holder": "James Storm",
+      "people": [
+        "james-storm"
+      ],
+      "start": "2019-06-29",
+      "end": "2019-10-01",
+      "days": 94,
+      "number": 83,
+      "event": "Ring of Honor Wrestling",
+      "location": "Philadelphia, Pennsylvania, U.S.",
+      "note": "Dark match later aired on NWA YouTube",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r80",
+      "holder": "Colt Cabana",
+      "people": [
+        "colt-cabana"
+      ],
+      "start": "2019-10-01",
+      "end": "2019-12-14",
+      "days": 74,
+      "number": 84,
+      "event": "NWA Power",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r81",
+      "holder": "Aron Stevens",
+      "people": [
+        "damien-sandow"
+      ],
+      "start": "2019-12-14",
+      "end": "2020-09-29",
+      "days": 290,
+      "number": 85,
+      "event": "NWA Into the Fire",
+      "location": "Atlanta, GA",
+      "note": "Triple threat match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r82",
+      "holder": "Trevor Murdoch",
+      "people": [
+        "trevor-murdoch"
+      ],
+      "start": "2020-09-29",
+      "end": "2021-03-30",
+      "days": 182,
+      "number": 86,
+      "event": "UWN Primetime Live",
+      "location": "Long Beach, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r83",
+      "holder": "Chris Adonis",
+      "people": [
+        "chris-masters"
+      ],
+      "start": "2021-03-30",
+      "end": "2021-05-25",
+      "days": 56,
+      "number": 87,
+      "event": "NWA Power",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r84",
+      "holder": "Chris Adonis",
+      "people": [
+        "chris-masters"
+      ],
+      "start": "2021-06-07",
+      "end": "2022-02-12",
+      "days": 249,
+      "number": 88,
+      "event": "NWA SuperPowerrr",
+      "location": "Atlanta, GA",
+      "note": "Won vacant title by beating JTG in tournament final; aired on tape delay July 6 2021",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r85",
+      "holder": "Anthony Mayweather",
+      "people": [
+        "anthony-mayweather"
+      ],
+      "start": "2022-02-12",
+      "end": "2022-03-20",
+      "days": 36,
+      "number": 89,
+      "event": "NWA PowerrrTrip",
+      "location": "Oak Grove, KY",
+      "note": "Aired on tape delay March 1 2022",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r86",
+      "holder": "Jax Dane",
+      "people": [
+        "jax-dane"
+      ],
+      "start": "2022-03-20",
+      "end": "2022-08-27",
+      "days": 160,
+      "number": 90,
+      "event": "Crockett Cup 2022",
+      "location": "Nashville, TN",
+      "note": "Cash-in of his Champion Series contract",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r87",
+      "holder": "Cyon",
+      "people": [
+        "cyon"
+      ],
+      "start": "2022-08-27",
+      "end": "2023-04-07",
+      "days": 223,
+      "number": 91,
+      "event": "NWA 74th Anniversary Show Night 1",
+      "location": "St. Louis, MO",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r88",
+      "holder": "EC3",
+      "people": [
+        "ec3"
+      ],
+      "start": "2023-04-07",
+      "end": "2023-07-12",
+      "days": 96,
+      "number": 92,
+      "event": "NWA 312",
+      "location": "Highland Park, IL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r89",
+      "holder": "\"Thrillbilly\" Silas Mason",
+      "people": [
+        "thrillbilly-silas-mason"
+      ],
+      "start": "2023-08-26",
+      "end": "2024-03-02",
+      "days": 189,
+      "number": 93,
+      "event": "NWA 75th Anniversary Show Night 1",
+      "location": "St. Louis, MO",
+      "note": "Won vacant title in a triple threat match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r90",
+      "holder": "Thom Latimer",
+      "people": [
+        "thom-latimer"
+      ],
+      "start": "2024-03-02",
+      "end": "2024-08-31",
+      "days": 182,
+      "number": 94,
+      "event": "Hard Times 4",
+      "location": "Dothan, Alabama",
+      "note": "Won vacant title in a four-way match; aired on tape delay April 9",
+      "dateNote": "The source gives no date for the change that ended this reign; it ended by 2024-08-31.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r91",
+      "holder": "Mims",
+      "people": [
+        "mims"
+      ],
+      "start": "2024-08-31",
+      "end": "2025-08-16",
+      "days": 350,
+      "number": 95,
+      "event": "NWA 76th Anniversary Show",
+      "location": "Philadelphia, Pennsylvania",
+      "note": "Won vacant title in a four-way elimination match; aired on tape delay October 8",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r92",
+      "holder": "Mike Mondo",
+      "people": [
+        "mike-mondo"
+      ],
+      "start": "2025-08-16",
+      "end": "2026-06-06",
+      "days": 294,
+      "number": 96,
+      "event": "NWA 77th Anniversary Show",
+      "location": "Huntington, New York",
+      "note": "Aired on tape delay November 4 2025",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r93",
+      "holder": "Bryan Idol",
+      "people": [
+        "bryan-idol"
+      ],
+      "start": "2026-06-06",
+      "days": 91,
+      "number": 97,
+      "event": "Hard Times 6",
+      "location": "Atlanta, Georgia",
+      "note": "Aired on tape delay August 15 2026",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_National_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    }
+  ]
 }

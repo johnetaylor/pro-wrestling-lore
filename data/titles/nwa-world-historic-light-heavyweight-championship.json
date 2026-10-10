@@ -1,10 +1,46 @@
 {
   "id": "nwa-world-historic-light-heavyweight-championship",
   "name": "NWA World Historic Light Heavyweight Championship",
-  "names": [
-    "NWA World Historic Light Heavyweight Championship"
+  "promotion": "cmll",
+  "division": "men",
+  "format": "singles",
+  "established": "2010-08-12",
+  "names": [],
+  "eras": [
+    {
+      "name": "NWA World Historic Light Heavyweight Championship",
+      "from": "2010-08-12"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "2010-03",
+      "kind": "recognition",
+      "text": "The NWA-CMLL relationship broke down, and NWA Mexico asked CMLL to stop promoting the NWA-branded titles; CMLL did not formally respond.",
+      "related": [
+        "NWA World Light Heavyweight Championship",
+        "NWA World Welterweight Championship",
+        "NWA World Middleweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Light_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2010-08-12",
+      "kind": "replaces",
+      "text": "CMLL unveiled the renamed belt and crowned El Texano Jr., the last CMLL-recognized NWA World Light Heavyweight Champion, as the first holder.",
+      "related": [
+        "NWA World Light Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Light_Heavyweight_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/NWA_World_Historic_Light_Heavyweight_Championship"
+  ],
   "reigns": [
     {
       "id": "r1",
@@ -14,13 +50,53 @@
       ],
       "start": "2010-08-12",
       "end": "2010-12-14",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 124,
+      "number": 1,
+      "event": "Press conference at Arena México",
+      "location": "Mexico City, Mexico",
+      "note": "First champion; last CMLL-recognized NWA titleholder",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/nwa-world-historic-light-heavyweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/nwa-world-historic-light-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Light_Heavyweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-el-texano-jr-247"
       ]
+    },
+    {
+      "id": "r3",
+      "holder": "Shocker",
+      "people": [
+        "shocker"
+      ],
+      "start": "2010-12-14",
+      "end": "2011-05-26",
+      "days": 163,
+      "number": 2,
+      "event": "CMLL Lucha Libre on CadenaTres",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Rey Bucanero",
+      "people": [
+        "rey-bucanero"
+      ],
+      "start": "2011-06-21",
+      "end": "2013-06-04",
+      "days": 714,
+      "number": 3,
+      "event": "CMLL Lucha Libre on CadenaTres",
+      "location": "Mexico City, Mexico",
+      "note": "Won tournament final over El Hijo del Fantasma",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
     },
     {
       "id": "r2",
@@ -30,13 +106,104 @@
       ],
       "start": "2013-06-04",
       "end": "2015-02-23",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 629,
+      "number": 4,
+      "event": "CMLL Lucha Libre on CadenaTres",
+      "location": "Mexico City, Mexico",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/nwa-world-historic-light-heavyweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/nwa-world-historic-light-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Light_Heavyweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-dmt-azul-170"
       ]
+    },
+    {
+      "id": "r5",
+      "holder": "Rey Bucanero",
+      "people": [
+        "rey-bucanero"
+      ],
+      "start": "2015-03-08",
+      "end": "2016-11-02",
+      "days": 605,
+      "number": 5,
+      "event": "Titanes del Ring",
+      "location": "Mexico City, Mexico",
+      "note": "Won tournament final over La Sombra",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Hechicero",
+      "people": [
+        "hechicero"
+      ],
+      "start": "2016-11-02",
+      "end": "2018-08-14",
+      "days": 650,
+      "number": 6,
+      "event": "Dia de Muertos 2016",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Stuka Jr.",
+      "people": [
+        "stuka-jr"
+      ],
+      "start": "2018-08-14",
+      "end": "2023-02-04",
+      "days": 1635,
+      "number": 7,
+      "event": "CMLL Martes de Area Mexico",
+      "location": "Mexico City, Mexico",
+      "note": "Longest reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Atlantis Jr.",
+      "people": [
+        "atlantis-jr"
+      ],
+      "start": "2023-02-04",
+      "end": "2026-02-26",
+      "days": 1118,
+      "number": 8,
+      "event": "CMLL Martes de Area Mexico",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Averno",
+      "people": [
+        "averno"
+      ],
+      "start": "2026-02-26",
+      "days": 82,
+      "number": 9,
+      "event": "Fantastica Mania: Night 6",
+      "location": "Tokyo, Japan",
+      "note": "Current champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Historic_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

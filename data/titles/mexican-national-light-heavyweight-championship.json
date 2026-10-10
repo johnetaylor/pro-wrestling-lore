@@ -1,11 +1,857 @@
 {
   "id": "mexican-national-light-heavyweight-championship",
   "name": "Mexican National Light Heavyweight Championship",
-  "names": [
-    "Mexican National Light Heavyweight Championship"
+  "promotion": "cmll",
+  "division": "men",
+  "format": "singles",
+  "established": "1942-09-25",
+  "names": [],
+  "history": [
+    {
+      "date": "1992",
+      "kind": "promotion",
+      "text": "Máscara Sagrada took the title from EMLL to AAA when he left with Antonio Peña, and AAA then had exclusive control until 2002.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2002",
+      "kind": "promotion",
+      "text": "El Dandy's 2002 win moved the title to ENSEMA; the table's ENSEMA section dates the change to 2004.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2007-12-04",
+      "kind": "promotion",
+      "text": "Místico won the title from Vangelis, and CMLL has held exclusive rights since December 2007.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ]
+    }
   ],
-  "sources": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r2",
+      "holder": "Jesús Anaya",
+      "people": [
+        "jesus-anaya"
+      ],
+      "start": "1942-09-25",
+      "end": "1943-03",
+      "number": 1,
+      "event": "EMLL 9th Anniversary Show",
+      "location": "Mexico",
+      "note": "Won tournament final over Black Guzmán",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Black Guzmán",
+      "people": [
+        "black-guzman"
+      ],
+      "start": "1943-03",
+      "end": "1944-09-20",
+      "number": 2,
+      "event": "Live event",
+      "location": "Mexico",
+      "dateNote": "The source gives the month only.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Gorila Ramos",
+      "people": [
+        "gorila-ramos"
+      ],
+      "start": "1944-09-20",
+      "end": "1944-10-18",
+      "days": 28,
+      "number": 3,
+      "event": "EMLL 11th Anniversary Show",
+      "location": "Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Tarzán López",
+      "people": [
+        "tarzan-lopez"
+      ],
+      "start": "1944-10-18",
+      "end": "1945-01",
+      "number": 4,
+      "event": "Live event",
+      "location": "Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Black Guzmán",
+      "people": [
+        "black-guzman"
+      ],
+      "start": "1945-01",
+      "end": "1947-04-12",
+      "number": 5,
+      "event": "Live event",
+      "location": "Mexico",
+      "dateNote": "The source gives the month only.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Tarzán López",
+      "people": [
+        "tarzan-lopez"
+      ],
+      "start": "1947-04-12",
+      "end": "1949-07-01",
+      "days": 811,
+      "number": 6,
+      "event": "Live event",
+      "location": "Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Cavernario Galindo",
+      "people": [
+        "cavernario-galindo"
+      ],
+      "start": "1949-07-01",
+      "end": "1950-12",
+      "number": 7,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Enrique Llanes",
+      "people": [
+        "enrique-llanes"
+      ],
+      "start": "1950-12",
+      "end": "1951",
+      "number": 8,
+      "event": "Live event",
+      "location": "Mexico",
+      "dateNote": "The source gives the month only.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Tarzán López",
+      "people": [
+        "tarzan-lopez"
+      ],
+      "start": "1956-09-07",
+      "end": "1957-01",
+      "number": 9,
+      "event": "Live event",
+      "location": "Mexico",
+      "note": "Won tournament final over Joe Grant",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Espectro I",
+      "people": [
+        "espectro-i"
+      ],
+      "start": "1957-04-21",
+      "end": "1960-09",
+      "number": 10,
+      "event": "Live event",
+      "location": "Mexico",
+      "note": "Defeated Bobby Bonales",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Rubén Juárez",
+      "people": [
+        "ruben-juarez"
+      ],
+      "start": "1960-05-29",
+      "end": "1963-09-14",
+      "days": 1203,
+      "number": 11,
+      "event": "Live event",
+      "location": "Guadalajara, Jalisco",
+      "note": "Defeated El Enfermero",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Espanto I",
+      "people": [
+        "espanto-i"
+      ],
+      "start": "1963-09-14",
+      "end": "1963-11-30",
+      "days": 77,
+      "number": 12,
+      "event": "Live event",
+      "location": "Monterrey, Nuevo León",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Ray Mendoza",
+      "people": [
+        "ray-mendoza"
+      ],
+      "start": "1963-11-30",
+      "end": "1965-01-13",
+      "days": 410,
+      "number": 13,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Raúl Reyes",
+      "people": [
+        "raul-reyes"
+      ],
+      "start": "1965-01-13",
+      "end": "1965-05-05",
+      "days": 112,
+      "number": 14,
+      "event": "EMLL Carnaval de Campeones",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Alfonso Dantés",
+      "people": [
+        "alfonso-dantes"
+      ],
+      "start": "1965-05-05",
+      "end": "1966-02-15",
+      "days": 286,
+      "number": 15,
+      "event": "Live event",
+      "location": "Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Espanto I",
+      "people": [
+        "espanto-i"
+      ],
+      "start": "1966-02-15",
+      "end": "1966-10-14",
+      "days": 241,
+      "number": 16,
+      "event": "Live event",
+      "location": "Monterrey, Nuevo León",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "El Santo",
+      "people": [
+        "el-santo"
+      ],
+      "start": "1966-10-14",
+      "end": "1967-03",
+      "number": 17,
+      "event": "Live event",
+      "location": "Mexicali, Baja California",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Espanto I",
+      "people": [
+        "espanto-i"
+      ],
+      "start": "1967-03",
+      "end": "1967-06-12",
+      "number": 18,
+      "event": "Live event",
+      "location": "Mexico",
+      "dateNote": "The source gives the month only.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Mil Máscaras",
+      "people": [
+        "mil-mascaras"
+      ],
+      "start": "1967-06-12",
+      "end": "1967-10-15",
+      "days": 125,
+      "number": 19,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "El Nazi",
+      "people": [
+        "el-nazi"
+      ],
+      "start": "1967-10-15",
+      "end": "1968-03-22",
+      "days": 159,
+      "number": 20,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Mil Máscaras",
+      "people": [
+        "mil-mascaras"
+      ],
+      "start": "1968-03-22",
+      "end": "1968-04-10",
+      "days": 19,
+      "number": 21,
+      "event": "Live event",
+      "location": "Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Raul Mata",
+      "people": [
+        "raul-mata"
+      ],
+      "start": "1969-04-11",
+      "end": "1972-06-18",
+      "days": 1164,
+      "number": 22,
+      "event": "Live event",
+      "location": "Mexico",
+      "note": "Defeated Dr. Wagner",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Enrique Vera",
+      "people": [
+        "enrique-vera"
+      ],
+      "start": "1972-06-18",
+      "end": "1973-03-16",
+      "days": 271,
+      "number": 23,
+      "event": "Live event",
+      "location": "Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Dr. Wagner",
+      "people": [
+        "dr-wagner"
+      ],
+      "start": "1973-03-16",
+      "end": "1974-09-22",
+      "days": 555,
+      "number": 24,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Alfonso Dantés",
+      "people": [
+        "alfonso-dantes"
+      ],
+      "start": "1974-11-15",
+      "end": "1976-04-11",
+      "days": 513,
+      "number": 25,
+      "event": "Live event",
+      "location": "Mexico City",
+      "note": "Defeated El Halcón",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Dr. Wagner",
+      "people": [
+        "dr-wagner"
+      ],
+      "start": "1976-04-11",
+      "end": "1978-01-15",
+      "days": 644,
+      "number": 26,
+      "event": "Live event",
+      "location": "Guadalajara, Jalisco",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "El Canek",
+      "people": [
+        "el-canek"
+      ],
+      "start": "1978-01-15",
+      "end": "1978-06-20",
+      "days": 156,
+      "number": 27,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "Dos Caras",
+      "people": [
+        "dos-caras"
+      ],
+      "start": "1978-06-20",
+      "end": "1979-04-08",
+      "days": 292,
+      "number": 28,
+      "event": "Live event",
+      "location": "Pachuca, Hidalgo",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Astro Rey",
+      "people": [
+        "astro-rey"
+      ],
+      "start": "1979-04-08",
+      "end": "1979-11-11",
+      "days": 217,
+      "number": 29,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "Dr. Wagner",
+      "people": [
+        "dr-wagner"
+      ],
+      "start": "1979-11-11",
+      "end": "1979-11-30",
+      "days": 19,
+      "number": 30,
+      "event": "Live event",
+      "location": "Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Enrique Vera",
+      "people": [
+        "enrique-vera"
+      ],
+      "start": "1979-11-30",
+      "end": "1981-09-18",
+      "days": 658,
+      "number": 31,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Alfonso Dantés",
+      "people": [
+        "alfonso-dantes"
+      ],
+      "start": "1981-09-18",
+      "end": "1981-12-27",
+      "days": 100,
+      "number": 32,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Babe Face",
+      "people": [
+        "babe-face"
+      ],
+      "start": "1981-12-27",
+      "end": "1983-07-20",
+      "days": 570,
+      "number": 33,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "Mano Negra",
+      "people": [
+        "mano-negra"
+      ],
+      "start": "1983-07-20",
+      "end": "1984-09-02",
+      "days": 410,
+      "number": 34,
+      "event": "Live event",
+      "location": "Cuernavaca, Morelos",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "Valente Fernández",
+      "people": [
+        "valente-fernandez"
+      ],
+      "start": "1984-09-02",
+      "end": "1986-04-06",
+      "days": 581,
+      "number": 35,
+      "event": "Live event",
+      "location": "Monterrey, Nuevo León",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "Luis Mariscal",
+      "people": [
+        "luis-mariscal"
+      ],
+      "start": "1986-04-06",
+      "end": "1986-10-16",
+      "days": 193,
+      "number": 36,
+      "event": "Live event",
+      "location": "Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r38",
+      "holder": "El Halcón '78",
+      "people": [
+        "el-halcon-78"
+      ],
+      "start": "1986-10-16",
+      "end": "1988-04-04",
+      "days": 536,
+      "number": 37,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "Pierroth Jr.",
+      "people": [
+        "pierroth"
+      ],
+      "start": "1988-04-04",
+      "end": "1988-09-07",
+      "days": 156,
+      "number": 38,
+      "event": "Live event",
+      "location": "San Lorenzo, Oaxaca",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "Mogur",
+      "people": [
+        "mogur"
+      ],
+      "start": "1988-09-07",
+      "end": "1990-01-12",
+      "days": 492,
+      "number": 39,
+      "event": "Live event",
+      "location": "Nezahualcóyotl, Mexico State",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "Pierroth Jr.",
+      "people": [
+        "pierroth"
+      ],
+      "start": "1990-01-12",
+      "end": "1991-03-21",
+      "days": 433,
+      "number": 40,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Máscara Sagrada",
+      "people": [
+        "mascara-sagrada"
+      ],
+      "start": "1991-03-21",
+      "end": "1992-05-29",
+      "days": 435,
+      "number": 41,
+      "event": "Live event",
+      "location": "Cuernavaca, Morelos",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "Universo 2000",
+      "people": [
+        "universo-2000"
+      ],
+      "start": "1992-05-29",
+      "end": "1992-09-18",
+      "days": 112,
+      "number": 42,
+      "event": "Live event",
+      "location": "Veracruz, Veracruz",
+      "note": "Belt moved to AAA during 1992",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "Lizmark",
+      "people": [
+        "lizmark"
+      ],
+      "start": "1992-09-18",
+      "end": "1994-09-09",
+      "days": 721,
+      "number": 43,
+      "event": "Live event",
+      "location": "Acapulco, Guerrero",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "La Parka",
+      "people": [
+        "l-a-park"
+      ],
+      "start": "1994-09-09",
+      "end": "1995-03-28",
+      "days": 200,
+      "number": 44,
+      "event": "Live event",
+      "location": "Río Bravo, Tamaulipas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "Jerry Estrada",
+      "people": [
+        "jerry-estrada"
+      ],
+      "start": "1995-03-28",
+      "end": "1995-08-06",
+      "days": 131,
+      "number": 45,
+      "event": "Live event",
+      "location": "Matamoros, Tamaulipas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "La Parka",
+      "people": [
+        "l-a-park"
+      ],
+      "start": "1995-08-06",
+      "end": "1996-01-20",
+      "days": 167,
+      "number": 46,
+      "event": "Live event",
+      "location": "Monterrey, Nuevo León",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r49",
+      "holder": "La Parka",
+      "people": [
+        "l-a-park"
+      ],
+      "start": "1996-01",
+      "end": "1996-05-20",
+      "number": 48,
+      "event": "Live event",
+      "location": "Mexico",
+      "dateNote": "The source gives the month only.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "Pierroth Jr.",
+      "people": [
+        "pierroth"
+      ],
+      "start": "1996-01-20",
+      "end": "1996-01",
+      "number": 47,
+      "event": "Live event",
+      "location": "Mexicali, Baja California",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Pimpinela Escarlata",
@@ -14,13 +860,342 @@
       ],
       "start": "1996-05-20",
       "end": "1996-09-09",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 112,
+      "number": 49,
+      "event": "Live event",
+      "location": "Nuevo Laredo, Tamaulipas",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/mexican-national-light-heavyweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/mexican-national-light-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-pimpinela-escarlata-530"
       ]
+    },
+    {
+      "id": "r50",
+      "holder": "Latin Lover",
+      "people": [
+        "latin-lover"
+      ],
+      "start": "1996-09-09",
+      "end": "1997-05-19",
+      "days": 252,
+      "number": 50,
+      "event": "Live event",
+      "location": "Nuevo Laredo, Tamaulipas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r51",
+      "holder": "Pierroth Jr.",
+      "people": [
+        "pierroth"
+      ],
+      "start": "1997-05-19",
+      "end": "1998",
+      "number": 51,
+      "event": "Live event",
+      "location": "Nuevo Laredo, Tamaulipas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "Máscara Sagrada",
+      "people": [
+        "mascara-sagrada"
+      ],
+      "start": "1998",
+      "end": "1998-05-16",
+      "number": 52,
+      "event": "Live event",
+      "location": "Mexico",
+      "dateNote": "The source gives the year only.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r53",
+      "holder": "Electroshock",
+      "people": [
+        "electroshock"
+      ],
+      "start": "2001-06-15",
+      "end": "2002-04-21",
+      "days": 310,
+      "number": 55,
+      "event": "Live event",
+      "location": "Tijuana, Baja California",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r54",
+      "holder": "Perro Aguayo Jr.",
+      "people": [
+        "perro-aguayo-jr"
+      ],
+      "start": "2002-04-21",
+      "end": "2002-08-31",
+      "days": 132,
+      "number": 56,
+      "event": "Live event",
+      "location": "Chihuahua, Chihuahua",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r55",
+      "holder": "El Dandy",
+      "people": [
+        "el-dandy"
+      ],
+      "start": "2002-08-31",
+      "end": "2004-10-15",
+      "days": 776,
+      "number": 57,
+      "event": "Live event",
+      "location": "Reynosa, Tamaulipas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r56",
+      "holder": "L.A. Park",
+      "people": [
+        "l-a-park"
+      ],
+      "start": "2004-10-15",
+      "end": "2005-03-26",
+      "days": 162,
+      "number": 58,
+      "event": "Live event",
+      "location": "Mexico City",
+      "note": "Belt moved to ENSEMA during 2004",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "El Dandy",
+      "people": [
+        "el-dandy"
+      ],
+      "start": "2005-03-26",
+      "end": "2007-04-15",
+      "days": 750,
+      "number": 59,
+      "event": "Live event",
+      "location": "Acapulco, Guerrero",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r58",
+      "holder": "Vangelis",
+      "people": [
+        "vangelis"
+      ],
+      "start": "2007-04-15",
+      "end": "2007-12-04",
+      "days": 233,
+      "number": 60,
+      "event": "Live event",
+      "location": "Mexico City",
+      "note": "Match possibly fictitious; belt moved to CMLL during 2007",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r59",
+      "holder": "Místico",
+      "people": [
+        "sin-cara"
+      ],
+      "start": "2007-12-04",
+      "end": "2010-02-12",
+      "days": 801,
+      "number": 61,
+      "event": "Live event",
+      "location": "Santiago de Querétaro, Querétaro",
+      "note": "Double title match with CMLL World Welterweight title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r60",
+      "holder": "Volador Jr.",
+      "people": [
+        "volador-jr"
+      ],
+      "start": "2010-02-12",
+      "end": "2010-10-05",
+      "days": 235,
+      "number": 62,
+      "event": "CMLL Super Viernes",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r61",
+      "holder": "La Máscara",
+      "people": [
+        "la-mascara"
+      ],
+      "start": "2010-10-05",
+      "end": "2013-08-13",
+      "days": 1043,
+      "number": 63,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r62",
+      "holder": "Mephisto",
+      "people": [
+        "mephisto"
+      ],
+      "start": "2013-08-13",
+      "end": "2015-08-24",
+      "days": 741,
+      "number": 64,
+      "event": "Live event",
+      "location": "Guadalajara, Jalisco",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r63",
+      "holder": "Atlantis",
+      "people": [
+        "atlantis"
+      ],
+      "start": "2015-08-24",
+      "end": "2018-11-06",
+      "days": 1170,
+      "number": 65,
+      "event": "Live event",
+      "location": "Puebla, Puebla",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r64",
+      "holder": "Bárbaro Cavernario",
+      "people": [
+        "barbaro-cavernario"
+      ],
+      "start": "2018-11-06",
+      "end": "2021-06-29",
+      "days": 966,
+      "number": 66,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r65",
+      "holder": "Felino",
+      "people": [
+        "el-felino"
+      ],
+      "start": "2021-06-29",
+      "end": "2021-10-12",
+      "days": 105,
+      "number": 67,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r66",
+      "holder": "Ángel de Oro",
+      "people": [
+        "angel-de-oro"
+      ],
+      "start": "2021-10-12",
+      "end": "2023-05-25",
+      "days": 590,
+      "number": 68,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r67",
+      "holder": "Esfinge",
+      "people": [
+        "esfinge"
+      ],
+      "start": "2023-05-25",
+      "end": "2026-09-25",
+      "days": 1219,
+      "number": 69,
+      "event": "Martes Populares",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r68",
+      "holder": "Vegas Depredador",
+      "people": [
+        "vegas-depredador"
+      ],
+      "start": "2026-09-25",
+      "days": 1,
+      "number": 70,
+      "event": "Noche de Campeones",
+      "location": "Mexico City",
+      "note": "Current champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

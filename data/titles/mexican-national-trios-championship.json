@@ -1,124 +1,986 @@
 {
   "id": "mexican-national-trios-championship",
   "name": "Mexican National Trios Championship",
-  "names": [
-    "Mexican National Trios Championship"
+  "promotion": "cmll",
+  "division": "men",
+  "format": "trios",
+  "established": "1985-03-10",
+  "names": [],
+  "eras": [
+    {
+      "name": "Mexican National Trios Championship",
+      "from": "1985"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "1991",
+      "kind": "brand",
+      "text": "EMLL rebranded as CMLL, created the CMLL World Trios Championship, and kept rights to the Mexican National Trios Championship.",
+      "related": [
+        "CMLL World Trios Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Trios_Championship"
+      ]
+    },
+    {
+      "date": "1992",
+      "kind": "promotion",
+      "text": "AAA was formed, and the reigning champions left CMLL for AAA, taking the title with them under commission approval.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Trios_Championship"
+      ]
+    },
+    {
+      "date": "1993",
+      "kind": "promotion",
+      "text": "Los Infernales left EMLL for AAA, taking the trios championship with them after commission approval.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Trios_Championship"
+      ]
+    },
+    {
+      "date": "1996",
+      "kind": "promotion",
+      "text": "AAA and PROMELL stopped working together, the title was vacated, and PROMELL was granted promotion rights and held a tournament.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Trios_Championship"
+      ]
+    },
+    {
+      "date": "2001",
+      "kind": "promotion",
+      "text": "The Blue Panther team worked a few CMLL matches and lost the title to a CMLL team, returning control to CMLL.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Trios_Championship"
+      ]
+    },
+    {
+      "date": "2003-06-20",
+      "kind": "deactivated",
+      "text": "After Nicho el Millonario no-showed a rematch, CMLL vacated the title and left it vacant for about five months.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Trios_Championship"
+      ]
+    },
+    {
+      "date": "2003-11",
+      "kind": "reactivated",
+      "text": "CMLL held an eight-team tournament, won by El Felino, Safari and Volador Jr., to crown new champions.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Trios_Championship"
+      ]
+    },
+    {
+      "date": "2009-12-19",
+      "kind": "deactivated",
+      "text": "The commission stripped Poder Mexica after Black Warrior left CMLL, and an eight-team tournament was announced to crown new champions.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Trios_Championship"
+      ]
+    },
+    {
+      "date": "2010-01-06",
+      "kind": "replaced-by",
+      "text": "Máscara Dorada, Stuka Jr. and Metro defeated Poder Mexica to become the new champions.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Trios_Championship"
+      ]
+    },
+    {
+      "date": "2010-11-18",
+      "kind": "replaced-by",
+      "text": "Máscara Dorada vacated his share of the title, and Delta was chosen as his replacement through a web poll.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Trios_Championship"
+      ]
+    },
+    {
+      "date": "2011-01-09",
+      "kind": "replaced-by",
+      "text": "Rush, Diamante and Ángel de Oro won the title after the team lost the title in its first defense, following a CMLL tournament.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Trios_Championship"
+      ]
+    },
+    {
+      "date": "2025-06-16",
+      "kind": "replaced-by",
+      "text": "Los Herederos defeated Los Viajeros Del Espacios at CMLL Lunes Clasico in Puebla to become the 46th overall champions.",
+      "related": [
+        "Los Viajeros Del Espacios"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_Trios_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions",
+    "https://en.wikipedia.org/wiki/Mexican_National_Trios_Championship"
+  ],
   "reigns": [
     {
-      "id": "r1",
-      "holder": "Rey Mysterio Jr.",
+      "id": "r8",
+      "holder": "Los Infernales",
       "people": [
-        "rey-mysterio"
+        "ms-1",
+        "pirata-morgan",
+        "el-satanico"
+      ],
+      "start": "1985-03-10",
+      "end": "1985-12-08",
+      "days": 273,
+      "number": 1,
+      "event": "Live event",
+      "location": "Mexico City",
+      "note": "First champions; won a tournament final over Los Brazos",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Los Brazos",
+      "people": [
+        "el-brazo",
+        "brazo-de-oro",
+        "brazo-de-plata"
+      ],
+      "start": "1985-12-08",
+      "end": "1986-01-28",
+      "days": 51,
+      "number": 2,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Dos Caras & Villano III & Villano IV",
+      "people": [
+        "dos-caras",
+        "villano-iii",
+        "villano-iv"
+      ],
+      "start": "1986-01-28",
+      "end": "1986-02-23",
+      "days": 26,
+      "number": 3,
+      "event": "Live event",
+      "location": "Pachuca, Hidalgo",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Los Brazos",
+      "people": [
+        "el-brazo",
+        "brazo-de-oro",
+        "brazo-de-plata"
+      ],
+      "start": "1986-02-23",
+      "end": "1986-11-28",
+      "days": 278,
+      "number": 4,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Kiss & Ringo Mendoza & Rayo de Jalisco Jr.",
+      "people": [
+        "kiss",
+        "ringo-mendoza",
+        "rayo-de-jalisco-jr"
+      ],
+      "start": "1986-11-28",
+      "end": "1987-08-30",
+      "days": 275,
+      "number": 5,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Hombre Bala & Jerry Estrada & Pirata Morgan",
+      "people": [
+        "hombre-bala",
+        "jerry-estrada",
+        "pirata-morgan"
+      ],
+      "start": "1987-08-30",
+      "end": "1988-01-31",
+      "days": 154,
+      "number": 6,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Los Destructores",
+      "people": [
+        "tony-arce",
+        "emilio-charles-jr",
+        "vulcano"
+      ],
+      "start": "1988-01-31",
+      "end": "1989-11-20",
+      "days": 659,
+      "number": 7,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Black Terry & Jose Luis Feliciano & Shu El Guerrero",
+      "people": [
+        "black-terry",
+        "jose-luis-feliciano",
+        "shu-el-guerrero"
+      ],
+      "start": "1989-11-20",
+      "end": "1990-01-21",
+      "days": 62,
+      "number": 8,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Los Arqueros del Espacio",
+      "people": [
+        "el-arquero",
+        "danny-boy",
+        "lasser"
+      ],
+      "start": "1990-01-21",
+      "end": "1990-08-17",
+      "days": 208,
+      "number": 9,
+      "event": "Live event",
+      "location": "Naucalpan, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Los Thundercats",
+      "people": [
+        "leono",
+        "panthro",
+        "tigro"
+      ],
+      "start": "1990-08-17",
+      "end": "1991-04-29",
+      "days": 255,
+      "number": 10,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Los Hermanos Dinamita",
+      "people": [
+        "cien-caras",
+        "mascara-ano-2000",
+        "universo-2000"
+      ],
+      "start": "1991-08-11",
+      "end": "1993-07",
+      "number": 12,
+      "event": "Live event",
+      "location": "Cuernavaca, Morelos",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Los Infernales",
+      "people": [
+        "ms-1",
+        "pirata-morgan",
+        "el-satanico"
+      ],
+      "start": "1993-07",
+      "end": "1994",
+      "number": 13,
+      "event": "Live event",
+      "note": "Title became AAA-controlled as champions left CMLL",
+      "dateNote": "The source gives the month only.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Los Hermanos Dinamita",
+      "people": [
+        "cien-caras",
+        "mascara-ano-2000",
+        "universo-2000"
+      ],
+      "start": "1994",
+      "end": "1994-04-26",
+      "number": 13,
+      "event": "Live event",
+      "dateNote": "The source gives the year only.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Los Payasos",
+      "people": [
+        "coco-amarillo",
+        "coco-azul",
+        "coco-rojo"
+      ],
+      "start": "1994-04-26",
+      "end": "1994-05-22",
+      "days": 26,
+      "number": 14,
+      "event": "Live event",
+      "location": "Aguascalientes, Aguascalientes",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Ángel Azteca & El Hijo del Santo & Super Muñeco",
+      "people": [
+        "angel-azteca",
+        "el-hijo-del-santo",
+        "super-muneco"
+      ],
+      "start": "1994-05-22",
+      "end": "1994-09-23",
+      "days": 124,
+      "number": 15,
+      "event": "Live event",
+      "location": "Juárez, Chihuahua",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Los Payasos",
+      "people": [
+        "coco-amarillo",
+        "coco-azul",
+        "coco-rojo"
+      ],
+      "start": "1994-09-23",
+      "end": "1995-02-05",
+      "days": 135,
+      "number": 15,
+      "event": "Live event",
+      "location": "Tijuana, Baja California",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Los Destructores",
+      "people": [
+        "tony-arce",
+        "rocco-valente",
+        "vulcano"
+      ],
+      "start": "1995-02-05",
+      "end": "1995-04-14",
+      "days": 68,
+      "number": 16,
+      "event": "Live event",
+      "location": "Tonalá, Jalisco",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r1",
+      "holder": "Rey Misterio Jr. & Octagón & Super Muñeco",
+      "people": [
+        "rey-mysterio",
+        "octagon",
+        "super-muneco"
       ],
       "start": "1995-04-14",
       "end": "1995-07-06",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 83,
+      "number": 17,
+      "event": "Live event",
+      "location": "Mexico City",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/mexican-national-trios-championship"
+        "https://www.thesmackdownhotel.com/title-history/mexican-national-trios-championship",
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
       ],
       "legacyIds": [
         "profile-reign-rey-mysterio-683"
       ]
     },
     {
-      "id": "r2",
-      "holder": "El Texano Jr.",
+      "id": "r25",
+      "holder": "Blue Panther & Fuerza Guerrera & Psicosis",
       "people": [
-        "el-texano-jr"
+        "blue-panther",
+        "fuerza-guerrera",
+        "psicosis"
+      ],
+      "start": "1995-07-06",
+      "end": "1996",
+      "number": 18,
+      "event": "Live event",
+      "location": "Monterrey, Nuevo León",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Blue Panther & Fuerza Guerrera & El Signo",
+      "people": [
+        "blue-panther",
+        "fuerza-guerrera",
+        "el-signo"
+      ],
+      "start": "1996-07-06",
+      "end": "2001-03-30",
+      "days": 1728,
+      "number": 19,
+      "event": "Live event",
+      "location": "Cuautitlán, Mexico",
+      "note": "Won a tournament final over El Brazo; Brazo de Plata; Super Elektra",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Mr. Niebla & Olímpico & Safari",
+      "people": [
+        "mr-niebla",
+        "olimpico",
+        "safari"
+      ],
+      "start": "2001-03-30",
+      "end": "2002-06-23",
+      "days": 450,
+      "number": 20,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Los Nuevo Infernales",
+      "people": [
+        "averno",
+        "mephisto",
+        "el-satanico"
+      ],
+      "start": "2002-06-23",
+      "end": "2002-09-27",
+      "days": 96,
+      "number": 21,
+      "event": "Live event",
+      "location": "Guadalajara, Jalisco",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "El Felino & Safari & Volador Jr.",
+      "people": [
+        "el-felino",
+        "safari",
+        "volador-jr"
+      ],
+      "start": "2003-12-05",
+      "end": "2005-03-25",
+      "days": 476,
+      "number": 23,
+      "event": "Live event",
+      "location": "Mexico City",
+      "note": "Won a tournament final over Alan Stone; Super Crazy; Zumbido",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Pandilla Guerrera",
+      "people": [
+        "doctor-x",
+        "nitro",
+        "sangre-azteca"
+      ],
+      "start": "2005-03-25",
+      "end": "2005-10-07",
+      "days": 196,
+      "number": 24,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r2",
+      "holder": "Máximo & El Sagrado & El Texano Jr.",
+      "people": [
+        "el-texano-jr",
+        "maximo",
+        "el-sagrado"
       ],
       "start": "2005-10-07",
       "end": "2007-04-29",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 569,
+      "number": 25,
+      "event": "Live event",
+      "location": "Mexico City",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/mexican-national-trios-championship"
+        "https://www.thesmackdownhotel.com/title-history/mexican-national-trios-championship",
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
       ],
       "legacyIds": [
         "profile-reign-el-texano-jr-250"
       ]
     },
     {
-      "id": "r3",
-      "holder": "Metro & Máscara Dorada",
+      "id": "r31",
+      "holder": "Los Perros del Mal",
       "people": [
-        "dmt-azul"
+        "essa-rios",
+        "damian-666",
+        "halloween"
+      ],
+      "start": "2007-04-29",
+      "end": "2007-08-13",
+      "days": 106,
+      "number": 26,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "El Sagrado & La Sombra & Volador Jr.",
+      "people": [
+        "el-sagrado",
+        "andrade",
+        "volador-jr"
+      ],
+      "start": "2007-08-13",
+      "end": "2009-02-03",
+      "days": 540,
+      "number": 27,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Poder Mexica",
+      "people": [
+        "sangre-azteca",
+        "black-warrior",
+        "dragon-rojo-jr"
+      ],
+      "start": "2009-02-03",
+      "end": "2009-12-18",
+      "days": 318,
+      "number": 28,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Stuka Jr. & Metro & Máscara Dorada / Delta",
+      "people": [
+        "dmt-azul",
+        "stuka-jr",
+        "gran-metalik",
+        "delta"
       ],
       "start": "2010-01-06",
       "end": "2011-01-09",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 368,
+      "number": 29,
+      "event": "Live event",
+      "location": "Mexico City",
+      "note": "Máscara Dorada relinquished hold Nov 18 2010; Delta replaced him Dec 20 2010",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/mexican-national-trios-championship"
+        "https://www.thesmackdownhotel.com/title-history/mexican-national-trios-championship",
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
       ],
       "legacyIds": [
         "profile-reign-dmt-azul-173"
       ]
     },
     {
-      "id": "r4",
-      "holder": "Volador Jr. & Psicosis",
+      "id": "r34",
+      "holder": "Ángel de Oro & Diamante & Rush",
       "people": [
-        "psicosis-ii"
+        "angel-de-oro",
+        "diamante",
+        "rush"
+      ],
+      "start": "2011-01-09",
+      "end": "2011-09-20",
+      "days": 254,
+      "number": 30,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Los Invasores",
+      "people": [
+        "psicosis-ii",
+        "olimpico",
+        "volador-jr"
       ],
       "start": "2011-09-20",
       "end": "2011-12-16",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 87,
+      "number": 31,
+      "event": "Live event",
+      "location": "Mexico City",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/mexican-national-trios-championship"
+        "https://www.thesmackdownhotel.com/title-history/mexican-national-trios-championship",
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
       ],
       "legacyIds": [
         "profile-reign-psicosis-533"
       ]
     },
     {
-      "id": "r5",
-      "holder": "Mr. Águila & Psicosis",
+      "id": "r35",
+      "holder": "Los Reyes de la Atlantida",
       "people": [
-        "psicosis-ii"
+        "atlantis",
+        "delta",
+        "guerrero-maya-jr"
+      ],
+      "start": "2011-12-16",
+      "end": "2012-06-22",
+      "days": 189,
+      "number": 32,
+      "event": "Sin Piedad (2011)",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "Los Depredadores del Aire",
+      "people": [
+        "black-warrior",
+        "essa-rios",
+        "volador-jr"
+      ],
+      "start": "2012-06-22",
+      "end": "2012-10-30",
+      "days": 130,
+      "number": 33,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "Los Reyes de la Atlantida",
+      "people": [
+        "atlantis",
+        "delta",
+        "guerrero-maya-jr"
+      ],
+      "start": "2012-10-30",
+      "end": "2012-12-16",
+      "days": 47,
+      "number": 34,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Los Invasores",
+      "people": [
+        "psicosis-ii",
+        "kraneo",
+        "essa-rios"
       ],
       "start": "2012-12-16",
       "end": "2013-06-30",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 196,
+      "number": 35,
+      "event": "Live event",
+      "location": "Mexico City",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/mexican-national-trios-championship"
+        "https://www.thesmackdownhotel.com/title-history/mexican-national-trios-championship",
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
       ],
       "legacyIds": [
         "profile-reign-psicosis-532"
       ]
     },
     {
-      "id": "r6",
-      "holder": "Negro Casas",
+      "id": "r38",
+      "holder": "La Máscara & Rush & Titán",
       "people": [
-        "negro-casas"
+        "la-mascara",
+        "rush",
+        "titan"
+      ],
+      "start": "2013-06-30",
+      "end": "2014-02-18",
+      "days": 233,
+      "number": 36,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "La Peste Negra",
+      "people": [
+        "negro-casas",
+        "el-felino",
+        "mr-niebla"
       ],
       "start": "2014-02-18",
       "end": "2015-04-26",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 432,
+      "number": 37,
+      "event": "Live event",
+      "location": "Mexico City",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/mexican-national-trios-championship"
+        "https://www.thesmackdownhotel.com/title-history/mexican-national-trios-championship",
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
       ],
       "legacyIds": [
         "profile-reign-negro-casas-478"
       ]
     },
     {
+      "id": "r39",
+      "holder": "Los Reyes de la Atlantida",
+      "people": [
+        "atlantis",
+        "delta",
+        "guerrero-maya-jr"
+      ],
+      "start": "2015-04-26",
+      "end": "2015-08-09",
+      "days": 104,
+      "number": 38,
+      "event": "Arena México 59th Anniversary Show",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "Los Hijos del Infierno",
+      "people": [
+        "ephesto",
+        "luciferno",
+        "mephisto"
+      ],
+      "start": "2015-08-09",
+      "end": "2017-07-25",
+      "days": 716,
+      "number": 39,
+      "event": "Live event",
+      "location": "Mexico City",
+      "note": "Ephesto previously held the title as Safari",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r7",
-      "holder": "Forastero & Sansón",
+      "holder": "Nueva Generación Dinamita",
       "people": [
         "forastero",
-        "sanson"
+        "sanson",
+        "el-cuatrero"
       ],
       "start": "2017-07-25",
       "end": "2021-04-01",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 1346,
+      "number": 40,
+      "event": "live event",
+      "location": "Guadalajara, Jalisco",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/mexican-national-trios-championship"
+        "https://www.thesmackdownhotel.com/title-history/mexican-national-trios-championship",
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
       ],
       "legacyIds": [
         "profile-reign-forastero-297",
         "profile-reign-sanson-727"
       ]
+    },
+    {
+      "id": "r41",
+      "holder": "Los Cancerberos del Infierno",
+      "people": [
+        "cancerbero",
+        "raziel",
+        "virus"
+      ],
+      "start": "2021-04-24",
+      "end": "2022-05-11",
+      "days": 382,
+      "number": 41,
+      "event": "Live event",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Los Indestructibles",
+      "people": [
+        "apocalipsis",
+        "cholo",
+        "disturbio"
+      ],
+      "start": "2023-09-29",
+      "end": "2024-07-09",
+      "days": 284,
+      "number": 43,
+      "event": "Super Viernes",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "Los Viajeros Del Espacios",
+      "people": [
+        "futuro",
+        "hombre-bala-jr",
+        "max-star"
+      ],
+      "start": "2024-07-09",
+      "end": "2025-06-16",
+      "days": 342,
+      "number": 44,
+      "event": "CMLL Martes De Arena Mexico",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "Los Herederos",
+      "people": [
+        "felino-jr",
+        "hijo-del-stuka-jr",
+        "el-cobarde"
+      ],
+      "start": "2025-06-16",
+      "days": 245,
+      "number": 45,
+      "event": "CMLL Lunes Clásico",
+      "location": "Mexico City, Mexico",
+      "note": "Current champions; text says the win was in Puebla",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Mexican_National_Trios_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

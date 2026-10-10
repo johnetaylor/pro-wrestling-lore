@@ -1,90 +1,2034 @@
 {
   "id": "nwa-world-tag-team-championship",
   "name": "NWA World Tag Team Championship",
-  "names": [
-    "NWA World Tag Team Championship"
+  "promotion": "nwa",
+  "division": "men",
+  "format": "tag",
+  "established": "1992-07-12",
+  "names": [],
+  "eras": [
+    {
+      "name": "NWA World Tag Team Championship",
+      "from": "1992-07-12"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "1960",
+      "kind": "replaced-by",
+      "text": "Several territorial versions were abandoned after promotions left the NWA to join the AWA, which recognized its own title in those territories.",
+      "related": [
+        "AWA World Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "1983",
+      "kind": "promotion",
+      "text": "The WWF split from the NWA, leaving only the JCP version active within the NWA, still controlled by JCP.",
+      "related": [
+        "WWF World Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "1991",
+      "kind": "promotion",
+      "text": "The JCP championship was renamed the WCW World Tag Team Championship after WCW split from the NWA.",
+      "related": [
+        "WCW World Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "1992-07-12",
+      "kind": "reactivated",
+      "text": "The NWA and WCW held a tournament, won by Terry Gordy and Steve Williams, to crown the first officially recognized NWA champions.",
+      "related": [
+        "WCW World Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "1993-08",
+      "kind": "recognition",
+      "text": "The NWA withdrew its recognition of the WCW-controlled championship after severing ties with WCW.",
+      "related": [
+        "WCW World Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "1995-04-11",
+      "kind": "reactivated",
+      "text": "The NWA held a one-night tournament in Dallas, won by The Rock 'n' Roll Express, to fill the vacant title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "1998",
+      "kind": "promotion",
+      "text": "The NWA allowed the WWF to control the championship during the Invasion storyline, ending with the title returning to independent control by 1999.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2002-07-03",
+      "kind": "promotion",
+      "text": "NWA-TNA gained control of the championship and crowned A.J. Styles and Jerry Lynn as its first champions.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2007-05",
+      "kind": "split",
+      "text": "The NWA withdrew recognition of NWA-TNA, which created the separate TNA World Tag Team Championship.",
+      "related": [
+        "TNA World Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2007-07-08",
+      "kind": "reactivated",
+      "text": "The NWA held a three-team tournament after the split from TNA, won by The Real American Heroes.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2019-04-27",
+      "kind": "reactivated",
+      "text": "The vacated championship was awarded at the Crockett Cup tournament, won by Villain Enterprises.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Tag_Team_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions",
+    "https://en.wikipedia.org/wiki/NWA_World_Tag_Team_Championship"
+  ],
   "reigns": [
     {
-      "id": "r1",
-      "holder": "B.G. James & Konnan & Ron Killings",
+      "id": "r6",
+      "holder": "Miracle Violence Connection",
       "people": [
-        "r-truth"
+        "steve-williams",
+        "terry-gordy"
+      ],
+      "start": "1992-07-12",
+      "end": "1992-09-21",
+      "days": 71,
+      "number": 1,
+      "event": "The Great American Bash",
+      "location": "Albany, GA",
+      "note": "Won tournament final; also WCW tag champs",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Barry Windham & Dustin Rhodes",
+      "people": [
+        "barry-windham",
+        "dustin-rhodes"
+      ],
+      "start": "1992-09-21",
+      "end": "1992-11-18",
+      "days": 58,
+      "number": 2,
+      "event": "Saturday Night",
+      "location": "Atlanta, GA",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Ricky Steamboat & Shane Douglas",
+      "people": [
+        "ricky-steamboat",
+        "shane-douglas"
+      ],
+      "start": "1992-11-18",
+      "end": "1993-03-02",
+      "days": 104,
+      "number": 3,
+      "event": "Clash of the Champions XXI",
+      "location": "Macon, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "The Hollywood Blondes",
+      "people": [
+        "brian-pillman",
+        "stone-cold-steve-austin"
+      ],
+      "start": "1993-03-02",
+      "end": "1993-08-18",
+      "days": 169,
+      "number": 4,
+      "event": "WorldWide",
+      "location": "Macon, GA",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Arn Anderson & Paul Roma",
+      "people": [
+        "arn-anderson",
+        "paul-roma"
+      ],
+      "start": "1993-08-18",
+      "end": "1993-09-01",
+      "days": 14,
+      "number": 5,
+      "event": "Clash of the Champions XXIV",
+      "location": "Daytona Beach, FL",
+      "note": "Beat Austin and Regal (subbing for Pillman)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Rock 'n' Roll Express",
+      "people": [
+        "ricky-morton",
+        "robert-gibson"
+      ],
+      "start": "1995-04-11",
+      "end": "1995-06-26",
+      "days": 76,
+      "number": 6,
+      "event": "Live event",
+      "location": "Dallas, TX",
+      "note": "Won eight-team tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Rock 'n' Roll Express",
+      "people": [
+        "ricky-morton",
+        "robert-gibson"
+      ],
+      "start": "1995-07-03",
+      "end": "1995-08-04",
+      "days": 32,
+      "number": 7,
+      "event": "USWA live event",
+      "location": "Memphis, TN",
+      "note": "Beat PG-13 in rematch",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Andersons",
+      "people": [
+        "c-w-anderson",
+        "pat-anderson"
+      ],
+      "start": "1996-09-14",
+      "end": "1997-10-08",
+      "days": 389,
+      "number": 9,
+      "event": "Live event",
+      "location": "Goldston, NC",
+      "note": "Won vacant title from the Fantastics",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Rock 'n' Roll Express",
+      "people": [
+        "ricky-morton",
+        "robert-gibson"
+      ],
+      "start": "1998-01-12",
+      "end": "1998-02-17",
+      "days": 36,
+      "number": 10,
+      "event": "Raw Is War",
+      "location": "State College, PA",
+      "note": "Title awarded to the team",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "The Headbangers",
+      "people": [
+        "mosh",
+        "thrasher"
+      ],
+      "start": "1998-02-17",
+      "end": "1998-03-30",
+      "days": 41,
+      "number": 11,
+      "event": "Raw Is War",
+      "location": "Waco, TX",
+      "note": "WWF rules; aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "The Midnight Express",
+      "people": [
+        "bodacious-bart",
+        "bombastic-bob"
+      ],
+      "start": "1998-03-30",
+      "end": "1998-08-14",
+      "days": 137,
+      "number": 12,
+      "event": "Raw Is War",
+      "location": "Albany, NY",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "The Border Patrol",
+      "people": [
+        "agent-gunn",
+        "agent-maxx"
+      ],
+      "start": "1998-08-14",
+      "end": "1998-09-12",
+      "days": 29,
+      "number": 13,
+      "event": "Live event",
+      "location": "Greenville, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Barry Windham & Tully Blanchard",
+      "people": [
+        "barry-windham",
+        "tully-blanchard"
+      ],
+      "start": "1998-09-12",
+      "end": "1998-10-10",
+      "days": 28,
+      "number": 14,
+      "event": "Live event",
+      "location": "Lincolnton, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "The Border Patrol",
+      "people": [
+        "agent-gunn",
+        "agent-maxx"
+      ],
+      "start": "1998-10-10",
+      "end": "1998-10-24",
+      "days": 14,
+      "number": 15,
+      "event": "Live event",
+      "location": "Cameron, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "The Brotherhood",
+      "people": [
+        "eric-sbraccia",
+        "knuckles-nelson"
+      ],
+      "start": "1998-10-24",
+      "end": "1999-03-03",
+      "days": 130,
+      "number": 16,
+      "event": "50th Anniversary Show",
+      "location": "Cherry Hill, NJ",
+      "note": "Four corners match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "The Brotherhood",
+      "people": [
+        "knuckles-nelson",
+        "rick-fuller"
+      ],
+      "start": "1999-06-10",
+      "end": "1999-06-17",
+      "days": 7,
+      "number": 17,
+      "event": "Live event",
+      "location": "Dallas, TX",
+      "note": "Won vacant title from Team Extreme",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "The Public Enemy",
+      "people": [
+        "johnny-grunge",
+        "rocco-rock"
+      ],
+      "start": "1999-06-17",
+      "end": "1999-06-19",
+      "days": 2,
+      "number": 18,
+      "event": "Live event",
+      "location": "Bolton, MA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "The Brotherhood",
+      "people": [
+        "dukes-dalton",
+        "knuckles-nelson"
+      ],
+      "start": "1999-06-19",
+      "end": "1999-09-25",
+      "days": 98,
+      "number": 19,
+      "event": "Live event",
+      "location": "Dorchester, MA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Team Extreme",
+      "people": [
+        "khris-germany",
+        "kit-carson"
+      ],
+      "start": "1999-09-25",
+      "end": "1999-11-26",
+      "days": 62,
+      "number": 20,
+      "event": "51st Anniversary Show",
+      "location": "Charlotte, NC",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Murder Incorporated",
+      "people": [
+        "jimmy-james-2",
+        "kevin-northcutt"
+      ],
+      "start": "1999-11-26",
+      "end": "1999-12-17",
+      "days": 21,
+      "number": 21,
+      "event": "Live event",
+      "location": "North Richland Hills, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Team Extreme",
+      "people": [
+        "khris-germany",
+        "kit-carson"
+      ],
+      "start": "1999-12-17",
+      "end": "2000-03-04",
+      "days": 78,
+      "number": 22,
+      "event": "Live event",
+      "location": "North Richland Hills, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "xXx",
+      "people": [
+        "curtis-thompson",
+        "drake-dawson"
+      ],
+      "start": "2000-03-04",
+      "end": "2000-04-07",
+      "days": 34,
+      "number": 23,
+      "event": "Live event",
+      "location": "Cornelia, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "The Main Event",
+      "people": [
+        "reno-riggins",
+        "steven-dunn"
+      ],
+      "start": "2000-04-07",
+      "end": "2000-04-12",
+      "days": 5,
+      "number": 24,
+      "event": "Live event",
+      "location": "Eskan, Saudi Arabia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "Rock 'n' Roll Express",
+      "people": [
+        "ricky-morton",
+        "robert-gibson"
+      ],
+      "start": "2000-04-12",
+      "end": "2000-04-17",
+      "days": 5,
+      "number": 25,
+      "event": "Live event",
+      "location": "Waegwan, South Korea",
+      "note": "Beat Dunn and Jackie Fulton (subbing)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Big Bubba Pain & L.A. Stephens",
+      "people": [
+        "big-bubba-pain",
+        "l-a-stephens"
+      ],
+      "start": "2000-04-17",
+      "end": "2000-04-19",
+      "days": 2,
+      "number": 26,
+      "event": "Live event",
+      "location": "Osan, South Korea",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "xXx",
+      "people": [
+        "curtis-thompson",
+        "drake-dawson"
+      ],
+      "start": "2000-04-19",
+      "end": "2000-08-15",
+      "days": 118,
+      "number": 27,
+      "event": "Live event",
+      "location": "Okinawa, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Bad Attitude",
+      "people": [
+        "david-young",
+        "rick-michaels"
+      ],
+      "start": "2000-08-15",
+      "end": "2001-02-03",
+      "days": 172,
+      "number": 28,
+      "event": "Live event",
+      "location": "Tampa, FL",
+      "note": "Beat Thompson and Jeff Justice (subbing)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Air Paris & Rob Williams",
+      "people": [
+        "air-paris",
+        "rob-williams"
+      ],
+      "start": "2000-12-09",
+      "end": "2000-12-22",
+      "days": 13,
+      "kind": "unrecognized",
+      "event": "Live event",
+      "location": "Nashville, TN",
+      "note": "Win at NWA Nashville; main office called it non-title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Bad Attitude",
+      "people": [
+        "david-young",
+        "rick-michaels"
+      ],
+      "start": "2000-12-22",
+      "end": "2001-02-03",
+      "days": 43,
+      "kind": "unrecognized",
+      "event": "NWA Nashville Christmas Chaos",
+      "location": "Nashville, TN",
+      "note": "Ladder match; NWA treats first reign as unbroken",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "Bad Street Boys",
+      "people": [
+        "christian-york",
+        "joey-mercury"
+      ],
+      "start": "2001-02-03",
+      "end": "2001-02-17",
+      "days": 14,
+      "number": 29,
+      "event": "Live event",
+      "location": "Nashville, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "Bad Attitude",
+      "people": [
+        "david-young",
+        "rick-michaels"
+      ],
+      "start": "2001-02-17",
+      "end": "2001-03-22",
+      "days": 33,
+      "number": 30,
+      "event": "Live event",
+      "location": "Cornelia, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "Dan Factor & David Flair",
+      "people": [
+        "dan-factor",
+        "david-flair"
+      ],
+      "start": "2001-03-22",
+      "end": "2001-03-23",
+      "days": 1,
+      "number": 31,
+      "event": "Live event",
+      "location": "Athens, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r38",
+      "holder": "Bad Attitude",
+      "people": [
+        "david-young",
+        "rick-michaels"
+      ],
+      "start": "2001-03-23",
+      "end": "2001-04-24",
+      "days": 32,
+      "number": 32,
+      "event": "Live event",
+      "location": "Toccoa, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "Heavenly Bodies",
+      "people": [
+        "chris-nelson",
+        "vito-denucci"
+      ],
+      "start": "2001-04-24",
+      "end": "2001-12-28",
+      "days": 248,
+      "number": 33,
+      "event": "Live event",
+      "location": "Tampa, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "Glacier & Jason Sugarman",
+      "people": [
+        "glacier",
+        "jason-sugarman"
+      ],
+      "start": "2001-12-28",
+      "end": "2001-12-29",
+      "days": 1,
+      "number": 34,
+      "event": "Live event",
+      "location": "DeLand, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "Heavenly Bodies",
+      "people": [
+        "chris-nelson",
+        "vito-denucci"
+      ],
+      "start": "2001-12-29",
+      "end": "2002-01-26",
+      "days": 28,
+      "number": 35,
+      "event": "Live event",
+      "location": "Live Oak, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Disturbing Behavior",
+      "people": [
+        "jeff-daniels",
+        "tim-renesto"
+      ],
+      "start": "2002-01-26",
+      "end": "2002-04-17",
+      "days": 81,
+      "number": 36,
+      "event": "Live event",
+      "location": "Columbia, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "Heavenly Bodies",
+      "people": [
+        "chris-nelson",
+        "vito-denucci"
+      ],
+      "start": "2002-04-17",
+      "end": "2002-06-08",
+      "days": 52,
+      "number": 37,
+      "event": "Live event",
+      "location": "Winter Haven, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "Shane Twins",
+      "people": [
+        "mike-shane",
+        "todd-shane"
+      ],
+      "start": "2002-06-08",
+      "end": "2002-06-28",
+      "days": 20,
+      "number": 38,
+      "event": "Live event",
+      "location": "Lima, Peru",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "A.J. Styles & Jerry Lynn",
+      "people": [
+        "aj-styles",
+        "jerry-lynn"
+      ],
+      "start": "2002-07-03",
+      "end": "2002-08-14",
+      "days": 42,
+      "number": 39,
+      "event": "Weekly pay-per-view event #3",
+      "location": "Nashville, TN",
+      "note": "Won tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "America's Most Wanted",
+      "people": [
+        "chris-harris",
+        "james-storm"
+      ],
+      "start": "2002-09-18",
+      "end": "2002-11-13",
+      "days": 56,
+      "number": 40,
+      "event": "Weekly pay-per-view event #13",
+      "location": "Nashville, TN",
+      "note": "Won gauntlet for the gold match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "Disciples of The New Church",
+      "people": [
+        "brian-lee",
+        "slash"
+      ],
+      "start": "2002-11-13",
+      "end": "2003-01-08",
+      "days": 56,
+      "number": 41,
+      "event": "Weekly pay-per-view event #21",
+      "location": "Nashville, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "America's Most Wanted",
+      "people": [
+        "chris-harris",
+        "james-storm"
+      ],
+      "start": "2003-01-08",
+      "end": "2003-01-22",
+      "days": 14,
+      "number": 42,
+      "event": "Weekly pay-per-view event #27",
+      "location": "Nashville, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r49",
+      "holder": "Triple X",
+      "people": [
+        "christopher-daniels",
+        "kaval",
+        "elix-skipper"
+      ],
+      "start": "2003-01-22",
+      "end": "2003-02-05",
+      "days": 14,
+      "number": 43,
+      "event": "Weekly pay-per-view event #29",
+      "location": "Nashville, TN",
+      "note": "All three recognized under Freebird Rule",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r50",
+      "holder": "Triple X",
+      "people": [
+        "christopher-daniels",
+        "kaval",
+        "elix-skipper"
+      ],
+      "start": "2003-03-12",
+      "end": "2003-04-16",
+      "days": 35,
+      "number": 44,
+      "event": "Weekly pay-per-view event #36",
+      "location": "Nashville, TN",
+      "note": "Won vacant title from AMW",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r51",
+      "holder": "Amazing Red & Jerry Lynn",
+      "people": [
+        "amazing-red",
+        "jerry-lynn"
+      ],
+      "start": "2003-04-16",
+      "end": "2003-05-07",
+      "days": 21,
+      "number": 45,
+      "event": "Weekly pay-per-view event #41",
+      "location": "Nashville, TN",
+      "note": "Beat Daniels and Skipper",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "Triple X",
+      "people": [
+        "christopher-daniels",
+        "kaval",
+        "elix-skipper"
+      ],
+      "start": "2003-05-07",
+      "end": "2003-06-25",
+      "days": 49,
+      "number": 46,
+      "event": "Weekly pay-per-view event #44",
+      "location": "Nashville, TN",
+      "note": "Handicap match won by disqualification",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r53",
+      "holder": "America's Most Wanted",
+      "people": [
+        "chris-harris",
+        "james-storm"
+      ],
+      "start": "2003-06-25",
+      "end": "2003-08-27",
+      "days": 63,
+      "number": 47,
+      "event": "Weekly pay-per-view event #51",
+      "location": "Nashville, TN",
+      "note": "Steel cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r54",
+      "holder": "Simon Diamond & Johnny Swinger",
+      "people": [
+        "simon-diamond",
+        "johnny-swinger"
+      ],
+      "start": "2003-08-27",
+      "end": "2003-11-19",
+      "days": 84,
+      "number": 48,
+      "event": "Weekly pay-per-view event #60",
+      "location": "Nashville, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r1",
+      "holder": "3Live Kru",
+      "people": [
+        "r-truth",
+        "road-dogg",
+        "konnan"
       ],
       "start": "2003-11-26",
       "end": "2004-01-28",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 63,
+      "number": 49,
+      "event": "Weekly pay-per-view event #72",
+      "location": "Nashville, TN",
+      "note": "Won six-man match for vacant title; Freebird Rule",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/nwa/nwa-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/nwa/nwa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-605"
       ]
     },
     {
-      "id": "r2",
-      "holder": "B.G. James & Konnan & Ron Killings",
+      "id": "r55",
+      "holder": "The Red Shirt Security",
       "people": [
-        "r-truth"
+        "joe-e-legend",
+        "kevin-northcutt"
+      ],
+      "start": "2004-01-28",
+      "end": "2004-02-04",
+      "days": 7,
+      "number": 50,
+      "event": "Weekly pay-per-view event #79",
+      "location": "Nashville, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r56",
+      "holder": "Abyss & A.J. Styles",
+      "people": [
+        "abyss",
+        "aj-styles"
+      ],
+      "start": "2004-02-04",
+      "end": "2004-03-03",
+      "days": 28,
+      "number": 51,
+      "event": "Weekly pay-per-view event #80",
+      "location": "Nashville, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "Dallas & Kid Kash",
+      "people": [
+        "lance-archer",
+        "kid-kash"
+      ],
+      "start": "2004-03-31",
+      "end": "2004-04-14",
+      "days": 14,
+      "number": 52,
+      "event": "Weekly pay-per-view event #88",
+      "location": "Nashville, TN",
+      "note": "Won tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r58",
+      "holder": "D-Lo Brown & Apolo",
+      "people": [
+        "d-lo-brown",
+        "apolo"
+      ],
+      "start": "2004-04-14",
+      "end": "2004-04-21",
+      "days": 7,
+      "number": 53,
+      "event": "Weekly pay-per-view event #90",
+      "location": "Nashville, TN",
+      "note": "Won by disqualification",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r59",
+      "holder": "Dallas & Kid Kash",
+      "people": [
+        "lance-archer",
+        "kid-kash"
+      ],
+      "start": "2004-04-21",
+      "end": "2004-06-03",
+      "days": 43,
+      "number": 54,
+      "event": "Weekly pay-per-view event #91",
+      "location": "Nashville, TN",
+      "note": "Won by disqualification",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r60",
+      "holder": "America's Most Wanted",
+      "people": [
+        "chris-harris",
+        "james-storm"
+      ],
+      "start": "2004-06-03",
+      "end": "2004-07-07",
+      "days": 34,
+      "number": 55,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r61",
+      "holder": "The Naturals",
+      "people": [
+        "andy-douglas",
+        "chase-stevens"
+      ],
+      "start": "2004-07-07",
+      "end": "2004-09-08",
+      "days": 63,
+      "number": 56,
+      "event": "Weekly pay-per-view event #102",
+      "location": "Nashville, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r62",
+      "holder": "Chris Harris & Elix Skipper",
+      "people": [
+        "chris-harris",
+        "elix-skipper"
+      ],
+      "start": "2004-09-08",
+      "end": "2004-09-21",
+      "days": 13,
+      "number": 57,
+      "event": "Weekly pay-per-view event #111",
+      "location": "Nashville, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r63",
+      "holder": "Christopher Daniels & James Storm",
+      "people": [
+        "christopher-daniels",
+        "james-storm"
+      ],
+      "start": "2004-09-21",
+      "end": "2004-10-12",
+      "days": 21,
+      "number": 58,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r64",
+      "holder": "Team Canada",
+      "people": [
+        "bobby-roode",
+        "eric-young"
+      ],
+      "start": "2004-10-12",
+      "end": "2004-11-07",
+      "days": 26,
+      "number": 59,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r2",
+      "holder": "3Live Kru",
+      "people": [
+        "r-truth",
+        "road-dogg",
+        "konnan"
       ],
       "start": "2004-11-07",
       "end": "2004-12-05",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 28,
+      "number": 60,
+      "event": "Victory Road",
+      "location": "Orlando, FL",
+      "note": "James and Konnan won the title",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/nwa/nwa-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/nwa/nwa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-r-truth-603"
       ]
     },
     {
-      "id": "r3",
-      "holder": "James Storm & Eli Drake",
+      "id": "r65",
+      "holder": "Team Canada",
       "people": [
-        "la-knight"
+        "bobby-roode",
+        "eric-young"
+      ],
+      "start": "2004-12-05",
+      "end": "2005-01-16",
+      "days": 42,
+      "number": 61,
+      "event": "Turning Point",
+      "location": "Orlando, FL",
+      "note": "Beat James and Killings",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r66",
+      "holder": "America's Most Wanted",
+      "people": [
+        "chris-harris",
+        "james-storm"
+      ],
+      "start": "2005-01-16",
+      "end": "2005-04-26",
+      "days": 100,
+      "number": 62,
+      "event": "Final Resolution",
+      "location": "Orlando, FL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r67",
+      "holder": "The Naturals",
+      "people": [
+        "andy-douglas",
+        "chase-stevens"
+      ],
+      "start": "2005-04-26",
+      "end": "2005-10-05",
+      "days": 162,
+      "number": 63,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r68",
+      "holder": "The Naturals",
+      "people": [
+        "andy-douglas",
+        "chase-stevens"
+      ],
+      "start": "2005-10-08",
+      "end": "2005-10-11",
+      "days": 3,
+      "number": 64,
+      "event": "57th Anniversary Show",
+      "location": "Nashville, TN",
+      "note": "Nashville Street Fight",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r69",
+      "holder": "America's Most Wanted",
+      "people": [
+        "chris-harris",
+        "james-storm"
+      ],
+      "start": "2005-10-11",
+      "end": "2006-06-18",
+      "days": 250,
+      "number": 65,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r70",
+      "holder": "A.J. Styles & Christopher Daniels",
+      "people": [
+        "aj-styles",
+        "christopher-daniels"
+      ],
+      "start": "2006-06-18",
+      "end": "2006-08-14",
+      "days": 57,
+      "number": 66,
+      "event": "Slammiversary",
+      "location": "Orlando, FL",
+      "note": "Last chance match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r71",
+      "holder": "The Latin American Xchange",
+      "people": [
+        "hernandez",
+        "homicide"
+      ],
+      "start": "2006-08-14",
+      "end": "2006-09-24",
+      "days": 41,
+      "number": 67,
+      "event": "Impact!",
+      "location": "Orlando, FL",
+      "note": "Border brawl; aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r72",
+      "holder": "A.J. Styles & Christopher Daniels",
+      "people": [
+        "aj-styles",
+        "christopher-daniels"
+      ],
+      "start": "2006-09-24",
+      "end": "2006-10-22",
+      "days": 28,
+      "number": 68,
+      "event": "No Surrender",
+      "location": "Orlando, FL",
+      "note": "Ultimate X match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r73",
+      "holder": "The Latin American Xchange",
+      "people": [
+        "hernandez",
+        "homicide"
+      ],
+      "start": "2006-10-22",
+      "end": "2007-04-15",
+      "days": 175,
+      "number": 69,
+      "event": "Bound for Glory",
+      "location": "Plymouth Township, MI",
+      "note": "Six sides of steel match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r74",
+      "holder": "Team 3D",
+      "people": [
+        "d-von-dudley",
+        "bubba-ray-dudley"
+      ],
+      "start": "2007-04-15",
+      "end": "2007-05-13",
+      "days": 28,
+      "number": 70,
+      "event": "Lockdown",
+      "location": "St. Charles, MO",
+      "note": "Electrified six sides of steel match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r75",
+      "holder": "The Real American Heroes",
+      "people": [
+        "joey-ryan",
+        "karl-anderson"
+      ],
+      "start": "2007-07-08",
+      "end": "2008-02-10",
+      "days": 217,
+      "number": 71,
+      "event": "Live event",
+      "location": "McAllen, TX",
+      "note": "Three-way tag match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r76",
+      "holder": "Los Luchas",
+      "people": [
+        "phoenix-star",
+        "zokre"
+      ],
+      "start": "2008-02-10",
+      "end": "2008-10-04",
+      "days": 237,
+      "number": 72,
+      "event": "Live event",
+      "location": "Las Vegas, NV",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r77",
+      "holder": "The Skullkrushers",
+      "people": [
+        "keith-walker",
+        "rasche-brown"
+      ],
+      "start": "2008-10-04",
+      "end": "2010-11-20",
+      "days": 777,
+      "number": 73,
+      "event": "Live event",
+      "location": "Robstown, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r78",
+      "holder": "Dark City Fight Club",
+      "people": [
+        "jon-davis",
+        "kory-chavis"
+      ],
+      "start": "2010-11-20",
+      "end": "2011-05-01",
+      "days": 162,
+      "number": 74,
+      "event": "Live event",
+      "location": "Milwaukee, WI",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r79",
+      "holder": "The Usual Suspects",
+      "people": [
+        "a-j-steele",
+        "murder-one"
+      ],
+      "start": "2011-05-01",
+      "end": "2011-05-15",
+      "days": 14,
+      "number": 75,
+      "event": "NWA RPW Memorial Mayhem (2011)",
+      "location": "Warner Robins, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r80",
+      "holder": "Dark City Fight Club",
+      "people": [
+        "jon-davis",
+        "kory-chavis"
+      ],
+      "start": "2011-05-15",
+      "end": "2012-12-15",
+      "days": 580,
+      "number": 76,
+      "event": "NWA RPW live event",
+      "location": "Warner Robins, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r81",
+      "holder": "The Kingz of the Underground",
+      "people": [
+        "ryan-genesis",
+        "scot-summers"
+      ],
+      "start": "2012-12-15",
+      "end": "2013-04-20",
+      "days": 126,
+      "number": 77,
+      "event": "NWA BOW December to Remember",
+      "location": "San Antonio, TX",
+      "note": "Won title from Hoyt and Chavis",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r82",
+      "holder": "Killer Elite Squad",
+      "people": [
+        "davey-boy-smith-jr",
+        "lance-archer"
+      ],
+      "start": "2013-04-20",
+      "end": "2013-11-09",
+      "days": 203,
+      "number": 78,
+      "event": "NWA Houston Parade of Champions",
+      "location": "Houston, TX",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r83",
+      "holder": "IronGodz",
+      "people": [
+        "jax-dane",
+        "rob-conway"
+      ],
+      "start": "2013-11-09",
+      "end": "2014-04-06",
+      "days": 148,
+      "number": 79,
+      "event": "Power Struggle",
+      "location": "Osaka, Japan",
+      "note": "Three-way match; Conway also held NWA title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r84",
+      "holder": "Tencozy",
+      "people": [
+        "hiroyoshi-tenzan",
+        "satoshi-kojima"
+      ],
+      "start": "2014-04-06",
+      "end": "2014-10-13",
+      "days": 190,
+      "number": 80,
+      "event": "Invasion Attack",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r85",
+      "holder": "Killer Elite Squad",
+      "people": [
+        "davey-boy-smith-jr",
+        "lance-archer"
+      ],
+      "start": "2014-10-13",
+      "end": "2015-10-10",
+      "days": 362,
+      "number": 81,
+      "event": "King of Pro-Wrestling",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r86",
+      "holder": "The Heatseekers",
+      "people": [
+        "elliott-russell",
+        "sigmon-russell"
+      ],
+      "start": "2015-10-10",
+      "end": "2015-12-04",
+      "days": 55,
+      "number": 82,
+      "event": "NWA Mid-South Presents Glory Lasts Forever",
+      "location": "Dyersburg, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r87",
+      "holder": "The Iron Empire",
+      "people": [
+        "matt-riviera",
+        "rob-conway"
+      ],
+      "start": "2015-12-04",
+      "end": "2016-09-09",
+      "days": 280,
+      "number": 83,
+      "event": "NWA Mid-South Presents: Wrestling at the Resorts Casino",
+      "location": "Robinsonville, MS",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r88",
+      "holder": "The Heatseekers",
+      "people": [
+        "elliott-russell",
+        "sigmon-russell"
+      ],
+      "start": "2016-09-09",
+      "end": "2016-09-10",
+      "days": 1,
+      "number": 84,
+      "event": "NWA Mid-South",
+      "location": "Ripley, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r89",
+      "holder": "The Iron Empire",
+      "people": [
+        "matt-riviera",
+        "rob-conway"
+      ],
+      "start": "2016-09-10",
+      "end": "2016-12-09",
+      "days": 90,
+      "number": 85,
+      "event": "NWA Mid-South",
+      "location": "Dyersburg, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r90",
+      "holder": "The Heatseekers",
+      "people": [
+        "elliott-russell",
+        "sigmon-russell"
+      ],
+      "start": "2016-12-09",
+      "end": "2017-01-06",
+      "days": 28,
+      "number": 86,
+      "event": "NWA Mid-South",
+      "location": "Ripley, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r91",
+      "holder": "The Iron Empire",
+      "people": [
+        "matt-riviera",
+        "rob-conway"
+      ],
+      "start": "2017-01-06",
+      "end": "2017-02-23",
+      "days": 48,
+      "number": 87,
+      "event": "NWA Mid-South",
+      "location": "Ripley, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r92",
+      "holder": "Kazushi Miyamoto & Rob Terry",
+      "people": [
+        "kazushi-miyamoto",
+        "rob-terry"
+      ],
+      "start": "2017-02-23",
+      "end": "2017-06-17",
+      "days": 114,
+      "number": 88,
+      "event": "Diamond Stars Wrestling",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r93",
+      "holder": "The Heatseekers",
+      "people": [
+        "elliott-russell",
+        "sigmon-russell"
+      ],
+      "start": "2017-06-17",
+      "end": "2017-09-30",
+      "days": 105,
+      "number": 89,
+      "event": "NWA Mid-South",
+      "location": "Dyersburg, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r94",
+      "holder": "Villain Enterprises",
+      "people": [
+        "brody-king",
+        "pco"
+      ],
+      "start": "2019-04-27",
+      "end": "2019-09-07",
+      "days": 133,
+      "number": 90,
+      "event": "Crockett Cup",
+      "location": "Concord, NC",
+      "note": "Won finals of Crockett Cup tournament for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r95",
+      "holder": "The Wild Cards",
+      "people": [
+        "royce-isaacs",
+        "thom-latimer"
+      ],
+      "start": "2019-09-07",
+      "end": "2019-10-01",
+      "days": 24,
+      "number": 91,
+      "event": "Global Wars Espectacular",
+      "location": "Villa Park, IL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r96",
+      "holder": "Rock 'n' Roll Express",
+      "people": [
+        "ricky-morton",
+        "robert-gibson"
+      ],
+      "start": "2019-10-01",
+      "end": "2020-01-24",
+      "days": 115,
+      "number": 92,
+      "event": "NWA Power",
+      "location": "Atlanta, GA",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Eli Drake & James Storm",
+      "people": [
+        "la-knight",
+        "james-storm"
       ],
       "start": "2020-01-24",
       "end": "2020-11-10",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 291,
+      "number": 93,
+      "event": "Hard Times",
+      "location": "Atlanta, GA",
+      "note": "Triple threat tag match",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/nwa/nwa-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/nwa/nwa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-la-knight-405"
       ]
     },
     {
-      "id": "r4",
-      "holder": "Mecha Wolf",
+      "id": "r97",
+      "holder": "Aron Stevens & J. R. Kratos",
       "people": [
-        "mecha-wolf"
+        "damien-sandow",
+        "jr-kratos"
+      ],
+      "start": "2020-11-10",
+      "end": "2021-08-29",
+      "days": 292,
+      "number": 94,
+      "event": "UWN Primetime Live #9",
+      "location": "Long Beach, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "La Rebelión",
+      "people": [
+        "mecha-wolf",
+        "bestia-666"
       ],
       "start": "2021-08-29",
       "end": "2022-06-11",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 286,
+      "number": 95,
+      "event": "NWA 73rd Anniversary Show",
+      "location": "St. Louis, MO",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/nwa/nwa-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/nwa/nwa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-mecha-wolf-435"
       ]
     },
     {
-      "id": "r5",
-      "holder": "Mecha Wolf",
+      "id": "r98",
+      "holder": "The Commonwealth Connection",
       "people": [
-        "mecha-wolf"
+        "doug-williams",
+        "davey-boy-smith-jr"
+      ],
+      "start": "2022-06-11",
+      "end": "2022-08-27",
+      "days": 77,
+      "number": 96,
+      "event": "Alwayz Ready",
+      "location": "Knoxville, TN",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "La Rebelión",
+      "people": [
+        "mecha-wolf",
+        "bestia-666"
       ],
       "start": "2022-08-27",
       "end": "2023-08-26",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 364,
+      "number": 97,
+      "event": "NWA 74th Anniversary Show Night 1",
+      "location": "St. Louis, MO",
+      "note": "Won vacant titles over Hawx Aerie",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/nwa/nwa-world-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/nwa/nwa-world-tag-team-championship",
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
       ],
       "legacyIds": [
         "profile-reign-mecha-wolf-434"
       ]
+    },
+    {
+      "id": "r99",
+      "holder": "Blunt Force Trauma",
+      "people": [
+        "carnage",
+        "damage"
+      ],
+      "start": "2023-08-26",
+      "end": "2024-06-01",
+      "days": 280,
+      "number": 98,
+      "event": "NWA 75th Anniversary Show Night 1",
+      "location": "St. Louis, MO",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r100",
+      "holder": "Knox & Murdoch",
+      "people": [
+        "mike-knox",
+        "trevor-murdoch"
+      ],
+      "start": "2024-06-01",
+      "end": "2025-08-16",
+      "days": 441,
+      "number": 99,
+      "event": "NWA Back To The Territories",
+      "location": "Knoxville, TN",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r101",
+      "holder": "The Immortals",
+      "people": [
+        "jr-kratos",
+        "odinson"
+      ],
+      "start": "2025-08-16",
+      "end": "2026-04-25",
+      "days": 243,
+      "number": 100,
+      "event": "NWA 77th Anniversary Show",
+      "location": "Huntington, NY",
+      "note": "Aired on tape delay as a Powerrr special",
+      "dateNote": "The source counts 243 days; the dates give 252.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r102",
+      "holder": "The Country Gentlemen",
+      "people": [
+        "aj-cazana",
+        "kc-cazana"
+      ],
+      "start": "2026-04-25",
+      "days": 133,
+      "number": 101,
+      "event": "NWA Powerrr",
+      "location": "Tampa, Florida",
+      "note": "Aired on tape delay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_NWA_World_Tag_Team_Champions"
+      ],
+      "legacyIds": []
     }
   ]
 }

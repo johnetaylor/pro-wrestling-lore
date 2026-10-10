@@ -1,11 +1,1075 @@
 {
   "id": "nwa-world-light-heavyweight-championship",
   "name": "NWA World Light Heavyweight Championship",
-  "names": [
-    "NWA World Light Heavyweight Championship"
+  "promotion": "cmll",
+  "division": "men",
+  "format": "singles",
+  "established": "1952-11-06",
+  "retired": "2014-02-26",
+  "names": [],
+  "history": [
+    {
+      "date": "1957-11-30",
+      "kind": "deactivated",
+      "text": "NWA stripped Frank Stojack of the title for lacking NWA-mandated defenses; he kept the physical belt and defended it for over a year.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1958",
+      "kind": "promotion",
+      "text": "After Stojack's stripping, the NWA executive board gave control of the title to Salvador Lutteroth and EMLL.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1958",
+      "kind": "reactivated",
+      "text": "Dory Dixon won the vacant title under EMLL's authority, reviving the championship.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1977",
+      "kind": "brand",
+      "text": "The title was also defended in the Los Angeles area in the late 1970s and early 1980s, and was promoted by NWA Hollywood Wrestling until its closure in 1982.",
+      "related": [
+        "NWA Hollywood Wrestling"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1997",
+      "kind": "recognition",
+      "text": "The NWA endorsed a separate \"New Jersey version\" of the title in 1997 and 1998, which was not connected to the CMLL version.",
+      "related": [
+        "NWA World Light Heavyweight Championship (New Jersey version)"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2010-08-12",
+      "kind": "replaced-by",
+      "text": "CMLL returned the old title to the NWA and debuted the NWA World Historic Light Heavyweight Championship as its replacement.",
+      "related": [
+        "NWA World Historic Light Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2013-05-19",
+      "kind": "reactivated",
+      "text": "NWA Mexico crowned its first recognized champion, Súper Nova, who won the vacant title in a tournament final.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2013-05-19",
+      "kind": "recognition",
+      "text": "Súper Nova was recognized by NWA Mexico and IWRG but not by the NWA in the United States.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2014-02-26",
+      "kind": "deactivated",
+      "text": "Súper Nova's last known defense occurred at an IWRG event; no defenses occurred afterward, and the title was de facto retired.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ]
+    }
   ],
-  "sources": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r2",
+      "holder": "Gypsy Joe",
+      "people": [
+        "gypsy-joe"
+      ],
+      "start": "1952-11-06",
+      "end": "1953-08-10",
+      "days": 277,
+      "number": 1,
+      "event": "Live event",
+      "location": "Des Moines, Iowa",
+      "note": "Beat Johnny Balbo by decision to win inaugural title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Frank Stojack",
+      "people": [
+        "frank-stojack"
+      ],
+      "start": "1953-08-10",
+      "end": "1957-11-30",
+      "days": 1573,
+      "number": 2,
+      "event": "Live event",
+      "location": "Spokane, Washington",
+      "note": "Longest reign on record",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Dory Dixon",
+      "people": [
+        "dory-dixon"
+      ],
+      "start": "1958-02-13",
+      "end": "1959-09-11",
+      "days": 575,
+      "number": 3,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "note": "Beat Al Kashley for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Ray Mendoza",
+      "people": [
+        "ray-mendoza"
+      ],
+      "start": "1959-09-11",
+      "end": "1960-07-30",
+      "days": 323,
+      "number": 4,
+      "event": "Live event",
+      "location": "Guadalajara, Jalisco",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Gory Guerrero",
+      "people": [
+        "gory-guerrero"
+      ],
+      "start": "1960-07-30",
+      "end": "1963-08-06",
+      "days": 1102,
+      "number": 5,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Ali Bey",
+      "people": [
+        "ali-bey"
+      ],
+      "start": "1963-08-06",
+      "end": "1963-09-24",
+      "days": 49,
+      "number": 6,
+      "event": "Live event",
+      "location": "El Paso, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Gory Guerrero",
+      "people": [
+        "gory-guerrero"
+      ],
+      "start": "1963-09-24",
+      "end": "1966-02-01",
+      "days": 861,
+      "number": 7,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Ray Mendoza",
+      "people": [
+        "ray-mendoza"
+      ],
+      "start": "1967-08-04",
+      "end": "1968-05-19",
+      "days": 289,
+      "number": 8,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "note": "Won tournament final over Dory Dixon for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Ángel Blanco",
+      "people": [
+        "angel-blanco"
+      ],
+      "start": "1968-05-19",
+      "end": "1968-12-25",
+      "days": 220,
+      "number": 9,
+      "event": "Live event",
+      "location": "Torreón, Coahuila",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Ray Mendoza",
+      "people": [
+        "ray-mendoza"
+      ],
+      "start": "1968-12-25",
+      "end": "1969-12-19",
+      "days": 359,
+      "number": 10,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Coloso Colosetti",
+      "people": [
+        "coloso-colosetti"
+      ],
+      "start": "1969-12-19",
+      "end": "1970-03-20",
+      "days": 91,
+      "number": 11,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Ray Mendoza",
+      "people": [
+        "ray-mendoza"
+      ],
+      "start": "1970-03-20",
+      "end": "1970-11-27",
+      "days": 252,
+      "number": 12,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "El Solitario",
+      "people": [
+        "el-solitario"
+      ],
+      "start": "1970-11-27",
+      "end": "1972-03-17",
+      "days": 476,
+      "number": 13,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "David Morgan",
+      "people": [
+        "david-morgan"
+      ],
+      "start": "1972-03-17",
+      "end": "1972-04-21",
+      "days": 35,
+      "number": 14,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Ray Mendoza",
+      "people": [
+        "ray-mendoza"
+      ],
+      "start": "1972-04-21",
+      "end": "1972-06-13",
+      "days": 53,
+      "number": 15,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Alfonso Dantés",
+      "people": [
+        "alfonso-dantes"
+      ],
+      "start": "1972-06-13",
+      "end": "1973-06-29",
+      "days": 381,
+      "number": 16,
+      "event": "Live event",
+      "location": "Tijuana, Baja California",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Kim Sung Ho",
+      "people": [
+        "kim-sung-ho"
+      ],
+      "start": "1973-06-29",
+      "end": "1973-12-21",
+      "days": 175,
+      "number": 17,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Ray Mendoza",
+      "people": [
+        "ray-mendoza"
+      ],
+      "start": "1973-12-21",
+      "end": "1974-07-17",
+      "days": 208,
+      "number": 18,
+      "event": "Live event",
+      "location": "Los Angeles, California",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Dr. Wagner",
+      "people": [
+        "dr-wagner"
+      ],
+      "start": "1974-09-22",
+      "end": "1976-02-27",
+      "days": 523,
+      "number": 19,
+      "event": "EMLL 41st Anniversary Show",
+      "location": "Mexico City, Mexico",
+      "note": "Won tournament final over El Halcon for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Adorable Rubí",
+      "people": [
+        "adorable-rubi"
+      ],
+      "start": "1976-02-27",
+      "end": "1976-07-16",
+      "days": 140,
+      "number": 20,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Carlos Plata",
+      "people": [
+        "carlos-plata"
+      ],
+      "start": "1976-07-16",
+      "end": "1976-10-24",
+      "days": 100,
+      "number": 21,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Alfonso Dantés",
+      "people": [
+        "alfonso-dantes"
+      ],
+      "start": "1976-10-24",
+      "end": "1977-02-11",
+      "days": 110,
+      "number": 22,
+      "event": "Live event",
+      "location": "Guadalajara, Jalisco",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Chavo Guerrero",
+      "people": [
+        "chavo-guerrero-sr"
+      ],
+      "start": "1977-02-11",
+      "end": "1977-03-13",
+      "days": 30,
+      "number": 23,
+      "event": "Live event",
+      "location": "Los Angeles, California",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Roddy Piper",
+      "people": [
+        "roddy-piper"
+      ],
+      "start": "1977-03-13",
+      "end": "1977-03-15",
+      "days": 2,
+      "number": 24,
+      "event": "Live event",
+      "location": "California",
+      "note": "Shortest reign on record",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Alfonso Dantés",
+      "people": [
+        "alfonso-dantes"
+      ],
+      "start": "1977-04-21",
+      "end": "1978-06-02",
+      "days": 407,
+      "number": 26,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "Alfonso Dantés",
+      "people": [
+        "alfonso-dantes"
+      ],
+      "start": "1979-04-30",
+      "end": "1980-01-20",
+      "days": 265,
+      "number": 29,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "Raul Mata",
+      "people": [
+        "raul-mata"
+      ],
+      "start": "1980-01-20",
+      "end": "1980-12-15",
+      "days": 330,
+      "number": 30,
+      "event": "Live event",
+      "location": "Guadalajara, Jalisco",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "Tony Salazar",
+      "people": [
+        "tony-salazar"
+      ],
+      "start": "1981-04-03",
+      "end": "1982-03-12",
+      "days": 343,
+      "number": 32,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "David Morgan",
+      "people": [
+        "david-morgan"
+      ],
+      "start": "1982-03-12",
+      "end": "1982-04-02",
+      "days": 21,
+      "number": 33,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "Máscara Año 2000",
+      "people": [
+        "mascara-ano-2000"
+      ],
+      "start": "1982-04-02",
+      "end": "1982-11-16",
+      "days": 228,
+      "number": 34,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "El Faraón",
+      "people": [
+        "el-faraon"
+      ],
+      "start": "1982-11-16",
+      "end": "1983-01-15",
+      "days": 60,
+      "number": 35,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Ringo Mendoza",
+      "people": [
+        "ringo-mendoza"
+      ],
+      "start": "1983-01-15",
+      "end": "1983-07-28",
+      "days": 194,
+      "number": 36,
+      "event": "Live event",
+      "location": "Guadalajara, Jalisco",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "El Satánico",
+      "people": [
+        "el-satanico"
+      ],
+      "start": "1983-07-28",
+      "end": "1983-10-23",
+      "days": 87,
+      "number": 37,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "Ringo Mendoza",
+      "people": [
+        "ringo-mendoza"
+      ],
+      "start": "1983-10-23",
+      "end": "1985-02-13",
+      "days": 479,
+      "number": 38,
+      "event": "Live event",
+      "location": "Guadalajara, Jalisco",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "Rayo de Jalisco, Jr.",
+      "people": [
+        "rayo-de-jalisco-jr"
+      ],
+      "start": "1985-06-21",
+      "end": "1987-03-20",
+      "days": 637,
+      "number": 40,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "Cien Caras",
+      "people": [
+        "cien-caras"
+      ],
+      "start": "1987-06-24",
+      "end": "1988-03-20",
+      "days": 270,
+      "number": 42,
+      "event": "Live event",
+      "location": "Nezahualcóyotl, Mexico State",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r38",
+      "holder": "Lizmark",
+      "people": [
+        "lizmark"
+      ],
+      "start": "1988-03-20",
+      "end": "1988-06-24",
+      "days": 96,
+      "number": 43,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "Fabuloso Blondy",
+      "people": [
+        "fabuloso-blondy"
+      ],
+      "start": "1988-06-24",
+      "end": "1988-12-09",
+      "days": 168,
+      "number": 44,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "Lizmark",
+      "people": [
+        "lizmark"
+      ],
+      "start": "1988-12-09",
+      "end": "1989-07-21",
+      "days": 224,
+      "number": 45,
+      "event": "JUicio Final",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "El Satánico",
+      "people": [
+        "el-satanico"
+      ],
+      "start": "1989-07-21",
+      "end": "1989-10-21",
+      "days": 92,
+      "number": 46,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Pirata Morgan",
+      "people": [
+        "pirata-morgan"
+      ],
+      "start": "1989-10-21",
+      "end": "1990-02-14",
+      "days": 116,
+      "number": 47,
+      "event": "Live event",
+      "location": "Cuernavaca, Morelos",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "Fabuloso Blondy",
+      "people": [
+        "fabuloso-blondy"
+      ],
+      "start": "1990-02-14",
+      "end": "1990-03-21",
+      "days": 35,
+      "number": 47,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "Lizmark",
+      "people": [
+        "lizmark"
+      ],
+      "start": "1990-03-21",
+      "end": "1990-11-25",
+      "days": 249,
+      "number": 49,
+      "event": "Live event",
+      "location": "Acapulco, Guerrero",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "El Satánico",
+      "people": [
+        "el-satanico"
+      ],
+      "start": "1990-11-25",
+      "end": "1991-05-01",
+      "days": 157,
+      "number": 50,
+      "event": "Live event",
+      "location": "León, Guanajuato",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "Lizmark",
+      "people": [
+        "lizmark"
+      ],
+      "start": "1991-05-01",
+      "end": "1992-04-05",
+      "days": 340,
+      "number": 51,
+      "event": "Live event",
+      "location": "Acapulco, Guerrero",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "El Satánico",
+      "people": [
+        "el-satanico"
+      ],
+      "start": "1992-04-05",
+      "end": "1992-07-25",
+      "days": 111,
+      "number": 52,
+      "event": "CMLL Domingos Arena Mexico",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "Apolo Dantés",
+      "people": [
+        "apolo-dantes"
+      ],
+      "start": "1992-07-25",
+      "end": "1993-03-25",
+      "days": 243,
+      "number": 53,
+      "event": "Live event",
+      "location": "Puebla, Puebla",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r49",
+      "holder": "Jaque Mate",
+      "people": [
+        "jaque-mate"
+      ],
+      "start": "1993-03-25",
+      "end": "1994-12-04",
+      "days": 619,
+      "number": 54,
+      "event": "Live event",
+      "location": "Cuernavaca, Morelos",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r50",
+      "holder": "El Dandy",
+      "people": [
+        "el-dandy"
+      ],
+      "start": "1994-12-04",
+      "end": "1996-10-15",
+      "days": 681,
+      "number": 55,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r51",
+      "holder": "Black Warrior",
+      "people": [
+        "black-warrior"
+      ],
+      "start": "1996-10-15",
+      "end": "1997-05-04",
+      "days": 201,
+      "number": 56,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "Shocker",
+      "people": [
+        "shocker"
+      ],
+      "start": "1997-05-04",
+      "end": "1998-03-10",
+      "days": 310,
+      "number": 57,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r53",
+      "holder": "Black Warrior",
+      "people": [
+        "black-warrior"
+      ],
+      "start": "1998-03-10",
+      "end": "2000-03-06",
+      "days": 727,
+      "number": 58,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r54",
+      "holder": "Tarzan Boy",
+      "people": [
+        "tarzan-boy"
+      ],
+      "start": "2000-03-06",
+      "end": "2003-02-09",
+      "days": 1070,
+      "number": 59,
+      "event": "Live event",
+      "location": "Puebla, Puebla",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r55",
+      "holder": "Vampiro Canadiense",
+      "people": [
+        "vampiro"
+      ],
+      "start": "2003-02-09",
+      "end": "2004-05-03",
+      "days": 450,
+      "number": 60,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r56",
+      "holder": "Shocker",
+      "people": [
+        "shocker"
+      ],
+      "start": "2004-05-03",
+      "end": "2005-04-17",
+      "days": 349,
+      "number": 61,
+      "event": "Live event",
+      "location": "Puebla, Puebla",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "Dr. Wagner Jr.",
+      "people": [
+        "dr-wagner-jr"
+      ],
+      "start": "2005-04-17",
+      "end": "2006-07-22",
+      "days": 461,
+      "number": 62,
+      "event": "CMLL Domingos De Coliseo",
+      "location": "Mexico City, Mexico",
+      "note": "Won decision over Último Guerrero for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r58",
+      "holder": "Atlantis",
+      "people": [
+        "atlantis"
+      ],
+      "start": "2006-07-22",
+      "end": "2009-04-05",
+      "days": 988,
+      "number": 63,
+      "event": "Super Viernes",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "El Texano Jr.",
@@ -14,13 +1078,35 @@
       ],
       "start": "2009-04-05",
       "end": "2010-08-12",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 494,
+      "number": 64,
+      "event": "CMLL Guadalajara Domingos",
+      "location": "Guadalajara, Jalisco",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/nwa-world-light-heavyweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/nwa-world-light-heavyweight-championship",
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-el-texano-jr-248"
       ]
+    },
+    {
+      "id": "r59",
+      "holder": "Súper Nova",
+      "people": [
+        "super-nova-2"
+      ],
+      "start": "2013-05-19",
+      "end": "2014-02-26",
+      "days": 283,
+      "number": 65,
+      "event": "Live event",
+      "location": "Blackfoot, Idaho",
+      "note": "Won tournament final; recognized by NWA Mexico and IWRG",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Light_Heavyweight_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

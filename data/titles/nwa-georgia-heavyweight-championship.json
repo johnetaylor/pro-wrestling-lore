@@ -1,11 +1,2241 @@
 {
   "id": "nwa-georgia-heavyweight-championship",
   "name": "NWA Georgia Heavyweight Championship",
+  "promotion": "nwa",
+  "division": "men",
+  "format": "singles",
+  "established": "1964-08-09",
   "names": [
-    "NWA Georgia Heavyweight Championship"
+    "NWA Wildside Heavyweight Championship",
+    "GCW Georgia Heavyweight Championship"
+  ],
+  "eras": [
+    {
+      "name": "NWA Georgia Heavyweight Championship",
+      "from": "1963-02-05",
+      "to": "1999-09"
+    },
+    {
+      "name": "NWA Wildside Heavyweight Championship",
+      "from": "1999-09",
+      "to": "2012-06-23"
+    },
+    {
+      "name": "NWA Georgia Heavyweight Championship",
+      "from": "2012-06-23",
+      "to": "2021-04-24"
+    },
+    {
+      "name": "GCW Georgia Heavyweight Championship",
+      "from": "2021-04-24"
+    }
+  ],
+  "history": [
+    {
+      "date": "1981-09-13",
+      "kind": "unified-into",
+      "text": "Retired when it was unified with the NWA National Heavyweight Championship.",
+      "related": [
+        "NWA National Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1998-06-01",
+      "kind": "reactivated",
+      "text": "Revived by NWA Georgia, with Billy Black awarded the title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "1999-09",
+      "kind": "promotion",
+      "text": "NWA Georgia became NWA Wildside after merging with National Championship Wrestling, and the title was renamed.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2005-04-30",
+      "kind": "retired",
+      "text": "Retired when NWA Wildside ceased operations.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2012-06-23",
+      "kind": "reactivated",
+      "text": "NWA Action revived the title, restoring the NWA Georgia name; Cru Jones won it over Steve Stiles.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2015-06",
+      "kind": "unified-into",
+      "text": "Tommy Too Much, the NWA Atlanta champion, beat Odinson in a unification match.",
+      "related": [
+        "NWA Atlanta Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2016-02",
+      "kind": "retired",
+      "text": "Per the article, the title was either unified in 2015 or retired in February 2016; the source is unclear.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2016-08-13",
+      "kind": "recognition",
+      "text": "NWA Georgia recognized Mike Pain as champion after NWA Atlanta closed operations.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2017-07-15",
+      "kind": "deactivated",
+      "text": "NWA ended its promotional licenses worldwide, and the title was declared vacant.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2021-04-24",
+      "kind": "reactivated",
+      "text": "The title was revived under the new Georgia Championship Wrestling, and Terry Lawler won it in a 20-man Rumble.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ]
+    },
+    {
+      "date": "2025-05",
+      "kind": "brand",
+      "text": "Georgia Championship Wrestling was rebranded as Georgia Classic Wrestling, and the titles remained active.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ]
+    }
   ],
   "sources": [
-    "https://www.wrestling-titles.com/us/ga/ga-h.html"
+    "https://www.wrestling-titles.com/us/ga/ga-h.html",
+    "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
   ],
-  "reigns": []
+  "reigns": [
+    {
+      "id": "r1",
+      "holder": "Choo-Choo Lynn",
+      "people": [
+        "choo-choo-lynn"
+      ],
+      "start": "1963-02-05",
+      "end": "1963-07-23",
+      "note": "Recognized in Macon",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r2",
+      "holder": "Honey Boy Hannigan",
+      "people": [
+        "honey-boy-hannigan"
+      ],
+      "start": "1963-07-23",
+      "end": "1963-07-30",
+      "location": "Macon, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Choo-Choo Lynn",
+      "people": [
+        "choo-choo-lynn"
+      ],
+      "start": "1963-07-30",
+      "end": "1964-03-24",
+      "location": "Macon, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Dick the Bruiser",
+      "people": [
+        "dick-the-bruiser"
+      ],
+      "start": "1964-03-24",
+      "end": "1964-08-09",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Sputnik Monroe",
+      "people": [
+        "sputnik-monroe"
+      ],
+      "start": "1964-08-09",
+      "end": "1964-09-25",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Don Fargo",
+      "people": [
+        "don-fargo"
+      ],
+      "start": "1964-09-25",
+      "end": "1964-10-16",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Sputnik Monroe",
+      "people": [
+        "sputnik-monroe"
+      ],
+      "start": "1964-10-16",
+      "end": "1964-11-13",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Mario Galento",
+      "people": [
+        "mario-galento"
+      ],
+      "start": "1964-11-13",
+      "end": "1965-05-28",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Buddy Fuller",
+      "people": [
+        "buddy-fuller"
+      ],
+      "start": "1965-05-28",
+      "end": "1966-05-27",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Louie Tillet",
+      "people": [
+        "louie-tillet"
+      ],
+      "start": "1966-05-27",
+      "end": "1966-06-17",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Buddy Fuller",
+      "people": [
+        "buddy-fuller"
+      ],
+      "start": "1966-06-17",
+      "end": "1967-02-24",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "El Mongol",
+      "people": [
+        "el-mongol"
+      ],
+      "start": "1967-02-24",
+      "end": "1967-03-17",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Nick Kozak",
+      "people": [
+        "nick-kozak"
+      ],
+      "start": "1967-03-17",
+      "end": "1967-04-07",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "El Mongol",
+      "people": [
+        "el-mongol"
+      ],
+      "start": "1967-04-07",
+      "end": "1967-04-28",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Buddy Fuller",
+      "people": [
+        "buddy-fuller"
+      ],
+      "start": "1967-04-28",
+      "end": "1967-06-16",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "El Mongol",
+      "people": [
+        "el-mongol"
+      ],
+      "start": "1967-06-16",
+      "end": "1967-07-11",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Tim Woods",
+      "people": [
+        "tim-woods"
+      ],
+      "start": "1967-07-11",
+      "end": "1967-07-18",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "El Mongol",
+      "people": [
+        "el-mongol"
+      ],
+      "start": "1967-07-18",
+      "end": "1967-08-11",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Tim Woods",
+      "people": [
+        "tim-woods"
+      ],
+      "start": "1967-08-11",
+      "end": "1967-09-08",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "El Mongol",
+      "people": [
+        "el-mongol"
+      ],
+      "start": "1967-09-08",
+      "end": "1967-09-29",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "Bobby Shane",
+      "people": [
+        "bobby-shane"
+      ],
+      "start": "1967-09-29",
+      "end": "1967-10-10",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "El Mongol",
+      "people": [
+        "el-mongol"
+      ],
+      "start": "1967-10-10",
+      "end": "1968-05-03",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "Tim Woods",
+      "people": [
+        "tim-woods"
+      ],
+      "start": "1968-05-03",
+      "end": "1968-05-10",
+      "location": "Atlanta, GA",
+      "note": "Won title as masked \"Big O\"; unmasked May 24 1968",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "The Big O",
+      "people": [
+        "the-big-o"
+      ],
+      "start": "1968-05-10",
+      "end": "1968-06-14",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Tarzan Tyler",
+      "people": [
+        "tarzan-tyler"
+      ],
+      "start": "1968-06-14",
+      "end": "1968-08-23",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "The Professional",
+      "people": [
+        "the-professional"
+      ],
+      "start": "1968-08-23",
+      "end": "1968-11-08",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "The Big O",
+      "people": [
+        "the-big-o"
+      ],
+      "start": "1968-11-08",
+      "end": "1968-11-29",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "The Professional",
+      "people": [
+        "the-professional"
+      ],
+      "start": "1968-12-06",
+      "end": "1968-12-27",
+      "location": "Atlanta, GA",
+      "note": "Beat Valentine in rematch for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "Dale Lewis",
+      "people": [
+        "dale-lewis"
+      ],
+      "start": "1968-12-27",
+      "end": "1969-02-07",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "El Mongol",
+      "people": [
+        "el-mongol"
+      ],
+      "start": "1969-02-07",
+      "end": "1969-03-21",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "Assassin #1",
+      "people": [
+        "assassin-1"
+      ],
+      "start": "1969-03-21",
+      "end": "1969-04-15",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "El Mongol",
+      "people": [
+        "el-mongol"
+      ],
+      "start": "1969-04-15",
+      "end": "1969-05-16",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "The Professional",
+      "people": [
+        "the-professional"
+      ],
+      "start": "1969-05-16",
+      "end": "1969-06-21",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Paul DeMarco",
+      "people": [
+        "paul-demarco"
+      ],
+      "start": "1969-06-21",
+      "end": "1969-09-19",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r35",
+      "holder": "Joe Scarpa",
+      "people": [
+        "joe-scarpa"
+      ],
+      "start": "1969-09-19",
+      "end": "1969-10-03",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "Paul DeMarco",
+      "people": [
+        "paul-demarco"
+      ],
+      "start": "1969-10-03",
+      "end": "1969-11-28",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "The Professional",
+      "people": [
+        "the-professional"
+      ],
+      "start": "1969-11-28",
+      "end": "1970-02-18",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r38",
+      "holder": "Assassin #2",
+      "people": [
+        "assassin-2"
+      ],
+      "start": "1970-03-13",
+      "end": "1970-04-17",
+      "location": "Atlanta, GA",
+      "note": "Won 8-man tournament final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "Nick Bockwinkel",
+      "people": [
+        "nick-bockwinkel"
+      ],
+      "start": "1970-04-17",
+      "end": "1970-07-17",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "Paul DeMarco",
+      "people": [
+        "paul-demarco"
+      ],
+      "start": "1970-07-17",
+      "end": "1970-07-24",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "Nick Bockwinkel",
+      "people": [
+        "nick-bockwinkel"
+      ],
+      "start": "1970-07-24",
+      "end": "1970-09-04",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Buddy Colt",
+      "people": [
+        "buddy-colt"
+      ],
+      "start": "1970-09-04",
+      "end": "1970-11-13",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "Fred Blassie",
+      "people": [
+        "fred-blassie"
+      ],
+      "start": "1970-11-13",
+      "end": "1970-11-20",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "Buddy Colt",
+      "people": [
+        "buddy-colt"
+      ],
+      "start": "1970-11-20",
+      "end": "1970-11-27",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "Ray Gunkel",
+      "people": [
+        "ray-gunkel"
+      ],
+      "start": "1970-11-27",
+      "end": "1970-11-30",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "El Mongol",
+      "people": [
+        "el-mongol"
+      ],
+      "start": "1971-02-05",
+      "end": "1971-06-18",
+      "location": "Atlanta, GA",
+      "note": "Won 14-man tournament final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "Buddy Colt",
+      "people": [
+        "buddy-colt"
+      ],
+      "start": "1971-06-18",
+      "end": "1971-07-20",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "Ray Gunkel",
+      "people": [
+        "ray-gunkel"
+      ],
+      "start": "1971-07-20",
+      "end": "1972-01",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r49",
+      "holder": "Buddy Colt",
+      "people": [
+        "buddy-colt"
+      ],
+      "start": "1972-01",
+      "end": "1972-01-25",
+      "dateNote": "The source gives the month only.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r50",
+      "holder": "El Mongol",
+      "people": [
+        "el-mongol"
+      ],
+      "start": "1972-01-25",
+      "end": "1972-04-08",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r51",
+      "holder": "Buddy Colt",
+      "people": [
+        "buddy-colt"
+      ],
+      "start": "1972-04-08",
+      "end": "1972-05-05",
+      "location": "Griffin, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "Roberto Soto",
+      "people": [
+        "roberto-soto"
+      ],
+      "start": "1972-05-05",
+      "end": "1972-11",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r53",
+      "holder": "Mr. Wrestling II",
+      "people": [
+        "mr-wrestling-ii"
+      ],
+      "start": "1973-03-02",
+      "end": "1973-05-11",
+      "location": "Atlanta, GA",
+      "note": "Won 16-man tournament final for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r54",
+      "holder": "Bill Watts",
+      "people": [
+        "bill-watts"
+      ],
+      "start": "1973-05-11",
+      "end": "1973-07-13",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r55",
+      "holder": "Mr. Wrestling II",
+      "people": [
+        "mr-wrestling-ii"
+      ],
+      "start": "1973-07-13",
+      "end": "1973-07-21",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r56",
+      "holder": "Bill Watts",
+      "people": [
+        "bill-watts"
+      ],
+      "start": "1973-07-21",
+      "end": "1973-08-17",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "Mr. Wrestling II",
+      "people": [
+        "mr-wrestling-ii"
+      ],
+      "start": "1973-08-31",
+      "end": "1973-11-02",
+      "note": "Beat Watts in rematch",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r58",
+      "holder": "Bill Watts",
+      "people": [
+        "bill-watts"
+      ],
+      "start": "1973-11-02",
+      "end": "1973-12-21",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r59",
+      "holder": "Ron Fuller",
+      "people": [
+        "ron-fuller"
+      ],
+      "start": "1973-12-21",
+      "end": "1974-01-11",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r60",
+      "holder": "Mr. Wrestling II",
+      "people": [
+        "mr-wrestling-ii"
+      ],
+      "start": "1974-01-11",
+      "end": "1974-07-05",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r61",
+      "holder": "Buddy Colt",
+      "people": [
+        "buddy-colt"
+      ],
+      "start": "1974-07-05",
+      "end": "1974-08-30",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r62",
+      "holder": "Mr. Wrestling II",
+      "people": [
+        "mr-wrestling-ii"
+      ],
+      "start": "1974-08-30",
+      "end": "1974-09-13",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r63",
+      "holder": "Harley Race",
+      "people": [
+        "harley-race"
+      ],
+      "start": "1974-09-13",
+      "end": "1974-09-21",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r64",
+      "holder": "Don Muraco",
+      "people": [
+        "don-muraco"
+      ],
+      "start": "1974-09-21",
+      "end": "1974-10-04",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r65",
+      "holder": "Luke Graham",
+      "people": [
+        "luke-graham"
+      ],
+      "start": "1974-10-08",
+      "end": "1974-10-11",
+      "location": "Atlanta, GA",
+      "note": "Won tournament for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r66",
+      "holder": "Buddy Colt",
+      "people": [
+        "buddy-colt"
+      ],
+      "start": "1974-10-11",
+      "end": "1974-11-15",
+      "location": "Atlanta, GA",
+      "note": "Won battle royal for title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r67",
+      "holder": "Rocky Johnson",
+      "people": [
+        "rocky-johnson"
+      ],
+      "start": "1974-12-06",
+      "end": "1975-02-21",
+      "location": "Atlanta, GA",
+      "note": "Beat Colt in rematch",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r68",
+      "holder": "Abdullah the Butcher",
+      "people": [
+        "abdullah-the-butcher"
+      ],
+      "start": "1975-02-21",
+      "end": "1975-07-04",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r69",
+      "holder": "Mr. Wrestling II",
+      "people": [
+        "mr-wrestling-ii"
+      ],
+      "start": "1975-07-04",
+      "end": "1975-07-11",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r70",
+      "holder": "Abdullah the Butcher",
+      "people": [
+        "abdullah-the-butcher"
+      ],
+      "start": "1975-07-11",
+      "end": "1975-08-07",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r71",
+      "holder": "Toru Tanaka",
+      "people": [
+        "toru-tanaka"
+      ],
+      "start": "1975-08-07",
+      "end": "1975-09-16",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r72",
+      "holder": "Mike McCord",
+      "people": [
+        "mike-mccord"
+      ],
+      "start": "1975-09-16",
+      "end": "1975-09-23",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r73",
+      "holder": "Nikolai Volkoff",
+      "people": [
+        "nikolai-volkoff"
+      ],
+      "start": "1975-09-23",
+      "end": "1975-10-03",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r74",
+      "holder": "Mr. Wrestling II",
+      "people": [
+        "mr-wrestling-ii"
+      ],
+      "start": "1975-10-03",
+      "end": "1975-11-27",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r75",
+      "holder": "The Spoiler",
+      "people": [
+        "the-spoiler"
+      ],
+      "start": "1975-11-27",
+      "end": "1976-01-30",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r76",
+      "holder": "Dusty Rhodes",
+      "people": [
+        "dusty-rhodes"
+      ],
+      "start": "1976-01-30",
+      "end": "1976-02-06",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r77",
+      "holder": "The Spoiler",
+      "people": [
+        "the-spoiler"
+      ],
+      "start": "1976-02-06",
+      "end": "1976-08-20",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r78",
+      "holder": "Dick Slater",
+      "people": [
+        "dick-slater"
+      ],
+      "start": "1976-08-20",
+      "end": "1976-10-26",
+      "location": "Atlanta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r79",
+      "holder": "Mr. Wrestling II",
+      "people": [
+        "mr-wrestling-ii"
+      ],
+      "start": "1976-10-26",
+      "end": "1976-11-25",
+      "location": "Columbus, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r80",
+      "holder": "Dick Slater",
+      "people": [
+        "dick-slater"
+      ],
+      "start": "1976-11-25",
+      "end": "1977-04-15",
+      "location": "Columbus, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r81",
+      "holder": "Paul Jones",
+      "people": [
+        "paul-jones"
+      ],
+      "start": "1977-04-15",
+      "end": "1977-06-04",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r82",
+      "holder": "Dick Slater",
+      "people": [
+        "dick-slater"
+      ],
+      "start": "1977-06-04",
+      "end": "1977-07-22",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r83",
+      "holder": "Mr. Wrestling II",
+      "people": [
+        "mr-wrestling-ii"
+      ],
+      "start": "1977-07-22",
+      "end": "1977-11-16",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r84",
+      "holder": "Stan Hansen",
+      "people": [
+        "stan-hansen"
+      ],
+      "start": "1977-11-16",
+      "end": "1978-01-25",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r85",
+      "holder": "Mr. Wrestling II",
+      "people": [
+        "mr-wrestling-ii"
+      ],
+      "start": "1978-01-25",
+      "end": "1978-02-06",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r86",
+      "holder": "Stan Hansen",
+      "people": [
+        "stan-hansen"
+      ],
+      "start": "1978-02-06",
+      "end": "1978-05-20",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r87",
+      "holder": "Angelo Mosca",
+      "people": [
+        "angelo-mosca"
+      ],
+      "start": "1978-06-09",
+      "end": "1978-09-23",
+      "location": "Atlanta, GA",
+      "note": "Won 14-man one-night tournament for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r88",
+      "holder": "Mr. Wrestling II",
+      "people": [
+        "mr-wrestling-ii"
+      ],
+      "start": "1978-10-16",
+      "end": "1978-12-04",
+      "location": "Augusta, GA",
+      "note": "Beat Hansen in 6-man tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r89",
+      "holder": "Masked Superstar",
+      "people": [
+        "ax"
+      ],
+      "start": "1978-12-04",
+      "end": "1979-05-14",
+      "location": "Augusta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r90",
+      "holder": "Wahoo McDaniel",
+      "people": [
+        "wahoo-mcdaniel"
+      ],
+      "start": "1979-05-14",
+      "end": "1979-07-30",
+      "location": "Augusta, GA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r91",
+      "holder": "Masked Superstar",
+      "people": [
+        "ax"
+      ],
+      "start": "1979-07-30",
+      "end": "1979-08-17",
+      "location": "Augusta, GA",
+      "note": "Second reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r92",
+      "holder": "Wahoo McDaniel",
+      "people": [
+        "wahoo-mcdaniel"
+      ],
+      "start": "1979-08-17",
+      "end": "1979-08-18",
+      "location": "Augusta, GA",
+      "note": "Second reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r93",
+      "holder": "Killer Karl Kox",
+      "people": [
+        "killer-karl-kox"
+      ],
+      "start": "1979-08-24",
+      "end": "1979-10-26",
+      "location": "Augusta, GA",
+      "note": "Won one-night 14-man tournament final over Bob Armstrong",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r94",
+      "holder": "Tommy Rich",
+      "people": [
+        "tommy-rich"
+      ],
+      "start": "1979-10-26",
+      "end": "1979-12-07",
+      "location": "Atlanta, GA",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r95",
+      "holder": "Masked Superstar",
+      "people": [
+        "ax"
+      ],
+      "start": "1979-12-07",
+      "end": "1980-01-12",
+      "location": "Atlanta, GA",
+      "note": "Third reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r96",
+      "holder": "Mr. Wrestling II",
+      "people": [
+        "mr-wrestling-ii"
+      ],
+      "start": "1980-01-12",
+      "end": "1980-03-29",
+      "location": "Atlanta, GA",
+      "note": "Twelfth reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r97",
+      "holder": "Austin Idol",
+      "people": [
+        "austin-idol"
+      ],
+      "start": "1980-03-29",
+      "end": "1980-06-08",
+      "location": "Atlanta, GA",
+      "note": "Second reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r98",
+      "holder": "Baron von Raschke",
+      "people": [
+        "baron-von-raschke"
+      ],
+      "start": "1980-06-08",
+      "end": "1980-08-11",
+      "location": "Atlanta, GA",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r99",
+      "holder": "Steve Keirn",
+      "people": [
+        "steve-keirn"
+      ],
+      "start": "1980-08-11",
+      "end": "1980-09-08",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r100",
+      "holder": "Dennis Condrey",
+      "people": [
+        "dennis-condrey"
+      ],
+      "start": "1980-09-08",
+      "end": "1980-10-24",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r101",
+      "holder": "Tony Atlas",
+      "people": [
+        "tony-atlas"
+      ],
+      "start": "1980-10-24",
+      "end": "1981-04",
+      "location": "Atlanta, GA",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r102",
+      "holder": "Tommy Rich",
+      "people": [
+        "tommy-rich"
+      ],
+      "start": "1981-05-17",
+      "end": "1981-06-12",
+      "location": "Atlanta, GA",
+      "note": "Won vacant title in tournament final over Greg Valentine",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r103",
+      "holder": "Ken Patera",
+      "people": [
+        "ken-patera"
+      ],
+      "start": "1981-06-12",
+      "end": "1981-08-09",
+      "location": "Atlanta, GA",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r104",
+      "holder": "Tommy Rich",
+      "people": [
+        "tommy-rich"
+      ],
+      "start": "1981-08-09",
+      "end": "1981-09-12",
+      "location": "Atlanta, GA",
+      "note": "Won vacant title over Masked Superstar after Patera left",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r105",
+      "holder": "Masked Superstar",
+      "people": [
+        "ax"
+      ],
+      "start": "1981-09-12",
+      "end": "1981-09-13",
+      "location": "Atlanta, GA",
+      "note": "Fourth reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r106",
+      "holder": "Billy Black",
+      "people": [
+        "billy-black"
+      ],
+      "start": "1998-06-01",
+      "end": "1999-02-25",
+      "note": "Awarded title when NWA Georgia revived it",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r107",
+      "holder": "Lord Humongous",
+      "people": [
+        "lord-humongous"
+      ],
+      "start": "1999-02-25",
+      "end": "1999-04-05",
+      "location": "Loganville, GA",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r108",
+      "holder": "Silky Boom Boom",
+      "people": [
+        "silky-boom-boom"
+      ],
+      "start": "1999-04-05",
+      "end": "1999-05-06",
+      "location": "Loganville, GA",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r109",
+      "holder": "Frenchy Riviera",
+      "people": [
+        "frenchy-riviera"
+      ],
+      "start": "1999-05-06",
+      "end": "1999-06-02",
+      "location": "Loganville, GA",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r110",
+      "holder": "Silky Boom Boom",
+      "people": [
+        "silky-boom-boom"
+      ],
+      "start": "1999-06-02",
+      "end": "1999-06-27",
+      "location": "Conyers, GA",
+      "note": "Second reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r111",
+      "holder": "Bart Sawyer",
+      "people": [
+        "bart-sawyer"
+      ],
+      "start": "1999-06-27",
+      "end": "1999-10",
+      "location": "Stockbridge, GA",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r112",
+      "holder": "Rick Michaels",
+      "people": [
+        "rick-michaels"
+      ],
+      "start": "1999-10-14",
+      "end": "2000-01",
+      "location": "Loganville, GA",
+      "note": "Won vacant title in Mega Rumble",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r113",
+      "holder": "Rukkus",
+      "people": [
+        "rukkus"
+      ],
+      "start": "2000-02-05",
+      "end": "2000-04-15",
+      "location": "Cornelia, GA",
+      "note": "Won title in Mega Rumble",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r114",
+      "holder": "Stone Mountain",
+      "people": [
+        "stone-mountain"
+      ],
+      "start": "2000-04-15",
+      "end": "2001-05-05",
+      "location": "Cornelia, GA",
+      "note": "Beat Mark E. Mark who subbed for Rukkus",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r115",
+      "holder": "Prince Justice",
+      "people": [
+        "prince-justice"
+      ],
+      "start": "2001-05-05",
+      "end": "2001-09-01",
+      "location": "Cornelia, GA",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r116",
+      "holder": "Scott Wrenn",
+      "people": [
+        "scott-wrenn"
+      ],
+      "start": "2001-09-01",
+      "end": "2001-10-19",
+      "location": "Cornelia, GA",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r117",
+      "holder": "Rick Michaels",
+      "people": [
+        "rick-michaels"
+      ],
+      "start": "2001-10-19",
+      "end": "2001-12-22",
+      "location": "Cornelia, GA",
+      "note": "Second reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r118",
+      "holder": "A.J. Styles",
+      "people": [
+        "aj-styles"
+      ],
+      "start": "2001-12-22",
+      "end": "2002-03-23",
+      "location": "Cornelia, GA",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r119",
+      "holder": "David Young",
+      "people": [
+        "david-young"
+      ],
+      "start": "2002-03-23",
+      "end": "2002-06-01",
+      "location": "Cornelia, GA",
+      "note": "Won three-way elimination match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r120",
+      "holder": "Jason Cross",
+      "people": [
+        "jason-cross"
+      ],
+      "start": "2002-06-01",
+      "end": "2002-06-29",
+      "location": "Cornelia, GA",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r121",
+      "holder": "Adam Jacobs",
+      "people": [
+        "adam-jacobs"
+      ],
+      "start": "2002-06-29",
+      "end": "2002-08-02",
+      "location": "Cornelia, GA",
+      "note": "Won gauntlet steel cage match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r122",
+      "holder": "David Young",
+      "people": [
+        "david-young"
+      ],
+      "start": "2002-08-02",
+      "end": "2002-09-22",
+      "location": "Cornelia, GA",
+      "note": "Beat John Phoenix after Jacobs no-showed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r123",
+      "holder": "Iceberg",
+      "people": [
+        "iceberg"
+      ],
+      "start": "2002-09-22",
+      "end": "2003-07-05",
+      "location": "Cornelia, GA",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r124",
+      "holder": "Hotstuff Hernandez",
+      "people": [
+        "hotstuff-hernandez"
+      ],
+      "start": "2003-07-05",
+      "end": "2003-10-25",
+      "location": "Cornelia, GA",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r125",
+      "holder": "Onyx",
+      "people": [
+        "onyx"
+      ],
+      "start": "2003-10-25",
+      "end": "2004-09-04",
+      "location": "Cornelia, GA",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r126",
+      "holder": "Jason Cross",
+      "people": [
+        "jason-cross"
+      ],
+      "start": "2004-09-04",
+      "end": "2004-12-04",
+      "location": "Cornelia, GA",
+      "note": "Second reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r127",
+      "holder": "Ray Gordy",
+      "people": [
+        "ray-gordy"
+      ],
+      "start": "2004-12-04",
+      "end": "2004-12-04",
+      "location": "Cornelia, GA",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r128",
+      "holder": "Onyx",
+      "people": [
+        "onyx"
+      ],
+      "start": "2004-12-04",
+      "end": "2005-03-26",
+      "location": "Cornelia, GA",
+      "note": "Second reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r129",
+      "holder": "Rainman",
+      "people": [
+        "rainman"
+      ],
+      "start": "2005-03-26",
+      "end": "2005-04-30",
+      "location": "Cornelia, GA",
+      "note": "Won three-way match over Onyx and Ray Gordy",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r130",
+      "holder": "Onyx",
+      "people": [
+        "onyx"
+      ],
+      "start": "2005-04-30",
+      "end": "2005-04-30",
+      "location": "Cornelia, GA",
+      "note": "Final champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r131",
+      "holder": "Cru Jones",
+      "people": [
+        "cru-jones"
+      ],
+      "start": "2012-06-23",
+      "end": "2013-09",
+      "location": "Stockbridge, GA",
+      "note": "Beat Steve Stiles when NWA Action revived title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r132",
+      "holder": "Andy Anderson",
+      "people": [
+        "andy-anderson"
+      ],
+      "start": "2013-10-26",
+      "end": "2013-12-14",
+      "location": "Stockbridge, GA",
+      "note": "Won 32-man tournament final over Pain",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r133",
+      "holder": "Tyson Dean",
+      "people": [
+        "tyson-dean"
+      ],
+      "start": "2013-12-14",
+      "end": "2015-04-25",
+      "location": "Griffin, GA",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r134",
+      "holder": "Odinson",
+      "people": [
+        "odinson"
+      ],
+      "start": "2015-04-25",
+      "end": "2015-06-27",
+      "location": "Griffin, GA",
+      "note": "Replaced injured Shane Marx and beat Tyson Dean",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r135",
+      "holder": "Tommy Too Much",
+      "people": [
+        "tommy-too-much"
+      ],
+      "start": "2015-06-27",
+      "end": "2016-08-13",
+      "location": "Stockbridge, GA",
+      "note": "Unified title by beating Odinson while NWA Atlanta champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r136",
+      "holder": "Mike Pain",
+      "people": [
+        "mike-pain"
+      ],
+      "start": "2016-08-13",
+      "end": "2016-10-01",
+      "location": "Dudley, GA",
+      "note": "Recognized after NWA Atlanta closed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r137",
+      "holder": "Logan Creed",
+      "people": [
+        "logan-creed"
+      ],
+      "start": "2016-10-01",
+      "end": "2017-07-15",
+      "location": "Columbus, GA",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r138",
+      "holder": "Damien Wayne",
+      "people": [
+        "damien-wayne"
+      ],
+      "start": "2017-07-15",
+      "end": "2021-04-24",
+      "location": "Columbus, GA",
+      "note": "Title declared vacant when NWA ended licenses",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r139",
+      "holder": "Terry Lawler",
+      "people": [
+        "terry-lawler"
+      ],
+      "start": "2021-04-24",
+      "end": "2021-07-24",
+      "location": "Buckhead",
+      "note": "Won 20-man Rumble to win revived title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r140",
+      "holder": "Shawn Hunter",
+      "people": [
+        "shawn-hunter"
+      ],
+      "start": "2021-07-24",
+      "end": "2022-04-30",
+      "location": "Buckhead",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r141",
+      "holder": "Charlie Anarchy",
+      "people": [
+        "charlie-anarchy"
+      ],
+      "start": "2022-04-30",
+      "end": "2022-07-30",
+      "location": "Buckhead",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r142",
+      "holder": "Chop Top",
+      "people": [
+        "chop-top"
+      ],
+      "start": "2022-07-30",
+      "end": "2023-03-25",
+      "location": "Buckhead",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r143",
+      "holder": "Hunter James",
+      "people": [
+        "hunter-james"
+      ],
+      "start": "2023-03-25",
+      "end": "2023-09-30",
+      "location": "Buckhead",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r144",
+      "holder": "Terry Lawler",
+      "people": [
+        "terry-lawler"
+      ],
+      "start": "2023-09-30",
+      "end": "2024-11-30",
+      "location": "Buckhead",
+      "note": "Second reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r145",
+      "holder": "Sean Nelson",
+      "people": [
+        "sean-nelson"
+      ],
+      "start": "2024-11-30",
+      "end": "2025-06-28",
+      "location": "Buckhead",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r146",
+      "holder": "Nick Halen",
+      "people": [
+        "nick-halen"
+      ],
+      "start": "2025-06-28",
+      "end": "2026-03-28",
+      "location": "Buckhead",
+      "note": "First reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r147",
+      "holder": "Terry Lawler",
+      "people": [
+        "terry-lawler"
+      ],
+      "start": "2026-03-28",
+      "location": "Buckhead",
+      "note": "Third reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_Georgia_Heavyweight_Championship"
+      ],
+      "legacyIds": []
+    }
+  ]
 }

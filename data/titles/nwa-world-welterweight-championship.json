@@ -1,11 +1,690 @@
 {
   "id": "nwa-world-welterweight-championship",
   "name": "NWA World Welterweight Championship",
+  "promotion": "cmll",
+  "division": "men",
+  "format": "singles",
+  "established": "1946-03-15",
+  "retired": "2017-09-30",
   "names": [
-    "NWA World Welterweight Championship"
+    "World Welterweight Championship (original name, 1946–1952)",
+    "NWA World Welterweight Championship (NWA prefix added when EMLL joined the National Wrestling Alliance)"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "World Welterweight Championship (original name, 1946–1952)",
+      "from": "1946-03-15",
+      "to": "1952"
+    },
+    {
+      "name": "NWA World Welterweight Championship (NWA prefix added when EMLL joined the National Wrestling Alliance)",
+      "from": "1952"
+    }
+  ],
+  "history": [
+    {
+      "date": "1952",
+      "kind": "recognition",
+      "text": "EMLL joined the National Wrestling Alliance and the NWA prefix was added to the title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "1992-06-19",
+      "kind": "deactivated",
+      "text": "Vacated when Misterioso left CMLL; CMLL's own welterweight title was created in February 1992, and no NWA champion was crowned for three years.",
+      "related": [
+        "CMLL World Welterweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "1995-12-01",
+      "kind": "reactivated",
+      "text": "CMLL brought the vacant title back when Negro Casas defeated El Hijo del Santo in a tournament final.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "1996-08-03",
+      "kind": "unified-into",
+      "text": "NJPW's tournament unified eight championships into the J-Crown; the title changed hands outside Mexico for the first time.",
+      "related": [
+        "J-Crown Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "1997-11-05",
+      "kind": "split",
+      "text": "Otani vacated six of the remaining J-Crown titles after being forced to return a belt to the WWF, ending the J-Crown and returning the titles to individual status.",
+      "related": [
+        "J-Crown Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "1999-02-06",
+      "kind": "reactivated",
+      "text": "Toryumon Japan became the promoter when Dragon Kid won the vacant title; Toryumon promoted it exclusively until 2007.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "2007-11-27",
+      "kind": "promotion",
+      "text": "La Sombra won the title from Hajime Ohara on a Toryumon Mexico show, returning control of the title to CMLL.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "2010-03",
+      "kind": "recognition",
+      "text": "NWA Mexico's Blue Demon Jr. demanded that CMLL stop promoting the NWA-branded titles; CMLL refused.",
+      "related": [
+        "NWA World Middleweight Championship",
+        "NWA World Light Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "2010-08-12",
+      "kind": "replaced-by",
+      "text": "CMLL unveiled a new title to replace the original, conceding the original to NWA Mexico.",
+      "related": [
+        "NWA World Historic Welterweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ]
+    },
+    {
+      "date": "2017-09-30",
+      "kind": "retired",
+      "text": "The title was retired after Lightning One, Inc. bought the NWA and ended its licensee contracts.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r2",
+      "holder": "El Santo",
+      "people": [
+        "el-santo"
+      ],
+      "start": "1946-03-15",
+      "end": "1947-02-14",
+      "days": 336,
+      "number": 1,
+      "event": "Super Viernes",
+      "location": "Mexico City",
+      "note": "Won eight-man tournament final over Pete Pancoff; first champion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Jack O'Brien",
+      "people": [
+        "jack-obrien"
+      ],
+      "start": "1947-02-14",
+      "end": "1949-04-29",
+      "days": 805,
+      "number": 2,
+      "event": "Super Viernes",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Gory Guerrero",
+      "people": [
+        "gory-guerrero"
+      ],
+      "start": "1949-04-29",
+      "end": "1951-07-13",
+      "days": 805,
+      "number": 3,
+      "event": "Super Viernes",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Bobby Bonales",
+      "people": [
+        "bobby-bonales"
+      ],
+      "start": "1951-07-13",
+      "end": "1952-09-26",
+      "days": 441,
+      "number": 4,
+      "event": "Super Viernes",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "El Santo",
+      "people": [
+        "el-santo"
+      ],
+      "start": "1952-09-26",
+      "end": "1953-09-25",
+      "days": 364,
+      "number": 5,
+      "event": "EMLL 19th Anniversary Show",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Blue Demon",
+      "people": [
+        "blue-demon"
+      ],
+      "start": "1953-09-25",
+      "end": "1958-01-31",
+      "days": 1589,
+      "number": 6,
+      "event": "EMLL 20th Anniversary Show",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Karloff Lagarde",
+      "people": [
+        "karloff-lagarde"
+      ],
+      "start": "1958-01-31",
+      "end": "1965-08-05",
+      "days": 2743,
+      "number": 7,
+      "event": "EMLL show",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Huracán Ramírez",
+      "people": [
+        "huracan-ramirez"
+      ],
+      "start": "1965-08-05",
+      "end": "1965-09-24",
+      "days": 50,
+      "number": 8,
+      "event": "12. Aniversario de la Arena Isabel",
+      "location": "Cuernavaca, Morelos",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Karloff Lagarde",
+      "people": [
+        "karloff-lagarde"
+      ],
+      "start": "1965-09-24",
+      "end": "1967-05-07",
+      "days": 590,
+      "number": 9,
+      "event": "EMLL 32nd Anniversary Show",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Vento Castella",
+      "people": [
+        "vento-castella"
+      ],
+      "start": "1967-05-07",
+      "end": "1967-06-09",
+      "days": 33,
+      "number": 10,
+      "event": "EMLL show",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Karloff Lagarde",
+      "people": [
+        "karloff-lagarde"
+      ],
+      "start": "1967-06-09",
+      "end": "1971-06-11",
+      "days": 1463,
+      "number": 11,
+      "event": "EMLL show",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Alberto Muñoz",
+      "people": [
+        "alberto-munoz"
+      ],
+      "start": "1971-06-11",
+      "end": "1973-10-25",
+      "days": 867,
+      "number": 12,
+      "event": "EMLL show",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Mano Negra",
+      "people": [
+        "mano-negra"
+      ],
+      "start": "1973-12-14",
+      "end": "1975",
+      "number": 13,
+      "event": "EMLL show",
+      "location": "Mexico City",
+      "note": "Won vacant title over Karloff Lagarde",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Fishman",
+      "people": [
+        "fishman"
+      ],
+      "start": "1975-05-01",
+      "end": "1975-05-25",
+      "days": 24,
+      "number": 14,
+      "event": "EMLL show",
+      "location": "Mexico City",
+      "note": "Won vacant title over Alberto Muñoz",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "Blue Demon",
+      "people": [
+        "blue-demon"
+      ],
+      "start": "1975-05-25",
+      "end": "1976-04-09",
+      "days": 320,
+      "number": 15,
+      "event": "EMLL show",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "Fishman",
+      "people": [
+        "fishman"
+      ],
+      "start": "1976-04-09",
+      "end": "1976-11-19",
+      "days": 224,
+      "number": 16,
+      "event": "EMLL show",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Mano Negra",
+      "people": [
+        "mano-negra"
+      ],
+      "start": "1976-11-19",
+      "end": "1979-04-20",
+      "days": 882,
+      "number": 17,
+      "event": "EMLL show",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r19",
+      "holder": "Américo Rocca",
+      "people": [
+        "americo-rocca"
+      ],
+      "start": "1979-04-20",
+      "end": "1980-01-19",
+      "days": 274,
+      "number": 18,
+      "event": "EMLL show",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r20",
+      "holder": "Kato Kung Lee",
+      "people": [
+        "kato-kung-lee"
+      ],
+      "start": "1980-01-19",
+      "end": "1980-05-04",
+      "days": 106,
+      "number": 19,
+      "event": "EMLL show",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r21",
+      "holder": "El Supremo",
+      "people": [
+        "el-supremo"
+      ],
+      "start": "1980-05-04",
+      "end": "1980-06-04",
+      "days": 31,
+      "number": 20,
+      "event": "EMLL show",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r22",
+      "holder": "Lizmark",
+      "people": [
+        "lizmark"
+      ],
+      "start": "1980-06-04",
+      "end": "1981-10-23",
+      "days": 506,
+      "number": 21,
+      "event": "EMLL show",
+      "location": "Acapulco, Guerrero",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r23",
+      "holder": "La Fiera",
+      "people": [
+        "la-fiera"
+      ],
+      "start": "1981-10-23",
+      "end": "1982-07-18",
+      "days": 268,
+      "number": 22,
+      "event": "Super Viernes",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r24",
+      "holder": "Américo Rocca",
+      "people": [
+        "americo-rocca"
+      ],
+      "start": "1982-07-18",
+      "end": "1984-01-27",
+      "days": 558,
+      "number": 23,
+      "event": "EMLL show",
+      "location": "Guadalajara, Jalisco",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r25",
+      "holder": "Mocho Cota",
+      "people": [
+        "mocho-cota"
+      ],
+      "start": "1984-01-27",
+      "end": "1984-07-26",
+      "days": 181,
+      "number": 24,
+      "event": "Super Viernes",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r26",
+      "holder": "Chamaco Valaguez",
+      "people": [
+        "chamaco-valaguez"
+      ],
+      "start": "1984-07-26",
+      "end": "1985-11-17",
+      "days": 479,
+      "number": 25,
+      "event": "EMLL show",
+      "location": "Cuernavaca, Morelos",
+      "note": "Page wrongly lists a July 1985 vacancy after an NWA Middleweight win",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r27",
+      "holder": "El Dandy",
+      "people": [
+        "el-dandy"
+      ],
+      "start": "1985-11-17",
+      "end": "1986-04-06",
+      "days": 140,
+      "number": 26,
+      "event": "EMLL show",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r28",
+      "holder": "El Dandy",
+      "people": [
+        "el-dandy"
+      ],
+      "start": "1986-08-24",
+      "end": "1986-11-02",
+      "days": 70,
+      "number": 28,
+      "event": "EMLL show",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r29",
+      "holder": "Américo Rocca",
+      "people": [
+        "americo-rocca"
+      ],
+      "start": "1986-11-02",
+      "end": "1988-06-30",
+      "days": 606,
+      "number": 29,
+      "event": "EMLL show",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r30",
+      "holder": "Solar II",
+      "people": [
+        "solar-ii"
+      ],
+      "start": "1988-06-30",
+      "end": "1988-10-14",
+      "days": 106,
+      "number": 30,
+      "event": "EMLL show",
+      "location": "Cuernavaca, Morelos",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r31",
+      "holder": "Fuerza Guerrera",
+      "people": [
+        "fuerza-guerrera"
+      ],
+      "start": "1988-10-14",
+      "end": "1989-06-02",
+      "days": 231,
+      "number": 31,
+      "event": "EMLL show",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r32",
+      "holder": "Águila Solitaria",
+      "people": [
+        "aguila-solitaria"
+      ],
+      "start": "1989-06-02",
+      "end": "1989-09-21",
+      "days": 111,
+      "number": 32,
+      "event": "Super Viernes",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r33",
+      "holder": "Fuerza Guerrera",
+      "people": [
+        "fuerza-guerrera"
+      ],
+      "start": "1989-09-21",
+      "end": "1991-12-06",
+      "days": 806,
+      "number": 33,
+      "event": "Jueves Arena Puebla",
+      "location": "Puebla, Puebla",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r34",
+      "holder": "Misterioso",
+      "people": [
+        "misterioso"
+      ],
+      "start": "1991-12-06",
+      "end": "1992-06-19",
+      "days": 196,
+      "number": 34,
+      "event": "Domingos Arena Mexico",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Negro Casas",
@@ -14,13 +693,506 @@
       ],
       "start": "1995-12-01",
       "end": "1996-08-03",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 246,
+      "number": 35,
+      "event": "Juicio Final",
+      "location": "Mexico City",
+      "note": "Won vacant title in tournament final over El Hijo del Santo",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/nwa-world-welterweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/nwa-world-welterweight-championship",
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-negro-casas-489"
       ]
+    },
+    {
+      "id": "r35",
+      "holder": "Shinjiro Otani",
+      "people": [
+        "shinjiro-otani"
+      ],
+      "start": "1996-08-03",
+      "end": "1996-08-04",
+      "days": 1,
+      "number": 36,
+      "event": "G1 Climax 1996 Day 2",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r36",
+      "holder": "Último Dragón",
+      "people": [
+        "ultimo-dragon"
+      ],
+      "start": "1996-08-04",
+      "end": "1996-08-05",
+      "days": 1,
+      "number": 37,
+      "event": "G1 Climax 1996 Day 3",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r37",
+      "holder": "The Great Sasuke",
+      "people": [
+        "the-great-sasuke"
+      ],
+      "start": "1996-08-05",
+      "end": "1996-10-11",
+      "days": 67,
+      "number": 38,
+      "event": "G1 Climax 1996 Day 4",
+      "location": "Tokyo, Japan",
+      "note": "Title became one of eight J-Crown championships",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r38",
+      "holder": "Último Dragón",
+      "people": [
+        "ultimo-dragon"
+      ],
+      "start": "1996-10-11",
+      "end": "1997-01-04",
+      "days": 85,
+      "number": 39,
+      "event": "Osaka Crush Night",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r39",
+      "holder": "Jushin Thunder Liger",
+      "people": [
+        "jushin-thunder-liger"
+      ],
+      "start": "1997-01-04",
+      "end": "1997-07-06",
+      "days": 183,
+      "number": 40,
+      "event": "Wrestling World 1997",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r40",
+      "holder": "El Samurai",
+      "people": [
+        "el-samurai"
+      ],
+      "start": "1997-07-06",
+      "end": "1997-08-10",
+      "days": 35,
+      "number": 41,
+      "event": "Summer Struggle 1997",
+      "location": "Sapporo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r41",
+      "holder": "Shinjiro Otani",
+      "people": [
+        "shinjiro-otani"
+      ],
+      "start": "1997-08-10",
+      "end": "1997-11-05",
+      "days": 87,
+      "number": 42,
+      "event": "The Four Heaven in Nagoya Dome",
+      "location": "Nagoya, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r42",
+      "holder": "Dragon Kid",
+      "people": [
+        "dragon-kid"
+      ],
+      "start": "1999-02-06",
+      "end": "1999-04-25",
+      "days": 78,
+      "number": 43,
+      "event": "King of Dragon Japan",
+      "location": "Nagoya, Japan",
+      "note": "Won vacant title over Dr. Cerebro",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r43",
+      "holder": "Judo Suwa",
+      "people": [
+        "judo-suwa"
+      ],
+      "start": "1999-04-25",
+      "end": "2000-07-22",
+      "days": 454,
+      "number": 44,
+      "event": "Dragon Fever: Spring Storm",
+      "location": "Kawasaki, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r44",
+      "holder": "Kenichiro Arai",
+      "people": [
+        "kenichiro-arai"
+      ],
+      "start": "2000-07-22",
+      "end": "2000-12-21",
+      "days": 152,
+      "number": 45,
+      "event": "Dragon's Crash 2000",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r45",
+      "holder": "Kenichiro Arai",
+      "people": [
+        "kenichiro-arai"
+      ],
+      "start": "2001-01-29",
+      "end": "2001-05-27",
+      "days": 118,
+      "number": 46,
+      "event": "Muy Bien 2001",
+      "location": "Tokyo, Japan",
+      "note": "Won vacant title in tournament final over Yasushi Kanda",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r46",
+      "holder": "Susumu Mochizuki",
+      "people": [
+        "susumu-mochizuki"
+      ],
+      "start": "2001-05-27",
+      "end": "2001-09-30",
+      "days": 126,
+      "number": 47,
+      "event": "Premium Live Match Vol. 20",
+      "location": "Kobe, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r47",
+      "holder": "Ryo Saito",
+      "people": [
+        "ryo-saito"
+      ],
+      "start": "2001-09-30",
+      "end": "2002-04-27",
+      "days": 209,
+      "number": 48,
+      "event": "Absoltamente",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r48",
+      "holder": "Genki Horiguchi",
+      "people": [
+        "genki-horiguchi"
+      ],
+      "start": "2002-04-27",
+      "end": "2002-06-23",
+      "days": 57,
+      "number": 49,
+      "event": "Premium Live Match Vol. 29",
+      "location": "Kobe, Japan",
+      "note": "Toryumon recorded as 48th reign; numbering offset persisted",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r49",
+      "holder": "Ricky Marvin",
+      "people": [
+        "ricky-marvin"
+      ],
+      "start": "2002-07-07",
+      "end": "2002-07-24",
+      "days": 17,
+      "number": 50,
+      "event": "IIIer Aniversario",
+      "location": "Kobe, Japan",
+      "note": "Won vacant title over Super Nova",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r50",
+      "holder": "Genki Horiguchi",
+      "people": [
+        "genki-horiguchi"
+      ],
+      "start": "2002-07-24",
+      "end": "2002-07-28",
+      "days": 4,
+      "number": 51,
+      "event": "Verano Peligroso Day 5",
+      "location": "Kumamoto, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r51",
+      "holder": "Darkness Dragon",
+      "people": [
+        "darkness-dragon"
+      ],
+      "start": "2002-07-28",
+      "end": "2003-03-21",
+      "days": 236,
+      "number": 52,
+      "event": "Verano Peligroso Day 8",
+      "location": "Shimonoseki, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r52",
+      "holder": "Yossino",
+      "people": [
+        "yossino"
+      ],
+      "start": "2003-03-22",
+      "end": "2004-06-20",
+      "days": 456,
+      "number": 53,
+      "event": "El Numero Uno 2003",
+      "location": "Sapporo, Japan",
+      "note": "Won vacant title over Genki Horiguchi",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r53",
+      "holder": "Hajime Ohara",
+      "people": [
+        "hajime-ohara"
+      ],
+      "start": "2006-05-13",
+      "end": "2007-01-20",
+      "days": 252,
+      "number": 54,
+      "event": "DragonMania",
+      "location": "Mexico City",
+      "note": "Won vacant title over La Máscara",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r54",
+      "holder": "Super Delfin",
+      "people": [
+        "super-delfin"
+      ],
+      "start": "2007-01-20",
+      "end": "2007-02-10",
+      "days": 21,
+      "number": 55,
+      "event": "Saturday Night Story",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r55",
+      "holder": "Hajime Ohara",
+      "people": [
+        "hajime-ohara"
+      ],
+      "start": "2007-02-10",
+      "end": "2007-11-27",
+      "days": 290,
+      "number": 56,
+      "event": "Osaka Holiday Paradise",
+      "location": "Osaka, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r56",
+      "holder": "La Sombra",
+      "people": [
+        "andrade"
+      ],
+      "start": "2007-11-27",
+      "end": "2009-05-27",
+      "days": 547,
+      "number": 57,
+      "event": "Martes Arena Mexico",
+      "location": "Mexico City",
+      "note": "Returned title to CMLL control",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r57",
+      "holder": "Mephisto",
+      "people": [
+        "mephisto"
+      ],
+      "start": "2009-05-27",
+      "end": "2010-08-12",
+      "days": 442,
+      "number": 58,
+      "event": "CMLL show",
+      "location": "Acapulco, Guerrero",
+      "note": "Replaced by a new CMLL title in August 2010",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r58",
+      "holder": "Cassandro",
+      "people": [
+        "cassandro"
+      ],
+      "start": "2011-06-25",
+      "end": "2015-02-15",
+      "days": 1331,
+      "number": 59,
+      "event": "NWA Mexico UK Tour",
+      "location": "London, United Kingdom",
+      "note": "Won vacant title over Dr. Cerebro",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r59",
+      "holder": "Magno",
+      "people": [
+        "magno"
+      ],
+      "start": "2015-02-15",
+      "end": "2015-04-26",
+      "days": 70,
+      "number": 60,
+      "event": "Independent show",
+      "location": "El Paso, Texas",
+      "note": "Three-way match that included Boby Zavala",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r60",
+      "holder": "Impostor Jr.",
+      "people": [
+        "impostor-jr"
+      ],
+      "start": "2015-05-31",
+      "end": "2015-12-06",
+      "days": 189,
+      "number": 61,
+      "event": "Independent show",
+      "location": "El Paso, Texas",
+      "note": "Won vacant title over Boby Zavala",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r61",
+      "holder": "Ultimo Samuray",
+      "people": [
+        "ultimo-samuray"
+      ],
+      "start": "2015-12-06",
+      "end": "2015-12-25",
+      "days": 19,
+      "number": 62,
+      "event": "Independent show",
+      "location": "El Paso, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r62",
+      "holder": "Impostor Jr.",
+      "people": [
+        "impostor-jr"
+      ],
+      "start": "2015-12-25",
+      "end": "2016-04-24",
+      "days": 121,
+      "number": 63,
+      "event": "Independent show",
+      "location": "El Paso, Texas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Welterweight_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

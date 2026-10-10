@@ -1,11 +1,287 @@
 {
   "id": "cmll-world-lightweight-championship",
   "name": "CMLL World Lightweight Championship",
+  "promotion": "cmll",
+  "division": "men",
+  "format": "singles",
+  "established": "1999-02-27",
   "names": [
-    "CMLL World Lightweight Championship"
+    "CMLL Japan Super Lightweight Championship",
+    "CMLL World Super Lightweight Championship"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "CMLL Japan Super Lightweight Championship",
+      "from": "1999",
+      "to": "2003"
+    },
+    {
+      "name": "CMLL World Super Lightweight Championship",
+      "from": "2003",
+      "to": "2011"
+    },
+    {
+      "name": "CMLL World Lightweight Championship",
+      "from": "2011"
+    }
+  ],
+  "history": [
+    {
+      "date": "2000-12",
+      "kind": "deactivated",
+      "text": "CMLL stopped promoting in Japan, and the Japan-era title was abandoned by the end of 2000.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ]
+    },
+    {
+      "date": "2003-09-12",
+      "kind": "reactivated",
+      "text": "Havana Brother I won a tournament final, reviving the title in Mexico, where CMLL also raised it to world-level status.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ]
+    },
+    {
+      "date": "2009-04-03",
+      "kind": "deactivated",
+      "text": "The title was officially declared vacant after Rocky Romero left CMLL for AAA.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ]
+    },
+    {
+      "date": "2009-04-07",
+      "kind": "reactivated",
+      "text": "Máscara Dorada won a torneo cibernetico to crown a new champion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ]
+    },
+    {
+      "date": "2011",
+      "kind": "brand",
+      "text": "The division was adjusted from Super Lightweight to Lightweight, changing the weight limit and the title's name.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ]
+    },
+    {
+      "date": "2011-04-07",
+      "kind": "deactivated",
+      "text": "Máscara Dorada vacated the title after moving up to the middleweight division.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ]
+    },
+    {
+      "date": "2019-06-14",
+      "kind": "deactivated",
+      "text": "Dragon Lee vacated the title to focus on the CMLL World Welterweight Championship.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ]
+    },
+    {
+      "date": "2019-06-30",
+      "kind": "reactivated",
+      "text": "Kawato-San won a tournament final to win the vacant title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ]
+    },
+    {
+      "date": "2019-11-06",
+      "kind": "deactivated",
+      "text": "CMLL vacated the title after Kawato-San was injured and unable to wrestle for four months.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ]
+    },
+    {
+      "date": "2022-03-15",
+      "kind": "reactivated",
+      "text": "Stigma won a tournament final against Suicida at Martes Populares to win the vacant title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r4",
+      "holder": "Masato Yakushiji",
+      "people": [
+        "masato-yakushiji"
+      ],
+      "start": "1999-02-27",
+      "end": "1999-11-25",
+      "days": 271,
+      "number": 1,
+      "event": "Live event",
+      "location": "Nagoya, Japan",
+      "note": "Won the inaugural title over Rencor Latino",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Virus",
+      "people": [
+        "virus"
+      ],
+      "start": "1999-11-25",
+      "end": "2000-08-06",
+      "days": 255,
+      "number": 2,
+      "event": "Live event",
+      "location": "Tokyo, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Ricky Marvin",
+      "people": [
+        "ricky-marvin"
+      ],
+      "start": "2000-08-06",
+      "end": "2000-09-02",
+      "number": 3,
+      "event": "Live event",
+      "location": "Yokohama, Japan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Virus",
+      "people": [
+        "virus"
+      ],
+      "start": "2000-09-02",
+      "end": "2000-11-29",
+      "number": 4,
+      "event": "Live event",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Ricky Marvin",
+      "people": [
+        "ricky-marvin"
+      ],
+      "start": "2000-11-29",
+      "end": "2000-12",
+      "number": 5,
+      "event": "Live event",
+      "location": "Acapulco, Guerrero, Mexico",
+      "note": "Also won the Mexican National Lightweight Championship",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Virus",
+      "people": [
+        "virus"
+      ],
+      "start": "2003-11-14",
+      "end": "2004-12-10",
+      "days": 392,
+      "number": 7,
+      "event": "Live event",
+      "location": "Mexico City, Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Tommy Williams",
+      "people": [
+        "tommy-williams"
+      ],
+      "start": "2005-09-15",
+      "end": "2006-01-21",
+      "days": 128,
+      "number": 9,
+      "event": "Live event",
+      "location": "Los Angeles, California",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Rocky Romero",
+      "people": [
+        "rocky-romero"
+      ],
+      "start": "2006-01-21",
+      "end": "2009-04-03",
+      "days": 1168,
+      "number": 10,
+      "event": "Live event",
+      "location": "Industry, California",
+      "note": "Later worked as Grey Shadow; title not formally vacated until AAA move",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Máscara Dorada",
+      "people": [
+        "gran-metalik"
+      ],
+      "start": "2009-04-07",
+      "end": "2011-04-07",
+      "days": 730,
+      "number": 11,
+      "event": "Arena México show",
+      "location": "Mexico City, Mexico",
+      "note": "Won 10-man torneo cibernetico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Virus",
+      "people": [
+        "virus"
+      ],
+      "start": "2011-06-07",
+      "end": "2015-04-05",
+      "days": 1398,
+      "number": 12,
+      "event": "Arena México show",
+      "location": "Mexico City, Mexico",
+      "note": "Won tournament final over Guerrero Maya Jr.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Dragon Lee",
@@ -14,9 +290,13 @@
       ],
       "start": "2015-04-05",
       "end": "2016-01-24",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 294,
+      "number": 13,
+      "event": "Arena México show",
+      "location": "Mexico City, Mexico",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/cmll-world-lightweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/cmll-world-lightweight-championship",
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-dragon-lee-193"
@@ -30,9 +310,14 @@
       ],
       "start": "2016-01-24",
       "end": "2016-03-04",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 40,
+      "number": 14,
+      "event": "Fantastica Mania 2016",
+      "location": "Tokyo, Japan",
+      "note": "Won title on the final day of Fantastica Mania tour",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/cmll-world-lightweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/cmll-world-lightweight-championship",
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-kyoki-402"
@@ -46,13 +331,53 @@
       ],
       "start": "2016-03-04",
       "end": "2019-06-14",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 1197,
+      "number": 15,
+      "event": "Super Viernes",
+      "location": "Mexico City, Mexico",
+      "note": "Regained title on Super Viernes",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/cmll-world-lightweight-championship"
+        "https://www.thesmackdownhotel.com/title-history/cmll-world-lightweight-championship",
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
       ],
       "legacyIds": [
         "profile-reign-dragon-lee-192"
       ]
+    },
+    {
+      "id": "r14",
+      "holder": "Kawato-San",
+      "people": [
+        "kawato-san"
+      ],
+      "start": "2019-06-30",
+      "end": "2019-11-06",
+      "days": 129,
+      "number": 16,
+      "event": "Domingos Arena México",
+      "location": "Mexico City, Distrito Federal",
+      "note": "Won tournament final over Audaz",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Stigma",
+      "people": [
+        "stigma"
+      ],
+      "start": "2022-03-15",
+      "days": 1497,
+      "number": 17,
+      "event": "Martes de Arena México",
+      "location": "Mexico City, Distrito Federal",
+      "note": "Won tournament final over Suicida",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_World_Lightweight_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

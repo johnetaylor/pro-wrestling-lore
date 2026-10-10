@@ -1,10 +1,20 @@
 {
   "id": "nwa-world-television-championship",
   "name": "NWA World Television Championship",
-  "names": [
-    "NWA World Television Championship"
+  "promotion": "nwa",
+  "division": "men",
+  "format": "singles",
+  "established": "2019-12-14",
+  "names": [],
+  "eras": [
+    {
+      "name": "NWA World Television Championship",
+      "from": "2019-12-14"
+    }
   ],
-  "sources": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/NWA_World_Television_Championship"
+  ],
   "reigns": [
     {
       "id": "r1",
@@ -13,14 +23,197 @@
         "ricky-saints"
       ],
       "start": "2020-01-24",
-      "end": "2020-03-03",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "end": "2020-01-26",
+      "days": 2,
+      "number": 1,
+      "event": "Hard Times",
+      "location": "Atlanta, GA",
+      "note": "Won 12-man tournament final to become inaugural champion",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/nwa/nwa-world-television-championship"
+        "https://www.thesmackdownhotel.com/title-history/nwa/nwa-world-television-championship",
+        "https://en.wikipedia.org/wiki/NWA_World_Television_Championship"
       ],
       "legacyIds": [
         "profile-reign-ricky-saints-688"
       ]
+    },
+    {
+      "id": "r2",
+      "holder": "Zicky Dice",
+      "people": [
+        "zicky-dice"
+      ],
+      "start": "2020-01-26",
+      "end": "2020-10-20",
+      "days": 268,
+      "number": 2,
+      "event": "NWA Powerrr",
+      "location": "Atlanta, GA",
+      "note": "Aired on tape delay March 3 2020",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Television_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Da Pope",
+      "people": [
+        "elijah-burke"
+      ],
+      "start": "2020-10-20",
+      "end": "2021-06",
+      "number": 3,
+      "event": "UWN Primetime Live",
+      "location": "Long Beach, CA",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Television_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Tyrus",
+      "people": [
+        "brodus-clay"
+      ],
+      "start": "2021-06",
+      "end": "2022-09-24",
+      "number": 4,
+      "event": "NWA Powerrr",
+      "location": "Atlanta, GA",
+      "note": "Date was between June 5 and June 7 2021 and is unknown exactly; aired August 6 2021",
+      "dateNote": "The source gives the month only.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Television_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Jordan Clearwater",
+      "people": [
+        "jordan-clearwater"
+      ],
+      "start": "2022-11-12",
+      "end": "2023-02-12",
+      "days": 92,
+      "number": 5,
+      "event": "Hard Times 3",
+      "location": "New Orleans, LA",
+      "note": "Won vacant title; time limit extended for this match only",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Television_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Thom Latimer",
+      "people": [
+        "thom-latimer"
+      ],
+      "start": "2023-02-12",
+      "end": "2023-08-28",
+      "days": 213,
+      "number": 6,
+      "event": "NWA Powerrr",
+      "location": "Tampa, FL",
+      "note": "Aired on tape delay February 14 2023",
+      "dateNote": "The source counts 213 days; the dates give 197.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Television_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Mims",
+      "people": [
+        "mims"
+      ],
+      "start": "2023-08-29",
+      "end": "2024-01-13",
+      "days": 137,
+      "number": 7,
+      "event": "NWA Powerrr",
+      "location": "Nashville, TN",
+      "note": "Won vacant title over Zicky Dice; aired October 10 2023",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Television_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "Max the Impaler",
+      "people": [
+        "max-the-impaler"
+      ],
+      "start": "2024-01-13",
+      "end": "2024-10-26",
+      "days": 287,
+      "number": 8,
+      "event": "Paranoia",
+      "location": "Fort Lauderdale, FL",
+      "note": "Aired on tape delay February 13 2024",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Television_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Carson Bartholomew Drake",
+      "people": [
+        "carson-bartholomew-drake"
+      ],
+      "start": "2024-10-26",
+      "end": "2025-03-22",
+      "days": 147,
+      "number": 9,
+      "event": "Samhain 2",
+      "location": "Tampa, FL",
+      "note": "Hell Awaits match; aired on tape delay December 10 2024",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Television_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Bryan Idol",
+      "people": [
+        "bryan-idol"
+      ],
+      "start": "2025-05-17",
+      "end": "2026-02-21",
+      "days": 280,
+      "number": 10,
+      "event": "Crockett Cup",
+      "location": "Philadelphia, PA",
+      "note": "Won vacant title over Carson Bartholomew Drake; aired July 29 2025",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Television_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "MZRY",
+      "people": [
+        "mzry"
+      ],
+      "start": "2026-04-25",
+      "days": 57,
+      "number": 11,
+      "event": "NWA Powerrr",
+      "location": "Tampa, FL",
+      "note": "Won vacant five-way match; aired June 6 2026",
+      "sources": [
+        "https://en.wikipedia.org/wiki/NWA_World_Television_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

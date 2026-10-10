@@ -1,11 +1,133 @@
 {
   "id": "aaa-world-mini-stars-championship",
-  "name": "AAA World Mini-Stars Championship",
+  "name": "AAA World Mini-Estrella Championship",
+  "promotion": "aaa",
+  "division": "men",
+  "format": "singles",
+  "established": "2008-09-14",
+  "retired": "2022-11-05",
   "names": [
-    "AAA World Mini-Stars Championship"
+    "AAA World Mini-Stars Championship",
+    "Campeonato Mundial Mini AAA (Spanish name)"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "Campeonato Mundial Mini AAA (Spanish name)",
+      "from": "2008-09-14"
+    }
+  ],
+  "history": [
+    {
+      "date": "2022-11-05",
+      "kind": "deactivated",
+      "text": "Dinastía vacated the title after leaving AAA, and the championship was then abandoned.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Mini-Estrella_Championship"
+      ]
+    },
+    {
+      "date": "2022-11-05",
+      "kind": "retired",
+      "text": "The title was retired on the same date it was deactivated, following Dinastía's departure from AAA.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Mini-Estrella_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/AAA_World_Mini-Estrella_Championship"
+  ],
   "reigns": [
+    {
+      "id": "r2",
+      "holder": "Mini Charly Manson",
+      "people": [
+        "mini-charly-manson"
+      ],
+      "start": "2008-09-14",
+      "end": "2009-12-11",
+      "days": 453,
+      "number": 1,
+      "event": "Verano de Escándalo",
+      "location": "Zapopan, Jalisco",
+      "note": "Won a 12-man tournament final; aired on tape delay Sept 21 2008",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Mini-Estrella_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Mini Abismo Negro",
+      "people": [
+        "mini-abismo-negro"
+      ],
+      "start": "2009-12-11",
+      "end": "2010-06-06",
+      "days": 177,
+      "number": 2,
+      "event": "Guerra de Titanes",
+      "location": "Ciudad Madero, Tamaulipas",
+      "note": "Won a nine-man battle royal; aired on tape delay Dec 20 2009",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Mini-Estrella_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Octagoncito",
+      "people": [
+        "octagoncito"
+      ],
+      "start": "2010-06-06",
+      "end": "2011-04-27",
+      "days": 325,
+      "number": 3,
+      "event": "Triplemanía XVIII",
+      "location": "Mexico City, Mexico",
+      "note": "Won a 12-man tables ladders and chairs match",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Mini-Estrella_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Mini Psicosis",
+      "people": [
+        "la-parkita-negra"
+      ],
+      "start": "2011-04-27",
+      "end": "2013-02-18",
+      "days": 663,
+      "number": 4,
+      "event": "Sin Límite",
+      "location": "Zacapoaxtla, Puebla",
+      "note": "Aired on tape delay May 8 2011",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Mini-Estrella_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Dinastía",
+      "people": [
+        "dinastia"
+      ],
+      "start": "2013-02-18",
+      "end": "2017-05-26",
+      "days": 1558,
+      "number": 5,
+      "event": "Sin Límite",
+      "location": "Irapuato, Guanajuato",
+      "note": "Aired on tape delay March 9 2013",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Mini-Estrella_Championship"
+      ],
+      "legacyIds": []
+    },
     {
       "id": "r1",
       "holder": "Mini Psycho Clown",
@@ -14,13 +136,35 @@
       ],
       "start": "2017-05-26",
       "end": "2019-03-16",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 659,
+      "number": 6,
+      "event": "AAA Worldwide",
+      "location": "Mexico City, Mexico",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-world-mini-stars-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-world-mini-stars-championship",
+        "https://en.wikipedia.org/wiki/AAA_World_Mini-Estrella_Championship"
       ],
       "legacyIds": [
         "profile-reign-mini-psycho-clown-437"
       ]
+    },
+    {
+      "id": "r7",
+      "holder": "Dinastía",
+      "people": [
+        "dinastia"
+      ],
+      "start": "2019-03-16",
+      "end": "2022-11-05",
+      "days": 1330,
+      "number": 7,
+      "event": "AAA Vive Latino house show",
+      "location": "Mexico City, Mexico",
+      "note": "Regained title by beating five rivals",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Mini-Estrella_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

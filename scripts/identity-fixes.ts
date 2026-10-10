@@ -40,6 +40,9 @@ export interface IdentityMerge {
   into: string;
   from: string[];
   name?: string;
+  /** Fold in a `from` record only if it came from v69 (has a legacy ID): a champion an import
+   * later creates under the ID this merge freed is someone else. */
+  requireLegacy?: boolean;
   addRingNames?: RingName[];
   gender?: Gender;
   reason: string;
@@ -50,7 +53,7 @@ export interface IdentityFixes {
   note: string;
   splits: IdentitySplit[];
   merges: IdentityMerge[];
-  ringNameEdits: { person: string; remove?: string[]; rename?: Record<string, string>; reason: string }[];
+  ringNameEdits: { person: string; remove?: string[]; rename?: Record<string, string>; add?: RingName[]; reason: string }[];
   updates: { person: string; summary?: string; sources?: string[]; reason: string }[];
   segmentNotes: { segment: string; context: string; sources: string[] }[];
 }
@@ -296,11 +299,12 @@ for (const s of fixes.splits) {
 
 // ---------- Merges and renames ----------
 for (const m of fixes.merges) {
-  const present = m.from.filter((id) => people.has(id) && id !== m.into);
+  const present = m.from.filter((id) => people.has(id) && id !== m.into && (!m.requireLegacy || people.get(id)!.legacyIds?.length));
   let target = people.get(m.into);
-  if (!target && args['allow-pending']) {
+  if (!target && args['allow-pending'] && !m.name) {
     // Before the import: the target may be a champion the import creates. The importer reads an
     // alias naming it as the record that becomes it, so the merge can wait for the run after.
+    // A rename (a merge that names the person) goes ahead: its target is never an import's.
     if (present.length) notYet(`merge into ${m.into}: ${m.into} doesn't exist yet`);
     continue;
   }
@@ -353,6 +357,7 @@ for (const e of fixes.ringNameEdits) {
     p.ringNames = p.ringNames.filter((x) => x !== r);
     addRingName(p, { ...r, name: to });
   }
+  for (const r of e.add ?? []) addRingName(p, r);
 }
 for (const u of fixes.updates) {
   const p = people.get(resolve(u.person));

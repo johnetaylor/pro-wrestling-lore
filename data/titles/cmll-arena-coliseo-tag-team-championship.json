@@ -1,26 +1,413 @@
 {
   "id": "cmll-arena-coliseo-tag-team-championship",
   "name": "CMLL Arena Coliseo Tag Team Championship",
-  "names": [
-    "CMLL Arena Coliseo Tag Team Championship"
+  "promotion": "cmll",
+  "division": "men",
+  "format": "tag",
+  "established": "2000-11-07",
+  "names": [],
+  "eras": [
+    {
+      "name": "CMLL Arena Coliseo Tag Team Championship",
+      "from": "2000"
+    }
   ],
-  "sources": [],
+  "history": [
+    {
+      "date": "2002-10-22",
+      "kind": "deactivated",
+      "text": "Considered inactive after the Stone brothers' last recorded title defense on this date.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2005",
+      "kind": "deactivated",
+      "text": "Declared vacant when both Stone brothers left CMLL for AAA.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2008-06-29",
+      "kind": "reactivated",
+      "text": "CMLL brought the title back; Stuka Jr. and Flash won it in a 16-team tournament final.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2018-02-14",
+      "kind": "deactivated",
+      "text": "Nuevo Generacion Dinamitas gave up the title to pursue the vacant CMLL World Tag Team Championship.",
+      "related": [
+        "CMLL World Tag Team Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2018-03-10",
+      "kind": "reactivated",
+      "text": "Esfinge and Tritón won the vacant title in a tournament final.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2020-04-29",
+      "kind": "deactivated",
+      "text": "Vacated after Tritón left CMLL in September 2019.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ]
+    },
+    {
+      "date": "2022-04-02",
+      "kind": "reactivated",
+      "text": "Hombre Bala Jr. and Robin won the vacant title by defeating La Ola Negra.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+  ],
   "reigns": [
     {
-      "id": "r1",
-      "holder": "Sansón",
+      "id": "r2",
+      "holder": "Apolo Curiel & El Rebelde",
       "people": [
-        "sanson"
+        "apolo-curiel",
+        "el-rebelde"
+      ],
+      "start": "1964-12-01",
+      "end": "1966-10-25",
+      "number": 2,
+      "event": "EMLL show",
+      "location": "Mexico City",
+      "note": "Date is no later than stated",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Chuco Villa & El Greco",
+      "people": [
+        "chuco-villa",
+        "el-greco"
+      ],
+      "start": "1966-10-25",
+      "end": "1969-11-10",
+      "number": 3,
+      "event": "EMLL show",
+      "location": "Mexico City",
+      "note": "Won two-week tournament final; defended March 21 1967",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "Kung Fu & Kato Kung Lee",
+      "people": [
+        "kung-fu",
+        "kato-kung-lee"
+      ],
+      "start": "1977",
+      "end": "1978",
+      "number": 6,
+      "event": "Live event",
+      "location": "Mexico City",
+      "dateNote": "The source gives the year only.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "Kung Fu & Kato Kung Lee",
+      "people": [
+        "kung-fu",
+        "kato-kung-lee"
+      ],
+      "start": "1978",
+      "end": "1979",
+      "number": 7,
+      "event": "Live event",
+      "location": "Mexico City",
+      "dateNote": "The source gives the year only.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r6",
+      "holder": "Los Hermano Stone",
+      "people": [
+        "alan-stone",
+        "chris-stone"
+      ],
+      "start": "2000-11-07",
+      "end": "2002-10-22",
+      "days": 714,
+      "number": 9,
+      "event": "Live event",
+      "location": "Mexico City",
+      "note": "Won one-night eight-team tournament",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r7",
+      "holder": "Los Bombardieros",
+      "people": [
+        "stuka-jr",
+        "flash"
+      ],
+      "start": "2008-06-29",
+      "end": "2013-03-03",
+      "days": 1708,
+      "number": 10,
+      "event": "Live event",
+      "location": "Mexico City",
+      "note": "Won 16-team tournament; longest modern reign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r8",
+      "holder": "La Fiebre Amarilla",
+      "people": [
+        "namajague",
+        "okumura"
+      ],
+      "start": "2013-03-03",
+      "end": "2013-11-03",
+      "days": 245,
+      "number": 11,
+      "event": "CMLL Domingos De Coliseo",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r9",
+      "holder": "Los Reyes de la Atlantida",
+      "people": [
+        "delta",
+        "guerrero-maya-jr"
+      ],
+      "start": "2013-11-03",
+      "end": "2015-02-28",
+      "days": 482,
+      "number": 12,
+      "event": "CMLL Sabados De Coliseo",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Comando Caribeño",
+      "people": [
+        "misterioso-jr",
+        "sagrado"
+      ],
+      "start": "2015-02-28",
+      "end": "2015-12-19",
+      "days": 294,
+      "number": 13,
+      "event": "Sabados Retros",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r11",
+      "holder": "Guerrero Maya Jr. & The Panther",
+      "people": [
+        "guerrero-maya-jr",
+        "the-panther"
+      ],
+      "start": "2015-12-19",
+      "end": "2016-12-25",
+      "days": 372,
+      "number": 14,
+      "event": "Sabados Retros",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r12",
+      "holder": "Black Terry & Negro Navarro",
+      "people": [
+        "black-terry",
+        "negro-navarro"
+      ],
+      "start": "2016-12-25",
+      "end": "2017-07-22",
+      "days": 209,
+      "number": 15,
+      "event": "Chairo 7: Hell in a Christmas Cell",
+      "location": "Mexico City",
+      "note": "Team was not under CMLL contract when winning",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r1",
+      "holder": "Nuevo Generacion Dinamitas",
+      "people": [
+        "sanson",
+        "el-cuatrero"
       ],
       "start": "2017-07-22",
       "end": "2018-02-14",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 207,
+      "number": 16,
+      "event": "Sabado Arena Coliseo",
+      "location": "Mexico City",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/cmll-arena-coliseo-tag-team-championship"
+        "https://www.thesmackdownhotel.com/title-history/cmll-arena-coliseo-tag-team-championship",
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
       ],
       "legacyIds": [
         "profile-reign-sanson-728"
       ]
+    },
+    {
+      "id": "r13",
+      "holder": "OneAtos Style",
+      "people": [
+        "esfinge",
+        "triton"
+      ],
+      "start": "2018-03-10",
+      "end": "2020-04-29",
+      "days": 781,
+      "number": 17,
+      "event": "Sabado Arena Coliseo",
+      "location": "Mexico City",
+      "note": "Won tournament for vacant title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Hombre Bala Jr. & Robin",
+      "people": [
+        "hombre-bala-jr",
+        "robin"
+      ],
+      "start": "2022-04-02",
+      "end": "2023-03-14",
+      "days": 346,
+      "number": 18,
+      "event": "79 Aniversario Arena Coliseo",
+      "location": "Mexico City",
+      "note": "Won vacant title over La Ola Negra",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Furia Roja & Guerrero de la Muerte",
+      "people": [
+        "furia-roja",
+        "guerrero-de-la-muerte"
+      ],
+      "start": "2023-03-14",
+      "end": "2023-10-07",
+      "days": 207,
+      "number": 19,
+      "event": "Sabado Arena Coliseo",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r16",
+      "holder": "La Ola Negra",
+      "people": [
+        "akuma",
+        "espanto-jr"
+      ],
+      "start": "2023-10-07",
+      "end": "2024-04-06",
+      "days": 182,
+      "number": 20,
+      "event": "Sabado Arena Coliseo",
+      "location": "Mexico City",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r17",
+      "holder": "El Triangulo",
+      "people": [
+        "el-hijo-del-villano-iii",
+        "villano-iii-jr"
+      ],
+      "start": "2024-04-06",
+      "end": "2026-04-04",
+      "days": 728,
+      "number": 21,
+      "event": "Sábados de Coliseo - 81: Aniversario de la Arena Coliseo",
+      "location": "Ciudad de Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r18",
+      "holder": "Los Hermanos Calavera",
+      "people": [
+        "calavera-jr-i",
+        "calavera-jr-ii"
+      ],
+      "start": "2026-04-04",
+      "days": 19,
+      "number": 22,
+      "event": "CMLL 83. Aniversario Arena Coliseo",
+      "location": "Ciudad de Mexico",
+      "note": "Current champions",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CMLL_Arena_Coliseo_Tag_Team_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

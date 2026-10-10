@@ -1,10 +1,47 @@
 {
   "id": "aaa-fusion-championship",
   "name": "AAA Fusión Championship",
-  "names": [
-    "AAA Fusión Championship"
+  "promotion": "aaa",
+  "division": "men",
+  "format": "singles",
+  "established": "2012-11-03",
+  "retired": "2014-08-17",
+  "names": [],
+  "history": [
+    {
+      "date": "2013-04-23",
+      "kind": "brand",
+      "text": "AAA split its roster into two brands, AAA Evolución and AAA Fusión, and the title became exclusive to AAA Fusión",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Fusi%C3%B3n_Championship"
+      ]
+    },
+    {
+      "date": "2014-08-17",
+      "kind": "unified-into",
+      "text": "Title unified with the AAA Cruiserweight Championship in a ten-way elimination match won by El Hijo del Fantasma, creating the AAA World Cruiserweight Championship",
+      "related": [
+        "AAA Cruiserweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Fusi%C3%B3n_Championship"
+      ]
+    },
+    {
+      "date": "2014-08-17",
+      "kind": "deactivated",
+      "text": "Title deactivated upon unification at Triplemanía XXII",
+      "related": [
+        "AAA Cruiserweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Fusi%C3%B3n_Championship"
+      ]
+    }
   ],
-  "sources": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/AAA_Fusi%C3%B3n_Championship"
+  ],
   "reigns": [
     {
       "id": "r1",
@@ -14,13 +51,36 @@
       ],
       "start": "2013-03-17",
       "end": "2014-08-17",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 518,
+      "number": 1,
+      "event": "Rey de Reyes (2013)",
+      "location": "Monterrey, Nuevo León",
+      "note": "Won four-way tournament final; episode aired on tape delay",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/aaa-fusion-championship"
+        "https://www.thesmackdownhotel.com/title-history/aaa-fusion-championship",
+        "https://en.wikipedia.org/wiki/AAA_Fusi%C3%B3n_Championship"
       ],
       "legacyIds": [
         "profile-reign-rey-fenix-654"
       ]
+    },
+    {
+      "id": "r2",
+      "holder": "El Hijo del Fantasma",
+      "people": [
+        "santos-escobar"
+      ],
+      "start": "2014-08-17",
+      "end": "2014-08-17",
+      "days": 0,
+      "number": 2,
+      "event": "Triplemanía XXII",
+      "location": "Mexico City",
+      "note": "Won ten-way elimination match also for Cruiserweight title",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_Fusi%C3%B3n_Championship"
+      ],
+      "legacyIds": []
     }
   ]
 }

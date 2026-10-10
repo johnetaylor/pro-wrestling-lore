@@ -1,86 +1,358 @@
 {
   "id": "mexican-national-atomicos-championship",
   "name": "Mexican National Atómicos Championship",
+  "promotion": "aaa",
+  "division": "men",
+  "format": "quartet",
+  "established": "1996-08-09",
+  "retired": "2009-01-24",
   "names": [
-    "Mexican National Atómicos Championship"
+    "Mexican National Atómicos Championship (Spanish: Campeonato Nacional Atómicos)"
   ],
-  "sources": [],
+  "eras": [
+    {
+      "name": "Mexican National Atómicos Championship (Spanish: Campeonato Nacional Atómicos)",
+      "from": "1996-08-09"
+    }
+  ],
+  "history": [
+    {
+      "date": "1998-08-23",
+      "kind": "reactivated",
+      "text": "AAA revived the title through an eight-team tournament, won by Los Vipers over Los Payasos.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
+      ]
+    },
+    {
+      "date": "2008-12",
+      "kind": "recognition",
+      "text": "AAA announced it would no longer recognize or promote non-AAA branded titles, including this one.",
+      "related": [
+        "Mexican National Tag Team Championship",
+        "UWA World Light Heavyweight Championship"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
+      ]
+    },
+    {
+      "date": "2009-01-24",
+      "kind": "deactivated",
+      "text": "AAA abandoned the title after Chessman and Los Psycho Circus were stripped by Commissioner Vampiro in a storyline; the article gives January 24 or 25 for these events.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
+  ],
   "reigns": [
     {
-      "id": "r1",
-      "holder": "Psicosis",
+      "id": "r8",
+      "holder": "Pierroth Jr. and Los Villanos",
       "people": [
-        "psicosis-ii"
+        "pierroth",
+        "villano-iii",
+        "villano-iv",
+        "villano-v"
+      ],
+      "start": "1996-08-09",
+      "end": "1996",
+      "days": 84,
+      "number": 1,
+      "event": "Live event",
+      "location": "Ciudad Nezahualcóyotl",
+      "note": "Won eight-team tournament final",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r1",
+      "holder": "Los Vipers",
+      "people": [
+        "psicosis-ii",
+        "histeria-2",
+        "maniaco",
+        "mosco-de-la-merced"
       ],
       "start": "1998-08-23",
       "end": "1999-02-14",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 175,
+      "number": 2,
+      "event": "Live event",
+      "location": "Azcapotzalco",
+      "note": "Won tournament final over Los Payasos",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/mexican-national-atomicos-championship"
+        "https://www.thesmackdownhotel.com/title-history/mexican-national-atomicos-championship",
+        "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
       ],
       "legacyIds": [
         "profile-reign-psicosis-538"
       ]
     },
     {
-      "id": "r2",
-      "holder": "Psicosis",
+      "id": "r9",
+      "holder": "Los Vatos Locos",
       "people": [
-        "psicosis-ii"
+        "charly-manson",
+        "may-flowers",
+        "nygma",
+        "picudo"
+      ],
+      "start": "1999-02-14",
+      "end": "1999-04-18",
+      "days": 63,
+      "number": 3,
+      "event": "Live event",
+      "location": "Monterrey, Nuevo León",
+      "note": "No notes given",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r10",
+      "holder": "Los Junior Atómicos",
+      "people": [
+        "blue-demon-jr",
+        "la-parka-jr",
+        "mascara-sagrada-jr",
+        "perro-aguayo-jr"
+      ],
+      "start": "1999-04-18",
+      "end": "1999-09-17",
+      "days": 152,
+      "number": 4,
+      "event": "Live event",
+      "location": "Zapopan, Jalisco",
+      "note": "No notes given",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r2",
+      "holder": "Los Vipers",
+      "people": [
+        "psicosis-ii",
+        "histeria-2",
+        "maniaco",
+        "mosco-de-la-merced"
       ],
       "start": "1999-09-17",
       "end": "1999-12-10",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 84,
+      "number": 5,
+      "event": "Live event",
+      "location": "Mexico City",
+      "note": "No notes given",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/mexican-national-atomicos-championship"
+        "https://www.thesmackdownhotel.com/title-history/mexican-national-atomicos-championship",
+        "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
       ],
       "legacyIds": [
         "profile-reign-psicosis-537"
       ]
     },
     {
-      "id": "r3",
-      "holder": "Psicosis",
+      "id": "r11",
+      "holder": "Los Vatos Locos",
       "people": [
-        "psicosis-ii"
+        "charly-manson",
+        "may-flowers",
+        "nygma",
+        "picudo"
+      ],
+      "start": "1999-12-10",
+      "end": "2000-04-15",
+      "days": 127,
+      "number": 6,
+      "event": "Live event",
+      "location": "Madero, Tamaulipas",
+      "note": "No notes given",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r3",
+      "holder": "Los Vipers",
+      "people": [
+        "psicosis-ii",
+        "histeria-2",
+        "maniaco",
+        "mosco-de-la-merced"
       ],
       "start": "2000-04-15",
       "end": "2001-08-19",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 3491,
+      "number": 7,
+      "event": "Live event",
+      "note": "No notes given",
+      "dateNote": "The list prints 3,491 days, a typing slip: its own dates give 491, to the next change on August 19, 2001.",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/mexican-national-atomicos-championship"
+        "https://www.thesmackdownhotel.com/title-history/mexican-national-atomicos-championship",
+        "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
       ],
       "legacyIds": [
         "profile-reign-psicosis-536"
       ]
     },
     {
-      "id": "r4",
-      "holder": "Chessman",
+      "id": "r12",
+      "holder": "Los Regio Guapos",
       "people": [
-        "chessman"
+        "hator",
+        "monje-negro-jr",
+        "potro-jr",
+        "tigre-universitario"
+      ],
+      "start": "2001-08-19",
+      "end": "2001-10-07",
+      "days": 49,
+      "number": 8,
+      "event": "Live event",
+      "location": "Monterrey, Nuevo León",
+      "note": "No notes given",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r13",
+      "holder": "Los Vipers",
+      "people": [
+        "histeria-2",
+        "maniaco",
+        "mosco-de-la-merced",
+        "psicosis-ii"
+      ],
+      "start": "2001-10-07",
+      "end": "2001-11-23",
+      "days": 47,
+      "number": 9,
+      "event": "Live event",
+      "location": "Monterrey, Nuevo León",
+      "note": "No notes given",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r14",
+      "holder": "Espíritu & Nygma & Picudo & Silver Cat",
+      "people": [
+        "espiritu",
+        "nygma",
+        "picudo",
+        "silver-cat"
+      ],
+      "start": "2001-11-23",
+      "end": "2002-12-02",
+      "days": 374,
+      "number": 10,
+      "event": "Live event",
+      "location": "Mexico City",
+      "note": "No notes given",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r15",
+      "holder": "Oscar Sevilla and Los Barrio Boys",
+      "people": [
+        "oscar-sevilla",
+        "drago",
+        "billy-boy",
+        "decnis"
+      ],
+      "start": "2002-12-02",
+      "end": "2003-07-18",
+      "days": 228,
+      "number": 11,
+      "event": "Live event",
+      "location": "Nuevo Laredo, Tamaulipas",
+      "note": "No notes given",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r4",
+      "holder": "The Black Family",
+      "people": [
+        "chessman",
+        "dark-cuervo",
+        "dark-scoria",
+        "dark-ozz"
       ],
       "start": "2003-07-18",
       "end": "2003-08-08",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 21,
+      "number": 12,
+      "event": "Live event",
+      "location": "Madero, Tamaulipas",
+      "note": "No notes given",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/mexican-national-atomicos-championship"
+        "https://www.thesmackdownhotel.com/title-history/mexican-national-atomicos-championship",
+        "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
       ],
       "legacyIds": [
         "profile-reign-chessman-94"
       ]
     },
     {
-      "id": "r5",
-      "holder": "Chessman",
+      "id": "r16",
+      "holder": "Oscar Sevilla and Los Barrio Boys",
       "people": [
-        "chessman"
+        "oscar-sevilla",
+        "drago",
+        "billy-boy",
+        "decnis"
+      ],
+      "start": "2003-08-08",
+      "end": "2004-08-20",
+      "days": 378,
+      "number": 13,
+      "event": "Live event",
+      "location": "Puebla, Puebla",
+      "note": "No notes given",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
+      "id": "r5",
+      "holder": "The Black Family",
+      "people": [
+        "chessman",
+        "dark-cuervo",
+        "dark-scoria",
+        "dark-ozz"
       ],
       "start": "2004-08-20",
       "end": "2006-10-18",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 789,
+      "number": 14,
+      "event": "Live event",
+      "location": "Puebla, Puebla",
+      "note": "No notes given",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/mexican-national-atomicos-championship"
+        "https://www.thesmackdownhotel.com/title-history/mexican-national-atomicos-championship",
+        "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
       ],
       "legacyIds": [
         "profile-reign-chessman-92"
@@ -88,23 +360,52 @@
     },
     {
       "id": "r6",
-      "holder": "Juventud Guerrera & Psicosis",
+      "holder": "The Mexican Powers",
       "people": [
-        "psicosis-ii"
+        "psicosis-ii",
+        "crazy-boy",
+        "juventud-guerrera",
+        "joe-lider"
       ],
       "start": "2006-10-18",
       "end": "2007-05-20",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 214,
+      "number": 15,
+      "event": "Live event",
+      "location": "Cuernavaca, Morelos",
+      "note": "No notes given",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/mexican-national-atomicos-championship"
+        "https://www.thesmackdownhotel.com/title-history/mexican-national-atomicos-championship",
+        "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
       ],
       "legacyIds": [
         "profile-reign-psicosis-534"
       ]
     },
     {
+      "id": "r17",
+      "holder": "Dark Cuervo & Dark Escoria & Dark Espíritu & Dark Ozz",
+      "people": [
+        "dark-cuervo",
+        "dark-scoria",
+        "dark-espiritu",
+        "dark-ozz"
+      ],
+      "start": "2007-05-20",
+      "end": "2009-01-18",
+      "days": 609,
+      "number": 16,
+      "event": "Live event",
+      "location": "Morelia, Michoacán",
+      "note": "No notes given",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
+      ],
+      "legacyIds": []
+    },
+    {
       "id": "r7",
-      "holder": "Chessman & Killer Clown & Psycho Clown & Zombie Clown",
+      "holder": "Chessman (3) and Los Psycho Circus",
       "people": [
         "chessman",
         "monster-clown",
@@ -113,9 +414,14 @@
       ],
       "start": "2009-01-18",
       "end": "2009-01-24",
-      "dateNote": "End date follows the duration recorded in the profile source.",
+      "days": 6,
+      "number": 17,
+      "event": "Live event",
+      "location": "Guanajuato, Guanajuato",
+      "note": "Stripped by Commissioner Vampiro on January 25",
       "sources": [
-        "https://www.thesmackdownhotel.com/title-history/mexican-national-atomicos-championship"
+        "https://www.thesmackdownhotel.com/title-history/mexican-national-atomicos-championship",
+        "https://en.wikipedia.org/wiki/Mexican_National_At%C3%B3micos_Championship"
       ],
       "legacyIds": [
         "profile-reign-chessman-91",

@@ -90,7 +90,7 @@ export interface TitleFacts {
   /** Other names the title has had or been written as. */
   names: string[];
   division?: 'men' | 'women' | 'mixed';
-  format?: 'singles' | 'tag' | 'trios';
+  format?: 'singles' | 'tag' | 'trios' | 'quartet';
   established?: string;
   retired?: string;
   eras: { name: string; from: string; to?: string }[];
