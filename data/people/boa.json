@@ -10,6 +10,12 @@
         "first": "2019-10-09",
         "last": "2021-06-29"
       }
+    },
+    {
+      "name": "Big Boa"
+    },
+    {
+      "name": "Tian Bing"
     }
   ],
   "promotions": [
@@ -20,24 +26,28 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "NXT"
+        "NXT",
+        "WWE"
       ]
     },
     {
       "asOf": "archive",
       "brands": [
-        "NXT"
+        "NXT",
+        "WWE"
       ]
     }
   ],
   "partial": true,
-  "archiveFirst": "2019-06-12",
+  "archiveFirst": "2016-10-13",
   "archiveLast": "2022-01-25",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-boa"
+    "archive-person-boa",
+    "archive-person-bigboa",
+    "archive-person-tianbing"
   ],
   "legacyFlags": {
     "archiveOnly": true,

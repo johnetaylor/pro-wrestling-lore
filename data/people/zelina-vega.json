@@ -2,13 +2,23 @@
   "id": "zelina-vega",
   "name": "Zelina Vega",
   "gender": "female",
-  "genderBasis": "division",
+  "genderBasis": "reviewed",
   "ringNames": [
     {
       "name": "Zelina Vega",
       "billed": {
         "first": "2018-07-31",
         "last": "2024-12-09"
+      }
+    },
+    {
+      "name": "Thea Trinidad"
+    },
+    {
+      "name": "Queen Zelina",
+      "billed": {
+        "first": "2021-10-25",
+        "last": "2022-04-11"
       }
     },
     {
@@ -32,7 +42,11 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "Historical"
+        "Historical",
+        "NXT",
+        "Raw",
+        "SmackDown",
+        "WWE"
       ]
     },
     {
@@ -48,12 +62,18 @@
   "partial": true,
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics",
-    "https://www.thesmackdownhotel.com/wrestlers/zelina-vega-rosita"
+    "https://www.thesmackdownhotel.com/wrestlers/zelina-vega-rosita",
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "hf-person-zelinavega"
+    "hf-person-zelinavega",
+    "archive-person-theatrinidad",
+    "archive-person-queenzelina"
   ],
   "legacyFlags": {
-    "archiveOnly": true
-  }
+    "archiveOnly": true,
+    "archiveProfile": true
+  },
+  "archiveFirst": "2016-10-13",
+  "archiveLast": "2022-04-11"
 }

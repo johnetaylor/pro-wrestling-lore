@@ -6,6 +6,21 @@
   "ringNames": [
     {
       "name": "Sycho Sid"
+    },
+    {
+      "name": "Sid Justice",
+      "billed": {
+        "first": "1992-02-08",
+        "last": "1992-04-05"
+      }
+    },
+    {
+      "name": "Sid Vicious",
+      "note": "Billed under this name in indexed matches.",
+      "billed": {
+        "first": "1999-07-19",
+        "last": "1999-09-06"
+      }
     }
   ],
   "promotions": [
@@ -29,13 +44,14 @@
     }
   ],
   "partial": true,
-  "archiveFirst": "1995-04-24",
+  "archiveFirst": "1992-01-19",
   "archiveLast": "2012-06-25",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-sychosid"
+    "archive-person-sychosid",
+    "archive-person-sidjustice"
   ],
   "legacyFlags": {
     "archiveOnly": true,

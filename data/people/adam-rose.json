@@ -2,13 +2,20 @@
   "id": "adam-rose",
   "name": "Adam Rose",
   "gender": "male",
-  "genderBasis": "legacy-placeholder",
+  "genderBasis": "division",
   "ringNames": [
     {
       "name": "Adam Rose",
       "billed": {
         "first": "2014-06-02",
         "last": "2016-04-11"
+      }
+    },
+    {
+      "name": "Leo Kruger",
+      "billed": {
+        "first": "2012-09-26",
+        "last": "2012-09-26"
       }
     }
   ],
@@ -37,13 +44,14 @@
     }
   ],
   "partial": true,
-  "archiveFirst": "2014-01-30",
+  "archiveFirst": "2011-09-20",
   "archiveLast": "2016-04-11",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-adamrose"
+    "archive-person-adamrose",
+    "archive-person-leokruger"
   ],
   "legacyFlags": {
     "archiveOnly": true,

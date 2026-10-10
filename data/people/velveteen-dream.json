@@ -6,6 +6,16 @@
   "ringNames": [
     {
       "name": "Velveteen Dream"
+    },
+    {
+      "name": "The Velveteen Dream",
+      "billed": {
+        "first": "2020-02-19",
+        "last": "2020-04-22"
+      }
+    },
+    {
+      "name": "Patrick Clark"
     }
   ],
   "promotions": [
@@ -16,24 +26,28 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "WWE"
+        "WWE",
+        "NXT"
       ]
     },
     {
       "asOf": "archive",
       "brands": [
-        "WWE"
+        "WWE",
+        "NXT"
       ]
     }
   ],
   "partial": true,
-  "archiveFirst": "2023-01-15",
+  "archiveFirst": "2016-06-09",
   "archiveLast": "2023-11-05",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-velveteendream"
+    "archive-person-velveteendream",
+    "archive-person-thevelveteendream",
+    "archive-person-patrickclark"
   ],
   "legacyFlags": {
     "archiveOnly": true,

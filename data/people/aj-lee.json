@@ -2,13 +2,20 @@
   "id": "aj-lee",
   "name": "AJ Lee",
   "gender": "female",
-  "genderBasis": "division",
+  "genderBasis": "reviewed",
   "ringNames": [
     {
       "name": "AJ Lee",
       "billed": {
         "first": "2014-02-23",
         "last": "2026-04-18"
+      }
+    },
+    {
+      "name": "AJ",
+      "billed": {
+        "first": "2011-05-27",
+        "last": "2014-10-13"
       }
     }
   ],
@@ -37,13 +44,14 @@
     }
   ],
   "partial": true,
-  "archiveFirst": "2011-08-13",
+  "archiveFirst": "2011-05-24",
   "archiveLast": "2026-04-18",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-ajlee"
+    "archive-person-ajlee",
+    "archive-person-aj"
   ],
   "legacyFlags": {
     "archiveOnly": true,

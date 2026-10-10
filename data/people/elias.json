@@ -10,6 +10,23 @@
         "first": "2017-07-31",
         "last": "2023-04-03"
       }
+    },
+    {
+      "name": "Elias Samson",
+      "billed": {
+        "first": "2015-02-18",
+        "last": "2017-07-24"
+      }
+    },
+    {
+      "name": "Ezekiel",
+      "billed": {
+        "first": "2022-05-02",
+        "last": "2022-08-08"
+      }
+    },
+    {
+      "name": "Elijah"
     }
   ],
   "promotions": [
@@ -22,7 +39,8 @@
       "brands": [
         "Raw",
         "SmackDown",
-        "WWE"
+        "WWE",
+        "NXT"
       ]
     },
     {
@@ -30,21 +48,34 @@
       "brands": [
         "Raw",
         "SmackDown",
-        "WWE"
+        "WWE",
+        "NXT"
       ]
+    },
+    {
+      "asOf": "2025",
+      "brands": [
+        "NXT"
+      ],
+      "name": "Elijah"
     }
   ],
   "partial": true,
-  "archiveFirst": "2017-07-31",
+  "archiveFirst": "2014-04-24",
   "archiveLast": "2023-10-22",
   "sources": [
-    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c",
+    "https://www.wwe.com/shows/wwenxt/2025-05-06"
   ],
   "legacyIds": [
-    "archive-person-elias"
+    "archive-person-elias",
+    "archive-person-eliassamson",
+    "archive-person-ezekiel",
+    "elijah"
   ],
   "legacyFlags": {
-    "archiveOnly": true,
+    "yearRoster": 2025,
     "archiveProfile": true
-  }
+  },
+  "checked": "2026-10-05"
 }

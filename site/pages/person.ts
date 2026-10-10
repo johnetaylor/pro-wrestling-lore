@@ -1,6 +1,6 @@
 // Wrestler page: the career strip, then the career in text and tables.
 import type { Person } from '../../scripts/lib/types.ts';
-import { unique } from '../../scripts/lib/util.ts';
+import { nameKey, unique } from '../../scripts/lib/util.ts';
 import { html, type Raw } from '../lib/html.ts';
 import { daysBetween, formatDate, num, outcomeClass, outcomeLabel, plural, ratingView, sentenceList, year, yearSpan } from '../lib/format.ts';
 import type { Appearance, SiteData } from '../lib/load.ts';
@@ -38,7 +38,7 @@ export function isBoilerplate(summary: string | undefined): boolean {
 function otherNames(person: Person): string[] {
   const start = (r: Person['ringNames'][number]) => r.from ?? r.billed?.first ?? '9999';
   return person.ringNames
-    .filter((r) => r.name !== person.name)
+    .filter((r) => nameKey(r.name) !== nameKey(person.name))
     .sort((a, b) => start(a).localeCompare(start(b)))
     .map((r) => {
       const span = yearSpan(r.from ?? r.billed?.first, r.to ?? r.billed?.last);

@@ -10,6 +10,13 @@
         "first": "1992-04-05",
         "last": "1999-04-25"
       }
+    },
+    {
+      "name": "The Blue Blazer",
+      "billed": {
+        "first": "1989-03-11",
+        "last": "1999-05-17"
+      }
     }
   ],
   "promotions": [
@@ -21,25 +28,28 @@
       "asOf": "2026-10-05",
       "brands": [
         "Raw",
-        "WWE"
+        "WWE",
+        "SmackDown"
       ]
     },
     {
       "asOf": "archive",
       "brands": [
         "Raw",
-        "WWE"
+        "WWE",
+        "SmackDown"
       ]
     }
   ],
   "partial": true,
-  "archiveFirst": "1992-01-19",
-  "archiveLast": "1999-04-25",
+  "archiveFirst": "1988-11-24",
+  "archiveLast": "1999-05-11",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-owenhart"
+    "archive-person-owenhart",
+    "archive-person-theblueblazer"
   ],
   "legacyFlags": {
     "archiveOnly": true,

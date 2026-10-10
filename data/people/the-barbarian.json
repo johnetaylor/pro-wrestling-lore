@@ -10,6 +10,13 @@
         "first": "1989-11-23",
         "last": "1996-03-24"
       }
+    },
+    {
+      "name": "Sionne",
+      "billed": {
+        "first": "1994-11-23",
+        "last": "1994-11-23"
+      }
     }
   ],
   "promotions": [
@@ -20,24 +27,27 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "WWE"
+        "WWE",
+        "Raw"
       ]
     },
     {
       "asOf": "archive",
       "brands": [
-        "WWE"
+        "WWE",
+        "Raw"
       ]
     }
   ],
   "partial": true,
   "archiveFirst": "1988-08-29",
-  "archiveLast": "1992-01-19",
+  "archiveLast": "1995-06-05",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-thebarbarian"
+    "archive-person-thebarbarian",
+    "archive-person-sionne"
   ],
   "legacyFlags": {
     "archiveOnly": true,

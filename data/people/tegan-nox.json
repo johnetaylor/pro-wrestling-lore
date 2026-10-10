@@ -2,7 +2,7 @@
   "id": "tegan-nox",
   "name": "Tegan Nox",
   "gender": "female",
-  "genderBasis": "legacy-placeholder",
+  "genderBasis": "reviewed",
   "ringNames": [
     {
       "name": "Tegan Nox",
@@ -10,6 +10,16 @@
         "first": "2019-10-23",
         "last": "2024-04-01"
       }
+    },
+    {
+      "name": "Nox",
+      "billed": {
+        "first": "2021-07-09",
+        "last": "2021-08-20"
+      }
+    },
+    {
+      "name": "Steffanie Newell"
     }
   ],
   "promotions": [
@@ -25,7 +35,9 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "Historical"
+        "Historical",
+        "SmackDown",
+        "NXT"
       ]
     },
     {
@@ -41,12 +53,18 @@
   "partial": true,
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics",
-    "https://www.thesmackdownhotel.com/wrestlers/tegan-nox"
+    "https://www.thesmackdownhotel.com/wrestlers/tegan-nox",
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "hf-person-tegannox"
+    "hf-person-tegannox",
+    "archive-person-nox",
+    "archive-person-steffanienewell"
   ],
   "legacyFlags": {
-    "archiveOnly": true
-  }
+    "archiveOnly": true,
+    "archiveProfile": true
+  },
+  "archiveFirst": "2018-05-09",
+  "archiveLast": "2021-09-03"
 }

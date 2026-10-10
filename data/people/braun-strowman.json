@@ -10,6 +10,9 @@
         "first": "2015-09-20",
         "last": "2024-12-27"
       }
+    },
+    {
+      "name": "Braun Stowman"
     }
   ],
   "promotions": [
@@ -20,7 +23,9 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "SmackDown"
+        "SmackDown",
+        "NXT",
+        "Raw"
       ]
     },
     {
@@ -34,19 +39,25 @@
       "brands": [
         "Raw",
         "SmackDown",
-        "WWE"
+        "WWE",
+        "NXT"
       ]
     }
   ],
   "partial": true,
   "checked": "2026-10-05",
   "sources": [
-    "https://www.wwe.com/shows/smackdown/2025-03-28"
+    "https://www.wwe.com/shows/smackdown/2025-03-28",
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "braun-strowman"
+    "braun-strowman",
+    "archive-person-braunstowman"
   ],
   "legacyFlags": {
-    "yearRoster": 2025
-  }
+    "yearRoster": 2025,
+    "archiveProfile": true
+  },
+  "archiveFirst": "2015-05-21",
+  "archiveLast": "2017-08-07"
 }

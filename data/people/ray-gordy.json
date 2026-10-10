@@ -10,6 +10,20 @@
         "first": "2005-12-04",
         "last": "2005-12-04"
       }
+    },
+    {
+      "name": "Jesse",
+      "billed": {
+        "first": "2007-10-02",
+        "last": "2009-03-20"
+      }
+    },
+    {
+      "name": "Slam Master J.",
+      "billed": {
+        "first": "2009-08-07",
+        "last": "2009-12-18"
+      }
     }
   ],
   "promotions": [
@@ -20,24 +34,28 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "SmackDown"
+        "SmackDown",
+        "WWE"
       ]
     },
     {
       "asOf": "archive",
       "brands": [
-        "SmackDown"
+        "SmackDown",
+        "WWE"
       ]
     }
   ],
   "partial": true,
   "archiveFirst": "2005-12-04",
-  "archiveLast": "2006-12-02",
+  "archiveLast": "2010-03-28",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-raygordy"
+    "archive-person-raygordy",
+    "archive-person-jesse",
+    "archive-person-slammasterj"
   ],
   "legacyFlags": {
     "archiveOnly": true,

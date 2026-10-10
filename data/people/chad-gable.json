@@ -12,9 +12,6 @@
       }
     },
     {
-      "name": "Original El Grande Americano"
-    },
-    {
       "name": "El Grande Americano",
       "to": "2025-07-06",
       "note": "The character passed to Ludwig Kaiser on July 7, 2025."
@@ -30,18 +27,18 @@
       "name": "Chas Betts"
     },
     {
-      "name": "El Grande Americano (Chad Gable",
-      "note": "Held a championship under this name.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/WWE_Speed_Championship"
-      ]
+      "name": "The Original El Grande Americano",
+      "billed": {
+        "first": "2026-01-31",
+        "last": "2026-05-18"
+      }
     },
     {
-      "name": "Ludwig Kaiser)",
-      "note": "Held a championship under this name.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/WWE_Speed_Championship"
-      ]
+      "name": "Shorty Gable",
+      "billed": {
+        "first": "2019-10-18",
+        "last": "2019-10-18"
+      }
     }
   ],
   "debut": {
@@ -95,7 +92,9 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "Raw"
+        "Raw",
+        "SmackDown",
+        "WWE"
       ]
     },
     {
@@ -118,12 +117,19 @@
   "checked": "2026-10-05",
   "sources": [
     "https://www.thesmackdownhotel.com/wrestlers/chad-gable",
-    "https://www.cagematch.net/?id=2&nr=15197&page=22"
+    "https://www.cagematch.net/?id=2&nr=15197&page=22",
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "chad-gable"
+    "chad-gable",
+    "archive-person-theoriginalelgrandeamericano",
+    "archive-person-shortygable"
   ],
   "legacyFlags": {
+    "archiveProfile": true,
     "hadPortrait": true
-  }
+  },
+  "partial": true,
+  "archiveFirst": "2019-10-11",
+  "archiveLast": "2026-05-18"
 }

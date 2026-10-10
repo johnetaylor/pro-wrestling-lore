@@ -71,7 +71,9 @@ check('People', 'Person names carry over (renamed characters excepted)', d.roste
   const person = people.get(pid(p.id));
   if (!person) return p.id;
   const names = [person.name, ...person.ringNames.map((r) => r.name)];
-  return names.includes(p.name) ? null : `${p.id}: "${p.name}" not among ${names.join(', ')}`;
+  // v69 told some characters apart as "Doink the Clown (Matt Borne)"; the person keeps the character's name.
+  const character = p.name.replace(/\s*\([^)]*\)\s*$/, '');
+  return names.includes(p.name) || names.includes(character) ? null : `${p.id}: "${p.name}" not among ${names.join(', ')}`;
 });
 
 // Moments → segments.

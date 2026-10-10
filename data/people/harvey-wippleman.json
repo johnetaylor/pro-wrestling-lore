@@ -2,10 +2,24 @@
   "id": "harvey-wippleman",
   "name": "Harvey Wippleman",
   "gender": "male",
-  "genderBasis": "legacy-placeholder",
+  "genderBasis": "reviewed",
   "ringNames": [
     {
       "name": "Harvey Wippleman"
+    },
+    {
+      "name": "Harvina",
+      "billed": {
+        "first": "2000-01-31",
+        "last": "2000-01-31"
+      }
+    },
+    {
+      "name": "Hervina",
+      "note": "Held a championship under this name.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_Women%27s_Champions_(1956%E2%80%932010)"
+      ]
     }
   ],
   "promotions": [
@@ -16,24 +30,27 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "Raw"
+        "Raw",
+        "SmackDown"
       ]
     },
     {
       "asOf": "archive",
       "brands": [
-        "Raw"
+        "Raw",
+        "SmackDown"
       ]
     }
   ],
   "partial": true,
   "archiveFirst": "1995-01-09",
-  "archiveLast": "1995-01-09",
+  "archiveLast": "2000-02-01",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-harveywippleman"
+    "archive-person-harveywippleman",
+    "archive-person-harvina"
   ],
   "legacyFlags": {
     "archiveOnly": true,

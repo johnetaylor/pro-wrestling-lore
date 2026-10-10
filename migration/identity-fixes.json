@@ -1,0 +1,1969 @@
+{
+  "note": "Reviewed identity decisions: one record per person. Splits move what v69 or an import credited to the wrong person; merges fold duplicates into one record (a merge into an ID that does not exist yet renames the first record). Apply with `node scripts/identity-fixes.ts`; applying twice changes nothing. A split with a v69 block makes the same move in the v69 snapshot for parity (scripts/migrate/v69/corrections.ts).",
+  "splits": [
+    {
+      "from": "la-knight",
+      "to": "deuce",
+      "segments": [
+        "wwe/no-way-out/2007-02-18#m3",
+        "wwe/raw/2008-09-22#m2",
+        "wwe/raw/2008-09-29#m4",
+        "wwe/smackdown/2007-02-06#m2",
+        "wwe/smackdown/2007-02-16#m2",
+        "wwe/smackdown/2007-02-20#m1",
+        "wwe/smackdown/2007-04-10#m1",
+        "wwe/smackdown/2007-04-17#m2",
+        "wwe/smackdown/2007-04-24#m2",
+        "wwe/smackdown/2007-05-15#m2",
+        "wwe/smackdown/2007-05-29#m4",
+        "wwe/smackdown/2007-06-05#m4",
+        "wwe/smackdown/2007-06-12#m1",
+        "wwe/smackdown/2007-07-02#m4",
+        "wwe/smackdown/2007-07-24#m1",
+        "wwe/smackdown/2007-07-31#m7",
+        "wwe/smackdown/2007-08-21#m4",
+        "wwe/smackdown/2007-08-28#m2",
+        "wwe/smackdown/2007-09-18#m2",
+        "wwe/smackdown/2007-10-02#m3",
+        "wwe/smackdown/2007-10-16#m5",
+        "wwe/smackdown/2007-11-27#m1",
+        "wwe/smackdown/2007-12-02#m4",
+        "wwe/smackdown/2008-01-04#m5",
+        "wwe/smackdown/2008-01-15#m2",
+        "wwe/smackdown/2008-01-29#m3",
+        "wwe/smackdown/2008-02-05#m3",
+        "wwe/smackdown/2008-02-19#m2",
+        "wwe/smackdown/2008-02-26#m1",
+        "wwe/smackdown/2008-03-04#m1",
+        "wwe/smackdown/2008-03-18#m1",
+        "wwe/smackdown/2008-05-20#m1",
+        "wwe/smackdown/2008-06-03#m2",
+        "wwe/smackdown/2008-06-13#m6",
+        "wwe/smackdown/2008-06-20#m6"
+      ],
+      "removeRingNames": [
+        "Deuce"
+      ],
+      "v69": {
+        "from": "la-knight",
+        "name": "Deuce",
+        "before": "2010-01-01"
+      },
+      "reason": "The 2007-08 matches billed \"Deuce\" (Deuce 'n Domino on SmackDown, then Raw singles matches in September 2008) are James Reiher Jr., Deuce and later Sim Snuka. v69 matched them to LA Knight because his profile listed Deuce as an alias; Shaun Ricker did not reach WWE television until 2013.",
+      "sources": [
+        "https://thehistoryofwwe.com/wwe-results-2007/",
+        "https://thehistoryofwwe.com/wwe-results-2008/"
+      ]
+    },
+    {
+      "from": "naraku",
+      "to": "yoshiki-inamura",
+      "create": {
+        "name": "Yoshiki Inamura",
+        "gender": "male",
+        "sources": [
+          "https://www.thesmackdownhotel.com/events-results/wwe/nxt-2025"
+        ]
+      },
+      "segments": [
+        "wwe/nxt/2025-02-11#m2",
+        "wwe/nxt-vengeance-day/2025-02-15#m2",
+        "wwe/nxt/2025-03-18#m2",
+        "wwe/nxt/2025-04-08#m5",
+        "wwe/nxt/2025-04-15#m3",
+        "wwe/nxt/2025-04-29#m3",
+        "wwe/nxt/2025-05-06#m3",
+        "wwe/nxt/2025-06-10#m2",
+        "wwe/nxt/2025-06-17#m3",
+        "wwe/nxt/2025-06-24#s1",
+        "wwe/nxt/2025-07-01#m5",
+        "wwe/nxt/2025-07-08#s1",
+        "wwe/nxt-the-great-american-bash/2025-07-12#m4",
+        "wwe/nxt/2025-07-15#s1",
+        "wwe/nxt/2025-07-22#m4",
+        "wwe/nxt/2025-08-05#m5",
+        "wwe/nxt/2025-08-19#m1"
+      ],
+      "removeRingNames": [
+        "Yoshiki Inamura"
+      ],
+      "moveRosters": [
+        "2025"
+      ],
+      "v69": {
+        "from": "naraku",
+        "after": "2025-01-01",
+        "before": "2025-09-01"
+      },
+      "reason": "v69 filed Yoshiki Inamura's 2025 NXT run (February to August) under the ID it later used for Naraku, and the profile import filled that ID from EVIL's page. Inamura, of Pro Wrestling NOAH, and EVIL are different men; every 2025 segment names Inamura.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/events-results/wwe/nxt-2025",
+        "https://www.sescoops.com/article/who-is-naraku-former-njpw-star-evil-debuts-in-nxt"
+      ]
+    },
+    {
+      "from": "sin-cara",
+      "to": "hunico",
+      "reigns": [
+        {
+          "title": "nxt-tag-team-championship",
+          "start": "2014-09-11"
+        }
+      ],
+      "reason": "Sin Cara is a mask two men wore. Luis Urive (Místico) left WWE early in 2014; Kalisto's Lucha Dragons partner when they won the NXT tag titles in September 2014 was the second Sin Cara, Jorge Arias (Hunico)."
+    },
+    {
+      "from": "the-executioner",
+      "to": "buddy-rose",
+      "segments": [
+        "wwe/wrestlemania/1985-03-31#m1"
+      ],
+      "addRingNames": [
+        {
+          "name": "The Executioner",
+          "note": "Masked at WrestleMania I."
+        }
+      ],
+      "v69": {
+        "from": "archive-person-theexecutioner",
+        "to": "archive-person-buddyrose",
+        "before": "1986-01-01"
+      },
+      "reason": "The Executioner is a hood several men wore. At WrestleMania I (March 31, 1985), where Tito Santana beat him, it was Buddy Rose.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/WrestleMania_I"
+      ]
+    },
+    {
+      "from": "the-executioner",
+      "to": "terry-gordy",
+      "segments": [
+        "wwe/in-your-house/1996-12-15#m3"
+      ],
+      "addRingNames": [
+        {
+          "name": "The Executioner",
+          "note": "Masked in the WWF, 1996-97."
+        }
+      ],
+      "v69": {
+        "from": "archive-person-theexecutioner",
+        "name": "Terry Gordy",
+        "after": "1996-01-01"
+      },
+      "reason": "The Executioner the Undertaker beat at In Your House: It's Time (December 15, 1996) was Terry Gordy under the hood.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/In_Your_House_12:_It%27s_Time"
+      ]
+    },
+    {
+      "from": "jacques-rougeau",
+      "to": "jacques-rougeau-sr",
+      "create": {
+        "name": "Jacques Rougeau Sr.",
+        "gender": "male",
+        "sources": [
+          "https://en.wikipedia.org/wiki/NWF_Heavyweight_Championship"
+        ]
+      },
+      "reigns": [
+        {
+          "title": "nwf-heavyweight-championship",
+          "start": "1973-01-24"
+        }
+      ],
+      "reason": "The NWF Heavyweight Champion of 1973 printed \"Jacques Rougeau\" is the father: Jacques Rougeau Jr., of the Quebecers and the Mountie, was born in 1960 and debuted in 1977."
+    },
+    {
+      "from": "matt-martel",
+      "to": "matt-striker",
+      "segments": [
+        "wwe/smackdown/2005-02-22#m1"
+      ],
+      "addRingNames": [
+        {
+          "name": "Matt Martel",
+          "note": "Used for his February 2005 SmackDown match against Kurt Angle.",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Matt_Striker"
+          ]
+        }
+      ],
+      "v69": {
+        "from": "archive-person-mattmartel",
+        "to": "archive-person-mattstriker",
+        "before": "2006-01-01"
+      },
+      "reason": "Matt Striker (Matthew Kaye) wrestled Kurt Angle on SmackDown in February 2005 as Matt Martel. The Matt Martel of 2019-21, Chase Parker's NXT tag partner, is a different man.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Matt_Striker"
+      ]
+    },
+    {
+      "from": "mascarita-sagrada",
+      "to": "el-torito",
+      "create": {
+        "name": "El Torito",
+        "gender": "male",
+        "summary": "The mini billed as El Torito on Raw in September 1997, in the WWF's Mini-Estrellas matches. Who wore the mask isn't established; Mascarita Dorada was WWE's El Torito from 2013 to 2016.",
+        "sources": [
+          "https://thehistoryofwwe.com/wwf-results-1997/"
+        ]
+      },
+      "segments": [
+        "wwe/raw/1997-09-15#m3"
+      ],
+      "v69": {
+        "from": "mascarita-sagrada",
+        "before": "1998-01-01"
+      },
+      "reason": "The El Torito of the WWF's 1997 minis matches is not Mascarita Dorada, who debuted in 2000 and was WWE's El Torito from 2013. The 1997 performer isn't identified, so he has a record of his own.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mascarita_Dorada"
+      ]
+    },
+    {
+      "from": "psicosis",
+      "to": "psicosis-ii",
+      "create": {
+        "name": "Psicosis II",
+        "gender": "male",
+        "sources": []
+      },
+      "reigns": [
+        {
+          "title": "mexican-national-atomicos-championship",
+          "start": "1998-08-23"
+        },
+        {
+          "title": "mexican-national-atomicos-championship",
+          "start": "1999-09-17"
+        },
+        {
+          "title": "mexican-national-atomicos-championship",
+          "start": "2000-04-15"
+        },
+        {
+          "title": "mexican-national-atomicos-championship",
+          "start": "2006-10-18"
+        },
+        {
+          "title": "mexican-national-middleweight-championship",
+          "start": "2002-08-13"
+        },
+        {
+          "title": "mexican-national-trios-championship",
+          "start": "2011-09-20"
+        },
+        {
+          "title": "mexican-national-trios-championship",
+          "start": "2012-12-16"
+        },
+        {
+          "title": "aaa-world-trios-championship",
+          "start": "2023-07-21"
+        }
+      ],
+      "moveFields": [
+        "sources",
+        "debut",
+        "promotions",
+        "titleSummary",
+        "titleTotal",
+        "externalTotals",
+        "summary"
+      ],
+      "moveRingNames": [
+        "Ripper",
+        "Psicosis II",
+        "Reaper",
+        "Psycho Ripper",
+        "Psycosis Extreme",
+        "El Puma Jr.",
+        "León Negro",
+        "Ultra Taro"
+      ],
+      "addRingNames": [
+        {
+          "name": "Psicosis"
+        }
+      ],
+      "moveRosters": [
+        "2026-10-05"
+      ],
+      "v69": {
+        "from": "psicosis",
+        "records": [
+          "profile-reign-psicosis-531",
+          "profile-reign-psicosis-532",
+          "profile-reign-psicosis-533",
+          "profile-reign-psicosis-534",
+          "profile-reign-psicosis-535",
+          "profile-reign-psicosis-536",
+          "profile-reign-psicosis-537",
+          "profile-reign-psicosis-538"
+        ]
+      },
+      "reason": "v69's Psicosis is the original, Dionicio Castellanos (ECW 1995-96, WCW, WWE 2005-06), but its profile was filled from the page of Psicosis II, the AAA wrestler who took the name while the original was in WCW, along with his eight reigns (Atómicos 1998-2007, Mexican middleweight 2002-05, Mexican trios 2011-13, AAA trios 2023-24). Those move to Psicosis II.",
+      "sources": [
+        "https://www.thesmackdownhotel.com/wrestlers/psicosis-ii-ripper",
+        "https://www.cagematch.net/?id=2&nr=3579&page=22"
+      ]
+    }
+  ],
+  "merges": [
+    {
+      "into": "kane",
+      "from": [
+        "glenn-jacobs",
+        "isaac-yankem",
+        "dds",
+        "diesel-ii"
+      ],
+      "addRingNames": [
+        {
+          "name": "Isaac Yankem, D.D.S."
+        }
+      ],
+      "reason": "Glenn Jacobs: Isaac Yankem DDS (1995-96), the replacement 'Diesel' of late 1996 and Kane from 1997; Mayor Glenn Jacobs held the 24/7 title in 2019."
+    },
+    {
+      "into": "dolph-ziggler",
+      "from": [
+        "nick-nemeth",
+        "nicky"
+      ],
+      "reason": "Nick Nemeth: Nicky of the Spirit Squad (2006), Nick Nemeth in OVW/FCW (2007-08), Dolph Ziggler from 2008, Nic Nemeth in TNA."
+    },
+    {
+      "into": "taz",
+      "from": [
+        "tazz"
+      ],
+      "reason": "Peter Senerchia: Taz (and The Tazmaniac) in ECW, spelled Tazz in WWF/WWE 2000-06; the ECW records are under taz."
+    },
+    {
+      "into": "bobby-roode",
+      "from": [
+        "robert-roode"
+      ],
+      "reason": "Same man; WWE renamed Bobby Roode to Robert Roode in April 2019."
+    },
+    {
+      "into": "primo",
+      "from": [
+        "primo-colon",
+        "diego"
+      ],
+      "addRingNames": [
+        {
+          "name": "Primo Colón"
+        }
+      ],
+      "reason": "Eddie Colon: Primo / Primo Colon, and Diego of Los Matadores (2013-16)."
+    },
+    {
+      "into": "road-warrior-hawk",
+      "from": [
+        "hawk"
+      ],
+      "reason": "Michael Hegstrand: Hawk of the Road Warriors / Legion of Doom; hawk holds the LOD tag reigns, road-warrior-hawk the Hell Raisers reigns and 1998 match. Kept road-warrior-hawk: 'hawk' is a bare, ambiguous id and Road Warrior Hawk is the name WWE uses."
+    },
+    {
+      "into": "ec3",
+      "from": [
+        "derrick-bateman"
+      ],
+      "reason": "Michael Hutter: Derrick Bateman in FCW/NXT/WWE 2010-13, Ethan Carter III / EC3 from 2013."
+    },
+    {
+      "into": "reggie",
+      "from": [
+        "reginald",
+        "scrypts"
+      ],
+      "reason": "Same man: Reginald (Jan-Jul 2021), Reggie (2021-22; the 24/7 reign is printed 'Reginald/Reggie'), repackaged in NXT as Scrypts (2023-24)."
+    },
+    {
+      "into": "chavo-guerrero-sr",
+      "from": [
+        "chavo-classic"
+      ],
+      "reason": "Chavo Guerrero Sr. was billed Chavo Classic on SmackDown in 2004 and won the Cruiserweight title under that name."
+    },
+    {
+      "into": "big-e",
+      "from": [
+        "big-e-langston"
+      ],
+      "reason": "Ettore Ewen: Big E Langston (2011-14) shortened to Big E in 2014."
+    },
+    {
+      "into": "curtis-axel",
+      "from": [
+        "joe-hennig"
+      ],
+      "reason": "Joe Hennig: billed under his real name in FCW/WWE 2007-10, Michael McGillicutty 2010-12, Curtis Axel from 2013."
+    },
+    {
+      "into": "mike-rotunda",
+      "from": [
+        "mike-rotundo"
+      ],
+      "reason": "Same man; spelled Rotundo in the WWF of 1985 and Rotunda later (also IRS / Irwin R. Schyster); both ids sit in the same career."
+    },
+    {
+      "into": "tjp",
+      "from": [
+        "t-j-perkins"
+      ],
+      "reason": "T. J. Perkins: Manik in TNA (2013-14), T. J. Perkins in WWE 2016-17, TJP from 2017."
+    },
+    {
+      "into": "juventud-guerrera",
+      "from": [
+        "juventud"
+      ],
+      "reason": "Juventud Guerrera was billed 'Juventud' on SmackDown in 2005 while holding the Cruiserweight title."
+    },
+    {
+      "into": "billy-gunn",
+      "from": [
+        "billy"
+      ],
+      "reason": "Monty Sopp was billed simply 'Billy' in Billy & Chuck (2001-02)."
+    },
+    {
+      "into": "cameron-grimes",
+      "from": [
+        "trevor-lee"
+      ],
+      "reason": "Trevor Lee Caddell: Trevor Lee in TNA 2015-17, Cameron Grimes in NXT from 2019."
+    },
+    {
+      "into": "trent-beretta",
+      "from": [
+        "trent-barreta"
+      ],
+      "reason": "Same man: Trent Barreta in FCW/WWE 2009-11 (Dude Busters), Trent Beretta / Beretta in NJPW and AEW."
+    },
+    {
+      "into": "aj-lee",
+      "from": [
+        "aj"
+      ],
+      "reason": "April Mendez was billed both 'AJ' and 'AJ Lee' on WWE TV 2011-15; 'aj' is an ambiguous id."
+    },
+    {
+      "into": "tegan-nox",
+      "from": [
+        "nox"
+      ],
+      "reason": "Steffanie Newell was billed 'Nox' on SmackDown in July-August 2021, teaming with Shotzi."
+    },
+    {
+      "into": "linda-miles",
+      "from": [
+        "shaniqua"
+      ],
+      "reason": "Linda Miles, the 2002 Tough Enough winner, became Shaniqua in 2003 (managing the Basham Brothers)."
+    },
+    {
+      "into": "mickie-james",
+      "from": [
+        "piggy-james"
+      ],
+      "reason": "'Piggy James' was the name Michelle McCool's group mocked Mickie James with in 2010."
+    },
+    {
+      "into": "ruby-soho",
+      "from": [
+        "ruby-riott",
+        "ruby-riot"
+      ],
+      "name": "Ruby Soho",
+      "reason": "Dori Prange: Ruby Riot in NXT (2017), Ruby Riott on the main roster (2017-21), Ruby Soho in AEW."
+    },
+    {
+      "into": "zelina-vega",
+      "from": [
+        "thea-trinidad",
+        "queen-zelina"
+      ],
+      "reason": "Thea Trinidad: Rosita in TNA, Zelina Vega in WWE from 2017, Queen Zelina in 2021-22."
+    },
+    {
+      "into": "rachael-ellering",
+      "from": [
+        "rachel-evers"
+      ],
+      "reason": "Rachael Ellering was billed Rachel Evers in NXT."
+    },
+    {
+      "into": "xia-li",
+      "from": [
+        "lei-ying-lee"
+      ],
+      "reason": "Li Xiaolei: Xia Li in WWE 2017-24, Léi Yǐng Lee in TNA from 2025."
+    },
+    {
+      "into": "shotzi",
+      "from": [
+        "shotzi-blackheart"
+      ],
+      "reason": "Same woman; WWE shortened Shotzi Blackheart to Shotzi in July 2021."
+    },
+    {
+      "into": "santino-marella",
+      "from": [
+        "santina",
+        "santino-claus"
+      ],
+      "addRingNames": [
+        {
+          "name": "Santina Marella"
+        }
+      ],
+      "reason": "Anthony Carelli; Santina Marella (2009) and Santino Claus (December 2009) were his own drag and holiday characters."
+    },
+    {
+      "into": "terri-runnels",
+      "from": [
+        "terri",
+        "marlena"
+      ],
+      "reason": "Terri Runnels: Marlena (1996-97), Terri / Terri Runnels (1998-2004)."
+    },
+    {
+      "into": "tay-melo",
+      "from": [
+        "tay-conti",
+        "taynara-conti",
+        "taynara"
+      ],
+      "name": "Tay Melo",
+      "reason": "Taynara Melo de Carvalho: Taynara Conti / Taynara in NXT (2017-20), Tay Conti and Tay Melo in AEW."
+    },
+    {
+      "into": "stephanie-mcmahon",
+      "from": [
+        "stephanie-mcmahon-helmsley"
+      ],
+      "reason": "Stephanie McMahon was billed Stephanie McMahon-Helmsley during her 2000 Women's title reign."
+    },
+    {
+      "into": "harvey-wippleman",
+      "from": [
+        "harvina"
+      ],
+      "reason": "Harvey Wippleman won the Women's title in drag as 'Hervina' (31 Jan 2000); harvina has more data but is the joke name."
+    },
+    {
+      "into": "kris-statlander",
+      "from": [
+        "kristen-stadtlander"
+      ],
+      "reason": "Kristen Stadtlander is Kris Statlander's real name, used at a 2019 WWE appearance."
+    },
+    {
+      "into": "gigi-dolin",
+      "from": [
+        "priscilla-zuniga"
+      ],
+      "reason": "Priscilla Zuniga is Gigi Dolin's real name, used before her 2021 NXT repackaging."
+    },
+    {
+      "into": "bianca-belair",
+      "from": [
+        "bianca-blair"
+      ],
+      "reason": "'Bianca Blair' is a 2017 misspelling of Bianca Belair."
+    },
+    {
+      "into": "braun-strowman",
+      "from": [
+        "braun-stowman"
+      ],
+      "reason": "'Braun Stowman' is a misspelling."
+    },
+    {
+      "into": "damien-demento",
+      "from": [
+        "damian-demento"
+      ],
+      "reason": "Same 1993 WWF wrestler (Phil Theis), spelled two ways; damian-demento has the one match but is the misspelling."
+    },
+    {
+      "into": "armando-estrada",
+      "from": [
+        "armando-alejandro-estrada"
+      ],
+      "reason": "Same manager (Umaga's), billed Armando Alejandro Estrada in 2006-07."
+    },
+    {
+      "into": "ashante-thee-adonis",
+      "from": [
+        "ashante-adonis"
+      ],
+      "reason": "Same NXT wrestler; the nickname is dropped in 2025 billings."
+    },
+    {
+      "into": "channing-stacks-lorenzo",
+      "from": [
+        "channing-lorenzo"
+      ],
+      "reason": "Same wrestler; 2025-26 billings drop the 'Stacks' nickname and v69 linked some matches to both ids."
+    },
+    {
+      "into": "christopher-nowinski",
+      "from": [
+        "chris-nowinski"
+      ],
+      "reason": "Same Tough Enough alumnus."
+    },
+    {
+      "into": "rob-conway",
+      "from": [
+        "robert-conway"
+      ],
+      "reason": "La Résistance member billed Robert Conway in 2003-05; the tag reigns are under robert-conway."
+    },
+    {
+      "into": "stevie-richards",
+      "from": [
+        "steven-richards",
+        "big-stevie-cool"
+      ],
+      "reason": "Michael Manna: Stevie Richards (ECW, Right to Censor), billed Steven Richards in WWE 2002-05, Big Stevie Cool (bWo) at One Night Stand 2005; steven-richards holds more data but is the less-known name."
+    },
+    {
+      "into": "ronnie-garvin",
+      "from": [
+        "ron-garvin"
+      ],
+      "reason": "Roger Barnes, billed Ron Garvin in Jim Crockett Promotions (1986-87) and Ronnie Garvin in the WWF; ron-garvin has the one reign but Ronnie Garvin is the better-known billing."
+    },
+    {
+      "into": "velveteen-dream",
+      "from": [
+        "the-velveteen-dream",
+        "patrick-clark"
+      ],
+      "reason": "Patrick Clark (his real name, used 2016-17) became (The) Velveteen Dream in NXT; the-velveteen-dream has 3 matches and velveteen-dream the North American title reign, and WWE billed him without 'The' for most of his run."
+    },
+    {
+      "into": "stacey-ervin-jr",
+      "from": [
+        "stacey-ervin"
+      ],
+      "reason": "Same NXT recruit seen with and without 'Jr.' in January 2019; no wrestler father of that name."
+    },
+    {
+      "into": "adrian-nails",
+      "from": [
+        "adrian-nailz"
+      ],
+      "reason": "Both ids come from the same 13 July 2016 taping, spelled two ways."
+    },
+    {
+      "into": "the-rock",
+      "from": [
+        "dwayne-johnson"
+      ],
+      "reason": "Dwayne Johnson worked a 1996 WWF tryout under his real name before debuting as Rocky Maivia."
+    },
+    {
+      "into": "the-undertaker",
+      "from": [
+        "cain-the-undertaker"
+      ],
+      "reason": "'Cain the Undertaker' was the name used at his first WWF tapings in November 1990."
+    },
+    {
+      "into": "x-pac",
+      "from": [
+        "the-kid"
+      ],
+      "reason": "Sean Waltman was billed 'The Kid' on Raw, 17 May 1993, before becoming the 1-2-3 Kid."
+    },
+    {
+      "into": "earthquake",
+      "from": [
+        "golga"
+      ],
+      "reason": "John Tenta: Earthquake, The Shark in WCW, then Golga in The Oddities (1998)."
+    },
+    {
+      "into": "earthquake",
+      "from": [
+        "canadian-earthquake"
+      ],
+      "reason": "Tenta was introduced as the Canadian Earthquake at late-1989 tapings; the row is archive-only."
+    },
+    {
+      "into": "owen-hart",
+      "from": [
+        "the-blue-blazer"
+      ],
+      "reason": "The Blue Blazer was Owen Hart's masked character (1988-89, revived 1998-99)."
+    },
+    {
+      "into": "crush",
+      "from": [
+        "brian-adams"
+      ],
+      "reason": "Brian Adams: Crush in the WWF, Brian Adams in WCW (Kronik with Bryan Clark, 2000)."
+    },
+    {
+      "into": "adam-bomb",
+      "from": [
+        "bryan-clark"
+      ],
+      "reason": "Bryan Clark: Adam Bomb in the WWF 1993-95, Bryan Clark in WCW (Kronik, WCW tag champions 2000)."
+    },
+    {
+      "into": "bastion-booger",
+      "from": [
+        "friar-ferguson"
+      ],
+      "reason": "Mike Shaw: Friar Ferguson (1993) then Bastion Booger."
+    },
+    {
+      "into": "john-bradshaw-layfield",
+      "from": [
+        "bradshaw",
+        "justin-bradshaw",
+        "blackjack-bradshaw"
+      ],
+      "name": "John Bradshaw Layfield",
+      "addRingNames": [
+        {
+          "name": "JBL"
+        }
+      ],
+      "reason": "John Layfield: Justin 'Hawk' Bradshaw (1996), Blackjack Bradshaw (1997), Bradshaw, JBL."
+    },
+    {
+      "into": "al-snow",
+      "from": [
+        "leif-cassidy",
+        "avatar"
+      ],
+      "reason": "Al Snow wrestled as Avatar (1995) and Leif Cassidy (1996-97) in the WWF."
+    },
+    {
+      "into": "raven",
+      "from": [
+        "johnny-polo"
+      ],
+      "reason": "Scott Levy was Johnny Polo in the WWF 1993-94 before becoming Raven."
+    },
+    {
+      "into": "henry-o-godwinn",
+      "from": [
+        "mark-canterbury"
+      ],
+      "reason": "Mark Canterbury is Henry O. Godwinn's real name, used on TV in 1998."
+    },
+    {
+      "into": "mideon",
+      "from": [
+        "phineas-i-godwinn",
+        "dennis-knight",
+        "naked-mideon"
+      ],
+      "reason": "Dennis Knight: Phineas I. Godwinn (1996-98), Mideon (1999-2000), Naked Mideon (2000)."
+    },
+    {
+      "into": "mosh",
+      "from": [
+        "chaz",
+        "beaver-cleavage"
+      ],
+      "reason": "Charles Warrington: Mosh of the Headbangers, then Beaver Cleavage and Chaz (1999)."
+    },
+    {
+      "into": "thrasher",
+      "from": [
+        "glen-ruth"
+      ],
+      "reason": "Glen Ruth is Thrasher of the Headbangers."
+    },
+    {
+      "into": "tom-prichard",
+      "from": [
+        "zip"
+      ],
+      "reason": "Tom Prichard was Zip of the Bodydonnas, WWF tag champions in 1996."
+    },
+    {
+      "into": "chris-candido",
+      "from": [
+        "skip"
+      ],
+      "reason": "Chris Candido was Skip of the Bodydonnas (1995-96)."
+    },
+    {
+      "into": "tracy-smothers",
+      "from": [
+        "freddie-joe-floyd"
+      ],
+      "reason": "Tracy Smothers was Freddie Joe Floyd in the WWF (1996-97)."
+    },
+    {
+      "into": "salvatore-sincere",
+      "from": [
+        "tom-brandi"
+      ],
+      "reason": "Tom Brandi wrestled under his own name and as Salvatore Sincere in the WWF; tom-brandi has slightly more data but Salvatore Sincere is better known."
+    },
+    {
+      "into": "kurrgan",
+      "from": [
+        "the-interrogator"
+      ],
+      "reason": "Robert Maillet: The Interrogator (Truth Commission, 1997) then Kurrgan."
+    },
+    {
+      "into": "the-kat",
+      "from": [
+        "miss-kitty"
+      ],
+      "reason": "Stacy Carter: Miss Kitty (1999) then The Kat."
+    },
+    {
+      "into": "nunzio",
+      "from": [
+        "little-guido",
+        "little-guido-maritato"
+      ],
+      "reason": "James Maritato: Little Guido (ECW) and Nunzio (WWE)."
+    },
+    {
+      "into": "chuck-palumbo",
+      "from": [
+        "chuck"
+      ],
+      "reason": "'Chuck' of Billy & Chuck is Chuck Palumbo; the two tag reigns sit under chuck."
+    },
+    {
+      "into": "rico",
+      "from": [
+        "rico-constantino"
+      ],
+      "reason": "Rico Constantino, billed Rico 2002-04."
+    },
+    {
+      "into": "jimmy-wang-yang",
+      "from": [
+        "akio"
+      ],
+      "reason": "James Yun: Akio (2003-05) then Jimmy Wang Yang."
+    },
+    {
+      "into": "brian-kendrick",
+      "from": [
+        "spanky"
+      ],
+      "reason": "Brian Kendrick was Spanky on SmackDown in 2003."
+    },
+    {
+      "into": "damien-sandow",
+      "from": [
+        "damien-mizdow",
+        "idol-stevens"
+      ],
+      "reason": "Aaron Haddad: Idol Stevens (2006), Damien Sandow, Damien Mizdow (2014, tag champion with The Miz)."
+    },
+    {
+      "into": "fandango",
+      "from": [
+        "johnny-curtis"
+      ],
+      "reason": "Curtis Hussey: Johnny Curtis (FCW and NXT season 4 winner) then Fandango."
+    },
+    {
+      "into": "tonga-loa",
+      "from": [
+        "camacho"
+      ],
+      "reason": "Tevita Fifita: Camacho in WWE 2011-14, Tanga Loa / Tonga Loa afterwards."
+    },
+    {
+      "into": "adam-rose",
+      "from": [
+        "leo-kruger"
+      ],
+      "reason": "Raymond Leppan: Leo Kruger in FCW/NXT (2011-13) then Adam Rose."
+    },
+    {
+      "into": "apollo-crews",
+      "from": [
+        "apollo"
+      ],
+      "reason": "Apollo Crews was billed 'Apollo' in Titus Worldwide on Raw in 2018."
+    },
+    {
+      "into": "top-dolla",
+      "from": [
+        "aj-francis"
+      ],
+      "reason": "AJ Francis is Top Dolla's real name and his ring name after leaving Hit Row."
+    },
+    {
+      "into": "sami-callihan",
+      "from": [
+        "solomon-crowe"
+      ],
+      "reason": "Sami Callihan was Solomon Crowe in NXT 2014-15."
+    },
+    {
+      "into": "buddy-matthews",
+      "from": [
+        "buddy-murphy",
+        "murphy"
+      ],
+      "name": "Buddy Matthews",
+      "reason": "Matthew Adams, billed Murphy in 2020-21."
+    },
+    {
+      "into": "roxanne-perez",
+      "from": [
+        "rok-c"
+      ],
+      "reason": "Rok-C, the 2021 ROH Women's champion, became Roxanne Perez in NXT."
+    },
+    {
+      "into": "wendy-choo",
+      "from": [
+        "mei-ying"
+      ],
+      "reason": "Karen Yu played Mei Ying in NXT (2021) before becoming Wendy Choo."
+    },
+    {
+      "into": "batista",
+      "from": [
+        "deacon-batista"
+      ],
+      "reason": "Dave Bautista debuted on SmackDown in 2002 as Deacon Batista."
+    },
+    {
+      "into": "carlito",
+      "from": [
+        "carly-colon"
+      ],
+      "reason": "Carly Colon is Carlito's own pre-debut name (2004)."
+    },
+    {
+      "into": "hunico",
+      "from": [
+        "sin-cara-ii",
+        "sin-cara-negro"
+      ],
+      "addRingNames": [
+        {
+          "name": "Sin Cara"
+        },
+        {
+          "name": "Cinta de Oro"
+        }
+      ],
+      "reason": "Jorge Arias: Sin Cara Negro (2011), Hunico (2011-13), the second Sin Cara (2014-19)."
+    },
+    {
+      "into": "mr-kennedy",
+      "from": [
+        "ken-kennedy"
+      ],
+      "reason": "Ken Anderson debuted on SmackDown as Ken Kennedy (2005), became Mr. Kennedy, and Mr. Anderson in TNA."
+    },
+    {
+      "into": "haku",
+      "from": [
+        "king-haku",
+        "king-tonga"
+      ],
+      "reason": "Tonga Fifita: King Tonga (1986), Haku, King Haku (1988-89), Meng in WCW."
+    },
+    {
+      "into": "jacques-rougeau",
+      "from": [
+        "the-mountie"
+      ],
+      "reason": "Jacques Rougeau Jr. was The Mountie (1991-92)."
+    },
+    {
+      "into": "pco",
+      "from": [
+        "pierre-ouellette",
+        "jean-pierre-lafitte"
+      ],
+      "name": "PCO",
+      "addRingNames": [
+        {
+          "name": "Pierre Carl Ouellet"
+        }
+      ],
+      "reason": "Carl Ouellet: Pierre of the Quebecers, Jean-Pierre Lafitte (1995), PCO."
+    },
+    {
+      "into": "hugh-morrus",
+      "from": [
+        "bill-demott"
+      ],
+      "reason": "Bill DeMott was Hugh Morrus in WCW and wrestled as Bill DeMott in WWE 2002-03."
+    },
+    {
+      "into": "davey-boy-smith-jr",
+      "from": [
+        "david-hart-smith",
+        "d-h-smith",
+        "harry-smith"
+      ],
+      "name": "Davey Boy Smith Jr.",
+      "reason": "Harry Smith: D.H. Smith (2007-08), David Hart Smith (2009-11), Davey Boy Smith Jr. elsewhere; the Hart family tree points at harry-smith."
+    },
+    {
+      "into": "sunil-singh",
+      "from": [
+        "gurv-sihra"
+      ],
+      "reason": "Gurvinder Sihra wrestled as Gurv Sihra of the Bollywood Boyz until 2017, then Sunil Singh."
+    },
+    {
+      "into": "samir-singh",
+      "from": [
+        "harv-sihra"
+      ],
+      "reason": "Harvinder Sihra wrestled as Harv Sihra of the Bollywood Boyz until 2017, then Samir Singh."
+    },
+    {
+      "into": "veer-mahaan",
+      "from": [
+        "veer",
+        "rinku",
+        "rinku-singh"
+      ],
+      "reason": "Rinku Singh Rajput: Rinku (2019-20), Veer (2021, 2023), Veer Mahaan (2022)."
+    },
+    {
+      "into": "sanga",
+      "from": [
+        "saurav",
+        "saurav-gurjar"
+      ],
+      "reason": "Saurav Gurjar: Saurav (2019-20) then Sanga."
+    },
+    {
+      "into": "elias",
+      "from": [
+        "elias-samson",
+        "ezekiel"
+      ],
+      "reason": "Jeff Sciullo: Elias Samson in NXT, Elias, and 'brother' Ezekiel (2022)."
+    },
+    {
+      "into": "madcap-moss",
+      "from": [
+        "riddick-moss"
+      ],
+      "reason": "Mike Rallis: Riddick Moss (2017-21, 24/7 champion 2020) then Madcap Moss (2021-23)."
+    },
+    {
+      "into": "madcap-moss",
+      "from": [
+        "mike-rallis",
+        "mike-rawlis"
+      ],
+      "reason": "Mike Rallis is Madcap Moss's real name; the 2015 NXT rows (one misspelled Rawlis) are archive-only."
+    },
+    {
+      "into": "kenny-dykstra",
+      "from": [
+        "kenny",
+        "ken-doane"
+      ],
+      "reason": "Ken Doane: Kenny of the Spirit Squad (2006, 2016), Kenny Dykstra (2006-08)."
+    },
+    {
+      "into": "mike-mondo",
+      "from": [
+        "mikey"
+      ],
+      "reason": "Michael Brendli was Mikey of the Spirit Squad (2006, 2016); mikey has the data but 'Mikey' is an ambiguous id."
+    },
+    {
+      "into": "hornswoggle",
+      "from": [
+        "little-bastard"
+      ],
+      "reason": "Dylan Postl was introduced as the Little Bastard in 2006-07 before becoming Hornswoggle."
+    },
+    {
+      "into": "tyler-breeze",
+      "from": [
+        "mike-dalton"
+      ],
+      "reason": "Mattias Clement was Mike Dalton in FCW (2012) before Tyler Breeze."
+    },
+    {
+      "into": "jeff-cobb",
+      "from": [
+        "jc-mateo"
+      ],
+      "reason": "Jeff Cobb wrestles in WWE as JC Mateo from 2025; jc-mateo has more indexed matches but Jeff Cobb is the long-standing name."
+    },
+    {
+      "into": "lacey-evans",
+      "from": [
+        "macey-evans",
+        "macey-estrella"
+      ],
+      "gender": "female",
+      "reason": "Macey Estrella is Lacey Evans's real name, used at 2016-17 NXT dates; 'Macey Evans' was the January 2017 billing."
+    },
+    {
+      "into": "road-warrior-animal",
+      "from": [
+        "animal"
+      ],
+      "reason": "Joe Laurinaitis: Animal of the Road Warriors / LOD; animal holds the four tag reigns, road-warrior-animal the matches. Kept road-warrior-animal: 'animal' is a bare, ambiguous id and Road Warrior Animal is the name WWE uses."
+    },
+    {
+      "into": "road-warrior-animal",
+      "from": [
+        "road-warrior"
+      ],
+      "reason": "'Road Warrior' vs. Matt Hardy (SmackDown, 14 March 2006) is Animal's singles run after the LOD revival with Heidenreich."
+    },
+    {
+      "into": "matt-borne",
+      "from": [
+        "doink-the-clown-matt-borne"
+      ],
+      "addRingNames": [
+        {
+          "name": "Doink the Clown"
+        }
+      ],
+      "reason": "Doink the Clown is a ring name of each performer; Matt Borne was the original (1992-93)."
+    },
+    {
+      "into": "the-brooklyn-brawler",
+      "from": [
+        "doink-the-clown-steve-lombardi"
+      ],
+      "addRingNames": [
+        {
+          "name": "Steve Lombardi"
+        },
+        {
+          "name": "Doink the Clown"
+        }
+      ],
+      "reason": "Steve Lombardi (The Brooklyn Brawler) played Doink on Raw, 10 October 2005."
+    },
+    {
+      "into": "eugene",
+      "from": [
+        "doink-the-clown-nick-dinsmore"
+      ],
+      "addRingNames": [
+        {
+          "name": "Nick Dinsmore"
+        },
+        {
+          "name": "Doink the Clown"
+        }
+      ],
+      "reason": "Nick Dinsmore (Eugene) played Doink in 2003."
+    },
+    {
+      "into": "terry-taylor",
+      "from": [
+        "the-red-rooster"
+      ],
+      "reason": "Terry Taylor was The Red Rooster (1988-89); the-red-rooster has more matches but Terry Taylor is his career name."
+    },
+    {
+      "into": "tom-zenk",
+      "from": [
+        "the-z-man"
+      ],
+      "reason": "Tom Zenk was The Z-Man in WCW (US tag champion with Brian Pillman, 1990)."
+    },
+    {
+      "into": "lanny-poffo",
+      "from": [
+        "the-genius"
+      ],
+      "reason": "Lanny Poffo was The Genius (1989-90); the Poffo family tree points at lanny-poffo."
+    },
+    {
+      "into": "robert-stone",
+      "from": [
+        "mr-stone"
+      ],
+      "reason": "Robert Stone was billed Mr. Stone in NXT 2023-24 (teaming with Von Wagner); mr-stone has one more match but Robert Stone is his established name."
+    },
+    {
+      "into": "chad-gable",
+      "from": [
+        "the-original-el-grande-americano",
+        "shorty-gable"
+      ],
+      "reason": "El Grande Americano is a ring name of each performer; 'The Original El Grande Americano' of 2026 is Chad Gable, who also was Shorty G / Shorty Gable (2019)."
+    },
+    {
+      "into": "brian-lee",
+      "from": [
+        "chainz",
+        "the-fake-undertaker"
+      ],
+      "reason": "Brian Lee was the fake Undertaker of 1994 and Chainz of the DOA (1997-98); chainz has the matches but Brian Lee is his career name and the ECW storylines point at brian-lee."
+    },
+    {
+      "into": "2-cold-scorpio",
+      "from": [
+        "flash-funk",
+        "scorpio"
+      ],
+      "reason": "Charles Scaggs: 2 Cold Scorpio (WCW, ECW), Flash Funk (WWF 1996-98), billed Scorpio in late 1998; flash-funk has more WWF matches but 2 Cold Scorpio is his career name and holds the reigns and the ECW storyline."
+    },
+    {
+      "into": "ray-gordy",
+      "from": [
+        "jesse",
+        "slam-master-j"
+      ],
+      "reason": "Ray Gordy (Terry Gordy's son) was Jesse of Festus & Jesse (2007-09) and Slam Master J (2009); 'jesse' is an ambiguous id."
+    },
+    {
+      "into": "luke-gallows",
+      "from": [
+        "festus",
+        "doc-gallows"
+      ],
+      "reason": "Drew Hankinson: Festus (2007-09), Luke Gallows, Doc Gallows in NJPW/TNA."
+    },
+    {
+      "into": "luke-harper",
+      "from": [
+        "harper"
+      ],
+      "reason": "Jon Huber was billed Harper in the Bludgeon Brothers (2017-18); also Brodie Lee."
+    },
+    {
+      "into": "deuce",
+      "from": [
+        "sim-snuka"
+      ],
+      "reason": "James Reiher Jr. was Deuce of Deuce 'n Domino (2007-08) and Sim Snuka from late 2008; also takes Deuce's 2007-08 matches from la-knight (see splits)."
+    },
+    {
+      "into": "sycho-sid",
+      "from": [
+        "sid-justice"
+      ],
+      "reason": "Sid Eudy: Sid Vicious (WCW), Sid Justice (WWF 1991-92), Sycho Sid (WWF 1995-97); sid-justice has more data but is the less-known name."
+    },
+    {
+      "into": "sylvain-grenier",
+      "from": [
+        "sylvan"
+      ],
+      "reason": "Sylvain Grenier was billed Sylvan in 2005-07; sylvan has more matches but Sylvain Grenier is his full name and holds the La Résistance reigns."
+    },
+    {
+      "into": "gene-snitsky",
+      "from": [
+        "snitsky"
+      ],
+      "reason": "Gene Snitsky, billed Snitsky from 2006."
+    },
+    {
+      "into": "big-vito",
+      "from": [
+        "vito"
+      ],
+      "reason": "Vito LoGrasso: Big Vito (WCW/ECW/WWE 2005) and Vito (2005-07); 'vito' is the ambiguous id."
+    },
+    {
+      "into": "wade-barrett",
+      "from": [
+        "stu-sanders"
+      ],
+      "reason": "Stu Bennett was Stu Sanders in FCW (2008)."
+    },
+    {
+      "into": "heath-slater",
+      "from": [
+        "sebastian-slater"
+      ],
+      "reason": "Heath Miller was Sebastian Slater in FCW (2008); the FCW tag reign prints 'Heath Miller/Sebastian Slater'."
+    },
+    {
+      "into": "eric-young",
+      "from": [
+        "super-eric"
+      ],
+      "reason": "Super Eric was Eric Young's superhero character in TNA (2008)."
+    },
+    {
+      "into": "shane-thorne",
+      "from": [
+        "slapjack"
+      ],
+      "reason": "Shane Thorne was Slapjack in Retribution (2020)."
+    },
+    {
+      "into": "swerve-strickland",
+      "from": [
+        "isaiah-swerve-scott",
+        "shane-strickland"
+      ],
+      "name": "Swerve Strickland",
+      "reason": "Shane Strickland (indie name) was Isaiah 'Swerve' Scott in NXT 2019-21 and is Swerve Strickland in AEW."
+    },
+    {
+      "into": "mo",
+      "from": [
+        "sir-mo"
+      ],
+      "reason": "Mo of Men on a Mission was billed Sir Mo in 1995."
+    },
+    {
+      "into": "william-regal",
+      "from": [
+        "sir-william-regal"
+      ],
+      "reason": "Sir William Regal is a 2006 billing of William Regal."
+    },
+    {
+      "into": "val-venis",
+      "from": [
+        "the-big-valbowski"
+      ],
+      "reason": "The Big Valbowski was Val Venis's 2002 character."
+    },
+    {
+      "into": "don-muraco",
+      "from": [
+        "the-magnificent-muraco"
+      ],
+      "reason": "The Magnificent Muraco is Don Muraco's 1985-86 billing."
+    },
+    {
+      "into": "zeb-colter",
+      "from": [
+        "uncle-zebekiah"
+      ],
+      "addRingNames": [
+        {
+          "name": "Dutch Mantel"
+        }
+      ],
+      "reason": "Dutch Mantel was Uncle Zebekiah in the WWF (1995-96) and Zeb Colter (2013-15)."
+    },
+    {
+      "into": "the-iron-sheik",
+      "from": [
+        "colonel-mustafa"
+      ],
+      "reason": "The Iron Sheik was Colonel Mustafa alongside Sgt. Slaughter in 1991."
+    },
+    {
+      "into": "tatanka",
+      "from": [
+        "chris-chavis"
+      ],
+      "reason": "Chris Chavis is Tatanka's real name, used at 1991 tapings."
+    },
+    {
+      "into": "barry-windham",
+      "from": [
+        "blackjack-windham"
+      ],
+      "reason": "Barry Windham was Blackjack Windham of the New Blackjacks (1997)."
+    },
+    {
+      "into": "curt-hawkins",
+      "from": [
+        "brian-major"
+      ],
+      "reason": "Brian Myers debuted in 2007 as Brian Major of the Major Brothers before becoming Curt Hawkins."
+    },
+    {
+      "into": "xavier-woods",
+      "from": [
+        "king-woods"
+      ],
+      "reason": "Xavier Woods was King Woods after winning the 2021 King of the Ring."
+    },
+    {
+      "into": "john-morrison",
+      "from": [
+        "john-hennigan"
+      ],
+      "reason": "John Hennigan, the 2002 Tough Enough co-winner, under his real name in 2003."
+    },
+    {
+      "into": "joey-mercury",
+      "from": [
+        "joey-matthews"
+      ],
+      "reason": "Joey Matthews was Joey Mercury's ring name before WWE renamed him in 2005."
+    },
+    {
+      "into": "matt-striker",
+      "from": [
+        "matthew-kaye"
+      ],
+      "reason": "Matthew Kaye is Matt Striker's real name."
+    },
+    {
+      "into": "vladimir-kozlov",
+      "from": [
+        "oleg-prudius"
+      ],
+      "reason": "Oleg Prudius is Vladimir Kozlov's real name, used in 2006 before his debut."
+    },
+    {
+      "into": "michael-shane",
+      "from": [
+        "matt-bentley"
+      ],
+      "reason": "Matt Bentley wrestled as Michael Shane in TNA and under his own name in WWE (2008)."
+    },
+    {
+      "into": "mordecai",
+      "from": [
+        "kevin-thorn"
+      ],
+      "reason": "Kevin Fertig was Mordecai (2004) and Kevin Thorn (ECW 2006-07)."
+    },
+    {
+      "into": "jackie-gayda",
+      "from": [
+        "miss-jackie"
+      ],
+      "reason": "Jackie Gayda was billed Miss Jackie in 2004."
+    },
+    {
+      "into": "jack-swagger",
+      "from": [
+        "jake-hager"
+      ],
+      "reason": "Jake Hager is Jack Swagger's real name (FCW 2008)."
+    },
+    {
+      "into": "dustin-rhodes",
+      "from": [
+        "dustin-runnels"
+      ],
+      "reason": "Dustin Runnels (1998) was Goldust/Dustin Rhodes billed under his legal name."
+    },
+    {
+      "into": "kanyon",
+      "from": [
+        "chris-kanyon"
+      ],
+      "reason": "Same man, billed Kanyon and Chris Kanyon (WCW and WWF/E 1999-2004)."
+    },
+    {
+      "into": "kanyon",
+      "from": [
+        "mortis"
+      ],
+      "reason": "Mortis was Chris Kanyon's masked WCW character (1997-98)."
+    },
+    {
+      "into": "jaxson-ryker",
+      "from": [
+        "gunner",
+        "chad-lail"
+      ],
+      "reason": "Chad Lail: Gunner in TNA (2011-16), under his real name in 2018, Jaxson Ryker in WWE."
+    },
+    {
+      "into": "dabba-kato",
+      "from": [
+        "commander-azeez",
+        "babatunde"
+      ],
+      "reason": "Babatunde Aiyegbusi: Babatunde (2018-20), Dabba-Kato, Commander Azeez (2021-22)."
+    },
+    {
+      "into": "crowbar",
+      "from": [
+        "devon-storm"
+      ],
+      "reason": "Chris Ford was Devon Storm in ECW/WWF and Crowbar in WCW (2000)."
+    },
+    {
+      "into": "mr-hughes",
+      "from": [
+        "curtis-hughes"
+      ],
+      "reason": "Curtis Hughes wrestled as Mr. Hughes and under his own name."
+    },
+    {
+      "into": "droz",
+      "from": [
+        "darren-drozdov"
+      ],
+      "reason": "Darren Drozdov is Droz."
+    },
+    {
+      "into": "epico",
+      "from": [
+        "fernando"
+      ],
+      "reason": "Epico Colon was Fernando of Los Matadores (2013-16)."
+    },
+    {
+      "into": "general-adnan",
+      "from": [
+        "billy-white-wolf"
+      ],
+      "reason": "Adnan Al-Kaissie wrestled as Billy White Wolf in the WWWF (tag champion 1976) and was General Adnan in 1991; billy-white-wolf has the reign but General Adnan is the better-known name."
+    },
+    {
+      "into": "gentleman-jack-gallagher",
+      "from": [
+        "jack-gallagher"
+      ],
+      "reason": "Same wrestler, with and without the nickname."
+    },
+    {
+      "into": "matt-riddle",
+      "from": [
+        "riddle"
+      ],
+      "reason": "Matt Riddle was billed 'Riddle' in 2020-22; riddle has slightly more data but 'riddle' is a bare id and Matt Riddle the fuller, better-known name."
+    },
+    {
+      "into": "sareee",
+      "from": [
+        "sarray"
+      ],
+      "reason": "Sareee wrestled in NXT 2021-22 as Sarray; sarray has the NXT matches but Sareee is her name everywhere else."
+    },
+    {
+      "into": "colt-cabana",
+      "from": [
+        "scotty-goldman"
+      ],
+      "reason": "Colt Cabana was Scotty Goldman on SmackDown 2008-09."
+    },
+    {
+      "into": "corey-graves",
+      "from": [
+        "sterling-james-keenan"
+      ],
+      "reason": "Sterling James Keenan was Corey Graves's ring name before FCW (2007 appearance)."
+    },
+    {
+      "into": "steph-de-lander",
+      "from": [
+        "persia-pirotta"
+      ],
+      "reason": "Stephanie De Landre was Persia Pirotta in NXT (2021-22) and is Steph De Lander in TNA."
+    },
+    {
+      "into": "boa",
+      "from": [
+        "big-boa",
+        "tian-bing"
+      ],
+      "reason": "Tian Bing (real name, 2016-18), Big Boa (2018), then Boa."
+    },
+    {
+      "into": "dijak",
+      "from": [
+        "chris-dijak",
+        "christopher-dijak"
+      ],
+      "addRingNames": [
+        {
+          "name": "T-Bar"
+        }
+      ],
+      "reason": "Christopher Dijak worked 2018 NXT dates under his real name before Dominik Dijakovic / T-Bar / Dijak."
+    },
+    {
+      "into": "tommaso-ciampa",
+      "from": [
+        "ciampa"
+      ],
+      "reason": "Tommaso Ciampa was billed 'Ciampa' on Raw in 2022."
+    },
+    {
+      "into": "mace",
+      "from": [
+        "ma-ce",
+        "dio-maddin"
+      ],
+      "name": "Mace",
+      "reason": "Dio Maddin became Mace (ma.çé) in Retribution (2020)."
+    },
+    {
+      "into": "mansoor",
+      "from": [
+        "man-soor",
+        "mansoor-al-shehail"
+      ],
+      "name": "Mansoor",
+      "reason": "Mansoor Al-Shehail, billed Mansoor / mån.sôör."
+    },
+    {
+      "into": "simon-dean",
+      "from": [
+        "mike-bucci"
+      ],
+      "addRingNames": [
+        {
+          "name": "Nova"
+        }
+      ],
+      "reason": "Mike Bucci (also Nova in ECW) was Simon Dean in WWE; billed under his real name in the WWF in 1993."
+    },
+    {
+      "into": "pat-tanaka",
+      "from": [
+        "tanaka"
+      ],
+      "reason": "'Tanaka' of the Orient Express (1990-92) is Pat Tanaka."
+    },
+    {
+      "into": "rhyno",
+      "from": [
+        "terry-richards"
+      ],
+      "reason": "Rhyno (Terry Gerin) was billed Terry Richards in his 1995 WWF enhancement matches, among them a Raw loss to Henry O. Godwinn on November 6, 1995.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rhyno"
+      ]
+    },
+    {
+      "into": "the-barbarian",
+      "from": [
+        "sionne"
+      ],
+      "reason": "Sione Vailahi (The Barbarian) was billed Sionne in the 1994 Survivor Series match beside Fatu."
+    },
+    {
+      "into": "danny-spivey",
+      "from": [
+        "waylon-mercy"
+      ],
+      "addRingNames": [
+        {
+          "name": "Dan Spivey"
+        }
+      ],
+      "reason": "Dan Spivey wrestled as Danny Spivey (WWF 1987) and Waylon Mercy (WWF 1995)."
+    },
+    {
+      "into": "danny-miller",
+      "from": [
+        "dan-miller"
+      ],
+      "reason": "Danny Miller, brother of Dr. Bill Miller, held the WWWF US tag title with him as 'The Miller Brothers' (1965) and was the first Mid-Atlantic TV champion (1974)."
+    },
+    {
+      "into": "dave-taylor",
+      "from": [
+        "david-taylor"
+      ],
+      "reason": "Dave Taylor joined WWE in October 2006; the 'David Taylor' rows are from that month."
+    },
+    {
+      "into": "perro-aguayo",
+      "from": [
+        "perry-aguayo"
+      ],
+      "reason": "'Perry Aguayo' is a misspelling of Perro Aguayo at Royal Rumble 1997 (the AAA six-man)."
+    },
+    {
+      "into": "pierroth",
+      "from": [
+        "pierroth-jr"
+      ],
+      "reason": "One luchador: Pierroth Jr. in CMLL (CMLL light heavyweight champion 1992), later just Pierroth (AAA 1996-97 incl. WWF Raw, leader of Los Boricuas in CMLL); pierroth-jr has the reign but Pierroth is the name of most of his career."
+    },
+    {
+      "into": "jacy-jayne",
+      "from": [
+        "avery-taylor"
+      ],
+      "reason": "Avery Taylor was Jacy Jayne's name before WWE; the 2020 rows are archive-only and the name belongs to nobody else in the archive."
+    },
+    {
+      "into": "elias",
+      "from": [
+        "elijah"
+      ],
+      "reason": "Jeff Sciullo wrestled as Elias Samson and Elias, played Ezekiel in 2022, and returned to NXT as Elijah in 2025 while signed to TNA.",
+      "sources": [
+        "https://www.wrestlinginc.com/1853586/elijah-fka-elias-returns-wwe-nxt-battle-royal"
+      ]
+    },
+    {
+      "into": "zack-gibson",
+      "from": [
+        "gibson"
+      ],
+      "reason": "NXT billed Zack Gibson as Gibson in 2022 (Gibson and Drake of the Grizzled Young Veterans); the row is archive-only."
+    },
+    {
+      "into": "paul-diamond",
+      "from": [
+        "max-moon",
+        "kato"
+      ],
+      "name": "Paul Diamond",
+      "reason": "Paul Diamond was Kato of the Orient Express (1990-92) and took over Max Moon from Konnan; the Max Moon of the first Raw (January 11, 1993) is Diamond. Max Moon and Kato are characters, so the person is named for himself."
+    },
+    {
+      "into": "rocky-romero",
+      "from": [
+        "black-tiger"
+      ],
+      "reason": "Black Tiger is a mask several men wore; the IWGP Junior Heavyweight reign of October 2005 to February 2006, won from and lost back to Tiger Mask IV, is Black Tiger IV, Rocky Romero."
+    },
+    {
+      "into": "sin-cara",
+      "from": [
+        "sin-cara-azul"
+      ],
+      "reason": "Sin Cara Azul (October 2011) is Luis Urive during the Sin Cara vs. Sin Cara Negro feud."
+    },
+    {
+      "into": "psicosis",
+      "from": [
+        "psychosis"
+      ],
+      "reason": "The title import created \"Psychosis\" for the original Psicosis, Dionicio Castellanos: WCW billed him Psychosis when he held the Cruiserweight title in 1999, and he held the AAA tag title in 2008-10 as Nicho el Millonario. Psicosis II's profile and reigns move to a record of his own first (see splits)."
+    },
+    {
+      "into": "ron-harris",
+      "from": [
+        "8-ball",
+        "eli-blu"
+      ],
+      "reason": "Ron Harris wrestled as Eli Blu of the Blu Brothers (1995) and as 8-Ball of the Disciples of Apocalypse (1997-98); his twin Don was Jacob Blu and Skull.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Harris_Brothers"
+      ]
+    },
+    {
+      "into": "don-harris",
+      "from": [
+        "skull",
+        "jacob-blu"
+      ],
+      "reason": "Don Harris wrestled as Jacob Blu of the Blu Brothers (1995) and as Skull of the Disciples of Apocalypse (1997-98); his twin Ron was Eli Blu and 8-Ball.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Harris_Brothers"
+      ]
+    },
+    {
+      "into": "tegan-nox",
+      "from": [
+        "steffanie-newell"
+      ],
+      "reason": "Steffanie Newell is Tegan Nox's own name; the record holds her archive-only rows."
+    },
+    {
+      "into": "alexa-bliss",
+      "from": [
+        "la-luchadora"
+      ],
+      "addRingNames": [
+        {
+          "name": "La Luchadora",
+          "note": "Unmasked by Becky Lynch after their match on SmackDown, January 3, 2017. Others also wore the mask that winter.",
+          "sources": [
+            "https://www.wwe.com/shows/smackdown/2017-01-03/article/becky-lynch-def-la-luchadora"
+          ]
+        }
+      ],
+      "reason": "La Luchadora was a mask several women wore in December 2016 and January 2017. The one Becky Lynch beat on SmackDown on January 3, 2017, the only La Luchadora match in the archive, was unmasked afterwards as Alexa Bliss.",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-01-03/article/becky-lynch-def-la-luchadora"
+      ]
+    },
+    {
+      "into": "evil",
+      "from": [
+        "naraku"
+      ],
+      "name": "EVIL",
+      "reason": "EVIL (Takaaki Watanabe) left NJPW in 2026 and debuted in NXT as Naraku in May 2026; he is known by EVIL, and Naraku is the newest of his names.",
+      "sources": [
+        "https://www.sescoops.com/article/who-is-naraku-former-njpw-star-evil-debuts-in-nxt",
+        "https://en.wikipedia.org/wiki/Evil_(wrestler)"
+      ]
+    },
+    {
+      "into": "mascarita-dorada",
+      "from": [
+        "mascarita-sagrada"
+      ],
+      "name": "Mascarita Dorada",
+      "addRingNames": [
+        {
+          "name": "Mascarita Sagrada 2000",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Mascarita_Dorada"
+          ]
+        },
+        {
+          "name": "Mascarita Plateada",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Mascarita_Dorada"
+          ]
+        },
+        {
+          "name": "El Torito",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Mascarita_Dorada"
+          ]
+        },
+        {
+          "name": "Minihausen",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Mascarita_Dorada"
+          ]
+        }
+      ],
+      "reason": "The record is Mascarita Dorada: AAA's Mascarita Sagrada 2000 and Mascarita Sagrada (2000-07), Mascarita Dorada in CMLL, WWE's El Torito (2013-16), and Mascarita Sagrada again at Worlds Collide in 2025. Mascarita Sagrada is a name AAA has given more than one mini, so the person is named for the name that is his alone.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mascarita_Dorada"
+      ]
+    },
+    {
+      "into": "mascarita-dorada",
+      "from": [
+        "minihausen"
+      ],
+      "reason": "Mascarita Dorada played Minihausen at Backlash on May 9, 2026.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mascarita_Dorada"
+      ]
+    },
+    {
+      "into": "uncle-howdy",
+      "from": [
+        "bo-rotundo"
+      ],
+      "reason": "Taylor Rotunda wrestled as Bo Rotundo in FCW, as Bo Dallas in WWE (2012-19) and as Uncle Howdy from 2022; the Bo Rotundo record is archive-only.",
+      "sources": [
+        "https://www.cagematch.net/?id=2&name=Uncle+Howdy&nr=7311"
+      ]
+    },
+    {
+      "into": "ray-apollo",
+      "from": [
+        "doink-the-clown-ray-apollo"
+      ],
+      "name": "Ray Apollo",
+      "addRingNames": [
+        {
+          "name": "Doink the Clown"
+        }
+      ],
+      "reason": "Doink the Clown is a character several men played; the record is the performer, Ray Apollo. No source ties him to the Phil Apollo of 1993, so that record stays apart."
+    }
+  ],
+  "ringNameEdits": [
+    {
+      "person": "chad-gable",
+      "remove": [
+        "El Grande Americano (Chad Gable",
+        "Ludwig Kaiser)",
+        "Original El Grande Americano"
+      ],
+      "reason": "The title import split the printed holder \"El Grande Americano (Chad Gable/Ludwig Kaiser)\" at the slash; Gable and Kaiser each already have El Grande Americano as a ring name. \"Original El Grande Americano\" repeats the billed \"The Original El Grande Americano\"."
+    },
+    {
+      "person": "christopher-daniels",
+      "rename": {
+        "Suicide (Christopher Daniels/Kazarian)": "Suicide"
+      },
+      "reason": "The printed holder names the character and the men who wore it; the ring name is Suicide."
+    },
+    {
+      "person": "ron-harris",
+      "rename": {
+        "Gerald/Ron Harris": "Gerald"
+      },
+      "reason": "The WCW tag title list prints the twins as \"Gerald/Ron Harris\" and \"Patrick/Don Harris\": their Creative Control names beside their own. The ring name is Gerald."
+    },
+    {
+      "person": "don-harris",
+      "rename": {
+        "Patrick/Don Harris": "Patrick"
+      },
+      "reason": "The WCW tag title list prints the twins as \"Gerald/Ron Harris\" and \"Patrick/Don Harris\": their Creative Control names beside their own. The ring name is Patrick."
+    },
+    {
+      "person": "jey-uso",
+      "remove": [
+        "Jules/Jey Uso"
+      ],
+      "reason": "A printed holder joining two names; Jules Uso is already a ring name of his."
+    },
+    {
+      "person": "octagon-jr",
+      "rename": {
+        "Golden Magic/Octagón Jr.": "Golden Magic"
+      },
+      "reason": "A printed holder joining his former name and his current one; the ring name is Golden Magic."
+    },
+    {
+      "person": "tay-melo",
+      "remove": [
+        "Tay Conti/Melo"
+      ],
+      "reason": "A printed holder joining two names; Tay Conti and Tay Melo are both ring names of hers."
+    },
+    {
+      "person": "evil",
+      "remove": [
+        "EVIL - King of Darkness"
+      ],
+      "reason": "A nickname from a profile page, not a name he wrestled under."
+    }
+  ],
+  "updates": [
+    {
+      "person": "psicosis",
+      "sources": [
+        "https://en.wikipedia.org/wiki/AAA_World_Tag_Team_Championship",
+        "https://en.wikipedia.org/wiki/List_of_WWE_Cruiserweight_Champions_(1996%E2%80%932007)"
+      ],
+      "reason": "The original Psicosis's own sources, once Psicosis II's profile pages move to his record: the title lists that print him as Nicho el Millonario and as WCW's Psychosis."
+    },
+    {
+      "person": "psicosis-ii",
+      "summary": "Psicosis II began wrestling in 1992 and has appeared in AAA, CMLL, NWA and NOAH. Career highlights include AAA World Trios Championship and Mexican National Middleweight Championship.",
+      "reason": "The profile summary moved from the original Psicosis's record; it describes Psicosis II."
+    },
+    {
+      "person": "the-executioner",
+      "summary": "The masked wrestler billed as The Executioner on Raw, October 18, 1993. Who was under the hood isn't established; Buddy Rose (WrestleMania I) and Terry Gordy (1996) also wrestled as The Executioner.",
+      "reason": "What is left of the record after the splits is one unidentified performer."
+    }
+  ],
+  "segmentNotes": [
+    {
+      "segment": "wwe/smackdown/2017-01-03#m2",
+      "context": "Lynch unmasked La Luchadora as Alexa Bliss after the match; a second La Luchadora then attacked her.",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-01-03/article/becky-lynch-def-la-luchadora"
+      ]
+    }
+  ]
+}

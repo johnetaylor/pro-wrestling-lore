@@ -10,10 +10,47 @@
       "sources": [
         "https://en.wikipedia.org/wiki/IWGP_Women%27s_Championship"
       ]
+    },
+    {
+      "name": "Sarray",
+      "billed": {
+        "first": "2021-04-20",
+        "last": "2021-10-12"
+      }
     }
   ],
   "sources": [
-    "https://en.wikipedia.org/wiki/IWGP_Women%27s_Championship"
+    "https://en.wikipedia.org/wiki/IWGP_Women%27s_Championship",
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
-  "legacyIds": []
+  "legacyIds": [
+    "archive-person-sarray"
+  ],
+  "partial": true,
+  "summary": "Sarray is listed in WWE match records from 2021 to 2022. Explore available broadcast matches on the timeline.",
+  "promotions": [
+    "WWE"
+  ],
+  "archiveFirst": "2021-04-20",
+  "archiveLast": "2022-08-02",
+  "rosters": [
+    {
+      "asOf": "2026-10-05",
+      "brands": [
+        "NXT"
+      ],
+      "name": "Sarray"
+    },
+    {
+      "asOf": "archive",
+      "brands": [
+        "NXT"
+      ],
+      "name": "Sarray"
+    }
+  ],
+  "legacyFlags": {
+    "archiveOnly": true,
+    "archiveProfile": true
+  }
 }

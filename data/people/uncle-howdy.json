@@ -39,7 +39,8 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "SmackDown"
+        "SmackDown",
+        "Raw"
       ]
     },
     {
@@ -60,12 +61,18 @@
   ],
   "checked": "2026-10-05",
   "sources": [
-    "https://www.cagematch.net/?id=2&name=Uncle+Howdy&nr=7311"
+    "https://www.cagematch.net/?id=2&name=Uncle+Howdy&nr=7311",
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "uncle-howdy"
+    "uncle-howdy",
+    "archive-person-borotundo"
   ],
   "legacyFlags": {
-    "yearRoster": true
-  }
+    "yearRoster": true,
+    "archiveProfile": true
+  },
+  "partial": true,
+  "archiveFirst": "2011-07-25",
+  "archiveLast": "2012-05-08"
 }

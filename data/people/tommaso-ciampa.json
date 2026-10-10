@@ -10,6 +10,13 @@
         "first": "2019-02-19",
         "last": "2024-12-06"
       }
+    },
+    {
+      "name": "Ciampa",
+      "billed": {
+        "first": "2022-05-09",
+        "last": "2022-08-08"
+      }
     }
   ],
   "promotions": [
@@ -21,7 +28,8 @@
       "asOf": "2026-10-05",
       "brands": [
         "SmackDown",
-        "NXT"
+        "NXT",
+        "Raw"
       ]
     },
     {
@@ -44,12 +52,17 @@
   "partial": true,
   "checked": "2026-10-05",
   "sources": [
-    "https://www.wwe.com/shows/smackdown/2025-01-03"
+    "https://www.wwe.com/shows/smackdown/2025-01-03",
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "tommaso-ciampa"
+    "tommaso-ciampa",
+    "archive-person-ciampa"
   ],
   "legacyFlags": {
-    "yearRoster": 2025
-  }
+    "yearRoster": 2025,
+    "archiveProfile": true
+  },
+  "archiveFirst": "2022-05-09",
+  "archiveLast": "2022-08-22"
 }

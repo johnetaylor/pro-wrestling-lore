@@ -10,6 +10,13 @@
         "first": "2004-05-16",
         "last": "2004-06-29"
       }
+    },
+    {
+      "name": "Kevin Thorn",
+      "billed": {
+        "first": "2006-12-03",
+        "last": "2007-06-11"
+      }
     }
   ],
   "promotions": [
@@ -21,25 +28,28 @@
       "asOf": "2026-10-05",
       "brands": [
         "SmackDown",
-        "WWE"
+        "WWE",
+        "Raw"
       ]
     },
     {
       "asOf": "archive",
       "brands": [
         "SmackDown",
-        "WWE"
+        "WWE",
+        "Raw"
       ]
     }
   ],
   "partial": true,
   "archiveFirst": "2004-05-16",
-  "archiveLast": "2004-06-29",
+  "archiveLast": "2007-06-11",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-mordecai"
+    "archive-person-mordecai",
+    "archive-person-kevinthorn"
   ],
   "legacyFlags": {
     "archiveOnly": true,

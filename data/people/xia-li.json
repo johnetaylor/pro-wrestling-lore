@@ -2,7 +2,7 @@
   "id": "xia-li",
   "name": "Xia Li",
   "gender": "female",
-  "genderBasis": "legacy-placeholder",
+  "genderBasis": "reviewed",
   "ringNames": [
     {
       "name": "Xia Li",
@@ -10,6 +10,9 @@
         "first": "2019-09-18",
         "last": "2024-01-27"
       }
+    },
+    {
+      "name": "Léi Yǐng Lee"
     }
   ],
   "promotions": [
@@ -25,7 +28,8 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "Historical"
+        "Historical",
+        "NXT"
       ]
     },
     {
@@ -41,12 +45,17 @@
   "partial": true,
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics",
-    "https://www.thesmackdownhotel.com/wrestlers/xia-li"
+    "https://www.thesmackdownhotel.com/wrestlers/xia-li",
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "hf-person-xiali"
+    "hf-person-xiali",
+    "archive-person-leiyinglee"
   ],
   "legacyFlags": {
-    "archiveOnly": true
-  }
+    "archiveOnly": true,
+    "archiveProfile": true
+  },
+  "archiveFirst": "2025-11-25",
+  "archiveLast": "2025-11-25"
 }

@@ -10,6 +10,23 @@
         "first": "2022-04-11",
         "last": "2022-06-13"
       }
+    },
+    {
+      "name": "Veer",
+      "billed": {
+        "first": "2021-07-26",
+        "last": "2023-05-15"
+      }
+    },
+    {
+      "name": "Rinku",
+      "billed": {
+        "first": "2020-04-08",
+        "last": "2020-04-08"
+      }
+    },
+    {
+      "name": "Rinku Singh"
     }
   ],
   "promotions": [
@@ -21,25 +38,30 @@
       "asOf": "2026-10-05",
       "brands": [
         "NXT",
-        "Raw"
+        "Raw",
+        "SmackDown"
       ]
     },
     {
       "asOf": "archive",
       "brands": [
         "NXT",
-        "Raw"
+        "Raw",
+        "SmackDown"
       ]
     }
   ],
   "partial": true,
-  "archiveFirst": "2022-04-11",
-  "archiveLast": "2023-03-07",
+  "archiveFirst": "2019-06-12",
+  "archiveLast": "2024-04-05",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-veermahaan"
+    "archive-person-veermahaan",
+    "archive-person-veer",
+    "archive-person-rinku",
+    "archive-person-rinkusingh"
   ],
   "legacyFlags": {
     "archiveOnly": true,

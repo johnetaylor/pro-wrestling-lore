@@ -2,7 +2,7 @@
   "id": "santino-marella",
   "name": "Santino Marella",
   "gender": "male",
-  "genderBasis": "division",
+  "genderBasis": "reviewed",
   "ringNames": [
     {
       "name": "Santino Marella",
@@ -10,6 +10,19 @@
         "first": "2007-04-16",
         "last": "2014-06-09"
       }
+    },
+    {
+      "name": "Santina",
+      "billed": {
+        "first": "2009-04-06",
+        "last": "2009-06-07"
+      }
+    },
+    {
+      "name": "Santino Claus"
+    },
+    {
+      "name": "Santina Marella"
     }
   ],
   "promotions": [
@@ -20,7 +33,9 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "NXT"
+        "NXT",
+        "Raw",
+        "WWE"
       ]
     },
     {
@@ -42,12 +57,18 @@
   "partial": true,
   "checked": "2026-10-05",
   "sources": [
-    "https://www.wwe.com/shows/wwenxt/2025-07-29"
+    "https://www.wwe.com/shows/wwenxt/2025-07-29",
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "santino-marella"
+    "santino-marella",
+    "archive-person-santina",
+    "archive-person-santinoclaus"
   ],
   "legacyFlags": {
-    "yearRoster": 2025
-  }
+    "yearRoster": 2025,
+    "archiveProfile": true
+  },
+  "archiveFirst": "2009-04-05",
+  "archiveLast": "2020-01-26"
 }

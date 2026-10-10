@@ -2,10 +2,17 @@
   "id": "mike-mondo",
   "name": "Mike Mondo",
   "gender": "male",
-  "genderBasis": "legacy-placeholder",
+  "genderBasis": "division",
   "ringNames": [
     {
       "name": "Mike Mondo"
+    },
+    {
+      "name": "Mikey",
+      "billed": {
+        "first": "2006-03-13",
+        "last": "2016-10-25"
+      }
     }
   ],
   "promotions": [
@@ -16,24 +23,29 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "SmackDown"
+        "SmackDown",
+        "Raw",
+        "WWE"
       ]
     },
     {
       "asOf": "archive",
       "brands": [
-        "SmackDown"
+        "SmackDown",
+        "Raw",
+        "WWE"
       ]
     }
   ],
   "partial": true,
-  "archiveFirst": "2014-04-22",
-  "archiveLast": "2014-04-22",
+  "archiveFirst": "2006-02-20",
+  "archiveLast": "2016-11-01",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-mikemondo"
+    "archive-person-mikemondo",
+    "archive-person-mikey"
   ],
   "legacyFlags": {
     "archiveOnly": true,

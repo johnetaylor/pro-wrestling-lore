@@ -8,7 +8,7 @@ import { copyFileSync, mkdirSync, readFileSync, readdirSync, writeFileSync } fro
 import { stripTypeScriptTypes } from 'node:module';
 import { basename, dirname, join } from 'node:path';
 import { parseArgs } from 'node:util';
-import { emptyDir, sha256 } from '../scripts/lib/util.ts';
+import { emptyDir, nameKey, sha256 } from '../scripts/lib/util.ts';
 import { loadSite } from './lib/load.ts';
 import { formatDate, isPle, yearSpan } from './lib/format.ts';
 import { personUrl, promotionUrl, seriesUrl, showUrl, storylineUrl, titleUrl } from './lib/urls.ts';
@@ -139,7 +139,7 @@ const entries: Entry[] = [];
 for (const p of site.people.values()) {
   const apps = site.appearances.get(p.id) ?? [];
   const matches = apps.filter((a) => a.seg.type === 'match' && a.role === 'competitor').length;
-  const aliases = p.ringNames.map((r) => r.name).filter((n) => n !== p.name);
+  const aliases = p.ringNames.map((r) => r.name).filter((n) => nameKey(n) !== nameKey(p.name));
   entries.push(['w', p.name, personUrl(p.id), apps.length ? yearSpan(apps[0].show.date, apps.at(-1)!.show.date) : '', matches + apps.length * 0.2, aliases.join('|') || undefined]);
 }
 for (const pr of site.promotions.values()) {

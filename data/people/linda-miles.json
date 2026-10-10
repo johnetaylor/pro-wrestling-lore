@@ -10,6 +10,13 @@
         "first": "2002-06-11",
         "last": "2002-06-24"
       }
+    },
+    {
+      "name": "Shaniqua",
+      "billed": {
+        "first": "2003-09-09",
+        "last": "2003-09-16"
+      }
     }
   ],
   "promotions": [
@@ -21,25 +28,28 @@
       "asOf": "2026-10-05",
       "brands": [
         "Raw",
-        "SmackDown"
+        "SmackDown",
+        "WWE"
       ]
     },
     {
       "asOf": "archive",
       "brands": [
         "Raw",
-        "SmackDown"
+        "SmackDown",
+        "WWE"
       ]
     }
   ],
   "partial": true,
   "archiveFirst": "2002-06-11",
-  "archiveLast": "2002-06-24",
+  "archiveLast": "2004-02-15",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-lindamiles"
+    "archive-person-lindamiles",
+    "archive-person-shaniqua"
   ],
   "legacyFlags": {
     "archiveOnly": true,

@@ -2,7 +2,7 @@
   "id": "jaxson-ryker",
   "name": "Jaxson Ryker",
   "gender": "male",
-  "genderBasis": "legacy-placeholder",
+  "genderBasis": "division",
   "ringNames": [
     {
       "name": "Jaxson Ryker",
@@ -10,6 +10,16 @@
         "first": "2019-10-23",
         "last": "2021-09-27"
       }
+    },
+    {
+      "name": "Chad Lail"
+    },
+    {
+      "name": "Gunner",
+      "note": "Held a championship under this name.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
+      ]
     }
   ],
   "promotions": [
@@ -35,13 +45,15 @@
     }
   ],
   "partial": true,
-  "archiveFirst": "2018-08-23",
+  "archiveFirst": "2018-05-09",
   "archiveLast": "2021-09-27",
   "sources": [
-    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c",
+    "https://en.wikipedia.org/wiki/List_of_TNA_Television_Champions"
   ],
   "legacyIds": [
-    "archive-person-jaxsonryker"
+    "archive-person-jaxsonryker",
+    "archive-person-chadlail"
   ],
   "legacyFlags": {
     "archiveOnly": true,

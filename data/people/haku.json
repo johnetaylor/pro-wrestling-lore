@@ -16,8 +16,18 @@
       "note": "Billed under this name in indexed matches.",
       "billed": {
         "first": "1995-09-17",
-        "last": "1996-01-15"
+        "last": "1996-03-24"
       }
+    },
+    {
+      "name": "King Haku",
+      "billed": {
+        "first": "1988-10-29",
+        "last": "1989-04-02"
+      }
+    },
+    {
+      "name": "King Tonga"
     }
   ],
   "debut": {
@@ -32,7 +42,8 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "SmackDown"
+        "SmackDown",
+        "WWE"
       ]
     },
     {
@@ -46,12 +57,19 @@
   ],
   "checked": "2026-10-05",
   "sources": [
-    "https://www.cagematch.net/?id=2&name=Haku&nr=694"
+    "https://www.cagematch.net/?id=2&name=Haku&nr=694",
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "haku"
+    "haku",
+    "archive-person-kinghaku",
+    "archive-person-kingtonga"
   ],
   "legacyFlags": {
-    "yearRoster": true
-  }
+    "yearRoster": true,
+    "archiveProfile": true
+  },
+  "partial": true,
+  "archiveFirst": "1986-04-07",
+  "archiveLast": "1989-04-02"
 }

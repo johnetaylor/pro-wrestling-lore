@@ -9,7 +9,14 @@
       "billed": {
         "first": "2017-05-01",
         "last": "2018-03-26"
-      }
+      },
+      "note": "Held a championship under this name.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_TNA_X_Division_Champions"
+      ]
+    },
+    {
+      "name": "T. J. Perkins"
     },
     {
       "name": "Manik",
@@ -28,25 +35,28 @@
       "asOf": "2026-10-05",
       "brands": [
         "Raw",
-        "WWE"
+        "WWE",
+        "NXT"
       ]
     },
     {
       "asOf": "archive",
       "brands": [
         "Raw",
-        "WWE"
+        "WWE",
+        "NXT"
       ]
     }
   ],
   "partial": true,
-  "archiveFirst": "2017-05-01",
+  "archiveFirst": "2016-09-25",
   "archiveLast": "2019-01-26",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-tjp"
+    "archive-person-tjp",
+    "archive-person-tjperkins"
   ],
   "legacyFlags": {
     "archiveOnly": true,

@@ -10,6 +10,13 @@
         "first": "1993-05-10",
         "last": "1993-08-09"
       }
+    },
+    {
+      "name": "Curtis Hughes",
+      "billed": {
+        "first": "1999-09-14",
+        "last": "1999-10-12"
+      }
     }
   ],
   "promotions": [
@@ -21,25 +28,28 @@
       "asOf": "2026-10-05",
       "brands": [
         "Raw",
-        "WWE"
+        "WWE",
+        "SmackDown"
       ]
     },
     {
       "asOf": "archive",
       "brands": [
         "Raw",
-        "WWE"
+        "WWE",
+        "SmackDown"
       ]
     }
   ],
   "partial": true,
   "archiveFirst": "1993-04-26",
-  "archiveLast": "1993-07-25",
+  "archiveLast": "1999-10-12",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-mrhughes"
+    "archive-person-mrhughes",
+    "archive-person-curtishughes"
   ],
   "legacyFlags": {
     "archiveOnly": true,

@@ -2,7 +2,7 @@
   "id": "terri-runnels",
   "name": "Terri Runnels",
   "gender": "female",
-  "genderBasis": "legacy-placeholder",
+  "genderBasis": "reviewed",
   "ringNames": [
     {
       "name": "Terri Runnels",
@@ -10,6 +10,16 @@
         "first": "2000-05-30",
         "last": "2000-08-08"
       }
+    },
+    {
+      "name": "Terri",
+      "billed": {
+        "first": "2000-04-11",
+        "last": "2003-11-10"
+      }
+    },
+    {
+      "name": "Marlena"
     }
   ],
   "promotions": [
@@ -35,13 +45,15 @@
     }
   ],
   "partial": true,
-  "archiveFirst": "2000-04-02",
-  "archiveLast": "2000-08-08",
+  "archiveFirst": "1997-02-24",
+  "archiveLast": "2003-11-10",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-terrirunnels"
+    "archive-person-terrirunnels",
+    "archive-person-terri",
+    "archive-person-marlena"
   ],
   "legacyFlags": {
     "archiveOnly": true,

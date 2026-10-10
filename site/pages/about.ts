@@ -96,7 +96,8 @@ export function coveragePage(site: SiteData, buildDate: string): { meta: PageMet
   const profiled = people.filter((p) => p.curated).sort((a, b) => a.name.localeCompare(b.name));
   const ringNameOwners = new Map<string, Set<string>>();
   for (const p of people) for (const r of p.ringNames) ringNameOwners.set(r.name, (ringNameOwners.get(r.name) ?? new Set()).add(p.id));
-  const shared = [...ringNameOwners].find(([, ids]) => ids.size > 1)?.[0];
+  // The character the most people played, as the example.
+  const shared = [...ringNameOwners].filter(([, ids]) => ids.size > 1).sort((a, b) => b[1].size - a[1].size || a[0].localeCompare(b[0]))[0]?.[0];
 
   // Titles, storylines, families, calendar.
   const titles = [...site.titles.values()].filter((t) => t.reigns.length);

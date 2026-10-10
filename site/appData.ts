@@ -109,7 +109,7 @@ export function writeAppData(site: SiteData, outDir: string, asOf: string): { di
     first,
     promotions: promotions.map((p) => [p.id, p.name, p.fullName ?? p.name]),
     people: people.map((p) => {
-      const aliases = p.ringNames.map((r) => r.name).filter((n) => n !== p.name);
+      const aliases = p.ringNames.map((r) => r.name).filter((n) => nameKey(n) !== nameKey(p.name));
       // The roster is v69's: champions added from title histories show only where their reigns are.
       const flags = (p.legacyIds.length && !p.legacyFlags?.archiveOnly ? 1 : 0) | (p.curated ? 2 : 0) | (p.gender === 'female' ? 4 : p.gender === 'male' ? 8 : 0);
       const brands = p.rosters?.find((r) => r.asOf === 'archive')?.brands ?? [];

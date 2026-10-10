@@ -10,6 +10,19 @@
         "first": "2021-10-29",
         "last": "2023-04-14"
       }
+    },
+    {
+      "name": "Riddick Moss",
+      "billed": {
+        "first": "2018-04-11",
+        "last": "2020-09-21"
+      }
+    },
+    {
+      "name": "Mike Rallis"
+    },
+    {
+      "name": "Mike Rawlis"
     }
   ],
   "promotions": [
@@ -22,7 +35,8 @@
       "brands": [
         "Raw",
         "SmackDown",
-        "WWE"
+        "WWE",
+        "NXT"
       ]
     },
     {
@@ -30,18 +44,22 @@
       "brands": [
         "Raw",
         "SmackDown",
-        "WWE"
+        "WWE",
+        "NXT"
       ]
     }
   ],
   "partial": true,
-  "archiveFirst": "2021-10-29",
-  "archiveLast": "2023-04-14",
+  "archiveFirst": "2015-02-12",
+  "archiveLast": "2023-05-15",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-madcapmoss"
+    "archive-person-madcapmoss",
+    "archive-person-riddickmoss",
+    "archive-person-mikerallis",
+    "archive-person-mikerawlis"
   ],
   "legacyFlags": {
     "archiveOnly": true,

@@ -8,6 +8,13 @@
       "name": "Taz"
     },
     {
+      "name": "Tazz",
+      "billed": {
+        "first": "2000-01-23",
+        "last": "2006-06-11"
+      }
+    },
+    {
       "name": "The Tazmaniac",
       "note": "Held a championship under this name.",
       "sources": [
@@ -23,24 +30,29 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "Raw"
+        "Raw",
+        "SmackDown",
+        "WWE"
       ]
     },
     {
       "asOf": "archive",
       "brands": [
-        "Raw"
+        "Raw",
+        "SmackDown",
+        "WWE"
       ]
     }
   ],
   "partial": true,
   "archiveFirst": "1997-02-24",
-  "archiveLast": "1997-02-24",
+  "archiveLast": "2006-06-11",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-taz"
+    "archive-person-taz",
+    "archive-person-tazz"
   ],
   "legacyFlags": {
     "archiveOnly": true,

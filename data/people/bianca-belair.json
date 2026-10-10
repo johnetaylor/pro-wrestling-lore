@@ -2,7 +2,7 @@
   "id": "bianca-belair",
   "name": "Bianca Belair",
   "gender": "female",
-  "genderBasis": "division",
+  "genderBasis": "reviewed",
   "ringNames": [
     {
       "name": "Bianca Belair",
@@ -10,6 +10,9 @@
         "first": "2019-03-13",
         "last": "2024-12-27"
       }
+    },
+    {
+      "name": "Bianca Blair"
     }
   ],
   "promotions": [
@@ -25,7 +28,8 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "Historical"
+        "Historical",
+        "NXT"
       ]
     },
     {
@@ -41,12 +45,17 @@
   "partial": true,
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics",
-    "https://www.thesmackdownhotel.com/wrestlers/bianca-belair"
+    "https://www.thesmackdownhotel.com/wrestlers/bianca-belair",
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "hf-person-biancabelair"
+    "hf-person-biancabelair",
+    "archive-person-biancablair"
   ],
   "legacyFlags": {
-    "archiveOnly": true
-  }
+    "archiveOnly": true,
+    "archiveProfile": true
+  },
+  "archiveFirst": "2017-04-19",
+  "archiveLast": "2017-04-19"
 }

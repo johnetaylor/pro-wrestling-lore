@@ -10,6 +10,16 @@
         "first": "2020-09-07",
         "last": "2023-09-05"
       }
+    },
+    {
+      "name": "Commander Azeez",
+      "billed": {
+        "first": "2021-06-18",
+        "last": "2022-03-21"
+      }
+    },
+    {
+      "name": "Babatunde"
     }
   ],
   "promotions": [
@@ -21,25 +31,31 @@
       "asOf": "2026-10-05",
       "brands": [
         "NXT",
-        "Raw"
+        "Raw",
+        "SmackDown",
+        "WWE"
       ]
     },
     {
       "asOf": "archive",
       "brands": [
         "NXT",
-        "Raw"
+        "Raw",
+        "SmackDown",
+        "WWE"
       ]
     }
   ],
   "partial": true,
-  "archiveFirst": "2020-08-03",
+  "archiveFirst": "2018-04-27",
   "archiveLast": "2023-09-05",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-dabbakato"
+    "archive-person-dabbakato",
+    "archive-person-commanderazeez",
+    "archive-person-babatunde"
   ],
   "legacyFlags": {
     "archiveOnly": true,

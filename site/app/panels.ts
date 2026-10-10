@@ -1,7 +1,7 @@
 // Markup for the explorer's panels and popovers. Pure string builders over the model, so the
 // same functions can render on the server later.
 import { esc, fmtDate, num, plural } from './dom.ts';
-import { DAY, dayNum, initials, memberStart, type DetailRow, type Model, type Moment, type Period, type Person, type ProfileBundle, type Reign, type StorylineBundle } from './model.ts';
+import { DAY, dayNum, initials, memberStart, normalize, type DetailRow, type Model, type Moment, type Period, type Person, type ProfileBundle, type Reign, type StorylineBundle } from './model.ts';
 
 export type Story = StorylineBundle['storylines'][number];
 export type Chapter = Story['chapters'][number];
@@ -196,7 +196,7 @@ export function careerPanel(
   const reigns = model.reignsByPerson[person];
   const periods = model.periodsByPerson.get(person) ?? [];
   const indexed = indexedRecord(model, person);
-  const other = (prof?.ringNames ?? []).filter((r) => r.name !== p.name);
+  const other = (prof?.ringNames ?? []).filter((r) => normalize(r.name) !== normalize(p.name));
   const promos = periods.length
     ? [...new Set(periods.map((x) => x.name))]
     : [...new Set(model.byPerson[person].map((m) => m.show.promotion))].map((id) => model.promotions.get(id)?.name ?? id);

@@ -12,6 +12,13 @@
       }
     },
     {
+      "name": "King Woods",
+      "billed": {
+        "first": "2021-10-29",
+        "last": "2021-12-03"
+      }
+    },
+    {
       "name": "Consequences Creed",
       "note": "Held a championship under this name.",
       "sources": [
@@ -31,7 +38,9 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "Raw"
+        "Raw",
+        "SmackDown",
+        "WWE"
       ]
     },
     {
@@ -52,13 +61,19 @@
   ],
   "checked": "2026-10-05",
   "sources": [
-    "https://www.cagematch.net/?id=2&name=Xavier+Woods&nr=4955"
+    "https://www.cagematch.net/?id=2&name=Xavier+Woods&nr=4955",
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "xavier-woods"
+    "xavier-woods",
+    "archive-person-kingwoods"
   ],
   "legacyFlags": {
     "yearRoster": true,
+    "archiveProfile": true,
     "hadPortrait": true
-  }
+  },
+  "partial": true,
+  "archiveFirst": "2021-10-29",
+  "archiveLast": "2022-03-25"
 }

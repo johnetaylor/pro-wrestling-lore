@@ -12,6 +12,13 @@
       }
     },
     {
+      "name": "Camacho",
+      "billed": {
+        "first": "2012-05-04",
+        "last": "2013-11-15"
+      }
+    },
+    {
       "name": "Tanga Loa",
       "note": "Held a championship under this name.",
       "sources": [
@@ -32,7 +39,9 @@
       "asOf": "2026-10-05",
       "brands": [
         "SmackDown",
-        "Raw"
+        "Raw",
+        "NXT",
+        "WWE"
       ]
     },
     {
@@ -44,18 +53,26 @@
     {
       "asOf": "archive",
       "brands": [
-        "SmackDown"
+        "SmackDown",
+        "NXT",
+        "WWE"
       ]
     }
   ],
   "checked": "2026-10-05",
   "sources": [
-    "https://www.cagematch.net/?id=2&name=Tonga+Loa&nr=7828"
+    "https://www.cagematch.net/?id=2&name=Tonga+Loa&nr=7828",
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "tonga-loa"
+    "tonga-loa",
+    "archive-person-camacho"
   ],
   "legacyFlags": {
-    "yearRoster": true
-  }
+    "yearRoster": true,
+    "archiveProfile": true
+  },
+  "partial": true,
+  "archiveFirst": "2012-02-14",
+  "archiveLast": "2014-05-29"
 }

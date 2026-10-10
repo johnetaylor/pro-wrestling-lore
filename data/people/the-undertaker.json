@@ -10,6 +10,9 @@
         "first": "1991-03-24",
         "last": "2019-06-07"
       }
+    },
+    {
+      "name": "Cain The Undertaker"
     }
   ],
   "debut": {
@@ -33,7 +36,8 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "NXT"
+        "NXT",
+        "WWE"
       ]
     },
     {
@@ -57,12 +61,17 @@
   "sources": [
     "https://www.wwe.com/shows/wwenxt/2025-07-22",
     "https://www.thesmackdownhotel.com/wrestlers/the-undertaker",
-    "https://www.wwe.com/superstars/undertaker"
+    "https://www.wwe.com/superstars/undertaker",
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "the-undertaker"
+    "the-undertaker",
+    "archive-person-caintheundertaker"
   ],
   "legacyFlags": {
-    "yearRoster": 2025
-  }
+    "yearRoster": 2025,
+    "archiveProfile": true
+  },
+  "archiveFirst": "1990-11-22",
+  "archiveLast": "1990-11-22"
 }

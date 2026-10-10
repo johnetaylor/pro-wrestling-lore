@@ -2,13 +2,20 @@
   "id": "shotzi",
   "name": "Shotzi",
   "gender": "female",
-  "genderBasis": "legacy-placeholder",
+  "genderBasis": "reviewed",
   "ringNames": [
     {
       "name": "Shotzi",
       "billed": {
         "first": "2021-07-09",
         "last": "2024-01-27"
+      }
+    },
+    {
+      "name": "Shotzi Blackheart",
+      "billed": {
+        "first": "2020-01-29",
+        "last": "2021-06-29"
       }
     }
   ],
@@ -25,7 +32,10 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "Historical"
+        "Historical",
+        "NXT",
+        "SmackDown",
+        "WWE"
       ]
     },
     {
@@ -41,12 +51,17 @@
   "partial": true,
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics",
-    "https://www.thesmackdownhotel.com/wrestlers/shotzi-blackheart"
+    "https://www.thesmackdownhotel.com/wrestlers/shotzi-blackheart",
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "hf-person-shotzi"
+    "hf-person-shotzi",
+    "archive-person-shotziblackheart"
   ],
   "legacyFlags": {
-    "archiveOnly": true
-  }
+    "archiveOnly": true,
+    "archiveProfile": true
+  },
+  "archiveFirst": "2019-12-18",
+  "archiveLast": "2021-07-02"
 }

@@ -6,6 +6,16 @@
   "ringNames": [
     {
       "name": "Brian Lee"
+    },
+    {
+      "name": "Chainz",
+      "billed": {
+        "first": "1997-08-04",
+        "last": "1998-06-15"
+      }
+    },
+    {
+      "name": "The Fake Undertaker"
     }
   ],
   "promotions": [
@@ -16,24 +26,28 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "WWE"
+        "WWE",
+        "Raw"
       ]
     },
     {
       "asOf": "archive",
       "brands": [
-        "WWE"
+        "WWE",
+        "Raw"
       ]
     }
   ],
   "partial": true,
   "archiveFirst": "1991-12-03",
-  "archiveLast": "1991-12-03",
+  "archiveLast": "1998-06-15",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-brianlee"
+    "archive-person-brianlee",
+    "archive-person-chainz",
+    "archive-person-thefakeundertaker"
   ],
   "legacyFlags": {
     "archiveOnly": true,

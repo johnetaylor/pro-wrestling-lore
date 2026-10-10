@@ -2,7 +2,7 @@
   "id": "alexa-bliss",
   "name": "Alexa Bliss",
   "gender": "female",
-  "genderBasis": "division",
+  "genderBasis": "reviewed",
   "ringNames": [
     {
       "name": "Alexa Bliss",
@@ -13,6 +13,17 @@
     },
     {
       "name": "Lexi Kaufman"
+    },
+    {
+      "name": "La Luchadora",
+      "note": "Unmasked by Becky Lynch after their match on SmackDown, January 3, 2017. Others also wore the mask that winter.",
+      "sources": [
+        "https://www.wwe.com/shows/smackdown/2017-01-03/article/becky-lynch-def-la-luchadora"
+      ],
+      "billed": {
+        "first": "2017-01-03",
+        "last": "2017-01-03"
+      }
     }
   ],
   "promotions": [
@@ -46,7 +57,8 @@
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-alexabliss"
+    "archive-person-alexabliss",
+    "archive-person-laluchadora"
   ],
   "legacyFlags": {
     "archiveOnly": true,

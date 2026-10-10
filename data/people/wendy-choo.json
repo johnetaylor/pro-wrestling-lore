@@ -2,13 +2,20 @@
   "id": "wendy-choo",
   "name": "Wendy Choo",
   "gender": "female",
-  "genderBasis": "division",
+  "genderBasis": "reviewed",
   "ringNames": [
     {
       "name": "Wendy Choo",
       "billed": {
         "first": "2023-01-24",
         "last": "2024-08-20"
+      }
+    },
+    {
+      "name": "Mei Ying",
+      "billed": {
+        "first": "2021-03-31",
+        "last": "2021-03-31"
       }
     }
   ],
@@ -31,13 +38,14 @@
     }
   ],
   "partial": true,
-  "archiveFirst": "2022-01-11",
+  "archiveFirst": "2021-03-31",
   "archiveLast": "2024-09-17",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-wendychoo"
+    "archive-person-wendychoo",
+    "archive-person-meiying"
   ],
   "legacyFlags": {
     "archiveOnly": true,

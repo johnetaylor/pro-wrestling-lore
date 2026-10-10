@@ -10,6 +10,13 @@
         "first": "2016-04-04",
         "last": "2026-04-17"
       }
+    },
+    {
+      "name": "Apollo",
+      "billed": {
+        "first": "2018-02-19",
+        "last": "2018-04-09"
+      }
     }
   ],
   "debut": {
@@ -24,7 +31,9 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "SmackDown"
+        "SmackDown",
+        "Raw",
+        "WWE"
       ]
     },
     {
@@ -45,12 +54,18 @@
   ],
   "checked": "2026-10-05",
   "sources": [
-    "https://www.cagematch.net/?id=2&name=Apollo+Crews&nr=11207"
+    "https://www.cagematch.net/?id=2&name=Apollo+Crews&nr=11207",
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "apollo-crews"
+    "apollo-crews",
+    "archive-person-apollo"
   ],
   "legacyFlags": {
-    "yearRoster": true
-  }
+    "yearRoster": true,
+    "archiveProfile": true
+  },
+  "partial": true,
+  "archiveFirst": "2018-02-19",
+  "archiveLast": "2018-04-09"
 }

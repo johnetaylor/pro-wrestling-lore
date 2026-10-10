@@ -18,6 +18,9 @@
         "first": "1996-11-17",
         "last": "1998-08-10"
       }
+    },
+    {
+      "name": "Dwayne Johnson"
     }
   ],
   "promotions": [
@@ -53,12 +56,17 @@
   "partial": true,
   "checked": "2026-10-05",
   "sources": [
-    "https://www.wwe.com/shows/raw/2025-01-06"
+    "https://www.wwe.com/shows/raw/2025-01-06",
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "the-rock"
+    "the-rock",
+    "archive-person-dwaynejohnson"
   ],
   "legacyFlags": {
-    "yearRoster": 2025
-  }
+    "yearRoster": 2025,
+    "archiveProfile": true
+  },
+  "archiveFirst": "1996-03-11",
+  "archiveLast": "1996-03-11"
 }

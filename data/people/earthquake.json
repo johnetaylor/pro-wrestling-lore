@@ -18,6 +18,16 @@
         "first": "1995-09-17",
         "last": "1996-03-16"
       }
+    },
+    {
+      "name": "Golga",
+      "billed": {
+        "first": "1998-05-19",
+        "last": "1998-11-16"
+      }
+    },
+    {
+      "name": "Canadian Earthquake"
     }
   ],
   "promotions": [
@@ -41,13 +51,15 @@
     }
   ],
   "partial": true,
-  "archiveFirst": "1990-01-21",
+  "archiveFirst": "1989-11-23",
   "archiveLast": "2001-04-01",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-earthquake"
+    "archive-person-earthquake",
+    "archive-person-golga",
+    "archive-person-canadianearthquake"
   ],
   "legacyFlags": {
     "archiveOnly": true,

@@ -10,6 +10,13 @@
         "first": "2004-09-27",
         "last": "2006-10-02"
       }
+    },
+    {
+      "name": "Snitsky",
+      "billed": {
+        "first": "2006-06-19",
+        "last": "2008-11-24"
+      }
     }
   ],
   "promotions": [
@@ -21,25 +28,28 @@
       "asOf": "2026-10-05",
       "brands": [
         "Raw",
-        "WWE"
+        "WWE",
+        "SmackDown"
       ]
     },
     {
       "asOf": "archive",
       "brands": [
         "Raw",
-        "WWE"
+        "WWE",
+        "SmackDown"
       ]
     }
   ],
   "partial": true,
   "archiveFirst": "2004-09-13",
-  "archiveLast": "2006-10-02",
+  "archiveLast": "2008-11-24",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-genesnitsky"
+    "archive-person-genesnitsky",
+    "archive-person-snitsky"
   ],
   "legacyFlags": {
     "archiveOnly": true,

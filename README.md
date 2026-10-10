@@ -7,7 +7,7 @@ A visual archive of pro wrestling history: every televised match and segment, wi
 ## Scope
 
 - **In:** everything that aired — weekly TV (flagship shows and B-shows), PPVs/PLEs, TV specials, streamed events and televised pre-shows; matches, promos, interviews, angles and appearances; men's, women's and mixed.
-- **Out:** dark matches, house shows, untelevised tournament rounds, and anything taped but never aired.
+- **Out:** dark matches, house shows, untelevised tournament rounds, and anything taped but never aired. A title that changed hands at a house show still has that reign in its history; only the match stays out.
 - Every record cites a source. Rows whose airing can't be confirmed are held back, never published or counted.
 
 ## Layout
@@ -15,7 +15,7 @@ A visual archive of pro wrestling history: every televised match and segment, wi
 | Path | What it holds |
 | --- | --- |
 | `data/` | The archive: one JSON file per person, show, title, storyline and family ([data model](docs/data-model.md)) |
-| `migration/v69/` | Legacy ID map, review queue, migration log and parity report |
+| `migration/` | Reviewed identity decisions (`identity-fixes.json`); under `v69/`, the legacy ID map, review queue, migration log and parity report |
 | `reference/v69/` | Frozen snapshot of the legacy site's data, plus the audit report |
 | `scripts/` | Migration, validation and parity scripts |
 | `site/` | The static site generator: pages, components, styles, client scripts and assets |
@@ -29,6 +29,7 @@ Node 22.18 or later; there are no dependencies.
 npm run check             # validate data/ and check parity with the v69 reference
 npm run migrate:v69       # rebuild data/ from the reference (until Phase 1 data is edited by hand)
 npm run audit:reference   # regenerate reference/v69/AUDIT.md and audit.json
+npm run identity          # apply the reviewed merges, splits and renames in migration/identity-fixes.json
 
 npm run build             # build the site into dist/ (preview mode: noindex, robots blocked)
 npm run check:site        # every internal link, asset and #anchor resolves; titles, h1s, descriptions

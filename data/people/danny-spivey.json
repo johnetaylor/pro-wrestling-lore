@@ -10,6 +10,16 @@
         "first": "1987-03-14",
         "last": "1987-03-14"
       }
+    },
+    {
+      "name": "Waylon Mercy",
+      "billed": {
+        "first": "1995-09-24",
+        "last": "1995-09-24"
+      }
+    },
+    {
+      "name": "Dan Spivey"
     }
   ],
   "promotions": [
@@ -20,24 +30,27 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "WWE"
+        "WWE",
+        "Raw"
       ]
     },
     {
       "asOf": "archive",
       "brands": [
-        "WWE"
+        "WWE",
+        "Raw"
       ]
     }
   ],
   "partial": true,
   "archiveFirst": "1986-04-07",
-  "archiveLast": "1987-02-21",
+  "archiveLast": "1995-09-24",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-dannyspivey"
+    "archive-person-dannyspivey",
+    "archive-person-waylonmercy"
   ],
   "legacyFlags": {
     "archiveOnly": true,

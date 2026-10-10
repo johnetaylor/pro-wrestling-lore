@@ -9,6 +9,28 @@
       "billed": {
         "first": "2021-07-30",
         "last": "2022-04-25"
+      },
+      "note": "Held a championship under this name.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ]
+    },
+    {
+      "name": "Reginald",
+      "billed": {
+        "first": "2021-01-22",
+        "last": "2021-07-26"
+      },
+      "note": "Held a championship under this name.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_WWE_24/7_Champions"
+      ]
+    },
+    {
+      "name": "SCRYPTS",
+      "billed": {
+        "first": "2023-05-02",
+        "last": "2024-04-09"
       }
     }
   ],
@@ -21,25 +43,29 @@
       "asOf": "2026-10-05",
       "brands": [
         "Raw",
-        "SmackDown"
+        "SmackDown",
+        "NXT"
       ]
     },
     {
       "asOf": "archive",
       "brands": [
         "Raw",
-        "SmackDown"
+        "SmackDown",
+        "NXT"
       ]
     }
   ],
   "partial": true,
-  "archiveFirst": "2021-07-30",
-  "archiveLast": "2022-06-27",
+  "archiveFirst": "2021-01-22",
+  "archiveLast": "2024-04-09",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-reggie"
+    "archive-person-reggie",
+    "archive-person-reginald",
+    "archive-person-scrypts"
   ],
   "legacyFlags": {
     "archiveOnly": true,

@@ -12,6 +12,16 @@
       }
     },
     {
+      "name": "Nick Nemeth"
+    },
+    {
+      "name": "Nicky",
+      "billed": {
+        "first": "2006-03-13",
+        "last": "2006-11-27"
+      }
+    },
+    {
       "name": "Nic Nemeth",
       "note": "Held a championship under this name.",
       "sources": [
@@ -27,7 +37,9 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "Raw"
+        "Raw",
+        "SmackDown",
+        "WWE"
       ]
     },
     {
@@ -49,12 +61,18 @@
   "partial": true,
   "checked": "2026-10-05",
   "sources": [
-    "https://www.wwe.com/shows/raw/2025-11-17"
+    "https://www.wwe.com/shows/raw/2025-11-17",
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "dolph-ziggler"
+    "dolph-ziggler",
+    "archive-person-nicknemeth",
+    "archive-person-nicky"
   ],
   "legacyFlags": {
-    "yearRoster": 2025
-  }
+    "yearRoster": 2025,
+    "archiveProfile": true
+  },
+  "archiveFirst": "2006-02-20",
+  "archiveLast": "2008-08-26"
 }

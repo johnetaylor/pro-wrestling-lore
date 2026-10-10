@@ -16,6 +16,16 @@
     },
     {
       "name": "Jake Tucker"
+    },
+    {
+      "name": "Channing Lorenzo",
+      "billed": {
+        "first": "2026-01-13",
+        "last": "2026-09-29"
+      }
+    },
+    {
+      "name": "Stacks"
     }
   ],
   "debut": {
@@ -51,7 +61,8 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "NXT"
+        "NXT",
+        "WWE"
       ]
     },
     {
@@ -71,12 +82,18 @@
   "checked": "2026-10-05",
   "sources": [
     "https://www.thesmackdownhotel.com/wrestlers/channing-lauren",
-    "https://www.cagematch.net/?id=2&nr=25305&page=22"
+    "https://www.cagematch.net/?id=2&nr=25305&page=22",
+    "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "channing-stacks-lorenzo"
+    "channing-stacks-lorenzo",
+    "archive-person-channinglorenzo"
   ],
   "legacyFlags": {
+    "archiveProfile": true,
     "hadPortrait": true
-  }
+  },
+  "partial": true,
+  "archiveFirst": "2025-02-04",
+  "archiveLast": "2026-09-29"
 }

@@ -6,6 +6,20 @@
   "ringNames": [
     {
       "name": "2 Cold Scorpio"
+    },
+    {
+      "name": "Flash Funk",
+      "billed": {
+        "first": "1996-11-17",
+        "last": "1998-04-06"
+      }
+    },
+    {
+      "name": "Scorpio",
+      "billed": {
+        "first": "1998-05-18",
+        "last": "1998-11-23"
+      }
     }
   ],
   "promotions": [
@@ -16,24 +30,28 @@
     {
       "asOf": "2026-10-05",
       "brands": [
-        "Raw"
+        "Raw",
+        "WWE"
       ]
     },
     {
       "asOf": "archive",
       "brands": [
-        "Raw"
+        "Raw",
+        "WWE"
       ]
     }
   ],
   "partial": true,
-  "archiveFirst": "1998-12-14",
-  "archiveLast": "1998-12-14",
+  "archiveFirst": "1996-11-17",
+  "archiveLast": "2007-12-10",
   "sources": [
     "https://huggingface.co/datasets/datamatters24/ringside-analytics/tree/61205b6d1c12dee4165c1e3e222720bca292549c"
   ],
   "legacyIds": [
-    "archive-person-2coldscorpio"
+    "archive-person-2coldscorpio",
+    "archive-person-flashfunk",
+    "archive-person-scorpio"
   ],
   "legacyFlags": {
     "archiveOnly": true,
